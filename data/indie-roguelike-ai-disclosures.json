@@ -12,7 +12,16 @@
       "summary": "Official Steam disclosure: artwork, music, text and code generated with AI; Google Gemini evaluates word associations during gameplay.",
       "sourceUrl": "https://store.steampowered.com/app/4576390/",
       "verification": "developer_self_disclosure",
-      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "audio",
+        "writing",
+        "code",
+        "live_generation"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Interlude",
@@ -24,7 +33,13 @@
       "summary": "Official Steam disclosure: some visual assets and promotional art AI-assisted; future localization intent is not treated as completed use.",
       "sourceUrl": "https://store.steampowered.com/app/4982910/",
       "verification": "developer_self_disclosure",
-      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "writing"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Limen",
@@ -36,7 +51,12 @@
       "summary": "Official Steam disclosure: some static visual assets AI-generated; no runtime AI service.",
       "sourceUrl": "https://store.steampowered.com/app/5182120/",
       "verification": "developer_self_disclosure",
-      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
+      "aiUsageCategories": [
+        "visuals"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "ODDSTABLE Demo",
@@ -48,7 +68,13 @@
       "summary": "Official Steam disclosure: visual art, UI, logos, marketing art and text/localization AI-assisted; no runtime generation.",
       "sourceUrl": "https://store.steampowered.com/app/5004560/",
       "verification": "developer_self_disclosure",
-      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "writing"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Junkyard Saints: Scrapstorm",
@@ -60,7 +86,13 @@
       "summary": "Official Steam disclosure: AI-assisted code, music workflow and synthetic voice-over; no runtime generative AI.",
       "sourceUrl": "https://store.steampowered.com/app/4794490/",
       "verification": "developer_self_disclosure",
-      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
+      "aiUsageCategories": [
+        "audio",
+        "code"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Ardhan",
@@ -72,7 +104,13 @@
       "summary": "Official Steam disclosure: AI-generated art, cinematics, narration, music and effects; no runtime generation.",
       "sourceUrl": "https://store.steampowered.com/app/5391500/",
       "verification": "developer_self_disclosure",
-      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "audio"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Starfall Defense",
@@ -84,7 +122,12 @@
       "summary": "Official Steam disclosure: some 2D concept and promotional artwork AI-assisted; no runtime AI.",
       "sourceUrl": "https://store.steampowered.com/app/5323250/",
       "verification": "developer_self_disclosure",
-      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
+      "aiUsageCategories": [
+        "visuals"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "AI Roguelite",
@@ -96,7 +139,15 @@
       "summary": "Official Steam disclosure: live text, image and sound generation plus mechanics decisions.",
       "sourceUrl": "https://store.steampowered.com/app/1889620/",
       "verification": "developer_self_disclosure",
-      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "audio",
+        "writing",
+        "live_generation"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "AI Roguelite 2D",
@@ -108,7 +159,14 @@
       "summary": "Official Steam disclosure: live text, images, effects and mechanics using an LLM.",
       "sourceUrl": "https://store.steampowered.com/app/2800150/",
       "verification": "developer_self_disclosure",
-      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "writing",
+        "live_generation"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Project Vanguard",
@@ -120,7 +178,13 @@
       "summary": "Developer discloses AI-assisted store and library marketing images; gameplay systems and code described as developer-made.",
       "sourceUrl": "https://store.steampowered.com/app/4544110/",
       "verification": "developer_self_disclosure",
-      "note": "Steam developer statement; score pending manual review."
+      "note": "Steam developer statement; score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "code"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Queen's Cards",
@@ -132,7 +196,12 @@
       "summary": "Developer discloses AI-created background visuals for menus and cutscenes.",
       "sourceUrl": "https://store.steampowered.com/app/3519780/",
       "verification": "developer_self_disclosure",
-      "note": "Steam developer statement; score pending manual review."
+      "note": "Steam developer statement; score pending manual review.",
+      "aiUsageCategories": [
+        "visuals"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Another Where",
@@ -144,7 +213,13 @@
       "summary": "Developer discloses AI-generated original images and sounds in the game and on its store page.",
       "sourceUrl": "https://store.steampowered.com/app/3782550/",
       "verification": "developer_self_disclosure",
-      "note": "Steam developer statement; score pending manual review."
+      "note": "Steam developer statement; score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "audio"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Dice In You",
@@ -156,7 +231,12 @@
       "summary": "Developer discloses generative AI for in-game dice illustrations.",
       "sourceUrl": "https://store.steampowered.com/app/4189910/",
       "verification": "developer_self_disclosure",
-      "note": "Steam developer statement; score pending manual review."
+      "note": "Steam developer statement; score pending manual review.",
+      "aiUsageCategories": [
+        "visuals"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Rogue Hex",
@@ -168,7 +248,12 @@
       "summary": "Solo developer discloses Midjourney use for some upgrade and achievement icons.",
       "sourceUrl": "https://store.steampowered.com/app/2275940/",
       "verification": "developer_self_disclosure",
-      "note": "Steam developer statement; score pending manual review."
+      "note": "Steam developer statement; score pending manual review.",
+      "aiUsageCategories": [
+        "visuals"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Palaxin",
@@ -180,7 +265,13 @@
       "summary": "Developer discloses code completion/refactoring assistance and early concept or placeholder assets; no runtime AI.",
       "sourceUrl": "https://store.steampowered.com/app/4106650/",
       "verification": "developer_self_disclosure",
-      "note": "Steam developer statement; score pending manual review."
+      "note": "Steam developer statement; score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "code"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     },
     {
       "name": "Hexitten",
@@ -192,7 +283,21 @@
       "summary": "Developer discloses AI-assisted character portraits, backgrounds and some text.",
       "sourceUrl": "https://store.steampowered.com/app/3670600/",
       "verification": "developer_self_disclosure",
-      "note": "Steam developer statement; score pending manual review."
+      "note": "Steam developer statement; score pending manual review.",
+      "aiUsageCategories": [
+        "visuals",
+        "writing"
+      ],
+      "aiUsageClassification": "keyword_assisted_unverified",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
     }
-  ]
+  ],
+  "taxonomy": {
+    "visuals": "Art & visual assets",
+    "audio": "Voice, sound & music",
+    "writing": "Writing & localization",
+    "code": "Development assistance",
+    "live_generation": "Live-generated gameplay"
+  },
+  "policyReference": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey"
 }
