@@ -487,36 +487,47 @@
       "evidenceChain": [
         {
           "id": "E1",
-          "type": "third_party_social_post",
-          "source": "user_uploaded_screenshot",
-          "claim": "Creator reports strong Steam Next Fest wishlist growth for CCR.",
-          "strength": "context_only",
-          "notes": "Screenshot does not show the alleged reply to a no-AI-games request."
+          "type": "social_post_screenshot",
+          "source": "user_supplied_screenshot_2",
+          "claim": "A social post by 想吃点安利 asks for Steam Next Fest recommendations and explicitly says '❌不要AI美术❌'.",
+          "strength": "direct_screenshot_observation",
+          "verification": "screenshot_reviewed_not_live_url_verified",
+          "notes": "Screenshot shows the post and author; source URL not provided."
         },
         {
           "id": "E2",
-          "type": "reported_developer_reply",
-          "source": "user_description",
-          "claim": "Developer reportedly replied '再见，咱俩不合适' to a request for non-AI games.",
-          "strength": "indirect_unverified",
-          "notes": "Reply not visible in screenshot; even if verified, the remark is suggestive but does not quantify AI use."
+          "type": "social_comment_screenshot",
+          "source": "user_supplied_screenshot_1",
+          "claim": "Commenter 油炸红苹果 says they would save games without disclosed AI art: '评论有特别多打广告的，但至少没有说自己用ai美术的我就先留着了，但点进来的路人朋友谨慎辨别'.",
+          "strength": "direct_screenshot_observation",
+          "verification": "screenshot_reviewed_not_live_url_verified"
         },
         {
           "id": "E3",
-          "type": "primary_developer_disclosure",
-          "source": "https://store.steampowered.com/app/5053550/",
-          "claim": "Developer explicitly discloses AI use in art, music/SFX, localization and programming.",
-          "strength": "direct_verified_developer_statement"
+          "type": "game_account_reply_screenshot",
+          "source": "user_supplied_screenshot_1",
+          "claim": "Account 万象卡域 CCR replies: '你好，再见，咱俩不适合。😂😂' in that thread.",
+          "strength": "direct_screenshot_observation",
+          "verification": "screenshot_reviewed_not_live_url_verified",
+          "notes": "Screenshot establishes the account name and text, not independently that the account is operated by the Steam-listed developer. Reply suggests the game is not a fit for an anti-AI-art request but is not a quantitative AI disclosure."
         },
         {
           "id": "E4",
+          "type": "primary_developer_disclosure",
+          "source": "https://store.steampowered.com/app/5053550/",
+          "claim": "Steam developer disclosure lists AI use in art, audio, localization and programming.",
+          "strength": "direct_verified_developer_statement"
+        },
+        {
+          "id": "E5",
           "type": "primary_demo_disclosure",
           "source": "https://store.steampowered.com/app/5134780/",
-          "claim": "Demo storefront repeats the same AI disclosure.",
+          "claim": "Steam demo page carries the developer AI disclosure.",
           "strength": "direct_verified_developer_statement"
         }
       ],
-      "reviewNote": "Confirmed AI-assisted creation by Steam developer disclosure. No independently verified 100% claim, no confirmed runtime generation."
+      "reviewNote": "AI-assisted development confirmed by developer's Steam disclosure. User-supplied screenshots directly show the '不要AI美术' post, a comment, and a reply from the account 万象卡域 CCR ('你好，再见，咱俩不适合。😂😂'). Screenshot source links and game-account ownership have not been independently checked. The reply is contextual corroboration, not proof of 100% AI-created content.",
+      "socialEvidenceStatus": "screenshots_reviewed_source_url_pending"
     }
   ],
   "taxonomy": {
