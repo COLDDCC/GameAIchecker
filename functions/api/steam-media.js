@@ -11,7 +11,7 @@ export async function onRequestGet({request}) {
     if(!d)return Response.json({id,available:false,screenshots:[]},{headers:{'cache-control':'public,max-age=600'}});
     const safe=url=>typeof url==='string'&&allowed.test(url)?url:null;
     const screenshots=(d.screenshots||[]).map(s=>({thumbnail:safe(s.path_thumbnail),full:safe(s.path_full)})).filter(s=>s.full||s.thumbnail).slice(0,100);
-    const body={id,available:true,name:d.name,header:safe(d.header_image),background:safe(d.background_raw)||safe(d.background),screenshots,steamUrl:'https://store.steampowered.com/app/'+id+'/'};
+    const body={id,available:true,name:d.name,developers:d.developers||[],publishers:d.publishers||[],releaseDate:d.release_date?.date||null,isComingSoon:Boolean(d.release_date?.coming_soon),genres:(d.genres||[]).map(x=>x.description),categories:(d.categories||[]).map(x=>x.description),languages:d.supported_languages||null,description:d.short_description||null,website:d.website||null,price:d.is_free?'免费':(d.price_overview?.final_formatted||null),platforms:d.platforms||null,metacritic:d.metacritic?.score||null,movies:(d.movies||[]).map(x=>({name:x.name,thumbnail:safe(x.thumbnail),webm:safe(x.webm?.max)||safe(x.webm?.['480'])})).filter(x=>x.thumbnail).slice(0,30),header:safe(d.header_image),background:safe(d.background_raw)||safe(d.background),screenshots,steamUrl:'https://store.steampowered.com/app/'+id+'/'};
     return Response.json(body,{headers:{'cache-control':'public,max-age=21600,stale-while-revalidate=86400','access-control-allow-origin':'*'}});
   }catch(e){return Response.json({id,available:false,screenshots:[],error:'Steam media temporarily unavailable'},{status:502,headers:{'cache-control':'public,max-age=120'}})}
 }
