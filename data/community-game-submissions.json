@@ -1,0 +1,48 @@
+{
+  "updatedAt": "2026-10-21",
+  "policy": {
+    "purpose": "Lightweight community game recommendations and subjective caution notes; not AI-use determinations.",
+    "privacy": "Do not collect or publish social account IDs or personal identifiers. If evidence screenshots are published, redact ordinary users while retaining context.",
+    "evidence": "Screenshots establish what was said, not whether a game uses AI.",
+    "labeling": "Subjective AI-like style impressions must never be presented as verified generative AI use."
+  },
+  "submissions": [
+    {
+      "gameName": "深空当铺：可能是偷得",
+      "category": "recommended",
+      "sourceType": "user_submitted_recommendation",
+      "verification": "game_identity_pending",
+      "steamAppId": null
+    },
+    {
+      "gameName": "虚妄回响",
+      "category": "recommended",
+      "sourceType": "user_submitted_recommendation",
+      "verification": "game_identity_pending",
+      "steamAppId": null
+    },
+    {
+      "gameName": "血墨诡案",
+      "category": "recommended",
+      "sourceType": "user_submitted_recommendation",
+      "verification": "game_identity_pending",
+      "steamAppId": null
+    },
+    {
+      "gameName": "警目如炬",
+      "category": "recommended",
+      "sourceType": "user_submitted_recommendation",
+      "verification": "game_identity_pending",
+      "steamAppId": null
+    },
+    {
+      "gameName": "拾骨谜案",
+      "category": "subjective_caution",
+      "sourceType": "user_submitted_opinion",
+      "opinion": "AI味太重太重了",
+      "verification": "game_identity_pending_ai_use_unverified",
+      "steamAppId": null,
+      "disclaimer": "A player's subjective impression of AI-like art is not evidence of actual generative AI use."
+    }
+  ]
+}
