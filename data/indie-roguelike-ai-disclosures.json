@@ -200,8 +200,21 @@
       "aiUsageCategories": [
         "visuals"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "releaseDate": "2025-09-23",
+      "developer": "Raphus & Co.",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/3519780/",
+        "developerDisclosureExcerpt": "Some of the background visuals for menus and cutscenes were designed using AI.",
+        "confirmedUsageCategories": [
+          "visuals"
+        ],
+        "deliveryMode": "pre_generated",
+        "limits": "Developer self-disclosure; not an independent asset audit."
+      }
     },
     {
       "name": "Another Where",
@@ -235,8 +248,21 @@
       "aiUsageCategories": [
         "visuals"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "releaseDate": "2025-12-11",
+      "developer": "Team DICE",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/4189910/",
+        "developerDisclosureExcerpt": "Generative AI was used for in-game dice illustration.",
+        "confirmedUsageCategories": [
+          "visuals"
+        ],
+        "deliveryMode": "pre_generated",
+        "limits": "Developer self-disclosure; not an independent asset audit."
+      }
     },
     {
       "name": "Rogue Hex",
@@ -299,8 +325,22 @@
         "visuals",
         "writing"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "releaseDate": "2025-06-20",
+      "developer": "Korkea Maki Studios",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/3670600/",
+        "developerDisclosureExcerpt": "Character Portraits and backgrounds used Gen-AI as a starting point combined with Photoshop editing. Some Text was created with the assistance of AI.",
+        "confirmedUsageCategories": [
+          "visuals",
+          "writing"
+        ],
+        "deliveryMode": "pre_generated",
+        "limits": "Developer self-disclosure; not an independent asset audit."
+      }
     }
   ],
   "taxonomy": {
@@ -311,6 +351,6 @@
     "live_generation": "Live-generated gameplay"
   },
   "policyReference": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey",
-  "reviewedCount": 1,
+  "reviewedCount": 4,
   "reviewPolicy": "A verified disclosure is developer self-reporting, not independent forensic proof. Unreviewed keyword tags must not be represented as verified."
 }
