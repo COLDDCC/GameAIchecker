@@ -36,13 +36,26 @@
           "url": null,
           "finding": "User reports the developer explicitly described this game as 100% AI-created. Primary-source statement has not yet been independently located.",
           "verificationStatus": "awaiting_primary_source"
+        },
+        {
+          "type": "official_creator_forum_post",
+          "url": "https://www.taptap.cn/moment/858254732534221117",
+          "finding": "Creator account QQQ published a game introduction, tagged TapTap制造; TapTap labels the post 疑似 AI 合成内容. The visible text does not state '100% AI-created'.",
+          "verificationStatus": "primary_source_checked"
+        },
+        {
+          "type": "official_platform_announcement",
+          "url": "https://www.taptap.cn/moment/766436704159531569",
+          "finding": "TapTap officially describes TapTap制造 as an AI game creation agent spanning programming, art, audio and publication. This supports AI-tool provenance, not a precise 100% content percentage.",
+          "verificationStatus": "primary_source_checked"
         }
       ],
-      "reviewNote": "Developer reportedly describes the game as 100% AI-created, per user-provided attribution. Exact primary-source quotation or developer post not yet archived. This is a claim, not independent verification that every asset, code component, or creative decision was AI-generated.",
+      "reviewNote": "Official game page confirms TapTap制造 and creator QWH的工作室; creator QQQ forum post is labeled '疑似 AI 合成内容' by TapTap. Neither source explicitly states '100% AI-created'. The 100% figure remains attributed to the developer as reported by the user, pending an original quote/screenshot. Do not present the percentage as independently confirmed.",
       "reviewedAt": "2026-10-21",
       "aiCreationClaimPercent": 100,
       "aiCreationClaimAttribution": "developer",
-      "aiCreationClaimVerification": "reported_by_user_not_independently_verified"
+      "aiCreationClaimVerification": "developer_100_percent_claim_unlocated",
+      "lastPrimarySourceCheck": "2026-10-21"
     }
   ]
 }
