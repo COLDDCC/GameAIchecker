@@ -1,0 +1,39 @@
+{
+  "updatedAt": "2026-10-21",
+  "scope": "TapTap games requiring explicit AI usage verification",
+  "games": [
+    {
+      "name": "我的盲勺小铺",
+      "nameEnglish": "My Blind Spoon Shop (unofficial translation)",
+      "platform": "TapTap",
+      "platformGameId": "966923",
+      "platformUrl": "https://www.taptap.cn/app/966923",
+      "developer": "QWH的工作室",
+      "supplier": "上海创巴科技有限公司",
+      "genre": [
+        "casual",
+        "simulation",
+        "collecting"
+      ],
+      "releaseStatus": "public_test",
+      "testStartDate": "2026-10-14",
+      "aiStatus": "needs_verification",
+      "aiLevel": null,
+      "aiUsageCategories": [],
+      "evidence": [
+        {
+          "type": "official_game_listing",
+          "url": "https://www.taptap.cn/app/966923",
+          "finding": "The game is labeled TapTap制造. No game-specific generative AI disclosure found in the listing."
+        },
+        {
+          "type": "official_platform_description",
+          "url": "https://maker.taptap.cn/",
+          "finding": "TapTap制造 is marketed as an AI-assisted game creation tool; this does not establish which AI features were used for this particular game."
+        }
+      ],
+      "reviewNote": "Platform provenance is circumstantial evidence only. Do not label confirmed AI use, assign a score, or infer artwork generation from visual style.",
+      "reviewedAt": "2026-10-21"
+    }
+  ]
+}
