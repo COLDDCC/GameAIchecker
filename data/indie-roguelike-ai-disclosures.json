@@ -436,6 +436,87 @@
         "deliveryMode": "pre_generated",
         "limits": "Developer self-disclosure; not an independent asset audit."
       }
+    },
+    {
+      "name": "CCR - Cosmic Card Realm",
+      "appId": 5053550,
+      "demoAppId": 5134780,
+      "genre": "singleplayer",
+      "genreTags": [
+        "indie",
+        "card_collecting",
+        "casual",
+        "simulation",
+        "online_coop"
+      ],
+      "developer": "Nan",
+      "publisher": "Nan",
+      "releaseDate": "2026-11-30",
+      "releaseDateStatus": "planned",
+      "demoReleaseDate": "2026-09-15",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "ai_assisted_art_music_sfx_localization_programming",
+      "summary": "Steam developer disclosure: art assets assisted by ChatGPT and Tencent Hunyuan; music and sound effects generated with Suno; non-Chinese localization and programming assisted by ChatGPT.",
+      "sourceUrl": "https://store.steampowered.com/app/5053550/",
+      "demoSourceUrl": "https://store.steampowered.com/app/5134780/",
+      "verification": "developer_self_disclosure",
+      "aiUsageCategories": [
+        "visuals",
+        "audio",
+        "writing",
+        "code"
+      ],
+      "aiUsageClassification": "manual_source_review",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/5053550/",
+        "secondarySource": "https://store.steampowered.com/app/5134780/",
+        "developerDisclosureSummary": "Developer states AI-assisted art (ChatGPT and Tencent Hunyuan), Suno-generated music and SFX, ChatGPT-assisted non-Chinese localization and coding.",
+        "summaryType": "reviewer_paraphrase",
+        "confirmedUsageCategories": [
+          "visuals",
+          "audio",
+          "writing",
+          "code"
+        ],
+        "deliveryMode": "pre_generated",
+        "limits": "Steam does not establish that 100% of the game was AI-generated or that generative AI runs during gameplay."
+      },
+      "evidenceChain": [
+        {
+          "id": "E1",
+          "type": "third_party_social_post",
+          "source": "user_uploaded_screenshot",
+          "claim": "Creator reports strong Steam Next Fest wishlist growth for CCR.",
+          "strength": "context_only",
+          "notes": "Screenshot does not show the alleged reply to a no-AI-games request."
+        },
+        {
+          "id": "E2",
+          "type": "reported_developer_reply",
+          "source": "user_description",
+          "claim": "Developer reportedly replied '再见，咱俩不合适' to a request for non-AI games.",
+          "strength": "indirect_unverified",
+          "notes": "Reply not visible in screenshot; even if verified, the remark is suggestive but does not quantify AI use."
+        },
+        {
+          "id": "E3",
+          "type": "primary_developer_disclosure",
+          "source": "https://store.steampowered.com/app/5053550/",
+          "claim": "Developer explicitly discloses AI use in art, music/SFX, localization and programming.",
+          "strength": "direct_verified_developer_statement"
+        },
+        {
+          "id": "E4",
+          "type": "primary_demo_disclosure",
+          "source": "https://store.steampowered.com/app/5134780/",
+          "claim": "Demo storefront repeats the same AI disclosure.",
+          "strength": "direct_verified_developer_statement"
+        }
+      ],
+      "reviewNote": "Confirmed AI-assisted creation by Steam developer disclosure. No independently verified 100% claim, no confirmed runtime generation."
     }
   ],
   "taxonomy": {
@@ -446,6 +527,6 @@
     "live_generation": "Live-generated gameplay"
   },
   "policyReference": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey",
-  "reviewedCount": 10,
+  "reviewedCount": 11,
   "reviewPolicy": "A verified disclosure is developer self-reporting, not independent forensic proof. Unreviewed keyword tags must not be represented as verified."
 }
