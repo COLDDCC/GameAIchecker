@@ -44,9 +44,12 @@
       "sourcePosition": 4,
       "aiStatus": "not_reviewed",
       "aiLevel": null,
-      "steamAppId": null,
+      "steamAppId": 5315310,
       "sourceType": "third_party_demo_listing",
-      "note": "Event listing only. No AI disclosure verified."
+      "note": "Event listing only. No AI disclosure verified.",
+      "steamPageType": "demo",
+      "steamVerificationUrl": "https://store.steampowered.com/app/5315310/Loftia_Demo/",
+      "steamIdVerifiedAt": "2026-10-21"
     },
     {
       "name": "Frostrail",
@@ -1104,5 +1107,6 @@
       "sourceType": "third_party_demo_listing",
       "note": "Event listing only. No AI disclosure verified."
     }
-  ]
+  ],
+  "steamIdVerificationNote": "Only explicitly verified Steam IDs are populated; others link to Steam search, not guessed store pages."
 }
