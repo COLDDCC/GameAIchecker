@@ -146,8 +146,24 @@
         "writing",
         "live_generation"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "releaseDate": "2023-10-25",
+      "developer": "Max Loh",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/1889620/",
+        "developerDisclosureExcerpt": "This game heavily uses AI to live-generate in-game content such as text, images, and sound effects. It also uses AI to make a variety of game mechanics decisions in real time.",
+        "confirmedUsageCategories": [
+          "visuals",
+          "audio",
+          "writing",
+          "live_generation"
+        ],
+        "deliveryMode": "runtime_generation",
+        "limits": "Developer self-disclosure, not independent audit."
+      }
     },
     {
       "name": "AI Roguelite 2D",
@@ -162,11 +178,27 @@
       "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
       "aiUsageCategories": [
         "visuals",
+        "audio",
         "writing",
         "live_generation"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "developer": "Max Loh",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/2800150/",
+        "developerDisclosureExcerpt": "This game uses AI to generate text, game mechanics, images, and sound effects on the fly based on the player's world description. Some in-world interactions are also powered by an LLM in real time.",
+        "confirmedUsageCategories": [
+          "visuals",
+          "audio",
+          "writing",
+          "live_generation"
+        ],
+        "deliveryMode": "runtime_generation",
+        "limits": "Developer self-disclosure, not independent audit."
+      }
     },
     {
       "name": "Project Vanguard",
@@ -351,6 +383,6 @@
     "live_generation": "Live-generated gameplay"
   },
   "policyReference": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey",
-  "reviewedCount": 4,
+  "reviewedCount": 6,
   "reviewPolicy": "A verified disclosure is developer self-reporting, not independent forensic proof. Unreviewed keyword tags must not be represented as verified."
 }
