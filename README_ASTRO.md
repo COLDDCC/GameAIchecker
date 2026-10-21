@@ -12,4 +12,4 @@ Cloudflare Pages settings:
 
 Run locally: `npm install && npm run build && npm run preview`.
 
-This is a transitional migration preserving existing pages, not yet a full database-driven architecture. Feedback voting still needs Cloudflare D1 `DB` binding, `FEEDBACK_SECRET`, and `schema.sql` initialization. Until then the feedback form stays disabled. When adding a new legacy HTML route, add it to the route list in `src/pages/[...slug].astro`.
+This is a transitional migration preserving existing pages, not yet a full database-driven architecture. Build has not been executed locally in this assistant environment; use the GitHub Actions result as the actual build verification. Feedback voting still needs Cloudflare D1 `DB` binding, `FEEDBACK_SECRET`, and `schema.sql` initialization. Until then the feedback form stays disabled. Legacy HTML routes are discovered automatically from folders containing `index.html`. GitHub Actions runs a build on every push to `main` and checks key output files. Check the **Actions** tab for the first passing build before deploying.
