@@ -1,0 +1,114 @@
+{
+  "updatedAt": "2026-10-21",
+  "reviewMethod": "Steam storefront AI Generated Content Disclosure, as observed in public source snippets; disclosures may change.",
+  "games": [
+    {
+      "name": "GOHEI",
+      "appId": 4576390,
+      "genre": "roguelike",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "runtime_and_assets",
+      "summary": "Official Steam disclosure: artwork, music, text and code generated with AI; Google Gemini evaluates word associations during gameplay.",
+      "sourceUrl": "https://store.steampowered.com/app/4576390/",
+      "verification": "developer_self_disclosure",
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+    },
+    {
+      "name": "Interlude",
+      "appId": 4982910,
+      "genre": "roguelike",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "pregenerated_visuals",
+      "summary": "Official Steam disclosure: some visual assets and promotional art AI-assisted; future localization intent is not treated as completed use.",
+      "sourceUrl": "https://store.steampowered.com/app/4982910/",
+      "verification": "developer_self_disclosure",
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+    },
+    {
+      "name": "Limen",
+      "appId": 5182120,
+      "genre": "roguelike",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "pregenerated_visuals",
+      "summary": "Official Steam disclosure: some static visual assets AI-generated; no runtime AI service.",
+      "sourceUrl": "https://store.steampowered.com/app/5182120/",
+      "verification": "developer_self_disclosure",
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+    },
+    {
+      "name": "ODDSTABLE Demo",
+      "appId": 5004560,
+      "genre": "roguelite",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "pregenerated_visuals_and_text",
+      "summary": "Official Steam disclosure: visual art, UI, logos, marketing art and text/localization AI-assisted; no runtime generation.",
+      "sourceUrl": "https://store.steampowered.com/app/5004560/",
+      "verification": "developer_self_disclosure",
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+    },
+    {
+      "name": "Junkyard Saints: Scrapstorm",
+      "appId": 4794490,
+      "genre": "roguelite",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "code_music_voice",
+      "summary": "Official Steam disclosure: AI-assisted code, music workflow and synthetic voice-over; no runtime generative AI.",
+      "sourceUrl": "https://store.steampowered.com/app/4794490/",
+      "verification": "developer_self_disclosure",
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+    },
+    {
+      "name": "Ardhan",
+      "appId": 5391500,
+      "genre": "singleplayer",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "visuals_voice_music",
+      "summary": "Official Steam disclosure: AI-generated art, cinematics, narration, music and effects; no runtime generation.",
+      "sourceUrl": "https://store.steampowered.com/app/5391500/",
+      "verification": "developer_self_disclosure",
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+    },
+    {
+      "name": "Starfall Defense",
+      "appId": 5323250,
+      "genre": "singleplayer",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "visuals",
+      "summary": "Official Steam disclosure: some 2D concept and promotional artwork AI-assisted; no runtime AI.",
+      "sourceUrl": "https://store.steampowered.com/app/5323250/",
+      "verification": "developer_self_disclosure",
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+    },
+    {
+      "name": "AI Roguelite",
+      "appId": 1889620,
+      "genre": "roguelike",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "runtime_generation",
+      "summary": "Official Steam disclosure: live text, image and sound generation plus mechanics decisions.",
+      "sourceUrl": "https://store.steampowered.com/app/1889620/",
+      "verification": "developer_self_disclosure",
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+    },
+    {
+      "name": "AI Roguelite 2D",
+      "appId": 2800150,
+      "genre": "roguelike",
+      "aiStatus": "official_ai_disclosure",
+      "aiLevel": null,
+      "usage": "runtime_generation",
+      "summary": "Official Steam disclosure: live text, images, effects and mechanics using an LLM.",
+      "sourceUrl": "https://store.steampowered.com/app/2800150/",
+      "verification": "developer_self_disclosure",
+      "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review."
+    }
+  ]
+}
