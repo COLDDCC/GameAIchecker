@@ -9,11 +9,20 @@
       "source": "https://playtestboard.com/steam-next-fest/",
       "event": "Steam Next Fest October 2026",
       "sourcePosition": 1,
-      "aiStatus": "not_reviewed",
+      "aiStatus": "official_ai_disclosure",
       "aiLevel": null,
-      "steamAppId": null,
+      "steamAppId": 4955250,
       "sourceType": "third_party_demo_listing",
-      "note": "Event listing only. No AI disclosure verified."
+      "note": "Event listing only. No AI disclosure verified.",
+      "steamVerificationUrl": "https://store.steampowered.com/app/4955250/",
+      "steamIdVerifiedAt": "2026-10-21",
+      "aiEvidence": [
+        {
+          "sourceUrl": "https://store.steampowered.com/app/4955250/",
+          "sourceType": "steam_developer_disclosure",
+          "summary": "Developer discloses using AI to generate images; gameplay, design and atmosphere described as human-created."
+        }
+      ]
     },
     {
       "name": "BROODHOUSE",
@@ -22,9 +31,11 @@
       "sourcePosition": 2,
       "aiStatus": "not_reviewed",
       "aiLevel": null,
-      "steamAppId": null,
+      "steamAppId": 5120010,
       "sourceType": "third_party_demo_listing",
-      "note": "Event listing only. No AI disclosure verified."
+      "note": "Event listing only. No AI disclosure verified.",
+      "steamVerificationUrl": "https://store.steampowered.com/app/5120010/",
+      "steamIdVerifiedAt": "2026-10-21"
     },
     {
       "name": "Probably Stolen",
@@ -58,9 +69,11 @@
       "sourcePosition": 5,
       "aiStatus": "not_reviewed",
       "aiLevel": null,
-      "steamAppId": null,
+      "steamAppId": 3517740,
       "sourceType": "third_party_demo_listing",
-      "note": "Event listing only. No AI disclosure verified."
+      "note": "Event listing only. No AI disclosure verified.",
+      "steamVerificationUrl": "https://store.steampowered.com/app/3517740/",
+      "steamIdVerifiedAt": "2026-10-21"
     },
     {
       "name": "Dumpster Gang",
@@ -168,9 +181,11 @@
       "sourcePosition": 15,
       "aiStatus": "not_reviewed",
       "aiLevel": null,
-      "steamAppId": null,
+      "steamAppId": 2295170,
       "sourceType": "third_party_demo_listing",
-      "note": "Event listing only. No AI disclosure verified."
+      "note": "Event listing only. No AI disclosure verified.",
+      "steamVerificationUrl": "https://store.steampowered.com/app/2295170/",
+      "steamIdVerifiedAt": "2026-10-21"
     },
     {
       "name": "Grr Grr Gnomes",
@@ -1108,5 +1123,5 @@
       "note": "Event listing only. No AI disclosure verified."
     }
   ],
-  "steamIdVerificationNote": "Only explicitly verified Steam IDs are populated; others link to Steam search, not guessed store pages."
+  "steamIdVerificationNote": "Only confirmed Steam IDs are assigned; others link to search. Scores remain unassigned unless independently reviewed."
 }
