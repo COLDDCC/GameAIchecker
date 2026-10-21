@@ -20,8 +20,27 @@
         "code",
         "live_generation"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "releaseDate": "2026-05-31",
+      "developer": "TredGames",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/4576390/",
+        "developerDisclosureSummary": "Generative AI helped produce art, music, text and code, and is used to judge word associations during play.",
+        "summaryType": "reviewer_paraphrase",
+        "confirmedUsageCategories": [
+          "visuals",
+          "audio",
+          "writing",
+          "code",
+          "live_generation"
+        ],
+        "deliveryMode": "runtime_generation",
+        "limits": "Steam developer self-disclosure, not an independent asset audit.",
+        "openQuestion": "Steam disclosure mentions Gemini for gameplay; Steam third-party service label shows Claude API. Provider requires clarification."
+      }
     },
     {
       "name": "Interlude",
@@ -55,8 +74,22 @@
       "aiUsageCategories": [
         "visuals"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "releaseDate": "2026-10-11",
+      "developer": "MHEIO",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/5182120/",
+        "developerDisclosureSummary": "Some fixed visual assets were created with AI during development; no AI content is generated during play.",
+        "summaryType": "reviewer_paraphrase",
+        "confirmedUsageCategories": [
+          "visuals"
+        ],
+        "deliveryMode": "pre_generated",
+        "limits": "Steam developer self-disclosure, not an independent asset audit."
+      }
     },
     {
       "name": "ODDSTABLE Demo",
@@ -73,8 +106,23 @@
         "visuals",
         "writing"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "releaseDate": "2026-08-18",
+      "developer": "Kai Kai",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/5004560/",
+        "developerDisclosureSummary": "AI-assisted pre-generated horse art, backgrounds, icons, UI, branding, promotional art and portions of text/localization; no runtime generation.",
+        "summaryType": "reviewer_paraphrase",
+        "confirmedUsageCategories": [
+          "visuals",
+          "writing"
+        ],
+        "deliveryMode": "pre_generated",
+        "limits": "Steam developer self-disclosure, not an independent asset audit."
+      }
     },
     {
       "name": "Junkyard Saints: Scrapstorm",
@@ -263,8 +311,23 @@
         "visuals",
         "audio"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "releaseDate": "2025-11-11",
+      "developer": "Milone Roberto",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/3782550/",
+        "developerDisclosureSummary": "Developer reports creating images and sounds for the game and Steam page using AI tools.",
+        "summaryType": "reviewer_paraphrase",
+        "confirmedUsageCategories": [
+          "visuals",
+          "audio"
+        ],
+        "deliveryMode": "pre_generated",
+        "limits": "Steam developer self-disclosure, not an independent asset audit."
+      }
     },
     {
       "name": "Dice In You",
@@ -383,6 +446,6 @@
     "live_generation": "Live-generated gameplay"
   },
   "policyReference": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey",
-  "reviewedCount": 6,
+  "reviewedCount": 10,
   "reviewPolicy": "A verified disclosure is developer self-reporting, not independent forensic proof. Unreviewed keyword tags must not be represented as verified."
 }
