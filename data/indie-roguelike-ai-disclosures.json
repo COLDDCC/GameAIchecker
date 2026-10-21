@@ -252,8 +252,19 @@
       "aiUsageCategories": [
         "visuals"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/2275940/",
+        "developerDisclosureExcerpt": "As a solo dev, I use Midjourney to fill in some gaps including upgrade and achievement icons.",
+        "confirmedUsageCategories": [
+          "visuals"
+        ],
+        "deliveryMode": "pre_generated",
+        "limits": "Does not establish how many assets were AI-generated or whether other AI tools were used."
+      }
     },
     {
       "name": "Palaxin",
@@ -299,5 +310,7 @@
     "code": "Development assistance",
     "live_generation": "Live-generated gameplay"
   },
-  "policyReference": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey"
+  "policyReference": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey",
+  "reviewedCount": 1,
+  "reviewPolicy": "A verified disclosure is developer self-reporting, not independent forensic proof. Unreviewed keyword tags must not be represented as verified."
 }
