@@ -17,7 +17,7 @@
       ],
       "releaseStatus": "public_test",
       "testStartDate": "2026-10-14",
-      "aiStatus": "needs_verification",
+      "aiStatus": "developer_claimed_100_percent_ai_created",
       "aiLevel": null,
       "aiUsageCategories": [],
       "evidence": [
@@ -30,10 +30,19 @@
           "type": "official_platform_description",
           "url": "https://maker.taptap.cn/",
           "finding": "TapTap制造 is marketed as an AI-assisted game creation tool; this does not establish which AI features were used for this particular game."
+        },
+        {
+          "type": "developer_statement_reported_by_user",
+          "url": null,
+          "finding": "User reports the developer explicitly described this game as 100% AI-created. Primary-source statement has not yet been independently located.",
+          "verificationStatus": "awaiting_primary_source"
         }
       ],
-      "reviewNote": "Platform provenance is circumstantial evidence only. Do not label confirmed AI use, assign a score, or infer artwork generation from visual style.",
-      "reviewedAt": "2026-10-21"
+      "reviewNote": "Developer reportedly describes the game as 100% AI-created, per user-provided attribution. Exact primary-source quotation or developer post not yet archived. This is a claim, not independent verification that every asset, code component, or creative decision was AI-generated.",
+      "reviewedAt": "2026-10-21",
+      "aiCreationClaimPercent": 100,
+      "aiCreationClaimAttribution": "developer",
+      "aiCreationClaimVerification": "reported_by_user_not_independently_verified"
     }
   ]
 }
