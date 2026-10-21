@@ -1,0 +1,9 @@
+---
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+const routes=['game','games','indie-ai','browse','community','share','events/next-fest','events/next-fest-100','evidence/ccr'];
+export function getStaticPaths(){return routes.map(slug=>({params:{slug}}));}
+const {slug}=Astro.params;
+const html=readFileSync(resolve(slug,'index.html'),'utf8');
+---
+<Fragment set:html={html} />
