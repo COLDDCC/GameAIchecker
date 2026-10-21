@@ -54,11 +54,23 @@
       "verification": "developer_self_disclosure",
       "note": "A disclosure confirms developer-reported use, not an independent technical audit. Score pending manual review.",
       "aiUsageCategories": [
-        "visuals",
-        "writing"
+        "visuals"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/4982910/",
+        "developerDisclosureSummary": "Developer reports some visual assets and promotional artwork created with generative AI assistance and then edited/composited. AI localization is described only as a future intention, not confirmed completed use.",
+        "summaryType": "reviewer_paraphrase",
+        "confirmedUsageCategories": [
+          "visuals"
+        ],
+        "deliveryMode": "pre_generated",
+        "usageScope": "in_game_and_marketing",
+        "limits": "Localization is planned, not confirmed as performed; no runtime generation disclosed."
+      }
     },
     {
       "name": "Limen",
@@ -170,13 +182,27 @@
         "visuals",
         "audio"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/5391500/",
+        "developerDisclosureSummary": "Solo developer reports AI-generated card, hero, background and cinematic art, store key art, short clips, nine-language voice narration, some music and many sound effects; developer selected and edited outputs. Image models hosted on Higgsfield and ElevenLabs audio tools are named.",
+        "summaryType": "reviewer_paraphrase",
+        "confirmedUsageCategories": [
+          "visuals",
+          "audio"
+        ],
+        "deliveryMode": "pre_generated",
+        "usageScope": "in_game_and_marketing",
+        "limits": "No AI chat, no runtime generation, no requests to AI services during play."
+      }
     },
     {
       "name": "Starfall Defense",
       "appId": 5323250,
-      "genre": "singleplayer",
+      "genre": "multiplayer",
       "aiStatus": "official_ai_disclosure",
       "aiLevel": null,
       "usage": "visuals",
@@ -187,8 +213,28 @@
       "aiUsageCategories": [
         "visuals"
       ],
-      "aiUsageClassification": "keyword_assisted_unverified",
-      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope."
+      "aiUsageClassification": "manual_source_review",
+      "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
+      "evidenceReview": {
+        "status": "verified_against_steam",
+        "reviewedAt": "2026-10-21",
+        "source": "https://store.steampowered.com/app/5323250/",
+        "developerDisclosureSummary": "Developer reports generative AI assistance for some 2D concept character art and promotional graphical assets, all manually reviewed and polished.",
+        "summaryType": "reviewer_paraphrase",
+        "confirmedUsageCategories": [
+          "visuals"
+        ],
+        "deliveryMode": "pre_generated",
+        "usageScope": "concept_and_marketing",
+        "limits": "The disclosure does not prove that final in-game character artwork was AI-generated. No runtime generative AI service calls."
+      },
+      "genreTags": [
+        "tower_defense",
+        "online_coop",
+        "pvp"
+      ],
+      "developer": "Astrix Game Studio",
+      "releaseDateStatus": "coming_soon"
     },
     {
       "name": "AI Roguelite",
@@ -577,6 +623,6 @@
     "live_generation": "Live-generated gameplay"
   },
   "policyReference": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey",
-  "reviewedCount": 14,
+  "reviewedCount": 17,
   "reviewPolicy": "A verified disclosure is developer self-reporting, not independent forensic proof. Unreviewed keyword tags must not be represented as verified."
 }
