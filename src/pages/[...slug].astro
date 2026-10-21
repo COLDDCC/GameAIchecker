@@ -1,9 +1,24 @@
 ---
-import { readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
-const routes=['game','games','indie-ai','browse','community','share','events/next-fest','events/next-fest-100','evidence/ccr'];
-export function getStaticPaths(){return routes.map(slug=>({params:{slug}}));}
-const {slug}=Astro.params;
-const html=readFileSync(resolve(slug,'index.html'),'utf8');
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { join, resolve } from 'node:path';
+
+// Discover existing HTML pages automatically. New legacy pages require no
+// manual route registration; native Astro routes can replace them over time.
+export function getStaticPaths() {
+  const root = process.cwd();
+  const routes = [];
+  const walk = (relative) => {
+    const full = join(root, relative);
+    if (relative && existsSync(join(full, 'index.html'))) routes.push(relative.replaceAll('\\', '/'));
+    for (const item of readdirSync(full, { withFileTypes: true })) {
+      if (!item.isDirectory() || item.name.startsWith('.') || ['node_modules','src','public','dist','data','functions','scripts','.git'].includes(item.name)) continue;
+      walk(join(relative, item.name));
+    }
+  };
+  walk('');
+  return routes.map(slug => ({ params: { slug } }));
+}
+const { slug } = Astro.params;
+const html = readFileSync(resolve(slug, 'index.html'), 'utf8');
 ---
 <Fragment set:html={html} />
