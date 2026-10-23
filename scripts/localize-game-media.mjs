@@ -6,7 +6,9 @@ import sharp from 'sharp';
 // Expand this list when the next batch of detail pages is reviewed.
 const ids = process.argv.length > 2 ? process.argv.slice(2) : ['1222140', '4019220', '2456740', '1889620', '2275940', '4189910', '4919570', '4576390', '4982910', '5182120', '5004560', '4794490', '5391500', '5323250', '1889620', '2800150', '4544110', '3519780'];
 const root = process.cwd();
-for (const id of ids) {
+const requiredIds = new Set(['4576390','4982910','5182120','5004560','4794490','5391500','5323250','1889620','2800150','4544110','3519780']);
+const targets = [...new Set(ids)];
+for (const id of targets) {
   const dir = join(root, 'public/images/steam/apps', id);
   await mkdir(dir, { recursive: true });
   // Reviewed galleries are checked into the repository as individual files.
@@ -21,9 +23,29 @@ for (const id of ids) {
     continue;
   } catch {}
 
-  const metadata = JSON.parse(await readFile(join(root, 'data/steam', `${id}.json`), 'utf8'));
-  const urls = [metadata.background, metadata.header, ...(metadata.screenshots || []).map(s => s.full || s.thumbnail)].filter(Boolean);
-  if (!urls.length) throw new Error(`Missing gallery metadata for ${id}`);
+  let metadata = null;
+  try { metadata = JSON.parse(await readFile(join(root, 'data/steam', `${id}.json`), 'utf8')); }
+  catch { /* missing cache: use downloaded header as fallback */ }
+  const urls = [metadata?.background, metadata?.header, ...(metadata?.screenshots || []).map(s => s.full || s.thumbnail)].filter(Boolean);
+  if (!urls.length) {
+    const header = join(dir, 'header.jpg');
+    try {
+      await access(header);
+      const base = `/images/steam/apps/${id}/header`;
+      const buffer = await readFile(header);
+      for (const [suffix, width, quality] of [['.webp',1280,78],['-thumb.webp',160,65],['-full.webp',1920,85]]) {
+        await sharp(buffer).resize({width,withoutEnlargement:true}).webp({quality}).toFile(join(dir,'header'+suffix));
+      }
+      const item = {src:base+'.webp',thumbnail:base+'-thumb.webp',full:base+'-full.webp',label:'Steam 游戏封面',kind:'header'};
+      await writeFile(join(dir,'gallery.json'),JSON.stringify({images:[item],movies:[]}));
+      console.warn(`[localize-game-media] ${id}: Steam metadata unavailable; saved header-only fallback`);
+      continue;
+    } catch (error) {
+      if (requiredIds.has(id)) throw new Error(`Missing local header and metadata for required game ${id}: ${error.message}`);
+      console.warn(`[localize-game-media] ${id}: skipped; no image sources`);
+      continue;
+    }
+  }
   const images = [];
   const unique = [...new Set(urls)];
   for (let i = 0; i < unique.length; i += 4) {
@@ -48,7 +70,7 @@ for (const id of ids) {
     }));
     images.push(...batch);
   }
-  const movies = await Promise.all((metadata.movies || []).map(async (movie, index) => {
+  const movies = await Promise.all((metadata?.movies || []).map(async (movie, index) => {
     if (!movie.thumbnail) return movie;
     const path = `/images/steam/apps/${id}/video-${index}.webp`;
     try {
