@@ -1,0 +1,44 @@
+{
+  "appId": "4544110",
+  "name": "Project Vanguard",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "reviewedAt": "2026-10-21",
+  "summary": "开发者在 Steam 披露：商店与游戏库展示所用部分营销图片使用 AI 辅助。开发者同时声称玩法代码、平衡、飞船行为与升级系统由其自行开发；目前没有足够证据将游戏内美术归为 AI 生成。",
+  "genres": [
+    "Roguelike"
+  ],
+  "steamUrl": "https://store.steampowered.com/app/4544110/",
+  "aiUsageCategories": [
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaSources": {
+    "marketing": "official"
+  },
+  "aiAreaNotes": {
+    "marketing": "Steam 开发者披露 AI 主要用于 Steam 商店和库中的营销图片。",
+    "art": "披露限定为营销视觉素材，没有足够依据称游戏内美术使用生成式 AI。",
+    "code": "开发者声称玩法代码由本人制作；这是开发者说法而非独立审计。",
+    "ingame": "未披露玩家游玩时的实时 AI 生成功能。"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "url": "https://store.steampowered.com/app/4544110/",
+      "date": "2026-10-21",
+      "excerpt": "开发者在 Steam 披露：商店与游戏库展示所用部分营销图片使用 AI 辅助。开发者同时声称玩法代码、平衡、飞船行为与升级系统由其自行开发；目前没有足够证据将游戏内美术归为 AI 生成。"
+    }
+  ],
+  "reviewNote": "营销图片使用 AI 不代表游戏内美术使用 AI；开发者关于自行开发代码的声明并非独立审计。"
+}
