@@ -708,6 +708,18 @@ const breadcrumbLd = {
       )}
     </section>
 
+    
+    {game.appId === '5345260' && (
+      <section class="section" id="share-card">
+        <div class="section-head"><div><div class="eyebrow">SHARE</div><h2>分享游戏 AI 反馈卡片</h2></div></div>
+        <p class="section-lede">浏览器原生 Canvas 生成，不使用 AI 生图。玩家反馈尚未独立证实。</p>
+        <canvas id="gameShareCanvas" width="1500" height="2000" aria-label="明天照常营业玩家反馈分享图片" style="display:block;width:100%;max-width:440px;height:auto;margin:12px auto;border-radius:12px;border:1px solid #e5ebf2"></canvas>
+        <div class="actions"><button type="button" class="btn primary" id="gameShareDownload">下载 PNG</button><button type="button" class="btn" id="gameShareCopy">复制图片</button></div>
+        <p class="section-lede" id="gameShareNote" role="status">卡片展示玩家反馈，不代表本站已确认使用 AI。</p>
+        <script src="/assets/game-share-card.js" defer></script>
+      </section>
+    )}
+
     <section class="section" id="evidence">
       <div class="section-head">
         <div><div class="eyebrow">EVIDENCE</div><h2>证据链</h2></div>
