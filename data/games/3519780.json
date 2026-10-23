@@ -1,0 +1,46 @@
+{
+  "appId": "3519780",
+  "name": "Queen's Cards",
+  "developer": "Raphus & Co.",
+  "releaseDate": "2025-09-23",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "reviewedAt": "2026-10-21",
+  "summary": "开发者在 Steam 披露：菜单和过场动画的部分背景视觉素材采用 AI 设计。这是特定视觉元素的使用声明，不代表游戏中所有绘画、卡牌或角色素材由 AI 生成。",
+  "genres": [
+    "Roguelike"
+  ],
+  "steamUrl": "https://store.steampowered.com/app/3519780/",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "aiAreaNotes": {
+    "art": "Steam 开发者披露菜单和过场动画的部分背景视觉元素使用 AI 设计；不应扩展为全部游戏美术。",
+    "ingame": "现有披露为预先制作的背景视觉素材，而非游玩时生成内容。"
+  },
+  "disclosureQuote": "Some of the background visuals for menus and cutscenes were designed using AI.",
+  "disclosureQuoteNote": "Steam 开发者公开披露的原文摘录（具体描述可随商店页面更新）。",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "url": "https://store.steampowered.com/app/3519780/",
+      "date": "2026-10-21",
+      "excerpt": "开发者在 Steam 披露：菜单和过场动画的部分背景视觉素材采用 AI 设计。这是特定视觉元素的使用声明，不代表游戏中所有绘画、卡牌或角色素材由 AI 生成。"
+    }
+  ],
+  "reviewNote": "Steam 开发者自我披露，仅支持部分菜单和过场背景视觉的 AI 使用，不构成对其他资产的独立核查。"
+}
