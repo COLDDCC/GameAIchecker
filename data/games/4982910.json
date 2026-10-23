@@ -1,0 +1,46 @@
+{
+  "appId": "4982910",
+  "name": "Interlude",
+  "summary": "Steam 开发者披露：部分视觉素材及宣传美术使用生成式 AI 辅助，并经后续编辑和合成。未来可能使用 AI 进行本地化的表述不代表已经实施。",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "steamUrl": "https://store.steampowered.com/app/4982910/",
+  "genres": [
+    "Roguelike"
+  ],
+  "aiUsageCategories": [
+    "art",
+    "marketing"
+  ],
+  "aiAreas": {
+    "art": "used",
+    "marketing": "used",
+    "translation": "not_stated",
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "Steam 开发者披露部分游戏视觉素材使用生成式 AI 辅助，再进行人工编辑与合成。",
+    "marketing": "开发者披露部分宣传美术使用生成式 AI 辅助；并不表示所有营销素材均为 AI 生成。",
+    "translation": "开发者仅表示未来的本地化使用意向，不能计作已发生的 AI 使用。",
+    "ingame": "当前披露没有说明游戏运行时生成内容；不能据此推断使用了实时生成式 AI。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "marketing": "official"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者 AI 使用披露（开发者自述）",
+      "url": "https://store.steampowered.com/app/4982910/",
+      "date": "2026-10-21",
+      "excerpt": "Steam 开发者披露：部分视觉素材及宣传美术使用生成式 AI 辅助，并经后续编辑和合成。未来可能使用 AI 进行本地化的表述不代表已经实施。"
+    }
+  ],
+  "reviewNote": "仅将开发者披露的已发生使用归为已披露。拟议中的 AI 本地化未计为已使用，且本站未进行独立资产审计。",
+  "reviewedAt": "2026-10-21"
+}
