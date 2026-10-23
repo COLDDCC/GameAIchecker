@@ -5,7 +5,7 @@ const ctx=canvas.getContext('2d');
 const W=750,H=1000,scale=2;
 canvas.width=W*scale;canvas.height=H*scale;
 const font='"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif';
-function rounded(x,y,w,h,r,color){ctx.fillStyle=color;ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fill()}
+function rounded(x,y,w,h,r,color){ctx.fillStyle=color;ctx.beginPath();if(typeof ctx.roundRect==='function')ctx.roundRect(x,y,w,h,r);else ctx.rect(x,y,w,h);ctx.fill()}
 function text(t,x,y,size,color,weight='600',align='left'){ctx.fillStyle=color;ctx.font=weight+' '+size+'px '+font;ctx.textAlign=align;ctx.fillText(t,x,y);ctx.textAlign='left'}
 function line(x1,y1,x2,y2,color='#e6ebf1',width=2){ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.stroke()}
 function draw(){
@@ -16,7 +16,7 @@ function draw(){
  line(69,216,680,216);
  // Draw an actual game cover above the status label; never use AI-generated artwork.
  rounded(69,245,612,270,14,'#e7eef5');
- if(coverReady){ctx.save();ctx.beginPath();ctx.roundRect(69,245,612,270,14);ctx.clip();const ratio=Math.max(612/cover.naturalWidth,270/cover.naturalHeight);const dw=cover.naturalWidth*ratio,dh=cover.naturalHeight*ratio;ctx.drawImage(cover,69+(612-dw)/2,245+(270-dh)/2,dw,dh);ctx.restore();}
+ if(coverReady){ctx.save();ctx.beginPath();if(typeof ctx.roundRect==='function')ctx.roundRect(69,245,612,270,14);else ctx.rect(69,245,612,270);ctx.clip();const ratio=Math.max(612/cover.naturalWidth,270/cover.naturalHeight);const dw=cover.naturalWidth*ratio,dh=cover.naturalHeight*ratio;ctx.drawImage(cover,69+(612-dw)/2,245+(270-dh)/2,dw,dh);ctx.restore();}
  else {text('游戏封面加载失败',375,370,24,'#64748b','600','center');}
  rounded(69,545,612,105,17,'#fee2e2');rounded(69,545,8,105,4,'#db3039');
  text('!',105,615,55,'#bd1e28','800');text('大量玩家反馈使用了AI',152,610,33,'#b91c1c','800');
@@ -49,23 +49,21 @@ draw(); // Always render immediately; never export a blank canvas while waiting 
 openBtn?.addEventListener('click',()=>{try{if(dialog&&typeof dialog.showModal==='function')dialog.showModal();else if(dialog)dialog.hidden=false;ready()}catch(e){status('预览打开失败：'+e.message)}});
 document.getElementById('gameShareClose')?.addEventListener('click',()=>{if(dialog&&typeof dialog.close==='function')dialog.close();else if(dialog)dialog.hidden=true});
 dialog?.addEventListener('click',e=>{if(e.target===dialog&&typeof dialog.close==='function')dialog.close()});
-document.getElementById('gameShareDownload')?.addEventListener('click',async()=>{
+document.getElementById('gameShareDownload')?.addEventListener('click',()=>{
  try{
-  const blob=await asBlob(),file=new File([blob],filename,{type:'image/png'});
-  // Native share sheet supports saving or forwarding an image on mobile.
-  if(/iPad|iPhone|iPod/.test(navigator.userAgent)&&navigator.share&&navigator.canShare?.({files:[file]})){
-    try{await navigator.share({files:[file],title:'明天照常营业 · Game AI Checker'});status('已打开系统分享菜单');return}
-    catch(e){if(e?.name==='AbortError'){status('已取消分享');return}}
-  }
-  const url=URL.createObjectURL(blob),anchor=document.createElement('a');
-  anchor.href=url;anchor.download=filename;anchor.style.display='none';
+  // Keep generation and anchor activation synchronous within the user gesture.
+  // Asynchronous toBlob/File/navigator.share loses gesture on several mobile browsers.
+  ready();
+  const data=canvas.toDataURL('image/png');
+  if(!data.startsWith('data:image/png'))throw new Error('PNG 编码失败');
+  const anchor=document.createElement('a');
+  anchor.href=data;anchor.download=filename;anchor.style.display='none';
   document.body.appendChild(anchor);anchor.click();anchor.remove();
-  status('已尝试下载 PNG。如果手机没有保存，请使用“打开图片 / 长按保存”。');
-  setTimeout(()=>URL.revokeObjectURL(url),60000);
- }catch(e){status('导出失败：'+(e?.message||e))}
+  status('已生成 PNG。如果手机未自动保存，请使用「打开图片 / 长按保存」。');
+ }catch(e){status('导出失败：'+(e?.message||e)+'；请尝试「打开图片 / 长按保存」。')}
 });
 document.getElementById('gameShareView')?.addEventListener('click',async()=>{
- try{const blob=await asBlob();openImage(blob)}catch(e){status('打开图片失败：'+(e?.message||e))}
+ try{ready();const data=canvas.toDataURL('image/png');const win=window.open('','_blank');if(win){win.document.title='明天照常营业 · 分享图片';win.document.body.style='margin:0;background:#eaf3fc;text-align:center';const img=win.document.createElement('img');img.src=data;img.alt='分享卡片';img.style='display:block;max-width:100%;height:auto;margin:auto';win.document.body.appendChild(img);status('图片已打开，可长按保存。')}else{const blob=await asBlob();openImage(blob)}}catch(e){status('打开图片失败：'+(e?.message||e))}
 });
 document.getElementById('gameShareCopy')?.addEventListener('click',async()=>{
  try{
