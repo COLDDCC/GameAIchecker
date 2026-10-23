@@ -43,13 +43,14 @@ input{flex:1;min-width:240px}select{min-width:190px}
 footer{border-top:1px solid var(--line);margin-top:34px;padding:22px 0 40px;color:var(--muted);font-size:12px}
 footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
 @media(max-width:640px){.wrap{padding:0 14px}.top-inner{height:58px}.top-nav a:nth-child(n+2){display:none}h1{font-size:2rem}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.body{padding:10px}.summary{display:none}.chips{display:none}}
-</style>
+.human-feature{margin:22px 0 26px}.human-feature-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.human-feature h2{font-size:18px;margin:0 0 5px}.human-feature-note{font-size:12px;color:var(--muted);margin:0 0 12px}.human-feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.human-feature-card{display:flex;gap:12px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:10px;color:var(--ink);background:#fff}.human-feature-card:hover{border-color:#9ccafa;text-decoration:none}.human-feature-card img{width:142px;aspect-ratio:460/215;object-fit:cover;border-radius:8px;background:var(--soft)}.human-feature-card strong{display:block;font-size:14px}.human-feature-card small{display:block;color:var(--muted);font-size:12px}.human-feature-card em{display:block;color:var(--amber);font-size:11px;font-style:normal;margin-top:4px}@media(max-width:700px){.human-feature-grid{grid-template-columns:1fr}.human-feature-card img{width:110px}}</style>
 </head>
 <body>
 <header class="top"><div class="wrap top-inner"><a class="brand" href="/"><img src="/logo.svg" alt="" width="38" height="32">Game <span>AI</span> Checker</a><nav class="top-nav"><a href="/">搜索</a><a href="/browse/">浏览</a><a href="/indie-ai/">Indie AI</a></nav></div></header>
 <main class="wrap">
 <h1>游戏 AI 档案库</h1>
 <p class="sub">每款收录游戏都有独立的档案页：AI 使用分类、证据链、Steam 资料、开发商信息与相似游戏。未提及不等于未使用。</p>
+<section class="human-feature" aria-labelledby="human-feature-title"><div class="human-feature-head"><h2 id="human-feature-title">人工制作线索 · 新增关注</h2></div><p class="human-feature-note">以下是人工美术／手工制作推荐，不等于已通过「100% 无生成式 AI」认证。点击卡片查看原始来源与未核查范围。</p><div class="human-feature-grid"><a class="human-feature-card" href="/games/5086350-armor-growth-plan/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5086350/header.jpg" alt="罐头成长计划 Steam 封面" loading="lazy"><span><strong>罐头成长计划</strong><small>Armor Growth Plan · 5086350</small><em>“全部人类手搓”线索 · 原帖待核</em></span></a><a class="human-feature-card" href="/games/4598530-otherealm/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4598530/header.jpg" alt="异界・魔校 Steam 封面" loading="lazy"><span><strong>异界・魔校</strong><small>Otherealm · 4598530</small><em>漫画式视觉作品 · 美术来源待核</em></span></a></div></section>
 <div class="tools">
 <input id="search" placeholder="搜索游戏名、开发商或 Steam App ID" aria-label="搜索游戏">
 <select id="filter" aria-label="按披露状态筛选">
