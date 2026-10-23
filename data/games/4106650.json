@@ -1,0 +1,47 @@
+{
+  "appId": "4106650",
+  "name": "Palaxin",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "Steam 开发者披露使用 AI 辅助代码补全和重构，并用于早期 UI 图标概念、占位素材和营销草稿。开发者表示最终游戏及商店素材经过团队绘制、编辑和批准，未披露运行时 AI 生成。",
+  "steamUrl": "https://store.steampowered.com/app/4106650/",
+  "genres": [
+    "Roguelike"
+  ],
+  "aiUsageCategories": [
+    "code",
+    "art",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "unreviewed",
+    "code": "used",
+    "art": "used",
+    "music": "unreviewed",
+    "voice": "unreviewed",
+    "writing": "unreviewed",
+    "translation": "unreviewed",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "code": "开发者披露使用 AI 辅助代码补全及重构，不等于全部代码由 AI 生成。",
+    "art": "使用范围涉及早期 UI 图标概念及占位素材；不能据此认定最终素材直接使用 AI 输出。",
+    "marketing": "开发者披露营销草稿受到 AI 辅助，最终稿经过团队编辑和审核。"
+  },
+  "aiAreaSources": {
+    "code": "official",
+    "art": "official",
+    "marketing": "official"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者 AI 使用披露",
+      "url": "https://store.steampowered.com/app/4106650/",
+      "date": "2026-10-21",
+      "excerpt": "Steam 开发者披露使用 AI 辅助代码补全和重构，并用于早期 UI 图标概念、占位素材和营销草稿。开发者表示最终游戏及商店素材经过团队绘制、编辑和批准，未披露运行时 AI 生成。"
+    }
+  ],
+  "reviewNote": "数据基于 Steam 开发者自述整理，属于来源归属的公开声明，不是独立技术审计。",
+  "reviewedAt": "2026-10-21"
+}
