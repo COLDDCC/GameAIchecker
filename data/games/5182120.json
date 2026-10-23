@@ -1,0 +1,44 @@
+{
+  "appId": "5182120",
+  "name": "Limen",
+  "developer": "MHEIO",
+  "summary": "Steam 开发者披露：开发期间有部分固定的视觉素材借助生成式 AI 制作；披露指出游戏过程中不使用 AI 实时生成内容。",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "steamUrl": "https://store.steampowered.com/app/5182120/",
+  "releaseDate": "2026-10-11",
+  "genres": [
+    "Roguelike"
+  ],
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "art": "used",
+    "ingame": "not_stated",
+    "marketing": "not_stated",
+    "translation": "not_stated",
+    "code": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露部分静态视觉素材使用生成式 AI 制作；具体资产范围与比例未经本站逐项审计。",
+    "ingame": "开发者披露游戏中没有实时 AI 内容生成；这是开发者声明而非独立技术审计。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者 AI 使用披露（开发者自述）",
+      "url": "https://store.steampowered.com/app/5182120/",
+      "date": "2026-10-21",
+      "excerpt": "Steam 开发者披露：开发期间有部分固定的视觉素材借助生成式 AI 制作；披露指出游戏过程中不使用 AI 实时生成内容。"
+    }
+  ],
+  "reviewNote": "依据 Steam 开发者披露整理。部分预先生成的静态视觉素材与玩家游玩时的实时生成应严格区分；未进行独立审计。",
+  "reviewedAt": "2026-10-21"
+}
