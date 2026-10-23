@@ -371,6 +371,7 @@ img{max-width:100%}
 (() => {
   const STATUS = {
     official_disclosure: {cls: 'disclosed', label: 'AI disclosed', rank: 0},
+    third_party: {cls: 'community', label: 'Third-party research', rank: 1},
     human_made: {cls: 'human', label: 'Human-made claim', rank: 1},
     no_evidence: {cls: 'noevidence', label: 'No evidence found', rank: 2},
     community: {cls: 'community', label: 'Player report, unverified', rank: 3},
@@ -399,7 +400,7 @@ img{max-width:100%}
 
   const norm = s => String(s || '').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '');
   const statusOf = g => STATUS[g.status] || STATUS.unreviewed;
-  const profileUrl = g => g.hasStatic ? '/games/' + g.slug + '/' : '/game/?' + (g.appId ? 'id=' + encodeURIComponent(g.appId) : 'name=' + encodeURIComponent(g.name));
+  const profileUrl = g => window.gacI18n.gameUrl(g.slug);
   const coverCandidates = g => {
     if (!g.appId) return [];
     const id = encodeURIComponent(g.appId);
@@ -474,7 +475,7 @@ img{max-width:100%}
     meta.append(chip);
     if (g.humanMadeListing) {
       const scope = document.createElement('span'); scope.className = 'event';
-      scope.textContent = g.humanMadeListing.labelEn; meta.append(scope);
+      scope.textContent = window.gacI18n.translate(g.humanMadeListing.labelEn); meta.append(scope);
     }
     if (g.event) {
       const ev = document.createElement('span');
@@ -513,7 +514,7 @@ img{max-width:100%}
       title.append(pill);
     }
     $('browserNote').textContent = query
-      ? list.length + (list.length === 1 ? ' game' : ' games') + (filter === 'all' ? '' : ' in “' + f.title + '”')
+      ? window.gacI18n.format('{count} results', {count: list.length})
       : f.note;
 
     if (!list.length) {
@@ -525,20 +526,16 @@ img{max-width:100%}
       box.innerHTML = '<h3></h3><p></p><div class="actions"></div>';
       box.querySelector('h3').textContent = query ? 'This game isn’t in our records yet' : 'No games in this list yet';
       box.querySelector('p').textContent = query
-        ? 'You can open a profile page for it to see its Steam details, or check its store page for a disclosure.'
+        ? 'Check its Steam page for details and any AI disclosure.'
         : 'Try another filter, or search for a game above.';
       if (query) {
         const actions = box.querySelector('.actions');
-        const prof = document.createElement('a');
-        prof.className = 'btn primary';
-        prof.href = '/game/?' + (parsed.id ? 'id=' + parsed.id : 'name=' + encodeURIComponent(query));
-        prof.textContent = 'Open a profile page';
         const steam = document.createElement('a');
         steam.className = 'btn ghost';
         steam.target = '_blank'; steam.rel = 'noopener noreferrer';
         steam.href = parsed.id ? 'https://store.steampowered.com/app/' + parsed.id + '/' : 'https://store.steampowered.com/search/?term=' + encodeURIComponent(query);
         steam.textContent = 'Search on Steam';
-        actions.append(prof, steam);
+        actions.append(steam);
         if (filter !== 'all') {
           const all = document.createElement('button');
           all.type = 'button'; all.className = 'btn ghost'; all.style.cursor = 'pointer'; all.style.background = 'transparent'; all.style.font = 'inherit';
@@ -554,7 +551,7 @@ img{max-width:100%}
     if (!grid.isConnected) $('results').replaceChildren(grid);
     grid.replaceChildren(...list.slice(0, shown).map(card));
     moreBtn.hidden = list.length <= shown;
-    moreBtn.textContent = 'Show more games (' + (list.length - shown) + ' left)';
+    moreBtn.textContent = window.gacI18n.format('Show more games ({count} left)', {count: list.length - shown});
   }
 
   function updateCounts() {
@@ -563,12 +560,7 @@ img{max-width:100%}
       if (el) el.textContent = games.filter(f.test).length;
     }
     const disclosed = games.filter(FILTERS.disclosed.test).length;
-    $('heroSub').innerHTML = '';
-    $('heroSub').append(
-      document.createTextNode('Tracking '),
-      Object.assign(document.createElement('strong'), {textContent: games.length + ' Steam games'}),
-      document.createTextNode(', ' + disclosed + ' with an official AI disclosure. Search one to see what its developer has said and the evidence behind it.')
-    );
+    $('heroSub').textContent = window.gacI18n.format('Tracking {count} Steam games, including {disclosed} with an official AI disclosure.', {count: games.length, disclosed});
   }
 
   function setFilter(key, {scroll = false} = {}) {
@@ -578,7 +570,7 @@ img{max-width:100%}
     render();
     if (scroll) $('next-fest').scrollIntoView({block: 'start'});
   }
-  function setQuery(v) { query = v.trim(); shown = PAGE; render(); }
+  function setQuery(v) { query = v.trim(); shown = PAGE; const url = new URL(location.href); if (query) url.searchParams.set('q', query); else url.searchParams.delete('q'); history.replaceState(null, '', url); render(); }
 
   document.getElementById('tabs').addEventListener('click', e => {
     const t = e.target.closest('.tab');
@@ -651,7 +643,7 @@ img{max-width:100%}
     if (found.length > items.length) {
       const li = document.createElement('li');
       li.className = 's-all'; li.setAttribute('role', 'presentation');
-      li.textContent = 'See all ' + found.length + ' results';
+      li.textContent = window.gacI18n.format('See all {count} results', {count: found.length});
       li.addEventListener('mousedown', e => e.preventDefault());
       li.addEventListener('click', () => submitSearch(raw));
       suggest.append(li);
@@ -742,6 +734,8 @@ img{max-width:100%}
   updateCounts();
   render();
   applyHash();
+  const initialQuery = new URLSearchParams(location.search).get('q');
+  if (initialQuery) submitSearch(initialQuery);
   window.addEventListener('hashchange', applyHash);
 
   fetch('/data/game-index.json')

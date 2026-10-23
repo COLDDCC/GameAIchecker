@@ -134,3 +134,7 @@
 /games/pt-br/unverified-emberville/ /games/pt-br/2295170-emberville/ 301
 /games/pt-br/unverified-probably-stolen/ /games/pt-br/4348910-probably-stolen-cyberpunk-shopkeeper-sim/ 301
 /games/pt-br/unverified-probably-stolen-cyberpunk-shopkeeper-sim/ /games/pt-br/4348910-probably-stolen-cyberpunk-shopkeeper-sim/ 301
+
+# Keep the original English homepage and Chinese detail URLs canonical.
+/en/ / 301
+/games/zh-cn/:slug/ /games/:slug/ 301
