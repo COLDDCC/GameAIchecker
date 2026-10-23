@@ -1,4 +1,5 @@
 ---
+import ShareCard from '../../components/ShareCard.astro';
 import { getAllGames } from '../../lib/games.js';
 
 export function getStaticPaths() {
@@ -601,6 +602,7 @@ const breadcrumbLd = {
           )}
           <button class="btn" id="saveBtn" type="button" title="仅保存在本机浏览器">☆ 收藏</button>
           <button class="btn" id="shareBtn" type="button">分享</button>
+          <ShareCard game={game} pageUrl={canonical} lang={'zh-cn'} />
         </div>
 
         <dl class="facts">

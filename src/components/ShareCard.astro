@@ -1,0 +1,458 @@
+---
+// Per-game share card. Drawn in the visitor's browser on a <canvas>; the text
+// is derived from the game's reviewed status and cannot be edited, so a card
+// never says more than the evidence on the page does.
+const { game, pageUrl, lang = 'zh-cn' } = Astro.props;
+
+const T = {
+  'zh-cn': {
+    open: '生成分享卡片',
+    title: '分享卡片',
+    portrait: '竖版 4:5',
+    portraitHint: '小红书 / Instagram',
+    landscape: '横版',
+    landscapeHint: 'X / 微博 / Discord',
+    download: '下载图片',
+    share: '分享图片',
+    copy: '复制文案',
+    copied: '文案已复制',
+    saved: '图片已生成',
+    close: '关闭',
+    note: '卡片内容来自本页的核查状态，不能手动修改。图片在你的浏览器本地生成，不会上传。',
+    cta: '查看来源与证据',
+    by: '开发商',
+    status: {
+      human_made: { kicker: '开发者声明', headline: '100% 人工制作', detail: '开发者公开声称本作未使用生成式 AI', caveat: '开发者声明 · 未经独立审计' },
+      official_disclosure: { kicker: '官方披露', headline: '已披露使用生成式 AI', detail: '涉及：{areas}', detailNone: '具体范围见开发者原始披露', caveat: '以开发者原始披露为准' },
+      no_evidence: { kicker: '核查结果', headline: '未发现 AI 使用证据', detail: '本次审查未找到可核实的生成式 AI 使用声明', caveat: '未发现证据 ≠ 确认零 AI' },
+      other: { kicker: '核查状态', headline: '尚未完成核查', detail: '目前没有可核实的 AI 使用信息', caveat: '未披露不代表没有使用 AI' },
+    },
+    caption: {
+      human_made: '《{name}》开发者声明：100% 人工制作，未使用生成式 AI。（开发者声明，未经独立审计）来源 👉 {url} #人工制作 #独立游戏',
+      official_disclosure: '《{name}》已在官方渠道披露使用生成式 AI。范围与原始来源 👉 {url}',
+      no_evidence: '《{name}》：Game AI Checker 未发现生成式 AI 使用证据（不等于确认零 AI）。详情 👉 {url}',
+      other: '《{name}》的 AI 使用情况还没有核查，知道线索的话可以来补充 👉 {url}',
+    },
+  },
+  'zh-tw': {
+    open: '產生分享卡片',
+    title: '分享卡片',
+    portrait: '直版 4:5',
+    portraitHint: 'Instagram / Threads',
+    landscape: '橫版',
+    landscapeHint: 'X / Facebook / Discord',
+    download: '下載圖片',
+    share: '分享圖片',
+    copy: '複製文案',
+    copied: '文案已複製',
+    saved: '圖片已產生',
+    close: '關閉',
+    note: '卡片內容來自本頁的查核狀態，不能手動修改。圖片在你的瀏覽器本機產生，不會上傳。',
+    cta: '查看來源與證據',
+    by: '開發商',
+    status: {
+      human_made: { kicker: '開發者聲明', headline: '100% 人工製作', detail: '開發者公開聲稱本作未使用生成式 AI', caveat: '開發者聲明 · 未經獨立審核' },
+      official_disclosure: { kicker: '官方揭露', headline: '已揭露使用生成式 AI', detail: '涉及：{areas}', detailNone: '具體範圍見開發者原始揭露', caveat: '以開發者原始揭露為準' },
+      no_evidence: { kicker: '查核結果', headline: '未發現 AI 使用證據', detail: '本次審查未找到可核實的生成式 AI 使用聲明', caveat: '未發現證據 ≠ 確認零 AI' },
+      other: { kicker: '查核狀態', headline: '尚未完成查核', detail: '目前沒有可核實的 AI 使用資訊', caveat: '未揭露不代表沒有使用 AI' },
+    },
+    caption: {
+      human_made: '《{name}》開發者聲明：100% 人工製作，未使用生成式 AI。（開發者聲明，未經獨立審核）來源 👉 {url} #人工製作 #獨立遊戲',
+      official_disclosure: '《{name}》已在官方管道揭露使用生成式 AI。範圍與原始來源 👉 {url}',
+      no_evidence: '《{name}》：Game AI Checker 未發現生成式 AI 使用證據（不等於確認零 AI）。詳情 👉 {url}',
+      other: '《{name}》的 AI 使用情況還沒有查核，知道線索的話可以來補充 👉 {url}',
+    },
+  },
+  en: {
+    open: 'Create share card',
+    title: 'Share card',
+    portrait: 'Portrait 4:5',
+    portraitHint: 'Instagram / Threads',
+    landscape: 'Landscape',
+    landscapeHint: 'X / Bluesky / Discord',
+    download: 'Download image',
+    share: 'Share image',
+    copy: 'Copy caption',
+    copied: 'Caption copied',
+    saved: 'Image ready',
+    close: 'Close',
+    note: 'The card text comes from this page’s review status and can’t be edited. The image is made in your browser and never uploaded.',
+    cta: 'See sources and evidence',
+    by: 'Developer',
+    status: {
+      human_made: { kicker: 'DEVELOPER-STATED', headline: '100% Human-made', detail: 'The developer publicly states no generative AI was used', caveat: 'Developer statement · not independently audited' },
+      official_disclosure: { kicker: 'OFFICIAL DISCLOSURE', headline: 'Discloses generative AI', detail: 'Areas: {areas}', detailNone: 'See the developer’s original disclosure for scope', caveat: 'The developer’s original disclosure is authoritative' },
+      no_evidence: { kicker: 'REVIEW RESULT', headline: 'No AI evidence found', detail: 'Our review found no verifiable generative-AI statement', caveat: 'No evidence ≠ confirmed AI-free' },
+      other: { kicker: 'REVIEW STATUS', headline: 'Not reviewed yet', detail: 'No verifiable information on AI use so far', caveat: 'No disclosure does not mean no AI' },
+    },
+    caption: {
+      human_made: '{name}: the developer states it is 100% human-made, with no generative AI (developer statement, not independently audited). Source 👉 {url} #NoGenAI #IndieGames',
+      official_disclosure: '{name} officially discloses generative AI use. Scope and original source 👉 {url}',
+      no_evidence: '{name}: Game AI Checker found no evidence of generative AI use (not a confirmation of zero AI). Details 👉 {url}',
+      other: 'AI use in {name} hasn’t been reviewed yet. Know something? Add a clue 👉 {url}',
+    },
+  },
+  ja: {
+    open: 'シェアカードを作成',
+    title: 'シェアカード',
+    portrait: '縦 4:5',
+    portraitHint: 'Instagram / Threads',
+    landscape: '横',
+    landscapeHint: 'X / Discord',
+    download: '画像を保存',
+    share: '画像を共有',
+    copy: '文面をコピー',
+    copied: '文面をコピーしました',
+    saved: '画像を作成しました',
+    close: '閉じる',
+    note: 'カードの内容はこのページの確認状況から作られ、編集できません。画像はブラウザ内で作成され、アップロードされません。',
+    cta: '出典と根拠を見る',
+    by: '開発',
+    status: {
+      human_made: { kicker: '開発元の申告', headline: '100% 人の手で制作', detail: '開発元は生成 AI を使用していないと公表しています', caveat: '開発元の申告 · 独立監査なし' },
+      official_disclosure: { kicker: '公式の申告', headline: '生成 AI の使用を申告', detail: '分野：{areas}', detailNone: '範囲は開発元の申告原文を参照', caveat: '開発元の申告原文が優先されます' },
+      no_evidence: { kicker: '確認結果', headline: 'AI 使用の根拠は未発見', detail: '確認できる生成 AI 使用の申告は見つかりませんでした', caveat: '根拠なし ≠ AI 不使用の確認' },
+      other: { kicker: '確認状況', headline: '未確認', detail: 'AI 使用について確認できる情報はまだありません', caveat: '申告がないことは AI 不使用を意味しません' },
+    },
+    caption: {
+      human_made: '『{name}』開発元の申告：100% 人の手で制作、生成 AI 不使用（開発元の申告・独立監査なし）。出典 👉 {url} #生成AI不使用 #インディーゲーム',
+      official_disclosure: '『{name}』は生成 AI の使用を公式に申告しています。範囲と出典 👉 {url}',
+      no_evidence: '『{name}』：Game AI Checker では生成 AI 使用の根拠は見つかっていません（AI 不使用の確認ではありません）。詳細 👉 {url}',
+      other: '『{name}』の AI 使用はまだ確認されていません。情報があれば教えてください 👉 {url}',
+    },
+  },
+};
+
+const L = T[lang] || T.en;
+const statusKey = ['human_made', 'official_disclosure', 'no_evidence'].includes(game.status) ? game.status : 'other';
+const s = L.status[statusKey];
+const areaNames = (game.usedAreas || []).map((a) => (lang === 'zh-cn' || lang === 'zh-tw' ? a.label : a.en || a.label)).filter(Boolean);
+const detail = statusKey === 'official_disclosure'
+  ? (areaNames.length ? s.detail.replace('{areas}', areaNames.join(' · ')) : s.detailNone)
+  : s.detail;
+const tone = { human_made: 'green', official_disclosure: 'amber', no_evidence: 'blue', other: 'gray' }[statusKey];
+const displayUrl = pageUrl.replace(/^https?:\/\//, '').replace(/\/$/, '');
+const caption = L.caption[statusKey].replaceAll('{name}', game.name).replaceAll('{url}', pageUrl);
+const year = String(game.releaseDate || '').match(/\d{4}/)?.[0] || '';
+
+const card = {
+  name: game.name,
+  developer: game.developer || '',
+  year,
+  image: game.header || game.images?.[0]?.src || '',
+  kicker: s.kicker,
+  headline: s.headline,
+  detail,
+  caveat: s.caveat,
+  tone,
+  cta: L.cta,
+  by: L.by,
+  url: displayUrl,
+  pageUrl,
+  caption,
+  file: `gameaichecker-${game.slug}`,
+  ui: { copied: L.copied, saved: L.saved },
+};
+---
+
+<button class="btn" id="cardOpen" type="button">
+  <svg class="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2" /><circle cx="9" cy="10" r="2" /><path d="m21 16-5-5-9 9" /></svg>
+  <span>{L.open}</span>
+</button>
+
+<dialog class="sc-dialog" id="cardDialog" aria-labelledby="cardTitle">
+  <div class="sc-head">
+    <strong id="cardTitle">{L.title}</strong>
+    <button class="sc-x" id="cardClose" type="button" aria-label={L.close}>×</button>
+  </div>
+  <div class="sc-formats" role="radiogroup">
+    <label><input type="radio" name="cardFormat" value="portrait" checked /><span>{L.portrait}<small>{L.portraitHint}</small></span></label>
+    <label><input type="radio" name="cardFormat" value="landscape" /><span>{L.landscape}<small>{L.landscapeHint}</small></span></label>
+  </div>
+  <div class="sc-preview"><canvas id="cardCanvas" width="1080" height="1350" aria-label={`${game.name} · ${s.headline}`}></canvas></div>
+  <p class="sc-caption" id="cardCaption">{caption}</p>
+  <div class="sc-actions">
+    <button class="btn primary" id="cardShare" type="button" hidden>{L.share}</button>
+    <button class="btn primary" id="cardDownload" type="button">{L.download}</button>
+    <button class="btn" id="cardCopy" type="button">{L.copy}</button>
+  </div>
+  <p class="sc-msg" id="cardMsg" role="status"></p>
+  <p class="sc-note">{L.note}</p>
+</dialog>
+
+<style>
+  .sc-dialog { width: min(560px, calc(100vw - 32px)); max-height: calc(100vh - 32px); border: 0; border-radius: 18px; padding: 18px; box-shadow: 0 24px 80px rgba(16, 24, 40, .28); color: var(--ink); overflow: auto; }
+  .sc-dialog::backdrop { background: rgba(16, 24, 40, .55); }
+  .sc-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 16px; }
+  .sc-x { border: 0; background: var(--gray-bg); width: 32px; height: 32px; border-radius: 50%; font-size: 20px; line-height: 1; cursor: pointer; color: var(--ink); }
+  .sc-formats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+  .sc-formats label { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; cursor: pointer; font-size: 13px; font-weight: 700; }
+  .sc-formats label:has(input:checked) { border-color: var(--blue); background: var(--blue-bg); }
+  .sc-formats input { accent-color: var(--blue); margin: 0; }
+  .sc-formats small { display: block; font-weight: 400; color: var(--muted); font-size: 11px; }
+  .sc-preview { background: var(--soft); border-radius: 12px; padding: 10px; display: flex; justify-content: center; }
+  .sc-preview canvas { display: block; max-width: 100%; max-height: 52vh; width: auto; height: auto; border-radius: 8px; box-shadow: 0 6px 24px rgba(16, 24, 40, .12); }
+  .sc-caption { font-size: 12px; color: var(--gray); background: var(--soft); border-radius: 10px; padding: 10px 12px; margin: 12px 0 0; line-height: 1.5; }
+  .sc-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .sc-actions .btn { flex: 1 1 auto; justify-content: center; }
+  .sc-actions [hidden] { display: none; }
+  .sc-msg { min-height: 1.2em; margin: 8px 0 0; font-size: 12px; color: var(--green); }
+  .sc-note { margin: 4px 0 0; font-size: 11px; color: var(--muted); }
+</style>
+
+<script is:inline define:vars={{ C: card }}>
+  (() => {
+    const dialog = document.getElementById('cardDialog');
+    const canvas = document.getElementById('cardCanvas');
+    if (!dialog || !canvas) return;
+    const ctx = canvas.getContext('2d');
+    const msg = document.getElementById('cardMsg');
+    const FONT = '"PingFang SC","Hiragino Sans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif';
+    const TONES = {
+      green: { fg: '#047857', bg: '#ecfdf5', line: '#a7f3d0' },
+      amber: { fg: '#b45309', bg: '#fffbeb', line: '#fde68a' },
+      blue: { fg: '#0879d8', bg: '#eff6ff', line: '#bfdbfe' },
+      gray: { fg: '#475467', bg: '#f2f4f7', line: '#d0d5dd' },
+    };
+    const tone = TONES[C.tone] || TONES.gray;
+    let format = 'portrait';
+    let cover = null;
+    let coverTainted = false;
+
+    const font = (weight, size) => `${weight} ${size}px ${FONT}`;
+    // Break CJK text per character and Latin text per word.
+    function lines(text, maxWidth, maxLines) {
+      const tokens = String(text).match(/[　-鿿가-힯＀-￯]|[^\s　-鿿가-힯＀-￯]+|\s+/g) || [];
+      const out = [];
+      let line = '';
+      for (const token of tokens) {
+        const test = line + token;
+        if (ctx.measureText(test).width > maxWidth && line.trim()) {
+          out.push(line.trim());
+          line = token.trimStart();
+        } else line = test;
+      }
+      if (line.trim()) out.push(line.trim());
+      if (maxLines && out.length > maxLines) {
+        const kept = out.slice(0, maxLines);
+        let last = kept[maxLines - 1];
+        while (last && ctx.measureText(last + '…').width > maxWidth) last = last.slice(0, -1);
+        kept[maxLines - 1] = last + '…';
+        return kept;
+      }
+      return out;
+    }
+    function text(content, x, y, maxWidth, lineHeight, maxLines) {
+      const ls = lines(content, maxWidth, maxLines);
+      ls.forEach((l, i) => ctx.fillText(l, x, y + i * lineHeight));
+      return y + (ls.length - 1) * lineHeight;
+    }
+    function roundRect(x, y, w, h, r) {
+      ctx.beginPath();
+      ctx.moveTo(x + r, y);
+      ctx.arcTo(x + w, y, x + w, y + h, r);
+      ctx.arcTo(x + w, y + h, x, y + h, r);
+      ctx.arcTo(x, y + h, x, y, r);
+      ctx.arcTo(x, y, x + w, y, r);
+      ctx.closePath();
+    }
+    function drawCover(x, y, w, h, r) {
+      ctx.save();
+      roundRect(x, y, w, h, r);
+      ctx.clip();
+      if (cover && !coverTainted) {
+        const scale = Math.max(w / cover.naturalWidth, h / cover.naturalHeight);
+        const dw = cover.naturalWidth * scale;
+        const dh = cover.naturalHeight * scale;
+        ctx.drawImage(cover, x + (w - dw) / 2, y + (h - dh) / 2, dw, dh);
+      } else {
+        const g = ctx.createLinearGradient(x, y, x + w, y + h);
+        g.addColorStop(0, '#182437');
+        g.addColorStop(1, '#1f8fff');
+        ctx.fillStyle = g;
+        ctx.fillRect(x, y, w, h);
+        ctx.fillStyle = 'rgba(255,255,255,.92)';
+        // Shrink the title until it fits in two lines without overflowing.
+        let size = Math.round(Math.min(h / 6, w / 6));
+        for (; size > 20; size -= 4) {
+          ctx.font = font(800, size);
+          const ls = lines(C.name, w - 80);
+          if (ls.length <= 2 && ls.every((l) => ctx.measureText(l).width <= w - 80)) break;
+        }
+        text(C.name, x + 40, y + h / 2, w - 80, Math.round(size * 1.2), 2);
+      }
+      ctx.restore();
+    }
+    function brand(x, y, size) {
+      ctx.fillStyle = '#1f8fff';
+      ctx.font = font(800, size);
+      ctx.fillText('◈ GAME AI CHECKER', x, y);
+    }
+    function statusBlock(x, y, w, scale) {
+      const pad = 34 * scale;
+      ctx.font = font(800, 24 * scale);
+      const kickerW = ctx.measureText(C.kicker).width + 32 * scale;
+      ctx.font = font(900, 62 * scale);
+      const headLines = lines(C.headline, w - pad * 2, 2);
+      ctx.font = font(500, 27 * scale);
+      const detailLines = lines(C.detail, w - pad * 2, 2);
+      const h = pad + 44 * scale + 18 * scale + headLines.length * 72 * scale + 8 * scale + detailLines.length * 38 * scale + pad - 10 * scale;
+      ctx.fillStyle = tone.bg;
+      roundRect(x, y, w, h, 22 * scale);
+      ctx.fill();
+      ctx.strokeStyle = tone.line;
+      ctx.lineWidth = 2 * scale;
+      ctx.stroke();
+      // Kicker pill
+      ctx.fillStyle = tone.fg;
+      roundRect(x + pad, y + pad, kickerW, 44 * scale, 22 * scale);
+      ctx.fill();
+      ctx.fillStyle = '#fff';
+      ctx.font = font(800, 24 * scale);
+      ctx.fillText(C.kicker, x + pad + 16 * scale, y + pad + 31 * scale);
+      // Headline
+      ctx.fillStyle = tone.fg;
+      ctx.font = font(900, 62 * scale);
+      let yy = y + pad + 44 * scale + 18 * scale + 56 * scale;
+      headLines.forEach((l, i) => ctx.fillText(l, x + pad, yy + i * 72 * scale));
+      yy += (headLines.length - 1) * 72 * scale + 50 * scale;
+      ctx.fillStyle = '#344054';
+      ctx.font = font(500, 27 * scale);
+      detailLines.forEach((l, i) => ctx.fillText(l, x + pad, yy + i * 38 * scale));
+      return y + h;
+    }
+
+    function drawPortrait() {
+      canvas.width = 1080; canvas.height = 1350;
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, 1080, 1350);
+      brand(72, 104, 30);
+      ctx.fillStyle = '#667085';
+      ctx.font = font(500, 24);
+      ctx.textAlign = 'right';
+      ctx.fillText('gameaichecker.com', 1008, 104);
+      ctx.textAlign = 'left';
+      drawCover(72, 140, 936, 438, 24);
+      ctx.fillStyle = '#182437';
+      ctx.font = font(900, 64);
+      let y = text(C.name, 72, 668, 936, 74, 2);
+      const meta = [C.developer && `${C.by} · ${C.developer}`, C.year].filter(Boolean).join('  ·  ');
+      if (meta) {
+        ctx.fillStyle = '#667085';
+        ctx.font = font(500, 28);
+        y = text(meta, 72, y + 52, 936, 36, 1);
+      }
+      y = statusBlock(72, y + 40, 936, 1);
+      ctx.fillStyle = '#667085';
+      ctx.font = font(600, 24);
+      ctx.fillText(`⚠ ${C.caveat}`, 72, y + 50);
+      ctx.strokeStyle = '#e5eaf0';
+      ctx.lineWidth = 2;
+      ctx.beginPath(); ctx.moveTo(72, 1222); ctx.lineTo(1008, 1222); ctx.stroke();
+      ctx.fillStyle = '#182437';
+      ctx.font = font(700, 26);
+      ctx.fillText(`${C.cta} →`, 72, 1276);
+      ctx.fillStyle = '#1676dd';
+      ctx.font = font(700, 24);
+      text(C.url, 72, 1312, 936, 30, 1);
+    }
+
+    function drawLandscape() {
+      canvas.width = 1200; canvas.height = 630;
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, 1200, 630);
+      drawCover(40, 40, 460, 550, 22);
+      const x = 548, w = 612;
+      brand(x, 84, 22);
+      ctx.fillStyle = '#182437';
+      ctx.font = font(900, 46);
+      let y = text(C.name, x, 148, w, 54, 2);
+      if (C.developer) {
+        ctx.fillStyle = '#667085';
+        ctx.font = font(500, 22);
+        y = text(`${C.by} · ${C.developer}${C.year ? '  ·  ' + C.year : ''}`, x, y + 38, w, 28, 1);
+      }
+      y = statusBlock(x, y + 26, w, 0.72);
+      ctx.fillStyle = '#667085';
+      ctx.font = font(600, 19);
+      ctx.fillText(`⚠ ${C.caveat}`, x, y + 36);
+      ctx.fillStyle = '#182437';
+      ctx.font = font(700, 19);
+      ctx.fillText(`${C.cta} →`, x, 556);
+      ctx.fillStyle = '#1676dd';
+      ctx.font = font(700, 19);
+      text(C.url, x, 584, w, 24, 1);
+    }
+
+    function render() {
+      format === 'landscape' ? drawLandscape() : drawPortrait();
+    }
+
+    function loadCover() {
+      return new Promise((resolve) => {
+        if (!C.image) return resolve();
+        const img = new Image();
+        img.crossOrigin = 'anonymous';
+        img.onload = () => { cover = img; resolve(); };
+        img.onerror = () => resolve();
+        img.src = C.image;
+      });
+    }
+
+    let ready = null;
+    async function prepare() {
+      ready ||= (async () => {
+        await Promise.all([loadCover(), document.fonts?.ready]);
+        render();
+        // A cross-origin cover without CORS headers would block export; fall back to the gradient.
+        try { canvas.toDataURL(); } catch { coverTainted = true; render(); }
+      })();
+      return ready;
+    }
+
+    function blob() {
+      return new Promise((resolve) => canvas.toBlob(resolve, 'image/png'));
+    }
+    const fileName = () => `${C.file}-${format}.png`;
+    const say = (t) => { msg.textContent = t; setTimeout(() => { if (msg.textContent === t) msg.textContent = ''; }, 2500); };
+
+    async function open() {
+      dialog.showModal();
+      await prepare();
+      const shareBtn = document.getElementById('cardShare');
+      try {
+        const test = new File([new Blob(['x'], { type: 'image/png' })], 'x.png', { type: 'image/png' });
+        shareBtn.hidden = !(navigator.canShare && navigator.canShare({ files: [test] }));
+      } catch { shareBtn.hidden = true; }
+    }
+
+    document.getElementById('cardOpen')?.addEventListener('click', open);
+    document.getElementById('cardClose')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+    dialog.querySelectorAll('input[name="cardFormat"]').forEach((input) => {
+      input.addEventListener('change', async () => { format = input.value; await prepare(); render(); });
+    });
+    document.getElementById('cardDownload')?.addEventListener('click', async () => {
+      await prepare();
+      const b = await blob();
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(b);
+      a.download = fileName();
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+      say(C.ui.saved);
+    });
+    document.getElementById('cardShare')?.addEventListener('click', async () => {
+      await prepare();
+      const file = new File([await blob()], fileName(), { type: 'image/png' });
+      try { await navigator.share({ files: [file], text: C.caption }); } catch {}
+    });
+    document.getElementById('cardCopy')?.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(C.caption); say(C.ui.copied); }
+      catch { window.prompt('', C.caption); }
+    });
+
+    // /games/<slug>/?card=1 opens the card directly (handy to send to a developer).
+    if (new URLSearchParams(location.search).get('card') === '1') open();
+  })();
+</script>
