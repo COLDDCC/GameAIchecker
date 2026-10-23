@@ -52,7 +52,9 @@ function areaNote(area, game) {
   return '尚未完成可靠来源核查。';
 }
 
-const statusExplanation = {
+const statusExplanation = game.humanMadeListing?.kind === 'site_owner_review' && game.humanMadeListing?.verified
+  ? '本站负责人已审查并确认本作为 0 AI；该结论属于本站审核，并非第三方独立认证。'
+  : {
   official_disclosure: '开发者已在官方渠道披露生成式 AI 使用；具体范围以原始来源为准。',
   human_made: '开发者公开声称游戏为人工制作；这是开发者声明，不是独立审计。',
   no_evidence: '本次审查未找到可核实的生成式 AI 生产声明；这不等于确认零 AI 使用。',
