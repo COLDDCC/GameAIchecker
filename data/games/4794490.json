@@ -1,7 +1,7 @@
 {
   "appId": "4794490",
   "name": "Junkyard Saints: Scrapstorm",
-  "summary": "Steam 开发者披露：游戏开发涉及 AI 辅助代码、经编辑的 AI 来源音乐，以及基于开发者撰写脚本的商业授权合成配音。开发者称游戏过程中不实时使用生成式 AI。",
+  "summary": "Steam 开发者披露：开发中用生成式 AI 辅助部分源代码，部分音乐以 AI 生成的作曲或音轨为起点再经人工编辑制作，配音使用商业授权的 AI 语音并基于开发者撰写的脚本。开发者称游戏运行时不使用生成式 AI，画面来自程序化生成与预制素材而非图像生成 AI。",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
   "steamUrl": "https://store.steampowered.com/app/4794490/",
@@ -14,36 +14,52 @@
     "voice"
   ],
   "aiAreas": {
-    "ingame": "not_stated",
+    "ingame": "claimed_none",
     "code": "used",
-    "art": "not_stated",
+    "art": "claimed_none",
     "music": "used",
     "voice": "used",
-    "writing": "not_stated",
+    "writing": "claimed_none",
     "translation": "not_stated",
     "marketing": "not_stated"
   },
   "aiAreaNotes": {
-    "code": "Steam 开发者披露编程过程中有 AI 辅助；不代表游戏本身的代码完全由 AI 生成。",
-    "music": "开发者披露使用经编辑的 AI 来源音乐作品或音轨。",
-    "voice": "开发者披露使用基于人工撰写脚本的授权合成配音；需要与游戏内实时语音生成区分。",
-    "art": "开发者未披露生成式图像 AI 用于视觉素材；程序化视觉效果不能直接视为生成式图像 AI 证据。",
-    "ingame": "开发者称不存在玩家游玩过程中即时生成的 AI 内容。"
+    "ingame": "开发者称运行时不使用生成式 AI，游玩中不会即时生成内容；游戏描述里的“AI 控制同伴”是传统游戏 AI。",
+    "code": "开发者披露部分源代码由 AI 辅助，并称均经其审查、测试和修改后整合。",
+    "art": "开发者称画面来自确定性程序化生成和预制素材，未使用图像生成 AI；未独立核实。",
+    "music": "部分音乐以 AI 生成的作曲或分轨为起点，再由开发者编辑、编曲、混音。",
+    "voice": "配音使用商业授权的 AI 语音技术，台词脚本由开发者撰写。",
+    "writing": "开发者称文本写作由其本人完成；配音所用脚本也由开发者撰写。"
   },
   "aiAreaSources": {
+    "ingame": "official",
     "code": "official",
+    "art": "official",
     "music": "official",
-    "voice": "official"
+    "voice": "official",
+    "writing": "official"
   },
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者生成式 AI 披露（开发者自述）",
       "url": "https://store.steampowered.com/app/4794490/",
-      "date": "2026-10-21",
-      "excerpt": "Steam 开发者披露：游戏开发涉及 AI 辅助代码、经编辑的 AI 来源音乐，以及基于开发者撰写脚本的商业授权合成配音。开发者称游戏过程中不实时使用生成式 AI。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露 AI 辅助部分代码、AI 起稿后人工制作的音乐和授权 AI 配音；称运行时不用生成式 AI，画面非图像生成 AI。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4794490/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "讨论区共 5 个主题，均为 bug 与玩法问题，未见 AI 相关讨论或开发者回应。"
     }
   ],
-  "reviewNote": "开发者自述而非独立审计。不能将程序化视觉效果标为生成式 AI 美术，合成配音属于预先制作的音频内容。",
-  "reviewedAt": "2026-10-21"
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。程序化生成的画面不计为生成式 AI 美术；合成配音为预先制作的音频，不是实时生成。",
+  "reviewedAt": "2026-10-23",
+  "developer": "Jan Winnenberg",
+  "publisher": "Adenga Games",
+  "steamReleaseDate": "2026-08-11",
+  "disclosureQuote": "Generative AI was used during development as a production tool for portions of the game's source code",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏首句节选，2026-10-23 复核；可能随商店页更新。"
 }

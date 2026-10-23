@@ -3,9 +3,9 @@
   "name": "Legend of Defenders",
   "developer": "KaiPlay Studio",
   "publisher": "Gamersky Games",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "以自动战斗、英雄部署与离线成长为核心的放置塔防游戏。 生成式 AI 使用范围尚未完成核查。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，讨论区和公开资料中也没有相关声明或质疑。",
   "description": "以自动战斗、英雄部署与离线成长为核心的放置塔防游戏。",
   "steamUrl": "https://store.steampowered.com/app/4740930/",
   "steamReleaseDate": "Nov 2, 2026",
@@ -21,28 +21,43 @@
   "languages": "Simplified Chinese, English, Japanese, Traditional Chinese, Korean",
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "sources": [
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/4740930/",
-      "label": "Steam 官方资料：游戏身份、玩法与发行信息",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
       "date": "2026-10-23",
-      "excerpt": "自动战斗、离线资源积累属于玩法机制，不能据此认定使用生成式 AI；正式版计划于 2026 年 11 月 2 日发行。"
+      "excerpt": "Steam 商店页（KaiPlay Studio 开发、Gamersky Games 发行，计划 2026-11-02 发售）没有 AI 生成内容披露，页面未提及 AI。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4740930/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "浏览讨论区首页 15 个主题标题（共 21 个），均为玩法、本地化与平衡讨论，未见 AI 生成内容质疑；仅检查了标题。"
     }
   ],
-  "reviewNote": "自动战斗、离线资源积累属于玩法机制，不能据此认定使用生成式 AI；正式版计划于 2026 年 11 月 2 日发行。 本页对应正式版 App ID；不将试玩版评价、发行日期或 AI 结论混用。",
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。自动战斗与离线成长是玩法设计，不等于生成式 AI。",
   "identityVerifiedAt": "2026-10-23",
   "aiAreaNotes": {
-    "ingame": "自动战斗、离线资源积累属于玩法机制，不能据此认定使用生成式 AI；正式版计划于 2026 年 11 月 2 日发行。",
-    "art": "未完成可复现来源核查；不依据画面风格推断 AI 使用。"
-  }
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "aiAreaSources": {},
+  "reviewedAt": "2026-10-23"
 }

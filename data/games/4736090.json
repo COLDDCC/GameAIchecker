@@ -3,9 +3,9 @@
   "name": "Inside Job",
   "developer": "Rafiq Studios",
   "publisher": "Rafiq Studios",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "多人合作监狱逃脱游戏，开发者为 Rafiq Studios。已核实 Steam 游戏身份及预定推出信息，尚无经本站核实的生成式 AI 使用结论。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，页面未提及 AI，也未检索到开发者声明或相关报道。",
   "steamUrl": "https://store.steampowered.com/app/4736090/",
   "genres": [
     "Co-op",
@@ -13,21 +13,43 @@
   ],
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "sources": [
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/4736090/",
-      "label": "Steam 官方游戏身份页面"
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "Steam 商店页（Rafiq Studios，计划 2026-11-02 发售）没有 AI 生成内容披露，页面未提及 AI。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4736090/discussions/",
+      "label": "Steam 社区讨论区检索（暂无讨论主题）",
+      "date": "2026-10-23",
+      "excerpt": "核查时讨论区显示 0 个主题，没有可检查的玩家讨论。"
     }
   ],
-  "reviewNote": "目前为未核查状态，不能把开发者未主动披露等同于没有使用 AI。"
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。游戏尚未发售、公开资料很少，结论可能随发售后的商店披露更新。",
+  "steamReleaseDate": "Nov 2, 2026",
+  "aiAreaSources": {},
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "reviewedAt": "2026-10-23"
 }
