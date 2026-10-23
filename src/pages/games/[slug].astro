@@ -432,6 +432,16 @@ const breadcrumbLd = {
       .section-nav { top: 58px; }
     }
 
+    /* Dressmaker: compact, keyboard-accessible per-area evidence disclosure. */
+    .area-evidence-detail summary { cursor:pointer;display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:6px 10px;border:1px solid #d8e4f2;border-radius:9px;background:#f6faff;color:#1263b1;font-size:12px;font-weight:700;list-style:none; }
+    .area-evidence-detail summary::-webkit-details-marker { display:none; }
+    .area-evidence-detail summary:hover { background:#eaf4ff;border-color:#93c5fd; }
+    .area-evidence-detail summary:focus-visible { outline:3px solid #1f8fff;outline-offset:3px; }
+    .area-evidence-detail[open] summary span { transform:rotate(180deg); }
+    .area-evidence-body { max-width:420px;padding:10px 2px 4px;line-height:1.65; }
+    .area-evidence-body p { margin:0 0 8px; }
+    .area-evidence-body a { display:inline-block;margin:3px 12px 3px 0;font-weight:600; }
+    .area-evidence-caveat { font-size:12px;color:#667085; }
     /* Taste-inspired refinement: faster comprehension, visible status, accessible controls. */
     .game-top { grid-template-columns:minmax(0,1.4fr) minmax(340px,.95fr); gap:clamp(18px,3vw,34px); }
     .info-col .status-badge { display:inline-flex; align-items:center; margin:0 0 10px; }\n    .info-col .ai-chips { display:none; }
@@ -636,7 +646,20 @@ const breadcrumbLd = {
                 <td><strong>{area.label}</strong><small>{area.en}</small>{area.state === 'used' && <a href="#evidence" class="area-provenance">{game.aiAreaSources?.[area.key] === 'third_party' ? '第三方整理 ↗' : '查看来源 ↗'}</a>}</td>
                 <td class="muted">{area.scope}</td>
                 <td><span class:list={['state', `s-${area.state}`]}>{area.stateLabel}</span></td>
-                <td class="muted">{isBroadHumanClaim && area.state === "claimed_none" && area.key !== "art" && area.key !== "marketing" ? "同一份开发者整体声明" : areaNote(area, game)}</td>
+                <td class="muted">
+                  {game.appId === 4019220 ? (
+                    <details class="area-evidence-detail">
+                      <summary aria-label={`查看${area.label}领域的证据详情`}>查看证据详情 <span aria-hidden="true">⌄</span></summary>
+                      <div class="area-evidence-body">
+                        <p>{areaNote(area, game)}</p>
+                        <p class="area-evidence-caveat">证据性质：开发者整体声明，非逐项独立审计。</p>
+                        {area.key === 'marketing' && <p>玩家提出的横幅疑问尚未独立证实，不应视为 AI 使用事实。</p>}
+                        {primarySource?.url && <a href={primarySource.url} target="_blank" rel="noopener noreferrer">开发者原始声明 ↗</a>}
+                        {area.key === 'marketing' && <a href="https://steamcommunity.com/app/4019220/discussions/0/588438959484607226/" target="_blank" rel="noopener noreferrer">玩家质疑及回应 ↗</a>}
+                      </div>
+                    </details>
+                  ) : (isBroadHumanClaim && area.state === "claimed_none" && area.key !== "art" && area.key !== "marketing" ? "同一份开发者整体声明" : areaNote(area, game))}
+                </td>
               </tr>
             ))}
           </tbody>
