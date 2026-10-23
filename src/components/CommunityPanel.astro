@@ -1,0 +1,407 @@
+---
+// Player observations panel: shows the aggregate first, then invites a vote,
+// then points to the clue channel. Observations never change the disclosure
+// verdict on the page.
+const { gameKey, gameName, appId = '', pageUrl, lang = 'zh-cn' } = Astro.props;
+
+const MIN_SAMPLE = 10;
+
+const strings = {
+  'zh-cn': {
+    eyebrow: 'COMMUNITY · 玩家观察',
+    title: '玩家怎么看这款游戏？',
+    meta: '与开发者披露分开统计',
+    lede: '社区观点仅代表玩家观察，不构成 AI 使用事实，也不会改变本页的披露结论。',
+    votes: {
+      no_ai_suspected: '没有明显 AI 痕迹',
+      some_ai_suspected: '疑似部分内容使用 AI',
+      heavy_ai_suspected: '疑似大量使用 AI',
+      all_ai_suspected: '疑似主要由 AI 生成',
+    },
+    loading: '正在读取玩家反馈…',
+    noscript: '需要启用 JavaScript 才能查看和提交玩家反馈。',
+    empty: '还没有玩家反馈，你可以成为第一个。',
+    total: '{n} 份玩家反馈',
+    people: '{n} 人',
+    small: '样本较少（不足 {min} 份），暂只显示人数，不显示百分比。',
+    ask: '你的观察是什么？',
+    submit: '提交我的观察',
+    update: '更新我的观察',
+    sending: '正在提交…',
+    mine: '你的观察：{label}。可以随时修改。',
+    saved: '已记录，谢谢参与。',
+    changed: '已更新你的观察。',
+    unchanged: '这和你之前的选择相同。',
+    pick: '请先选择一项。',
+    unavailable: '玩家反馈暂未开放，页面其他内容不受影响。',
+    errors: {
+      rate_limited: '提交过于频繁，请稍后再试。',
+      not_configured: '投票服务暂未开放，请稍后再来。',
+      invalid_feedback: '提交内容无效，请刷新页面后重试。',
+      bad_origin: '请从 gameaichecker.com 页面提交。',
+      write_failed: '服务器暂时无法保存，请稍后再试。',
+      network: '网络连接失败，请检查网络后重试。',
+      unknown: '提交失败（{code}），请稍后再试。',
+    },
+    clueTitle: '发现了具体线索？',
+    clueText: '截图位置、开发者访谈、制作记录等公开来源比投票更有价值。线索经人工核实后才会进入证据表。',
+    clueBtn: '提交线索 ↗',
+    footer: '匿名参与 · 无需登录 · 每个浏览器每款游戏计一票，可修改',
+    methodTitle: '统计方式',
+    method: '每个浏览器对同一款游戏只计一票，可随时修改。同一网络下超过 5 份的新反馈会被保留但不计入公开统计，用于减少刷票，但无法完全阻止滥用。本站不保存原始 IP，只保存加密散列值。样本不足 10 份时只显示人数。',
+    clueBody: (name, id, url) => `游戏：${name}（${id || '无 App ID'}）\n页面：${url}\n\n疑似涉及的领域（保留适用项）：美术/动画、音乐/配音、文本/翻译、UI/宣传/其他\n\n具体位置或证据链接（游戏内位置、截图来源、开发者访谈、商店页面等）：\n\n补充说明：\n\n提交即表示你理解：线索需经人工核实，不会自动成为已核实证据。\n`,
+    clueIssue: (name) => `[玩家线索] ${name}`,
+  },
+  'zh-tw': {
+    eyebrow: 'COMMUNITY · 玩家觀察',
+    title: '玩家怎麼看這款遊戲？',
+    meta: '與開發者揭露分開統計',
+    lede: '社群觀點僅代表玩家觀察，不構成 AI 使用事實，也不會改變本頁的揭露結論。',
+    votes: {
+      no_ai_suspected: '沒有明顯 AI 痕跡',
+      some_ai_suspected: '疑似部分內容使用 AI',
+      heavy_ai_suspected: '疑似大量使用 AI',
+      all_ai_suspected: '疑似主要由 AI 生成',
+    },
+    loading: '正在讀取玩家回饋…',
+    noscript: '需要啟用 JavaScript 才能查看和提交玩家回饋。',
+    empty: '還沒有玩家回饋，你可以成為第一個。',
+    total: '{n} 份玩家回饋',
+    people: '{n} 人',
+    small: '樣本較少（不足 {min} 份），暫只顯示人數，不顯示百分比。',
+    ask: '你的觀察是什麼？',
+    submit: '提交我的觀察',
+    update: '更新我的觀察',
+    sending: '正在提交…',
+    mine: '你的觀察：{label}。可以隨時修改。',
+    saved: '已記錄，謝謝參與。',
+    changed: '已更新你的觀察。',
+    unchanged: '這和你之前的選擇相同。',
+    pick: '請先選擇一項。',
+    unavailable: '玩家回饋暫未開放，頁面其他內容不受影響。',
+    errors: {
+      rate_limited: '提交過於頻繁，請稍後再試。',
+      not_configured: '投票服務暫未開放，請稍後再來。',
+      invalid_feedback: '提交內容無效，請重新整理頁面後重試。',
+      bad_origin: '請從 gameaichecker.com 頁面提交。',
+      write_failed: '伺服器暫時無法儲存，請稍後再試。',
+      network: '網路連線失敗，請檢查網路後重試。',
+      unknown: '提交失敗（{code}），請稍後再試。',
+    },
+    clueTitle: '發現了具體線索？',
+    clueText: '截圖位置、開發者訪談、製作紀錄等公開來源比投票更有價值。線索經人工核實後才會進入證據表。',
+    clueBtn: '提交線索 ↗',
+    footer: '匿名參與 · 無需登入 · 每個瀏覽器每款遊戲計一票，可修改',
+    methodTitle: '統計方式',
+    method: '每個瀏覽器對同一款遊戲只計一票，可隨時修改。同一網路下超過 5 份的新回饋會被保留但不計入公開統計，用於減少灌票，但無法完全阻止濫用。本站不儲存原始 IP，只儲存加密雜湊值。樣本不足 10 份時只顯示人數。',
+    clueBody: (name, id, url) => `遊戲：${name}（${id || '無 App ID'}）\n頁面：${url}\n\n疑似涉及的領域（保留適用項）：美術/動畫、音樂/配音、文字/翻譯、UI/宣傳/其他\n\n具體位置或證據連結：\n\n補充說明：\n\n提交即表示你理解：線索需經人工核實，不會自動成為已核實證據。\n`,
+    clueIssue: (name) => `[玩家線索] ${name}`,
+  },
+  en: {
+    eyebrow: 'COMMUNITY · PLAYER OBSERVATIONS',
+    title: 'What do players notice?',
+    meta: 'Counted separately from developer disclosure',
+    lede: 'Player observations are impressions, not facts about AI use, and never change the disclosure verdict on this page.',
+    votes: {
+      no_ai_suspected: 'No obvious signs of AI',
+      some_ai_suspected: 'Some content looks AI-made',
+      heavy_ai_suspected: 'A lot looks AI-made',
+      all_ai_suspected: 'Looks mostly AI-generated',
+    },
+    loading: 'Loading player observations…',
+    noscript: 'JavaScript is needed to view and submit player observations.',
+    empty: 'No observations yet. Be the first.',
+    total: '{n} player observations',
+    people: '{n}',
+    small: 'Small sample (under {min}): showing counts only, no percentages.',
+    ask: 'What did you notice?',
+    submit: 'Submit my observation',
+    update: 'Update my observation',
+    sending: 'Submitting…',
+    mine: 'Your observation: {label}. You can change it any time.',
+    saved: 'Recorded. Thanks for taking part.',
+    changed: 'Your observation was updated.',
+    unchanged: 'That is the same as your earlier choice.',
+    pick: 'Choose an option first.',
+    unavailable: 'Player observations are not open yet. The rest of the page is unaffected.',
+    errors: {
+      rate_limited: 'Too many submissions. Please try again later.',
+      not_configured: 'Voting is not open yet. Please check back later.',
+      invalid_feedback: 'Invalid submission. Refresh the page and try again.',
+      bad_origin: 'Please submit from a gameaichecker.com page.',
+      write_failed: 'The server could not save right now. Please try again later.',
+      network: 'Network error. Check your connection and try again.',
+      unknown: 'Submission failed ({code}). Please try again later.',
+    },
+    clueTitle: 'Found something specific?',
+    clueText: 'A screenshot location, developer interview or production record is worth more than a vote. Clues are reviewed by a person before they enter the evidence table.',
+    clueBtn: 'Submit a clue ↗',
+    footer: 'Anonymous · No account · One vote per browser per game, changeable',
+    methodTitle: 'How this is counted',
+    method: 'Each browser counts once per game and can change its vote. More than 5 new observations from one network are kept but left out of public counts to limit vote stuffing; this cannot stop all abuse. Raw IP addresses are never stored, only keyed hashes. Below 10 observations, only counts are shown.',
+    clueBody: (name, id, url) => `Game: ${name} (${id || 'no App ID'})\nPage: ${url}\n\nArea(s) (keep what applies): art/animation, music/voice, text/translation, UI/marketing/other\n\nExact location or evidence link:\n\nNotes:\n\nI understand clues are reviewed by a person and do not automatically become verified evidence.\n`,
+    clueIssue: (name) => `[Player clue] ${name}`,
+  },
+  ja: {
+    eyebrow: 'COMMUNITY · プレイヤーの観察',
+    title: 'プレイヤーはどう見ている？',
+    meta: '開発元の申告とは別に集計',
+    lede: 'コミュニティの意見はプレイヤーの印象であり、AI 使用の事実ではありません。このページの判定にも影響しません。',
+    votes: {
+      no_ai_suspected: '目立った AI の痕跡はない',
+      some_ai_suspected: '一部に AI 使用の疑い',
+      heavy_ai_suspected: '多くの部分に AI 使用の疑い',
+      all_ai_suspected: '主に AI 生成の疑い',
+    },
+    loading: 'プレイヤーの観察を読み込み中…',
+    noscript: '表示と投稿には JavaScript が必要です。',
+    empty: 'まだ投稿はありません。最初の投稿者になりましょう。',
+    total: '{n} 件の観察',
+    people: '{n} 件',
+    small: 'サンプルが少ないため（{min} 件未満）、件数のみ表示しています。',
+    ask: 'あなたの観察は？',
+    submit: '観察を送信',
+    update: '観察を更新',
+    sending: '送信中…',
+    mine: 'あなたの観察：{label}。いつでも変更できます。',
+    saved: '記録しました。ご協力ありがとうございます。',
+    changed: '観察を更新しました。',
+    unchanged: '前回と同じ選択です。',
+    pick: '選択肢を選んでください。',
+    unavailable: 'プレイヤーの観察はまだ公開されていません。ページの他の内容には影響しません。',
+    errors: {
+      rate_limited: '送信が多すぎます。しばらくしてから再試行してください。',
+      not_configured: '投票はまだ公開されていません。',
+      invalid_feedback: '無効な送信です。ページを再読み込みしてください。',
+      bad_origin: 'gameaichecker.com のページから送信してください。',
+      write_failed: 'サーバーが保存できませんでした。しばらくしてから再試行してください。',
+      network: 'ネットワークエラーです。接続を確認してください。',
+      unknown: '送信に失敗しました（{code}）。',
+    },
+    clueTitle: '具体的な手がかりを見つけた？',
+    clueText: 'スクリーンショットの場所、開発者インタビュー、制作記録などは投票より役立ちます。手がかりは人の確認を経てから根拠表に追加されます。',
+    clueBtn: '手がかりを送る ↗',
+    footer: '匿名 · ログイン不要 · ブラウザごとに 1 票、変更可',
+    methodTitle: '集計方法',
+    method: '同じゲームにはブラウザごとに 1 票で、いつでも変更できます。同一ネットワークから 5 件を超える新規投稿は保存されますが公開集計には含めません。不正を完全には防げません。生の IP アドレスは保存せず、鍵付きハッシュのみ保存します。10 件未満のときは件数のみ表示します。',
+    clueBody: (name, id, url) => `ゲーム：${name}（${id || 'App ID なし'}）\nページ：${url}\n\n該当する分野（該当するものを残す）：アート/アニメーション、音楽/音声、テキスト/翻訳、UI/宣伝/その他\n\n具体的な場所または根拠リンク：\n\n補足：\n\n手がかりは人による確認が必要で、自動的に確認済みの根拠にはならないことを理解しています。\n`,
+    clueIssue: (name) => `[プレイヤーの手がかり] ${name}`,
+  },
+};
+
+const L = strings[lang] || strings.en;
+const clueUrl = `https://github.com/COLDDCC/GameAIchecker/issues/new?title=${encodeURIComponent(L.clueIssue(gameName))}&body=${encodeURIComponent(L.clueBody(gameName, appId, pageUrl))}`;
+const clientStrings = { ...L, clueBody: undefined, clueIssue: undefined, minSample: MIN_SAMPLE };
+const voteEntries = Object.entries(L.votes);
+---
+
+<section class="section community" id="community" data-game-key={gameKey}>
+  <div class="section-head">
+    <div><div class="eyebrow">{L.eyebrow}</div><h2>{L.title}</h2></div>
+    <div class="section-meta">{L.meta}</div>
+  </div>
+  <p class="section-lede">{L.lede}</p>
+
+  <div class="cp-grid">
+    <div class="cp-results" aria-live="polite">
+      <div class="cp-total"><strong id="cpTotal">–</strong><span id="cpTotalLabel">{L.loading}</span></div>
+      <ul class="cp-bars" id="cpBars">
+        {voteEntries.map(([code, label]) => (
+          <li data-vote={code}>
+            <div class="cp-bar-head"><span>{label}</span><span class="cp-val">–</span></div>
+            <div class="cp-track"><div class="cp-fill" style="width:0%"></div></div>
+          </li>
+        ))}
+      </ul>
+      <p class="cp-note" id="cpNote" hidden></p>
+      <noscript><p class="cp-note">{L.noscript}</p></noscript>
+    </div>
+
+    <form class="cp-form" id="cpForm" hidden>
+      <fieldset>
+        <legend>{L.ask}</legend>
+        {voteEntries.map(([code, label]) => (
+          <label class="cp-choice">
+            <input type="radio" name="vote" value={code} />
+            <span>{label}</span>
+          </label>
+        ))}
+      </fieldset>
+      <button class="btn primary cp-submit" type="submit">{L.submit}</button>
+      <p class="cp-msg" id="cpMsg" role="status"></p>
+      <p class="cp-foot">{L.footer}</p>
+    </form>
+    <p class="cp-unavailable" id="cpUnavailable" hidden>{L.unavailable}</p>
+  </div>
+
+  <div class="cp-clue">
+    <div>
+      <strong>{L.clueTitle}</strong>
+      <p>{L.clueText}</p>
+    </div>
+    <a class="btn" href={clueUrl} target="_blank" rel="noopener noreferrer">{L.clueBtn}</a>
+  </div>
+
+  <details class="cp-method">
+    <summary>{L.methodTitle}</summary>
+    <p>{L.method}</p>
+  </details>
+</section>
+
+<style>
+  .community [hidden] { display: none !important; }
+  .community .cp-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+  .cp-results, .cp-form, .cp-unavailable { border: 1px solid var(--line); border-radius: 14px; padding: 16px; background: #fff; margin: 0; }
+  .cp-total { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; }
+  .cp-total strong { font-size: 28px; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .cp-total span { color: var(--muted); font-size: 13px; }
+  .cp-bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .cp-bar-head { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; margin-bottom: 4px; }
+  .cp-val { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .cp-track { height: 8px; border-radius: 99px; background: var(--gray-bg); overflow: hidden; }
+  .cp-fill { height: 100%; border-radius: 99px; background: var(--blue); transition: width .4s ease; }
+  .cp-bars li.mine .cp-bar-head span:first-child { font-weight: 700; }
+  .cp-bars li.mine .cp-bar-head span:first-child::after { content: ' ✓'; color: var(--blue-dark); }
+  .cp-results.small .cp-track { display: none; }
+  .cp-note { margin: 12px 0 0; font-size: 12px; color: var(--amber); background: var(--amber-bg); border-radius: 8px; padding: 8px 10px; }
+  .cp-form fieldset { border: 0; margin: 0 0 12px; padding: 0; display: grid; gap: 8px; }
+  .cp-form legend { font-weight: 700; font-size: 14px; margin-bottom: 8px; padding: 0; }
+  .cp-choice { display: flex; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; font-size: 14px; cursor: pointer; }
+  .cp-choice:hover { border-color: #c7d2e0; }
+  .cp-choice:has(input:checked) { border-color: var(--blue); background: var(--blue-bg); }
+  .cp-choice input { accent-color: var(--blue); margin: 0; }
+  .cp-submit { width: 100%; justify-content: center; }
+  .cp-submit:disabled { opacity: .6; cursor: wait; }
+  .cp-msg { min-height: 1.4em; margin: 10px 0 0; font-size: 13px; color: var(--gray); }
+  .cp-msg.error { color: #b42318; }
+  .cp-msg.ok { color: var(--green); }
+  .cp-foot { margin: 6px 0 0; font-size: 12px; color: var(--muted); }
+  .cp-unavailable { color: var(--muted); font-size: 13px; background: var(--soft); }
+  .cp-clue { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 18px; padding: 14px 16px; border-radius: 14px; background: var(--soft); border: 1px dashed #cbd5e1; }
+  .cp-clue p { margin: 4px 0 0; font-size: 13px; color: var(--muted); max-width: 640px; }
+  .cp-clue .btn { white-space: nowrap; }
+  .cp-method { margin-top: 12px; font-size: 12px; color: var(--muted); }
+  .cp-method summary { cursor: pointer; }
+  .cp-method p { margin: 6px 0 0; max-width: 820px; }
+  @media (max-width: 760px) {
+    .community .cp-grid { grid-template-columns: 1fr; }
+    .cp-clue { flex-direction: column; align-items: stretch; }
+  }
+</style>
+
+<script is:inline define:vars={{ S: clientStrings }}>
+  (() => {
+    const root = document.getElementById('community');
+    const key = root?.dataset.gameKey || '';
+    if (!root || !key) return;
+    const $ = (id) => document.getElementById(id);
+    const form = $('cpForm');
+    const msg = $('cpMsg');
+    const submit = form.querySelector('button[type="submit"]');
+    const results = root.querySelector('.cp-results');
+    const fmt = (s, vars) => s.replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? '');
+
+    function voterId() {
+      try {
+        let id = localStorage.getItem('gac-voter');
+        if (!id) {
+          id = crypto.randomUUID();
+          localStorage.setItem('gac-voter', id);
+        }
+        return id;
+      } catch {
+        window.__gacVoter ||= crypto.randomUUID();
+        return window.__gacVoter;
+      }
+    }
+    const voter = voterId();
+    let mine = null;
+
+    function say(text, kind = '') {
+      msg.textContent = text;
+      msg.className = `cp-msg ${kind}`;
+    }
+
+    function render(data) {
+      const counts = data.counts || {};
+      const total = Number(data.total) || 0;
+      const small = total < S.minSample;
+      mine = data.mine || null;
+      $('cpTotal').textContent = String(total);
+      $('cpTotalLabel').textContent = total ? fmt(S.total, { n: '' }).trim() : S.empty;
+      results.classList.toggle('small', small);
+      root.querySelectorAll('#cpBars li').forEach((li) => {
+        const n = Number(counts[li.dataset.vote]) || 0;
+        const pct = total ? Math.round((n / total) * 100) : 0;
+        li.querySelector('.cp-val').textContent = small ? fmt(S.people, { n }) : `${pct}% · ${fmt(S.people, { n })}`;
+        li.querySelector('.cp-fill').style.width = small ? '0%' : `${pct}%`;
+        li.classList.toggle('mine', li.dataset.vote === mine);
+      });
+      const note = $('cpNote');
+      note.hidden = !(total > 0 && small);
+      note.textContent = fmt(S.small, { min: S.minSample });
+      if (mine) {
+        const input = form.querySelector(`input[value="${mine}"]`);
+        if (input) input.checked = true;
+        submit.textContent = S.update;
+      } else {
+        submit.textContent = S.submit;
+      }
+    }
+
+    function unavailable() {
+      form.hidden = true;
+      $('cpUnavailable').hidden = false;
+    }
+
+    fetch(`/api/feedback?game=${encodeURIComponent(key)}&voter=${encodeURIComponent(voter)}`, { headers: { accept: 'application/json' } })
+      .then((r) => r.json().then((d) => ({ ok: r.ok, d })))
+      .then(({ ok, d }) => {
+        if (!ok || d.error) throw new Error(d.error || 'unavailable');
+        render(d);
+        if (d.writable === false) return unavailable();
+        form.hidden = false;
+        if (mine) say(fmt(S.mine, { label: S.votes[mine] }));
+      })
+      .catch(() => {
+        // Backend unreachable or not configured: show one calm notice instead
+        // of an empty chart and a form that can only fail.
+        results.hidden = true;
+        unavailable();
+      });
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const vote = form.querySelector('input[name="vote"]:checked')?.value;
+      if (!vote) return say(S.pick, 'error');
+      if (vote === mine) return say(S.unchanged);
+      const label = submit.textContent;
+      submit.disabled = true;
+      submit.textContent = S.sending;
+      say('');
+      try {
+        const response = await fetch('/api/feedback', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json', accept: 'application/json' },
+          body: JSON.stringify({ game: key, vote, voter }),
+        });
+        let data = {};
+        try { data = await response.json(); } catch {}
+        if (!response.ok) {
+          const code = data.error || `HTTP ${response.status}`;
+          say(S.errors[code] || fmt(S.errors.unknown, { code }), 'error');
+          submit.textContent = label;
+          return;
+        }
+        const wasChange = Boolean(mine);
+        render(data);
+        say(wasChange ? S.changed : S.saved, 'ok');
+      } catch {
+        say(S.errors.network, 'error');
+        submit.textContent = label;
+      } finally {
+        submit.disabled = false;
+      }
+    });
+  })();
+</script>
