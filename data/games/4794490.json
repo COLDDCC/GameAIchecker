@@ -1,0 +1,49 @@
+{
+  "appId": "4794490",
+  "name": "Junkyard Saints: Scrapstorm",
+  "summary": "Steam 开发者披露：游戏开发涉及 AI 辅助代码、经编辑的 AI 来源音乐，以及基于开发者撰写脚本的商业授权合成配音。开发者称游戏过程中不实时使用生成式 AI。",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "steamUrl": "https://store.steampowered.com/app/4794490/",
+  "genres": [
+    "Roguelike"
+  ],
+  "aiUsageCategories": [
+    "code",
+    "music",
+    "voice"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "used",
+    "art": "not_stated",
+    "music": "used",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "code": "Steam 开发者披露编程过程中有 AI 辅助；不代表游戏本身的代码完全由 AI 生成。",
+    "music": "开发者披露使用经编辑的 AI 来源音乐作品或音轨。",
+    "voice": "开发者披露使用基于人工撰写脚本的授权合成配音；需要与游戏内实时语音生成区分。",
+    "art": "开发者未披露生成式图像 AI 用于视觉素材；程序化视觉效果不能直接视为生成式图像 AI 证据。",
+    "ingame": "开发者称不存在玩家游玩过程中即时生成的 AI 内容。"
+  },
+  "aiAreaSources": {
+    "code": "official",
+    "music": "official",
+    "voice": "official"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者生成式 AI 披露（开发者自述）",
+      "url": "https://store.steampowered.com/app/4794490/",
+      "date": "2026-10-21",
+      "excerpt": "Steam 开发者披露：游戏开发涉及 AI 辅助代码、经编辑的 AI 来源音乐，以及基于开发者撰写脚本的商业授权合成配音。开发者称游戏过程中不实时使用生成式 AI。"
+    }
+  ],
+  "reviewNote": "开发者自述而非独立审计。不能将程序化视觉效果标为生成式 AI 美术，合成配音属于预先制作的音频内容。",
+  "reviewedAt": "2026-10-21"
+}
