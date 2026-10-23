@@ -14,7 +14,8 @@ for (const id of ids) {
   if (!existsSync(src)) throw new Error('Missing Astro output: ' + src);
   let html = readFileSync(src, 'utf8');
   // Never mistake the lightweight historical HTML for the complete Astro layout.
-  const required = ['class="game-top"', 'class="section-nav"', 'id="evidence"', 'class="thumbs"'];
+  const required = ['class="game-top"', 'class="section-nav"', 'id="evidence"'];
+  if (game.images.length > 1) required.push('id="thumbs"');
   for (const marker of required) {
     if (!html.includes(marker)) throw new Error('Missing full template marker ' + marker + ' for ' + id);
   }
