@@ -71,6 +71,16 @@ async function downloadImage(id) {
   const dir = join(outDir, id);
   const path = join(dir, 'header.jpg');
   if (existsSync(path)) return { id, status: 'exists', path };
+  // A complete persisted gallery already supplies this game's cover and screenshots.
+  try {
+    const gallery = JSON.parse(readFileSync(join(dir, 'gallery.json'), 'utf8'));
+    if (gallery.images?.length && gallery.images.every(image =>
+      ['src', 'full'].every(key => typeof image[key] === 'string' &&
+        image[key].startsWith(`/images/steam/apps/${id}/`) &&
+        existsSync(join(root, 'public', image[key].split('?')[0]))))) {
+      return { id, status: 'exists', path: join(dir, 'gallery.json') };
+    }
+  } catch { /* No complete gallery: try the legacy cover URLs below. */ }
 
   mkdirSync(dir, { recursive: true });
   const urls = [

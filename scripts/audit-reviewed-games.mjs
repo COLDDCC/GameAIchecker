@@ -3,7 +3,7 @@ import { join } from 'node:path';
 
 const root = process.cwd();
 const ids = ['4576390', '4982910', '5182120', '5004560', '4794490', '5391500',
-  '5323250', '1889620', '2800150', '4544110', '3519780', '3782550', '4106650', '3670600', '5053550', '4955250', '4348910', '5120010', '5315310', '3517740', '2295170', '5086350', '4598530', '2870790', '4824220', '4736090', '5037200', '3629430', '5117550', '2861080', '4541470'];
+  '5323250', '1889620', '2800150', '4544110', '3519780', '3782550', '4106650', '3670600', '5053550', '4955250', '4348910', '5120010', '5315310', '3517740', '2295170', '5086350', '4598530', '2870790', '4824220', '4736090', '5037200', '3629430', '5117550', '2861080', '4541470', '4868310', '1853440', '3642910', '4900890', '3680170', '4740930', '5175310', '4487060', '4163270', '3421660'];
 const areaKeys = new Set(['ingame', 'code', 'art', 'music', 'voice', 'writing', 'translation', 'marketing']);
 const slugify = name => String(name).normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
   .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0,64);
@@ -13,7 +13,13 @@ for (const id of ids) {
   const slug = id + '-' + slugify(game.name);
   const error = message => errors.push(slug + ': ' + message);
   if (String(game.appId) !== id) error('App ID mismatch');
-  if (!game.sources?.some(s => s.url === 'https://store.steampowered.com/app/' + id + '/')) error('Steam source missing');
+  if (!game.sources?.some(s => {
+    try {
+      const url = new URL(s.url);
+      return url.protocol === 'https:' && url.hostname === 'store.steampowered.com' &&
+        url.pathname.split('/')[1] === 'app' && url.pathname.split('/')[2] === id;
+    } catch { return false; }
+  })) error('Steam source missing');
   if (!Array.isArray(game.aiUsageCategories) || !game.aiUsageCategories.every(k => areaKeys.has(k) && game.aiAreas?.[k] === 'used') || (game.category === 'official_ai_disclosure' && game.aiUsageCategories.length === 0))
     error('AI area states inconsistent');
   const htmlPath = join(root, 'dist', 'games', slug, 'index.html');
@@ -42,5 +48,5 @@ if (errors.length) {
   errors.forEach(e => console.error(' - ' + e));
   process.exitCode = 1;
 } else {
-  console.log('[audit-reviewed-games] PASS: 31 games have sources, Astro output and local images');
+  console.log(`[audit-reviewed-games] PASS: ${ids.length} games have sources, Astro output and local images`);
 }

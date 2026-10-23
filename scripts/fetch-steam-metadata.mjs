@@ -50,7 +50,9 @@ async function fetchOne(id) {
   ]);
 
   if (appResult.status === 'rejected') throw appResult.reason;
-  const entry = appResult.value?.[id];
+  let entry = appResult.value?.[id];
+  // Some games are unavailable in the CN storefront; retain their public metadata.
+  if (!entry?.success) entry = (await fetchJson(`https://store.steampowered.com/api/appdetails?appids=${id}&l=english&cc=us`))?.[id];
   const data = entry?.success ? entry.data : null;
   if (!data) throw new Error('Steam returned no app data');
 
