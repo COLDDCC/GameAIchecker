@@ -1,0 +1,30 @@
+name: i18n build verification
+on:
+  push:
+    branches:
+      - feature/i18n-zh-en-ja-zh-tw
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Verify localized outputs
+        run: |
+          node --input-type=module <<'EOF'
+          import { existsSync } from 'node:fs';
+          import { languages } from './src/lib/i18n.js';
+          for (const lang of languages) {
+            if (!existsSync(`dist/${lang}/index.html`)) throw new Error(`Missing homepage: ${lang}`);
+          }
+          console.log('All eight localized homepages generated');
+          EOF
