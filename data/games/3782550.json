@@ -1,0 +1,49 @@
+{
+  "appId": "3782550",
+  "name": "Another Where",
+  "developer": "Milone Roberto",
+  "releaseDate": "2025-11-11",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "开发者在 Steam 披露，游戏及 Steam 商店页的一些图像和音效由 AI 工具制作。这是开发者自述，不代表全部美术、全部音频或游戏运行时使用生成式 AI。",
+  "steamUrl": "https://store.steampowered.com/app/3782550/",
+  "genres": [
+    "Roguelike"
+  ],
+  "aiUsageCategories": [
+    "art",
+    "music",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "unreviewed",
+    "code": "unreviewed",
+    "art": "used",
+    "music": "used",
+    "voice": "unreviewed",
+    "writing": "unreviewed",
+    "translation": "unreviewed",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露游戏中的部分图像使用 AI 工具制作。",
+    "music": "开发者披露游戏声音素材借助 AI 生成；这里指音效相关素材，不代表全部配乐。",
+    "marketing": "Steam 页面图像包含开发者披露的 AI 辅助制作内容。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "marketing": "official"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者 AI 使用披露",
+      "url": "https://store.steampowered.com/app/3782550/",
+      "date": "2026-10-21",
+      "excerpt": "开发者在 Steam 披露，游戏及 Steam 商店页的一些图像和音效由 AI 工具制作。这是开发者自述，不代表全部美术、全部音频或游戏运行时使用生成式 AI。"
+    }
+  ],
+  "reviewNote": "数据基于 Steam 开发者自述整理，属于来源归属的公开声明，不是独立技术审计。",
+  "reviewedAt": "2026-10-21"
+}
