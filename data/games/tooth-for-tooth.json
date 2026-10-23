@@ -15,12 +15,19 @@
       "url": "https://steamdb.info/app/5012840/",
       "label": "SteamDB：发行日期等元数据交叉核查",
       "type": "third_party"
+    },
+    {
+      "url": "https://gamedb.ai/games/5012840-tooth-for-tooth",
+      "label": "GameDB.ai：Tooth for Tooth 八领域 AI 使用分类（2026-09-30 检查记录）",
+      "type": "third_party",
+      "date": "2026-09-30",
+      "excerpt": "第三方整理：Art、Music & SFX、Writing、Translation、Marketing 五个领域标为 Partial；其余三个领域为 Not stated。"
     }
   ],
-  "reviewNote": "Steam 商店页面已确认存在 AI 使用披露，但可访问的原文仅为笼统说明，不能由此独立确认 Art、Music、Writing、Translation、Marketing 等细分领域。第三方站点对领域的具体分类与 Steam 页面可见原文不同，暂不将其计入已核实领域。Steam 商店页面标注 2026-09-30，SteamDB 记录 2026-10-02；发行日期存在来源差异，待复核。",
+  "reviewNote": "五个蓝色领域来自 GameDB.ai 对 Steam 开发者声明的第三方分类；本站尚未独立验证其领域划分。Steam 官方披露与第三方分类应分别呈现。蓝色表示有注明来源的使用报告，不代表独立审计或内容占比。",
   "developer": "Outlane",
   "publisher": "Outlane",
-  "steamReleaseDate": "2026-09-30",
+  "steamReleaseDate": "2026-10-02",
   "genres": [
     "Action",
     "Indie"
@@ -40,16 +47,30 @@
     "Steam Leaderboards"
   ],
   "languages": "English, French, Italian, German, Spanish (Spain), Indonesian, Japanese, Korean, Portuguese (Brazil), Russian, Simplified Chinese, Spanish (Latin America), Traditional Chinese, Turkish, Polish, Portuguese (Portugal)",
-  "disclosureQuote": "We used generative AI tools as part of our creative process, alongside our team’s direction, editing, and refinement.",
-  "disclosureQuoteNote": "Steam 商店开发者披露；该原文未逐项列出使用领域",
+  "disclosureQuote": "",
+  "disclosureQuoteNote": "",
   "aiAreas": {
     "ingame": "not_stated",
     "code": "not_stated",
-    "art": "not_stated",
-    "music": "not_stated",
+    "art": "used",
+    "music": "used",
     "voice": "not_stated",
-    "writing": "not_stated",
-    "translation": "not_stated",
-    "marketing": "not_stated"
+    "writing": "used",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaSources": {
+    "art": "third_party",
+    "music": "third_party",
+    "writing": "third_party",
+    "translation": "third_party",
+    "marketing": "third_party"
+  },
+  "aiAreaNotes": {
+    "art": "GameDB.ai 根据其所载开发者披露，将美术与动画标记为 Partial。本站未独立核实。",
+    "music": "GameDB.ai 将音频素材标记为 Partial；不等于确认所有音乐和音效均由 AI 生成。",
+    "writing": "GameDB.ai 将文本使用标记为 Partial，尚未经本站独立核实。",
+    "translation": "GameDB.ai 将本地化标记为 Partial，尚未经本站独立核实。",
+    "marketing": "GameDB.ai 将营销宣传素材标记为 Partial，尚未经本站独立核实。"
   }
 }
