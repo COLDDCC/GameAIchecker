@@ -2,9 +2,9 @@
   "appId": "4598530",
   "name": "Otherealm",
   "developer": "CASCHA GAMES",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "CASCHA GAMES 的校园悬疑 AVG，结合漫画叙事、场景探索、解谜与多结局。已加入人工美术推荐区，完整手绘及零生成式 AI 声明尚待原始来源核实。",
+  "category": "human_made",
+  "verification": "site_owner_review_passed",
+  "summary": "《异界·魔校》已通过 Game AI Checker 站内 0 AI 人工审核。详细审查材料尚未公开；此为本站审核结论，非第三方独立认证。",
   "steamUrl": "https://store.steampowered.com/app/4598530/",
   "genres": [
     "冒险",
@@ -12,14 +12,14 @@
   ],
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "claimed_none",
+    "marketing": "claimed_none"
   },
   "sources": [
     {
@@ -40,9 +40,15 @@
       "label": "用户提交的人工美术推荐（原始声明链接待补）",
       "date": "2026-10-23",
       "excerpt": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。"
+    },
+    {
+      "type": "community",
+      "label": "Game AI Checker 站点负责人审核结论",
+      "date": "2026-10-23",
+      "excerpt": "站点负责人确认该游戏通过全游戏范围 0 AI 审查；详细公开审查材料待补。"
     }
   ],
-  "reviewNote": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。 本页采用对应 App ID 的官方图片，不以画风或玩家标签认定 AI 使用；代码、音乐、配音、文案、翻译与营销等领域均保留未核查状态。",
+  "reviewNote": "2026-10-23，站点负责人确认该游戏通过 0 AI 全游戏范围人工审核。此前人工美术推荐线索与来源核查记录保留在 sources；站内审核并不等同于第三方独立认证。",
   "originalName": "异界·魔校",
   "publisher": "CASCHA GAMES",
   "description": "高中生乔茜被困异界校园，需探索场景、收集线索、破解规则并完成生存测试；关键选择影响故事分支与结局。",
@@ -64,12 +70,14 @@
   "steamReleaseDate": "即将宣布",
   "identityVerifiedAt": "2026-10-23",
   "humanMadeListing": {
-    "kind": "community_nomination",
-    "scope": "art",
-    "label": "人工美术推荐 · 原始声明待核实",
-    "labelEn": "Handmade-art nomination · source pending",
-    "summary": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。",
-    "verified": false
+    "kind": "site_owner_review",
+    "scope": "whole_game",
+    "verified": true,
+    "verifiedBy": "site_owner",
+    "reviewedAt": "2026-10-23",
+    "label": "0 AI · 站内审核通过",
+    "labelEn": "0 AI · Site review passed",
+    "summary": "站点负责人确认通过全游戏范围 0 AI 审核；非第三方独立认证。"
   },
   "links": [
     {
@@ -82,6 +90,14 @@
     }
   ],
   "aiAreaNotes": {
-    "art": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。 本项属于推荐线索，不是零 AI 认证。"
-  }
+    "ingame": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "code": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "art": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "music": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "voice": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "writing": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "translation": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "marketing": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。"
+  },
+  "reviewedAt": "2026-10-23"
 }
