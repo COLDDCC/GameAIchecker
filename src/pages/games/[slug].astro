@@ -1,4 +1,5 @@
 ---
+import CommunityPanel from '../../components/CommunityPanel.astro';
 import { getAllGames } from '../../lib/games.js';
 
 export function getStaticPaths() {
@@ -394,9 +395,6 @@ const breadcrumbLd = {
     .game-card-body span { font-size: 11px; color: var(--muted); }
     .game-card-body small { font-size: 11px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
     .mini-status { align-self: flex-start; font-size: 10px; font-weight: 700; border-radius: 999px; padding: 2px 7px; margin-top: 4px; }
-    .vote-form { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
-    .vote-form select { padding: 10px 12px; border: 1px solid var(--line); border-radius: 9px; background: #fff; color: var(--ink); font: inherit; font-size: 13px; min-width: 220px; }
-    .vote-counts { display: grid; gap: 6px; margin-top: 8px; font-size: 13px; color: var(--muted); }
     .source-list { list-style: none; padding: 0; margin: 0; display: grid; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
     .source-list li { display: grid; grid-template-columns: 120px minmax(0, 1fr) auto; gap: 12px; padding: 11px 14px; border-bottom: 1px solid var(--line); font-size: 12px; align-items: center; }
     .source-list li:last-child { border-bottom: 0; }
@@ -779,26 +777,7 @@ const breadcrumbLd = {
       )}
     </section>
 
-    <section class="section" id="community">
-      <div class="section-head">
-        <div><div class="eyebrow">COMMUNITY</div><h2>玩家印象</h2></div>
-        <div class="section-meta">与官方披露分开统计</div>
-      </div>
-      <p class="section-lede">玩家的视觉印象不等于 AI 使用事实。投票结果不会改变开发者披露结论。</p>
-      <form id="voteForm" class="vote-form">
-        <select id="voteSelect" required aria-label="选择你的判断">
-          <option value="">你的判断…</option>
-          <option value="no_ai_suspected">我认为没有使用 AI</option>
-          <option value="some_ai_suspected">我认为部分使用 AI</option>
-          <option value="heavy_ai_suspected">我认为大量使用 AI</option>
-          <option value="all_ai_suspected">我认为几乎全程使用 AI</option>
-        </select>
-        <button class="btn primary" type="submit">提交</button>
-      </form>
-      <p id="voteMessage" class="muted" role="status"></p>
-      <div id="voteCounts" class="vote-counts"></div>
-      <p class="source-line">匿名反馈暂不可用时不会影响页面其他内容。每个网络对同一游戏仅允许一票。</p>
-    </section>
+    <CommunityPanel gameKey={game.key} gameName={game.name} appId={game.appId || ''} pageUrl={canonical} lang={'zh-cn'} />
 
     <section class="section" id="sources">
       <div class="section-head"><div><div class="eyebrow">SOURCES</div><h2>来源与纠错</h2></div></div>
@@ -1059,66 +1038,6 @@ const breadcrumbLd = {
           flash('App ID 已复制');
         } catch {}
       });
-
-      const voteForm = document.getElementById('voteForm');
-      const voteMessage = document.getElementById('voteMessage');
-      const voteCounts = document.getElementById('voteCounts');
-      const voteSelect = document.getElementById('voteSelect');
-      const voteNames = {
-        no_ai_suspected: '认为没有使用 AI',
-        some_ai_suspected: '认为部分使用 AI',
-        heavy_ai_suspected: '认为大量使用 AI',
-        all_ai_suspected: '认为几乎全程使用 AI',
-      };
-      function showCounts(counts) {
-        if (!voteCounts) return;
-        voteCounts.replaceChildren();
-        for (const [code, label] of Object.entries(voteNames)) {
-          const value = Number(counts?.[code] || 0);
-          if (!value) continue;
-          const row = document.createElement('div');
-          row.textContent = `${value} 位玩家${label}`;
-          voteCounts.append(row);
-        }
-      }
-      if (voteForm && key) {
-        fetch(`/api/feedback?game=${encodeURIComponent(key)}`)
-          .then((response) => (response.ok ? response.json() : Promise.reject()))
-          .then((data) => {
-            showCounts(data.counts);
-            if (voteMessage) voteMessage.textContent = '反馈功能已启用。';
-          })
-          .catch(() => {
-            if (voteMessage) voteMessage.textContent = '匿名反馈暂未启用，等待管理员配置数据库。';
-          });
-        voteForm.addEventListener('submit', async (event) => {
-          event.preventDefault();
-          const vote = voteSelect?.value;
-          if (!vote) return;
-          const button = voteForm.querySelector('button[type="submit"]');
-          if (button) button.disabled = true;
-          try {
-            const response = await fetch('/api/feedback', {
-              method: 'POST',
-              headers: { 'content-type': 'application/json' },
-              body: JSON.stringify({ game: key, vote }),
-            });
-            const data = await response.json();
-            if (!response.ok) {
-              if (voteMessage) voteMessage.textContent = response.status === 409 ? '该网络已对本游戏投过票。' : '提交失败，请稍后再试。';
-              if (data.counts) showCounts(data.counts);
-            } else {
-              if (voteMessage) voteMessage.textContent = '反馈已记录，谢谢参与。';
-              showCounts(data.counts);
-              voteForm.reset();
-            }
-          } catch {
-            if (voteMessage) voteMessage.textContent = '网络错误，请稍后重试。';
-          } finally {
-            if (button) button.disabled = false;
-          }
-        });
-      }
 
       const navLinks = Array.from(document.querySelectorAll('.section-nav a'));
       if (navLinks.length && 'IntersectionObserver' in window) {
