@@ -20,8 +20,6 @@ jobs:
             code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 "$u" || echo ERR)
             echo "::notice title=reach::$code $u"
           done
-      - name: Probe Steam sources per game
-        run: node .ci/probe.mjs
       - name: Run build steps one by one
         run: |
           set +e
