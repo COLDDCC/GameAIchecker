@@ -5,7 +5,7 @@ import { dirname, join } from 'node:path';
 // The Astro build itself generates all game pages in dist/games.
 const root = process.cwd();
 const ids = ['4576390', '4982910', '5182120', '5004560', '4794490', '5391500',
-  '5323250', '1889620', '2800150', '4544110', '3519780'];
+  '5323250', '1889620', '2800150', '4544110', '3519780', '3782550', '4106650', '3670600', '5053550', '4955250', '4348910', '5120010', '5315310', '3517740', '2295170'];
 
 function slugify(value) {
   return String(value || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
