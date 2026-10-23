@@ -1,0 +1,60 @@
+{
+  "appId": "5053550",
+  "name": "CCR - Cosmic Card Realm",
+  "developer": "Nan",
+  "publisher": "Nan",
+  "releaseDate": "2026-11-30",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "Steam 开发者披露，部分美术使用 ChatGPT 和腾讯混元辅助、音乐和音效使用 Suno、非中文本地化及编程由 ChatGPT 辅助。没有证据证明游戏全部资产由 AI 生成，或游戏运行时实时生成内容。",
+  "steamUrl": "https://store.steampowered.com/app/5053550/",
+  "genres": [
+    "Card Collecting",
+    "Simulation"
+  ],
+  "aiUsageCategories": [
+    "art",
+    "music",
+    "translation",
+    "code"
+  ],
+  "aiAreas": {
+    "ingame": "unreviewed",
+    "code": "used",
+    "art": "used",
+    "music": "used",
+    "voice": "unreviewed",
+    "writing": "unreviewed",
+    "translation": "used",
+    "marketing": "unreviewed"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露 ChatGPT 与腾讯混元参与部分美术素材制作。",
+    "music": "开发者披露使用 Suno 制作音乐与音效，不代表全部音频均由 AI 生成。",
+    "translation": "开发者披露非中文本地化使用 ChatGPT 协助。",
+    "code": "开发者披露编程使用 ChatGPT 辅助；不代表全部代码由 AI 编写。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "translation": "official",
+    "code": "official"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者 AI 使用披露",
+      "url": "https://store.steampowered.com/app/5053550/",
+      "date": "2026-10-21",
+      "excerpt": "Steam 开发者披露，部分美术使用 ChatGPT 和腾讯混元辅助、音乐和音效使用 Suno、非中文本地化及编程由 ChatGPT 辅助。没有证据证明游戏全部资产由 AI 生成，或游戏运行时实时生成内容。"
+    },
+    {
+      "type": "official_disclosure",
+      "label": "Steam Demo 开发者 AI 使用披露",
+      "url": "https://store.steampowered.com/app/5134780/",
+      "date": "2026-10-21"
+    }
+  ],
+  "reviewNote": "数据基于 Steam 开发者自述整理，属于来源归属的公开声明，不是独立技术审计。",
+  "reviewedAt": "2026-10-21"
+}
