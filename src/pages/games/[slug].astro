@@ -65,6 +65,7 @@ const usedCount = game.usedAreas.length;
 const claimedCount = game.areas.filter((area) => area.state === 'claimed_none').length;
 const isBroadHumanClaim = claimedCount === game.areas.length && claimedCount > 0 && Boolean(game.disclosureQuote);
 const hero = game.images[0] || null;
+const overviewTags = Array.from(new Set([...game.tags, ...game.features])).filter(Boolean).slice(0, 8);
 const ogImage = absolute(game.images[0]?.full || game.header);
 const metaDescription = (game.summary || game.steamDescription || `${game.name} 的 Steam 资料、AI 使用披露与证据。`)
   .replace(/\s+/g, ' ')
@@ -242,6 +243,15 @@ const breadcrumbLd = {
     .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .media-foot { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; color: var(--muted); padding-top: 8px; }
     .media-credit { font-size: 11px; color: var(--muted); margin: 2px 0 0; }
+    .game-overview { margin-top: 18px; padding: 18px; background: var(--soft); border: 1px solid var(--line); border-radius: 14px; }
+    .game-overview h2 { font-size: 18px; line-height: 1.3; margin: 0 0 8px; letter-spacing: -0.01em; }
+    .game-overview p { margin: 0; color: #475467; font-size: 14px; line-height: 1.7; }
+    .overview-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
+    .overview-tags span { background: #fff; border: 1px solid var(--line); color: #344054; border-radius: 999px; padding: 5px 9px; font-size: 12px; }
+    .overview-source { display: inline-block; margin-top: 12px; font-size: 12px; font-weight: 600; }
+    .fact-details summary { cursor: pointer; color: var(--blue-dark); font-size: 12px; font-weight: 600; }
+    .fact-details p { margin: 8px 0 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
+    .fact-details .link-list { margin-top: 8px; }
     .videos { margin-top: 18px; }
     .mini-title { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 10px; }
     .video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px; }
@@ -522,6 +532,18 @@ const breadcrumbLd = {
             </div>
           </div>
         )}
+
+        {(game.steamDescription || overviewTags.length > 0) && (
+          <section class="game-overview" aria-labelledby="gameOverviewTitle">
+            <div class="mini-title">GAME OVERVIEW</div>
+            <h2 id="gameOverviewTitle">游戏概览</h2>
+            {game.steamDescription && <p>{game.steamDescription}</p>}
+            {overviewTags.length > 0 && <div class="overview-tags" aria-label="游戏标签与游玩功能">
+              {overviewTags.map((tag) => <span>{tag}</span>)}
+            </div>}
+            {game.steamDescription && game.steamUrl && <a class="overview-source" href={game.steamUrl} target="_blank" rel="noopener noreferrer">Steam 商店简介 ↗</a>}
+          </section>
+        )}
       </div>
 
       <aside class="info-col">
@@ -570,19 +592,16 @@ const breadcrumbLd = {
 
         <dl class="facts">
           <div><dt>Steam App ID</dt><dd>{game.appId ? <><code>{game.appId}</code><button class="copy" id="copyId" type="button">复制</button></> : '待核实'}</dd></div>
-          <div><dt>开发商</dt><dd>{game.developer || '待核实'}</dd></div>
-          <div><dt>发行商</dt><dd>{game.publisher || '待核实'}</dd></div>
+          <div><dt>开发商 / 发行商</dt><dd>{game.developer || '待核实'}{game.publisher && game.publisher !== game.developer ? <> · {game.publisher}</> : ''}</dd></div>
           <div><dt>发行日期</dt><dd>{formatDate(game.releaseDate)}</dd></div>
           <div><dt>价格</dt><dd>{game.price || '待核实'}</dd></div>
           <div><dt>平台</dt><dd>{game.platforms?.join(' / ') || '待核实'}</dd></div>
           <div><dt>类型</dt><dd>{game.genres.join(' / ') || '待核实'}</dd></div>
-          {game.tags.length > 0 && <div><dt>标签</dt><dd>{game.tags.join('、')}</dd></div>}
-          {game.features.length > 0 && <div><dt>游玩功能</dt><dd>{game.features.join('、')}</dd></div>}
           {game.metacritic && <div><dt>Metacritic</dt><dd>{game.metacritic}</dd></div>}
-          {game.languages && <div><dt>支持语言</dt><dd class="clamp">{game.languages}</dd></div>}
+          {game.languages && <div><dt>支持语言</dt><dd><details class="fact-details"><summary>展开查看</summary><p>{game.languages}</p></details></dd></div>}
           {game.website && <div><dt>官网</dt><dd><a href={game.website} target="_blank" rel="noopener noreferrer">{host(game.website)} ↗</a></dd></div>}
           {game.links.length > 0 && (
-            <div><dt>外部链接</dt><dd class="link-list">{game.links.map((link) => <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>)}</dd></div>
+            <div><dt>外部链接</dt><dd><details class="fact-details"><summary>{game.links.length} 个链接</summary><div class="link-list">{game.links.map((link) => <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>)}</div></details></dd></div>
           )}
         </dl>
       </aside>
@@ -699,9 +718,6 @@ const breadcrumbLd = {
           <small>{formatDate(game.releaseDate)}</small>
         </div>
       </div>
-      {game.steamDescription && (
-        <div class="steam-desc"><h3>Steam 简介</h3><p>{game.steamDescription}</p></div>
-      )}
       <p class="source-line">
         在线人数与评价来自 Steam 公开数据；数据为构建时快照，可能存在延迟。
         {game.steamUrl && <a href={game.steamUrl} target="_blank" rel="noopener noreferrer">在 Steam 查看实时数据 ↗</a>}
