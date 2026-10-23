@@ -18,6 +18,7 @@ export const AREAS = [
 
 export const STATUS_LABELS = {
   official_disclosure: '官方 AI 披露',
+  third_party: '第三方研究',
   human_made: '开发者称人工制作',
   no_evidence: '未发现可核实证据',
   community: '玩家投稿 · 待核查',
@@ -243,6 +244,7 @@ function fromCanonical(data, sourceName) {
   record.usedCategories = asSet([...(data.aiUsageCategories || []), ...(data.useTypes || [])]);
   record.aiAreas = data.aiAreas || {};
   record.aiAreaNotes = data.aiAreaNotes || {};
+  record.aiAreaSources = data.aiAreaSources || {};
   record.disclosureQuote = cleanText(data.disclosureQuote);
   record.disclosureQuoteNote = cleanText(data.disclosureQuoteNote);
   record.reviewNote = cleanText(data.reviewNote);
@@ -508,6 +510,7 @@ function finalize(record) {
     statusTone: status === 'official_disclosure' ? 'amber' : status === 'human_made' ? 'green' : status === 'no_evidence' ? 'blue' : 'gray',
     areas,
     aiAreaNotes: record.aiAreaNotes,
+    aiAreaSources: record.aiAreaSources || {},
     disclosureQuote: record.disclosureQuote,
     disclosureQuoteNote: record.disclosureQuoteNote,
     usedAreas: areas.filter((area) => area.state === 'used'),
