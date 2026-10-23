@@ -571,12 +571,24 @@ const breadcrumbLd = {
         <div class:list={['status-badge', `tone-${game.statusTone}`]}>{game.statusLabel}</div>
         <h1>{game.originalName || game.name}</h1>
         {game.originalName && <p class="muted">{game.name}</p>}
-        {game.humanMadeListing && <div class="human-made-spotlight" aria-label="人工制作线索核查状态">
-          <div class="human-made-spotlight-top"><span>✎ 人工制作线索</span><span class="human-made-pending">{game.humanMadeListing.verified ? '已有来源' : '尚未认证'}</span></div>
-          <strong>{game.humanMadeListing.scope === 'art' ? '关注范围：美术与视觉素材' : game.humanMadeListing.label}</strong>
-          <p>现有材料不足以证明本作 100% 未使用生成式 AI。</p>
-          <details><summary>查看推荐依据与缺失证据</summary><p>{game.humanMadeListing.summary}</p></details>
-          <a href="#evidence">查看证据记录 ↗</a>
+        {game.humanMadeListing && <div class="human-made-spotlight" aria-label="人工制作审核状态">
+          {game.humanMadeListing.kind === 'site_owner_review' && game.humanMadeListing.verified ? (
+            <>
+              <div class="human-made-spotlight-top"><span>✓ 0% AI · 100% HUMAN</span><span class="human-made-pending">站内审核通过</span></div>
+              <strong>全游戏范围 · 0 AI</strong>
+              <p>已通过 Game AI Checker 站点负责人审查。此为站内审核结论；详细审核材料尚未公开，不代表第三方独立认证。</p>
+              <details><summary>查看审核说明</summary><p>{game.humanMadeListing.summary}</p></details>
+              <a href="#evidence">查看证据记录 ↗</a>
+            </>
+          ) : (
+            <>
+              <div class="human-made-spotlight-top"><span>✎ 人工制作线索</span><span class="human-made-pending">{game.humanMadeListing.verified ? '已有来源' : '尚未认证'}</span></div>
+              <strong>{game.humanMadeListing.scope === 'art' ? '关注范围：美术与视觉素材' : game.humanMadeListing.label}</strong>
+              <p>现有材料不足以证明本作 100% 未使用生成式 AI。</p>
+              <details><summary>查看推荐依据与缺失证据</summary><p>{game.humanMadeListing.summary}</p></details>
+              <a href="#evidence">查看证据记录 ↗</a>
+            </>
+          )}
         </div>}
         <p class="byline">
           {game.developer || '开发商待核实'} · {game.releaseYear || '发行年份待核实'} · {game.genres.slice(0, 3).join(' / ') || '类型待核实'}
