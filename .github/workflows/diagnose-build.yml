@@ -1,0 +1,44 @@
+# TEMPORARY: diagnose why `npm run build` fails on main. Delete after use.
+name: Diagnose build
+on:
+  push:
+    branches: [ci/diagnose-build]
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+      - name: Steam reachability
+        run: |
+          for u in "https://store.steampowered.com/api/appdetails?appids=4576390" "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4576390/header.jpg" "https://cdn.akamai.steamstatic.com/steam/apps/4576390/header.jpg"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 "$u" || echo ERR)
+            echo "::notice title=reach::$code $u"
+          done
+      - name: Run build steps one by one
+        run: |
+          set +e
+          run() {
+            echo "=== $*"
+            "$@" > step.log 2>&1
+            rc=$?
+            cat step.log
+            if [ $rc -ne 0 ]; then
+              msg=$(tail -n 45 step.log | sed 's/%/%25/g' | awk '{printf "%s%%0A", $0}')
+              echo "::error title=FAILED $*::rc=$rc%0A$msg"
+              exit $rc
+            fi
+            echo "::notice title=ok::$*"
+          }
+          run node scripts/fetch-steam-metadata.mjs
+          run node scripts/build-game-index.mjs
+          run node scripts/prepare-public.mjs
+          run node scripts/fetch-steam-images.mjs
+          run node scripts/localize-game-media.mjs
+          run npx astro build
+          run node scripts/audit-reviewed-games.mjs
