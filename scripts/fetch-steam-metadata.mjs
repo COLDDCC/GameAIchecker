@@ -39,20 +39,33 @@ async function fetchJson(url, timeout = 10000) {
 }
 
 async function fetchOne(id) {
-  const appUrl = `https://store.steampowered.com/api/appdetails?appids=${id}&l=schinese&cc=cn`;
   const reviewUrl = `https://store.steampowered.com/appreviews/${id}?json=1&language=all&purchase_type=all&num_per_page=0&filter=all`;
   const playerUrl = `https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=${id}`;
 
-  const [appResult, reviewResult, playerResult] = await Promise.allSettled([
-    fetchJson(appUrl),
+  const [reviewResult, playerResult] = await Promise.allSettled([
     fetchJson(reviewUrl),
     fetchJson(playerUrl),
   ]);
 
-  if (appResult.status === 'rejected') throw appResult.reason;
-  const entry = appResult.value?.[id];
-  const data = entry?.success ? entry.data : null;
-  if (!data) throw new Error('Steam returned no app data');
+  // The China store (cc=cn) is preferred for Chinese text and CNY prices, but
+  // games not sold in China return success:false there (e.g. GOHEI, 4576390).
+  // Fall back to the US store, then to Steam's default region.
+  let data = null;
+  let lastError = null;
+  for (const region of ['cn', 'us', '']) {
+    const appUrl = `https://store.steampowered.com/api/appdetails?appids=${id}&l=schinese${region ? `&cc=${region}` : ''}`;
+    try {
+      const entry = (await fetchJson(appUrl))?.[id];
+      if (entry?.success && entry.data) {
+        data = entry.data;
+        if (region !== 'cn') console.log(`  ${id}: not in the China store, used ${region || 'default'} region`);
+        break;
+      }
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  if (!data) throw lastError || new Error('Steam returned no app data');
 
   const screenshots = (data.screenshots || [])
     .map((shot) => ({ thumbnail: shot.path_thumbnail || null, full: shot.path_full || null }))
