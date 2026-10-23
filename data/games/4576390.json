@@ -1,0 +1,55 @@
+{
+  "appId": "4576390",
+  "name": "GOHEI",
+  "developer": "TredGames",
+  "summary": "Steam 开发者披露称：游戏开发使用生成式 AI 辅助制作美术、音乐、文本与代码；游戏过程中还使用 AI 评估词语关联。具体服务提供商的公开信息存在差异，仍需核实。",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "steamUrl": "https://store.steampowered.com/app/4576390/",
+  "releaseDate": "2026-05-31",
+  "genres": [
+    "Roguelike"
+  ],
+  "aiUsageCategories": [
+    "art",
+    "music",
+    "writing",
+    "code",
+    "ingame"
+  ],
+  "aiAreas": {
+    "art": "used",
+    "music": "used",
+    "writing": "used",
+    "code": "used",
+    "ingame": "used",
+    "voice": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "开发者在 Steam 披露使用 AI 辅助制作美术素材；未逐项审计最终资产。",
+    "music": "开发者披露在音乐制作中使用 AI；未核查具体曲目或所占比例。",
+    "writing": "开发者披露使用 AI 辅助制作文字内容；未核查具体段落。",
+    "code": "开发者披露使用 AI 辅助编程；代码协助不等同于玩家实时生成内容。",
+    "ingame": "开发者披露游戏期间通过 AI 评估词语关联。披露描述与第三方服务标签所指提供商尚待澄清。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "writing": "official",
+    "code": "official",
+    "ingame": "official"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者 AI 使用披露（开发者自述）",
+      "url": "https://store.steampowered.com/app/4576390/",
+      "date": "2026-10-21",
+      "excerpt": "Steam 开发者披露称：游戏开发使用生成式 AI 辅助制作美术、音乐、文本与代码；游戏过程中还使用 AI 评估词语关联。具体服务提供商的公开信息存在差异，仍需核实。"
+    }
+  ],
+  "reviewNote": "资料依据 Steam 开发者自我披露整理，非独立技术审计。关于游戏内 AI 服务提供商，公开描述尚不完全一致；不据此认定某特定供应商。",
+  "reviewedAt": "2026-10-21"
+}
