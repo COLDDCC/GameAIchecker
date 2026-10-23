@@ -1,0 +1,69 @@
+{
+  "appId": 2073850,
+  "name": "THE FINALS",
+  "developer": "Embark Studios",
+  "publisher": "Embark Studios",
+  "originalReleaseYear": 2023,
+  "steamReleaseDate": "2023-12-07",
+  "category": "official_ai_disclosure",
+  "aiLevel": 2,
+  "verification": "steam_store_disclosure",
+  "summary": "官方 Steam 披露确认：游戏在解说音频中使用文本转语音（TTS）为 Scotty 与 June 生成语音。2026 年 10 月的 PRIME TIME 更新进一步加入可包含玩家名称的动态解说。其他领域没有被这份披露单独确认。",
+  "genres": ["动作", "射击", "免费开玩", "多人"],
+  "tags": ["FPS", "PvP", "在线合作", "可破坏环境", "跨平台多人", "手柄支持", "Steam 成就", "游戏内购买"],
+  "features": ["在线 PvP", "在线合作", "跨平台多人", "手柄支持", "Steam 成就", "游戏内购买"],
+  "languages": "11 种：简体中文、繁体中文、英语、日语、韩语、法语、德语、西班牙语、巴西葡萄牙语、波兰语、土耳其语。英语支持完整配音；其余语言支持界面及字幕。",
+  "website": "https://www.reachthefinals.com/",
+  "steamUrl": "https://store.steampowered.com/app/2073850/THE_FINALS/",
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiUsageCategories": ["voice", "text-to-speech"],
+  "aiAreaNotes": {
+    "voice": "官方披露明确指向游戏内解说 Scotty 与 June 的文本转语音；不代表全部角色配音都由 AI 生成。",
+    "ingame": "披露未说明玩法内存在实时生成式 AI；动态解说的上下文选择不等同于运行时生成画面或剧情。",
+    "art": "披露未提及角色、场景、UI 或宣传图由生成式 AI 制作。",
+    "writing": "披露未提及剧情、对白或任务文本由生成式 AI 生成。",
+    "translation": "披露未提及本地化或翻译使用生成式 AI。",
+    "code": "披露未提及代码或开发工具使用生成式 AI。",
+    "music": "披露只涉及解说语音，未提及音乐或音效由生成式 AI 制作。",
+    "marketing": "披露未提及营销素材由生成式 AI 制作。"
+  },
+  "disclosureQuote": "开发团队使用文本转语音工具生成游戏内解说员 Scotty 与 June 的语音；该披露没有声称视觉、代码、剧情或本地化由生成式 AI 制作。",
+  "disclosureQuoteNote": "转述自 Steam 商店 AI 披露，非逐字引用；请以原始页面为准。",
+  "reviewedAt": "2026-10-22",
+  "reviewNote": "官方披露只确认了解说音频中的文本转语音使用；不据此推断视觉、代码、剧情或本地化。程序化世界构建和传统游戏机器人不等同于生成式 AI。",
+  "sources": [
+    {
+      "url": "https://store.steampowered.com/app/2073850/THE_FINALS/",
+      "supports": "Steam 官方 AI 披露：使用文本转语音为游戏内解说 Scotty 与 June 生成音频。",
+      "type": "official_disclosure",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://www.gamedeveloper.com/audio/embark-studios-ai-let-devs-do-more-with-less-when-making-the-finals",
+      "supports": "Embark 品牌总监说明录制表演与基于文本转语音的 AI 音频结合使用；这不是说所有语音都由 AI 生成。",
+      "type": "interview",
+      "date": "2023-01-01"
+    },
+    {
+      "url": "https://www.reachthefinals.com/patchnotes/12-00",
+      "supports": "2026 年 10 月 20 日 PRIME TIME 更新加入可包含玩家名称的动态解说，并说明这是测试功能。",
+      "type": "patch_note",
+      "date": "2026-10-20"
+    }
+  ],
+  "links": [
+    { "label": "SteamDB", "url": "https://steamdb.info/app/2073850/" },
+    { "label": "讨论区", "url": "https://steamcommunity.com/app/2073850/discussions/" },
+    { "label": "Discord", "url": "https://discord.gg/thefinals" },
+    { "label": "YouTube", "url": "https://www.youtube.com/channel/UCEqzN3PRSCrxYq5tUwYJaPw/" }
+  ]
+}

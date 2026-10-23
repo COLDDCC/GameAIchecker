@@ -1,6 +1,6 @@
 // Public Steam Store metadata proxy for game artwork; no credentials needed.
 // Only returns URLs hosted on Steam's image CDN and metadata for the requested app.
-const allowed = /^(?:https:\/\/)(?:shared\.(?:fastly\.)?steamstatic\.com|cdn\.(?:cloudflare\.)?steamstatic\.com|steamcdn-a\.akamaihd\.net|(?:shared|cdn)\.steamstatic\.com)\//i;
+const allowed = /^(?:https:\/\/)(?:shared\.(?:fastly\.|akamai\.)?steamstatic\.com|cdn\.(?:cloudflare\.)?steamstatic\.com|steamcdn-a\.akamaihd\.net|(?:shared|cdn)\.steamstatic\.com)\//i;
 export async function onRequestGet({request}) {
   const u=new URL(request.url), id=u.searchParams.get('id');
   if(!/^\d{1,10}$/.test(id||''))return Response.json({error:'Invalid Steam App ID'},{status:400});

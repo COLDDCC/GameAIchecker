@@ -16,7 +16,9 @@ export function getStaticPaths() {
     }
   };
   walk('');
-  return routes.map(slug => ({ params: { slug } }));
+  return routes
+    .filter(route => route === 'games' || !route.startsWith('games/'))
+    .map(slug => ({ params: { slug } }));
 }
 const { slug } = Astro.params;
 const html = readFileSync(resolve(slug, 'index.html'), 'utf8');
