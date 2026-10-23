@@ -14,18 +14,22 @@ function draw(){
  ctx.fillStyle='#1789ef';ctx.beginPath();ctx.moveTo(85,93);ctx.lineTo(121,114);ctx.lineTo(85,135);ctx.closePath();ctx.fill();
  text('Game AI Checker',146,124,34,'#122e4a','800');text('游戏 AI 使用证据档案',69,187,22,'#6b7d90','500');
  line(69,216,680,216);
- rounded(69,263,612,115,17,'#fee2e2');
- rounded(69,263,8,115,4,'#db3039');
- text('!',107,341,62,'#bd1e28','800');text('大量玩家反馈使用了AI',157,336,34,'#b91c1c','800');
- text('GAME REPORT  /  STEAM 5345260',69,449,20,'#7791a8','700');
- text('明天照常营业',69,563,73,'#142a43','800');
- line(69,615,680,615);
- text('玩家公开质疑 · 来源可追溯',69,688,27,'#364d65','600');
- text('相关指控与生成式 AI 使用尚未独立证实',69,738,21,'#65758b','500');
- rounded(69,796,612,94,16,'#167cea');text('gameaichecker.com',375,855,36,'#ffffff','800','center');
- text('查看原始来源、证据链和核查状态',375,937,20,'#6e7f91','500','center');
+ // Draw an actual game cover above the status label; never use AI-generated artwork.
+ rounded(69,245,612,270,14,'#e7eef5');
+ if(coverReady){ctx.save();ctx.beginPath();ctx.roundRect(69,245,612,270,14);ctx.clip();const ratio=Math.max(612/cover.naturalWidth,270/cover.naturalHeight);const dw=cover.naturalWidth*ratio,dh=cover.naturalHeight*ratio;ctx.drawImage(cover,69+(612-dw)/2,245+(270-dh)/2,dw,dh);ctx.restore();}
+ else {text('游戏封面加载失败',375,370,24,'#64748b','600','center');}
+ rounded(69,545,612,105,17,'#fee2e2');rounded(69,545,8,105,4,'#db3039');
+ text('!',105,615,55,'#bd1e28','800');text('大量玩家反馈使用了AI',152,610,33,'#b91c1c','800');
+ text('明天照常营业',69,746,69,'#142a43','800');
+ text('玩家反馈 · 尚未独立证实',69,803,23,'#65758b','500');
+ rounded(69,837,612,80,16,'#167cea');text('gameaichecker.com',375,888,34,'#ffffff','800','center');
+ text('查看证据链与来源',375,944,19,'#6e7f91','500','center');
 }
-draw();
+const cover=new Image();let coverReady=false;cover.onload=()=>{coverReady=true;draw()};cover.onerror=()=>draw();cover.src='/api/share-cover?id=5345260';
+const openBtn=document.getElementById('gameShareOpen');const dialog=document.getElementById('gameShareDialog');
+openBtn?.addEventListener('click',()=>{if(dialog?.showModal){dialog.showModal()}else if(dialog){dialog.hidden=false}draw()});
+document.getElementById('gameShareClose')?.addEventListener('click',()=>{if(dialog?.close)dialog.close();else dialog.hidden=true});
+if(dialog?.addEventListener)dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
 const note=document.getElementById('gameShareNote');
 const filename='game-ai-checker-5345260.png';
 document.getElementById('gameShareDownload')?.addEventListener('click',()=>{try{const a=document.createElement('a');a.download=filename;a.href=canvas.toDataURL('image/png');a.click();note.textContent='PNG 已生成，可分享到小红书。'}catch(e){note.textContent='图片下载失败，请尝试长按预览图保存。'}});

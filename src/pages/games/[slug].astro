@@ -710,16 +710,17 @@ const breadcrumbLd = {
 
     
     {game.appId === '5345260' && (
-      <section class="section" id="share-card">
-        <div class="section-head"><div><div class="eyebrow">SHARE</div><h2>分享游戏 AI 反馈卡片</h2></div></div>
-        <p class="section-lede">浏览器原生 Canvas 生成，不使用 AI 生图。玩家反馈尚未独立证实。</p>
-        <canvas id="gameShareCanvas" width="1500" height="2000" aria-label="明天照常营业玩家反馈分享图片" style="display:block;width:100%;max-width:440px;height:auto;margin:12px auto;border-radius:12px;border:1px solid #e5ebf2"></canvas>
-        <div class="actions"><button type="button" class="btn primary" id="gameShareDownload">下载 PNG</button><button type="button" class="btn" id="gameShareCopy">复制图片</button></div>
-        <p class="section-lede" id="gameShareNote" role="status">卡片展示玩家反馈，不代表本站已确认使用 AI。</p>
+      <div id="share-card" style="margin:16px 0">
+        <button type="button" class="btn primary" id="gameShareOpen">↗ 生成分享卡片</button>
+        <dialog id="gameShareDialog" aria-label="分享卡片预览" style="border:1px solid #e5ebf2;border-radius:16px;max-width:min(95vw,530px);max-height:92vh;overflow:auto;padding:20px;box-shadow:0 20px 80px #142a4333">
+          <div style="display:flex;justify-content:space-between;gap:12px;align-items:center"><strong>分享卡片</strong><button type="button" class="btn" id="gameShareClose">关闭 ×</button></div>
+          <canvas id="gameShareCanvas" width="1500" height="2000" aria-label="明天照常营业玩家反馈分享卡片" style="display:block;width:100%;max-width:440px;height:auto;margin:12px auto;border-radius:12px;border:1px solid #e5ebf2"></canvas>
+          <div class="actions"><button type="button" class="btn primary" id="gameShareDownload">下载 PNG</button><button type="button" class="btn" id="gameShareCopy">复制图片</button></div>
+          <p id="gameShareNote" role="status" class="section-lede">玩家反馈尚未独立证实。</p>
+        </dialog>
         <script src="/assets/game-share-card.js" defer></script>
-      </section>
+      </div>
     )}
-
     <section class="section" id="evidence">
       <div class="section-head">
         <div><div class="eyebrow">EVIDENCE</div><h2>证据链</h2></div>
