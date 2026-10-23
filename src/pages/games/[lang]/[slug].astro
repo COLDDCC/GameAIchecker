@@ -68,7 +68,7 @@ const claimedCount = game.areas.filter((area) => area.state === 'claimed_none').
 const isBroadHumanClaim = claimedCount === game.areas.length && claimedCount > 0 && Boolean(game.disclosureQuote);
 const hero = game.images[0] || null;
 const ogImage = absolute(game.images[0]?.full || game.header);
-const metaDescription = (game.summary || game.steamDescription || `${game.name} 的 Steam 资料、AI 使用披露与证据。`)
+const metaDescription = (lang === "zh-cn" ? (game.summary || game.steamDescription || `${game.name} 的 Steam 资料、AI 使用披露与证据。`) : `${game.name} — ${t("AI 使用情况")}, ${t("证据链")} & Steam.`)
   .replace(/\s+/g, ' ')
   .slice(0, 155);
 
@@ -121,7 +121,7 @@ const breadcrumbLd = {
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="icon" type="image/svg+xml" href="/logo.svg" />
   <meta name="theme-color" content="#ffffff" />
-  <title>{game.name} AI 使用情况、证据与资料 | Game AI Checker</title>
+  <title>{game.name} — {t("AI 使用情况")} | Game AI Checker</title>
   <meta name="description" content={metaDescription} />
   <link rel="canonical" href={canonical} />
   {!legacy && <meta name="robots" content="noindex,follow" />}
