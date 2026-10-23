@@ -1,0 +1,41 @@
+name: Rebuild the first 30 game pages from Astro
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rebuild-first-30.yml'
+      - 'scripts/rebuild-first-30.mjs'
+permissions:
+  contents: write
+concurrency:
+  group: rebuild-first-30
+  cancel-in-progress: false
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Build complete Astro detail pages and audit local media
+        run: npm run build
+      - name: Replace 30 lightweight pages with the canonical template
+        run: node scripts/rebuild-first-30.mjs
+      - name: Commit regenerated pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add games/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "fix(games): replace first 30 thin pages with full Astro exports"
+            git push
+          fi
