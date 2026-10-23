@@ -9,8 +9,10 @@ export function getStaticPaths() {
 }
 
 const { game } = Astro.props;
-// Batch 01: preserve the compact refresh when Astro regenerates these pages.
-const batchDetailRefresh = ["1853440-tropico-7","1889620-ai-roguelite","2295170-emberville","2800150-ai-roguelite-2d","2861080-haunted-paws","2870790-dumpster-gang","3421660-re-blade","3517740-frostrail","3519780-queen-s-cards","3629430-dreadmoor"] .includes(game.slug);
+// Batch 01–02: preserve the compact refresh when Astro regenerates these pages.
+const batchDetailRefresh = ["1853440-tropico-7","1889620-ai-roguelite","2295170-emberville","2800150-ai-roguelite-2d","2861080-haunted-paws","2870790-dumpster-gang","3421660-re-blade","3517740-frostrail","3519780-queen-s-cards","3629430-dreadmoor",
+  // Batch 02
+  "3642910-wyldheart","3670600-hexitten","3680170-mortuus","3782550-another-where","4106650-palaxin","4163270-half-grip","4348910-probably-stolen-cyberpunk-shopkeeper-sim","4487060-northgard-battlegrounds","4541470-deadzone-rogue-2-demo","4544110-project-vanguard"] .includes(game.slug);
 const site = (Astro.site?.toString() || 'https://gameaichecker.com').replace(/\/$/, '');
 const canonical = `${site}/games/${game.slug}/`;
 
