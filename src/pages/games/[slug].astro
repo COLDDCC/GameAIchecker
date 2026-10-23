@@ -45,7 +45,7 @@ function absolute(value) {
 
 function areaNote(area, game) {
   if (game.aiAreaNotes?.[area.key]) return game.aiAreaNotes[area.key];
-  if (area.state === 'used') return '官方披露或开发者声明中提及该领域使用生成式 AI。';
+  if (area.state === 'used') return game.aiAreaSources?.[area.key] === 'third_party' ? '第三方资料将此领域标为使用 AI；本站尚未独立核实。' : '官方披露或开发者声明中提及该领域使用生成式 AI。';
   if (area.state === 'claimed_none') return '开发者公开声称游戏为人工制作；这是开发者声明，未经独立审计。';
   if (area.state === 'none') return '有明确来源称该领域未使用 AI。';
   if (area.state === 'not_stated') return '现有官方披露未单独提及该领域，不代表确认未使用。';
@@ -528,14 +528,14 @@ const breadcrumbLd = {
         <p class="byline">
           {game.developer || '开发商待核实'} · {game.releaseYear || '发行年份待核实'} · {game.genres.slice(0, 3).join(' / ') || '类型待核实'}
         </p>
-        <a class="ai-overview" href="#ai" aria-label={`查看 ${game.name} 的 AI 使用领域与证据，已披露 ${usedCount} 个领域，共 8 个`}>
+        <a class="ai-overview" href="#ai" aria-label={`查看 ${game.name} 的 AI 使用领域与证据，记录 ${usedCount} 个 AI 使用领域，共 8 个`}>
           <div class="ai-overview-head">
-            <span class="ai-overview-title"><span class="ai-overview-logo" aria-hidden="true">▶</span> AI USE <span class="muted">开发者披露范围</span></span>
+            <span class="ai-overview-title"><span class="ai-overview-logo" aria-hidden="true">▶</span> AI USE <span class="muted">{game.usedAreas.some((area) => game.aiAreaSources?.[area.key] === 'third_party') ? '含第三方整理' : '开发者披露范围'}</span></span>
             <span class="ai-overview-count"><strong>{usedCount}</strong><span>/ 8</span></span>
           </div>
           <div class="ai-overview-grid">
             {game.areas.slice(0, 8).map((area) => (
-              <span class:list={['ai-overview-tile',area.state === 'used' && 'is-used']} title={`${area.label}：${area.stateLabel}`}>
+              <span class:list={['ai-overview-tile',area.state === 'used' && 'is-used']} title={`${area.label}：${area.stateLabel}${game.aiAreaSources?.[area.key] === 'third_party' ? '（第三方整理，未经本站独立核实）' : ''}`}>
                 <span class="ai-overview-symbol" aria-hidden="true">{({
                   art: '◈', music: '♫', writing: '✎', translation: '文',
                   marketing: '↗', code: '⌘', voice: '◉', gameplay: '▣'
@@ -544,7 +544,7 @@ const breadcrumbLd = {
               </span>
             ))}
           </div>
-          <div class="ai-overview-foot"><span><i class="ai-key used"></i>已披露使用</span><span><i class="ai-key"></i>未标蓝不代表未使用</span><span class="ai-overview-arrow">查看证据 ↗</span></div>
+          <div class="ai-overview-foot"><span><i class="ai-key used"></i>有来源报告使用</span><span><i class="ai-key"></i>未标蓝不代表未使用</span><span class="ai-overview-arrow">查看证据 ↗</span></div>
         </a>
 
         {usedCount > 0 ? (
@@ -597,7 +597,7 @@ const breadcrumbLd = {
     <section class="section" id="ai">
       <div class="section-head">
         <div><div class="eyebrow">AI USE</div><h2>AI 使用情况</h2></div>
-        <div class="section-meta">{usedCount} / 8 个领域有披露</div>
+        <div class="section-meta">{usedCount} / 8 个领域有来源记录</div>
       </div>
       <div class:list={['status-note', `tone-${game.statusTone}`]}>
         <strong>{game.statusLabel}</strong><span>{statusExplanation}</span>
@@ -611,7 +611,7 @@ const breadcrumbLd = {
           <tbody>
             {game.areas.map((area) => (
               <tr>
-                <td><strong>{area.label}</strong><small>{area.en}</small></td>
+                <td><strong>{area.label}</strong><small>{area.en}</small>{area.state === 'used' && <a href="#evidence" class="area-provenance">{game.aiAreaSources?.[area.key] === 'third_party' ? '第三方整理 ↗' : '查看来源 ↗'}</a>}</td>
                 <td class="muted">{area.scope}</td>
                 <td><span class:list={['state', `s-${area.state}`]}>{area.stateLabel}</span></td>
                 <td class="muted">{areaNote(area, game)}</td>
@@ -621,7 +621,7 @@ const breadcrumbLd = {
         </table>
       </div>
       <div class="legend">
-        <span><i class="dot used"></i>已披露使用</span>
+        <span><i class="dot used"></i>有来源报告使用（官方 / 第三方）</span>
         <span><i class="dot not_stated"></i>未提及（不等于未使用）</span>
         <span><i class="dot claimed_none"></i>开发者称未使用</span>
         <span><i class="dot unreviewed"></i>未核查</span>
@@ -634,7 +634,7 @@ const breadcrumbLd = {
       )}
       <div class="callout">
         <strong>如何解读</strong>
-        <p>“未提及”不等于“没有使用”。开发者披露只证明其自述的使用范围，不等于独立技术审计。本站不把 AI 使用比例换算成单一分数。</p>
+        <p>“未提及”不等于“没有使用”。蓝色领域可能来自官方披露或第三方整理，请点击领域查看证据链。第三方分类未经本站独立核实；5/8 是有记录的领域数，不是 AI 生成比例。</p>
       </div>
       {primarySource && (
         <p class="source-line">
