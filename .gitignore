@@ -10,3 +10,14 @@ public/data/
 # Detail galleries are downloaded and optimized during the production build.
 public/images/steam/apps/*/*.webp
 public/images/steam/apps/*/gallery.json
+
+# Reviewed batch 2: keep every gallery file and its metadata in Git.
+!public/images/steam/apps/1889620/*.webp
+!public/images/steam/apps/1889620/gallery.json
+!data/steam/1889620.json
+!public/images/steam/apps/2275940/*.webp
+!public/images/steam/apps/2275940/gallery.json
+!data/steam/2275940.json
+!public/images/steam/apps/4189910/*.webp
+!public/images/steam/apps/4189910/gallery.json
+!data/steam/4189910.json

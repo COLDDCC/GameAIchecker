@@ -505,7 +505,7 @@ function finalize(record) {
     players: record.players || steam?.players || null,
     features: record.features,
     links: record.links,
-    header: steam?.header || images[0]?.src || null,
+    header: localGallery?.images?.[1]?.src || (existsSync(join(ROOT, 'public', 'images', 'steam', 'apps', String(record.appId), 'header.jpg')) ? `/images/steam/apps/${record.appId}/header.jpg` : steam?.header || images[0]?.src || null),
     background: steam?.background || null,
     images,
     movies,
