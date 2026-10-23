@@ -333,6 +333,8 @@ function fromNextFest100(data) {
 
 function fromNextFestOctober(data) {
   const record = emptyRecord('next-fest-october-2026.json');
+  record.appId = data.steamAppId ? String(data.steamAppId) : null;
+  record.steamUrl = data.steamVerificationUrl || (record.appId ? `https://store.steampowered.com/app/${record.appId}/` : null);
   record.name = cleanText(data.name);
   record.summary = cleanText(data.popularityReason || data.notice || '');
   record.category = data.aiStatus || '';
