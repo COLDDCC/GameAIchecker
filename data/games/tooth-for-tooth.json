@@ -1,16 +1,55 @@
 {
   "appId": 5012840,
   "name": "Tooth for Tooth",
-  "category": "unreviewed",
-  "verification": "not_verified",
-  "summary": "AI 使用领域尚待依据开发者披露逐项核实。灰色代表未核实，不等于确认没有使用 AI。",
+  "category": "official_ai_disclosure",
+  "verification": "steam_store_disclosure",
+  "summary": "Steam 商店有开发者生成式 AI 使用声明，但未在该声明中逐项指明八个领域的使用范围。",
   "steamUrl": "https://store.steampowered.com/app/5012840/",
   "sources": [
     {
-      "url": "https://store.steampowered.com/app/5012840/",
-      "label": "Steam 商店",
-      "type": "steam_store"
+      "url": "https://store.steampowered.com/app/5012840/Tooth_for_Tooth/",
+      "label": "Steam 官方商店：游戏资料与生成式 AI 声明",
+      "type": "official_disclosure"
+    },
+    {
+      "url": "https://steamdb.info/app/5012840/",
+      "label": "SteamDB：发行日期等元数据交叉核查",
+      "type": "third_party"
     }
   ],
-  "reviewNote": "这是用于验证详情页路由和视觉模板的条目；此前 HTML 样板中的 5/8 领域数据尚未完成来源核实，不能作为事实发布。"
+  "reviewNote": "Steam 商店页面已确认存在 AI 使用披露，但可访问的原文仅为笼统说明，不能由此独立确认 Art、Music、Writing、Translation、Marketing 等细分领域。第三方站点对领域的具体分类与 Steam 页面可见原文不同，暂不将其计入已核实领域。Steam 商店页面标注 2026-09-30，SteamDB 记录 2026-10-02；发行日期存在来源差异，待复核。",
+  "developer": "Outlane",
+  "publisher": "Outlane",
+  "steamReleaseDate": "2026-09-30",
+  "genres": [
+    "Action",
+    "Indie"
+  ],
+  "tags": [
+    "Turn-Based Combat",
+    "Dark Humor",
+    "PvP",
+    "Stylized",
+    "First-Person"
+  ],
+  "features": [
+    "Single-player",
+    "Online PvP",
+    "Steam Achievements",
+    "Stats",
+    "Steam Leaderboards"
+  ],
+  "languages": "English, French, Italian, German, Spanish (Spain), Indonesian, Japanese, Korean, Portuguese (Brazil), Russian, Simplified Chinese, Spanish (Latin America), Traditional Chinese, Turkish, Polish, Portuguese (Portugal)",
+  "disclosureQuote": "We used generative AI tools as part of our creative process, alongside our team’s direction, editing, and refinement.",
+  "disclosureQuoteNote": "Steam 商店开发者披露；该原文未逐项列出使用领域",
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  }
 }
