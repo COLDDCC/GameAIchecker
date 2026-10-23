@@ -3,7 +3,7 @@ import { join } from 'node:path';
 
 const root = process.cwd();
 const ids = ['4576390', '4982910', '5182120', '5004560', '4794490', '5391500',
-  '5323250', '1889620', '2800150', '4544110', '3519780'];
+  '5323250', '1889620', '2800150', '4544110', '3519780', '3782550', '4106650', '3670600', '5053550', '4955250', '4348910', '5120010', '5315310', '3517740', '2295170'];
 const areaKeys = new Set(['ingame', 'code', 'art', 'music', 'voice', 'writing', 'translation', 'marketing']);
 const slugify = name => String(name).normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
   .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0,64);
@@ -42,5 +42,5 @@ if (errors.length) {
   errors.forEach(e => console.error(' - ' + e));
   process.exitCode = 1;
 } else {
-  console.log('[audit-reviewed-games] PASS: 11 games have sources, Astro output and local images');
+  console.log('[audit-reviewed-games] PASS: 21 games have sources, Astro output and local images');
 }
