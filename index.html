@@ -53,7 +53,7 @@ img{max-width:100%}
 .menu-btn svg{display:block}.menu-btn .i-close,.nav.open .menu-btn .i-open{display:none}.nav.open .menu-btn .i-close{display:block}
 
 /* ---------- Hero / search ---------- */
-.hero{padding:clamp(48px,9vw,104px) 0 clamp(28px,4vw,40px);text-align:center}
+.hero{padding:clamp(48px,9vw,104px) 0 clamp(24px,3vw,32px);text-align:center}
 .hero h1{margin:0 auto;max-width:15ch;font-size:clamp(2.6rem,7vw,5.1rem);line-height:.98;letter-spacing:-.048em;font-weight:900;text-wrap:balance}
 .hero-sub{margin:18px auto 0;max-width:56ch;color:var(--ink-soft);font-size:clamp(1rem,1.7vw,1.15rem)}
 .hero-sub strong{color:var(--ink);font-weight:700}
@@ -145,11 +145,19 @@ img{max-width:100%}
 .section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:18px}
 .section-head h2{margin:0;font-size:clamp(1.45rem,2.8vw,2rem);letter-spacing:-.035em;line-height:1.1}
 .section-head p{margin:6px 0 0;max-width:60ch;color:var(--ink-soft);font-size:.95rem}
-.human-box{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-lg);padding:clamp(18px,3vw,28px)}
-.human-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:16px}
-.human-box .game{border-color:#cfe8d9}
-.human-box .game:hover{border-color:var(--green)}
-
+.human-section{padding:clamp(8px,2vw,16px) 0 clamp(36px,5vw,52px);scroll-margin-top:80px}
+.human-band{background:#dff3e6;border:1px solid #bfe3cc;border-radius:26px;padding:clamp(20px,3.4vw,36px)}
+.human-top{display:flex;justify-content:space-between;align-items:flex-end;gap:18px 40px;flex-wrap:wrap;margin-bottom:clamp(18px,2.6vw,26px)}
+.slogan{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:0 .32em;font-size:clamp(2.6rem,7.4vw,5.4rem);font-weight:900;line-height:.92;letter-spacing:-.055em}
+.slogan-ai{color:var(--ink)}
+.slogan-human{color:#137a3f}
+.human-side{max-width:40ch}
+.human-side p{margin:0 0 12px;color:#2f4a3a;font-size:.93rem}
+.human-all{height:42px;padding:0 16px;border:1px solid #137a3f;border-radius:11px;background:#137a3f;color:#fff;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer}
+.human-all:hover{background:#0e6232;border-color:#0e6232}
+.human-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:14px}
+.human-grid .game{border-color:#bfe3cc}
+.human-grid .game:hover{border-color:#137a3f}
 /* ---------- Method scale ---------- */
 .scale{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(6,1fr);gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--surface)}
 .scale li{padding:16px 16px 18px;border-left:1px solid var(--line);position:relative}
@@ -203,6 +211,8 @@ img{max-width:100%}
   .scale li:nth-child(4){border-left:1px solid var(--line)}
   .scale li:nth-child(n+3){border-top:1px solid var(--line)}
   .suggest .thumb{width:64px}
+  .human-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .human-side{max-width:none}
 }
 
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.nav-search form,.finder-box{transition:none}}
@@ -265,6 +275,28 @@ img{max-width:100%}
     <p class="note">Developer disclosures are labeled as such. No disclosure does not mean no AI.</p>
   </section>
 
+  <section class="human-section wrap" id="human-made" aria-labelledby="human-title">
+    <div class="human-band">
+      <div class="human-top">
+        <h2 id="human-title" class="slogan"><span class="slogan-ai">0% AI</span> <span class="slogan-human">100% HUMAN</span></h2>
+        <div class="human-side">
+          <p>Games whose developers say they were made without generative AI. Claims are attributed to the developers and are not independent audits.</p>
+          <button type="button" class="human-all" id="humanAll">See all human-made games</button>
+        </div>
+      </div>
+      <div class="human-grid" id="humanGrid">
+        <a class="game" href="https://store.steampowered.com/app/4019220/" target="_blank" rel="noopener noreferrer">
+          <div class="game-art"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1792401675" alt="" loading="lazy" decoding="async" width="460" height="215" onerror="this.style.display='none'"></div>
+          <div class="game-body"><h3>Dressmaker</h3><p class="dev">Cozy Lives · Casual, simulation</p><div class="meta"><span class="chip human">Human-made claim</span><span class="event">Opens Steam</span></div></div>
+        </a>
+        <a class="game" href="/games/4919570-meow-star-archives/">
+          <div class="game-art"><img src="/images/steam/apps/4919570/fb438a01a91bc7fb.webp?v=meow-20261023" alt="" loading="lazy" decoding="async" width="460" height="215"></div>
+          <div class="game-body"><h3>Meow Star Archives</h3><p class="dev">Mio_Games · Demo</p><div class="meta"><span class="chip human">Human-made claim</span></div></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section class="browser wrap" id="next-fest" aria-labelledby="browserTitle">
     <div class="tabs" role="tablist" aria-label="Filter games by AI status" id="tabs">
       <button class="tab" role="tab" aria-selected="true" data-filter="all">All games <span class="count" data-count="all"></span></button>
@@ -284,26 +316,6 @@ img{max-width:100%}
     <div class="more"><button type="button" id="moreBtn" hidden>Show more games</button></div>
   </section>
 
-  <section class="section wrap" id="human-made" aria-labelledby="human-title">
-    <div class="human-box">
-      <div class="section-head">
-        <div>
-          <h2 id="human-title">Made without generative AI, say their developers</h2>
-          <p>These claims come from the developers and are attributed to them. They are not independent audits.</p>
-        </div>
-      </div>
-      <div class="human-grid">
-        <a class="game" href="https://store.steampowered.com/app/4019220/" target="_blank" rel="noopener noreferrer">
-          <div class="game-art"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1792401675" alt="" loading="lazy" decoding="async" width="460" height="215" onerror="this.style.display='none'"></div>
-          <div class="game-body"><h3>Dressmaker</h3><p class="dev">Cozy Lives · Casual, simulation</p><div class="meta"><span class="chip human">Human-made claim</span><span class="event">Opens Steam</span></div></div>
-        </a>
-        <a class="game" href="/games/4919570-meow-star-archives/">
-          <div class="game-art"><img src="/images/steam/apps/4919570/fb438a01a91bc7fb.webp?v=meow-20261023" alt="" loading="lazy" decoding="async" width="460" height="215"></div>
-          <div class="game-body"><h3>Meow Star Archives</h3><p class="dev">Mio_Games · Demo</p><div class="meta"><span class="chip human">Human-made claim</span></div></div>
-        </a>
-      </div>
-    </div>
-  </section>
 
   <section class="section wrap" id="method" aria-labelledby="method-title">
     <div class="section-head">
@@ -696,6 +708,19 @@ img{max-width:100%}
   });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && nav.classList.contains('open')) { nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.focus(); } });
 
+  /* ---------- Human-made band ---------- */
+  const humanGrid = $('humanGrid');
+  const humanStatic = new Set([...humanGrid.querySelectorAll('h3')].map(h => norm(h.textContent)));
+  function fillHuman() {
+    humanGrid.querySelectorAll('[data-dyn]').forEach(n => n.remove());
+    games.filter(g => g.status === 'human_made' && !humanStatic.has(norm(g.name)))
+      .forEach(g => { const c = card(g); c.dataset.dyn = '1'; humanGrid.append(c); });
+  }
+  $('humanAll').addEventListener('click', () => {
+    if (query) { query = ''; q.value = ''; syncFinder(); }
+    setFilter('human', {scroll: true});
+  });
+
   /* ---------- Data ---------- */
   function applyHash() { if (location.hash === '#next-fest') setFilter('fest'); }
   updateCounts();
@@ -712,6 +737,7 @@ img{max-width:100%}
       games = merged.concat(indexed.filter(g => !featured.some(f => f.appId === g.appId)));
       updateCounts();
       render();
+      fillHuman();
       if (q.value.trim() && document.activeElement === q) openSuggest();
     })
     .catch(() => { $('browserNote').textContent = 'The full game list couldn’t load. Showing featured games only.'; });
