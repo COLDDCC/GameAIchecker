@@ -9,12 +9,21 @@ export function localizeHome(html,lang){
  const m=messages[lang]||messages.en;
  const base=messages.en;
  let output=html.replace('<html lang="en">',`<html lang="${lang}">`);
+ const additional = {
+'en': {},
+'zh-cn': {'Indie AI':'独立游戏 AI','Browse':'浏览游戏','Next Fest':'新品节','Share Cards':'分享卡片','Methodology':'评估方法','HUMAN-MADE GAMES':'人工制作游戏','Developer-stated':'开发者声明','Not independently audited':'未经独立审计','Steam Next Fest · October 2026':'Steam 新品节 · 2026 年 10 月'},
+'ja': {'Indie AI':'インディーゲーム AI','Browse':'ゲーム一覧','Next Fest':'Next Fest','Share Cards':'共有カード','Methodology':'評価方法','HUMAN-MADE GAMES':'人間が制作したゲーム','Developer-stated':'開発元の申告','Not independently audited':'独立監査なし','Steam Next Fest · October 2026':'Steam Next Fest · 2026年10月'},
+'zh-tw': {'Indie AI':'獨立遊戲 AI','Browse':'瀏覽遊戲','Next Fest':'新品節','分享卡片':'分享卡片','Share Cards':'分享卡片','Methodology':'評估方法','HUMAN-MADE GAMES':'人工製作遊戲','Developer-stated':'開發者聲明','Not independently audited':'未經獨立審核','Steam Next Fest · October 2026':'Steam 新品節 · 2026 年 10 月'}
+};
  const replacements=[[base.title,m.title],[base.intro,m.intro],[base.search,m.search],[base.placeholder,m.placeholder],[base.notice,m.notice],[base.queue,m.queue],[base.queueIntro,m.queueIntro],[base.method,m.method]];
  for(const [from,to] of replacements) output=output.replace(from,to);
+ for(const [from,to] of Object.entries(additional[lang]||{})) output=output.replaceAll('>'+from+'<','>'+to+'<');
  const options=languages.map(code=>`<option value="${code}" ${code===lang?'selected':''}>${{'en':'English','zh-cn':'简体中文','ja':'日本語','zh-tw':'繁體中文'}[code]}</option>`).join('');
  const switcher=`<label style="margin-left:12px"><span class="sr-only">Language</span><select aria-label="Language" id="language-switcher" style="padding:7px;border-radius:8px;border:1px solid #cbd5e1">${options}</select></label>`;
  output=output.replace('</nav></header>',`${switcher}</nav></header>`);
  output=output.replace('</body>',`<script>document.getElementById('language-switcher')?.addEventListener('change',e=>{location.href='/'+e.target.value+'/'+location.hash});<\/script></body>`);
+ // Localized routes are still incomplete: prevent search engines indexing partially translated copies.
+ output=output.replace('</head>', '<meta name="robots" content="noindex,follow"></head>');
  output=output.replace('</head>',`<link rel="canonical" href="https://gameaichecker.com/${lang}/">${languages.map(code=>`<link rel="alternate" hreflang="${code}" href="https://gameaichecker.com/${code}/">`).join('')}<link rel="alternate" hreflang="x-default" href="https://gameaichecker.com/"></head>`);
  return output;
 }
