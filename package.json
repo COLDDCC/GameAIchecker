@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "npm run data && node scripts/fetch-steam-images.mjs && astro dev",
-    "build": "npm run data && node scripts/fetch-steam-images.mjs && astro build && node scripts/export-static-game.mjs 2073850-the-finals",
+    "build": "npm run data && node scripts/fetch-steam-images.mjs && node scripts/localize-game-media.mjs && astro build && node scripts/export-static-game.mjs 2073850-the-finals",
     "data": "node scripts/fetch-steam-metadata.mjs && node scripts/build-game-index.mjs && node scripts/prepare-public.mjs",
     "games:data": "node scripts/fetch-steam-metadata.mjs --force && node scripts/build-game-index.mjs",
     "preview": "astro preview",
     "export:game": "node scripts/export-static-game.mjs"
   },
   "dependencies": {
-    "astro": "^5.16.0"
+    "astro": "^5.16.0",
+    "sharp": "^0.34.5"
   }
 }

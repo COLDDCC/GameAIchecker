@@ -446,7 +446,7 @@ function finalize(record) {
     return { ...area, state, stateLabel: STATE_LABELS[state] };
   });
 
-  const images = [];
+  let images = [];
   const seen = new Set();
   const addImage = (src, full, label, kind) => {
     if (!src || seen.has(src)) return;
@@ -463,7 +463,11 @@ function finalize(record) {
     images.push({ src: local, full: local, label: 'Steam 封面', kind: 'header', fallback: `https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/${record.appId}/header.jpg` });
   }
 
-  const movies = (steam?.movies || []).filter((movie) => movie.thumbnail || movie.mp4 || movie.webm).slice(0, 8);
+  const galleryPath = join(ROOT, 'public', 'images', 'steam', 'apps', String(record.appId), 'gallery.json');
+  const localGallery = existsSync(galleryPath) ? JSON.parse(readFileSync(galleryPath, 'utf8')) : null;
+  if (localGallery?.images?.length) images = localGallery.images;
+
+  const movies = (localGallery?.movies || steam?.movies || []).filter((movie) => movie.thumbnail || movie.mp4 || movie.webm).slice(0, 8);
 
   const evidence = record.sources
     .map((source) => ({ ...source, typeLabel: TYPE_LABELS[source.type] || TYPE_LABELS.source }))

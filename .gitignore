@@ -7,3 +7,6 @@ dist/
 data/steam/*
 !data/steam/2073850.json
 public/data/
+# Detail galleries are downloaded and optimized during the production build.
+public/images/steam/apps/*/*.webp
+public/images/steam/apps/*/gallery.json

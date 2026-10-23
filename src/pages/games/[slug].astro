@@ -469,7 +469,7 @@ const breadcrumbLd = {
       <div class="media-col">
         <div class="hero-media" id="heroMedia">
           {hero ? (
-            <img id="heroImg" src={hero.src} alt={`${game.name} 官方图片`} data-full={hero.full} data-fallback={hero.fallback || ''} loading="eager" decoding="async" />
+            <img id="heroImg" src={hero.src} alt={`${game.name} 官方图片`} data-full={hero.full} data-fallback={hero.fallback || ''} loading="eager" fetchpriority="high" decoding="async" />
           ) : (
             <div class="media-placeholder">暂无官方图片<br /><small>Steam App ID 与商店图片待核实</small></div>
           )}
@@ -495,7 +495,7 @@ const breadcrumbLd = {
                 data-full={image.full}
                 aria-label={`第 ${index + 1} 张图片`}
               >
-                <img src={image.src} alt="" loading="lazy" decoding="async" />
+                <img src={image.thumbnail || image.src} width="160" height="90" alt="" loading="lazy" decoding="async" />
               </button>
             ))}
           </div>
@@ -869,7 +869,7 @@ const breadcrumbLd = {
       schedule();
 
       const appId = app?.dataset.appid;
-      if (appId && heroImg) {
+      if (appId && heroImg && !heroImg.getAttribute('src')?.startsWith('/images/steam/')) {
         fetch(`/api/steam-media?id=${encodeURIComponent(appId)}`)
           .then((response) => (response.ok ? response.json() : Promise.reject()))
           .then((data) => {
