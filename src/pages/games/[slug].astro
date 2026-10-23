@@ -9,6 +9,8 @@ export function getStaticPaths() {
 }
 
 const { game } = Astro.props;
+// Batch 01: preserve the compact refresh when Astro regenerates these pages.
+const batchDetailRefresh = ["1853440-tropico-7","1889620-ai-roguelite","2295170-emberville","2800150-ai-roguelite-2d","2861080-haunted-paws","2870790-dumpster-gang","3421660-re-blade","3517740-frostrail","3519780-queen-s-cards","3629430-dreadmoor"] .includes(game.slug);
 const site = (Astro.site?.toString() || 'https://gameaichecker.com').replace(/\/$/, '');
 const canonical = `${site}/games/${game.slug}/`;
 
@@ -480,7 +482,17 @@ const breadcrumbLd = {
     @media(max-width:820px){.game-top{grid-template-columns:1fr}.info-col{grid-row:1}.media-col{grid-row:2}.info-col .facts{display:none}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ai-overview,.game-card,.card{transition:none!important}}
     @media(max-width:420px){.ai-overview{padding:13px}.ai-overview-grid{gap:5px}.ai-overview-tile{min-height:69px}.ai-overview-name{font-size:10px}}
-  </style>
+  
+    /* Compact detail refresh (batch 01) */
+    body:has(.quick-review){background:#fcfdff}
+    .quick-review{margin:14px 0 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:13px 16px;border:1px solid #dce9f6;border-radius:15px;background:#f5f9ff}
+    .quick-review-label{font-weight:750;font-size:13px;color:#1a3760;margin-right:auto}
+    .quick-review-links{display:flex;gap:8px;flex-wrap:wrap}
+    .quick-review-links a{display:inline-flex;align-items:center;gap:5px;border-radius:9px;padding:8px 12px;background:#fff;border:1px solid #d7e4f2;color:#205b9a;font-size:12px;font-weight:650;text-decoration:none}
+    .quick-review-links a:hover,.quick-review-links a:focus-visible{border-color:#2787e8;background:#ecf5ff;outline-offset:2px}
+    .quick-review-links a:focus-visible{outline:2px solid #1474d4}
+    @media(max-width:760px){.quick-review{padding:12px;align-items:stretch}.quick-review-label{width:100%}.quick-review-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:6px}.quick-review-links a{justify-content:center;padding:9px 4px;font-size:11px}}
+</style>
 </head>
 <body>
   <header class="top">
@@ -650,6 +662,12 @@ const breadcrumbLd = {
       </aside>
     </section>
 
+    {batchDetailRefresh && (
+      <div class="quick-review" aria-label="快速查看">
+        <span class="quick-review-label">先看结论，再核对证据</span>
+        <div class="quick-review-links"><a href="#ai">AI 使用情况 ↗</a><a href="#evidence">原始证据 ↗</a><a href="#steam">游戏资料 ↗</a></div>
+      </div>
+    )}
     <nav class="section-nav" aria-label="页内导航">
       <a href="#ai">AI 使用</a>
       <a href="#evidence">证据链</a>
