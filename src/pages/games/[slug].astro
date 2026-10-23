@@ -420,9 +420,9 @@ const breadcrumbLd = {
       .section-nav { top: 58px; }
     }
 
-    /* V7: printgridpaper-inspired, one-task first screen */
+    /* Taste-inspired refinement: faster comprehension, visible status, accessible controls. */
     .game-top { grid-template-columns:minmax(0,1.4fr) minmax(340px,.95fr); gap:clamp(18px,3vw,34px); }
-    .info-col .status-badge,.info-col .ai-chips { display:none; }
+    .info-col .status-badge { display:inline-flex; align-items:center; margin:0 0 10px; }\n    .info-col .ai-chips { display:none; }
     .info-col h1 { font-size:clamp(1.6rem,3vw,2.55rem);margin-bottom:6px; }
     .info-col .byline { margin-bottom:14px; }
     .ai-overview { display:block;border:1px solid #dfe8f5;border-radius:18px;background:#fff;padding:18px;text-decoration:none;color:#152b48;transition:border-color .2s,box-shadow .2s;margin:0 0 16px; }
@@ -434,7 +434,7 @@ const breadcrumbLd = {
     .ai-overview-count strong { font-size:34px;color:#142943;letter-spacing:-.05em; }
     .ai-overview-grid { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px; }
     .ai-overview-tile { display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;min-height:78px;background:#f1f4f8;color:#738298;border-radius:10px;padding:9px 3px;text-align:center;min-width:0; }
-    .ai-overview-tile.is-used { background:#2469cb;color:#fff; }
+    .ai-overview-tile.is-used { background:#2469cb;color:#fff; }\n    .ai-overview-tile:focus-visible, .btn:focus-visible, .thumb:focus-visible, .section-nav a:focus-visible { outline:3px solid #1f8fff;outline-offset:3px; }
     .ai-overview-symbol { font-size:21px;font-weight:700;line-height:1; }
     .ai-overview-name { font-size:11px;font-weight:650;line-height:1.2;overflow-wrap:anywhere; }
     .ai-overview-foot { display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:10px;color:#77879b;margin-top:12px; }
@@ -443,7 +443,7 @@ const breadcrumbLd = {
     .ai-key.used { background:#2469cb; }
     .ai-overview-arrow { margin-left:auto;color:#2469cb;font-weight:700; }
     @media(max-width:820px){.game-top{grid-template-columns:1fr}.info-col{grid-row:1}.media-col{grid-row:2}.info-col .facts{display:none}}
-    @media(max-width:420px){.ai-overview{padding:13px}.ai-overview-grid{gap:5px}.ai-overview-tile{min-height:69px}.ai-overview-name{font-size:10px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ai-overview,.game-card,.card{transition:none!important}}\n    @media(max-width:420px){.ai-overview{padding:13px}.ai-overview-grid{gap:5px}.ai-overview-tile{min-height:69px}.ai-overview-name{font-size:10px}}
   </style>
 </head>
 <body>
@@ -527,9 +527,9 @@ const breadcrumbLd = {
         <p class="byline">
           {game.developer || '开发商待核实'} · {game.releaseYear || '发行年份待核实'} · {game.genres.slice(0, 3).join(' / ') || '类型待核实'}
         </p>
-        <a class="ai-overview" href="#ai" aria-label={`查看 ${game.name} 的 AI 使用领域与证据`}>
+        <a class="ai-overview" href="#ai" aria-label={`查看 ${game.name} 的 AI 使用领域与证据，已披露 ${usedCount} 个领域，共 8 个`}>
           <div class="ai-overview-head">
-            <span class="ai-overview-title"><span class="ai-overview-logo" aria-hidden="true">▶</span> AI USE</span>
+            <span class="ai-overview-title"><span class="ai-overview-logo" aria-hidden="true">▶</span> AI USE <span class="muted">开发者披露范围</span></span>
             <span class="ai-overview-count"><strong>{usedCount}</strong><span>/ 8</span></span>
           </div>
           <div class="ai-overview-grid">
@@ -543,7 +543,7 @@ const breadcrumbLd = {
               </span>
             ))}
           </div>
-          <div class="ai-overview-foot"><span><i class="ai-key used"></i>已披露使用</span><span><i class="ai-key"></i>其他状态请查看证据</span><span class="ai-overview-arrow">查看证据 ↗</span></div>
+          <div class="ai-overview-foot"><span><i class="ai-key used"></i>已披露使用</span><span><i class="ai-key"></i>未标蓝不代表未使用</span><span class="ai-overview-arrow">查看证据 ↗</span></div>
         </a>
 
         {usedCount > 0 ? (
