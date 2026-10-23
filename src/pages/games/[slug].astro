@@ -419,6 +419,31 @@ const breadcrumbLd = {
       .share-bar .btn { flex: 1; }
       .section-nav { top: 58px; }
     }
+
+    /* V7: printgridpaper-inspired, one-task first screen */
+    .game-top { grid-template-columns:minmax(0,1.4fr) minmax(340px,.95fr); gap:clamp(18px,3vw,34px); }
+    .info-col .status-badge,.info-col .ai-chips { display:none; }
+    .info-col h1 { font-size:clamp(1.6rem,3vw,2.55rem);margin-bottom:6px; }
+    .info-col .byline { margin-bottom:14px; }
+    .ai-overview { display:block;border:1px solid #dfe8f5;border-radius:18px;background:#fff;padding:18px;text-decoration:none;color:#152b48;transition:border-color .2s,box-shadow .2s;margin:0 0 16px; }
+    .ai-overview:hover { border-color:#6ca4f0;box-shadow:0 8px 24px #173d7512;text-decoration:none; }
+    .ai-overview-head { display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:15px; }
+    .ai-overview-title { display:flex;align-items:center;gap:7px;font-weight:800;letter-spacing:.06em;font-size:12px; }
+    .ai-overview-logo { display:inline-grid;place-items:center;width:24px;height:24px;border-radius:7px;background:#2469cb;color:#fff;font-size:11px; }
+    .ai-overview-count { display:flex;align-items:baseline;gap:3px;font-size:18px;color:#78899f;font-weight:650;line-height:1; }
+    .ai-overview-count strong { font-size:34px;color:#142943;letter-spacing:-.05em; }
+    .ai-overview-grid { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px; }
+    .ai-overview-tile { display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;min-height:78px;background:#f1f4f8;color:#738298;border-radius:10px;padding:9px 3px;text-align:center;min-width:0; }
+    .ai-overview-tile.is-used { background:#2469cb;color:#fff; }
+    .ai-overview-symbol { font-size:21px;font-weight:700;line-height:1; }
+    .ai-overview-name { font-size:11px;font-weight:650;line-height:1.2;overflow-wrap:anywhere; }
+    .ai-overview-foot { display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:10px;color:#77879b;margin-top:12px; }
+    .ai-overview-foot>span { display:inline-flex;align-items:center;gap:4px; }
+    .ai-key { width:8px;height:8px;border-radius:3px;background:#e0e6ed; }
+    .ai-key.used { background:#2469cb; }
+    .ai-overview-arrow { margin-left:auto;color:#2469cb;font-weight:700; }
+    @media(max-width:820px){.game-top{grid-template-columns:1fr}.info-col{grid-row:1}.media-col{grid-row:2}.info-col .facts{display:none}}
+    @media(max-width:420px){.ai-overview{padding:13px}.ai-overview-grid{gap:5px}.ai-overview-tile{min-height:69px}.ai-overview-name{font-size:10px}}
   </style>
 </head>
 <body>
@@ -502,7 +527,24 @@ const breadcrumbLd = {
         <p class="byline">
           {game.developer || '开发商待核实'} · {game.releaseYear || '发行年份待核实'} · {game.genres.slice(0, 3).join(' / ') || '类型待核实'}
         </p>
-        <p class="lede">{game.summary}</p>
+        <a class="ai-overview" href="#ai" aria-label={`查看 ${game.name} 的 AI 使用领域与证据`}>
+          <div class="ai-overview-head">
+            <span class="ai-overview-title"><span class="ai-overview-logo" aria-hidden="true">▶</span> AI USE</span>
+            <span class="ai-overview-count"><strong>{usedCount}</strong><span>/ 8</span></span>
+          </div>
+          <div class="ai-overview-grid">
+            {game.areas.slice(0, 8).map((area) => (
+              <span class:list={['ai-overview-tile',area.state === 'used' && 'is-used']} title={`${area.label}：${area.stateLabel}`}>
+                <span class="ai-overview-symbol" aria-hidden="true">{({
+                  art: '◈', music: '♫', writing: '✎', translation: '文',
+                  marketing: '↗', code: '⌘', voice: '◉', gameplay: '▣'
+                })[area.key] || '◆'}</span>
+                <span class="ai-overview-name">{area.label}</span>
+              </span>
+            ))}
+          </div>
+          <div class="ai-overview-foot"><span><i class="ai-key used"></i>已披露使用</span><span><i class="ai-key"></i>其他状态请查看证据</span><span class="ai-overview-arrow">查看证据 ↗</span></div>
+        </a>
 
         {usedCount > 0 ? (
           <div class="ai-chips">
@@ -548,7 +590,6 @@ const breadcrumbLd = {
       <a href="#evidence">证据链</a>
       <a href="#steam">Steam 数据</a>
       <a href="#developer">开发商</a>
-      <a href="#similar">相似游戏</a>
       <a href="#sources">来源与纠错</a>
     </nav>
 
@@ -689,30 +730,6 @@ const breadcrumbLd = {
             ))}
           </div>
         </div>
-      )}
-    </section>
-
-    <section class="section" id="similar">
-      <div class="section-head">
-        <div><div class="eyebrow">SIMILAR</div><h2>相似游戏</h2></div>
-        <a class="section-link" href="/games/">浏览全部 →</a>
-      </div>
-      {game.similar.length ? (
-        <div class="game-grid">
-          {game.similar.map((other) => (
-            <a class="game-card" href={`/games/${other.slug}/`}>
-              {other.header ? <img src={other.header} alt={`${other.name} 封面`} loading="lazy" /> : <div class="game-card-ph">无封面</div>}
-              <div class="game-card-body">
-                <strong>{other.name}</strong>
-                <span>{other.developer || '开发商待核实'}</span>
-                <div class:list={['mini-status', `tone-${other.statusTone}`]}>{other.statusLabel}</div>
-                {other.areaSummary && <small>{other.areaSummary}</small>}
-              </div>
-            </a>
-          ))}
-        </div>
-      ) : (
-        <div class="empty">暂无足够相似的游戏。</div>
       )}
     </section>
 
