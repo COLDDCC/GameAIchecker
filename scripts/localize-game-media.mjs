@@ -32,7 +32,7 @@ for (const id of ids) {
         }
         await Promise.all(variants.map(([suffix, width, quality]) => sharp(buffer).resize({ width, withoutEnlargement: true }).webp({ quality }).toFile(join(root, 'public', base + suffix))));
       }
-      return { src: base + '.webp', thumbnail: base + '-thumb.webp', full: base + '-full.webp', label: '官方图片', kind: 'screenshot' };
+      return { src: base + '.webp?v=gallery1', thumbnail: base + '-thumb.webp?v=gallery1', full: base + '-full.webp?v=gallery1', label: '官方图片', kind: 'screenshot' };
     }));
     images.push(...batch);
   }
