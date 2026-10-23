@@ -1,0 +1,51 @@
+{
+  "appId": "5004560",
+  "name": "ODDSTABLE Demo",
+  "summary": "Steam 开发者披露：游戏的部分马匹美术、背景、图标、界面、品牌及宣传素材，以及部分文字与本地化内容借助生成式 AI 制作。披露称游戏运行中不实时生成 AI 内容。",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "steamUrl": "https://store.steampowered.com/app/5004560/",
+  "genres": [
+    "Roguelike"
+  ],
+  "aiUsageCategories": [
+    "art",
+    "marketing",
+    "writing",
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露部分马匹美术、背景、图标和 UI 使用 AI 辅助；不能据此推定所有美术资源均由 AI 生成。",
+    "marketing": "开发者披露部分标志、品牌和宣传素材使用 AI 辅助。",
+    "writing": "开发者披露部分文字内容使用 AI 辅助，具体占比未核实。",
+    "translation": "开发者披露部分本地化文本使用 AI 辅助；不代表全部翻译都由 AI 完成。",
+    "ingame": "开发者披露没有运行时生成式 AI 内容；此处不将其标记为已使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "marketing": "official",
+    "writing": "official",
+    "translation": "official"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者生成式 AI 披露（开发者自述）",
+      "url": "https://store.steampowered.com/app/5004560/",
+      "date": "2026-10-21",
+      "excerpt": "Steam 开发者披露：游戏的部分马匹美术、背景、图标、界面、品牌及宣传素材，以及部分文字与本地化内容借助生成式 AI 制作。披露称游戏运行中不实时生成 AI 内容。"
+    }
+  ],
+  "reviewNote": "依据 Steam 开发者自述整理。确认的是披露范围而非独立素材审计；游戏内实时 AI 使用未被披露。",
+  "reviewedAt": "2026-10-21"
+}
