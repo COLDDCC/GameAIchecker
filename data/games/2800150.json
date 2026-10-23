@@ -1,0 +1,53 @@
+{
+  "appId": "2800150",
+  "name": "AI Roguelite 2D",
+  "developer": "Max Loh",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "reviewedAt": "2026-10-21",
+  "summary": "开发者在 Steam 披露：玩家输入的世界描述会影响游戏运行时的文字、图像、音效及机制生成；部分游戏内交互由大语言模型实时驱动。",
+  "genres": [
+    "Roguelike"
+  ],
+  "steamUrl": "https://store.steampowered.com/app/2800150/",
+  "aiUsageCategories": [
+    "ingame",
+    "art",
+    "music",
+    "writing"
+  ],
+  "aiAreas": {
+    "ingame": "used",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "music": "official",
+    "writing": "official"
+  },
+  "aiAreaNotes": {
+    "ingame": "游戏运行期间实时调用大语言模型以驱动部分交互及机制，这是开发者自述。",
+    "art": "Steam 开发者披露根据玩家描述即时生成图像内容。",
+    "music": "开发者披露游戏会即时生成音效；不等同于确认 AI 创作全部配乐。",
+    "writing": "开发者披露按照玩家世界描述实时生成游戏文字内容。"
+  },
+  "disclosureQuote": "This game uses AI to generate text, game mechanics, images, and sound effects on the fly based on the player's world description. Some in-world interactions are also powered by an LLM in real time.",
+  "disclosureQuoteNote": "Steam 开发者公开披露的原文摘录（具体描述可随商店页面更新）。",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "url": "https://store.steampowered.com/app/2800150/",
+      "date": "2026-10-21",
+      "excerpt": "开发者在 Steam 披露：玩家输入的世界描述会影响游戏运行时的文字、图像、音效及机制生成；部分游戏内交互由大语言模型实时驱动。"
+    }
+  ],
+  "reviewNote": "开发者披露实时生成范围，但本站没有独立验证各玩法系统的实现；不将 AI 使用范围外推为全部资源。"
+}
