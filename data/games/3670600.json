@@ -1,0 +1,48 @@
+{
+  "appId": "3670600",
+  "name": "Hexitten",
+  "developer": "Korkea Maki Studios",
+  "releaseDate": "2025-06-20",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "Steam 开发者披露，部分角色肖像、背景图以生成式 AI 为初始素材，再用 Photoshop 编辑；部分文字由 AI 辅助制作。公开披露并未支持将游戏全部资产归为 AI 生成。",
+  "steamUrl": "https://store.steampowered.com/app/3670600/",
+  "genres": [
+    "Roguelike"
+  ],
+  "aiUsageCategories": [
+    "art",
+    "writing"
+  ],
+  "aiAreas": {
+    "ingame": "unreviewed",
+    "code": "unreviewed",
+    "art": "used",
+    "music": "unreviewed",
+    "voice": "unreviewed",
+    "writing": "used",
+    "translation": "unreviewed",
+    "marketing": "unreviewed"
+  },
+  "aiAreaNotes": {
+    "art": "角色肖像及背景使用生成式 AI 作为初始素材，随后由人工在 Photoshop 中编辑。",
+    "writing": "开发者披露部分文字内容经过 AI 协助，具体段落与比例未逐项核实。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "writing": "official"
+  },
+  "disclosureQuote": "Character Portraits and backgrounds used Gen-AI as a starting point combined with Photoshop editing. Some Text was created with the assistance of AI.",
+  "disclosureQuoteNote": "Steam 开发者披露原文摘录，可能随商店页更新。",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者 AI 使用披露",
+      "url": "https://store.steampowered.com/app/3670600/",
+      "date": "2026-10-21",
+      "excerpt": "Steam 开发者披露，部分角色肖像、背景图以生成式 AI 为初始素材，再用 Photoshop 编辑；部分文字由 AI 辅助制作。公开披露并未支持将游戏全部资产归为 AI 生成。"
+    }
+  ],
+  "reviewNote": "数据基于 Steam 开发者自述整理，属于来源归属的公开声明，不是独立技术审计。",
+  "reviewedAt": "2026-10-21"
+}
