@@ -722,12 +722,9 @@ img{max-width:100%}
 
   /* ---------- Human-made band ---------- */
   const humanGrid = $('humanGrid');
-  const humanStatic = new Set([...humanGrid.querySelectorAll('h3')].map(h => norm(h.textContent)));
-  function fillHuman() {
-    humanGrid.querySelectorAll('[data-dyn]').forEach(n => n.remove());
-    games.filter(g => g.status === 'human_made' && !humanStatic.has(norm(g.name)))
-      .forEach(g => { const c = card(g); c.dataset.dyn = '1'; humanGrid.append(c); });
-  }
+  // This editorial feature intentionally shows the four selected titles.
+  // The full index remains available via the Browse button.
+  function fillHuman() {}
   $('humanAll').addEventListener('click', () => {
     if (query) { query = ''; q.value = ''; syncFinder(); }
     setFilter('human', {scroll: true});
