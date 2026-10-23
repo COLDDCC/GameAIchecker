@@ -1,18 +1,11 @@
 {
   "appId": "4693000",
   "name": "降雪的日子",
-  "originalName": "降雪的日子",
   "developer": "亚细亚鳕鱼",
-  "publisher": "亚细亚鳕鱼",
   "category": "community",
-  "verification": "art_style_statement_only",
-  "summary": "末世题材视觉小说，Steam 官方描述宣传独特的手绘画风。尚无覆盖完整制作流程的无生成式 AI 声明，因此不应视为已核实的 0% AI 作品。",
+  "verification": "hand_drawn_style_only",
   "steamUrl": "https://store.steampowered.com/app/4693000/",
-  "genres": [
-    "冒险",
-    "独立",
-    "视觉小说"
-  ],
+  "summary": "Steam 官方介绍明确提及手绘画风、CG，但未确认全游戏零 AI。",
   "aiUsageCategories": [],
   "aiAreas": {
     "ingame": "unreviewed",
@@ -28,35 +21,18 @@
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/4693000/",
-      "label": "Steam 正式版：开发者身份与手绘风格描述",
-      "date": "2026-10-23",
-      "excerpt": "游戏内容介绍写有‘独特的手绘画风’；该短语描述画风，不构成完整无 AI 保证。"
+      "label": "官方游戏资料及手绘描述"
     },
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/5027060/",
-      "label": "Steam Demo：同名作品试玩版",
-      "date": "2026-10-23"
+      "label": "官方 Demo"
     }
   ],
-  "reviewNote": "收录在 0% AI / 100% HUMAN 区域的是手绘作品线索，而非已通过零 AI 认证。尚未核实美术资产是否全部手工制作，也未确认代码、音乐、剧情、翻译等领域的 AI 使用情况。",
   "humanMadeListing": {
     "kind": "community_nomination",
     "scope": "art",
-    "label": "官方介绍手绘风格 · 零 AI 未证实",
-    "labelEn": "Hand-drawn style · AI-free unverified",
-    "summary": "Steam 官方文案含‘独特的手绘画风’，不等同于开发者承诺完全不用生成式 AI。",
-    "verified": false
-  },
-  "links": [
-    {
-      "label": "Steam 正式版",
-      "url": "https://store.steampowered.com/app/4693000/"
-    },
-    {
-      "label": "Steam Demo",
-      "url": "https://store.steampowered.com/app/5027060/"
-    }
-  ],
-  "identityVerifiedAt": "2026-10-23"
+    "verified": false,
+    "label": "人工美术推荐 · 尚待核实"
+  }
 }

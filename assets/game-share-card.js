@@ -2,7 +2,7 @@
 const canvas=document.getElementById('gameShareCanvas');
 if(!canvas)return;
 const ctx=canvas.getContext('2d');
-const W=750,H=1000,scale=2;
+const W=750,H=1000,scale=1;
 canvas.width=W*scale;canvas.height=H*scale;
 const font='"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif';
 function rounded(x,y,w,h,r,color){ctx.fillStyle=color;ctx.beginPath();if(typeof ctx.roundRect==='function')ctx.roundRect(x,y,w,h,r);else ctx.rect(x,y,w,h);ctx.fill()}
