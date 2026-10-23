@@ -158,9 +158,6 @@ img{max-width:100%}
 .human-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:14px}
 .human-grid .game{border-color:#bfe3cc}
 .human-grid .game:hover{border-color:#137a3f}
-.human-nominations{margin-top:24px;padding-top:20px;border-top:1px solid #bfe3cc}
-.human-nominations>h3{margin:0 0 6px;font-size:1rem}
-.human-nominations>p{margin:0 0 14px;color:var(--ink-soft);font-size:.86rem}
 /* ---------- Method scale ---------- */
 .scale{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(6,1fr);gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--surface)}
 .scale li{padding:16px 16px 18px;border-left:1px solid var(--line);position:relative}
@@ -283,8 +280,8 @@ img{max-width:100%}
       <div class="human-top">
         <h2 id="human-title" class="slogan"><span class="slogan-ai">0% AI</span> <span class="slogan-human">100% HUMAN</span></h2>
         <div class="human-side">
-          <p>Developer claims are shown separately from community handmade-art nominations. Each card states its scope and source status; these are not independent audits.</p>
-          <button type="button" class="human-all" id="humanAll">See all human-made games</button>
+          <p>Four human-made claims and artwork nominations in one collection. Source status is shown on each card; inclusion does not certify a game as AI-free.</p>
+          <button type="button" class="human-all" id="humanAll">Browse human-made claims</button>
         </div>
       </div>
       <div class="human-grid" id="humanGrid">
@@ -296,12 +293,7 @@ img{max-width:100%}
           <div class="game-art"><img src="/images/steam/apps/4919570/fb438a01a91bc7fb.webp?v=meow-20261023" alt="" loading="lazy" decoding="async" width="460" height="215"></div>
           <div class="game-body"><h3>Meow Star Archives</h3><p class="dev">Mio_Games · Demo</p><div class="meta"><span class="chip human">Human-made claim</span></div></div>
         </a>
-      </div>
-      <div class="human-nominations" aria-labelledby="humanNominationsTitle">
-        <h3 id="humanNominationsTitle">Community nominations · handmade art</h3>
-        <p>Original statements pending. These entries are not confirmed whole-game no-AI claims.</p>
-        <div class="human-grid" id="humanNominationGrid">
-          <a class="game" href="/games/5086350-armor-growth-plan/" data-human-nomination="5086350">
+<a class="game" href="/games/5086350-armor-growth-plan/" data-human-nomination="5086350">
             <div class="game-art"><img src="/images/steam/apps/5086350/c9bf1f5154763b82.webp?v=gallery1" alt="" loading="lazy" decoding="async" width="460" height="215"></div>
             <div class="game-body"><h3>罐头成长计划</h3><p class="dev">隋辩, 紫皮洋葱圈 · Armor Growth Plan</p><div class="meta"><span class="chip community">Art claim · source pending</span></div></div>
           </a>
@@ -309,7 +301,6 @@ img{max-width:100%}
             <div class="game-art"><img src="/images/steam/apps/4598530/c150f6cc9ecbe0e2.webp?v=gallery1" alt="" loading="lazy" decoding="async" width="460" height="215"></div>
             <div class="game-body"><h3>异界·魔校</h3><p class="dev">CASCHA GAMES · Otherealm</p><div class="meta"><span class="chip community">Art claim · source pending</span></div></div>
           </a>
-        </div>
       </div>
     </div>
   </section>
