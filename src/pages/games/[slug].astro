@@ -62,6 +62,8 @@ const statusExplanation = {
 
 const primarySource = game.evidence.find((item) => item.type === 'official_disclosure') || game.evidence.find((item) => item.url) || null;
 const usedCount = game.usedAreas.length;
+const claimedCount = game.areas.filter((area) => area.state === 'claimed_none').length;
+const isBroadHumanClaim = claimedCount === game.areas.length && claimedCount > 0 && Boolean(game.disclosureQuote);
 const hero = game.images[0] || null;
 const ogImage = absolute(game.images[0]?.full || game.header);
 const metaDescription = (game.summary || game.steamDescription || `${game.name} 的 Steam 资料、AI 使用披露与证据。`)
@@ -597,12 +599,13 @@ const breadcrumbLd = {
     <section class="section" id="ai">
       <div class="section-head">
         <div><div class="eyebrow">AI USE</div><h2>AI 使用情况</h2></div>
-        <div class="section-meta">{usedCount} / 8 个领域有来源记录</div>
+        <div class="section-meta">{usedCount} / {game.areas.length} 个领域有 AI 使用记录{claimedCount > 0 ? ` · 开发者声明覆盖 ${claimedCount}/${game.areas.length}` : ""}</div>
       </div>
       <div class:list={['status-note', `tone-${game.statusTone}`]}>
         <strong>{game.statusLabel}</strong><span>{statusExplanation}</span>
       </div>
-      <p class="section-lede">{game.summary}</p>
+      {!isBroadHumanClaim && <p class="section-lede">{game.summary}</p>}
+      {isBroadHumanClaim && <p class="section-lede">一份开发者整体声明覆盖全部 {claimedCount} 个领域；这不是逐项独立验证。<a href="#evidence">查看证据 ↗</a></p>}
       <div class="table-wrap">
         <table class="ai-table">
           <thead>
@@ -614,7 +617,7 @@ const breadcrumbLd = {
                 <td><strong>{area.label}</strong><small>{area.en}</small>{area.state === 'used' && <a href="#evidence" class="area-provenance">{game.aiAreaSources?.[area.key] === 'third_party' ? '第三方整理 ↗' : '查看来源 ↗'}</a>}</td>
                 <td class="muted">{area.scope}</td>
                 <td><span class:list={['state', `s-${area.state}`]}>{area.stateLabel}</span></td>
-                <td class="muted">{areaNote(area, game)}</td>
+                <td class="muted">{isBroadHumanClaim && area.state === "claimed_none" && area.key !== "art" && area.key !== "marketing" ? "同一份开发者整体声明" : areaNote(area, game)}</td>
               </tr>
             ))}
           </tbody>
@@ -626,16 +629,16 @@ const breadcrumbLd = {
         <span><i class="dot claimed_none"></i>开发者称未使用</span>
         <span><i class="dot unreviewed"></i>未核查</span>
       </div>
-      {game.disclosureQuote && (
+      {game.disclosureQuote && !isBroadHumanClaim && (
         <blockquote class="quote">
           <p>“{game.disclosureQuote}”</p>
           <footer>{game.disclosureQuoteNote || '来源：官方披露'}{primarySource?.url && <> · <a href={primarySource.url} target="_blank" rel="noopener noreferrer">查看原文 ↗</a></>}</footer>
         </blockquote>
       )}
-      <div class="callout">
-        <strong>如何解读</strong>
-        <p>“未提及”不等于“没有使用”。蓝色领域可能来自官方披露或第三方整理，请点击领域查看证据链。第三方分类未经本站独立核实；5/8 是有记录的领域数，不是 AI 生成比例。</p>
-      </div>
+      <details class="callout">
+        <summary><strong>如何解读这些状态</strong></summary>
+        <p>有 AI 使用记录的领域：{usedCount}/{game.areas.length}。{claimedCount > 0 ? `开发者声明未使用的领域：${claimedCount}/${game.areas.length}。` : ""}声明不等于独立验证；未提及也不等于未使用 AI。</p>
+      </details>
       {primarySource && (
         <p class="source-line">
           主要来源：<a href={primarySource.url} target="_blank" rel="noopener noreferrer">{primarySource.typeLabel} ↗</a>
@@ -666,7 +669,7 @@ const breadcrumbLd = {
       ) : (
         <div class="empty">目前没有可核实的来源。<a href={correctionUrl} target="_blank" rel="noopener noreferrer">提交线索 ↗</a></div>
       )}
-      {game.reviewNote && <div class="callout"><strong>审查备注</strong><p>{game.reviewNote}</p></div>}
+      {game.reviewNote && <details class="callout"><summary><strong>审查备注（展开查看）</strong></summary><p>{game.reviewNote}</p></details>}
     </section>
 
     <section class="section" id="steam">
