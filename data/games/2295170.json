@@ -1,0 +1,36 @@
+{
+  "appId": "2295170",
+  "name": "Emberville",
+  "category": "unreviewed",
+  "verification": "pending_source_review",
+  "summary": "Emberville 收录自第三方 Steam 新品节列表。AI 使用与否仍待原始声明和可核查证据支持；本页不会把未发现披露直接认定为未使用 AI。",
+  "steamUrl": "https://store.steampowered.com/app/2295170/",
+  "genres": [],
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "unreviewed",
+    "code": "unreviewed",
+    "art": "unreviewed",
+    "music": "unreviewed",
+    "voice": "unreviewed",
+    "writing": "unreviewed",
+    "translation": "unreviewed",
+    "marketing": "unreviewed"
+  },
+  "aiAreaNotes": {},
+  "aiAreaSources": {},
+  "sources": [
+    {
+      "type": "steam_store",
+      "label": "Steam 游戏身份页面",
+      "url": "https://store.steampowered.com/app/2295170/",
+      "excerpt": "Emberville 收录自第三方 Steam 新品节列表。AI 使用与否仍待原始声明和可核查证据支持；本页不会把未发现披露直接认定为未使用 AI。"
+    },
+    {
+      "type": "third_party",
+      "label": "第三方 Steam 新品节游戏列表",
+      "url": "https://playtestboard.com/steam-next-fest/"
+    }
+  ],
+  "reviewNote": "保持未核查状态，不根据游戏画风或第三方活动记录推断 AI 使用。"
+}
