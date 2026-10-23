@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "npm run data && node scripts/fetch-steam-images.mjs && astro dev",
-    "build": "npm run data && node scripts/fetch-steam-images.mjs && node scripts/localize-game-media.mjs && astro build && node scripts/export-static-game.mjs 2073850-the-finals && node scripts/export-reviewed-games.mjs",
+    "build": "npm run data && node scripts/fetch-steam-images.mjs && node scripts/localize-game-media.mjs && astro build && npm run audit:reviewed",
     "data": "node scripts/fetch-steam-metadata.mjs && node scripts/build-game-index.mjs && node scripts/prepare-public.mjs",
     "games:data": "node scripts/fetch-steam-metadata.mjs --force && node scripts/build-game-index.mjs",
     "preview": "astro preview",
     "export:game": "node scripts/export-static-game.mjs",
-    "audit:reviewed": "node scripts/audit-reviewed-games.mjs"
+    "audit:reviewed": "node scripts/audit-reviewed-games.mjs",
+    "export:reviewed": "node scripts/export-reviewed-games.mjs"
   },
   "dependencies": {
     "astro": "^5.16.0",
