@@ -25,13 +25,54 @@ function draw(){
  rounded(69,837,612,80,16,'#167cea');text('gameaichecker.com',375,888,34,'#ffffff','800','center');
  text('查看证据链与来源',375,944,19,'#6e7f91','500','center');
 }
-const cover=new Image();let coverReady=false;cover.onload=()=>{coverReady=true;draw()};cover.onerror=()=>draw();cover.src='/api/share-cover?id=5345260';
-const openBtn=document.getElementById('gameShareOpen');const dialog=document.getElementById('gameShareDialog');
-openBtn?.addEventListener('click',()=>{if(dialog?.showModal){dialog.showModal()}else if(dialog){dialog.hidden=false}draw()});
-document.getElementById('gameShareClose')?.addEventListener('click',()=>{if(dialog?.close)dialog.close();else dialog.hidden=true});
-if(dialog?.addEventListener)dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
 const note=document.getElementById('gameShareNote');
+const openBtn=document.getElementById('gameShareOpen');
+const dialog=document.getElementById('gameShareDialog');
 const filename='game-ai-checker-5345260.png';
-document.getElementById('gameShareDownload')?.addEventListener('click',()=>{try{const a=document.createElement('a');a.download=filename;a.href=canvas.toDataURL('image/png');a.click();note.textContent='PNG 已生成，可分享到小红书。'}catch(e){note.textContent='图片下载失败，请尝试长按预览图保存。'}});
-document.getElementById('gameShareCopy')?.addEventListener('click',async()=>{try{if(!window.ClipboardItem||!navigator.clipboard?.write)throw Error('unsupported');const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw Error('blob');await navigator.clipboard.write([new ClipboardItem({'image/png':blob})]);note.textContent='已复制图片，可以粘贴到支持图片粘贴的应用。'}catch(e){note.textContent='当前浏览器不支持复制 PNG，请使用「下载 PNG」。'}});
+let coverReady=false,coverFailed=false;
+const cover=new Image();
+function status(message){if(note)note.textContent=message}
+function ready(){draw();return canvas.width>0 && canvas.height>0}
+function asBlob(){return new Promise((resolve,reject)=>{try{ready();canvas.toBlob(blob=>blob?resolve(blob):reject(new Error('PNG encoding returned empty data')),'image/png')}catch(e){reject(e)}})}
+function openImage(blob){
+ const url=URL.createObjectURL(blob);
+ const tab=window.open(url,'_blank');
+ if(!tab){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';document.body.appendChild(a);a.click();a.remove()}
+ status('图片已打开。如在手机上，请长按图片并选择“存储到照片”。');
+ // Keep the object URL alive for mobile viewers; clear it when the page unloads.
+ window.addEventListener('pagehide',()=>URL.revokeObjectURL(url),{once:true});
+}
+cover.onload=()=>{coverReady=true;draw();status('分享图片已准备好')};
+cover.onerror=()=>{coverFailed=true;draw();status('官方封面暂时不可用，仍可导出文字卡片。')};
+cover.src='/api/share-cover?id=5345260';
+draw(); // Always render immediately; never export a blank canvas while waiting for the cover.
+openBtn?.addEventListener('click',()=>{try{if(dialog&&typeof dialog.showModal==='function')dialog.showModal();else if(dialog)dialog.hidden=false;ready()}catch(e){status('预览打开失败：'+e.message)}});
+document.getElementById('gameShareClose')?.addEventListener('click',()=>{if(dialog&&typeof dialog.close==='function')dialog.close();else if(dialog)dialog.hidden=true});
+dialog?.addEventListener('click',e=>{if(e.target===dialog&&typeof dialog.close==='function')dialog.close()});
+document.getElementById('gameShareDownload')?.addEventListener('click',async()=>{
+ try{
+  const blob=await asBlob(),file=new File([blob],filename,{type:'image/png'});
+  // Native share sheet supports saving or forwarding an image on mobile.
+  if(/iPad|iPhone|iPod/.test(navigator.userAgent)&&navigator.share&&navigator.canShare?.({files:[file]})){
+    try{await navigator.share({files:[file],title:'明天照常营业 · Game AI Checker'});status('已打开系统分享菜单');return}
+    catch(e){if(e?.name==='AbortError'){status('已取消分享');return}}
+  }
+  const url=URL.createObjectURL(blob),anchor=document.createElement('a');
+  anchor.href=url;anchor.download=filename;anchor.style.display='none';
+  document.body.appendChild(anchor);anchor.click();anchor.remove();
+  status('已尝试下载 PNG。如果手机没有保存，请使用“打开图片 / 长按保存”。');
+  setTimeout(()=>URL.revokeObjectURL(url),60000);
+ }catch(e){status('导出失败：'+(e?.message||e))}
+});
+document.getElementById('gameShareView')?.addEventListener('click',async()=>{
+ try{const blob=await asBlob();openImage(blob)}catch(e){status('打开图片失败：'+(e?.message||e))}
+});
+document.getElementById('gameShareCopy')?.addEventListener('click',async()=>{
+ try{
+  if(!window.ClipboardItem||!navigator.clipboard?.write)throw new Error('此浏览器不支持复制 PNG');
+  const blob=await asBlob();
+  await navigator.clipboard.write([new ClipboardItem({'image/png':blob})]);
+  status('图片已复制，可粘贴到支持图片的应用。');
+ }catch(e){status((e?.message||'复制失败')+'；可改用“打开图片 / 长按保存”。')}
+});
 })();
