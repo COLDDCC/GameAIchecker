@@ -1,0 +1,51 @@
+{
+  "appId": "5391500",
+  "name": "Ardhan",
+  "summary": "Steam 开发者披露：卡牌、角色、背景、过场及商店宣传美术，部分配乐、音效与多语言旁白借助 AI 工具生成，后经开发者选择与编辑。开发者称游玩期间没有实时 AI 生成。",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "steamUrl": "https://store.steampowered.com/app/5391500/",
+  "genres": [
+    "Roguelike"
+  ],
+  "aiUsageCategories": [
+    "art",
+    "marketing",
+    "music",
+    "voice"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露卡牌、英雄、背景、动画过场等美术使用 AI 生成后人工筛选和编辑。",
+    "marketing": "开发者披露商店关键视觉素材和短片使用 AI 工具辅助制作。",
+    "music": "开发者披露部分音乐及多种音效使用 AI 工具制作；不代表所有音频都使用 AI。",
+    "voice": "开发者披露多语言旁白使用 ElevenLabs 等音频工具；属于制作阶段的音频生成。",
+    "ingame": "开发者称游戏运行中没有 AI 对话或调用生成式 AI 服务。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "marketing": "official",
+    "music": "official",
+    "voice": "official"
+  },
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "label": "Steam 开发者生成式 AI 披露（开发者自述）",
+      "url": "https://store.steampowered.com/app/5391500/",
+      "date": "2026-10-21",
+      "excerpt": "Steam 开发者披露：卡牌、角色、背景、过场及商店宣传美术，部分配乐、音效与多语言旁白借助 AI 工具生成，后经开发者选择与编辑。开发者称游玩期间没有实时 AI 生成。"
+    }
+  ],
+  "reviewNote": "本站整理 Steam 开发者披露，并非独立技术审计。生成式 AI 资产与游戏运行时 AI 服务须分开判断。",
+  "reviewedAt": "2026-10-21"
+}
