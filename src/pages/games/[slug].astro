@@ -136,6 +136,13 @@ const breadcrumbLd = {
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd).replace(/</g, '\\u003c')} />
   <style is:global>
+    .human-made-spotlight {border:1px solid #f2d7a6;border-radius:13px;padding:13px 15px;background:#fffdf8;margin:10px 0 16px;font-size:13px}
+    .human-made-spotlight-top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px;font-size:11px;color:#94600a;font-weight:700}
+    .human-made-pending{border:1px solid #f2d7a6;border-radius:99px;padding:2px 8px}
+    .human-made-spotlight>strong{display:block;font-size:14px}
+    .human-made-spotlight p{color:#667085;margin:5px 0 8px;line-height:1.5}
+    .human-made-spotlight details{margin:7px 0}.human-made-spotlight summary{cursor:pointer;color:#94600a;font-weight:600}
+    .human-made-spotlight>a{font-weight:600;font-size:12px}
     :root {
       --blue: #1f8fff;
       --blue-dark: #0879d8;
@@ -563,7 +570,13 @@ const breadcrumbLd = {
         <div class:list={['status-badge', `tone-${game.statusTone}`]}>{game.statusLabel}</div>
         <h1>{game.originalName || game.name}</h1>
         {game.originalName && <p class="muted">{game.name}</p>}
-        {game.humanMadeListing && <details class="callout"><summary><strong>{game.humanMadeListing.label}</strong></summary><p>{game.humanMadeListing.summary}</p><a href="#evidence">查看来源与核查状态 ↗</a></details>}
+        {game.humanMadeListing && <div class="human-made-spotlight" aria-label="人工制作线索核查状态">
+          <div class="human-made-spotlight-top"><span>✎ 人工制作线索</span><span class="human-made-pending">{game.humanMadeListing.verified ? '已有来源' : '尚未认证'}</span></div>
+          <strong>{game.humanMadeListing.scope === 'art' ? '关注范围：美术与视觉素材' : game.humanMadeListing.label}</strong>
+          <p>现有材料不足以证明本作 100% 未使用生成式 AI。</p>
+          <details><summary>查看推荐依据与缺失证据</summary><p>{game.humanMadeListing.summary}</p></details>
+          <a href="#evidence">查看证据记录 ↗</a>
+        </div>}
         <p class="byline">
           {game.developer || '开发商待核实'} · {game.releaseYear || '发行年份待核实'} · {game.genres.slice(0, 3).join(' / ') || '类型待核实'}
         </p>
