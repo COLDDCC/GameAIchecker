@@ -158,6 +158,9 @@ img{max-width:100%}
 .human-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:14px}
 .human-grid .game{border-color:#bfe3cc}
 .human-grid .game:hover{border-color:#137a3f}
+.human-nominations{margin-top:24px;padding-top:20px;border-top:1px solid #bfe3cc}
+.human-nominations>h3{margin:0 0 6px;font-size:1rem}
+.human-nominations>p{margin:0 0 14px;color:var(--ink-soft);font-size:.86rem}
 /* ---------- Method scale ---------- */
 .scale{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(6,1fr);gap:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--surface)}
 .scale li{padding:16px 16px 18px;border-left:1px solid var(--line);position:relative}
@@ -280,7 +283,7 @@ img{max-width:100%}
       <div class="human-top">
         <h2 id="human-title" class="slogan"><span class="slogan-ai">0% AI</span> <span class="slogan-human">100% HUMAN</span></h2>
         <div class="human-side">
-          <p>Games whose developers say they were made without generative AI. Claims are attributed to the developers and are not independent audits.</p>
+          <p>Developer claims are shown separately from community handmade-art nominations. Each card states its scope and source status; these are not independent audits.</p>
           <button type="button" class="human-all" id="humanAll">See all human-made games</button>
         </div>
       </div>
@@ -293,6 +296,20 @@ img{max-width:100%}
           <div class="game-art"><img src="/images/steam/apps/4919570/fb438a01a91bc7fb.webp?v=meow-20261023" alt="" loading="lazy" decoding="async" width="460" height="215"></div>
           <div class="game-body"><h3>Meow Star Archives</h3><p class="dev">Mio_Games · Demo</p><div class="meta"><span class="chip human">Human-made claim</span></div></div>
         </a>
+      </div>
+      <div class="human-nominations" aria-labelledby="humanNominationsTitle">
+        <h3 id="humanNominationsTitle">Community nominations · handmade art</h3>
+        <p>Original statements pending. These entries are not confirmed whole-game no-AI claims.</p>
+        <div class="human-grid" id="humanNominationGrid">
+          <a class="game" href="/games/5086350-armor-growth-plan/" data-human-nomination="5086350">
+            <div class="game-art"><img src="/images/steam/apps/5086350/c9bf1f5154763b82.webp?v=gallery1" alt="" loading="lazy" decoding="async" width="460" height="215"></div>
+            <div class="game-body"><h3>罐头成长计划</h3><p class="dev">隋辩, 紫皮洋葱圈 · Armor Growth Plan</p><div class="meta"><span class="chip community">Art claim · source pending</span></div></div>
+          </a>
+          <a class="game" href="/games/4598530-otherealm/" data-human-nomination="4598530">
+            <div class="game-art"><img src="/images/steam/apps/4598530/c150f6cc9ecbe0e2.webp?v=gallery1" alt="" loading="lazy" decoding="async" width="460" height="215"></div>
+            <div class="game-body"><h3>异界·魔校</h3><p class="dev">CASCHA GAMES · Otherealm</p><div class="meta"><span class="chip community">Art claim · source pending</span></div></div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -364,7 +381,7 @@ img{max-width:100%}
   const FILTERS = {
     all: {title: 'All games', note: 'Reviewed games first.', test: () => true},
     disclosed: {title: 'Games with an official AI disclosure', note: 'From developer statements on Steam.', test: g => g.status === 'official_disclosure'},
-    human: {title: 'Developers say no generative AI', note: 'Developer claims, not independent audits.', test: g => g.status === 'human_made'},
+    human: {title: 'Human-made claims & art nominations', note: 'Community nominations are source-pending and are not verified no-AI claims.', test: g => g.status === 'human_made' || !!g.humanMadeListing},
     fest: {title: 'Steam Next Fest, October 2026', note: 'Third-party-listed demos. Participation not independently verified.', test: g => !!g.event},
     community: {title: 'Player reports waiting for review', note: 'Unverified until a reviewer checks the sources.', test: g => g.status === 'community'},
     unreviewed: {title: 'Not reviewed yet', note: 'No AI status is assigned until evidence is checked.', test: g => g.status === 'unreviewed'}
@@ -405,7 +422,7 @@ img{max-width:100%}
   function matches(g, parsed) {
     if (parsed.id) return String(g.appId) === parsed.id;
     if (!parsed.text) return true;
-    return norm(g.name).includes(parsed.text) || norm(g.developer).includes(parsed.text);
+    return norm(g.name).includes(parsed.text) || norm(g.originalName).includes(parsed.text) || norm(g.developer).includes(parsed.text);
   }
   function score(g, parsed) {
     const n = norm(g.name);
@@ -443,7 +460,7 @@ img{max-width:100%}
     const body = document.createElement('div');
     body.className = 'game-body';
     const h = document.createElement('h3');
-    h.textContent = g.name;
+    h.textContent = g.originalName || g.name;
     body.append(h);
     if (g.developer) {
       const d = document.createElement('p');
@@ -457,6 +474,10 @@ img{max-width:100%}
     chip.className = 'chip ' + st.cls;
     chip.textContent = st.label;
     meta.append(chip);
+    if (g.humanMadeListing) {
+      const scope = document.createElement('span'); scope.className = 'event';
+      scope.textContent = g.humanMadeListing.labelEn; meta.append(scope);
+    }
     if (g.event) {
       const ev = document.createElement('span');
       ev.className = 'event';

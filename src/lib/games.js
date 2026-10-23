@@ -161,6 +161,8 @@ function emptyRecord(sourceName) {
     sourceName,
     appId: null,
     name: '',
+    originalName: '',
+    humanMadeListing: null,
     developer: '',
     publisher: '',
     summary: '',
@@ -222,6 +224,8 @@ function fromCanonical(data, sourceName) {
   const record = emptyRecord(sourceName);
   record.appId = data.appId ? String(data.appId) : null;
   record.name = cleanText(data.name);
+  record.originalName = cleanText(data.originalName);
+  record.humanMadeListing = data.humanMadeListing || null;
   record.developer = cleanText(data.developer);
   record.publisher = cleanText(data.publisher);
   record.summary = cleanText(data.summary);
@@ -629,6 +633,8 @@ export function getGameIndex() {
     slug: game.slug,
     appId: game.appId,
     name: game.name,
+    ...(game.originalName ? { originalName: game.originalName } : {}),
+    ...(game.humanMadeListing ? { humanMadeListing: game.humanMadeListing } : {}),
     developer: game.developer,
     status: game.status,
     statusLabel: game.statusLabel,

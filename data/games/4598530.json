@@ -4,10 +4,11 @@
   "developer": "CASCHA GAMES",
   "category": "unreviewed",
   "verification": "identity_verified_ai_unreviewed",
-  "summary": "目前仅有宣传图片和 Steam 的手绘相关标签线索，不能据此证明开发者未使用生成式 AI；尚无本站核实的开发者无 AI 声明。",
+  "summary": "CASCHA GAMES 的校园悬疑 AVG，结合漫画叙事、场景探索、解谜与多结局。已加入人工美术推荐区，完整手绘及零生成式 AI 声明尚待原始来源核实。",
   "steamUrl": "https://store.steampowered.com/app/4598530/",
   "genres": [
-    "Indie"
+    "冒险",
+    "独立"
   ],
   "aiUsageCategories": [],
   "aiAreas": {
@@ -24,13 +25,63 @@
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/4598530/",
-      "label": "Steam 官方游戏身份页面"
+      "label": "Steam 官方资料：开发者、玩法、发行状态与游戏图片",
+      "date": "2026-10-23",
+      "excerpt": "CASCHA GAMES 开发；高中生乔茜被困异界校园，需探索场景、收集线索、破解规则并完成生存测试；关键选择影响故事分支与结局。"
     },
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/4606930/",
-      "label": "Otherealm Demo Steam 页面"
+      "label": "独立试玩版：与正式版区分",
+      "date": "2026-10-23"
+    },
+    {
+      "type": "community",
+      "label": "用户提交的人工美术推荐（原始声明链接待补）",
+      "date": "2026-10-23",
+      "excerpt": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。"
     }
   ],
-  "reviewNote": "手绘标签描述美术风格，不等于生成式 AI 使用审计。Demo App ID 为 4606930，不能跨版本外推。"
+  "reviewNote": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。 本页采用对应 App ID 的官方图片，不以画风或玩家标签认定 AI 使用；代码、音乐、配音、文案、翻译与营销等领域均保留未核查状态。",
+  "originalName": "异界·魔校",
+  "publisher": "CASCHA GAMES",
+  "description": "高中生乔茜被困异界校园，需探索场景、收集线索、破解规则并完成生存测试；关键选择影响故事分支与结局。",
+  "features": [
+    "单人",
+    "Steam 成就",
+    "完全支持控制器",
+    "自定义音量控制",
+    "可调整难度",
+    "可以仅用键盘",
+    "可以仅用鼠标",
+    "DUALSHOCK 控制器支持",
+    "DUALSHOCK 控制器支持",
+    "随时保存",
+    "Steam 云",
+    "家庭共享"
+  ],
+  "languages": "英语, 日语, 简体中文, 繁体中文, 韩语",
+  "steamReleaseDate": "即将宣布",
+  "identityVerifiedAt": "2026-10-23",
+  "humanMadeListing": {
+    "kind": "community_nomination",
+    "scope": "art",
+    "label": "人工美术推荐 · 原始声明待核实",
+    "labelEn": "Handmade-art nomination · source pending",
+    "summary": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。",
+    "verified": false
+  },
+  "links": [
+    {
+      "label": "正式版 Steam 页面",
+      "url": "https://store.steampowered.com/app/4598530/"
+    },
+    {
+      "label": "免费试玩版（独立 App ID）",
+      "url": "https://store.steampowered.com/app/4606930/"
+    }
+  ],
+  "aiAreaNotes": {
+    "art": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。 本项属于推荐线索，不是零 AI 认证。"
+  }
 }

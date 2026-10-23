@@ -537,7 +537,9 @@ const breadcrumbLd = {
 
       <aside class="info-col">
         <div class:list={['status-badge', `tone-${game.statusTone}`]}>{game.statusLabel}</div>
-        <h1>{game.name}</h1>
+        <h1>{game.originalName || game.name}</h1>
+        {game.originalName && <p class="muted">{game.name}</p>}
+        {game.humanMadeListing && <details class="callout"><summary><strong>{game.humanMadeListing.label}</strong></summary><p>{game.humanMadeListing.summary}</p><a href="#evidence">查看来源与核查状态 ↗</a></details>}
         <p class="byline">
           {game.developer || '开发商待核实'} · {game.releaseYear || '发行年份待核实'} · {game.genres.slice(0, 3).join(' / ') || '类型待核实'}
         </p>

@@ -4,10 +4,12 @@
   "originalName": "罐头成长计划",
   "category": "community",
   "verification": "community_claim_unverified",
-  "summary": "玩家提交的社交媒体截图包含账号自称游戏由人工制作的表述，但账号与 Steam 开发者的关联尚未独立确认。这不是开发者已核实声明，也不能作为游戏完全未使用生成式 AI 的证明。",
+  "summary": "收养并培养小罐头生物，通过日程、互动与选择影响成长、关系及结局。用户推荐其为人工制作游戏，至少美术范围的原始声明仍待核实。",
   "steamUrl": "https://store.steampowered.com/app/5086350/",
   "genres": [
-    "Indie"
+    "休闲",
+    "独立",
+    "角色扮演"
   ],
   "aiUsageCategories": [],
   "aiAreas": {
@@ -24,8 +26,58 @@
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/5086350/",
-      "label": "Steam 游戏身份页面；社交截图线索待核实"
+      "label": "Steam 官方资料：开发者、玩法、发行状态与游戏图片",
+      "date": "2026-10-23",
+      "excerpt": "隋辩、紫皮洋葱圈 开发；扮演养育者，带小罐头在小镇成长；包含钓鱼、换装、喂食、打工、战斗与多结局养成。"
+    },
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/5342230/",
+      "label": "独立试玩版：与正式版区分",
+      "date": "2026-10-23"
+    },
+    {
+      "type": "community",
+      "label": "用户提交的人工美术推荐（原始声明链接待补）",
+      "date": "2026-10-23",
+      "excerpt": "用户提供“全部人类手搓”的社交评论线索，发言账号名称与 Steam 开发者“紫皮洋葱圈”一致；同名不足以确认账号身份，原帖尚待补充。"
     }
   ],
-  "reviewNote": "社交平台截图尚无可公开核对的原帖 URL，来源账号身份与开发者关系待确认；仅保留线索，不认证为 AI-free。"
+  "reviewNote": "用户提供“全部人类手搓”的社交评论线索，发言账号名称与 Steam 开发者“紫皮洋葱圈”一致；同名不足以确认账号身份，原帖尚待补充。 本页采用对应 App ID 的官方图片，不以画风或玩家标签认定 AI 使用；代码、音乐、配音、文案、翻译与营销等领域均保留未核查状态。",
+  "developer": "隋辩, 紫皮洋葱圈",
+  "publisher": "罐头保护协会",
+  "description": "扮演养育者，带小罐头在小镇成长；包含钓鱼、换装、喂食、打工、战斗与多结局养成。",
+  "features": [
+    "单人",
+    "Steam 成就",
+    "视角舒适度",
+    "自定义音量控制",
+    "可以仅用键盘",
+    "随时保存",
+    "家庭共享"
+  ],
+  "languages": "简体中文",
+  "steamReleaseDate": "2026（计划）",
+  "identityVerifiedAt": "2026-10-23",
+  "humanMadeListing": {
+    "kind": "community_nomination",
+    "scope": "art",
+    "label": "人工美术推荐 · 原始声明待核实",
+    "labelEn": "Handmade-art nomination · source pending",
+    "summary": "用户提供“全部人类手搓”的社交评论线索，发言账号名称与 Steam 开发者“紫皮洋葱圈”一致；同名不足以确认账号身份，原帖尚待补充。",
+    "verified": false
+  },
+  "links": [
+    {
+      "label": "正式版 Steam 页面",
+      "url": "https://store.steampowered.com/app/5086350/"
+    },
+    {
+      "label": "免费试玩版（独立 App ID）",
+      "url": "https://store.steampowered.com/app/5342230/"
+    }
+  ],
+  "aiAreaNotes": {
+    "art": "用户提供“全部人类手搓”的社交评论线索，发言账号名称与 Steam 开发者“紫皮洋葱圈”一致；同名不足以确认账号身份，原帖尚待补充。 本项属于推荐线索，不是零 AI 认证。"
+  }
 }

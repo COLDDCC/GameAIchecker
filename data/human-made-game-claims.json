@@ -11,15 +11,18 @@
       "claimType": "developer_associated_account_human_made_claim",
       "claimOriginal": "推推自己的游戏全部人类手搓",
       "claimLanguage": "zh-CN",
-      "claimScope": "whole_game_as_worded",
+      "claimScope": "art_claim_pending_source",
       "evidenceType": "user_submitted_social_comment_screenshot",
-      "evidenceStatus": "screenshot_reviewed_account_affiliation_unverified",
+      "evidenceStatus": "original_statement_pending",
       "sourcePlatform": "Xiaohongshu",
       "sourcePostUrl": null,
       "sourceScreenshotHosted": false,
-      "developerAttributionNote": "The screenshot shows an account named 紫皮洋葱圈 posting a game image and describing it as their own. Steam developer affiliation has not been independently confirmed.",
-      "reviewConclusion": "Publicly attributed human-made claim; not an independently verified guarantee that no AI tools were used.",
-      "verificationLevel": "developer_claim_only"
+      "developerAttributionNote": "Steam 官方列有同名开发者“紫皮洋葱圈”；尚未确认截图账号与该开发者的关联。",
+      "reviewConclusion": "用户提供“全部人类手搓”的社交评论线索，发言账号名称与 Steam 开发者“紫皮洋葱圈”一致；同名不足以确认账号身份，原帖尚待补充。",
+      "verificationLevel": "community_nomination",
+      "developer": "隋辩, 紫皮洋葱圈",
+      "listingSection": "human_made_community_nominations",
+      "identityVerifiedAt": "2026-10-23"
     },
     {
       "name": "异界·魔校",
@@ -31,12 +34,14 @@
       "developer": "CASCHA GAMES",
       "claimType": "human_drawn_art_lead_pending",
       "claimOriginal": null,
-      "claimScope": "visual_art_unverified",
+      "claimScope": "art_claim_pending_source",
       "evidenceType": "user_submitted_promo_image_and_steam_hand_drawn_tag",
-      "evidenceStatus": "needs_explicit_developer_statement",
+      "evidenceStatus": "original_statement_pending",
       "sourcePostUrl": null,
-      "verificationLevel": "lead_only",
-      "reviewConclusion": "The promotional screenshot shows Steam Next Fest participation, not a direct handmade-art claim. Steam user tag 'hand-drawn' is descriptive and not proof of no generative AI."
+      "verificationLevel": "community_nomination",
+      "reviewConclusion": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。",
+      "listingSection": "human_made_community_nominations",
+      "identityVerifiedAt": "2026-10-23"
     },
     {
       "name": "喵星档案",

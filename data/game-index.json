@@ -504,21 +504,31 @@
       "slug": "4598530-otherealm",
       "appId": "4598530",
       "name": "Otherealm",
+      "originalName": "异界·魔校",
+      "humanMadeListing": {
+        "kind": "community_nomination",
+        "scope": "art",
+        "label": "人工美术推荐 · 原始声明待核实",
+        "labelEn": "Handmade-art nomination · source pending",
+        "summary": "用户推荐至少美术为人工制作；官方商店可确认原创漫画背景及创作者身份，但尚未找到覆盖全部美术资产的明确无生成式 AI 声明。",
+        "verified": false
+      },
       "developer": "CASCHA GAMES",
       "status": "unreviewed",
       "statusLabel": "尚未核查",
       "statusTone": "gray",
-      "summary": "目前仅有宣传图片和 Steam 的手绘相关标签线索，不能据此证明开发者未使用生成式 AI；尚无本站核实的开发者无 AI 声明。",
+      "summary": "CASCHA GAMES 的校园悬疑 AVG，结合漫画叙事、场景探索、解谜与多结局。已加入人工美术推荐区，完整手绘及零生成式 AI 声明尚待原始来源核实。",
       "releaseDate": "即将宣布",
       "genres": [
-        "Indie"
+        "冒险",
+        "独立"
       ],
       "event": null,
       "areaKeys": [],
       "areaSummary": "",
       "header": "/images/steam/apps/4598530/c150f6cc9ecbe0e2.webp?v=gallery1",
       "steamUrl": "https://store.steampowered.com/app/4598530/",
-      "hasStatic": false
+      "hasStatic": true
     },
     {
       "slug": "4736090-inside-job",
@@ -784,22 +794,33 @@
       "slug": "5086350-armor-growth-plan",
       "appId": "5086350",
       "name": "Armor Growth Plan",
+      "originalName": "罐头成长计划",
+      "humanMadeListing": {
+        "kind": "community_nomination",
+        "scope": "art",
+        "label": "人工美术推荐 · 原始声明待核实",
+        "labelEn": "Handmade-art nomination · source pending",
+        "summary": "用户提供“全部人类手搓”的社交评论线索，发言账号名称与 Steam 开发者“紫皮洋葱圈”一致；同名不足以确认账号身份，原帖尚待补充。",
+        "verified": false
+      },
       "developer": "隋辩, 紫皮洋葱圈",
       "status": "community",
       "statusLabel": "玩家投稿 · 待核查",
       "statusTone": "gray",
-      "summary": "玩家提交的社交媒体截图包含账号自称游戏由人工制作的表述，但账号与 Steam 开发者的关联尚未独立确认。这不是开发者已核实声明，也不能作为游戏完全未使用生成式 AI 的证明。",
-      "releaseDate": "2026 年",
+      "summary": "收养并培养小罐头生物，通过日程、互动与选择影响成长、关系及结局。用户推荐其为人工制作游戏，至少美术范围的原始声明仍待核实。",
+      "releaseDate": "2026（计划）",
       "releaseYear": "2026",
       "genres": [
-        "Indie"
+        "休闲",
+        "独立",
+        "角色扮演"
       ],
       "event": null,
       "areaKeys": [],
       "areaSummary": "",
       "header": "/images/steam/apps/5086350/c9bf1f5154763b82.webp?v=gallery1",
       "steamUrl": "https://store.steampowered.com/app/5086350/",
-      "hasStatic": false
+      "hasStatic": true
     },
     {
       "slug": "5117550-fart-together",
