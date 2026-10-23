@@ -3,9 +3,9 @@
   "name": "Wyldheart",
   "developer": "Wayfinder Studios",
   "publisher": "Wayfinder Studios, Curve Games",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "以乡野奇幻世界为背景的小队合作动作角色扮演游戏。 生成式 AI 使用范围尚未完成核查。",
+  "category": "developer_no_genai_statement",
+  "verification": "developer_statement",
+  "summary": "Wayfinder Studios 市场总监在 Gamereactor 采访中表示工作室“非常反对生成式 AI”，不在游戏中使用；联合创始人称场景、村庄和地牢房间均由团队手工制作。此为开发者自述，尚未经独立审计。",
   "description": "以乡野奇幻世界为背景的小队合作动作角色扮演游戏。",
   "steamUrl": "https://store.steampowered.com/app/3642910/",
   "steamReleaseDate": "Coming soon",
@@ -27,28 +27,60 @@
   "languages": "English, French, German, Japanese, Korean, Simplified Chinese",
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "claimed_none",
+    "marketing": "not_stated"
   },
   "sources": [
     {
+      "type": "interview",
+      "url": "https://www.gamereactor.eu/wyldheart-developer-wayfinder-studios-is-really-against-generative-ai-1699153/",
+      "label": "开发者采访：Wayfinder Studios 反对生成式 AI",
+      "date": "2026-04-03",
+      "excerpt": "市场总监 Erin Bower 表示工作室反对生成式 AI、不在游戏中使用；创意总监 Dennis Brännvall 说明场景与地牢房间为手工制作，程序化技术仅用于武器数值和房间拼接。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://letsdatascience.com/news/wayfinder-opposes-generative-ai-in-wyldheart-eb15783d",
+      "label": "第三方转述：Wayfinder 在 Wyldheart 中拒用生成式 AI",
+      "date": "2026-04-03",
+      "excerpt": "转述同一采访内容：十人团队不使用生成式 AI，仅有选择地使用程序化生成；属于二手报道。"
+    },
+    {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/3642910/",
-      "label": "Steam 官方资料：游戏身份、玩法与发行信息",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
       "date": "2026-10-23",
-      "excerpt": "可探索遗迹、制作装备并构建角色；抢先体验计划和合作玩法并不构成生成式 AI 使用证据。"
+      "excerpt": "Steam 商店页没有 AI 生成内容披露栏，与开发者“不使用生成式 AI”的说法一致；但商店页未披露本身不是独立证明。"
     }
   ],
-  "reviewNote": "可探索遗迹、制作装备并构建角色；抢先体验计划和合作玩法并不构成生成式 AI 使用证据。 本页对应正式版 App ID；不将试玩版评价、发行日期或 AI 结论混用。",
+  "reviewNote": "各领域“开发者称未使用”均来源于同一次采访中的整体性表态，不代表本站逐项检查了每项资产。游戏使用的程序化生成（武器数值、手工房间拼接）是传统技术，不计为生成式 AI。本页对应抢先体验正式版 App ID。",
   "identityVerifiedAt": "2026-10-23",
   "aiAreaNotes": {
-    "ingame": "可探索遗迹、制作装备并构建角色；抢先体验计划和合作玩法并不构成生成式 AI 使用证据。",
-    "art": "未完成可复现来源核查；不依据画面风格推断 AI 使用。"
-  }
+    "ingame": "开发者称不使用生成式 AI；武器数值与地牢房间拼接使用的是传统程序化生成，不属于生成式 AI。",
+    "code": "开发者称不在游戏中使用生成式 AI；该说法未经独立审计。",
+    "art": "开发者称美术内容由团队美术人员手工制作，场景、村庄与地牢房间均为手工制作；未独立审计。",
+    "music": "开发者称不在游戏中使用生成式 AI；该说法未经独立审计。",
+    "voice": "开发者称不在游戏中使用生成式 AI；该说法未经独立审计。",
+    "writing": "开发者称不在游戏中使用生成式 AI；该说法未经独立审计。",
+    "translation": "开发者称不在游戏中使用生成式 AI；该说法未经独立审计。",
+    "marketing": "采访声明针对游戏本身，未提及宣传素材；该领域不作判断。"
+  },
+  "aiAreaSources": {
+    "ingame": "developer_statement",
+    "code": "developer_statement",
+    "art": "developer_statement",
+    "music": "developer_statement",
+    "voice": "developer_statement",
+    "writing": "developer_statement",
+    "translation": "developer_statement"
+  },
+  "disclosureQuote": "So at Wayfinder, we're really against generative AI.",
+  "disclosureQuoteNote": "Gamereactor 采访中市场总监 Erin Bower 的原话，2026-04-03。开发者自述，不是独立审计结论。",
+  "reviewedAt": "2026-10-23"
 }

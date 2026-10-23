@@ -319,7 +319,7 @@
       "verification": "developer_self_disclosure",
       "note": "Steam developer statement; score pending manual review.",
       "aiUsageCategories": [
-        "visuals"
+        "marketing"
       ],
       "aiUsageClassification": "manual_source_review",
       "aiUsageNote": "Keyword-derived from existing summaries. Check Steam disclosure before relying on any category; code-only assistance may be outside Steam's current player-facing disclosure scope.",
@@ -330,7 +330,7 @@
         "developerDisclosureSummary": "Developer discloses AI-assisted store and library marketing images, while stating gameplay code, balancing, ship behavior and upgrades were developer-built.",
         "summaryType": "reviewer_paraphrase",
         "confirmedUsageCategories": [
-          "visuals"
+          "marketing"
         ],
         "deliveryMode": "pre_generated",
         "limits": "Marketing visuals only are disclosed; no basis to classify in-game visuals as AI-generated.",

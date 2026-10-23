@@ -3,9 +3,9 @@
   "name": "Mortuus",
   "developer": "Hamuno",
   "publisher": "Hamuno",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "支持 1 至 4 人合作的回合制丧尸生存射击游戏。 生成式 AI 使用范围尚未完成核查。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，社区讨论区和公开报道中也没有相关声明或质疑。程序化地图与敌人 AI 属于传统技术，不计为生成式 AI。",
   "description": "支持 1 至 4 人合作的回合制丧尸生存射击游戏。",
   "steamUrl": "https://store.steampowered.com/app/3680170/",
   "steamReleaseDate": "Coming soon",
@@ -27,28 +27,43 @@
   "languages": "English * , French * , German * , Spanish - Spain * , Portuguese - Brazil * , Russian * , Simplified Chinese * , Spanish - Latin America *   * languages with full audio support",
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "sources": [
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/3680170/",
-      "label": "Steam 官方资料：游戏身份、玩法与发行信息",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
       "date": "2026-10-23",
-      "excerpt": "商店描述包含程序化地图和敌人行为。程序化生成与传统敌人 AI 不能直接当作生成式 AI 内容生产证据。"
+      "excerpt": "Steam 商店页仅有成人内容描述（暴力与血腥），没有 AI 生成内容披露；商店描述中的程序化地图和敌人行为不属于生成式 AI。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/3680170/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "浏览讨论区首页（共 84 页）主题，未见 AI 生成内容相关讨论或开发者 AI 声明；仅检查了主题标题。"
     }
   ],
-  "reviewNote": "商店描述包含程序化地图和敌人行为。程序化生成与传统敌人 AI 不能直接当作生成式 AI 内容生产证据。 本页对应正式版 App ID；不将试玩版评价、发行日期或 AI 结论混用。",
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。本页对应正式版 App ID，不混用试玩版结论。",
   "identityVerifiedAt": "2026-10-23",
   "aiAreaNotes": {
-    "ingame": "商店描述包含程序化地图和敌人行为。程序化生成与传统敌人 AI 不能直接当作生成式 AI 内容生产证据。",
-    "art": "未完成可复现来源核查；不依据画面风格推断 AI 使用。"
-  }
+    "ingame": "商店描述的程序化地图与敌人 AI 是传统游戏技术，不是生成式 AI；未发现生成式 AI 声明。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "aiAreaSources": {},
+  "reviewedAt": "2026-10-23"
 }

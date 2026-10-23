@@ -3,8 +3,8 @@
   "name": "Project Vanguard",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
-  "reviewedAt": "2026-10-21",
-  "summary": "开发者在 Steam 披露：商店与游戏库展示所用部分营销图片使用 AI 辅助。开发者同时声称玩法代码、平衡、飞船行为与升级系统由其自行开发；目前没有足够证据将游戏内美术归为 AI 生成。",
+  "reviewedAt": "2026-10-23",
+  "summary": "Steam 开发者披露：部分商店与库营销图片使用 AI 辅助生成；开发者称游戏代码、玩法系统、平衡、舰船行为和升级系统由其本人开发。游戏内美术、音乐与文字未被披露提及。",
   "genres": [
     "Roguelike"
   ],
@@ -14,7 +14,7 @@
   ],
   "aiAreas": {
     "ingame": "not_stated",
-    "code": "not_stated",
+    "code": "claimed_none",
     "art": "not_stated",
     "music": "not_stated",
     "voice": "not_stated",
@@ -23,22 +23,34 @@
     "marketing": "used"
   },
   "aiAreaSources": {
+    "code": "official",
     "marketing": "official"
   },
   "aiAreaNotes": {
-    "marketing": "Steam 开发者披露 AI 主要用于 Steam 商店和库中的营销图片。",
-    "art": "披露限定为营销视觉素材，没有足够依据称游戏内美术使用生成式 AI。",
-    "code": "开发者声称玩法代码由本人制作；这是开发者说法而非独立审计。",
-    "ingame": "未披露玩家游玩时的实时 AI 生成功能。"
+    "code": "开发者在 Steam 披露中称代码与玩法系统由其本人开发；这是开发者声明，未独立审计，也未明确排除 AI 辅助编程。",
+    "marketing": "开发者披露部分商店与库营销图片使用 AI 辅助生成。",
+    "art": "披露只提到营销图片；游戏内美术是否使用 AI 未被提及，不作推断。"
   },
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者生成式 AI 使用披露",
       "url": "https://store.steampowered.com/app/4544110/",
-      "date": "2026-10-21",
-      "excerpt": "开发者在 Steam 披露：商店与游戏库展示所用部分营销图片使用 AI 辅助。开发者同时声称玩法代码、平衡、飞船行为与升级系统由其自行开发；目前没有足够证据将游戏内美术归为 AI 生成。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露部分商店与库营销图片使用 AI 辅助生成，并称代码、玩法系统、平衡和实现由开发者完成。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4544110/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "核查时未检索到额外的开发者澄清或第三方报道；结论仅基于 Steam 官方披露。"
     }
   ],
-  "reviewNote": "营销图片使用 AI 不代表游戏内美术使用 AI；开发者关于自行开发代码的声明并非独立审计。"
+  "reviewNote": "营销图片使用 AI 不代表游戏内美术使用 AI；开发者关于自行开发代码的说法是自述，不是独立审计。游戏内美术、音乐、文字等未被披露提及。",
+  "developer": "MrBastion",
+  "publisher": "Bastion Studios",
+  "steamReleaseDate": "2026-06-04",
+  "disclosureQuote": "Some store and library marketing images were created with AI-assisted image generation.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。"
 }

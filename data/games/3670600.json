@@ -5,7 +5,7 @@
   "releaseDate": "2025-06-20",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
-  "summary": "Steam 开发者披露，部分角色肖像、背景图以生成式 AI 为初始素材，再用 Photoshop 编辑；部分文字由 AI 辅助制作。公开披露并未支持将游戏全部资产归为 AI 生成。",
+  "summary": "Steam 开发者披露：角色肖像和背景以生成式 AI 为起点，再用 Photoshop 人工编辑；部分文字在 AI 辅助下创作。其他领域未被披露提及。",
   "steamUrl": "https://store.steampowered.com/app/3670600/",
   "genres": [
     "Roguelike"
@@ -15,34 +15,42 @@
     "writing"
   ],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
+    "ingame": "not_stated",
+    "code": "not_stated",
     "art": "used",
-    "music": "unreviewed",
-    "voice": "unreviewed",
+    "music": "not_stated",
+    "voice": "not_stated",
     "writing": "used",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "aiAreaNotes": {
-    "art": "角色肖像及背景使用生成式 AI 作为初始素材，随后由人工在 Photoshop 中编辑。",
-    "writing": "开发者披露部分文字内容经过 AI 协助，具体段落与比例未逐项核实。"
+    "art": "角色肖像与背景以生成式 AI 作为起点，随后人工在 Photoshop 中编辑；未披露的其他美术资产不作推断。",
+    "writing": "开发者披露部分文字由 AI 辅助创作，具体段落与比例未逐项核实。"
   },
   "aiAreaSources": {
     "art": "official",
     "writing": "official"
   },
   "disclosureQuote": "Character Portraits and backgrounds used Gen-AI as a starting point combined with Photoshop editing. Some Text was created with the assistance of AI.",
-  "disclosureQuoteNote": "Steam 开发者披露原文摘录，可能随商店页更新。",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。",
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者 AI 使用披露",
       "url": "https://store.steampowered.com/app/3670600/",
-      "date": "2026-10-21",
-      "excerpt": "Steam 开发者披露，部分角色肖像、背景图以生成式 AI 为初始素材，再用 Photoshop 编辑；部分文字由 AI 辅助制作。公开披露并未支持将游戏全部资产归为 AI 生成。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露角色肖像和背景以生成式 AI 为起点并经 Photoshop 编辑，部分文字由 AI 辅助创作；2026-10-23 复核披露仍在。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/3670600/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "核查时未检索到额外的开发者澄清或第三方报道；结论仅基于 Steam 官方披露。"
     }
   ],
-  "reviewNote": "数据基于 Steam 开发者自述整理，属于来源归属的公开声明，不是独立技术审计。",
-  "reviewedAt": "2026-10-21"
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露未提及的领域标为“未提及”，不代表确认未使用。",
+  "reviewedAt": "2026-10-23",
+  "steamReleaseDate": "2025-06-20"
 }

@@ -5,7 +5,7 @@
   "releaseDate": "2025-11-11",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
-  "summary": "开发者在 Steam 披露，游戏及 Steam 商店页的一些图像和音效由 AI 工具制作。这是开发者自述，不代表全部美术、全部音频或游戏运行时使用生成式 AI。",
+  "summary": "Steam 开发者披露：使用 AI 工具制作了游戏内及商店页上的原创图像和声音；项目另含从 Unity Asset Store 等市场合法购买的第三方素材。",
   "steamUrl": "https://store.steampowered.com/app/3782550/",
   "genres": [
     "Roguelike"
@@ -16,19 +16,19 @@
     "marketing"
   ],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
+    "ingame": "not_stated",
+    "code": "not_stated",
     "art": "used",
     "music": "used",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
     "marketing": "used"
   },
   "aiAreaNotes": {
-    "art": "开发者披露游戏中的部分图像使用 AI 工具制作。",
-    "music": "开发者披露游戏声音素材借助 AI 生成；这里指音效相关素材，不代表全部配乐。",
-    "marketing": "Steam 页面图像包含开发者披露的 AI 辅助制作内容。"
+    "art": "开发者披露游戏内原创图像使用 AI 工具制作；另有部分图像来自第三方素材商店，具体哪些由 AI 生成未逐项核实。",
+    "music": "披露原文为“声音”（sounds），可能是音效而非音乐；不等同于确认 AI 作曲。",
+    "marketing": "开发者披露商店页图像同样使用了 AI 工具制作。"
   },
   "aiAreaSources": {
     "art": "official",
@@ -38,12 +38,23 @@
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者 AI 使用披露",
       "url": "https://store.steampowered.com/app/3782550/",
-      "date": "2026-10-21",
-      "excerpt": "开发者在 Steam 披露，游戏及 Steam 商店页的一些图像和音效由 AI 工具制作。这是开发者自述，不代表全部美术、全部音频或游戏运行时使用生成式 AI。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露用 AI 工具制作游戏内和商店页的原创图像与声音，并称持有完整商用权利；项目另含合法购买的第三方素材。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/3782550/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "核查时未检索到额外的开发者澄清或第三方报道；结论仅基于 Steam 官方披露。"
     }
   ],
-  "reviewNote": "数据基于 Steam 开发者自述整理，属于来源归属的公开声明，不是独立技术审计。",
-  "reviewedAt": "2026-10-21"
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。第三方素材商店资产与 AI 生成资产在游戏中混用，本站未逐项区分。",
+  "reviewedAt": "2026-10-23",
+  "publisher": "GameDevIta",
+  "steamReleaseDate": "2025-11-11",
+  "disclosureQuote": "I have used AI tools to create original images and sounds included in the game and on the store page.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文摘录，2026-10-23 复核；可能随商店页更新。"
 }

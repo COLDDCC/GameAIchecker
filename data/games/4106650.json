@@ -3,7 +3,7 @@
   "name": "Palaxin",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
-  "summary": "Steam 开发者披露使用 AI 辅助代码补全和重构，并用于早期 UI 图标概念、占位素材和营销草稿。开发者表示最终游戏及商店素材经过团队绘制、编辑和批准，未披露运行时 AI 生成。",
+  "summary": "Steam 开发者披露：开发中用 AI 做代码补全与重构建议，并生成 UI 图标早期概念、占位素材和营销草稿；开发者称最终游戏与商店素材均经团队绘制或编辑并审核，游戏运行时不生成新内容。",
   "steamUrl": "https://store.steampowered.com/app/4106650/",
   "genres": [
     "Roguelike"
@@ -14,21 +14,23 @@
     "marketing"
   ],
   "aiAreas": {
-    "ingame": "unreviewed",
+    "ingame": "claimed_none",
     "code": "used",
     "art": "used",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
     "marketing": "used"
   },
   "aiAreaNotes": {
-    "code": "开发者披露使用 AI 辅助代码补全及重构，不等于全部代码由 AI 生成。",
-    "art": "使用范围涉及早期 UI 图标概念及占位素材；不能据此认定最终素材直接使用 AI 输出。",
-    "marketing": "开发者披露营销草稿受到 AI 辅助，最终稿经过团队编辑和审核。"
+    "ingame": "开发者在 Steam 披露中声明游戏运行时不生成新内容（仅预生成）；未独立核实。",
+    "code": "开发者披露使用 AI 代码补全和重构建议，并称所有代码经人工审查修改；不等于代码由 AI 编写。",
+    "art": "AI 用于 UI 图标的早期概念和占位素材；开发者称最终素材由团队绘制/编辑并审核，未独立核实。",
+    "marketing": "AI 用于营销草稿；开发者称最终商店素材经团队编辑审核。"
   },
   "aiAreaSources": {
+    "ingame": "official",
     "code": "official",
     "art": "official",
     "marketing": "official"
@@ -36,12 +38,24 @@
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者 AI 使用披露",
       "url": "https://store.steampowered.com/app/4106650/",
-      "date": "2026-10-21",
-      "excerpt": "Steam 开发者披露使用 AI 辅助代码补全和重构，并用于早期 UI 图标概念、占位素材和营销草稿。开发者表示最终游戏及商店素材经过团队绘制、编辑和批准，未披露运行时 AI 生成。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露 AI 用于代码补全/重构建议、UI 图标早期概念与占位素材及营销草稿；称最终素材经团队绘制编辑审核，运行时不生成内容。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4106650/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "核查时未检索到额外的开发者澄清或第三方报道；结论仅基于 Steam 官方披露。"
     }
   ],
-  "reviewNote": "数据基于 Steam 开发者自述整理，属于来源归属的公开声明，不是独立技术审计。",
-  "reviewedAt": "2026-10-21"
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。“使用”指开发过程中使用过 AI 辅助，开发者称最终交付素材经人工处理；音乐、配音、文字、翻译未被披露提及。",
+  "reviewedAt": "2026-10-23",
+  "developer": "Riviera Tech Solutions j.d.o.o.",
+  "publisher": "Riviera Tech Solutions j.d.o.o.",
+  "steamReleaseDate": "2025-11-08",
+  "disclosureQuote": "Final in-game and store assets were painted/edited and approved by our team before shipping.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文摘录，2026-10-23 复核；可能随商店页更新。"
 }

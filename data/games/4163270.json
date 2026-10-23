@@ -3,9 +3,9 @@
   "name": "Half Grip",
   "developer": "Half Games",
   "publisher": "Half Games",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "用单手完成转向、射击和装弹的 Roguelike 战斗竞速游戏。 生成式 AI 使用范围尚未完成核查。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，社区讨论区和新闻稿中也没有相关声明或质疑。像素画风本身不构成 AI 使用证据。",
   "description": "用单手完成转向、射击和装弹的 Roguelike 战斗竞速游戏。",
   "steamUrl": "https://store.steampowered.com/app/4163270/",
   "steamReleaseDate": "To be announced",
@@ -33,28 +33,50 @@
   "languages": "English * , Italian * , Spanish - Spain * , Portuguese - Brazil * , Romanian * , Russian * , Turkish * , French * , German *   * languages with full audio support",
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "sources": [
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/4163270/",
-      "label": "Steam 官方资料：游戏身份、玩法与发行信息",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
       "date": "2026-10-23",
-      "excerpt": "官方主打单手操控、武装竞速与像素视觉；视觉风格本身不构成 AI 使用证据。"
+      "excerpt": "Steam 商店页（发行日期待定）没有 AI 生成内容披露，页面未提及 AI；单手操控、武装竞速和像素视觉不构成 AI 使用证据。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.gamespress.com/Half-Grip-Steam-Demo-Now-Live-One-Hand-One-Car-No-Mercy",
+      "label": "新闻稿：Half Grip Steam 试玩上线",
+      "date": "2026-10-19",
+      "excerpt": "官方新闻稿介绍试玩与玩法，未提及生成式 AI 的使用或未使用。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4163270/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "浏览讨论区全部 23 个主题标题，未见 AI 生成内容相关讨论；有玩家讨论预告片音乐，但未涉及 AI。"
     }
   ],
-  "reviewNote": "官方主打单手操控、武装竞速与像素视觉；视觉风格本身不构成 AI 使用证据。 本页对应正式版 App ID；不将试玩版评价、发行日期或 AI 结论混用。",
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。本页对应正式版 App ID，不混用试玩版结论。",
   "identityVerifiedAt": "2026-10-23",
   "aiAreaNotes": {
-    "ingame": "官方主打单手操控、武装竞速与像素视觉；视觉风格本身不构成 AI 使用证据。",
-    "art": "未完成可复现来源核查；不依据画面风格推断 AI 使用。"
-  }
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "像素画风不构成 AI 使用证据；Steam 未披露，也未检索到开发者声明。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "aiAreaSources": {},
+  "reviewedAt": "2026-10-23"
 }

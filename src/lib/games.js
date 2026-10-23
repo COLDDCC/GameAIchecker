@@ -446,6 +446,7 @@ function finalize(record) {
     if (explicit === 'used' || usedCategories.has(area.key)) state = 'used';
     else if (explicit === 'none') state = 'none';
     else if (explicit === 'not_stated') state = 'not_stated';
+    else if (explicit === 'claimed_none') state = 'claimed_none';
     else if (explicit === 'unreviewed') state = 'unreviewed';
     else if (status === 'human_made') state = 'claimed_none';
     else if (status === 'official_disclosure') state = 'not_stated';

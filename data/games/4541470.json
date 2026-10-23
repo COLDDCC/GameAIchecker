@@ -2,9 +2,9 @@
   "appId": "4541470",
   "name": "Deadzone Rogue 2 Demo",
   "publisher": "Prophecy Games",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "《Deadzone Rogue 2》的 Steam 试玩版，科幻合作射击与 Roguelite 玩法。此 App ID 指向试玩版；生成式 AI 使用情况尚无本站核查结论。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现生成式 AI 使用证据：试玩版商店页和正式版（App 4465790）商店页均无 AI 生成内容披露，讨论区和发行报道中也没有相关声明或质疑。本结论仅对应试玩版页面。",
   "steamUrl": "https://store.steampowered.com/app/4541470/",
   "genres": [
     "FPS",
@@ -12,21 +12,58 @@
   ],
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "sources": [
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/4541470/",
-      "label": "Steam 官方游戏身份页面"
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "试玩版商店页（Prophecy Games，2026-10-08 上线免费试玩）没有 AI 生成内容披露；页面里的“Artificial Intelligence”是玩家标签，不是开发者披露。"
+    },
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/4465790/",
+      "label": "Steam 正式版商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "正式版 Deadzone Rogue 2 商店页（即将推出）同样没有 AI 生成内容披露；“Neural Lattice”是游戏内设定，不是 AI 披露。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.gameinformer.com/2026/05/12/deadzone-rogue-2-follow-up-to-excellent-roguelite-fps-announced",
+      "label": "发行报道：Deadzone: Rogue 2 公布",
+      "date": "2026-05-12",
+      "excerpt": "Game Informer 报道续作公布，未提及生成式 AI 的使用或未使用。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4465790/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "正式版讨论区首页主题（共 186 个）均为平衡与 bug 反馈，未见 AI 生成内容质疑。"
     }
   ],
-  "reviewNote": "此页面专门对应 Steam Demo 4541470，不能将试玩版的任何结论自动用于正式版。"
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。此页面专门对应 Steam 试玩版 4541470；正式版 4465790 商店页同样未披露 AI，但试玩版结论不自动用于正式版。",
+  "developer": "Prophecy Games",
+  "steamReleaseDate": "Oct 8, 2026",
+  "aiAreaSources": {},
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "reviewedAt": "2026-10-23"
 }
