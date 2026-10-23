@@ -1,0 +1,35 @@
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+
+// Export only reviewed game pages into the repository-style /games directory.
+// The Astro build itself generates all game pages in dist/games.
+const root = process.cwd();
+const ids = ['4576390', '4982910', '5182120', '5004560', '4794490', '5391500',
+  '5323250', '1889620', '2800150', '4544110', '3519780'];
+
+function slugify(value) {
+  return String(value || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 64) || 'game';
+}
+
+let exported = 0;
+for (const id of ids) {
+  const game = JSON.parse(readFileSync(join(root, 'data', 'games', id + '.json'), 'utf8'));
+  if (String(game.appId) !== id) throw new Error('Unexpected App ID in ' + id + '.json');
+  const slug = id + '-' + slugify(game.name);
+  const src = join(root, 'dist', 'games', slug, 'index.html');
+  if (!existsSync(src)) throw new Error('Astro did not generate ' + slug);
+  let html = readFileSync(src, 'utf8');
+  html = html.replace(/<link[^>]+rel="stylesheet"[^>]+href="\/(_astro\/[^"]+\.css)"[^>]*>/g,
+    (original, href) => {
+      const cssFile = join(root, 'dist', href);
+      return existsSync(cssFile) ? '<style>' + readFileSync(cssFile, 'utf8') + '</style>' : original;
+    });
+  const dest = join(root, 'games', slug, 'index.html');
+  mkdirSync(dirname(dest), { recursive: true });
+  writeFileSync(dest, html, 'utf8');
+  exported += 1;
+  console.log('[export-reviewed-games] ' + slug);
+}
+if (exported !== ids.length) throw new Error('Incomplete export');
+console.log('[export-reviewed-games] exported ' + exported + ' reviewed pages');
