@@ -2,20 +2,20 @@
   "appId": "4693000",
   "name": "降雪的日子",
   "developer": "亚细亚鳕鱼",
-  "category": "community",
-  "verification": "hand_drawn_style_only",
+  "category": "human_made",
+  "verification": "site_owner_review_passed",
   "steamUrl": "https://store.steampowered.com/app/4693000/",
-  "summary": "Steam 官方介绍明确提及手绘画风、CG，但未确认全游戏零 AI。",
+  "summary": "本站负责人已审查并认定《降雪的日子》为 0 AI / 100% HUMAN 作品。结论基于站内人工审核；完整审查材料尚未公开，非第三方独立审计。",
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "claimed_none",
+    "marketing": "claimed_none"
   },
   "sources": [
     {
@@ -27,12 +27,34 @@
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/5027060/",
       "label": "官方 Demo"
+    },
+    {
+      "type": "community",
+      "label": "Game AI Checker 站点负责人审查结论",
+      "date": "2026-10-23",
+      "excerpt": "负责人确认《降雪的日子》已通过 0 AI 审查；公开核查材料待补。"
     }
   ],
   "humanMadeListing": {
-    "kind": "community_nomination",
-    "scope": "art",
-    "verified": false,
-    "label": "人工美术推荐 · 尚待核实"
+    "kind": "site_owner_review",
+    "scope": "whole_game",
+    "verified": true,
+    "verifiedBy": "site_owner",
+    "reviewedAt": "2026-10-23",
+    "label": "0 AI · 站内审核通过",
+    "labelEn": "0 AI · Site review passed",
+    "summary": "站点负责人确认人工审查通过；非第三方独立认证。"
+  },
+  "reviewedAt": "2026-10-23",
+  "reviewNote": "2026-10-23 站点负责人明确告知该游戏已通过其 0 AI 人工审查。未提供可公开展示的逐项审核材料，故明确标记为站内审核结论，不宣称独立审计。",
+  "aiAreaNotes": {
+    "ingame": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "code": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "art": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "music": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "voice": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "writing": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "translation": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。",
+    "marketing": "站点负责人审查结论：0 AI；逐项审查材料暂未公开。"
   }
 }
