@@ -4,11 +4,11 @@
   "developer": "STAGE Games",
   "publisher": "STAGE Games",
   "category": "official_ai_disclosure",
-  "verification": "steam_store_disclosure",
-  "summary": "以鼠标直接操控剑刃、持续升级和挑战首领为核心的增量动作游戏。 官方披露确认部分概念美术与视觉资产使用 AI。",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "Steam 开发者披露：开发期间使用 AI 工具生成了部分概念美术和视觉资产。披露未提及其他领域。",
   "description": "以鼠标直接操控剑刃、持续升级和挑战首领为核心的增量动作游戏。",
   "steamUrl": "https://store.steampowered.com/app/3421660/",
-  "steamReleaseDate": "May 18, 2026",
+  "steamReleaseDate": "2026-05-18",
   "genres": [
     "Action",
     "Casual",
@@ -45,20 +45,27 @@
     {
       "type": "official_disclosure",
       "url": "https://store.steampowered.com/app/3421660/",
-      "label": "Steam 官方 AI 使用披露",
+      "label": "Steam 开发者生成式 AI 使用披露",
       "date": "2026-10-23",
-      "excerpt": "Steam 开发者披露确认开发期间以 AI 制作部分概念美术及视觉资产；不能扩展为所有美术或其他领域都使用 AI。"
+      "excerpt": "开发者披露开发期间用 AI 工具生成部分概念美术与视觉资产。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3421660/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "浏览讨论区首页 16 个主题标题（共 115 个），均为平衡、bug 与成就问题，未见 AI 相关讨论；仅检查了标题。"
     }
   ],
-  "reviewNote": "Steam 开发者披露确认开发期间以 AI 制作部分概念美术及视觉资产；不能扩展为所有美术或其他领域都使用 AI。 本页对应正式版 App ID；不将试玩版评价、发行日期或 AI 结论混用。",
+  "reviewNote": "结论来源于 Steam 开发者自述，不是独立技术审计。不能把部分概念美术和视觉资产的 AI 使用扩展为全部美术或其他领域。",
   "identityVerifiedAt": "2026-10-23",
   "disclosureQuote": "Used AI tools to generate some concept art and visual assets during development.",
-  "disclosureQuoteNote": "Steam 开发者 AI 使用披露原文，2026-10-23 读取。范围仅涵盖部分概念美术及视觉资产。",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。",
   "aiAreaSources": {
-    "art": "official_disclosure"
+    "art": "official"
   },
   "aiAreaNotes": {
-    "art": "开发者确认开发期间使用 AI 工具制作部分概念美术与视觉资产；未披露比例，也未指明所有具体资产。"
+    "art": "开发者披露用 AI 工具生成部分概念美术和视觉资产；未说明比例，也未指明具体资产。"
   },
   "reviewedAt": "2026-10-23"
 }

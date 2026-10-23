@@ -3,9 +3,9 @@
   "name": "DREADMOOR",
   "developer": "Dream Dock",
   "publisher": "Digital Vortex Entertainment",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "一款洪水末世背景的第一人称钓鱼和生存冒险游戏。已核实 Steam 身份、开发商和发行商；尚未完成 AI 披露证据审查。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，讨论区和公开资料中也没有相关声明或质疑。",
   "steamUrl": "https://store.steampowered.com/app/3629430/",
   "genres": [
     "Fishing",
@@ -13,21 +13,43 @@
   ],
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "sources": [
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/3629430/",
-      "label": "Steam 官方游戏身份页面"
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "Steam 商店页（Dream Dock 开发、Digital Vortex Entertainment 发行，计划 2026 年第四季度发售）没有 AI 生成内容披露，页面未提及 AI。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3629430/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "浏览讨论区首页 15 个主题标题（共 113 个），多为测试反馈与 bug；最热帖讨论开发团队的地域背景，与 AI 无关；未见 AI 生成内容质疑，仅检查了标题。"
     }
   ],
-  "reviewNote": "项目有试玩版，但本页以 3629430 正式游戏 App ID 为准。未核查不代表未使用 AI。"
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。本页对应正式版 App ID；试玩版另有商店页，不混用。",
+  "steamReleaseDate": "Q4 2026",
+  "aiAreaSources": {},
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "reviewedAt": "2026-10-23"
 }

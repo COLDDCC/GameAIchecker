@@ -1,36 +1,52 @@
 {
   "appId": "2295170",
   "name": "Emberville",
-  "category": "unreviewed",
-  "verification": "pending_source_review",
-  "summary": "Emberville 收录自第三方 Steam 新品节列表。AI 使用与否仍待原始声明和可核查证据支持；本页不会把未发现披露直接认定为未使用 AI。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，讨论区和公开资料中也没有相关声明或质疑。",
   "steamUrl": "https://store.steampowered.com/app/2295170/",
   "genres": [],
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
-  "aiAreaNotes": {},
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
   "aiAreaSources": {},
   "sources": [
     {
       "type": "steam_store",
-      "label": "Steam 游戏身份页面",
       "url": "https://store.steampowered.com/app/2295170/",
-      "excerpt": "Emberville 收录自第三方 Steam 新品节列表。AI 使用与否仍待原始声明和可核查证据支持；本页不会把未发现披露直接认定为未使用 AI。"
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "Steam 商店页（Cygnus Cross，计划 2026-10-27 开始抢先体验）没有 AI 生成内容披露，页面未提及 AI。"
     },
     {
-      "type": "third_party",
-      "label": "第三方 Steam 新品节游戏列表",
-      "url": "https://playtestboard.com/steam-next-fest/"
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2295170/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "浏览讨论区首页 15 个主题标题（共 288 个），多为试玩反馈、战斗手感与崩溃报告，未见 AI 生成内容质疑；仅检查了标题。"
     }
   ],
-  "reviewNote": "保持未核查状态，不根据游戏画风或第三方活动记录推断 AI 使用。"
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。讨论区有对游戏质量的负面评价，但未涉及 AI。",
+  "developer": "Cygnus Cross",
+  "publisher": "Cygnus Cross",
+  "steamReleaseDate": "Oct 27, 2026",
+  "reviewedAt": "2026-10-23"
 }

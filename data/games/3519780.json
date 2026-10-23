@@ -5,8 +5,8 @@
   "releaseDate": "2025-09-23",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
-  "reviewedAt": "2026-10-21",
-  "summary": "开发者在 Steam 披露：菜单和过场动画的部分背景视觉素材采用 AI 设计。这是特定视觉元素的使用声明，不代表游戏中所有绘画、卡牌或角色素材由 AI 生成。",
+  "reviewedAt": "2026-10-23",
+  "summary": "Steam 开发者披露：菜单和过场动画的部分背景视觉素材使用 AI 设计。披露仅涉及这些背景，不代表卡牌、角色等其他素材由 AI 制作。",
   "genres": [
     "Roguelike"
   ],
@@ -28,19 +28,26 @@
     "art": "official"
   },
   "aiAreaNotes": {
-    "art": "Steam 开发者披露菜单和过场动画的部分背景视觉元素使用 AI 设计；不应扩展为全部游戏美术。",
-    "ingame": "现有披露为预先制作的背景视觉素材，而非游玩时生成内容。"
+    "art": "开发者披露菜单和过场动画的部分背景视觉使用 AI 设计；不应扩展为全部游戏美术。"
   },
   "disclosureQuote": "Some of the background visuals for menus and cutscenes were designed using AI.",
-  "disclosureQuoteNote": "Steam 开发者公开披露的原文摘录（具体描述可随商店页面更新）。",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。",
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者生成式 AI 使用披露",
       "url": "https://store.steampowered.com/app/3519780/",
-      "date": "2026-10-21",
-      "excerpt": "开发者在 Steam 披露：菜单和过场动画的部分背景视觉素材采用 AI 设计。这是特定视觉元素的使用声明，不代表游戏中所有绘画、卡牌或角色素材由 AI 生成。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露菜单和过场动画的部分背景视觉素材使用 AI 设计。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3519780/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "讨论区共 3 个主题；其中“请开发者回应”一帖关于平衡与更新频率，开发者已回应，未涉及 AI。"
     }
   ],
-  "reviewNote": "Steam 开发者自我披露，仅支持部分菜单和过场背景视觉的 AI 使用，不构成对其他资产的独立核查。"
+  "reviewNote": "结论来源于 Steam 开发者自述，仅支持部分菜单与过场背景的 AI 使用，不构成对其他资产的独立核查。",
+  "publisher": "Raphus & Co."
 }

@@ -3,9 +3,9 @@
   "name": "Tropico 7",
   "developer": "Gaming Minds Studios",
   "publisher": "Kalypso Media",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "扮演海岛总统，规划城市、管理经济与政治的模拟策略游戏。 生成式 AI 使用范围尚未完成核查。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，讨论区和公开报道中也没有相关声明或质疑。",
   "description": "扮演海岛总统，规划城市、管理经济与政治的模拟策略游戏。",
   "steamUrl": "https://store.steampowered.com/app/1853440/",
   "steamReleaseDate": "Jan 28, 2027",
@@ -24,28 +24,43 @@
   "languages": "English * , French, Italian, German * , Spanish - Spain * , Arabic, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese * , Traditional Chinese  * languages with full audio support",
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "sources": [
     {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/1853440/",
-      "label": "Steam 官方资料：游戏身份、玩法与发行信息",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
       "date": "2026-10-23",
-      "excerpt": "正式版商店当前计划于 2027 年 1 月 28 日发行；新品节试玩经历不代表正式版已经发售。"
+      "excerpt": "Steam 商店页（Gaming Minds Studios 开发、Kalypso Media 发行，计划 2027-01-28 发售）没有 AI 生成内容披露，页面未提及 AI。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/1853440/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "浏览讨论区首页 15 个主题标题（共 130 个），多为发售日期与玩法期待，未见 AI 生成内容质疑；仅检查了标题。"
     }
   ],
-  "reviewNote": "正式版商店当前计划于 2027 年 1 月 28 日发行；新品节试玩经历不代表正式版已经发售。 本页对应正式版 App ID；不将试玩版评价、发行日期或 AI 结论混用。",
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。本页对应正式版 App ID；试玩版另有商店页，不混用。",
   "identityVerifiedAt": "2026-10-23",
   "aiAreaNotes": {
-    "ingame": "正式版商店当前计划于 2027 年 1 月 28 日发行；新品节试玩经历不代表正式版已经发售。",
-    "art": "未完成可复现来源核查；不依据画面风格推断 AI 使用。"
-  }
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "aiAreaSources": {},
+  "reviewedAt": "2026-10-23"
 }

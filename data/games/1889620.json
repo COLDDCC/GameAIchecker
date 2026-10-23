@@ -5,8 +5,8 @@
   "releaseDate": "2023-10-25",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
-  "reviewedAt": "2026-10-21",
-  "summary": "开发者在 Steam 公开披露：游戏可实时生成文字、图像及音效，并使用 AI 在游玩过程中辅助决定部分游戏机制。这里的实时生成功能不同于仅在开发阶段使用 AI 资产。",
+  "reviewedAt": "2026-10-23",
+  "summary": "Steam 开发者披露：游戏大量使用 AI 实时生成文字、图像和音效等游戏内容，并由 AI 实时做出多种游戏机制判定。商店功能栏标注连接第三方 AI 服务 Google Gemini，玩家也可接入自定义接口（如 OpenRouter、LM Studio）。",
   "genres": [
     "Roguelike"
   ],
@@ -34,21 +34,29 @@
     "writing": "official"
   },
   "aiAreaNotes": {
-    "ingame": "开发者披露游戏运行中实时生成多类内容，并通过 AI 影响部分游戏机制。",
-    "art": "Steam 开发者披露实时生成游戏内图像；不代表所有美术均通过 AI 创建。",
-    "music": "开发者披露即时生成声音效果；此分类包含音效，不等同于确认 AI 作曲。",
-    "writing": "开发者披露游戏内文字内容使用 AI 实时生成。"
+    "ingame": "核心玩法依赖 AI 实时生成内容并做机制判定；商店标注第三方服务为 Google Gemini，并支持自定义或本地接口。",
+    "art": "游戏内图像在游玩时由 AI 实时生成；不代表界面等所有美术均由 AI 制作。",
+    "music": "披露为实时生成“音效”，不等同于确认 AI 作曲。",
+    "writing": "游戏内文字在游玩时由 AI 实时生成。"
   },
-  "disclosureQuote": "This game heavily uses AI to live-generate in-game content such as text, images, and sound effects. It also uses AI to make a variety of game mechanics decisions in real time.",
-  "disclosureQuoteNote": "Steam 开发者公开披露的原文摘录（具体描述可随商店页面更新）。",
+  "disclosureQuote": "This game heavily uses AI to live-generate in-game content such as text, images, and sound effects.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。",
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者生成式 AI 使用披露",
       "url": "https://store.steampowered.com/app/1889620/",
-      "date": "2026-10-21",
-      "excerpt": "开发者在 Steam 公开披露：游戏可实时生成文字、图像及音效，并使用 AI 在游玩过程中辅助决定部分游戏机制。这里的实时生成功能不同于仅在开发阶段使用 AI 资产。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露游戏大量用 AI 实时生成文字、图像和音效并做机制判定；功能栏标注第三方服务 Google Gemini，描述提到可接 OpenRouter、LM Studio。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/1889620/discussions/",
+      "label": "Steam 社区讨论区检索（未发现对披露的争议）",
+      "date": "2026-10-23",
+      "excerpt": "浏览讨论区首页 15 个主题标题（共 282 个），有玩家讨论 AI 生成图像速度、TTS 和本地模型设置等玩法问题，未见对 AI 披露本身的争议；仅检查了标题。"
     }
   ],
-  "reviewNote": "已记录 Steam 开发者原始披露摘录；本站没有对每次游玩中的生成结果进行独立技术审计。"
+  "reviewNote": "结论来源于 Steam 开发者自述。本作以生成式 AI 为核心卖点，实时生成与开发阶段使用 AI 素材性质不同；本站未对生成结果做技术审计。",
+  "publisher": "Max Loh"
 }

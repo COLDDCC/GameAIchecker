@@ -4,20 +4,21 @@
   "developer": "Astrix Game Studio",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
-  "reviewedAt": "2026-10-21",
-  "summary": "开发者在 Steam 披露：部分 2D 角色概念图与宣传美术使用生成式 AI 辅助，随后由人工审阅及润色。未提供证据证明最终游戏内角色素材采用 AI 生成；开发者称游戏运行中不调用生成式 AI。",
+  "reviewedAt": "2026-10-23",
+  "summary": "Steam 开发者披露（中英双语）：开发中使用生成式 AI 辅助制作部分 2D 概念图和宣传图，所有生成内容经人工审核、修改和合规筛查；游戏运行时不调用生成式 AI 服务。",
   "genres": [
     "Tower Defense",
     "Multiplayer"
   ],
   "steamUrl": "https://store.steampowered.com/app/5323250/",
   "aiUsageCategories": [
+    "art",
     "marketing"
   ],
   "aiAreas": {
-    "ingame": "not_stated",
+    "ingame": "claimed_none",
     "code": "not_stated",
-    "art": "not_stated",
+    "art": "used",
     "music": "not_stated",
     "voice": "not_stated",
     "writing": "not_stated",
@@ -25,21 +26,34 @@
     "marketing": "used"
   },
   "aiAreaSources": {
-    "marketing": "official"
+    "art": "official",
+    "marketing": "official",
+    "ingame": "official"
   },
   "aiAreaNotes": {
-    "marketing": "Steam 开发者披露部分宣传图形使用生成式 AI 辅助制作并人工润色。",
-    "art": "开发者提到 AI 辅助概念设计，但尚不能确认最终游戏内美术资产使用了 AI；不计为已确认的游戏内美术使用。",
-    "ingame": "开发者披露运行期间无实时生成式 AI 服务调用。"
+    "art": "开发者披露部分 2D 概念图使用生成式 AI 辅助并经人工修改；最终游戏内资产是否含 AI 内容未说明，按“部分概念图已使用”记录。",
+    "marketing": "开发者披露部分宣传图使用生成式 AI 辅助并经人工修改。",
+    "ingame": "开发者称游戏运行时不调用生成式 AI 服务；未独立核实。"
   },
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者生成式 AI 使用披露",
       "url": "https://store.steampowered.com/app/5323250/",
-      "date": "2026-10-21",
-      "excerpt": "开发者在 Steam 披露：部分 2D 角色概念图与宣传美术使用生成式 AI 辅助，随后由人工审阅及润色。未提供证据证明最终游戏内角色素材采用 AI 生成；开发者称游戏运行中不调用生成式 AI。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者中英双语披露部分 2D 概念图和宣传图使用生成式 AI 辅助并经人工审核修改；称运行时不调用生成式 AI。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5323250/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "讨论区仅 1 个置顶欢迎帖，未见 AI 相关讨论。"
     }
   ],
-  "reviewNote": "部分概念图和宣传美术的 AI 辅助属于开发者披露；不能推断最终游戏内资产或所有视觉素材也使用 AI。"
+  "reviewNote": "结论来源于 Steam 开发者自述，不是独立技术审计。概念图属于开发过程素材，是否进入最终游戏未说明，本站按“部分使用”记录，不作全部美术的推断。",
+  "publisher": "Astrix Game Studio",
+  "steamReleaseDate": "Q4 2026",
+  "disclosureQuote": "The game does not call generative AI services during runtime.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。"
 }

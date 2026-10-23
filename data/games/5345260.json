@@ -3,9 +3,9 @@
   "name": "明天照常营业",
   "developer": "五十游戏",
   "publisher": "五十游戏",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "架空战争背景下的谍战店铺经营模拟游戏：白天经营店面、接待客人，暗中传递情报与应对各方势力。官方 Steam 身份已核实；生成式 AI 使用情况尚未完成来源审查，不能据此断言使用或未使用 AI。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现可核实的生成式 AI 使用证据：正式版与试玩版商店页均无 AI 生成内容披露。小红书有玩家指控本作模仿《深空当铺》（Probably Stolen）并“AI 换皮”，但原帖无法访问核实，截图也不足以证明使用生成式 AI；该指控单独记录，不作为 AI 使用事实。",
   "steamUrl": "https://store.steampowered.com/app/5345260/",
   "genres": [
     "独立",
@@ -15,27 +15,29 @@
   ],
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "sources": [
     {
       "type": "steam_store",
-      "label": "Steam 官方游戏页面：身份、玩法、开发者、宣传图",
       "url": "https://store.steampowered.com/app/5345260/",
-      "date": "2026-10-23"
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "Steam 商店页（五十游戏，即将推出）没有 AI 生成内容披露，页面未提及 AI；“像素画风”为风格标签，不是制作方式声明。"
     },
     {
       "type": "steam_store",
-      "label": "Steam 官方试玩版（独立 App ID 5346620）",
       "url": "https://store.steampowered.com/app/5346620/",
-      "date": "2026-10-23"
+      "label": "Steam 试玩版商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "试玩版商店页同样没有 AI 生成内容披露，页面未提及 AI。"
     },
     {
       "type": "third_party",
@@ -47,10 +49,17 @@
       "label": "小红书玩家指控：《明天照常营业》涉嫌模仿《深空当铺》并使用 AI 换皮（未独立核实）",
       "url": "https://xhslink.cn/o/mzGSX4dDPT",
       "date": "2026-10-23",
-      "excerpt": "小红书账号「脑壳」发布《国内独游小抄抄真的恶心》，称《明天照常营业》涉嫌模仿《深空当铺》并存在 AI 换皮问题。用户提供截图可见帖子文字与游戏画面，但截图本身不足以证明抄袭或生成式 AI 使用。"
+      "excerpt": "小红书账号「脑壳」发布《国内独游小抄抄真的恶心》，称《明天照常营业》涉嫌模仿《深空当铺》并存在 AI 换皮问题。用户提供截图可见帖子文字与游戏画面，但截图本身不足以证明抄袭或生成式 AI 使用。 2026-10-23 复核：原帖链接拒绝抓取，无法核实内容；Steam 讨论区只有玩法相似的讨论，没有 AI 相关证据。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5345260/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "讨论区共 5 个主题；有两名玩家认为本作与《深空当铺》相似，但未提及 AI，开发者未回应。"
     }
   ],
-  "reviewNote": "官方商店显示游戏尚未正式发售、试玩版另有独立 App ID。当前没有可核验的开发者生成式 AI 声明，所有 AI 使用领域均保留未核查；游戏以人工智能或谍战为题材不代表开发流程使用生成式 AI。 新增小红书玩家质疑链接，暂作为社区线索；AI 使用和玩法相似性分开核查，不能依据标题直接判定。",
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。玩法相似与是否使用生成式 AI 是两个问题，本页只判断后者；小红书指控因原帖无法访问而未核实，若出现可检验的 AI 证据应重新审查。",
   "links": [
     {
       "label": "官方 Steam 页面",
@@ -60,5 +69,18 @@
       "label": "试玩版 Steam 页面",
       "url": "https://store.steampowered.com/app/5346620/"
     }
-  ]
+  ],
+  "steamReleaseDate": "Coming soon",
+  "aiAreaSources": {},
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "小红书有玩家指控“AI 换皮”，但原帖无法访问、截图不足以证明；Steam 未披露，也未检索到开发者声明，不作判定。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "reviewedAt": "2026-10-23"
 }

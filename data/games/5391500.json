@@ -1,7 +1,7 @@
 {
   "appId": "5391500",
   "name": "Ardhan",
-  "summary": "Steam 开发者披露：卡牌、角色、背景、过场及商店宣传美术，部分配乐、音效与多语言旁白借助 AI 工具生成，后经开发者选择与编辑。开发者称游玩期间没有实时 AI 生成。",
+  "summary": "Steam 开发者披露：独立开发者在生成式 AI 工具协助下制作本作。卡牌、英雄、背景和过场美术由 Higgsfield 平台上的图像模型生成，商店主视觉、短动画片段、九种语言的旁白、部分音乐和许多音效由 AI 模型（含 ElevenLabs）生成，再由开发者挑选、裁剪和编辑；游戏运行时不生成内容、没有 AI 聊天、不向 AI 服务发送数据。",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
   "steamUrl": "https://store.steampowered.com/app/5391500/",
@@ -10,12 +10,12 @@
   ],
   "aiUsageCategories": [
     "art",
-    "marketing",
     "music",
-    "voice"
+    "voice",
+    "marketing"
   ],
   "aiAreas": {
-    "ingame": "not_stated",
+    "ingame": "claimed_none",
     "code": "not_stated",
     "art": "used",
     "music": "used",
@@ -25,27 +25,40 @@
     "marketing": "used"
   },
   "aiAreaNotes": {
-    "art": "开发者披露卡牌、英雄、背景、动画过场等美术使用 AI 生成后人工筛选和编辑。",
-    "marketing": "开发者披露商店关键视觉素材和短片使用 AI 工具辅助制作。",
-    "music": "开发者披露部分音乐及多种音效使用 AI 工具制作；不代表所有音频都使用 AI。",
-    "voice": "开发者披露多语言旁白使用 ElevenLabs 等音频工具；属于制作阶段的音频生成。",
-    "ingame": "开发者称游戏运行中没有 AI 对话或调用生成式 AI 服务。"
+    "art": "卡牌、英雄、背景和过场美术由 Higgsfield 平台上的图像模型生成，再经开发者挑选、裁剪和编辑。",
+    "music": "部分音乐和许多音效由 ElevenLabs 的音乐与音效模型生成；不代表全部音频均由 AI 制作。",
+    "voice": "九种语言的旁白由 ElevenLabs 语音模型生成，属于预先制作的音频。",
+    "marketing": "商店主视觉和短动画片段由 AI 模型生成。",
+    "ingame": "开发者称运行时不生成内容、没有 AI 聊天功能，也不向任何 AI 服务发送数据；未独立核实。"
   },
   "aiAreaSources": {
     "art": "official",
-    "marketing": "official",
     "music": "official",
-    "voice": "official"
+    "voice": "official",
+    "marketing": "official",
+    "ingame": "official"
   },
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者生成式 AI 披露（开发者自述）",
       "url": "https://store.steampowered.com/app/5391500/",
-      "date": "2026-10-21",
-      "excerpt": "Steam 开发者披露：卡牌、角色、背景、过场及商店宣传美术，部分配乐、音效与多语言旁白借助 AI 工具生成，后经开发者选择与编辑。开发者称游玩期间没有实时 AI 生成。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露美术由 Higgsfield 上的图像模型生成，旁白、部分音乐与音效由 ElevenLabs 模型生成，商店主视觉和短片也由 AI 生成；称运行时不用 AI。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5391500/discussions/",
+      "label": "Steam 社区讨论区检索（暂无讨论主题）",
+      "date": "2026-10-23",
+      "excerpt": "核查时讨论区显示 0 个主题，没有可检查的玩家讨论。"
     }
   ],
-  "reviewNote": "本站整理 Steam 开发者披露，并非独立技术审计。生成式 AI 资产与游戏运行时 AI 服务须分开判断。",
-  "reviewedAt": "2026-10-21"
+  "reviewNote": "结论来源于 Steam 开发者自述，不是独立技术审计。AI 生成素材覆盖美术、语音、音频和宣传多个领域，但均为预生成内容，与运行时 AI 服务分开判断。",
+  "reviewedAt": "2026-10-23",
+  "developer": "Ștefan Mihai Șerb",
+  "publisher": "Ștefan Mihai Șerb",
+  "steamReleaseDate": "Oct 26, 2026",
+  "disclosureQuote": "Ardhan was made by a solo developer with some help of generative AI tools.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。"
 }

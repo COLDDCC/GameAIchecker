@@ -4,8 +4,8 @@
   "developer": "Max Loh",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
-  "reviewedAt": "2026-10-21",
-  "summary": "开发者在 Steam 披露：玩家输入的世界描述会影响游戏运行时的文字、图像、音效及机制生成；部分游戏内交互由大语言模型实时驱动。",
+  "reviewedAt": "2026-10-23",
+  "summary": "Steam 开发者披露：游戏根据玩家的世界描述，实时用 AI 生成文字、游戏机制、图像和音效，部分世界内互动也由大语言模型实时驱动。商店功能栏标注连接第三方 AI 服务 OpenAI。",
   "genres": [
     "Roguelike"
   ],
@@ -33,21 +33,30 @@
     "writing": "official"
   },
   "aiAreaNotes": {
-    "ingame": "游戏运行期间实时调用大语言模型以驱动部分交互及机制，这是开发者自述。",
-    "art": "Steam 开发者披露根据玩家描述即时生成图像内容。",
-    "music": "开发者披露游戏会即时生成音效；不等同于确认 AI 创作全部配乐。",
-    "writing": "开发者披露按照玩家世界描述实时生成游戏文字内容。"
+    "ingame": "核心玩法依赖 AI 实时生成机制，并由大语言模型驱动部分互动；商店标注第三方服务为 OpenAI。讨论区显示也支持本地模型。",
+    "art": "游戏内图像根据玩家描述实时生成。",
+    "music": "披露为实时生成“音效”，不等同于确认 AI 作曲。",
+    "writing": "游戏内文字根据玩家世界描述实时生成。"
   },
-  "disclosureQuote": "This game uses AI to generate text, game mechanics, images, and sound effects on the fly based on the player's world description. Some in-world interactions are also powered by an LLM in real time.",
-  "disclosureQuoteNote": "Steam 开发者公开披露的原文摘录（具体描述可随商店页面更新）。",
+  "disclosureQuote": "Some in-world interactions are also powered by an LLM in real time.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。",
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者生成式 AI 使用披露",
       "url": "https://store.steampowered.com/app/2800150/",
-      "date": "2026-10-21",
-      "excerpt": "开发者在 Steam 披露：玩家输入的世界描述会影响游戏运行时的文字、图像、音效及机制生成；部分游戏内交互由大语言模型实时驱动。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露游戏按玩家世界描述实时生成文字、机制、图像和音效，部分互动由大语言模型驱动；功能栏标注第三方服务 OpenAI。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2800150/discussions/",
+      "label": "Steam 社区讨论区检索（未发现对披露的争议）",
+      "date": "2026-10-23",
+      "excerpt": "浏览讨论区首页 15 个主题标题（共 28 个），有本地图像生成、本地 AI 等设置讨论，未见对 AI 披露本身的争议；仅检查了标题。"
     }
   ],
-  "reviewNote": "开发者披露实时生成范围，但本站没有独立验证各玩法系统的实现；不将 AI 使用范围外推为全部资源。"
+  "reviewNote": "结论来源于 Steam 开发者自述。本作以生成式 AI 为核心玩法，属于运行时实时生成；本站未对生成结果做技术审计。",
+  "publisher": "Max Loh",
+  "steamReleaseDate": "2024-03-06"
 }

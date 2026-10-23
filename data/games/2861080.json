@@ -3,9 +3,9 @@
   "name": "Haunted Paws",
   "developer": "LazyFlock",
   "publisher": "LazyFlock",
-  "category": "unreviewed",
-  "verification": "identity_verified_ai_unreviewed",
-  "summary": "以两只小狗拯救主人的合作冒险游戏。Steam 开发商身份已核实，生成式 AI 使用情况仍待核查，不可据此宣称完全人工制作。",
+  "category": "developer_no_genai_statement",
+  "verification": "developer_statement",
+  "summary": "开发者在 Steam 讨论区回答玩家“是否使用 AI”时表示，游戏内所有素材（包括画面、音频、剧情等）都由团队制作。此为开发者自述，尚未经独立审计。",
   "steamUrl": "https://store.steampowered.com/app/2861080/",
   "genres": [
     "Adventure",
@@ -13,20 +13,29 @@
   ],
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "claimed_none",
+    "marketing": "not_stated"
   },
   "sources": [
     {
+      "type": "developer_statement",
+      "url": "https://steamcommunity.com/app/2861080/discussions/0/586182635679834620/",
+      "label": "开发者：AI 使用问答",
+      "date": "2026-08-11",
+      "excerpt": "玩家提问“是否使用 AI”，带开发者标识的账号回复称游戏内所有素材由团队制作，该回复被提问者标为答案。"
+    },
+    {
       "type": "steam_store",
       "url": "https://store.steampowered.com/app/2861080/",
-      "label": "Steam 官方游戏身份页面"
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "Steam 商店页（LazyFlock，发行日期待定）没有 AI 生成内容披露，与开发者说法一致；但未披露本身不是独立证明。"
     },
     {
       "type": "steam_store",
@@ -34,5 +43,27 @@
       "label": "Haunted Paws Demo Steam 页面"
     }
   ],
-  "reviewNote": "试玩版 App ID 为 4992280；页面判断仅针对可核对的公开资料。"
+  "reviewNote": "各领域“开发者称未使用”均来源于同一条讨论区回复，不代表本站逐项检查了每项资产。回复针对游戏内素材，宣传素材未覆盖。讨论区另有玩家提醒 PS 商店出现仿冒作品，与本作 AI 使用无关。试玩版 App ID 为 4992280。",
+  "aiAreaSources": {
+    "ingame": "developer_statement",
+    "code": "developer_statement",
+    "art": "developer_statement",
+    "music": "developer_statement",
+    "voice": "developer_statement",
+    "writing": "developer_statement",
+    "translation": "developer_statement"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者称游戏内所有素材由团队制作；该说法未经独立审计。",
+    "code": "开发者称游戏内所有素材由团队制作；该说法未经独立审计。",
+    "art": "开发者明确称画面（graphics）由团队制作；未独立审计。",
+    "music": "开发者明确称音频（audio）由团队制作；未独立审计。",
+    "voice": "开发者称游戏内所有素材由团队制作；该说法未经独立审计。",
+    "writing": "开发者明确称剧情（story）由团队制作；未独立审计。",
+    "translation": "开发者称游戏内所有素材由团队制作；该说法未经独立审计。",
+    "marketing": "开发者的回答针对“游戏内素材”，未提及宣传素材；该领域不作判断。"
+  },
+  "disclosureQuote": "No, all in-game assets, including the graphics, audio, story, and everything else, are made by our team.",
+  "disclosureQuoteNote": "Steam 讨论区开发者（带 [developer] 标识的账号 mantas.banevicius）回复原文，8 月 11 日（页面未显示年份，按 Steam 惯例应为 2026 年）。开发者自述，不是独立审计结论。",
+  "reviewedAt": "2026-10-23"
 }
