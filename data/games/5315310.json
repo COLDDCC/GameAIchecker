@@ -1,36 +1,66 @@
 {
   "appId": "5315310",
   "name": "Loftia",
-  "category": "unreviewed",
-  "verification": "pending_source_review",
-  "summary": "第三方新品节名单将 Loftia 的 Demo 与此 Steam App ID 关联。尚无经本站核查的生成式 AI 使用披露；本页不将缺少披露解释为无 AI。",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未发现生成式 AI 使用证据：试玩版（本页 App 5315310）与正式版（App 2320980）商店页均无 AI 生成内容披露，讨论区和媒体报道中也没有相关声明或质疑。",
   "steamUrl": "https://store.steampowered.com/app/5315310/Loftia_Demo/",
   "genres": [],
   "aiUsageCategories": [],
   "aiAreas": {
-    "ingame": "unreviewed",
-    "code": "unreviewed",
-    "art": "unreviewed",
-    "music": "unreviewed",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
-    "translation": "unreviewed",
-    "marketing": "unreviewed"
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
-  "aiAreaNotes": {},
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
   "aiAreaSources": {},
   "sources": [
     {
       "type": "steam_store",
-      "label": "Steam 游戏身份页面",
-      "url": "https://store.steampowered.com/app/5315310/Loftia_Demo/",
-      "excerpt": "第三方新品节名单将 Loftia 的 Demo 与此 Steam App ID 关联。尚无经本站核查的生成式 AI 使用披露；本页不将缺少披露解释为无 AI。"
+      "url": "https://store.steampowered.com/app/5315310/",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "本页对应的是 Loftia 试玩版商店页（Qloud Games，2026-10-19 上线），没有 AI 生成内容披露，页面未提及 AI。"
+    },
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/2320980/",
+      "label": "Steam 正式版商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-23",
+      "excerpt": "正式版 Loftia（计划 2026-11-03 开始抢先体验）商店页同样没有 AI 生成内容披露，页面未提及 AI。"
     },
     {
       "type": "third_party",
-      "label": "第三方 Steam 新品节游戏列表",
-      "url": "https://playtestboard.com/steam-next-fest/"
+      "url": "https://simscommunity.info/2026/09/20/loftia-release-early-access-reveal/",
+      "label": "SimsCommunity：Loftia 抢先体验信息汇总",
+      "date": "2026-09-20",
+      "excerpt": "介绍抢先体验日期、价格和玩法功能，未提及生成式 AI 的使用或未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2320980/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "浏览正式版讨论区首页 15 个主题标题（共 34 个），多为内购、多人与平台支持问题，未见 AI 生成内容质疑；仅检查了标题。"
     }
   ],
-  "reviewNote": "此 Steam ID 对应 Demo 页面。区分 Demo 与正式游戏版本，不能跨版本推断 AI 使用。"
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。本页 App ID 5315310 是试玩版；正式版 2320980 同样未披露 AI，但试玩版结论不自动用于正式版。",
+  "developer": "Qloud Games",
+  "publisher": "Qloud Games",
+  "steamReleaseDate": "Oct 19, 2026",
+  "reviewedAt": "2026-10-23"
 }

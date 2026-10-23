@@ -1,7 +1,7 @@
 {
   "appId": "4982910",
   "name": "Interlude",
-  "summary": "Steam 开发者披露：部分视觉素材及宣传美术使用生成式 AI 辅助，并经后续编辑和合成。未来可能使用 AI 进行本地化的表述不代表已经实施。",
+  "summary": "Steam 开发者披露：部分视觉素材和宣传美术在生成式 AI 工具辅助下制作，再由开发者挑选、编辑和整合；开发者还表示计划用 AI 辅助翻译和本地化（尚未实施）。",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
   "steamUrl": "https://store.steampowered.com/app/4982910/",
@@ -13,20 +13,19 @@
     "marketing"
   ],
   "aiAreas": {
-    "art": "used",
-    "marketing": "used",
-    "translation": "not_stated",
     "ingame": "not_stated",
     "code": "not_stated",
+    "art": "used",
     "music": "not_stated",
     "voice": "not_stated",
-    "writing": "not_stated"
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
   },
   "aiAreaNotes": {
-    "art": "Steam 开发者披露部分游戏视觉素材使用生成式 AI 辅助，再进行人工编辑与合成。",
-    "marketing": "开发者披露部分宣传美术使用生成式 AI 辅助；并不表示所有营销素材均为 AI 生成。",
-    "translation": "开发者仅表示未来的本地化使用意向，不能计作已发生的 AI 使用。",
-    "ingame": "当前披露没有说明游戏运行时生成内容；不能据此推断使用了实时生成式 AI。"
+    "art": "开发者披露部分游戏视觉素材由生成式 AI 辅助制作，并经人工挑选、编辑和整合；具体范围未逐项核实。",
+    "marketing": "开发者披露部分宣传美术由生成式 AI 辅助制作。",
+    "translation": "开发者表示“计划”用 AI 辅助翻译和本地化；属于未来意向，暂不计为已使用。"
   },
   "aiAreaSources": {
     "art": "official",
@@ -35,12 +34,24 @@
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者 AI 使用披露（开发者自述）",
       "url": "https://store.steampowered.com/app/4982910/",
-      "date": "2026-10-21",
-      "excerpt": "Steam 开发者披露：部分视觉素材及宣传美术使用生成式 AI 辅助，并经后续编辑和合成。未来可能使用 AI 进行本地化的表述不代表已经实施。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露部分视觉素材与宣传美术由生成式 AI 辅助制作并经人工编辑整合，另称计划用 AI 辅助本地化。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4982910/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-23",
+      "excerpt": "讨论区仅 1 个主题（询问如何联系开发者），未见 AI 相关讨论或开发者回应。"
     }
   ],
-  "reviewNote": "仅将开发者披露的已发生使用归为已披露。拟议中的 AI 本地化未计为已使用，且本站未进行独立资产审计。",
-  "reviewedAt": "2026-10-21"
+  "reviewNote": "结论来源于 Steam 开发者自述，不是独立技术审计。计划中的 AI 本地化未计为已使用，发售后需复查。",
+  "reviewedAt": "2026-10-23",
+  "developer": "Interlude",
+  "publisher": "Interlude",
+  "steamReleaseDate": "Q4 2026",
+  "disclosureQuote": "Some visual assets and promotional artwork were created with the assistance of generative AI tools",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏首句节选，2026-10-23 复核；可能随商店页更新。"
 }

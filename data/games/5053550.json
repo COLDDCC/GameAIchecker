@@ -6,7 +6,7 @@
   "releaseDate": "2026-11-30",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
-  "summary": "Steam 开发者披露，部分美术使用 ChatGPT 和腾讯混元辅助、音乐和音效使用 Suno、非中文本地化及编程由 ChatGPT 辅助。没有证据证明游戏全部资产由 AI 生成，或游戏运行时实时生成内容。",
+  "summary": "Steam 开发者披露：美术素材借助 ChatGPT 与腾讯混元等 AI 工具制作，音乐和音效由 Suno 生成，非中文本地化文本借助 ChatGPT 翻译，开发中使用了 ChatGPT 等 AI 编程工具。试玩版披露内容相同。",
   "steamUrl": "https://store.steampowered.com/app/5053550/",
   "genres": [
     "Card Collecting",
@@ -19,20 +19,20 @@
     "code"
   ],
   "aiAreas": {
-    "ingame": "unreviewed",
+    "ingame": "not_stated",
     "code": "used",
     "art": "used",
     "music": "used",
-    "voice": "unreviewed",
-    "writing": "unreviewed",
+    "voice": "not_stated",
+    "writing": "not_stated",
     "translation": "used",
-    "marketing": "unreviewed"
+    "marketing": "not_stated"
   },
   "aiAreaNotes": {
-    "art": "开发者披露 ChatGPT 与腾讯混元参与部分美术素材制作。",
-    "music": "开发者披露使用 Suno 制作音乐与音效，不代表全部音频均由 AI 生成。",
-    "translation": "开发者披露非中文本地化使用 ChatGPT 协助。",
-    "code": "开发者披露编程使用 ChatGPT 辅助；不代表全部代码由 AI 编写。"
+    "art": "开发者披露美术素材借助 ChatGPT 与腾讯混元等 AI 工具制作；披露未说明比例，不作“全部由 AI 生成”的推断。",
+    "music": "开发者披露音乐和音效使用 Suno 生成。",
+    "translation": "开发者披露中文以外的本地化文本借助 ChatGPT 翻译。",
+    "code": "开发者披露开发中使用 ChatGPT 等 AI 编程辅助工具。"
   },
   "aiAreaSources": {
     "art": "official",
@@ -43,18 +43,29 @@
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者 AI 使用披露",
       "url": "https://store.steampowered.com/app/5053550/",
-      "date": "2026-10-21",
-      "excerpt": "Steam 开发者披露，部分美术使用 ChatGPT 和腾讯混元辅助、音乐和音效使用 Suno、非中文本地化及编程由 ChatGPT 辅助。没有证据证明游戏全部资产由 AI 生成，或游戏运行时实时生成内容。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露美术借助 ChatGPT、腾讯混元制作，音乐音效由 Suno 生成，非中文本地化借助 ChatGPT，编程使用 AI 辅助工具。"
     },
     {
       "type": "official_disclosure",
-      "label": "Steam Demo 开发者 AI 使用披露",
       "url": "https://store.steampowered.com/app/5134780/",
-      "date": "2026-10-21"
+      "label": "Steam 试玩版开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "试玩版（2026-09-15 上线）披露内容与正式版一致，列出 ChatGPT、腾讯混元和 Suno。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5053550/discussions/",
+      "label": "Steam 社区讨论区检索（暂无讨论主题）",
+      "date": "2026-10-23",
+      "excerpt": "核查时讨论区显示 0 个主题，没有可检查的玩家讨论。"
     }
   ],
-  "reviewNote": "数据基于 Steam 开发者自述整理，属于来源归属的公开声明，不是独立技术审计。",
-  "reviewedAt": "2026-10-21"
+  "reviewNote": "结论来源于 Steam 开发者自述，不是独立技术审计。披露点名了具体 AI 工具，但未说明每类素材中 AI 的占比。",
+  "reviewedAt": "2026-10-23",
+  "steamReleaseDate": "2026-11-30",
+  "disclosureQuote": "The game's art assets were created with the assistance of AI tools, including ChatGPT and Tencent Hunyuan.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏首句，2026-10-23 复核；可能随商店页更新。"
 }

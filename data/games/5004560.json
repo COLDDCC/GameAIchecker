@@ -1,7 +1,7 @@
 {
   "appId": "5004560",
   "name": "ODDSTABLE Demo",
-  "summary": "Steam 开发者披露：游戏的部分马匹美术、背景、图标、界面、品牌及宣传素材，以及部分文字与本地化内容借助生成式 AI 制作。披露称游戏运行中不实时生成 AI 内容。",
+  "summary": "Steam 试玩版开发者披露：部分预生成美术、图标、界面元素、标志、商店美术和游戏内文字草稿借助生成式 AI 制作，均经开发者审核编辑后作为固定素材收录；游戏运行时不生成 AI 内容，也不连接外部 AI 服务。",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
   "steamUrl": "https://store.steampowered.com/app/5004560/",
@@ -10,42 +10,60 @@
   ],
   "aiUsageCategories": [
     "art",
-    "marketing",
     "writing",
-    "translation"
+    "marketing"
   ],
   "aiAreas": {
-    "ingame": "not_stated",
+    "ingame": "claimed_none",
     "code": "not_stated",
     "art": "used",
     "music": "not_stated",
     "voice": "not_stated",
     "writing": "used",
-    "translation": "used",
+    "translation": "not_stated",
     "marketing": "used"
   },
   "aiAreaNotes": {
-    "art": "开发者披露部分马匹美术、背景、图标和 UI 使用 AI 辅助；不能据此推定所有美术资源均由 AI 生成。",
-    "marketing": "开发者披露部分标志、品牌和宣传素材使用 AI 辅助。",
-    "writing": "开发者披露部分文字内容使用 AI 辅助，具体占比未核实。",
-    "translation": "开发者披露部分本地化文本使用 AI 辅助；不代表全部翻译都由 AI 完成。",
-    "ingame": "开发者披露没有运行时生成式 AI 内容；此处不将其标记为已使用。"
+    "ingame": "开发者称游玩中不生成 AI 内容，也不连接任何外部 AI 服务；未独立核实。",
+    "art": "开发者披露部分美术、图标和界面元素借助生成式 AI 制作，并经人工审核编辑；具体比例未核实。",
+    "writing": "开发者披露游戏内文字草稿借助生成式 AI 制作，并经人工编辑。",
+    "marketing": "开发者披露标志与商店美术借助生成式 AI 制作。",
+    "translation": "试玩版披露未提及本地化；正式版（App 5000320）披露另提到部分本地化草稿使用 AI，此处只记录试玩版页面。"
   },
   "aiAreaSources": {
     "art": "official",
-    "marketing": "official",
     "writing": "official",
-    "translation": "official"
+    "marketing": "official",
+    "ingame": "official"
   },
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者生成式 AI 披露（开发者自述）",
       "url": "https://store.steampowered.com/app/5004560/",
-      "date": "2026-10-21",
-      "excerpt": "Steam 开发者披露：游戏的部分马匹美术、背景、图标、界面、品牌及宣传素材，以及部分文字与本地化内容借助生成式 AI 制作。披露称游戏运行中不实时生成 AI 内容。"
+      "label": "Steam 试玩版开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "试玩版披露部分美术、图标、UI、标志、商店美术和文字草稿借助生成式 AI 制作并经人工编辑；运行时不生成内容、不连外部 AI 服务。"
+    },
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5000320/",
+      "label": "Steam 正式版开发者生成式 AI 使用披露（参考）",
+      "date": "2026-10-23",
+      "excerpt": "正式版 ODDSTABLE（计划 2026 年 10 月发售）披露范围与试玩版基本一致，另提到部分文字与本地化草稿使用 AI 辅助。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5000320/discussions/",
+      "label": "Steam 社区讨论区检索（暂无讨论主题）",
+      "date": "2026-10-23",
+      "excerpt": "核查时正式版讨论区显示 0 个主题，没有可检查的玩家讨论。"
     }
   ],
-  "reviewNote": "依据 Steam 开发者自述整理。确认的是披露范围而非独立素材审计；游戏内实时 AI 使用未被披露。",
-  "reviewedAt": "2026-10-21"
+  "reviewNote": "本页专门对应 Steam 试玩版 5004560，结论来源于开发者自述，不是独立技术审计。正式版披露额外提到本地化草稿，未并入本页。",
+  "reviewedAt": "2026-10-23",
+  "developer": "Kai Kai",
+  "publisher": "Kai Kai",
+  "steamReleaseDate": "2026-08-18",
+  "disclosureQuote": "No AI content is generated during gameplay, and the game does not connect to any external AI service.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。"
 }

@@ -2,7 +2,7 @@
   "appId": "5182120",
   "name": "Limen",
   "developer": "MHEIO",
-  "summary": "Steam 开发者披露：开发期间有部分固定的视觉素材借助生成式 AI 制作；披露指出游戏过程中不使用 AI 实时生成内容。",
+  "summary": "Steam 开发者披露：开发中用 AI 制作了部分视觉美术和图形素材，均为预先生成的固定内容；游戏运行时不生成 AI 内容，也不连接或使用 AI 服务。",
   "category": "official_ai_disclosure",
   "verification": "steam_developer_self_disclosure",
   "steamUrl": "https://store.steampowered.com/app/5182120/",
@@ -14,31 +14,43 @@
     "art"
   ],
   "aiAreas": {
-    "art": "used",
-    "ingame": "not_stated",
-    "marketing": "not_stated",
-    "translation": "not_stated",
+    "ingame": "claimed_none",
     "code": "not_stated",
+    "art": "used",
     "music": "not_stated",
     "voice": "not_stated",
-    "writing": "not_stated"
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
   },
   "aiAreaNotes": {
-    "art": "开发者披露部分静态视觉素材使用生成式 AI 制作；具体资产范围与比例未经本站逐项审计。",
-    "ingame": "开发者披露游戏中没有实时 AI 内容生成；这是开发者声明而非独立技术审计。"
+    "art": "开发者披露部分视觉美术和图形素材由 AI 制作，为预生成固定内容；具体资产范围未逐项核实。",
+    "ingame": "开发者称游玩中不生成 AI 内容，运行时不连接 AI 服务；未独立核实。"
   },
   "aiAreaSources": {
-    "art": "official"
+    "art": "official",
+    "ingame": "official"
   },
   "sources": [
     {
       "type": "official_disclosure",
-      "label": "Steam 开发者 AI 使用披露（开发者自述）",
       "url": "https://store.steampowered.com/app/5182120/",
-      "date": "2026-10-21",
-      "excerpt": "Steam 开发者披露：开发期间有部分固定的视觉素材借助生成式 AI 制作；披露指出游戏过程中不使用 AI 实时生成内容。"
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-23",
+      "excerpt": "开发者披露部分视觉美术和图形素材由 AI 预先制作并作为固定内容收录；称运行时不生成内容、不使用 AI 服务。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5182120/discussions/",
+      "label": "Steam 社区讨论区检索（暂无讨论主题）",
+      "date": "2026-10-23",
+      "excerpt": "核查时讨论区显示 0 个主题，没有可检查的玩家讨论；也未检索到相关报道。"
     }
   ],
-  "reviewNote": "依据 Steam 开发者披露整理。部分预先生成的静态视觉素材与玩家游玩时的实时生成应严格区分；未进行独立审计。",
-  "reviewedAt": "2026-10-21"
+  "reviewNote": "结论来源于 Steam 开发者自述，不是独立技术审计。预生成的静态素材与运行时实时生成严格区分。",
+  "reviewedAt": "2026-10-23",
+  "publisher": "MHEIO",
+  "steamReleaseDate": "2026-10-11",
+  "disclosureQuote": "AI was used during development to create some of the game's visual artwork and graphical assets.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文，2026-10-23 复核；可能随商店页更新。"
 }
