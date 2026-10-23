@@ -1,6 +1,7 @@
 ---
 import { getAllGames } from '../../lib/games.js';
 import { languages } from '../../lib/i18n.js';
+import { detailLabel } from '../../lib/detail-labels.js';
 
 export function getStaticPaths() {
   return getAllGames().flatMap((game) => [
@@ -10,6 +11,7 @@ export function getStaticPaths() {
 }
 
 const { game, lang = 'zh-cn', legacy = true } = Astro.props;
+const t = (key) => detailLabel(lang,key);
 const site = (Astro.site?.toString() || 'https://gameaichecker.com').replace(/\/$/, '');
 const canonical = legacy ? `${site}/games/${game.slug}/` : `${site}/games/${lang}/${game.slug}/`;
 
@@ -458,9 +460,9 @@ const breadcrumbLd = {
     <div class="wrap top-inner">
       <a class="brand" href="/"><img src="/logo.svg" alt="" width="38" height="32" />Game <span>AI</span> Checker</a>
       <nav class="top-nav" aria-label="主导航">
-        <a href="/">搜索</a>
-        <a href="/games/">游戏库</a>
-        <a href="/browse/">浏览</a>
+        <a href="/">{t("搜索")}</a>
+        <a href="/games/">{t("游戏库")}</a>
+        <a href="/browse/">{t("浏览")}</a>
         <a href="/indie-ai/">Indie AI</a>
       </nav>
       <label class="game-lang-select" style="margin-left:12px">
@@ -474,7 +476,7 @@ const breadcrumbLd = {
 
   <main class="wrap" id="app" data-game-key={game.key} data-slug={game.slug} data-name={game.name} data-appid={game.appId || ''}>
     <nav class="crumbs" aria-label="面包屑">
-      <a href="/">首页</a><span>/</span><a href="/games/">游戏库</a><span>/</span><span aria-current="page">{game.name}</span>
+      <a href="/">{t("首页")}</a><span>/</span><a href="/games/">{t("游戏库")}</a><span>/</span><span aria-current="page">{game.name}</span>
     </nav>
 
     <section class="game-top">
@@ -515,13 +517,13 @@ const breadcrumbLd = {
 
         <div class="media-foot">
           <span id="mediaCountText">{game.images.length ? `${game.images.length} 张官方图片` : '暂无官方图片'}</span>
-          {game.steamUrl && <a href={game.steamUrl} target="_blank" rel="noopener noreferrer">Steam 商店 ↗</a>}
+          {game.steamUrl && <a href={game.steamUrl} target="_blank" rel="noopener noreferrer">{t("Steam 商店 ↗")}</a>}
         </div>
         <p class="media-credit">图片来自 Steam 商店页面，版权归各自权利人所有；仅用于识别游戏与展示玩法画面。</p>
 
         {game.movies.length > 0 && (
           <div class="videos">
-            <div class="mini-title">宣传视频</div>
+            <div class="mini-title">{t("宣传视频")}</div>
             <div class="video-grid">
               {game.movies.slice(0, 4).map((movie) => (
                 <a class="video-card" href={game.steamUrl || '#'} target="_blank" rel="noopener noreferrer">
@@ -556,7 +558,7 @@ const breadcrumbLd = {
               </span>
             ))}
           </div>
-          <div class="ai-overview-foot"><span><i class="ai-key used"></i>有来源报告使用</span><span><i class="ai-key"></i>未标蓝不代表未使用</span><span class="ai-overview-arrow">查看证据 ↗</span></div>
+          <div class="ai-overview-foot"><span><i class="ai-key used"></i>有来源报告使用</span><span><i class="ai-key"></i>未标蓝不代表未使用</span><span class="ai-overview-arrow">{t("查看证据 ↗")}</span></div>
         </a>
 
         {usedCount > 0 ? (
@@ -570,56 +572,56 @@ const breadcrumbLd = {
 
         <div class="actions">
           {game.steamUrl ? (
-            <a class="btn primary" href={game.steamUrl} target="_blank" rel="noopener noreferrer">Steam 商店 ↗</a>
+            <a class="btn primary" href={game.steamUrl} target="_blank" rel="noopener noreferrer">{t("Steam 商店 ↗")}</a>
           ) : (
             <a class="btn primary" href={`https://store.steampowered.com/search/?term=${encodeURIComponent(game.name)}`} target="_blank" rel="noopener noreferrer">在 Steam 搜索 ↗</a>
           )}
-          <button class="btn" id="saveBtn" type="button" title="仅保存在本机浏览器">☆ 收藏</button>
-          <button class="btn" id="shareBtn" type="button">分享</button>
+          <button class="btn" id="saveBtn" type="button" title="仅保存在本机浏览器">{t("☆ 收藏")}</button>
+          <button class="btn" id="shareBtn" type="button">{t("分享")}</button>
         </div>
 
         <dl class="facts">
-          <div><dt>Steam App ID</dt><dd>{game.appId ? <><code>{game.appId}</code><button class="copy" id="copyId" type="button">复制</button></> : '待核实'}</dd></div>
-          <div><dt>开发商</dt><dd>{game.developer || '待核实'}</dd></div>
-          <div><dt>发行商</dt><dd>{game.publisher || '待核实'}</dd></div>
-          <div><dt>发行日期</dt><dd>{formatDate(game.releaseDate)}</dd></div>
-          <div><dt>价格</dt><dd>{game.price || '待核实'}</dd></div>
-          <div><dt>平台</dt><dd>{game.platforms?.join(' / ') || '待核实'}</dd></div>
-          <div><dt>类型</dt><dd>{game.genres.join(' / ') || '待核实'}</dd></div>
-          {game.tags.length > 0 && <div><dt>标签</dt><dd>{game.tags.join('、')}</dd></div>}
-          {game.features.length > 0 && <div><dt>游玩功能</dt><dd>{game.features.join('、')}</dd></div>}
+          <div><dt>Steam App ID</dt><dd>{game.appId ? <><code>{game.appId}</code><button class="copy" id="copyId" type="button">{t("复制")}</button></> : '待核实'}</dd></div>
+          <div><dt>{t("开发商")}</dt><dd>{game.developer || '待核实'}</dd></div>
+          <div><dt>{t("发行商")}</dt><dd>{game.publisher || '待核实'}</dd></div>
+          <div><dt>{t("发行日期")}</dt><dd>{formatDate(game.releaseDate)}</dd></div>
+          <div><dt>{t("价格")}</dt><dd>{game.price || '待核实'}</dd></div>
+          <div><dt>{t("平台")}</dt><dd>{game.platforms?.join(' / ') || '待核实'}</dd></div>
+          <div><dt>{t("类型")}</dt><dd>{game.genres.join(' / ') || '待核实'}</dd></div>
+          {game.tags.length > 0 && <div><dt>{t("标签")}</dt><dd>{game.tags.join('、')}</dd></div>}
+          {game.features.length > 0 && <div><dt>{t("游玩功能")}</dt><dd>{game.features.join('、')}</dd></div>}
           {game.metacritic && <div><dt>Metacritic</dt><dd>{game.metacritic}</dd></div>}
-          {game.languages && <div><dt>支持语言</dt><dd class="clamp">{game.languages}</dd></div>}
-          {game.website && <div><dt>官网</dt><dd><a href={game.website} target="_blank" rel="noopener noreferrer">{host(game.website)} ↗</a></dd></div>}
+          {game.languages && <div><dt>{t("支持语言")}</dt><dd class="clamp">{game.languages}</dd></div>}
+          {game.website && <div><dt>{t("官网")}</dt><dd><a href={game.website} target="_blank" rel="noopener noreferrer">{host(game.website)} ↗</a></dd></div>}
           {game.links.length > 0 && (
-            <div><dt>外部链接</dt><dd class="link-list">{game.links.map((link) => <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>)}</dd></div>
+            <div><dt>{t("外部链接")}</dt><dd class="link-list">{game.links.map((link) => <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>)}</dd></div>
           )}
         </dl>
       </aside>
     </section>
 
     <nav class="section-nav" aria-label="页内导航">
-      <a href="#ai">AI 使用</a>
-      <a href="#evidence">证据链</a>
-      <a href="#steam">Steam 数据</a>
-      <a href="#developer">开发商</a>
-      <a href="#sources">来源与纠错</a>
+      <a href="#ai">{t("AI 使用")}</a>
+      <a href="#evidence">{t("证据链")}</a>
+      <a href="#steam">{t("Steam 数据")}</a>
+      <a href="#developer">{t("开发商")}</a>
+      <a href="#sources">{t("来源与纠错")}</a>
     </nav>
 
     <section class="section" id="ai">
       <div class="section-head">
-        <div><div class="eyebrow">AI USE</div><h2>AI 使用情况</h2></div>
+        <div><div class="eyebrow">AI USE</div><h2>{t("AI 使用情况")}</h2></div>
         <div class="section-meta">{usedCount} / {game.areas.length} 个领域有 AI 使用记录{claimedCount > 0 ? ` · 开发者声明覆盖 ${claimedCount}/${game.areas.length}` : ""}</div>
       </div>
       <div class:list={['status-note', `tone-${game.statusTone}`]}>
         <strong>{game.statusLabel}</strong><span>{statusExplanation}</span>
       </div>
       {!isBroadHumanClaim && <p class="section-lede">{game.summary}</p>}
-      {isBroadHumanClaim && <p class="section-lede">一份开发者整体声明覆盖全部 {claimedCount} 个领域；这不是逐项独立验证。<a href="#evidence">查看证据 ↗</a></p>}
+      {isBroadHumanClaim && <p class="section-lede">一份开发者整体声明覆盖全部 {claimedCount} 个领域；这不是逐项独立验证。<a href="#evidence">{t("查看证据 ↗")}</a></p>}
       <div class="table-wrap">
         <table class="ai-table">
           <thead>
-            <tr><th>领域</th><th>范围</th><th>状态</th><th>说明</th></tr>
+            <tr><th>{t("领域")}</th><th>{t("范围")}</th><th>{t("状态")}</th><th>{t("说明")}</th></tr>
           </thead>
           <tbody>
             {game.areas.map((area) => (
@@ -636,8 +638,8 @@ const breadcrumbLd = {
       <div class="legend">
         <span><i class="dot used"></i>有来源报告使用（官方 / 第三方）</span>
         <span><i class="dot not_stated"></i>未提及（不等于未使用）</span>
-        <span><i class="dot claimed_none"></i>开发者称未使用</span>
-        <span><i class="dot unreviewed"></i>未核查</span>
+        <span><i class="dot claimed_none"></i>{t("开发者称未使用")}</span>
+        <span><i class="dot unreviewed"></i>{t("未核查")}</span>
       </div>
       {game.disclosureQuote && !isBroadHumanClaim && (
         <blockquote class="quote">
@@ -646,7 +648,7 @@ const breadcrumbLd = {
         </blockquote>
       )}
       <details class="callout">
-        <summary><strong>如何解读这些状态</strong></summary>
+        <summary><strong>{t("如何解读这些状态")}</strong></summary>
         <p>有 AI 使用记录的领域：{usedCount}/{game.areas.length}。{claimedCount > 0 ? `开发者声明未使用的领域：${claimedCount}/${game.areas.length}。` : ""}声明不等于独立验证；未提及也不等于未使用 AI。</p>
       </details>
       {primarySource && (
@@ -659,7 +661,7 @@ const breadcrumbLd = {
 
     <section class="section" id="evidence">
       <div class="section-head">
-        <div><div class="eyebrow">EVIDENCE</div><h2>证据链</h2></div>
+        <div><div class="eyebrow">EVIDENCE</div><h2>{t("证据链")}</h2></div>
         <div class="section-meta">{game.evidence.length} 条来源</div>
       </div>
       {game.evidence.length ? (
@@ -672,45 +674,45 @@ const breadcrumbLd = {
               </div>
               <h3>{item.label}</h3>
               {item.excerpt && item.excerpt !== item.label && <p>{item.excerpt}</p>}
-              {item.url && <a href={item.url} target="_blank" rel="noopener noreferrer">查看原始来源 ↗</a>}
+              {item.url && <a href={item.url} target="_blank" rel="noopener noreferrer">{t("查看原始来源 ↗")}</a>}
             </article>
           ))}
         </div>
       ) : (
         <div class="empty">目前没有可核实的来源。<a href={correctionUrl} target="_blank" rel="noopener noreferrer">提交线索 ↗</a></div>
       )}
-      {game.reviewNote && <details class="callout"><summary><strong>审查备注（展开查看）</strong></summary><p>{game.reviewNote}</p></details>}
+      {game.reviewNote && <details class="callout"><summary><strong>{t("审查备注（展开查看）")}</strong></summary><p>{game.reviewNote}</p></details>}
     </section>
 
     <section class="section" id="steam">
       <div class="section-head">
-        <div><div class="eyebrow">STEAM DATA</div><h2>Steam 数据</h2></div>
-        <div class="section-meta">公开数据快照</div>
+        <div><div class="eyebrow">STEAM DATA</div><h2>{t("Steam 数据")}</h2></div>
+        <div class="section-meta">{t("公开数据快照")}</div>
       </div>
       <div class="stat-grid">
         <div class="stat">
-          <span>当前在线</span>
+          <span>{t("当前在线")}</span>
           <strong>{game.players?.current != null ? game.players.current.toLocaleString('zh-CN') : '—'}</strong>
           <small>Steam 公开 API</small>
         </div>
         <div class="stat">
-          <span>Steam 评价</span>
+          <span>{t("Steam 评价")}</span>
           <strong>{game.review?.scoreDesc || '—'}</strong>
           <small>{game.review?.total != null ? `${game.review.total.toLocaleString('zh-CN')} 条评价` : '暂无数据'}</small>
         </div>
         <div class="stat">
-          <span>好评率</span>
+          <span>{t("好评率")}</span>
           <strong>{game.review?.total ? `${Math.round((game.review.positive / game.review.total) * 100)}%` : '—'}</strong>
-          <small>全部语言</small>
+          <small>{t("全部语言")}</small>
         </div>
         <div class="stat">
-          <span>发行日期</span>
+          <span>{t("发行日期")}</span>
           <strong>{game.releaseYear || '—'}</strong>
           <small>{formatDate(game.releaseDate)}</small>
         </div>
       </div>
       {game.steamDescription && (
-        <div class="steam-desc"><h3>Steam 简介</h3><p>{game.steamDescription}</p></div>
+        <div class="steam-desc"><h3>{t("Steam 简介")}</h3><p>{game.steamDescription}</p></div>
       )}
       <p class="source-line">
         在线人数与评价来自 Steam 公开数据；数据为构建时快照，可能存在延迟。
@@ -719,7 +721,7 @@ const breadcrumbLd = {
     </section>
 
     <section class="section" id="developer">
-      <div class="section-head"><div><div class="eyebrow">DEVELOPER</div><h2>开发商</h2></div></div>
+      <div class="section-head"><div><div class="eyebrow">DEVELOPER</div><h2>{t("开发商")}</h2></div></div>
       <div class="dev-card">
         <div class="dev-avatar">{(game.developer || '?').slice(0, 2).toUpperCase()}</div>
         <div class="dev-body">
@@ -737,7 +739,7 @@ const breadcrumbLd = {
           <h3>同开发商的其他收录</h3>
           <div class="mini-grid">
             {game.otherGames.map((other) => (
-              <a class="mini-card" href={`/games/${other.slug}/`}>
+              <a class="mini-card" href={`/games/${lang}/${other.slug}/`}>
                 {other.header && <img src={other.header} alt="" loading="lazy" />}
                 <span><strong>{other.name}</strong><small>{other.statusLabel}</small></span>
               </a>
@@ -749,8 +751,8 @@ const breadcrumbLd = {
 
     <section class="section" id="community">
       <div class="section-head">
-        <div><div class="eyebrow">COMMUNITY</div><h2>玩家印象</h2></div>
-        <div class="section-meta">与官方披露分开统计</div>
+        <div><div class="eyebrow">COMMUNITY</div><h2>{t("玩家印象")}</h2></div>
+        <div class="section-meta">{t("与官方披露分开统计")}</div>
       </div>
       <p class="section-lede">玩家的视觉印象不等于 AI 使用事实。投票结果不会改变开发者披露结论。</p>
       <form id="voteForm" class="vote-form">
@@ -769,7 +771,7 @@ const breadcrumbLd = {
     </section>
 
     <section class="section" id="sources">
-      <div class="section-head"><div><div class="eyebrow">SOURCES</div><h2>来源与纠错</h2></div></div>
+      <div class="section-head"><div><div class="eyebrow">SOURCES</div><h2>{t("来源与纠错")}</h2></div></div>
       <ul class="source-list">
         {game.evidence.map((item) => (
           <li>
@@ -919,7 +921,7 @@ const breadcrumbLd = {
               if (!videos && mediaCol) {
                 videos = document.createElement('div');
                 videos.className = 'videos';
-                videos.innerHTML = '<div class="mini-title">宣传视频</div><div class="video-grid"></div>';
+                videos.innerHTML = '<div class="mini-title">{t("宣传视频")}</div><div class="video-grid"></div>';
                 mediaCol.append(videos);
               }
               const grid = videos?.querySelector('.video-grid');
