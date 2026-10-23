@@ -129,12 +129,12 @@ const breadcrumbLd = {
   <link rel="alternate" hreflang="x-default" href={`${site}/games/${game.slug}/`} />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Game AI Checker" />
-  <meta property="og:title" content={`${game.name} — AI 使用情况与证据`} />
+  <meta property="og:title" content={`${game.name} — ${t("AI 使用情况")} | Game AI Checker`} />
   <meta property="og:description" content={metaDescription} />
   <meta property="og:url" content={canonical} />
   <meta property="og:image" content={ogImage} />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={`${game.name} — AI 使用情况与证据`} />
+  <meta name="twitter:title" content={`${game.name} — ${t("AI 使用情况")} | Game AI Checker`} />
   <meta name="twitter:description" content={metaDescription} />
   <meta name="twitter:image" content={ogImage} />
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />
