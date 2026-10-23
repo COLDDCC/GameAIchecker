@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-23",
   "purpose": "Public, source-attributed claims of human-made game development; no private reviewer notes or account IDs.",
   "policy": "A developer statement is not an independent audit. Do not label a game verified AI-free without additional evidence.",
   "games": [
@@ -37,6 +37,25 @@
       "sourcePostUrl": null,
       "verificationLevel": "lead_only",
       "reviewConclusion": "The promotional screenshot shows Steam Next Fest participation, not a direct handmade-art claim. Steam user tag 'hand-drawn' is descriptive and not proof of no generative AI."
+    },
+    {
+      "name": "喵星档案",
+      "englishName": "Meow Star Archives",
+      "steamAppId": 4919570,
+      "demoAppId": 4928930,
+      "steamUrl": "https://store.steampowered.com/app/4919570/Meow_Star_Archives/",
+      "developer": "Mio_Games",
+      "claimType": "developer_no_genai_statement_demo",
+      "claimOriginal": "No generative AI was used",
+      "claimLanguage": "en",
+      "claimScope": "demo_only",
+      "evidenceType": "developer_owned_itch_page",
+      "evidenceStatus": "public_statement_verified",
+      "sourcePlatform": "itch.io",
+      "sourcePostUrl": "https://mio-games.itch.io/meow-star-archives-demo",
+      "verificationLevel": "developer_claim_only",
+      "reviewedAt": "2026-10-23",
+      "reviewConclusion": "开发者官方 Demo 页面明确声明未使用生成式 AI；收录范围为 Demo，不能扩展为正式版所有资产的保证。"
     }
   ]
 }

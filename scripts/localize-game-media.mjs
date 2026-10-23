@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 
 // Expand this list when the next batch of detail pages is reviewed.
-const ids = process.argv.length > 2 ? process.argv.slice(2) : ['1222140', '4019220', '2456740', '1889620', '2275940', '4189910'];
+const ids = process.argv.length > 2 ? process.argv.slice(2) : ['1222140', '4019220', '2456740', '1889620', '2275940', '4189910', '4919570'];
 const root = process.cwd();
 for (const id of ids) {
   const dir = join(root, 'public/images/steam/apps', id);

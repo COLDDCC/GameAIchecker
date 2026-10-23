@@ -1,0 +1,66 @@
+{
+  "appId": 4919570,
+  "name": "Meow Star Archives",
+  "developer": "Mio_Games",
+  "publisher": "Mio_Games",
+  "category": "developer_no_genai_statement",
+  "verification": "developer_demo_statement",
+  "summary": "开发者在官方 itch.io Demo 页声明未使用生成式 AI；该声明适用于 Demo，正式版的完整制作范围尚未逐项说明。",
+  "genres": [
+    "休闲",
+    "解谜",
+    "独立"
+  ],
+  "tags": [
+    "猫咪",
+    "拼图",
+    "温馨",
+    "手绘",
+    "单人"
+  ],
+  "steamUrl": "https://store.steampowered.com/app/4919570/Meow_Star_Archives/",
+  "aiAreas": {
+    "ingame": "unreviewed",
+    "code": "unreviewed",
+    "art": "unreviewed",
+    "music": "unreviewed",
+    "voice": "unreviewed",
+    "writing": "unreviewed",
+    "translation": "unreviewed",
+    "marketing": "unreviewed"
+  },
+  "aiAreaNotes": {
+    "ingame": "Demo 有整体性无生成式 AI 声明；正式版该领域尚待单独核查。",
+    "code": "Demo 有整体性无生成式 AI 声明；正式版该领域尚待单独核查。",
+    "art": "Demo 有整体性无生成式 AI 声明；正式版该领域尚待单独核查。",
+    "music": "Demo 有整体性无生成式 AI 声明；正式版该领域尚待单独核查。",
+    "voice": "Demo 有整体性无生成式 AI 声明；正式版该领域尚待单独核查。",
+    "writing": "Demo 有整体性无生成式 AI 声明；正式版该领域尚待单独核查。",
+    "translation": "Demo 有整体性无生成式 AI 声明；正式版该领域尚待单独核查。",
+    "marketing": "Demo 有整体性无生成式 AI 声明；正式版该领域尚待单独核查。"
+  },
+  "disclosureQuote": "No generative AI was used",
+  "disclosureQuoteNote": "Mio Games 官方 itch.io Demo 页的 Content 声明；范围为 Demo，未经独立审计。",
+  "sources": [
+    {
+      "url": "https://mio-games.itch.io/meow-star-archives-demo",
+      "label": "开发者官方 Demo 页：无生成式 AI 声明",
+      "type": "developer_statement",
+      "excerpt": "More information 的 Content 栏明确写明未使用生成式 AI，并列有 No AI 标签；声明对应 Demo。"
+    },
+    {
+      "url": "https://store.steampowered.com/app/4919570/Meow_Star_Archives/",
+      "label": "Steam 正式版商店：游戏身份、玩法与计划发行日期",
+      "type": "steam_store",
+      "excerpt": "Mio_Games 开发与发行的猫咪主题 2D 拼图游戏。商店资料用于识别正式版，不用其未出现 AI 披露来推断无 AI。"
+    },
+    {
+      "url": "https://store.steampowered.com/app/4928930/Meow_Star_Archives_Demo/",
+      "label": "Steam Demo：与正式版的关联",
+      "type": "steam_store",
+      "excerpt": "同名 Demo，开发者与发行商均为 Mio_Games。"
+    }
+  ],
+  "reviewNote": "首页 HUMAN-MADE GAMES 收录依据为开发者官方 Demo 页的明确声明。此声明不能直接扩展为正式版所有领域均已确认未使用 AI，故八领域表保留“未核查”。正式版计划发行日以 Steam 当前资料为准，Demo 发行日不作为正式版发行日。",
+  "reviewedAt": "2026-10-23"
+}
