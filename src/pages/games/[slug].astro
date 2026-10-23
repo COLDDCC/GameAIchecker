@@ -1,16 +1,17 @@
 ---
 import { getAllGames } from '../../lib/games.js';
+import { languages } from '../../lib/i18n.js';
 
 export function getStaticPaths() {
-  return getAllGames().map((game) => ({
-    params: { slug: game.slug },
-    props: { game },
-  }));
+  return getAllGames().flatMap((game) => [
+    { params: { slug: game.slug }, props: { game, lang: 'zh-cn', legacy: true } },
+    ...languages.map((lang) => ({ params: { slug: `${lang}/${game.slug}` }, props: { game, lang, legacy: false } })),
+  ]);
 }
 
-const { game } = Astro.props;
+const { game, lang = 'zh-cn', legacy = true } = Astro.props;
 const site = (Astro.site?.toString() || 'https://gameaichecker.com').replace(/\/$/, '');
-const canonical = `${site}/games/${game.slug}/`;
+const canonical = legacy ? `${site}/games/${game.slug}/` : `${site}/games/${lang}/${game.slug}/`;
 
 function formatDate(value) {
   if (!value) return '待核实';
@@ -113,7 +114,7 @@ const breadcrumbLd = {
 ---
 
 <!doctype html>
-<html lang="zh-CN">
+<html lang={lang}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -122,6 +123,9 @@ const breadcrumbLd = {
   <title>{game.name} AI 使用情况、证据与资料 | Game AI Checker</title>
   <meta name="description" content={metaDescription} />
   <link rel="canonical" href={canonical} />
+  {!legacy && <meta name="robots" content="noindex,follow" />}
+  {languages.map((code) => <link rel="alternate" hreflang={code} href={`${site}/games/${code}/${game.slug}/`} />)}
+  <link rel="alternate" hreflang="x-default" href={`${site}/games/${game.slug}/`} />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Game AI Checker" />
   <meta property="og:title" content={`${game.name} — AI 使用情况与证据`} />
@@ -459,6 +463,12 @@ const breadcrumbLd = {
         <a href="/browse/">浏览</a>
         <a href="/indie-ai/">Indie AI</a>
       </nav>
+      <label class="game-lang-select" style="margin-left:12px">
+        <span class="sr-only">Language</span>
+        <select id="game-language" aria-label="Language" style="padding:7px;border:1px solid #d8e1eb;border-radius:8px;background:white" >
+          {languages.map((code) => <option value={code} selected={code === lang}>{({en:'English','zh-cn':'简体中文',ja:'日本語','zh-tw':'繁體中文'})[code]}</option>)}
+        </select>
+      </label>
     </div>
   </header>
 
@@ -1091,6 +1101,12 @@ const breadcrumbLd = {
         document.querySelectorAll('section[id]').forEach((section) => observer.observe(section));
       }
     })();
+  </script>
+<script is:inline>
+    document.getElementById('game-language')?.addEventListener('change', (event) => {
+      const slug = document.getElementById('app')?.dataset.slug;
+      if (slug) window.location.assign('/games/' + event.target.value + '/' + encodeURIComponent(slug) + '/' + location.hash);
+    });
   </script>
 </body>
 </html>
