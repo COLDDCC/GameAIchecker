@@ -16,14 +16,14 @@ for (const id of ids) {
   if (!game.sources?.some(s => s.url === 'https://store.steampowered.com/app/' + id + '/')) error('Steam source missing');
   if (!game.aiUsageCategories?.length || !game.aiUsageCategories.every(k => areaKeys.has(k) && game.aiAreas?.[k] === 'used'))
     error('AI area states inconsistent');
-  const htmlPath = join(root, 'games', slug, 'index.html');
-  if (!existsSync(htmlPath)) error('Committed-style exported HTML missing');
+  const htmlPath = join(root, 'dist', 'games', slug, 'index.html');
+  if (!existsSync(htmlPath)) error('Astro build output HTML missing');
   else {
     const html = readFileSync(htmlPath, 'utf8');
     if (!html.includes(game.name)) error('Game title missing from exported HTML');
     if (!html.includes('/games/' + slug + '/')) error('Canonical game URL missing');
   }
-  const galleryPath = join(root, 'public/images/steam/apps', id, 'gallery.json');
+  const galleryPath = join(root, 'dist/images/steam/apps', id, 'gallery.json');
   if (!existsSync(galleryPath)) { error('Localized gallery missing'); continue; }
   const gallery = JSON.parse(readFileSync(galleryPath, 'utf8'));
   if (!gallery.images?.length) { error('Localized gallery has no images'); continue; }
@@ -33,7 +33,7 @@ for (const id of ids) {
       if (typeof path !== 'string' || !path.startsWith('/images/steam/apps/' + id + '/')) {
         error('Non-local or invalid ' + key + ' gallery URL'); continue;
       }
-      if (!existsSync(join(root, 'public', path.split('?')[0].slice(1)))) error('Missing image file: ' + path);
+      if (!existsSync(join(root, 'dist', path.split('?')[0].slice(1)))) error('Missing image file: ' + path);
     }
   }
 }
@@ -42,5 +42,5 @@ if (errors.length) {
   errors.forEach(e => console.error(' - ' + e));
   process.exitCode = 1;
 } else {
-  console.log('[audit-reviewed-games] PASS: 11 games have sources, static HTML and local images');
+  console.log('[audit-reviewed-games] PASS: 11 games have sources, Astro output and local images');
 }
