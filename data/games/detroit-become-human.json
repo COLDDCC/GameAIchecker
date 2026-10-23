@@ -2,21 +2,52 @@
   "appId": 1222140,
   "name": "Detroit: Become Human",
   "developer": "Quantic Dream",
+  "publisher": "Quantic Dream",
   "originalReleaseYear": 2018,
   "steamReleaseDate": "2020-06-18",
   "category": "no_verified_genai_evidence",
-  "aiLevel": null,
-  "verification": "not_verified",
-  "summary": "No substantiated generative-AI production claim established by this review. This is not a declaration of zero AI use.",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "本次核查未找到可验证的生成式 AI 制作声明。游戏以人工智能为剧情主题，但这不能证明开发流程使用了生成式 AI。",
+  "genres": [
+    "Action",
+    "Adventure"
+  ],
+  "steamUrl": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/",
+  "website": "https://www.quanticdream.com/en/detroit-become-human",
+  "aiAreas": {
+    "ingame": "unreviewed",
+    "code": "unreviewed",
+    "art": "unreviewed",
+    "music": "unreviewed",
+    "voice": "unreviewed",
+    "writing": "unreviewed",
+    "translation": "unreviewed",
+    "marketing": "unreviewed"
+  },
+  "aiAreaNotes": {
+    "ingame": "现有来源不足以确认游戏开发或运行中使用生成式 AI。",
+    "code": "现有来源不足以确认开发代码是否使用生成式 AI 辅助。",
+    "art": "剧情涉及仿生人不构成美术资产使用生成式 AI 的证据。",
+    "music": "现有来源不足以判断音乐或音效是否使用生成式 AI。",
+    "voice": "表演捕捉与真人配音不等于生成式 AI 配音；本项仍待核查。",
+    "writing": "剧情以 AI 为主题，不代表剧本由生成式 AI 撰写。",
+    "translation": "现有来源不足以判断本地化是否使用生成式 AI。",
+    "marketing": "现有来源不足以判断宣传素材是否使用生成式 AI。"
+  },
   "sources": [
     {
-      "url": "https://www.quanticdream.com/en/our-story",
-      "supports": "Original 2018 release and performance capture production"
+      "url": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/",
+      "label": "Steam 官方商店：游戏身份与商店资料",
+      "type": "steam_store",
+      "excerpt": "核对 Steam App ID、开发商与商店资料；本次未检索到足以支持生成式 AI 制作判断的具体声明。"
     },
     {
-      "url": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/",
-      "supports": "Steam App ID, developer and Steam release"
+      "url": "https://www.quanticdream.com/en/our-story",
+      "label": "Quantic Dream 官方：工作室历史与 Detroit 制作背景",
+      "type": "developer_statement",
+      "excerpt": "官方介绍作品的互动叙事与表演捕捉背景；该页面不构成生成式 AI 使用或未使用的证明。"
     }
   ],
-  "reviewNote": "The game is about androids and artificial intelligence; this is not evidence that generative AI was used in development. A pre-2022 release is not proof of no generative AI."
+  "reviewNote": "作品的故事、角色或世界观涉及人工智能，不是生成式 AI 参与开发的证据。当前页面记录的是“未发现可核实的生成式 AI 生产声明”，不是确认零 AI；八个领域均未完成足以作出领域结论的核查。",
+  "reviewedAt": "2026-10-23"
 }

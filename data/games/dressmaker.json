@@ -1,0 +1,66 @@
+{
+  "appId": 4019220,
+  "name": "Dressmaker",
+  "developer": "Cozy Lives",
+  "publisher": "Free Lives",
+  "originalReleaseYear": 2026,
+  "steamReleaseDate": "2026-09-21",
+  "category": "developer_no_genai_statement",
+  "verification": "developer_statement",
+  "summary": "开发者在 Steam 讨论区称游戏“100%由人工制作”，并表示反对生成式 AI。此为开发者自述，尚未经独立审计。",
+  "genres": [
+    "Casual",
+    "Simulation"
+  ],
+  "steamUrl": "https://store.steampowered.com/app/4019220/",
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "claimed_none",
+    "marketing": "claimed_none"
+  },
+  "aiAreaSources": {
+    "ingame": "developer_statement",
+    "code": "developer_statement",
+    "art": "developer_statement",
+    "music": "developer_statement",
+    "voice": "developer_statement",
+    "writing": "developer_statement",
+    "translation": "developer_statement",
+    "marketing": "developer_statement"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者称游戏 100% 由人工制作；该说法未经独立审计。",
+    "code": "开发者称游戏 100% 由人工制作；该说法未经独立审计。",
+    "art": "开发者否认生成式 AI 制作，并指向主视觉创作者与主开发者的说明；未独立审计。",
+    "music": "开发者称游戏 100% 由人工制作；该说法未经独立审计。",
+    "voice": "开发者称游戏 100% 由人工制作；该说法未经独立审计。",
+    "writing": "开发者称游戏 100% 由人工制作；该说法未经独立审计。",
+    "translation": "开发者称游戏 100% 由人工制作；该说法未经独立审计。",
+    "marketing": "玩家曾质疑商店横幅疑似 AI 生成；未提供独立证据，开发者否认并说明美术来源。"
+  },
+  "disclosureQuote": "“this game was 100% human made with a very strong anti generative AI stance.”",
+  "disclosureQuoteNote": "Steam 讨论区开发者回复原文，2026-09-29。开发者自述，不是独立审计结论。",
+  "sources": [
+    {
+      "url": "https://steamcommunity.com/app/4019220/discussions/0/588438959484607226/#c1",
+      "label": "开发者：AI 使用声明",
+      "type": "developer_statement",
+      "date": "2026-09-29",
+      "excerpt": "开发者称 Dressmaker 由人工制作，并表示其团队反对生成式 AI；这是开发者声明。"
+    },
+    {
+      "url": "https://steamcommunity.com/app/4019220/discussions/0/588438959484607226/",
+      "label": "玩家对商店横幅的 AI 质疑（未证实）",
+      "type": "community",
+      "date": "2026-09-29",
+      "excerpt": "玩家提出横幅可能由 AI 生成的疑问，但未提供独立验证；开发者随后否认并回应美术来源。"
+    }
+  ],
+  "reviewNote": "各领域的“开发者称未使用”均源于同一条整体性声明，不代表本站独立检查了每项资产。玩家对商店横幅的质疑单独保留为社区意见，不作为 AI 使用事实；开发者则指出主视觉艺术家及主开发者的说明。",
+  "reviewedAt": "2026-10-23"
+}
