@@ -4,12 +4,11 @@ import { languages } from '../../lib/i18n.js';
 import { detailLabel } from '../../lib/detail-labels.js';
 
 export function getStaticPaths() {
-  return getAllGames().flatMap((game) => [
-    { params: { slug: game.slug }, props: { game, lang: 'zh-cn', legacy: true } },
-    ...languages.map((lang) => ({ params: { slug: `${lang}/${game.slug}` }, props: { game, lang, legacy: false } })),
-  ]);
+  return getAllGames().map((game) => ({
+    params: { slug: game.slug },
+    props: { game, lang: 'zh-cn', legacy: true },
+  }));
 }
-
 const { game, lang = 'zh-cn', legacy = true } = Astro.props;
 const t = (key) => detailLabel(lang,key);
 const site = (Astro.site?.toString() || 'https://gameaichecker.com').replace(/\/$/, '');
