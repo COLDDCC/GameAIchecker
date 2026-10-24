@@ -1,0 +1,61 @@
+{
+  "appId": "4826820",
+  "name": "Desktop Factory",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "放在屏幕边缘或副屏运行的休闲工厂建造游戏，向下钻探并解锁新建筑形状。 Steam 商店页无 AI 生成内容披露栏；简介中开发者自称全部素材为人工制作（自述，未经独立审计）。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "商店页简介写有“All Assets are 100% Human Made by:”并列出制作者；属开发者自述，未经独立审计。",
+    "music": "同一句“All Assets are 100% Human Made”覆盖音频素材；属开发者自述，未经独立审计。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "aiAreaSources": {
+    "art": "developer_statement",
+    "music": "developer_statement"
+  },
+  "disclosureQuote": "All Assets are 100% Human Made by:",
+  "disclosureQuoteNote": "Steam 商店页简介中的开发者自述（后接制作者署名），2026-10-24 核查；不是 Steam 正式 AI 披露栏，未经独立审计。",
+  "steamUrl": "https://store.steampowered.com/app/4826820/",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Strategy"
+  ],
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/4826820/",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-24",
+      "excerpt": "Steam 商店页（GIGAJAM 开发、GIGAJAM 发行，即将推出（未定日期））没有 AI 生成内容披露栏。商店页简介中写有“All Assets are 100% Human Made by:”及制作者署名，属开发者自述，并非 Steam 正式 AI 披露栏。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4826820/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-24",
+      "excerpt": "讨论区共 4 个活跃主题，已检查全部标题，未见 AI 相关讨论；仅检查了标题。"
+    }
+  ],
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；商店页简介另有开发者自述“全部素材 100% 人工制作”，据此将“美术”“音乐与音效”标为“开发者称未使用”，其余六个领域标为“未提及”。 本页对应正式版 App ID 4826820；试玩版另有 App ID 5132530，不混用结论。 公开资料检索未发现生成式 AI 相关报道。",
+  "developer": "GIGAJAM",
+  "publisher": "GIGAJAM",
+  "steamReleaseDate": "即将推出（未定日期）",
+  "reviewedAt": "2026-10-24"
+}
