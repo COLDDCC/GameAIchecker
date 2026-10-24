@@ -1,0 +1,20 @@
+/* Shared airy visual language — home and game directories.
+   Progressive enhancement only: layouts, content, filtering and status logic unchanged. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--airy-ease:cubic-bezier(.2,.75,.2,1);--airy-shadow:0 13px 32px rgba(26,49,76,.075)}
+body{-webkit-font-smoothing:antialiased}
+h1,h2,h3{letter-spacing:-.038em;text-wrap:balance}
+button,input,select{font:inherit}
+.nav,.top{backdrop-filter:blur(18px) saturate(150%);-webkit-backdrop-filter:blur(18px) saturate(150%)}
+a,button{ -webkit-tap-highlight-color:transparent }
+.game,.card,.human-feature-card,.finder,.finder-box,.tab,.chip,.btn,.more,.nav-cta,.finder-go,.cover,.game-art{transition:transform .26s var(--airy-ease),box-shadow .26s ease,border-color .26s ease,background-color .26s ease}
+.game:hover,.card:hover,.human-feature-card:hover{transform:translateY(-4px);box-shadow:var(--airy-shadow)}
+.game-art,.cover{overflow:hidden}
+.game-art img,.cover img{transition:transform .55s var(--airy-ease)}
+.game:hover .game-art img,.card:hover .cover img{transform:scale(1.025)}
+.finder:focus-within,.finder-box:focus-within,.tools input:focus,.tools select:focus,.controls input:focus,.controls select:focus{box-shadow:0 0 0 4px rgba(41,136,232,.09)}
+.tab:hover,.chip:hover,.nav-cta:hover,.finder-go:hover,.more:hover{transform:translateY(-2px)}
+.tab:active,.nav-cta:active,.finder-go:active,.more:active{transform:translateY(0) scale(.985)}
+:where(a,button,input,select):focus-visible{outline:3px solid rgba(41,136,232,.62);outline-offset:3px}
+@media(max-width:760px){.game:hover,.card:hover,.human-feature-card:hover,.tab:hover,.chip:hover,.nav-cta:hover,.finder-go:hover,.more:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}.game:hover .game-art img,.card:hover .cover img{transform:none}}
