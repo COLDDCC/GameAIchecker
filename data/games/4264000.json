@@ -1,0 +1,69 @@
+{
+  "appId": "4264000",
+  "name": "Orion Blue",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "在美丽外星行星上钓鱼的休闲冒险游戏。Steam 商店页无 AI 生成内容披露；讨论区中开发商账号回答玩家时否认使用 AI 美术（自述，未经独立审计），其他领域未见相关声明。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "claimed_none",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "讨论区中账号 studio.exlix 回答玩家关于 AI 美术（尤其角色立绘）的提问：“No. Not AI.”。此为开发者方自述，页面未显示官方开发者标识，未经独立审计。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "aiAreaSources": {
+    "art": "developer_statement"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4264000/",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Indie",
+    "RPG",
+    "Simulation"
+  ],
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/4264000/",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-24",
+      "excerpt": "Steam 商店页（EXLIX 开发、EXLIX 发行，2026-11-29（计划））没有 AI 生成内容披露栏。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4264000/discussions/",
+      "label": "Steam 社区讨论区检索（含一条“AI?”问答）",
+      "date": "2026-10-24",
+      "excerpt": "讨论区共 14 个活跃主题，已检查全部标题；唯一涉及 AI 的主题“AI?”已打开核对，见单独列出的问答来源。"
+    },
+    {
+      "type": "developer_statement",
+      "url": "https://steamcommunity.com/app/4264000/discussions/0/833873007310185809/",
+      "label": "讨论区问答：“does this game feature AI art?”",
+      "date": "2026-05-27",
+      "excerpt": "玩家问游戏（尤其是角色立绘）是否使用 AI 美术；账号 studio.exlix 回复“No. Not AI.”，该回复被提问者标为答案。页面未显示官方开发者标识，账号名与开发商 EXLIX 一致。"
+    }
+  ],
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现生成式 AI 使用证据；讨论区有一条开发商账号否认 AI 美术的回复。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；“美术”标为“开发者称未使用”（仅依据该回复，范围限于美术），其余七个领域标为“未提及”。 本页对应正式版 App ID 4264000；试玩版另有 App ID 5372930，不混用结论。 公开资料检索未发现生成式 AI 相关报道。",
+  "developer": "EXLIX",
+  "publisher": "EXLIX",
+  "steamReleaseDate": "2026-11-29（计划）",
+  "reviewedAt": "2026-10-24",
+  "disclosureQuote": "No. Not AI.",
+  "disclosureQuoteNote": "Steam 讨论区“AI?”主题中账号 studio.exlix 的回复（5 月 27 日，被提问者标为答案），针对 AI 美术的提问；回复还称将在其 X 账号分享完整制作流程。"
+}
