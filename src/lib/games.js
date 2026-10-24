@@ -204,7 +204,9 @@ function mergeInto(base, add) {
   if (!base.event && add.event) base.event = add.event;
   if (!base.review && add.review) base.review = add.review;
   if (!base.players && add.players) base.players = add.players;
-  for (const value of add.usedCategories) base.usedCategories.add(value);
+  // A reviewed canonical record (data/games) is authoritative for AI areas; legacy
+  // lists must not add areas the review deliberately left unmarked.
+  if (base.priority < 100) for (const value of add.usedCategories) base.usedCategories.add(value);
   for (const key of Object.keys(add.aiAreas || {})) {
     if (!base.aiAreas[key]) base.aiAreas[key] = add.aiAreas[key];
   }
@@ -427,7 +429,9 @@ function finalize(record) {
   const status = deriveStatus(record);
   let usedCategories = new Set(record.usedCategories);
   // Never infer areas from prose when the disclosure itself names no asset type.
-  if (status === 'official_disclosure' && usedCategories.size === 0 && !record.aiScopeUnspecified) {
+  // Only fall back to keyword inference when the record has no explicit per-area states.
+  const hasExplicitAreas = Object.keys(record.aiAreas || {}).length > 0;
+  if (status === 'official_disclosure' && usedCategories.size === 0 && !record.aiScopeUnspecified && !hasExplicitAreas) {
     usedCategories = deriveAreasFromText(`${record.summary} ${record.reviewNote}`);
   }
   const steam = readSteamCache(record.appId);
