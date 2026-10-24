@@ -26,27 +26,35 @@
       ],
       "identitySource": "https://steamcommunity.com/app/4348910?l=schinese",
       "note": "Steam game identity verified; recommendation remains user-submitted and is not a human-made or AI-free certification."
-    },
+    }
+  ],
+  "removedSubmissions": [
     {
       "gameName": "虚妄回响",
       "category": "recommended",
       "sourceType": "user_submitted_recommendation",
       "verification": "game_identity_pending",
-      "steamAppId": null
+      "steamAppId": null,
+      "removedAt": "2026-10-25",
+      "removalReason": "Player-submitted title; no matching Steam store page could be found. Removed until the game identity is confirmed."
     },
     {
       "gameName": "血墨诡案",
       "category": "recommended",
       "sourceType": "user_submitted_recommendation",
       "verification": "game_identity_pending",
-      "steamAppId": null
+      "steamAppId": null,
+      "removedAt": "2026-10-25",
+      "removalReason": "Player-submitted title; no matching Steam store page could be found. Removed until the game identity is confirmed."
     },
     {
       "gameName": "警目如炬",
       "category": "recommended",
       "sourceType": "user_submitted_recommendation",
       "verification": "game_identity_pending",
-      "steamAppId": null
+      "steamAppId": null,
+      "removedAt": "2026-10-25",
+      "removalReason": "Player-submitted title; no matching Steam store page could be found. Removed until the game identity is confirmed."
     },
     {
       "gameName": "拾骨谜案",
@@ -55,7 +63,9 @@
       "opinion": "AI味太重太重了",
       "verification": "game_identity_pending_ai_use_unverified",
       "steamAppId": null,
-      "disclaimer": "A player's subjective impression of AI-like art is not evidence of actual generative AI use."
+      "disclaimer": "A player's subjective impression of AI-like art is not evidence of actual generative AI use.",
+      "removedAt": "2026-10-25",
+      "removalReason": "Player-submitted title; no matching Steam store page could be found. Removed until the game identity is confirmed."
     }
   ]
 }
