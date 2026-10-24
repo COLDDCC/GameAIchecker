@@ -26,7 +26,9 @@ for (const id of ids) {
   if (!existsSync(htmlPath)) error('Astro build output HTML missing');
   else {
     const html = readFileSync(htmlPath, 'utf8');
-    if (!html.includes(game.name)) error('Game title missing from exported HTML');
+    // Titles such as "Farm & Feast" are HTML-escaped in the rendered page.
+    const escaped = String(game.name).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    if (!html.includes(game.name) && !html.includes(escaped)) error('Game title missing from exported HTML');
     if (!html.includes('/games/' + slug + '/')) error('Canonical game URL missing');
   }
   const galleryPath = join(root, 'dist/images/steam/apps', id, 'gallery.json');
