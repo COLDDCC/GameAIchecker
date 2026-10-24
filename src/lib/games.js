@@ -249,6 +249,7 @@ function fromCanonical(data, sourceName) {
   record.aiAreas = data.aiAreas || {};
   record.aiAreaNotes = data.aiAreaNotes || {};
   record.aiAreaSources = data.aiAreaSources || {};
+  record.aiScopeUnspecified = data.aiScopeUnspecified === true;
   record.disclosureQuote = cleanText(data.disclosureQuote);
   record.disclosureQuoteNote = cleanText(data.disclosureQuoteNote);
   record.reviewNote = cleanText(data.reviewNote);
@@ -425,7 +426,8 @@ function toDate(value) {
 function finalize(record) {
   const status = deriveStatus(record);
   let usedCategories = new Set(record.usedCategories);
-  if (status === 'official_disclosure' && usedCategories.size === 0) {
+  // Never infer areas from prose when the disclosure itself names no asset type.
+  if (status === 'official_disclosure' && usedCategories.size === 0 && !record.aiScopeUnspecified) {
     usedCategories = deriveAreasFromText(`${record.summary} ${record.reviewNote}`);
   }
   const steam = readSteamCache(record.appId);

@@ -20,7 +20,9 @@ for (const id of ids) {
         url.pathname.split('/')[1] === 'app' && url.pathname.split('/')[2] === id;
     } catch { return false; }
   })) error('Steam source missing');
-  if (!Array.isArray(game.aiUsageCategories) || !game.aiUsageCategories.every(k => areaKeys.has(k) && game.aiAreas?.[k] === 'used') || (game.category === 'official_ai_disclosure' && game.aiUsageCategories.length === 0))
+  // aiScopeUnspecified: the official disclosure confirms AI use but names no asset type,
+  // so no area can be marked without guessing.
+  if (!Array.isArray(game.aiUsageCategories) || !game.aiUsageCategories.every(k => areaKeys.has(k) && game.aiAreas?.[k] === 'used') || (game.category === 'official_ai_disclosure' && game.aiUsageCategories.length === 0 && game.aiScopeUnspecified !== true))
     error('AI area states inconsistent');
   const htmlPath = join(root, 'dist', 'games', slug, 'index.html');
   if (!existsSync(htmlPath)) error('Astro build output HTML missing');
