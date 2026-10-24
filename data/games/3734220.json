@@ -1,0 +1,54 @@
+{
+  "appId": "3734220",
+  "name": "Guns of Eschaton",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "神秘末世美国南方背景的第一人称类魂射击游戏，支持单人与合作。 本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，讨论区与公开报道中也未见可核实的相关声明。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/3734220/",
+  "genres": [
+    "Action"
+  ],
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/3734220/",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-24",
+      "excerpt": "Steam 商店页（Eschatology Entertainment 开发、4Divinity 发行，2026-12-08（计划））没有 AI 生成内容披露栏。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3734220/discussions/",
+      "label": "Steam 社区讨论区（因成人内容提示遮挡，未能读取主题列表）",
+      "date": "2026-10-24",
+      "excerpt": "讨论区页面被 Steam 成人内容提示遮挡，本次未能读取主题标题；讨论区检查不完整。"
+    }
+  ],
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。 本页对应正式版 App ID 3734220；试玩版另有 App ID 5130460，不混用结论。 公开报道（Gematsu 等发布日期报道）未提及生成式 AI。",
+  "developer": "Eschatology Entertainment",
+  "publisher": "4Divinity",
+  "steamReleaseDate": "2026-12-08（计划）",
+  "reviewedAt": "2026-10-24"
+}
