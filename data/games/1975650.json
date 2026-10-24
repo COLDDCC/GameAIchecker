@@ -1,0 +1,75 @@
+{
+  "appId": "1975650",
+  "name": "The Idle Undead",
+  "category": "developer_no_genai_statement",
+  "verification": "developer_statement",
+  "summary": "丧尸末日背景的放置点击游戏，招募幸存者、升级基地。Steam 商店页无 AI 生成内容披露；开发者在官方 itch.io 页面申报“No generative AI was used”（自述，未经独立审计）。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "claimed_none",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "itch.io 页面内容申报写明“No generative AI was used”；属开发者自述，未经独立审计。",
+    "code": "itch.io 页面内容申报写明“No generative AI was used”；属开发者自述，未经独立审计。",
+    "art": "itch.io 页面内容申报写明“No generative AI was used”；属开发者自述，未经独立审计。",
+    "music": "itch.io 页面内容申报写明“No generative AI was used”；属开发者自述，未经独立审计。",
+    "voice": "itch.io 页面内容申报写明“No generative AI was used”；属开发者自述，未经独立审计。",
+    "writing": "itch.io 页面内容申报写明“No generative AI was used”；属开发者自述，未经独立审计。",
+    "translation": "itch.io 页面内容申报写明“No generative AI was used”；属开发者自述，未经独立审计。",
+    "marketing": "itch.io 声明针对游戏本身，未涉及 Steam 商店宣传素材；该领域不作判断。"
+  },
+  "aiAreaSources": {
+    "ingame": "developer_statement",
+    "code": "developer_statement",
+    "art": "developer_statement",
+    "music": "developer_statement",
+    "voice": "developer_statement",
+    "writing": "developer_statement",
+    "translation": "developer_statement",
+    "marketing": "developer_statement"
+  },
+  "disclosureQuote": "No generative AI was used",
+  "disclosureQuoteNote": "开发者官方 itch.io 页面（oliverjm.itch.io/the-idle-undead）信息栏中的内容申报，2026-10-24 核查；开发者自述，不是独立审计，也不是 Steam 披露。",
+  "steamUrl": "https://store.steampowered.com/app/1975650/",
+  "genres": [
+    "Action",
+    "Casual",
+    "Strategy",
+    "Free To Play"
+  ],
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/1975650/",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-24",
+      "excerpt": "Steam 商店页（OLIVERJM GAMES 开发、OLIVERJM GAMES 发行，即将推出（未定日期））没有 AI 生成内容披露栏。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/1975650/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-24",
+      "excerpt": "讨论区共 3 个活跃主题，已检查全部标题，未见 AI 相关讨论；仅检查了标题。"
+    },
+    {
+      "type": "developer_statement",
+      "url": "https://oliverjm.itch.io/the-idle-undead",
+      "label": "开发者 itch.io 页面：内容申报“No generative AI was used”",
+      "excerpt": "官方 itch.io 页面（作者 oliverjm games，使用 Unity 制作）信息栏申报未使用生成式 AI。",
+      "date": "2026-10-24"
+    }
+  ],
+  "reviewNote": "Steam 商店页无 AI 生成内容披露；开发者在其官方 itch.io 页面的内容申报中写明“No generative AI was used”。该声明为开发者自述、未经独立审计，且发布于 itch.io 而非 Steam。据此将七个制作领域标为“开发者称未使用”；“营销素材”未被声明覆盖，标为“未提及”。Steam 讨论区与公开资料检索未发现相反证据。",
+  "developer": "OLIVERJM GAMES",
+  "publisher": "OLIVERJM GAMES",
+  "steamReleaseDate": "即将推出（未定日期）",
+  "reviewedAt": "2026-10-24"
+}

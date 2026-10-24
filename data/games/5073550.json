@@ -1,0 +1,57 @@
+{
+  "appId": "5073550",
+  "name": "Bat Flapper",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "扮演蝙蝠在黑暗洞穴中飞行、以吃发光虫补充声呐的 3D 街机跑酷游戏。 Steam 开发者披露：部分贴图（textures）借助生成式 AI 工具制作，随后经开发者审阅与编辑；部分音频素材借助生成式 AI 工具制作，随后经开发者审阅与编辑；未区分音乐与音效。其他领域未被披露提及。",
+  "aiUsageCategories": [
+    "art",
+    "music"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露部分贴图（textures）借助生成式 AI 工具制作，随后经开发者审阅与编辑。",
+    "music": "开发者披露部分音频素材借助生成式 AI 工具制作，随后经开发者审阅与编辑；未区分音乐与音效。",
+    "ingame": "开发者在披露中称游戏运行过程中不会生成 AI 内容。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official"
+  },
+  "disclosureQuote": "Some textures and audio assets were created using generative AI tools and then reviewed and edited by the developer. The game does not generate AI content during gameplay.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏全文（两句），2026-10-24 两次核查一致；可能随商店页更新。",
+  "steamUrl": "https://store.steampowered.com/app/5073550/",
+  "genres": [
+    "Action"
+  ],
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5073550/",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-24",
+      "excerpt": "Steam 商店页 AI 生成内容披露栏，2026-10-24 核查。开发者披露部分贴图（textures）借助生成式 AI 工具制作，随后经开发者审阅与编辑；开发者披露部分音频素材借助生成式 AI 工具制作，随后经开发者审阅与编辑；未区分音乐与音效；开发者在披露中称游戏运行过程中不会生成 AI 内容。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5073550/discussions/",
+      "label": "Steam 社区讨论区检索（暂无主题）",
+      "date": "2026-10-24",
+      "excerpt": "讨论区显示 0 个活跃主题，没有可检查的玩家讨论。"
+    }
+  ],
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露未提及的领域标为“未提及”，不代表确认未使用。 本页对应正式版 App ID 5073550；试玩版另有 App ID 5423240，不混用结论。 公开资料检索未发现额外的开发者说明或报道；结论仅依据 Steam 披露原文。",
+  "developer": "Dark Cave Games",
+  "publisher": "Dark Cave Games",
+  "steamReleaseDate": "即将推出（未定日期）",
+  "reviewedAt": "2026-10-24"
+}
