@@ -1,0 +1,66 @@
+{
+  "appId": "4949400",
+  "name": "MY CAT SCATTERED GAMES: Tidy Videogame Supermarket",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "把猫咪弄乱的 5,798 款游戏和主机放回货架、再从抓娃娃机里救出猫的单人整理游戏。 Steam 开发者披露：部分游戏内贴图（textures）使用了生成式 AI；同一披露称全部 3D 模型与 UI 图标由人工制作；本地化与翻译使用了生成式 AI。其他领域未被披露提及。",
+  "aiUsageCategories": [
+    "art",
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "claimed_none",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露部分游戏内贴图（textures）使用了生成式 AI；同一披露称全部 3D 模型与 UI 图标由人工制作。",
+    "translation": "开发者披露本地化与翻译使用了生成式 AI。",
+    "music": "开发者在同一披露中称音乐由人工制作；属开发者自述。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "translation": "official"
+  },
+  "disclosureQuote": "All 3D models, music, and UI icons were created by humans. Generative AI was used for some in-game textures, localization, and translation.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文（首句），2026-10-24 核查；可能随商店页更新。",
+  "steamUrl": "https://store.steampowered.com/app/4949400/",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Simulation"
+  ],
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4949400/",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-24",
+      "excerpt": "Steam 商店页 AI 生成内容披露栏，2026-10-24 核查。开发者披露部分游戏内贴图（textures）使用了生成式 AI；同一披露称全部 3D 模型与 UI 图标由人工制作；开发者披露本地化与翻译使用了生成式 AI；开发者在同一披露中称音乐由人工制作；属开发者自述。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4949400/discussions/",
+      "label": "Steam 社区讨论区：玩家追问 AI 贴图范围（无开发者回复）",
+      "date": "2026-10-24",
+      "excerpt": "讨论区仅 1 个主题“About the AI”：玩家询问哪些贴图使用了 AI，并表示因此犹豫是否支持；唯一回复与 AI 无关，开发者未作答。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4949400/discussions/0/562542339336268979/",
+      "label": "玩家提问：哪些贴图使用了 AI？",
+      "excerpt": "玩家询问具体哪些贴图等素材由 AI 制作；截至核查时没有开发者回复。",
+      "date": "2026-10-24"
+    }
+  ],
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露未提及的领域标为“未提及”，不代表确认未使用。 公开报道（COGconnected 公告报道）未提供 AI 使用的额外细节。",
+  "developer": "ODIUS",
+  "publisher": "Loopr Partners",
+  "steamReleaseDate": "商店页标注 2026-10-09，核查时（2026-10-24）仍未上架",
+  "reviewedAt": "2026-10-24"
+}

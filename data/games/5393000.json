@@ -1,0 +1,48 @@
+{
+  "appId": "5393000",
+  "name": "Fish With Friends",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "支持 1–8 人在线联机的休闲钓鱼游戏，包含比赛、收集与物理趣味玩法。Steam 开发者披露：部分游戏内素材在 AI 工具辅助下制作；披露没有说明是哪一类素材，因此本站不把它归入任何具体领域。开发者称游戏设计、玩法与世界由开发者本人制作。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {},
+  "aiAreaSources": {},
+  "disclosureQuote": "Fish With Friends is an indie game, and its design, gameplay and world were made by its developer. To get the game into players hands, some in-game assets were created with the assistance of AI tools.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文（首句），2026-10-24 核查；可能随商店页更新。",
+  "aiScopeUnspecified": true,
+  "steamUrl": "https://store.steampowered.com/app/5393000/",
+  "genres": [
+    "Casual"
+  ],
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5393000/",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-24",
+      "excerpt": "Steam 商店页 AI 生成内容披露栏，2026-10-24 核查。披露未指明具体素材类别。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5393000/discussions/",
+      "label": "Steam 社区讨论区检索（暂无主题）",
+      "date": "2026-10-24",
+      "excerpt": "讨论区显示 0 个活跃主题，没有可检查的玩家讨论。"
+    }
+  ],
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露确认使用了 AI 工具，但只说“部分游戏内素材”，没有指明素材类别，本站不作推测，八个领域均标为“未提及”。本页对应正式版 App ID 5393000；试玩版另有 App ID 5414530，不混用结论。公开资料检索未发现额外的开发者说明或报道。",
+  "developer": "Lake Country Games",
+  "publisher": "Lake Country Games",
+  "steamReleaseDate": "2026 年第四季度（计划）",
+  "reviewedAt": "2026-10-24"
+}

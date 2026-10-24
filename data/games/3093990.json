@@ -1,0 +1,56 @@
+{
+  "appId": "3093990",
+  "name": "Fire Isle",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "1–4 人在线或对战电脑的休闲六边形策略派对游戏，所有人同时放火争夺 Wisps。 Steam 开发者披露：部分 UI 美术与装饰物品最初以 Adobe Firefly 和 Claude 生成的图像与 3D 模型为基础，再由开发者在 Photoshop 等软件中修改；开发者称自 2026 年 3 月起与画师合作，逐步把 AI 生成美术全部替换为手绘美术。其他领域未被披露提及。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露部分 UI 美术与装饰物品最初以 Adobe Firefly 和 Claude 生成的图像与 3D 模型为基础，再由开发者在 Photoshop 等软件中修改；开发者称自 2026 年 3 月起与画师合作，逐步把 AI 生成美术全部替换为手绘美术。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "disclosureQuote": "Some aspects of Fire Isle's UI art and cosmetics were initially created using Adobe Firefly and Claude generated images and 3D models as a base. I then personally edited all of this art in Photoshop and similar software to better match the game's art style. I have also been actively working with an amazing artist to gradually replace all of Fire Isle's AI-generated art with entirely hand-made art since March 2026.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文（首句），2026-10-24 核查；可能随商店页更新。",
+  "steamUrl": "https://store.steampowered.com/app/3093990/",
+  "genres": [
+    "Casual",
+    "Indie",
+    "RPG",
+    "Strategy"
+  ],
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3093990/",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-24",
+      "excerpt": "Steam 商店页 AI 生成内容披露栏，2026-10-24 核查。开发者披露部分 UI 美术与装饰物品最初以 Adobe Firefly 和 Claude 生成的图像与 3D 模型为基础，再由开发者在 Photoshop 等软件中修改；开发者称自 2026 年 3 月起与画师合作，逐步把 AI 生成美术全部替换为手绘美术。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3093990/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-24",
+      "excerpt": "讨论区仅 1 个活跃主题（“Feed Back”），未见 AI 相关讨论。"
+    }
+  ],
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露未提及的领域标为“未提及”，不代表确认未使用。 本页对应正式版 App ID 3093990；试玩版另有 App ID 5408980，不混用结论。 公开资料检索未发现额外报道；披露中点名的 AI 工具为 Adobe Firefly 与 Claude。",
+  "developer": "SneezeDev",
+  "publisher": "SneezeDev",
+  "steamReleaseDate": "2026-10-30（计划）",
+  "reviewedAt": "2026-10-24"
+}

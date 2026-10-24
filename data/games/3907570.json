@@ -1,0 +1,64 @@
+{
+  "appId": "3907570",
+  "name": "Silent Authority: Blood & Bourbon",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "1920 年代纽约黑帮背景的策略动作 RPG：收保护费、做买卖、扩张地盘并指挥手下进行战术战斗。 Steam 开发者披露：游戏使用 AI 生成的音乐与音效，称使用授权工具生成并经团队审核。其他领域未被披露提及。",
+  "aiUsageCategories": [
+    "music"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "music": "开发者披露游戏使用 AI 生成的音乐与音效，称使用授权工具生成并经团队审核。",
+    "ingame": "开发者在披露中称游玩过程中不连接任何外部 AI 服务。"
+  },
+  "aiAreaSources": {
+    "music": "official"
+  },
+  "disclosureQuote": "This game uses AI-generated music and sound effects. These are created using licensed tools and reviewed by the development team for quality and originality. No external AI services are connected during gameplay.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文（首句），2026-10-24 核查；可能随商店页更新。",
+  "steamUrl": "https://store.steampowered.com/app/3907570/",
+  "genres": [
+    "Action",
+    "RPG",
+    "Simulation",
+    "Strategy"
+  ],
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3907570/",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-24",
+      "excerpt": "Steam 商店页 AI 生成内容披露栏，2026-10-24 核查。开发者披露游戏使用 AI 生成的音乐与音效，称使用授权工具生成并经团队审核；开发者在披露中称游玩过程中不连接任何外部 AI 服务。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3907570/discussions/",
+      "label": "Steam 社区讨论区：玩家对 AI 使用的负面反馈",
+      "date": "2026-10-24",
+      "excerpt": "讨论区共 23 个活跃主题，检查了首页 15 个标题，其中一个玩家主题标题为“Uses gen AI. Pass”（因使用生成式 AI 而放弃）；打开时页面返回了其他主题内容，未能可靠读取该帖正文，本站只记录其标题。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/3907570/discussions/0/562542623246732101/",
+      "label": "玩家主题：“Uses gen AI. Pass”",
+      "excerpt": "玩家主题标题表示因游戏使用生成式 AI 而不购买；正文未能可靠读取。这是玩家态度，不是额外的使用证据。",
+      "date": "2026-10-24"
+    }
+  ],
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露未提及的领域标为“未提及”，不代表确认未使用。 公开资料检索未发现额外的开发者说明或报道。",
+  "developer": "Complex Universe",
+  "publisher": "Complex Universe",
+  "steamReleaseDate": "即将推出（抢先体验，未定日期）",
+  "reviewedAt": "2026-10-24"
+}
