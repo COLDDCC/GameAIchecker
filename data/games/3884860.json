@@ -1,0 +1,62 @@
+{
+  "appId": "3884860",
+  "name": "The Wolf Among Us Remastered",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "Telltale 2013 年童话黑色侦探冒险《与狼同行》的重制版，选择影响剧情走向。 本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，讨论区与公开报道中也未见可核实的相关声明。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/3884860/",
+  "genres": [
+    "Action",
+    "Adventure"
+  ],
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/3884860/",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-25",
+      "excerpt": "Steam 商店页（Telltale 开发、Telltale 发行，2026-10-29（计划））没有 AI 生成内容披露栏。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3884860/discussions/",
+      "label": "Steam 社区讨论区（因成人内容提示遮挡，未能读取主题列表）",
+      "date": "2026-10-25",
+      "excerpt": "讨论区页面被 Steam 成人内容提示遮挡，本次未能读取主题标题；讨论区检查不完整。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.allkeyshop.com/blog/the-wolf-among-us-remastered-bigby-redesign-news-r/",
+      "label": "报道：Telltale 为何重新设计 Bigby",
+      "excerpt": "报道称重制版角色从零重建而非放大旧素材，灯光在新引擎中手工重做；全文未提及 AI 或生成式工具。",
+      "date": "2026-10-25"
+    }
+  ],
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。 公开报道称重制版角色从零重建、灯光逐一手工重做，“rather than upscaling existing assets”（并非放大旧素材）；报道未提及生成式 AI。",
+  "developer": "Telltale",
+  "publisher": "Telltale",
+  "steamReleaseDate": "2026-10-29（计划）",
+  "reviewedAt": "2026-10-25"
+}

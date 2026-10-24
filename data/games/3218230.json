@@ -1,0 +1,57 @@
+{
+  "appId": "3218230",
+  "name": "ArcheAge Chronicles",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "以重新发现的传说大陆 Auroria 为舞台的动作 MMORPG，包含采集、种植与房屋等生活技能。 本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，讨论区与公开报道中也未见可核实的相关声明。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "code": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "art": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "music": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "voice": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "writing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "translation": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。",
+    "marketing": "Steam 商店页没有 AI 生成内容披露，也未检索到开发者声明；未披露不等于确认未使用。"
+  },
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/3218230/",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Massively Multiplayer",
+    "RPG"
+  ],
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/3218230/",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-25",
+      "excerpt": "Steam 商店页（XLGAMES 开发、XLGAMES 发行，待公布（抢先体验））没有 AI 生成内容披露栏。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3218230/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-25",
+      "excerpt": "讨论区共 212 个活跃主题，检查了首页 15 个标题（多为 PvP/PvE 与战斗反馈），未见 AI 相关讨论；仅检查了标题。"
+    }
+  ],
+  "reviewNote": "本次核查了 Steam 商店页 AI 生成内容披露栏、Steam 社区讨论区和公开网络报道，均未发现可核实的生成式 AI 使用证据或开发者声明。Steam 要求开发者披露预生成 AI 内容，因此未披露是一个弱信号，但不是“零 AI”证明；八个领域均标为“未提及”。 本页对应正式版 App ID 3218230；试玩版另有 App ID 5280930，不混用结论。 公开报道（Inven Global、Gematsu、Game Developer 新闻稿）未提及生成式 AI。",
+  "developer": "XLGAMES",
+  "publisher": "XLGAMES",
+  "steamReleaseDate": "待公布（抢先体验）",
+  "reviewedAt": "2026-10-25"
+}

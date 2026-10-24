@@ -1,0 +1,57 @@
+{
+  "appId": "4189910",
+  "name": "Dice In You",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "以骰子为核心的免费 Roguelike 卡组构筑游戏。 Steam 开发者披露：游戏内骰子插画使用了生成式 AI；其他美术资产未在披露中说明。其他领域未被披露提及。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露游戏内骰子插画使用了生成式 AI；其他美术资产未在披露中说明。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "disclosureQuote": "Generative AI was used for in-game dice illustration.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文（首句），2026-10-25 核查；可能随商店页更新。",
+  "steamUrl": "https://store.steampowered.com/app/4189910/",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Simulation",
+    "Strategy",
+    "Free To Play"
+  ],
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4189910/",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-25",
+      "excerpt": "Steam 商店页 AI 生成内容披露栏，2026-10-25 核查。开发者披露游戏内骰子插画使用了生成式 AI；其他美术资产未在披露中说明。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4189910/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-25",
+      "excerpt": "讨论区共 7 个活跃主题，已检查全部标题，未见 AI 相关讨论；仅检查了标题。"
+    }
+  ],
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露未提及的领域标为“未提及”，不代表确认未使用。 公开资料检索未发现额外的开发者说明或报道。",
+  "developer": "Team DICE",
+  "publisher": "Sejong Univ. PandoraCube",
+  "steamReleaseDate": "2025-12-11",
+  "reviewedAt": "2026-10-25"
+}

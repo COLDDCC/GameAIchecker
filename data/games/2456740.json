@@ -1,0 +1,74 @@
+{
+  "appId": "2456740",
+  "name": "inZOI",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "塑造世界并观察其中故事展开的人生模拟游戏。 Steam 开发者披露：玩家可在游戏中用文字生成服装与物品贴图、由 2D 图片生成 3D 物件、由视频为角色生成动作，并可用 SLM 技术以文字影响角色行为与想法；文本本地化使用了 AI 工具辅助，并经人工审阅修改。其他领域未被披露提及。",
+  "aiUsageCategories": [
+    "ingame",
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "used",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者披露玩家可在游戏中用文字生成服装与物品贴图、由 2D 图片生成 3D 物件、由视频为角色生成动作，并可用 SLM 技术以文字影响角色行为与想法。",
+    "translation": "开发者披露文本本地化使用了 AI 工具辅助，并经人工审阅修改。",
+    "art": "披露提到“AI 工具辅助内容制作”，但没有说明是否包括美术；玩家在游戏内生成贴图、3D 物件的功能已归入“游戏内 AI”。旧版记录曾将本项标为已使用，本次核查更正为未提及。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "translation": "official",
+    "art": "developer_statement"
+  },
+  "disclosureQuote": "Players can generate unique textures for character outfits and various items based on text input. They can also create 3D objects from 2D image input, which can be used as interior decorations or character accessories, and add distinctive motions to their Zoi using video input. Additionally, character actions and thoughts can be influenced with text using SLM technology, enabling more engaging and intuitive interactions. AI-based tools are utilized as auxiliary support during the content creation process and text localizations. All content generated through this process was thoroughly reviewed and manually refined by the development team before applied to the final product.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文（首句），2026-10-25 核查；可能随商店页更新。",
+  "steamUrl": "https://store.steampowered.com/app/2456740/",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Simulation"
+  ],
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/2456740/",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-25",
+      "excerpt": "Steam 商店页 AI 生成内容披露栏，2026-10-25 核查。开发者披露玩家可在游戏中用文字生成服装与物品贴图、由 2D 图片生成 3D 物件、由视频为角色生成动作，并可用 SLM 技术以文字影响角色行为与想法；开发者披露文本本地化使用了 AI 工具辅助，并经人工审阅修改。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2456740/discussions/",
+      "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+      "date": "2026-10-25",
+      "excerpt": "讨论区共 286 个活跃主题，检查了首页 15 个标题，未见 AI 相关讨论；仅检查了标题。"
+    },
+    {
+      "url": "https://www.playinzoi.com/en/news/8664",
+      "label": "KRAFTON 官方：inZOI 生成式 AI 使用说明",
+      "type": "developer_statement",
+      "date": "2025-05-13",
+      "excerpt": "说明 T2I、3D Printing AI 与 Video-to-Motion 的训练数据来源和开发原则。"
+    }
+  ],
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露中玩家可用的贴图、3D 物件、动作生成以及 SLM 角色行为，都属于游戏运行时功能，归入“游戏内 AI”；“AI 工具辅助内容制作”一句没有说明具体类别，本站不据此标记美术或其他领域，仅将明确提到的文本本地化标为“翻译”。旧版记录曾把“美术”标为已使用，本次核查已更正。",
+  "developer": "inZOI Studio",
+  "publisher": "KRAFTON, Inc.",
+  "steamReleaseDate": "2025-03-27（抢先体验）",
+  "reviewedAt": "2026-10-25",
+  "tags": [
+    "Life Simulation",
+    "Character Customization",
+    "Building",
+    "Sandbox"
+  ],
+  "website": "https://playinzoi.com/"
+}

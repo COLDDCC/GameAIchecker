@@ -1,0 +1,62 @@
+{
+  "appId": "2275940",
+  "name": "Rogue Hex",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "结合卡组构筑的 Roguelite 4X 策略游戏，在程序生成的大陆上发展石器时代帝国。 Steam 开发者披露：使用 Midjourney 补充部分升级与成就图标；开发者另在讨论区称约 20% 的美术借助 AI 工具制作（Midjourney 加 Photoshop，用作图标），3D 模型为人工制作，部分画面为公有领域油画。其他领域未被披露提及。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露使用 Midjourney 补充部分升级与成就图标；开发者另在讨论区称约 20% 的美术借助 AI 工具制作（Midjourney 加 Photoshop，用作图标），3D 模型为人工制作，部分画面为公有领域油画。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "disclosureQuote": "As a solo dev, I use Midjourney to fill in some gaps including upgrade and achievement icons.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文（首句），2026-10-25 核查；可能随商店页更新。",
+  "steamUrl": "https://store.steampowered.com/app/2275940/",
+  "genres": [
+    "Indie",
+    "Simulation",
+    "Strategy"
+  ],
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/2275940/",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-25",
+      "excerpt": "Steam 商店页 AI 生成内容披露栏，2026-10-25 核查。开发者披露使用 Midjourney 补充部分升级与成就图标；开发者另在讨论区称约 20% 的美术借助 AI 工具制作（Midjourney 加 Photoshop，用作图标），3D 模型为人工制作，部分画面为公有领域油画。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2275940/discussions/",
+      "label": "Steam 社区讨论区：开发者回应“AI slop”",
+      "date": "2026-10-25",
+      "excerpt": "讨论区共 184 个活跃主题，检查了首页 15 个标题；“AI slop”主题经打开核对，开发者在其中详细说明了 AI 使用范围，见单独列出的开发者声明。"
+    },
+    {
+      "type": "developer_statement",
+      "url": "https://steamcommunity.com/app/2275940/discussions/0/592904784006414536/",
+      "label": "开发者在讨论区说明 AI 美术比例",
+      "excerpt": "玩家发帖“AI slop / Pay artists”；开发者 postbop 回复称约 20% 的美术借助 AI 工具制作（Midjourney 加 Photoshop，用作图标），并称 3D 模型为人工制作、部分画面为公有领域油画，常被误认为 AI。",
+      "date": "2026-10-25"
+    }
+  ],
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露未提及的领域标为“未提及”，不代表确认未使用。",
+  "developer": "Topstitch Games",
+  "publisher": "Topstitch Games",
+  "steamReleaseDate": "2025-08-09（抢先体验始于 2025-01-13）",
+  "reviewedAt": "2026-10-25"
+}

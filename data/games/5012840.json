@@ -1,0 +1,100 @@
+{
+  "appId": "5012840",
+  "name": "Tooth for Tooth",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "以牙齿作为生命值与货币的回合制格斗游戏。 Steam 开发者披露：使用生成式 AI 工具辅助美术与动画，由团队挑选、编辑后纳入游戏；使用生成式 AI 工具辅助音频制作；未区分音乐与音效；使用生成式 AI 工具辅助文字（text）；使用生成式 AI 工具辅助本地化；使用生成式 AI 工具辅助营销素材与宣传内容。其他领域未被披露提及。",
+  "aiUsageCategories": [
+    "art",
+    "music",
+    "writing",
+    "translation",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "art": "开发者披露使用生成式 AI 工具辅助美术与动画，由团队挑选、编辑后纳入游戏。",
+    "music": "开发者披露使用生成式 AI 工具辅助音频制作；未区分音乐与音效。",
+    "writing": "开发者披露使用生成式 AI 工具辅助文字（text）。",
+    "translation": "开发者披露使用生成式 AI 工具辅助本地化。",
+    "marketing": "开发者披露使用生成式 AI 工具辅助营销素材与宣传内容。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "writing": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "disclosureQuote": "Our team used generative AI tools to assist with artwork, animation, audio, text, localization, and marketing materials. We directed the creative process and selected, edited, and incorporated the resulting material into the game and its promotional content.",
+  "disclosureQuoteNote": "Steam 商店页 AI 生成内容披露栏原文（首句），2026-10-25 核查；可能随商店页更新。",
+  "steamUrl": "https://store.steampowered.com/app/5012840/",
+  "genres": [
+    "Action",
+    "Indie"
+  ],
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5012840/",
+      "label": "Steam 开发者生成式 AI 使用披露",
+      "date": "2026-10-25",
+      "excerpt": "Steam 商店页 AI 生成内容披露栏，2026-10-25 核查。开发者披露使用生成式 AI 工具辅助美术与动画，由团队挑选、编辑后纳入游戏；开发者披露使用生成式 AI 工具辅助音频制作；未区分音乐与音效；开发者披露使用生成式 AI 工具辅助文字（text）；开发者披露使用生成式 AI 工具辅助本地化；开发者披露使用生成式 AI 工具辅助营销素材与宣传内容。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5012840/discussions/",
+      "label": "Steam 社区讨论区：多名玩家质疑 AI 使用（无开发者回复）",
+      "date": "2026-10-25",
+      "excerpt": "讨论区共 9 个活跃主题，其中“Made with AI”“it was slop”“slop game”三帖经打开核对：玩家认为画面使用了 AI 并给出负面评价，开发者未回复；这些是玩家观点，不改变依据官方披露作出的领域判断。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/5012840/discussions/0/569297738797290573/",
+      "label": "玩家主题：“Made with AI”",
+      "excerpt": "玩家称游戏用 AI 制作并建议跳过；有玩家认为开发者在披露中淡化了 AI 使用，但未提供具体证据；无开发者回复。",
+      "date": "2026-10-25"
+    },
+    {
+      "url": "https://steamdb.info/app/5012840/",
+      "label": "SteamDB：发行日期等元数据交叉核查",
+      "type": "third_party"
+    },
+    {
+      "url": "https://gamedb.ai/games/5012840-tooth-for-tooth",
+      "label": "GameDB.ai：Tooth for Tooth 八领域 AI 使用分类（2026-09-30 检查记录）",
+      "type": "third_party",
+      "date": "2026-09-30",
+      "excerpt": "第三方整理：Art、Music & SFX、Writing、Translation、Marketing 五个领域标为 Partial；其余三个领域为 Not stated。"
+    }
+  ],
+  "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露未提及的领域标为“未提及”，不代表确认未使用。",
+  "developer": "Outlane",
+  "publisher": "Outlane",
+  "steamReleaseDate": "2026-10-02",
+  "reviewedAt": "2026-10-25",
+  "tags": [
+    "Turn-Based Combat",
+    "Dark Humor",
+    "PvP",
+    "Stylized",
+    "First-Person"
+  ],
+  "features": [
+    "Single-player",
+    "Online PvP",
+    "Steam Achievements",
+    "Stats",
+    "Steam Leaderboards"
+  ],
+  "languages": "English, French, Italian, German, Spanish (Spain), Indonesian, Japanese, Korean, Portuguese (Brazil), Russian, Simplified Chinese, Spanish (Latin America), Traditional Chinese, Turkish, Polish, Portuguese (Portugal)"
+}
