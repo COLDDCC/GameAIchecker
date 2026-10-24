@@ -1,0 +1,32 @@
+name: Persist media for reviewed games
+# Downloads Steam metadata and optimized gallery images for the reviewed games
+# listed in scripts/persist-media-ids.txt that do not yet have them in Git, then commits them. Once committed, the
+# production build reuses them and no longer depends on Steam being reachable.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/persist-reviewed-media.yml'
+      - 'scripts/persist-reviewed-media.sh'
+      - 'scripts/persist-media-ids.txt'
+permissions:
+  contents: write
+concurrency:
+  group: persist-reviewed-media
+  cancel-in-progress: false
+jobs:
+  persist:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Download and commit missing reviewed-game media
+        run: bash scripts/persist-reviewed-media.sh
