@@ -146,11 +146,18 @@ function normalizeSource(input, fallbackType = 'source') {
   };
 }
 
+function steamAppId(url) {
+  const match = String(url || '').match(/store\.steampowered\.com\/app\/(\d+)/);
+  return match ? match[1] : null;
+}
+
 function pushSources(target, sources, fallbackType = 'source') {
   for (const source of asArray(sources)) {
     const item = normalizeSource(source, fallbackType);
     if (!item) continue;
     if (item.url && target.some((existing) => existing.url === item.url)) continue;
+    const appId = steamAppId(item.url);
+    if (appId && target.some((existing) => steamAppId(existing.url) === appId)) continue;
     if (!item.url && target.some((existing) => !existing.url && existing.label === item.label)) continue;
     target.push(item);
   }
