@@ -1,0 +1,58 @@
+name: Collect review facts
+# Runs the zero-LLM fact collector on GitHub's servers (they can reach Steam), optionally classifies
+# official disclosures with a small model, and pushes the results to a branch named auto-review/<run>.
+# Nothing is published: you (or an agent) read review-queue.md, dry-run make-records.py, then ship.sh.
+on:
+  workflow_dispatch:
+    inputs:
+      app_ids:
+        description: 'Space-separated Steam App IDs (leave empty and set compare=true to re-check all 111 records)'
+        required: false
+        default: ''
+      compare:
+        description: 'Re-collect every data/games record and report routing mismatches'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      APP_IDS: ${{ inputs.app_ids }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Collect Steam facts (no LLM)
+        run: |
+          if [ "${{ inputs.compare }}" = "true" ]; then
+            node scripts/review/collect-facts.mjs --compare | tee collect.log
+          else
+            ids=$(echo "$APP_IDS" | tr -cs '0-9' ' ')   # digits only; never interpolate raw input
+            node scripts/review/collect-facts.mjs $ids | tee collect.log
+          fi
+      - name: Classify official disclosures (small model)
+        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+        run: node scripts/review/classify-disclosure.mjs | tee -a collect.log
+      - name: Build batch and review queue
+        if: ${{ !inputs.compare }}
+        run: node scripts/review/build-batch.mjs | tee -a collect.log
+      - name: Summary
+        run: |
+          { echo '```'; tail -n 60 collect.log; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          [ -f scripts/review/review-queue.md ] && cat scripts/review/review-queue.md >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Push results to a review branch
+        run: |
+          branch="auto-review/$(date -u +%Y%m%d)-${{ github.run_number }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add scripts/review/facts scripts/review/store-facts.jsonl
+          git add -f scripts/review/batch-auto.json scripts/review/review-queue.md 2>/dev/null || true
+          git commit -m "chore(review): collect facts (${{ github.run_number }})" || exit 0
+          git push origin "$branch"
+          echo "Results on branch $branch" >> "$GITHUB_STEP_SUMMARY"

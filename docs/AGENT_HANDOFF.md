@@ -57,6 +57,20 @@
 - `EXTRA_IDS="id1 id2"`：只给已核查的游戏登记图片入库和审计，不改内容。
 - `COMMIT_TRAILER`：要附在提交说明末尾的署名行。
 
+## 3a. 省 token 的自动采集流程（优先使用）
+
+调研环节不要再用 WebFetch 逐页读 Steam。先在 GitHub Actions 里跑 **Collect review facts**（输入 App ID），它不调用任何 LLM：
+
+1. `collect-facts.mjs`：读 appdetails、英文商店页 HTML（带年龄验证 cookie）、讨论区前 3 页标题。逐字提取 AI 披露原文，标出含 AI / 美术 / 抄袭等关键词的帖子，并给每个游戏分流：
+   - `auto_none`：无披露、无人工制作声明、无可疑帖子 → 直接生成模板记录，**0 token**
+   - `official`：有披露 → `classify-disclosure.mjs` 用小模型按第 2.5 节规则归类（每个游戏几百 token）
+   - `review`：有人工制作声明候选或可疑帖子 → 只需阅读 `review-queue.md` 里列出的那几条
+2. `build-batch.mjs`：生成 `store-facts.jsonl` 新行和 `batch-auto.json`，之后照常 `make-records.py` 预演、`ship.sh` 发布。
+3. 结果推到 `auto-review/<日期>-<编号>` 分支，不会直接上线。
+
+自动记录带 `reviewMethod: "automated"`，审查备注会写明“未做公开报道检索”。只有 `review` 队列和高关注游戏才需要 agent 做报道检索。
+首次使用前，用 `compare=true` 跑一次，把自动分流结果和现有 111 条人工记录对比，确认没有误判再批量用。
+
 ## 4. 发布流程（顺序不能乱）
 
 `ship.sh` 按以下顺序执行：
