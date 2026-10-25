@@ -1,0 +1,117 @@
+{
+ "date": "2026-10-25",
+ "games": [
+  {
+   "appId": "2958550",
+   "discussion": {
+    "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+    "excerpt": "讨论区共 17 个活跃主题，检查了首页 15 个标题，未见 AI 相关讨论；仅检查了标题。"
+   },
+   "press": "公开资料检索未发现生成式 AI 相关声明。"
+  },
+  {
+   "appId": "3218230",
+   "discussion": {
+    "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+    "excerpt": "讨论区共 212 个活跃主题，检查了首页 15 个标题（多为 PvP/PvE 与战斗反馈），未见 AI 相关讨论；仅检查了标题。"
+   },
+   "press": "公开报道（Inven Global、Gematsu、Game Developer 新闻稿）未提及生成式 AI。"
+  },
+  {
+   "appId": "3884860",
+   "discussion": {
+    "label": "Steam 社区讨论区（因成人内容提示遮挡，未能读取主题列表）",
+    "excerpt": "讨论区页面被 Steam 成人内容提示遮挡，本次未能读取主题标题；讨论区检查不完整。"
+   },
+   "press": "公开报道称重制版角色从零重建、灯光逐一手工重做，“rather than upscaling existing assets”（并非放大旧素材）；报道未提及生成式 AI。",
+   "extraSources": [
+    {
+     "type": "third_party",
+     "url": "https://www.allkeyshop.com/blog/the-wolf-among-us-remastered-bigby-redesign-news-r/",
+     "label": "报道：Telltale 为何重新设计 Bigby",
+     "excerpt": "报道称重制版角色从零重建而非放大旧素材，灯光在新引擎中手工重做；全文未提及 AI 或生成式工具。"
+    }
+   ]
+  },
+  {
+   "appId": "5200400",
+   "discussion": {
+    "label": "Steam 社区讨论区检索（暂无主题）",
+    "excerpt": "讨论区显示 0 个活跃主题，没有可检查的玩家讨论。"
+   },
+   "press": "公开资料检索（playtestboard 新品节收录页）未发现生成式 AI 相关声明。"
+  },
+  {
+   "appId": "4858850",
+   "discussion": {
+    "label": "Steam 社区讨论区检索（暂无主题）",
+    "excerpt": "讨论区显示 0 个活跃主题，没有可检查的玩家讨论。"
+   },
+   "press": "公开资料检索未发现额外的开发者说明或报道。"
+  },
+  {
+   "appId": "4189910",
+   "discussion": {
+    "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+    "excerpt": "讨论区共 7 个活跃主题，已检查全部标题，未见 AI 相关讨论；仅检查了标题。"
+   },
+   "press": "公开资料检索未发现额外的开发者说明或报道。",
+   "legacy": true
+  },
+  {
+   "appId": "2275940",
+   "discussion": {
+    "label": "Steam 社区讨论区：开发者回应“AI slop”",
+    "excerpt": "讨论区共 184 个活跃主题，检查了首页 15 个标题；“AI slop”主题经打开核对，开发者在其中详细说明了 AI 使用范围，见单独列出的开发者声明。"
+   },
+   "legacy": true,
+   "extraSources": [
+    {
+     "type": "developer_statement",
+     "url": "https://steamcommunity.com/app/2275940/discussions/0/592904784006414536/",
+     "label": "开发者在讨论区说明 AI 美术比例",
+     "excerpt": "玩家发帖“AI slop / Pay artists”；开发者 postbop 回复称约 20% 的美术借助 AI 工具制作（Midjourney 加 Photoshop，用作图标），并称 3D 模型为人工制作、部分画面为公有领域油画，常被误认为 AI。"
+    }
+   ]
+  },
+  {
+   "appId": "5012840",
+   "discussion": {
+    "label": "Steam 社区讨论区：多名玩家质疑 AI 使用（无开发者回复）",
+    "excerpt": "讨论区共 9 个活跃主题，其中“Made with AI”“it was slop”“slop game”三帖经打开核对：玩家认为画面使用了 AI 并给出负面评价，开发者未回复；这些是玩家观点，不改变依据官方披露作出的领域判断。"
+   },
+   "legacy": true,
+   "extraSources": [
+    {
+     "type": "community",
+     "url": "https://steamcommunity.com/app/5012840/discussions/0/569297738797290573/",
+     "label": "玩家主题：“Made with AI”",
+     "excerpt": "玩家称游戏用 AI 制作并建议跳过；有玩家认为开发者在披露中淡化了 AI 使用，但未提供具体证据；无开发者回复。"
+    }
+   ]
+  },
+  {
+   "appId": "2456740",
+   "discussion": {
+    "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+    "excerpt": "讨论区共 286 个活跃主题，检查了首页 15 个标题，未见 AI 相关讨论；仅检查了标题。"
+   },
+   "legacy": true,
+   "reviewNote": "结论来源于 Steam 开发者自述披露，不是独立技术审计。披露中玩家可用的贴图、3D 物件、动作生成以及 SLM 角色行为，都属于游戏运行时功能，归入“游戏内 AI”；“AI 工具辅助内容制作”一句没有说明具体类别，本站不据此标记美术或其他领域，仅将明确提到的文本本地化标为“翻译”。旧版记录曾把“美术”标为已使用，本次核查已更正。",
+   "areas": {
+    "art": [
+     "not_stated",
+     "披露提到“AI 工具辅助内容制作”，但没有说明是否包括美术；玩家在游戏内生成贴图、3D 物件的功能已归入“游戏内 AI”。旧版记录曾将本项标为已使用，本次核查更正为未提及。"
+    ]
+   }
+  },
+  {
+   "appId": "2073850",
+   "discussion": {
+    "label": "Steam 社区讨论区检索（未发现 AI 相关讨论）",
+    "excerpt": "讨论区共 732 个活跃主题，检查了首页 15 个标题，未见 AI 相关讨论；仅检查了标题。"
+   },
+   "legacy": true
+  }
+ ]
+}
