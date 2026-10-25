@@ -10,7 +10,7 @@
       "status": "no_evidence",
       "statusLabel": "未发现可核实证据",
       "statusTone": "blue",
-      "summary": "本次核查未找到可验证的生成式 AI 制作声明。游戏以人工智能为剧情主题，但这不能证明开发流程使用了生成式 AI。",
+      "summary": "本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，公开网络报道中也未见可核实的相关声明。游戏以人工智能为剧情主题，但这不能证明开发流程使用了生成式 AI。",
       "releaseDate": "2020-06-18",
       "releaseYear": 2018,
       "genres": [
@@ -20,7 +20,7 @@
       "event": null,
       "areaKeys": [],
       "areaSummary": "",
-      "header": "/images/steam/apps/1222140/header.jpg",
+      "header": "/images/steam/apps/1222140/c5f21b79410285e9.webp?v=gallery1",
       "steamUrl": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/",
       "hasStatic": true
     },
@@ -822,7 +822,7 @@
       "event": "Steam Next Fest October 2026",
       "areaKeys": [],
       "areaSummary": "",
-      "header": "/images/steam/apps/3658930/header.jpg",
+      "header": "/images/steam/apps/3658930/944225e0aa1e2182.webp?v=gallery1",
       "steamUrl": "https://store.steampowered.com/app/3658930/",
       "hasStatic": true
     },
@@ -1049,7 +1049,7 @@
       "event": null,
       "areaKeys": [],
       "areaSummary": "",
-      "header": "/images/steam/apps/4019220/header.jpg",
+      "header": "/images/steam/apps/4019220/e6554b95f89bba6a.webp?v=gallery1",
       "steamUrl": "https://store.steampowered.com/app/4019220/",
       "hasStatic": true
     },
@@ -1702,13 +1702,15 @@
       "statusLabel": "开发者称人工制作",
       "statusTone": "green",
       "summary": "本站负责人已审查并认定《降雪的日子》为 0 AI / 100% HUMAN 作品。结论基于站内人工审核；完整审查材料尚未公开，非第三方独立审计。",
-      "releaseDate": null,
-      "releaseYear": null,
-      "genres": [],
+      "releaseDate": "即将推出",
+      "genres": [
+        "冒险",
+        "独立"
+      ],
       "event": null,
       "areaKeys": [],
       "areaSummary": "",
-      "header": "/images/steam/apps/4693000/header.jpg",
+      "header": "/images/steam/apps/4693000/6be976ff0d857f2f.webp?v=gallery1",
       "steamUrl": "https://store.steampowered.com/app/4693000/",
       "hasStatic": true
     },
@@ -2506,7 +2508,7 @@
       "event": null,
       "areaKeys": [],
       "areaSummary": "",
-      "header": "/images/steam/apps/5345260/header.jpg",
+      "header": "/images/steam/apps/5345260/faf377d2f36a3774.webp?v=gallery1",
       "steamUrl": "https://store.steampowered.com/app/5345260/",
       "hasStatic": true
     },
