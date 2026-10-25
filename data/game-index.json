@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-25",
   "count": 111,
   "games": [
+    {
+      "slug": "1222140-detroit-become-human",
+      "appId": "1222140",
+      "name": "Detroit: Become Human",
+      "developer": "Quantic Dream",
+      "status": "no_evidence",
+      "statusLabel": "未发现可核实证据",
+      "statusTone": "blue",
+      "summary": "本次核查未找到可验证的生成式 AI 制作声明。游戏以人工智能为剧情主题，但这不能证明开发流程使用了生成式 AI。",
+      "releaseDate": "2020-06-18",
+      "releaseYear": 2018,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "event": null,
+      "areaKeys": [],
+      "areaSummary": "",
+      "header": "/images/steam/apps/1222140/header.jpg",
+      "steamUrl": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/",
+      "hasStatic": true
+    },
     {
       "slug": "1853440-tropico-7",
       "appId": "1853440",
@@ -784,6 +806,27 @@
       "hasStatic": true
     },
     {
+      "slug": "3658930-magus-slayer",
+      "appId": "3658930",
+      "name": "Magus Slayer",
+      "developer": "GUILT",
+      "status": "no_evidence",
+      "statusLabel": "未发现可核实证据",
+      "statusTone": "blue",
+      "summary": "夺取被击败法师的法术、编排施法顺序，并在每轮之间回到酒馆研究新法术形式的 Roguelike 动作游戏。 本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，讨论区与公开报道中也未见可核实的相关声明。",
+      "releaseDate": "即将推出（未定日期）",
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "event": "Steam Next Fest October 2026",
+      "areaKeys": [],
+      "areaSummary": "",
+      "header": "/images/steam/apps/3658930/header.jpg",
+      "steamUrl": "https://store.steampowered.com/app/3658930/",
+      "hasStatic": true
+    },
+    {
       "slug": "3670600-hexitten",
       "appId": "3670600",
       "name": "Hexitten",
@@ -986,6 +1029,28 @@
       "areaSummary": "音乐与音效（已披露使用）",
       "header": "/images/steam/apps/3907570/3841c50a4506333e.webp?v=gallery1",
       "steamUrl": "https://store.steampowered.com/app/3907570/",
+      "hasStatic": true
+    },
+    {
+      "slug": "4019220-dressmaker",
+      "appId": "4019220",
+      "name": "Dressmaker",
+      "developer": "Cozy Lives",
+      "status": "human_made",
+      "statusLabel": "开发者称人工制作",
+      "statusTone": "green",
+      "summary": "开发者在 Steam 讨论区称游戏“100%由人工制作”，并表示反对生成式 AI。此为开发者自述，尚未经独立审计。",
+      "releaseDate": "2026-09-21",
+      "releaseYear": 2026,
+      "genres": [
+        "Casual",
+        "Simulation"
+      ],
+      "event": null,
+      "areaKeys": [],
+      "areaSummary": "",
+      "header": "/images/steam/apps/4019220/header.jpg",
+      "steamUrl": "https://store.steampowered.com/app/4019220/",
       "hasStatic": true
     },
     {
@@ -1855,6 +1920,29 @@
       "hasStatic": true
     },
     {
+      "slug": "4919570-meow-star-archives",
+      "appId": "4919570",
+      "name": "Meow Star Archives",
+      "developer": "Mio_Games",
+      "status": "human_made",
+      "statusLabel": "开发者称人工制作",
+      "statusTone": "green",
+      "summary": "开发者在官方 itch.io Demo 页声明未使用生成式 AI；该声明适用于 Demo，正式版的完整制作范围尚未逐项说明。",
+      "releaseDate": "2026 年 11 月 27 日",
+      "releaseYear": "2026",
+      "genres": [
+        "休闲",
+        "解谜",
+        "独立"
+      ],
+      "event": null,
+      "areaKeys": [],
+      "areaSummary": "",
+      "header": "/images/steam/apps/4919570/fb438a01a91bc7fb.webp?v=meow-20261023",
+      "steamUrl": "https://store.steampowered.com/app/4919570/Meow_Star_Archives/",
+      "hasStatic": true
+    },
+    {
       "slug": "4929280-act-normal",
       "appId": "4929280",
       "name": "Act Normal",
@@ -2492,92 +2580,6 @@
       "header": "/images/steam/apps/864170/3faff551a3056ba5.webp?v=gallery1",
       "steamUrl": "https://store.steampowered.com/app/864170/",
       "hasStatic": true
-    },
-    {
-      "slug": "1222140-detroit-become-human",
-      "appId": "1222140",
-      "name": "Detroit: Become Human",
-      "developer": "Quantic Dream",
-      "status": "no_evidence",
-      "statusLabel": "未发现可核实证据",
-      "statusTone": "blue",
-      "summary": "本次核查未找到可验证的生成式 AI 制作声明。游戏以人工智能为剧情主题，但这不能证明开发流程使用了生成式 AI。",
-      "releaseDate": "2020-06-18",
-      "releaseYear": 2018,
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "event": null,
-      "areaKeys": [],
-      "areaSummary": "",
-      "header": "/images/steam/apps/1222140/header.jpg",
-      "steamUrl": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/",
-      "hasStatic": true
-    },
-    {
-      "slug": "4019220-dressmaker",
-      "appId": "4019220",
-      "name": "Dressmaker",
-      "developer": "Cozy Lives",
-      "status": "human_made",
-      "statusLabel": "开发者称人工制作",
-      "statusTone": "green",
-      "summary": "开发者在 Steam 讨论区称游戏“100%由人工制作”，并表示反对生成式 AI。此为开发者自述，尚未经独立审计。",
-      "releaseDate": "2026-09-21",
-      "releaseYear": 2026,
-      "genres": [
-        "Casual",
-        "Simulation"
-      ],
-      "event": null,
-      "areaKeys": [],
-      "areaSummary": "",
-      "header": "/images/steam/apps/4019220/header.jpg",
-      "steamUrl": "https://store.steampowered.com/app/4019220/",
-      "hasStatic": false
-    },
-    {
-      "slug": "4919570-meow-star-archives",
-      "appId": "4919570",
-      "name": "Meow Star Archives",
-      "developer": "Mio_Games",
-      "status": "human_made",
-      "statusLabel": "开发者称人工制作",
-      "statusTone": "green",
-      "summary": "开发者在官方 itch.io Demo 页声明未使用生成式 AI；该声明适用于 Demo，正式版的完整制作范围尚未逐项说明。",
-      "releaseDate": "2026 年 11 月 27 日",
-      "releaseYear": "2026",
-      "genres": [
-        "休闲",
-        "解谜",
-        "独立"
-      ],
-      "event": null,
-      "areaKeys": [],
-      "areaSummary": "",
-      "header": "/images/steam/apps/4919570/fb438a01a91bc7fb.webp?v=meow-20261023",
-      "steamUrl": "https://store.steampowered.com/app/4919570/Meow_Star_Archives/",
-      "hasStatic": false
-    },
-    {
-      "slug": "unverified-magus-slayer",
-      "appId": null,
-      "name": "Magus Slayer",
-      "developer": "",
-      "status": "unreviewed",
-      "statusLabel": "尚未核查",
-      "statusTone": "gray",
-      "summary": "Event listing only. No AI disclosure verified.",
-      "releaseDate": null,
-      "releaseYear": null,
-      "genres": [],
-      "event": "Steam Next Fest October 2026",
-      "areaKeys": [],
-      "areaSummary": "",
-      "header": null,
-      "steamUrl": null,
-      "hasStatic": false
     }
   ]
 }
