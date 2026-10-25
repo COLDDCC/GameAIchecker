@@ -454,6 +454,7 @@ const breadcrumbLd = {
     @media(max-width:420px){.ai-overview{padding:13px}.ai-overview-grid{gap:5px}.ai-overview-tile{min-height:69px}.ai-overview-name{font-size:10px}}
   </style>
 <link rel="stylesheet" href="/airy-detail.css" />
+<link rel="stylesheet" href="/toolfavor-cta.css" />
 </head>
 <body>
   <header class="top">
@@ -808,6 +809,8 @@ const breadcrumbLd = {
       <a class="btn" href={`https://www.reddit.com/submit?url=${encodeURIComponent(canonical)}&title=${encodeURIComponent(`${game.name} — AI use evidence`)}`} target="_blank" rel="noopener noreferrer">Reddit</a>
     </div>
   </main>
+
+  <div class="tf-cta-wrap"><a class="tf-cta" href="https://toolfavor.com/?utm_source=gameaichecker&amp;utm_medium=footer_button" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M19 15l.8 1.9 1.9.8-1.9.8L19 20.4l-.8-1.9-1.9-.8 1.9-.8z"/></svg><span>{lang.startsWith('zh') ? (lang === 'zh-tw' ? '發現更多好用的網站與工具 · ToolFavor' : '发现更多好用的网站与工具 · ToolFavor') : 'Discover more useful tools on ToolFavor'}</span><svg class="tf-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
 
   <footer class="site-footer">
     <div class="wrap">

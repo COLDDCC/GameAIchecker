@@ -1,0 +1,33 @@
+/* ToolFavor cross-link button: slow breathing glow, grows a little on hover/focus to signal it is clickable. */
+.tf-cta-wrap{display:flex;justify-content:center;padding:28px 16px 36px}
+.tf-cta{
+  --tf:#7958ed;--tf-2:#a78bfa;
+  position:relative;display:inline-flex;align-items:center;gap:10px;
+  padding:13px 24px;border-radius:999px;
+  font:600 15px/1.2 "DM Sans","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  color:#fff;text-decoration:none;letter-spacing:.01em;
+  background:linear-gradient(135deg,var(--tf) 0%,#8f6cf2 55%,var(--tf-2) 100%);
+  box-shadow:0 0 0 0 rgba(121,88,237,.45),0 6px 18px rgba(121,88,237,.28);
+  transform:translateZ(0) scale(1);
+  transition:transform .28s cubic-bezier(.2,.75,.2,1),box-shadow .28s ease,filter .28s ease;
+  animation:tf-glow 2.8s ease-in-out infinite;
+  will-change:transform,box-shadow;
+}
+.tf-cta svg{width:18px;height:18px;flex:none}
+.tf-cta .tf-arrow{transition:transform .28s cubic-bezier(.2,.75,.2,1)}
+.tf-cta:hover,.tf-cta:focus-visible{
+  transform:translateZ(0) scale(1.07);
+  filter:brightness(1.06) saturate(1.08);
+  animation-duration:1.6s;
+}
+.tf-cta:hover .tf-arrow,.tf-cta:focus-visible .tf-arrow{transform:translateX(3px)}
+.tf-cta:active{transform:translateZ(0) scale(1.03)}
+.tf-cta:focus-visible{outline:3px solid rgba(121,88,237,.35);outline-offset:4px}
+@keyframes tf-glow{
+  0%,100%{box-shadow:0 0 0 0 rgba(121,88,237,.38),0 6px 18px rgba(121,88,237,.26)}
+  50%{box-shadow:0 0 0 8px rgba(121,88,237,0),0 8px 30px rgba(121,88,237,.55),0 0 26px rgba(167,139,250,.55)}
+}
+@media (prefers-reduced-motion:reduce){
+  .tf-cta{animation:none;transition:none;box-shadow:0 0 22px rgba(121,88,237,.45)}
+  .tf-cta:hover,.tf-cta:focus-visible{transform:none}
+}
