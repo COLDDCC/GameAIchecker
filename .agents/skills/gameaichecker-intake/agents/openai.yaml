@@ -1,0 +1,4 @@
+interface:
+  display_name: "GameAIchecker 批量收录"
+  short_description: "低 token 收录 Steam 游戏，保存证据、断点恢复并核验正式发布"
+  default_prompt: "使用 $gameaichecker-intake 继续收录 10 个游戏。"

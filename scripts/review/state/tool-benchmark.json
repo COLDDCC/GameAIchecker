@@ -1,0 +1,23 @@
+{
+  "metric": "UTF-8 bytes; synthetic context proxy, not model tokens",
+  "fixtureGames": 10,
+  "legacyRepeatedContextBytes": 557490,
+  "incrementalContextBytes": 25670,
+  "contextReduction": 0.9539543310193905,
+  "scope": "Documentation+raw page repetition compared with short skill+selected disclosure; excludes actual model calls",
+  "queueScale": [
+    {
+      "syntheticRecords": 1000,
+      "queueSortAndJsonSeconds": 0.007732536999810691,
+      "jsonBytes": 1721000,
+      "maxRssKiB": 12672
+    },
+    {
+      "syntheticRecords": 10000,
+      "queueSortAndJsonSeconds": 0.09199393900007635,
+      "jsonBytes": 17210000,
+      "maxRssKiB": 48428
+    }
+  ],
+  "getAllGamesScale": "not measured; existing quadratic recommendation behavior is out of scope"
+}

@@ -66,3 +66,8 @@ public/images/steam/apps/*/gallery.json
 !data/steam/4598530.json
 !public/images/steam/apps/4598530/*.webp
 !public/images/steam/apps/4598530/gallery.json
+
+.cache/
+scripts/review/state/.*.lock
+
+__pycache__/

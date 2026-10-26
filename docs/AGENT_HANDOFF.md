@@ -95,3 +95,17 @@
 4. **重复的 Steam 来源**：THE FINALS、inZOI 等页面会出现两条“官方披露”来源，一条商店链接带游戏名，一条不带。可以在 `pushSources` 里按 App ID 去重。改之前同样要对全站做前后对比。
 5. **Node 20 弃用警告**：GitHub Actions 里的 `actions/checkout@v4` 和 `setup-node@v4` 有 Node 20 弃用警告，不影响构建，有空时升级。
 6. **站长审核过的页面**：Dressmaker（4019220）、Meow Star Archives（4919570）、降雪的日子（4693000）、Armor Growth Plan、Otherealm 带有站长审核标记或人工制作展示标记。改动它们需要先问站长。
+
+## 7. 低 token 新游戏收录工具（2026-10-27 实施）
+
+旧 `make-records.py` 与 `ship.sh` 已停止执行，避免覆盖旧记录、缺证据默认结论和吞推送错误。新入口是 `.agents/skills/gameaichecker-intake/SKILL.md`；安装副本按技能工作区规则保存。
+
+- `python3 scripts/review/intake.py inventory --summary`；`discover-import --input FILE`；`start --count 10`。
+- `python3 scripts/review/collect.py --batch ID --pending-only`，再逐游戏独立搜索公开报道并保存原始响应、结构化 evidence 和 decision。内部缓存位于 `.cache/gameaichecker-review`，不公开。
+- `intake.py validate --batch ID --stage evidence`，`prepare --batch ID --dry-run` 后正式 prepare；不允许覆盖任何已有 canonical。
+- `publish-batch.sh --batch ID --dry-run` 后 `--execute`。无 Git 凭证环境使用 `--execute --connector` 导出精确内容，通过 GitHub connector 提交后 `publish.py --batch ID --adopt-push SHA --push-stage media|site`；必须匹配父提交及整棵树。随后继续 --execute --connector。
+- `intake.py resume --batch ID` 先核对远程；prepared/applying/media_committed/media_pushed/media_ready/site_applying/site_committed/site_pushed/deployed 均持久化。两次提交中断都按计划 hash 恢复。不能强推或自动丢弃其他改动。
+- blocked 候选保留原因后用 `replace-blocked --batch ID --app APP` 替补，最多 min(30,3N) 次尝试。
+- `python3 -m unittest discover -s scripts/review/tests -v` 为离线故障测试；`tests/benchmark.py` 仅输出合成上下文和队列代理指标，不是模型 token 或正式万级构建能力。
+
+新增游戏只登记 `state/registered-games.json`：pendingMedia 阶段请求媒体；active 阶段加入审计、导出、完整媒体与英文紧凑详情。旧名单不迁移，保留其原先不同集合。完整图库校验覆盖元数据中每个 header/background/screenshot URL 和本地每个变体；媒体脚本任一项失败都非零退出。
