@@ -1,6 +1,7 @@
 ---
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-const html = readFileSync(resolve('index.html'), 'utf8');
+import { renderHomeList } from '../lib/list-pages.js';
+const html = renderHomeList(readFileSync(resolve('index.html'), 'utf8'));
 ---
 <Fragment set:html={html} />

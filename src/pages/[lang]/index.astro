@@ -1,9 +1,10 @@
 ---
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { renderHomeList } from '../../lib/list-pages.js';
 import { languages, localizeHome } from '../../lib/i18n.js';
 export function getStaticPaths(){return languages.map(lang=>({params:{lang}}));}
 const {lang}=Astro.params;
-const html=localizeHome(readFileSync(resolve('index.html'),'utf8'),lang);
+const html=localizeHome(renderHomeList(readFileSync(resolve('index.html'),'utf8')),lang);
 ---
 <Fragment set:html={html} />

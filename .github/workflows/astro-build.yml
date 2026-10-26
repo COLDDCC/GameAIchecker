@@ -16,6 +16,7 @@ jobs:
       - run: npm install --no-audit --no-fund
       - run: node --test scripts/sitemap.test.mjs
       - run: npm run build
+      - run: node scripts/audit-lists.mjs
       - name: Check expected output
         run: |
           test -f dist/sitemap.xml

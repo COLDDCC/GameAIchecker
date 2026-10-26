@@ -1,6 +1,7 @@
 ---
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join, resolve } from 'node:path';
+import { renderLegacyList } from '../lib/list-pages.js';
 
 // Discover existing HTML pages automatically. New legacy pages require no
 // manual route registration; native Astro routes can replace them over time.
@@ -21,6 +22,6 @@ export function getStaticPaths() {
     .map(slug => ({ params: { slug } }));
 }
 const { slug } = Astro.params;
-const html = readFileSync(resolve(slug, 'index.html'), 'utf8');
+const html = renderLegacyList(readFileSync(resolve(slug, 'index.html'), 'utf8'), slug);
 ---
 <Fragment set:html={html} />

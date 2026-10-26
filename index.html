@@ -411,7 +411,8 @@ img{max-width:100%}
     {name: 'Dressmaker', appId: '4019220', developer: 'Cozy Lives', status: 'human_made', slug: '4019220-dressmaker'}
   ];
   const PAGE = 24;
-  let games = featured.slice();
+  let games = JSON.parse(document.getElementById('game-index')?.textContent || '{"games":[]}').games;
+  if (!games.length) games = featured.slice();
   let filter = 'all', query = '', shown = PAGE;
 
   const $ = id => document.getElementById(id);
@@ -763,20 +764,6 @@ img{max-width:100%}
   render();
   applyHash();
   window.addEventListener('hashchange', applyHash);
-
-  fetch('/data/game-index.json')
-    .then(r => { if (!r.ok) throw Error('HTTP ' + r.status); return r.json(); })
-    .then(data => {
-      const indexed = (data.games || []).map(g => ({...g, appId: g.appId ? String(g.appId) : null}));
-      const byId = new Map(indexed.filter(g => g.appId).map(g => [g.appId, g]));
-      const merged = featured.map(f => ({...f, ...(byId.get(f.appId) || {})}));
-      games = merged.concat(indexed.filter(g => !featured.some(f => f.appId === g.appId)));
-      updateCounts();
-      render();
-      fillHuman();
-      if (q.value.trim() && document.activeElement === q) openSuggest();
-    })
-    .catch(() => { $('browserNote').textContent = 'The full game list couldn’t load. Showing featured games only.'; });
 })();
 </script>
 </body>
