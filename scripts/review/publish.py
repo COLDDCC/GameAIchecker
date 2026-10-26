@@ -173,9 +173,21 @@ def adopt_push(b,key,remote):
     run('git','reset','--soft',remote)
     b['publishShas'][key]=remote;b['phase']='media_pushed' if key=='media' else 'site_pushed';save_batch(b)
     return {'phase':b['phase'],'remoteSha':remote}
+def supersede_site(b,remote):
+    if b['phase']!='site_pushed': raise ValueError('follow-up requires site_pushed')
+    git('fetch','origin','main')
+    if git('rev-parse','HEAD')!=remote or git('rev-parse','origin/main')!=remote: raise ValueError('synchronize exact follow-up head first')
+    old=b['publishShas']['site'];run('git','merge-base','--is-ancestor',old,remote)
+    if git('diff','--name-only',old,remote,'--','data/games','public/images/steam/apps','scripts/review/state/registered-games.json'): raise ValueError('follow-up changed reviewed content/media; revalidate separately')
+    verify_old(b)
+    for g in b['games']: media_check(g['appId'],tracked=True)
+    b['publishShas'].setdefault('siteHistory',[]).append(old);b['publishShas']['site']=remote
+    b['checkResults'].pop('ci',None);b['checkResults'].pop('production',None);save_batch(b)
+    return {'phase':b['phase'],'siteSha':remote,'superseded':old}
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--batch',required=True);p.add_argument('--dry-run',action='store_true');p.add_argument('--execute',action='store_true');p.add_argument('--timeout',type=int,default=900);p.add_argument('--connector',action='store_true');p.add_argument('--adopt-push');p.add_argument('--push-stage',choices=['media','site']);a=p.parse_args();b=load_batch(a.batch)
-    if a.adopt_push: print(json.dumps(adopt_push(b,a.push_stage,a.adopt_push)))
+    p=argparse.ArgumentParser();p.add_argument('--batch',required=True);p.add_argument('--dry-run',action='store_true');p.add_argument('--execute',action='store_true');p.add_argument('--timeout',type=int,default=900);p.add_argument('--connector',action='store_true');p.add_argument('--adopt-push');p.add_argument('--supersede-site');p.add_argument('--push-stage',choices=['media','site']);a=p.parse_args();b=load_batch(a.batch)
+    if a.supersede_site: print(json.dumps(supersede_site(b,a.supersede_site)))
+    elif a.adopt_push: print(json.dumps(adopt_push(b,a.push_stage,a.adopt_push)))
     elif a.dry_run:
         validate(b,'prepublish');print(json.dumps({'phase':b['phase'],'games':[g['appId'] for g in b['games']],'actions':['commit data and pending media IDs','push main and verify exact media SHA','verify all committed gallery files and full metadata coverage','activate registration, push main','check exact CI + production + every online page']}))
     elif a.execute: print(json.dumps(execute(b,a.timeout,a.connector)))

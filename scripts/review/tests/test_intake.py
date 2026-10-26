@@ -13,6 +13,8 @@ class IntakeTests(unittest.TestCase):
   for x in self.patches:x.start()
   (self.root/'data/games').mkdir(parents=True)
   subprocess.run(['git','init','-q',str(self.root)],check=True)
+  subprocess.run(['git','-C',str(self.root),'config','user.name','Fixture'],check=True)
+  subprocess.run(['git','-C',str(self.root),'config','user.email','fixture@example.invalid'],check=True)
   (self.root/'seed').write_text('seed');subprocess.run(['git','-C',str(self.root),'add','seed'],check=True);subprocess.run(['git','-C',str(self.root),'commit','-qm','seed'],check=True)
  def tearDown(self):
   for x in reversed(self.patches):x.stop()
