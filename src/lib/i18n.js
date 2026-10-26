@@ -32,6 +32,17 @@ export function localizeHome(html,lang){
  output=output.replace('</body>',`<script>document.getElementById('language-switcher')?.addEventListener('change',e=>{location.href='/'+e.target.value+'/'+location.hash});<\/script></body>`);
  // Localized routes are still incomplete: prevent search engines indexing partially translated copies.
  output=output.replace('</head>', '<meta name="robots" content="noindex,follow"></head>');
- output=output.replace('</head>',`<link rel="canonical" href="https://gameaichecker.com/${lang}/">${languages.map(code=>`<link rel="alternate" hreflang="${code}" href="https://gameaichecker.com/${code}/">`).join('')}<link rel="alternate" hreflang="x-default" href="https://gameaichecker.com/"></head>`);
+ // Update inherited head tags instead of appending a second canonical.
+ const canonical = `https://gameaichecker.com/${lang}/`;
+ const escapeAttribute = value => value.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+ const title = `${m.title} | Game AI Checker`;
+ output=output.replace(/<title>[^<]*<\/title>/, `<title>${escapeAttribute(title)}</title>`);
+ output=output.replace(/<link rel="canonical" href="[^"]*">/, `<link rel="canonical" href="${canonical}">`);
+ output=output.replace(/<meta property="og:url" content="[^"]*">/, `<meta property="og:url" content="${canonical}">`);
+ for (const [key, value] of [['description', m.intro], ['og:title', title], ['og:description', m.intro], ['twitter:title', title], ['twitter:description', m.intro]]) {
+   const attribute = key.startsWith('og:') ? 'property' : 'name';
+   output=output.replace(new RegExp(`<meta ${attribute}="${key}" content="[^"]*">`), `<meta ${attribute}="${key}" content="${escapeAttribute(value)}">`);
+ }
+
  return output;
 }
