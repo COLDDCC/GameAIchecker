@@ -152,7 +152,7 @@ def validate_game(b,g):
     searchraw=ROOT/pr.get('cachePath','__missing__')
     if not searchraw.is_file() or sha(searchraw)!=pr.get('contentHash'): raise ValueError('press search cache missing')
     if set(pr.get('readUrls',[])) != {r['url'] for r in pr['results'] if r.get('relevant')}: raise ValueError('relevant press unread')
-    if not set(pr.get('readUrls',[])) <= {s['url'] for s in sources.values() if s['sourceType']=='press'}: raise ValueError('press source missing')
+    if not set(pr.get('readUrls',[])) <= {s['url'] for s in sources.values() if s['sourceType'] in ('press','developer','community')}: raise ValueError('press source missing')
     di=e.get('discussion',{})
     if not di.get('pagesScanned') or 'visibleTopics' not in di or 'coverageLimits' not in di: raise ValueError('discussion scope missing')
     for t in di.get('related',[]):
@@ -202,11 +202,11 @@ def record(b,g,e,d):
     official=d['category']=='official_ai_disclosure'
     sources=[]
     for s in e['sources']:
-        typ={'store':'official_disclosure' if official else 'steam_store','discussion':'steam_page','thread':'community','press':'third_party','developer':'developer_statement'}[s['sourceType']]
-        sources.append(dict(type=typ,url=s['url'],label=s.get('label',s['sourceType']),date=s['fetchedAt'][:10],excerpt=s.get('publicExcerpt',s['quote'])))
+        typ={'store':'official_disclosure' if official else 'steam_store','discussion':'steam_page','thread':'community','press':'third_party','developer':'developer_statement','community':'community'}[s['sourceType']]
+        sources.append(dict(type=typ,url=s['url'],label=s.get('label',s['sourceType']),date=s['fetchedAt'][:10],excerpt=s.get('publicExcerpt',s['quote']),**({'publishedAt':s['publishedAt']} if s.get('publishedAt') else {})))
     release=d.get('releaseNote') or ident.get('release','待公布')
     if ident.get('comingSoon') and not d.get('releaseNote'): release+='（计划；核查时尚未发售）'
-    r=dict(appId=app,name=g['name'],category=d['category'],verification='steam_developer_self_disclosure' if official else ('developer_self_statement' if d['category']=='developer_no_genai_statement' else 'reviewed_no_substantiated_genai_claim'),summary=d['summary'],aiUsageCategories=used,aiAreas=states,aiAreaNotes={k:v['note'] for k,v in d['areas'].items() if v.get('note')},aiAreaSources={k:'official' if official else 'developer_statement' for k,v in d['areas'].items() if v['state'] not in ('not_stated','unreviewed')},steamUrl=f'https://store.steampowered.com/app/{app}/',developer=ident['developer'],publisher=ident.get('publisher',''),steamReleaseDate=release,genres=ident.get('genres',[]),reviewedAt=date,sources=sources,reviewNote=d['reviewNote'])
+    r=dict(appId=app,name=g['name'],category=d['category'],verification='steam_developer_self_disclosure' if official else ('developer_self_statement' if d['category']=='developer_no_genai_statement' else 'reviewed_no_substantiated_genai_claim'),summary=d['summary'],aiUsageCategories=used,aiAreas=states,aiAreaNotes={k:v['note'] for k,v in d['areas'].items() if v.get('note')},aiAreaSources={k:('official' if next(s for s in e['sources'] if s['id']==v['evidenceId'])['sourceType']=='store' else 'developer_statement') for k,v in d['areas'].items() if v['state'] not in ('not_stated','unreviewed')},steamUrl=f'https://store.steampowered.com/app/{app}/',developer=ident['developer'],publisher=ident.get('publisher',''),steamReleaseDate=release,genres=ident.get('genres',[]),reviewedAt=date,sources=sources,reviewNote=d['reviewNote'])
     if official: r.update(disclosureQuote=d['disclosureQuote'],disclosureQuoteNote=f'Steam 商店 AI 生成内容披露栏完整原文，{date} 核查；可能随商店页更新。')
     if d.get('aiScopeUnspecified'): r['aiScopeUnspecified']=True
     return r
@@ -218,6 +218,9 @@ def prepare(b,dry=False):
         target=ROOT/'data/games'/f"{g['appId']}.json"
         if target.exists(): raise ValueError('refusing existing canonical '+g['appId'])
         e,d=validate_game(b,g); r=record(b,g,e,d)
+        g['evidenceRefs']=[{k:s[k] for k in ('id','sourceType','url','fetchedAt','contentHash','locator')} for s in e['sources']]
+        g['evidenceHash']=sha(work(b)/app/'evidence.json') if (app:=g['appId']) else ''
+        g['decisionHash']=sha(work(b)/app/'decision.json')
         if not dry:
             p=work(b)/'staging'/target.name; atomic(p,r); manifest[g['appId']]=sha(p)
     if not dry:

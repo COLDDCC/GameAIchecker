@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """Two-phase publisher: explicit paths, per-SHA gates, persistent recovery."""
-import argparse, json, re, subprocess, sys, time
+import argparse, json, re, subprocess, sys, time, os, hashlib
 from pathlib import Path
 from intake import ROOT, STATE, atomic, read, now, git, lock, load_batch, save_batch, verify_old, validate, work, media_check, slug, sha
 REPO='COLDDCC/GameAIchecker'
 def run(*args): subprocess.run(args,cwd=ROOT,check=True)
 def api(path):
-    # Public GET only. A connector may also supply an identical recorded response.
+    # Short-lived raw connector responses support environments without API network access.
+    cache=os.environ.get('INTAKE_GITHUB_RESPONSE_DIR')
+    if cache:
+        snapshot=read(Path(cache)/(hashlib.sha256(path.encode()).hexdigest()+'.json'))
+        if not snapshot or snapshot.get('path')!=path or time.time()-snapshot.get('recordedAt',0)>180: raise ValueError('fresh GitHub connector response required: '+path)
+        return snapshot['payload']
     result=subprocess.check_output(['curl','-fLsS','--max-time','30','https://api.github.com/repos/'+REPO+'/'+path],text=True)
     return json.loads(result)
 def verify_remote(b):

@@ -1,0 +1,492 @@
+{
+  "schemaVersion": 1,
+  "batchId": "20261026T175642-213092",
+  "requestedCount": 10,
+  "baseSha": "a8b314aace425ebb3ee6624b106d6fd284f7c6ad",
+  "policyVersion": "2026-10-26-v1",
+  "phase": "prepared",
+  "createdAt": "2026-10-26T09:56:42.675034+00:00",
+  "oldHashes": {
+    "4919570": "6db9a9032405731d678ce73b0f359a8c49784b4fab1d0b68d3b3eadb87580a13",
+    "4045480": "4592a74006a5f67146251ee3aebb07837681650660d4ca49985543fd37216e63",
+    "4949400": "beb2a97ee8585ce7ffa675c3e5df898e3356a0d677a58d222cc7c060832ab119",
+    "4484810": "0cb92a04626a131c948ecd22b5e4c8dbe9beb3eef3eda8a59103b7e5433e5ca2",
+    "4553100": "281a634a000110713bd6f9c7fc42cf3a4ca2a07ed506ac6997c3b6dc50304cd9",
+    "3907570": "1aa7105eb8d22188f4bdae1403737431ad88c9e03d4b6d9f079f0b95046ba2a1",
+    "4163270": "387b4f9b838098226e1b9c6cdaa321acbaa43b2a6d97e6c247670caf4dffbffd",
+    "864170": "d0971015b4e54dc9280995e1547b2c71dc960586879ebf8364d8d91b0aebf8ee",
+    "4740930": "e48e964e7c89da550155a161bee4d13937dc51d705b8d34af12802bb00eccd23",
+    "4900890": "0f4b06debe25f1063232b50b0361c429dff83ee717edb67cc34141826a31d594",
+    "5391500": "c89d6cc8c33cb6ae06ba003bc974abed5421971e4fb53ecd8da1c63238be6b17",
+    "4110770": "f3e0c8fa0400bf967d37be11a48586fb94d6753a205d0476feed982618327e9e",
+    "4826820": "0cbeb5621b061a859afb08a1c5682eef3a5ade86417ef6920c51b6649b89930e",
+    "2677980": "e609a314744fc6fcf4962f34eb0d65cd0d2d43b62157035f1d8b157612e8f922",
+    "4736090": "7942958c4decb384cd2e4b8501f1fe946ca88aa26db9c50ea46d70580020c3ee",
+    "3421660": "19a20224cdc18d0df3a18b8e4532581731dafba3bec80550d0d047269cd4e918",
+    "4693000": "b3d78ab89f785eb8a558bf01f2908161d45cb7b7c58b7b63931d28f9e2771544",
+    "4189910": "bbb5e0f66e9096e2723caac4c2695af37925dfa533e0523d85ae6bf24550d6f6",
+    "2073850": "952e1e9afd7cc1344791dd25f6f9e9cea016687498d1e51b735075164fda365a",
+    "4929280": "ac2e6006dd83a87fd342f351c63e4f7b7ae5c4b4b07177a05828532f7dc5c424",
+    "2275940": "37a5351f4ba9b9b23f7fad78eae118a2aa15f84481a9194969ac197aa5c7eeee",
+    "5323250": "8be657e4d626701817b2a50f4e69acdf560b47fc91de2379a3f3fcf52a0afbf4",
+    "4570020": "3f855d4eaa02ce1ccc88c49ed7398b0aed93363957d3a76549cf0568775f1e0b",
+    "4521650": "81213951eee5d4462ee46e225b49411da15644375aa8b99dbe2609703faf9e3c",
+    "4058300": "234ddfa7ec6acab5b88ab04b9563f271b6ec1dd2b9145d7b075b0fae1799033e",
+    "3284200": "3611fae9637599729d0b7ecfc2506370c4e2cb9d2f5328e6b86050cfe9551aac",
+    "5120010": "974f1be4ec814279fec09b1ddd4b296a01dc70ba0bfcb2dd2c83f98d13dabc4a",
+    "3078120": "4cf4e98e0df9602c09b939ea367a417c0ecda4a413688d61408f08345e5dc159",
+    "1853440": "e3ab7831ac4d2e8b7f63eae0a4f2a502e3119bb402f6d913fb3803aa1fd63ef7",
+    "3796150": "89d236698a6df6256a055c21d3de6dd788533e00b20aa40a9f634a1f0f62a3de",
+    "2988120": "b80766ba744192f4fca8a94e43c800304fa955bacf7d277ff0185935ec2f0ccd",
+    "3837790": "fbc80d79182f2fd5bf0c6cfad38c63e77aec88fea6075d7293399fb6ac1a8df8",
+    "5086350": "876faf1b7a062f7976b914ed6b6436851260fcb2d9811df7d3f58b01146e0e02",
+    "5004560": "bb733a438c43efb3c63d3f670225e4c33208308aff6365a6b6799f3156cba12b",
+    "5200400": "a149b3e4e90478128daeaa74600a0a7bf34c64cd6dacc53fdf1229e52be3bb4f",
+    "3265900": "1d0c7455bd6c1d09c345abba936ece65fe4333ce44a269e776b802a66869856c",
+    "4868310": "c581abe0d09d16949a5c1ae5ca5288e33574e11fca9d30813cd8e8cac0ba82f0",
+    "4955250": "bc71314cbad0b27975b1062ca151ebda924ee8d9b2d87d6fa8a3156e312cc5c1",
+    "4576390": "54ffc4aadf29059dee836868f64583b277a80c1bfc5db31043f6eedc6cf99b46",
+    "5073550": "f104673a5926d315f53b6a76fe3d12a7f6dc2090a7d4f6f9ad78d4f0cf27704d",
+    "4410710": "7871186e4e6bb70a62c8add2ca7032cf08a68c708633817baacb52735084e478",
+    "3629430": "55815153c9759a84fa6fc815811d86e4fa4eb8a3a8e454864d602d2ff52bcea1",
+    "3405680": "5c10679378ee1eabb748996b049d60cfd2291491c63cf004b2888e5bfe618c37",
+    "5393000": "55870764ea6a658515c4b99b52d89bd6d97b137166a7f7ae156ff26166eb72dd",
+    "2295170": "950c7278fe61c4d39eb82f9592582b78ead8d5b607e9116bf7a6dc37236ab732",
+    "2861080": "2cbb98617efb55120f1f32b96d0c6f52467117d82f645df7a4dd564baf645551",
+    "4943260": "5ff659d819450cc2c50060dce5badc9dbad3fe7b894043bb08c3b4951386dfb4",
+    "4487060": "7a7943ca9737fab3f8e3ebbed977d49ab9993f32f8ff9264f587edcdbeaf239c",
+    "4544110": "e2c00ead2d6c69eb2b392680490efcaf9d3c68d2b0403c0f13496c56e03e16a5",
+    "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
+    "3616280": "81cc5e5f956e5d18090ffa8fdacb9e79e478872af19972a78e002aa6026e8603",
+    "4264000": "eea3418ffd765dd3da582b498c40cdad95196011c50b523d0b2853b5e209227b",
+    "3432860": "05d531103254a21517af37234ec51227c9cd5f8552e0abfc3bf612ae15ccfec2",
+    "5053550": "e219e6b026be405f2994625a0f45fe5e2d48d32eec90ef492bfbc7682cdf4844",
+    "3670600": "cd96f944ac56bd8f02f836cff8542176a037a0af7bddd001b370434486b477af",
+    "2958550": "88930ad433426b159a625487ef9863651c8c43e63521318feff13a569dcf0ebb",
+    "4180840": "5f1551127b17a35558e822a7dc29e856df57c1971bbb1e15ca33fb8df19a6f18",
+    "5182120": "5f0fc3dcdb560a0dcaf86d6d3f63655aa117c885855fdb94e621d27b7431f871",
+    "4541470": "12e722038316aa25a93aae8028ef1fa1637ef8bf5086b9281274638bf0ebd43b",
+    "5175310": "88847c6ff373673598246f4f777bf515e4e8d95c6b5ae508d69c7f93a01a3073",
+    "2153760": "007102419fcc7b343422a50b2528546efada4cdc3f30644fd2140b5f07653e67",
+    "5344070": "fdc0d9f09de7bad42b941d1f54dc3ce37c47a85c5e4bd239f6d2d3a22bb5120a",
+    "4450660": "ae42b5b169cd5ca3359e5e2e01aa54dd190d7697bd9c16e58bd1408be5b4662e",
+    "2708040": "4c42ce311c92361485c621fc8a8b1fd2de19ae2f7cea1065a113f6de6792741d",
+    "1975650": "de641a4d55d9f555b4521c55ea31f7be8bba3419480ef9d8e8af1744848f0e1d",
+    "4142360": "e36c2bf5ec644d7490010fb2785b3ec2209bdd249c1bf036a037f5801e456449",
+    "4598530": "aa9d9a8574d347e95089e6a30946ec3580f3cd74287f0a0cdb3e31a1677a065d",
+    "4106650": "9ae662564f497bbfaa5db3cdb06587242fdac75f79d1cafdedd9f9716044caeb",
+    "4824220": "e92d54c2cc9e7c46a234f330504be8eddead78c76cb24812d29acb5c6ed6817b",
+    "3517740": "0a79944890b73de175e0be518ee9d9746d2af3601556bc650f6cfcd15beb65a5",
+    "5272230": "b26fd309b10dd62a0aad7defff9643fe1122a9a9ec9ffc2d7d3b7356bb633b4a",
+    "4225280": "541ef89a363785d030d571bacc2c6745ba90bfc237b80a3774a4e8240a57d8c7",
+    "3419080": "0b069f058a53f9ee6af21ef68cd10a3ee2df44d1c3e0eea60409b8e1ee032798",
+    "3717830": "22bc57f951c33f36adcb26a45cd1e9774e19a662c8d8f3daa41df7d2db670c7b",
+    "5117550": "a95850a8382fc705ae3430f23bdc9b36ccb53821180b61557d8cde340197e57f",
+    "2800150": "59a7df74d9254ed964c49959326a84f59c8fc511210ee6afdaf12f9173b3ff32",
+    "4395320": "ce93d456b849a6dfe4c870cc69455bde450c35e36f09728cd11221f46532cafe",
+    "3734220": "1cc2d8bac96282acb146ea2664b55c751e3b5d9edb9f9fa64421bb607df7e6f5",
+    "3884860": "3d89e7661622fc1c5be73b8b99beb4adbea8d704cd3a35abcdc8f6739fee2e1b",
+    "3658930": "a8c437dafa1d1bc6b964c04b52806c965578ea15fbc3ed3b5b2d1f947e827c89",
+    "4858850": "cc23fef91e31482f99e3c759a90ca953152377dce3ce3658000cb0adcadd90ee",
+    "1889700": "9c15a699c2035ce43e2a8aa754b050095156453b15d9d75931fa0081833f6f33",
+    "4794490": "bb32dcbeaf91034f730d41e887b62ddb4c69062530c383083eca3cc2f9d0ea52",
+    "4093320": "1e6113bee8abc2e4b04a632e55efac398b94e50fc3c98eca2a267666ffca452c",
+    "3465440": "5e12e2b84bcf03d64b5286dc6f2ec797404e71c81197e32b59749541dcb614bc",
+    "1889620": "c87c2f742a9ae46dc86d2259b755eef419f05604e944be0b210eb073e662d6d9",
+    "5315310": "913fad7387442d731eb7e549c411f73af7dd23d285950de7a90bee02ee69b071",
+    "3093990": "d169e6f2b51ea14da54d8fe2b3e62c5a29ffa40bca27f857ed65fc8e139e2864",
+    "2870790": "1ee5385f9372d91471122aef44211f5a81ed7e0e292802b4cff3419389a81893",
+    "3519780": "35064907c9146b713757f549e95f43b51604ca686ac3aa90700ddec6ae1f9519",
+    "5037200": "ece32ea1f9d5d013d0d90fa2f417a016c3714f32e9e25004c858b39ed5eeb6d8",
+    "3161310": "fa2d733976734d213d3af71ec8621ebf3e57734d9e573ad44689d0cdb3933962",
+    "4348910": "37de7776dccc53facfefb90c0399870a7ca0581328f21e5364dfefc87d2d0201",
+    "4462580": "ab541b05576952236babd15f4b0809b5cf7873fab517d9ba55ba25e5953e925c",
+    "5012840": "aa429283c94d07d95e5821aab92fe34171cb8a6f839ed7658de20e22e66ba87a",
+    "3680170": "26f205f9c212b8963d0059938f9d9b320811198bc08656978c6ac6745034dce8",
+    "5160800": "91be8cf885d15483a8e974c9536ca35d84add40c9934b0c431d14262edde2f79",
+    "2456740": "dd89e8010d09ae0bafa7209e0a13b4e3f0a996425256f1cc6d0198a74b02680a",
+    "4019220": "a99266928c0534902475e29c335f5c7a12870375afd6888b8923d921b3606124",
+    "3642910": "cbc21097444a278057b3c9c3381cbbae269411e883daf22476142536c4a27d7a",
+    "5285650": "87850db8e8512b8bf910b1f1effcd9bfe0587813b4762c2d1bac87b7f6a79b74",
+    "3109590": "dc6d065335be1877174d5b526d62bd5f4fa771672aedac229c269f87b0998af4",
+    "4982910": "70d89b18b985a753aa9afd54742964b6c3c62b36fc8bef94be436abe22300323",
+    "3218350": "1284aa1b80446d0f74c18607a2848d5e2429ce1e9c289856b1cc927b698b6b4b",
+    "4709270": "4ad06a127833f079e099dcb33871095fae0169d8f34cb4eee010a112f85dea56",
+    "3782550": "01408946527f0d3323c35280395ac66d96b5b5b74a6616206d7c65b7dece8ddf",
+    "5285080": "47199708d344a8b55da2ff105166f14d4dcbb147f7671d387ff538ed36e6c547",
+    "3218230": "2869a4dfee2adaa7abea744d1637fb636090dd5f2eb7fef88d42062410e71ff1",
+    "4210140": "2c30f46b0e24a841b70467bc4b52fc75c5886195e8c899effe4d08a74531c2f3",
+    "4490840": "20cab29d97530e6436782323346faf385801b4ea25b4a09c6ffef1e302aa2810",
+    "5345260": "ebda27212b39bbb715bc887fe983cf09a7c004d62124181ed6b14ec6d9fefa0a"
+  },
+  "games": [
+    {
+      "appId": "4283610",
+      "name": "Witherbound",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/4283610/?l=english",
+          "fetchedAt": "2026-10-26T09:56:47.598735+00:00",
+          "contentHash": "538fc8c4c4d5aecaa3590f65eef14a15c4d1edc11a96d6aa6808ac86bef10865",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/4283610/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:56:58.706261+00:00",
+          "contentHash": "04f940e6bfbade9173fd79e193f4783337259b268e81dcffe425192e31e23de1",
+          "locator": "forum topics container"
+        }
+      ],
+      "evidenceHash": "b7d459fc4d8d2e8dbc2fd753970dfb60161d717007c3b33603f1448c773df85d",
+      "decisionHash": "30d91c9943bd3d46a5eb83637e8e7d5d3029d792ff7f95cd17625213c1b10490"
+    },
+    {
+      "appId": "5271610",
+      "name": "Cyber Sweeper",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/5271610/?l=english",
+          "fetchedAt": "2026-10-26T09:57:02.464586+00:00",
+          "contentHash": "d51c6f9cc08a896ff4c80533db6a4a6279d3c9c34d1d81ab3237f1b9fea14974",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/5271610/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:57:14.110128+00:00",
+          "contentHash": "4c92fecf33706f39d46a4042ecc4b58e22093d1030431d19c74cc6f08ff819e1",
+          "locator": "forum topics container"
+        }
+      ],
+      "evidenceHash": "3ba7856aff530ddb82fb74d66800f6e5bf7977851c181d0ddb5c7d488242e63d",
+      "decisionHash": "5e0f902ed4eed8cca0c75942db2c614b0153e87eed427f6e2109be77dea84321"
+    },
+    {
+      "appId": "4512740",
+      "name": "Teckel Adventure",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/4512740/?l=english",
+          "fetchedAt": "2026-10-26T09:57:19.638426+00:00",
+          "contentHash": "772cbd7eb90de73bc9ae3ad8c5380d212eb69dde83dad75b1a7ef7969f517e97",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/4512740/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:57:30.158340+00:00",
+          "contentHash": "e733e2e8f4493d68788a216005e60aefc8b2b77532458ea63999d9d76af2aaa8",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "developer",
+          "url": "https://soulsquest.itch.io/teckel-adventure",
+          "fetchedAt": "2026-10-26T09:59:25.954809+00:00",
+          "contentHash": "f5b249f7948002a6c3dc03fc802dc36009a3dfc56f8a2f0d65c12c167ca7da6d",
+          "locator": "visible page text; relevant original statement"
+        },
+        {
+          "id": "press-1",
+          "sourceType": "community",
+          "url": "https://steamcommunity.com/profiles/76561198216163891/recommended/4512740",
+          "fetchedAt": "2026-10-26T09:59:31.407311+00:00",
+          "contentHash": "d764a881e57ed00b93d377de6819b0d8e6f4bab9b001c166d473e609c7eaea7c",
+          "locator": "visible page text; relevant original statement"
+        }
+      ],
+      "evidenceHash": "b83a89dd8829b9b8774989a396d3611e96e29ab4f38ee12bf1fa1ad75d922df0",
+      "decisionHash": "4f50d9513d9722a09025e3a3c6986c293871934437541b2428df4a147fedb03c"
+    },
+    {
+      "appId": "5203430",
+      "name": "Jirai Kei Nemu",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/5203430/?l=english",
+          "fetchedAt": "2026-10-26T09:57:36.520167+00:00",
+          "contentHash": "021b697d187e98bbafd90132636ab1f4573a31503426b6b62bf006e1a5d7a483",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/5203430/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:57:47.077916+00:00",
+          "contentHash": "ba1b95062904d8eb7e662a712c0b86c454278337838f03cf500e7c50122b7e09",
+          "locator": "forum topics container"
+        }
+      ],
+      "evidenceHash": "4fd93d9929fd01a39dfab84f0cc8869bfe238fb5a28097a9b5877cdc896f99ba",
+      "decisionHash": "696b4be1110caf74186ba87dfa16388c2a352fdc2884d6718fc117184039623f"
+    },
+    {
+      "appId": "2015220",
+      "name": "ONYX2D",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/2015220/?l=english",
+          "fetchedAt": "2026-10-26T09:57:52.541981+00:00",
+          "contentHash": "798eb6647b9207adf0b5ee3b36ce66d86caec6bc3963d49d88b2fac19362b39f",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/2015220/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:58:02.526705+00:00",
+          "contentHash": "2ba47af04caede4bb000b9f9199ad89aca3e5d953691713b3acf057afac8a3c9",
+          "locator": "forum topics container"
+        }
+      ],
+      "evidenceHash": "c835e9b62d4bf5c554a07024e84efa5ee9b9de33d080da212ffae70fa7d8004e",
+      "decisionHash": "c3e39509245a7b7dc57ec8e067d6d9d282cc3b0ba60f1085017193d8750f0607"
+    },
+    {
+      "appId": "5117020",
+      "name": "RIPGRAZE",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/5117020/?l=english",
+          "fetchedAt": "2026-10-26T09:58:07.758154+00:00",
+          "contentHash": "c21fe6157c6948c5ab2ca19505defce8f095d2091afd5231589715c8346ba6ae",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/5117020/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:58:19.198293+00:00",
+          "contentHash": "2aaf524cc3d4b256ca4fb6f4a4378a40beea6cc7648dfd2be5fff980cf475635",
+          "locator": "forum topics container"
+        }
+      ],
+      "evidenceHash": "ad95bbae074f0d6541927ea67a6b23cf873d8fdb4bb6035974b71f06b4b4f139",
+      "decisionHash": "a9ecd9e5ceec2c5f0b7ed4e26e6ce13b38129b4766e7e4f6f1b94e82262f47b2"
+    },
+    {
+      "appId": "4951480",
+      "name": "LIGHT IT",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/4951480/?l=english",
+          "fetchedAt": "2026-10-26T09:58:24.302049+00:00",
+          "contentHash": "9f0866128a2553b79df08a8ae07f60208e171695cb4064ccb34a1eab4f64d4fc",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/4951480/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:58:34.503282+00:00",
+          "contentHash": "f4a334aea2f40e9827012dc7e36e563748ba3c3aa3b052b7a8409c52960c661c",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://aitransparencyindex.com/products/steam/4951480",
+          "fetchedAt": "2026-10-26T10:00:05.198808+00:00",
+          "contentHash": "4a1eecec279ffbebac0f940c32af157782f4d870a487d56df4e26856c9f34f14",
+          "locator": "visible page text; relevant original statement"
+        }
+      ],
+      "evidenceHash": "cf1090a94ffa5f6a1973762384f7e60f8f069c813745e6a1d098d41086ab5d09",
+      "decisionHash": "8eaeef7a26d84f4c08e8314d7fde7871ade8e08261f62941d24c7d083ed8749b"
+    },
+    {
+      "appId": "5418470",
+      "name": "Streamer Manager",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/5418470/?l=english",
+          "fetchedAt": "2026-10-26T09:58:39.609958+00:00",
+          "contentHash": "c8695d31001d8ccdc510920b8ecf7ba66959d25247168b6a007c135444ebb10a",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/5418470/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:58:50.046607+00:00",
+          "contentHash": "7cf55a22f18927db8477616544e37a3f5f49623690b0744b8ff06499dc2cc701",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://gamedb.ai/games/5418470-streamer-manager",
+          "fetchedAt": "2026-10-26T09:59:53.182277+00:00",
+          "contentHash": "793eb48e2867cff6e79b7f89611224cc60ebc4df67311a56525cdec98d562a4e",
+          "locator": "visible page text; relevant original statement"
+        }
+      ],
+      "evidenceHash": "87fc7d6fbff6a7f70bb436de99df4e361cffde68face8c65fbb5710cc70e2b23",
+      "decisionHash": "8baa02688646bb10cb3ef6b7e9e9eb03c87d59f833f0082b91dd15b247f8c948"
+    },
+    {
+      "appId": "5300720",
+      "name": "Pop the Balloon",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/5300720/?l=english",
+          "fetchedAt": "2026-10-26T09:58:55.939857+00:00",
+          "contentHash": "30751a4b6f7270c06dcb4ca205dfaa85c2ff2c2f38613e7ac70b4d14e5eec92c",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/5300720/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:59:06.954010+00:00",
+          "contentHash": "13661f497190196ee6db85d239a7d5adf01da2fe3f7eca7f18e0f39b248f4723",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://gamedb.ai/games/5300720-pop-the-balloon",
+          "fetchedAt": "2026-10-26T09:59:59.554340+00:00",
+          "contentHash": "2be76bc592fa20034c79307b6d2db84af209f68cd48c544cb906e9abb4714a44",
+          "locator": "visible page text; relevant original statement"
+        }
+      ],
+      "evidenceHash": "8ee92e4edac1ccec29669252924be3efdf74253644a2677a21edd3aa207aa7a2",
+      "decisionHash": "618a077d5b6914c6019738f6cdd609c663151be94c0a13687ce6633cfce4e20e"
+    },
+    {
+      "appId": "5051910",
+      "name": "HUG＆BETRAY",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/5051910/?l=english",
+          "fetchedAt": "2026-10-26T09:59:12.801841+00:00",
+          "contentHash": "1dab494bd8953e5815d55f8b81957cddf507ae6b9dc82c6e3ad1d7bbb0180aab",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/5051910/discussions/?l=english",
+          "fetchedAt": "2026-10-26T09:59:22.910624+00:00",
+          "contentHash": "acbe0f937126d158142aa6dde51edb30fb51fd1cf9d0ac873dc1ca3f66065602",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "developer",
+          "url": "https://note.com/yattaaaaaaa777/n/nd0b8acee8517",
+          "fetchedAt": "2026-10-26T09:59:36.288990+00:00",
+          "contentHash": "a8008397b87419ac3f9c0001e3f254c5c0dccf2e6709d1a2c581a0bf392aa2e2",
+          "locator": "visible page text; relevant original statement"
+        },
+        {
+          "id": "press-1",
+          "sourceType": "developer",
+          "url": "https://note.com/yattaaaaaaa777/n/n532333f3cfbb",
+          "fetchedAt": "2026-10-26T09:59:42.470442+00:00",
+          "contentHash": "c0f7fdfd9adac78d9f56f9ee59e0149b1c7a247415026496bbf730642c870270",
+          "locator": "visible page text; relevant original statement"
+        },
+        {
+          "id": "press-2",
+          "sourceType": "developer",
+          "url": "https://note.com/yattaaaaaaa777/n/na197fcf727a8",
+          "fetchedAt": "2026-10-26T09:59:47.834398+00:00",
+          "contentHash": "1f7ada82c279d5f0cfbf7bdf0c1686fcc83ac080b06939bdc67bda62f1ff325d",
+          "locator": "visible page text; relevant original statement"
+        }
+      ],
+      "evidenceHash": "6a3c33f8b5f10ec90b20fbb8d974838cda4ff19dbfb6db8ec21b88e58d795da8",
+      "decisionHash": "410b45c94e7dba070886a5b3a04003c3a8ad9f1eaff7d4b7dba870991af269ce"
+    }
+  ],
+  "checkResults": {},
+  "publishShas": {},
+  "attempts": 10,
+  "maxAttempts": 30
+}
