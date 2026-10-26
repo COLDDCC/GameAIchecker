@@ -1,2 +1,3 @@
 import { defineConfig } from 'astro/config';
-export default defineConfig({ output: 'static', site: 'https://gameaichecker.com', trailingSlash: 'always' });
+import sitemap from './scripts/sitemap.mjs';
+export default defineConfig({ output: 'static', integrations: [sitemap()], site: 'https://gameaichecker.com', trailingSlash: 'always' });

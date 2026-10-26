@@ -14,9 +14,12 @@ jobs:
         with:
           node-version: '22'
       - run: npm install --no-audit --no-fund
+      - run: node --test scripts/sitemap.test.mjs
       - run: npm run build
       - name: Check expected output
         run: |
+          test -f dist/sitemap.xml
+          test -f dist/robots.txt
           test -f dist/index.html
           test -f dist/game/index.html
           test -f dist/events/next-fest/index.html
