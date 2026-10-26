@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Two-phase publisher: explicit paths, per-SHA gates, persistent recovery."""
-import argparse, json, re, subprocess, sys, time, os, hashlib
+import argparse, json, re, subprocess, sys, time, os, hashlib, tempfile
 from pathlib import Path
 from intake import ROOT, STATE, atomic, read, now, git, lock, load_batch, save_batch, verify_old, validate, work, media_check, slug, sha
 REPO='COLDDCC/GameAIchecker'
@@ -49,8 +49,30 @@ def production_gate(sha):
             if c['status']=='completed' and c['conclusion']=='success': return c
     return None
 
+def check_images(b,urls):
+    urls=list(dict.fromkeys(urls));cache=work(b)/('online-images-'+b['publishShas']['site']+'.json')
+    saved=read(cache,{})
+    pending=[url for url in urls if url not in saved or time.time()-saved[url].get('checkedAt',0)>300]
+    if pending:
+        cache.parent.mkdir(parents=True,exist_ok=True)
+        with tempfile.NamedTemporaryFile(mode='w',suffix='.curl',dir=cache.parent) as config:
+            for url in pending:
+                if not url.startswith('https://gameaichecker.com/images/steam/apps/') or any(c in url for c in ('\n','\r','"')): raise ValueError('unsafe image URL')
+                config.write('url = "'+url+'"\noutput = "/dev/null"\n')
+            config.flush()
+            # Reuse two connections; still require every image response, not just one cover.
+            result=subprocess.run(['curl','--parallel','--parallel-max','2','-fLsS','--max-time','30','--write-out','%{url_effective}\t%{http_code}\t%{content_type}\n','--config',config.name],text=True,capture_output=True)
+        for line in result.stdout.splitlines():
+            parts=line.split('\t')
+            if len(parts)==3 and parts[0] in pending and parts[1]=='200' and parts[2].startswith('image/'):
+                saved[parts[0]]={'httpStatus':200,'contentType':parts[2],'checkedAt':time.time()}
+        atomic(cache,saved)
+        missing=[url for url in pending if url not in saved or time.time()-saved[url].get('checkedAt',0)>300]
+        if result.returncode or missing: raise ValueError('online image verification incomplete; successful responses checkpointed: '+str(missing[:3]))
+    return {'responses':len(urls),'cache':str(cache.relative_to(ROOT))}
+
 def online(b):
-    results=[]
+    results=[];image_urls=[]
     for g in b['games']:
         r=read(ROOT/f'data/games/{g["appId"]}.json');url=f'https://gameaichecker.com/games/{g["appId"]}-{slug(r["name"])}/'
         html=subprocess.check_output(['curl','-fLsS','--max-time','30',url],text=True)
@@ -63,8 +85,9 @@ def online(b):
         if not any(i['src'].split('?')[0] in html for i in gallery['images']): raise ValueError('online gallery missing')
         for image in gallery['images']:
             for k in ('src','thumbnail','full'):
-                run('curl','-fLsS','--max-time','30','-o','/dev/null','https://gameaichecker.com'+image[k])
+                image_urls.append('https://gameaichecker.com'+image[k])
         results.append({'appId':g['appId'],'url':url,'checkedAt':now(),'status':'passed'})
+    b['checkResults']['onlineImages']=check_images(b,image_urls);save_batch(b)
     return results
 
 def execute(b,timeout=900,connector=False):

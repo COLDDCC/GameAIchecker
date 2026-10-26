@@ -100,6 +100,16 @@ class IntakeTests(unittest.TestCase):
   (root/'x.webp').write_bytes(b'fixture');meta=self.root/'data/steam/100.json';i.atomic(meta,dict(name='Fixture',header='https://example.org/image',screenshots=[dict(full='https://example.org/missing')]))
   with self.assertRaisesRegex(ValueError,'incomplete'):i.media_check('100')
   i.atomic(meta,dict(name='Fixture',header='https://example.org/image'));self.assertGreater(i.media_check('100'),0)
+ def test_online_images_reject_html_and_resume_only_missing(self):
+  from types import SimpleNamespace
+  b=self.fixture();b['publishShas']['site']='fixture-sha'
+  u='https://gameaichecker.com/images/steam/apps/100/a.webp';v='https://gameaichecker.com/images/steam/apps/100/b.webp'
+  with patch.object(p.subprocess,'run',return_value=SimpleNamespace(stdout=u+'\t200\timage/webp\n'+v+'\t200\ttext/html\n',returncode=0)):
+   with self.assertRaisesRegex(ValueError,'incomplete'):p.check_images(b,[u,v])
+  with patch.object(p.subprocess,'run',return_value=SimpleNamespace(stdout=v+'\t200\timage/webp\n',returncode=0)) as request:
+   self.assertEqual(p.check_images(b,[u,v])['responses'],2);self.assertEqual(request.call_count,1)
+  with patch.object(p.subprocess,'run',side_effect=AssertionError('completed images must not refetch')):
+   self.assertEqual(p.check_images(b,[u,v])['responses'],2)
  def test_push_nonzero_does_not_advance(self):
   b=self.fixture();b.update(phase='media_committed');b['publishShas']['media']='abc'
   with patch.object(p,'git',return_value=''),patch.object(p.subprocess,'run') as r,patch.object(p,'run',side_effect=subprocess.CalledProcessError(1,['git','push'])):

@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "a8b314aace425ebb3ee6624b106d6fd284f7c6ad",
   "policyVersion": "2026-10-26-v1",
-  "phase": "media_pushed",
+  "phase": "deployed",
   "createdAt": "2026-10-26T09:56:42.675034+00:00",
   "oldHashes": {
     "4919570": "6db9a9032405731d678ce73b0f359a8c49784b4fab1d0b68d3b3eadb87580a13",
@@ -485,12 +485,121 @@
       "decisionHash": "410b45c94e7dba070886a5b3a04003c3a8ad9f1eaff7d4b7dba870991af269ce"
     }
   ],
-  "checkResults": {},
+  "checkResults": {
+    "media": {
+      "checks": {
+        "Persist media for reviewed games": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40304858121"
+      },
+      "bytes": 13770147,
+      "verifiedRemoteSha": "078f16d04801f34222a2d672e345df18321a1cd8"
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40305847462",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40305847543"
+    },
+    "production": {
+      "sha": "b9494c9cd532038755e9b782b4f5be78c8c918c0",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/8a1b1634-ef96-4a79-9243-4ea0e9b3a765",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>b9494c9</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://8a1b1634.gameaichecker.pages.dev'>https://8a1b1634.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/8a1b1634-ef96-4a79-9243-4ea0e9b3a765)\n",
+      "checkedAt": "2026-10-26T10:27:42.261424+00:00"
+    },
+    "onlineImages": {
+      "responses": 267,
+      "cache": ".cache/gameaichecker-review/20261026T175642-213092/online-images-b9494c9cd532038755e9b782b4f5be78c8c918c0.json"
+    },
+    "online": [
+      {
+        "appId": "4283610",
+        "url": "https://gameaichecker.com/games/4283610-witherbound/",
+        "checkedAt": "2026-10-26T10:27:48.328351+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5271610",
+        "url": "https://gameaichecker.com/games/5271610-cyber-sweeper/",
+        "checkedAt": "2026-10-26T10:27:54.743116+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4512740",
+        "url": "https://gameaichecker.com/games/4512740-teckel-adventure/",
+        "checkedAt": "2026-10-26T10:28:00.859135+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5203430",
+        "url": "https://gameaichecker.com/games/5203430-jirai-kei-nemu/",
+        "checkedAt": "2026-10-26T10:28:06.901116+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2015220",
+        "url": "https://gameaichecker.com/games/2015220-onyx2d/",
+        "checkedAt": "2026-10-26T10:28:12.975143+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5117020",
+        "url": "https://gameaichecker.com/games/5117020-ripgraze/",
+        "checkedAt": "2026-10-26T10:28:20.555073+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4951480",
+        "url": "https://gameaichecker.com/games/4951480-light-it/",
+        "checkedAt": "2026-10-26T10:28:26.995598+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5418470",
+        "url": "https://gameaichecker.com/games/5418470-streamer-manager/",
+        "checkedAt": "2026-10-26T10:28:33.664074+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5300720",
+        "url": "https://gameaichecker.com/games/5300720-pop-the-balloon/",
+        "checkedAt": "2026-10-26T10:28:39.644333+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5051910",
+        "url": "https://gameaichecker.com/games/5051910-hug-betray/",
+        "checkedAt": "2026-10-26T10:28:45.871504+00:00",
+        "status": "passed"
+      }
+    ],
+    "costMetrics": {
+      "scope": "first batch captured artifacts; exploratory discovery and initial grouped searches excluded",
+      "modelTokens": "not exposed by this session",
+      "rawStoreIdentityDiscussionBytes": 1633256,
+      "evidenceJsonBytes": 87902,
+      "resumePackBytes": 1453,
+      "perGameSearchQueriesCaptured": 14,
+      "completedDecisions": 10,
+      "cachedHttpResponses": 39,
+      "exactTokenSavings": "not measured; no percentage claim",
+      "images": 89,
+      "webpVariants": 267,
+      "webpBytes": 13729748,
+      "galleryJsonBytes": 40399,
+      "totalGalleryBytes": 13770147,
+      "onlineImageResponsesVerified": 267,
+      "offlineTestsPassed": 30
+    }
+  },
   "publishShas": {
-    "media": "1c34839d56257551da5b2795bb78eb870209f608"
+    "media": "1c34839d56257551da5b2795bb78eb870209f608",
+    "site": "b9494c9cd532038755e9b782b4f5be78c8c918c0",
+    "siteHistory": [
+      "c2fbaca6d3e1ab084f917a1e3cacc73df234e2a2"
+    ]
   },
   "attempts": 10,
   "maxAttempts": 30,
   "applyBase": "319d620911da966725842c797db1e5ad8d59dae6",
-  "pendingTree": "ffff554ab6b98fbf8db177cdea940a4c70319ac4"
+  "pendingTree": "ffff554ab6b98fbf8db177cdea940a4c70319ac4",
+  "siteBase": "078f16d04801f34222a2d672e345df18321a1cd8",
+  "siteTree": "1affd854e60ffd762086660d640fdd3c2dd10f31",
+  "pilotAcceptance": "pending_site_owner_review"
 }

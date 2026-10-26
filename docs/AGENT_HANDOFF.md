@@ -1,11 +1,11 @@
 # Game AI Checker：游戏详情页核查交接方案
 
-更新于 2026-10-25。写给接手维护游戏详情页的 agent。动手前请完整读一遍。
+更新于 2026-10-26。写给接手维护游戏详情页的 agent。动手前请完整读一遍。
 
 ## 1. 当前状态
 
-- 网站共 111 个游戏，每个都有一份正式核查记录 `data/games/<AppID>.json`，并且都在构建审计 `scripts/audit-reviewed-games.mjs` 里。
-- 结论分布：未发现可核实证据 74，官方 AI 披露 29，开发者称人工制作 8。
+- 网站共 121 个游戏，每个都有一份正式核查记录 `data/games/<AppID>.json`，并且都在构建审计 `scripts/audit-reviewed-games.mjs` 里。
+- 结论分布：未发现可核实证据 74，官方 AI 披露 39，开发者称人工制作 8。
 - 已没有 `unverified-*` 空壳页。在 Steam 上找不到对应游戏的 24 个条目已经下线，但没有删除：
   - 它们保存在 `data/next-fest-100.json` 的 `removedEntries`，以及 `data/community-game-submissions.json` 的 `removedSubmissions`。
   - 每条都写了下线日期和原因。
