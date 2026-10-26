@@ -93,11 +93,11 @@ class ForwardSkillTests(unittest.TestCase):
         b=self.ready(1);self.assertIn('decisionHash',self.pack(b)[0])
         folder=intake.work(b)/b['games'][0]['appId']
         decision=intake.read(folder/'decision.json');decision.pop('identityName');intake.atomic(folder/'decision.json',decision)
-        self.assertIn('evidence',self.pack(b)[0])
+        self.assertTrue(self.pack(b)[0].get('sources'))
         decision['identityName']=b['games'][0]['name'];intake.atomic(folder/'decision.json',decision)
         self.assertIn('decisionHash',self.pack(b)[0])
         (folder/'store.html').write_text('raw source changed')
-        self.assertIn('evidence',self.pack(b)[0])
+        self.assertTrue(self.pack(b)[0].get('sources'))
     def test_raw_hash_valid_but_fabricated_quote_refused(self):
         b=self.ready(1);folder=intake.work(b)/b['games'][0]['appId'];e=intake.read(folder/'evidence.json');d=intake.read(folder/'decision.json')
         e['sources'][0]['quote']='Fabricated disclosure not in original response.';d['disclosureQuote']=e['sources'][0]['quote']

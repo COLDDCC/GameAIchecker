@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "a8b314aace425ebb3ee6624b106d6fd284f7c6ad",
   "policyVersion": "2026-10-26-v1",
-  "phase": "prepared",
+  "phase": "media_pushed",
   "createdAt": "2026-10-26T09:56:42.675034+00:00",
   "oldHashes": {
     "4919570": "6db9a9032405731d678ce73b0f359a8c49784b4fab1d0b68d3b3eadb87580a13",
@@ -486,7 +486,11 @@
     }
   ],
   "checkResults": {},
-  "publishShas": {},
+  "publishShas": {
+    "media": "1c34839d56257551da5b2795bb78eb870209f608"
+  },
   "attempts": 10,
-  "maxAttempts": 30
+  "maxAttempts": 30,
+  "applyBase": "319d620911da966725842c797db1e5ad8d59dae6",
+  "pendingTree": "ffff554ab6b98fbf8db177cdea940a4c70319ac4"
 }

@@ -117,7 +117,14 @@ def main():
     if b['phase'] in ('prepared','media_pushed','media_ready','site_pushed','deployed'): raise ValueError('collection closed for prepared batch')
     b['phase']='collecting';save_batch(b)
     for g in b['games']:
-        if a.pending_only and g['store']==g['discussion']==g['identity']=='complete': continue
+        if a.pending_only and g['store']==g['discussion']==g['identity']=='complete':
+            e=read(work(b)/g['appId']/'evidence.json',{})
+            cached=e.get('sources',[])+[e.get('identity',{}).get('identityEvidence',{})]
+            intact=bool(cached) and all((ROOT/s.get('cachePath','__missing__')).is_file() and sha(ROOT/s['cachePath'])==s.get('contentHash') for s in cached)
+            if intact: continue
+            g['store']=g['discussion']=g['identity']='pending'
+            g['press']='pending' # Lost evidence must be refreshed, including independent search.
+            g['coverageLimits'].append('缓存丢失或变更，重新抓取并要求重新核查。')
         try: collect_game(b,g); print(g['appId'],'collected')
         except (ValueError,OSError,KeyError) as ex:
             g['reason']=str(ex);g['retries']+=1;g['coverageLimits'].append(str(ex));print(g['appId'],'blocked:',ex)

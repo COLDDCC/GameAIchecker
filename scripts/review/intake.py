@@ -249,6 +249,8 @@ def media_check(app, tracked=False, full=True):
         meta=read(ROOT/f'data/steam/{app}.json',{})
         urls={u for u in [meta.get('background'),meta.get('header')]+[s.get('full') or s.get('thumbnail') for s in meta.get('screenshots',[])] if u}
         if not meta.get('name') or meta.get('unavailable') or not urls or not urls <= {i.get('source') for i in g['images']}: raise ValueError('incomplete full gallery '+app)
+        expected_movies=meta.get('movies',[])
+        if len(g.get('movies',[]))!=len(expected_movies) or any(m.get('thumbnail') and not g['movies'][idx].get('thumbnail') for idx,m in enumerate(expected_movies)): raise ValueError('incomplete movie thumbnails '+app)
     return sum((ROOT/p).stat().st_size for p in set(paths))
 
 def main():
@@ -265,13 +267,15 @@ def main():
         elif a.command=='pack':
             out=[]
             for g in b['games']:
+                if a.app and g['appId']!=a.app: continue
                 skip=False
                 if a.pending_only and (work(b)/g['appId']/'decision.json').exists():
                     try: validate_game(b,g);skip=True
                     except (ValueError,OSError,KeyError): pass
                 if skip:
                     out.append({'appId':g['appId'],'phase':b['phase'],'decisionHash':sha(work(b)/g['appId']/'decision.json')}); continue
-                out.append({'game':g,'evidence':read(work(b)/g['appId']/'evidence.json',{})})
+                e=read(work(b)/g['appId']/'evidence.json',{})
+                out.append({'game':{k:v for k,v in g.items() if k not in ('evidenceRefs',)},'identity':{k:v for k,v in e.get('identity',{}).items() if k!='identityEvidence'},'sources':[{k:s[k] for k in ('id','sourceType','url','fetchedAt','quote','locator') if k in s} for s in e.get('sources',[])],'discussion':e.get('discussion'),'press':{k:v for k,v in e.get('press',{}).items() if k not in ('results','contentHash','cachePath')},'resultCount':len(e.get('press',{}).get('results',[])),'fullEvidencePath':str(work(b)/g['appId']/'evidence.json')})
         elif a.command=='resume':
             git('fetch','origin','main'); verify_old(b)
             with lock():
