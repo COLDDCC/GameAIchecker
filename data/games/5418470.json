@@ -1,0 +1,74 @@
+{
+  "appId": "5418470",
+  "name": "Streamer Manager",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "从小房间起步，安排直播、处理打赏并逐步积累粉丝的主播经营模拟游戏。 开发者披露大部分 2D 美术、部分文本、商店文案与 12 种非韩语本地化使用 AI；音效和音乐为程序合成，运行时不生成内容。",
+  "aiUsageCategories": [
+    "art",
+    "writing",
+    "translation",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "used",
+    "music": "none",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者明确称运行时不生成内容，无在线或实时 AI 功能。",
+    "art": "大部分 2D 视觉素材由生成式图像模型制作并人工编辑。",
+    "music": "开发者称音乐和音效由自有脚本程序合成，不是 AI 生成。",
+    "writing": "UI 文案、对白、聊天文本及商店介绍使用 AI 辅助撰写并人工审核。",
+    "translation": "12 种非韩语本地化由 AI 翻译并审核。",
+    "marketing": "商店胶囊图等宣传视觉属于披露的 AI 制作范围。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "music": "official",
+    "writing": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5418470/",
+  "developer": "Hankan Game",
+  "publisher": "Hankan Game",
+  "steamReleaseDate": "November 2026（计划；核查时尚未发售）",
+  "genres": [
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-26",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5418470/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-26",
+      "excerpt": "Pre-generated content. Most 2D artwork was created with generative image models from our own prompts and then edited by hand: character portraits (both the illustrated avatars and the photo-style streamer portraits, none of which depict real people), room backgrounds, on-air scenes and props, equipment and menu icons, the title illustration, the app icon and the store capsules. In-game text (UI copy, dialogue and chat lines) and the store description were written together with an AI assistant and reviewed by the developer, and the 12 non-Korean localizations were produced with AI translation and reviewed. Music and sound effects are not AI-generated; they are synthesized procedurally by our own scripts. The game does not generate any content at runtime and has no online or live AI features."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5418470/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-26",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gamedb.ai/games/5418470-streamer-manager",
+      "label": "GameDB.ai 第三方披露索引",
+      "date": "2026-10-26",
+      "excerpt": "第三方 GameDB.ai 索引转述商店披露；不作为独立技术审计。 原文摘录：Most 2D art was AI-generated"
+    }
+  ],
+  "reviewNote": "结论以开发者披露为依据，不是独立技术审计。披露未提及的领域标为“未提及”，不表示确认未使用。已核对本页正式版 App ID 与开发商；试玩版结论不混用。讨论区检查覆盖英文首页，其他语言分区与更早历史未穷尽。逐游戏公开检索仅覆盖当次搜索结果；聚合索引不作为独立验证。",
+  "disclosureQuote": "Pre-generated content. Most 2D artwork was created with generative image models from our own prompts and then edited by hand: character portraits (both the illustrated avatars and the photo-style streamer portraits, none of which depict real people), room backgrounds, on-air scenes and props, equipment and menu icons, the title illustration, the app icon and the store capsules. In-game text (UI copy, dialogue and chat lines) and the store description were written together with an AI assistant and reviewed by the developer, and the 12 non-Korean localizations were produced with AI translation and reviewed. Music and sound effects are not AI-generated; they are synthesized procedurally by our own scripts. The game does not generate any content at runtime and has no online or live AI features.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-26 核查；可能随商店页更新。"
+}

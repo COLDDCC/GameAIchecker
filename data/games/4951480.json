@@ -1,0 +1,69 @@
+{
+  "appId": "4951480",
+  "name": "LIGHT IT",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "在纸艺风格棋盘放置发光水晶、照亮所有格子的逻辑解谜游戏。 开发者披露音乐使用 Suno，部分视觉素材使用图像生成工具，代码开发使用 AI 辅助构思与调试；游玩时不实时生成内容。",
+  "aiUsageCategories": [
+    "code",
+    "art",
+    "music"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "used",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者明确称游玩时不实时生成 AI 内容。",
+    "code": "AI 辅助提出实现思路和调试。",
+    "art": "部分视觉素材使用 AI 图像生成工具。",
+    "music": "游戏内音乐使用 Suno 生成。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "code": "official",
+    "art": "official",
+    "music": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4951480/",
+  "developer": "HuntForge",
+  "publisher": "HuntForge",
+  "steamReleaseDate": "Aug 7, 2026",
+  "genres": [
+    "Casual",
+    "Indie"
+  ],
+  "reviewedAt": "2026-10-26",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4951480/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-26",
+      "excerpt": "AI Generated Content Disclosure The developers of LIGHT IT provide the following disclosure regarding the use of AI tools in the creation of this game. All AI-assisted content is pre-generated; the game does not generate any AI content live during gameplay. Music: The in-game music was produced using Suno, an AI music-generation tool. Art: Some visual assets were created with the assistance of AI image-generation tools. Code: AI assistants were used to help brainstorm implementation ideas and to assist with debugging. All AI-assisted content and code was reviewed, tested, and refined by the developer before being included in the final game."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4951480/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-26",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/4951480",
+      "label": "AI Transparency Index 第三方披露索引",
+      "date": "2026-10-26",
+      "excerpt": "第三方 AI Transparency Index 转载披露；没有发现可据此修改官方领域判断的独立审计。 原文摘录：AI Generated Content Disclosure"
+    }
+  ],
+  "reviewNote": "结论以开发者披露为依据，不是独立技术审计。披露未提及的领域标为“未提及”，不表示确认未使用。已核对本页正式版 App ID 与开发商；试玩版结论不混用。讨论区检查覆盖英文首页，其他语言分区与更早历史未穷尽。逐游戏公开检索仅覆盖当次搜索结果；聚合索引不作为独立验证。",
+  "disclosureQuote": "AI Generated Content Disclosure The developers of LIGHT IT provide the following disclosure regarding the use of AI tools in the creation of this game. All AI-assisted content is pre-generated; the game does not generate any AI content live during gameplay. Music: The in-game music was produced using Suno, an AI music-generation tool. Art: Some visual assets were created with the assistance of AI image-generation tools. Code: AI assistants were used to help brainstorm implementation ideas and to assist with debugging. All AI-assisted content and code was reviewed, tested, and refined by the developer before being included in the final game.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-26 核查；可能随商店页更新。"
+}

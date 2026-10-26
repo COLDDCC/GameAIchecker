@@ -1,0 +1,58 @@
+{
+  "appId": "2015220",
+  "name": "ONYX2D",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "基于 Project Onyx 世界的快节奏 2D 竞技场射击游戏。 开发者披露主要在代码和 SVG 图形中使用 AI，并用 AI 协助移植与继续开发；未说明实时生成等其他领域。",
+  "aiUsageCategories": [
+    "code",
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "used",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "code": "原有系统由开发者用 Unity 编写，AI 用于移植和后续开发。",
+    "art": "原文明确提到 SVG 图形；不推断其他美术素材范围。"
+  },
+  "aiAreaSources": {
+    "code": "official",
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/2015220/",
+  "developer": "Sindruid",
+  "publisher": "Obstination Studios",
+  "steamReleaseDate": "Coming soon（计划；核查时尚未发售）",
+  "genres": [
+    "Action",
+    "Indie",
+    "RPG"
+  ],
+  "reviewedAt": "2026-10-26",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/2015220/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-26",
+      "excerpt": "AI Code and SVGs (Mostly), original systems were made in unity by hand and i used ai to port and continue dev."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2015220/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-26",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "结论以开发者披露为依据，不是独立技术审计。披露未提及的领域标为“未提及”，不表示确认未使用。已核对本页正式版 App ID 与开发商；试玩版结论不混用。讨论区检查覆盖英文首页，其他语言分区与更早历史未穷尽。逐游戏公开检索仅覆盖当次搜索结果；聚合索引不作为独立验证。",
+  "disclosureQuote": "AI Code and SVGs (Mostly), original systems were made in unity by hand and i used ai to port and continue dev.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-26 核查；可能随商店页更新。"
+}

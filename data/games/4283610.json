@@ -1,0 +1,58 @@
+{
+  "appId": "4283610",
+  "name": "Witherbound",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "支持多人合作与对抗的沙漠回合制撤离 RPG。 开发者披露使用生成式 AI 制作部分预生成音效与背景音乐。",
+  "aiUsageCategories": [
+    "music"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "music": "部分预生成音效与背景音乐使用生成式 AI；原文未说明其他领域。"
+  },
+  "aiAreaSources": {
+    "music": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4283610/",
+  "developer": "Wipe Labs",
+  "publisher": "Wipe Labs",
+  "steamReleaseDate": "Coming soon（计划；核查时尚未发售）",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Indie",
+    "RPG",
+    "Strategy",
+    "Free To Play"
+  ],
+  "reviewedAt": "2026-10-26",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4283610/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-26",
+      "excerpt": "We use generative AI tools during development to create certain pre-rendered audio assets (sound effects and background music). We ensure that prompts do not reference copyrighted works, artists, or specific intellectual property. We use commercially licensed AI services and comply with their terms of service."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4283610/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-26",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "结论以开发者披露为依据，不是独立技术审计。披露未提及的领域标为“未提及”，不表示确认未使用。已核对本页正式版 App ID 与开发商；试玩版结论不混用。讨论区检查覆盖英文首页，其他语言分区与更早历史未穷尽。逐游戏公开检索仅覆盖当次搜索结果；聚合索引不作为独立验证。",
+  "disclosureQuote": "We use generative AI tools during development to create certain pre-rendered audio assets (sound effects and background music). We ensure that prompts do not reference copyrighted works, artists, or specific intellectual property. We use commercially licensed AI services and comply with their terms of service.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-26 核查；可能随商店页更新。"
+}

@@ -1,0 +1,59 @@
+{
+  "appId": "5203430",
+  "name": "Jirai Kei Nemu",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "陪伴工作与专注计时的像素桌面伙伴，包含喝茶、阅读与休息动作。 开发者披露角色像素精灵、图库插画及商店图像从 AI 辅助草稿开始，经人工修整；游玩时不生成 AI 内容。",
+  "aiUsageCategories": [
+    "art",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者明确称游玩时不生成 AI 内容。",
+    "art": "角色精灵以 AI 辅助草稿为起点，由团队逐像素修整。",
+    "marketing": "商店图片与图库插画使用 AI 辅助草稿后人工修整。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5203430/",
+  "developer": "Code in Pixel",
+  "publisher": "Code in Pixel",
+  "steamReleaseDate": "Coming soon（计划；核查时尚未发售）",
+  "genres": [
+    "Casual",
+    "Indie"
+  ],
+  "reviewedAt": "2026-10-26",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5203430/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-26",
+      "excerpt": "Every pixel-art character sprite in the game was retouched and finished pixel by pixel by our team, starting from AI-assisted drafts. Gallery illustrations and store images were also drafted with AI assistance and then retouched by hand. No AI-generated content is created during gameplay."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5203430/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-26",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "结论以开发者披露为依据，不是独立技术审计。披露未提及的领域标为“未提及”，不表示确认未使用。已核对本页正式版 App ID 与开发商；试玩版结论不混用。讨论区检查覆盖英文首页，其他语言分区与更早历史未穷尽。逐游戏公开检索仅覆盖当次搜索结果；聚合索引不作为独立验证。",
+  "disclosureQuote": "Every pixel-art character sprite in the game was retouched and finished pixel by pixel by our team, starting from AI-assisted drafts. Gallery illustrations and store images were also drafted with AI assistance and then retouched by hand. No AI-generated content is created during gameplay.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-26 核查；可能随商店页更新。"
+}
