@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { getGameIndex } from './games.js';
+import { englishRecord } from './english.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const read = file => JSON.parse(readFileSync(`data/${file}`, 'utf8'));
@@ -35,10 +36,10 @@ function attributes(game, extras = {}) {
     .map(([key, value]) => `data-${key}="${esc(value)}"`).join(' ');
 }
 function englishCard(game, extras = {}, text = '') {
-  return `<article class="card" ${attributes(game, extras)}>${cover(game, 'gac-cover')}<div class="gac-card-content"><h2><a href="${esc(`/games/en/${game.slug}/`)}">${esc(game.name)}</a></h2><span class="tag pill">${status(game)[1]}</span><p class="small">${esc(game.developer)}${game.releaseYear ? ` · Steam release: ${esc(game.releaseYear)}` : ''}</p><p>${esc(game.summary)}</p>${text}<p><a href="${esc(`/games/en/${game.slug}/`)}">View evidence →</a> · <a href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer">Steam store ↗</a> · <a href="/share/?game=custom&amp;title=${encodeURIComponent(game.name)}">Share card ↗</a></p></div></article>`;
+  return `<article class="card" ${attributes(game, extras)}>${cover(game, 'gac-cover')}<div class="gac-card-content"><h2><a href="${esc(`/games/${game.slug}/`)}">${esc(game.name)}</a></h2><span class="tag pill">${status(game)[1]}</span><p class="small">${esc(game.developer)}${game.releaseYear ? ` · Steam release: ${esc(game.releaseYear)}` : ''}</p><p>${esc(englishRecord(game).summary)}</p>${text}<p><a href="${esc(`/games/${game.slug}/`)}">View evidence →</a> · <a href="${esc(game.steamUrl)}" target="_blank" rel="noopener noreferrer">Steam store ↗</a> · <a href="/share/?game=custom&amp;title=${encodeURIComponent(game.name)}">Share card ↗</a></p></div></article>`;
 }
 function chineseCard(game) {
-  return `<a class="card" href="${esc(profile(game))}" ${attributes(game)}>${cover(game, 'cover')}<div class="body"><div class="badge tone-${esc(game.statusTone || 'gray')}">${esc(game.statusLabel)}</div><h2>${esc(game.name)}</h2><p class="dev">${esc(game.developer || '开发商待核实')}${game.releaseYear ? ` · ${esc(game.releaseYear)}` : ''}</p><p class="summary">${esc(game.summary)}</p>${game.areaSummary ? `<div class="chips">${game.areaSummary.split('、').slice(0, 3).map(label => `<span class="chip">${esc(label)}</span>`).join('')}</div>` : ''}<span class="more">查看档案 →</span></div></a>`;
+  return `<a class="card" href="${esc(`/games/zh-cn/${game.slug}/`)}" ${attributes(game)}>${cover(game, 'cover')}<div class="body"><div class="badge tone-${esc(game.statusTone || 'gray')}">${esc(game.statusLabel)}</div><h2>${esc(game.name)}</h2><p class="dev">${esc(game.developer || '开发商待核实')}${game.releaseYear ? ` · ${esc(game.releaseYear)}` : ''}</p><p class="summary">${esc(game.summary)}</p>${game.areaSummary ? `<div class="chips">${game.areaSummary.split('、').slice(0, 3).map(label => `<span class="chip">${esc(label)}</span>`).join('')}</div>` : ''}<span class="more">查看档案 →</span></div></a>`;
 }
 
 export function renderLegacyList(html, route) {

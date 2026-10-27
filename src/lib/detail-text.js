@@ -1,0 +1,27 @@
+// Shared English/Chinese detail template. Source quotations remain verbatim.
+export const detailText = {
+ 'Disclosure & evidence':'披露与证据','Games':'游戏库','How to check':'核查方法','Home':'首页','AI DISCLOSURE CHECK':'AI 使用披露核查',
+ 'Official AI disclosure':'官方 AI 披露','Human-made claim':'开发者称人工制作','No verified AI evidence found':'未发现可核实 AI 证据','Unverified player report':'未经核实的玩家报告','Not reviewed':'未核查','Site owner review passed':'通过站内人工审核',
+ 'The developer has disclosed AI use. Read the original wording below for its scope; this is a developer statement, not an independent audit.':'开发者已披露使用 AI。具体范围以原文为准；这是开发者自述，未经独立审计。',
+ 'A human-made claim is recorded. Check which areas the statement actually covers; it does not independently certify every part of development.':'记录了人工制作声明，请核对其覆盖的领域；这不是对整个开发流程的独立认证。',
+ 'The review did not establish a substantiated generative-AI production claim. This does not confirm that the game is AI-free.':'本次审查未找到可核实的生成式 AI 制作证据；不等于确认零 AI。',
+ 'A player report is recorded and remains unverified.':'玩家报告已记录，尚未经核实。','There is not enough reviewed evidence to reach a conclusion.':'现有证据不足以得出结论。',
+ 'The site owner has reviewed this human-made listing. This is a site review, not third-party certification.':'本站负责人已审查此人工制作条目；属于站内审核，非第三方独立认证。',
+ 'Read developer disclosures, eight AI-use areas, dated sources and review limits.':'查看开发者披露、八个领域、来源日期与核查限制。',
+ 'Disclosed areas:':'披露领域：','The disclosure does not identify the asset types. No specific area is inferred.':'披露未说明素材类别，因此不推断具体领域。',
+ 'Read the evidence':'查看证据','Steam store ↗':'Steam 商店 ↗','Developer':'开发商','Last reviewed':'最近核查','Not confirmed':'待核实','Not recorded':'未记录',
+ 'Official Steam imagery. Rights belong to the respective owners.':'Steam 官方图片，版权归相应权利人。','Eight areas, separate answers':'八个领域，分别核查',
+ '“Not stated” means the reviewed evidence does not settle that area. Open a card for the recorded note.':'“未提及”表示证据不足以判断该领域。点击卡片查看说明。',
+ 'In-game generation':'游戏内生成','Code':'代码','Art':'美术','Music & sound':'音乐与音效','Voice':'配音','Writing':'文字','Translation':'翻译','Marketing':'营销',
+ 'AI use disclosed':'已披露使用 AI','Developer claims no AI':'开发者称未使用','Explicitly stated no use':'明确声明未使用','Not stated':'未提及','Review note':'审查说明','Check original sources ↓':'查看原始来源 ↓',
+ 'Original disclosure':'披露原文','Developer wording, preserved in its original language. Store wording can change after the review date.':'保留开发者原文及原始语言。商店披露可能在核查后更新。',
+ 'No official disclosure quotation is recorded here. This does not establish that no AI tools were used.':'未记录官方披露原文；不等于确认没有使用 AI 工具。',
+ 'Sources & review limits':'来源与审查限制','Sources &amp; review limits':'来源与审查限制',
+ 'Official statements and community allegations are kept separate. Source excerpts and original review notes retain their original language.':'官方声明与玩家指控分别记录，来源摘录保留原始语言。',
+ 'Official disclosure':'官方披露','Steam store':'Steam 商店','Steam discussion index':'Steam 讨论首页','Community report':'玩家报告','Third-party source':'第三方来源','Developer statement':'开发者声明','Recorded source':'已记录来源',
+ 'Date not recorded':'未记录日期','Read original source ↗':'查看原始来源 ↗','Review notes & coverage limits':'审查备注与范围限制','Review notes &amp; coverage limits':'审查备注与范围限制',
+ 'Community posts can raise questions but do not establish an official AI-use finding. A forum homepage check is not a review of every historical post or every language.':'社区帖子可提供线索，但不能据此认定官方 AI 使用。讨论首页检查不覆盖全部历史和语言。',
+ 'Suggest a correction with a dated source ↗':'提供有日期的来源以纠错 ↗','Official gallery':'官方图库','Check another Steam game':'查询其他 Steam 游戏',
+ 'Search by game name, Steam App ID or store URL. Read the scope of the evidence before drawing a conclusion.':'按名称、Steam App ID 或商店链接查询。请先了解证据范围，再作判断。',
+ 'Search games':'搜索游戏','How to check AI use':'如何核查 AI 使用','Game AI Checker · Sources and review dates, not an AI detector. ':'Game AI Checker · 基于来源和核查日期整理。'
+};

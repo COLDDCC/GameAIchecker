@@ -1,11 +1,8 @@
 ---
 import { getAllGames } from '../../../lib/games.js';
 import { languages } from '../../../lib/i18n.js';
-import EnglishGameDetail from '../../../components/EnglishGameDetail.astro';
-import LocalizedGameDetail from '../../../components/LocalizedGameDetail.astro';
-export function getStaticPaths() {
-  return getAllGames().flatMap(game => languages.map(lang => ({params: {lang, slug: game.slug}, props: {game, lang}})));
-}
+import GameDetail from '../../../components/GameDetail.astro';
+export function getStaticPaths() { return getAllGames().flatMap(game => languages.filter(lang=>lang!=='en').map(lang=>({params:{lang,slug:game.slug},props:{game,lang}}))); }
 const { game, lang } = Astro.props;
 ---
-{lang === 'en' ? <EnglishGameDetail game={game} /> : <LocalizedGameDetail game={game} lang={lang} />}
+<GameDetail game={game} lang={lang} />

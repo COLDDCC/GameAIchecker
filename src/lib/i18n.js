@@ -10,6 +10,7 @@ export const messages = {
 'pt-br': {title:'Este jogo da Steam usa IA?',intro:'Pesquise um jogo da Steam e confira declarações sobre uso de IA e suas fontes.',search:'Consultar jogo →',placeholder:'Nome do jogo, ID Steam ou URL da loja',notice:'As declarações dos desenvolvedores são identificadas. A ausência de declaração não comprova ausência de IA.',queue:'Banco de dados de jogos',queueIntro:'Explore jogos e evidências.',method:'Como funciona a escala de uso de IA'}
 };
 export function localizeHome(html,lang){
+ if (lang === 'zh-cn') html = html.replace(/(href=["'])\/games\/(?!zh-cn\/)([^/"']+)\//g, '$1/games/zh-cn/$2/').replace("'/games/' + g.slug", "'/games/zh-cn/' + g.slug");
  const m=messages[lang]||messages.en;
  const base=messages.en;
  let output=html.replace('<html lang="en">',`<html lang="${lang}">`);
