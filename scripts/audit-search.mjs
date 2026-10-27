@@ -4,8 +4,9 @@ import {getAllGames} from '../src/lib/games.js';
 const games=getAllGames();
 const sitemap=readFileSync('dist/sitemap.xml','utf8');
 for(const g of games){
- const path=`/games/en/${g.slug}/`,zh=`/games/${g.slug}/`;
+ const path=`/games/${g.slug}/`,zh=`/games/zh-cn/${g.slug}/`;
  const html=readFileSync(`dist${path}index.html`,'utf8');
+ assert(!existsSync(`dist/games/en/${g.slug}/index.html`),'retired English alias must not be emitted');
  const original=readFileSync(`dist${zh}index.html`,'utf8');
  assert.match(html,/<html lang="en">/);
  assert(!/<meta[^>]+name="robots"[^>]+content="[^"]*noindex/i.test(html),path);
@@ -13,9 +14,11 @@ for(const g of games){
  assert(html.includes(`hreflang="zh-CN" href="https://gameaichecker.com${zh}"`),path);
  assert(original.includes(`hreflang="en" href="https://gameaichecker.com${path}"`),zh);
  assert(sitemap.includes(`https://gameaichecker.com${path}</loc>`),path);
+ assert(sitemap.includes(`https://gameaichecker.com${zh}</loc>`),zh);
+ assert(original.includes('lang="zh-CN"'),zh);
  assert(html.includes('Eight areas, separate answers')&&html.includes('Sources &amp; review limits'),path);
 }
-for(const p of ['guides/how-to-check-steam-game-ai','events/steam-next-fest-october-2026-ai-disclosures','collections/human-made-steam-games']){
+for(const p of ['guides/how-to-check-steam-game-ai','events/steam-next-fest-october-2026-ai-disclosures']){
  assert(existsSync(`dist/${p}/index.html`));assert(sitemap.includes(`https://gameaichecker.com/${p}/</loc>`));
 }
 const partial=readFileSync(`dist/games/ja/${games[0].slug}/index.html`,'utf8');

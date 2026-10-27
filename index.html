@@ -420,7 +420,7 @@ img{max-width:100%}
 
   const norm = s => String(s || '').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '');
   const statusOf = g => STATUS[g.status] || STATUS.unreviewed;
-  const profileUrl = g => g.hasStatic ? '/games/' + g.slug + '/' : '/game/?' + (g.appId ? 'id=' + encodeURIComponent(g.appId) : 'name=' + encodeURIComponent(g.name));
+  const profileUrl = g => g.hasStatic ? '/games/' + g.slug + '/' : '/browse/?q=' + encodeURIComponent(g.appId || g.name);
   const coverCandidates = g => {
     if (!g.appId) return [];
     const id = encodeURIComponent(g.appId);

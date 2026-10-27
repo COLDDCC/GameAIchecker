@@ -22,11 +22,11 @@ for (const [route, id, entries] of routes) {
   assert(list, `/${route}: missing list`);
   const ids = new Set(entries.map(g => String(g.appId || g.steamAppId)));
   for (const game of games.filter(g => ids.has(String(g.appId)))) {
-    assert(list.includes(`href="/games/${["browse", "indie-ai", "events/steam-next-fest-october-2026"].includes(route) ? "en/" : ""}${game.slug}/"`), `/${route}: missing static link for ${game.name}`);
+    assert(list.includes(`href="/games/${["games", "zh-cn"].includes(route) ? "zh-cn/" : ""}${game.slug}/"`), `/${route}: missing static link for ${game.name}`);
   }
   const cardCount = (staticHtml.match(/data-(?:game-id|search)="/g) || []).length;
   assert.equal(cardCount, entries.length, `/${route}: static card count`);
-  for (const [, slug] of staticHtml.matchAll(/href="\/games\/([^"/?#]+)\/"/g)) {
+  for (const [, slug] of staticHtml.matchAll(/href="\/games\/((?:zh-cn\/)?[^"/?#]+)\/"/g)) {
     assert(existsSync(join('dist/games', slug, 'index.html')), `/${route}: broken detail link ${slug}`);
   }
   assert(!/Loading…|正在读取游戏档案/.test(staticHtml), `/${route}: loading placeholder`);

@@ -11,6 +11,10 @@ export async function onRequest({ request, next }) {
   if (/^\/game(?:\/|$)/.test(url.pathname)) {
     return new Response('This legacy game page has been retired. Search at /browse/.', {status: 410, headers: {'Content-Type': 'text/plain; charset=utf-8', 'X-Robots-Tag': 'noindex, follow'}});
   }
+  if (url.pathname.startsWith('/games/en/')) {
+    url.pathname = url.pathname.replace('/games/en/', '/games/');
+    return Response.redirect(url.href, 301);
+  }
   const response = await next();
   if (/^\/(images|data)\//.test(url.pathname)) {
     const tagged = new Response(response.body, response);
