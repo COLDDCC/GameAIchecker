@@ -18,7 +18,7 @@ for(const g of games){
  assert(original.includes('lang="zh-CN"'),zh);
  assert(html.includes('Eight areas, separate answers')&&html.includes('Sources &amp; review limits'),path);
 }
-for(const p of ['guides/how-to-check-steam-game-ai','events/steam-next-fest-october-2026-ai-disclosures']){
+for(const p of ['guides/how-to-check-steam-game-ai','guides/how-to-tell-if-a-game-is-ai-generated','events/steam-next-fest-october-2026-ai-disclosures']){
  assert(existsSync(`dist/${p}/index.html`));assert(sitemap.includes(`https://gameaichecker.com/${p}/</loc>`));
 }
 const partial=readFileSync(`dist/games/ja/${games[0].slug}/index.html`,'utf8');
@@ -27,3 +27,10 @@ assert(!sitemap.includes('/games/ja/'));
 // Every source-backed existing canonical record is read only; language templates
 // may change presentation but must not mutate evidence or owner review data.
 console.log(`[audit-search] ${games.length} indexable English records, reciprocal language links, guide and event list passed`);
+
+const guideA=readFileSync('dist/guides/how-to-check-steam-game-ai/index.html','utf8');
+const guideB=readFileSync('dist/guides/how-to-tell-if-a-game-is-ai-generated/index.html','utf8');
+assert(guideA.includes('How to see if a game uses AI on Steam'));
+assert(guideB.includes('You usually cannot confirm AI use from a screenshot alone.'));
+assert(guideA.includes('/guides/how-to-tell-if-a-game-is-ai-generated/'));
+assert(guideB.includes('/guides/how-to-check-steam-game-ai/'));
