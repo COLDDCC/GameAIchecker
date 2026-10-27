@@ -1,0 +1,49 @@
+{
+  "appId": "4661070",
+  "name": "HANDS OVER",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "No AI disclosure was visible on the checked full-game Steam page for HANDS OVER. This records the limits of the reviewed evidence and does not certify that its development was AI-free.",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {},
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/4661070/",
+  "developer": "ArtDock",
+  "publisher": "ArtDock",
+  "steamReleaseDate": "Oct 30, 2026（计划；核查时尚未发售）",
+  "genres": [
+    "Action",
+    "Casual",
+    "Indie",
+    "Massively Multiplayer",
+    "Early Access"
+  ],
+  "reviewedAt": "2026-10-27",
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/4661070/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-27",
+      "excerpt": "完整商店页未显示 AI 生成内容披露栏；未披露不等于未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4661070/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-27",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 29）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "Checked the full-game Steam identity and complete store page, the English discussion homepage and any related visible first-page threads, plus a separate per-game web search. This is not a full historical or multilingual audit. Search limitations and source scope are recorded with the evidence. No disclosure does not mean no AI use."
+}

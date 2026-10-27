@@ -1,0 +1,63 @@
+{
+  "appId": "3739350",
+  "name": "Path of the Yaoguai",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "Path of the Yaoguai discloses that some game images were generated with AI and modified. The statement supports the art area only; it does not establish AI use in other production areas.",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "Some game images are AI-generated and subsequently modified, according to the full Steam disclosure."
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3739350/",
+  "developer": "RedKardia",
+  "publisher": "Samar Studio",
+  "steamReleaseDate": "Coming soon（计划；核查时尚未发售）",
+  "genres": [
+    "Adventure",
+    "Indie",
+    "RPG",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-10-27",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3739350/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-27",
+      "excerpt": "部分游戏图片由AI生成并修改"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3739350/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-27",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 52）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://howtomarketagame.com/2026/10/21/how-sloppy-is-the-october-2026-steam-next-fest/",
+      "label": "Public reporting / reference",
+      "date": "2026-10-27",
+      "excerpt": "How To Market A Game names Path of the Yaoguai among two AI-disclosing games in its early Next Fest top-25 sample. The article reports a dated sample, not a permanent rank."
+    }
+  ],
+  "reviewNote": "Checked the full-game Steam identity and complete store page, the English discussion homepage and any related visible first-page threads, plus a separate per-game web search. This is not a full historical or multilingual audit. Search limitations and source scope are recorded with the evidence. No disclosure does not mean no AI use.",
+  "disclosureQuote": "部分游戏图片由AI生成并修改",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-27 核查；可能随商店页更新。"
+}

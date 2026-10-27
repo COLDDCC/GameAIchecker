@@ -1,0 +1,68 @@
+{
+  "appId": "3321460",
+  "name": "Crimson Desert Enhanced",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "Crimson Desert Enhanced discloses supplementary generative AI use for some 2D prop assets and describes replacement through its production pipeline. Reporting documents the initial acknowledgement and later selected replacements, not verified removal of every affected asset.",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "The Steam disclosure names some 2D prop assets and a replacement pipeline; it does not independently establish complete removal."
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3321460/",
+  "developer": "Pearl Abyss",
+  "publisher": "Pearl Abyss",
+  "steamReleaseDate": "Mar 19, 2026",
+  "genres": [
+    "Action",
+    "Adventure"
+  ],
+  "reviewedAt": "2026-10-27",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3321460/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-27",
+      "excerpt": "Generative AI technology is used in a supplementary capacity during the creation of some 2D prop assets. Any such assets are replaced through our production pipeline by our art and development teams, ensuring they meet our quality standards and creative direction."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3321460/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-27",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 710）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.gamesradar.com/games/open-world/crimson-desert-developer-apologizes-for-ai-generated-assets-slipping-into-the-rpgs-final-release-this-is-not-in-line-with-our-internal-standards-and-we-take-full-responsibility-for-it/",
+      "label": "Public reporting / reference",
+      "date": "2026-10-27",
+      "excerpt": "GamesRadar reports Pearl Abyss’s March 2026 acknowledgement and promise to audit and replace AI-assisted 2D props."
+    },
+    {
+      "type": "third_party",
+      "url": "https://tech.yahoo.com/gaming/articles/crimson-desert-replaces-ai-generated-115244614.html",
+      "label": "Public reporting / reference",
+      "date": "2026-10-27",
+      "excerpt": "Later coverage reports replacements in patch 1.01.00. This does not establish that every affected asset has been removed."
+    }
+  ],
+  "reviewNote": "Checked the full-game Steam identity and complete store page, the English discussion homepage and any related visible first-page threads, plus a separate per-game web search. This is not a full historical or multilingual audit. Search limitations and source scope are recorded with the evidence. No disclosure does not mean no AI use.",
+  "disclosureQuote": "Generative AI technology is used in a supplementary capacity during the creation of some 2D prop assets. Any such assets are replaced through our production pipeline by our art and development teams, ensuring they meet our quality standards and creative direction.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-27 核查；可能随商店页更新。"
+}

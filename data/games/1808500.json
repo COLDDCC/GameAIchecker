@@ -1,0 +1,69 @@
+{
+  "appId": "1808500",
+  "name": "ARC Raiders",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "ARC Raiders has a broad official Steam AI disclosure that does not specify asset types. Separately, interviews report actor-licensed text-to-speech and later partial voice-line replacement; those reports are attributed rather than inferred from the store wording.",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {},
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/1808500/",
+  "developer": "Embark Studios",
+  "publisher": "Embark Studios",
+  "steamReleaseDate": "30 Oct, 2025",
+  "genres": [
+    "Action"
+  ],
+  "reviewedAt": "2026-10-27",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/1808500/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-27",
+      "excerpt": "During the development process, we may use procedural- and AI-based tools to assist with content creation. In all such cases, the final product reflects the creativity and expression of our own development team."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/1808500/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-27",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 1847）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.pcgamesn.com/arc-raiders/generative-ai-use",
+      "label": "Public reporting / reference",
+      "date": "2026-10-27",
+      "excerpt": "PCGamesN interviews design director Virgil Watkins about licensed actor-based text-to-speech for the ping system, while distinguishing that use from the game’s visuals."
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.gamespot.com/articles/arc-raiders-now-has-fewer-ai-voices-as-dev-re-recorded-lines-amid-controversy/1100-6538780/",
+      "label": "Public reporting / reference",
+      "date": "2026-10-27",
+      "excerpt": "GameSpot reports that some synthetic voice lines were re-recorded after launch. This describes a partial replacement, not removal of every AI-assisted voice line."
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.pcgamer.com/gaming-industry/arc-raiders-use-of-ai-highlights-the-tension-and-confusion-over-where-machine-learning-ends-and-generative-ai-begins/",
+      "label": "Public reporting / reference",
+      "date": "2026-10-27",
+      "excerpt": "PC Gamer discusses the difference between the broad Steam disclosure, text-to-speech voices and machine learning for animation. These are attributed reports, kept separate from the store-based area classification."
+    }
+  ],
+  "reviewNote": "Checked the full-game Steam identity and complete store page, the English discussion homepage and any related visible first-page threads, plus a separate per-game web search. This is not a full historical or multilingual audit. Search limitations and source scope are recorded with the evidence. No disclosure does not mean no AI use. The official wording does not identify asset types, so all eight areas remain not stated. Third-party interviews discuss text-to-speech and subsequent partial replacement; those reports do not expand the scope of the official store disclosure.",
+  "disclosureQuote": "During the development process, we may use procedural- and AI-based tools to assist with content creation. In all such cases, the final product reflects the creativity and expression of our own development team.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-27 核查；可能随商店页更新。",
+  "aiScopeUnspecified": true
+}

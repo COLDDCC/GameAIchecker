@@ -1,0 +1,61 @@
+{
+  "appId": "3797790",
+  "name": "Abyssal Lapidary",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "Abyssal Lapidary has no AI disclosure visible on the checked full-game Steam page. Players have raised AI-related allegations, but the reviewed sources do not substantiate them as official production facts.",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {},
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/3797790/",
+  "developer": "Light Worm",
+  "publisher": "XD",
+  "steamReleaseDate": "Coming soon（计划；核查时尚未发售）",
+  "genres": [
+    "Indie",
+    "RPG",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-27",
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/3797790/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-27",
+      "excerpt": "完整商店页未显示 AI 生成内容披露栏；未披露不等于未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3797790/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-27",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 160）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/3797790/discussions/0/563671642446883478/",
+      "label": "Undisclosed AI usage : I'm blacklisting even though I enjoyed",
+      "date": "2026-10-27",
+      "excerpt": "Players allege coding-related AI use and discuss other assets. The visible replies do not provide a verified original developer statement. These remain community allegations; only the visible first page of replies was read."
+    },
+    {
+      "type": "third_party",
+      "url": "https://abyssallapidary.com/ai/",
+      "label": "Public reporting / reference",
+      "date": "2026-10-27",
+      "excerpt": "A fan reference page summarizes unconfirmed art, coding and translation allegations, while explicitly declining to verify them. It is not an official developer source."
+    }
+  ],
+  "reviewNote": "Checked the full-game Steam identity and complete store page, the English discussion homepage and any related visible first-page threads, plus a separate per-game web search. This is not a full historical or multilingual audit. Search limitations and source scope are recorded with the evidence. No disclosure does not mean no AI use. A search-indexed historical disclosure claim could not be verified: its original index URL returned HTTP 410. No historical disclosure is adopted from that snippet. The visible community thread contains allegations rather than a verified original developer production statement."
+}

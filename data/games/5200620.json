@@ -1,0 +1,80 @@
+{
+  "appId": "5200620",
+  "name": "Dungeonbound",
+  "category": "developer_no_genai_statement",
+  "verification": "developer_self_statement",
+  "summary": "Dungeonbound’s developer-linked itch.io page declares no generative AI use. Steam players dispute aspects of the art, text and code; those allegations remain separate from this unverified developer self-report.",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "claimed_none",
+    "marketing": "claimed_none"
+  },
+  "aiAreaNotes": {
+    "ingame": "The developer’s itch.io listing broadly declares no generative AI use. This is a self-report, not independent verification; Steam community allegations are recorded separately.",
+    "code": "The developer’s itch.io listing broadly declares no generative AI use. This is a self-report, not independent verification; Steam community allegations are recorded separately.",
+    "art": "The developer’s itch.io listing broadly declares no generative AI use. This is a self-report, not independent verification; Steam community allegations are recorded separately.",
+    "music": "The developer’s itch.io listing broadly declares no generative AI use. This is a self-report, not independent verification; Steam community allegations are recorded separately.",
+    "voice": "The developer’s itch.io listing broadly declares no generative AI use. This is a self-report, not independent verification; Steam community allegations are recorded separately.",
+    "writing": "The developer’s itch.io listing broadly declares no generative AI use. This is a self-report, not independent verification; Steam community allegations are recorded separately.",
+    "translation": "The developer’s itch.io listing broadly declares no generative AI use. This is a self-report, not independent verification; Steam community allegations are recorded separately.",
+    "marketing": "The developer’s itch.io listing broadly declares no generative AI use. This is a self-report, not independent verification; Steam community allegations are recorded separately."
+  },
+  "aiAreaSources": {
+    "ingame": "developer_statement",
+    "code": "developer_statement",
+    "art": "developer_statement",
+    "music": "developer_statement",
+    "voice": "developer_statement",
+    "writing": "developer_statement",
+    "translation": "developer_statement",
+    "marketing": "developer_statement"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5200620/",
+  "developer": "louidev",
+  "publisher": "louidev",
+  "steamReleaseDate": "Nov 15, 2026（计划；核查时尚未发售）",
+  "genres": [
+    "Adventure",
+    "Indie",
+    "RPG",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-10-27",
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/5200620/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-27",
+      "excerpt": "完整商店页未显示 AI 生成内容披露栏；未披露不等于未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5200620/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-27",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 85）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/5200620/discussions/0/586187704184671877/",
+      "label": "AI disclosure?",
+      "date": "2026-10-27",
+      "excerpt": "Players question art, text and code. A developer-badged reply attributes the main art to a named artist and disputes an AI-art allegation. These replies do not independently audit all production areas; only the visible first page of replies was read."
+    },
+    {
+      "type": "developer_statement",
+      "url": "https://louidev.itch.io/dungeonbound",
+      "label": "Developer statement on itch.io",
+      "date": "2026-10-27",
+      "excerpt": "The developer-linked itch.io listing declares no generative AI use. This is a developer self-report on itch.io, not an independent audit of the Steam release."
+    }
+  ],
+  "reviewNote": "Checked the full-game Steam identity and complete store page, the English discussion homepage and any related visible first-page threads, plus a separate per-game web search. This is not a full historical or multilingual audit. Search limitations and source scope are recorded with the evidence. No disclosure does not mean no AI use. The itch.io listing is linked to the same Steam App ID and developer louidev. Its broad no-generative-AI content statement is a developer self-report, not an independent audit of the Steam build. 开发者自述，未经独立审计。"
+}

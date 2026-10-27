@@ -1,0 +1,47 @@
+{
+  "appId": "5088440",
+  "name": "Rip It! Card Collector",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "No AI disclosure was visible on the checked full-game Steam page for Rip It! Card Collector. The record does not infer AI use from the collectible-card format or from the game’s visuals.",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {},
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/5088440/",
+  "developer": "Cybernetic Walrus",
+  "publisher": "Cybernetic Walrus",
+  "steamReleaseDate": "Oct 30, 2026（计划；核查时尚未发售）",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-27",
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/5088440/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-27",
+      "excerpt": "完整商店页未显示 AI 生成内容披露栏；未披露不等于未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5088440/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-27",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 52）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "Checked the full-game Steam identity and complete store page, the English discussion homepage and any related visible first-page threads, plus a separate per-game web search. This is not a full historical or multilingual audit. Search limitations and source scope are recorded with the evidence. No disclosure does not mean no AI use."
+}
