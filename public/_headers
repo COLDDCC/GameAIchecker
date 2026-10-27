@@ -1,2 +1,11 @@
 /images/steam/apps/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/images/
+  X-Robots-Tag: noindex
+/images/steam/
+  X-Robots-Tag: noindex
+/images/steam/apps/
+  X-Robots-Tag: noindex
+/game/
+  X-Robots-Tag: noindex, follow

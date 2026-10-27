@@ -15,9 +15,10 @@ jobs:
           node-version: '22'
       - run: npm install --no-audit --no-fund
       - run: python3 -m unittest discover -s scripts/review/tests -v
-      - run: node --test scripts/sitemap.test.mjs
+      - run: node --test scripts/sitemap.test.mjs scripts/search-routing.test.mjs
       - run: npm run build
       - run: node scripts/audit-lists.mjs
+      - run: node scripts/audit-search.mjs
       - name: Check expected output
         run: |
           test -f dist/sitemap.xml

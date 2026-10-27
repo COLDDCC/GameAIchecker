@@ -132,6 +132,9 @@ const breadcrumbLd = {
   <title>{game.name} AI 使用情况、证据与资料 | Game AI Checker</title>
   <meta name="description" content={metaDescription} />
   <link rel="canonical" href={canonical} />
+  <link rel="alternate" hreflang="zh-CN" href={canonical} />
+  <link rel="alternate" hreflang="en" href={`${site}/games/en/${game.slug}/`} />
+  <link rel="alternate" hreflang="x-default" href={`${site}/games/en/${game.slug}/`} />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Game AI Checker" />
   <meta property="og:title" content={`${game.name} — AI 使用情况与证据`} />
@@ -508,7 +511,7 @@ const breadcrumbLd = {
       <nav class="top-nav" aria-label="主导航">
         <a href="/">搜索</a>
         <a href="/games/">游戏库</a>
-        <a href="/browse/">浏览</a>
+        <a href="/browse/">浏览</a><a href={`/games/en/${game.slug}/`} lang="en">English</a>
         <a href="/indie-ai/">Indie AI</a>
       </nav>
     </div>
