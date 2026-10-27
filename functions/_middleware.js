@@ -1,14 +1,21 @@
-// Keep obsolete directory endpoints out of Search without blocking real images.
+// Allow crawlers to fetch assets and read noindex; do not block them in robots.txt.
 export async function onRequest({ request, next }) {
   const url = new URL(request.url);
   if (url.protocol === 'http:') {
     url.protocol = 'https:';
     return Response.redirect(url.href, 301);
   }
-  if (['/images', '/images/steam', '/images/steam/apps'].includes(url.pathname.replace(/\/$/, ''))) {
+  if (['/images', '/images/steam', '/images/steam/apps', '/data'].includes(url.pathname.replace(/\/$/, ''))) {
     return new Response('Directory listing unavailable.', {status: 410, headers: {'Content-Type': 'text/plain; charset=utf-8', 'X-Robots-Tag': 'noindex'}});
   }
-  // /game/?id=... remains a noindex compatibility resolver for historical links.
-  if (url.pathname === '/game/' && !url.search) return Response.redirect(new URL('/browse/', url).href, 301);
-  return next();
+  if (/^\/game(?:\/|$)/.test(url.pathname)) {
+    return new Response('This legacy game page has been retired. Search at /browse/.', {status: 410, headers: {'Content-Type': 'text/plain; charset=utf-8', 'X-Robots-Tag': 'noindex, follow'}});
+  }
+  const response = await next();
+  if (/^\/(images|data)\//.test(url.pathname)) {
+    const tagged = new Response(response.body, response);
+    tagged.headers.set('X-Robots-Tag', 'noindex');
+    return tagged;
+  }
+  return response;
 }
