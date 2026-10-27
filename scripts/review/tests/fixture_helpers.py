@@ -20,3 +20,12 @@ def raw_source(i,root,path,app,kind,quote='',name='Fixture 0',developer='Fixture
     r=dict(id=kind,appId=app,sourceType=kind,url=f'https://example.invalid/app/{app}/{kind}',fetchedAt=i.now(),httpStatus=200,language='english',contentHash=i.sha(path),readStatus='complete',quote=quote,locator='full fixture source',cachePath=str(path.relative_to(root)))
     if kind=='store':r['disclosurePresent']=disclosure
     return r
+
+
+def demand_fixture(i,row):
+    path=i.ROOT/'.cache/search-demand'/f"{row['appId']}.json"
+    i.atomic(path,dict(appId=row['appId'],query=row['name']+' AI',kind='gsc',metric='impressions',value=1,observedAt=i.now(),sourceUrl='https://search.google.com/search-console/'))
+    return {**row,'demand':dict(query=row['name']+' AI',evidencePath=str(path.relative_to(i.ROOT)),contentHash=i.sha(path))}
+
+def english_fixture(i):
+    return dict(summary='The fixture developer discloses AI use with a limited stated scope.',reviewNote='This is a fixture developer statement, not an independent audit.',aiAreaNotes={k:'This area is limited to the explicit fixture source statement.' for k in i.AREAS})

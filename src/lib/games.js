@@ -235,6 +235,7 @@ function fromCanonical(data, sourceName) {
   record.name = cleanText(data.name);
   record.originalName = cleanText(data.originalName);
   record.humanMadeListing = data.humanMadeListing || null;
+  record.english = data.english || null;
   record.developer = cleanText(data.developer);
   record.publisher = cleanText(data.publisher);
   record.summary = cleanText(data.summary);

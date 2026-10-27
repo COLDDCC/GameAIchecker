@@ -1,0 +1,24 @@
+{
+  "policy": "Measured demand before a new review; editorial leads are not volume estimates.",
+  "seeds": [
+    {
+      "name": "Crimson Desert",
+      "steamAppId": "3321460",
+      "existingRecord": "data/games/3321460.json",
+      "status": "needs_search_demand",
+      "queriesToMeasure": ["does crimson desert use ai", "crimson desert ai art"],
+      "primarySource": "https://store.steampowered.com/app/3321460/Crimson_Desert/",
+      "lead": "The current store identity is Crimson Desert Enhanced by Pearl Abyss. Reuse the existing record; the disclosure names some 2D props and a replacement pipeline, not independently verified complete removal.",
+      "measuredSearches": null
+    },
+    {
+      "name": "Vapor World: Over The Mind",
+      "steamAppId": "1996090",
+      "status": "needs_search_demand",
+      "queriesToMeasure": ["vapor world ai", "vapor world ai cutscenes"],
+      "primarySource": "https://steamcommunity.com/app/1996090/allnews/",
+      "lead": "The director's August 19 statement and removal hotfix describe replacing AI cutscenes with original in-game cutscenes. Future review must separate historical use, developer removal claims and the current build; do not assume every AI-related area is resolved.",
+      "measuredSearches": null
+    }
+  ]
+}

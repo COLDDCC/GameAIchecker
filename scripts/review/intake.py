@@ -6,7 +6,7 @@ ROOT = Path(os.environ.get('INTAKE_ROOT', Path(__file__).resolve().parents[2]))
 STATE = ROOT/'scripts/review/state'
 CACHE = ROOT/'.cache/gameaichecker-review'
 AREAS = 'ingame code art music voice writing translation marketing'.split()
-POLICY = '2026-10-26-v1'
+POLICY = '2026-10-27-demand-en-v2'
 def now():
     from datetime import datetime, timezone
     return datetime.now(timezone.utc).isoformat()
@@ -63,15 +63,41 @@ def save_batch(b): atomic(batch_path(b['batchId']),b)
 def work(b): return CACHE/b['batchId']
 def slug(name):
     return re.sub('[^a-z0-9]+','-',unicodedata.normalize('NFKD',name).encode('ascii','ignore').decode().lower()).strip('-')[:64] or 'game'
+def demand_valid(row):
+    """A lead or a SERP is not measured search demand. Verify the saved metric row."""
+    from datetime import datetime, timezone
+    try:
+        d=row['demand']; rel=Path(d['evidencePath'])
+        if rel.is_absolute() or '..' in rel.parts or rel.parts[:2]!=('.cache','search-demand'): return False
+        proof=ROOT/rel
+        if not proof.is_file() or sha(proof)!=d['contentHash']: return False
+        raw=read(proof)
+        if str(raw['appId'])!=str(row['appId']) or raw['query']!=d['query'] or len(raw['query'].strip())<3: return False
+        if raw['kind'] not in ('gsc','keyword_tool') or not raw.get('sourceUrl','').startswith('https://'): return False
+        if isinstance(raw['value'],bool) or not isinstance(raw['value'],(int,float)) or raw['value']<=0: return False
+        if raw['metric']!=('impressions' if raw['kind']=='gsc' else 'monthly_searches'): return False
+        age=(datetime.now(timezone.utc)-datetime.fromisoformat(raw['observedAt'].replace('Z','+00:00'))).total_seconds()
+        return 0<=age<=90*86400
+    except (KeyError,ValueError,TypeError,OSError): return False
+
+def validate_english_decision(en):
+    if not isinstance(en,dict): raise ValueError('English editorial fields required')
+    fields=[en.get('summary'),en.get('reviewNote')]+[en.get('aiAreaNotes',{}).get(k) for k in AREAS]
+    if any(not isinstance(v,str) or len(v.strip())<12 or re.search('[\u3400-\u9fff]',v) for v in fields): raise ValueError('missing or untranslated English editorial fields')
+
 def import_candidates(rows, dry=False):
     with lock():
         q=queue(); have={x['appId'] for x in q}; skip=excluded(); added=[]
         for r in rows:
             app=str(r['appId'])
             if not re.fullmatch('[1-9][0-9]*',app): raise ValueError('invalid App ID')
-            if app in have|skip or r.get('isDemo'): continue
+            if app in skip or r.get('isDemo'): continue
+            if app in have:
+                old=next(x for x in q+added if x['appId']==app)
+                if old['status']=='queued' and demand_valid(r): old['demand']=r['demand']
+                continue
             if not r.get('name') or not r.get('sourceUrl'): raise ValueError('candidate missing name/source')
-            added.append(dict(appId=app,name=r['name'],sourceUrl=r['sourceUrl'],discoveredAt=r.get('discoveredAt',now()),priority=int(r.get('priority',100)),status='queued',batchId=None,reason=None))
+            added.append(dict(appId=app,name=r['name'],sourceUrl=r['sourceUrl'],discoveredAt=r.get('discoveredAt',now()),priority=int(r.get('priority',100)),demand=r.get('demand'),status='queued',batchId=None,reason=None))
             have.add(app)
         if not dry: save_queue(q+added)
         return {'added':len(added),'excluded':len(rows)-len(added)}
@@ -81,8 +107,8 @@ def start(count, dry=False):
         unfinished=[read(p) for p in (STATE/'batches').glob('*.json') if read(p)['phase'] not in ('deployed','cancelled')]
         if unfinished: return {'resume':unfinished[0]['batchId'],'phase':unfinished[0]['phase']}
         q=queue(); skip=excluded()
-        choices=sorted([r for r in q if r['status']=='queued' and r['appId'] not in skip],key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))[:count]
-        if len(choices)<count: raise ValueError(f'queue shortage: {len(choices)}/{count}')
+        choices=sorted([r for r in q if r['status']=='queued' and r['appId'] not in skip and demand_valid(r)],key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))[:count]
+        if len(choices)<count: raise ValueError(f'queue shortage with verified search demand: {len(choices)}/{count}; attach recent GSC or keyword metrics before review')
         if dry: return {'selected':[r['appId'] for r in choices]}
         bid=time.strftime('%Y%m%dT%H%M%S')+'-'+os.urandom(3).hex()
         b=dict(schemaVersion=1,batchId=bid,requestedCount=count,baseSha=git('rev-parse','HEAD'),policyVersion=POLICY,phase='reserved',createdAt=now(),oldHashes=existing(),games=[],checkResults={},publishShas={},attempts=len(choices),maxAttempts=min(30,3*count))
@@ -98,7 +124,7 @@ def replace_blocked(b, app):
         old=next((g for g in b['games'] if g['appId']==app),None)
         if not old or not old.get('reason'): raise ValueError('candidate must have a recorded blocking reason')
         if b['attempts']>=b['maxAttempts']: raise ValueError('attempt limit reached')
-        q=queue();choices=sorted([r for r in q if r['status']=='queued' and r['appId'] not in excluded()],key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))
+        q=queue();choices=sorted([r for r in q if r['status']=='queued' and r['appId'] not in excluded() and demand_valid(r)],key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))
         if not choices: raise ValueError('queue shortage for replacement')
         r=choices[0];b.setdefault('blockedGames',[]).append(old);b['games'].remove(old)
         b['games'].append(dict(appId=r['appId'],name=r['name'],identity='pending',store='pending',discussion='pending',press='pending',coverageLimits=[],retries=0))
@@ -174,11 +200,12 @@ def validate_game(b,g):
     if category=='no_verified_genai_evidence' and any(v['state'] not in ('not_stated','unreviewed') for v in d['areas'].values()): raise ValueError('no-evidence state conflict')
     if d.get('aiScopeUnspecified') and any(v['state']!='not_stated' for v in d['areas'].values()): raise ValueError('unspecified scope conflict')
     if category=='official_ai_disclosure' and not any(v['state']=='used' for v in d['areas'].values()) and not d.get('aiScopeUnspecified'): raise ValueError('scope flag required')
-    if set(d)-{'identityName','identityDeveloper','category','areas','disclosureQuote','aiScopeUnspecified','summary','reviewNote','description','releaseNote'}: raise ValueError('unsafe decision fields')
+    if set(d)-{'identityName','identityDeveloper','category','areas','disclosureQuote','aiScopeUnspecified','summary','reviewNote','description','releaseNote','english'}: raise ValueError('unsafe decision fields')
     for k in ('summary','reviewNote','description'):
         if not d.get(k): raise ValueError('missing '+k)
         if any(x in d[k] for x in ('。；','。。','开发者披露：开发者披露')): raise ValueError('duplicate punctuation')
     if category=='developer_no_genai_statement' and '未经独立审计' not in d['reviewNote']: raise ValueError('human claim caveat missing')
+    if b.get('policyVersion')==POLICY or d.get('english') is not None: validate_english_decision(d.get('english'))
     return e,d
 
 def validate(b,stage='evidence'):
@@ -209,6 +236,10 @@ def record(b,g,e,d):
     r=dict(appId=app,name=g['name'],category=d['category'],verification='steam_developer_self_disclosure' if official else ('developer_self_statement' if d['category']=='developer_no_genai_statement' else 'reviewed_no_substantiated_genai_claim'),summary=d['summary'],aiUsageCategories=used,aiAreas=states,aiAreaNotes={k:v['note'] for k,v in d['areas'].items() if v.get('note')},aiAreaSources={k:('official' if next(s for s in e['sources'] if s['id']==v['evidenceId'])['sourceType']=='store' else 'developer_statement') for k,v in d['areas'].items() if v['state'] not in ('not_stated','unreviewed')},steamUrl=f'https://store.steampowered.com/app/{app}/',developer=ident['developer'],publisher=ident.get('publisher',''),steamReleaseDate=release,genres=ident.get('genres',[]),reviewedAt=date,sources=sources,reviewNote=d['reviewNote'])
     if official: r.update(disclosureQuote=d['disclosureQuote'],disclosureQuoteNote=f'Steam 商店 AI 生成内容披露栏完整原文，{date} 核查；可能随商店页更新。')
     if d.get('aiScopeUnspecified'): r['aiScopeUnspecified']=True
+    if d.get('english'):
+        en=dict(d['english'])
+        en['sourceRecordHash']=hashlib.sha256(json.dumps(r,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+        r['english']=en
     return r
 
 def prepare(b,dry=False):

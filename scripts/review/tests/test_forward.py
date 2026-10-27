@@ -16,7 +16,7 @@ sys.path.insert(0, str(REVIEW))
 import intake
 import publish
 import collect
-from fixture_helpers import raw_source
+from fixture_helpers import raw_source, demand_fixture, english_fixture
 
 class ForwardSkillTests(unittest.TestCase):
     def setUp(self):
@@ -35,7 +35,7 @@ class ForwardSkillTests(unittest.TestCase):
         for p in reversed(self.patches): p.stop()
         self.temp.cleanup()
     def candidates(self,n=10):
-        return [{'appId':str(9000000+i),'name':f'Fixture {i}','sourceUrl':f'https://store.steampowered.com/app/{9000000+i}/'} for i in range(n)]
+        return [demand_fixture(intake,{'appId':str(9000000+i),'name':f'Fixture {i}','sourceUrl':f'https://store.steampowered.com/app/{9000000+i}/'}) for i in range(n)]
     def ready(self,n=10):
         intake.import_candidates(self.candidates(n)); out=intake.start(n); b=intake.load_batch(out['batchId'])
         for g in b['games']:
@@ -47,6 +47,7 @@ class ForwardSkillTests(unittest.TestCase):
             search=folder/'search.json';intake.atomic(search,{'query':g['name'],'results':[]})
             evidence=dict(identity=dict(appId=app,name=g['name'],developer=developer,type='game',verified=True,identityEvidence=identity_source),sources=sources,discussion=dict(pagesScanned=1,visibleTopics=0,totalTopics=0,topics=[],related=[],coverageLimits=['homepage only']),press=dict(query=g['name']+' AI',searchedAt=intake.now(),status='complete',results=[],readUrls=[],coverageLimits=['fixture search'],cachePath=str(search.relative_to(self.root)),contentHash=intake.sha(search)))
             decision=dict(identityName=g['name'],identityDeveloper='Fixture Developer',category='official_ai_disclosure',areas={k:{'state':'not_stated'} for k in intake.AREAS},disclosureQuote=q,aiScopeUnspecified=True,summary='测试游戏披露部分素材由 AI 制作，未明确类型。',reviewNote='开发者自述，未经独立审计。',description='测试游戏。')
+            decision['english']=english_fixture(intake)
             intake.atomic(folder/'evidence.json',evidence);intake.atomic(folder/'decision.json',decision)
             for k in ('identity','store','discussion','press'):g[k]='complete'
         intake.save_batch(b);return b

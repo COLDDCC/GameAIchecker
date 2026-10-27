@@ -7,6 +7,14 @@ export function editorialDigest(game) {
   return createHash('sha256').update(JSON.stringify([game.name,game.status,game.summary,game.reviewNote,game.aiAreaNotes,game.areas.map(({key,state})=>[key,state]),game.disclosureQuote,game.evidence])).digest('hex');
 }
 export function englishRecord(game) {
+  if (game.english) {
+    const raw=JSON.parse(readFileSync(`data/games/${game.appId}.json`,'utf8'));
+    const {english, ...original}=raw;
+    const stable=value=>Array.isArray(value)?value.map(stable):value&&typeof value==='object'?Object.fromEntries(Object.keys(value).sort().map(key=>[key,stable(value[key])])):value;
+    const hash=createHash('sha256').update(JSON.stringify(stable(original))).digest('hex');
+    if(hash!==english.sourceRecordHash) throw new Error(`Stale embedded English record: ${game.appId}`);
+    return {...english,sourceDigest:editorialDigest(game)};
+  }
   const record=records[String(game.appId)];
   if (!record) throw new Error(`Missing English editorial record: ${game.appId}`);
   return record;
