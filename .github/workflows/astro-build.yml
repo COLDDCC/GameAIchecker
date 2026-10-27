@@ -24,7 +24,7 @@ jobs:
           test -f dist/sitemap.xml
           test -f dist/robots.txt
           test -f dist/index.html
-          test -f dist/game/index.html
+          test ! -f dist/game/index.html
           test -f dist/events/next-fest/index.html
           test -f dist/evidence/ccr/index.html
           test -f dist/data/community-game-submissions.json

@@ -18,7 +18,7 @@ export function getStaticPaths() {
   };
   walk('');
   return routes
-    .filter(route => route === 'games' || !route.startsWith('games/'))
+    .filter(route => (route === 'games' || !route.startsWith('games/')) && route !== 'game')
     .map(slug => ({ params: { slug } }));
 }
 const { slug } = Astro.params;
