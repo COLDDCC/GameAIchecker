@@ -4,8 +4,8 @@
 
 ## 1. 当前状态
 
-- 网站共 121 个游戏，每个都有一份正式核查记录 `data/games/<AppID>.json`，并且都在构建审计 `scripts/audit-reviewed-games.mjs` 里。
-- 结论分布：未发现可核实证据 74，官方 AI 披露 39，开发者称人工制作 8。
+- 网站共 131 个游戏，每个都有一份正式核查记录 `data/games/<AppID>.json`，并且都在构建审计 `scripts/audit-reviewed-games.mjs` 里。
+- 结论分布：未发现可核实证据 80，官方 AI 披露 42，开发者称人工制作 9。
 - 已没有 `unverified-*` 空壳页。在 Steam 上找不到对应游戏的 24 个条目已经下线，但没有删除：
   - 它们保存在 `data/next-fest-100.json` 的 `removedEntries`，以及 `data/community-game-submissions.json` 的 `removedSubmissions`。
   - 每条都写了下线日期和原因。
@@ -109,3 +109,14 @@
 - `python3 -m unittest discover -s scripts/review/tests -v` 为离线故障测试；`tests/benchmark.py` 仅输出合成上下文和队列代理指标，不是模型 token 或正式万级构建能力。
 
 新增游戏只登记 `state/registered-games.json`：pendingMedia 阶段请求媒体；active 阶段加入审计、导出、完整媒体与英文紧凑详情。旧名单不迁移，保留其原先不同集合。完整图库校验覆盖元数据中每个 header/background/screenshot URL 和本地每个变体；媒体脚本任一项失败都非零退出。
+
+## 8. 2026-10-27 站长授权与英文发布门槛
+
+- 站长已接受首批并要求继续收录；之后内部核查通过即提交 main、部署和正式站检查，无需站长看代码。验收对象是正式网页。
+- 选题优先当前热门、新品节及有明确 AI 争议的游戏。官方披露仍是重要证据优先级，但不以冷门披露游戏凑数。每批默认 10 个；严格区分正式版与 demo。
+- 不把 Search Console / Trends 设为每游戏的强制门槛：未接入账户或无数据时，使用有日期的活动榜单、开发者公告和公开报道说明选题依据，不能编造搜索量。24 小时的小样本不能证明趋势或保证排名前三。
+- PR-C 已将 `/games/<slug>/` 统一为可索引英文默认页，中文位于 `/games/zh-cn/<slug>/`，两者 self-canonical 并互相标注 hreflang，x-default 指英文。旧 `/games/en/<slug>/` 301 到默认英文页。其他未完整翻译的副本继续 noindex，不批量解除。
+- 后续每个新 canonical 必须同时完成 `data/i18n/games.en.json` 的 summary、reviewNote 和八领域说明，并以 `src/lib/english.js:editorialDigest` 绑定当前原始记录。翻译保留来源、范围和自述/未经独立审计等限定，不改变原始结论；原始引文不翻写。先运行 `npm run check:english`，缺失、中文残留或源记录变化均阻止发布。仅有中文 canonical 不能算完成一条新收录。
+- 英文指南：`/guides/how-to-check-steam-game-ai/`；披露列表：`/events/steam-next-fest-october-2026-ai-disclosures/`；人工制作声明：`/collections/human-made-steam-games/`。列表只覆盖已审查记录，不是全量普查或独立认证。
+- 当前 `/game` 旧入口与目录端点由边缘中间件退役，images/data 仍可读取并返回 noindex；不要通过 robots.txt 屏蔽爬取后再期待搜索引擎读取 noindex。
+- 未连接 GSC / Cloudflare 账户设置接口；不能声称已在 GSC 重新提交或打开了控制台的 Always Use HTTPS。HTTP→HTTPS 目前由边缘中间件执行，并须以真实线上响应验证。

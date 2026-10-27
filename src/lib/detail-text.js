@@ -1,5 +1,6 @@
 // Shared English/Chinese detail template. Source quotations remain verbatim.
 export const detailText = {
+ 'Review summary':'核查摘要',
  'Disclosure & evidence':'披露与证据','Games':'游戏库','How to check':'核查方法','Home':'首页','AI DISCLOSURE CHECK':'AI 使用披露核查',
  'Official AI disclosure':'官方 AI 披露','Human-made claim':'开发者称人工制作','No verified AI evidence found':'未发现可核实 AI 证据','Unverified player report':'未经核实的玩家报告','Not reviewed':'未核查','Site owner review passed':'通过站内人工审核',
  'The developer has disclosed AI use. Read the original wording below for its scope; this is a developer statement, not an independent audit.':'开发者已披露使用 AI。具体范围以原文为准；这是开发者自述，未经独立审计。',

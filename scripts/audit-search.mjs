@@ -18,7 +18,7 @@ for(const g of games){
  assert(original.includes('lang="zh-CN"'),zh);
  assert(html.includes('Eight areas, separate answers')&&html.includes('Sources &amp; review limits'),path);
 }
-for(const p of ['guides/how-to-check-steam-game-ai','guides/how-to-tell-if-a-game-is-ai-generated','events/steam-next-fest-october-2026-ai-disclosures']){
+for(const p of ['guides/how-to-check-steam-game-ai','guides/how-to-tell-if-a-game-is-ai-generated','events/steam-next-fest-october-2026-ai-disclosures','collections/human-made-steam-games']){
  assert(existsSync(`dist/${p}/index.html`));assert(sitemap.includes(`https://gameaichecker.com/${p}/</loc>`));
 }
 const partial=readFileSync(`dist/games/ja/${games[0].slug}/index.html`,'utf8');
