@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "1540a4e057dc04d46bdd653fa1e26e28edb48842",
   "policyVersion": "2026-10-26-v1",
-  "phase": "prepared",
+  "phase": "site_pushed",
   "createdAt": "2026-10-27T01:25:24.418466+00:00",
   "oldHashes": {
     "4576390": "54ffc4aadf29059dee836868f64583b277a80c1bfc5db31043f6eedc6cf99b46",
@@ -511,8 +511,19 @@
       "decisionHash": "be9e958bf0ce6c367f1604bf6e67f2a9454608f887b21a70b2b2a47db70d383a"
     }
   ],
-  "checkResults": {},
-  "publishShas": {},
+  "checkResults": {
+    "media": {
+      "checks": {
+        "Persist media for reviewed games": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40433879307"
+      },
+      "bytes": 44974659,
+      "verifiedRemoteSha": "3f356aa8c052fe335b74bb9c0066605065a808cd"
+    }
+  },
+  "publishShas": {
+    "media": "b412c55ade137f9e83f17aa5c3e82edcc4a0d5cc",
+    "site": "ef9bf764c951423eb7495580b0181dbb2f55821b"
+  },
   "attempts": 11,
   "maxAttempts": 30,
   "blockedGames": [
@@ -535,5 +546,9 @@
     "priority": "Popular games, October 2026 Next Fest entries and documented AI controversies.",
     "demandEvidence": "Public festival roundups, developer announcements and game-specific reporting; no Search Console or Google Trends volume was available, and no search volume is claimed.",
     "blockedReplacement": "Future? No Thanks! discussion response could not be parsed as a complete readable forum. Retained as blocked and replaced; not published."
-  }
+  },
+  "applyBase": "1d6aca470fbddaacaaaa3da17edd2b2da0eb36fc",
+  "pendingTree": "e163b660f6ee5a20a39e3608c2bdf59cf6fbaff9",
+  "siteBase": "3f356aa8c052fe335b74bb9c0066605065a808cd",
+  "siteTree": "ddeb2471f4ed3fef1d5cdbaacfaec8c695ebda68"
 }
