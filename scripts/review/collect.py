@@ -64,22 +64,22 @@ def parse_thread(s,title):
     return body.text()+'\n'+'\n'.join(n.text() for n in replies)
 def fetch(url,p,source,app,deadline=None):
     meta=p.with_suffix('.response.json'); cached=read(meta,{})
-    if p.exists() and cached.get('readStatus')=='complete' and sha(p)==cached.get('contentHash') and cached.get('url')==url: return p.read_text(),cached
+    if p.exists() and cached.get('readStatus')=='complete' and sha(p)==cached.get('contentHash') and cached.get('url')==url: return p.read_text(encoding='utf-8'),cached
     last=''
     for attempt in range(3):
         if deadline and time.monotonic()>deadline: raise ValueError('collector deadline exceeded')
         p.parent.mkdir(parents=True,exist_ok=True); temp=p.with_suffix('.download')
-        res=subprocess.run(['curl','-LsS','--max-time','20','--retry','0','-D',str(p.with_suffix('.headers')),'-o',str(temp),'-w','%{http_code}',url],text=True,capture_output=True)
+        res=subprocess.run(['curl','-LsS','--max-time','20','--retry','0','-D',str(p.with_suffix('.headers')),'-o',str(temp),'-w','%{http_code}',url],text=True,encoding='utf-8',errors='replace',capture_output=True)
         status=int(res.stdout) if res.stdout.isdigit() else 0
         last=f'HTTP {status}: {res.stderr[:120]}'
         if status==200 and res.returncode==0:
-            temp.replace(p); text=p.read_text(errors='replace')
+            temp.replace(p); text=p.read_text(encoding='utf-8',errors='replace')
             m=dict(appId=app,sourceType=source,url=url,fetchedAt=now(),httpStatus=200,language='english',contentHash=sha(p),readStatus='complete',cachePath=str(p.relative_to(ROOT)),locator='full response',quote='')
             atomic(meta,m); return text,m
         atomic(meta,dict(url=url,httpStatus=status,readStatus='blocked',reason=last,fetchedAt=now()))
         if status in (403,404): break
         if attempt<2:
-            headers=p.with_suffix('.headers').read_text(errors='replace') if p.with_suffix('.headers').exists() else ''
+            headers=p.with_suffix('.headers').read_text(encoding='utf-8',errors='replace') if p.with_suffix('.headers').exists() else ''
             retry=re.findall(r'(?im)^retry-after:\s*(\d+)',headers)
             delay=int(retry[-1]) if retry else 2**attempt
             if delay>30: raise ValueError('source paused: Retry-After exceeds retry budget')

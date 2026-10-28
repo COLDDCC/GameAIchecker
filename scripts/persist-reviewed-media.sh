@@ -1,11 +1,19 @@
 #!/usr/bin/env bash
 # Fail the workflow unless every requested gallery is complete and committed.
+# Intake-managed ids are checked against full Steam metadata; older ids keep the
+# legacy probe so this bot never mass-redownloads media the owner has not approved.
 set -euo pipefail
-mapfile -t ids < <(sed -n '/^[0-9][0-9]*$/p' scripts/persist-media-ids.txt | sort -u)
-missing=()
-for id in "${ids[@]}"; do
-  if ! python3 scripts/review/intake.py media-check --app "$id" --tracked --allow-legacy-gallery >/dev/null 2>&1; then missing+=("$id"); fi
+mapfile -t strict_ids < <(python3 scripts/review/intake.py media-queue --mode strict)
+mapfile -t legacy_ids < <(python3 scripts/review/intake.py media-queue --mode legacy)
+missing_strict=()
+for id in "${strict_ids[@]}"; do
+  if ! python3 scripts/review/intake.py media-check --app "$id" --tracked >/dev/null 2>&1; then missing_strict+=("$id"); fi
 done
+missing_legacy=()
+for id in "${legacy_ids[@]}"; do
+  if ! python3 scripts/review/intake.py media-check --app "$id" --tracked --allow-legacy-gallery >/dev/null 2>&1; then missing_legacy+=("$id"); fi
+done
+missing=("${missing_strict[@]}" "${missing_legacy[@]}")
 [ "${#missing[@]}" -gt 0 ] || exit 0
 node scripts/fetch-steam-metadata.mjs
 node scripts/fetch-steam-images.mjs
@@ -21,4 +29,5 @@ if ! git diff --cached --quiet; then
   git pull --rebase origin main
   git push origin HEAD:main
 fi
-for id in "${missing[@]}"; do python3 scripts/review/intake.py media-check --app "$id" --tracked; done
+for id in "${missing_strict[@]}"; do python3 scripts/review/intake.py media-check --app "$id" --tracked; done
+for id in "${missing_legacy[@]}"; do python3 scripts/review/intake.py media-check --app "$id" --tracked --allow-legacy-gallery; done

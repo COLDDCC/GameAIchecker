@@ -5,7 +5,7 @@
 ## 1. 当前状态
 
 - 网站共 131 个游戏，每个都有一份正式核查记录 `data/games/<AppID>.json`，并且都在构建审计 `scripts/audit-reviewed-games.mjs` 里。
-- 结论分布：未发现可核实证据 80，官方 AI 披露 42，开发者称人工制作 9。
+- 结论分布：未发现可核实证据 80，官方 AI 披露 42，开发者声明未用生成式 AI 6，人工制作声明 3。
 - 已没有 `unverified-*` 空壳页。在 Steam 上找不到对应游戏的 24 个条目已经下线，但没有删除：
   - 它们保存在 `data/next-fest-100.json` 的 `removedEntries`，以及 `data/community-game-submissions.json` 的 `removedSubmissions`。
   - 每条都写了下线日期和原因。
@@ -103,7 +103,7 @@
 - `python3 scripts/review/intake.py inventory --summary`；`discover-import --input FILE`；`start --count 10`。
 - `python3 scripts/review/collect.py --batch ID --pending-only`，再逐游戏独立搜索公开报道并保存原始响应、结构化 evidence 和 decision。内部缓存位于 `.cache/gameaichecker-review`，不公开。
 - `intake.py validate --batch ID --stage evidence`，`prepare --batch ID --dry-run` 后正式 prepare；不允许覆盖任何已有 canonical。
-- `publish-batch.sh --batch ID --dry-run` 后 `--execute`。无 Git 凭证环境使用 `--execute --connector` 导出精确内容，通过 GitHub connector 提交后 `publish.py --batch ID --adopt-push SHA --push-stage media|site`；必须匹配父提交及整棵树。随后继续 --execute --connector。
+- `publish-batch.sh --batch ID --dry-run` 后 `--execute`。无 Git 凭证环境使用 `--execute --connector` 导出精确内容，通过 GitHub connector 提交后 `publish.py --batch ID --adopt-push SHA --push-stage media|site|state`；必须匹配父提交及整棵树。随后继续 --execute --connector（见第 10 节的状态提交）。
 - `intake.py resume --batch ID` 先核对远程；prepared/applying/media_committed/media_pushed/media_ready/site_applying/site_committed/site_pushed/deployed 均持久化。两次提交中断都按计划 hash 恢复。不能强推或自动丢弃其他改动。
 - blocked 候选保留原因后用 `replace-blocked --batch ID --app APP` 替补，最多 min(30,3N) 次尝试。
 - `python3 -m unittest discover -s scripts/review/tests -v` 为离线故障测试；`tests/benchmark.py` 仅输出合成上下文和队列代理指标，不是模型 token 或正式万级构建能力。
@@ -128,3 +128,10 @@
 - **新批次先验证搜索需求**，以 `docs/SEARCH_DEMAND_POLICY.md` 的输入契约和 `scripts/review/import-demand.py` 为准。没有有效需求依据的 queued 条目不会被 `start` 或替补选中；已占位批次继续恢复。
 - 新批次 decision 允许并要求 `english` 字段（摘要、核查限制、八领域说明），按政策文件的结构写入。原有披露、来源绑定及两阶段发布检查仍全部执行。已安装 skill 的旧字段列表需结合此处的新工具契约使用。
 - 本次仅添加英文呈现字段与种子线索，已有来源、分类、领域状态、站长审核标记均保留。
+
+## 10. 断点续跑与媒体闸门修复（2026-10-28）
+
+- 批次状态与候选队列入 Git：`state/batches/*.json`、`state/candidates.jsonl` 随发布提交。站点校验通过后批次停在 `site_verified`，再由 `publish.py` 的 `record_state()` 把 `deployed` 状态提交并推送；无 Git 凭证时用 `--push-stage state` 导出包，再 `--adopt-push SHA --push-stage state` 认领。是否已完成只以 `origin/main` 上的状态内容为准（`state_on_remote`），本地文件自称 deployed 但远端看不到时会继续补推，避免新 clone 把已发布批次当未完成、resume 后又因 canonical 已存在而失败。
+- 媒体请求拆成两个集合：`intake.py media-queue --mode strict` 只列 intake 登记的游戏并做完整逐文件校验，`--mode legacy` 列旧名单游戏并保留 allow-legacy 探测。`scripts/persist-reviewed-media.sh` 分别处理，因此新增批次部分下载失败必然非零退出，同时不会未经站长同意批量重下旧图库。工作流触发路径已加入 `registered-games.json` 与 `intake.py`。
+- Windows 适配：队列锁按 `fcntl`（类 Unix）/`msvcrt`（Windows）双路；所有文本读写与 `subprocess(text=True)` 固定 `encoding='utf-8'`（抓取页面另加 `errors='replace'`），否则系统 GBK 默认编码在读 `data/steam/*.json` 时崩溃。`python3 -m unittest discover -s scripts/review/tests` 两平台均应全绿。
+- 选题与英文门槛以第 8、9 节为准：`start`/替补只选已通过搜索需求校验的候选，decision 需要 `english` 字段；两者与本节的状态提交、媒体闸门同时生效。

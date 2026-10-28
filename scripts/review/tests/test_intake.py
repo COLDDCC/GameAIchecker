@@ -126,7 +126,8 @@ class IntakeTests(unittest.TestCase):
   b=self.fixture()
   with patch.object(p,'git',side_effect=['','remote','local']):
    with self.assertRaisesRegex(ValueError,'advanced'):p.verify_remote(b)
-  b['phase']='deployed';self.assertTrue(p.execute(b)['alreadyComplete'])
+  b['phase']='deployed'
+  with patch.object(p,'state_on_remote',return_value=True):self.assertTrue(p.execute(b)['alreadyComplete'])
 
  def test_missing_demand_is_not_selected(self):
   i.import_candidates([dict(appId='88',name='Unknown demand',sourceUrl='https://example.org')])

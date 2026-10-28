@@ -84,6 +84,61 @@ class ForwardSkillTests(unittest.TestCase):
     def test_duplicate_batch_id_cannot_count_toward_ten(self):
         b=self.ready();b['games'][-1]=copy.deepcopy(b['games'][0])
         with self.assertRaisesRegex(ValueError,'wrong unique batch count'):intake.validate(b)
+    def test_media_queue_splits_intake_ids_from_legacy_ids(self):
+        intake.atomic(intake.STATE/'registered-games.json',{'active':['123'],'pendingMedia':['456']})
+        (self.root/'scripts').mkdir(parents=True,exist_ok=True)
+        (self.root/'scripts/persist-media-ids.txt').write_text('123 456 789\n')
+        q=intake.media_queue()
+        self.assertEqual(q['strict'],['123','456']);self.assertEqual(q['legacy'],['789'])
+    def add_origin(self):
+        remote=Path(tempfile.mkdtemp());subprocess.run(['git','init','--bare','-q',str(remote)],check=True)
+        subprocess.run(['git','-C',str(self.root),'remote','add','origin',str(remote)],check=True)
+        subprocess.run(['git','-C',str(self.root),'push','-q','origin','HEAD:refs/heads/main'],check=True)
+        return remote
+    def test_media_commit_carries_batch_state_snapshot(self):
+        b=self.prepare_publish_fixture(1)
+        with patch.object(publish,'verify_remote',side_effect=intake.verify_old),patch.object(publish,'push_confirm',side_effect=RuntimeError('stop before push')):
+            with self.assertRaisesRegex(RuntimeError,'stop before push'):publish.execute(b)
+        saved=intake.load_batch(b['batchId']);self.assertEqual(saved['phase'],'media_committed')
+        text=subprocess.check_output(['git','show','HEAD:scripts/review/state/batches/'+saved['batchId']+'.json'],cwd=self.root,text=True)
+        self.assertEqual(json.loads(text)['phase'],'prepared')
+        self.assertEqual([g['appId'] for g in json.loads(text)['games']],[saved['games'][0]['appId']])
+    def test_deployed_batch_state_is_pushed_and_visible_to_fresh_clone(self):
+        b=self.prepare_publish_fixture(1);remote=self.add_origin()
+        b['phase']='site_pushed';b['publishShas']={'media':'media-sha','site':intake.git('rev-parse','HEAD')};intake.save_batch(b)
+        with patch.object(publish,'workflow_gate',return_value={'Astro build':{'html_url':'https://example.invalid/astro'}}),patch.object(publish,'production_gate',return_value={'details_url':'https://example.invalid/cf','output':{'summary':'deploy ok'}}),patch.object(publish,'online',return_value=[{'appId':b['games'][0]['appId'],'status':'passed'}]):
+            out=publish.execute(b)
+        self.assertEqual(out['phase'],'deployed')
+        self.assertEqual(subprocess.run(['git','-C',str(self.root),'status','--porcelain'],capture_output=True,text=True).stdout.strip(),'')
+        clone=Path(tempfile.mkdtemp())/'c';subprocess.run(['git','clone','-q','--branch','main',str(remote),str(clone)],check=True)
+        persisted=json.loads((clone/'scripts/review/state/batches'/f"{b['batchId']}.json").read_text())
+        self.assertEqual(persisted['phase'],'deployed')
+        self.assertEqual(persisted['publishShas']['site'],b['publishShas']['site'])
+        self.assertIn('ci',persisted['checkResults'])
+        # A deployed batch must never be offered again as a resume target.
+        with self.assertRaisesRegex(ValueError,'queue shortage'):intake.start(1)
+    def test_connector_state_packet_and_adopt(self):
+        b=self.prepare_publish_fixture(1);self.add_origin()
+        base=intake.git('rev-parse','HEAD')
+        b['phase']='site_verified';intake.save_batch(b)
+        out=publish.execute(b,connector=True)
+        self.assertEqual(out['transport'],'GitHub connector required')
+        packet=json.loads((intake.work(b)/'state-push.json').read_text())
+        self.assertEqual(packet['parentSha'],base)
+        self.assertIn('scripts/review/state/batches/'+b['batchId']+'.json',[e['path'] for e in packet['treeElements']])
+        local=intake.git('rev-parse','HEAD')
+        subprocess.run(['git','-C',str(self.root),'push','-q','origin','HEAD:refs/heads/main'],check=True)
+        with self.assertRaisesRegex(ValueError,'connector state commit'):publish.adopt_push(b,'state',packet['parentSha'])
+        saved=publish.adopt_push(b,'state',local)
+        self.assertEqual(saved['phase'],'deployed')
+        self.assertEqual(subprocess.run(['git','-C',str(self.root),'status','--porcelain'],capture_output=True,text=True).stdout.strip(),'')
+    def test_state_claim_stuck_locally_is_transported_on_resume(self):
+        b=self.prepare_publish_fixture(1);self.add_origin()
+        b['phase']='deployed';intake.save_batch(b)
+        out=publish.execute(b)
+        self.assertEqual(out['phase'],'deployed');self.assertFalse(out.get('alreadyComplete'))
+        text=subprocess.check_output(['git','show','origin/main:scripts/review/state/batches/'+b['batchId']+'.json'],cwd=self.root,text=True)
+        self.assertEqual(json.loads(text)['phase'],'deployed')
 
     def pack(self,b):
         output=io.StringIO()

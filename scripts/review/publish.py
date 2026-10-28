@@ -4,7 +4,28 @@ import argparse, json, re, subprocess, sys, time, os, hashlib, tempfile
 from pathlib import Path
 from intake import ROOT, STATE, atomic, read, now, git, lock, load_batch, save_batch, verify_old, validate, work, media_check, slug, sha
 REPO='COLDDCC/GameAIchecker'
+BATCH_SUB='scripts/review/state/batches'
+QUEUE_REL='scripts/review/state/candidates.jsonl'
 def run(*args): subprocess.run(args,cwd=ROOT,check=True)
+def is_ancestor(a,b): return subprocess.run(['git','merge-base','--is-ancestor',a,b],cwd=ROOT).returncode==0
+def render(b,phase=None):
+    c=json.loads(json.dumps(b)); c['phase']=phase or b['phase']; return c
+def batch_rel(b): return f'{BATCH_SUB}/{b["batchId"]}.json'
+def own_paths(b): return {batch_rel(b),QUEUE_REL}
+def write_state(b,phase=None):
+    atomic(ROOT/batch_rel(b),render(b,phase))
+    out={batch_rel(b):(ROOT/batch_rel(b)).read_text(encoding='utf-8')}
+    if (ROOT/QUEUE_REL).exists(): out[QUEUE_REL]=(ROOT/QUEUE_REL).read_text(encoding='utf-8')
+    return out
+def dirty_paths(b):
+    return (set(git('diff','--name-only','HEAD').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines()))-own_paths(b)
+def mark_published(b):
+    from intake import queue,save_queue
+    with lock('queue'):
+        q=queue()
+        for r in q:
+            if any(r['appId']==g['appId'] for g in b['games']): r.update(status='published',batchId=b['batchId'])
+        save_queue(q)
 def api(path):
     # Short-lived raw connector responses support environments without API network access.
     cache=os.environ.get('INTAKE_GITHUB_RESPONSE_DIR')
@@ -12,11 +33,16 @@ def api(path):
         snapshot=read(Path(cache)/(hashlib.sha256(path.encode()).hexdigest()+'.json'))
         if not snapshot or snapshot.get('path')!=path or time.time()-snapshot.get('recordedAt',0)>180: raise ValueError('fresh GitHub connector response required: '+path)
         return snapshot['payload']
-    result=subprocess.check_output(['curl','-fLsS','--max-time','30','https://api.github.com/repos/'+REPO+'/'+path],text=True)
+    result=subprocess.check_output(['curl','-fLsS','--max-time','30','https://api.github.com/repos/'+REPO+'/'+path],text=True,encoding='utf-8')
     return json.loads(result)
 def verify_remote(b):
     git('fetch','origin','main'); remote=git('rev-parse','origin/main')
-    if git('rev-parse','HEAD')!=remote: raise ValueError('remote advanced; inspect changes and fast-forward explicitly before resume: '+remote)
+    head=git('rev-parse','HEAD')
+    if head!=remote:
+        # A locally committed state checkpoint may sit on top of the remote head; nothing else may differ.
+        if not is_ancestor(remote,head): raise ValueError('remote advanced; inspect changes and fast-forward explicitly before resume: '+remote)
+        extra=set(git('diff','--name-only',remote,head).splitlines())-own_paths(b)
+        if extra: raise ValueError('unpublished non-state commits ahead of remote: '+str(sorted(extra)))
     verify_old(b)
 def push_confirm(b,key,phase):
     commit=b['publishShas'][key]
@@ -61,7 +87,7 @@ def check_images(b,urls):
                 config.write('url = "'+url+'"\noutput = "/dev/null"\n')
             config.flush()
             # Reuse two connections; still require every image response, not just one cover.
-            result=subprocess.run(['curl','--parallel','--parallel-max','2','-fLsS','--max-time','30','--write-out','%{url_effective}\t%{http_code}\t%{content_type}\n','--config',config.name],text=True,capture_output=True)
+            result=subprocess.run(['curl','--parallel','--parallel-max','2','-fLsS','--max-time','30','--write-out','%{url_effective}\t%{http_code}\t%{content_type}\n','--config',config.name],text=True,encoding='utf-8',capture_output=True)
         for line in result.stdout.splitlines():
             parts=line.split('\t')
             if len(parts)==3 and parts[0] in pending and parts[1]=='200' and parts[2].startswith('image/'):
@@ -75,7 +101,7 @@ def online(b):
     results=[];image_urls=[]
     for g in b['games']:
         r=read(ROOT/f'data/games/{g["appId"]}.json');url=f'https://gameaichecker.com/games/{g["appId"]}-{slug(r["name"])}/'
-        html=subprocess.check_output(['curl','-fLsS','--max-time','30',url],text=True)
+        html=subprocess.check_output(['curl','-fLsS','--max-time','30',url],text=True,encoding='utf-8',errors='replace')
         import html as h
         plain=h.unescape(re.sub('<[^>]+>',' ',html));plain=re.sub(r'\s+',' ',plain)
         if r['name'] not in plain or url not in html or 'canonical' not in html or '<title>' not in html: raise ValueError('online title/canonical mismatch '+url)
@@ -92,49 +118,53 @@ def online(b):
 
 def execute(b,timeout=900,connector=False):
     with lock('publish'):
-        if b['phase']=='deployed': return {'phase':'deployed','publishShas':b['publishShas'],'alreadyComplete':True}
+        if b['phase']=='deployed':
+            # A local file may claim deployed while its commit never reached main; the remote copy is the proof.
+            if state_on_remote(b): return {'phase':'deployed','publishShas':b['publishShas'],'alreadyComplete':True}
+            return record_state(b,connector)
         if b['phase']=='prepared':
-            if git('status','--porcelain'): raise ValueError('publisher requires clean worktree')
+            if dirty_paths(b): raise ValueError('publisher requires clean worktree: '+str(sorted(dirty_paths(b))))
             verify_remote(b);validate(b,'prepublish')
             planned={}
             for g in b['games']:
                 app=g['appId'];target=f'data/games/{app}.json'
                 if (ROOT/target).exists(): raise ValueError('existing canonical')
-                planned[target]=(work(b)/'staging'/f'{app}.json').read_text()
+                planned[target]=(work(b)/'staging'/f'{app}.json').read_text(encoding='utf-8')
             registry=read(STATE/'registered-games.json');registry['pendingMedia']=list(dict.fromkeys(registry['pendingMedia']+[g['appId'] for g in b['games']]))
             planned['scripts/review/state/registered-games.json']=json.dumps(registry,ensure_ascii=False,indent=2)+'\n'
-            ids=(ROOT/'scripts/persist-media-ids.txt').read_text().split()
+            ids=(ROOT/'scripts/persist-media-ids.txt').read_text(encoding='utf-8').split()
             planned['scripts/persist-media-ids.txt']='\n'.join(dict.fromkeys(ids+[g['appId'] for g in b['games']]))+'\n'
-            atomic(work(b)/'apply-plan.json',planned)
+            atomic(work(b)/'apply-plan.json',{'files':planned,'state':[batch_rel(b),QUEUE_REL]})
             b['applyBase']=git('rev-parse','HEAD');b['phase']='applying';save_batch(b)
         if b['phase']=='applying':
-            planned=read(work(b)/'apply-plan.json')
-            if not planned: raise ValueError('apply plan missing')
+            plan=read(work(b)/'apply-plan.json')
+            planned=plan.get('files',{}); statefiles=set(plan.get('state',[]))
+            if not planned or not statefiles: raise ValueError('apply plan missing')
             # Recover a commit made just before state checkpoint. Exact tree is required.
             if b.get('pendingTree') and git('rev-parse','HEAD^{tree}')==b['pendingTree'] and git('rev-parse','HEAD')!=b['applyBase']:
                 if git('rev-parse','HEAD^')!=b['applyBase']: raise ValueError('unexpected commit parent')
             else:
                 if git('rev-parse','HEAD')!=b['applyBase']: raise ValueError('remote/local advanced during apply; inspect before resume')
                 verify_remote(b)
-                statefile=f'scripts/review/state/batches/{b["batchId"]}.json'
                 changed=set(git('diff','--name-only','HEAD').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
-                if changed-set(planned)-{statefile}: raise ValueError('unrelated changes during apply')
+                if changed-set(planned)-statefiles: raise ValueError('unrelated changes during apply')
                 for target,text in planned.items():
                     path=ROOT/target
-                    if target.startswith('data/games/') and path.exists() and path.read_text()!=text: raise ValueError('canonical recovery hash mismatch')
+                    if target.startswith('data/games/') and path.exists() and path.read_text(encoding='utf-8')!=text: raise ValueError('canonical recovery hash mismatch')
                     if not target.startswith('data/games/') and path.exists():
-                        original=subprocess.check_output(['git','show',b['applyBase']+':'+target],cwd=ROOT,text=True)
-                        if path.read_text() not in (text,original): raise ValueError('registration recovery mismatch')
-                    if path.exists() and path.read_text()==text: continue
+                        original=subprocess.check_output(['git','show',b['applyBase']+':'+target],cwd=ROOT,text=True,encoding='utf-8')
+                        if path.read_text(encoding='utf-8') not in (text,original): raise ValueError('registration recovery mismatch')
+                    if path.exists() and path.read_text(encoding='utf-8')==text: continue
                     path.parent.mkdir(parents=True,exist_ok=True)
                     # Canonical files are only adopted when exact staged bytes match.
                     if target.startswith('data/games/'):
-                        with path.open('x') as f: f.write(text)
+                        with path.open('x',encoding='utf-8') as f: f.write(text)
                     else:
-                        temp=path.with_suffix(path.suffix+'.intake-tmp');temp.write_text(text);temp.replace(path)
-                run('git','add','--',*planned)
+                        temp=path.with_suffix(path.suffix+'.intake-tmp');temp.write_text(text,encoding='utf-8');temp.replace(path)
+                snapshot=write_state(b,'prepared')
+                run('git','add','--',*planned,*snapshot)
                 staged=set(git('diff','--cached','--name-only').splitlines())
-                if staged!=set(planned): raise ValueError('unexpected index contents')
+                if staged-set(planned)-set(snapshot): raise ValueError('unexpected index contents')
                 b['pendingTree']=git('write-tree');save_batch(b)
                 run('git','commit','-m',f'feat(intake): add {b["requestedCount"]} verified games ({b["batchId"]})')
             b['publishShas']['media']=git('rev-parse','HEAD');b['phase']='media_committed';save_batch(b)
@@ -161,11 +191,13 @@ def execute(b,timeout=900,connector=False):
                 verify_remote(b)
                 path='scripts/review/state/registered-games.json'
                 changed=set(git('diff','--name-only','HEAD').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
-                if changed-{path,f'scripts/review/state/batches/{b["batchId"]}.json'}: raise ValueError('unrelated activation changes')
-                current=read(ROOT/path);before=json.loads(subprocess.check_output(['git','show',b['siteBase']+':'+path],cwd=ROOT,text=True));after=read(work(b)/'site-plan.json')
+                if changed-{path}-own_paths(b): raise ValueError('unrelated activation changes')
+                current=read(ROOT/path);before=json.loads(subprocess.check_output(['git','show',b['siteBase']+':'+path],cwd=ROOT,text=True,encoding='utf-8'));after=read(work(b)/'site-plan.json')
                 if current not in (before,after): raise ValueError('activation registration changed')
-                atomic(ROOT/path,after);run('git','add','--',path)
-                if set(git('diff','--cached','--name-only').splitlines())!={path}: raise ValueError('unexpected activation index')
+                atomic(ROOT/path,after)
+                snapshot=write_state(b,'media_ready')
+                run('git','add','--',path,*snapshot)
+                if set(git('diff','--cached','--name-only').splitlines())-{path}-set(snapshot): raise ValueError('unexpected activation index')
                 b['siteTree']=git('write-tree');save_batch(b)
                 run('git','commit','-m',f'feat(intake): activate complete local galleries ({b["batchId"]})')
             b['publishShas']['site']=git('rev-parse','HEAD');b['phase']='site_committed';save_batch(b)
@@ -176,18 +208,69 @@ def execute(b,timeout=900,connector=False):
             commit=b['publishShas']['site'];checks=wait_for(lambda:workflow_gate(commit,['Astro build','Validate game detail build']),timeout)
             cf=wait_for(lambda:production_gate(commit),timeout)
             b['checkResults']['ci']={n:r['html_url'] for n,r in checks.items()};b['checkResults']['production']={'sha':commit,'checkUrl':cf.get('details_url'),'summary':cf.get('output',{}).get('summary'),'checkedAt':now()};save_batch(b)
-            b['checkResults']['online']=online(b);b['phase']='deployed';save_batch(b)
+            b['checkResults']['online']=online(b);b['phase']='site_verified';save_batch(b)
+        if b['phase']=='site_verified':
+            return record_state(b,connector)
         return {'phase':b['phase'],'publishShas':b['publishShas']}
-def export_push(b,key):
-    commit=b['publishShas'][key];parent=git('rev-parse',commit+'^')
+def export_push(b,key,commit=None):
+    commit=commit or b['publishShas'][key];parent=git('rev-parse',commit+'^')
     changed=git('diff-tree','--no-commit-id','--name-only','-r',commit).splitlines()
     elements=[]
     for path in changed:
-        elements.append({'path':path,'mode':'100644','type':'blob','content':subprocess.check_output(['git','show',commit+':'+path],cwd=ROOT,text=True)})
+        elements.append({'path':path,'mode':'100644','type':'blob','content':subprocess.check_output(['git','show',commit+':'+path],cwd=ROOT,text=True,encoding='utf-8')})
     packet={'parentSha':parent,'baseTreeSha':git('rev-parse',parent+'^{tree}'),'localTreeSha':git('rev-parse',commit+'^{tree}'),'message':git('log','-1','--format=%B',commit),'treeElements':elements}
     atomic(work(b)/f'{key}-push.json',packet)
     return {'phase':b['phase'],'transport':'GitHub connector required','packet':str(work(b)/f'{key}-push.json'),'next':'create tree + commit + update_ref with expected parent; then --adopt-push SHA --push-stage '+key}
+def record_state(b,connector=False):
+    """Persist the finished batch to git; a fresh clone must never see a deployed batch as unfinished."""
+    mark_published(b)
+    local=pending_state_commit(b)
+    if not local:
+        snapshot=write_state(b,'deployed')
+        changed=(set(git('diff','--name-only','HEAD').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines()))
+        if changed-set(snapshot): raise ValueError('unrelated changes during state record: '+str(sorted(changed-set(snapshot))))
+        if changed:
+            run('git','add','--',*sorted(changed))
+            if set(git('diff','--cached','--name-only').splitlines())!=changed: raise ValueError('unexpected state index')
+            run('git','commit','-m',f'chore(intake): record batch {b["batchId"]} deployed')
+        write_state(b,'deployed')  # worktree matches the commit so a rebase stays possible
+        local=git('rev-parse','HEAD')
+    if connector: return export_push(b,'state',local)
+    git('fetch','origin','main')
+    if git('rev-parse','HEAD')!=git('rev-parse','origin/main'):
+        if not is_ancestor('origin/main','HEAD'): raise ValueError('remote advanced during state record; inspect and fast-forward before resume')
+        if set(git('diff','--name-only','origin/main','HEAD').splitlines())-own_paths(b): raise ValueError('unexpected local commits ahead of remote before state push')
+        run('git','rebase','origin/main');local=git('rev-parse','HEAD')
+    run('git','push','origin','HEAD:main')
+    b['phase']='deployed';save_batch(b)
+    if not state_on_remote(b): raise ValueError('pushed batch state is not visible on origin/main')
+    return {'phase':'deployed','stateCommit':local,'publishShas':b['publishShas']}
+def state_on_remote(b):
+    want=json.dumps(render(b,'deployed'),ensure_ascii=False,indent=2)+'\n'
+    try: git('fetch','origin','main')
+    except subprocess.CalledProcessError: return False
+    try: return subprocess.check_output(['git','show','origin/main:'+batch_rel(b)],cwd=ROOT,text=True,encoding='utf-8')==want
+    except subprocess.CalledProcessError: return False
+def pending_state_commit(b):
+    """A state-only local commit already waiting to be transported; nothing else may be ahead of origin/main."""
+    try: remote=git('rev-parse','origin/main')
+    except subprocess.CalledProcessError: return None
+    ahead=[s for s in git('rev-list',remote+'..HEAD').splitlines() if s]
+    if len(ahead)!=1: return None
+    files=set(git('diff-tree','--no-commit-id','--name-only','-r',ahead[0]).splitlines())
+    return ahead[0] if files and files<=own_paths(b) else None
+def adopt_state(b,remote):
+    if b['phase']!='site_verified': raise ValueError('state adopt requires site_verified')
+    git('fetch','origin','main');run('git','merge-base','--is-ancestor',remote,'origin/main')
+    files=set(git('diff-tree','--no-commit-id','--name-only','-r',remote).splitlines())
+    if not files or files-own_paths(b): raise ValueError('connector state commit carries unexpected files')
+    want=json.dumps(render(b,'deployed'),ensure_ascii=False,indent=2)+'\n'
+    if subprocess.check_output(['git','show',remote+':'+batch_rel(b)],cwd=ROOT,text=True,encoding='utf-8')!=want: raise ValueError('connector state content mismatch')
+    run('git','reset','--soft',remote)
+    b['phase']='deployed';save_batch(b)
+    return {'phase':'deployed','stateCommit':remote}
 def adopt_push(b,key,remote):
+    if key=='state': return adopt_state(b,remote)
     if b['phase']!=key+'_committed': raise ValueError('unexpected adopt stage')
     git('fetch','origin','main');run('git','merge-base','--is-ancestor',remote,'origin/main')
     local=b['publishShas'][key]
@@ -208,11 +291,11 @@ def supersede_site(b,remote):
     b['checkResults'].pop('ci',None);b['checkResults'].pop('production',None);save_batch(b)
     return {'phase':b['phase'],'siteSha':remote,'superseded':old}
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--batch',required=True);p.add_argument('--dry-run',action='store_true');p.add_argument('--execute',action='store_true');p.add_argument('--timeout',type=int,default=900);p.add_argument('--connector',action='store_true');p.add_argument('--adopt-push');p.add_argument('--supersede-site');p.add_argument('--push-stage',choices=['media','site']);a=p.parse_args();b=load_batch(a.batch)
+    p=argparse.ArgumentParser();p.add_argument('--batch',required=True);p.add_argument('--dry-run',action='store_true');p.add_argument('--execute',action='store_true');p.add_argument('--timeout',type=int,default=900);p.add_argument('--connector',action='store_true');p.add_argument('--adopt-push');p.add_argument('--supersede-site');p.add_argument('--push-stage',choices=['media','site','state']);a=p.parse_args();b=load_batch(a.batch)
     if a.supersede_site: print(json.dumps(supersede_site(b,a.supersede_site)))
     elif a.adopt_push: print(json.dumps(adopt_push(b,a.push_stage,a.adopt_push)))
     elif a.dry_run:
-        validate(b,'prepublish');print(json.dumps({'phase':b['phase'],'games':[g['appId'] for g in b['games']],'actions':['commit data and pending media IDs','push main and verify exact media SHA','verify all committed gallery files and full metadata coverage','activate registration, push main','check exact CI + production + every online page']}))
+        validate(b,'prepublish');print(json.dumps({'phase':b['phase'],'games':[g['appId'] for g in b['games']],'actions':['commit data, pending media IDs and batch state','push main and verify exact media SHA','verify all committed gallery files and full metadata coverage','activate registration and record media SHA/bytes in batch state, push main','check exact CI + production + every online page','commit batch state as deployed']}))
     elif a.execute: print(json.dumps(execute(b,a.timeout,a.connector)))
     else: p.error('choose --dry-run or --execute')
 if __name__=='__main__':

@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Incremental intake: stdlib only; private evidence never lives under data/."""
-import argparse, contextlib, fcntl, hashlib, json, os, re, socket, subprocess, sys, tempfile, time, unicodedata
+import argparse, contextlib, hashlib, json, os, re, socket, subprocess, sys, tempfile, time, unicodedata
 from pathlib import Path
+try:
+    import fcntl
+except ImportError:  # Windows: msvcrt gives the same non-blocking advisory lock
+    fcntl = None
 ROOT = Path(os.environ.get('INTAKE_ROOT', Path(__file__).resolve().parents[2]))
 STATE = ROOT/'scripts/review/state'
 CACHE = ROOT/'.cache/gameaichecker-review'
@@ -11,24 +15,47 @@ def now():
     from datetime import datetime, timezone
     return datetime.now(timezone.utc).isoformat()
 def read(p, default=None):
-    return json.loads(p.read_text()) if p.exists() else default
+    return json.loads(p.read_text(encoding='utf-8')) if p.exists() else default
 def atomic(p, value):
     p.parent.mkdir(parents=True, exist_ok=True)
     fd, tmp = tempfile.mkstemp(dir=p.parent, prefix='.tmp-')
     try:
-        with os.fdopen(fd, 'w') as f:
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
             f.write(json.dumps(value, ensure_ascii=False, indent=2)+'\n'); f.flush(); os.fsync(f.fileno())
         os.replace(tmp, p)
     finally:
         if os.path.exists(tmp): os.unlink(tmp)
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
-def git(*args): return subprocess.check_output(['git', *args], cwd=ROOT, text=True).strip()
+def git(*args): return subprocess.check_output(['git', *args], cwd=ROOT, text=True, encoding='utf-8').strip()
 @contextlib.contextmanager
 def lock(name='queue'):
     STATE.mkdir(parents=True, exist_ok=True)
-    with (STATE/f'.{name}.lock').open('w') as f:
-        fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    f = (STATE/f'.{name}.lock').open('a+')
+    try:
+        if fcntl:
+            fcntl.flock(f.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        else:
+            import msvcrt
+            f.seek(0)
+            try:
+                msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
+            except OSError as ex:
+                raise BlockingIOError(ex.errno, 'queue lock held', ex.filename) from ex
+    except BaseException:
+        f.close()
+        raise
+    try:
         yield
+    finally:
+        try:
+            if fcntl:
+                fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+            else:
+                import msvcrt
+                f.seek(0)
+                msvcrt.locking(f.fileno(), msvcrt.LK_UNLCK, 1)
+        finally:
+            f.close()
 
 def existing(): return {p.stem: sha(p) for p in (ROOT/'data/games').glob('*.json')}
 def excluded():
@@ -40,13 +67,13 @@ def excluded():
 
 def queue():
     p=STATE/'candidates.jsonl'
-    return [json.loads(s) for s in p.read_text().splitlines() if s.strip()] if p.exists() else []
+    return [json.loads(s) for s in p.read_text(encoding='utf-8').splitlines() if s.strip()] if p.exists() else []
 def save_queue(rows):
     # JSONL also uses fsync + atomic replacement.
     p=STATE/'candidates.jsonl'; p.parent.mkdir(parents=True,exist_ok=True)
     fd,tmp=tempfile.mkstemp(dir=p.parent)
     try:
-        with os.fdopen(fd,'w') as f:
+        with os.fdopen(fd,'w', encoding='utf-8') as f:
             for r in rows: f.write(json.dumps(r,ensure_ascii=False)+'\n')
             f.flush(); os.fsync(f.fileno())
         os.replace(tmp,p)
@@ -104,7 +131,7 @@ def import_candidates(rows, dry=False):
 def start(count, dry=False):
     if not 1<=count<=30: raise ValueError('count must be 1..30')
     with lock():
-        unfinished=[read(p) for p in (STATE/'batches').glob('*.json') if read(p)['phase'] not in ('deployed','cancelled')]
+        unfinished=[v for v in (read(p) for p in sorted((STATE/'batches').glob('*.json'))) if v and v['phase'] not in ('deployed','cancelled')]
         if unfinished: return {'resume':unfinished[0]['batchId'],'phase':unfinished[0]['phase']}
         q=queue(); skip=excluded()
         choices=sorted([r for r in q if r['status']=='queued' and r['appId'] not in skip and demand_valid(r)],key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))[:count]
@@ -159,7 +186,7 @@ def validate_game(b,g):
     from collect import parse_store, parse_discussion, parse_thread, Tree
     for source in e.get('sources',[]):
         evidence_ok(source,app)
-        raw=(ROOT/source['cachePath']).read_text()
+        raw=(ROOT/source['cachePath']).read_text(encoding='utf-8')
         if source['sourceType']=='store':
             parsed=parse_store(raw,app)
             if parsed['name']!=g['name'] or parsed['quote']!=source['quote'] or parsed['disclosurePresent']!=source.get('disclosurePresent'): raise ValueError('store quote/raw mismatch')
@@ -259,6 +286,13 @@ def prepare(b,dry=False):
         b['phase']='prepared'; save_batch(b)
     return {'staged':len(b['games']),'dryRun':dry}
 
+def media_queue():
+    """Intake-managed ids must be metadata-complete; older ids keep the legacy probe so the bot never mass-redownloads them."""
+    reg=read(STATE/'registered-games.json',{})
+    strict=list(dict.fromkeys(reg.get('active',[])+reg.get('pendingMedia',[])))
+    legacy=[i for i in (ROOT/'scripts/persist-media-ids.txt').read_text(encoding='utf-8').split() if i not in set(strict)]
+    return {'strict':strict,'legacy':legacy}
+
 def media_check(app, tracked=False, full=True):
     p=ROOT/f'public/images/steam/apps/{app}/gallery.json'; g=read(p,{})
     if not g.get('images'): raise ValueError('empty media '+app)
@@ -285,11 +319,12 @@ def media_check(app, tracked=False, full=True):
     return sum((ROOT/p).stat().st_size for p in set(paths))
 
 def main():
-    p=argparse.ArgumentParser(); p.add_argument('command',choices=['inventory','discover-import','start','pack','validate','prepare','status','resume','media-check','replace-blocked']); p.add_argument('--batch'); p.add_argument('--input'); p.add_argument('--count',type=int,default=10); p.add_argument('--stage',default='evidence',choices=['evidence','prepublish']); p.add_argument('--dry-run',action='store_true'); p.add_argument('--pending-only',action='store_true'); p.add_argument('--summary',action='store_true'); p.add_argument('--app'); p.add_argument('--tracked',action='store_true'); p.add_argument('--allow-legacy-gallery',action='store_true'); a=p.parse_args()
-    if a.command=='inventory': out={'canonical':len(existing()),'queue':len(queue()),'pendingBatches':[{'batchId':x.stem,'phase':read(x)['phase']} for x in (STATE/'batches').glob('*.json')],'policyVersion':POLICY}
+    p=argparse.ArgumentParser(); p.add_argument('command',choices=['inventory','discover-import','start','pack','validate','prepare','status','resume','media-check','media-queue','replace-blocked']); p.add_argument('--batch'); p.add_argument('--input'); p.add_argument('--count',type=int,default=10); p.add_argument('--stage',default='evidence',choices=['evidence','prepublish']); p.add_argument('--dry-run',action='store_true'); p.add_argument('--pending-only',action='store_true'); p.add_argument('--summary',action='store_true'); p.add_argument('--app'); p.add_argument('--tracked',action='store_true'); p.add_argument('--allow-legacy-gallery',action='store_true'); p.add_argument('--mode',choices=['strict','legacy']); a=p.parse_args()
+    if a.command=='inventory': out={'canonical':len(existing()),'queue':len(queue()),'pendingBatches':[{'batchId':x.stem,'phase':read(x)['phase']} for x in sorted((STATE/'batches').glob('*.json'))],'policyVersion':POLICY}
     elif a.command=='discover-import': out=import_candidates(read(Path(a.input)),a.dry_run)
     elif a.command=='start': out=start(a.count,a.dry_run)
     elif a.command=='media-check': out={'bytes':media_check(a.app,a.tracked,not a.allow_legacy_gallery)}
+    elif a.command=='media-queue': out=(media_queue()[a.mode] if a.mode else media_queue())
     else:
         b=load_batch(a.batch)
         if a.command=='validate': out=validate(b,a.stage)
@@ -314,9 +349,10 @@ def main():
                 for r in q:
                     if any(r['appId']==g['appId'] for g in b['games']): r.update(batchId=b['batchId'],status='published' if b['phase']=='deployed' else 'reserved',leaseUntil=time.time()+86400)
                 save_queue(q)
-            out={'batchId':b['batchId'],'phase':b['phase'],'remoteSha':git('rev-parse','origin/main'),'publishShas':b['publishShas'],'next':f'bash scripts/review/publish-batch.sh --batch {b["batchId"]} --execute' if b['phase'] in ('prepared','media_committed','media_pushed','media_ready','site_committed','site_pushed','deployed') else 'collect pending sources, then review decisions and validate'}
+            out={'batchId':b['batchId'],'phase':b['phase'],'remoteSha':git('rev-parse','origin/main'),'publishShas':b['publishShas'],'next':f'bash scripts/review/publish-batch.sh --batch {b["batchId"]} --execute' if b['phase'] in ('prepared','media_committed','media_pushed','media_ready','site_committed','site_pushed','site_verified','deployed') else 'collect pending sources, then review decisions and validate'}
         else: out={k:v for k,v in b.items() if k!='oldHashes'}
-    print(json.dumps(out,ensure_ascii=False,indent=2))
+    if a.command=='media-queue' and a.mode: print('\n'.join(out))
+    else: print(json.dumps(out,ensure_ascii=False,indent=2))
 if __name__=='__main__':
     try: main()
     except (ValueError, OSError, subprocess.CalledProcessError) as ex: print(str(ex),file=sys.stderr); sys.exit(1)

@@ -16,7 +16,7 @@ def raw_source(i,root,path,app,kind,quote='',name='Fixture 0',developer='Fixture
         i.atomic(path,{app:{'success':True,'data':{'steam_appid':int(app),'name':name,'developers':[developer],'type':'game'}}})
         body=None
     else: body='<html><body>'+html.escape(quote)+'</body></html>'
-    if body is not None: path.write_text(body)
+    if body is not None: path.write_text(body,encoding='utf-8')
     r=dict(id=kind,appId=app,sourceType=kind,url=f'https://example.invalid/app/{app}/{kind}',fetchedAt=i.now(),httpStatus=200,language='english',contentHash=i.sha(path),readStatus='complete',quote=quote,locator='full fixture source',cachePath=str(path.relative_to(root)))
     if kind=='store':r['disclosurePresent']=disclosure
     return r
