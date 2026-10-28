@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { getGameIndex } from './games.js';
-import { englishRecord } from './english.js';
+import { englishRecord, areaNames } from './english.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const read = file => JSON.parse(readFileSync(`data/${file}`, 'utf8'));
@@ -42,8 +42,64 @@ function chineseCard(game) {
   return `<a class="card" href="${esc(`/games/zh-cn/${game.slug}/`)}" ${attributes(game)}>${cover(game, 'cover')}<div class="body"><div class="badge tone-${esc(game.statusTone || 'gray')}">${esc(game.statusLabel)}</div><h2>${esc(game.name)}</h2><p class="dev">${esc(game.developer || '开发商待核实')}${game.releaseYear ? ` · ${esc(game.releaseYear)}` : ''}</p><p class="summary">${esc(game.summary)}</p>${game.areaSummary ? `<div class="chips">${game.areaSummary.split('、').slice(0, 3).map(label => `<span class="chip">${esc(label)}</span>`).join('')}</div>` : ''}<span class="more">查看档案 →</span></div></a>`;
 }
 
+// Generic sentences repeated on most records. The browse page states each
+// caveat once per group, so cards keep only the game-specific part.
+const boilerplate = [
+  'The recorded review found no substantiated generative-AI production evidence for this Steam App ID.',
+  'This does not confirm that the game is AI-free.',
+  'This is a developer self-report, not an independent technical audit.',
+  'Areas not explicitly covered remain unsettled.',
+];
+const groups = [
+  ['official_disclosure', 'Official AI disclosure', 'The developer states generative AI use, usually in Steam’s AI content disclosure. Tags show the areas named.'],
+  ['human_made', 'Human-made claim', 'The developer or a site-owner review says no generative AI was used. These are claims, not independent audits; tags show the areas covered.'],
+  ['no_evidence', 'No verified AI evidence', 'No disclosure or substantiated report was found when checked. This does not confirm the game is AI-free.'],
+  ['community', 'Player reports', 'Unverified allegations from players, kept separate from official facts.'],
+  ['unreviewed', 'Not reviewed yet', 'Queued for review.'],
+];
+function browseCard(game, thisYear) {
+  const [cls, label] = status(game);
+  let summary = englishRecord(game).summary || '';
+  for (const sentence of boilerplate) summary = summary.replace(sentence, '');
+  summary = summary.trim();
+  const year = Number(game.releaseYear) || 0;
+  const when = year > thisYear ? `Coming ${year}` : year ? String(year) : '';
+  const areas = (game.areaKeys || []).map(key => `<li>${esc(areaNames[key] || key)}</li>`).join('');
+  const steamTag = game.humanMadeListing ? (game.humanMadeListing.labelEn || '') : '';
+  return `<li class="${cls}" ${attributes(game, { areas: (game.areaKeys || []).join(' '), name: (game.name || '').toLowerCase(), year })}><a class="card" href="${esc(profile(game))}"><div class="cover">${cover(game, '')}</div><div class="body"><h3>${esc(game.name)}</h3><p class="dev">${esc(game.developer || 'Developer unverified')}${when ? ` · ${esc(when)}` : ''}</p>${areas ? `<ul class="areas" aria-label="AI areas">${areas}</ul>` : ''}${summary ? `<p class="summary">${esc(summary)}</p>` : ''}<span class="sr-only">${esc(label)}</span>${steamTag ? `<span class="tag">${esc(steamTag)}</span>` : ''}</div></a></li>`;
+}
+function renderBrowse(html) {
+  const games = index();
+  const thisYear = new Date().getFullYear();
+  const present = groups.filter(([key]) => games.some(g => g.status === key));
+  const sections = present.map(([key, title, note]) => {
+    const list = games.filter(g => g.status === key);
+    const compact = key === 'no_evidence' ? ' compact' : '';
+    return `<section class="group" data-group="${key}" aria-labelledby="g-${key}"><div class="group-head"><h2 id="g-${key}">${esc(title)}</h2><span class="n" data-group-count>${list.length}</span></div><p class="group-note">${esc(note)}</p><ul class="cards${compact}">${list.map(g => browseCard(g, thisYear)).join('')}</ul></section>`;
+  }).join('');
+  const total = games.length;
+  const bar = present.map(([key]) => {
+    const n = games.filter(g => g.status === key).length;
+    return `<span class="${statuses[key][0]}" data-status="${key}" style="flex:${n}"></span>`;
+  }).join('');
+  const keys = present.map(([key, title]) => {
+    const n = games.filter(g => g.status === key).length;
+    return `<button type="button" class="key" data-status="${key}" aria-pressed="false" disabled><i style="background:var(--${{ official_disclosure: 'amber-bar', human_made: 'green-bar', no_evidence: 'noev-bar', community: 'violet', unreviewed: 'slate' }[key]})"></i><b>${n}</b>${esc(title)}</button>`;
+  }).join('');
+  const dist = `<div class="dist-bar" role="img" aria-label="${present.map(([key, title]) => `${games.filter(g => g.status === key).length} ${title}`).join(', ')} of ${total} games">${bar}</div><div class="dist-keys" role="group" aria-label="Filter by evidence status">${keys}</div>`;
+  const usedAreas = Object.keys(areaNames).filter(key => games.some(g => (g.areaKeys || []).includes(key)));
+  const areaOptions = `<option value="all">Any AI area</option>${usedAreas.map(key => `<option value="${key}">${esc(areaNames[key])}</option>`).join('')}`;
+  html = replace(html, '<!--DIST-->', dist);
+  html = replace(html, '<!--AREAS-->', areaOptions);
+  html = replace(html, '<div class="wrap" id="grid"></div>', `<div class="wrap" id="grid">${sections}</div>`);
+  html = html.replace(/(<p[^>]*id="count"[^>]*>)[\s\S]*?(<\/p>)/, `$1${total} games$2`);
+  html = html.replace(/<(input|select)\b/g, '<$1 disabled');
+  return html.replace('</body>', '<script src="/browse-filters.js" defer></script></body>');
+}
+
 export function renderLegacyList(html, route) {
   if (!['games', 'browse', 'indie-ai', 'events/steam-next-fest-october-2026'].includes(route)) return html;
+  if (route === 'browse') return renderBrowse(html);
   const games = index();
   const byId = new Map(games.map(g => [String(g.appId), g]));
   let cards, count, controls;
@@ -52,12 +108,6 @@ export function renderLegacyList(html, route) {
     count = `${games.length} / ${games.length} 款游戏`;
     controls = { query: 'search', status: 'filter' };
     html = replace(html, '<div class="grid" id="cards"></div>', `<div class="grid" id="cards">${cards}</div>`);
-  } else if (route === 'browse') {
-    cards = games.map(g => englishCard(g)).join('');
-    count = `${games.length} / ${games.length} games`;
-    controls = { query: 'q', status: 'status', era: 'era' };
-    html = html.replace('value="official_ai_disclosure"', 'value="official_disclosure"').replace('value="developer_no_genai_statement"', 'value="human_made"').replace('value="no_verified_genai_evidence"', 'value="no_evidence"');
-    html = replace(html, '<div class="grid" id="grid"></div>', `<div class="grid" id="grid">${cards}</div>`);
   } else {
     const indie = route === 'indie-ai';
     const data = read(indie ? 'indie-roguelike-ai-disclosures.json' : 'next-fest-october-2026.json');
