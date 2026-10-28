@@ -320,7 +320,7 @@ def media_check(app, tracked=False, full=True):
 
 def main():
     p=argparse.ArgumentParser(); p.add_argument('command',choices=['inventory','discover-import','start','pack','validate','prepare','status','resume','media-check','media-queue','replace-blocked']); p.add_argument('--batch'); p.add_argument('--input'); p.add_argument('--count',type=int,default=10); p.add_argument('--stage',default='evidence',choices=['evidence','prepublish']); p.add_argument('--dry-run',action='store_true'); p.add_argument('--pending-only',action='store_true'); p.add_argument('--summary',action='store_true'); p.add_argument('--app'); p.add_argument('--tracked',action='store_true'); p.add_argument('--allow-legacy-gallery',action='store_true'); p.add_argument('--mode',choices=['strict','legacy']); a=p.parse_args()
-    if a.command=='inventory': out={'canonical':len(existing()),'queue':len(queue()),'pendingBatches':[{'batchId':x.stem,'phase':read(x)['phase']} for x in sorted((STATE/'batches').glob('*.json'))],'policyVersion':POLICY}
+    if a.command=='inventory': out={'canonical':len(existing()),'queue':len(queue()),'pendingBatches':[{'batchId':x.stem,'phase':read(x)['phase']} for x in sorted((STATE/'batches').glob('*.json')) if read(x)['phase'] not in ('deployed','cancelled')],'publishedBatches':sum(1 for x in (STATE/'batches').glob('*.json') if read(x)['phase']=='deployed'),'policyVersion':POLICY}
     elif a.command=='discover-import': out=import_candidates(read(Path(a.input)),a.dry_run)
     elif a.command=='start': out=start(a.count,a.dry_run)
     elif a.command=='media-check': out={'bytes':media_check(a.app,a.tracked,not a.allow_legacy_gallery)}
