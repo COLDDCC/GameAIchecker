@@ -3,101 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>游戏 AI 档案库 | Game AI Checker</title>
-<meta name="description" content="浏览 Steam 游戏的 AI 使用披露、证据链、开发商资料与 Steam 数据。未提及不等于未使用。">
+<title>全部游戏：Steam 游戏 AI 使用披露档案 | Game AI Checker</title>
+<meta name="description" content="浏览已收录的全部 Steam 游戏，按官方 AI 披露、开发者人工制作声明、未发现可核实证据分组，可按 AI 领域筛选并查看原始来源。">
+<link rel="canonical" href="https://gameaichecker.com/games/">
 <link rel="icon" type="image/svg+xml" href="/logo.svg">
 <meta name="theme-color" content="#ffffff">
-<style>
-:root{--blue:#1f8fff;--blue-dark:#0879d8;--ink:#182437;--muted:#667085;--line:#e5eaf0;--soft:#f8fafc;--amber:#b45309;--amber-bg:#fffbeb;--green:#047857;--green-bg:#ecfdf5;--gray:#475467;--gray-bg:#f2f4f7;--blue-bg:#eff6ff;color-scheme:light}
-*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--ink);font:15px/1.6 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}a{color:var(--blue-dark);text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%}
-.wrap{max-width:1240px;margin:auto;padding:0 24px}
-.top{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.top-inner{height:64px;display:flex;align-items:center;justify-content:space-between;gap:18px}
-.brand{display:inline-flex;align-items:center;gap:9px;font-weight:800;color:var(--ink);font-size:17px}.brand:hover{text-decoration:none}.brand img{width:38px;height:32px}.brand span{color:var(--blue)}
-.top-nav{display:flex;gap:18px}.top-nav a{font-size:13px;color:var(--muted)}
-main{padding:30px 0 10px}
-h1{font-size:clamp(2rem,4vw,3.2rem);line-height:1.08;letter-spacing:-.03em;margin:0 0 8px}
-.sub{color:var(--muted);max-width:720px;margin:0 0 20px}
-.tools{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 10px}
-input,select{padding:12px 14px;border:1px solid #cbd5e1;border-radius:10px;background:#fff;color:var(--ink);font:inherit;font-size:14px}
-input{flex:1;min-width:240px}select{min-width:190px}
-.count{font-size:13px;color:var(--muted);margin:0 0 16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
-.card{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;display:flex;flex-direction:column;transition:transform .18s ease,border-color .18s ease;color:var(--ink)}
-.card:hover{border-color:#c7d2e0;transform:translateY(-2px);text-decoration:none}
-.cover{width:100%;aspect-ratio:460/215;object-fit:cover;display:block;background:#eef2f7}
-.cover-ph{aspect-ratio:460/215;display:grid;place-content:center;background:var(--soft);color:var(--muted);font-size:12px}
-.body{padding:14px 16px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
-.body h2{font-size:15px;line-height:1.35;margin:0}
-.dev{font-size:12px;color:var(--muted);margin:0}
-.badge{align-self:flex-start;border-radius:999px;padding:4px 9px;font-size:11px;font-weight:700;border:1px solid transparent}
-.tone-amber{background:var(--amber-bg);color:var(--amber);border-color:#fde68a}
-.tone-green{background:var(--green-bg);color:var(--green);border-color:#a7f3d0}
-.tone-blue{background:var(--blue-bg);color:#1d4ed8;border-color:#bfdbfe}
-.tone-gray{background:var(--gray-bg);color:var(--gray);border-color:#e4e7ec}
-.summary{font-size:12px;color:var(--muted);line-height:1.55;margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.chips{display:flex;gap:4px;flex-wrap:wrap;margin-top:2px}
-.chip{background:var(--amber-bg);border:1px solid #fde68a;color:var(--amber);border-radius:999px;padding:2px 7px;font-size:10px;font-weight:600}
-.more{margin-top:auto;padding-top:8px;font-size:12px;font-weight:600}
-.empty{border:1px dashed var(--line);border-radius:14px;padding:30px;text-align:center;color:var(--muted);font-size:14px}
-footer{border-top:1px solid var(--line);margin-top:34px;padding:22px 0 40px;color:var(--muted);font-size:12px}
-footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
-@media(max-width:640px){.wrap{padding:0 14px}.top-inner{height:58px}.top-nav a:nth-child(n+2){display:none}h1{font-size:2rem}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.body{padding:10px}.summary{display:none}.chips{display:none}}
-.human-feature{margin:22px 0 26px}.human-feature-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.human-feature h2{font-size:18px;margin:0 0 5px}.human-feature-note{font-size:12px;color:var(--muted);margin:0 0 12px}.human-feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.human-feature-card{display:flex;gap:12px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:10px;color:var(--ink);background:#fff}.human-feature-card:hover{border-color:#9ccafa;text-decoration:none}.human-feature-card img{width:142px;aspect-ratio:460/215;object-fit:cover;border-radius:8px;background:var(--soft)}.human-feature-card strong{display:block;font-size:14px}.human-feature-card small{display:block;color:var(--muted);font-size:12px}.human-feature-card em{display:block;color:var(--amber);font-size:11px;font-style:normal;margin-top:4px}@media(max-width:700px){.human-feature-grid{grid-template-columns:1fr}.human-feature-card img{width:110px}}</style>
-<link rel="stylesheet" href="/airy-site.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Game AI Checker">
+<meta property="og:title" content="全部游戏：Steam 游戏 AI 使用披露档案 | Game AI Checker">
+<meta property="og:description" content="浏览已收录的全部 Steam 游戏，按官方 AI 披露、开发者人工制作声明、未发现可核实证据分组，可按 AI 领域筛选并查看原始来源。">
+<meta property="og:url" content="https://gameaichecker.com/games/">
+<meta property="og:image" content="https://gameaichecker.com/og-home.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="全部游戏：Steam 游戏 AI 使用披露档案 | Game AI Checker">
+<meta name="twitter:description" content="浏览已收录的全部 Steam 游戏，按官方 AI 披露、开发者人工制作声明、未发现可核实证据分组，可按 AI 领域筛选并查看原始来源。">
+<meta name="twitter:image" content="https://gameaichecker.com/og-home.png">
+<!--SITE-HEAD-->
 </head>
 <body>
-<header class="top"><div class="wrap top-inner"><a class="brand" href="/"><img src="/logo.svg" alt="" width="38" height="32">Game <span>AI</span> Checker</a><nav class="top-nav"><a href="/">搜索</a><a href="/browse/">浏览</a><a href="/indie-ai/">Indie AI</a></nav></div></header>
-<main class="wrap">
-<h1>游戏 AI 档案库</h1>
-<p class="sub">每款收录游戏都有独立的档案页：AI 使用分类、证据链、Steam 资料、开发商信息与相似游戏。未提及不等于未使用。</p>
-<section class="human-feature" aria-labelledby="human-feature-title"><div class="human-feature-head"><h2 id="human-feature-title">人工制作线索 · 新增关注</h2></div><p class="human-feature-note">以下是人工美术／手工制作推荐，不等于已通过「100% 无生成式 AI」认证。点击卡片查看原始来源与未核查范围。</p><div class="human-feature-grid"><a class="human-feature-card" href="/games/5086350-armor-growth-plan/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5086350/header.jpg" alt="罐头成长计划 Steam 封面" loading="lazy"><span><strong>罐头成长计划</strong><small>Armor Growth Plan · 5086350</small><em>“全部人类手搓”线索 · 原帖待核</em></span></a><a class="human-feature-card" href="/games/4598530-otherealm/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4598530/header.jpg" alt="异界・魔校 Steam 封面" loading="lazy"><span><strong>异界・魔校</strong><small>Otherealm · 4598530</small><em>漫画式视觉作品 · 美术来源待核</em></span></a></div></section>
-<div class="tools">
-<input id="search" placeholder="搜索游戏名、开发商或 Steam App ID" aria-label="搜索游戏">
-<select id="filter" aria-label="按披露状态筛选">
-<option value="all">全部状态</option>
-<option value="official_disclosure">官方 AI 披露</option>
-<option value="human_made">开发者称人工制作</option>
-<option value="no_evidence">未发现可核实证据</option>
-<option value="community">玩家投稿</option>
-<option value="unreviewed">尚未核查</option>
-</select>
-</div>
-<p id="count" class="count">正在读取游戏档案…</p>
-<div class="grid" id="cards"></div>
+<!--SITE-HEADER-->
+<main>
+  <section class="wrap page-head">
+    <h1>已收录的全部游戏</h1>
+    <p class="lead">每款游戏都标明我们掌握的信息：开发者在 Steam 上的 AI 披露、人工制作声明，或未发现可核实证据。点进档案可查看原文和来源。</p>
+    <!--LIST-TOP-->
+  </section>
+  <!--LIST-->
 </main>
-<footer><div class="wrap"><span>Game AI Checker · 独立项目，与 Valve / Steam 无关。</span><span>证据优先 · 未提及不等于未使用</span></div></footer>
-<script>
-const cards=document.getElementById('cards'),search=document.getElementById('search'),filter=document.getElementById('filter'),count=document.getElementById('count');
-let games=[];
-function esc(value){return String(value||'').replace(/[&<>"']/g,(c)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-function chip(label){return '<span class="chip">'+esc(label)+'</span>'}
-function renderCard(game){
-  const cover=game.header?'<img class="cover" src="'+esc(game.header)+'" alt="'+esc(game.name)+' 封面" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=\'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/'+esc(game.appId||'')+'/header.jpg\';this.onerror=()=>{this.style.display=\'none\'}">':'<div class="cover-ph">暂无封面</div>';
-  const areas=(game.areaSummary||'').split('、').slice(0,3).map(chip).join('');
-  const href=game.hasStatic?'/games/'+esc(game.slug)+'/':game.appId?'/game/?id='+esc(game.appId):'/game/?name='+encodeURIComponent(game.name);
-  return '<a class="card" href="'+href+'">'+cover+'<div class="body"><div class="badge tone-'+esc(game.statusTone||'gray')+'">'+esc(game.statusLabel)+'</div><h2>'+esc(game.name)+'</h2><p class="dev">'+esc(game.developer||'开发商待核实')+(game.releaseYear?' · '+esc(game.releaseYear):'')+'</p><p class="summary">'+esc(game.summary||'')+'</p>'+(areas?'<div class="chips">'+areas+'</div>':'')+'<span class="more">查看档案 →</span></div></a>';
-}
-function render(){
-  const needle=search.value.trim().toLowerCase();
-  const matches=games.filter((game)=>{
-    if(filter.value!=='all'&&game.status!==filter.value)return false;
-    if(!needle)return true;
-    return String(game.name||'').toLowerCase().includes(needle)||String(game.developer||'').toLowerCase().includes(needle)||String(game.appId||'').includes(needle);
-  });
-  count.textContent=matches.length+' / '+games.length+' 款游戏';
-  cards.innerHTML=matches.length?matches.map(renderCard).join(''):'<div class="empty" style="grid-column:1/-1">没有匹配的游戏。试试其他关键词或状态。</div>';
-}
-fetch('/data/game-index.json').then((response)=>{if(!response.ok)throw Error('HTTP '+response.status);return response.json()}).then((data)=>{
-  games=(data.games||[]).slice().sort((a,b)=>{
-    const order={official_disclosure:0,human_made:1,no_evidence:2,community:3,unreviewed:4};
-    const diff=(order[a.status]??9)-(order[b.status]??9);
-    return diff||String(a.name).localeCompare(String(b.name));
-  });
-  render();
-}).catch(()=>{count.textContent='游戏档案暂时无法读取。';cards.innerHTML='<div class="empty" style="grid-column:1/-1">数据加载失败，请稍后刷新。</div>'});
-search.addEventListener('input',render);
-filter.addEventListener('change',render);
-</script>
+<!--SITE-FOOTER-->
 </body>
 </html>

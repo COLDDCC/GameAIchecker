@@ -8,156 +8,30 @@
 <link rel="canonical" href="https://gameaichecker.com/browse/">
 <link rel="icon" type="image/svg+xml" href="/logo.svg">
 <meta name="theme-color" content="#ffffff">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<style>
-:root{
-  --paper:#f4f6f9;--surface:#fff;--ink:#142033;--ink-soft:#4a5870;--muted:#6b778c;--line:#dfe5ee;--line-strong:#c4cedc;
-  --blue:#1f6feb;--blue-deep:#1655bf;--blue-wash:#e8f0fe;
-  --amber:#a15c00;--amber-bar:#e8a33d;--amber-wash:#fdf1dc;
-  --green:#1d7a46;--green-bar:#3fa96c;--green-wash:#e2f5e9;
-  --slate:#5b677a;--slate-wash:#eef1f5;--violet:#6a3fc7;--violet-wash:#efe9fc;
-  --noev-bar:#8fb3ef;
-  --font:"Schibsted Grotesk",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
-}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.5;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
-a{color:var(--blue)}
-img{max-width:100%}
-:focus-visible{outline:3px solid #7fb0ff;outline-offset:2px;border-radius:6px}
-[hidden]{display:none!important}
-.wrap{width:min(1180px,100% - 32px);margin-inline:auto}
-.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
-
-/* Navigation — same bar as the home page */
-.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
-.nav-inner{display:flex;align-items:center;gap:22px;height:60px}
-.brand{display:flex;align-items:center;gap:9px;color:var(--ink);text-decoration:none;font-weight:800;font-size:1.04rem;letter-spacing:-.02em;white-space:nowrap}
-.brand img{width:34px;height:27px}
-.brand b{color:#1f8fff}
-.nav-links{display:flex;gap:2px;margin:0 0 0 auto;padding:0;list-style:none}
-.nav-links a{display:block;padding:8px 12px;border-radius:8px;color:var(--ink-soft);font-size:.92rem;font-weight:600;text-decoration:none;white-space:nowrap}
-.nav-links a:hover{color:var(--ink);background:var(--slate-wash)}
-.nav-links a[aria-current="page"]{color:var(--ink);background:var(--slate-wash)}
-@media(max-width:760px){.nav-links li:not(.keep){display:none}}
-
-/* Head + distribution bar (doubles as the status filter) */
-.head{padding:clamp(28px,5vw,52px) 0 18px}
-.head h1{margin:0;font-size:clamp(2.1rem,5vw,3.4rem);line-height:1.02;letter-spacing:-.045em;font-weight:900}
-.head p{margin:10px 0 0;max-width:62ch;color:var(--ink-soft)}
-.dist{margin-top:26px}
-.dist-bar{display:flex;height:14px;border-radius:999px;overflow:hidden;background:var(--line);gap:2px}
-.dist-bar span{display:block;min-width:6px;transition:opacity .2s}
-.dist-bar .disclosed{background:var(--amber-bar)}.dist-bar .human{background:var(--green-bar)}.dist-bar .noevidence{background:var(--noev-bar)}.dist-bar .community{background:var(--violet)}.dist-bar .unreviewed{background:var(--slate)}
-.dist[data-active] .dist-bar span:not(.on){opacity:.25}
-.dist-keys{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-.key{display:inline-flex;align-items:baseline;gap:8px;padding:8px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:inherit;font-size:.92rem;font-weight:600;cursor:pointer;text-align:left}
-.key b{font-size:1.15rem;font-weight:800;letter-spacing:-.02em}
-.key i{width:9px;height:9px;border-radius:50%;align-self:center;font-style:normal}
-.key:hover{border-color:var(--line-strong)}
-.key[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
-.key:disabled{cursor:default;opacity:.7}
-
-/* Toolbar */
-.tools{position:sticky;top:60px;z-index:40;background:rgba(244,246,249,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:12px 0}
-.tools-inner{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.search{flex:1 1 260px;display:flex;align-items:center;gap:8px;height:44px;padding:0 12px;border:1px solid var(--line-strong);border-radius:11px;background:var(--surface)}
-.search:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-wash)}
-.search svg{color:var(--muted);flex-shrink:0}
-.search input{flex:1;min-width:0;border:0;background:transparent;font:inherit;color:var(--ink)}
-.search input:focus{outline:none}
-.tools select{height:44px;padding:0 12px;border:1px solid var(--line-strong);border-radius:11px;background:var(--surface);color:var(--ink);font:inherit;font-size:.92rem}
-.count{margin:0 0 0 auto;color:var(--muted);font-size:.9rem;white-space:nowrap}
-.reset{border:0;background:none;color:var(--blue);font:inherit;font-size:.9rem;font-weight:600;cursor:pointer;padding:6px}
-
-/* Groups */
-.group{padding:30px 0 6px}
-.group-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin-bottom:6px}
-.group-head h2{margin:0;font-size:1.35rem;letter-spacing:-.03em}
-.group-head .n{color:var(--muted);font-weight:600}
-.group-note{margin:0 0 16px;max-width:75ch;color:var(--muted);font-size:.9rem}
-
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:0;padding:0;list-style:none}
-.card{display:flex;flex-direction:column;height:100%;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);text-decoration:none;overflow:hidden;transition:border-color .2s,box-shadow .2s}
-.card:hover{border-color:var(--line-strong);box-shadow:0 10px 26px rgba(20,32,51,.08)}
-.cover{aspect-ratio:460/215;background:var(--slate-wash);overflow:hidden}
-.cover img{display:block;width:100%;height:100%;object-fit:cover}
-.body{display:flex;flex-direction:column;gap:7px;padding:14px 16px 16px;flex:1}
-.card h3{margin:0;font-size:1.04rem;line-height:1.25;letter-spacing:-.02em}
-.card:hover h3{color:var(--blue-deep)}
-.dev{margin:0;color:var(--muted);font-size:.84rem}
-.summary{margin:2px 0 0;color:var(--ink-soft);font-size:.88rem;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.areas{display:flex;flex-wrap:wrap;gap:5px;margin:2px 0 0;padding:0;list-style:none}
-.areas li{padding:2px 8px;border-radius:6px;background:var(--amber-wash);color:var(--amber);font-size:.74rem;font-weight:700}
-.human .areas li{background:var(--green-wash);color:var(--green)}
-.tag{align-self:flex-start;margin-top:auto;padding-top:6px;font-size:.78rem;font-weight:600;color:var(--muted)}
-.chip{display:inline-flex;align-items:center;gap:6px;padding:2px 9px 2px 8px;border-radius:999px;font-size:.74rem;font-weight:700;white-space:nowrap}
-.chip::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
-.chip.disclosed{background:var(--amber-wash);color:var(--amber)}.chip.human{background:var(--green-wash);color:var(--green)}.chip.noevidence{background:var(--blue-wash);color:var(--blue-deep)}.chip.community{background:var(--violet-wash);color:var(--violet)}.chip.unreviewed{background:var(--slate-wash);color:var(--slate)}
-
-/* Compact rows for "no evidence" — same facts, a quarter of the height */
-.cards.compact{grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:10px}
-.compact .card{flex-direction:row;align-items:center}
-.compact .cover{flex:0 0 132px;aspect-ratio:460/215;align-self:stretch}
-.compact .body{padding:10px 14px;gap:3px}
-.compact .summary{-webkit-line-clamp:2;font-size:.82rem}
-.compact h3{font-size:.96rem}
-
-.empty{padding:40px 0;text-align:center;color:var(--ink-soft)}
-.foot{margin-top:48px;border-top:1px solid var(--line);background:var(--surface)}
-.foot p{margin:0;padding:22px 0;max-width:80ch;color:var(--muted);font-size:.86rem}
-@media(max-width:640px){
-  .tools{position:static}
-  .search{flex-basis:100%}
-  .tools select{flex:1}
-  .count{margin:0;width:100%}
-  .key{padding:6px 10px;font-size:.84rem}
-  .key b{font-size:1rem}
-  .brand span{display:none}
-  .compact .cover{flex-basis:104px}
-  .cards.compact{grid-template-columns:1fr}
-}
-@media(prefers-reduced-motion:reduce){*{transition:none!important}}
-</style>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Game AI Checker">
+<meta property="og:title" content="Browse Steam Games by AI Disclosure | Game AI Checker">
+<meta property="og:description" content="Browse every Steam game we have reviewed, grouped by official AI disclosure, human-made claim and no verified evidence. Filter by AI area and open the sources.">
+<meta property="og:url" content="https://gameaichecker.com/browse/">
+<meta property="og:image" content="https://gameaichecker.com/og-home.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Browse Steam Games by AI Disclosure | Game AI Checker">
+<meta name="twitter:description" content="Browse every Steam game we have reviewed, grouped by official AI disclosure, human-made claim and no verified evidence. Filter by AI area and open the sources.">
+<meta name="twitter:image" content="https://gameaichecker.com/og-home.png">
+<!--SITE-HEAD-->
 </head>
 <body>
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="/" aria-label="Game AI Checker home"><img src="/logo.svg" alt="" width="34" height="27"><span>Game <b>AI</b> Checker</span></a>
-    <nav aria-label="Main">
-      <ul class="nav-links">
-        <li class="keep"><a href="/browse/" aria-current="page">Browse</a></li>
-        <li><a href="/indie-ai/">Indie AI</a></li>
-        <li><a href="/events/steam-next-fest-october-2026/">Next Fest</a></li>
-        <li class="keep"><a href="/guides/how-to-check-steam-game-ai/">How to check</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+<!--SITE-HEADER-->
 <main>
-  <section class="wrap head">
+  <section class="wrap page-head">
     <h1>Every game we have reviewed</h1>
-    <p>Each record shows what is actually on file: the developer's Steam AI disclosure, a human-made claim, or nothing we could verify. Open a game for the exact wording and sources.</p>
-    <div class="dist" id="dist"><!--DIST--></div>
+    <p class="lead">Each record shows what is on file: the developer’s Steam AI disclosure, a human-made claim, or nothing we could verify. Open a game for the exact wording and sources.</p>
+    <!--LIST-TOP-->
   </section>
-
-  <div class="tools">
-    <div class="wrap tools-inner">
-      <label class="search"><svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" stroke="currentColor" stroke-width="2"/><path d="m13 13 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="sr-only">Search games</span><input id="q" type="search" placeholder="Game, developer or Steam App ID" autocomplete="off"></label>
-      <select id="area" aria-label="Disclosed AI area"><!--AREAS--></select>
-      <select id="sort" aria-label="Sort"><option value="name">A–Z</option><option value="new">Newest release</option></select>
-      <button class="reset" id="reset" type="button" hidden>Clear filters</button>
-      <p class="count" id="count" aria-live="polite"></p>
-    </div>
-  </div>
-
-  <div class="wrap" id="grid"></div>
-  <p class="wrap empty" id="empty" hidden>No game matches these filters. Clear the filters, or <a href="/#method">see how we review games</a>.</p>
+  <!--LIST-->
 </main>
-
-<footer class="foot"><div class="wrap"><p>“No verified evidence” means nothing has been established here, not that zero generative AI was used. Developer disclosures and claims are self-reports. Traditional NPC AI is outside this tracker’s scope. Reference: <a href="https://partner.steamgames.com/doc/gettingstarted/contentsurvey">Steamworks content survey</a>. Not affiliated with Valve or Steam.</p></div></footer>
+<!--SITE-FOOTER-->
 </body>
 </html>
