@@ -21,7 +21,6 @@ from pathlib import Path
 from intake import ROOT, atomic, now, read, sha, work, load_batch
 
 BRANCH = 'intake-cache'
-WT = ROOT / '.cache/intake-cache'
 POLL = int(os.environ.get('INTAKE_FETCH_POLL', '15'))
 TIMEOUT = int(os.environ.get('INTAKE_FETCH_TIMEOUT', '1200'))
 WORKFLOW = Path(__file__).resolve().parents[2] / 'scripts/review/intake-cache-workflow.yml'
@@ -31,7 +30,8 @@ def enabled():
     return os.environ.get('INTAKE_FETCH') == 'actions'
 
 
-def _git(*args, cwd=ROOT, check=True, binary=False):
+def _git(*args, cwd=None, check=True, binary=False):
+    cwd = ROOT if cwd is None else cwd  # resolve at call time (tests and INTAKE_ROOT patch ROOT)
     r = subprocess.run(['git', '-c', 'user.name=gameaichecker-intake', '-c', 'user.email=intake@gameaichecker.invalid', *args],
                        cwd=cwd, capture_output=True, text=not binary)
     if check and r.returncode:
@@ -44,6 +44,7 @@ def _fetch_branch():
 
 
 def _worktree():
+    WT = ROOT / '.cache/intake-cache'
     if not (WT / '.git').exists():
         _fetch_branch()
         WT.parent.mkdir(parents=True, exist_ok=True)

@@ -126,10 +126,10 @@ class CacheSyncTests(unittest.TestCase):
             subprocess.run(['git', '-C', str(seed), 'push', '-q', 'origin', 'HEAD:refs/heads/main'], check=True)
             subprocess.run(['git', '-C', str(seed), 'push', '-q', 'origin', 'HEAD:refs/heads/intake-cache'], check=True)
             a = clone('a'); snap = a / '.cache/search-demand/1-abc.json'; snap.parent.mkdir(parents=True); snap.write_bytes(b'{"value": 7}\n')
-            with patch.object(rf, 'ROOT', a), patch.object(rf, 'WT', a / '.cache/intake-cache'):
+            with patch.object(rf, 'ROOT', a):
                 self.assertTrue(rf.cache_push()['pushed'])
             b = clone('b')
-            with patch.object(rf, 'ROOT', b), patch.object(rf, 'WT', b / '.cache/intake-cache'):
+            with patch.object(rf, 'ROOT', b):
                 self.assertEqual(rf.cache_pull()['restored'], 1)
             self.assertEqual((b / '.cache/search-demand/1-abc.json').read_bytes(), b'{"value": 7}\n')
 
