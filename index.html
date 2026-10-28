@@ -236,6 +236,9 @@ img{max-width:100%}
 /* Human-made showcase cards are intentionally label-free. */
 #human-made .human-grid .game-body .meta,
 #human-made .human-grid .game-body .chip { display: none !important; }
+.browser-head h2{margin-right:auto}
+.browse-link{font-size:.9rem;font-weight:600;text-decoration:none;white-space:nowrap}
+.browse-link:hover{text-decoration:underline}
 </style>
 <link rel="stylesheet" href="/airy-site.css">
 <link rel="stylesheet" href="/toolfavor-cta.css" />
@@ -252,13 +255,14 @@ img{max-width:100%}
     <div class="nav-menu" id="navMenu">
       <nav aria-label="Main">
         <ul class="nav-links">
-          <li><a href="/games/">Game records</a></li>
+          <li><a href="/browse/">Browse games</a></li>
           <li><a href="/indie-ai/">Indie AI</a></li>
           <li><a href="/events/steam-next-fest-october-2026/">Next Fest</a></li>
-          <li><a href="/share/">Share cards</a></li>
+          <li><a href="/guides/how-to-check-steam-game-ai/">How to check</a></li>
           <li><a href="/#method">How we rate</a></li>
+          <li><a href="/games/" lang="zh-CN" hreflang="zh-CN">中文</a></li>
         </ul>
-      <a href="/guides/how-to-check-steam-game-ai/">Check Steam disclosures</a> <a href="/guides/how-to-tell-if-a-game-is-ai-generated/">Judge AI evidence</a></nav>
+      </nav>
       <div class="nav-search">
         <form id="navForm" role="search" aria-label="Search games from the navigation bar">
           <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" stroke="currentColor" stroke-width="2"/><path d="m13 13 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
@@ -342,6 +346,7 @@ img{max-width:100%}
     <div class="browser-head">
       <h2 id="browserTitle">All games</h2>
       <p id="browserNote">Reviewed games first.</p>
+      <a class="browse-link" id="browseLink" href="/browse/">Filter and sort on the full list</a>
     </div>
     <div id="results" aria-live="polite">
       <div class="grid" id="grid"></div>
@@ -379,7 +384,8 @@ img{max-width:100%}
     <p>Independent, evidence-led research, not automated accusations. Not affiliated with Valve or Steam. Steam is a trademark of Valve Corporation.</p>
     <nav aria-label="Footer">
       <a href="/browse/">Browse games</a>
-      <a href="/games/">Game records</a>
+      <a href="/games/">全部游戏（中文）</a>
+      <a href="/guides/how-to-check-steam-game-ai/">How to check</a>
       <a href="/indie-ai/">Indie AI</a>
       <a href="/events/steam-next-fest-october-2026/">Next Fest</a>
       <a href="/share/">Share cards</a>
@@ -536,6 +542,13 @@ img{max-width:100%}
     $('browserNote').textContent = query
       ? list.length + (list.length === 1 ? ' game' : ' games') + (filter === 'all' ? '' : ' in “' + f.title + '”')
       : f.note;
+
+    const statusParam = {disclosed: 'official_disclosure', human: 'human_made', community: 'community', unreviewed: 'unreviewed'}[filter];
+    const browseParams = new URLSearchParams();
+    if (query) browseParams.set('q', query);
+    if (statusParam) browseParams.set('status', statusParam);
+    $('browseLink').href = filter === 'fest' ? '/events/steam-next-fest-october-2026/' + (query ? '?q=' + encodeURIComponent(query) : '')
+      : '/browse/' + (browseParams.toString() ? '?' + browseParams : '');
 
     if (!list.length) {
       grid.replaceChildren();
