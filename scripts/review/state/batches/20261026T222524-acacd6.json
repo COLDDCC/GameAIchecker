@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "1540a4e057dc04d46bdd653fa1e26e28edb48842",
   "policyVersion": "2026-10-26-v1",
-  "phase": "site_pushed",
+  "phase": "deployed",
   "createdAt": "2026-10-27T01:25:24.418466+00:00",
   "oldHashes": {
     "4576390": "54ffc4aadf29059dee836868f64583b277a80c1bfc5db31043f6eedc6cf99b46",
@@ -518,7 +518,83 @@
       },
       "bytes": 44974659,
       "verifiedRemoteSha": "3f356aa8c052fe335b74bb9c0066605065a808cd"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40434201709",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40434201768"
+    },
+    "production": {
+      "sha": "ef9bf764c951423eb7495580b0181dbb2f55821b",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/a7f8f66f-febf-4a63-b146-34faf547c96b",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>ef9bf76</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://a7f8f66f.gameaichecker.pages.dev'>https://a7f8f66f.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/a7f8f66f-febf-4a63-b146-34faf547c96b)\n",
+      "checkedAt": "2026-10-28T02:53:40.152809+00:00"
+    },
+    "onlineImages": {
+      "responses": 381,
+      "cache": ".cache\\gameaichecker-review\\20261026T222524-acacd6\\online-images-ef9bf764c951423eb7495580b0181dbb2f55821b.json"
+    },
+    "online": [
+      {
+        "appId": "3797790",
+        "url": "https://gameaichecker.com/games/3797790-abyssal-lapidary/",
+        "checkedAt": "2026-10-28T02:53:41.877577+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4661070",
+        "url": "https://gameaichecker.com/games/4661070-hands-over/",
+        "checkedAt": "2026-10-28T02:53:43.096507+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4954970",
+        "url": "https://gameaichecker.com/games/4954970-no-body-no-problem/",
+        "checkedAt": "2026-10-28T02:53:45.608132+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2923810",
+        "url": "https://gameaichecker.com/games/2923810-among-shadows/",
+        "checkedAt": "2026-10-28T02:53:51.401181+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5200620",
+        "url": "https://gameaichecker.com/games/5200620-dungeonbound/",
+        "checkedAt": "2026-10-28T02:53:52.434006+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3669620",
+        "url": "https://gameaichecker.com/games/3669620-warhammer-survivors/",
+        "checkedAt": "2026-10-28T02:54:03.206285+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3739350",
+        "url": "https://gameaichecker.com/games/3739350-path-of-the-yaoguai/",
+        "checkedAt": "2026-10-28T02:54:06.214584+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5088440",
+        "url": "https://gameaichecker.com/games/5088440-rip-it-card-collector/",
+        "checkedAt": "2026-10-28T02:54:07.232588+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "1808500",
+        "url": "https://gameaichecker.com/games/1808500-arc-raiders/",
+        "checkedAt": "2026-10-28T02:54:08.772676+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3321460",
+        "url": "https://gameaichecker.com/games/3321460-crimson-desert-enhanced/",
+        "checkedAt": "2026-10-28T02:54:10.268101+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
     "media": "b412c55ade137f9e83f17aa5c3e82edcc4a0d5cc",
