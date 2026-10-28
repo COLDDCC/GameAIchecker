@@ -204,4 +204,19 @@ class ForwardSkillTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError,'offline stop'):publish.execute(saved)
         self.assertEqual(intake.git('rev-parse','HEAD'),commit);self.assertEqual(saved['publishShas']['media'],commit)
 
+    def test_github_api_uses_cli_credential_and_never_puts_it_in_argv(self):
+        calls=[]
+        def fake_check_output(args,**kw):
+            calls.append(list(args)); return '{\"workflow_runs\":[]}'
+        with patch.object(publish.shutil,'which',return_value='/usr/bin/gh'),patch.object(publish.subprocess,'check_output',side_effect=fake_check_output):
+            self.assertEqual(publish.api('actions/runs?head_sha=abc'),{'workflow_runs':[]})
+        self.assertEqual(calls,[['gh','api','https://api.github.com/repos/COLDDCC/GameAIchecker/actions/runs?head_sha=abc']])
+        self.assertFalse(any('Authorization' in ' '.join(c) or 'gho_' in ' '.join(c) for c in calls))
+    def test_github_api_falls_back_to_curl_when_cli_fails(self):
+        def fake_check_output(args,**kw):
+            if args[0]=='gh': raise publish.subprocess.CalledProcessError(1,args)
+            return '{\"workflow_runs\":[]}'
+        with patch.object(publish.shutil,'which',return_value='/usr/bin/gh'),patch.object(publish.subprocess,'check_output',side_effect=fake_check_output):
+            self.assertEqual(publish.api('actions/runs')['workflow_runs'],[])
+
 if __name__=='__main__':unittest.main()

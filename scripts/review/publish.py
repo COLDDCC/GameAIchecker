@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Two-phase publisher: explicit paths, per-SHA gates, persistent recovery."""
-import argparse, json, re, subprocess, sys, time, os, hashlib, tempfile
+import argparse, json, re, subprocess, sys, time, os, hashlib, tempfile, shutil
 from pathlib import Path
 from intake import ROOT, STATE, atomic, read, now, git, lock, load_batch, save_batch, verify_old, validate, work, media_check, slug, sha
 REPO='COLDDCC/GameAIchecker'
@@ -33,7 +33,12 @@ def api(path):
         snapshot=read(Path(cache)/(hashlib.sha256(path.encode()).hexdigest()+'.json'))
         if not snapshot or snapshot.get('path')!=path or time.time()-snapshot.get('recordedAt',0)>180: raise ValueError('fresh GitHub connector response required: '+path)
         return snapshot['payload']
-    result=subprocess.check_output(['curl','-fLsS','--max-time','30','https://api.github.com/repos/'+REPO+'/'+path],text=True,encoding='utf-8')
+    url='https://api.github.com/repos/'+REPO+'/'+path
+    if shutil.which('gh'):
+        # gh keeps the credential out of argv; an unauthenticated curl is rate-limited to 403 behind a proxy.
+        try: return json.loads(subprocess.check_output(['gh','api',url],text=True,encoding='utf-8'))
+        except (subprocess.CalledProcessError,json.JSONDecodeError): pass
+    result=subprocess.check_output(['curl','-fLsS','--max-time','30',url],text=True,encoding='utf-8')
     return json.loads(result)
 def verify_remote(b):
     git('fetch','origin','main'); remote=git('rev-parse','origin/main')
@@ -81,13 +86,16 @@ def check_images(b,urls):
     pending=[url for url in urls if url not in saved or time.time()-saved[url].get('checkedAt',0)>300]
     if pending:
         cache.parent.mkdir(parents=True,exist_ok=True)
-        with tempfile.NamedTemporaryFile(mode='w',suffix='.curl',dir=cache.parent) as config:
-            for url in pending:
-                if not url.startswith('https://gameaichecker.com/images/steam/apps/') or any(c in url for c in ('\n','\r','"')): raise ValueError('unsafe image URL')
-                config.write('url = "'+url+'"\noutput = "/dev/null"\n')
-            config.flush()
+        for url in pending:
+            if not url.startswith('https://gameaichecker.com/images/steam/apps/') or any(c in url for c in ('\n','\r','"')): raise ValueError('unsafe image URL')
+        # curl on Windows cannot read a config file another process still holds open, so write a closed, unpredictable path.
+        config=cache.parent/('curl-config-'+os.urandom(6).hex()+'.txt')
+        try:
+            config.write_text(''.join('url = "'+url+'"\noutput = "'+os.devnull+'"\n' for url in pending),encoding='utf-8')
             # Reuse two connections; still require every image response, not just one cover.
-            result=subprocess.run(['curl','--parallel','--parallel-max','2','-fLsS','--max-time','30','--write-out','%{url_effective}\t%{http_code}\t%{content_type}\n','--config',config.name],text=True,encoding='utf-8',capture_output=True)
+            result=subprocess.run(['curl','--parallel','--parallel-max','2','-fLsS','--max-time','30','--write-out','%{url_effective}\t%{http_code}\t%{content_type}\n','--config',str(config)],text=True,encoding='utf-8',capture_output=True)
+        finally:
+            config.unlink(missing_ok=True)
         for line in result.stdout.splitlines():
             parts=line.split('\t')
             if len(parts)==3 and parts[0] in pending and parts[1]=='200' and parts[2].startswith('image/'):

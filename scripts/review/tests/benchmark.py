@@ -1,5 +1,7 @@
 """Offline proxy metrics; never claim tokenizer counts or end-to-end build capacity."""
-import json, resource, time
+import json, time
+try: import resource
+except ImportError: resource=None
 from pathlib import Path
 root=Path(__file__).resolve().parents[3]
 docs=sum((root/p).stat().st_size for p in ['docs/AGENT_HANDOFF.md','docs/plans/2026-10-26-low-token-game-intake-skill.md'])
@@ -13,6 +15,6 @@ for n in [1000,10000]:
  start=time.perf_counter();rows=[{'appId':str(100000+x),'status':'queued','priority':100,'discoveredAt':'2026-10-26','quote':quote} for x in range(n)];ids={r['appId'] for r in rows};assert len(ids)==n
  sorted(rows,key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))
  encoded=json.dumps(rows);json.loads(encoded)
- scales.append({'syntheticRecords':n,'queueSortAndJsonSeconds':time.perf_counter()-start,'jsonBytes':len(encoded),'maxRssKiB':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss})
+ scales.append({'syntheticRecords':n,'queueSortAndJsonSeconds':time.perf_counter()-start,'jsonBytes':len(encoded),'maxRssKiB':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss if resource else 'not measured on this platform'})
 out['queueScale']=scales;out['getAllGamesScale']='not measured; existing quadratic recommendation behavior is out of scope'
 print(json.dumps(out,indent=2))
