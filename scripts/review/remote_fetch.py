@@ -13,6 +13,8 @@ CLI:
                                             fetch full articles into the batch cache and print
                                             evidence source skeletons (fill id/label/quote, then
                                             pass them to import-search.py in the selection file)
+  remote_fetch.py cache-push | cache-pull   mirror .cache/search-demand and .cache/gameaichecker-review
+                                            to/from intake-cache:cache/ so a fresh sandbox can resume
 """
 import argparse, hashlib, json, os, re, subprocess, sys, time
 from pathlib import Path
@@ -97,7 +99,7 @@ def wait(rid, count):
     ref = f'origin/{BRANCH}'
     while True:
         _fetch_branch()
-        if subprocess.run(['git', 'cat-file', '-e', f'{ref}:responses/{rid}/done.json'], cwd=ROOT).returncode == 0:
+        if subprocess.run(['git', 'cat-file', '-e', f'{ref}:responses/{rid}/done.json'], cwd=ROOT, capture_output=True).returncode == 0:
             break
         if time.monotonic() > deadline:
             raise TimeoutError(f'fetch relay timeout for request {rid}; check Actions on branch {BRANCH} and rerun (cached results are reused)')
@@ -156,6 +158,49 @@ def save_sources(batch, app, kind, urls):
     return out
 
 
+CACHE_DIRS = ('.cache/search-demand', '.cache/gameaichecker-review')
+
+
+def cache_push(message='chore(intake): sync private evidence cache'):
+    """Mirror demand snapshots and raw batch evidence to intake-cache/cache/ (exact bytes)."""
+    wt = _worktree()
+    for attempt in range(5):
+        _fetch_branch(); _git('checkout', '-q', '--detach', f'origin/{BRANCH}', cwd=wt)
+        for d in CACHE_DIRS:
+            src = ROOT / d
+            if not src.is_dir():
+                continue
+            for f in src.rglob('*'):
+                if f.is_file() and not f.name.startswith('.tmp-') and f.suffix not in ('.download', '.lock'):
+                    dst = wt / 'cache' / d.split('/', 1)[1] / f.relative_to(src)
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    dst.write_bytes(f.read_bytes())
+        _git('add', '-A', 'cache', cwd=wt, check=False)
+        if subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=wt).returncode == 0:
+            return {'pushed': False, 'reason': 'no changes'}
+        _git('commit', '-qm', message, cwd=wt)
+        if subprocess.run(['git', 'push', '-q', 'origin', f'HEAD:refs/heads/{BRANCH}'], cwd=wt, capture_output=True).returncode == 0:
+            return {'pushed': True, 'commit': _git('rev-parse', 'HEAD', cwd=wt)}
+        time.sleep(3 + attempt * 2)
+    raise ValueError('cache push failed')
+
+
+def cache_pull():
+    """Restore cache/ from intake-cache into .cache/ without overwriting newer local files."""
+    wt = _worktree(); _fetch_branch(); _git('checkout', '-q', '--detach', f'origin/{BRANCH}', cwd=wt)
+    restored = 0
+    for d in CACHE_DIRS:
+        src = wt / 'cache' / d.split('/', 1)[1]
+        if not src.is_dir():
+            continue
+        for f in src.rglob('*'):
+            if f.is_file():
+                dst = ROOT / d / f.relative_to(src)
+                if not dst.exists():
+                    dst.parent.mkdir(parents=True, exist_ok=True); dst.write_bytes(f.read_bytes()); restored += 1
+    return {'restored': restored}
+
+
 def _local(urls):
     metas = []
     for u in urls:
@@ -167,12 +212,16 @@ def _local(urls):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument('command', choices=['init', 'get', 'source'])
+    p.add_argument('command', choices=['init', 'get', 'source', 'cache-push', 'cache-pull'])
     p.add_argument('urls', nargs='*')
     p.add_argument('--out'); p.add_argument('--batch'); p.add_argument('--app'); p.add_argument('--type', default='press', choices=['press', 'developer', 'community'])
     a = p.parse_args()
     if a.command == 'init':
         print(json.dumps(init_branch()))
+    elif a.command == 'cache-push':
+        print(json.dumps(cache_push()))
+    elif a.command == 'cache-pull':
+        print(json.dumps(cache_pull()))
     elif a.command == 'get':
         out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
         res = []

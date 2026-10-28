@@ -113,5 +113,26 @@ class RelayTests(unittest.TestCase):
         self.assertEqual(meta['contentHash'], hashlib.sha256(b'<html>ok</html>').hexdigest())
 
 
+class CacheSyncTests(unittest.TestCase):
+    def test_push_then_pull_restores_exact_bytes_in_fresh_clone(self):
+        with tempfile.TemporaryDirectory() as t:
+            t = Path(t); bare = t / 'origin.git'
+            subprocess.run(['git', 'init', '-q', '--bare', str(bare)], check=True)
+            g = ['-c', 'user.name=F', '-c', 'user.email=f@example.invalid']
+            def clone(name):
+                d = t / name; subprocess.run(['git', 'clone', '-q', str(bare), str(d)], check=True, capture_output=True); return d
+            seed = clone('seed'); (seed / 'x').write_text('x')
+            subprocess.run(['git', '-C', str(seed), *g, 'add', 'x'], check=True); subprocess.run(['git', '-C', str(seed), *g, 'commit', '-qm', 's'], check=True)
+            subprocess.run(['git', '-C', str(seed), 'push', '-q', 'origin', 'HEAD:refs/heads/main'], check=True)
+            subprocess.run(['git', '-C', str(seed), 'push', '-q', 'origin', 'HEAD:refs/heads/intake-cache'], check=True)
+            a = clone('a'); snap = a / '.cache/search-demand/1-abc.json'; snap.parent.mkdir(parents=True); snap.write_bytes(b'{"value": 7}\n')
+            with patch.object(rf, 'ROOT', a), patch.object(rf, 'WT', a / '.cache/intake-cache'):
+                self.assertTrue(rf.cache_push()['pushed'])
+            b = clone('b')
+            with patch.object(rf, 'ROOT', b), patch.object(rf, 'WT', b / '.cache/intake-cache'):
+                self.assertEqual(rf.cache_pull()['restored'], 1)
+            self.assertEqual((b / '.cache/search-demand/1-abc.json').read_bytes(), b'{"value": 7}\n')
+
+
 if __name__ == '__main__':
     unittest.main()
