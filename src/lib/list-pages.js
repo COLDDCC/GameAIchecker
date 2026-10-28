@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { getGameIndex, AREAS } from './games.js';
-import { applyChrome } from './site-chrome.js';
+import { applyChrome, siteHead, siteHeader, siteFooter } from './site-chrome.js';
 import { englishRecord, areaNames } from './english.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -158,7 +158,24 @@ const ROUTES = {
   'events/steam-next-fest-october-2026': { lang: 'en', current: 'nextfest', gridId: 'grid' },
 };
 
+// Older standalone pages keep their own layout but get the shared navigation,
+// footer and fonts, and lose the stacked !important theme overrides.
+const CHROME_ONLY = {
+  share: { current: '', brand: /<header><a class="gac-brand-link"[\s\S]*?<\/header>/ },
+  'evidence/ccr': { current: 'indie', brand: /<nav><a class="gac-brand-link"[\s\S]*?<\/nav>/ },
+};
+function chromeOnly(html, { current, brand }) {
+  if (!brand.test(html)) throw new Error('Missing legacy brand header');
+  html = html.replace(/<style id="gac-brand-theme">[\s\S]*?<\/style>/, '');
+  html = html.replace(brand, '');
+  html = html.replace('</head>', `${siteHead()}</head>`);
+  html = html.replace(/<body>/, `<body>${siteHeader({ current, lang: 'en', langSwitch: false })}`);
+  html = html.replace(/<main>/, '<main id="content">');
+  return html.replace('</body>', `${siteFooter({ lang: 'en' })}</body>`);
+}
+
 export function renderLegacyList(html, route) {
+  if (CHROME_ONLY[route]) return chromeOnly(html, CHROME_ONLY[route]);
   const config = ROUTES[route];
   if (!config) return html;
   const { lang, gridId } = config;
