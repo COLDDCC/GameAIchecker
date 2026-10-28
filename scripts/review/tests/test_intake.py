@@ -5,7 +5,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import intake as i
 import collect as c
 import publish as p
-from fixture_helpers import raw_source, store_html
+from fixture_helpers import raw_source, store_html, demand_fixture, english_fixture
 class IntakeTests(unittest.TestCase):
  def setUp(self):
   self.temp=tempfile.TemporaryDirectory(); self.root=Path(self.temp.name)
@@ -21,7 +21,7 @@ class IntakeTests(unittest.TestCase):
   self.temp.cleanup()
  def fixture(self,n=1):
   rows=[dict(appId=str(100+j),name=f'Fixture {j}',sourceUrl=f'https://example.org/{j}') for j in range(n)]
-  i.import_candidates(rows);b=i.load_batch(i.start(n)['batchId'])
+  i.import_candidates([demand_fixture(i,r) for r in rows]);b=i.load_batch(i.start(n)['batchId'])
   for g in b['games']:
    app=g['appId'];path=i.work(b)/app;path.mkdir(parents=True)
    src=raw_source(i,self.root,path/'store.html',app,'store','AI created the background artwork.',name=g['name'])
@@ -31,12 +31,13 @@ class IntakeTests(unittest.TestCase):
    e=dict(identity=dict(appId=app,name=g['name'],developer='Fixture dev',type='game',verified=True,identityEvidence=identity_source),sources=[src,ds],discussion=dict(pagesScanned=1,visibleTopics=0,totalTopics=0,topics=[],coverageLimits=['homepage only'],related=[]),press=dict(query=g['name']+' AI',searchedAt=i.now(),status='complete',results=[],readUrls=[],coverageLimits=['fixture search only'],cachePath=str(search.relative_to(self.root)),contentHash=i.sha(search)))
    d=dict(identityName=g['name'],identityDeveloper='Fixture dev',category='official_ai_disclosure',areas={k:{'state':'not_stated'} for k in i.AREAS},disclosureQuote=src['quote'],summary='测试游戏；开发者披露背景美术使用 AI。',description='测试游戏。',reviewNote='开发者自述，未经独立审计。讨论与搜索仅覆盖标明范围。')
    d['areas']['art']=dict(state='used',note='明确背景图。',evidenceId='store',quote=src['quote'])
-   i.atomic(path/'evidence.json',e);i.atomic(path/'decision.json',d)
+   d['english']=english_fixture(i);i.atomic(path/'evidence.json',e);i.atomic(path/'decision.json',d)
    for k in ('identity','store','discussion','press'):g[k]='complete'
   i.save_batch(b);return b
  def test_dedup_exclude_and_resume_reservation(self):
   (self.root/'data/games/9.json').write_text('{}')
   self.assertEqual(i.import_candidates([{'appId':'9','name':'old','sourceUrl':'https://x'},{'appId':'10','name':'new','sourceUrl':'https://x'},{'appId':'10','name':'new','sourceUrl':'https://x'}])['added'],1)
+  i.import_candidates([demand_fixture(i,dict(appId='10',name='new',sourceUrl='https://x'))])
   b=i.start(1);self.assertEqual(i.start(1)['resume'],b['batchId'])
  def test_valid_prepare_and_no_overwrite(self):
   b=self.fixture();self.assertEqual(i.validate(b)['valid'],1);i.prepare(b)
@@ -56,7 +57,7 @@ class IntakeTests(unittest.TestCase):
   with self.assertRaises(ValueError):i.validate(b)
  def test_long_quote_and_unspecified(self):
   b=self.fixture();path=i.work(b)/'100';e=i.read(path/'evidence.json');d=i.read(path/'decision.json');quote=('Some assets were AI assisted. '*2000).strip()
-  e['sources'][0]=raw_source(i,self.root,path/'store.html','100','store',quote,name=b['games'][0]['name']);d['disclosureQuote']=quote;d['areas']={k:{'state':'not_stated'} for k in i.AREAS};d['aiScopeUnspecified']=True;i.atomic(path/'evidence.json',e);i.atomic(path/'decision.json',d)
+  e['sources'][0]=raw_source(i,self.root,path/'store.html','100','store',quote,name=b['games'][0]['name']);d['disclosureQuote']=quote;d['areas']={k:{'state':'not_stated'} for k in i.AREAS};d['aiScopeUnspecified']=True;d['english']=english_fixture(i);i.atomic(path/'evidence.json',e);i.atomic(path/'decision.json',d)
   self.assertEqual(i.validate(b)['valid'],1);i.prepare(b);self.assertEqual(i.read(i.work(b)/'staging/100.json')['disclosureQuote'],quote)
  def test_human_claim_and_community_cannot_support_official(self):
   b=self.fixture();path=i.work(b)/'100';e=i.read(path/'evidence.json');d=i.read(path/'decision.json')
@@ -64,7 +65,7 @@ class IntakeTests(unittest.TestCase):
   developer=raw_source(i,self.root,path/'developer.html','100','developer',claim,name=b['games'][0]['name']);developer['id']='statement'
   store=raw_source(i,self.root,path/'store.html','100','store','',name=b['games'][0]['name'],disclosure=False)
   e['sources']=[store,e['sources'][1],developer]
-  d.update(category='developer_no_genai_statement');d.pop('disclosureQuote',None);d['areas']['art']=dict(state='claimed_none',note='素材声明。',quote=claim,evidenceId='statement');i.atomic(path/'evidence.json',e);i.atomic(path/'decision.json',d);self.assertEqual(i.validate(b)['valid'],1)
+  d.update(category='developer_no_genai_statement');d.pop('disclosureQuote',None);d['areas']['art']=dict(state='claimed_none',note='素材声明。',quote=claim,evidenceId='statement');d['english']=english_fixture(i);i.atomic(path/'evidence.json',e);i.atomic(path/'decision.json',d);self.assertEqual(i.validate(b)['valid'],1)
   community=raw_source(i,self.root,path/'community.html','100','community',claim,name=b['games'][0]['name']);community['id']='statement';e['sources'][-1]=community;i.atomic(path/'evidence.json',e)
   with self.assertRaisesRegex(ValueError,'unbound'):i.validate(b)
  def test_unsafe_fields_and_changed_cache(self):
@@ -126,4 +127,18 @@ class IntakeTests(unittest.TestCase):
   with patch.object(p,'git',side_effect=['','remote','local']):
    with self.assertRaisesRegex(ValueError,'advanced'):p.verify_remote(b)
   b['phase']='deployed';self.assertTrue(p.execute(b)['alreadyComplete'])
+
+ def test_missing_demand_is_not_selected(self):
+  i.import_candidates([dict(appId='88',name='Unknown demand',sourceUrl='https://example.org')])
+  with self.assertRaisesRegex(ValueError,'verified search demand'): i.start(1)
+ def test_altered_or_stale_metric_is_not_accepted(self):
+  row=demand_fixture(i,dict(appId='88',name='Fixture',sourceUrl='https://example.org'))
+  self.assertTrue(i.demand_valid(row))
+  proof=self.root/row['demand']['evidencePath'];raw=i.read(proof);raw['value']=0;i.atomic(proof,raw)
+  self.assertFalse(i.demand_valid(row));row['demand']['contentHash']=i.sha(proof);self.assertFalse(i.demand_valid(row))
+  raw['value']=1;raw['observedAt']='2000-01-01T00:00:00+00:00';i.atomic(proof,raw);row['demand']['contentHash']=i.sha(proof);self.assertFalse(i.demand_valid(row))
+ def test_new_batch_requires_english(self):
+  b=self.fixture();path=i.work(b)/b['games'][0]['appId']/'decision.json';d=i.read(path);d.pop('english');i.atomic(path,d)
+  with self.assertRaisesRegex(ValueError,'English editorial'):i.validate(b)
+
 if __name__=='__main__':unittest.main()

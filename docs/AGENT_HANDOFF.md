@@ -114,9 +114,17 @@
 
 - 站长已接受首批并要求继续收录；之后内部核查通过即提交 main、部署和正式站检查，无需站长看代码。验收对象是正式网页。
 - 选题优先当前热门、新品节及有明确 AI 争议的游戏。官方披露仍是重要证据优先级，但不以冷门披露游戏凑数。每批默认 10 个；严格区分正式版与 demo。
-- 不把 Search Console / Trends 设为每游戏的强制门槛：未接入账户或无数据时，使用有日期的活动榜单、开发者公告和公开报道说明选题依据，不能编造搜索量。24 小时的小样本不能证明趋势或保证排名前三。
+- 本轮新选题按站长最新六 PR 方案先验证搜索需求；未有数据时，活动榜单、开发者公告及报道保留为待验证线索，不编造搜索量。24 小时小样本不能证明趋势或保证排名前三。
 - PR-C 已将 `/games/<slug>/` 统一为可索引英文默认页，中文位于 `/games/zh-cn/<slug>/`，两者 self-canonical 并互相标注 hreflang，x-default 指英文。旧 `/games/en/<slug>/` 301 到默认英文页。其他未完整翻译的副本继续 noindex，不批量解除。
 - 后续每个新 canonical 必须同时完成 `data/i18n/games.en.json` 的 summary、reviewNote 和八领域说明，并以 `src/lib/english.js:editorialDigest` 绑定当前原始记录。翻译保留来源、范围和自述/未经独立审计等限定，不改变原始结论；原始引文不翻写。先运行 `npm run check:english`，缺失、中文残留或源记录变化均阻止发布。仅有中文 canonical 不能算完成一条新收录。
 - 英文指南：`/guides/how-to-check-steam-game-ai/`；披露列表：`/events/steam-next-fest-october-2026-ai-disclosures/`；人工制作声明：`/collections/human-made-steam-games/`。列表只覆盖已审查记录，不是全量普查或独立认证。
 - 当前 `/game` 旧入口与目录端点由边缘中间件退役，images/data 仍可读取并返回 noindex；不要通过 robots.txt 屏蔽爬取后再期待搜索引擎读取 noindex。
 - 未连接 GSC / Cloudflare 账户设置接口；不能声称已在 GSC 重新提交或打开了控制台的 Always Use HTTPS。HTTP→HTTPS 目前由边缘中间件执行，并须以真实线上响应验证。
+
+## 9. 英文默认页与搜索需求优先（2026-10-27）
+
+- 英文默认地址 `/games/<slug>/`，中文 `/games/zh-cn/<slug>/`；旧 `/games/en/` 永久跳转。详情共用 `src/components/GameDetail.astro`。
+- 旧记录英文摘要在 `data/i18n/games.en.json`，构建前 `npm run check:english` 检查完整度及来源 hash。更新来源后必须复核英文，不能只更新 hash。
+- **新批次先验证搜索需求**，以 `docs/SEARCH_DEMAND_POLICY.md` 的输入契约和 `scripts/review/import-demand.py` 为准。没有有效需求依据的 queued 条目不会被 `start` 或替补选中；已占位批次继续恢复。
+- 新批次 decision 允许并要求 `english` 字段（摘要、核查限制、八领域说明），按政策文件的结构写入。原有披露、来源绑定及两阶段发布检查仍全部执行。已安装 skill 的旧字段列表需结合此处的新工具契约使用。
+- 本次仅添加英文呈现字段与种子线索，已有来源、分类、领域状态、站长审核标记均保留。
