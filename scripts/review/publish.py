@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Two-phase publisher: explicit paths, per-SHA gates, persistent recovery."""
 import argparse, json, re, subprocess, sys, time, os, hashlib, tempfile, shutil
+from types import SimpleNamespace
 from pathlib import Path
 from intake import ROOT, STATE, atomic, read, now, git, lock, load_batch, save_batch, verify_old, validate, work, media_check, slug, sha
+import remote_fetch
 REPO='COLDDCC/GameAIchecker'
 BATCH_SUB='scripts/review/state/batches'
 QUEUE_REL='scripts/review/state/candidates.jsonl'
@@ -57,7 +59,7 @@ def push_confirm(b,key,phase):
     if not present: run('git','push','origin','HEAD:main'); git('fetch','origin','main')
     run('git','merge-base','--is-ancestor',commit,'origin/main')
     b['phase']=phase;save_batch(b)
-def wait_for(probe, timeout, interval=20):
+def wait_for(probe, timeout, interval=45):  # unauthenticated GitHub API: 60 requests/hour
     deadline=time.monotonic()+timeout
     while True:
         result=probe()
@@ -88,14 +90,19 @@ def check_images(b,urls):
         cache.parent.mkdir(parents=True,exist_ok=True)
         for url in pending:
             if not url.startswith('https://gameaichecker.com/images/steam/apps/') or any(c in url for c in ('\n','\r','"')): raise ValueError('unsafe image URL')
-        # curl on Windows cannot read a config file another process still holds open, so write a closed, unpredictable path.
-        config=cache.parent/('curl-config-'+os.urandom(6).hex()+'.txt')
-        try:
-            config.write_text(''.join('url = "'+url+'"\noutput = "'+os.devnull+'"\n' for url in pending),encoding='utf-8')
-            # Reuse two connections; still require every image response, not just one cover.
-            result=subprocess.run(['curl','--parallel','--parallel-max','2','-fLsS','--max-time','30','--write-out','%{url_effective}\t%{http_code}\t%{content_type}\n','--config',str(config)],text=True,encoding='utf-8',capture_output=True)
-        finally:
-            config.unlink(missing_ok=True)
+        if remote_fetch.enabled():
+            # Relay mode: status + content type per URL from a GitHub runner; same acceptance rule.
+            metas=remote_fetch.fetch_many([{'url':u,'mode':'status'} for u in pending])
+            result=SimpleNamespace(returncode=0,stdout=''.join(f"{u}\t{m.get('httpStatus')}\t{m.get('contentType','')}\n" for u,m in zip(pending,metas)))
+        else:
+            # curl on Windows cannot read a config file another process still holds open, so write a closed, unpredictable path.
+            config=cache.parent/('curl-config-'+os.urandom(6).hex()+'.txt')
+            try:
+                config.write_text(''.join('url = "'+url+'"\noutput = "'+os.devnull+'"\n' for url in pending),encoding='utf-8')
+                # Reuse two connections; still require every image response, not just one cover.
+                result=subprocess.run(['curl','--parallel','--parallel-max','2','-fLsS','--max-time','30','--write-out','%{url_effective}\t%{http_code}\t%{content_type}\n','--config',str(config)],text=True,encoding='utf-8',capture_output=True)
+            finally:
+                config.unlink(missing_ok=True)
         for line in result.stdout.splitlines():
             parts=line.split('\t')
             if len(parts)==3 and parts[0] in pending and parts[1]=='200' and parts[2].startswith('image/'):
@@ -106,10 +113,18 @@ def check_images(b,urls):
     return {'responses':len(urls),'cache':str(cache.relative_to(ROOT))}
 
 def online(b):
-    results=[];image_urls=[]
+    results=[];image_urls=[];pages={}
+    if remote_fetch.enabled():
+        urls=[]
+        for g in b['games']:
+            name=read(ROOT/'data/games'/(g['appId']+'.json'))['name']
+            urls.append(f"https://gameaichecker.com/games/{g['appId']}-{slug(name)}/")
+        for u,m in zip(urls,remote_fetch.fetch_many([{'url':u} for u in urls])):
+            if int(m.get('httpStatus') or 0)!=200 or 'body' not in m: raise ValueError(f"online page HTTP {m.get('httpStatus')}: {u}")
+            pages[u]=m['body'].decode('utf-8',errors='replace')
     for g in b['games']:
         r=read(ROOT/f'data/games/{g["appId"]}.json');url=f'https://gameaichecker.com/games/{g["appId"]}-{slug(r["name"])}/'
-        html=subprocess.check_output(['curl','-fLsS','--max-time','30',url],text=True,encoding='utf-8',errors='replace')
+        html=pages[url] if url in pages else subprocess.check_output(['curl','-fLsS','--max-time','30',url],text=True,encoding='utf-8',errors='replace')
         import html as h
         plain=h.unescape(re.sub('<[^>]+>',' ',html));plain=re.sub(r'\s+',' ',plain)
         if r['name'] not in plain or url not in html or 'canonical' not in html or '<title>' not in html: raise ValueError('online title/canonical mismatch '+url)

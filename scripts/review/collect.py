@@ -4,7 +4,9 @@ import argparse, hashlib, html, json, re, subprocess, sys, time
 from html.parser import HTMLParser
 from urllib.parse import urljoin
 from pathlib import Path
+from types import SimpleNamespace
 from intake import ROOT, CACHE, atomic, read, now, sha, work, load_batch, save_batch
+import remote_fetch
 class Node:
     def __init__(self,tag='',attrs=(),parent=None): self.tag=tag; self.attrs=dict(attrs); self.parent=parent; self.children=[]
     def text(self): return re.sub(r'\s+',' ',''.join(c.text()+' ' if isinstance(c,Node) else c for c in self.children)).strip()
@@ -69,15 +71,21 @@ def fetch(url,p,source,app,deadline=None):
     for attempt in range(3):
         if deadline and time.monotonic()>deadline: raise ValueError('collector deadline exceeded')
         p.parent.mkdir(parents=True,exist_ok=True); temp=p.with_suffix('.download')
-        res=subprocess.run(['curl','-LsS','--max-time','20','--retry','0','-D',str(p.with_suffix('.headers')),'-o',str(temp),'-w','%{http_code}',url],text=True,encoding='utf-8',errors='replace',capture_output=True)
-        status=int(res.stdout) if res.stdout.isdigit() else 0
+        if remote_fetch.enabled():
+            # GitHub Actions relay: the runner already retried 429/5xx within its budget.
+            rm=remote_fetch.fetch_many([{'url':url}])[0]
+            status=remote_fetch.store_into(rm,temp,p.with_suffix('.headers'))
+            res=SimpleNamespace(returncode=0 if status==200 else 1,stderr=rm.get('error',''))
+        else:
+            res=subprocess.run(['curl','-LsS','--max-time','20','--retry','0','-D',str(p.with_suffix('.headers')),'-o',str(temp),'-w','%{http_code}',url],text=True,encoding='utf-8',errors='replace',capture_output=True)
+            status=int(res.stdout) if res.stdout.isdigit() else 0
         last=f'HTTP {status}: {res.stderr[:120]}'
         if status==200 and res.returncode==0:
             temp.replace(p); text=p.read_text(encoding='utf-8',errors='replace')
             m=dict(appId=app,sourceType=source,url=url,fetchedAt=now(),httpStatus=200,language='english',contentHash=sha(p),readStatus='complete',cachePath=str(p.relative_to(ROOT)),locator='full response',quote='')
             atomic(meta,m); return text,m
         atomic(meta,dict(url=url,httpStatus=status,readStatus='blocked',reason=last,fetchedAt=now()))
-        if status in (403,404): break
+        if status in (403,404) or remote_fetch.enabled(): break
         if attempt<2:
             headers=p.with_suffix('.headers').read_text(encoding='utf-8',errors='replace') if p.with_suffix('.headers').exists() else ''
             retry=re.findall(r'(?im)^retry-after:\s*(\d+)',headers)
@@ -85,6 +93,38 @@ def fetch(url,p,source,app,deadline=None):
             if delay>30: raise ValueError('source paused: Retry-After exceeds retry budget')
             time.sleep(delay)
     raise ValueError(last)
+def _adopt(meta,url,p,source,app):
+    """Store one relay response so fetch() finds it as a complete cache entry (exact bytes + hash)."""
+    if int(meta.get('httpStatus') or 0)!=200 or 'body' not in meta: return False
+    remote_fetch.store_into(meta,p,p.with_suffix('.headers'))
+    atomic(p.with_suffix('.response.json'),dict(appId=app,sourceType=source,url=url,fetchedAt=meta.get('fetchedAt',now()),httpStatus=200,language='english',contentHash=sha(p),readStatus='complete',cachePath=str(p.relative_to(ROOT)),locator='full response',quote=''))
+    return True
+def _cached(url,p):
+    m=read(p.with_suffix('.response.json'),{})
+    return p.exists() and m.get('readStatus')=='complete' and m.get('url')==url and sha(p)==m.get('contentHash')
+def prefetch(b,games):
+    """Relay mode: fetch every page a batch needs in two round trips instead of one per URL."""
+    plan=[]
+    for g in games:
+        app=g['appId'];p=work(b)/app
+        if g['store']!='complete' or g['identity']!='complete':
+            plan+=[(f'https://store.steampowered.com/app/{app}/?l=english',p/'store.html','store',app),(f'https://store.steampowered.com/api/appdetails?appids={app}&l=english',p/'appdetails.json','identity',app)]
+        if g['discussion']!='complete': plan.append((f'https://steamcommunity.com/app/{app}/discussions/?l=english',p/'discussion.html','discussion',app))
+    plan=[x for x in plan if not _cached(x[0],x[1])]
+    if plan:
+        for meta,(url,p,source,app) in zip(remote_fetch.fetch_many([{'url':x[0]} for x in plan]),plan): _adopt(meta,url,p,source,app)
+    threads=[]
+    for g in games:
+        if g['discussion']=='complete': continue
+        app=g['appId'];p=work(b)/app;url=f'https://steamcommunity.com/app/{app}/discussions/?l=english'
+        if not _cached(url,p/'discussion.html'): continue
+        try: di=parse_discussion((p/'discussion.html').read_text(encoding='utf-8',errors='replace'),app,g['name'])
+        except ValueError: continue
+        threads+=[(t['url'],p/f'thread-{i}.html','thread',app) for i,t in enumerate(di['related']) if t['url'].startswith('https://')]
+    threads=[x for x in threads if not _cached(x[0],x[1])]
+    if threads:
+        for meta,(url,p,source,app) in zip(remote_fetch.fetch_many([{'url':x[0]} for x in threads]),threads): _adopt(meta,url,p,source,app)
+    return {'pages':len(plan),'threads':len(threads)}
 def collect_game(b,g):
     app=g['appId']; p=work(b)/app; p.mkdir(parents=True,exist_ok=True); e=read(p/'evidence.json',{'sources':[]}); deadline=time.monotonic()+180
     if g['store']!='complete' or g['identity']!='complete':
@@ -116,6 +156,9 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--batch',required=True);p.add_argument('--pending-only',action='store_true');a=p.parse_args();b=load_batch(a.batch)
     if b['phase'] in ('prepared','media_pushed','media_ready','site_pushed','deployed'): raise ValueError('collection closed for prepared batch')
     b['phase']='collecting';save_batch(b)
+    if remote_fetch.enabled():
+        todo=[g for g in b['games'] if not (g['store']==g['discussion']==g['identity']=='complete')]
+        if todo: print('relay prefetch',json.dumps(prefetch(b,todo)),flush=True)
     for g in b['games']:
         if a.pending_only and g['store']==g['discussion']==g['identity']=='complete':
             e=read(work(b)/g['appId']/'evidence.json',{})

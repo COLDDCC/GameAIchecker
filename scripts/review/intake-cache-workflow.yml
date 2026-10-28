@@ -1,0 +1,64 @@
+# Copied to .github/workflows/intake-fetch.yml on the intake-cache branch by
+# `python3 scripts/review/remote_fetch.py init`. Fetches requested URLs on a GitHub runner and commits
+# the raw responses back to intake-cache. It never touches main or the website.
+name: Intake fetch relay
+on:
+  push:
+    branches: [intake-cache]
+    paths: ['requests/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: intake-fetch
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: intake-cache
+          fetch-depth: 1
+          persist-credentials: true
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: _tool
+          sparse-checkout: scripts/review/actions_fetch.py
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+      - name: Fetch pending requests
+        run: python3 _tool/scripts/review/actions_fetch.py .
+      - name: Commit responses
+        run: |
+          rm -rf _tool
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add responses
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git commit -qm "chore(intake): fetch responses"
+          for i in 1 2 3 4 5; do
+            if git push -q origin HEAD:intake-cache; then exit 0; fi
+            git pull -q --rebase origin intake-cache
+          done
+          exit 1
+      - name: Handle requests that arrived during this run
+        run: |
+          git pull -q --rebase origin intake-cache || true
+          pending=0
+          for r in requests/*.json; do
+            [ -e "$r" ] || continue
+            id=$(basename "$r" .json)
+            [ -f "responses/$id/done.json" ] || pending=1
+          done
+          if [ "$pending" = 1 ]; then
+            git clone -q --depth 1 --filter=blob:none --sparse https://github.com/${{ github.repository }} _tool
+            git -C _tool sparse-checkout set --no-cone scripts/review/actions_fetch.py
+            python3 _tool/scripts/review/actions_fetch.py .
+            rm -rf _tool
+            git add responses
+            git diff --cached --quiet || git commit -qm "chore(intake): fetch responses (late requests)"
+            for i in 1 2 3 4 5; do git push -q origin HEAD:intake-cache && break; git pull -q --rebase origin intake-cache; done
+          fi
