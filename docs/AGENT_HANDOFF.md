@@ -135,10 +135,12 @@
 - 媒体请求拆成两个集合：`intake.py media-queue --mode strict` 只列 intake 登记的游戏并做完整逐文件校验，`--mode legacy` 列旧名单游戏并保留 allow-legacy 探测。`scripts/persist-reviewed-media.sh` 分别处理，因此新增批次部分下载失败必然非零退出，同时不会未经站长同意批量重下旧图库。工作流触发路径已加入 `registered-games.json` 与 `intake.py`。
 - Windows 适配：队列锁按 `fcntl`（类 Unix）/`msvcrt`（Windows）双路；所有文本读写与 `subprocess(text=True)` 固定 `encoding='utf-8'`（抓取页面另加 `errors='replace'`），否则系统 GBK 默认编码在读 `data/steam/*.json` 时崩溃。`python3 -m unittest discover -s scripts/review/tests` 两平台均应全绿。
 - 选题与英文门槛以第 8、9 节为准：`start`/替补只选已通过搜索需求校验的候选，decision 需要 `english` 字段；两者与本节的状态提交、媒体闸门同时生效。
+- 激活提交认领：激活已提交并推上 main、但批次里没记下 SHA 时（进程在这一步被打断），`publish.py` 的 `adopted_site()` 会重新证明它正是本批次的激活——父提交等于 `siteBase`、只改 `registered-games.json` 与本批次自有状态文件、游戏 ID 恰好从 `pendingMedia` 迁到 `active`、旧记录未被改动、媒体逐个复核、且该提交确实在 `origin/main` 上——才将 SHA 记入批次并接着跑闸门。证明不足一律不认领，宁可重新激活，也绝不把别人的提交当成本批次的部署凭据。
 
-## 10. 云端沙箱抓取中转（2026-10-28）
+## 11. 云端沙箱抓取中转（2026-10-28）
 
 - claude.ai 云端沙箱能推 GitHub，但连不上 Steam、报道网站和 gameaichecker.com。设 `INTAKE_FETCH=actions` 后，`collect.py`、`publish.py` 的线上核验和 `remote_fetch.py source` 都改为：把 URL 列表推到 `intake-cache` 分支，由该分支上的 `Intake fetch relay` 工作流在 GitHub 服务器上抓取，再把原始响应（带 SHA-256）提交回来。证据校验规则完全不变。
 - 每次新对话的沙箱是全新的。开始先 `remote_fetch.py cache-pull`，每个阶段后 `cache-push`，把 `.cache/search-demand` 和 `.cache/gameaichecker-review` 原件同步到 `intake-cache:cache/`。
 - 不设该变量时仍走本地 curl，本机（Windows 代理）流程不受影响。
 - `intake-cache` 是公开仓库里的独立分支，存放 Steam 页面等原始响应；不进网站，不要合并进 main。若 Cloudflare Pages 对所有分支建预览，可在 Pages 设置里把该分支排除。
+- `cache-push` 会在该分支写入 `.gitattributes`（`* -text`）。证据快照按 SHA-256 校验，而 Windows 上 `core.autocrlf=true` 会把检出内容变成 CRLF；不设这条规则时新克隆恢复出来的字节与 `contentHash` 对不上。

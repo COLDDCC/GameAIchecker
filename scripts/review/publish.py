@@ -200,12 +200,18 @@ def execute(b,timeout=900,connector=False):
             size=sum(media_check(g['appId'],tracked=True) for g in b['games'])
             b['checkResults']['media']={'checks':{n:r['html_url'] for n,r in checks.items()},'bytes':size,'verifiedRemoteSha':git('rev-parse','origin/main')};b['phase']='media_ready';save_batch(b)
         if b['phase']=='media_ready':
-            verify_remote(b)
-            registry=read(STATE/'registered-games.json');ids=[g['appId'] for g in b['games']]
-            for app in ids: media_check(app,tracked=True)
-            registry['active']=list(dict.fromkeys(registry['active']+ids));registry['pendingMedia']=[i for i in registry['pendingMedia'] if i not in ids]
-            atomic(work(b)/'site-plan.json',registry)
-            b['siteBase']=git('rev-parse','HEAD');b['phase']='site_applying';save_batch(b)
+            adopted=adopted_site(b)
+            if adopted:
+                # The activation commit is already on main but its SHA was never recorded; adopted_site re-verified it.
+                b['siteBase']=git('rev-parse',adopted+'^');b['siteTree']=git('rev-parse',adopted+'^{tree}');b['publishShas']['site']=adopted
+                b['phase']='site_pushed';save_batch(b)
+            else:
+                verify_remote(b)
+                registry=read(STATE/'registered-games.json');ids=[g['appId'] for g in b['games']]
+                for app in ids: media_check(app,tracked=True)
+                registry['active']=list(dict.fromkeys(registry['active']+ids));registry['pendingMedia']=[i for i in registry['pendingMedia'] if i not in ids]
+                atomic(work(b)/'site-plan.json',registry)
+                b['siteBase']=git('rev-parse','HEAD');b['phase']='site_applying';save_batch(b)
         if b['phase']=='site_applying':
             if b.get('siteTree') and git('rev-parse','HEAD^{tree}')==b['siteTree'] and git('rev-parse','HEAD')!=b['siteBase']:
                 if git('rev-parse','HEAD^')!=b['siteBase']: raise ValueError('unexpected activation commit parent')
@@ -244,6 +250,22 @@ def export_push(b,key,commit=None):
     packet={'parentSha':parent,'baseTreeSha':git('rev-parse',parent+'^{tree}'),'localTreeSha':git('rev-parse',commit+'^{tree}'),'message':git('log','-1','--format=%B',commit),'treeElements':elements}
     atomic(work(b)/f'{key}-push.json',packet)
     return {'phase':b['phase'],'transport':'GitHub connector required','packet':str(work(b)/f'{key}-push.json'),'next':'create tree + commit + update_ref with expected parent; then --adopt-push SHA --push-stage '+key}
+def adopted_site(b):
+    """Adopt an activation commit that exists and is pushed but was never recorded, only after re-verifying it is exactly that activation."""
+    path='scripts/review/state/registered-games.json'
+    head=git('rev-parse','HEAD')
+    if not b.get('siteBase') or git('rev-parse',head+'^')!=b['siteBase']: return None
+    files=set(git('diff-tree','--no-commit-id','--name-only','-r',head).splitlines())
+    if not files or files-{path}-own_paths(b): return None
+    ids=[g['appId'] for g in b['games']]
+    before=json.loads(subprocess.check_output(['git','show',b['siteBase']+':'+path],cwd=ROOT,text=True,encoding='utf-8'))
+    after=read(ROOT/path)
+    if set(ids)-set(after['active']) or set(ids)&set(after.get('pendingMedia',[])): return None
+    if set(after['active'])-set(before['active'])-set(ids) or set(before['active'])-set(after['active']): return None
+    verify_old(b)
+    for app in ids: media_check(app,tracked=True)
+    git('fetch','origin','main'); run('git','merge-base','--is-ancestor',head,'origin/main')
+    return head
 def record_state(b,connector=False):
     """Persist the finished batch to git; a fresh clone must never see a deployed batch as unfinished."""
     mark_published(b)

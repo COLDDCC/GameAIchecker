@@ -160,6 +160,9 @@ def save_sources(batch, app, kind, urls):
 
 
 CACHE_DIRS = ('.cache/search-demand', '.cache/gameaichecker-review')
+# Evidence snapshots are verified by contentHash, so the mirror must store and check out raw bytes.
+# A worktree on Windows with core.autocrlf=true would otherwise turn every stored LF into CRLF on restore.
+CACHE_ATTRS = '* -text\n'
 
 
 def cache_push(message='chore(intake): sync private evidence cache'):
@@ -167,6 +170,9 @@ def cache_push(message='chore(intake): sync private evidence cache'):
     wt = _worktree()
     for attempt in range(5):
         _fetch_branch(); _git('checkout', '-q', '--detach', f'origin/{BRANCH}', cwd=wt)
+        attrs = wt / '.gitattributes'
+        if not attrs.exists() or attrs.read_text(encoding='utf-8') != CACHE_ATTRS:
+            attrs.write_text(CACHE_ATTRS, encoding='utf-8')
         for d in CACHE_DIRS:
             src = ROOT / d
             if not src.is_dir():
@@ -176,7 +182,7 @@ def cache_push(message='chore(intake): sync private evidence cache'):
                     dst = wt / 'cache' / d.split('/', 1)[1] / f.relative_to(src)
                     dst.parent.mkdir(parents=True, exist_ok=True)
                     dst.write_bytes(f.read_bytes())
-        _git('add', '-A', 'cache', cwd=wt, check=False)
+        _git('add', '-A', 'cache', '.gitattributes', cwd=wt, check=False)
         if subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=wt).returncode == 0:
             return {'pushed': False, 'reason': 'no changes'}
         _git('commit', '-qm', message, cwd=wt)

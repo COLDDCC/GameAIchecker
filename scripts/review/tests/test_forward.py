@@ -18,6 +18,7 @@ import publish
 import collect
 from fixture_helpers import raw_source, demand_fixture, english_fixture
 
+def git2(cwd,*a): return subprocess.check_output(['git','-C',str(cwd),*a],text=True).strip()
 class ForwardSkillTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory()
@@ -218,5 +219,47 @@ class ForwardSkillTests(unittest.TestCase):
             return '{\"workflow_runs\":[]}'
         with patch.object(publish.shutil,'which',return_value='/usr/bin/gh'),patch.object(publish.subprocess,'check_output',side_effect=fake_check_output):
             self.assertEqual(publish.api('actions/runs')['workflow_runs'],[])
+
+    def activate_without_recording(self,b,foreign=False,stray=False):
+        """Commit and push the activation this publisher would make, then die before recording its SHA."""
+        app=b['games'][0]['appId'];path='scripts/review/state/registered-games.json';base=intake.git('rev-parse','HEAD')
+        b.update(phase='media_ready',siteBase=base,publishShas={'media':base},checkResults={'media':{'bytes':0,'verifiedRemoteSha':base,'checks':{}}})
+        intake.save_batch(b)
+        registry={'active':([app,'9999999'] if foreign else [app]),'pendingMedia':[]}
+        intake.atomic(intake.STATE/'registered-games.json',registry);intake.atomic(intake.work(b)/'site-plan.json',registry)
+        snapshot=publish.write_state(b)
+        def run(*a):subprocess.run(['git','-C',str(self.root),*a],check=True)
+        if stray:(self.root/'data/games/1.json').write_text('{}\n')
+        run('add','--',path,*snapshot,*(['data/games/1.json'] if stray else []))
+        run('commit','-qm','activate')
+        activation=intake.git('rev-parse','HEAD');run('push','-q','origin','HEAD:refs/heads/main')
+        if stray:(self.root/'data/games/1.json').unlink()
+        return activation
+    def test_unrecorded_activation_commit_is_adopted_and_reverified(self):
+        b=self.prepare_publish_fixture(1);remote=self.add_origin();activation=self.activate_without_recording(b)
+        b=intake.load_batch(b['batchId'])
+        with patch.object(publish,'verify_old',side_effect=lambda v:None),patch.object(publish,'media_check',return_value=7),patch.object(publish,'workflow_gate',return_value={'Astro build':{'html_url':'https://example.invalid/astro'},'Validate game detail build':{'html_url':'https://example.invalid/validate'}}),patch.object(publish,'production_gate',return_value={'details_url':'https://example.invalid/cf','output':{'summary':'deployed'}}),patch.object(publish,'online',return_value=[{'appId':b['games'][0]['appId'],'status':'passed'}]):
+            out=publish.execute(b)
+        self.assertEqual(out['phase'],'deployed')
+        saved=intake.load_batch(b['batchId'])
+        self.assertEqual(saved['publishShas']['site'],activation)
+        self.assertEqual(git2(self.root,'rev-parse',activation+'^'),saved['siteBase'])
+        self.assertEqual(git2(self.root,'log','--format=%s','-1',activation),'activate')
+        text=git2(self.root,'show','origin/main:scripts/review/state/batches/'+b['batchId']+'.json')
+        self.assertEqual(json.loads(text)['phase'],'deployed')
+        self.assertEqual(json.loads(git2(self.root,'show','origin/main:scripts/review/state/registered-games.json'))['active'],[saved['games'][0]['appId']])
+    def test_activation_commit_that_is_not_ours_is_never_adopted(self):
+        b=self.prepare_publish_fixture(1);self.add_origin();activation=self.activate_without_recording(b,foreign=True)
+        b=intake.load_batch(b['batchId'])
+        self.assertIsNone(publish.adopted_site(b))
+        with patch.object(publish,'verify_remote',side_effect=intake.verify_old),patch.object(publish,'media_check',return_value=7),patch.object(publish,'push_confirm',side_effect=RuntimeError('stop before site push')):
+            with self.assertRaisesRegex(RuntimeError,'stop before site push'):publish.execute(b)
+        saved=intake.load_batch(b['batchId'])
+        self.assertNotEqual(saved['publishShas']['site'],activation)
+        self.assertEqual(git2(self.root,'rev-parse',saved['publishShas']['site']+'^'),activation)
+    def test_activation_commit_with_extra_files_is_never_adopted(self):
+        b=self.prepare_publish_fixture(1);self.add_origin();activation=self.activate_without_recording(b,stray=True)
+        b=intake.load_batch(b['batchId'])
+        self.assertIsNone(publish.adopted_site(b))
 
 if __name__=='__main__':unittest.main()
