@@ -248,6 +248,18 @@ class ForwardSkillTests(unittest.TestCase):
         text=git2(self.root,'show','origin/main:scripts/review/state/batches/'+b['batchId']+'.json')
         self.assertEqual(json.loads(text)['phase'],'deployed')
         self.assertEqual(json.loads(git2(self.root,'show','origin/main:scripts/review/state/registered-games.json'))['active'],[saved['games'][0]['appId']])
+    def test_activation_adopted_after_other_work_landed_on_top(self):
+        b=self.prepare_publish_fixture(1);self.add_origin();activation=self.activate_without_recording(b)
+        (self.root/'fixture').write_text('upstream change\n')
+        subprocess.run(['git','-C',str(self.root),'commit','-qam','upstream change'],check=True)
+        subprocess.run(['git','-C',str(self.root),'push','-q','origin','HEAD:refs/heads/main'],check=True)
+        b=intake.load_batch(b['batchId'])
+        with patch.object(publish,'verify_old',side_effect=lambda v:None),patch.object(publish,'media_check',return_value=7),patch.object(publish,'workflow_gate',return_value={'Astro build':{'html_url':'https://example.invalid/astro'}}),patch.object(publish,'production_gate',return_value={'details_url':'https://example.invalid/cf','output':{'summary':'deployed'}}),patch.object(publish,'online',return_value=[{'appId':b['games'][0]['appId'],'status':'passed'}]):
+            out=publish.execute(b)
+        self.assertEqual(out['phase'],'deployed')
+        saved=intake.load_batch(b['batchId'])
+        self.assertEqual(saved['publishShas']['site'],activation)
+        self.assertEqual(json.loads(git2(self.root,'show','origin/main:scripts/review/state/batches/'+b['batchId']+'.json'))['phase'],'deployed')
     def test_activation_commit_that_is_not_ours_is_never_adopted(self):
         b=self.prepare_publish_fixture(1);self.add_origin();activation=self.activate_without_recording(b,foreign=True)
         b=intake.load_batch(b['batchId'])

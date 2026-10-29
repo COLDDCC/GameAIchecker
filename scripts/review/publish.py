@@ -253,19 +253,26 @@ def export_push(b,key,commit=None):
 def adopted_site(b):
     """Adopt an activation commit that exists and is pushed but was never recorded, only after re-verifying it is exactly that activation."""
     path='scripts/review/state/registered-games.json'
-    head=git('rev-parse','HEAD')
-    if not b.get('siteBase') or git('rev-parse',head+'^')!=b['siteBase']: return None
-    files=set(git('diff-tree','--no-commit-id','--name-only','-r',head).splitlines())
-    if not files or files-{path}-own_paths(b): return None
-    ids=[g['appId'] for g in b['games']]
-    before=json.loads(subprocess.check_output(['git','show',b['siteBase']+':'+path],cwd=ROOT,text=True,encoding='utf-8'))
-    after=read(ROOT/path)
-    if set(ids)-set(after['active']) or set(ids)&set(after.get('pendingMedia',[])): return None
-    if set(after['active'])-set(before['active'])-set(ids) or set(before['active'])-set(after['active']): return None
+    if not b.get('siteBase'): return None
+    ids={g['appId'] for g in b['games']}
+    def registry(ref):
+        return json.loads(subprocess.check_output(['git','show',ref+':'+path],cwd=ROOT,text=True,encoding='utf-8'))
+    found=[]
+    # The activation may not be HEAD anymore; later commits must not be mistaken for it, so every candidate is re-proved.
+    for commit in git('rev-list',b['siteBase']+'..HEAD').split():
+        if git('rev-parse',commit+'^')!=b['siteBase']: continue
+        files=set(git('diff-tree','--no-commit-id','--name-only','-r',commit).splitlines())
+        if not files or files-{path}-own_paths(b): continue
+        before,after=registry(commit+'^'),registry(commit)
+        if set(after['active'])-set(before['active'])!=ids or set(before['active'])-set(after['active']): continue
+        if ids-set(after['active']) or ids&set(after.get('pendingMedia',[])): continue
+        found.append(commit)
+    if len(found)!=1 or read(ROOT/path)!=registry(found[0]): return None
+    activation=found[0]
     verify_old(b)
-    for app in ids: media_check(app,tracked=True)
-    git('fetch','origin','main'); run('git','merge-base','--is-ancestor',head,'origin/main')
-    return head
+    for app in sorted(ids): media_check(app,tracked=True)
+    git('fetch','origin','main'); run('git','merge-base','--is-ancestor',activation,'origin/main')
+    return activation
 def record_state(b,connector=False):
     """Persist the finished batch to git; a fresh clone must never see a deployed batch as unfinished."""
     mark_published(b)
