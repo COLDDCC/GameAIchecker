@@ -663,6 +663,7 @@ export function getGameIndex() {
     areaSummary: game.areaSummary,
     header: game.header,
     steamUrl: game.steamUrl,
+    reviewedAt: game.reviewedAt || null,
     // Astro generates /games/<slug>/ for every record; link to it once the game has a
     // reviewed canonical record, or when a prebuilt page is committed.
     hasStatic: existsSync(join(ROOT, 'games', game.slug, 'index.html'))
