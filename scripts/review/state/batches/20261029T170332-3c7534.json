@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "d28a67e2cc45522b7502286060a785f92f2742af",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-10-29T07:03:32.191486+00:00",
   "oldHashes": {
     "4283610": "4ebe8490b96b94b8caf858623df9fd66bbe6e364116f4127e2dc9128dc10198f",
@@ -556,10 +556,90 @@
       },
       "bytes": 13445054,
       "verifiedRemoteSha": "eb0215e7149d3873611db4144bfc48a943f34815"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40853272681",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40853272709"
+    },
+    "production": {
+      "sha": "6e12e8529b6447463ceb37c34e623a85f1e891ce",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/5e3a6de9-3ca8-4a5c-b716-e69b0234f316",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>6e12e85</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://5e3a6de9.gameaichecker.pages.dev'>https://5e3a6de9.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/5e3a6de9-3ca8-4a5c-b716-e69b0234f316)\n",
+      "checkedAt": "2026-10-29T09:56:38.016992+00:00"
+    },
+    "onlineImages": {
+      "responses": 255,
+      "cache": ".cache\\gameaichecker-review\\20261029T170332-3c7534\\online-images-6e12e8529b6447463ceb37c34e623a85f1e891ce.json"
+    },
+    "online": [
+      {
+        "appId": "4517370",
+        "url": "https://gameaichecker.com/games/4517370-eula-2026-human-creativity-report/",
+        "checkedAt": "2026-10-29T09:56:41.026959+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5145600",
+        "url": "https://gameaichecker.com/games/5145600-cutset/",
+        "checkedAt": "2026-10-29T09:56:43.714380+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4911480",
+        "url": "https://gameaichecker.com/games/4911480-playworlds/",
+        "checkedAt": "2026-10-29T09:56:46.021683+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5121360",
+        "url": "https://gameaichecker.com/games/5121360-kasane/",
+        "checkedAt": "2026-10-29T09:56:50.697474+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5053630",
+        "url": "https://gameaichecker.com/games/5053630-crystalase/",
+        "checkedAt": "2026-10-29T09:56:56.600068+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4360980",
+        "url": "https://gameaichecker.com/games/4360980-ocean/",
+        "checkedAt": "2026-10-29T09:57:07.601377+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4930450",
+        "url": "https://gameaichecker.com/games/4930450-card-reversi/",
+        "checkedAt": "2026-10-29T09:57:09.594894+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5233870",
+        "url": "https://gameaichecker.com/games/5233870-the-daily/",
+        "checkedAt": "2026-10-29T09:57:17.102758+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4440550",
+        "url": "https://gameaichecker.com/games/4440550-eethcross/",
+        "checkedAt": "2026-10-29T09:57:18.722821+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5192330",
+        "url": "https://gameaichecker.com/games/5192330-warmspot/",
+        "checkedAt": "2026-10-29T09:57:29.663237+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "dccb748ef33d0330547029a1ce1a1f124867a0e1"
+    "media": "dccb748ef33d0330547029a1ce1a1f124867a0e1",
+    "site": "6e12e8529b6447463ceb37c34e623a85f1e891ce",
+    "siteHistory": [
+      "3e8ef6201113c847d179c329b5eb39be32310ce3"
+    ]
   },
   "attempts": 12,
   "maxAttempts": 30,
@@ -595,5 +675,6 @@
   ],
   "applyBase": "fe1c25a9a4f6daadce6f47940dec653d92bfac7d",
   "pendingTree": "d4b20f9d1edc7fe2b122b4c29f57dd741cecba26",
-  "siteBase": "eb0215e7149d3873611db4144bfc48a943f34815"
+  "siteBase": "eb0215e7149d3873611db4144bfc48a943f34815",
+  "siteTree": "8810b5b04f40f529b4477bf9f58cc86e2ce02358"
 }
