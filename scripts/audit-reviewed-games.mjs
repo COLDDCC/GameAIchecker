@@ -1,4 +1,4 @@
-import { activeIntakeIds } from './review/registry.mjs';
+import { activeIntakeIds, delistedIds } from './review/registry.mjs';
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -34,6 +34,8 @@ for (const id of ids) {
     if (!html.includes(game.name) && !html.includes(escaped)) error('Game title missing from exported HTML');
     if (!html.includes('/games/' + slug + '/')) error('Canonical game URL missing');
   }
+  // Steam removed these apps, so their remaining checks are the ones above; local images cannot exist.
+  if (delistedIds.has(id)) continue;
   const galleryPath = join(root, 'dist/images/steam/apps', id, 'gallery.json');
   if (!existsSync(galleryPath)) { error('Localized gallery missing'); continue; }
   const gallery = JSON.parse(readFileSync(galleryPath, 'utf8'));
@@ -53,5 +55,6 @@ if (errors.length) {
   errors.forEach(e => console.error(' - ' + e));
   process.exitCode = 1;
 } else {
-  console.log(`[audit-reviewed-games] PASS: ${ids.length} games have sources, Astro output and local images`);
+  const exempted = ids.filter(id => delistedIds.has(id)).length;
+  console.log(`[audit-reviewed-games] PASS: ${ids.length} games have sources and Astro output; local images required for ${ids.length - exempted}, ${exempted} delisted app(s) exempted`);
 }

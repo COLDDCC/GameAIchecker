@@ -1,4 +1,4 @@
-import { activeIntakeIds } from './review/registry.mjs';
+import { activeIntakeIds, delistedIds } from './review/registry.mjs';
 import { mkdir, readFile, writeFile, access } from 'node:fs/promises';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
@@ -42,8 +42,8 @@ for (const id of targets) {
       console.warn(`[localize-game-media] ${id}: Steam metadata unavailable; saved header-only fallback`);
       continue;
     } catch (error) {
-      if (requiredIds.has(id)) throw new Error(`Missing local header and metadata for required game ${id}: ${error.message}`);
-      console.warn(`[localize-game-media] ${id}: skipped; no image sources`);
+      if (requiredIds.has(id) && !delistedIds.has(id)) throw new Error(`Missing local header and metadata for required game ${id}: ${error.message}`);
+      console.warn(`[localize-game-media] ${id}: skipped; ${delistedIds.has(id) ? 'Steam removed this app, artwork is unreachable' : 'no image sources'}`);
       continue;
     }
   }
