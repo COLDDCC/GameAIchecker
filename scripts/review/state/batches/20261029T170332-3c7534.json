@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "d28a67e2cc45522b7502286060a785f92f2742af",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "prepared",
+  "phase": "media_ready",
   "createdAt": "2026-10-29T07:03:32.191486+00:00",
   "oldHashes": {
     "4283610": "4ebe8490b96b94b8caf858623df9fd66bbe6e364116f4127e2dc9128dc10198f",
@@ -549,8 +549,18 @@
       "decisionHash": "54522ff6b2dcba06400f21dd4590a48658262e85f81da4712efce3bd2563cfb3"
     }
   ],
-  "checkResults": {},
-  "publishShas": {},
+  "checkResults": {
+    "media": {
+      "checks": {
+        "Persist media for reviewed games": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40834166132"
+      },
+      "bytes": 13445054,
+      "verifiedRemoteSha": "eb0215e7149d3873611db4144bfc48a943f34815"
+    }
+  },
+  "publishShas": {
+    "media": "dccb748ef33d0330547029a1ce1a1f124867a0e1"
+  },
   "attempts": 12,
   "maxAttempts": 30,
   "selectionOverride": {
@@ -583,5 +593,7 @@
       "reason": "Public metadata reports retirement; current release availability is unresolved. Defer rather than count toward this batch."
     }
   ],
-  "applyBase": "fe1c25a9a4f6daadce6f47940dec653d92bfac7d"
+  "applyBase": "fe1c25a9a4f6daadce6f47940dec653d92bfac7d",
+  "pendingTree": "d4b20f9d1edc7fe2b122b4c29f57dd741cecba26",
+  "siteBase": "eb0215e7149d3873611db4144bfc48a943f34815"
 }
