@@ -1,0 +1,112 @@
+{
+  "appId": "4911480",
+  "name": "Playworlds",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "由 AI 游戏主持人回应玩家选择的角色扮演冒险。官方披露实时叙事、伙伴对话和合成语音，也披露部分视觉与商店图像在制作中使用 AI。",
+  "aiUsageCategories": [
+    "ingame",
+    "art",
+    "voice",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "used",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "游戏主持人叙事、伙伴对话、故事结果与语音随玩家选择实时生成。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "部分视觉素材在制作阶段有 AI 辅助。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "开发者明确披露使用 MiniMax 合成语音。",
+    "writing": "实时叙事已归入游戏内 AI；战役和角色材料的制作辅助未明确文字范围，不推断全部剧本。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "部分 Steam 商店美术有 AI 辅助。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "voice": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4911480/",
+  "developer": "ElserAI",
+  "publisher": "ElserAI",
+  "steamReleaseDate": "Oct 7, 2026",
+  "genres": [
+    "Adventure",
+    "RPG",
+    "Free To Play",
+    "Early Access"
+  ],
+  "reviewedAt": "2026-10-29",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4911480/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-29",
+      "excerpt": "Playworlds uses generative AI during gameplay for game-master narration, companion dialogue, story outcomes, and synthesized speech based on player choices. Text processing uses services accessed through OpenRouter and Google Gemini; speech synthesis uses MiniMax. Responses are generated live and may vary between sessions. AI tools also assisted preparation of campaign and character material and portions of the visual and Steam store artwork."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4911480/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-29",
+      "excerpt": "英文讨论区首页显示 4 个主题（总数 4）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4911480/discussions/0/706660083369823529/",
+      "label": "Level 1 character against 4 goblins",
+      "date": "2026-10-29",
+      "excerpt": "A player reports difficulty scaling in an encounter."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4911480/discussions/0/588439869536345847/",
+      "label": "What makes this different?",
+      "date": "2026-10-29",
+      "excerpt": "A player asks how the AI RPG differs from similar games; no visible developer answer on this page."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4911480/discussions/0/588439869536143521/",
+      "label": "doesnt start",
+      "date": "2026-10-29",
+      "excerpt": "Players report that the game does not start."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4911480/discussions/0/581679037480560180/",
+      "label": "butlerian jihad now please",
+      "date": "2026-10-29",
+      "excerpt": "A short player objection to AI; not evidence for additional production areas."
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份和英文界面讨论区首页（4 个主题）。另读 4 个主题正文及可见回复。每款游戏单独检索公开报道；讨论区仅覆盖首页，搜索并非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Playworlds uses generative AI during gameplay for game-master narration, companion dialogue, story outcomes, and synthesized speech based on player choices. Text processing uses services accessed through OpenRouter and Google Gemini; speech synthesis uses MiniMax. Responses are generated live and may vary between sessions. AI tools also assisted preparation of campaign and character material and portions of the visual and Steam store artwork.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-29 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An RPG with a live AI game master. The disclosure covers generated narration, companion dialogue and speech during play, plus AI assistance with visual and Steam store artwork.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the discussion homepage in the English interface (4 visible topics). Also read 4 topics and all visible replies. Public coverage was searched separately for this game. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "Game-master narration, companion dialogue, story outcomes and speech are generated during play.",
+      "code": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "art": "AI tools assisted portions of the visual artwork during preparation.",
+      "music": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "voice": "The disclosure names MiniMax for speech synthesis.",
+      "writing": "Live narration is classified under in-game AI. The preparation of campaign and character material does not clearly specify the writing scope.",
+      "translation": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "marketing": "AI tools assisted portions of the Steam store artwork."
+    },
+    "sourceRecordHash": "55895bea341d3e9ffd8a4fab9a2cdcc4d6f2b1d73b6ba4dbbd231e9266868173"
+  }
+}

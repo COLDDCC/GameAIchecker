@@ -1,0 +1,82 @@
+{
+  "appId": "5192330",
+  "name": "WarmSpot",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "为动物安排温泉位置的逻辑益智游戏。开发者披露部分二维视觉素材、宣传图和本地化文字使用生成式 AI，并声明游玩时不实时生成内容或代码。",
+  "aiUsageCategories": [
+    "art",
+    "translation",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者明确排除游玩时生成 AI 内容或代码及外部 AI 服务连接。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "部分预生成二维视觉素材使用生成式 AI 辅助。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "部分本地化文字使用生成式 AI 辅助，经开发者审核编辑。",
+    "marketing": "部分宣传美术使用生成式 AI 辅助。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5192330/",
+  "developer": "BT Studio",
+  "publisher": "BT Studio",
+  "steamReleaseDate": "Coming soon（计划；核查时尚未发售）",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-10-29",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5192330/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-29",
+      "excerpt": "Generative AI tools were used during development to assist with some pre-generated 2D visual assets, marketing artwork, and localized text. All AI-assisted content was reviewed and edited by the developer before inclusion. The game does not generate AI content or code during play and does not connect to external AI services."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5192330/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-29",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份和英文界面讨论区首页（0 个主题）。每款游戏单独检索公开报道；讨论区仅覆盖首页，搜索并非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Generative AI tools were used during development to assist with some pre-generated 2D visual assets, marketing artwork, and localized text. All AI-assisted content was reviewed and edited by the developer before inclusion. The game does not generate AI content or code during play and does not connect to external AI services.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-29 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A hot-spring logic puzzle about placing animals. The developer discloses AI assistance with pre-generated 2D visuals, marketing art and localized text, and states that no AI content or code is generated during play.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the discussion homepage in the English interface (0 visible topics). Public coverage was searched separately for this game. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The developer rules out AI content or code generation during play and connections to external AI services.",
+      "code": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "art": "Generative AI assisted some pre-generated 2D visual assets.",
+      "music": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "voice": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "writing": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "translation": "Generative AI assisted localized text, followed by developer review and editing.",
+      "marketing": "Generative AI assisted some marketing artwork."
+    },
+    "sourceRecordHash": "0deacb3fe7d6723ed9b6eba9e7a6e9b7a2ef4a8d79b979d7323cb4ce30922734"
+  }
+}

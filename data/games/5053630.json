@@ -1,0 +1,76 @@
+{
+  "appId": "5053630",
+  "name": "Crystalase",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "逐块拼合水晶图片的休闲益智游戏。Steam 官方披露部分游戏图片由 AI 生成，未明确说明音乐、配音或代码是否使用 AI。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "部分游戏内图片由 AI 生成；披露没有说明比例或工具。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5053630/",
+  "developer": "Andrei Ivashentsev",
+  "publisher": "Andrei Ivashentsev",
+  "steamReleaseDate": "Nov 10, 2026（计划；核查时尚未发售）",
+  "genres": [
+    "Casual",
+    "Indie"
+  ],
+  "reviewedAt": "2026-10-29",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5053630/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-29",
+      "excerpt": "AI-generated content is used to create some of the images featured in the game."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5053630/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-29",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份和英文界面讨论区首页（0 个主题）。每款游戏单独检索公开报道；讨论区仅覆盖首页，搜索并非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "AI-generated content is used to create some of the images featured in the game.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-29 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A relaxing crystal-image puzzle game. The Steam disclosure identifies AI-generated images in the game, without specifying AI use in music, voice or code.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the discussion homepage in the English interface (0 visible topics). Public coverage was searched separately for this game. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "code": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "art": "Some in-game images are AI-generated. The disclosure does not specify their proportion or the tools used.",
+      "music": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "voice": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "writing": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "translation": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "marketing": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "ac28327450310fe14fe48b36fdc1750b6e893b5c0c31e0a9b2c8f67fe49070e1"
+  }
+}

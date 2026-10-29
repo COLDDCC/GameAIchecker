@@ -1,0 +1,77 @@
+{
+  "appId": "5145600",
+  "name": "Cutset",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "通过切断管道和关闭阀门解谜。开发者披露商店宣传图使用生成式 AI，并声明游戏内视觉素材不含 AI 生成内容、游玩时不实时生成。",
+  "aiUsageCategories": [
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "claimed_none",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者明确排除游玩时的生成式 AI 调用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "开发者自述游戏内视觉、界面、字标和成就图标不含 AI 生成内容；未经独立审计，宣传图另列。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "披露提到机器翻译，但未明确是否为生成式 AI；不自动标为使用生成式 AI。",
+    "marketing": "商店页与宣传胶囊图先由生成式 AI 起稿，再调色并人工调整。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5145600/",
+  "developer": "DAWEI GAO",
+  "publisher": "DAWEI GAO",
+  "steamReleaseDate": "Oct 27, 2026",
+  "genres": [
+    "Indie"
+  ],
+  "reviewedAt": "2026-10-29",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5145600/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-29",
+      "excerpt": "Store page and marketing capsule artwork was drafted with generative AI, then quantized to a fixed 9-colour pixel palette and hand-adjusted before use. Interface translations outside Simplified Chinese and English were produced by machine translation and have not been reviewed by native speakers. All in-game visuals, the user interface, the wordmark and the achievement icons are drawn programmatically in code and contain no AI-generated content. The game does not invoke generative AI at runtime; nothing is generated while you play."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5145600/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-29",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份和英文界面讨论区首页（0 个主题）。每款游戏单独检索公开报道；讨论区仅覆盖首页，搜索并非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Store page and marketing capsule artwork was drafted with generative AI, then quantized to a fixed 9-colour pixel palette and hand-adjusted before use. Interface translations outside Simplified Chinese and English were produced by machine translation and have not been reviewed by native speakers. All in-game visuals, the user interface, the wordmark and the achievement icons are drawn programmatically in code and contain no AI-generated content. The game does not invoke generative AI at runtime; nothing is generated while you play.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-29 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A pipe-network puzzle game. Generative AI was used for store and capsule artwork; the developer states that in-game visuals contain no AI-generated content and that there is no live generation.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the discussion homepage in the English interface (0 visible topics). Public coverage was searched separately for this game. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The developer explicitly states that the game does not invoke generative AI at runtime.",
+      "code": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "art": "Developer claim, not independently audited: in-game visuals, UI, wordmark and achievement icons contain no AI-generated content. Marketing artwork is separate.",
+      "music": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "voice": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "writing": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "translation": "Machine translation is disclosed, but its use of generative AI is not specified; it is not automatically classified as generative AI use.",
+      "marketing": "Store and marketing capsule artwork was drafted with generative AI, then palette-adjusted and edited."
+    },
+    "sourceRecordHash": "3284ebec3e0642af5053f2f33887ac6b556606db23386438089c2266ae348475"
+  }
+}

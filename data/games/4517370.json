@@ -1,0 +1,116 @@
+{
+  "appId": "4517370",
+  "name": "EULA ~2026 Human Creativity Report~",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "在人工与 AI 两种模式之间切换的视觉小说。开发者披露 AI 模式的角色图像、剧本和音频为预先生成，游玩时不实时生成。",
+  "aiUsageCategories": [
+    "art",
+    "writing"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者明确表示游玩时没有实时 AI 生成。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "AI 模式角色图像使用生成式 AI，不代表人工模式也使用。",
+    "music": "披露说明 AI 模式音频使用 AI，但没有将其进一步分为音乐或配音。",
+    "voice": "披露说明 AI 模式音频使用 AI，但没有将其进一步分为音乐或配音。",
+    "writing": "AI 模式情节与剧本使用生成式 AI。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "writing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4517370/",
+  "developer": "MoEater",
+  "publisher": "MoEater",
+  "steamReleaseDate": "Jul 10, 2026",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Indie"
+  ],
+  "reviewedAt": "2026-10-29",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4517370/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-29",
+      "excerpt": "Exactly half of this game's content is AI-generated. This is intentional, and part of the gameplay - designed to convey the difference between AI-created and human-made works. [AI Usage] - AI Mode character graphics: AI-generated - AI Mode scenario / script: AI-generated - AI Mode audio: AI-generated - The giraffe - Any other elements necessary for in-game [Non-AI Usage] - Organic Mode character art: Human-made - Organic Mode story: Human-made - Organic Mode music / sound effects: Human-made - Any other elements necessary for in-game cinematics ※ All content was pre-produced during development. No real-time AI generation is used during gameplay."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4517370/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-29",
+      "excerpt": "英文讨论区首页显示 4 个主题（总数 4）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4517370/discussions/0/576046907555706452/",
+      "label": "The EULA",
+      "date": "2026-10-29",
+      "excerpt": "Player feedback on the readability of the EULA; not evidence of AI use in a specific production area."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4517370/discussions/0/565912313820899947/",
+      "label": "Awesome demo, just one minor complaint:",
+      "date": "2026-10-29",
+      "excerpt": "Demo feedback about controls and pronouns; visible developer replies report fixes. No additional AI-use claim is established."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4517370/discussions/0/567037313987802240/",
+      "label": "imo the way the game present the topic seems a bit dishonest.",
+      "date": "2026-10-29",
+      "excerpt": "Players dispute how the game compares human and AI work. These are community opinions, not a developer disclosure or independent audit."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4517370/discussions/0/836125423060408571/",
+      "label": "Demo feedback",
+      "date": "2026-10-29",
+      "excerpt": "Demo feedback discusses the human/AI comparison and a frame-rate issue; visible developer replies report a fix."
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.4gamer.net/games/995/G099592/20260402047/",
+      "label": "4Gamer: human and AI story modes",
+      "date": "2026-10-29",
+      "excerpt": "4Gamer reports that the visual novel switches between human-created and AI-created illustrations and writing. Its April announcement used an earlier release date; current release information comes from Steam.",
+      "publishedAt": "2026-04-02"
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份和英文界面讨论区首页（4 个主题）。另读 4 个主题正文及可见回复。每款游戏单独检索公开报道；讨论区仅覆盖首页，搜索并非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Exactly half of this game's content is AI-generated. This is intentional, and part of the gameplay - designed to convey the difference between AI-created and human-made works. [AI Usage] - AI Mode character graphics: AI-generated - AI Mode scenario / script: AI-generated - AI Mode audio: AI-generated - The giraffe - Any other elements necessary for in-game [Non-AI Usage] - Organic Mode character art: Human-made - Organic Mode story: Human-made - Organic Mode music / sound effects: Human-made - Any other elements necessary for in-game cinematics ※ All content was pre-produced during development. No real-time AI generation is used during gameplay.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-29 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A visual novel that contrasts human-made and AI modes. The developer discloses pre-generated character graphics, scripts and audio in AI mode, with no live generation during play.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the discussion homepage in the English interface (4 visible topics). Also read 4 topics and all visible replies. Public coverage was searched separately for this game. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The developer explicitly rules out real-time AI generation during gameplay.",
+      "code": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "art": "AI-mode character graphics are generated; this does not extend to Organic Mode.",
+      "music": "AI-mode audio is disclosed, but the statement does not separately identify music or voice production.",
+      "voice": "AI-mode audio is disclosed, but the statement does not separately identify music or voice production.",
+      "writing": "The AI-mode scenario and script are AI-generated.",
+      "translation": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "marketing": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "b9a958ecea63b0e5ab1ad079a068f6021d685911eccfec954f956acc2e8bf77f"
+  }
+}

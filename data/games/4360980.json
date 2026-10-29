@@ -1,0 +1,103 @@
+{
+  "appId": "4360980",
+  "name": "Ocean",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "以卡牌创造和角色互动为主题的游戏。官方披露 AI 图像、动态图像及部分实时交流内容；图像是否全部在游玩时生成未明确。",
+  "aiUsageCategories": [
+    "ingame",
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "used",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "部分实时交流内容由 AI 生成，不扩大为全部对话。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "官方明确披露图像和动态图像使用 AI；生成时机未完整说明。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4360980/",
+  "developer": "DoingGames",
+  "publisher": "DoingGames",
+  "steamReleaseDate": "Oct 16, 2026",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Indie",
+    "Massively Multiplayer",
+    "Strategy",
+    "Free To Play"
+  ],
+  "reviewedAt": "2026-10-29",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4360980/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-29",
+      "excerpt": "OceanAI uses AI to generate images, animated images, and partial real-time communication content."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4360980/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-29",
+      "excerpt": "英文讨论区首页显示 3 个主题（总数 3）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4360980/discussions/0/807974817789872303/",
+      "label": "好感度/喜爱度？",
+      "date": "2026-10-29",
+      "excerpt": "Players discuss the relationship meter and its effect on character conversations."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4360980/discussions/0/836125171214605745/",
+      "label": "A letter from dev team",
+      "date": "2026-10-29",
+      "excerpt": "A post presented as a letter from the OceanAI development team describes development and funding challenges; it adds no specific production-area disclosure."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4360980/discussions/0/797839485450613618/",
+      "label": "EA测试说明",
+      "date": "2026-10-29",
+      "excerpt": "An early-access notice describes Steam, APK and web access with shared account data."
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份和英文界面讨论区首页（3 个主题）。另读 3 个主题正文及可见回复。每款游戏单独检索公开报道；讨论区仅覆盖首页，搜索并非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "OceanAI uses AI to generate images, animated images, and partial real-time communication content.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-29 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A collectible-card game built around card creation and character interaction. The disclosure covers generated images, animated images and some real-time communication, without fully specifying when the visual assets are generated.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the discussion homepage in the English interface (3 visible topics). Also read 3 topics and all visible replies. Public coverage was searched separately for this game. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "Some real-time communication content is AI-generated; the disclosure does not say all dialogue.",
+      "code": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "art": "The official disclosure identifies generated images and animated images; their production timing is not fully specified.",
+      "music": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "voice": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "writing": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "translation": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "marketing": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "1a18eb558f658919838e1e2ee6b9a0c368fa1edd9712c1e104948ecddcf0c8b5"
+  }
+}
