@@ -917,7 +917,7 @@ const breadcrumbLd = {
 
   <dialog class="lightbox" id="lightbox">
     <button id="closeLightbox" type="button" aria-label={tx("关闭")}>×</button>
-    <img id="lightboxImg" alt="" />
+    <img id="lightboxImg" alt="" decoding="async" fetchpriority="high" />
     <div class="lightbox-caption" id="lightboxCaption"></div>
   </dialog>
 
@@ -951,6 +951,24 @@ const breadcrumbLd = {
       let hovering = false;
       let timer = null;
 
+      const warmedImages = new Set();
+      function warm(full) {
+        if (!full || warmedImages.has(full)) return null;
+        warmedImages.add(full);
+        const image = new Image();
+        image.decoding = 'async';
+        image.src = full;
+        return image;
+      }
+      // Browse one frame ahead so the lightbox never waits on a cold round trip.
+      function warmAround() {
+        if (!thumbs.length) return;
+        const upcoming = [thumbs[index], thumbs[(index + 1) % thumbs.length]];
+        const run = () => upcoming.forEach((thumb) => thumb && warm(thumb.dataset.full));
+        if (typeof window.requestIdleCallback === 'function') window.requestIdleCallback(run, { timeout: 1500 });
+        else setTimeout(run, 500);
+      }
+
       function show(next) {
         if (!heroImg || !thumbs.length) return;
         index = (next + thumbs.length) % thumbs.length;
@@ -959,6 +977,7 @@ const breadcrumbLd = {
         heroImg.dataset.full = thumb.dataset.full || heroImg.dataset.full;
         thumbs.forEach((item, position) => item.classList.toggle('active', position === index));
         if (counter) counter.textContent = `${index + 1} / ${thumbs.length}`;
+        warmAround();
       }
 
       function schedule() {
@@ -1068,13 +1087,18 @@ const breadcrumbLd = {
       const lightboxCaption = document.getElementById('lightboxCaption');
       function openLightbox() {
         if (!heroImg || !lightbox || !lightboxImg) return;
-        lightboxImg.src = heroImg.dataset.full || heroImg.src;
+        const full = heroImg.dataset.full || heroImg.src;
+        // The 1280 hero frame is already decoded, so the dialog shows at once and upgrades in place.
+        lightboxImg.src = heroImg.currentSrc || heroImg.src;
         lightboxImg.alt = heroImg.alt || '';
         if (lightboxCaption) lightboxCaption.textContent = heroImg.alt || '';
         if (typeof lightbox.showModal === 'function') lightbox.showModal();
+        const larger = warm(full);
+        if (larger) larger.onload = () => { lightboxImg.src = larger.src; };
       }
       document.getElementById('openLightbox')?.addEventListener('click', openLightbox);
       heroImg?.addEventListener('click', openLightbox);
+      [document.getElementById('openLightbox'), heroMedia].forEach((node) => node?.addEventListener('pointerenter', () => warm(heroImg?.dataset.full), { once: true }));
       document.getElementById('closeLightbox')?.addEventListener('click', () => lightbox?.close());
       lightbox?.addEventListener('click', (event) => { if (event.target === lightbox) lightbox.close(); });
 
