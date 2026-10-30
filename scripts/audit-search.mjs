@@ -17,6 +17,16 @@ for(const g of games){
  assert(sitemap.includes(`https://gameaichecker.com${zh}</loc>`),zh);
  assert(original.includes('lang="zh-CN"'),zh);
  assert(html.includes('Eight areas, separate answers')&&html.includes('Sources &amp; review limits'),path);
+ // Route/SEO changes must preserve the restored detail experience in both languages.
+ for (const page of [html, original]) {
+  for (const id of ['heroMedia','ai','evidence','steam','developer','sources','saveBtn','shareBtn','voteForm','lightbox','game-language']) {
+   assert(page.includes(`id="${id}"`), `${path}: missing restored detail module ${id}`);
+  }
+  if (g.images.length > 1) assert(page.includes('id="thumbs"'), `${path}: gallery thumbnails`);
+  assert.equal((page.match(/class="ai-overview-tile/g) || []).length, 8, `${path}: eight-area overview`);
+  assert(page.includes('/airy-detail.css'), `${path}: original layout stylesheet`);
+ }
+
 }
 for(const p of ['guides/how-to-check-steam-game-ai','guides/how-to-tell-if-a-game-is-ai-generated','events/steam-next-fest-october-2026-ai-disclosures','collections/human-made-steam-games']){
  assert(existsSync(`dist/${p}/index.html`));assert(sitemap.includes(`https://gameaichecker.com/${p}/</loc>`));
