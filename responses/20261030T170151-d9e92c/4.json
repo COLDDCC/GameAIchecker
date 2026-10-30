@@ -1,0 +1,13 @@
+{
+ "url": "https://search.brave.com/search?q=%22Unharvest%22%20Steam",
+ "mode": "body",
+ "httpStatus": 429,
+ "contentType": "text/html; charset=utf-8",
+ "effectiveUrl": "https://search.brave.com/search?q=%22Unharvest%22%20Steam",
+ "curlExit": 0,
+ "error": "",
+ "fetchedAt": "2026-10-30T08:02:16.913094+00:00",
+ "contentHash": "364cdfac2ea497cea91b52b6a25864d20298a1cacb40d4e0c1dcddb25c68ce82",
+ "bytes": 74245,
+ "headers": "HTTP/2 429 \ncontent-type: text/html; charset=utf-8\ncontent-length: 74245\ndate: Fri, 30 Oct 2026 08:02:16 GMT\ncontent-security-policy: default-src 'self' https://*.search.brave.com https://*.safesearch.brave.com; worker-src 'self' blob: https://cdn.search.brave.com; connect-src 'self' https://*.search.brave.com https://*.safesearch.brave.com https://search-ads-confirmation.brave.com https://search.anonymous.ads.brave.com https://ads-serve.brave.com https://payment.rewards.brave.com; font-src 'self' data: https://cdn.search.brave.com; img-src 'self' blob: data: https://*.search.brave.com https://*.safesearch.brave.com; manifest-src 'self' data: https://cdn.search.brave.com; object-src 'none'; script-src 'self' 'wasm-unsafe-eval' blob: 'sha256-814SnTyn5ALg8TJXV+oyKfWuNiBuC4efTpUrmrxoOCg=' 'sha256-SmTwPjqn0XvcfrmE4x0RbrJTxpXaEf2fSzIn0kj7ckI=' 'sha256-d1dDypqZNlvvw7S73u6vZbvWfwqGGY0cgXENpwDs0Ak=' https://cdn.search.brave.com 'nonce-vmFTP2HUi4J+jGAuOYnkZg=='; script-src-attr 'self' 'unsafe-hashes' 'sha256-7dQwUgLau1NFCCGjfn9FsYptB6ZtWxJin6VohGIu20I='; style-src 'self' 'unsafe-inline' https://cdn.search.brave.com; base-uri 'self'; frame-ancestors 'self'; upgrade-insecure-requests\ncache-control: no-store\nx-cache: Error from cloudfront\nvia: 1.1 8661a27a8f168daa2801a14dd5bbb52e.cloudfront.net (CloudFront)\nx-amz-cf-pop: DFW59-P8\nalt-svc: h3=\":443\"; ma=86400\nx-amz-cf-id: eGOvi7SgjWGcTOEObdQfk5vfOBCA-QhWUF5FcbU7duNm1oLZyS_Gag==\n\n"
+}
