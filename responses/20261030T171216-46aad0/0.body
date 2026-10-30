@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Banana Airways – Chaotic Co-op Airline Game for up to 6 · Free Demo on Steam</title>
+  <link rel="canonical" href="https://bananaairways.com/" />
+  <meta name="description" content="Banana Airways: the sky's worst airline. Chaotic co-op for up to 6 players. Wishlist it on Steam." />
+  <meta property="og:title" content="Banana Airways" />
+  <meta property="og:description" content="The sky's worst airline. Chaotic co-op for up to 6 players. Wishlist it on Steam." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Banana Airways" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://bananaairways.com/assets/og-image.jpg" />
+  <meta property="og:image" content="https://bananaairways.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://bananaairways.com/" />
+  <meta name="theme-color" content="#16222f" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍌</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/home-bg-poster.jpg" />
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    /* Colores y tipografías de la guía de marca: Teko para títulos y botones, Montserrat para texto. */
+    :root{ --navy:#324d66; --navy-deep:#263c50; --ink:#16222f; --yellow:#F8C537; --gold:#F8C537; --discord:#5865F2; }
+    html,body{height:100%}
+    html{ overflow-x:clip; }
+    body{
+      font-family:"Montserrat",system-ui,-apple-system,sans-serif;
+      color:#fff;
+      background:#16222f url("assets/home-bg-poster.jpg") center / cover no-repeat;
+      min-height:100svh;
+    }
+    /* El trailer de fondo, nítido: el gameplay se tiene que ver (1280x720, sin audio, loop de 36 s). */
+    .bg{
+      position:fixed; inset:0; width:100%; height:100%;
+      object-fit:cover; z-index:-2; pointer-events:none;
+      transition:filter .6s ease;
+    }
+    /* Velo: liviano arriba, más oscuro abajo para que los botones y el pie se lean. */
+    body::before{
+      content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
+      background:linear-gradient(rgba(14,22,32,.10), rgba(10,16,24,.12) 45%, rgba(10,16,24,.55) 78%, rgba(8,12,18,.82));
+    }
+    @media (prefers-reduced-motion: reduce){ .bg{ display:none; } }
+
+    /* Una sola pantalla: logo arriba, los tres botones abajo, y el pie (desarrollador + copyright). */
+    .stage{
+      position:relative; z-index:1;
+      min-height:100svh;
+      display:flex; flex-direction:column; align-items:center;
+      padding:clamp(28px,6vh,72px) 16px 0;
+      text-align:center;
+      transition:opacity .5s ease, transform .5s ease;
+      overflow:clip;   /* los créditos que tira el bebé se pierden por abajo sin agregar scroll */
+    }
+    .top{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; position:relative; }
+    /* sombra suave detrás del logo para que se lea sobre el video */
+    .top::before{
+      content:""; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+      width:min(860px,100vw); height:min(480px,70vh); z-index:-1;
+      background:radial-gradient(ellipse at 50% 50%, rgba(10,16,24,.55), rgba(10,16,24,.22) 45%, rgba(10,16,24,0) 70%);
+      pointer-events:none;
+    }
+    .logo{
+      width:min(520px,80vw); height:auto;
+      filter:drop-shadow(0 10px 26px rgba(0,0,0,.45));
+    }
+    .tag{
+      font-family:"Teko",system-ui,sans-serif;
+      font-weight:600; font-size:clamp(24px,3.2vw,34px); line-height:1.05; letter-spacing:.06em; text-transform:uppercase;
+      color:var(--gold); text-shadow:0 2px 14px rgba(0,0,0,.85), 0 1px 3px rgba(0,0,0,.8); max-width:22em; text-wrap:balance;
+    }
+    /* el lema en dos líneas del mismo ancho: la segunda, más chica (0.845 de la primera) y en blanco */
+    .tag span{ display:block; }
+    .tag .tag-2{ font-size:.845em; color:#fff; margin-top:.12em; }
+
+    /* Los tres botones: vidrio oscuro translúcido con borde fino, para que se vea el juego detrás.
+       Al pasar el mouse se llenan con el color de cada uno (Steam, amarillo de la marca, Discord). */
+    .badges{ display:flex; flex-wrap:wrap; justify-content:center; gap:clamp(10px,1.4vw,16px); margin:clamp(24px,5vh,48px) 0 clamp(26px,5vh,46px); }
+    .badge{
+      --hover:#1b2838; --hover-fg:#fff;
+      display:flex; align-items:center; gap:12px;
+      width:218px; height:60px; padding:0 18px 0 14px;
+      font:inherit; text-align:left; text-decoration:none; cursor:pointer;
+      color:#fff; background:rgba(12,19,28,.34);
+      border:1.5px solid rgba(255,255,255,.26); border-radius:14px;
+      backdrop-filter:blur(10px) saturate(1.25); -webkit-backdrop-filter:blur(10px) saturate(1.25);
+      box-shadow:0 8px 24px rgba(0,0,0,.18);
+      transition:transform .16s ease, background .18s ease, border-color .18s ease, color .18s ease;
+    }
+    .badge:hover{ transform:translateY(-2px); background:var(--hover); border-color:var(--hover); color:var(--hover-fg); }
+    .badge:active{ transform:translateY(0); }
+    .badge:focus-visible{ outline:2px solid #fff; outline-offset:3px; }
+    .badge svg{ flex:none; width:32px; height:32px; }
+    .badge span{ display:flex; flex-direction:column; gap:2px; }
+    .badge small{ font-size:9.5px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; opacity:.7; line-height:1; }
+    .badge b{ font-family:"Teko",system-ui,sans-serif; font-weight:500; font-size:30px; line-height:.8; letter-spacing:.03em; padding-top:4px; }
+    .badge--steam{ --hover:#1b2838; }
+    .badge--trailer{ --hover:var(--yellow); --hover-fg:var(--ink); border-color:rgba(248,197,55,.7); }
+    .badge--trailer .play circle{ fill:var(--yellow); transition:fill .18s ease; }
+    .badge--trailer .play path{ fill:var(--ink); transition:fill .18s ease; }
+    .badge--trailer:hover .play circle{ fill:var(--ink); }
+    .badge--trailer:hover .play path{ fill:var(--yellow); }
+    .badge--discord{ --hover:var(--discord); }
+
+    /* Pie: Eggscape y el desarrollador (3DAR), y el copyright, todo centrado. */
+    .foot{ display:flex; flex-direction:column; align-items:center; gap:14px; padding:0 0 calc(18px + env(safe-area-inset-bottom)); }
+    .credits{ display:flex; align-items:center; gap:22px; }
+    .credits .sep{ width:1px; height:28px; background:rgba(255,255,255,.25); }
+    .egg img{ height:34px; width:auto; display:block; filter:drop-shadow(0 2px 8px rgba(0,0,0,.4)); transition:transform .15s ease; }
+    .egg:hover img{ transform:scale(1.04); }
+    .dev{ display:flex; align-items:center; gap:10px; text-decoration:none; color:rgba(255,255,255,.72); opacity:.9; transition:opacity .15s ease; }
+    .dev:hover{ opacity:1; }
+    .dev small{ font-size:10px; font-weight:600; letter-spacing:.18em; text-transform:uppercase; }
+    .dev img{ height:24px; width:auto; display:block; }
+    .copy{ font-size:11.5px; font-weight:500; letter-spacing:.02em; color:rgba(255,255,255,.55); }
+
+    @media(max-width:760px){
+      .badges{ flex-direction:column; align-items:center; gap:10px; }
+      .badge{ width:min(260px,100%); }
+    }
+    @media(max-width:380px){ .credits{ gap:14px; } .egg img{ height:28px; } }
+    @media(max-height:640px) and (min-width:761px){ .logo{ width:min(400px,70vw); } }
+
+    /* ===== Play trailer (el mismo player que 3d.ar/banana-airways): se va todo, cuenta 3-2-1 con
+       título y tic, y arranca el trailer con controles propios que se esconden con el mouse quieto. ===== */
+    body.is-trailer{ overflow:hidden; }
+    body.is-trailer .stage{ opacity:0; transform:scale(.97); pointer-events:none; }
+    body.is-trailer .baby, body.is-trailer .zap, body.is-trailer .flash{ opacity:0; visibility:hidden; transition:opacity .4s ease, visibility 0s .4s; }
+    .theater{
+      position:fixed; inset:0; z-index:10; background:#000; overflow:hidden; user-select:none;
+      opacity:0; visibility:hidden; transition:opacity .5s ease, visibility 0s .5s;
+    }
+    body.is-trailer .theater{ opacity:1; visibility:visible; transition:opacity .5s ease; }
+    .theater.idle{ cursor:none; }
+    .trailer{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; background:#000; }
+    @media (max-aspect-ratio:4/3){ .trailer{ object-fit:contain; } }
+
+    .cd{ position:absolute; inset:0; z-index:5; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:28px;
+      background:radial-gradient(circle at 50% 45%, rgba(22,34,47,.55), rgba(10,16,22,.92) 70%), url("press/video/trailer-poster.jpg") center / cover;
+      transition:opacity .45s ease; }
+    .cd.out{ opacity:0; pointer-events:none; }
+    .cd-title{ font-family:"Teko",system-ui,sans-serif; text-transform:uppercase; letter-spacing:.14em; font-size:clamp(26px,4.2vw,46px); line-height:1; color:#fff; text-align:center; }
+    .cd-title b{ font-weight:500; color:var(--gold); }
+    body.is-trailer .cd-title{ animation:rise .6s ease both; }
+    @keyframes rise{ from{ opacity:0; transform:translateY(12px); } to{ opacity:1; transform:none; } }
+    .cd-ring{ position:relative; width:min(300px,52vmin); aspect-ratio:1; display:grid; place-items:center; }
+    .cd-ring svg{ position:absolute; inset:0; width:100%; height:100%; transform:rotate(-90deg); }
+    .cd-ring circle{ fill:none; stroke-width:5; }
+    .cd-ring .track{ stroke:rgba(255,255,255,.12); }
+    .cd-ring .arc{ stroke:var(--gold); stroke-linecap:round; stroke-dasharray:100; stroke-dashoffset:100; }
+    .cd-ring.tick .arc{ animation:sweep .9s linear forwards; }
+    @keyframes sweep{ from{ stroke-dashoffset:100; } to{ stroke-dashoffset:0; } }
+    .cd-num{ font-family:"Teko",system-ui,sans-serif; font-weight:600; font-size:min(230px,40vmin); line-height:1; color:var(--gold); padding-top:.12em;
+      text-shadow:0 8px 40px rgba(248,197,55,.35); }
+    .cd-num.pop{ animation:pop .9s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes pop{ 0%{ transform:scale(1.7); opacity:0; } 25%{ transform:scale(1); opacity:1; } 80%{ opacity:1; } 100%{ transform:scale(.88); opacity:0; } }
+
+    /* controles */
+    .ui{ position:absolute; inset:0; z-index:4; pointer-events:none; transition:opacity .4s ease; }
+    .theater.idle .ui{ opacity:0; }
+    .ui > *{ pointer-events:auto; }
+    .close{
+      position:absolute; top:calc(16px + env(safe-area-inset-top)); right:16px;
+      width:46px; height:46px; border-radius:50%; cursor:pointer;
+      display:grid; place-items:center; color:#fff;
+      background:rgba(22,34,47,.6); border:1.5px solid rgba(255,255,255,.35);
+      backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);
+      transition:background .15s ease, color .15s ease, border-color .15s ease;
+    }
+    .close:hover{ background:var(--gold); border-color:var(--gold); color:#2a2100; }
+    .close svg{ width:20px; height:20px; }
+    .ctl{ position:absolute; left:0; right:0; bottom:0; display:flex; align-items:center; gap:14px;
+      padding:40px 20px calc(18px + env(safe-area-inset-bottom)); background:linear-gradient(transparent, rgba(0,0,0,.65)); }
+    .ctl button{ background:none; border:0; padding:4px; color:#fff; display:grid; place-items:center; cursor:pointer; }
+    .ctl button svg{ width:24px; height:24px; }
+    .ctl .t{ font-size:12.5px; font-weight:700; font-variant-numeric:tabular-nums; color:rgba(255,255,255,.85); white-space:nowrap; }
+    .seek{ flex:1; height:22px; display:flex; align-items:center; cursor:pointer; }
+    .seek div{ position:relative; width:100%; height:4px; border-radius:2px; background:rgba(255,255,255,.25); transition:height .15s; }
+    .seek:hover div{ height:6px; }
+    .seek b{ position:absolute; left:0; top:0; bottom:0; width:0; background:var(--gold); border-radius:2px; }
+    /* el interruptor de sonido, con ecualizador animado */
+    .ctl .snd{ display:inline-flex; align-items:center; gap:9px; border:1.5px solid rgba(248,197,55,.6); border-radius:999px; background:rgba(22,34,47,.7);
+      color:#fff; padding:7px 14px 5px 12px; font-family:"Teko",system-ui,sans-serif; font-size:17px; letter-spacing:.08em; text-transform:uppercase; line-height:1;
+      backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); transition:background .15s, border-color .15s, transform .15s; }
+    .ctl .snd:hover{ transform:translateY(-2px); background:rgba(22,34,47,.9); }
+    .snd .eq{ display:flex; align-items:flex-end; gap:3px; height:14px; margin-top:-4px; }
+    .snd .eq i{ width:4px; background:var(--gold); border-radius:2px; height:3px; transition:height .2s; }
+    .snd.on .eq i{ animation:eq .9s ease-in-out infinite; }
+    .snd.on .eq i:nth-child(2){ animation-delay:-.3s; } .snd.on .eq i:nth-child(3){ animation-delay:-.6s; } .snd.on .eq i:nth-child(4){ animation-delay:-.15s; }
+    @keyframes eq{ 0%,100%{ height:3px; } 50%{ height:14px; } }
+    .snd b{ font-weight:500; display:inline-block; width:4.3em; text-align:left; white-space:nowrap; }
+    .snd:not(.on){ border-color:rgba(255,255,255,.3); color:rgba(255,255,255,.7); }
+    .snd:not(.on) .eq i{ background:rgba(255,255,255,.45); }
+    @media (max-width:700px){
+      .ctl{ padding:30px 12px calc(20px + env(safe-area-inset-bottom)); gap:10px; }
+      .ctl .snd b{ display:none; }
+    }
+    @media (prefers-reduced-motion: reduce){ .cd-num.pop{ animation:none; } }
+    /* WISHLIST NOW! en la barra del player: el único botón lleno, en amarillo, para que se note */
+    .ctl .wish{ display:inline-flex; align-items:center; gap:8px; flex:none; text-decoration:none; white-space:nowrap;
+      font-family:"Teko",system-ui,sans-serif; font-weight:600; font-size:19px; letter-spacing:.07em; text-transform:uppercase; line-height:1;
+      color:var(--ink); background:var(--yellow); border-radius:999px; padding:8px 16px 5px 12px;
+      box-shadow:0 6px 18px rgba(0,0,0,.35); transition:transform .15s ease, background .15s ease; }
+    .ctl .wish:hover{ transform:translateY(-2px); background:#ffd75a; }
+    .ctl .wish svg{ width:18px; height:18px; margin-top:-3px; }
+    @media (max-width:700px){ .ctl .wish{ font-size:17px; padding:7px 12px 4px 10px; } }
+    /* El bebé del juego gateando por abajo, de izquierda a derecha. La animación del gateo
+       viene en el WebP (48 cuadros, 3 s), recortado justo en el apoyo para que pise el borde; el avance lo pone el CSS. La duración la ajusta
+       el script de abajo según el ancho, para que avance siempre a la misma velocidad. */
+    .baby{
+      position:fixed; left:0; bottom:0; z-index:0;
+      height:clamp(62px,10vh,104px); width:auto; cursor:pointer;
+      -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:transparent;
+      filter:drop-shadow(0 0 6px rgba(0,0,0,.3));
+      transition:filter 1.6s ease;
+      animation:crawl var(--crawl,40s) linear 1 forwards;
+    }
+    @keyframes crawl{ from{ transform:translateX(-100%); } to{ transform:translateX(100vw); } }
+    /* El rayo (click en el bebé): queda quieto, parpadea electrocutado y después carbonizado. */
+    .baby.zapped{ animation-play-state:paused; }
+    .baby.shock{ transition:none; animation:crawl var(--crawl,40s) linear 1 forwards paused, shock .5s steps(1) 1; }
+    @keyframes shock{
+      0%,40%,80%{ filter:brightness(3) saturate(0) drop-shadow(0 0 14px #bcd6ff); }
+      20%,60%{ filter:invert(1) brightness(1.6) drop-shadow(0 0 18px #9fc2ff); }
+      100%{ filter:brightness(.2) saturate(.1) contrast(1.5) drop-shadow(0 0 6px rgba(0,0,0,.3)); }
+    }
+    .baby.charred{ filter:brightness(.2) saturate(.1) contrast(1.5) drop-shadow(0 0 6px rgba(0,0,0,.3)); }
+    .zap{ position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:3; }
+    .flash{ position:fixed; inset:0; pointer-events:none; z-index:2; opacity:0; will-change:opacity;
+      background:radial-gradient(circle at var(--fx,50%) var(--fy,100%), rgba(235,243,255,.95), rgba(170,200,255,.5) 35%, rgba(110,140,255,0) 75%); }
+    /* La sacudida mueve el contenido y el video (fijo), nunca la página entera: así no asoman barras de scroll. */
+    body.quake .top, body.quake .badges, body.quake .foot, body.quake .bg{ animation:quake .45s cubic-bezier(.36,.07,.19,.97) 1; }
+    @keyframes quake{ 10%,90%{ transform:translate(-2px,1px); } 20%,80%{ transform:translate(4px,-2px); } 30%,50%,70%{ transform:translate(-7px,3px); } 40%,60%{ transform:translate(7px,-3px); } }
+    @media (prefers-reduced-motion: reduce){ .baby,.zap,.flash{ display:none; } }
+  </style>
+  <!-- SEO: datos estructurados del juego, iguales en todas las páginas públicas -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://bananaairways.com/#eggscape",
+      "name": "Eggscape Entertainment Inc.",
+      "url": "https://www.eggscape.com/",
+      "logo": "https://bananaairways.com/assets/eggscape-logo.webp",
+      "email": "banana@3dar.com"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://bananaairways.com/#3dar",
+      "name": "3dar",
+      "url": "https://www.3dar.com/",
+      "logo": "https://bananaairways.com/assets/3dar-logo-white.png"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://bananaairways.com/#website",
+      "url": "https://bananaairways.com/",
+      "name": "Banana Airways",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://bananaairways.com/#eggscape"
+      }
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://bananaairways.com/#game",
+      "name": "Banana Airways",
+      "url": "https://bananaairways.com/",
+      "image": "https://bananaairways.com/assets/og-image.jpg",
+      "description": "Feed your passengers. Or they'll eat each other. Run an airline with cannibal chickens, radioactive passengers and screaming babies you can throw off the plane. Fly, serve, repair and try to land. Play solo or with up to five friends.",
+      "genre": [
+        "Co-op",
+        "Party",
+        "Action",
+        "Indie"
+      ],
+      "gamePlatform": "PC",
+      "operatingSystem": "Windows",
+      "applicationCategory": "Game",
+      "playMode": [
+        "MultiPlayer",
+        "CoOp"
+      ],
+      "numberOfPlayers": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 6
+      },
+      "inLanguage": [
+        "en",
+        "es-419",
+        "es-ES",
+        "fr",
+        "it",
+        "de",
+        "ar",
+        "bg",
+        "cs",
+        "da",
+        "nl",
+        "fi",
+        "el",
+        "hu",
+        "id",
+        "ja",
+        "ko",
+        "ms",
+        "nb",
+        "pl",
+        "pt-BR",
+        "pt-PT",
+        "ro",
+        "ru",
+        "zh-Hans",
+        "zh-Hant",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "author": [
+        {
+          "@id": "https://bananaairways.com/#eggscape"
+        },
+        {
+          "@id": "https://bananaairways.com/#3dar"
+        }
+      ],
+      "publisher": {
+        "@id": "https://bananaairways.com/#eggscape"
+      },
+      "trailer": {
+        "@type": "VideoObject",
+        "name": "Banana Airways - Official Trailer",
+        "description": "Official trailer of Banana Airways, a chaotic online co-op airline game for up to 6 players.",
+        "thumbnailUrl": "https://i.ytimg.com/vi/S0zY4Ub1lyY/hqdefault.jpg",
+        "uploadDate": "2026-10-08T12:40:33-07:00",
+        "duration": "PT1M23S",
+        "embedUrl": "https://www.youtube.com/embed/S0zY4Ub1lyY",
+        "url": "https://www.youtube.com/watch?v=S0zY4Ub1lyY"
+      },
+      "sameAs": [
+        "https://store.steampowered.com/app/4835560/Banana_Airways/",
+        "https://www.youtube.com/@bananaairwaysgame",
+        "https://www.tiktok.com/@bananaairwaysgame",
+        "https://www.instagram.com/bananaairwaysgame/",
+        "https://x.com/CaptainBancmt4",
+        "https://discord.gg/JJZf7sdSVg",
+        "https://www.reddit.com/r/BananaAirways/",
+        "https://www.wikidata.org/wiki/Q141482019",
+        "https://www.igdb.com/games/banana-airways"
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <video class="bg" autoplay muted loop playsinline preload="auto" poster="assets/home-bg-poster.jpg" aria-hidden="true">
+    <source src="assets/home-bg.webm" type="video/webm" />
+    <source src="assets/home-bg.mp4" type="video/mp4" />
+  </video>
+
+  <main class="stage">
+    <div class="top">
+      <h1 style="display:contents"><img class="logo" src="assets/banana-airways-logo.png" width="1400" height="432" alt="Banana Airways" /></h1>
+      <p class="tag"><span>Feed your passengers.</span><span class="tag-2">Or they’ll eat each other.</span></p>
+    </div>
+
+    <nav class="badges" aria-label="Banana Airways">
+      <a class="badge badge--steam" href="https://store.steampowered.com/app/4835560/Banana_Airways/?utm_source=bananaairways.com&amp;utm_medium=site&amp;utm_campaign=home&amp;utm_content=hero" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.290-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z"/></svg>
+        <span><small>Wishlist now on</small><b>Steam</b></span>
+      </a>
+      <button class="badge badge--trailer" type="button" id="play-trailer">
+        <svg class="play" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#16222f"/><path d="M16.2 12.9c0-1.1 1.2-1.8 2.2-1.2l10.3 6.3c.9.6.9 1.9 0 2.5l-10.3 6.3c-1 .6-2.2-.1-2.2-1.2z" fill="#F8C537"/></svg>
+        <span><small>Play</small><b>Trailer</b></span>
+      </button>
+      <a class="badge badge--discord" href="https://discord.gg/JJZf7sdSVg" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg>
+        <span><small>Join us on</small><b>Discord</b></span>
+      </a>
+    </nav>
+
+    <footer class="foot">
+      <div class="credits">
+        <a class="egg" href="https://www.eggscape.com/" target="_blank" rel="noopener"><img src="assets/eggscape-logo.webp" width="540" height="175" alt="Eggscape" /></a>
+        <span class="sep" aria-hidden="true"></span>
+        <a class="dev" href="https://www.3dar.com/" target="_blank" rel="noopener">
+          <small>Developed by</small>
+          <img src="assets/3dar-logo-white.png" width="413" height="170" alt="3DAR" />
+        </a>
+      </div>
+      <p class="copy">© 2026 Eggscape Entertainment Inc. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <!-- Play trailer: el mismo player que 3d.ar/banana-airways (cuenta 3-2-1 y controles propios). -->
+  <div class="theater" id="theater" role="dialog" aria-modal="true" aria-label="Banana Airways trailer">
+    <video class="trailer" id="trailer" playsinline preload="none" poster="press/video/trailer-poster.jpg"></video>
+    <div class="ui">
+      <button class="close" id="closeTrailer" type="button" aria-label="Close trailer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div class="ctl">
+        <button id="pp" type="button" aria-label="Play / pause"><svg viewBox="0 0 24 24" fill="currentColor"><path id="ppIcon" d="M8 5v14l11-7z"/></svg></button>
+        <span class="t" id="time">0:00 / 1:23</span>
+        <div class="seek" id="seek"><div><b id="seekFill"></b></div></div>
+        <a class="wish" id="wish" href="https://store.steampowered.com/app/4835560/Banana_Airways/?utm_source=bananaairways.com&amp;utm_medium=site&amp;utm_campaign=home&amp;utm_content=trailer-player" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54z"/></svg>Wishlist now!
+        </a>
+        <button class="snd on" id="snd" type="button"><span class="eq"><i></i><i></i><i></i><i></i></span><b>Sound on</b></button>
+        <button id="fs" type="button" aria-label="Full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+      </div>
+    </div>
+    <div class="cd" id="cd">
+      <div class="cd-title">Banana Airways <b>Trailer</b></div>
+      <div class="cd-ring" id="cdRing">
+        <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="track" cx="60" cy="60" r="54" pathLength="100"/><circle class="arc" cx="60" cy="60" r="54" pathLength="100"/></svg>
+        <div class="cd-num" id="cdNum" aria-live="assertive"></div>
+      </div>
+    </div>
+  </div>
+  <img class="baby" src="assets/baby-crawling.webp" width="266" height="220" alt="" aria-hidden="true" draggable="false" />
+  <div class="flash" aria-hidden="true"></div>
+  <canvas class="zap" aria-hidden="true"></canvas>
+  <script>
+    // Velocidad del gateo: medio cuerpo por segundo, sea cual sea el ancho de la pantalla.
+    (function(){
+      var b=document.querySelector('.baby');
+      function set(){ var w=b.getBoundingClientRect().width||110; b.style.setProperty('--crawl',((innerWidth+w)/(w*0.42)).toFixed(1)+'s'); }
+      set(); addEventListener('resize',set);
+    })();
+
+    // Click en el bebé: le cae un rayo. El rayo es procedural (desplazamiento de punto medio con
+    // ramas), dibujado en un canvas en tres pasadas (halo, cuerpo, núcleo) y con dos o tres
+    // destellos, como uno de verdad. Después: chispas, humo y el bebé carbonizado unos segundos.
+    (function(){
+      var baby=document.querySelector('.baby'), cv=document.querySelector('.zap'), flash=document.querySelector('.flash');
+      var ctx=cv.getContext('2d'), dpr=1, W=0, H=0;
+      var CRAWL='assets/baby-crawling.webp', STUN='assets/baby-stunned.webp', FAST='assets/baby-crawling-fast.webp';
+      new Image().src=STUN; new Image().src=FAST;            // que estén en caché antes del primer rayo
+      var thunder=new Audio('assets/lightning.mp3'); thunder.preload='auto'; thunder.volume=.75;
+      var startle=[1,2,3].map(function(i){ var a=new Audio('assets/baby-startle-'+i+'.mp3'); a.preload='auto'; a.volume=.8; a.preservesPitch=false; return a; });
+      function size(){ dpr=1; W=innerWidth; H=innerHeight; cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0); }
+      size(); addEventListener('resize',size);
+
+      // Un rayo: lista de segmentos [x1,y1,x2,y2,ancho] con la rama principal y sus ramitas.
+      function bolt(x0,y0,x1,y1){
+        var segs=[];
+        function split(ax,ay,bx,by,off,w,depth,main){
+          if(depth===0){ segs.push([ax,ay,bx,by,w]); return; }
+          var mx=(ax+bx)/2, my=(ay+by)/2, dx=bx-ax, dy=by-ay, len=Math.hypot(dx,dy)||1;
+          var o=(Math.random()*2-1)*off; mx+=-dy/len*o; my+=dx/len*o;
+          split(ax,ay,mx,my,off/2,w,depth-1,main); split(mx,my,bx,by,off/2,w,depth-1,main);
+          // ramitas: salen hacia abajo y afuera, cada vez más finas
+          if(main && depth>2 && Math.random()<.32){
+            var ang=Math.atan2(dy,dx)+(Math.random()<.5?-1:1)*(.35+Math.random()*.55), bl=len*(.5+Math.random()*.7);
+            split(mx,my,mx+Math.cos(ang)*bl,my+Math.sin(ang)*bl,off/2.4,w*.45,depth-1,false);
+          }
+        }
+        split(x0,y0,x1,y1,Math.hypot(x1-x0,y1-y0)*.22,1,8,true);
+        return segs;
+      }
+      // El rayo se pinta UNA vez, al hacer clic, en un canvas del tamaño del rayo (no de la pantalla),
+      // con los trazos agrupados por grosor: tres pasadas con brillo y el núcleo blanco son ~10 trazos
+      // en total. En cada cuadro sólo se estampa esa imagen con la opacidad del destello.
+      function prerender(segs){
+        var x0=1e9,y0=1e9,x1=-1e9,y1=-1e9,i,s;
+        for(i=0;i<segs.length;i++){ s=segs[i]; x0=Math.min(x0,s[0],s[2]); y0=Math.min(y0,s[1],s[3]); x1=Math.max(x1,s[0],s[2]); y1=Math.max(y1,s[1],s[3]); }
+        var pad=70, c=document.createElement('canvas'); c.width=Math.ceil(x1-x0+pad*2); c.height=Math.ceil(y1-y0+pad*2);
+        var g=c.getContext('2d'), groups={};
+        for(i=0;i<segs.length;i++){ s=segs[i]; (groups[s[4]]=groups[s[4]]||[]).push(s); }
+        g.translate(pad-x0,pad-y0); g.globalCompositeOperation='lighter'; g.lineCap='round'; g.lineJoin='round';
+        var passes=[[22,'rgba(110,150,255,.10)',34],[9,'rgba(160,195,255,.35)',16],[3.2,'rgba(255,255,255,1)',6]];
+        for(var p=0;p<passes.length;p++){
+          g.shadowColor='rgba(150,185,255,1)'; g.shadowBlur=passes[p][2]; g.strokeStyle=passes[p][1];
+          for(var w in groups){ var list=groups[w]; g.lineWidth=passes[p][0]*w; g.beginPath();
+            for(i=0;i<list.length;i++){ g.moveTo(list[i][0],list[i][1]); g.lineTo(list[i][2],list[i][3]); } g.stroke(); }
+        }
+        return {c:c,x:x0-pad,y:y0-pad};
+      }
+      function draw(img,a){ ctx.save(); ctx.globalCompositeOperation='lighter'; ctx.globalAlpha=a; ctx.drawImage(img.c,img.x,img.y); ctx.restore(); }
+      var parts=[], busy=false, raf=0, t0=0, strikes=[], impact=[0,0], fleeing=false, lastPuff=0;
+      function spawn(x,y){
+        for(var i=0;i<46;i++){ var a=-Math.PI*Math.random(), v=180+Math.random()*520;   // chispas hacia arriba y a los costados
+          parts.push({k:'spark',x:x,y:y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:.35+Math.random()*.45,age:0}); }
+        for(var j=0;j<16;j++) parts.push({k:'smoke',x:x+(Math.random()-.5)*40,y:y+Math.random()*20,vx:(Math.random()-.5)*24,vy:-30-Math.random()*40,
+          r:10+Math.random()*14,life:2.4+Math.random()*1.6,age:-Math.random()*1.2});
+      }
+      function frame(now){
+        var t=(now-t0)/1000, dt=Math.min(.05,(now-(frame.last||now))/1000); frame.last=now;
+        ctx.clearRect(0,0,W,H);
+        // los destellos del rayo: aparece, se apaga, vuelve con otra forma, y se desvanece
+        var a=0, sIdx=-1;
+        if(t<.07){a=1;sIdx=0;} else if(t<.11){a=0;} else if(t<.19){a=.9;sIdx=0;} else if(t<.24){a=.25;sIdx=1;} else if(t<.32){a=1;sIdx=1;} else if(t<.62){a=1-(t-.32)/.3;sIdx=1;}
+        if(sIdx>=0&&a>0) draw(strikes[sIdx],a);
+        flash.style.opacity=(sIdx>=0?Math.max(0,a*.8):0).toFixed(3);
+        // brillo en el punto de impacto
+        if(t<.9){ var g=ctx.createRadialGradient(impact[0],impact[1],0,impact[0],impact[1],120); var ga=Math.max(0,.75*(1-t/.9));
+          g.addColorStop(0,'rgba(255,255,255,'+ga+')'); g.addColorStop(.3,'rgba(170,205,255,'+ga*.6+')'); g.addColorStop(1,'rgba(120,160,255,0)');
+          ctx.globalCompositeOperation='lighter'; ctx.fillStyle=g; ctx.beginPath(); ctx.arc(impact[0],impact[1],120,0,7); ctx.fill(); ctx.globalCompositeOperation='source-over'; }
+        // chispas y humo
+        for(var i=parts.length-1;i>=0;i--){ var p=parts[i]; p.age+=dt; if(p.age>p.life){parts.splice(i,1);continue;} if(p.age<0) continue;
+          var k=p.age/p.life;
+          if(p.k==='spark'){ p.vy+=900*dt; p.x+=p.vx*dt; p.y+=p.vy*dt; if(p.y>H-2){p.y=H-2;p.vy*=-.35;p.vx*=.6;}
+            ctx.strokeStyle='rgba(255,'+(230-120*k|0)+','+(160-140*k|0)+','+(1-k)+')'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(p.x,p.y); ctx.lineTo(p.x-p.vx*.018,p.y-p.vy*.018); ctx.stroke(); }
+          else { p.x+=p.vx*dt; p.y+=p.vy*dt; p.r+=18*dt; var al=.38*Math.sin(Math.PI*Math.min(1,k));
+            ctx.fillStyle='rgba(55,52,50,'+al+')'; ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,7); ctx.fill(); }
+        }
+        // mientras huye carbonizado va dejando humo
+        if(fleeing && now-lastPuff>90){ lastPuff=now; var br=baby.getBoundingClientRect();
+          parts.push({k:'smoke',x:br.left+br.width*.35,y:br.top+br.height*.3,vx:-20-Math.random()*20,vy:-25-Math.random()*30,r:8+Math.random()*8,life:1.6+Math.random(),age:0}); }
+        if(t<.62||parts.length||fleeing) raf=requestAnimationFrame(frame); else { ctx.clearRect(0,0,W,H); raf=0; }
+      }
+      function strike(){
+        busy=true; clicks=0; clearTimeout(calmTimer);
+        var r=baby.getBoundingClientRect();
+        impact=[r.left+r.width*.55, r.top+r.height*.3];
+        var sx=impact[0]+(Math.random()-.5)*Math.min(360,W*.4);
+        strikes=[prerender(bolt(sx,-30,impact[0],impact[1])), prerender(bolt(sx+(Math.random()-.5)*60,-30,impact[0],impact[1]))];
+        flash.style.setProperty('--fx',(impact[0]/W*100)+'%'); flash.style.setProperty('--fy',(impact[1]/H*100)+'%');
+        try{ thunder.currentTime=0; var pr=thunder.play(); if(pr&&pr.catch) pr.catch(function(){}); }catch(e){}
+        baby.classList.add('zapped','shock'); baby.src=STUN;
+        document.body.classList.remove('quake'); void document.body.offsetWidth; document.body.classList.add('quake');
+        spawn(impact[0],impact[1]);
+        t0=performance.now(); frame.last=t0; if(!raf) raf=requestAnimationFrame(frame);
+        setTimeout(function(){ baby.classList.remove('shock'); baby.classList.add('charred'); flee(); }, 500);
+        setTimeout(function(){ document.body.classList.remove('quake'); }, 500);
+      }
+      // Sale disparado carbonizado hacia la derecha: gateo al triple (el WebP rápido) y avance al
+      // triple. Al salir de la pantalla no vuelve: el bebé pasa una sola vez por visita.
+      function flee(){
+        var r=baby.getBoundingClientRect(), x=r.left, w=r.width||110;
+        baby.style.animation='none'; baby.style.transform='translateX('+x+'px)'; baby.src=FAST;
+        var speed=w*.42*3, dist=Math.max(0,innerWidth-x), dur=Math.max(250,dist/speed*1000);
+        fleeing=true; lastPuff=0; if(!raf){ t0=performance.now()-1000; frame.last=performance.now(); raf=requestAnimationFrame(frame); }
+        var run=baby.animate([{transform:'translateX('+x+'px)'},{transform:'translateX('+innerWidth+'px)'}],{duration:dur,easing:'linear',fill:'forwards'});
+        run.onfinish=function(){
+          fleeing=false; baby.hidden=true;                         // se fue y no vuelve (queda busy: ya no se le puede hacer clic)
+        };
+      }
+      // No le cae de una: los dos primeros clics lo asustan (saltito, queja del juego) y lo apuran al
+      // doble y al triple; el tercero, rayo. Si lo dejás tranquilo 2,5 s, se calma y el contador vuelve a 0.
+      var clicks=0, calmTimer=0, lastStartle=-1;
+      function crawlAnim(){ var list=baby.getAnimations(); for(var i=0;i<list.length;i++) if(list[i].animationName==='crawl') return list[i]; return null; }
+      function hurry(n){
+        var k; do{ k=Math.floor(Math.random()*startle.length); }while(k===lastStartle && startle.length>1); lastStartle=k;
+        var snd=startle[k]; try{ snd.currentTime=0; snd.playbackRate=.95+Math.random()*.15; var pr=snd.play(); if(pr&&pr.catch) pr.catch(function(){}); }catch(e){}
+        baby.animate([{translate:'0 0'},{translate:'0 -18px',offset:.35},{translate:'0 0'}],{duration:340,easing:'ease-out'});
+        var ca=crawlAnim(); if(ca) ca.updatePlaybackRate(n===1?2:3);
+        if(baby.src.indexOf('fast')<0) baby.src=FAST;
+        clearTimeout(calmTimer);
+        calmTimer=setTimeout(function(){ var c=crawlAnim(); if(c) c.updatePlaybackRate(1); baby.src=CRAWL; clicks=0; }, 2500);
+      }
+      baby.addEventListener('animationend',function(e){ if(e.animationName==='crawl') baby.hidden=true; });
+      baby.addEventListener('click',function(){
+        if(busy) return;
+        clicks++;
+        if(clicks>=3) strike(); else hurry(clicks);
+      });
+    })();
+  </script>
+  <script>
+    // El bebé tira los créditos: cuando su nariz toca cada uno (el logo de Eggscape, la rayita,
+    // "Developed by" y el logo de 3dar) lo empuja. Cada uno sale con su propia física: un saltito
+    // corto, gravedad y un par de rebotes contra el borde de abajo con aplastado; al último rebote
+    // "se rompe el piso" y se cae por abajo de la pantalla. El contacto se mide en cada cuadro contra la posición real del bebé (la nariz está al
+    // 95% del ancho del sprite), así queda sincronizado aunque lo apuren o salga disparado del rayo.
+    (function(){
+      var baby=document.querySelector('.baby');
+      if(!baby || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      // personalidad de cada uno: hop = salto (px/s), push = cuánto lo empuja, bounce = rebote,
+      // spin = giro (°/s), sink = cuánto se hunde bajo el borde al apoyarse (fracción de su alto),
+      // hops = cuántas veces rebota antes de caerse
+      var kinds=[
+        { sel:'.egg',          hop:260, push:.9,  bounce:.38, spin:-70,  sink:.35, hops:3 },   // pesado: salta poco, cae y se desploma
+        { sel:'.credits .sep', hop:340, push:1.2, bounce:.55, spin:520,  sink:.5,  hops:4 },   // un palito: gira como hélice
+        { sel:'.dev small',    hop:380, push:1.5, bounce:.45, spin:-160, sink:.2,  hops:4 },   // liviano: sale más lejos y bambolea
+        { sel:'.dev img',      hop:300, push:1.1, bounce:.62, spin:200,  sink:.3,  hops:5 }    // el de 3dar: el más rebotón
+      ];
+      var items=[], live=[], G=2600, last=0, bx=null, bv=0;
+      kinds.forEach(function(k){ var el=document.querySelector(k.sel); if(el) items.push({el:el,k:k}); });
+
+      function launch(it){
+        var r=it.el.getBoundingClientRect(), k=it.k, j=.85+Math.random()*.3;
+        it.floor=innerHeight-r.bottom+r.height*k.sink;          // dónde está "el piso" para este elemento
+        it.x=0; it.y=0; it.a=0; it.sq=1;                         // sq: aplastado (1 = normal)
+        it.vx=Math.max(120,bv)*k.push*j+40; it.vy=-k.hop*j; it.va=k.spin*j;
+        it.hops=0; it.falling=false;
+        it.el.style.pointerEvents='none'; it.el.style.willChange='transform';
+        it.sq=.72;                                              // el golpe lo aplasta en el acto
+        live.push(it);
+      }
+      function step(it,dt,now){
+        it.vy+=G*dt; it.x+=it.vx*dt; it.y+=it.vy*dt; it.a+=it.va*dt;
+        it.sq+=(1-it.sq)*Math.min(1,dt*14);                     // el aplastado vuelve solo, como goma
+        if(!it.falling && it.y>=it.floor && it.vy>0){           // toca el piso: rebota, frena y se aplasta
+          it.y=it.floor; it.hops++;
+          it.sq=Math.max(.6,1-Math.min(.4,it.vy/1400));
+          if(it.hops>=it.k.hops){ it.falling=true; it.vy*=.3; }  // el último: se rompe el piso y se cae
+          else {
+            // cada rebote un poco más bajo, pero nunca tan chico que no se vea (mínimo ~7 a 16 px de alto)
+            it.vy=-Math.max(it.vy*it.k.bounce, 340-it.hops*50);
+            it.vx*=.75; it.va=it.va*.5+it.vx*.3;                 // al rebotar rueda un poco hacia adelante
+          }
+        }
+        // ya se cayó por abajo (o se fue por la derecha): listo
+        var r=it.el.getBoundingClientRect();
+        if(r.top>innerHeight || r.left>innerWidth){ it.el.style.visibility='hidden'; return false; }
+        it.el.style.transform='translate('+it.x.toFixed(1)+'px,'+it.y.toFixed(1)+'px) rotate('+it.a.toFixed(1)+'deg) scale('+(2-it.sq).toFixed(3)+','+it.sq.toFixed(3)+')';
+        return true;
+      }
+      (function loop(now){
+        var dt=last?Math.min(.04,(now-last)/1000):0; last=now;
+        if(!baby.hidden && items.length){
+          var b=baby.getBoundingClientRect(), nose=b.left+b.width*.95;
+          if(bx!==null && dt) bv=Math.min(400,bv*.8+((b.left-bx)/dt)*.2);   // velocidad del bebé (suavizada y con tope) para el empujón
+          bx=b.left;
+          for(var i=0;i<items.length;i++){
+            var r=items[i].el.getBoundingClientRect();
+            if(r.width && nose>=r.left+2){ launch(items[i]); items.splice(i,1); i--; }
+          }
+        }
+        live=live.filter(function(it){ return step(it,dt,now); });
+        if(live.length || (items.length && !baby.hidden)) requestAnimationFrame(loop);
+      })(performance.now());
+    })();
+  </script>
+  <script>
+    // Play trailer: el mismo player que 3d.ar/banana-airways. Se va la home, cuenta 3-2-1 con un tic
+    // por número y arranca el trailer con sonido. Controles propios (play, barra, sonido, wishlist,
+    // pantalla completa) que se esconden con el mouse quieto. La X, Esc o el final vuelven a la home.
+    (function(){
+      var $=function(s){ return document.querySelector(s); };
+      var btn=$('#play-trailer'), theater=$('#theater'), v=$('#trailer'), cd=$('#cd'), num=$('#cdNum'), ring=$('#cdRing'), bg=$('.bg');
+      var timers=[], actx=null, open=false, idle=0;
+
+      // El trailer (V30) en alta, desde la CDN de 3dar: 1080p a 8 Mbps si la conexión da, 720p si no,
+      // y si el 1080p se traba mientras se ve pasa al 720p en el mismo segundo.
+      var HI='https://videos.3dar.com/banana/trailer/v2/trailer-1080.mp4', LO='https://videos.3dar.com/banana/trailer/v2/trailer-720.mp4';
+      var conn=navigator.connection||{};
+      v.src=(conn.saveData || /(^|-)(2g|3g)$/.test(conn.effectiveType||'') || (conn.downlink && conn.downlink<5)) ? LO : HI;
+      var stalls=0, stallT=0, seeking=false;
+      function downgrade(){
+        if(v.src===LO) return;
+        var t=v.currentTime, playing=!v.paused, muted=v.muted;
+        v.src=LO; v.muted=muted;
+        v.addEventListener('loadedmetadata', function(){ v.currentTime=t; if(playing) v.play().catch(function(){}); }, { once:true });
+      }
+      v.addEventListener('seeking', function(){ seeking=true; });
+      v.addEventListener('seeked', function(){ seeking=false; });
+      v.addEventListener('waiting', function(){
+        if(v.src!==HI || v.currentTime<1 || seeking) return;
+        clearTimeout(stallT);
+        stallT=setTimeout(function(){ if(v.readyState<3 && !v.paused) downgrade(); }, 2000);
+        if(++stalls>=3) downgrade();
+      });
+      v.addEventListener('playing', function(){ clearTimeout(stallT); });
+      function fmt(s){ s=s||0; return Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0'); }
+
+      // el "tic" de un proyector: un chasquido de ruido filtrado en agudos con un poco de cuerpo debajo
+      function tick(last){
+        if(!actx || v.muted) return;
+        try{
+          var t=actx.currentTime, sr=actx.sampleRate, len=Math.floor(sr*.03), buf=actx.createBuffer(1,len,sr), d=buf.getChannelData(0);
+          for(var k=0;k<len;k++) d[k]=(Math.random()*2-1)*Math.exp(-k/(sr*.004));
+          var src=actx.createBufferSource(); src.buffer=buf;
+          var hp=actx.createBiquadFilter(); hp.type='highpass'; hp.frequency.value=1800;
+          var bp=actx.createBiquadFilter(); bp.type='peaking'; bp.frequency.value=last?4200:3200; bp.Q.value=3; bp.gain.value=9;
+          var g=actx.createGain(); g.gain.value=last?.9:.7;
+          var body=actx.createOscillator(), bgn=actx.createGain();
+          body.type='sine'; body.frequency.setValueAtTime(last?1400:1100,t);
+          bgn.gain.setValueAtTime(.0001,t); bgn.gain.exponentialRampToValueAtTime(.12,t+.002); bgn.gain.exponentialRampToValueAtTime(.0001,t+.025);
+          src.connect(hp); hp.connect(bp); bp.connect(g); g.connect(actx.destination);
+          body.connect(bgn); bgn.connect(actx.destination);
+          src.start(t); body.start(t); body.stop(t+.03);
+        }catch(e){}
+      }
+
+      // ---------- abrir / cerrar ----------
+      function start(){
+        if(open) return; open=true;
+        try{ actx=actx||new (window.AudioContext||window.webkitAudioContext)(); actx.resume(); }catch(e){ actx=null; }
+        // Safari sólo deja reproducir con sonido dentro del clic: lo "destrabamos" acá y lo pausamos al toque.
+        v.preload='auto'; v.muted=false; v.currentTime=0;
+        var p=v.play(); if(p&&p.catch) p.catch(function(){}); v.pause();
+        paintSound(); paintPlay(); paintTime();
+        document.body.classList.add('is-trailer'); theater.classList.remove('idle');
+        cd.classList.remove('out'); num.textContent='';
+        var n=3;
+        (function step(){
+          if(n===0){ cd.classList.add('out'); play(); return; }
+          num.textContent=n;
+          num.classList.remove('pop'); ring.classList.remove('tick'); void num.offsetWidth;
+          num.classList.add('pop'); ring.classList.add('tick');
+          tick(n===1); n--;
+          timers.push(setTimeout(step,900));
+        })();
+        bg.pause();
+        $('#closeTrailer').focus({preventScroll:true});
+      }
+      function play(){
+        v.currentTime=0;
+        var p=v.play();
+        // si el navegador no deja sonido, que arranque mudo antes que no arrancar (el botón queda en "Sound off")
+        if(p&&p.catch) p.catch(function(){ v.muted=true; v.play().catch(function(){}); });
+      }
+      function stop(){
+        if(!open) return; open=false;
+        timers.forEach(clearTimeout); timers=[]; clearTimeout(idle);
+        v.pause();
+        if(document.fullscreenElement) document.exitFullscreen().catch(function(){});
+        document.body.classList.remove('is-trailer'); theater.classList.remove('idle');
+        var p=bg.play(); if(p&&p.catch) p.catch(function(){});
+        btn.focus({preventScroll:true});
+      }
+      btn.addEventListener('click',start);
+      $('#closeTrailer').addEventListener('click',stop);
+      v.addEventListener('ended',stop);
+      addEventListener('keydown',function(e){
+        if(!open) return;
+        if(e.key==='Escape' && !document.fullscreenElement) stop();
+        if(e.key===' ' && cd.classList.contains('out')){ e.preventDefault(); toggle(); }
+      });
+
+      // ---------- controles ----------
+      function paintPlay(){ $('#ppIcon').setAttribute('d', v.paused ? 'M8 5v14l11-7z' : 'M6 5h4v14H6zM14 5h4v14h-4z'); }
+      function paintTime(){
+        $('#seekFill').style.width=(v.currentTime/(v.duration||1))*100+'%';
+        $('#time').textContent=fmt(v.currentTime)+' / '+fmt(v.duration||83);
+      }
+      function paintSound(){
+        var s=$('#snd'); s.classList.toggle('on',!v.muted); s.querySelector('b').textContent=v.muted?'Sound off':'Sound on';
+      }
+      function toggle(){ if(v.paused){ var p=v.play(); if(p&&p.catch) p.catch(function(){}); } else v.pause(); }
+      v.addEventListener('play',paintPlay); v.addEventListener('pause',paintPlay);
+      v.addEventListener('timeupdate',paintTime); v.addEventListener('volumechange',paintSound);
+      $('#pp').addEventListener('click',function(e){ e.stopPropagation(); toggle(); });
+      v.addEventListener('click',toggle);
+      $('#seek').addEventListener('click',function(e){
+        var r=e.currentTarget.getBoundingClientRect();
+        v.currentTime=((e.clientX-r.left)/r.width)*(v.duration||0);
+      });
+      $('#snd').addEventListener('click',function(e){ e.stopPropagation(); v.muted=!v.muted; });
+      // ir a Steam pausa el trailer (se abre en otra pestaña): al volver sigue desde ahí
+      $('#wish').addEventListener('click',function(){ v.pause(); });
+      $('#fs').addEventListener('click',function(e){
+        e.stopPropagation();
+        if(document.fullscreenElement) return document.exitFullscreen();
+        if(theater.requestFullscreen) theater.requestFullscreen();
+        else if(theater.webkitRequestFullscreen) theater.webkitRequestFullscreen();
+        else if(v.webkitEnterFullscreen) v.webkitEnterFullscreen();   // iPhone: sólo el video puede ir a pantalla completa
+      });
+
+      // los controles se van si el mouse queda quieto 2 s mientras reproduce (salvo que esté encima de ellos)
+      var mx=-1, my=-1;
+      function hideNow(){ clearTimeout(idle); if(open && !v.paused && !document.querySelector('.ctl:hover, .close:hover')) theater.classList.add('idle'); }
+      function wake(e){
+        if(e && e.type==='mousemove'){ if(e.clientX===mx && e.clientY===my) return; mx=e.clientX; my=e.clientY; }
+        theater.classList.remove('idle'); clearTimeout(idle); idle=setTimeout(hideNow,2000);
+      }
+      ['mousemove','touchstart','keydown','click'].forEach(function(ev){ theater.addEventListener(ev,wake,{passive:true}); });
+      v.addEventListener('pause',wake);
+      v.addEventListener('playing',function(){ setTimeout(hideNow,350); });
+    })();
+  </script>
+</body>
+</html>
