@@ -52,6 +52,12 @@ class IntakeTests(unittest.TestCase):
   self.assertEqual(i.validate(b,'prepublish')['valid'],1)
   (self.root/'data/games/100.json').write_text('{}')
   with self.assertRaisesRegex(ValueError,'existing canonical'):i.prepare(b)
+ def test_repeated_studio_credit_is_recorded_once(self):
+  b=self.fixture(); e,d=i.validate_game(b,b['games'][0])
+  e['identity']['developer']=e['identity']['publisher']='Small Mill, Small Mill'
+  r=i.record(b,b['games'][0],e,d)
+  self.assertEqual(r['developer'],'Small Mill'); self.assertEqual(r['publisher'],'Small Mill')
+  self.assertEqual(i.dedupe_credit('Valve, Blizzard'), 'Valve, Blizzard')
  def test_duplicate_and_existing_ids(self):
   b=self.fixture();b['games']*=2;b['requestedCount']=2
   with self.assertRaises(ValueError):i.validate(b)

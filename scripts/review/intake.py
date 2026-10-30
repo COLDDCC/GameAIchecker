@@ -258,6 +258,12 @@ def validate(b,stage='evidence'):
             if sha(work(b)/'staging'/f'{app}.json')!=h: raise ValueError('staging changed')
     return {'valid':len(ids),'stage':stage}
 
+def dedupe_credit(value):
+    """Steam repeats a self-published studio in both array slots; keep each credit once."""
+    parts = [x.strip() for x in str(value or '').split(',')]
+    return ', '.join(dict.fromkeys(x for x in parts if x))
+
+
 def record(b,g,e,d):
     app=g['appId']; ident=e['identity']; date=e['sources'][0]['fetchedAt'][:10]
     states={k:v['state'] for k,v in d['areas'].items()}; used=[k for k,v in states.items() if v=='used']
@@ -268,7 +274,7 @@ def record(b,g,e,d):
         sources.append(dict(type=typ,url=s['url'],label=s.get('label',s['sourceType']),date=s['fetchedAt'][:10],excerpt=s.get('publicExcerpt',s['quote']),**({'publishedAt':s['publishedAt']} if s.get('publishedAt') else {})))
     release=d.get('releaseNote') or ident.get('release','待公布')
     if ident.get('comingSoon') and not d.get('releaseNote'): release+='（计划；核查时尚未发售）'
-    r=dict(appId=app,name=g['name'],category=d['category'],verification='steam_developer_self_disclosure' if official else ('developer_self_statement' if d['category']=='developer_no_genai_statement' else 'reviewed_no_substantiated_genai_claim'),summary=d['summary'],aiUsageCategories=used,aiAreas=states,aiAreaNotes={k:v['note'] for k,v in d['areas'].items() if v.get('note')},aiAreaSources={k:('official' if next(s for s in e['sources'] if s['id']==v['evidenceId'])['sourceType']=='store' else 'developer_statement') for k,v in d['areas'].items() if v['state'] not in ('not_stated','unreviewed')},steamUrl=f'https://store.steampowered.com/app/{app}/',developer=ident['developer'],publisher=ident.get('publisher',''),steamReleaseDate=release,genres=ident.get('genres',[]),reviewedAt=date,sources=sources,reviewNote=d['reviewNote'])
+    r=dict(appId=app,name=g['name'],category=d['category'],verification='steam_developer_self_disclosure' if official else ('developer_self_statement' if d['category']=='developer_no_genai_statement' else 'reviewed_no_substantiated_genai_claim'),summary=d['summary'],aiUsageCategories=used,aiAreas=states,aiAreaNotes={k:v['note'] for k,v in d['areas'].items() if v.get('note')},aiAreaSources={k:('official' if next(s for s in e['sources'] if s['id']==v['evidenceId'])['sourceType']=='store' else 'developer_statement') for k,v in d['areas'].items() if v['state'] not in ('not_stated','unreviewed')},steamUrl=f'https://store.steampowered.com/app/{app}/',developer=dedupe_credit(ident['developer']),publisher=dedupe_credit(ident.get('publisher','')),steamReleaseDate=release,genres=ident.get('genres',[]),reviewedAt=date,sources=sources,reviewNote=d['reviewNote'])
     if official: r.update(disclosureQuote=d['disclosureQuote'],disclosureQuoteNote=f'Steam 商店 AI 生成内容披露栏完整原文，{date} 核查；可能随商店页更新。')
     if d.get('aiScopeUnspecified'): r['aiScopeUnspecified']=True
     if d.get('english'):
