@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "12815cd797fffd05bdf2255c05086c2e13c6c7ff",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "prepared",
+  "phase": "deployed",
   "createdAt": "2026-10-30T04:33:02.712691+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -567,7 +567,10 @@
     }
   ],
   "checkResults": {},
-  "publishShas": {},
+  "publishShas": {
+    "media": "2e3a651a6557e71e80f17bb7cc5ed495595bcf39",
+    "site": "f60a2d9fecf4287716a0424cbe3c1e0b905ddacb"
+  },
   "attempts": 11,
   "maxAttempts": 30,
   "selectionOverride": {
@@ -591,5 +594,6 @@
       "reason": "Steam 讨论区归属 Call of Duty® 总门户，页面标题为「Call of Duty®」而非本作名称，无法按本作身份核验讨论区（parse_discussion 身份不匹配），非抓取失败。"
     }
   ],
-  "applyBase": "41e0ab9ff0ee10c5f4cda2758d92a4f43c53c2eb"
+  "applyBase": "41e0ab9ff0ee10c5f4cda2758d92a4f43c53c2eb",
+  "recoveryNote": "2026-10-30 reconciliation: data commit 2e3a651 and media commit f60a2d9 were already on origin/main. All 10 pages returned HTTP 200 and Cloudflare Pages production deployment for f60a2d9 succeeded. State was reconciled from prepared to deployed; content was not re-reviewed or changed."
 }
