@@ -1,0 +1,13 @@
+{
+ "url": "https://store.steampowered.com/api/appdetails?appids=4317690&l=english",
+ "mode": "body",
+ "httpStatus": 200,
+ "contentType": "application/json; charset=utf-8",
+ "effectiveUrl": "https://store.steampowered.com/api/appdetails?appids=4317690&l=english",
+ "curlExit": 0,
+ "error": "",
+ "fetchedAt": "2026-10-30T02:51:30.556683+00:00",
+ "contentHash": "1cbf86ab255bae2008caf5c836d2ff98c90b215158cfafee374ffd9ec8ed7c61",
+ "bytes": 24567,
+ "headers": "HTTP/1.1 200 OK\nServer: nginx\nContent-Type: application/json; charset=utf-8\nX-Frame-Options: DENY\nCache-Control: public,max-age=3600\nExpires: Fri, 30 Oct 2026 03:51:30 GMT\nLast-Modified: Fri, 30 Oct 2026 02:00:00 GMT\nStrict-Transport-Security: max-age=63072000\nVary: origin\nDate: Fri, 30 Oct 2026 02:51:30 GMT\nContent-Length: 24567\nConnection: keep-alive\nSet-Cookie: steamCountry=US%7C0ea79894c8c3a34d26848327b3565a41; path=/; secure; HttpOnly; SameSite=None\nSet-Cookie: browserid=251797699634691732; expires=Sat, 30 Oct 2027 02:51:30 GMT; Max-Age=31536000; path=/; secure; SameSite=None\n\n"
+}
