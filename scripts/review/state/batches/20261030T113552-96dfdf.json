@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "f48163845e84feb0b36a15923259ddd66094c11e",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-10-30T02:35:52.930321+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -590,10 +590,87 @@
       },
       "bytes": 50511939,
       "verifiedRemoteSha": "93ceeed7f3b7e5915f2c3ae4ee53530d0e3f4f4d"
-    }
+    },
+    "ci": {
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40999874145",
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/40999874111"
+    },
+    "production": {
+      "sha": "738bbd04584f37eac4fe9eebc381e7567560cf15",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/c665bf41-37dc-4700-b64c-68b6f9a60007",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>738bbd0</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://c665bf41.gameaichecker.pages.dev'>https://c665bf41.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/c665bf41-37dc-4700-b64c-68b6f9a60007)\n",
+      "checkedAt": "2026-10-30T03:55:29.244177+00:00"
+    },
+    "onlineImages": {
+      "responses": 459,
+      "cache": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\online-images-738bbd04584f37eac4fe9eebc381e7567560cf15.json"
+    },
+    "online": [
+      {
+        "appId": "4197610",
+        "url": "https://gameaichecker.com/games/4197610-librarian-tidy-up-the-arcane-library/",
+        "checkedAt": "2026-10-30T03:55:35.943559+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2887580",
+        "url": "https://gameaichecker.com/games/2887580-active-matter/",
+        "checkedAt": "2026-10-30T03:55:36.882228+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "1465470",
+        "url": "https://gameaichecker.com/games/1465470-the-crust/",
+        "checkedAt": "2026-10-30T03:55:37.872051+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4317690",
+        "url": "https://gameaichecker.com/games/4317690-crimson-moon/",
+        "checkedAt": "2026-10-30T03:55:38.728033+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5335510",
+        "url": "https://gameaichecker.com/games/5335510-moon-sweepers/",
+        "checkedAt": "2026-10-30T03:55:39.855275+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2798330",
+        "url": "https://gameaichecker.com/games/2798330-dungeon-settlers/",
+        "checkedAt": "2026-10-30T03:55:42.066950+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "1826420",
+        "url": "https://gameaichecker.com/games/1826420-carx-drift-racing-online-2/",
+        "checkedAt": "2026-10-30T03:55:43.319466+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4252340",
+        "url": "https://gameaichecker.com/games/4252340-cpm-2/",
+        "checkedAt": "2026-10-30T03:55:51.999807+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4935510",
+        "url": "https://gameaichecker.com/games/4935510-cellar-keeper/",
+        "checkedAt": "2026-10-30T03:55:53.110913+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5212940",
+        "url": "https://gameaichecker.com/games/5212940-bunker-tidy-up/",
+        "checkedAt": "2026-10-30T03:55:54.302726+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "67f9c6edb62da921a3f32cc55627e47c659e77f5"
+    "media": "67f9c6edb62da921a3f32cc55627e47c659e77f5",
+    "site": "738bbd04584f37eac4fe9eebc381e7567560cf15"
   },
   "attempts": 10,
   "maxAttempts": 30,
@@ -605,5 +682,6 @@
   },
   "applyBase": "f48163845e84feb0b36a15923259ddd66094c11e",
   "pendingTree": "a5fc80474959d307c899b169d5e6e3d5840c0963",
-  "siteBase": "93ceeed7f3b7e5915f2c3ae4ee53530d0e3f4f4d"
+  "siteBase": "93ceeed7f3b7e5915f2c3ae4ee53530d0e3f4f4d",
+  "siteTree": "c7e10a707073c876a6505e724cc3ab6be56a5e7e"
 }
