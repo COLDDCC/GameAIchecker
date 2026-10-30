@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Easy Fox Games</title>
+    <meta name="description" content="Easy Fox Games — Teach my little sister how to drive">
+
+    <link rel="canonical" href="https://easyfoxgames.com/">
+
+    <!-- Browser tab icon -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#f57c00">
+
+    <!-- Link preview card (Discord, KakaoTalk, Slack, X, ...) -->
+    <!-- Crawlers do not run JS, so these stay static regardless of the language picker. -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Easy Fox Games">
+    <meta property="og:url" content="https://easyfoxgames.com/">
+    <meta property="og:title" content="Easy Fox Games">
+    <meta property="og:description" content="Your sister's first driving lesson! Fail to teach her properly as her older brother, and your survival isn't guaranteed.">
+    <meta property="og:image" content="https://easyfoxgames.com/assets/og-image.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Easy Fox Games">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Easy Fox Games">
+    <meta name="twitter:description" content="Your sister's first driving lesson! Fail to teach her properly as her older brother, and your survival isn't guaranteed.">
+    <meta name="twitter:image" content="https://easyfoxgames.com/assets/og-image.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --orange: #f57c00;
+        --orange-light: #ffb74d;
+        --blue: #1e88e5;
+        --blue-dark: #0d47a1;
+        --ink: #1a1a2e;
+        --muted: #5c5c72;
+        --surface: #ffffff;
+        --bg: #f4f6fb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Nunito", "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+        line-height: 1.6;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .lang-picker {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 30;
+      }
+
+      .lang-picker-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        border: 2px solid rgba(255, 255, 255, 0.35);
+        background: rgba(20, 24, 36, 0.72);
+        backdrop-filter: blur(8px);
+        color: #fff;
+        font-family: inherit;
+        font-weight: 800;
+        font-size: 0.9rem;
+        padding: 0.45rem 0.85rem;
+        border-radius: 999px;
+        cursor: pointer;
+      }
+
+      .lang-picker-btn svg {
+        width: 0.75rem;
+        height: 0.75rem;
+        transition: transform 0.15s ease;
+      }
+
+      .lang-picker:hover .lang-picker-btn svg,
+      .lang-picker:focus-within .lang-picker-btn svg {
+        transform: rotate(180deg);
+      }
+
+      .lang-menu {
+        position: absolute;
+        top: calc(100% + 0.4rem);
+        right: 0;
+        min-width: 9rem;
+        margin: 0;
+        padding: 0.35rem;
+        list-style: none;
+        background: var(--surface);
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        box-shadow: 0 10px 28px rgba(26, 26, 46, 0.12);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4px);
+        transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s ease;
+      }
+
+      .lang-picker:hover .lang-menu,
+      .lang-picker:focus-within .lang-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      .lang-option {
+        width: 100%;
+        border: 0;
+        background: transparent;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 0.9rem;
+        text-align: left;
+        padding: 0.55rem 0.75rem;
+        border-radius: 8px;
+        cursor: pointer;
+        color: var(--ink);
+      }
+
+      .lang-option:hover,
+      .lang-option[aria-current="true"] {
+        background: #eef4ff;
+        color: var(--blue-dark);
+      }
+
+      .hero {
+        position: relative;
+        min-height: 72vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 4rem 1.5rem 2.5rem;
+        overflow: hidden;
+        background: #111;
+      }
+
+      .hero-bg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .hero-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(10, 16, 32, 0.15) 0%,
+          rgba(10, 16, 32, 0.55) 55%,
+          rgba(10, 16, 32, 0.88) 100%
+        );
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 1;
+        width: min(920px, 100%);
+        text-align: center;
+        color: #fff;
+      }
+
+      .hero-kicker {
+        margin: 0 0 0.5rem;
+        font-size: 0.95rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--orange-light);
+      }
+
+      .hero-title {
+        margin: 0 0 0.75rem;
+        font-size: clamp(1.8rem, 5vw, 3rem);
+        font-weight: 800;
+        line-height: 1.15;
+        text-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
+      }
+
+      .hero-sub {
+        margin: 0 auto 1.75rem;
+        width: 100%;
+        max-width: none;
+        font-size: clamp(0.88rem, 1.8vw, 1.15rem);
+        color: rgba(255, 255, 255, 0.9);
+        white-space: nowrap;
+      }
+
+      .steam-widget-wrap {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .steam-widget-wrap iframe {
+        max-width: 100%;
+        border: 0;
+        border-radius: 8px;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+      }
+
+      .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.85rem;
+        padding: 2rem 1.5rem 0.5rem;
+      }
+
+      .social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 52px;
+        height: 52px;
+        border-radius: 14px;
+        background: var(--surface);
+        box-shadow: 0 6px 18px rgba(26, 26, 46, 0.08);
+        text-decoration: none;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+      }
+
+      .social-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 24px rgba(26, 26, 46, 0.14);
+      }
+
+      .social-link img {
+        width: 28px;
+        height: 28px;
+      }
+
+      .social-link--discord:hover {
+        box-shadow: 0 10px 24px rgba(88, 101, 242, 0.22);
+      }
+
+      .section {
+        padding: 4rem 1.5rem;
+      }
+
+      .section-inner {
+        width: min(960px, 100%);
+        margin: 0 auto;
+      }
+
+      .section-title {
+        margin: 0 0 1.5rem;
+        font-size: clamp(1.5rem, 3vw, 2rem);
+        font-weight: 800;
+        text-align: center;
+      }
+
+      .game-card {
+        display: grid;
+        grid-template-columns: minmax(220px, 320px) 1fr;
+        gap: 2rem;
+        align-items: center;
+        background: var(--surface);
+        border-radius: 20px;
+        padding: 2rem;
+        box-shadow: 0 10px 30px rgba(26, 26, 46, 0.08);
+      }
+
+      .game-capsule {
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      }
+
+      .game-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 0 0 1rem;
+        padding: 0;
+        list-style: none;
+      }
+
+      .game-tags li {
+        background: #eef4ff;
+        color: var(--blue-dark);
+        font-size: 0.82rem;
+        font-weight: 700;
+        padding: 0.3rem 0.7rem;
+        border-radius: 999px;
+      }
+
+      .game-desc {
+        margin: 0 0 1.25rem;
+        color: var(--muted);
+        white-space: pre-line;
+      }
+
+      .game-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        text-decoration: none;
+        font-weight: 800;
+        color: #fff;
+        background: linear-gradient(135deg, #171a21, #2a475e);
+        padding: 0.75rem 1.2rem;
+        border-radius: 10px;
+      }
+
+      .mission {
+        padding: 1.5rem 1.5rem 0.5rem;
+        text-align: center;
+      }
+
+      .mission-quote {
+        margin: 0;
+        font-size: clamp(1.15rem, 2.8vw, 1.6rem);
+        font-weight: 800;
+        line-height: 1.5;
+        color: var(--ink);
+      }
+
+      .site-footer {
+        padding: 1.5rem;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .site-footer p {
+        margin: 0.25rem 0;
+      }
+
+      .site-footer a {
+        color: var(--blue-dark);
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .site-footer a:hover {
+        text-decoration: underline;
+      }
+
+      .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem 1.1rem;
+        justify-content: center;
+        margin-bottom: 0.75rem;
+      }
+
+      @media (max-width: 900px) {
+        .hero-sub {
+          white-space: normal;
+          max-width: 36rem;
+        }
+      }
+
+      @media (max-width: 720px) {
+        .game-card {
+          grid-template-columns: 1fr;
+          padding: 1.25rem;
+        }
+
+        .hero {
+          min-height: 68vh;
+        }
+
+        .steam-widget-wrap iframe {
+          width: 100%;
+          height: 190px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="lang-picker">
+      <button class="lang-picker-btn" type="button" aria-haspopup="listbox" aria-expanded="false" id="lang-picker-btn">
+        <span id="lang-current-label">English</span>
+        <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
+          <path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <ul class="lang-menu" id="lang-menu" role="listbox" aria-label="Language"></ul>
+    </div>
+
+    <section class="hero" id="hero">
+      <img class="hero-bg" src="/assets/LibraryHero.png" alt="">
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-kicker" data-i18n="hero.kicker">Easy Fox Games</p>
+        <h1 class="hero-title" data-i18n="hero.title">Teach My Little Sister How to Drive</h1>
+        <p class="hero-sub" data-i18n="hero.sub">Your sister's first driving lesson! Fail to teach her properly as her older brother, and your survival isn't guaranteed.</p>
+        <div class="steam-widget-wrap">
+          <iframe
+            id="steam-widget"
+            src="https://store.steampowered.com/widget/3948460/?t=Teach%20my%20little%20sister%20how%20to%20drive"
+            width="646"
+            height="190"
+            title="Steam widget"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <nav class="social-links" aria-label="Social links">
+      <a class="social-link social-link--discord" href="https://discord.gg/FGKPcydtty" target="_blank" rel="noopener noreferrer" title="Discord">
+        <img src="/assets/discord-icon.svg" alt="Discord">
+      </a>
+    </nav>
+
+    <section class="mission" id="mission">
+      <div class="section-inner">
+        <p class="mission-quote" data-i18n="mission.text">We bring AI from the sidelines to center stage.</p>
+      </div>
+    </section>
+
+    <section class="section" id="game">
+      <div class="section-inner">
+        <h2 class="section-title" data-i18n="game.title">Featured Game</h2>
+        <article class="game-card">
+          <div class="game-capsule">
+            <img id="game-capsule" src="/assets/LibraryCapsule_English.png" alt="">
+          </div>
+          <div>
+            <ul class="game-tags" id="game-tags">
+              <li>Indie</li>
+              <li>Simulation</li>
+              <li>Casual</li>
+              <li>Voice Control</li>
+              <li>Comedy</li>
+            </ul>
+            <p class="game-desc" data-i18n="game.desc">Your younger sister, who just got her driver's license, is heading out onto the road for the very first time. You can't drive from the passenger seat, but you can guide her with your words.
+
+From starting the engine to steering, accelerating, and braking — everything feels clumsy. Give advice at the right time and point out her mistakes. From S-curves and parking to road driving and emergencies, anything can happen. Will you survive until her lessons are finally over?</p>
+            <a class="game-link" data-i18n-href="game.steamUrl" href="https://store.steampowered.com/app/3948460/" target="_blank" rel="noopener noreferrer" data-i18n="game.steamCta">View on Steam</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/tsd/ai/privacy/gl" data-i18n="footer.aiPrivacy">External AI services</a>
+      </nav>
+      <p data-i18n="footer.copy">© Easy Fox Games</p>
+      <p><a href="mailto:easyfoxgames@gmail.com">easyfoxgames@gmail.com</a></p>
+    </footer>
+
+    <script>
+      const DISCORD_URL = "https://discord.gg/FGKPcydtty";
+
+      const LANGUAGES = [
+        { code: "en", label: "English" },
+        { code: "ko", label: "한국어" }
+      ];
+
+      const STEAM_WIDGET = {
+        ko: "https://store.steampowered.com/widget/3948460/",
+        en: "https://store.steampowered.com/widget/3948460/?t=Teach%20my%20little%20sister%20how%20to%20drive"
+      };
+
+      const COPY = {
+        ko: {
+          "hero.kicker": "Easy Fox Games",
+          "hero.title": "여동생 운전 가르치기",
+          "hero.sub": "여동생의 첫 운전 연습! 오빠로서 제대로 가르치지 못하면 생존이 보장되지 않습니다.",
+          "game.title": "대표 게임",
+          "game.desc": "면허를 막 딴 여동생이 처음으로 도로에 나섭니다. 운전석이 아닌 조수석에 앉아 말로 지도하세요.\n\n엔진 시동부터 핸들, 가속, 브레이크까지 모든 게 어색합니다. 적절한 타이밍에 조언을 건네고 실수를 짚어 주세요. S커브, 주차, 도로 주행, 돌발 상황까지 무엇이든 일어날 수 있습니다. 여동생의 운전 연습이 끝날 때까지 살아남을 수 있을까요?",
+          "game.steamCta": "Steam에서 보기",
+          "game.steamUrl": "https://store.steampowered.com/app/3948460/",
+          "mission.text": "AI를 게임의 조연에서 주연으로 만듭니다.",
+          "footer.copy": "© Easy Fox Games",
+          "footer.aiPrivacy": "외부 AI 서비스",
+          "page.title": "Easy Fox Games",
+          "page.description": "Easy Fox Games — 여동생 운전 가르치기"
+        },
+        en: {
+          "hero.kicker": "Easy Fox Games",
+          "hero.title": "Teach My Little Sister How to Drive",
+          "hero.sub": "Your sister's first driving lesson! Fail to teach her properly as her older brother, and your survival isn't guaranteed.",
+          "game.title": "Featured Game",
+          "game.desc": "Your younger sister, who just got her driver's license, is heading out onto the road for the very first time. You can't drive from the passenger seat, but you can guide her with your words.\n\nFrom starting the engine to steering, accelerating, and braking — everything feels clumsy. Give advice at the right time and point out her mistakes. From S-curves and parking to road driving and emergencies, anything can happen. Will you survive until her lessons are finally over?",
+          "game.steamCta": "View on Steam",
+          "game.steamUrl": "https://store.steampowered.com/app/3948460/",
+          "mission.text": "We bring AI from the sidelines to center stage.",
+          "footer.copy": "© Easy Fox Games",
+          "footer.aiPrivacy": "External AI services",
+          "page.title": "Easy Fox Games",
+          "page.description": "Easy Fox Games — Teach my little sister how to drive"
+        }
+      };
+
+      const CAPSULE = {
+        ko: "/assets/LibraryCapsule_Korean.png",
+        en: "/assets/LibraryCapsule_English.png"
+      };
+
+      const savedLang = localStorage.getItem("lang");
+      let currentLang = COPY[savedLang] ? savedLang : "en";
+
+      function buildLangMenu() {
+        const menu = document.getElementById("lang-menu");
+        menu.innerHTML = LANGUAGES.map(({ code, label }) => (
+          `<li role="presentation">
+            <button class="lang-option" type="button" role="option" data-lang="${code}">${label}</button>
+          </li>`
+        )).join("");
+
+        menu.querySelectorAll(".lang-option").forEach((btn) => {
+          btn.addEventListener("click", () => applyLanguage(btn.dataset.lang));
+        });
+      }
+
+      function applyLanguage(lang) {
+        if (!COPY[lang]) return;
+
+        currentLang = lang;
+        localStorage.setItem("lang", lang);
+        document.documentElement.lang = lang;
+
+        const strings = COPY[lang];
+        const meta = LANGUAGES.find((l) => l.code === lang);
+
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.getAttribute("data-i18n");
+          if (strings[key] !== undefined) {
+            el.textContent = strings[key];
+          }
+        });
+
+        document.querySelectorAll("[data-i18n-href]").forEach((el) => {
+          const key = el.getAttribute("data-i18n-href");
+          if (strings[key]) {
+            el.href = strings[key];
+          }
+        });
+
+        document.getElementById("game-capsule").src = CAPSULE[lang];
+        document.getElementById("steam-widget").src = STEAM_WIDGET[lang];
+        document.getElementById("lang-current-label").textContent = meta.label;
+
+        document.querySelectorAll(".lang-option").forEach((btn) => {
+          btn.setAttribute("aria-current", btn.dataset.lang === lang ? "true" : "false");
+        });
+
+        document.title = strings["page.title"];
+        document.querySelector('meta[name="description"]').content = strings["page.description"];
+      }
+
+      buildLangMenu();
+      applyLanguage(currentLang);
+    </script>
+  </body>
+</html>
