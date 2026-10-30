@@ -4,7 +4,7 @@
   "requestedCount": 1,
   "baseSha": "f48163845e84feb0b36a15923259ddd66094c11e",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-10-30T02:55:54.452034+00:00",
   "oldHashes": {
     "1222140": "1888f0658c2dca2158fe34e6e8660811484e18c1c2322d8b6726ddee5a062645",
@@ -222,10 +222,33 @@
       },
       "bytes": 2860710,
       "verifiedRemoteSha": "a7d7add0977fd62c4f9529205c54f5625286ae2c"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41001484330",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41001484312"
+    },
+    "production": {
+      "sha": "2c61241d163f452f9990c4d4c074bc4ed34245df",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/71f3b525-1b28-4e73-9739-c43b0ab143fd",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>2c61241</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://71f3b525.gameaichecker.pages.dev'>https://71f3b525.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/71f3b525-1b28-4e73-9739-c43b0ab143fd)\n",
+      "checkedAt": "2026-10-30T04:16:30.339616+00:00"
+    },
+    "onlineImages": {
+      "responses": 36,
+      "cache": ".cache\\gameaichecker-review\\20261030T115554-345340\\online-images-2c61241d163f452f9990c4d4c074bc4ed34245df.json"
+    },
+    "online": [
+      {
+        "appId": "3948460",
+        "url": "https://gameaichecker.com/games/3948460-teach-my-little-sister-how-to-drive/",
+        "checkedAt": "2026-10-30T04:17:38.994146+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "f2c03de269a37547752f475a82bfe7adab059640"
+    "media": "f2c03de269a37547752f475a82bfe7adab059640",
+    "site": "2c61241d163f452f9990c4d4c074bc4ed34245df"
   },
   "attempts": 1,
   "maxAttempts": 3,
@@ -237,5 +260,6 @@
   },
   "applyBase": "214514fdd95c11bb52e2e47fbd1b55e6226a233b",
   "pendingTree": "dbc980f18d6bf5362da7eafefbd0517a35971f07",
-  "siteBase": "a7d7add0977fd62c4f9529205c54f5625286ae2c"
+  "siteBase": "a7d7add0977fd62c4f9529205c54f5625286ae2c",
+  "siteTree": "914a8b1bc58dcb3f98ce278fa2a6f91091e7873b"
 }
