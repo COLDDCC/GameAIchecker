@@ -39,6 +39,14 @@ class IntakeTests(unittest.TestCase):
   self.assertEqual(i.import_candidates([{'appId':'9','name':'old','sourceUrl':'https://x'},{'appId':'10','name':'new','sourceUrl':'https://x'},{'appId':'10','name':'new','sourceUrl':'https://x'}])['added'],1)
   i.import_candidates([demand_fixture(i,dict(appId='10',name='new',sourceUrl='https://x'))])
   b=i.start(1);self.assertEqual(i.start(1)['resume'],b['batchId'])
+ def test_start_without_measured_demand_requires_an_explicit_owner_waiver(self):
+  i.import_candidates([dict(appId='200',name='No demand',sourceUrl='https://example.org/200')])
+  with self.assertRaisesRegex(ValueError,'verified search demand'):i.start(1)
+  with self.assertRaisesRegex(ValueError,'owner instruction'):i.start(1,waive='ok')
+  b=i.load_batch(i.start(1,waive='site owner waived search demand for this batch')['batchId'])
+  self.assertEqual(b['selectionOverride']['instruction'],'site owner waived search demand for this batch')
+  self.assertIn('This batch only',b['selectionOverride']['scope'])
+  self.assertEqual([r['appId'] for r in i.queue() if r['status']=='reserved'],['200'])
  def test_valid_prepare_and_no_overwrite(self):
   b=self.fixture();self.assertEqual(i.validate(b)['valid'],1);i.prepare(b)
   self.assertEqual(i.validate(b,'prepublish')['valid'],1)

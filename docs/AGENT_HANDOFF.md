@@ -126,6 +126,8 @@
 - 英文默认地址 `/games/<slug>/`，中文 `/games/zh-cn/<slug>/`；旧 `/games/en/` 永久跳转。详情共用 `src/components/GameDetail.astro`。
 - 旧记录英文摘要在 `data/i18n/games.en.json`，构建前 `npm run check:english` 检查完整度及来源 hash。更新来源后必须复核英文，不能只更新 hash。
 - **新批次先验证搜索需求**，以 `docs/SEARCH_DEMAND_POLICY.md` 的输入契约和 `scripts/review/import-demand.py` 为准。没有有效需求依据的 queued 条目不会被 `start` 或替补选中；已占位批次继续恢复。
+- 站长没有给数据的批次，用 `intake.py start --count N --waive-demand "站长原话"` 显式豁免：它只放开搜索量这一道门槛，把原话与生效范围（仅本批）写进批次 `selectionOverride`，证据、英文和发布闸门一律照跑；`replace-blocked` 沿用同一批次的记录。没有原话就停下要数据，禁止手工改队列或伪造搜索量。
+- 新收录的英文文案与 `sourceRecordHash` 一起存在 `data/games/<appId>.json` 内嵌 `english`，老的 131 条仍在 `data/i18n/games.en.json`；`src/lib/english.js` 两条路径都按 App ID 解析，因此列表页的精简索引（只有 appId）也能取到英文。`npm run check:english` 的入口判断已修正，之前因相对路径比较永不成立、等于没跑，现在每次真的校验全部在册记录。
 - 新批次 decision 允许并要求 `english` 字段（摘要、核查限制、八领域说明），按政策文件的结构写入。原有披露、来源绑定及两阶段发布检查仍全部执行。已安装 skill 的旧字段列表需结合此处的新工具契约使用。
 - 本次仅添加英文呈现字段与种子线索，已有来源、分类、领域状态、站长审核标记均保留。
 

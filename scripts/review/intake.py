@@ -107,6 +107,12 @@ def demand_valid(row):
         return 0<=age<=90*86400
     except (KeyError,ValueError,TypeError,OSError): return False
 
+def waiver(instruction):
+    """Measure demand or record the owner waiving it; an empty instruction is not a waiver."""
+    text=str(instruction or '').strip()
+    if len(text)<10: raise ValueError('--waive-demand needs the owner instruction verbatim (min 10 characters)')
+    return {'authorizedBy':'site_owner','instruction':text,'scope':'This batch only: waive measured search demand; all evidence and English gates remain required.','recordedAt':now()}
+
 def validate_english_decision(en):
     if not isinstance(en,dict): raise ValueError('English editorial fields required')
     fields=[en.get('summary'),en.get('reviewNote')]+[en.get('aiAreaNotes',{}).get(k) for k in AREAS]
@@ -128,17 +134,19 @@ def import_candidates(rows, dry=False):
             have.add(app)
         if not dry: save_queue(q+added)
         return {'added':len(added),'excluded':len(rows)-len(added)}
-def start(count, dry=False):
+def start(count, dry=False, waive=None):
     if not 1<=count<=30: raise ValueError('count must be 1..30')
+    override=waiver(waive) if waive else None
     with lock():
         unfinished=[v for v in (read(p) for p in sorted((STATE/'batches').glob('*.json'))) if v and v['phase'] not in ('deployed','cancelled')]
         if unfinished: return {'resume':unfinished[0]['batchId'],'phase':unfinished[0]['phase']}
         q=queue(); skip=excluded()
-        choices=sorted([r for r in q if r['status']=='queued' and r['appId'] not in skip and demand_valid(r)],key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))[:count]
+        choices=sorted([r for r in q if r['status']=='queued' and r['appId'] not in skip and (demand_valid(r) or override)],key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))[:count]
         if len(choices)<count: raise ValueError(f'queue shortage with verified search demand: {len(choices)}/{count}; attach recent GSC or keyword metrics before review')
-        if dry: return {'selected':[r['appId'] for r in choices]}
+        if dry: return {'selected':[r['appId'] for r in choices],'demandWaived':bool(override)}
         bid=time.strftime('%Y%m%dT%H%M%S')+'-'+os.urandom(3).hex()
         b=dict(schemaVersion=1,batchId=bid,requestedCount=count,baseSha=git('rev-parse','HEAD'),policyVersion=POLICY,phase='reserved',createdAt=now(),oldHashes=existing(),games=[],checkResults={},publishShas={},attempts=len(choices),maxAttempts=min(30,3*count))
+        if override: b['selectionOverride']=override
         for r in choices:
             r.update(status='reserved',batchId=bid,worker=socket.gethostname(),leaseUntil=time.time()+86400)
             b['games'].append(dict(appId=r['appId'],name=r['name'],identity='pending',store='pending',discussion='pending',press='pending',coverageLimits=[],retries=0))
@@ -151,7 +159,7 @@ def replace_blocked(b, app):
         old=next((g for g in b['games'] if g['appId']==app),None)
         if not old or not old.get('reason'): raise ValueError('candidate must have a recorded blocking reason')
         if b['attempts']>=b['maxAttempts']: raise ValueError('attempt limit reached')
-        q=queue();choices=sorted([r for r in q if r['status']=='queued' and r['appId'] not in excluded() and demand_valid(r)],key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))
+        q=queue();override=b.get('selectionOverride');choices=sorted([r for r in q if r['status']=='queued' and r['appId'] not in excluded() and (demand_valid(r) or override)],key=lambda r:(-r['priority'],r['discoveredAt'],int(r['appId'])))
         if not choices: raise ValueError('queue shortage for replacement')
         r=choices[0];b.setdefault('blockedGames',[]).append(old);b['games'].remove(old)
         b['games'].append(dict(appId=r['appId'],name=r['name'],identity='pending',store='pending',discussion='pending',press='pending',coverageLimits=[],retries=0))
@@ -319,10 +327,10 @@ def media_check(app, tracked=False, full=True):
     return sum((ROOT/p).stat().st_size for p in set(paths))
 
 def main():
-    p=argparse.ArgumentParser(); p.add_argument('command',choices=['inventory','discover-import','start','pack','validate','prepare','status','resume','media-check','media-queue','replace-blocked']); p.add_argument('--batch'); p.add_argument('--input'); p.add_argument('--count',type=int,default=10); p.add_argument('--stage',default='evidence',choices=['evidence','prepublish']); p.add_argument('--dry-run',action='store_true'); p.add_argument('--pending-only',action='store_true'); p.add_argument('--summary',action='store_true'); p.add_argument('--app'); p.add_argument('--tracked',action='store_true'); p.add_argument('--allow-legacy-gallery',action='store_true'); p.add_argument('--mode',choices=['strict','legacy']); a=p.parse_args()
+    p=argparse.ArgumentParser(); p.add_argument('command',choices=['inventory','discover-import','start','pack','validate','prepare','status','resume','media-check','media-queue','replace-blocked']); p.add_argument('--batch'); p.add_argument('--input'); p.add_argument('--count',type=int,default=10); p.add_argument('--stage',default='evidence',choices=['evidence','prepublish']); p.add_argument('--dry-run',action='store_true'); p.add_argument('--pending-only',action='store_true'); p.add_argument('--summary',action='store_true'); p.add_argument('--app'); p.add_argument('--tracked',action='store_true'); p.add_argument('--allow-legacy-gallery',action='store_true'); p.add_argument('--mode',choices=['strict','legacy']); p.add_argument('--waive-demand'); a=p.parse_args()
     if a.command=='inventory': out={'canonical':len(existing()),'queue':len(queue()),'pendingBatches':[{'batchId':x.stem,'phase':read(x)['phase']} for x in sorted((STATE/'batches').glob('*.json')) if read(x)['phase'] not in ('deployed','cancelled')],'publishedBatches':sum(1 for x in (STATE/'batches').glob('*.json') if read(x)['phase']=='deployed'),'policyVersion':POLICY}
     elif a.command=='discover-import': out=import_candidates(read(Path(a.input)),a.dry_run)
-    elif a.command=='start': out=start(a.count,a.dry_run)
+    elif a.command=='start': out=start(a.count,a.dry_run,a.waive_demand)
     elif a.command=='media-check': out={'bytes':media_check(a.app,a.tracked,not a.allow_legacy_gallery)}
     elif a.command=='media-queue': out=(media_queue()[a.mode] if a.mode else media_queue())
     else:
