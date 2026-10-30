@@ -1,0 +1,13 @@
+{
+ "url": "https://www.pcgamer.com/rss/",
+ "mode": "body",
+ "httpStatus": 200,
+ "contentType": "application/xml",
+ "effectiveUrl": "https://www.pcgamer.com/rss/",
+ "curlExit": 0,
+ "error": "",
+ "fetchedAt": "2026-10-30T03:36:15.958230+00:00",
+ "contentHash": "4fee808992121e3a7d6d8cf1c81868db4138a6734b587e5451a5ddf81f1f138b",
+ "bytes": 850238,
+ "headers": "HTTP/2 200 \ncontent-type: application/xml\nx-total-count: 116739\nedge-control: max-age=120\nxkey: en_feed_96a4cb95\nallow: GET\nxkey: airedale-feed-xml-pcgamer-1793331188.686-10.42.10.37-1734\nx-ftr-cache-status: HIT\nx-age: 0\nx-ftr-request-id: 00000000000000000000FFFF9D34454C:F1FC_00000000000000000000FFFFB9711932:01BB_6AE40FF4_A466009:D1D7C\nx-ftr-balancer: vanilla-mochi-http-haproxy-prod-1\nx-ftr-backend: varnish-leopard\nx-ftr-backend-server: vanilla-leopard-http-cache-prod-01\nvia: 1.1 varnish, 1.1 varnish\naccept-ranges: bytes\nage: 186\ndate: Fri, 30 Oct 2026 03:36:15 GMT\nx-served-by: cache-lon4276-LON, cache-iah-kiah1900043-IAH\nx-cache-hits: 27, 0\nx-timer: S1793331376.796678,VS0,VE1\nvary: Accept-Encoding\nset-cookie: FTR_Country_Code=US; path=/; domain=www.pcgamer.com\nx-country-code: US\nx-country-code-real: US\nstrict-transport-security: max-age=31536000; includeSubDomains\nset-cookie: FTR_Cache_Status=HIT-CLUSTER; path=/; domain=www.pcgamer.com\nx-cache: HIT-CLUSTER\ncache-control: no-store,private\nalt-svc: h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400\ncontent-length: 850238\n\n"
+}

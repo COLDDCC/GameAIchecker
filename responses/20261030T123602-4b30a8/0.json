@@ -1,0 +1,13 @@
+{
+ "url": "https://www.pcgamer.com/sitemap.xml",
+ "mode": "body",
+ "httpStatus": 200,
+ "contentType": "application/xml; charset=utf-8",
+ "effectiveUrl": "https://www.pcgamer.com/sitemap.xml",
+ "curlExit": 0,
+ "error": "",
+ "fetchedAt": "2026-10-30T03:36:14.710876+00:00",
+ "contentHash": "77778aa8b71f28d6ff143d25b0b8ffbe915d86a6f319f262ca598932b8fb1288",
+ "bytes": 16583,
+ "headers": "HTTP/2 200 \ncontent-type: application/xml; charset=utf-8\nexpires: Fri, 30 Oct 2026 03:37:14 GMT\ncache-control: public,max-age=59,stale-while-revalidate=60,stale-if-error=3600\nxkey: pcgamer-listing-defaults\nxkey: pcgamer-sitemap\nx-ftr-cache-status: MISS MISS\nx-age: 0\nx-ftr-request-id: 00000000000000000000FFFF9D344551:A5AA_00000000000000000000FFFFB9711938:01BB_6AE410AE_AAD821F:AECFF\nx-ftr-balancer: vanilla-mochi-http-haproxy-prod-2\nx-ftr-backend: varnish-leopard\nx-ftr-backend-server: vanilla-leopard-http-cache-prod-04\nvia: 1.1 varnish, 1.1 varnish\naccept-ranges: bytes\nage: 0\ndate: Fri, 30 Oct 2026 03:36:14 GMT\nx-served-by: cache-lon4281-LON, cache-chi-kmdw8640095-CHI\nx-cache-hits: 0, 0\nx-timer: S1793331374.228555,VS0,VE466\nvary: Accept-Encoding, X-FTR-kiosq-server-side-user-status, X-FTR-kiosq-access, X-Country-Code, X-FTR-ABTest-Group\nset-cookie: FTR_Country_Code=US; path=/; domain=www.pcgamer.com\nx-country-code: US\nx-country-code-real: US\nstrict-transport-security: max-age=31536000; includeSubDomains\nset-cookie: FTR_Cache_Status=MISS-CLUSTER; path=/; domain=www.pcgamer.com\nx-cache: MISS-CLUSTER\nalt-svc: h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400\ncontent-length: 16583\n\n"
+}
