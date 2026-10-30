@@ -1,0 +1,87 @@
+{
+  "appId": "4252340",
+  "name": "CPM 2",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "开放世界竞速沙盒。开发者披露神经网络用于润色加载图与宣传 banner、协助翻译游戏内文本，并生成赛事模式解说语音，同时称 3D 车辆、改装与开放世界全部手工完成。",
+  "aiUsageCategories": [
+    "art",
+    "voice",
+    "translation",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露称 3D 车辆模型、改装与开放世界等关键游戏元素全部由团队手工完成；该声明不覆盖已披露的加载图、解说语音与翻译。此为开发者自述，未经独立审计。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称神经网络用于润色源自游戏内截图的 2D 美术（加载图与宣传 banner），之后人工调色并去除瑕疵。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "披露称 AI 用于生成赛事模式的解说语音。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "披露称 AI 也用于协助翻译游戏内文本。",
+    "marketing": "披露把宣传 banner 与加载图并列，称这些 2D 素材由神经网络润色后经人工修图；美术与营销两条共用同一句说明。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "voice": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4252340/",
+  "developer": "OGames",
+  "publisher": "OGames",
+  "steamReleaseDate": "8 Oct, 2026",
+  "genres": [
+    "Massively Multiplayer",
+    "Racing",
+    "Simulation",
+    "Sports",
+    "Free To Play",
+    "Early Access"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4252340/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "In game development, artificial intelligence is used solely as a supporting tool. We employ neural networks to enhance and refine 2D art (loading screens and promo banners) created using our in-game screenshots, after which they undergo manual color correction and artifact removal. AI also assists us with translating in-game text and generating the announcer's voice for racing modes. All key game elements, including 3D car models, tuning, and the open world, are created entirely by hand by our team."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4252340/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 751）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 751），首页无 AI 相关主题，未逐帖展开。逐款检索公开报道 2 次、登记 8 条结果，没有一条与本作的 AI 使用相关，因此判断只依据商店披露与讨论区首页。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "In game development, artificial intelligence is used solely as a supporting tool. We employ neural networks to enhance and refine 2D art (loading screens and promo banners) created using our in-game screenshots, after which they undergo manual color correction and artifact removal. AI also assists us with translating in-game text and generating the announcer's voice for racing modes. All key game elements, including 3D car models, tuning, and the open world, are created entirely by hand by our team.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An open-world racing sandbox. The developer discloses neural-network refinement of loading screens and promo banners, AI assistance with in-game text translation and an AI-generated announcer voice for racing modes, while stating that 3D cars, tuning and the open world are made by hand.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 751); no homepage topic concerns AI and individual threads were not opened. Coverage was searched twice for this game with 8 logged results and none was a readable article about this title, so the finding rests on the store disclosure and the discussion homepage alone. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The developer says key game elements such as 3D car models, tuning and the open world are made entirely by hand; that does not extend to the disclosed loading art, announcer voice and translation. This is a developer self-report, not an independent audit.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Neural networks enhance and refine 2D art (loading screens and promo banners) made from in-game screenshots, followed by manual color correction and artifact removal.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "AI is used to generate the announcer voice for racing modes.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "AI also assists with translating in-game text.",
+      "marketing": "The disclosure lists promo banners alongside loading screens as 2D art refined by neural networks and then hand-corrected; the art and marketing findings rest on the same sentence."
+    },
+    "sourceRecordHash": "27fa8a13e855b431c5f1db8a7e1b02fab3c1903d0b59d0f43acc158845f630fd"
+  }
+}

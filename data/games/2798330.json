@@ -1,0 +1,84 @@
+{
+  "appId": "2798330",
+  "name": "Dungeon Settlers",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "殖民地模拟式地牢探险。开发者披露生成式 AI 用于游戏本地化，部分语种由人工翻译或审校，未提及其他制作环节。",
+  "aiUsageCategories": [
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "披露称生成式 AI 用于游戏本地化，部分语种经人工翻译或审校；未说明哪些语种由 AI 直出。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/2798330/",
+  "developer": "CanOpener",
+  "publisher": "CanOpener, WhisperGames",
+  "steamReleaseDate": "Sep 4, 2026",
+  "genres": [
+    "Simulation",
+    "Strategy",
+    "Early Access"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/2798330/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "Generative AI was used for the game's localization. Some languages were translated or reviewed by human translators."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2798330/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 292）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/2798330/discussions/0/592940297913236882/?l=english&ctp=2",
+      "label": "玩家批评 AI 本地化（无开发者回复）",
+      "date": "2026-10-30",
+      "excerpt": "I can't give a pass to them just for being indie when the end result is they made a choice that will result in a worse product for the people getting versions built off AI translations."
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 292），首页无 AI 相关主题。逐款检索公开报道 1 次、登记 6 条结果，其中 1 条相关并已读原文：讨论区玩家批评 AI 翻译质量、认为影响成品，帖内未见开发者回应；其余为无关或无法访问来源。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Generative AI was used for the game's localization. Some languages were translated or reviewed by human translators.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A colony-sim dungeon crawler. The developer discloses that generative AI was used for localization, with some languages translated or reviewed by human translators, and covers no other production area.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 292), none of which concern AI directly. Coverage was searched per game with 6 results; one was relevant and read in full - a discussion thread where players criticise the quality of the AI translations, with no developer reply visible - while the rest were irrelevant or unreachable. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "Generative AI was used for localization and some languages were translated or reviewed by human translators; the disclosure does not say which languages are AI-only.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "be51dcf8aced3ee4f496487b96762322c2735b74f107212c27ac42d1c7546fb9"
+  }
+}

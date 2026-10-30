@@ -1,0 +1,93 @@
+{
+  "appId": "1826420",
+  "name": "CarX Drift Racing Online 2",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "漂移竞速模拟。开发者披露教程旁白使用 AI 配音，披露仅此一句，未涉及美术、音乐或其他环节。",
+  "aiUsageCategories": [
+    "voice"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露只提到教程语音。讨论区“AI to good?” 争论的是生涯模式对手的表现与判定，属传统游戏 AI，不能作为生成式 AI 用于玩法的证据；该领域仍未明确。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "披露称教程旁白使用 AI 配音。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "voice": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/1826420/",
+  "developer": "CarX Technologies, LLC",
+  "publisher": "CarX Technologies, LLC",
+  "steamReleaseDate": "7 May, 2026",
+  "genres": [
+    "Massively Multiplayer",
+    "Racing",
+    "Simulation",
+    "Sports",
+    "Early Access"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/1826420/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "AI voiceover is used for the tutorial."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/1826420/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 276）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/1826420/discussions/0/562534348863138448/",
+      "label": "AI to good?",
+      "date": "2026-10-30",
+      "excerpt": "Is it just me or is the AI when doing the career mode just elite FD drivers?"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/1826420",
+      "label": "AI Transparency Index 条目",
+      "date": "2026-10-30",
+      "excerpt": "AI Usage Disclosure AI voiceover is used for the tutorial."
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 276）。已读主题“AI to good?”正文及回复，内容关于生涯模式对手强度与计分判定，属传统游戏 AI，不计入生成式 AI 使用。逐款检索公开报道 1 次、登记 6 条结果，读到 AI Transparency Index 条目，该站按商店披露整理。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "AI voiceover is used for the tutorial.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A drift racing simulator. The developer discloses AI voiceover for the tutorial and nothing else; art, music and other areas are not addressed.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 276). The topic \"AI to good?\" and its replies were read; they concern opponent strength and scoring in career mode, which is conventional game AI and is not counted as generative AI use. Coverage was searched per game and an AI Transparency Index entry was read, which is compiled from the store disclosure. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure covers tutorial voice only. The \"AI to good?\" thread argues about opponent behaviour and judging in career mode, which is conventional game AI and is not evidence of generative AI in gameplay; this area stays not stated.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "The disclosure states that AI voiceover is used for the tutorial.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "1bf2b3bfdceceebb3eb243c9e2cd360f9cd55491a7e9d28491c76a562e4cba7d"
+  }
+}

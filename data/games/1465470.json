@@ -1,0 +1,78 @@
+{
+  "appId": "1465470",
+  "name": "The Crust",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "月球殖民与自动化工厂模拟。开发者披露配音、音乐与 3D 模型由专业人员完成，生成式 AI 用于辅助部分视觉元素（艺术贴图、公司 logo），产出经人工复核后使用。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露称 3D 模型与动画由职业美术团队完成、99% 内容由专业人员制作，但没有按领域说明玩法本身是否有 AI 参与；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称生成式 AI 用于辅助制作部分视觉元素（艺术贴图与公司 logo），产出经团队复核、编辑或进一步润色后才进入游戏。",
+    "music": "披露点名四位作曲者，称全部音乐由真人创作并有授权。此为开发者自述，未经独立审计。",
+    "voice": "披露称全部配音由职业演员演出并有授权。此为开发者自述，未经独立审计。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "voice": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/1465470/",
+  "developer": "VEOM Studio",
+  "publisher": "Crytivo",
+  "steamReleaseDate": "10 Sep, 2026",
+  "genres": [
+    "Simulation",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/1465470/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "All voice acting is performed by professional actors and is licensed. All the music in the game was composed by real composers—Ilya Khaminov, Sergey Sergeev, Alexander Kosyakov, and Emil Zenko—and is licensed. All 3D models and animations were created by our talented team of professional artists. As part of the development process, generative AI was used to assist in the creation of certain visual elements, including artistic textures and company logos. The AI-generated content was reviewed, edited, and/or further refined by our development team before being incorporated into the game. The game has been in development since 2019, and 99% of all game content was created by professional developers, artists, and designers."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/1465470/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 286）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 286），首页无与 AI 使用直接相关的主题，未逐帖展开。逐款检索公开报道 3 次、登记 15 条结果，没有一条与本作的 AI 使用相关，因此判断只依据商店披露与讨论区首页。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "All voice acting is performed by professional actors and is licensed. All the music in the game was composed by real composers—Ilya Khaminov, Sergey Sergeev, Alexander Kosyakov, and Emil Zenko—and is licensed. All 3D models and animations were created by our talented team of professional artists. As part of the development process, generative AI was used to assist in the creation of certain visual elements, including artistic textures and company logos. The AI-generated content was reviewed, edited, and/or further refined by our development team before being incorporated into the game. The game has been in development since 2019, and 99% of all game content was created by professional developers, artists, and designers.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A lunar colony and factory sim. The developer states that voice acting, music and 3D models are made by professionals, while generative AI assisted certain visual elements such as artistic textures and company logos, reviewed by the team before use.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 286); no homepage topic directly concerns AI use and individual threads were not opened. Coverage was searched three times for this game with 15 results and none was a readable article about this title, so the finding rests on the store disclosure and the discussion homepage alone. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure says 3D models and animations come from professional artists and that 99% of content was made by professionals, but it does not address gameplay systems area by area; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Generative AI assisted certain visual elements, including artistic textures and company logos, and the output was reviewed, edited or refined by the team before being used.",
+      "music": "The disclosure names four composers and states that all music was composed by real people and licensed. This is a developer self-report, not an independent audit.",
+      "voice": "The disclosure states that all voice acting is performed by licensed professional actors. This is a developer self-report, not an independent audit.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "5a8e05e1af1d1ca40605bb11fe8969c1217bf0b65297fb4d7ef9511c0ec37933"
+  }
+}
