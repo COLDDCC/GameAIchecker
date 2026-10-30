@@ -1,0 +1,85 @@
+{
+  "appId": "2749950",
+  "name": "Esports Manager 2026",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "电竞俱乐部经营模拟。开发者披露 AI 用于生成选手面部形象与游戏内 logo，没有说明其余领域是否使用 AI。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称 AI 用于生成选手面部形象与游戏内 logo。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/2749950/",
+  "developer": "Neurona Games",
+  "publisher": "indie.io",
+  "steamReleaseDate": "Jul 6, 2026",
+  "genres": [
+    "Indie",
+    "Simulation",
+    "Sports",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/2749950/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "AI was used for generation of players' faces and in-game logos."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2749950/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 278）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/2749950",
+      "label": "AI Transparency Index 对本作商店披露的分析页",
+      "date": "2026-10-30",
+      "excerpt": "AI Usage Disclosure AI was used for generation of players' faces and in-game logos ."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Neurona Games）与英文讨论区首页（可见 15 个主题，总数 278），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 条目，只是对商店披露的转录）；一篇关于 Steam AI 游戏节的报道抓取返回 HTTP 454，未能读取。领域判定来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "AI was used for generation of players' faces and in-game logos.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An esports organisation management sim. The developer states AI was used to generate players’ faces and in-game logos, and says nothing about the remaining areas.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Neurona Games) and the English discussion homepage (15 visible topics of 278); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched once with 6 results logged and one raw source read (AI Transparency Index, a transcription of the store disclosure); an article about a Steam AI game festival returned HTTP 454 and could not be read. Area findings come from the store disclosure text and rest on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure states AI generated players' faces and in-game logos.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "d80b1bf699af1d4bd4ec5ba55b400b35fc5d83679255fd43fd4702e4bc3284f8"
+  }
+}

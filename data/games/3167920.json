@@ -1,0 +1,96 @@
+{
+  "appId": "3167920",
+  "name": "Low-Budget Repairs",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "九十年代旧楼翻新承包模拟。开发者披露 AI 用于部分翻译、音乐与视觉资产，同时声明游玩过程中不生成 AI 内容、游戏代码未用 AI 编写。",
+  "aiUsageCategories": [
+    "art",
+    "music",
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露称游戏过程中不生成 AI 内容。此为开发者自述，未经独立审计。",
+    "code": "披露称 AI 未用于编写游戏代码。此为开发者自述，未经独立审计。",
+    "art": "披露称 AI 用于部分视觉资产。",
+    "music": "披露称 AI 用于部分音乐。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "披露点名的三项里没有写作本身，只提到翻译；不能据此认定写作未使用 AI。",
+    "translation": "披露称 AI 用于部分翻译。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "code": "official",
+    "art": "official",
+    "music": "official",
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3167920/",
+  "developer": "Gray2RGB",
+  "publisher": "Simplicity Games, PlayWay S.A.",
+  "steamReleaseDate": "Aug 13, 2026",
+  "genres": [
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3167920/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "AI was used for some translations, music, and visual assets. The game does not create AI-generated content during gameplay, and AI was not used to write the game’s code."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3167920/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 274）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/3167920",
+      "label": "AI Transparency Index 对本作商店披露的分析页",
+      "date": "2026-10-30",
+      "excerpt": "AI Usage Disclosure AI was used for some translations , music , and visual assets . The game does not create AI-generated content during gameplay, and AI was not used to write the game’s code."
+    },
+    {
+      "type": "third_party",
+      "url": "https://gaming.kroppmedia.com.au/news/low-budget-repairs-out-now-steam/",
+      "label": "Kropp Media 评测：对本作 AI 披露的讨论",
+      "date": "2026-10-30",
+      "excerpt": "The store page carries an AI generated content disclosure from the developers, saying AI was used for some translations, music and visual assets, that the game does not create AI-generated content during gameplay, and that AI was not used to write the code."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Gray2RGB）与英文讨论区首页（可见 15 个主题，总数 274），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源（AI Transparency Index 条目，以及 Kropp Media 评测中对该披露的讨论，两者均与商店披露原文一致）。领域判定以商店披露原文为准，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "AI was used for some translations, music, and visual assets. The game does not create AI-generated content during gameplay, and AI was not used to write the game’s code.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A nineties property renovation contractor sim. The developer states AI was used for some translations, music and visual assets, while the game creates no AI-generated content during gameplay and AI was not used to write its code.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Gray2RGB) and the English discussion homepage (15 visible topics of 274); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched once with 6 results logged and two raw sources read (the AI Transparency Index entry and a Kropp Media review that discusses the disclosure, both matching the store text). Area findings come from the store disclosure and rest on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure says the game does not create AI-generated content during gameplay. Self-report, not independently audited.",
+      "code": "The disclosure says AI was not used to write the game’s code. Self-report, not independently audited.",
+      "art": "The disclosure states AI was used for some visual assets.",
+      "music": "The disclosure states AI was used for some music.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "The disclosure names translation, music and visual assets but not the writing itself, so this is not proof that writing is free of AI.",
+      "translation": "The disclosure states AI was used for some translations.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "6cc842cac857cec20f16375b565d92c42ddbf55f87d65e85816fe22dcb3edcb5"
+  }
+}

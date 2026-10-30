@@ -1,0 +1,98 @@
+{
+  "appId": "4570720",
+  "name": "DragonSword : Awakening",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "虚幻 5 动漫风开放世界动作 RPG。开发者披露生成式 AI 未用于制作任何游戏内内容资源，AI 仅用于部分游戏内对白与 Steam 页面、社区帖子等外部内容的翻译；玩家社区对该翻译披露反应负面。",
+  "aiUsageCategories": [
+    "translation",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "not_stated",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露称生成式 AI 未用于制作任何游戏内内容资源。此为开发者自述，未经独立审计。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "游戏内美术属于内容资源范围，披露称未使用生成式 AI。此为开发者自述，未经独立审计。",
+    "music": "游戏内音频属于内容资源范围，披露称未使用生成式 AI。此为开发者自述，未经独立审计。",
+    "voice": "配音属于内容资源范围，披露称未使用生成式 AI；翻译过的对白文本另见翻译领域。此为开发者自述，未经独立审计。",
+    "writing": "披露称游戏内内容资源未用生成式 AI 制作，原文写作据此视为人工完成；AI 只做后续翻译。此为开发者自述，未经独立审计。",
+    "translation": "披露称 AI 仅用于部分游戏内对白以及 Steam 页面、社区帖子等外部内容的翻译。",
+    "marketing": "同一条披露点名了 Steam 商店页与社区帖子等对外文案的翻译由 AI 完成，属于商店宣传文本。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "music": "official",
+    "voice": "official",
+    "writing": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4570720/",
+  "developer": "Hound13 Inc.",
+  "publisher": "Hound13 Inc.",
+  "steamReleaseDate": "Jul 22, 2026",
+  "genres": [
+    "Action",
+    "Adventure",
+    "RPG"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4570720/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "Generative AI was not used to create any in-game content resources. AI was utilized solely for the translation of certain in-game dialogue and external content, such as our Steam page and community posts."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4570720/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 278）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/4570720",
+      "label": "AI Transparency Index 对本作商店披露的分析页",
+      "date": "2026-10-30",
+      "excerpt": "AI Usage Disclosure Generative AI was not used to create any in-game content resources. AI was utilized solely for the translation of certain in-game dialogue and external content, such as our Steam page and community posts."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4570720/discussions/0/802345853100627015/?l=dutch&ctp=1",
+      "label": "Steam 社区披露争议帖：玩家对 AI 翻译的反馈",
+      "date": "2026-10-30",
+      "excerpt": "Was looking forward to the game til i saw the disclosure at the bottom. Honestly sucks, since was a huge fan of Dragon Nest and i'm happy that its not going to be gacha anymore. But then I saw the AI disclosure, which honestly sucks a bit. That said, if things change for the better especially with the situation in the future, hope the AI translations would be removed and changed."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Hound13 Inc.）与英文讨论区首页（可见 15 个主题，总数 278），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源（AI Transparency Index 条目、一条关于该披露的 Steam 社区主帖，含玩家不满原文）；Reddit 帖抓取返回 403，未能读取。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Generative AI was not used to create any in-game content resources. AI was utilized solely for the translation of certain in-game dialogue and external content, such as our Steam page and community posts.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An Unreal Engine 5 anime-styled open-world action RPG. The developer states that generative AI was not used for any in-game content resources and that AI was only used to translate certain in-game dialogue and outward content such as the Steam page and community posts, a disclosure players reacted to negatively.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Hound13 Inc.) and the English discussion homepage (15 visible topics of 278); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched once with 6 results logged and two raw sources read (the AI Transparency Index entry and a Steam community thread about the disclosure that records player dissatisfaction); a Reddit post returned HTTP 403 and could not be read. Every area finding comes from the store disclosure text and rests on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure says generative AI was not used to create any in-game content resources. Self-report, not independently audited.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Art falls under in-game content resources, which the disclosure says were not generative-AI made. Self-report, not independently audited.",
+      "music": "Audio falls under in-game content resources, which the disclosure says were not generative-AI made. Self-report, not independently audited.",
+      "voice": "Voice falls under in-game content resources, which the disclosure says were not generative-AI made, although translated dialogue is covered separately. Self-report, not independently audited.",
+      "writing": "The disclosure rules out generative AI for in-game content resources, so the source writing is presented as human while AI only translates it later. Self-report, not independently audited.",
+      "translation": "The disclosure states AI was used solely to translate certain in-game dialogue and external content such as the Steam page and community posts.",
+      "marketing": "The same sentence names store page and community posts, so the AI translation also covers outward marketing copy."
+    },
+    "sourceRecordHash": "40d43561021336234a73cbdd8efbe20034ac08ceeac106f58327ba3fba4e9100"
+  }
+}

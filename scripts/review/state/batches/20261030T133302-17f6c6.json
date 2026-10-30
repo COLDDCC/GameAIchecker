@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "batchId": "20261030T133302-17f6c6",
+  "requestedCount": 10,
+  "baseSha": "12815cd797fffd05bdf2255c05086c2e13c6c7ff",
+  "policyVersion": "2026-10-27-demand-en-v2",
+  "phase": "prepared",
+  "createdAt": "2026-10-30T04:33:02.712691+00:00",
+  "oldHashes": {
+    "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
+    "1465470": "951c1d5b6e91735a92e90dc4bc6adda26af114dc6ba22b74d8fa556932a778cf",
+    "1808500": "bee90cff827e79b007dc1a7fc2bb6e6e7905336dcd7a5818d19a88254a5087eb",
+    "1826420": "deefdec0548c7d63e2aed52ee958a9b17eed8f32802c2f77dae62f6940585222",
+    "1853440": "e3ab7831ac4d2e8b7f63eae0a4f2a502e3119bb402f6d913fb3803aa1fd63ef7",
+    "1889620": "c87c2f742a9ae46dc86d2259b755eef419f05604e944be0b210eb073e662d6d9",
+    "1889700": "9c15a699c2035ce43e2a8aa754b050095156453b15d9d75931fa0081833f6f33",
+    "1975650": "de641a4d55d9f555b4521c55ea31f7be8bba3419480ef9d8e8af1744848f0e1d",
+    "2015220": "7e7ec8b746e53f61cf09e971a4483479b03afbbf6a250a976edc4a402f9c1f5f",
+    "2073850": "952e1e9afd7cc1344791dd25f6f9e9cea016687498d1e51b735075164fda365a",
+    "2153760": "007102419fcc7b343422a50b2528546efada4cdc3f30644fd2140b5f07653e67",
+    "2275940": "37a5351f4ba9b9b23f7fad78eae118a2aa15f84481a9194969ac197aa5c7eeee",
+    "2295170": "950c7278fe61c4d39eb82f9592582b78ead8d5b607e9116bf7a6dc37236ab732",
+    "2456740": "dd89e8010d09ae0bafa7209e0a13b4e3f0a996425256f1cc6d0198a74b02680a",
+    "2677980": "e609a314744fc6fcf4962f34eb0d65cd0d2d43b62157035f1d8b157612e8f922",
+    "2708040": "4c42ce311c92361485c621fc8a8b1fd2de19ae2f7cea1065a113f6de6792741d",
+    "2798330": "6482f85e6393ec910d5e39131a7fb84d4857386ebb04af564d7bc800dc152558",
+    "2800150": "59a7df74d9254ed964c49959326a84f59c8fc511210ee6afdaf12f9173b3ff32",
+    "2861080": "2cbb98617efb55120f1f32b96d0c6f52467117d82f645df7a4dd564baf645551",
+    "2870790": "1ee5385f9372d91471122aef44211f5a81ed7e0e292802b4cff3419389a81893",
+    "2887580": "dcec0aeea27dd7cc539379fa27217311293d2b7d8e7df014fcbc781d4e8b4642",
+    "2923810": "08a8e0a2c6a90224b236b3eeba314f5afb5fc0f1ae0d860d9b6751b5a0c2bc11",
+    "2958550": "88930ad433426b159a625487ef9863651c8c43e63521318feff13a569dcf0ebb",
+    "2988120": "b80766ba744192f4fca8a94e43c800304fa955bacf7d277ff0185935ec2f0ccd",
+    "3078120": "4cf4e98e0df9602c09b939ea367a417c0ecda4a413688d61408f08345e5dc159",
+    "3093990": "d169e6f2b51ea14da54d8fe2b3e62c5a29ffa40bca27f857ed65fc8e139e2864",
+    "3109590": "dc6d065335be1877174d5b526d62bd5f4fa771672aedac229c269f87b0998af4",
+    "3161310": "fa2d733976734d213d3af71ec8621ebf3e57734d9e573ad44689d0cdb3933962",
+    "3218230": "2869a4dfee2adaa7abea744d1637fb636090dd5f2eb7fef88d42062410e71ff1",
+    "3218350": "1284aa1b80446d0f74c18607a2848d5e2429ce1e9c289856b1cc927b698b6b4b",
+    "3265900": "1d0c7455bd6c1d09c345abba936ece65fe4333ce44a269e776b802a66869856c",
+    "3284200": "3611fae9637599729d0b7ecfc2506370c4e2cb9d2f5328e6b86050cfe9551aac",
+    "3321460": "2c07a172997b9ae1a9b5c21ee34ce05d749a0e6eaae47cdf7e25cbd612e7ad06",
+    "3405680": "5c10679378ee1eabb748996b049d60cfd2291491c63cf004b2888e5bfe618c37",
+    "3419080": "0b069f058a53f9ee6af21ef68cd10a3ee2df44d1c3e0eea60409b8e1ee032798",
+    "3421660": "19a20224cdc18d0df3a18b8e4532581731dafba3bec80550d0d047269cd4e918",
+    "3432860": "05d531103254a21517af37234ec51227c9cd5f8552e0abfc3bf612ae15ccfec2",
+    "3465440": "5e12e2b84bcf03d64b5286dc6f2ec797404e71c81197e32b59749541dcb614bc",
+    "3517740": "0a79944890b73de175e0be518ee9d9746d2af3601556bc650f6cfcd15beb65a5",
+    "3519780": "35064907c9146b713757f549e95f43b51604ca686ac3aa90700ddec6ae1f9519",
+    "3616280": "81cc5e5f956e5d18090ffa8fdacb9e79e478872af19972a78e002aa6026e8603",
+    "3629430": "55815153c9759a84fa6fc815811d86e4fa4eb8a3a8e454864d602d2ff52bcea1",
+    "3642910": "cbc21097444a278057b3c9c3381cbbae269411e883daf22476142536c4a27d7a",
+    "3658930": "a8c437dafa1d1bc6b964c04b52806c965578ea15fbc3ed3b5b2d1f947e827c89",
+    "3669620": "8c03f01a2917afde103cab5fc3d52424c753cecac12bf5b0e02e784481f12b3d",
+    "3670600": "cd96f944ac56bd8f02f836cff8542176a037a0af7bddd001b370434486b477af",
+    "3680170": "26f205f9c212b8963d0059938f9d9b320811198bc08656978c6ac6745034dce8",
+    "3717830": "22bc57f951c33f36adcb26a45cd1e9774e19a662c8d8f3daa41df7d2db670c7b",
+    "3734220": "1cc2d8bac96282acb146ea2664b55c751e3b5d9edb9f9fa64421bb607df7e6f5",
+    "3739350": "06da1b40462e0d189191f417bc5ec1e9bf17b1750d27663c28a03ab89262e5ee",
+    "3782550": "01408946527f0d3323c35280395ac66d96b5b5b74a6616206d7c65b7dece8ddf",
+    "3796150": "89d236698a6df6256a055c21d3de6dd788533e00b20aa40a9f634a1f0f62a3de",
+    "3797790": "313903c550a6dc17fb436a820006fe377ddccedbf8e4230c9755681defe87609",
+    "3837790": "fbc80d79182f2fd5bf0c6cfad38c63e77aec88fea6075d7293399fb6ac1a8df8",
+    "3884860": "3d89e7661622fc1c5be73b8b99beb4adbea8d704cd3a35abcdc8f6739fee2e1b",
+    "3907570": "1aa7105eb8d22188f4bdae1403737431ad88c9e03d4b6d9f079f0b95046ba2a1",
+    "3948460": "bc037bd0fe73f0c5ae548264bf6418fe3bbe6d6d160a4f8f8dad05a0ee0ff481",
+    "4019220": "a99266928c0534902475e29c335f5c7a12870375afd6888b8923d921b3606124",
+    "4045480": "4592a74006a5f67146251ee3aebb07837681650660d4ca49985543fd37216e63",
+    "4058300": "234ddfa7ec6acab5b88ab04b9563f271b6ec1dd2b9145d7b075b0fae1799033e",
+    "4093320": "1e6113bee8abc2e4b04a632e55efac398b94e50fc3c98eca2a267666ffca452c",
+    "4106650": "9ae662564f497bbfaa5db3cdb06587242fdac75f79d1cafdedd9f9716044caeb",
+    "4110770": "f3e0c8fa0400bf967d37be11a48586fb94d6753a205d0476feed982618327e9e",
+    "4142360": "e36c2bf5ec644d7490010fb2785b3ec2209bdd249c1bf036a037f5801e456449",
+    "4163270": "387b4f9b838098226e1b9c6cdaa321acbaa43b2a6d97e6c247670caf4dffbffd",
+    "4180840": "5f1551127b17a35558e822a7dc29e856df57c1971bbb1e15ca33fb8df19a6f18",
+    "4189910": "bbb5e0f66e9096e2723caac4c2695af37925dfa533e0523d85ae6bf24550d6f6",
+    "4197610": "6a8323fd0774038120be3fc6792cca06c363893af71866248d88db1501c21dc7",
+    "4210140": "2c30f46b0e24a841b70467bc4b52fc75c5886195e8c899effe4d08a74531c2f3",
+    "4225280": "541ef89a363785d030d571bacc2c6745ba90bfc237b80a3774a4e8240a57d8c7",
+    "4252340": "ff613148cd122b6ac31234164ed017857ad6c91296b7fb3b518cdd5d992a5b63",
+    "4264000": "eea3418ffd765dd3da582b498c40cdad95196011c50b523d0b2853b5e209227b",
+    "4283610": "4ebe8490b96b94b8caf858623df9fd66bbe6e364116f4127e2dc9128dc10198f",
+    "4317690": "513eff8c634fd0860b88e7cf958b270f95c8172216c91f66c29f38ae6a886972",
+    "4348910": "37de7776dccc53facfefb90c0399870a7ca0581328f21e5364dfefc87d2d0201",
+    "4360980": "960d7dd126a582671b6022098b4bfc00fb1accf32b4e7860fc54c2d7e8990d08",
+    "4395320": "ce93d456b849a6dfe4c870cc69455bde450c35e36f09728cd11221f46532cafe",
+    "4410710": "7871186e4e6bb70a62c8add2ca7032cf08a68c708633817baacb52735084e478",
+    "4440550": "9a04b6c922d3df57c4d3554f8c9ed60fae3941c36db2581a32a7a9a0cbcd0932",
+    "4450660": "ae42b5b169cd5ca3359e5e2e01aa54dd190d7697bd9c16e58bd1408be5b4662e",
+    "4462580": "ab541b05576952236babd15f4b0809b5cf7873fab517d9ba55ba25e5953e925c",
+    "4484810": "0cb92a04626a131c948ecd22b5e4c8dbe9beb3eef3eda8a59103b7e5433e5ca2",
+    "4487060": "7a7943ca9737fab3f8e3ebbed977d49ab9993f32f8ff9264f587edcdbeaf239c",
+    "4490840": "20cab29d97530e6436782323346faf385801b4ea25b4a09c6ffef1e302aa2810",
+    "4512740": "1d59ed66b0b799323d2a0725c4590670beec6e46eb51117366d556c6fd42a5ef",
+    "4517370": "ce99a76f414540f6d688ba0d99a3d2c24b7ae5a9f23fbae97a4b57ec802d6992",
+    "4521650": "81213951eee5d4462ee46e225b49411da15644375aa8b99dbe2609703faf9e3c",
+    "4541470": "12e722038316aa25a93aae8028ef1fa1637ef8bf5086b9281274638bf0ebd43b",
+    "4544110": "e2c00ead2d6c69eb2b392680490efcaf9d3c68d2b0403c0f13496c56e03e16a5",
+    "4553100": "281a634a000110713bd6f9c7fc42cf3a4ca2a07ed506ac6997c3b6dc50304cd9",
+    "4570020": "3f855d4eaa02ce1ccc88c49ed7398b0aed93363957d3a76549cf0568775f1e0b",
+    "4576390": "54ffc4aadf29059dee836868f64583b277a80c1bfc5db31043f6eedc6cf99b46",
+    "4598530": "aa9d9a8574d347e95089e6a30946ec3580f3cd74287f0a0cdb3e31a1677a065d",
+    "4661070": "60727d9d51a88326d8233d71cfeafbf6777be08e97f60861088530607b0b1b78",
+    "4693000": "b3d78ab89f785eb8a558bf01f2908161d45cb7b7c58b7b63931d28f9e2771544",
+    "4709270": "4ad06a127833f079e099dcb33871095fae0169d8f34cb4eee010a112f85dea56",
+    "4736090": "7942958c4decb384cd2e4b8501f1fe946ca88aa26db9c50ea46d70580020c3ee",
+    "4740930": "e48e964e7c89da550155a161bee4d13937dc51d705b8d34af12802bb00eccd23",
+    "4794490": "bb32dcbeaf91034f730d41e887b62ddb4c69062530c383083eca3cc2f9d0ea52",
+    "4824220": "e92d54c2cc9e7c46a234f330504be8eddead78c76cb24812d29acb5c6ed6817b",
+    "4826820": "0cbeb5621b061a859afb08a1c5682eef3a5ade86417ef6920c51b6649b89930e",
+    "4858850": "cc23fef91e31482f99e3c759a90ca953152377dce3ce3658000cb0adcadd90ee",
+    "4868310": "c581abe0d09d16949a5c1ae5ca5288e33574e11fca9d30813cd8e8cac0ba82f0",
+    "4900890": "0f4b06debe25f1063232b50b0361c429dff83ee717edb67cc34141826a31d594",
+    "4911480": "675064bcffe32a7c2f16df37ebbdfe2ec9e9d3cefd038f8a4077ed5ac37032d1",
+    "4919570": "6db9a9032405731d678ce73b0f359a8c49784b4fab1d0b68d3b3eadb87580a13",
+    "4929280": "ac2e6006dd83a87fd342f351c63e4f7b7ae5c4b4b07177a05828532f7dc5c424",
+    "4930450": "d343d8d93c9e16cfd42e43283d083fbe521731ee5b00ba0bff6e5bf695e7483f",
+    "4935510": "1090d16e0731ea7ab76e9c876265ad81467503188891eefdcfc702e909dad313",
+    "4943260": "5ff659d819450cc2c50060dce5badc9dbad3fe7b894043bb08c3b4951386dfb4",
+    "4949400": "beb2a97ee8585ce7ffa675c3e5df898e3356a0d677a58d222cc7c060832ab119",
+    "4951480": "44f05503ec1c9147738d2d9a5f921a7c584df50884027f1ab3b2c91ac19382c7",
+    "4954970": "5b5ad5d1dfa3af117ab943246e8dac5e0900aa64708d1e755866429ef0658c45",
+    "4955250": "bc71314cbad0b27975b1062ca151ebda924ee8d9b2d87d6fa8a3156e312cc5c1",
+    "4982910": "70d89b18b985a753aa9afd54742964b6c3c62b36fc8bef94be436abe22300323",
+    "5004560": "bb733a438c43efb3c63d3f670225e4c33208308aff6365a6b6799f3156cba12b",
+    "5012840": "aa429283c94d07d95e5821aab92fe34171cb8a6f839ed7658de20e22e66ba87a",
+    "5037200": "ece32ea1f9d5d013d0d90fa2f417a016c3714f32e9e25004c858b39ed5eeb6d8",
+    "5051910": "4c5eeeeb64d4d697a30c755ddfe7afb46985171ee0c192a1e4e8438c50bc9c18",
+    "5053550": "e219e6b026be405f2994625a0f45fe5e2d48d32eec90ef492bfbc7682cdf4844",
+    "5053630": "d5fc44242dc0c673a3a298157b21ee633fe8991b8a4dcade7ea5eda136f6e842",
+    "5073550": "f104673a5926d315f53b6a76fe3d12a7f6dc2090a7d4f6f9ad78d4f0cf27704d",
+    "5086350": "876faf1b7a062f7976b914ed6b6436851260fcb2d9811df7d3f58b01146e0e02",
+    "5088440": "afb90929e76f2d730f3ece6c2df27b8ea8ba228cf1f16a09e0c67f59646b991e",
+    "5117020": "82542f83bd9cf8236c0f5d1a8f69cd78251358b5b6bcccc6176dfd6059ec1984",
+    "5117550": "a95850a8382fc705ae3430f23bdc9b36ccb53821180b61557d8cde340197e57f",
+    "5120010": "974f1be4ec814279fec09b1ddd4b296a01dc70ba0bfcb2dd2c83f98d13dabc4a",
+    "5121360": "7878ae57870c061cd495f9c2961671868afabb48fe460ba484b91a1f741ce84b",
+    "5145600": "e44db903cdb3e9aaecbbdd486efe8fa7ba82df791db8068424023b80cdcfafc8",
+    "5160800": "91be8cf885d15483a8e974c9536ca35d84add40c9934b0c431d14262edde2f79",
+    "5175310": "88847c6ff373673598246f4f777bf515e4e8d95c6b5ae508d69c7f93a01a3073",
+    "5182120": "5f0fc3dcdb560a0dcaf86d6d3f63655aa117c885855fdb94e621d27b7431f871",
+    "5192330": "bb452399c00a1b79a1d9e14490611899a20f1cf017a3708719e0a4aaf44e0c0a",
+    "5200400": "a149b3e4e90478128daeaa74600a0a7bf34c64cd6dacc53fdf1229e52be3bb4f",
+    "5200620": "953d290a9b5a1206fdcb82caf11bcd9dae2b589cca9534bcf7a72b4847cb5b2f",
+    "5203430": "1b53e51c6b86f7859d126dc1f2f2f557f7b17e3918a4494cfc602f7b7a055dd5",
+    "5212940": "8a00f58f6a111ea7c600734b2b35efd05b32078f186e8ee53088a75126d108d3",
+    "5233870": "3cef4928eef56651cd877d3bd9c99ba3dc16e316d80475fddde8ec2c3818abc4",
+    "5271610": "e7a1800e834078a8699da676d3c804600d2e453b06c8851897f8ca29cc9eaad9",
+    "5272230": "b26fd309b10dd62a0aad7defff9643fe1122a9a9ec9ffc2d7d3b7356bb633b4a",
+    "5285080": "47199708d344a8b55da2ff105166f14d4dcbb147f7671d387ff538ed36e6c547",
+    "5285650": "87850db8e8512b8bf910b1f1effcd9bfe0587813b4762c2d1bac87b7f6a79b74",
+    "5300720": "6d2acdfdada68a6d56bf314d8623a19d0d9336033530f8acbf398e1c79e513b0",
+    "5315310": "913fad7387442d731eb7e549c411f73af7dd23d285950de7a90bee02ee69b071",
+    "5323250": "8be657e4d626701817b2a50f4e69acdf560b47fc91de2379a3f3fcf52a0afbf4",
+    "5335510": "a4370d9972eadc68a71170663fce9c675264cad53630054c011d36b9f9ebdfdc",
+    "5344070": "fdc0d9f09de7bad42b941d1f54dc3ce37c47a85c5e4bd239f6d2d3a22bb5120a",
+    "5345260": "ebda27212b39bbb715bc887fe983cf09a7c004d62124181ed6b14ec6d9fefa0a",
+    "5391500": "c89d6cc8c33cb6ae06ba003bc974abed5421971e4fb53ecd8da1c63238be6b17",
+    "5393000": "55870764ea6a658515c4b99b52d89bd6d97b137166a7f7ae156ff26166eb72dd",
+    "5418470": "6de187ccf46b1fe9af36f4e78edd5ff31b28358a518441c47b2584a035079772",
+    "864170": "d0971015b4e54dc9280995e1547b2c71dc960586879ebf8364d8d91b0aebf8ee"
+  },
+  "games": [
+    {
+      "appId": "1331550",
+      "name": "Big Ambitions",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/1331550/?l=english",
+          "fetchedAt": "2026-10-30T04:33:27.858417+00:00",
+          "contentHash": "eafec926dfb7c99c6e042bcb9ae73916bea497d22a856b237e11581c62717a31",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/1331550/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:33:29.154466+00:00",
+          "contentHash": "e29d5323ce86aadc92064cda9653c339ccdb72adcc39550aa4f236a73a2a956b",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://aitransparencyindex.com/products/steam/1331550",
+          "fetchedAt": "2026-10-30T04:47:16.570939+00:00",
+          "contentHash": "f29b66638b2d3ab448284c1852cdbb4565d920232c9f577dfd8c9bc87daba51c",
+          "locator": "full article text"
+        }
+      ],
+      "evidenceHash": "1b6d186d327361d5aba89b30e57dc81262d7240c33eaf0e25157a6f0e8aca7ef",
+      "decisionHash": "7675173d402480d0f5e7e8df556b23bf099cfe3733ec2ebdb494f74ac8c5e11b"
+    },
+    {
+      "appId": "4570720",
+      "name": "DragonSword : Awakening",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/4570720/?l=english",
+          "fetchedAt": "2026-10-30T04:33:30.098330+00:00",
+          "contentHash": "e9c99025139f6d3f2f3d2735780a514a59b8c12c661582f9214e864574b868bf",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/4570720/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:33:31.426823+00:00",
+          "contentHash": "da23a1afab68e159fb7c56627ea08351cbbf499d93d908fd1dce45aec474da75",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://aitransparencyindex.com/products/steam/4570720",
+          "fetchedAt": "2026-10-30T04:47:41.953481+00:00",
+          "contentHash": "6f37a269ec0744c9990e18cc93680b8df809c48e5ed5517634850bbaca8734f1",
+          "locator": "full article text"
+        },
+        {
+          "id": "community-0",
+          "sourceType": "community",
+          "url": "https://steamcommunity.com/app/4570720/discussions/0/802345853100627015/?l=dutch&ctp=1",
+          "fetchedAt": "2026-10-30T05:01:01.594744+00:00",
+          "contentHash": "bb151473c4f76e2dfe31a1b202d744dc8fdab6048ac421478b5b6590e9226c07",
+          "locator": "full article text"
+        }
+      ],
+      "evidenceHash": "7458520aab2231561ddd2482292f59b4618916061a8f23b9a2b0eae490334ee1",
+      "decisionHash": "9fd41304b8fbc1a2f42c21336945da3371bd4e6a7c8e22f2bd242f095590e4e1"
+    },
+    {
+      "appId": "4080220",
+      "name": "EA SPORTS FC™ 27",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/4080220/?l=english",
+          "fetchedAt": "2026-10-30T04:33:32.162249+00:00",
+          "contentHash": "c1085600f54ef360c2c2871712aaf8392c6b5c510f65ecf490935625ed1b931f",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/4080220/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:33:33.390646+00:00",
+          "contentHash": "d571419bd4d1eae2630be8c74a851b9e787660eb2b34a40d3b3d0ed233c936a3",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://gamedb.ai/games/4080220-ea-sports-fctm-27",
+          "fetchedAt": "2026-10-30T05:08:27+00:00",
+          "contentHash": "f59f1b50a35bc7c28adce57683a1808172751504c2817deccd066c71b1cb3227",
+          "locator": "AI disclosure / How AI is used"
+        }
+      ],
+      "evidenceHash": "a2ca045fc51f7ee91a0e53a90399985fff4058056703744bd5cf25e9b6fae9eb",
+      "decisionHash": "5453bf3fc8e39234357a12fc38b97a2d2bf6b5d0db04534d1d72d914c5e1aec0"
+    },
+    {
+      "appId": "2749950",
+      "name": "Esports Manager 2026",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/2749950/?l=english",
+          "fetchedAt": "2026-10-30T04:33:36.195291+00:00",
+          "contentHash": "a5e08ba1df1d5af9f3bb4a43e737ccd740a857cae0da7d11889ea5a92926fff8",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/2749950/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:33:37.569211+00:00",
+          "contentHash": "b454d9f849680c02c46eed91ed7d861f59c474e1478666ef250b4ffb30fdb7a0",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://aitransparencyindex.com/products/steam/2749950",
+          "fetchedAt": "2026-10-30T04:49:08.787023+00:00",
+          "contentHash": "b23da67b47a86fffa3a773bc8d14ab3d12c6fd03a0589afd129e1600ccfc493c",
+          "locator": "full article text"
+        }
+      ],
+      "evidenceHash": "22ab871000155b81d6629713c7c3406ece459729f6bee82cd3463158340a6a01",
+      "decisionHash": "88008b0aa379d8754aeee41bdf9214946193cfaafc993bd41706d4aabbb96caa"
+    },
+    {
+      "appId": "4032350",
+      "name": "EA SPORTS™ College Football 27",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/4032350/?l=english",
+          "fetchedAt": "2026-10-30T04:33:38.284181+00:00",
+          "contentHash": "251b17770f95a91d6a11583fd45b8bb7bc2c19897d9f6b398826bbccb2b11145",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/4032350/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:33:39.550700+00:00",
+          "contentHash": "4b2cfb7ddadf7b618248fb07378b4b2176178153c4c74661f9e011be01834031",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://howmuchai.games/ai/live-generation",
+          "fetchedAt": "2026-10-30T04:49:35.450976+00:00",
+          "contentHash": "4b628d26fd55cdd7f854ec202f2b3b432fab495ca41974996380b462b8c97797",
+          "locator": "full article text"
+        }
+      ],
+      "evidenceHash": "387e2f61ebce7dd65de990bcfdf1abe7a8b969f9a031a7f90b4780d64a621855",
+      "decisionHash": "084a0266579ebf89e2d3b3ccee0809efeb439e5bb9e8b129d43e1d06af4f4391"
+    },
+    {
+      "appId": "3167920",
+      "name": "Low-Budget Repairs",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/3167920/?l=english",
+          "fetchedAt": "2026-10-30T04:33:40.232720+00:00",
+          "contentHash": "39cbdb0dc6efdb6a08712d968e18dbecb2a411d116d383697e9641ba2ea4a3f7",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/3167920/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:33:41.582764+00:00",
+          "contentHash": "522448c481b4bf6f981b4c5437c95cf19780d48c3ff5d0363e963f5707e46c36",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://aitransparencyindex.com/products/steam/3167920",
+          "fetchedAt": "2026-10-30T04:50:39.205967+00:00",
+          "contentHash": "d8f1f5ae508b22a431b3ee51c33ad551bbc0b524ddd0b22c657132ad02061e4a",
+          "locator": "full article text"
+        },
+        {
+          "id": "press-1",
+          "sourceType": "press",
+          "url": "https://gaming.kroppmedia.com.au/news/low-budget-repairs-out-now-steam/",
+          "fetchedAt": "2026-10-30T04:50:39.944872+00:00",
+          "contentHash": "9ac1cb18cd56df973e5d987bc80c210a8802a5c583a53ed2bf5328d251fb658a",
+          "locator": "full article text"
+        }
+      ],
+      "evidenceHash": "5e4d74f8643888bb13013266ae86f0cf907d9c6a8f0c96d377e4b461e605d162",
+      "decisionHash": "6a1f890074afa2e50b97f68ff63d42430d563e80fc5915264e256f89761f1d1a"
+    },
+    {
+      "appId": "5245810",
+      "name": "ForgeTax",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/5245810/?l=english",
+          "fetchedAt": "2026-10-30T04:33:42.233670+00:00",
+          "contentHash": "00b7a21a76de640f8de7d100da6f8c1bb50124bd69bc23bd0bcbdffb9fbd0187",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/5245810/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:33:43.556842+00:00",
+          "contentHash": "7036c65082128ee717cd0bf479ea8ddf6deae79f070943fa3ec1f289e6e2e97a",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://gamedb.ai/games/5245810-forgetax",
+          "fetchedAt": "2026-10-30T04:51:10.176362+00:00",
+          "contentHash": "d09c311df6bb384a703ab0cf07e4cd25c56ce3cc744878b70637750d24512ada",
+          "locator": "full article text"
+        }
+      ],
+      "evidenceHash": "2ccdb61e5f89c9275318e6fbed5180b216730470728c678c5ea8173f0b01f5f5",
+      "decisionHash": "2198907d2eb7104208384ea03bb3ea705199df3cfcc995ed763d004890b5e9ba"
+    },
+    {
+      "appId": "4243990",
+      "name": "Path of Idle: Old Gods Rising",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/4243990/?l=english",
+          "fetchedAt": "2026-10-30T04:33:44.481489+00:00",
+          "contentHash": "a07159943f143ea5f78f450eb5de8685117cd264f7a63ee27d27c63d5924eb55",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/4243990/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:33:45.780892+00:00",
+          "contentHash": "ec242ad210b62d5c7710f2f3af860c9d31f124aafbcb19e3ec2f4356513f66dd",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "community-0",
+          "sourceType": "community",
+          "url": "https://steamcommunity.com/app/4243990/reviews/?browsefilter=toprated",
+          "fetchedAt": "2026-10-30T04:51:32.525592+00:00",
+          "contentHash": "887382eca05ff2f89e945ad8aa4356524da4cf99ddb680f7069aff138a7163ce",
+          "locator": "full article text"
+        }
+      ],
+      "evidenceHash": "f52d7297dc762b92bd17adeeb26824c1ac03a58faebe7bc105a52e0f79d25fce",
+      "decisionHash": "a4585bc2c4669415af386723069daf8158ff44ba316d9b1b9b7a296b10ef4f73"
+    },
+    {
+      "appId": "4240610",
+      "name": "Code Velocity",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/4240610/?l=english",
+          "fetchedAt": "2026-10-30T04:33:46.480390+00:00",
+          "contentHash": "7e55eda8ca7be1dee0c283ad6479de871d95aea679e0c8e0d4c2b60310fd0e71",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/4240610/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:33:47.786450+00:00",
+          "contentHash": "41a4263bbe20849f6fe8b415d457368eb9e630271e14959f55731d488e7462b0",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://aitransparencyindex.com/products/steam/4240610",
+          "fetchedAt": "2026-10-30T04:51:53.630045+00:00",
+          "contentHash": "efbf3ede3e50e728cf23af7336ee46d54e3241eb6b697407d84ae1db0ed67ff1",
+          "locator": "full article text"
+        },
+        {
+          "id": "press-1",
+          "sourceType": "press",
+          "url": "https://gamedb.ai/games/4240610-code-velocity",
+          "fetchedAt": "2026-10-30T04:51:54.523319+00:00",
+          "contentHash": "4e560390636e12418b0d1b9795b0570c48c456dfac5beffea32a02f96412b51b",
+          "locator": "full article text"
+        }
+      ],
+      "evidenceHash": "09ee474cc577850a540da46088d284fb775ed927f5559a46ddf3c02be573273e",
+      "decisionHash": "17a19940cef986bfdf3670d5803360ae23fd32f521ccdad2c9cef599b53f494f"
+    },
+    {
+      "appId": "4429430",
+      "name": "Origins Trading Card Game",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "complete",
+      "press": "complete",
+      "coverageLimits": [],
+      "retries": 0,
+      "evidenceRefs": [
+        {
+          "id": "store",
+          "sourceType": "store",
+          "url": "https://store.steampowered.com/app/4429430/?l=english",
+          "fetchedAt": "2026-10-30T04:55:41.402127+00:00",
+          "contentHash": "488e5dfe3b8aa5dd83de33c018f8672c32dac141d7cc6610faf2ea29c32e3ecd",
+          "locator": "game_area_content_descriptors / AI Generated Content Disclosure"
+        },
+        {
+          "id": "discussion",
+          "sourceType": "discussion",
+          "url": "https://steamcommunity.com/app/4429430/discussions/?l=english",
+          "fetchedAt": "2026-10-30T04:55:42.712596+00:00",
+          "contentHash": "89f9be0054c5277a72779840ef20a2a99321111166ee1314bf001c1df290dfb2",
+          "locator": "forum topics container"
+        },
+        {
+          "id": "press-0",
+          "sourceType": "press",
+          "url": "https://screenrant.com/steam-free-trading-card-game-origins/",
+          "fetchedAt": "2026-10-30T05:00:09.082959+00:00",
+          "contentHash": "1f323f9b82ef8f96b78eb2a6f2382ca15143312af2ef42917c92383c399965b7",
+          "locator": "full article text"
+        }
+      ],
+      "evidenceHash": "4b5688e52a20f914f747a5f5c3b9a0eed83932a738e5daf3f8abf0e5c18644db",
+      "decisionHash": "1a364e369877b500394b79d75985046adfd76ecf4506ee3d0ead552308496026"
+    }
+  ],
+  "checkResults": {},
+  "publishShas": {},
+  "attempts": 11,
+  "maxAttempts": 30,
+  "selectionOverride": {
+    "authorizedBy": "site_owner",
+    "instruction": "站长 2026-10-30 指令「继续做10个页面」「那你就继续」，未附 GSC/关键词搜索量；沿用其书面豁免，仅本批豁免搜索量门槛，证据与英文闸门照跑",
+    "scope": "This batch only: waive measured search demand; all evidence and English gates remain required.",
+    "recordedAt": "2026-10-30T04:33:02.677413+00:00"
+  },
+  "blockedGames": [
+    {
+      "appId": "4435490",
+      "name": "Call of Duty®: Modern Warfare® 4",
+      "identity": "complete",
+      "store": "complete",
+      "discussion": "pending",
+      "press": "pending",
+      "coverageLimits": [
+        "discussion identity/incomplete"
+      ],
+      "retries": 1,
+      "reason": "Steam 讨论区归属 Call of Duty® 总门户，页面标题为「Call of Duty®」而非本作名称，无法按本作身份核验讨论区（parse_discussion 身份不匹配），非抓取失败。"
+    }
+  ],
+  "applyBase": "41e0ab9ff0ee10c5f4cda2758d92a4f43c53c2eb"
+}

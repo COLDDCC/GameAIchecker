@@ -1,0 +1,90 @@
+{
+  "appId": "1331550",
+  "name": "Big Ambitions",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "城市建设与经商模拟。开发者披露 AI 只用于把游戏翻译成更多语言，并用“Nothing else is AI”总括其余内容；3D 模型、动画与游戏内音乐均称由真人完成，音乐经 Artlist 授权。",
+  "aiUsageCategories": [
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "used",
+    "marketing": "claimed_none"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者用一句总括声明排除本领域，没有逐项说明，属自述，未经独立审计。",
+    "code": "开发者用一句总括声明排除本领域，没有逐项说明，属自述，未经独立审计。",
+    "art": "披露称全部 3D 模型与动画由真人美术团队完成。此为开发者自述，未经独立审计。",
+    "music": "披露称游戏内音乐全部由真人创作并经 Artlist 授权，明确注明无 AI。此为开发者自述，未经独立审计。",
+    "voice": "开发者用一句总括声明排除本领域，没有逐项说明，属自述，未经独立审计。",
+    "writing": "开发者用一句总括声明排除本领域，没有逐项说明，属自述，未经独立审计。",
+    "translation": "披露称 AI 只用于把游戏翻译成更多语言。",
+    "marketing": "开发者用一句总括声明排除本领域，没有逐项说明，属自述，未经独立审计。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "code": "official",
+    "art": "official",
+    "music": "official",
+    "voice": "official",
+    "writing": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/1331550/",
+  "developer": "Hovgaard Games",
+  "publisher": "Hovgaard Games",
+  "steamReleaseDate": "Aug 28, 2026",
+  "genres": [
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/1331550/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "We only used AI to translate the game into more languages. Nothing else is AI. All 3D models and animations are made by our talented team of real human artists. All in-game music was made by real people and licensed via Artlist.io (Artlist Originals, no AI)."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/1331550/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 287）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/1331550",
+      "label": "AI Transparency Index 对本作商店披露的分析页",
+      "date": "2026-10-30",
+      "excerpt": "AI Usage Disclosure We only used AI to translate the game into more languages. Nothing else is AI."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Hovgaard Games）与英文讨论区首页（可见 15 个主题，总数 287），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 条目，只是对商店披露的转录）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "We only used AI to translate the game into more languages. Nothing else is AI. All 3D models and animations are made by our talented team of real human artists. All in-game music was made by real people and licensed via Artlist.io (Artlist Originals, no AI).",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A city building and business simulation. The developer states AI was used only to translate the game into more languages and sums the rest up with \"Nothing else is AI\", while 3D models, animations and in-game music are described as human-made and the music licensed via Artlist.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Hovgaard Games) and the English discussion homepage (15 visible topics of 287); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched once with 6 results logged and one raw source read (AI Transparency Index, a transcription of the store disclosure). Every area finding comes from the store disclosure text and rests on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The developer rules this area out with a single blanket sentence rather than area by area; it is a self-report and was not independently audited.",
+      "code": "The developer rules this area out with a single blanket sentence rather than area by area; it is a self-report and was not independently audited.",
+      "art": "The disclosure says all 3D models and animations were made by human artists. This is a developer self-report, not an independent audit.",
+      "music": "The disclosure says all in-game music was made by real people and licensed via Artlist.io, explicitly marked no AI. Self-report, not independently audited.",
+      "voice": "The developer rules this area out with a single blanket sentence rather than area by area; it is a self-report and was not independently audited.",
+      "writing": "The developer rules this area out with a single blanket sentence rather than area by area; it is a self-report and was not independently audited.",
+      "translation": "The disclosure states AI was used only to translate the game into more languages.",
+      "marketing": "The developer rules this area out with a single blanket sentence rather than area by area; it is a self-report and was not independently audited."
+    },
+    "sourceRecordHash": "28e4475821745cc57714046870ef8727b8d60dc34878289c55cbff87ac90c783"
+  }
+}
