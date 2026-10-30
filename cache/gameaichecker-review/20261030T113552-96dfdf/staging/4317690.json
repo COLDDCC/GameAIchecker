@@ -1,0 +1,96 @@
+{
+  "appId": "4317690",
+  "name": "Crimson Moon",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "动作 RPG。开发者披露 AI 辅助工具用于翻译初稿、再由人工本地化专家复核修订，并声明不会用 AI 生成游戏内美术、音频、叙事与玩法要素。",
+  "aiUsageCategories": [
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "not_stated",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "claimed_none",
+    "writing": "claimed_none",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露声明不会用 AI 生成游戏内玩法要素。此为开发者自述，未经独立审计。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露声明不会用 AI 生成游戏内美术。此为开发者自述，未经独立审计。",
+    "music": "披露以“audio”统称排除 AI 生成音频，未逐字区分音乐与配音。此为开发者自述，未经独立审计。",
+    "voice": "披露以“audio”统称排除 AI 生成音频，未逐字区分音乐与配音。此为开发者自述，未经独立审计。",
+    "writing": "开发者署名说明帖（[developer] 徽标）与商店披露一致：叙事内容由团队创作，未用生成式 AI。此为开发者自述，未经独立审计。",
+    "translation": "披露称 AI 辅助工具用于生成翻译初稿，随后由人工本地化专家复核与修订。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "music": "official",
+    "voice": "official",
+    "writing": "developer_statement",
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4317690/",
+  "developer": "ProbablyMonsters",
+  "publisher": "ProbablyMonsters",
+  "steamReleaseDate": "Sep 1, 2026",
+  "genres": [
+    "Action",
+    "Adventure",
+    "RPG"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4317690/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "An AI-assisted tool was used to create a preliminary translation pass that was reviewed and revised by human localization professionals. AI was not and will not be used to generate in-game art, audio, narrative, or gameplay elements."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4317690/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 287）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://opencredits.games/games/crimson-moon",
+      "label": "Open Credits：按 Steam 披露整理本作 AI 用途",
+      "date": "2026-10-30",
+      "excerpt": "Crimson Moon uses AI for translation, according to its Steam disclosure."
+    },
+    {
+      "type": "developer_statement",
+      "url": "https://steamcommunity.com/app/4317690/discussions/0/582807145029863953/",
+      "label": "开发者“Probably Alex”（[developer] 徽标）2026-09-01 说明",
+      "date": "2026-10-30",
+      "excerpt": "Just to clarify our use of AI during the development of Crimson Moon: generative AI was not used to create the game’s art, audio, narrative, or gameplay content. The world of Gildenarch and the characters, environments, stories, music, and experiences within it were crafted by our talented team of developers and artists. As disclosed on Steam, an AI-assisted tool was used for a preliminary translation pass, with that work then reviewed and revised by human localization professionals. Beyond this localization assistance, generative AI was not used to create the content you see and experience in Crimson Moon."
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 287）。另读带 [developer] 徽标的开发者说明帖（2026-09-01）正文及回复，其说法与商店披露一致；逐款检索公开报道 2 次、登记 12 条结果，读到 Open Credits 条目，但它只是按商店披露整理，不构成独立证据。逐款检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "An AI-assisted tool was used to create a preliminary translation pass that was reviewed and revised by human localization professionals. AI was not and will not be used to generate in-game art, audio, narrative, or gameplay elements.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An action RPG. The developer discloses an AI-assisted preliminary translation pass revised by human localization professionals, and states that AI was not and will not generate in-game art, audio, narrative or gameplay elements.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 287). Also read a post by an account carrying the [developer] badge dated 2026-09-01 and its replies, which match the store disclosure, plus the Open Credits entry, which only restates the disclosure and is not independent evidence. Coverage search runs per game and is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure rules out AI generation of gameplay elements. The disclosure rules out AI-generated in-game content of this kind; this is a developer self-report, not an independent audit.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure rules out AI-generated in-game art. The disclosure rules out AI-generated in-game content of this kind; this is a developer self-report, not an independent audit.",
+      "music": "The disclosure rules out AI-generated in-game audio as a whole and does not separate music from voice. The disclosure rules out AI-generated in-game content of this kind; this is a developer self-report, not an independent audit.",
+      "voice": "The disclosure rules out AI-generated in-game audio as a whole and does not separate music from voice. The disclosure rules out AI-generated in-game content of this kind; this is a developer self-report, not an independent audit.",
+      "writing": "A post from a [developer]-badged account matches the store disclosure: narrative content was created by the team without generative AI. This is a developer self-report, not an independent audit.",
+      "translation": "An AI-assisted tool produced a preliminary translation pass that was then reviewed and revised by human localization professionals.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "bae65320a53de1ebce78c00b7e4bbc366462ff68adcf800c390f389f66aa1cd5"
+  }
+}

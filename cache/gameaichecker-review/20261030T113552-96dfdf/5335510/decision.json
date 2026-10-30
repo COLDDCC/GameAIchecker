@@ -1,0 +1,60 @@
+{
+  "identityName": "Moon Sweepers",
+  "identityDeveloper": "DragDrop Games",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "used",
+      "note": "披露称生成式 AI 用于协助把游戏内文本翻译到所支持的语种。",
+      "evidenceId": "store",
+      "quote": "Generative AI was used to assist with translating in-game text into supported languages."
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "disclosureQuote": "Generative AI was used to assist with translating in-game text into supported languages.",
+  "summary": "最多 16 人合作的月球清理经营游戏。开发者披露生成式 AI 用于协助把游戏内文本翻译成所支持的语种，未提及其他制作环节。",
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 782）。首页第一个主题即为“Why AI?”，已读正文与可见回复，玩家质疑 AI 翻译质量，未见开发者解释。逐款检索公开报道 2 次、登记 8 条结果，读到 GameAICheck 新品列表条目，该站仅转列商店披露。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "description": "官方披露只涉及文本翻译环节，讨论区可见对翻译质量的质疑。",
+  "releaseNote": "Oct 23, 2026",
+  "english": {
+    "summary": "A co-op lunar cleaning and management game for up to 16 players. The developer discloses that generative AI assisted translating in-game text into the supported languages and addresses no other production area.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 782). The first homepage topic asks why AI is used; its opening post and visible replies were read, showing players questioning translation quality with no developer explanation visible. Coverage was searched per game and a GameAICheck new-releases entry was read, which only relays the store disclosure. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "Generative AI was used to assist translating in-game text into the supported languages.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

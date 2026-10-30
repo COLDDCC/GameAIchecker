@@ -1,0 +1,225 @@
+{
+ "sources": [
+  {
+   "appId": "4080220",
+   "sourceType": "store",
+   "url": "https://store.steampowered.com/app/4080220/?l=english",
+   "fetchedAt": "2026-10-30T04:33:32.162249+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "contentHash": "c1085600f54ef360c2c2871712aaf8392c6b5c510f65ecf490935625ed1b931f",
+   "readStatus": "complete",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4080220\\store.html",
+   "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+   "quote": "Generative AI may have been used in creating pre-rendered or live-generated content for this game. All such content is the result of a human-led artistic and creative process.",
+   "id": "store",
+   "disclosurePresent": true,
+   "label": "Steam 商店完整 AI 披露",
+   "publicExcerpt": "Generative AI may have been used in creating pre-rendered or live-generated content for this game. All such content is the result of a human-led artistic and creative process."
+  },
+  {
+   "appId": "4080220",
+   "sourceType": "discussion",
+   "url": "https://steamcommunity.com/app/4080220/discussions/?l=english",
+   "fetchedAt": "2026-10-30T04:33:33.390646+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "contentHash": "d571419bd4d1eae2630be8c74a851b9e787660eb2b34a40d3b3d0ed233c936a3",
+   "readStatus": "complete",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4080220\\discussion.html",
+   "locator": "forum topics container",
+   "quote": "PINNED: FC 27 - FUT Developer Q&A Responses\nPINNED: FC 27 Price Range Update Request\nPINNED: FC 27 - Gameplay Developer Q&A Responses\nPINNED: FC 27 - The Grounds & Clubs Developer Q&A Responses\nPINNED: FC 27 - Career Mode Developer Q&A Responses\nPINNED: EA SPORTS FC™ 27 – Frequently Asked Questions (FAQ)\nPINNED: FC 27 Steam Forum Now Supports English and Chinese\nPINNED: EA SPORTS FC™ Community Guidelines\nCan't launch the game why??\n\"stuck in mud\" gameplay!!!!!!!!\nCannot connect to EA Servers\nController inputs get stuck for a few seconds mid-match (No lag, game runs smoothly).\nPlayer complaints\nWifi and Gameplay Issues\nПроблемы с обновление составов",
+   "id": "discussion",
+   "label": "Steam 讨论区首页核查",
+   "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 712）；仅覆盖首页。"
+  },
+  {
+   "id": "press-0",
+   "appId": "4080220",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/4080220-ea-sports-fctm-27",
+   "fetchedAt": "2026-10-30T05:08:27+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "While you play: Live-generated content Not used, per the developer None Not mentioned Code Art Music & SFX Voice Writing Translation Marketing Read the full disclosureQuoted from the Steam store page Generative AI may have been used in creating pre-rendered or live-generated content for this game. All such content is the result of a human-led artistic and creative process.",
+   "locator": "AI disclosure / How AI is used",
+   "label": "GameDB.ai 对本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4080220\\press-0.html",
+   "contentHash": "f59f1b50a35bc7c28adce57683a1808172751504c2817deccd066c71b1cb3227",
+   "publicExcerpt": "Quoted from the Steam store page Generative AI may have been used in creating pre-rendered or live-generated content for this game. All such content is the result of a human-led artistic and creative process."
+  }
+ ],
+ "identity": {
+  "appId": "4080220",
+  "name": "EA SPORTS FC™ 27",
+  "developer": "EA CANADA, EA Romania",
+  "publisher": "Electronic Arts",
+  "type": "game",
+  "verified": true,
+  "release": "24 Sep, 2026",
+  "comingSoon": false,
+  "genres": [
+   "Simulation",
+   "Sports"
+  ],
+  "description": "Welcome to The World’s Game in EA SPORTS FC™ 27. Step into The Grounds to experience a football playground where the streets meet the stadium, and feel greater control in every mode as community-driven innovations deliver more true-to-football gameplay.",
+  "identityEvidence": {
+   "appId": "4080220",
+   "sourceType": "identity",
+   "url": "https://store.steampowered.com/api/appdetails?appids=4080220&l=english",
+   "fetchedAt": "2026-10-30T04:33:32.727194+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "contentHash": "0449f4f0ca749ea4f5b4b5d1d50d94f10d8c1e6d3613abcfbf58efef51afa0d4",
+   "readStatus": "complete",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4080220\\appdetails.json",
+   "locator": "full response",
+   "quote": ""
+  }
+ },
+ "discussion": {
+  "pagesScanned": 1,
+  "visibleTopics": 15,
+  "totalTopics": 712,
+  "topics": [
+   {
+    "title": "PINNED: FC 27 - FUT Developer Q&A Responses",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/562544805318581878/"
+   },
+   {
+    "title": "PINNED: FC 27 Price Range Update Request",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/588440437426022965/"
+   },
+   {
+    "title": "PINNED: FC 27 - Gameplay Developer Q&A Responses",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/588440114694207040/"
+   },
+   {
+    "title": "PINNED: FC 27 - The Grounds & Clubs Developer Q&A Responses",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/588440114694199316/"
+   },
+   {
+    "title": "PINNED: FC 27 - Career Mode Developer Q&A Responses",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/588439600674183359/"
+   },
+   {
+    "title": "PINNED: EA SPORTS FC™ 27 – Frequently Asked Questions (FAQ)",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/565920039095595369/"
+   },
+   {
+    "title": "PINNED: FC 27 Steam Forum Now Supports English and Chinese",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/520883748724786356/"
+   },
+   {
+    "title": "PINNED: EA SPORTS FC™ Community Guidelines",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/588432892837907189/"
+   },
+   {
+    "title": "Can't launch the game why??",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/565920039095766647/"
+   },
+   {
+    "title": "\"stuck in mud\" gameplay!!!!!!!!",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/563671642446840131/"
+   },
+   {
+    "title": "Cannot connect to EA Servers",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/565923773630544406/"
+   },
+   {
+    "title": "Controller inputs get stuck for a few seconds mid-match (No lag, game runs smoothly).",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/565923773630610512/"
+   },
+   {
+    "title": "Player complaints",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/565923773630598213/"
+   },
+   {
+    "title": "Wifi and Gameplay Issues",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/565923773630587976/"
+   },
+   {
+    "title": "Проблемы с обновление составов",
+    "url": "https://steamcommunity.com/app/4080220/discussions/0/565923773630596954/"
+   }
+  ],
+  "related": [],
+  "coverageLimits": [
+   "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+  ]
+ },
+ "press": {
+  "query": "\"EA Sports FC 27\" generative AI disclosure Steam controversy",
+  "searchedAt": "2026-10-30T04:45:18+00:00",
+  "status": "complete",
+  "results": [
+   {
+    "url": "https://gamedb.ai/games/4080220-ea-sports-fctm-27",
+    "relevant": true,
+    "reason": "第三方 AI 披露索引，逐字转录商店披露并给出领域判定，已读全文。"
+   },
+   {
+    "url": "https://www.resetera.com/threads/list-of-games-that-use-generative-ai.1367848/page-21",
+    "relevant": false,
+    "reason": "ResetEra 抓取返回 HTTP 403，无法读取正文，仅登记为线索（同样出现在两次检索中）。"
+   },
+   {
+    "url": "https://www.g2a.com/news/latest/crimson-desert-ai-art-controversy-explained-pearl-abyss-responds/",
+    "relevant": false,
+    "reason": "讲的是 Crimson Desert，与本作无关。"
+   },
+   {
+    "url": "https://www.dlcompare.com/gaming-news/expedition-33-loses-awards-amid-intense-ai-controversy",
+    "relevant": false,
+    "reason": "讲的是 Expedition 33，与本作无关。"
+   },
+   {
+    "url": "https://www.google.com/goto?url=CAESswEB6zswFYGddVHZJppN8RtlT5wTS4qHAONYj5s0reur8gVb6PdJxM95xwsGtGcdvTSrZSRukVwpTffKGTahEQvmt1seoWzPhwqRZN4-pwF67RPsOa2PzIqzpTYmFVDfyg0Giz2IXKiRSpense79GqHlYAcwWZDGPD1MIvM5XdSTq3bLxFGJh5UJWwlwXlZw2l575NpIDfYfvT5TEB7StdF5OHc6nDxqyo8JCcY8M1s5xkJmJg",
+    "relevant": false,
+    "reason": "讲的是 The Alters / 11 bit studios，与本作无关。"
+   },
+   {
+    "url": "https://www.google.com/goto?url=CAESmAEB6zswFekjjWZsI-ytwFVV6i3cMLSefL0HRCjciQBjzn0Te5iL-LrpzWyCGcEwkUB1BmtVpK-s6W_LU7FLXlrd6T5EygxkDC4NceEO83GsbLzoLz5BtMOS1eWWnmFbOv_uRM9rvpbq9pZxx248bRc_kBLJDihJ_CuO9ugP6GkJeqmqd5BzskeXGYltF6An1uriuTs5wv8Utw",
+    "relevant": false,
+    "reason": "讲的是 Crazy Taxi World Tour，与本作无关。"
+   },
+   {
+    "url": "https://www.google.com/goto?url=CAESYQHrOzAVa-BjuSSncA8hKRcSDtioSIa027r_94cN74g9wKisbMbV8YLBLwqN1h1mH95vYUZcFiV8YuboCuzUu_LaA4HIL9o2274fFlTOVisixmD5BNlj9QAdSrDTkOffaSw",
+    "relevant": false,
+    "reason": "讲的是 Genshin Impact 配音争议，与本作无关。"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=x-Ku0szvuI0",
+    "relevant": false,
+    "reason": "官方发布预告片页，无 AI 披露文本。"
+   },
+   {
+    "url": "https://store.steampowered.com/app/4080220/EA_SPORTS_FC_27/",
+    "relevant": false,
+    "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+   },
+   {
+    "url": "https://www.allkeyshop.com/blog/sega-brazil-fourth-global-sandbox-crazy-taxi-news-r/",
+    "relevant": false,
+    "reason": "讲的是 SEGA/Crazy Taxi，与本作无关。"
+   },
+   {
+    "url": "https://www.techpowerup.com/news-archive",
+    "relevant": false,
+    "reason": "新闻归档列表页，无针对本作的 AI 报道。"
+   }
+  ],
+  "readUrls": [
+   "https://gamedb.ai/games/4080220-ea-sports-fctm-27"
+  ],
+  "coverageLimits": [
+   "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+   "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。",
+   "ResetEra 汇总帖两次检索均返回 HTTP 403，无法读取玩家对该披露的讨论正文。",
+   "未检索到针对本作 AI 披露的独立媒体报道；EA 商店披露本身措辞含糊（may have been used），已按未指明范围处理。"
+  ],
+  "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4080220\\press-search.json",
+  "contentHash": "f986bf933f051e21e13ee82b66bf3505e6a4699f8781be3b35e6b065fcf1a1d2"
+ }
+}

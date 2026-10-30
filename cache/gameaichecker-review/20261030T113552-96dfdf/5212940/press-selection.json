@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5212940/Bunker_Tidy_Up/?snr=1_7_7_230_150_36",
+   "relevant": false,
+   "reason": "本作 Steam 商店页本身，官方披露已通过商店来源单独核查，不作为公开报道。"
+  },
+  {
+   "url": "https://www.reddit.com/r/Steam/comments/1vjlvja/drowning_in_tidy_up_games/",
+   "relevant": false,
+   "reason": "本次自动抓取被拒（HTTP 403），未能读取全文，因此不作为已读来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5212940-bunker-tidy-up",
+   "relevant": true,
+   "reason": "第三方对本作的专门报道/条目，已读取全文并登记为来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZgHrOzAVp_JxIIUJxFzjLV1FpSiqk4tPvCoQowyfApgjUr832lbo2SToimAfk9xWf6aZY9zYt6Kbhz_KPXzAc98UyKJFAZE7BiKeivAZ0-KzwLIYT55c0dQFO1emwRnnI_4CSAzyBQ",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESkAEB6zswFfNiRGfZ4SGRwXidsG58BNa92HBnZZ7bfiR4vnjVtkvkdziY_9IxyUSjW-u3bInAl0lvoHg--R3FBvewmpPaLsekrE567dLP5aFeNZsr2UtlLvcD4dQWmsPZQpdYLC4hlF70_HUVdjDZRzGDY0VrOGQnAG6kYqcgmpXgtN6SkHfxmORJ1mUKHX0QHRY",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZgHrOzAV7bEyq4vt15WQfmafrkrqMtcIrTBlukd7dJVVr8NHhQy71a8h0egKO8pUyDO7g3uHilzGmqGI6Qsi9R6ZBOEdIKxd1DTx1xqH-LB4NCQwMP-svJeidrRCIaehJL_1P6UXPQ",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5212940",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/5212940-bunker-tidy-up",
+   "fetchedAt": "2026-10-30T03:08:01+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full page text",
+   "label": "GameDB.ai 条目：八个领域按披露整理",
+   "quote": "GameDB AI label AI in 1 of 8 areas In-game AI Not stated Code Not stated Art Not stated Music & SFX Not stated Voice Not stated Writing Not stated Translation Not stated Marketing Core Marketing Core Promotional materials for the Steam page were created with AI.",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\5212940\\press-0.html",
+   "contentHash": "ac81739837bc7956c6d6baa84451f4cf0d5f5c8be1676c290548fb10df765922"
+  }
+ ],
+ "coverageLimits": [
+  "检索工具：Qoder WebSearch，每次返回约 4-6 条链接，覆盖范围限于该工具返回结果，不等于全网报道。",
+  "Reddit、ResetEra 对自动抓取返回 403，未能读取全文，因此只登记实际读取的来源。",
+  "第三方 AI 披露汇总站（GameAICheck / AI Transparency Index / GameDB / Open Credits）本身是对 Steam 披露的再整理，不作为独立审计。"
+ ]
+}

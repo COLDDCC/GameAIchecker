@@ -1,0 +1,86 @@
+{
+  "appId": "4243990",
+  "name": "Path of Idle: Old Gods Rising",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "克苏鲁题材放置 RPG。开发者披露约 10% 的美术资产由 AI 辅助设计（含部分战斗场面与天赋图标），产出经美术复核、调整与润色，其余美术资产为手绘。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称约 10% 的美术资产由 AI 辅助设计产生，含部分战斗场面与天赋图标，其余美术为手绘。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4243990/",
+  "developer": "Small Mill",
+  "publisher": "Small Mill",
+  "steamReleaseDate": "Aug 12, 2026",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Indie",
+    "RPG",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4243990/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "About 10% of this game’s art assets were created with AI-assisted design, including some combat scenes and talent icons. All AI-generated content was reviewed, adjusted, and polished by artists. The remaining art assets were hand-crafted."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4243990/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 280）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4243990/reviews/?browsefilter=toprated",
+      "label": "Steam 社区高分评测：玩家对本作 AI 披露的反应",
+      "date": "2026-10-30",
+      "excerpt": "It's not in your face and looks a little asset-y but the game play more then makes up for it. And if you are complaining they didn't tell you about the AI before you purchased you didn't read the store page that literally says Ai was used."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Small Mill）与英文讨论区首页（可见 15 个主题，总数 280），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 5 次、登记 9 条去重结果，读取 1 篇原始来源（Steam 高分评测页，玩家在其中讨论商店页的 AI 披露）；未检索到针对本作的独立媒体报道，一个第三方数据面板页正文与 AI 披露无关，未采用。领域判定以商店披露原文为准，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "About 10% of this game’s art assets were created with AI-assisted design, including some combat scenes and talent icons. All AI-generated content was reviewed, adjusted, and polished by artists. The remaining art assets were hand-crafted.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A Lovecraftian idle RPG. The developer states that about 10% of art assets were created with AI-assisted design, including some combat scenes and talent icons, that all AI-generated content was reviewed and polished by artists, and that the remaining art is hand-crafted.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Small Mill) and the English discussion homepage (15 visible topics of 280); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched five times with 9 deduplicated results logged and one raw source read (the top-rated Steam reviews page, where players discuss the store disclosure); no independent press article about this title was found and a third-party statistics page had no disclosure content, so it was not used. Area findings come from the store disclosure and rest on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure states about 10% of art assets were created with AI-assisted design, including some combat scenes and talent icons, with the rest hand-crafted.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "572be764ab7b1ba7331273b272b892e1264a7ea301dac1d31a9c6d739e77d26b"
+  }
+}

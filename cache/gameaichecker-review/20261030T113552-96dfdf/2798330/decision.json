@@ -1,0 +1,60 @@
+{
+  "identityName": "Dungeon Settlers",
+  "identityDeveloper": "CanOpener",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "used",
+      "note": "披露称生成式 AI 用于游戏本地化，部分语种经人工翻译或审校；未说明哪些语种由 AI 直出。",
+      "evidenceId": "store",
+      "quote": "Generative AI was used for the game's localization. Some languages were translated or reviewed by human translators."
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "disclosureQuote": "Generative AI was used for the game's localization. Some languages were translated or reviewed by human translators.",
+  "summary": "殖民地模拟式地牢探险。开发者披露生成式 AI 用于游戏本地化，部分语种由人工翻译或审校，未提及其他制作环节。",
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 292），首页无 AI 相关主题。逐款检索公开报道 1 次、登记 6 条结果，其中 1 条相关并已读原文：讨论区玩家批评 AI 翻译质量、认为影响成品，帖内未见开发者回应；其余为无关或无法访问来源。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "description": "官方披露限定 AI 用于本地化，且只说明部分语种有人工参与。",
+  "releaseNote": "Sep 4, 2026",
+  "english": {
+    "summary": "A colony-sim dungeon crawler. The developer discloses that generative AI was used for localization, with some languages translated or reviewed by human translators, and covers no other production area.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 292), none of which concern AI directly. Coverage was searched per game with 6 results; one was relevant and read in full - a discussion thread where players criticise the quality of the AI translations, with no developer reply visible - while the rest were irrelevant or unreachable. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "Generative AI was used for localization and some languages were translated or reviewed by human translators; the disclosure does not say which languages are AI-only.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

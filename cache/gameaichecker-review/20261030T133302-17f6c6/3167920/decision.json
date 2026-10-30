@@ -1,0 +1,68 @@
+{
+ "identityName": "Low-Budget Repairs",
+ "identityDeveloper": "Gray2RGB",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "claimed_none",
+   "note": "披露称游戏过程中不生成 AI 内容。此为开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "The game does not create AI-generated content during gameplay"
+  },
+  "code": {
+   "state": "claimed_none",
+   "note": "披露称 AI 未用于编写游戏代码。此为开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "AI was not used to write the game’s code."
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称 AI 用于部分视觉资产。",
+   "evidenceId": "store",
+   "quote": "AI was used for some translations, music, and visual assets."
+  },
+  "music": {
+   "state": "used",
+   "note": "披露称 AI 用于部分音乐。",
+   "evidenceId": "store",
+   "quote": "AI was used for some translations, music, and visual assets."
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "披露点名的三项里没有写作本身，只提到翻译；不能据此认定写作未使用 AI。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露称 AI 用于部分翻译。",
+   "evidenceId": "store",
+   "quote": "AI was used for some translations, music, and visual assets."
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "AI was used for some translations, music, and visual assets. The game does not create AI-generated content during gameplay, and AI was not used to write the game’s code.",
+ "summary": "九十年代旧楼翻新承包模拟。开发者披露 AI 用于部分翻译、音乐与视觉资产，同时声明游玩过程中不生成 AI 内容、游戏代码未用 AI 编写。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Gray2RGB）与英文讨论区首页（可见 15 个主题，总数 274），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源（AI Transparency Index 条目，以及 Kropp Media 评测中对该披露的讨论，两者均与商店披露原文一致）。领域判定以商店披露原文为准，结论基于开发者自述，未经独立审计。",
+ "description": "官方披露点名翻译、音乐与视觉资产使用 AI，并声明游玩时不生成 AI 内容、代码未用 AI 编写。",
+ "releaseNote": "Aug 13, 2026",
+ "english": {
+  "summary": "A nineties property renovation contractor sim. The developer states AI was used for some translations, music and visual assets, while the game creates no AI-generated content during gameplay and AI was not used to write its code.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Gray2RGB) and the English discussion homepage (15 visible topics of 274); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched once with 6 results logged and two raw sources read (the AI Transparency Index entry and a Kropp Media review that discusses the disclosure, both matching the store text). Area findings come from the store disclosure and rest on developer statements, not an independent audit.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure says the game does not create AI-generated content during gameplay. Self-report, not independently audited.",
+   "code": "The disclosure says AI was not used to write the game’s code. Self-report, not independently audited.",
+   "art": "The disclosure states AI was used for some visual assets.",
+   "music": "The disclosure states AI was used for some music.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "The disclosure names translation, music and visual assets but not the writing itself, so this is not proof that writing is free of AI.",
+   "translation": "The disclosure states AI was used for some translations.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

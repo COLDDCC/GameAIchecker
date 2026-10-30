@@ -1,0 +1,60 @@
+{
+  "identityName": "Active Matter",
+  "identityDeveloper": "Matter Team",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "披露把 AI 生成语音写在游戏内角色 Ms. Second 身上，但没有说明该角色或玩法内容是否使用实时生成；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "used",
+      "note": "披露称游戏内 AI 角色 Ms. Second 使用 AI 生成语音，并给出创作理由；未提及其他音频。",
+      "evidenceId": "store",
+      "quote": "In-game AI character Ms. Second is using AI generated voice."
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "disclosureQuote": "In-game AI character Ms. Second is using AI generated voice. Using humans voices for AI character would be cultural appropriation.",
+  "summary": "多人撤离射击游戏。开发者披露游戏内 AI 角色 Ms. Second 使用 AI 生成语音，披露全文仅此一句，未涉及其他制作环节。",
+  "reviewNote": "核查 Steam 完整披露（全文 130 字符）、身份与英文界面讨论区首页（可见 15 个主题，总数 709），首页无与 AI 直接相关主题。逐款检索公开报道 2 次、登记 11 条结果，读到 GamingOnLinux 对该披露措辞争议的报道原文；其中转述的发行方回复属第三方转述，不作为领域判定依据。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "description": "官方披露仅说明一个游戏内 AI 角色使用 AI 生成语音，其余领域未作说明。",
+  "releaseNote": "15 Sep, 2026",
+  "english": {
+    "summary": "A multiplayer extraction shooter. The developer discloses that the in-game AI character Ms. Second uses an AI-generated voice; the disclosure is a single sentence and does not cover other production areas.",
+    "reviewNote": "Reviewed the complete 130-character Steam disclosure, identity and the English discussion homepage (15 visible topics of 709), none of which concern AI directly. Public coverage was searched per game and the GamingOnLinux article about the wording of this disclosure was read in full; its paraphrase of the publisher reply is third-party reporting and is not used to decide production areas. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure attaches the AI-generated voice to an in-game character but does not state whether that character or the gameplay uses live generation; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "The disclosure states that the in-game AI character Ms. Second uses an AI-generated voice and gives an artistic reason; no other audio is addressed.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

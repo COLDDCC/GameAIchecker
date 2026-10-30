@@ -1,0 +1,71 @@
+{
+ "results": [
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4570720",
+   "relevant": true,
+   "reason": "第三方 AI 披露索引，复刻商店披露原文与分析，已读全文。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4570720/discussions/0/802345853100627015/?l=dutch&ctp=1",
+   "relevant": true,
+   "reason": "Steam 社区关于 AI 披露的玩家讨论主帖，含开发者回应原文，已读整页。"
+  },
+  {
+   "url": "https://www.reddit.com/r/rpg_gamers/comments/1v3p49w/today_releases_on_steam_dragonsword_awakening/",
+   "relevant": false,
+   "reason": "Reddit 发帖抓取返回 403，无法读取正文；仅登记为线索，不作为证据。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEScAHrOzAV8md2lyvYI3cm-3vDnigN0idnXHCAnN9O9XeP81uiW9wCo_D1yM3QSwLcCilTz4is4omC3Am1ho0llAiacD033pPmS645tIF4vv_5pDvMXDPznwRSS6tkwR4n7dt21eiyg7T77-MFjIHcPeo",
+   "relevant": false,
+   "reason": "Open Credits 的跳转结果页，与索引站内容重复，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEScAHrOzAVxE--ma4rJsaWM-WYmFS_k6AAowHPUMp6gf9T6oWcbM_rFcr9AZQwJTTvB_zdr2T3bdveJyg8izxlO7VOw0hcPlJ2oVvGLePm6JcBGkPEh8QtmMZ5LG8BMpcLvV76kf7vRIzF8aycqz2dFQA",
+   "relevant": false,
+   "reason": "GameDB.ai 条目跳转结果，内容与索引站转录相同，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESjwEB6zswFfa6dMI7tspX0L377DcM07c0Ht4inhQHIw_vbiZXNlwJxDqEHEG1KYyppEn1wSxWHsalgRn08ZjytA0Vkj8FOFEbh3Iu3NeMjWhIjDqQa9XgC73PeAGNSRVo3aAGgbkY3Euk8LhEo9DqxProRNYguEOCB_BKVD5ys9hk5qJJUOcUITWSIRlnGlNB-A",
+   "relevant": false,
+   "reason": "官方宣传片视频页，无 AI 披露文本；披露以商店页原文为准。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4570720",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4570720",
+   "fetchedAt": "2026-10-30T04:47:41.953481+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI Usage Disclosure Generative AI was not used to create any in-game content resources. AI was utilized solely for the translation of certain in-game dialogue and external content, such as our Steam page and community posts.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 对本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4570720\\press-0.html",
+   "contentHash": "6f37a269ec0744c9990e18cc93680b8df809c48e5ed5517634850bbaca8734f1"
+  },
+  {
+   "id": "community-0",
+   "appId": "4570720",
+   "sourceType": "community",
+   "url": "https://steamcommunity.com/app/4570720/discussions/0/802345853100627015/?l=dutch&ctp=1",
+   "fetchedAt": "2026-10-30T05:01:01.594744+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Privacybeleid | Juridische informatie | Toegankelijkheid | Steam Subscriber Agreement | Terugbetalingen | Cookies WINKEL Startpagina Ontdekkingswachtrij Verlanglijst Puntenwinkel Nieuws Lijsten COMMUNITY Startpagina Discussies Workshop Markt Uitzendingen Over ONDERSTEUNING jQuery(function($) { $('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false}); }); Steam installeren inloggen | taal 简体中文 (Chinees, vereenvoudigd) 繁體中文 (Chinees, traditioneel) 日本語 (Japans) 한국어 (Koreaans) ไทย (Thai) Bahasa Indonesia (Indonesisch) Bahasa Melayu (Maleis) BÈTA Български (Bulgaars) Čeština (Tsjechisch) Dansk (Deens) Deutsch (Duits) English (Engels) Español-España (Spaans - Spanje) Español - Latinoamérica (Spaans - Latijns-Amerika) Ελληνικά (Grieks) Français (Frans) Italiano (Italiaans) Magyar (Hongaars) Norsk (Noors) Polski (Pools) Português (Portugees - Portugal) Português - Brasil (Braziliaans-Portugees) Română (Roemeens) Русский (Russisch) Suomi (Fins) Svenska (Zweeds) Türkçe (Turks) Tiếng Việt (Vietnamees) Українська (Oekraïens) Een vertaalprobleem melden g_sessionID = \"48f416c7f9f60c60e7d27d78\"; g_steamID = false; g_strLanguage = \"dutch\"; g_SNR = '2_9_100006_100202'; g_bAllowAppImpressions = true; g_ContentDescriptorPreferences = [1,3,4]; // We always want to have the timezone cookie set for PHP to use setTimezoneCookies(); $J( function() { InitMiniprofileHovers(( 'https%3A%2F%2Fsteamcommunity.com' )); InitEmoticonHovers(); ApplyAdultContentPreferences(); }); $J( function() { InitEconomyHovers( \"https:\\/\\/community.fastly.steamstatic.com\\/public\\/css\\/skin_1\\/economy.css?v=RsRFFW9vaq1B&l=dutch&_cdn=fastly\", \"https:\\/\\/community.fastly.steamstatic.com\\/public\\/javascript\\/economy_common.js?v=TSVmDS2fQKJu&l=dutch&_cdn=fastly\", \"https:\\/\\/community.fastly.steamstatic.com\\/public\\/javascript\\/economy.js?v=SIfEyylEeKBC&l=dutch&_cdn=fastly\" );}); globalThis.CLSTAMP = \"11188510\"; const g_bIsAppHubModerator = 0; Winkelpagina DragonSword : Awakening Alles Discussies Screenshots Beeldmateriaal Uitzendingen Video's Nieuws Gidsen Recensies Alles Discussies Screenshots Beeldmateriaal Uitzendingen Video's Nieuws Gidsen Recensies DragonSword : Awakening Winkelpagina Statistieken weergeven: Algemene prestaties DragonSword : Awakening > General Discussion > Details van topic impactdummy1 Profiel weergeven Berichten weergeven 3 3 1 26 apr om 0:02 Dit bericht rapporteren Was looking forward to the game til i saw the disclosure at the bottom. Honestly sucks, since was a huge fan of Dragon Nest and i'm happy that its not going to be gacha anymore. But then I saw the AI disclosure, which honestly sucks a bit. That said, if things change for the better especially with the situation in the future, hope the AI translations would be removed and changed.",
+   "locator": "full article text",
+   "label": "Steam 社区披露争议帖（含开发者回应）",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4570720\\community-0.html",
+   "contentHash": "bb151473c4f76e2dfe31a1b202d744dc8fdab6048ac421478b5b6590e9226c07"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。",
+  "Reddit 与部分社区帖抓取被 403 拦截，未能读取全文；已在限制中登记，不据缺失推断。"
+ ]
+}

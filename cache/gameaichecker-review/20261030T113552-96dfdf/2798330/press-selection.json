@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://steamcommunity.com/app/2798330/discussions/0/592940297913236882/?l=english&ctp=2",
+   "relevant": true,
+   "reason": "第三方对本作的专门报道/条目，已读取全文并登记为来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/2798330/Dungeon_Settlers/",
+   "relevant": false,
+   "reason": "本作 Steam 商店页本身，官方披露已通过商店来源单独核查，不作为公开报道。"
+  },
+  {
+   "url": "https://www.siftergames.com/game/steam/2798330",
+   "relevant": false,
+   "reason": "该页返回 404，无法读取全文，因此不作为已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESgwEB6zswFdGWk_zRPliY7uqO893K2-eoQQ_e-lTfkW1yq0wTXmTySA2ys5xoPWkO801wG8eTlwa3fjmVJe4OXcXj2db5UU2vjkRmlSc2Z2rLtT9_jD9nheKFGOuuglyCOtQDaiwj42FrXHf1iJ4G0QebkFJtZIYega-2nujKpYkeLqCQjg",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+   "relevant": false,
+   "reason": "第三方 AI 披露汇总列表页，本次未为本作单独读取与核验，未纳入。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZgHrOzAVEHg8HcH39oUXiBkoVpSNhCVAFYnQXDlTIu9uPz1ybN6HMX0a1-0uahPfKm0a-OhCx-K7FvGtRbCReoT3jiqGeyHUp6nVBPE391e4y1Trq227iKNlNW4TE1GrBVx1pkkWkw",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "community-0",
+   "appId": "2798330",
+   "sourceType": "community",
+   "url": "https://steamcommunity.com/app/2798330/discussions/0/592940297913236882/?l=english&ctp=2",
+   "fetchedAt": "2026-10-30T03:06:36+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full page text",
+   "label": "玩家批评 AI 本地化（无开发者回复）",
+   "quote": "I can't give a pass to them just for being indie when the end result is they made a choice that will result in a worse product for the people getting versions built off AI translations.",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\2798330\\community-0.html",
+   "contentHash": "fa009e02f127a17f3b11a0f6b65c35068212aa190b5ef62924c6ed738519174c"
+  }
+ ],
+ "coverageLimits": [
+  "检索工具：Qoder WebSearch，每次返回约 4-6 条链接，覆盖范围限于该工具返回结果，不等于全网报道。",
+  "Reddit、ResetEra 对自动抓取返回 403，未能读取全文，因此只登记实际读取的来源。",
+  "第三方 AI 披露汇总站（GameAICheck / AI Transparency Index / GameDB / Open Credits）本身是对 Steam 披露的再整理，不作为独立审计。"
+ ]
+}

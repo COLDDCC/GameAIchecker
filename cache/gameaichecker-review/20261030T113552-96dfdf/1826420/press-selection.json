@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/1826420?l=english&snr=2_100100_100101_100102_apphubheader",
+   "relevant": false,
+   "reason": "本作 Steam 商店页本身，官方披露已通过商店来源单独核查，不作为公开报道。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/1826420",
+   "relevant": true,
+   "reason": "第三方对本作的专门报道/条目，已读取全文并登记为来源。"
+  },
+  {
+   "url": "https://steamcommunity.com/id/hypo-says-hi/recommended/1826420",
+   "relevant": false,
+   "reason": "与本作无关的搜索结果（其他作品或无关主题），未纳入。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/1826420/CarX_Drift_Racing_Online_2/?l=schinese&snr=1_1050_curatorsreviewing__suggested-curator-recommended&curator_clanid=34478148",
+   "relevant": false,
+   "reason": "本作 Steam 商店页本身，官方披露已通过商店来源单独核查，不作为公开报道。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESnwEB6zswFanqLask-Um5xrMDw-97Eod4YuZLwC1uIGkMQFxPLSsYlmmB7F0J4ZW1HnEmdkrh9ZTKfgWTGMt892QWr0Zgp7cJp1oHIb4xbW4HOD3IwCixnTuM8hL7naQfia6dKMvh30X5HuspMu821CT2K5Z2ITQos9NSeG3zgb2BwcyNA8kJ7cdWddneI6hJDPAe-BiMX6imnGsp4LL9N4A",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESggEB6zswFX7-kL9ZsQa8hyOAxxg1a0Chp_S-6E_KgaVGayOsCRkoEM1ERWwwA5bi-yyx_Y_TDfSfWjRGk2y96wcBPh5z1uQ-SC3TSXC9fERFf899qwm1IkIT2IhkUjsIp2oGtDOsaUMVo9JIlH-X9cJE-FRACuMz4JzhHMOo_-kNqUuF",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "1826420",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/1826420",
+   "fetchedAt": "2026-10-30T03:07:00+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full page text",
+   "label": "AI Transparency Index 条目",
+   "quote": "AI Usage Disclosure AI voiceover is used for the tutorial.",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\1826420\\press-0.html",
+   "contentHash": "5dba2a068bba797a3a45276f646be8a8eae6527f00df37b5121615b51b7c2edc"
+  }
+ ],
+ "coverageLimits": [
+  "检索工具：Qoder WebSearch，每次返回约 4-6 条链接，覆盖范围限于该工具返回结果，不等于全网报道。",
+  "Reddit、ResetEra 对自动抓取返回 403，未能读取全文，因此只登记实际读取的来源。",
+  "第三方 AI 披露汇总站（GameAICheck / AI Transparency Index / GameDB / Open Credits）本身是对 Steam 披露的再整理，不作为独立审计。"
+ ]
+}

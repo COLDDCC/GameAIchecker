@@ -1,0 +1,82 @@
+{
+ "results": [
+  {
+   "url": "https://gamedb.ai/games/4080220-ea-sports-fctm-27",
+   "relevant": true,
+   "reason": "第三方 AI 披露索引，逐字转录商店披露并给出领域判定，已读全文。"
+  },
+  {
+   "url": "https://www.resetera.com/threads/list-of-games-that-use-generative-ai.1367848/page-21",
+   "relevant": false,
+   "reason": "ResetEra 抓取返回 HTTP 403，无法读取正文，仅登记为线索（同样出现在两次检索中）。"
+  },
+  {
+   "url": "https://www.g2a.com/news/latest/crimson-desert-ai-art-controversy-explained-pearl-abyss-responds/",
+   "relevant": false,
+   "reason": "讲的是 Crimson Desert，与本作无关。"
+  },
+  {
+   "url": "https://www.dlcompare.com/gaming-news/expedition-33-loses-awards-amid-intense-ai-controversy",
+   "relevant": false,
+   "reason": "讲的是 Expedition 33，与本作无关。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESswEB6zswFYGddVHZJppN8RtlT5wTS4qHAONYj5s0reur8gVb6PdJxM95xwsGtGcdvTSrZSRukVwpTffKGTahEQvmt1seoWzPhwqRZN4-pwF67RPsOa2PzIqzpTYmFVDfyg0Giz2IXKiRSpense79GqHlYAcwWZDGPD1MIvM5XdSTq3bLxFGJh5UJWwlwXlZw2l575NpIDfYfvT5TEB7StdF5OHc6nDxqyo8JCcY8M1s5xkJmJg",
+   "relevant": false,
+   "reason": "讲的是 The Alters / 11 bit studios，与本作无关。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESmAEB6zswFekjjWZsI-ytwFVV6i3cMLSefL0HRCjciQBjzn0Te5iL-LrpzWyCGcEwkUB1BmtVpK-s6W_LU7FLXlrd6T5EygxkDC4NceEO83GsbLzoLz5BtMOS1eWWnmFbOv_uRM9rvpbq9pZxx248bRc_kBLJDihJ_CuO9ugP6GkJeqmqd5BzskeXGYltF6An1uriuTs5wv8Utw",
+   "relevant": false,
+   "reason": "讲的是 Crazy Taxi World Tour，与本作无关。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESYQHrOzAVa-BjuSSncA8hKRcSDtioSIa027r_94cN74g9wKisbMbV8YLBLwqN1h1mH95vYUZcFiV8YuboCuzUu_LaA4HIL9o2274fFlTOVisixmD5BNlj9QAdSrDTkOffaSw",
+   "relevant": false,
+   "reason": "讲的是 Genshin Impact 配音争议，与本作无关。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=x-Ku0szvuI0",
+   "relevant": false,
+   "reason": "官方发布预告片页，无 AI 披露文本。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4080220/EA_SPORTS_FC_27/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.allkeyshop.com/blog/sega-brazil-fourth-global-sandbox-crazy-taxi-news-r/",
+   "relevant": false,
+   "reason": "讲的是 SEGA/Crazy Taxi，与本作无关。"
+  },
+  {
+   "url": "https://www.techpowerup.com/news-archive",
+   "relevant": false,
+   "reason": "新闻归档列表页，无针对本作的 AI 报道。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4080220",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/4080220-ea-sports-fctm-27",
+   "fetchedAt": "2026-10-30T05:08:27+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "While you play: Live-generated content Not used, per the developer None Not mentioned Code Art Music & SFX Voice Writing Translation Marketing Read the full disclosureQuoted from the Steam store page Generative AI may have been used in creating pre-rendered or live-generated content for this game. All such content is the result of a human-led artistic and creative process.",
+   "locator": "AI disclosure / How AI is used",
+   "label": "GameDB.ai 对本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4080220\\press-0.html",
+   "contentHash": "f59f1b50a35bc7c28adce57683a1808172751504c2817deccd066c71b1cb3227"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。",
+  "ResetEra 汇总帖两次检索均返回 HTTP 403，无法读取玩家对该披露的讨论正文。",
+  "未检索到针对本作 AI 披露的独立媒体报道；EA 商店披露本身措辞含糊（may have been used），已按未指明范围处理。"
+ ]
+}

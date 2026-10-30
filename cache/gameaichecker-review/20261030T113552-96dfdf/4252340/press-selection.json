@@ -1,0 +1,50 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4252340/CPM_2/",
+   "relevant": false,
+   "reason": "本作 Steam 商店页本身，官方披露已通过商店来源单独核查，不作为公开报道。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4252340?snr=2_9_100000_",
+   "relevant": false,
+   "reason": "本作 Steam 商店页本身，官方披露已通过商店来源单独核查，不作为公开报道。"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DeRPt4MA6Gq/",
+   "relevant": false,
+   "reason": "社交/视频平台页面需登录才能读取正文，未获得可核查的 AI 使用细节，故未纳入。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZAHrOzAVR5vq13Zc_6dhzBMBwRM48uMbx3sAXg2aQJ7mnH24waVYkLspptPLJGpIZs2TFp79aolwZXUfx92OPqprnoF2yIXuQasU4T3-cETOZ_HQuQ33s5iIZ8chfIHmNVDoeoc",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4252340",
+   "relevant": false,
+   "reason": "本作 Steam 商店页本身，官方披露已通过商店来源单独核查，不作为公开报道。"
+  },
+  {
+   "url": "https://archive.org/stream/FinancialTimes1989UKEnglish/May%2020%201989%2C%20UK%20%28en%29_djvu.txt",
+   "relevant": false,
+   "reason": "与本作无关的搜索结果（其他作品或无关主题），未纳入。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESfwHrOzAVEICNLxILOncFsl0WZZ_Ig3uUewd9Cb7yI7AsFup415D1KflngWfM6F6j3Vxk1v72D0CiPgK-a9Rv8d2faHgCn_E15YvrxkB5UTAbM8JJwYeFHXcOZ6hy2_ExsLj1-j3U0TPjDaI4ibS2xyZpuwhXeT-httJwHLjtH3g",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESWQHrOzAVDfgzZ30J2-QNTpZckvLFRBdzrFT5lpoHcmbqA6sAPXNzMUNdetNv4tqwIV1FchyzpOZxCUF5CIHezB7_HThg_x2PHRLQ2CxEGqgr8S8_Eo6K8Zco",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "检索工具：Qoder WebSearch，每次返回约 4-6 条链接，覆盖范围限于该工具返回结果，不等于全网报道。",
+  "Reddit、ResetEra 对自动抓取返回 403，未能读取全文，因此只登记实际读取的来源。",
+  "第三方 AI 披露汇总站（GameAICheck / AI Transparency Index / GameDB / Open Credits）本身是对 Steam 披露的再整理，不作为独立审计。"
+ ]
+}

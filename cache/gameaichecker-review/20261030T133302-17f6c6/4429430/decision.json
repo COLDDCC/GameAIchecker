@@ -1,0 +1,72 @@
+{
+ "identityName": "Origins Trading Card Game",
+ "identityDeveloper": "Koin Games",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "claimed_none",
+   "note": "披露称游戏运行时不使用 AI 生成内容。此为开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "The game does not generate content with AI at runtime."
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "“AI 辅助工具仅用于内部流程与临时占位”没有说明是否涉及代码，无法据此认定未使用。"
+  },
+  "art": {
+   "state": "claimed_none",
+   "note": "披露称卡面美术、UI、文案与音频均由团队制作，AI 辅助工具仅用于内部流程与临时占位。此为开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "All card art, UI, writing, and audio are created by our team."
+  },
+  "music": {
+   "state": "claimed_none",
+   "note": "披露把音频列入团队自产范围。此为开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "All card art, UI, writing, and audio are created by our team."
+  },
+  "voice": {
+   "state": "claimed_none",
+   "note": "披露把音频列入团队自产范围，未单独说明配音。此为开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "All card art, UI, writing, and audio are created by our team."
+  },
+  "writing": {
+   "state": "claimed_none",
+   "note": "披露称文案由团队撰写，非英文文本只是对英文原文的 AI 翻译。此为开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "All card art, UI, writing, and audio are created by our team."
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露称游戏内非英文文本由 AI 从英文原文翻译而来。",
+   "evidenceId": "store",
+   "quote": "Non-English text in the game is translated with AI from our English writing."
+  },
+  "marketing": {
+   "state": "used",
+   "note": "披露称商店预告片中部分过场镜头由 AI 视频与图像工具制作或协助，并声明该片段不出现在游戏内。",
+   "evidenceId": "store",
+   "quote": "Some cinematic sequences in our store trailer were created or assisted with AI video and image tools."
+  }
+ },
+ "disclosureQuote": "In-game content All card art, UI, writing, and audio are created by our team. AI-assisted tools are used internally for workflow tasks and temporary placeholders only. Non-English text in the game is translated with AI from our English writing. We believe an AI-assisted translation serves players better than English-only, and we improve it as we go. The game does not generate content with AI at runtime. Marketing materials Some cinematic sequences in our store trailer were created or assisted with AI video and image tools. Gameplay footage is captured directly from the game. None of the AI-generated trailer footage appears in the game.",
+ "summary": "免费实时对战卡牌游戏（Early Access）。开发者披露卡面美术、UI、文案与音频由团队制作，AI 辅助工具仅用于内部流程与临时占位，非英文文本由 AI 从英文原文翻译，游戏运行时不生成内容；商店预告片的部分过场使用了 AI 视频与图像工具，但声明该片段不出现在游戏内。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Koin Games）与英文讨论区首页（可见 15 个主题，总数 200），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（Screen Rant 报道，其中引用的开发者说明与商店披露一致）；开发者自述视频页需登录 Facebook，未能读取。本作为 Early Access 的正式可购版本，非试玩版，故予收录。结论基于开发者自述，未经独立审计。",
+ "description": "官方披露按游戏内内容与宣传材料分段撰写：游戏内 AI 限于翻译，预告片过场使用了 AI 视频与图像工具。",
+ "releaseNote": "Oct 27, 2026",
+ "english": {
+  "summary": "A free real-time PvP card game in early access. The developer states that card art, UI, writing and audio are made by the team, AI-assisted tools are used only internally for workflow tasks and temporary placeholders, non-English text is AI-translated from the team’s English writing, and nothing is AI-generated at runtime, while some cinematic sequences in the store trailer used AI video and image tools that do not appear in the game.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Koin Games) and the English discussion homepage (15 visible topics of 200); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched once with 6 results logged and one raw source read (a Screen Rant article whose quoted developer statement matches the store disclosure); the developer’s own video post sits behind a Facebook login and could not be read. This is the purchasable early access release rather than a demo, so it qualifies. Findings rely on developer statements, not an independent audit.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure says the game does not generate content with AI at runtime. Self-report, not independently audited.",
+   "code": "The statement that AI-assisted tools are used internally for workflow tasks and placeholders does not say whether code is involved, so this is not proof of non-use.",
+   "art": "The disclosure says card art, UI, writing and audio are made by the team, with AI-assisted tools used only internally for workflow tasks and temporary placeholders. Self-report, not independently audited.",
+   "music": "The disclosure includes audio among the content made by the team. Self-report, not independently audited.",
+   "voice": "The disclosure covers audio as team-made but does not address voice acting separately. Self-report, not independently audited.",
+   "writing": "The disclosure says the writing is created by the team and non-English text is only an AI translation of it. Self-report, not independently audited.",
+   "translation": "The disclosure states non-English text in the game is translated with AI from the team’s English writing.",
+   "marketing": "The disclosure states some cinematic sequences in the store trailer were created or assisted with AI video and image tools, and that none of that footage appears in the game."
+  }
+ }
+}

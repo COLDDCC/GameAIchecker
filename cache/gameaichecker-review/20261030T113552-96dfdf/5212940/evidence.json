@@ -1,0 +1,224 @@
+{
+  "sources": [
+    {
+      "appId": "5212940",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5212940/?l=english",
+      "fetchedAt": "2026-10-30T02:47:09.715796+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "b58b8262c3288624aa79091368193cc7cee8b139206748875524391f704e68db",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\5212940\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI was used to create promotional materials for the game's Steam page.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI was used to create promotional materials for the game's Steam page."
+    },
+    {
+      "appId": "5212940",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5212940/discussions/?l=english",
+      "fetchedAt": "2026-10-30T02:51:38.963164+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "2a118da64896bd73354baac5d4b27cd9b0f0abad4e02e7d03c534ad5e07e4955",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\5212940\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Before Reporting Bugs or Issues\nNo achievements unlocking at all\nButtons suddenly wont work.\nWhat if the achievement is not triggered?\ngravity??\nThe New game end its only ai slop\nИгра+\nSkill suggestion for Dev.\nfastest time?\nHow to level up?\nUkraine is incorrectly omitted from the map in game\nCo-op?\nhow too?\nNew Map?\nstars and wishes",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 83）；仅覆盖首页。"
+    },
+    {
+      "appId": "5212940",
+      "sourceType": "thread",
+      "url": "https://steamcommunity.com/app/5212940/discussions/0/574930637987807478/",
+      "fetchedAt": "2026-10-30T02:52:25.031793+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "5f11d40fa3a6df630c725396ba534b8aa84b98c95de8a13ad3633200115f578e",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\5212940\\thread-0.html",
+      "locator": "forum_op + all visible replies",
+      "quote": "The product description states: Disclosure of AI-generated content The game developer describes the use of AI-generated content in this game as follows: AI was used to create promotional materials for the game's Steam page. Since the \"Easy Mode\" and \"New Game+\" update, this is no longer accurate, The new ending is told through text and images, and these images are 100% AI-generated. Here the images (Spoiler Alert this images Spoiler the game end) https://i.imgur.com/GxTdruK.png https://i.imgur.com/uwYfPa1.png https://i.imgur.com/IY1J9HJ.png https://i.imgur.com/5gGUxqv.png\nmadeaj View Profile View Posts Oct 24 @ 5:25pm Report this post Yeah, I wished they'd left it to the black hole instead of adding AI slop to the end. They could have opened the door, created a shake effect, a boom sound and tossed you back into the messy room. #1",
+      "id": "thread-0",
+      "label": "The New game end its only ai slop",
+      "publicExcerpt": "Since the \"Easy Mode\" and \"New Game+\" update, this is no longer accurate, The new ending is told through text and images, and these images are 100% AI-generated."
+    },
+    {
+      "id": "press-0",
+      "appId": "5212940",
+      "sourceType": "press",
+      "url": "https://gamedb.ai/games/5212940-bunker-tidy-up",
+      "fetchedAt": "2026-10-30T03:08:01+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full page text",
+      "label": "GameDB.ai 条目：八个领域按披露整理",
+      "quote": "GameDB AI label AI in 1 of 8 areas In-game AI Not stated Code Not stated Art Not stated Music & SFX Not stated Voice Not stated Writing Not stated Translation Not stated Marketing Core Marketing Core Promotional materials for the Steam page were created with AI.",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\5212940\\press-0.html",
+      "contentHash": "ac81739837bc7956c6d6baa84451f4cf0d5f5c8be1676c290548fb10df765922",
+      "publicExcerpt": "GameDB AI label AI in 1 of 8 areas In-game AI Not stated Code Not stated Art Not stated Music & SFX Not stated Voice Not stated Writing Not stated Translation Not stated Marketing Core Marketing Core Promotional materials for the Steam page were created with AI."
+    }
+  ],
+  "identity": {
+    "appId": "5212940",
+    "name": "Bunker Tidy Up",
+    "developer": "Tovarishch Games",
+    "publisher": "PlayWay S.A.",
+    "type": "game",
+    "verified": true,
+    "release": "23 Sep, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Simulation"
+    ],
+    "description": "Bunker Tidy Up is a relaxing game about organizing a bunker. Arrange 17,437 supplies on shelves, categorize resources, and relax!",
+    "identityEvidence": {
+      "appId": "5212940",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5212940&l=english",
+      "fetchedAt": "2026-10-30T02:47:10.830446+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "bdd6cbbdf29c7adfd1cf3475cd32b32760ded85407cae6b9e4e23c0723413fbc",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\5212940\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 83,
+    "topics": [
+      {
+        "title": "PINNED: Before Reporting Bugs or Issues",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/586186803157938584/"
+      },
+      {
+        "title": "No achievements unlocking at all",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/564797873721477100/"
+      },
+      {
+        "title": "Buttons suddenly wont work.",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/574930637988037699/"
+      },
+      {
+        "title": "What if the achievement is not triggered?",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/574930338696939275/"
+      },
+      {
+        "title": "gravity??",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/586187800873817296/"
+      },
+      {
+        "title": "The New game end its only ai slop",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/574930637987807478/"
+      },
+      {
+        "title": "Игра+",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/574930338697172765/"
+      },
+      {
+        "title": "Skill suggestion for Dev.",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/574930338697166070/"
+      },
+      {
+        "title": "fastest time?",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/563671129707803876/"
+      },
+      {
+        "title": "How to level up?",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/563671129707967051/"
+      },
+      {
+        "title": "Ukraine is incorrectly omitted from the map in game",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/586188051673263327/"
+      },
+      {
+        "title": "Co-op?",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/564794139169985868/"
+      },
+      {
+        "title": "how too?",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/563671129707799858/"
+      },
+      {
+        "title": "New Map?",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/586187095759979783/"
+      },
+      {
+        "title": "stars and wishes",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/563670940040324967/"
+      }
+    ],
+    "related": [
+      {
+        "title": "The New game end its only ai slop",
+        "url": "https://steamcommunity.com/app/5212940/discussions/0/574930637987807478/",
+        "status": "complete",
+        "evidenceId": "thread-0",
+        "identityVerified": true,
+        "repliesChecked": true
+      }
+    ],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "Steam \"Bunker Tidy Up\" game AI disclosure",
+    "searchedAt": "2026-10-30T11:55:00+08:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/5212940/Bunker_Tidy_Up/?snr=1_7_7_230_150_36",
+        "relevant": false,
+        "reason": "本作 Steam 商店页本身，官方披露已通过商店来源单独核查，不作为公开报道。"
+      },
+      {
+        "url": "https://www.reddit.com/r/Steam/comments/1vjlvja/drowning_in_tidy_up_games/",
+        "relevant": false,
+        "reason": "本次自动抓取被拒（HTTP 403），未能读取全文，因此不作为已读来源。"
+      },
+      {
+        "url": "https://gamedb.ai/games/5212940-bunker-tidy-up",
+        "relevant": true,
+        "reason": "第三方对本作的专门报道/条目，已读取全文并登记为来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESZgHrOzAVp_JxIIUJxFzjLV1FpSiqk4tPvCoQowyfApgjUr832lbo2SToimAfk9xWf6aZY9zYt6Kbhz_KPXzAc98UyKJFAZE7BiKeivAZ0-KzwLIYT55c0dQFO1emwRnnI_4CSAzyBQ",
+        "relevant": false,
+        "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESkAEB6zswFfNiRGfZ4SGRwXidsG58BNa92HBnZZ7bfiR4vnjVtkvkdziY_9IxyUSjW-u3bInAl0lvoHg--R3FBvewmpPaLsekrE567dLP5aFeNZsr2UtlLvcD4dQWmsPZQpdYLC4hlF70_HUVdjDZRzGDY0VrOGQnAG6kYqcgmpXgtN6SkHfxmORJ1mUKHX0QHRY",
+        "relevant": false,
+        "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESZgHrOzAV7bEyq4vt15WQfmafrkrqMtcIrTBlukd7dJVVr8NHhQy71a8h0egKO8pUyDO7g3uHilzGmqGI6Qsi9R6ZBOEdIKxd1DTx1xqH-LB4NCQwMP-svJeidrRCIaehJL_1P6UXPQ",
+        "relevant": false,
+        "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+      }
+    ],
+    "readUrls": [
+      "https://gamedb.ai/games/5212940-bunker-tidy-up"
+    ],
+    "coverageLimits": [
+      "检索工具：Qoder WebSearch，每次返回约 4-6 条链接，覆盖范围限于该工具返回结果，不等于全网报道。",
+      "Reddit、ResetEra 对自动抓取返回 403，未能读取全文，因此只登记实际读取的来源。",
+      "第三方 AI 披露汇总站（GameAICheck / AI Transparency Index / GameDB / Open Credits）本身是对 Steam 披露的再整理，不作为独立审计。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\5212940\\press-search.json",
+    "contentHash": "876ca0d14efd015a1243c7850aff3a737218f55eb0e68bc1d682d374e3eeb5bc"
+  }
+}

@@ -1,0 +1,70 @@
+{
+ "results": [
+  {
+   "url": "https://aitransparencyindex.com/products/steam/3167920",
+   "relevant": true,
+   "reason": "第三方 AI 披露索引，复刻商店披露原文，已读全文。"
+  },
+  {
+   "url": "https://gaming.kroppmedia.com.au/news/low-budget-repairs-out-now-steam/",
+   "relevant": true,
+   "reason": "独立游戏媒体评测，明确讨论本作商店页的 AI 披露与玩家反应，已读全文。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3167920/_/?snr=1_4_4__tab-TopGrossing",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESdgHrOzAVaOyZoKnl_A80pKK7z-US-68VCt70t0bFP_MH56Rvt56fNhMz6aQbp_3shVmjNc8dI31Ri_8zYu-Lei8iocZNVqURVFy8Bj7SvFKjU4B8LZaECEdM-ew3I1nPvOtXOZHt7qOQFmPIRc5W0eDQjd5ksGY",
+   "relevant": false,
+   "reason": "教程向攻略页，未讨论 AI 披露。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZQHrOzAV_CyTnnaQF3MHGeGpPbvGudPYFG2zMert_FbulDTKpT02C7dgcXUzWbni1rM6C5OOgRUr3K0sdDbXOazSli4kTs9ALUzx-sbefOF7mzcs03XujR7e5dB1LR3Jo1DSz78m",
+   "relevant": false,
+   "reason": "GameDB.ai 上的另一款游戏（Basement10），与本作无关。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESmwEB6zswFT_YRf5gF7_BfZbwRaI1NToGaB5jEWdVauDd-hSaejNZTGQ_tflOJ4OJGkqWvTfhQQ64v2xlAbkX9oXqaPwMROFTesYw8zQq9PqsZVHe-xfqSfbr9-PxCltf9SH3YiPo-05b0Abdu200L0Gwb6b57mVO9BF8sds-aiaIwIZpZ2EznObLUuXXjZnuT41f_Ar8oMLGL6dlRw",
+   "relevant": false,
+   "reason": "Steam 月度销量榜汇总页，与本作 AI 披露无关。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3167920",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/3167920",
+   "fetchedAt": "2026-10-30T04:50:39.205967+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI Usage Disclosure AI was used for some translations , music , and visual assets . The game does not create AI-generated content during gameplay, and AI was not used to write the game’s code.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 对本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\3167920\\press-0.html",
+   "contentHash": "d8f1f5ae508b22a431b3ee51c33ad551bbc0b524ddd0b22c657132ad02061e4a"
+  },
+  {
+   "id": "press-1",
+   "appId": "3167920",
+   "sourceType": "press",
+   "url": "https://gaming.kroppmedia.com.au/news/low-budget-repairs-out-now-steam/",
+   "fetchedAt": "2026-10-30T04:50:39.944872+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "The store page carries an AI generated content disclosure from the developers, saying AI was used for some translations, music and visual assets, that the game does not create AI-generated content during gameplay, and that AI was not used to write the code.",
+   "locator": "full article text",
+   "label": "Kropp Media 评测：对本作 AI 披露的讨论",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\3167920\\press-1.html",
+   "contentHash": "9ac1cb18cd56df973e5d987bc80c210a8802a5c583a53ed2bf5328d251fb658a"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。"
+ ]
+}

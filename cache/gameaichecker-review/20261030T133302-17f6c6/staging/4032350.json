@@ -1,0 +1,85 @@
+{
+  "appId": "4032350",
+  "name": "EA SPORTS™ College Football 27",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "美式大学橄榄球模拟。开发者在 Dynasty 与 Road to Glory 模式下列出 AI 参与的环节：大厅界面剧情内容、设计实现与调参、解说脚本支持、奖杯室支持，以及让 CPU 球队做出更真实的战术呼叫；未逐项说明其他领域。",
+  "aiUsageCategories": [
+    "ingame",
+    "writing"
+  ],
+  "aiAreas": {
+    "ingame": "used",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露把“让 CPU 球队做出更真实的战术呼叫”列为 AI 参与环节，影响游玩过程中的临场表现。",
+    "code": "披露提到的设计实现与调参没有说明是否涉及代码生成，也没有给出细节；不能据此认定未使用。",
+    "art": "披露提到的奖杯室支持没有说明是美术资产还是其他环节；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "披露只提到解说脚本支持，没有说明解说配音本身是否由 AI 生成；不能据此认定未使用。",
+    "writing": "披露把 Dynasty 与 RTG 模式大厅界面的剧情内容列为 AI 参与环节。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "writing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4032350/",
+  "developer": "Tiburon",
+  "publisher": "Electronic Arts",
+  "steamReleaseDate": "Jul 9, 2026",
+  "genres": [
+    "Simulation",
+    "Sports"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4032350/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "Dynasty and RTG Modes - Storyline content in hub screen, Design Implementation and tuning Commentary scripting support Trophy Room Support Creating more realistic play calls made by CPU teams"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4032350/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 286）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://howmuchai.games/ai/live-generation",
+      "label": "HowMuchAI 实时生成内容清单中对本作的摘要",
+      "date": "2026-10-30",
+      "excerpt": "EA SPORTS™ College Football 27 Tiburon · Jul 9, 2026 AI was involved in Dynasty/RTG storyline content, design tuning, commentary scripting, trophy room support, and more realistic CPU play calls, without specifics."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Tiburon）与英文讨论区首页（可见 15 个主题，总数 286），首页没有与 AI 披露直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 3 条结果，读取 1 篇原始来源（HowMuchAI 的游玩时生成内容清单，其中对本作的摘要与商店披露一致）；ResetEra 与 Facebook 的讨论帖需登录或拦截抓取，未能读取。披露是按环节而非按领域撰写的，凡未点名的领域一律按未说明处理。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Dynasty and RTG Modes - Storyline content in hub screen, Design Implementation and tuning Commentary scripting support Trophy Room Support Creating more realistic play calls made by CPU teams",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A college football simulation. The developer lists AI involvement in Dynasty and Road to Glory modes as storyline content on the hub screen, design implementation and tuning, commentary scripting support, trophy room support and more realistic play calls by CPU teams, without addressing the remaining areas.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Tiburon) and the English discussion homepage (15 visible topics of 286); no homepage topic directly concerns the disclosure and individual threads were not opened. This title was searched once with 3 results logged and one raw source read (the HowMuchAI live-generation list, whose summary of this title matches the store disclosure); ResetEra and Facebook threads need a login or block automated fetching and could not be read. The disclosure is written by workflow rather than by area, so every area it does not name is recorded as not stated. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure lists creating more realistic play calls by CPU teams, which shapes what happens during play.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "The disclosure mentions commentary scripting support only, not whether the commentary voices themselves are AI generated; that is not proof of non-use.",
+      "writing": "The disclosure lists storyline content on the hub screen in Dynasty and Road to Glory modes as an area where AI was involved.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "0d43ceadd560b6cd83dbf8d2d34a8f3a3d2c49b4e3fdf9fe07d350e9fa9898c5"
+  }
+}

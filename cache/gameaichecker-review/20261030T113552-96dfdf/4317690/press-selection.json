@@ -1,0 +1,101 @@
+{
+ "results": [
+  {
+   "url": "https://opencredits.games/games/crimson-moon",
+   "relevant": true,
+   "reason": "第三方对本作的专门报道/条目，已读取全文并登记为来源。"
+  },
+  {
+   "url": "https://www.siftergames.com/game/steam/4317690",
+   "relevant": false,
+   "reason": "该页返回 404，无法读取全文，因此不作为已读来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4317690/Crimson_Moon/",
+   "relevant": false,
+   "reason": "本作 Steam 商店页本身，官方披露已通过商店来源单独核查，不作为公开报道。"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/JiTgGt7h6aQ",
+   "relevant": false,
+   "reason": "社交/视频平台页面需登录才能读取正文，未获得可核查的 AI 使用细节，故未纳入。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZwHrOzAV49901Q3IQF0lacPU40-yT-zIkqX-K9eyol1EeGCkzQdtP7KCKopk2U0UIzmKkpl2izGlSr60C-Z10Be3uhty7RzuaDV4biT31kGqHA8AH8PfpBMahgKUEuMdzytynGiVvNE",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESiQEB6zswFdU5CjdOry5FYUDCnvWmeEq3H8rJ38BEFAucT8IvU2oAudvuCipYC__iW1wT5lxxpCJLUDhUzj-i2ynqQ--jx8ksqxjD2tR6wHQUmY4-z0A_bRkuoM7FJEnYcICWohFJBtalAZsFw6mZ0l3DtN8hFAgeuIQ45yb3GgmAtZnoBJ9pHULHCg",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4317690/discussions/0/582807145029863953/",
+   "relevant": true,
+   "reason": "第三方对本作的专门报道/条目，已读取全文并登记为来源。"
+  },
+  {
+   "url": "https://www.facebook.com/PlayCrimsonMoon/videos/crimsonmoon_hotfix102_9x16_final-1mp4/1072607042430435/",
+   "relevant": false,
+   "reason": "社交/视频平台页面需登录才能读取正文，未获得可核查的 AI 使用细节，故未纳入。"
+  },
+  {
+   "url": "https://www.resetera.com/threads/crimson-moon-third-person-action-rpg-roguelike-out-september-1st-19-99-19-99%E2%82%AC.1619083/page-2",
+   "relevant": false,
+   "reason": "本次自动抓取被拒（HTTP 403），未能读取全文，因此不作为已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEScwHrOzAVECqiKN6GKTtCC-53S5Y2bQik65lAu6Cf-GWdW4ycoicD-UbnCGbek4gzA4BszDC0qMH1FKtwnUJ_vVlIIJyUAYv3-dSgOXJUK4R6xe3x7B4stsiYxXhFmB8m980Fes1qihJ4yfIdlLTGKMO0xx0",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESfwHrOzAVSz2YON4OXWssmD4VPndkQptmUu0xns71iwMNVhyawFuHzBV35slYFTBvVOIHe3IhkVFC2NA8q4UFqJd10R3kq9RzGzDBokv1T6Jl7HnmndVFpt85ju9L_FeGPogvEfCIsrfvWYnq8DUgncJWeVtxzhqkI8Na6wzTpN0",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESywEB6zswFZgJM7RZpB9xe15QkAds-ojAzNleJYoaJkJo9K4CZ7zP2CLNSQzzG7_Y2sNiWmnMMO3PlXD1TQ9DCfDKlrSYO1MGyJFzUx7-HVD-QZIlc_84lgjwWdtCdWFRJRz3VCg8e_5HhZ8--z1ydy439lX786HCyt1kI84Mx9dHBCy9JaDk1Mlu9d2_hJnuNjPbD8IgbjXXDFPovha0By3ZlABqbPZyJCZYX4BAGzCml3oIVdW_EabAZ-r36yVi5-UeXSHhp6FscEFLjw",
+   "relevant": false,
+   "reason": "Google 跳转链接，与同一批结果里的直链指向相同页面，未单独读取。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4317690",
+   "sourceType": "press",
+   "url": "https://opencredits.games/games/crimson-moon",
+   "fetchedAt": "2026-10-30T03:00:46+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full page text",
+   "label": "Open Credits：按 Steam 披露整理本作 AI 用途",
+   "quote": "Crimson Moon uses AI for translation, according to its Steam disclosure.",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\4317690\\press-0.html",
+   "contentHash": "30bd0388482294ccd57b3c842b2bbdb68a242949611dd81d5340640dd8686e45"
+  },
+  {
+   "id": "community-0",
+   "appId": "4317690",
+   "sourceType": "developer",
+   "url": "https://steamcommunity.com/app/4317690/discussions/0/582807145029863953/",
+   "fetchedAt": "2026-10-30T03:01:18+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full page text",
+   "label": "开发者“Probably Alex”（[developer] 徽标）2026-09-01 说明",
+   "quote": "Just to clarify our use of AI during the development of Crimson Moon: generative AI was not used to create the game’s art, audio, narrative, or gameplay content. The world of Gildenarch and the characters, environments, stories, music, and experiences within it were crafted by our talented team of developers and artists. As disclosed on Steam, an AI-assisted tool was used for a preliminary translation pass, with that work then reviewed and revised by human localization professionals. Beyond this localization assistance, generative AI was not used to create the content you see and experience in Crimson Moon.",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T113552-96dfdf\\4317690\\community-0.html",
+   "contentHash": "469723755c28a016d16682062648231f7e46a568b27e57163beef5a24f70d6e6"
+  }
+ ],
+ "coverageLimits": [
+  "检索工具：Qoder WebSearch，每次返回约 4-6 条链接，覆盖范围限于该工具返回结果，不等于全网报道。",
+  "Reddit、ResetEra 对自动抓取返回 403，未能读取全文，因此只登记实际读取的来源。",
+  "第三方 AI 披露汇总站（GameAICheck / AI Transparency Index / GameDB / Open Credits）本身是对 Steam 披露的再整理，不作为独立审计。"
+ ]
+}

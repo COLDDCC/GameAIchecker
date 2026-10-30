@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "appId": "4435490",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4435490/?l=english",
+      "fetchedAt": "2026-10-30T04:33:34.116424+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "5469bdfc1e1eeb61cf8e0fc6cb0d534826b2bf499702d1c64884845d0c502356",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4435490\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Our team uses generative AI tools to help develop some in game assets.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Our team uses generative AI tools to help develop some in game assets."
+    }
+  ],
+  "identity": {
+    "appId": "4435490",
+    "name": "Call of Duty®: Modern Warfare® 4",
+    "developer": "Infinity Ward, Beenox, Digital Legends, Activision Shanghai, Raven Software, Treyarch, Sledgehammer Games, High Moon Studios",
+    "publisher": "Activision",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 22, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Action"
+    ],
+    "description": "War erupts on the Korean Peninsula as North Korea launches an invasion that threatens to destabilize the world in Call of Duty®: Modern Warfare® 4.",
+    "identityEvidence": {
+      "appId": "4435490",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4435490&l=english",
+      "fetchedAt": "2026-10-30T04:33:34.702883+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "55d9707e1080e29ae210654d64dafb5288d2c7dd7df8cc42be9c429cde0fd94f",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4435490\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  }
+}

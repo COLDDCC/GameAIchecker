@@ -1,0 +1,60 @@
+{
+ "identityName": "Esports Manager 2026",
+ "identityDeveloper": "Neurona Games",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称 AI 用于生成选手面部形象与游戏内 logo。",
+   "evidenceId": "store",
+   "quote": "AI was used for generation of players' faces and in-game logos."
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "AI was used for generation of players' faces and in-game logos.",
+ "summary": "电竞俱乐部经营模拟。开发者披露 AI 用于生成选手面部形象与游戏内 logo，没有说明其余领域是否使用 AI。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Neurona Games）与英文讨论区首页（可见 15 个主题，总数 278），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 条目，只是对商店披露的转录）；一篇关于 Steam AI 游戏节的报道抓取返回 HTTP 454，未能读取。领域判定来自商店披露原文，结论基于开发者自述，未经独立审计。",
+ "description": "官方披露只点名选手面部与游戏内 logo 由 AI 生成，其余领域未作说明。",
+ "releaseNote": "Jul 6, 2026",
+ "english": {
+  "summary": "An esports organisation management sim. The developer states AI was used to generate players’ faces and in-game logos, and says nothing about the remaining areas.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Neurona Games) and the English discussion homepage (15 visible topics of 278); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched once with 6 results logged and one raw source read (AI Transparency Index, a transcription of the store disclosure); an article about a Steam AI game festival returned HTTP 454 and could not be read. Area findings come from the store disclosure text and rest on developer statements, not an independent audit.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure states AI generated players' faces and in-game logos.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

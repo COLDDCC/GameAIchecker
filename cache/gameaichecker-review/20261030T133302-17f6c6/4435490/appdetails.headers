@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+X-Frame-Options: DENY
+Cache-Control: public,max-age=3600
+Expires: Fri, 30 Oct 2026 05:33:34 GMT
+Last-Modified: Fri, 30 Oct 2026 04:00:00 GMT
+Strict-Transport-Security: max-age=63072000
+Vary: origin
+Date: Fri, 30 Oct 2026 04:33:34 GMT
+Content-Length: 30328
+Connection: keep-alive
+Set-Cookie: steamCountry=US%7Cb0fb24240fc0f2391baed9ee8c40557a; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: browserid=562546073923317217; expires=Sat, 30 Oct 2027 04:33:34 GMT; Max-Age=31536000; path=/; secure; SameSite=None
+

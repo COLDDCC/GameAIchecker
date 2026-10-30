@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://aitransparencyindex.com/products/steam/1331550",
+   "relevant": true,
+   "reason": "第三方 AI 披露索引，逐字复刻商店披露并给出结构化判定，已读全文。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/1331550/discussions/0/3790380616238144245/?l=german&ctp=244",
+   "relevant": false,
+   "reason": "德语版建议帖分页，非 AI 相关议题；讨论区已按英文版首页与相关帖单独核查。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/1331550/Big_Ambitions/?l=tchinese&ref=zoneofgames.ru",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESbwHrOzAVLQ8QLVKQpZuim34er1t8pi84z3igiNhtS-UY40beiH_JvhWDn9OvlURIpKmFfTOdMYq2w54FD83bbE0IjRO6VV19qcbexQfmtya40kLXV2sQmEeN2NR5pQ4LeOTi5FBBWFhtYHd6ZJnNkA",
+   "relevant": false,
+   "reason": "索引站自身的“披露来源汇总”方法论页，不含本作内容。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESYAHrOzAVMXf2dpNTLhdPVVgu6RixM_FUgQYxmXwHYx_yDfDcrr0nt5i5M7Zpj1UiVc99xewBJ4z_gaLIrkAc04J69SP9EDFifNAbQIZT2wZ1lOb5hWKTFkcmIqb4sdX1eg",
+   "relevant": false,
+   "reason": "个人职业主页，与本作无关。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESkwEB6zswFeEnZ8tM0SYZ5BIQUrrd4dgDA8AbAWDKupAU8YA3eV_UvgS-v11heMdF6FSWdt_Wms3GgtU3g6LtIDQkEGmR1Bhf1S7njjWRB-KFz3jr86mUjsEuWi_qwWj5qLiPsY71vjgfwI4LBLW8wOzBaXvXL-hjoAp5Vq-bAjBN7D6dKW-Dd7SKamrWhQ-HyIurUlI",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "1331550",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/1331550",
+   "fetchedAt": "2026-10-30T04:47:16.570939+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI Usage Disclosure We only used AI to translate the game into more languages. Nothing else is AI.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 对本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\1331550\\press-0.html",
+   "contentHash": "f29b66638b2d3ab448284c1852cdbb4565d920232c9f577dfd8c9bc87daba51c"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。",
+  "未检索到针对本作的独立媒体评测文章；索引站只是对 Steam 披露的转录，不据此改判。"
+ ]
+}

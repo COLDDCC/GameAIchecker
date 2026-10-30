@@ -1,0 +1,60 @@
+{
+  "identityName": "Bunker Tidy Up",
+  "identityDeveloper": "Tovarishch Games",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "not_stated",
+      "note": "披露只说明 Steam 页面宣传素材由 AI 制作。讨论区有玩家指“Easy Mode/New Game+”更新后的新结局图片完全由 AI 生成、披露已不准确，帖内未见开发者回应；该说法未经证实，因此本领域记为未明确，既不认定使用也不认定未使用。"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "marketing": {
+      "state": "used",
+      "note": "披露称 AI 用于制作该游戏 Steam 页面的宣传素材。",
+      "evidenceId": "store",
+      "quote": "AI was used to create promotional materials for the game's Steam page."
+    }
+  },
+  "disclosureQuote": "AI was used to create promotional materials for the game's Steam page.",
+  "summary": "地堡整理模拟。开发者披露 AI 用于制作 Steam 页面宣传素材；讨论区有玩家指更新后的结局图片也是 AI 生成、披露已不准确，但无开发者回应。",
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 83）。已读主题“The New game end its only ai slop”正文与回复：玩家称新结局图文为 AI 生成并附外链截图，指披露不再准确，未见开发者回应；该指控未经独立核实，只登记不入判定。逐款检索公开报道 1 次、登记 6 条结果，读到 GameDB.ai 八领域条目，该站按披露整理。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "description": "官方披露仅限 Steam 页面宣传素材；玩家对结局图片的 AI 指控尚无开发者回应。",
+  "releaseNote": "23 Sep, 2026",
+  "english": {
+    "summary": "A bunker organising sim. The developer discloses that AI was used to create promotional materials for the Steam page, while a player thread alleges that ending images added in a later update are also AI-generated, without any developer response.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 83). The thread claiming the new ending is AI slop was read with its replies: the player says the ending images are fully AI-generated and links external screenshots, alleging the disclosure is no longer accurate, with no developer reply visible. That allegation is not independently verified, so it is recorded rather than used as a finding. Coverage was searched per game and a GameDB.ai eight-area entry was read, which is compiled from the disclosure. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure covers Steam page promotional material only. A discussion thread claims that the new ending images added with the Easy Mode and New Game+ update are fully AI-generated and that the disclosure is no longer accurate, with no developer reply visible; the claim is unverified, so this area stays not stated rather than being decided either way.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "AI was used to create promotional materials for the game Steam page."
+    }
+  }
+}

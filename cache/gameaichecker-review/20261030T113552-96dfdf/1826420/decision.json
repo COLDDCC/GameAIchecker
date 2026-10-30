@@ -1,0 +1,60 @@
+{
+  "identityName": "CarX Drift Racing Online 2",
+  "identityDeveloper": "CarX Technologies, LLC",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "披露只提到教程语音。讨论区“AI to good?” 争论的是生涯模式对手的表现与判定，属传统游戏 AI，不能作为生成式 AI 用于玩法的证据；该领域仍未明确。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "used",
+      "note": "披露称教程旁白使用 AI 配音。",
+      "evidenceId": "store",
+      "quote": "AI voiceover is used for the tutorial."
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "disclosureQuote": "AI voiceover is used for the tutorial.",
+  "summary": "漂移竞速模拟。开发者披露教程旁白使用 AI 配音，披露仅此一句，未涉及美术、音乐或其他环节。",
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 276）。已读主题“AI to good?”正文及回复，内容关于生涯模式对手强度与计分判定，属传统游戏 AI，不计入生成式 AI 使用。逐款检索公开报道 1 次、登记 6 条结果，读到 AI Transparency Index 条目，该站按商店披露整理。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "description": "官方披露只说明教程使用 AI 配音；讨论区的 AI 争论针对对手判定而非生成式 AI。",
+  "releaseNote": "7 May, 2026",
+  "english": {
+    "summary": "A drift racing simulator. The developer discloses AI voiceover for the tutorial and nothing else; art, music and other areas are not addressed.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 276). The topic \"AI to good?\" and its replies were read; they concern opponent strength and scoring in career mode, which is conventional game AI and is not counted as generative AI use. Coverage was searched per game and an AI Transparency Index entry was read, which is compiled from the store disclosure. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure covers tutorial voice only. The \"AI to good?\" thread argues about opponent behaviour and judging in career mode, which is conventional game AI and is not evidence of generative AI in gameplay; this area stays not stated.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "The disclosure states that AI voiceover is used for the tutorial.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

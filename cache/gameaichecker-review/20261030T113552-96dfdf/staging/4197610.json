@@ -1,0 +1,100 @@
+{
+  "appId": "4197610",
+  "name": "Librarian: Tidy Up the Arcane Library!",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "图书馆整理模拟游戏。开发者披露四个素材（一个 UI 组件与三张墙面风景画）经生成式 AI 进一步润色，并明确没有一个由 AI 从零生成；游戏内文本的语法修正由 AI 辅助后再人工复核。",
+  "aiUsageCategories": [
+    "art",
+    "writing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称四个素材（一个 UI 组件、三张用作墙面装饰的风景画，不含画框）用生成式 AI 做了进一步润色，并明确没有一个由 AI 从零生成。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "披露称 AI 协助游戏内文本的语法修正，随后由人工仔细复核并调整。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "writing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4197610/",
+  "developer": "ArtRising",
+  "publisher": "ArtRising",
+  "steamReleaseDate": "30 Apr, 2026",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4197610/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "The four assets in this work—one UI component and three landscape paintings used as wall decorations (frames not included)—were produced using additional AI for refinement. None of them were created by AI from the ground up. AI helped with grammatical corrections for in-game text, which were then carefully reviewed and adjusted by hand. We only consider AI to be a supportive tool. Every detail is meticulously crafted with human intent, as our creative process is still firmly anchored in manual craftsmanship."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4197610/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 290）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4197610/discussions/0/525387344813187642/",
+      "label": "Any similar games that dont us gen ai?",
+      "date": "2026-10-30",
+      "excerpt": "I want to play a game like this but don't wanna support gen ai (gross) does anyone know if there are there any games similar to this that dont use gen ai?"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aftermath.site/librarian-tidy-arcane-library-impressions/",
+      "label": "Aftermath 长评：披露与玩法的关系",
+      "date": "2026-10-30",
+      "excerpt": "There’s certainly a middle ground here, using your powers to assist you in the manual task instead of deploying them to circumvent it altogether, as the disclosure seems to suggest the developers did with their use of AI."
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4197610/discussions/0/568162255844150659/?ctp=6",
+      "label": "玩家讨论：是否会停止使用生成式 AI（无开发者回复）",
+      "date": "2026-10-30",
+      "excerpt": "I understand that the usage of generative AI in this game is minimal, and that there are many worse things, but I still find it very disappointing that they use any AI."
+    }
+  ],
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 290）。另读 2 个主题正文及可见回复：一帖征集不使用生成式 AI 的同类游戏，另一帖有玩家询问开发者是否会停止使用 AI，两帖均未见开发者回应。逐款检索公开报道 2 次、登记 12 条结果，读到 Aftermath 长评原文并计入来源，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "The four assets in this work—one UI component and three landscape paintings used as wall decorations (frames not included)—were produced using additional AI for refinement. None of them were created by AI from the ground up. AI helped with grammatical corrections for in-game text, which were then carefully reviewed and adjusted by hand. We only consider AI to be a supportive tool. Every detail is meticulously crafted with human intent, as our creative process is still firmly anchored in manual craftsmanship.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A single-player library tidying sim. The developer discloses that four assets (one UI component and three wall paintings) were further refined with generative AI while none were created from the ground up, and that AI assisted grammatical fixes to in-game text before hand review.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 290). Also read 2 topic threads and their visible replies: one asks for similar games without generative AI and another asks whether the studio will stop using it, with no developer answer visible in either. Public coverage was searched per game and the Aftermath impressions article was read in full; search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Four assets (one UI component and three wall paintings, frames excluded) were further refined with generative AI, and the developer states none were created by AI from the ground up.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "AI assisted with grammatical corrections to in-game text that were then reviewed and adjusted by hand.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "252635cf8b92747481ee5ce706644a3f4c7bda8ef96e09b0c6d60ae01fccdd89"
+  }
+}

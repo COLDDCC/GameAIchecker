@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://aitransparencyindex.com/products/steam/2749950",
+   "relevant": true,
+   "reason": "第三方 AI 披露索引，复刻商店披露原文与置信度，已读全文。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/2749950/?l=english&curator_clanid=4777282&utm_source=SteamDB",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.fixgamingchannel.com/ai-gaming-festival-steam-2026/",
+   "relevant": false,
+   "reason": "抓取返回 HTTP 454，无法读取正文；仅登记为关于 Steam AI 游戏节的线索，不作为本作证据。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESbwHrOzAVxebFA1R5C0RRgMY3tw_BAUOvi4Kiwi7EXP1FXLy87nGjv4OJv1twDHlEk8crL3f_TQbONLNoFA_HARZp782npDfEcUiqX-tSca4hA5_w5RYJHtYN0I5f8AO2OTuE78WW-cpBVP2XJ7e_EQ",
+   "relevant": false,
+   "reason": "Open Credits 跳转结果，与索引站转录重复，未单独读取。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESfgHrOzAVowsR8k2Qb0xGY4TDPGkfFk6TGzJtnCGTAudrAJQX2Ry277ZBxuVclGtWBdHEZ9LRp-WhZyyDATFm6OGe2sUi5zJk2RYwOWvAohrRAJXUonlhW2IamQLrblZIxb6ZHwkj9nBOOq79wTbxMkOPd0jlqh9dOMwLOIhm8g",
+   "relevant": false,
+   "reason": "Steam Next Fest 披露统计报告，非本作专门报道。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESdwHrOzAVP5FURaV7nG4bT1h3s39hcGAXte1_GMqLQBylnFgH6rouk0ebo3wlOuMA30PHM9no1gTVbRehvRc47BwGq08Dq__zRN5wO_KN52sjEcDwgQEbgtyJruAn62hLkQn6eAVm5RjJGscketLEMukd_jIbDJUw",
+   "relevant": false,
+   "reason": "跳转后的商店条目页，已由商店源核查。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "2749950",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/2749950",
+   "fetchedAt": "2026-10-30T04:49:08.787023+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI Usage Disclosure AI was used for generation of players' faces and in-game logos .",
+   "locator": "full article text",
+   "label": "AI Transparency Index 对本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\2749950\\press-0.html",
+   "contentHash": "b23da67b47a86fffa3a773bc8d14ab3d12c6fd03a0589afd129e1600ccfc493c"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。",
+  "fixgamingchannel 返回 HTTP 454，未能读取关于 Steam AI 游戏节的报道全文。"
+ ]
+}

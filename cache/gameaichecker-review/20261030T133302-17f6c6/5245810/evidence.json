@@ -1,0 +1,221 @@
+{
+ "sources": [
+  {
+   "appId": "5245810",
+   "sourceType": "store",
+   "url": "https://store.steampowered.com/app/5245810/?l=english",
+   "fetchedAt": "2026-10-30T04:33:42.233670+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "contentHash": "00b7a21a76de640f8de7d100da6f8c1bb50124bd69bc23bd0bcbdffb9fbd0187",
+   "readStatus": "complete",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\5245810\\store.html",
+   "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+   "quote": "Generative AI was used to assist in the creation of selected Steam store promotional images, certain audio assets, and a limited number of 3D assets. AI tools were also used to assist with translation and localization. No live-generated AI is used during gameplay.",
+   "id": "store",
+   "disclosurePresent": true,
+   "label": "Steam 商店完整 AI 披露",
+   "publicExcerpt": "Generative AI was used to assist in the creation of selected Steam store promotional images, certain audio assets, and a limited number of 3D assets. AI tools were also used to assist with translation and localization. No live-generated AI is used during gameplay."
+  },
+  {
+   "appId": "5245810",
+   "sourceType": "discussion",
+   "url": "https://steamcommunity.com/app/5245810/discussions/?l=english",
+   "fetchedAt": "2026-10-30T04:33:43.556842+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "contentHash": "7036c65082128ee717cd0bf479ea8ddf6deae79f070943fa3ec1f289e6e2e97a",
+   "readStatus": "complete",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\5245810\\discussion.html",
+   "locator": "forum topics container",
+   "quote": "PINNED: Bug Reports & Feedback / 버그 제보 및 플레이 피드백\n我在代码中找到了破碎概率的底层逻辑\n概率确实不正常，还是要用遗物压回来\n这作坊忒小了\n是不是偷偷改破坏概率，怎么这么低！！！\n1\n建议\n呸！\n批量提交武器时游戏崩溃，日志显示尝试分配 1.87TB 蒙皮内存\nSO FKING STUPID!!!\n改一下不会死\n垃圾\n能做个仓库吗？带自动归类功能的，还有麻烦加个地上的剑显示价格的优化\n扩大地图\n神了，破坏率到10以上基本就必坏了，感觉概率就是糊弄你的",
+   "id": "discussion",
+   "label": "Steam 讨论区首页核查",
+   "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 74）；仅覆盖首页。"
+  },
+  {
+   "id": "press-0",
+   "appId": "5245810",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/5245810-forgetax",
+   "fetchedAt": "2026-10-30T04:51:10.176362+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Not used, per the developer In-game AI Not mentioned Code Voice Writing Read the full disclosureQuoted from the Steam store page Generative AI was used to assist in the creation of selected Steam store promotional images, certain audio assets, and a limited number of 3D assets. AI tools were also used to assist with translation and localization.",
+   "locator": "full article text",
+   "label": "GameDB.ai 对本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\5245810\\press-0.html",
+   "contentHash": "d09c311df6bb384a703ab0cf07e4cd25c56ce3cc744878b70637750d24512ada",
+   "publicExcerpt": "Quoted from the Steam store page Generative AI was used to assist in the creation of selected Steam store promotional images, certain audio assets, and a limited number of 3D assets. AI tools were also used to assist with translation and localization."
+  }
+ ],
+ "identity": {
+  "appId": "5245810",
+  "name": "ForgeTax",
+  "developer": "GraveYardDev",
+  "publisher": "GraveYardDev",
+  "type": "game",
+  "verified": true,
+  "release": "Sep 29, 2026",
+  "comingSoon": false,
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ],
+  "description": "A dark, first-person forging roguelite. Hammer swords into absurd fortunes, bend the odds with relics, and risk it all on your next strike. Spend precious blades to build powerful synergies. Meet the dragon's tribute—or face its wrath.",
+  "identityEvidence": {
+   "appId": "5245810",
+   "sourceType": "identity",
+   "url": "https://store.steampowered.com/api/appdetails?appids=5245810&l=english",
+   "fetchedAt": "2026-10-30T04:33:42.869124+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "contentHash": "50f2d16ae919778f25c29f322758939ec185a35a04a0e9d1b7c5466c1c4b4ac5",
+   "readStatus": "complete",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\5245810\\appdetails.json",
+   "locator": "full response",
+   "quote": ""
+  }
+ },
+ "discussion": {
+  "pagesScanned": 1,
+  "visibleTopics": 15,
+  "totalTopics": 74,
+  "topics": [
+   {
+    "title": "PINNED: Bug Reports & Feedback / 버그 제보 및 플레이 피드백",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/583935635494133794/"
+   },
+   {
+    "title": "我在代码中找到了破碎概率的底层逻辑",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/574930972896769926/"
+   },
+   {
+    "title": "概率确实不正常，还是要用遗物压回来",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/574930972896756153/"
+   },
+   {
+    "title": "这作坊忒小了",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/573804438794569625/"
+   },
+   {
+    "title": "是不是偷偷改破坏概率，怎么这么低！！！",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/583936001036289028/"
+   },
+   {
+    "title": "1",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/573804739774678270/"
+   },
+   {
+    "title": "建议",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/565922740069057639/"
+   },
+   {
+    "title": "呸！",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/573804739774522931/"
+   },
+   {
+    "title": "批量提交武器时游戏崩溃，日志显示尝试分配 1.87TB 蒙皮内存",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/573804739774385944/"
+   },
+   {
+    "title": "SO FKING STUPID!!!",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/565922505040109013/"
+   },
+   {
+    "title": "改一下不会死",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/573804438794446615/"
+   },
+   {
+    "title": "垃圾",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/573804438794423607/"
+   },
+   {
+    "title": "能做个仓库吗？带自动归类功能的，还有麻烦加个地上的剑显示价格的优化",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/573804438794321218/"
+   },
+   {
+    "title": "扩大地图",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/565922930124590858/"
+   },
+   {
+    "title": "神了，破坏率到10以上基本就必坏了，感觉概率就是糊弄你的",
+    "url": "https://steamcommunity.com/app/5245810/discussions/0/565922505040254006/"
+   }
+  ],
+  "related": [],
+  "coverageLimits": [
+   "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+  ]
+ },
+ "press": {
+  "query": "\"ForgeTax\" Steam GraveYardDev AI generated content disclosure",
+  "searchedAt": "2026-10-30T04:45:18+00:00",
+  "status": "complete",
+  "results": [
+   {
+    "url": "https://gamedb.ai/games/5245810-forgetax",
+    "relevant": true,
+    "reason": "第三方 AI 披露索引，逐字转录商店披露并按八个领域判定，已读全文。"
+   },
+   {
+    "url": "https://zing.co.uk/industry-resources/steam-charts/ai-disclosed/",
+    "relevant": false,
+    "reason": "抓取到的榜单正文中没有出现本作条目（列表由脚本渲染），无法作为本作证据。"
+   },
+   {
+    "url": "https://store.steampowered.com/app/5245810/ForgeTax/",
+    "relevant": false,
+    "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+   },
+   {
+    "url": "https://gamedb.ai/games/5239620-crazy-texas",
+    "relevant": false,
+    "reason": "GameDB.ai 上的另一款游戏（Crazy Texas），与本作无关。"
+   },
+   {
+    "url": "https://gamedb.ai/games/3098050-backseat",
+    "relevant": false,
+    "reason": "GameDB.ai 上的另一款游戏（Backseat），与本作无关。"
+   },
+   {
+    "url": "https://gamedb.ai/games/5183270-degul-degul-999",
+    "relevant": false,
+    "reason": "GameDB.ai 上的另一款游戏（DEGUL DEGUL 999），与本作无关。"
+   },
+   {
+    "url": "https://www.google.com/goto?url=CAESagHrOzAVV6BKZ7q8HVRWeV20cdfNQzuC22xeCoqI_nT_HnSqcu8TB2ckmZ17GLTCGbZBKEOPKIY2l0LrrqBS04SEtPUOy11RT637XCFQjhT1KkH79RFfRUfPYXnVWj0isahjwffKDURkMCo",
+    "relevant": false,
+    "reason": "Bluesky 账号页，非本作报道。"
+   },
+   {
+    "url": "https://www.google.com/goto?url=CAESaAHrOzAVoEqbCjBtw8kjmkxdL6Dwr4OatfY6nJSTjlmjydiDMYZ2giB9i1oa3demHJ23fpPiBhtI_8yuOE_iHi5Ahm5jUf575s9f8RNris4ymHj2iH8JhUB3SCKMzRWttalkt13GKTbY",
+    "relevant": false,
+    "reason": "GameDB.ai 上的另一款游戏（One More Ball），与本作无关。"
+   },
+   {
+    "url": "https://www.google.com/goto?url=CAESvAEB6zswFb8xJZ_gokX2W1ctqUYd6a-EULhPC3WEZoJ34av00foPBCYCtiDGDtZTM7qVe0na1EN18wd6jiYqgldK-3k05c-TyRW4VT8khiSe1KCR_ybGejOuDbb3iPtwb1I8-sJHwlYtyZfxIVkuu6ORPr8rA0EJF6eHjfjNMbxLjCyPRnuZZiLYRVuoeRAyTvejbmgDQkQKBDCedfCQAKwitvPmxlX6s64XPYYOKcYLiji9uAxAlKyx9LTbrw",
+    "relevant": false,
+    "reason": "Steam 公告列表页，未针对本作 AI 披露。"
+   },
+   {
+    "url": "https://www.google.com/goto?url=CAESZAHrOzAVTjCjfz4J6IWfz0J1nLySb8viyzgTwGOg1KiEOD69BrRFn-DBlcLKrPcszHZgtxsRKyXGUeMe9UssE7OHdyGJUs6CtWCUrKcGylwvylPi3L4mg0PwnEasI5tdKHRb6nU",
+    "relevant": false,
+    "reason": "GameDB.ai 上的另一款游戏（Open Late），与本作无关。"
+   }
+  ],
+  "readUrls": [
+   "https://gamedb.ai/games/5245810-forgetax"
+  ],
+  "coverageLimits": [
+   "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+   "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。",
+   "本作上市时间短，未检索到独立媒体报道，公开讨论集中在 AI 披露索引站上。"
+  ],
+  "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\5245810\\press-search.json",
+  "contentHash": "43d0238cf60cad70aae12ec598e56db2dd7b80ca5badbb5cc5f931e409715ef9"
+ }
+}

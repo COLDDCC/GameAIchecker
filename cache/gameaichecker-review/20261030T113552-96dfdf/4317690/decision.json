@@ -1,0 +1,70 @@
+{
+  "identityName": "Crimson Moon",
+  "identityDeveloper": "ProbablyMonsters",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "claimed_none",
+      "note": "披露声明不会用 AI 生成游戏内玩法要素。此为开发者自述，未经独立审计。",
+      "evidenceId": "store",
+      "quote": "AI was not and will not be used to generate in-game art, audio, narrative, or gameplay elements."
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "claimed_none",
+      "note": "披露声明不会用 AI 生成游戏内美术。此为开发者自述，未经独立审计。",
+      "evidenceId": "store",
+      "quote": "AI was not and will not be used to generate in-game art, audio, narrative, or gameplay elements."
+    },
+    "music": {
+      "state": "claimed_none",
+      "note": "披露以“audio”统称排除 AI 生成音频，未逐字区分音乐与配音。此为开发者自述，未经独立审计。",
+      "evidenceId": "store",
+      "quote": "AI was not and will not be used to generate in-game art, audio, narrative, or gameplay elements."
+    },
+    "voice": {
+      "state": "claimed_none",
+      "note": "披露以“audio”统称排除 AI 生成音频，未逐字区分音乐与配音。此为开发者自述，未经独立审计。",
+      "evidenceId": "store",
+      "quote": "AI was not and will not be used to generate in-game art, audio, narrative, or gameplay elements."
+    },
+    "writing": {
+      "state": "claimed_none",
+      "note": "开发者署名说明帖（[developer] 徽标）与商店披露一致：叙事内容由团队创作，未用生成式 AI。此为开发者自述，未经独立审计。",
+      "evidenceId": "community-0",
+      "quote": "generative AI was not used to create the game’s art, audio, narrative, or gameplay content"
+    },
+    "translation": {
+      "state": "used",
+      "note": "披露称 AI 辅助工具用于生成翻译初稿，随后由人工本地化专家复核与修订。",
+      "evidenceId": "store",
+      "quote": "An AI-assisted tool was used to create a preliminary translation pass that was reviewed and revised by human localization professionals."
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "disclosureQuote": "An AI-assisted tool was used to create a preliminary translation pass that was reviewed and revised by human localization professionals. AI was not and will not be used to generate in-game art, audio, narrative, or gameplay elements.",
+  "summary": "动作 RPG。开发者披露 AI 辅助工具用于翻译初稿、再由人工本地化专家复核修订，并声明不会用 AI 生成游戏内美术、音频、叙事与玩法要素。",
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 287）。另读带 [developer] 徽标的开发者说明帖（2026-09-01）正文及回复，其说法与商店披露一致；逐款检索公开报道 2 次、登记 12 条结果，读到 Open Credits 条目，但它只是按商店披露整理，不构成独立证据。逐款检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "description": "商店披露与开发者署名说明互相印证：AI 只用于翻译初稿，游戏内容生成被排除。",
+  "releaseNote": "Sep 1, 2026",
+  "english": {
+    "summary": "An action RPG. The developer discloses an AI-assisted preliminary translation pass revised by human localization professionals, and states that AI was not and will not generate in-game art, audio, narrative or gameplay elements.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 287). Also read a post by an account carrying the [developer] badge dated 2026-09-01 and its replies, which match the store disclosure, plus the Open Credits entry, which only restates the disclosure and is not independent evidence. Coverage search runs per game and is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure rules out AI generation of gameplay elements. The disclosure rules out AI-generated in-game content of this kind; this is a developer self-report, not an independent audit.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure rules out AI-generated in-game art. The disclosure rules out AI-generated in-game content of this kind; this is a developer self-report, not an independent audit.",
+      "music": "The disclosure rules out AI-generated in-game audio as a whole and does not separate music from voice. The disclosure rules out AI-generated in-game content of this kind; this is a developer self-report, not an independent audit.",
+      "voice": "The disclosure rules out AI-generated in-game audio as a whole and does not separate music from voice. The disclosure rules out AI-generated in-game content of this kind; this is a developer self-report, not an independent audit.",
+      "writing": "A post from a [developer]-badged account matches the store disclosure: narrative content was created by the team without generative AI. This is a developer self-report, not an independent audit.",
+      "translation": "An AI-assisted tool produced a preliminary translation pass that was then reviewed and revised by human localization professionals.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

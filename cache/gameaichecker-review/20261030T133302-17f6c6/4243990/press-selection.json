@@ -1,0 +1,71 @@
+{
+ "results": [
+  {
+   "url": "https://steamcommunity.com/app/4243990/reviews/?browsefilter=toprated",
+   "relevant": true,
+   "reason": "Steam 社区高分评测页，玩家直接讨论商店页的 AI 披露，已读整页。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4243990/_/?l=english&snr=1_300_morelikev2__307_18",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4243990/Path_of_Idle_Old_Gods_Rising/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://niklasnotes.com/dashboard/game/247438/path_of_idle_old_gods_rising",
+   "relevant": false,
+   "reason": "第三方销量/评测数据面板，正文只有该站自述“摘要由 AI 生成”，没有针对本作 AI 披露的内容。"
+  },
+  {
+   "url": "https://gamedb.ai/games/2434370-auto-dungeon-idle-adventure",
+   "relevant": false,
+   "reason": "GameDB.ai 上的另一款游戏（Auto Dungeon），与本作无关。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4270610-idle-doodle-realm",
+   "relevant": false,
+   "reason": "GameDB.ai 上的另一款游戏（idle:Doodle Realm），与本作无关。"
+  },
+  {
+   "url": "https://gamedb.ai/",
+   "relevant": false,
+   "reason": "GameDB.ai 首页列表，未包含本作的专门分析。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESUwHrOzAVZ9b5h_wpdgHz9UgBqPe_m0L-ZlBkYGmq4zINiGxt7OMHUDobNz1GOFtSVAxXahZ3Llm34LuzF_hEK9oJE90meA-2r2boBflUqVq3c4wY",
+   "relevant": false,
+   "reason": "GameDB.ai 的 AI 美术总榜页，未逐游戏展开本作。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZgHrOzAViTOu4-ejCbP9lfer-7WLDhKO7VAaTOko5gIHH5StDKIW5YkEABFArxXY66VZk_KwQhI-KNeduO1LWuBKr-NNRcP6KPNxP3H6GhRLxV1cfoowVKOCFspaQhUg9YjwegJBww",
+   "relevant": false,
+   "reason": "GameDB.ai 上的另一款游戏（Sea Drifter），与本作无关。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "community-0",
+   "appId": "4243990",
+   "sourceType": "community",
+   "url": "https://steamcommunity.com/app/4243990/reviews/?browsefilter=toprated",
+   "fetchedAt": "2026-10-30T04:51:32.525592+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "It's not in your face and looks a little asset-y but the game play more then makes up for it. And if you are complaining they didn't tell you about the AI before you purchased you didn't read the store page that literally says Ai was used.",
+   "locator": "full article text",
+   "label": "Steam 社区高分评测：玩家对本作 AI 披露的反应",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4243990\\community-0.html",
+   "contentHash": "887382eca05ff2f89e945ad8aa4356524da4cf99ddb680f7069aff138a7163ce"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。",
+  "未检索到针对本作的独立媒体报道，检索结果多为同类放置游戏的披露索引页。"
+ ]
+}

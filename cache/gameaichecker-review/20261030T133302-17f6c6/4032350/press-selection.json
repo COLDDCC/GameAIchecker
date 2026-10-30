@@ -1,0 +1,41 @@
+{
+ "results": [
+  {
+   "url": "https://howmuchai.games/ai/live-generation",
+   "relevant": true,
+   "reason": "第三方披露索引的“游玩时生成内容”清单，含本作披露摘要，已读整页。"
+  },
+  {
+   "url": "https://www.resetera.com/threads/pc-peeps-any-of-you-excited-for-college-football-27-first-time-on-pc.1565308/",
+   "relevant": false,
+   "reason": "ResetEra 讨论帖未抓取，平台对自动抓取返回 403，仅登记为线索。"
+  },
+  {
+   "url": "https://www.facebook.com/groups/bearsbegaming/posts/2391447464433524/",
+   "relevant": false,
+   "reason": "Facebook 小组帖需登录，无法读取正文。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4032350",
+   "sourceType": "press",
+   "url": "https://howmuchai.games/ai/live-generation",
+   "fetchedAt": "2026-10-30T04:49:35.450976+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "EA SPORTS™ College Football 27 Tiburon · Jul 9, 2026 AI was involved in Dynasty/RTG storyline content, design tuning, commentary scripting, trophy room support, and more realistic CPU play calls, without specifics. Heartopia XD · Jan 16, 2026 AI redraws in-game snapshot images during puzzle gameplay and helps players understand other languages in in-game chat, both at runtime.",
+   "locator": "full article text",
+   "label": "HowMuchAI 实时生成内容清单中对本作的摘要",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\4032350\\press-0.html",
+   "contentHash": "4b628d26fd55cdd7f854ec202f2b3b432fab495ca41974996380b462b8c97797"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "检索结果集中在 AI 披露索引站，未检索到针对本作 AI 披露的独立媒体评测。",
+  "ResetEra 与 Facebook 需登录或拦截抓取，未能读取玩家讨论正文。"
+ ]
+}

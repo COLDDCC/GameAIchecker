@@ -1,0 +1,62 @@
+{
+  "identityName": "Cellar Keeper",
+  "identityDeveloper": "EgoTrampoline",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "used",
+      "note": "披露称生成式 AI 仅作为辅助工具，用于设计部分虚构酒瓶品牌。",
+      "evidenceId": "store",
+      "quote": "Generative AI was used only as a supporting tool for the design of some fictional bottle brands"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "used",
+      "note": "同一条披露还把语言翻译列为生成式 AI 的辅助用途之一。",
+      "evidenceId": "store",
+      "quote": "Generative AI was used only as a supporting tool for the design of some fictional bottle brands and language translation."
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "disclosureQuote": "Generative AI was used only as a supporting tool for the design of some fictional bottle brands and language translation.",
+  "summary": "酒窖整理模拟。开发者披露生成式 AI 仅作为辅助工具，用于设计部分虚构酒瓶品牌与语言翻译。",
+  "reviewNote": "核查 Steam 完整披露、身份与英文界面讨论区首页（可见 15 个主题，总数 70），首页有一帖调侃与《Librarian》雷同，未逐帖展开。逐款检索公开报道 2 次、登记 11 条结果，读到 AI Transparency Index 条目，该站按商店披露整理内容。讨论区仅覆盖首页，检索非穷尽。结论基于开发者自述，未经独立审计。",
+  "description": "官方披露把 AI 用途限定为辅助设计虚构酒瓶品牌与翻译。",
+  "releaseNote": "6 Aug, 2026",
+  "english": {
+    "summary": "A cozy cellar organising sim. The developer discloses that generative AI was used only as a supporting tool for designing some fictional bottle brands and for language translation.",
+    "reviewNote": "Reviewed the full Steam disclosure, identity and the English discussion homepage (15 visible topics of 70), where one topic jokes about the game resembling another tidying title; individual threads were not opened. Coverage was searched per game and an AI Transparency Index entry was read, which is compiled from the store disclosure. Discussion coverage is limited to the homepage and search is not exhaustive. Findings rely on developer statements, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Generative AI was used only as a supporting tool to design some of the fictional bottle brands.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The same sentence also lists language translation as a supporting use of generative AI.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "sources": [
+    {
+      "appId": "3167920",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/3167920/?l=english",
+      "fetchedAt": "2026-10-30T04:33:40.232720+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "39cbdb0dc6efdb6a08712d968e18dbecb2a411d116d383697e9641ba2ea4a3f7",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\3167920\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI was used for some translations, music, and visual assets. The game does not create AI-generated content during gameplay, and AI was not used to write the game’s code.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI was used for some translations, music, and visual assets. The game does not create AI-generated content during gameplay, and AI was not used to write the game’s code."
+    },
+    {
+      "appId": "3167920",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/3167920/discussions/?l=english",
+      "fetchedAt": "2026-10-30T04:33:41.582764+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "522448c481b4bf6f981b4c5437c95cf19780d48c3ff5d0363e963f5707e46c36",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\3167920\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: SUGESTIE / SUGGESTIONS\nPINNED: ZGŁASZANIE BŁĘDÓW / BUG REPORT\nPINNED: Source-checked demo job database and wiki\nMisja Auto Fuszerka\nbłąd\nZlecenie - Fundusze Rządowe\nbłąd\nBug at model citizen\nFight for gold wallpaper bedroom stuck\npowtorka z rozrywki\nGARAGE DOOR OPENED NOT CLICKBAIT\nGame doesnt load at start\nawarie\nGAME WON'T START\nwell",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 274）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "3167920",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/3167920",
+      "fetchedAt": "2026-10-30T04:50:39.205967+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "AI Usage Disclosure AI was used for some translations , music , and visual assets . The game does not create AI-generated content during gameplay, and AI was not used to write the game’s code.",
+      "locator": "full article text",
+      "label": "AI Transparency Index 对本作商店披露的分析页",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\3167920\\press-0.html",
+      "contentHash": "d8f1f5ae508b22a431b3ee51c33ad551bbc0b524ddd0b22c657132ad02061e4a"
+    },
+    {
+      "id": "press-1",
+      "appId": "3167920",
+      "sourceType": "press",
+      "url": "https://gaming.kroppmedia.com.au/news/low-budget-repairs-out-now-steam/",
+      "fetchedAt": "2026-10-30T04:50:39.944872+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "The store page carries an AI generated content disclosure from the developers, saying AI was used for some translations, music and visual assets, that the game does not create AI-generated content during gameplay, and that AI was not used to write the code.",
+      "locator": "full article text",
+      "label": "Kropp Media 评测：对本作 AI 披露的讨论",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\3167920\\press-1.html",
+      "contentHash": "9ac1cb18cd56df973e5d987bc80c210a8802a5c583a53ed2bf5328d251fb658a"
+    }
+  ],
+  "identity": {
+    "appId": "3167920",
+    "name": "Low-Budget Repairs",
+    "developer": "Gray2RGB",
+    "publisher": "Simplicity Games, PlayWay S.A.",
+    "type": "game",
+    "verified": true,
+    "release": "Aug 13, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Indie",
+      "Simulation"
+    ],
+    "description": "Manage renovations in 90s apartment blocks! Focus on quick profit and cut costs wherever possible. Client notices defects? Tough luck, the money's already in your pocket. Every day brings new challenges and decisions that can lead to fortune... or trouble!",
+    "identityEvidence": {
+      "appId": "3167920",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=3167920&l=english",
+      "fetchedAt": "2026-10-30T04:33:40.890823+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "c5bad0c777ba40daa56f95a5f9e0ec2d8e926e51977ae4e3038a355ee1cce624",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\3167920\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 274,
+    "topics": [
+      {
+        "title": "PINNED: SUGESTIE / SUGGESTIONS",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/216887925459176787/"
+      },
+      {
+        "title": "PINNED: ZGŁASZANIE BŁĘDÓW / BUG REPORT",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/216887925459175506/"
+      },
+      {
+        "title": "PINNED: Source-checked demo job database and wiki",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/582804027998389289/"
+      },
+      {
+        "title": "Misja Auto Fuszerka",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/587312703065119226/"
+      },
+      {
+        "title": "błąd",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/564797531878918161/"
+      },
+      {
+        "title": "Zlecenie - Fundusze Rządowe",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/564797531878873847/"
+      },
+      {
+        "title": "błąd",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/564797531878774646/"
+      },
+      {
+        "title": "Bug at model citizen",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/564797531878468558/"
+      },
+      {
+        "title": "Fight for gold wallpaper bedroom stuck",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/587314210897605672/"
+      },
+      {
+        "title": "powtorka z rozrywki",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/564797239535774669/"
+      },
+      {
+        "title": "GARAGE DOOR OPENED NOT CLICKBAIT",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/564797239535750194/"
+      },
+      {
+        "title": "Game doesnt load at start",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/216887925459190897/"
+      },
+      {
+        "title": "awarie",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/216887925459257250/"
+      },
+      {
+        "title": "GAME WON'T START",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/587313669517386770/"
+      },
+      {
+        "title": "well",
+        "url": "https://steamcommunity.com/app/3167920/discussions/0/564797239535458333/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Low-Budget Repairs\" Gray2RGB AI generated assets Steam disclosure",
+    "searchedAt": "2026-10-30T04:43:18+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://aitransparencyindex.com/products/steam/3167920",
+        "relevant": true,
+        "reason": "第三方 AI 披露索引，复刻商店披露原文，已读全文。"
+      },
+      {
+        "url": "https://gaming.kroppmedia.com.au/news/low-budget-repairs-out-now-steam/",
+        "relevant": true,
+        "reason": "独立游戏媒体评测，明确讨论本作商店页的 AI 披露与玩家反应，已读全文。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/3167920/_/?snr=1_4_4__tab-TopGrossing",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESdgHrOzAVaOyZoKnl_A80pKK7z-US-68VCt70t0bFP_MH56Rvt56fNhMz6aQbp_3shVmjNc8dI31Ri_8zYu-Lei8iocZNVqURVFy8Bj7SvFKjU4B8LZaECEdM-ew3I1nPvOtXOZHt7qOQFmPIRc5W0eDQjd5ksGY",
+        "relevant": false,
+        "reason": "教程向攻略页，未讨论 AI 披露。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESZQHrOzAV_CyTnnaQF3MHGeGpPbvGudPYFG2zMert_FbulDTKpT02C7dgcXUzWbni1rM6C5OOgRUr3K0sdDbXOazSli4kTs9ALUzx-sbefOF7mzcs03XujR7e5dB1LR3Jo1DSz78m",
+        "relevant": false,
+        "reason": "GameDB.ai 上的另一款游戏（Basement10），与本作无关。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESmwEB6zswFT_YRf5gF7_BfZbwRaI1NToGaB5jEWdVauDd-hSaejNZTGQ_tflOJ4OJGkqWvTfhQQ64v2xlAbkX9oXqaPwMROFTesYw8zQq9PqsZVHe-xfqSfbr9-PxCltf9SH3YiPo-05b0Abdu200L0Gwb6b57mVO9BF8sds-aiaIwIZpZ2EznObLUuXXjZnuT41f_Ar8oMLGL6dlRw",
+        "relevant": false,
+        "reason": "Steam 月度销量榜汇总页，与本作 AI 披露无关。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/3167920",
+      "https://gaming.kroppmedia.com.au/news/low-budget-repairs-out-now-steam/"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\3167920\\press-search.json",
+    "contentHash": "9efe3605894e072414e3210a32dcf6387df9114705c9ffcc5779422ae3bdf1aa"
+  }
+}

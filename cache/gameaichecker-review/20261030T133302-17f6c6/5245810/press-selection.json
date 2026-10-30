@@ -1,0 +1,76 @@
+{
+ "results": [
+  {
+   "url": "https://gamedb.ai/games/5245810-forgetax",
+   "relevant": true,
+   "reason": "第三方 AI 披露索引，逐字转录商店披露并按八个领域判定，已读全文。"
+  },
+  {
+   "url": "https://zing.co.uk/industry-resources/steam-charts/ai-disclosed/",
+   "relevant": false,
+   "reason": "抓取到的榜单正文中没有出现本作条目（列表由脚本渲染），无法作为本作证据。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5245810/ForgeTax/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过商店源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5239620-crazy-texas",
+   "relevant": false,
+   "reason": "GameDB.ai 上的另一款游戏（Crazy Texas），与本作无关。"
+  },
+  {
+   "url": "https://gamedb.ai/games/3098050-backseat",
+   "relevant": false,
+   "reason": "GameDB.ai 上的另一款游戏（Backseat），与本作无关。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5183270-degul-degul-999",
+   "relevant": false,
+   "reason": "GameDB.ai 上的另一款游戏（DEGUL DEGUL 999），与本作无关。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESagHrOzAVV6BKZ7q8HVRWeV20cdfNQzuC22xeCoqI_nT_HnSqcu8TB2ckmZ17GLTCGbZBKEOPKIY2l0LrrqBS04SEtPUOy11RT637XCFQjhT1KkH79RFfRUfPYXnVWj0isahjwffKDURkMCo",
+   "relevant": false,
+   "reason": "Bluesky 账号页，非本作报道。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESaAHrOzAVoEqbCjBtw8kjmkxdL6Dwr4OatfY6nJSTjlmjydiDMYZ2giB9i1oa3demHJ23fpPiBhtI_8yuOE_iHi5Ahm5jUf575s9f8RNris4ymHj2iH8JhUB3SCKMzRWttalkt13GKTbY",
+   "relevant": false,
+   "reason": "GameDB.ai 上的另一款游戏（One More Ball），与本作无关。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESvAEB6zswFb8xJZ_gokX2W1ctqUYd6a-EULhPC3WEZoJ34av00foPBCYCtiDGDtZTM7qVe0na1EN18wd6jiYqgldK-3k05c-TyRW4VT8khiSe1KCR_ybGejOuDbb3iPtwb1I8-sJHwlYtyZfxIVkuu6ORPr8rA0EJF6eHjfjNMbxLjCyPRnuZZiLYRVuoeRAyTvejbmgDQkQKBDCedfCQAKwitvPmxlX6s64XPYYOKcYLiji9uAxAlKyx9LTbrw",
+   "relevant": false,
+   "reason": "Steam 公告列表页，未针对本作 AI 披露。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZAHrOzAVTjCjfz4J6IWfz0J1nLySb8viyzgTwGOg1KiEOD69BrRFn-DBlcLKrPcszHZgtxsRKyXGUeMe9UssE7OHdyGJUs6CtWCUrKcGylwvylPi3L4mg0PwnEasI5tdKHRb6nU",
+   "relevant": false,
+   "reason": "GameDB.ai 上的另一款游戏（Open Late），与本作无关。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5245810",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/5245810-forgetax",
+   "fetchedAt": "2026-10-30T04:51:10.176362+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Not used, per the developer In-game AI Not mentioned Code Voice Writing Read the full disclosureQuoted from the Steam store page Generative AI was used to assist in the creation of selected Steam store promotional images, certain audio assets, and a limited number of 3D assets. AI tools were also used to assist with translation and localization.",
+   "locator": "full article text",
+   "label": "GameDB.ai 对本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261030T133302-17f6c6\\5245810\\press-0.html",
+   "contentHash": "d09c311df6bb384a703ab0cf07e4cd25c56ce3cc744878b70637750d24512ada"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "部分结果经 google.com/goto 跳转链接返回，正文需二次跳转才能定位原始站点，本轮以可直接访问的站点为准。",
+  "本作上市时间短，未检索到独立媒体报道，公开讨论集中在 AI 披露索引站上。"
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "identityName": "ForgeTax",
+ "identityDeveloper": "GraveYardDev",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "claimed_none",
+   "note": "披露称游玩时不使用实时生成式 AI。此为开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "No live-generated AI is used during gameplay."
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称生成式 AI 协助制作了少量 3D 资产。",
+   "evidenceId": "store",
+   "quote": "Generative AI was used to assist in the creation of selected Steam store promotional images, certain audio assets, and a limited number of 3D assets."
+  },
+  "music": {
+   "state": "used",
+   "note": "披露称生成式 AI 协助制作了部分音频资产（音乐与音效）。",
+   "evidenceId": "store",
+   "quote": "Generative AI was used to assist in the creation of selected Steam store promotional images, certain audio assets, and a limited number of 3D assets."
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "披露只提到翻译与本地化由 AI 协助，没有说明原文写作是否使用 AI；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露称 AI 工具协助了翻译与本地化。",
+   "evidenceId": "store",
+   "quote": "AI tools were also used to assist with translation and localization."
+  },
+  "marketing": {
+   "state": "used",
+   "note": "披露称生成式 AI 协助制作了部分 Steam 商店宣传图。",
+   "evidenceId": "store",
+   "quote": "Generative AI was used to assist in the creation of selected Steam store promotional images, certain audio assets, and a limited number of 3D assets."
+  }
+ },
+ "disclosureQuote": "Generative AI was used to assist in the creation of selected Steam store promotional images, certain audio assets, and a limited number of 3D assets. AI tools were also used to assist with translation and localization. No live-generated AI is used during gameplay.",
+ "summary": "第一人称锻冶 Roguelite。开发者披露生成式 AI 协助制作部分 Steam 商店宣传图、部分音频资产与少量 3D 资产，AI 工具也协助了翻译与本地化，并声明游玩时不使用实时生成式 AI。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 GraveYardDev）与英文讨论区首页（可见 15 个主题，总数 74），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 2 次、登记 10 条结果，读取 1 篇原始来源（GameDB.ai 条目，逐字转录商店披露并按八个领域整理）；一份披露榜单页抓取到的正文中没有本作条目，未采用。发售时间较短，未检索到独立媒体报道。结论基于开发者自述，未经独立审计。",
+ "description": "官方披露点名宣传图、音频、少量 3D 资产与翻译本地化使用 AI，并声明游玩时不实时生成。",
+ "releaseNote": "Sep 29, 2026",
+ "english": {
+  "summary": "A first-person forging roguelite. The developer states generative AI assisted with selected Steam store promotional images, certain audio assets and a limited number of 3D assets, that AI tools also assisted translation and localization, and that no live-generated AI is used during gameplay.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer GraveYardDev) and the English discussion homepage (15 visible topics of 74); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched twice with 10 results logged and one raw source read (GameDB.ai, which transcribes the store disclosure into the eight areas); a disclosure chart page did not contain this title in the fetched text and was not used. The game is newly released and no independent press coverage was found. Findings rely on developer statements, not an independent audit.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure says no live-generated AI is used during gameplay. Self-report, not independently audited.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure states generative AI assisted with a limited number of 3D assets.",
+   "music": "The disclosure states generative AI assisted with certain audio assets.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "The disclosure covers AI-assisted translation and localization but not the source writing, so this is not proof that writing is free of AI.",
+   "translation": "The disclosure states AI tools assisted with translation and localization.",
+   "marketing": "The disclosure states generative AI assisted with selected Steam store promotional images."
+  }
+ }
+}
