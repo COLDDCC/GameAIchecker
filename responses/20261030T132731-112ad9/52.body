@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Idlescape on Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://store.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=YzJgj1FjzW34&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_global.css?v=sat0mVAiy9IE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/buttons.css?v=BZhNEtESfYSJ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/store.css?v=pRFy65b3KvQ_&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/styles_linux.css?v=LcZAgwD7_TSW&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/user_reviews.css?v=hcV4WIPnYWMf&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_game_shared.css?v=Xi6rfDkwSwlu&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game.css?v=FpqfPB3I4l_e&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_background_shared.css?v=RuX0Jh-U_mAP&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/recommended.css?v=fwyY12y3q2Mi&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/user_reviews_rewards.css?v=nDJVyLGQ1XMI&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/apphub.css?v=otgZDLujyGMF&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/ui-lightness/jquery-ui-1.7.2.custom.css?v=qgq7mHqEwLbE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game_mob.css?v=XLV-14LI0nm-&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=FJJn0nIxXaGQ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=NXam5zydzNu8&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=w6QbwI-5-j2S&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/main.js?v=VXExFbFD9rs7&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js?v=7IbaKUfZfESM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				$J.data( document, 'x_readytime', new Date().getTime() );
+				$J.data( document, 'x_oldref', GetNavCookie() );
+				SetupTooltips( { tooltipCSSClass: 'store_tooltip'  } );
+		});
+		</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/gamehighlightplayer.js?v=mdJgU3gDKmis&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/user_reviews.js?v=GGcui5RNq7P0&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/app_tagging.js?v=jzh2Y03tD8Ea&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/game.js?v=KNgRXsZ3gVA_&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.min.js?v=mSfqk1QKKgiz&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.min.js?v=MeIf0YViALgL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.min.js?v=CIECDYHJjBgN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.min.js?v=laPWW88ZIIHe&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/dselect.js?v=xOLWzo6KWkKr&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-ui-1.9.2.js?v=wxKVOzU-zSuN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="Idlescape is an MMORPG combining idle mechanics with RPG elements. Progress continues offline, allowing mastery of skills like Mining, Fishing, and Combat. Engage in crafting, gathering, and strategic battles. Perfect for casual and hardcore gamers alike.">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Idlescape on Steam">
+					<meta property="twitter:title" content="Idlescape on Steam">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:url" content="https://store.steampowered.com/app/2692420/Idlescape/">
+					<meta property="og:description" content="Idlescape is an MMORPG combining idle mechanics with RPG elements. Progress continues offline, allowing mastery of skills like Mining, Fishing, and Combat. Engage in crafting, gathering, and strategic battles. Perfect for casual and hardcore gamers alike.">
+					<meta property="twitter:description" content="Idlescape is an MMORPG combining idle mechanics with RPG elements. Progress continues offline, allowing mastery of skills like Mining, Fishing, and Combat. Engage in crafting, gathering, and strategic battles. Perfect for casual and hardcore gamers alike.">
+			
+			<link rel="canonical" href="https://store.steampowered.com/app/2692420/Idlescape/">
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2692420/46cf841b14bcb12b5f3100cd3ab792ee4ed93214/capsule_616x353.jpg?t=1792710205">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2692420/46cf841b14bcb12b5f3100cd3ab792ee4ed93214/capsule_616x353.jpg?t=1792710205">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2692420/46cf841b14bcb12b5f3100cd3ab792ee4ed93214/capsule_616x353.jpg?t=1792710205" />
+				
+	
+	
+	
+	
+	</head>
+<body class="v6 app game_bg menu_background_overlap application widestore v7menu responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com/login/?redir=app%2F2692420%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">
+									Sign in								</a>
+															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-responsive-menu">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-responsive-menu">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-responsive-menu">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-responsive-menu">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-responsive-menu">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-responsive-menu">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/?snr=1_5_9__global-responsive-menu" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_5_9__global-responsive-menu" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+															<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+					<div class="responsive_header_react_target" data-featuretarget="store-menu-responsive-search"><div class="responsive_header_react_placeholder"></div></div>				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/?snr=1_5_9__global-header" aria-label="Link to the Steam Homepage">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-header">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-header">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-header">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-header">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-header">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-header">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=app%2F2692420%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<div class="StoreMenuLoadingPlaceholder" data-featuretarget="store-menu-v7"><div class="PlaceholderInner"></div></div><div id="responsive_store_nav_ctn"></div><div id="responsive_store_nav_overlay" style="display:none"><div id="responsive_store_nav_overlay_ctn"></div><div id="responsive_store_nav_overlay_bottom"></div></div><div id="responsive_store_search_overlay" style="display:none"></div><div data-cart-banner-spot="1"></div>
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793298588,&quot;PAGE_TIMESTAMP&quot;:1793334512,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1793334512,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;1_5_9_&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[3,4]}" data-hwinfo="{&quot;bSteamOS&quot;:false,&quot;bSteamDeck&quot;:false,&quot;bSteamMachine&quot;:false,&quot;bSteamFrame&quot;:false}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-store_page_asset_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/%s?t=1792710205&quot;" data-store_page_extra_assets_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/%s?t=1792710205&quot;" data-store_page_extra_assets_map="[]" data-hardwarecompatibility="{&quot;appid&quot;:2692420,&quot;resolved_category&quot;:0,&quot;resolved_items&quot;:[],&quot;steam_deck_blog_url&quot;:&quot;&quot;,&quot;search_id&quot;:null,&quot;steamos_resolved_category&quot;:0,&quot;steamos_resolved_items&quot;:[],&quot;machine_resolved_category&quot;:0,&quot;machine_resolved_items&quot;:[],&quot;frame_resolved_category&quot;:0,&quot;frame_resolved_items&quot;:[]}" data-appname="&quot;Idlescape&quot;" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:{&quot;domain&quot;:&quot;store.steampowered.com&quot;,&quot;controller&quot;:&quot;direct-navigation&quot;,&quot;method&quot;:&quot;&quot;,&quot;submethod&quot;:&quot;&quot;,&quot;feature&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;countrycode&quot;:&quot;&quot;,&quot;webkey&quot;:null,&quot;is_client&quot;:false,&quot;curator_data&quot;:null,&quot;is_likely_bot&quot;:false,&quot;is_utm&quot;:false},&quot;wishlist_item_count&quot;:0}"></div><div id="application_root"></div><script>window.g_wapit="";</script><link href="https://store.fastly.steamstatic.com/public/css/applications/store/main.css?v=hzBzuSSSUisO&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11184889";</script>
+<script type="module" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js?contenthash=5jGoX9w1"></script>
+<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_Languages = ["english"];
+	var g_sessionID = "e65c6d75ab38d518c554c225";
+	var g_ServerTime = 1793334512;
+	var g_bUseNewCartAPI = true;
+
+			$J( InitMiniprofileHovers( 'https%3A%2F%2Fstore.steampowered.com%2F' ) );
+	
+	
+	if ( typeof GStoreItemData != 'undefined' )
+	{
+		GStoreItemData.AddNavParams({
+			__page_default: "1_5_9_",
+			__page_default_obj: {"domain":"store.steampowered.com","controller":"application","method":"app","submethod":"","feature":null,"depth":null,"countrycode":"US","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":null},
+			__originating_obj: {"domain":"store.steampowered.com","controller":"direct-navigation","method":"","submethod":"","feature":"","depth":0,"countrycode":"","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":false},
+			storemenu_recommendedtags: "1_5_9__17"		});
+	}
+
+	if ( typeof GDynamicStore != 'undefined' )
+	{
+		GDynamicStore.Init(0, false, "", {"primary_language":null,"secondary_languages":null,"platform_windows":null,"platform_mac":null,"platform_linux":null,"timestamp_updated":null,"hide_store_broadcast":null,"review_score_preference":null,"timestamp_content_descriptor_preferences_updated":null,"provide_deck_feedback":null,"additional_languages":null,"game_frame_rate_reporting":null,"disable_microtrailers":null,"disable_animated_marketing":null}, 'US',
+			{"bNoDefaultDescriptors":false});
+		GStoreItemData.SetCurrencyFormatter(function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ".", ","); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + "$" + fmt( nValueInCents, bWholeUnitsOnly );});
+		GStoreItemData.SetCurrencyMinPriceIncrement(1);
+	}
+</script>
+
+<script type="text/javascript">
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"1476970":{"name":"IdleOn - The Incremental MMO","url_name":"IdleOn_The_Incremental_MMO","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1476970\/6c5ebda02c5a3ee53ed0ce584e9b4db2a8f3909a\/capsule_184x69.jpg?t=1783034427","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44064918]},"1343400":{"name":"RuneScape \u00ae","url_name":"RuneScape","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1343400\/582ac7ed39d516c72cfdf87d79b7db1b059683ac\/capsule_184x69.jpg?t=1793112088","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[6285467]},"761890":{"name":"Albion Online","url_name":"Albion_Online","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/761890\/1306c035b47b8734e8b0bf264c2138b28461f097\/capsule_184x69.jpg?t=1788194761","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"4671380":{"name":"Scapewatch: Idle MMO","url_name":"Scapewatch_Idle_MMO","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4671380\/b8711cb1a7d76437aac31b9f57edfff0fae0a74b\/capsule_184x69.jpg?t=1790357247","os_windows":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1013320":{"name":"Firestone \u2013 Idle Clicker Online RPG","url_name":"Firestone_Idle_Clicker_Online_RPG","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1013320\/d9973d69341f243522322d5742c81a451e40f839\/capsule_184x69.jpg?t=1793290501","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[35249244]},"4623570":{"name":"Deskrawl: Idle ARPG","url_name":"Deskrawl_Idle_ARPG","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"699\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$6.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4623570\/d2787d4732133073e1b91c11a9ee0db088148a10\/capsule_184x69.jpg?t=1792998955","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[46586217,42658688]},"3678970":{"name":"TBH: Task Bar Hero","url_name":"TBH_Task_Bar_Hero","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3678970\/7861fe728b27e39bb204f8622a593cbca7a839b7\/capsule_184x69_alt_assets_1.jpg?t=1792715315","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45816853,45559083]},"3224420":{"name":"Milky Way Idle","url_name":"Milky_Way_Idle","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3224420\/758094dcbbd16f5fd5e1d4135d98364cad007d35\/capsule_184x69.jpg?t=1784107272","os_windows":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"777150":{"name":"Adventure Land - The Code MMORPG","url_name":"Adventure_Land_The_Code_MMORPG","discount_block":"<div class=\"discount_block \" data-price-final=\"899\" data-bundlediscount=\"0\" data-discount=\"40\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-40%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$14.99<\/div><div class=\"discount_final_price\">$8.99<\/div><\/div><span class=\"discount_aria_label\">40% off. $14.99 normally, discounted to $8.99<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/777150\/3d40b985531c6f63b3fa97c602723b80ba082e21\/capsule_184x69.jpg?t=1792825629","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true},"4629900":{"name":"Stellar Odyssey","url_name":"Stellar_Odyssey","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4629900\/c80daf5fab94b7195529b382936e98880daf46ad\/capsule_184x69.jpg?t=1786362873","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"3767850":{"name":"SpiritVale","url_name":"SpiritVale","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3767850\/90be70c0d5158458c615c173a10ab66f118e35f4\/capsule_184x69.jpg?t=1790909637","os_windows":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1179680":{"name":"Wurm Online","url_name":"Wurm_Online","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1179680\/capsule_184x69.jpg?t=1680192973","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32958435]},"1088090":{"name":"Day of Dragons","url_name":"Day_of_Dragons","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1088090\/capsule_184x69.jpg?t=1780933791","os_windows":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[38909933]},"3454650":{"name":"BitCraft Online","url_name":"BitCraft_Online","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1599\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$15.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3454650\/867792a2d12d58fc9d4f713f1a876f829da418bf\/capsule_184x69.jpg?t=1782988507","os_windows":true,"os_macos":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"2791440":{"name":"Brighter Shores","url_name":"Brighter_Shores","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2791440\/capsule_184x69.jpg?t=1770640588","os_windows":true,"os_macos":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"2103530":{"name":"Idle Clans","url_name":"Idle_Clans","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2103530\/capsule_184x69.jpg?t=1792238953","os_windows":true,"os_macos":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1925650":{"name":"Stars Reach","url_name":"Stars_Reach","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1925650\/93e38a79ef24eb6ed45bda9b465331f7de5cf1ea\/capsule_184x69.jpg?t=1787078415","os_windows":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"438040":{"name":"Shakes and Fidget","url_name":"Shakes_and_Fidget","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/438040\/617b1af669e3d62457c29848b8f420f997f42298\/capsule_184x69.jpg?t=1789479263","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1254120":{"name":"Bless Unleashed","url_name":"Bless_Unleashed","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1254120\/capsule_184x69.jpg?t=1734325138","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[41855075]},"4670220":{"name":"Guilds of Mountgate","url_name":"Guilds_of_Mountgate","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$9.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4670220\/18d1c33863ba8a01891a562e6dccffaf7f9f5438\/capsule_184x69.jpg?t=1791237940","os_windows":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44962791]},"2287550":{"name":"Farm RPG","url_name":"Farm_RPG","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2287550\/capsule_184x69.jpg?t=1780495489","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"2937310":{"name":"Tidal Nexus Online","url_name":"Tidal_Nexus_Online","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2937310\/45dc13669168d3d182b020336cd8dbecbb24584a\/capsule_184x69.jpg?t=1786105093","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"3944440":{"name":"Legends of Aria Eternal","url_name":"Legends_of_Aria_Eternal","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2000\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$20.00<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3944440\/83597877903fe1eb6df23e7ad88d03c3836b2a52\/capsule_184x69.jpg?t=1791060561","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"4453290":{"name":"Idle Hacking: An Inaction RPG","url_name":"Idle_Hacking_An_Inaction_RPG","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4453290\/0fef98a3a1bdd141773e300982174ba614d72f45\/capsule_184x69.jpg?t=1789082205","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1134700":{"name":"Wild Terra 2: New Lands","url_name":"Wild_Terra_2_New_Lands","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1134700\/capsule_184x69.jpg?t=1787208310","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[33018010]},"903950":{"name":"Last Oasis","url_name":"Last_Oasis","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/903950\/capsule_184x69.jpg?t=1772139765","os_windows":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[32938488]},"4135880":{"name":"Winds of Valen","url_name":"Winds_of_Valen","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4135880\/47aad247c9928286d4e3a177d1210618ce028985\/capsule_184x69.jpg?t=1792711000","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"5191970":{"name":"Mimic2 - Idle MMORPG","url_name":"Mimic2_Idle_MMORPG","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5191970\/fe19eec0a3b4e03a12edbe0a2ca4ecb568e1beab\/capsule_184x69.jpg?t=1793206762","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[46281553]},"610080":{"name":"Realm Grinder","url_name":"Realm_Grinder","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/610080\/capsule_184x69.jpg?t=1592248284","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33023891]},"4516510":{"name":"Koruxa- IDLE RPG","url_name":"Koruxa_IDLE_RPG","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4516510\/8d77f7e5cece76f79d70e2237700f79a756a5440\/capsule_184x69.jpg?t=1790865848","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true}},"rgPackages":[],"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		recommend_franchise: "1_5_9__316",
+		more_from_franchise: "1_5_9__317",
+		bundle_component_preview: "1_5_9__412",
+		recommended_ranked_played: "1_5_9__862",
+	} );
+
+	// Temporary code to allow React to move focus to elements that are non-React.
+	function MoveFocusToId( id )
+	{
+		$el = $J( id );
+		if ( $el.length )
+		{
+			$el[0].focus();
+		}
+	}
+	window.MoveFocusToId = MoveFocusToId;
+
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+		// on Tablet wait to do this when the window is fully loaded - see OnPageLoaded()
+		ReparentAppLandingPageForSmallScreens();
+
+		
+			var usability = InitUsabilityTracker( "https:\/\/store.steampowered.com\/app\/usabilitytracking\/2692420" );
+		usability.ScheduleUpload();
+	
+		
+			} );
+
+	
+	function OpenTagModal()
+	{
+		ShowAppTagModal( 2692420 );
+	}
+
+</script>
+
+<div class="game_page_background game" data-miniprofile-appid=2692420>
+
+	
+			<div class="banner_open_in_steam">
+			<div data-featuretarget="open-in-desktop-client"></div>
+		</div>
+	
+	
+	<div  data-featuretarget="apppage-store-browse-cache" data-props="{&quot;rgPayloads&quot;:[{&quot;dataRequestStoreItems&quot;:{&quot;include_assets&quot;:null,&quot;include_release&quot;:null,&quot;include_platforms&quot;:null,&quot;include_all_purchase_options&quot;:null,&quot;include_screenshots&quot;:null,&quot;include_trailers&quot;:null,&quot;include_ratings&quot;:true,&quot;include_tag_count&quot;:null,&quot;include_reviews&quot;:null,&quot;include_basic_info&quot;:null,&quot;include_supported_languages&quot;:null,&quot;include_full_description&quot;:null,&quot;include_included_items&quot;:null,&quot;included_item_data_request&quot;:null,&quot;include_assets_without_overrides&quot;:null,&quot;apply_user_filters&quot;:null,&quot;include_links&quot;:null,&quot;include_extra_details&quot;:null,&quot;include_best_purchase_option&quot;:true,&quot;include_optin_registration_tags&quot;:null},&quot;rgStoreItems&quot;:[{&quot;item_type&quot;:0,&quot;id&quot;:2692420,&quot;gid&quot;:null,&quot;success&quot;:1,&quot;visible&quot;:1,&quot;unvailable_for_country_restriction&quot;:null,&quot;name&quot;:&quot;Idlescape&quot;,&quot;store_url_path&quot;:&quot;app/2692420/Idlescape&quot;,&quot;store_url_slug&quot;:&quot;Idlescape&quot;,&quot;appid&quot;:2692420,&quot;type&quot;:0,&quot;included_types&quot;:[],&quot;included_appids&quot;:[],&quot;is_free&quot;:1,&quot;is_early_access&quot;:null,&quot;related_items&quot;:{&quot;parent_appid&quot;:null,&quot;demo_appid&quot;:[5379350],&quot;standalone_demo_appid&quot;:[],&quot;demos&quot;:[{&quot;appid&quot;:5379350,&quot;label&quot;:null,&quot;show_above_purchase&quot;:1}],&quot;standalone_demos&quot;:[],&quot;playtests&quot;:[{&quot;appid&quot;:3154820,&quot;is_open&quot;:null}],&quot;related_f2p&quot;:null,&quot;dlc_parent_appids&quot;:[]},&quot;included_items&quot;:null,&quot;content_descriptorids&quot;:[],&quot;tagids&quot;:[],&quot;categories&quot;:{&quot;supported_player_categoryids&quot;:[1,20,27],&quot;feature_categoryids&quot;:[35,62],&quot;controller_categoryids&quot;:[]},&quot;reviews&quot;:null,&quot;basic_info&quot;:null,&quot;tags&quot;:[],&quot;assets&quot;:null,&quot;release&quot;:null,&quot;platforms&quot;:null,&quot;game_rating&quot;:null,&quot;is_coming_soon&quot;:1,&quot;best_purchase_option&quot;:null,&quot;purchase_options&quot;:[],&quot;self_purchase_option&quot;:null,&quot;screenshots&quot;:null,&quot;trailers&quot;:null,&quot;supported_languages&quot;:[],&quot;store_url_path_override&quot;:null,&quot;free_weekend&quot;:null,&quot;unlisted&quot;:null,&quot;game_count&quot;:null,&quot;internal_name&quot;:null,&quot;full_description_bbcode&quot;:null,&quot;is_free_temporarily&quot;:null,&quot;assets_without_overrides&quot;:null,&quot;user_filter_failure&quot;:null,&quot;links&quot;:[],&quot;purchase_description_bbcode&quot;:null,&quot;package_groups&quot;:[],&quot;extra_details&quot;:null,&quot;optin_registration_tags&quot;:[],&quot;purchase_notes&quot;:[]}]}]}"></div><div  data-featuretarget="apppage-gameinterest-cache" data-props="{&quot;appid&quot;:2692420,&quot;userInterest&quot;:{&quot;owned&quot;:null,&quot;wishlist&quot;:null,&quot;ignored&quot;:null,&quot;following&quot;:null,&quot;in_queues&quot;:[],&quot;queues_with_skip&quot;:[],&quot;queue_items_remaining&quot;:[],&quot;queue_items_next_appid&quot;:[],&quot;temporarily_owned&quot;:null,&quot;queues&quot;:[],&quot;ignored_reason&quot;:null,&quot;beta_status&quot;:null}}"></div>
+	<!-- page width wrapper: gutters, max width and the horizontal bleed variable -->
+	<div id="tabletGrid" class="tablet_grid">
+
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+
+		<meta itemprop="image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2692420/0cdd815d6a872119cd6fd3edb3f22a298741f3df/capsule_231x87.jpg?t=1792710205">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" style="display: none;">
+				<meta itemprop="priceCurrency" content="USD">
+				<meta itemprop="price" content="0.00">
+									<meta itemprop="availability" content="http://schema.org/PreOrder">
+							</div>
+		
+		<div class="page_top_area">
+						<div class="game_page_background_ctn game">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2692420/d367a80ccfb8bf2d4ab8e1e649cc172dc4a1315d/page_bg_raw.jpg?t=1792710205" class="gameColor" alt="">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2692420/d367a80ccfb8bf2d4ab8e1e649cc172dc4a1315d/page_bg_raw.jpg?t=1792710205" class="gameTexture" alt="">
+			</div>
+
+		<div class="page_title_area game_title_area page_content" data-gpnav="columns">
+			<div class="breadcrumbs" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+								<div class="blockbg">
+											<a href="https://store.steampowered.com/search/?term=&snr=1_5_9__205">All Games</a>
+																					&gt; <a href="https://store.steampowered.com/genre/Massively%20Multiplayer/?snr=1_5_9__205">Massively Multiplayer Games</a>
+																										&gt; <a href="https://store.steampowered.com/app/2692420/?snr=1_5_9__205"><span itemprop="name">Idlescape</span></a>
+									</div>
+				<div style="clear: left;"></div>
+							</div>
+						
+
+<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+		                      <div class="apphub_OtherSiteInfo">
+
+                    
+                <a class="btnv6_blue_hoverfade btn_medium" href="https://steamcommunity.com/app/2692420">
+                    <span>Community Hub</span>
+                </a>
+            </div>
+         		<div class="apphub_AppIcon"><img src="https://shared.akamai.steamstatic.com/community_assets/images/apps/2692420/18f643fbae0f1b497763b047bcb8126ecc088899.jpg"><div class="overlay"></div></div>
+		<div id="appHubAppName" class="apphub_AppName" role="heading" aria-level="1">Idlescape</div>
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+											</div>
+		<div style="clear: left;"></div>
+
+
+		<div class="block game_media_and_summary_ctn">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+			</script>
+
+			
+			<div class="game_background_glow">
+				
+
+				
+								
+				
+					
+								<div id="page_header_img" class="responsive_page_header_img" style="display: none;">
+					<img style="width:100%;" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2692420/bd6d6206d635ce1be7c0b142ae715e094f40d420/header.jpg?t=1792710205" alt="Idlescape">
+				</div>
+
+				<div class="block_content page_content" id="broadcast">
+
+				
+				</div>
+				<div class="block_content page_content" id="game_highlights" data-panel="{&quot;navKey&quot;:&quot;game_highlights&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+
+				<div class="rightcol" data-panel="{&quot;flow-children&quot;:&quot;column&quot;,&quot;navKey&quot;:&quot;rightcol&quot;}">
+					<div class="glance_ctn">
+												<div id="gameHeaderCtn" class="game_header_ctn">
+							<div id="gameHeaderImageCtn" class="game_header_image_ctn">
+								<img class="game_header_image_full" alt="" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2692420/bd6d6206d635ce1be7c0b142ae715e094f40d420/header.jpg?t=1792710205">
+
+																<div id="appHubAppName_responsive" style="display: none;" class="apphub_AppName">Idlescape</div>
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="appHeaderGridContainer" class="app_header_grid_container" style="display:none">
+
+																			<div class="grid_label">Developer</div>
+										<div class="grid_content">
+											<a href="https://store.steampowered.com/search/?developer=Idlescape%20LLC&snr=1_5_9__400">Idlescape LLC</a>										</div>
+																																							<div class="grid_label">Publisher</div>
+											<div class="grid_content">
+												<a href="https://store.steampowered.com/search/?publisher=Idlescape%20LLC&snr=1_5_9__422">Idlescape LLC</a>											</div>
+																			
+																			<div class="grid_label grid_date">Release</div>
+										<div class="grid_content grid_date">
+											Jan 8, 2027										</div>
+																	</div>
+							</div>
+															<div class="game_description_snippet">
+									Idlescape is an MMORPG combining idle mechanics with RPG elements. Progress continues offline, allowing mastery of skills like Mining, Fishing, and Combat. Engage in crafting, gathering, and strategic battles. Perfect for casual and hardcore gamers alike.								</div>
+													</div> 												<div id="glanceMidCtn" class="glance_mid_ctn">
+						<div class="glance_ctn_responsive_left">
+																													<div id="userReviews" class="user_reviews">
+
+									
+																		<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="No user reviews" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">
+											All Reviews:										</div>
+										<div class="summary column">
+																					No user reviews																				</div>
+									</a>
+								</div>
+							
+															<div class="release_date">
+									<div class="subtitle column">Release Date:</div>
+									<div class="date">Jan 8, 2027</div>
+								</div>
+							
+																						<div class="dev_row">
+									<div class="subtitle column">Developer:</div>
+									<div class="summary column" id="developers_list">
+										<a href="https://store.steampowered.com/search/?developer=Idlescape%20LLC&snr=1_5_9__2000">Idlescape LLC</a>									</div>
+								</div>
+							
+																								<div class="dev_row">
+										<div class="subtitle column">Publisher:</div>
+										<div class="summary column">
+										<a href="https://store.steampowered.com/search/?publisher=Idlescape%20LLC&snr=1_5_9__422">Idlescape LLC</a>										</div>
+									</div>
+															
+																				</div>
+
+						<div id="glanceCtnResponsiveRight" class="glance_ctn_responsive_right" data-panel="{&quot;navKey&quot;:&quot;glanceCtnResponsiveRight&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="responsive_block_header">Tags</div>
+									<div class="glance_tags_ctn popular_tags_ctn" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+										<div class="glance_tags_label">Popular user-defined tags for this product:</div>
+										<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="glance_tags popular_tags" data-appid="2692420">
+											<a href="https://store.steampowered.com/tags/en/Idler/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Idler												</a><a href="https://store.steampowered.com/tags/en/MMORPG/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												MMORPG												</a><a href="https://store.steampowered.com/tags/en/RPG/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												RPG												</a><a href="https://store.steampowered.com/tags/en/Massively%20Multiplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Massively Multiplayer												</a><a href="https://store.steampowered.com/tags/en/Fantasy/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Fantasy												</a><a href="https://store.steampowered.com/tags/en/Medieval/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Medieval												</a><a href="https://store.steampowered.com/tags/en/Incremental/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Incremental												</a><a href="https://store.steampowered.com/tags/en/Point%20%26%20Click/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Point &amp; Click												</a><a href="https://store.steampowered.com/tags/en/Economy/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Economy												</a><a href="https://store.steampowered.com/tags/en/PvE/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												PvE												</a><a href="https://store.steampowered.com/tags/en/Indie/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Indie												</a><a href="https://store.steampowered.com/tags/en/Multiplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Multiplayer												</a><a href="https://store.steampowered.com/tags/en/Text-Based/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Text-Based												</a><a href="https://store.steampowered.com/tags/en/Trading/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Trading												</a><a href="https://store.steampowered.com/tags/en/Resource%20Management/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Resource Management												</a><a href="https://store.steampowered.com/tags/en/Adventure/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Adventure												</a><a href="https://store.steampowered.com/tags/en/Action-Adventure/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Action-Adventure												</a><a href="https://store.steampowered.com/tags/en/Crafting/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Crafting												</a><a href="https://store.steampowered.com/tags/en/Combat/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Combat												</a><a href="https://store.steampowered.com/tags/en/Magic/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Magic												</a><div class="app_tag add_button" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowAppTagModal( 2692420 )">+</div>
+										</div>
+									</div>
+																						</div> 																					<div id="reviewsHeader_responsive" style="display: none;" class="responsive_block_header">Reviews</div>
+															<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" id="userReviews_responsive" style="display: none;" class="user_reviews" onclick="window.location='#app_reviews_hash'">
+
+																		<a id="appReviewsAll_responsive" class="user_reviews_summary_row" href="#app_reviews_hash">
+										<div class="subtitle column all">All Reviews:</div>
+										<div class="summary column">
+																					No user reviews																				</div>
+									</a>
+
+																	</div>
+																				</div>
+					</div>
+				</div>
+
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;navKey&quot;:&quot;leftcol&quot;,&quot;flow-children&quot;:&quot;column&quot;}" class="leftcol">
+					<div class="highlight_ctn">
+													<div class="highlight_overflow">
+								<div class="gamehighlight_desktopskeleton">
+									<div class="gamehighlight_desktopskeleton_itemview"></div>
+									<div class="gamehighlight_desktopskeleton_stripitems"></div>
+									<div class="gamehighlight_desktopskeleton_stripscrollbar"></div>
+								</div>
+								<div class="gamehighlight_desktopcarousel" data-featuretarget="gamehighlight-desktopcarousel" data-props="{&quot;appName&quot;:&quot;Idlescape&quot;,&quot;trailers&quot;:[{&quot;id&quot;:1,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257454908\/e8167cfdcb84bb7909c61371fe65b6392079cbaa\/movie_232x130.jpg?t=1791671626&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257454908\/e8167cfdcb84bb7909c61371fe65b6392079cbaa\/movie_600x337.jpg?t=1791671626&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/2692420\/1268847242&quot;,&quot;category&quot;:3,&quot;title&quot;:&quot;Main Trailer&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/2692420\/1268847242\/dd9687076b36517889fcda3334235eb5b7d154ed\/1791659440\/dash_av1.mpd?t=1791671626&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/2692420\/1268847242\/dd9687076b36517889fcda3334235eb5b7d154ed\/1791659440\/dash_h264.mpd?t=1791671626&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/2692420\/1268847242\/dd9687076b36517889fcda3334235eb5b7d154ed\/1791659440\/hls_264_master.m3u8?t=1791671626&quot;},{&quot;id&quot;:2,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257414221\/289c081d40337288bc7b58232e8778f6483a98d5\/movie_232x130.jpg?t=1790066348&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257414221\/289c081d40337288bc7b58232e8778f6483a98d5\/movie_600x337.jpg?t=1790066348&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/2692420\/691827670&quot;,&quot;category&quot;:2,&quot;title&quot;:&quot;Launch Trailer&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/2692420\/691827670\/0042d906ce9512b2574b5f279d93f82de549c7c3\/1788215369\/dash_av1.mpd?t=1790066348&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/2692420\/691827670\/0042d906ce9512b2574b5f279d93f82de549c7c3\/1788215369\/dash_h264.mpd?t=1790066348&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/2692420\/691827670\/0042d906ce9512b2574b5f279d93f82de549c7c3\/1788215369\/hls_264_master.m3u8?t=1790066348&quot;}],&quot;screenshots&quot;:[{&quot;name&quot;:&quot;288547236bac4bcce739e44b74a2321e4ddc49bc_ss_288547236bac4bcce739e44b74a2321e4ddc49bc.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/288547236bac4bcce739e44b74a2321e4ddc49bc\/ss_288547236bac4bcce739e44b74a2321e4ddc49bc.116x65.jpg?t=1792710205&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/288547236bac4bcce739e44b74a2321e4ddc49bc\/ss_288547236bac4bcce739e44b74a2321e4ddc49bc.600x338.jpg?t=1792710205&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/288547236bac4bcce739e44b74a2321e4ddc49bc\/ss_288547236bac4bcce739e44b74a2321e4ddc49bc.1920x1080.jpg?t=1792710205&quot;,&quot;altText&quot;:&quot;Screenshot #0&quot;},{&quot;name&quot;:&quot;57ec377da806e958cd1d0d9d73edbc3cf6a90483_ss_57ec377da806e958cd1d0d9d73edbc3cf6a90483.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/57ec377da806e958cd1d0d9d73edbc3cf6a90483\/ss_57ec377da806e958cd1d0d9d73edbc3cf6a90483.116x65.jpg?t=1792710205&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/57ec377da806e958cd1d0d9d73edbc3cf6a90483\/ss_57ec377da806e958cd1d0d9d73edbc3cf6a90483.600x338.jpg?t=1792710205&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/57ec377da806e958cd1d0d9d73edbc3cf6a90483\/ss_57ec377da806e958cd1d0d9d73edbc3cf6a90483.1920x1080.jpg?t=1792710205&quot;,&quot;altText&quot;:&quot;Screenshot #1&quot;},{&quot;name&quot;:&quot;16af1a3236bbf2c00db96174f8cf88a24644f04d_ss_16af1a3236bbf2c00db96174f8cf88a24644f04d.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/16af1a3236bbf2c00db96174f8cf88a24644f04d\/ss_16af1a3236bbf2c00db96174f8cf88a24644f04d.116x65.jpg?t=1792710205&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/16af1a3236bbf2c00db96174f8cf88a24644f04d\/ss_16af1a3236bbf2c00db96174f8cf88a24644f04d.600x338.jpg?t=1792710205&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/16af1a3236bbf2c00db96174f8cf88a24644f04d\/ss_16af1a3236bbf2c00db96174f8cf88a24644f04d.1920x1080.jpg?t=1792710205&quot;,&quot;altText&quot;:&quot;Screenshot #2&quot;},{&quot;name&quot;:&quot;c83fe9948dc64136cb6aa234a21838fbbbbf1088_ss_c83fe9948dc64136cb6aa234a21838fbbbbf1088.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/c83fe9948dc64136cb6aa234a21838fbbbbf1088\/ss_c83fe9948dc64136cb6aa234a21838fbbbbf1088.116x65.jpg?t=1792710205&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/c83fe9948dc64136cb6aa234a21838fbbbbf1088\/ss_c83fe9948dc64136cb6aa234a21838fbbbbf1088.600x338.jpg?t=1792710205&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/c83fe9948dc64136cb6aa234a21838fbbbbf1088\/ss_c83fe9948dc64136cb6aa234a21838fbbbbf1088.1920x1080.jpg?t=1792710205&quot;,&quot;altText&quot;:&quot;Screenshot #3&quot;},{&quot;name&quot;:&quot;66f6d945164aa3d4123a287a7e41ebc2cddf9af8_ss_66f6d945164aa3d4123a287a7e41ebc2cddf9af8.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/66f6d945164aa3d4123a287a7e41ebc2cddf9af8\/ss_66f6d945164aa3d4123a287a7e41ebc2cddf9af8.116x65.jpg?t=1792710205&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/66f6d945164aa3d4123a287a7e41ebc2cddf9af8\/ss_66f6d945164aa3d4123a287a7e41ebc2cddf9af8.600x338.jpg?t=1792710205&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/66f6d945164aa3d4123a287a7e41ebc2cddf9af8\/ss_66f6d945164aa3d4123a287a7e41ebc2cddf9af8.1920x1080.jpg?t=1792710205&quot;,&quot;altText&quot;:&quot;Screenshot #4&quot;},{&quot;name&quot;:&quot;fbf3488cfbd7a62b26609e0a6da5ee51eb9d5b24_ss_fbf3488cfbd7a62b26609e0a6da5ee51eb9d5b24.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/fbf3488cfbd7a62b26609e0a6da5ee51eb9d5b24\/ss_fbf3488cfbd7a62b26609e0a6da5ee51eb9d5b24.116x65.jpg?t=1792710205&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/fbf3488cfbd7a62b26609e0a6da5ee51eb9d5b24\/ss_fbf3488cfbd7a62b26609e0a6da5ee51eb9d5b24.600x338.jpg?t=1792710205&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/fbf3488cfbd7a62b26609e0a6da5ee51eb9d5b24\/ss_fbf3488cfbd7a62b26609e0a6da5ee51eb9d5b24.1920x1080.jpg?t=1792710205&quot;,&quot;altText&quot;:&quot;Screenshot #5&quot;},{&quot;name&quot;:&quot;ed08a85430dd306ce7b25a985efdde7c6edb27d0_ss_ed08a85430dd306ce7b25a985efdde7c6edb27d0.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/ed08a85430dd306ce7b25a985efdde7c6edb27d0\/ss_ed08a85430dd306ce7b25a985efdde7c6edb27d0.116x65.jpg?t=1792710205&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/ed08a85430dd306ce7b25a985efdde7c6edb27d0\/ss_ed08a85430dd306ce7b25a985efdde7c6edb27d0.600x338.jpg?t=1792710205&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2692420\/ed08a85430dd306ce7b25a985efdde7c6edb27d0\/ss_ed08a85430dd306ce7b25a985efdde7c6edb27d0.1920x1080.jpg?t=1792710205&quot;,&quot;altText&quot;:&quot;Screenshot #6&quot;}]}"></div>
+							</div>
+											</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			</div>
+
+
+			
+			
+
+			
+		</div>
+
+
+		</div>
+			<div class="queue_and_playtime">
+				<div class="game_background_lighten">
+					<div class="game_background_lighten_border"></div>
+				</div>
+									<div class="queue_overflow_ctn">
+													<div class="queue_ctn">
+																<div id="queueActionsCtn" class="queue_actions_ctn">
+									<p><a href="https://store.steampowered.com/login/?redir=app%2F2692420&snr=1_5_9_">Sign in</a> to add this item to your wishlist, follow it, or mark it as ignored</p>
+																			<div id="shareBtn"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowNavigatorShare()" aria-label="Share"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_share_ios.svg" alt=""></span></a></div>
+																	</div>
+							</div>
+						
+												<div id="rowBtnActions" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" style="display: none;"></div>
+
+					</div>
+				
+				
+				
+																												
+				
+								
+				<div id="purchaseOptionsContent" class="purchase_options_content" style="display: none;">
+					<!-- game_area_purchase goes here -->
+				</div>
+			</div>
+
+		
+		<div class="page_content middle_page" data-panel="[]" >
+
+				<!-- Right Column -->
+				<div class="rightcol game_meta_data" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+					
+					<div id="responsive_apppage_details_left_ctn"></div>
+
+					<div id="responsive_apppage_details_right_ctn"></div>
+					<div style="clear: both;"></div>
+					
+					<!-- testing a banner on Desktop to open the current page in the desktop Steam client.  When that banner is displayed this section should be hidden. -->
+																		
+
+
+
+
+
+					
+					
+					
+
+												<div class="responsive_block_header responsive_apppage_details_left">Features</div>
+							<div class="block responsive_apppage_details_left" id="category_block">
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="game_area_features_list_ctn">
+									<a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=1&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_multiPlayer.png" alt=""></div><div class="label">Multi-player</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=20&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_multiPlayer.png" alt=""></div><div class="label">MMO</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=27&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_multiPlayer.png" alt=""></div><div class="label">Cross-Platform Multiplayer</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=35&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_cart.png" alt=""></div><div class="label">In-App Purchases</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=62&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_familysharing.png" alt=""></div><div class="label">Family Sharing</div></a>										<div class="game_area_details_specs_ctn learning_about">
+											<div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_learning_about_game.png"></div>
+											<div class="label">Steam is learning about this game&nbsp;
+											<span class="tooltip" data-tooltip-html="This game is not currently eligible to appear in certain showcases on your Steam Profile, and does not contribute to global Achievement or game collector counts.">
+												<img src="https://store.fastly.steamstatic.com/public/shared/images/ico/icon_questionmark.png" alt="">
+											</span></div>
+
+										</div>
+										
+<div  data-featuretarget="store-sidebar-accessibility-info" data-props="{&quot;bAccessibilityResizableUI&quot;:false,&quot;bAccessibilitySubtitles&quot;:false,&quot;bAccessibilityColorAlternatives&quot;:false,&quot;bAccessibilityCameraComfort&quot;:false,&quot;bAccessibilityBackgroundVolumeControls&quot;:false,&quot;bAccessibilityStereoSound&quot;:false,&quot;bAccessibilitySurroundSound&quot;:false,&quot;bAccessibilityNarratedMenus&quot;:false,&quot;bAccessibilityChatSpeechtoText&quot;:false,&quot;bAccessibilityChatTexttoSpeech&quot;:false,&quot;bAccessibilityPlayableWithoutQuicktimeEvents&quot;:false,&quot;bAccessibilityKeyboardOnlyOption&quot;:false,&quot;bAccessibilityMouseOnlyOption&quot;:false,&quot;bAccessibilityTouchOnlyOption&quot;:false,&quot;bAccessibilityDifficultyLevels&quot;:false,&quot;bAccessibilitySaveAnytime&quot;:false,&quot;bAccessibilityPlayableAtYourOwnPace&quot;:false,&quot;bAccessibilityPlayableWithoutVision&quot;:false,&quot;bAccessibilityContrastControls&quot;:false}"></div>								</div>
+								
+								<div data-featuretarget="store-sidebar-controller-support-info" data-props="{&quot;unAppID&quot;:2692420,&quot;bFullXboxControllerSupport&quot;:false,&quot;bPartialXboxControllerSupport&quot;:false,&quot;bPS4ControllerSupport&quot;:false,&quot;bPS4ControllerBTSupport&quot;:false,&quot;bPS5ControllerSupport&quot;:false,&quot;bPS5ControllerBTSupport&quot;:false,&quot;bSteamInputAPISupport&quot;:false,&quot;bNoKeyboardSupport&quot;:false,&quot;bGamepadPreferred&quot;:false,&quot;bControllerSupportWizardComplete&quot;:true,&quot;bHasXbox&quot;:null,&quot;bHasPS4&quot;:null,&quot;bHasPS5&quot;:null,&quot;bHasOther&quot;:false}"></div>
+								
+																	<div class="DRM_notice">
+										Requires 3rd-Party Account:&nbsp;Idlescape&nbsp;(Supports Linking to Steam Account)									</div>
+								
+								
+								
+																	<div class="DRM_notice"data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" >
+										<div>Requires agreement to a 3rd-party EULA</div>
+																					<div><a href="https://store.steampowered.com/eula/2692420_eula_0" onclick="ShowEULA( this ); return false;">Idlescape EULA</a></div>
+																			</div>
+								
+								
+															</div>
+																			<div class="block responsive_apppage_details_right">
+								<div class="block_title" id="LanguagesHeader">
+									Languages<span class="responsive_hidden">:</span>
+								</div>
+
+								
+<div id="bannerLanguages" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="ToggleBannerContentVisibility('#languageTable', '#expandLanguageBtn')">
+	<div class="responsive_banner_link_title">
+		English	</div>
+	<div id="expandLanguageBtn" class="expand_section"></div>
+</div>
+<div id="languageTable">
+
+<table  class="game_language_options" cellpadding="0" cellspacing="0">
+	<tr>
+		<th style="width: 94px;"></th>
+				<th class="checkcol">Interface</th>
+		<th class="checkcol">Full Audio</th>
+		<th class="checkcol">Subtitles</th>
+	</tr>
+
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				English			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+					</tr>
+	</table>
+
+
+</div>
+
+							</div>
+																		<div data-featuretarget="deck-verified-results"></div>
+					
+					<div class="responsive_apppage_details_right" data-featuretarget="game-rating-block" data-props="{&quot;bRatingAllowed&quot;:true,&quot;bHideRatingTitle&quot;:false}"></div>
+					
+					
+											<div id="appDetailsUnderlinedLinks" class="block responsive_apppage_details_left game_details underlined_links">
+							<div class="block_content">
+								<div class="block_content_inner">
+									<div id="genresAndManufacturer" class="details_block">
+
+			<b>Title:</b> Idlescape<br>
+	
+				<b>Genre:</b> <span data-panel="{&quot;flow-children&quot;:&quot;row&quot;}"><a href="https://store.steampowered.com/genre/Action/?snr=1_5_9__408">Action</a>, <a href="https://store.steampowered.com/genre/Adventure/?snr=1_5_9__408">Adventure</a>, <a href="https://store.steampowered.com/genre/Casual/?snr=1_5_9__408">Casual</a>, <a href="https://store.steampowered.com/genre/Indie/?snr=1_5_9__408">Indie</a>, <a href="https://store.steampowered.com/genre/Massively%20Multiplayer/?snr=1_5_9__408">Massively Multiplayer</a>, <a href="https://store.steampowered.com/genre/RPG/?snr=1_5_9__408">RPG</a></span><br>
+			
+			<div class="dev_row">
+			<b>Developer:</b>
+
+				<a href="https://store.steampowered.com/search/?developer=Idlescape%20LLC&snr=1_5_9__408">Idlescape LLC</a>
+		</div>
+	
+			<div class="dev_row">
+			<b>Publisher:</b>
+
+				<a href="https://store.steampowered.com/search/?publisher=Idlescape%20LLC&snr=1_5_9__422">Idlescape LLC</a>
+		</div>
+	
+			
+	            <b>Release Date:</b> Jan 8, 2027<br>
+        
+            	</div>
+
+
+<div class="details_block" style="padding-top: 14px;">
+
+				<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fidlescape.com%2F" target="_blank" rel="noreferrer  noopener" >
+			Visit the website <img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+		</a>
+	
+					<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.gg%2FVPyJ24sXAD" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://discord.gg/VPyJ24sXAD">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M823,229.3c-58.9-27-121-46.1-184.9-56.9-8.7,15.6-16.6,31.7-23.7,48.1-68-10.2-137.1-10.2-205.1,0-7-16.4-14.9-32.5-23.7-48.1-63.9,10.9-126.1,30.1-185,57-117,173.1-148.7,341.9-132.8,508.3h0c68.5,50.6,145.2,89.1,226.7,113.8,18.4-24.7,34.6-50.9,48.6-78.3-26.5-9.9-52.1-22.1-76.5-36.5,6.4-4.7,12.7-9.4,18.7-14.1,143.6,67.5,309.7,67.5,453.3,0,6.1,5,12.4,9.8,18.7,14.1-24.4,14.4-50,26.7-76.6,36.6,13.9,27.4,30.2,53.6,48.6,78.2,81.6-24.6,158.3-63.1,226.9-113.7h0c18.6-193-31.8-360.2-133.2-508.5h0ZM363.2,635.4c-44.2,0-80.7-40.1-80.7-89.4s35.2-89.8,80.6-89.8,81.5,40.5,80.8,89.8c-.8,49.3-35.6,89.4-80.6,89.4h-.1ZM660.8,635.4c-44.3,0-80.6-40.1-80.6-89.4s35.2-89.8,80.6-89.8,81.3,40.5,80.6,89.8c-.8,49.3-35.5,89.4-80.6,89.4Z"/>
+			</svg>
+							<span class="social_account">Discord</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+						
+	
+	
+	
+			<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fidlescape.wiki%2Fp%2FIdlescape_Wiki" target="_blank" rel="noreferrer  noopener" >
+			View the manual <img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+		</a>
+	
+	
+	
+	
+			<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/?appids=2692420&amp;snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			View update history		</a>
+		<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/app/2692420?snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			Read related news		</a>
+	
+				<a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/2692420/discussions/" target="_blank" rel="noreferrer" >
+			View discussions		</a>
+	
+    
+	        <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/actions/Search?T=ClanAccount&K=Idlescape">
+            Find Community Groups        </a>
+    </div>
+								</div>
+							</div>
+													</div>
+					
+																		<div id="shareEmbedRow" class="block responsive_apppage_details_left" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+								<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowEmbedWidget(2692420); return false;"><span>Embed</span></a>
+								<a id="ReportAppBtn" class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(2692420)"><span data-tooltip-text="Report this Product" aria-label="Report this Product"><i class="ico16 reportv6"></i>&nbsp;</span></a>
+							</div>
+						
+						<div id="reportBtn" style="display:none;"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(2692420)"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_report.svg" alt="Report this Product"></span></a></div>
+					
+					
+															
+											<div id="appLinksAndInfoCtn" style="display:none;">
+							<div class="responsive_block_header">Links &amp; info</div>
+							<div id="appLinksAndInfo" class="game_page_autocollapse" style="max-height: 180px;"></div>
+						</div>
+					
+				</div>
+				<!-- End Right Column -->
+
+
+				<div class="leftcol game_description_column"  data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+
+					
+										
+					
+					<div id="game_area_purchase" class="game_area_purchase">
+																			
+																						
+
+							
+																																									<!--[if lte IE 7]>
+<style type="text/css">
+.game_area_purchase_game_dropdown_right_panel .btn_addtocart { float: none; }
+</style>
+<![endif]-->
+
+
+		<div class="game_area_purchase_game demo_above_purchase">
+			<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+			<h1>
+				Download Idlescape Demo			</h1>
+						<div class="game_purchase_action">
+				<div class="game_purchase_action_bg">
+										<div id="demoGameBtn" class="btn_addtocart">
+						<a class="btn_green_steamui btn_medium" href="javascript:ShowGotSteamModal( 'steam://install/5379350', &quot;Idlescape Demo&quot;, &quot;Download&quot; )">
+							<span>Download</span>
+						</a>
+					</div>
+									</div>
+			</div>
+		</div>
+	<script>
+	function ConfirmRequestPlaytestAccess( isOpen )
+	{
+		if ( !g_AccountID )
+		{
+			ShowAlertDialog( "Please sign in...", "You must be signed in to Steam to request access to this Playtest." )
+				.done( function() {
+					window.location.href = 'https://store.steampowered.com/login?redir=app/2692420';
+				} );
+			return;
+		}
+
+		if ( !isOpen )
+		{
+			// If its not an open playtest show a dialog for confirmation and to explain how the user will be notified of acceptance
+			var dialog = ShowConfirmDialog( "Idlescape Playtest",
+			"Click below to confirm your request to join. You\u2019ll receive an email when the developer is ready for more participants.", "Request Access", "Cancel" );
+
+			dialog.GetContent().css('width','640px');
+			dialog.AdjustSizing();
+			dialog.done( RequestPlaytestAccess );
+		}
+		else
+		{
+			RequestPlaytestAccess();
+		}
+	}
+
+	function RequestPlaytestAccess()
+	{
+		$J.post( 'https://store.steampowered.com/ajaxrequestplaytestaccess/2692420', { sessionid : 'e65c6d75ab38d518c554c225' } )
+			.done( function( response ) {
+				let modal = null;
+				let bHasPlayNowOption = false;
+				if ( response.granted && false )
+				{
+					bHasPlayNowOption = true;
+					modal = ShowConfirmDialog(
+						"Access granted",
+						"Welcome to the playtest.",
+						"Play Now",
+						"OK"					)
+				}
+				else if ( response.granted )
+				{
+					modal = ShowAlertDialog( "Access granted", "Welcome to the playtest." );
+				}
+				else
+				{
+					modal = ShowAlertDialog( "Request Submitted", "Your interest has been registered." );
+				}
+
+				modal.always( ( res ) => {
+					// "Play Now" is shown as the OK button
+					if ( bHasPlayNowOption && res === 'OK' ) {
+						window.location.href = 'steam://run/3154820';
+					}
+
+					// A reload after navigation you ask? The steam:// URL handler above is handled as an app pop-up so it doesn't actually navigate away.
+					// The reload refreshes the store page to show the new playtest state based on whatever happened when the user requested access.
+					window.location.reload();
+				} );
+			} )
+			.fail( function ( jxhr ) {
+				ShowAlertDialog( "Something went wrong", "An unexpected error occurred. Please try again later." );
+			} );
+	}
+</script>
+
+	<div class="game_area_purchase_game">
+		<h1>Join the Idlescape Playtest</h1>
+		<div class="game_pt_note">Request access and you’ll get notified when the developer is ready for more participants.</div>
+		<div class="game_purchase_action">
+			<div class="game_purchase_action_bg">
+				<div class="btn_addtocart">
+					<a class="btn_green_steamui btn_medium" href="" onclick="javascript:ConfirmRequestPlaytestAccess( false );return false;">
+						<span>Request Access</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="game_area_comingsoon game_area_bubble">
+	<div class="content">
+																<span class="not_yet">This game is not yet available on Steam</span>
+									<h1>
+																Planned Release Date:
+										<span>Jan 8, 2027</span></h1>
+			
+							<p>This game plans to unlock in approximately 2 months</p>
+			
+							</div>
+
+			<div id="add_to_wishlist_area2" class="wishlist_add_reminder">
+
+
+							<div class="wishlist_note">Interested?<br>Add to your wishlist and get notified when it becomes available.</div>
+
+									<div  data-featuretarget="add-to-wishlist" data-props="{&quot;appid&quot;:2692420}"></div>									</div>
+	</div>
+
+
+												
+					</div>
+					<!-- game_area_purchase -->
+
+					
+											<div id="bannerCommunity" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="window.location='https://steamcommunity.com/app/2692420'">
+							<div class="responsive_banner_link_title responsive_chevron_right">View Community Hub</div>
+						</div>
+					
+					<div class="purchase_area_spacer">&nbsp;</div>
+
+					
+					
+					
+																								<script type="text/javascript">
+							var StoreDefaults = {"PartnerEventStore":[{"gid":"708912427613293770","clan_steamid":"103582791474545312","event_name":"Idlescape Demo is Live and has tons of you online!","event_type":28,"appid":2692420,"server_address":null,"server_password":null,"rtime32_start_time":1792698120,"rtime32_end_time":1792701720,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[\"Idlescape Demo is Live\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"We are in the Steam Next Fest event and we have over 100 people playing on Steam at all times and close to 1000 online in general! Thank you for the support.\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"7e832b2ab8544bcee1a64bd3287df564f798e5aa.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"c77a6961c05404125610f5c6694503bd9c225029.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"library_spotlight\":true}","announcement_body":{"gid":"708912427613293771","clanid":"45023904","posterid":"0","headline":"Idlescape Demo is Live and has tons of you online!","posttime":1792629902,"updatetime":1792698133,"body":"[p]                                                                        [url=\"{STEAM_CLAN_IMAGE}\/45023904\/f818ecfe8f5f2b01cf68e6568b7b67aa475559d1.png\"][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/a9833b4ba4c9d5d0707660b6602ae10d8648b5c5.png\"][\/img][\/url][\/p][p]The Idlescape Demo has been live for the last 3 days and the event has been going crazy! We saw over 1000 of you online, the chat box is chatting away, the NPC's are being slain, the mines are going empty. This was so fun to do. We have over 100+ of you playing strictly on Steam as well. [\/p][p][\/p][p]As you know as one of the Owners of Idlescape I myself am addicted to Idlescape and it felt so special to play with all of you, our community is one of a kind and I am happy to see you all enjoying it as much as I do. I hope in the future we have more friends, and more players to come and see how fun Idlescape actually is. [\/p][p][\/p][p]All our art is hand-drawn and I would also love to thank the artists who have been rushing to meet the demands for Next Fest. I really want you all to explore the game and look at the backgrounds, the NPC's the items you are wearing, and realize everything was made with a purpose. Every step of the game, making it was special and even in a world we are dealing with lots of Slop, we hope the quality shines through. [\/p][p][\/p][p]Now onto the main questions![\/p][h1]Why Should I Play the Idlescape Demo?[\/h1][p]The demo is filled with fun, lots of new things to learn and of course major prizes that everyone is racing towards and helping each other reach. [\/p][list][*][p]At 500 total level, you will receive 500 Platinum on launch.[\/p][\/*][*][p]At 1000 total level, you will receive an additional 500 Platinum and the Demo Chat Icon.[\/p][\/*][*][p]At 1500 total level, you will receive another 500 Platinum and 15 days of IS+.[\/p][\/*][\/list][p]Anyone who signs up during the Demo will be able to keep their account, and earn platinum through it. All characters will be reset on the V1.0 launch, but there will be so much prizes to earn by launch it will feel rewarding. Plus the most important thing in Idlescape is the friends you make along the way, [\/p][p][\/p][h1]What Other Events?[\/h1][p]We are also hosting other Idlescape events on Discord [url=\"https:\/\/discord.com\/invite\/Idlescape\"]https:\/\/discord.com\/invite\/Idlescape[\/url] If you wanted to get into content creation, we have an event and prizes for that. Referral, inviting people to discord. Everything and all the info about it is on the Discord itself. [\/p][p][\/p][h1]Idlescape Demo Updates[\/h1][p]There is almost always an update everyday on Idescape, and during Demo we are pumping out tons of content. You will also be able to share all feedback to our team and we listen and value all our feedback. We are always trying to make Idlescape a better game. [\/p][p][\/p][p]Now that you read this far. Use \/promo DEMO for 800 platinum tokens and 3 days free of IS+ during the Demo[\/p][p][\/p][p]Thank you for reading, and much love from the Idlescape team <3[\/p]","commentcount":1,"tags":["ModAct_1426387032_1792631903_2_31","mod_reviewed","ModAct_1426387032_1792631904_0","ModAct_487176015_1792699521_4"],"language":0,"hidden":0,"forum_topic_id":"568174939259111862","event_gid":"708912427613293770","voteupcount":7,"votedowncount":1,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":1792698120,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"568174939259111862","rtime32_last_modified":1792809077,"news_post_gid":"0","rtime_mod_reviewed":1792699522,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1792629209,"votes_up":7,"votes_down":1,"comment_type":"ForumTopic","gidfeature":"573801338485498453","gidfeature2":"568174939259111862"},{"gid":"668376859863417290","clan_steamid":"103582791474545312","event_name":"Road to Next Fest and Massive Dev Blog","event_type":28,"appid":2692420,"server_address":null,"server_password":null,"rtime32_start_time":1789743720,"rtime32_end_time":1789745580,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"This post is about the Journey to Next Fest on October 19th, 2026. We are showcasing Art artists have made and will be in Next Fest, and a giant Dev Blog with tons of updates.\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"8ee6d567e2970c9084081df379ad29485ad5a3cc.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"84964417bb61763f16f2a617a25fd4ae46aa1caa.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"library_spotlight\":true}","announcement_body":{"gid":"668376859863417291","clanid":"45023904","posterid":"0","headline":"Road to Next Fest and Massive Dev Blog","posttime":1789743728,"updatetime":1789743728,"body":"[h1]The Journey[\/h1][p]We have been working HARD on getting everything ready for Next fest which is on October 19th, we have a lot of artists creating amazing art and we wanted to show you some of our favorite art pieces coming to Idlescape during Next Fest [\/p][h3]1. Thunder King - Late Game Content[\/h3][p][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/a52334ac838b2efcaa64147b5055aec6e4758070.png\"][\/img][\/p][h3][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/fbd2919aa718b2366a101c67bca274b44c213e77.png\"][\/img]2. Flesh Golem - For Mid Game Content[\/h3][p][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/0a170bb2154a86d47ad24f9ff6be9b3087d42c91.png\"][\/img][\/p][p][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/9b63b6fab2a22ff4816db9fc0f73248be19c3583.png\"][\/img][\/p][h3]3. Guard Captain - For Mid Game content[\/h3][h3][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/69f3e2fe67e5c86ea79d4ddcd2fc49aca4e57525.png\"][\/img][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/5e672d01b9ab1b9d738dc497f9f2031b721b9894.png\"][\/img]4. Shrimp Boss - For End game Dungeon[\/h3][h3][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/48704b3a9263cc6e81b6495a6f5ef347b3400d25.png\"][\/img][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/1cb3b7388b2e9b1f4f3912bb735c9b9d2bcdcb13.jpg\"][\/img]5. Background of Skilling - Living Forest - End Game Foraging Zone[\/h3][p][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/7b35f0566a96b76c74d0cc3999120485393fa2a8.png\"][\/img][img src=\"{STEAM_CLAN_IMAGE}\/45023904\/4a6bab08fbfe2443165440e5c0fedf3adfb98271.jpg\"][\/img][\/p][p]I also wanted to discuss our latest Dev Blog and everything we added in the last 4 months, this isn\u2019t going to be everything as we have A LOT of surprises for next fest and a lot of work is redoing code for optimizations. [\/p][p][\/p][h1]Dev Blog [\/h1][p]Here's a not-so-quick TL;DR for what we've done so far:[\/p][p]- Optimizations, optimizations, optimizations. I've been basically running a local buff madness league with bots to test lighting the server on fire and we are *literally* 10-100x faster across the board.[\/p][p]- Most UI has either been reworked from the ground up or revamped alongside the major client version updates to improve performance significantly as well as functionality (I specifically love the inventory tab system, but hated how much trouble it gave me to optimize because of FUN REACT THINGS AAAAA)[\/p][p]- The Group Finder \/ Matchmaker has finally been fully implemented. You pick your group activities and it searches for it while you're AFK doing whatever else; when it finds you a party, it starts it up automatically then returns you to your previous action. [\/p][p]- An in-game Encyclopedia as well as Source\/Uses have been implemented; you can basically search ANYTHING in the game (items, abilities, monsters, locations, etc.) and see what it's used in and where it's from.[\/p][p]- Promo Code and Referral System got massively updated; for most people their first interaction with it will be claiming their Playtester rewards (IS+, cosmetics, icon)[\/p][p]- Action Queue system has been rewritten from scratch in the new engine and renamed to the Action Plan to avoid confusion (we have the UserActionQueue and ActionQueue internally, and I kept getting mixed up lol)[\/p][p]- Farming has received a completely new look with a TON of fresh assets and balance based on Playtester feedback[\/p][p]- Farming now has a secondary panel, PETS[\/p][p]- Pets can be found whilst doing ANY activity as well as coming from special sources (i.e. boss fights or dungeons). Pets ARE tradeable and have ARPG-esque stats; you can combine pets to reroll them (think affixing). They're basically super endgame min\/maxing and a lottery open to literally the entire playerbase just for playing the game. Yes, you get a free pet with a tutorial. It's a Pet Stone. It does a little warble around on the ground if you have the animations on, it's great.[\/p][p]- Cosmetics and Account Bound resources have been massively revamped; it's now a proper account Wardrobe to store cosmetics on all your characters without them being literal equipment that goes in your inventory, and is a way to buy new cosmetics [\/p][p]- \"Local Chat\" system for all zones, but most noticeable in Gathering. Like Combat, you now see your character and others that are in the zone. Flex your epic mismatched cosmetics to make new players confused and afraid of your power and might.[\/p][p]- Steam integration has been redone with the big updates and we are testing the client internally (basically, it's ~1-2 weeks of work from being fully playable from when I write this)[\/p][p]- Combat 3.0 has been implemented. Things are a little less insanely scaling on the player's side, and it's (hopefully) a lot more intuitive and balanced to do any style compared to Combat 2.0.[\/p][p]- Combat 3.0 content has done what Combat 2.0 did again- doubled the amount of stuff. There are >150 monsters, a ton of zones\/dungeons, and >500 pieces of equipment[\/p][p]- Example of new fun stiff in C3.0 that we didn;t support before: The Awakened World Shaper and World Walkers are now wild card matches to armor set affects, allowing you to mix\/match somewhat. Hybrid styles have been worked on a lot so while they may not be absolute BiS they should be viable[\/p][p]- Combat 3.0 unlocked zones (standard entry zones like Valley of Giants, or co-op zones like Chaos Wastes) now scale very high difficulty-wise and unlock a lot more monsters and waves to fight. Yes, there are demi-bosses to fight in normal zones without needing a dungeon key (and generally they have the best chances to drop dungeon keys and dungeon-tier loot too)[\/p][p]- Tutorials updated and improved across the board. Also made them skippable because I know gamers never read (you don't get the rewards if you do this, but that's okay, you didn't read this anyways so you won't know you missed out lol)[\/p][p]- Affix improvements and massive QoL, i.e. rerolling made more intuitive and semi-automated[\/p][p]- You can use some of the ladles in combat again. This was important enough that it gets its own line. [\/p][p]- Mastery progression has been re-evaluated and expanded with a ton more Talents[\/p][p]- I caved and added Talent loadouts. You can assign a normal equipment loadout a Talent loadout. I realized that forcing people to really go down one route is just kinda jank and not approachable, so it should now be very intuitive and engaging basically immediately as you start getting Talent Points. [\/p][p]- Talent respeccing has been reworked; instead of a Talent Respec Token doing a full respec, it now gives you a certain number of refundable Talent Points. The UI itself has also been rewritten so it's more like drafting a talent list instead of manually adding\/removing one talent at a time. I've been told that it's actually somewhat decent, as far as NickUI goes![\/p][p]- New Dungeons - Playtesters will know that there's a lot of new Dungeons and Zones, but I've been instructed \/ asked to not leak TOO much. For every zone there are generally 1-3 related dungeons, and each dungeon drops unique loot.[\/p][p]- Books don't drop duplicates anymore, sorry to those that really liked burning books. There's also a specific book library so you can see them after getting them once.[\/p][p]- Collection Logs. Yes, you can Green Log things now. They also come with their own sets of rewards and other fun stuff to make it worth doing. Most things have an attached Collection Log, so you can complete everything from the Giant's Keep to the Clay Pit to getting every item with an Epic Rarity. There's a lot of overlap in the logs too so when you get one thing it'll boost progress in several logs at once because that gave me the big dopamine and so it's staying lol[\/p][p]- Quests and Achievements improved based on feedback and a ton more added. I don't feel like checking the actual list, but off the top of my head the number is 3 or 5 times higher? It's a lot.[\/p][p]- Contract systems (NOT TASKS, DON'T CALL IT TASKS, PLEASE DON'T CALL IT TASKS) has finally been added and they're unlocked by doing quests. These are basically short repeatable quests that give a bit of experience\/items, and when completing a contract for the first time you also get a Quest Point (for getting Talents!). There's also \"Enhanced Contracts\" that take a list of criteria (difficulty, skills, etc.) and select one at random for you, boosting the rewards by however much RNG you've allowed it.[\/p][p]- We renamed \"Smithing\" to \"Smelting\" and it only set the server on fire for a day![\/p][p]- Item Hiscores have been added. In the Playtester league the current best item (highest augment level) has been cheated in by one of our staff who likes to wear a ghillie cloak >:( but the second highest augment is +61. wtf, next highest is 35, y'all actually crazy[\/p][p]- Item Hiscores also count pets. Pets have a rating system based on how well they rolled (from 1 to 100). The current best Pet is from Constitution at a rating of 94.22 but its owner doesn't even use it in Combat :( poor lil guy[\/p][p]- There were several Combat 3.0 patches where the highest DPS enemy was a wave of chickens spamming Pecking Fury (hits every ~0.48s, if you weren't a tank that could also AoE clear the chicken waves, they would peck you to death in like 10 seconds just from sheer, overwhelming Pecking power. What is Ot_to feeding these things????)[\/p][p]- Oh yeah there's a whole Guild system. That's cool. It's honestly kinda half-baked atm because having 50-100 playtesters means we only have enough players for like 2 full guilds if EVERYONE does it, so I mostly just have my napkin math and super duper (not complex at all) python notebooks to estimate rates and stuff[\/p][p]- Literally so much more that I do not remember. There are times when I'm playtesting and I'll be surprised by something and then randomly vividly recall actually adding it to the game, that's how much has changed\/been done.[\/p][p][\/p][p]Thank you all for reading and we hope to see you on October 19th, you can request to playlets as we will open that a bit sooner than Next Fest \u2764\ufe0f[\/p]","commentcount":6,"tags":["mod_reviewed","ModAct_1847323374_1789746473_0"],"language":0,"hidden":0,"forum_topic_id":"573801338485498454","event_gid":"668376859863417290","voteupcount":16,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"573801338485498454","rtime32_last_modified":1792846317,"news_post_gid":"0","rtime_mod_reviewed":1789746473,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1789741023,"votes_up":16,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"573801338485498453","gidfeature2":"573801338485498454"}],"EventWebRowEmbed":{"bPreLoaded":true,"announcementGIDList":["708912427613293771","668376859863417291"],"last_update_event":[]}};
+						</script>
+					
+
+					<div data-featuretarget="events-row"></div>
+				
+								
+				
+				
+
+
+								<div id="contentForThisGame_ctn">
+				</div>
+									<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="aboutThisGame" class="game_page_autocollapse" style="max-height: 850px;">
+						<div id="game_area_description" class="game_area_description">
+							<h2>About This Game</h2>
+							<p class="bb_paragraph" >Idlescape is an innovative MMORPG that seamlessly blends idle mechanics with deep RPG elements, offering a unique and engaging gaming experience. Whether you're actively playing or away, your character continues to progress, making it ideal for both casual and hardcore gamers. With development taking over seven years we hope you enjoy our game.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>Key Features</strong></p><ul class="bb_ul"><li><p class="bb_paragraph" >Idle Mechanics: Progress continues even when offline, allowing for a flexible playstyle.</p></li><li><p class="bb_paragraph" >Diverse Skills: Master a variety of skills, including Mining, Foraging, Fishing, Farming, Smithing, Cooking, Crafting, Runecrafting, Enchanting, and Combat.</p></li><li><p class="bb_paragraph" >Crafting and Gathering: Collect resources and craft items to enhance your gameplay.</p></li><li><p class="bb_paragraph" >Engaging Combat: Fight a variety of monsters, each with unique challenges.</p></li><li><p class="bb_paragraph" >Community Interaction: Join the vibrant community on Discord and Reddit, share tips, and stay updated with the latest news.</p></li></ul><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>Gameplay Elements</strong></p><ul class="bb_ul"><li><p class="bb_paragraph" >Mining: Explore different locations to extract valuable resources.</p></li><li><p class="bb_paragraph" >Foraging: Gather herbs and natural materials for crafting.</p></li><li><p class="bb_paragraph" >Fishing: Catch fish for cooking or selling.</p></li><li><p class="bb_paragraph" >Farming: Cultivate crops and manage your farm for sustainable resources.</p></li><li><p class="bb_paragraph" >Smithing: Forge powerful weapons and sturdy armor.</p></li><li><p class="bb_paragraph" >Cooking: Prepare meals to boost your stats and performance.</p></li><li><p class="bb_paragraph" >Crafting: Create a variety of items to support your adventures.</p></li><li><p class="bb_paragraph" >Runecrafting: Craft runes that enhance your abilities and skills.</p></li><li><p class="bb_paragraph" >Enchanting: Apply magical enhancements to your gear to gain an edge in combat.</p></li><li><p class="bb_paragraph" >Combat: Engage in strategic battles, gain experience, and collect loot from defeated foes.</p></li></ul><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>Regular Updates</strong></p><p class="bb_paragraph" >The game is actively maintained with frequent updates that introduce new features, balance adjustments, and quality-of-life improvements. We have spent seven years working towards a Version 1.0, which will be the full release with updates happening every one to two weeks after launch. </p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>Community and Support</strong></p><p class="bb_paragraph" >Become part of the Idlescape community by joining the official Discord and subreddit. Engage with fellow players, share strategies, and get the latest updates directly from the developers.</p>						</div>
+					</div>
+				
+				
+				
+					<div class="game_page_autocollapse sys_req" style="max-height: 300px;">
+		<h2>System Requirements</h2>
+				<div class="sysreq_contents">
+							<div class="game_area_sys_req sysreq_content active" data-os="win">
+											<div class="game_area_sys_req_full">
+							<ul>
+								<strong>Minimum:</strong><br><ul class="bb_ul"><li><strong>OS:</strong> Windows 10 or later<br></li><li><strong>Processor:</strong> Intel Pentium 4 processor or later that's SSE3 capable<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> If you are able to read this, you are good<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>							</ul>
+						</div>
+															<div style="clear: both;"></div>
+
+									</div>
+					</div>
+	</div>
+	<script type="text/javascript">
+		$J( function() {
+			var $Tabs = $J('.sysreq_tab');
+			var $Content = $J('.sysreq_content');
+
+			$Tabs.click( function() {
+				var $Tab = $J(this);
+				$Tabs.removeClass('active');
+				$Tab.addClass('active');
+
+				$Content.removeClass('active');
+				$Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+				$Content.trigger('gamepage_autocollapse_expand');
+			});
+		} );
+	</script>
+
+				
+								
+				</div>
+
+			<div class="clear_both" style="clear: both;"></div>
+		</div>
+
+		<div class="related_items_ctn">
+			<div class="page_content game_description_column ">
+				
+				
+				
+				
+				<div  data-featuretarget="storeitems-carousel" data-props="{&quot;title&quot;:&quot;More like this&quot;,&quot;seeAllLink&quot;:&quot;https://store.steampowered.com/recommended/morelike/app/2692420/?snr=1_5_9__300&quot;,&quot;appIDs&quot;:[1476970,1343400,761890,4671380,1013320,4623570,3678970,3224420,777150,4629900,3767850,1179680,1088090,3454650,2791440,2103530,1925650,438040,1254120,4670220,2287550,2937310,3944440,4453290,1134700,903950,4135880,5191970,610080,4516510],&quot;navKey&quot;:&quot;more_like_this_carousel&quot;,&quot;sortOrder&quot;:&quot;shuffle&quot;,&quot;scorePenaltyIfOwned&quot;:5,&quot;bFullWidth&quot;:false}"></div>
+				<div id="responsive_apppage_reviewblock_ctn" class="rightcol game_meta_data"></div>
+
+				
+				<div class="steam_curators_block block responsive_apppage_reviewblock">
+			<div class="block_header">
+				<div class="right"><a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=2692420&snr=1_5_9__top-curators">View all</a></div>
+				<h2>What Curators Say</h2>
+				<div class="no_curators_followed">
+					1 Curator has reviewed this product. Click <a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=2692420&snr=1_5_9__top-curators">here</a> to see them.				</div>
+			</div>
+		</div>
+		
+
+			</div>
+		</div>
+
+
+		<div class="review_ctn">
+			<div class="page_content">
+
+				<div id="app_reviews_hash" class="app_reviews_area">
+							<div class="" data-featuretarget="appreviews" data-props="{&quot;appid&quot;:2692420,&quot;app_release_date&quot;:&quot;1799410140&quot;,&quot;appname&quot;:&quot;Idlescape&quot;,&quot;steamworks_appid&quot;:2692420,&quot;summary_options&quot;:{&quot;bHasAnyReviews&quot;:false,&quot;eUserReviewScorePreference&quot;:0,&quot;bCanManageReviewBombs&quot;:false,&quot;bCanEditApp&quot;:false,&quot;bHasOwnReview&quot;:false}}"></div>
+						</div>
+			</div>
+		</div>
+
+
+			</div>
+	</div>
+
+</div>
+
+		<div class="hover game_hover" id="global_hover" style="display: none; left: 0; top: 0;">
+			<div class="game_hover_box hover_box">
+				<div class="content" id="global_hover_content">
+				</div>
+			</div>
+			<div class="hover_arrow_left"></div>
+			<div class="hover_arrow_right"></div>
+		</div>
+<div id="EmbedModal"  style="display: none">
+	<div id="widget_create">
+		<p>You can use this widget-maker to generate a bit of HTML that can be embedded in your website to easily allow customers to purchase this game on Steam.</p>
+
+				<p class="small">Enter up to 375 characters to add a description to your widget:</p>
+		<div class="app_embed_dialog_description">
+			<textarea name="w_text" placeholder="Idlescape is an MMORPG combining idle mechanics with RPG elements. Progress continues offline, allowing mastery of skills like Mining, Fishing, and Combat. Engage in crafting, gathering, and strategic battles. Perfect for casual and hardcore gamers alike." maxlength="375"></textarea>
+		</div>
+
+		<div class="buttoncontainer">
+			<a class="btnv6_blue_hoverfade btn_medium " href="#" onclick="CreateWidget(2692420); return false;"><span>Create widget</span></a>
+		</div>
+	</div>
+	<div id="widget_finished" style="display: none;">
+		<div id="widget_container"></div>
+
+		<p class="small">Copy and paste the HTML below into your website to make the above widget appear</p>
+		<textarea id="widget_code" style=""></textarea>
+	</div>
+
+</div>
+
+	<div id="app_tagging_modal" class="app_tag_modal nologin" style="display: none;">
+		<div class="app_tag_modal_content">
+			<div class="app_tag_modal_seperator"></div>
+			<div class="app_tag_modal_left">
+				<h2>Popular user-defined tags for this product:<span class="app_tag_modal_tooltip" data-tooltip-text="These are tags applied to the product by the most users.  You can click a tag to find other products with that tag applied.  Or, you can hit the plus symbol for any existing tags to increase that tag's popularity on this product.">(?)</span></h2>
+				<div class="app_tags popular_tags">
+				</div>
+			</div>
+			<div class="app_tag_modal_right">
+									<h2>Sign In</h2>
+					<p>Sign in to add your own tags to this product.</p>
+					<p>
+						<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/2692420">
+							<span>Sign In</span>
+						</a>
+					</p>
+							</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$J( function() {
+			InitAppTagModal( 2692420,
+				[{"tagid":615955,"name":"Idler","count":289,"browseable":true},{"tagid":1754,"name":"MMORPG","count":283,"browseable":true},{"tagid":122,"name":"RPG","count":279,"browseable":true},{"tagid":128,"name":"Massively Multiplayer","count":276,"browseable":true},{"tagid":1684,"name":"Fantasy","count":268,"browseable":true},{"tagid":4172,"name":"Medieval","count":262,"browseable":true},{"tagid":560542,"name":"Incremental","count":260,"browseable":true},{"tagid":1698,"name":"Point & Click","count":257,"browseable":true},{"tagid":4695,"name":"Economy","count":256,"browseable":true},{"tagid":6730,"name":"PvE","count":254,"browseable":true},{"tagid":492,"name":"Indie","count":250,"browseable":true},{"tagid":3859,"name":"Multiplayer","count":243,"browseable":true},{"tagid":31275,"name":"Text-Based","count":236,"browseable":true},{"tagid":4202,"name":"Trading","count":232,"browseable":true},{"tagid":8945,"name":"Resource Management","count":230,"browseable":true},{"tagid":21,"name":"Adventure","count":227,"browseable":true},{"tagid":4106,"name":"Action-Adventure","count":224,"browseable":true},{"tagid":1702,"name":"Crafting","count":219,"browseable":true},{"tagid":3993,"name":"Combat","count":217,"browseable":true},{"tagid":4057,"name":"Magic","count":215,"browseable":true}],
+				[],
+				"1_5_9__410",
+				"1_5_9__411",
+				null,
+				false			);
+
+						if ( typeof GDynamicStore != 'undefined' )
+				GDynamicStore.FixupNamePortion();
+			
+					});
+	</script>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>

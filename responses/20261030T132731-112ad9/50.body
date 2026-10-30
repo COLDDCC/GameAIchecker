@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Traffic Architect on Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://store.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=YzJgj1FjzW34&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_global.css?v=sat0mVAiy9IE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/buttons.css?v=BZhNEtESfYSJ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/store.css?v=pRFy65b3KvQ_&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/styles_linux.css?v=LcZAgwD7_TSW&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/user_reviews.css?v=hcV4WIPnYWMf&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_game_shared.css?v=Xi6rfDkwSwlu&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game.css?v=FpqfPB3I4l_e&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_background_shared.css?v=RuX0Jh-U_mAP&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/recommended.css?v=fwyY12y3q2Mi&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/user_reviews_rewards.css?v=nDJVyLGQ1XMI&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/apphub.css?v=otgZDLujyGMF&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/ui-lightness/jquery-ui-1.7.2.custom.css?v=qgq7mHqEwLbE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game_mob.css?v=XLV-14LI0nm-&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=FJJn0nIxXaGQ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=NXam5zydzNu8&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=w6QbwI-5-j2S&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/main.js?v=VXExFbFD9rs7&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js?v=7IbaKUfZfESM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				$J.data( document, 'x_readytime', new Date().getTime() );
+				$J.data( document, 'x_oldref', GetNavCookie() );
+				SetupTooltips( { tooltipCSSClass: 'store_tooltip'  } );
+		});
+		</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/gamehighlightplayer.js?v=mdJgU3gDKmis&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/user_reviews.js?v=GGcui5RNq7P0&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/app_tagging.js?v=jzh2Y03tD8Ea&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/game.js?v=KNgRXsZ3gVA_&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.min.js?v=mSfqk1QKKgiz&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.min.js?v=MeIf0YViALgL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.min.js?v=CIECDYHJjBgN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.min.js?v=laPWW88ZIIHe&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/dselect.js?v=xOLWzo6KWkKr&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-ui-1.9.2.js?v=wxKVOzU-zSuN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="Become the master of traffic with your expert infrastructure designs. Lay down streets, shape junctions, time traffic lights, design a public transport network, and watch the city come alive. It grows on its own, and every new building sends more trips onto the roads you built.">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Traffic Architect on Steam">
+					<meta property="twitter:title" content="Traffic Architect on Steam">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:url" content="https://store.steampowered.com/app/5028050/Traffic_Architect/">
+					<meta property="og:description" content="Become the master of traffic with your expert infrastructure designs. Lay down streets, shape junctions, time traffic lights, design a public transport network, and watch the city come alive. It grows on its own, and every new building sends more trips onto the roads you built.">
+					<meta property="twitter:description" content="Become the master of traffic with your expert infrastructure designs. Lay down streets, shape junctions, time traffic lights, design a public transport network, and watch the city come alive. It grows on its own, and every new building sends more trips onto the roads you built.">
+			
+			<link rel="canonical" href="https://store.steampowered.com/app/5028050/Traffic_Architect/">
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/188330160dce2423a50dac0c4a6be47e369604d9/capsule_616x353.jpg?t=1792593337">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/188330160dce2423a50dac0c4a6be47e369604d9/capsule_616x353.jpg?t=1792593337">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/188330160dce2423a50dac0c4a6be47e369604d9/capsule_616x353.jpg?t=1792593337" />
+				
+	
+	
+	
+	
+	</head>
+<body class="v6 app game_bg menu_background_overlap application widestore v7menu responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com/login/?redir=app%2F5028050%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">
+									Sign in								</a>
+															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-responsive-menu">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-responsive-menu">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-responsive-menu">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-responsive-menu">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-responsive-menu">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-responsive-menu">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/?snr=1_5_9__global-responsive-menu" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_5_9__global-responsive-menu" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+															<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+					<div class="responsive_header_react_target" data-featuretarget="store-menu-responsive-search"><div class="responsive_header_react_placeholder"></div></div>				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/?snr=1_5_9__global-header" aria-label="Link to the Steam Homepage">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-header">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-header">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-header">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-header">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-header">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-header">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=app%2F5028050%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<div class="StoreMenuLoadingPlaceholder" data-featuretarget="store-menu-v7"><div class="PlaceholderInner"></div></div><div id="responsive_store_nav_ctn"></div><div id="responsive_store_nav_overlay" style="display:none"><div id="responsive_store_nav_overlay_ctn"></div><div id="responsive_store_nav_overlay_bottom"></div></div><div id="responsive_store_search_overlay" style="display:none"></div><div data-cart-banner-spot="1"></div>
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793298588,&quot;PAGE_TIMESTAMP&quot;:1793334511,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1793334511,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;1_5_9_&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[3,4]}" data-hwinfo="{&quot;bSteamOS&quot;:false,&quot;bSteamDeck&quot;:false,&quot;bSteamMachine&quot;:false,&quot;bSteamFrame&quot;:false}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-store_page_asset_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/%s?t=1792593337&quot;" data-store_page_extra_assets_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/%s?t=1792593337&quot;" data-store_page_extra_assets_map="{&quot;extras\/lane_connector&quot;:[{&quot;urlPart&quot;:&quot;extras\/b5eb570843fdb9b4b72c3c173e4ed186.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/b5eb570843fdb9b4b72c3c173e4ed186.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/b5eb570843fdb9b4b72c3c173e4ed186.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;}],&quot;extras\/junction_upgrade&quot;:[{&quot;urlPart&quot;:&quot;extras\/35adc802f9702bac56b9a3a5252a6f3f.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/35adc802f9702bac56b9a3a5252a6f3f.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/35adc802f9702bac56b9a3a5252a6f3f.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;}],&quot;extras\/road_to_interchange&quot;:[{&quot;urlPart&quot;:&quot;extras\/ee84dfc26fe5870228d4b156afe56d0b.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/ee84dfc26fe5870228d4b156afe56d0b.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/ee84dfc26fe5870228d4b156afe56d0b.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;}],&quot;extras\/suburb_growth&quot;:[{&quot;urlPart&quot;:&quot;extras\/bd32c2f6905055ac102fa58054022681.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/bd32c2f6905055ac102fa58054022681.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/bd32c2f6905055ac102fa58054022681.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;}],&quot;extras\/bus_line&quot;:[{&quot;urlPart&quot;:&quot;extras\/5f75cbd47633984bed78315ab808dc30.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/5f75cbd47633984bed78315ab808dc30.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/5f75cbd47633984bed78315ab808dc30.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;}]}" data-hardwarecompatibility="{&quot;appid&quot;:5028050,&quot;resolved_category&quot;:0,&quot;resolved_items&quot;:[],&quot;steam_deck_blog_url&quot;:&quot;&quot;,&quot;search_id&quot;:null,&quot;steamos_resolved_category&quot;:0,&quot;steamos_resolved_items&quot;:[],&quot;machine_resolved_category&quot;:0,&quot;machine_resolved_items&quot;:[],&quot;frame_resolved_category&quot;:0,&quot;frame_resolved_items&quot;:[]}" data-appname="&quot;Traffic Architect&quot;" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:{&quot;domain&quot;:&quot;store.steampowered.com&quot;,&quot;controller&quot;:&quot;direct-navigation&quot;,&quot;method&quot;:&quot;&quot;,&quot;submethod&quot;:&quot;&quot;,&quot;feature&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;countrycode&quot;:&quot;&quot;,&quot;webkey&quot;:null,&quot;is_client&quot;:false,&quot;curator_data&quot;:null,&quot;is_likely_bot&quot;:false,&quot;is_utm&quot;:false},&quot;wishlist_item_count&quot;:0}"></div><div id="application_root"></div><script>window.g_wapit="";</script><link href="https://store.fastly.steamstatic.com/public/css/applications/store/main.css?v=hzBzuSSSUisO&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11184889";</script>
+<script type="module" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js?contenthash=5jGoX9w1"></script>
+<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_Languages = ["english"];
+	var g_sessionID = "c72b4ed21c8d9298412cf968";
+	var g_ServerTime = 1793334511;
+	var g_bUseNewCartAPI = true;
+
+			$J( InitMiniprofileHovers( 'https%3A%2F%2Fstore.steampowered.com%2F' ) );
+	
+	
+	if ( typeof GStoreItemData != 'undefined' )
+	{
+		GStoreItemData.AddNavParams({
+			__page_default: "1_5_9_",
+			__page_default_obj: {"domain":"store.steampowered.com","controller":"application","method":"app","submethod":"","feature":null,"depth":null,"countrycode":"US","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":null},
+			__originating_obj: {"domain":"store.steampowered.com","controller":"direct-navigation","method":"","submethod":"","feature":"","depth":0,"countrycode":"","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":false},
+			storemenu_recommendedtags: "1_5_9__17"		});
+	}
+
+	if ( typeof GDynamicStore != 'undefined' )
+	{
+		GDynamicStore.Init(0, false, "", {"primary_language":null,"secondary_languages":null,"platform_windows":null,"platform_mac":null,"platform_linux":null,"timestamp_updated":null,"hide_store_broadcast":null,"review_score_preference":null,"timestamp_content_descriptor_preferences_updated":null,"provide_deck_feedback":null,"additional_languages":null,"game_frame_rate_reporting":null,"disable_microtrailers":null,"disable_animated_marketing":null}, 'US',
+			{"bNoDefaultDescriptors":false});
+		GStoreItemData.SetCurrencyFormatter(function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ".", ","); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + "$" + fmt( nValueInCents, bWholeUnitsOnly );});
+		GStoreItemData.SetCurrencyMinPriceIncrement(1);
+	}
+</script>
+
+<script type="text/javascript">
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"3493540":{"name":"Transport Fever 3","url_name":"Transport_Fever_3","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$49.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3493540\/e67abf270c1db285387ef9787e783dcb3dd89823\/capsule_184x69.jpg?t=1791359026","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[6859167]},"949230":{"name":"Cities: Skylines II","url_name":"Cities_Skylines_II","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$49.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/949230\/181c2741890bed32ae3b08c7828df946bff98fd2\/capsule_184x69_alt_assets_8.jpg?t=1793116151","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[7573812,45864063,6859167,44768575]},"3219030":{"name":"Planet Zoo 2","url_name":"Planet_Zoo_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$49.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3219030\/d4ea06b2e49dbf8c9b3b2f96540613de960b48e1\/capsule_184x69.jpg?t=1793011606","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[26299579]},"427520":{"name":"Factorio","url_name":"Factorio","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3500\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$35.00<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/427520\/2dca545120676172d4b6db984d210a7fdc387a1e\/capsule_184x69.jpg?t=1792752343","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1062090":{"name":"Timberborn","url_name":"Timberborn","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$34.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1062090\/dc43b790414e5d1028cb931bb3a50b7606fe1a68\/capsule_184x69.jpg?t=1788438437","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[43133669]},"2688950":{"name":"Planet Coaster 2","url_name":"Planet_Coaster_2","discount_block":"<div class=\"discount_block \" data-price-final=\"1749\" data-bundlediscount=\"0\" data-discount=\"65\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-65%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$49.99<\/div><div class=\"discount_final_price\">$17.49<\/div><\/div><span class=\"discount_aria_label\">65% off. $49.99 normally, discounted to $17.49<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2688950\/capsule_184x69.jpg?t=1793271625","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[26299579]},"690830":{"name":"Foundation","url_name":"Foundation","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$34.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/690830\/be51f18e7bd5602944893399081626591ee013f2\/capsule_184x69.jpg?t=1792682101","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[34301950]},"2162800":{"name":"shapez 2 - Factory","url_name":"shapez_2_Factory","discount_block":"<div class=\"discount_block \" data-price-final=\"1799\" data-bundlediscount=\"0\" data-discount=\"40\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-40%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$29.99<\/div><div class=\"discount_final_price\">$17.99<\/div><\/div><span class=\"discount_aria_label\">40% off. $29.99 normally, discounted to $17.99<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2162800\/5cdaa9e8359c7c39de9b96aeba814616c59641cb\/capsule_184x69.jpg?t=1788787557","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[41012350,33788459]},"703080":{"name":"Planet Zoo","url_name":"Planet_Zoo","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$44.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/703080\/capsule_184x69.jpg?t=1765896213","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[26299579]},"3222640":{"name":"Wild West Pioneers","url_name":"Wild_West_Pioneers","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3222640\/8cbd78604feae2442faf934fc927eb46b7c48de3\/capsule_184x69.jpg?t=1790343414","os_windows":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[33018175]},"2060160":{"name":"The Farmer Was Replaced","url_name":"The_Farmer_Was_Replaced","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$9.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2060160\/12f2add76581b250df67d45572754cf7152fe05d\/capsule_184x69.jpg?t=1793027523","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44892821]},"2295060":{"name":"Beyond These Stars","url_name":"Beyond_These_Stars","discount_block":"<div class=\"discount_block \" data-price-final=\"2399\" data-bundlediscount=\"0\" data-discount=\"20\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-20%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$29.99<\/div><div class=\"discount_final_price\">$23.99<\/div><\/div><span class=\"discount_aria_label\">20% off. $29.99 normally, discounted to $23.99<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2295060\/c060f4df90e23f39db22875fcf89d40a73a82e8f\/capsule_184x69.jpg?t=1793270019","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[43473596,38719421]},"1594320":{"name":"Captain of Industry","url_name":"Captain_of_Industry","discount_block":"<div class=\"discount_block \" data-price-final=\"2449\" data-bundlediscount=\"0\" data-discount=\"30\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-30%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$34.99<\/div><div class=\"discount_final_price\">$24.49<\/div><\/div><span class=\"discount_aria_label\">30% off. $34.99 normally, discounted to $24.49<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1594320\/9658eff13963c70c805cae403f5fb4b5268e1351\/capsule_184x69.jpg?t=1784572847","os_windows":true,"early_access":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true},"3115220":{"name":"Town to City","url_name":"Town_to_City","discount_block":"<div class=\"discount_block \" data-price-final=\"2249\" data-bundlediscount=\"0\" data-discount=\"25\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-25%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$29.99<\/div><div class=\"discount_final_price\">$22.49<\/div><\/div><span class=\"discount_aria_label\">25% off. $29.99 normally, discounted to $22.49<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3115220\/afb81e9e9cd4cc5d942d9b50e3f4d99b541bca84\/capsule_184x69.jpg?t=1792506986","os_windows":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[44386682,39269540]},"3215050":{"name":"Surviving Mars: Relaunched","url_name":"Surviving_Mars_Relaunched","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3215050\/b62e94f90e2cf76c482fdd102f48feb70b76616b\/capsule_184x69.jpg?t=1790873980","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[6859167]},"1465470":{"name":"The Crust","url_name":"The_Crust","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3199\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$31.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1465470\/8e979132c954444babac43d23b7c4a8085831308\/capsule_184x69_alt_assets_18.jpg?t=1791564122","os_windows":true,"os_macos":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[37345251,33021448]},"1066780":{"name":"Transport Fever 2","url_name":"Transport_Fever_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1066780\/capsule_184x69.jpg?t=1727104059","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33772096]},"2938460":{"name":"Police Chief Simulator","url_name":"Police_Chief_Simulator","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2938460\/210068aed00fedfd6b876d08455a07b4faac026b\/capsule_184x69.jpg?t=1793206065","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45863103,46306971]},"233450":{"name":"Prison Architect","url_name":"Prison_Architect","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[1,2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/233450\/capsule_184x69.jpg?t=1759221867","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[32795128,41245051,6859167]},"1853440":{"name":"Tropico 7","url_name":"Tropico_7","discount_block":"<div class=\"discount_block \" data-price-final=\"4949\" data-bundlediscount=\"0\" data-discount=\"10\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-10%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$54.99<\/div><div class=\"discount_final_price\">$49.49<\/div><\/div><span class=\"discount_aria_label\">10% off. $54.99 normally, discounted to $49.49<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1853440\/41afee7504dec99c9825bb1d82a1eecedd561c8d\/capsule_184x69.jpg?t=1792422518","os_windows":true,"has_live_broadcast":true,"coming_soon":true,"release_date_string":"Available: Jan 28, 2027","coming_soon_string":"Coming Jan 28, 2027","discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[876623]},"4315040":{"name":"Hearth and Hamlet","url_name":"Hearth_and_Hamlet","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4315040\/cef23bc7f825aa8da91b16ea1d57ac1ce677b9ea\/capsule_184x69.jpg?t=1793276679","os_windows":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[42658688]},"24010":{"name":"Train Simulator Classic","url_name":"Train_Simulator_Classic","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/24010\/8f8ee9925d0a635d72961567338768ab41aa0896\/capsule_184x69.jpg?t=1793282601","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32976291,44272646]},"1894430":{"name":"Plan B: Terraform","url_name":"Plan_B_Terraform","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1599\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$15.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1894430\/c1a1e64caefaacbd5a7c3fb83a0b1e9d5cd35bc6\/capsule_184x69.jpg?t=1790187005","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33976387]},"2153760":{"name":"Stronghold 4","url_name":"Stronghold_4","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2153760\/e0c2ebf072ac7af2b0f19ce9c887530580835e5f\/capsule_184x69.jpg?t=1792773563","os_windows":true,"early_access":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Dec 7, 2026","coming_soon_string":"Coming Dec 7, 2026","localized":true,"localized_english":true,"creator_clan_ids":[32942208]},"1366540":{"name":"Dyson Sphere Program","url_name":"Dyson_Sphere_Program","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1366540\/b43e122cefea2a22b69903ad87d42e98d4ac44ef\/capsule_184x69.jpg?t=1776523171","os_windows":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[41402513,33788459]},"3204330":{"name":"County of Fortune","url_name":"County_of_Fortune","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3204330\/758122006dfe5743634f459ca2185f3642a19468\/capsule_184x69.jpg?t=1793276785","os_windows":true,"os_linux":true,"early_access":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Nov 5, 2026","coming_soon_string":"Coming Nov 5, 2026","localized":true,"localized_english":true,"creator_clan_ids":[45611660]},"4436200":{"name":"FluxWerks","url_name":"FluxWerks","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$24.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4436200\/ed4318017bec7a941ad1cf8163472400b105db87\/capsule_184x69.jpg?t=1793273678","os_windows":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"3983860":{"name":"Nightwater","url_name":"Nightwater","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3983860\/711ca60d16532485489a353f2897505fe32b577b\/capsule_184x69.jpg?t=1791102546","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45925378,45040150]},"2719750":{"name":"Star Birds","url_name":"Star_Birds","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2719750\/fb81b59aefd07896fa0778a851234465614b92c6\/capsule_184x69.jpg?t=1792666191","os_windows":true,"os_macos":true,"early_access":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45029864,45044945]},"1455840":{"name":"Dorfromantik","url_name":"Dorfromantik","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1399\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$13.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1455840\/capsule_184x69.jpg?t=1786951108","os_windows":true,"os_macos":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45029864]}},"rgPackages":[],"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		recommend_franchise: "1_5_9__316",
+		more_from_franchise: "1_5_9__317",
+		bundle_component_preview: "1_5_9__412",
+		recommended_ranked_played: "1_5_9__862",
+	} );
+
+	// Temporary code to allow React to move focus to elements that are non-React.
+	function MoveFocusToId( id )
+	{
+		$el = $J( id );
+		if ( $el.length )
+		{
+			$el[0].focus();
+		}
+	}
+	window.MoveFocusToId = MoveFocusToId;
+
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+		// on Tablet wait to do this when the window is fully loaded - see OnPageLoaded()
+		ReparentAppLandingPageForSmallScreens();
+
+		
+			var usability = InitUsabilityTracker( "https:\/\/store.steampowered.com\/app\/usabilitytracking\/5028050" );
+		usability.ScheduleUpload();
+	
+		
+			} );
+
+	
+	function OpenTagModal()
+	{
+		ShowAppTagModal( 5028050 );
+	}
+
+</script>
+
+<div class="game_page_background game" data-miniprofile-appid=5028050>
+
+	
+			<div class="banner_open_in_steam">
+			<div data-featuretarget="open-in-desktop-client"></div>
+		</div>
+	
+	
+	<div  data-featuretarget="apppage-store-browse-cache" data-props="{&quot;rgPayloads&quot;:[{&quot;dataRequestStoreItems&quot;:{&quot;include_assets&quot;:null,&quot;include_release&quot;:null,&quot;include_platforms&quot;:null,&quot;include_all_purchase_options&quot;:null,&quot;include_screenshots&quot;:null,&quot;include_trailers&quot;:null,&quot;include_ratings&quot;:true,&quot;include_tag_count&quot;:null,&quot;include_reviews&quot;:null,&quot;include_basic_info&quot;:null,&quot;include_supported_languages&quot;:null,&quot;include_full_description&quot;:null,&quot;include_included_items&quot;:null,&quot;included_item_data_request&quot;:null,&quot;include_assets_without_overrides&quot;:null,&quot;apply_user_filters&quot;:null,&quot;include_links&quot;:null,&quot;include_extra_details&quot;:null,&quot;include_best_purchase_option&quot;:true,&quot;include_optin_registration_tags&quot;:null},&quot;rgStoreItems&quot;:[{&quot;item_type&quot;:0,&quot;id&quot;:5028050,&quot;gid&quot;:null,&quot;success&quot;:1,&quot;visible&quot;:1,&quot;unvailable_for_country_restriction&quot;:null,&quot;name&quot;:&quot;Traffic Architect&quot;,&quot;store_url_path&quot;:&quot;app/5028050/Traffic_Architect&quot;,&quot;store_url_slug&quot;:&quot;Traffic_Architect&quot;,&quot;appid&quot;:5028050,&quot;type&quot;:0,&quot;included_types&quot;:[],&quot;included_appids&quot;:[],&quot;is_free&quot;:null,&quot;is_early_access&quot;:null,&quot;related_items&quot;:{&quot;parent_appid&quot;:null,&quot;demo_appid&quot;:[5133710],&quot;standalone_demo_appid&quot;:[],&quot;demos&quot;:[{&quot;appid&quot;:5133710,&quot;label&quot;:null,&quot;show_above_purchase&quot;:1}],&quot;standalone_demos&quot;:[],&quot;playtests&quot;:[],&quot;related_f2p&quot;:null,&quot;dlc_parent_appids&quot;:[]},&quot;included_items&quot;:null,&quot;content_descriptorids&quot;:[],&quot;tagids&quot;:[],&quot;categories&quot;:{&quot;supported_player_categoryids&quot;:[2],&quot;feature_categoryids&quot;:[22,30,64,67,68,74,76,78,80,23,15,17,62],&quot;controller_categoryids&quot;:[]},&quot;reviews&quot;:null,&quot;basic_info&quot;:null,&quot;tags&quot;:[],&quot;assets&quot;:null,&quot;release&quot;:null,&quot;platforms&quot;:null,&quot;game_rating&quot;:null,&quot;is_coming_soon&quot;:1,&quot;best_purchase_option&quot;:null,&quot;purchase_options&quot;:[],&quot;self_purchase_option&quot;:null,&quot;screenshots&quot;:null,&quot;trailers&quot;:null,&quot;supported_languages&quot;:[],&quot;store_url_path_override&quot;:null,&quot;free_weekend&quot;:null,&quot;unlisted&quot;:null,&quot;game_count&quot;:null,&quot;internal_name&quot;:null,&quot;full_description_bbcode&quot;:null,&quot;is_free_temporarily&quot;:null,&quot;assets_without_overrides&quot;:null,&quot;user_filter_failure&quot;:null,&quot;links&quot;:[],&quot;purchase_description_bbcode&quot;:null,&quot;package_groups&quot;:[],&quot;extra_details&quot;:null,&quot;optin_registration_tags&quot;:[],&quot;purchase_notes&quot;:[]}]}]}"></div><div  data-featuretarget="apppage-gameinterest-cache" data-props="{&quot;appid&quot;:5028050,&quot;userInterest&quot;:{&quot;owned&quot;:null,&quot;wishlist&quot;:null,&quot;ignored&quot;:null,&quot;following&quot;:null,&quot;in_queues&quot;:[],&quot;queues_with_skip&quot;:[],&quot;queue_items_remaining&quot;:[],&quot;queue_items_next_appid&quot;:[],&quot;temporarily_owned&quot;:null,&quot;queues&quot;:[],&quot;ignored_reason&quot;:null,&quot;beta_status&quot;:null}}"></div>
+	<!-- page width wrapper: gutters, max width and the horizontal bleed variable -->
+	<div id="tabletGrid" class="tablet_grid">
+
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+
+		<meta itemprop="image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/2686e34a8054e65384b180d013b462cba588e708/capsule_231x87.jpg?t=1792593337">
+		
+		<div class="page_top_area">
+						<div class="game_page_background_ctn game">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/bb900a34f43a81c8e6ae762820316e498eda1865/ss_bb900a34f43a81c8e6ae762820316e498eda1865.1920x1080.jpg?t=1792593337" class="gameColor" alt="">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/bb900a34f43a81c8e6ae762820316e498eda1865/ss_bb900a34f43a81c8e6ae762820316e498eda1865.1920x1080.jpg?t=1792593337" class="gameTexture" alt="">
+			</div>
+
+		<div class="page_title_area game_title_area page_content" data-gpnav="columns">
+			<div class="breadcrumbs" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+								<div class="blockbg">
+											<a href="https://store.steampowered.com/search/?term=&snr=1_5_9__205">All Games</a>
+																					&gt; <a href="https://store.steampowered.com/genre/Simulation/?snr=1_5_9__205">Simulation Games</a>
+																										&gt; <a href="https://store.steampowered.com/app/5028050/?snr=1_5_9__205"><span itemprop="name">Traffic Architect</span></a>
+									</div>
+				<div style="clear: left;"></div>
+							</div>
+						
+
+<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+		                      <div class="apphub_OtherSiteInfo">
+
+                    
+                <a class="btnv6_blue_hoverfade btn_medium" href="https://steamcommunity.com/app/5028050">
+                    <span>Community Hub</span>
+                </a>
+            </div>
+         		<div class="apphub_AppIcon"><img src="https://shared.fastly.steamstatic.com/community_assets/images/apps/5028050/32bd336f3df156bb9df9f1b0d9029c80ac333c32.jpg"><div class="overlay"></div></div>
+		<div id="appHubAppName" class="apphub_AppName" role="heading" aria-level="1">Traffic Architect</div>
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+											</div>
+		<div style="clear: left;"></div>
+
+
+		<div class="block game_media_and_summary_ctn">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+			</script>
+
+			
+			<div class="game_background_glow">
+				
+
+				
+								
+				
+					
+								<div id="page_header_img" class="responsive_page_header_img" style="display: none;">
+					<img style="width:100%;" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/72607a0ad3009de80f6df2ffcceb6f889fb5cd9a/header.jpg?t=1792593337" alt="Traffic Architect">
+				</div>
+
+				<div class="block_content page_content" id="broadcast">
+
+				
+				</div>
+				<div class="block_content page_content" id="game_highlights" data-panel="{&quot;navKey&quot;:&quot;game_highlights&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+
+				<div class="rightcol" data-panel="{&quot;flow-children&quot;:&quot;column&quot;,&quot;navKey&quot;:&quot;rightcol&quot;}">
+					<div class="glance_ctn">
+												<div id="gameHeaderCtn" class="game_header_ctn">
+							<div id="gameHeaderImageCtn" class="game_header_image_ctn">
+								<img class="game_header_image_full" alt="" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/72607a0ad3009de80f6df2ffcceb6f889fb5cd9a/header.jpg?t=1792593337">
+
+																<div id="appHubAppName_responsive" style="display: none;" class="apphub_AppName">Traffic Architect</div>
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="appHeaderGridContainer" class="app_header_grid_container" style="display:none">
+
+																			<div class="grid_label">Developer</div>
+										<div class="grid_content">
+											<a href="https://store.steampowered.com/search/?developer=Green%20Signal%20Games&snr=1_5_9__400">Green Signal Games</a>										</div>
+																																							<div class="grid_label">Publisher</div>
+											<div class="grid_content">
+												<a href="https://store.steampowered.com/search/?publisher=Green%20Signal%20Games&snr=1_5_9__422">Green Signal Games</a>											</div>
+																			
+																			<div class="grid_label grid_date">Release</div>
+										<div class="grid_content grid_date">
+											Nov 3, 2026										</div>
+																	</div>
+							</div>
+															<div class="game_description_snippet">
+									Become the master of traffic with your expert infrastructure designs. Lay down streets, shape junctions, time traffic lights, design a public transport network, and watch the city come alive. It grows on its own, and every new building sends more trips onto the roads you built.								</div>
+													</div> 												<div id="glanceMidCtn" class="glance_mid_ctn">
+						<div class="glance_ctn_responsive_left">
+																													<div id="userReviews" class="user_reviews">
+
+									
+																		<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="No user reviews" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">
+											All Reviews:										</div>
+										<div class="summary column">
+																					No user reviews																				</div>
+									</a>
+								</div>
+							
+															<div class="release_date">
+									<div class="subtitle column">Release Date:</div>
+									<div class="date">Nov 3, 2026</div>
+								</div>
+							
+																						<div class="dev_row">
+									<div class="subtitle column">Developer:</div>
+									<div class="summary column" id="developers_list">
+										<a href="https://store.steampowered.com/search/?developer=Green%20Signal%20Games&snr=1_5_9__2000">Green Signal Games</a>									</div>
+								</div>
+							
+																								<div class="dev_row">
+										<div class="subtitle column">Publisher:</div>
+										<div class="summary column">
+										<a href="https://store.steampowered.com/search/?publisher=Green%20Signal%20Games&snr=1_5_9__422">Green Signal Games</a>										</div>
+									</div>
+															
+																				</div>
+
+						<div id="glanceCtnResponsiveRight" class="glance_ctn_responsive_right" data-panel="{&quot;navKey&quot;:&quot;glanceCtnResponsiveRight&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="responsive_block_header">Tags</div>
+									<div class="glance_tags_ctn popular_tags_ctn" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+										<div class="glance_tags_label">Popular user-defined tags for this product:</div>
+										<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="glance_tags popular_tags" data-appid="5028050">
+											<a href="https://store.steampowered.com/tags/en/City%20Builder/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												City Builder												</a><a href="https://store.steampowered.com/tags/en/Simulation/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Simulation												</a><a href="https://store.steampowered.com/tags/en/Strategy/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Strategy												</a><a href="https://store.steampowered.com/tags/en/Transportation/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Transportation												</a><a href="https://store.steampowered.com/tags/en/Puzzle/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Puzzle												</a><a href="https://store.steampowered.com/tags/en/Minimalist/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Minimalist												</a><a href="https://store.steampowered.com/tags/en/Relaxing/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Relaxing												</a><a href="https://store.steampowered.com/tags/en/Management/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Management												</a><a href="https://store.steampowered.com/tags/en/Building/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Building												</a><a href="https://store.steampowered.com/tags/en/Automation/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Automation												</a><a href="https://store.steampowered.com/tags/en/Trains/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Trains												</a><a href="https://store.steampowered.com/tags/en/Top-Down/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Top-Down												</a><a href="https://store.steampowered.com/tags/en/3D/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												3D												</a><a href="https://store.steampowered.com/tags/en/Resource%20Management/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Resource Management												</a><a href="https://store.steampowered.com/tags/en/Level%20Editor/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Level Editor												</a><a href="https://store.steampowered.com/tags/en/Sandbox/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Sandbox												</a><a href="https://store.steampowered.com/tags/en/Family%20Friendly/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Family Friendly												</a><a href="https://store.steampowered.com/tags/en/Indie/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Indie												</a><a href="https://store.steampowered.com/tags/en/Procedural%20Generation/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Procedural Generation												</a><a href="https://store.steampowered.com/tags/en/Singleplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Singleplayer												</a><div class="app_tag add_button" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowAppTagModal( 5028050 )">+</div>
+										</div>
+									</div>
+																						</div> 																					<div id="reviewsHeader_responsive" style="display: none;" class="responsive_block_header">Reviews</div>
+															<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" id="userReviews_responsive" style="display: none;" class="user_reviews" onclick="window.location='#app_reviews_hash'">
+
+																		<a id="appReviewsAll_responsive" class="user_reviews_summary_row" href="#app_reviews_hash">
+										<div class="subtitle column all">All Reviews:</div>
+										<div class="summary column">
+																					No user reviews																				</div>
+									</a>
+
+																	</div>
+																				</div>
+					</div>
+				</div>
+
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;navKey&quot;:&quot;leftcol&quot;,&quot;flow-children&quot;:&quot;column&quot;}" class="leftcol">
+					<div class="highlight_ctn">
+													<div class="highlight_overflow">
+								<div class="gamehighlight_desktopskeleton">
+									<div class="gamehighlight_desktopskeleton_itemview"></div>
+									<div class="gamehighlight_desktopskeleton_stripitems"></div>
+									<div class="gamehighlight_desktopskeleton_stripscrollbar"></div>
+								</div>
+								<div class="gamehighlight_desktopcarousel" data-featuretarget="gamehighlight-desktopcarousel" data-props="{&quot;appName&quot;:&quot;Traffic Architect&quot;,&quot;trailers&quot;:[{&quot;id&quot;:1,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257472670\/824f575076c63144bf872adfa74b6897c99d1d6d\/movie_232x130.jpg?t=1792593336&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257472670\/824f575076c63144bf872adfa74b6897c99d1d6d\/movie_600x337.jpg?t=1792593336&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/5028050\/30850147&quot;,&quot;category&quot;:1,&quot;title&quot;:&quot;Gameplay Trailer&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5028050\/30850147\/1ec8a9440c7c4743e52f8d834ae6f36bdde2e325\/1792592527\/dash_av1.mpd?t=1792593336&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5028050\/30850147\/1ec8a9440c7c4743e52f8d834ae6f36bdde2e325\/1792592527\/dash_h264.mpd?t=1792593336&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5028050\/30850147\/1ec8a9440c7c4743e52f8d834ae6f36bdde2e325\/1792592527\/hls_264_master.m3u8?t=1792593336&quot;},{&quot;id&quot;:2,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257416688\/824f575076c63144bf872adfa74b6897c99d1d6d\/movie_232x130.jpg?t=1792593167&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257416688\/824f575076c63144bf872adfa74b6897c99d1d6d\/movie_600x337.jpg?t=1792593167&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/5028050\/1708679369&quot;,&quot;category&quot;:1,&quot;title&quot;:&quot;Gameplay&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5028050\/1708679369\/12f6dcaee62cd6705a0b386158fe45f3977a2635\/1789048722\/dash_av1.mpd?t=1792593167&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5028050\/1708679369\/12f6dcaee62cd6705a0b386158fe45f3977a2635\/1789048722\/dash_h264.mpd?t=1792593167&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5028050\/1708679369\/12f6dcaee62cd6705a0b386158fe45f3977a2635\/1789048722\/hls_264_master.m3u8?t=1792593167&quot;}],&quot;screenshots&quot;:[{&quot;name&quot;:&quot;6f3d09ad1822280387bc078e0488da1d112a6aaa_ss_6f3d09ad1822280387bc078e0488da1d112a6aaa.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/6f3d09ad1822280387bc078e0488da1d112a6aaa\/ss_6f3d09ad1822280387bc078e0488da1d112a6aaa.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/6f3d09ad1822280387bc078e0488da1d112a6aaa\/ss_6f3d09ad1822280387bc078e0488da1d112a6aaa.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/6f3d09ad1822280387bc078e0488da1d112a6aaa\/ss_6f3d09ad1822280387bc078e0488da1d112a6aaa.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #0&quot;},{&quot;name&quot;:&quot;a3a3264e7be57ee17bc28dbfe240b307791b2c4a_ss_a3a3264e7be57ee17bc28dbfe240b307791b2c4a.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/a3a3264e7be57ee17bc28dbfe240b307791b2c4a\/ss_a3a3264e7be57ee17bc28dbfe240b307791b2c4a.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/a3a3264e7be57ee17bc28dbfe240b307791b2c4a\/ss_a3a3264e7be57ee17bc28dbfe240b307791b2c4a.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/a3a3264e7be57ee17bc28dbfe240b307791b2c4a\/ss_a3a3264e7be57ee17bc28dbfe240b307791b2c4a.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #1&quot;},{&quot;name&quot;:&quot;004a5f06878dfc3e0369fbf78f39cf2a0b1f6fc7_ss_004a5f06878dfc3e0369fbf78f39cf2a0b1f6fc7.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/004a5f06878dfc3e0369fbf78f39cf2a0b1f6fc7\/ss_004a5f06878dfc3e0369fbf78f39cf2a0b1f6fc7.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/004a5f06878dfc3e0369fbf78f39cf2a0b1f6fc7\/ss_004a5f06878dfc3e0369fbf78f39cf2a0b1f6fc7.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/004a5f06878dfc3e0369fbf78f39cf2a0b1f6fc7\/ss_004a5f06878dfc3e0369fbf78f39cf2a0b1f6fc7.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #2&quot;},{&quot;name&quot;:&quot;bb900a34f43a81c8e6ae762820316e498eda1865_ss_bb900a34f43a81c8e6ae762820316e498eda1865.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/bb900a34f43a81c8e6ae762820316e498eda1865\/ss_bb900a34f43a81c8e6ae762820316e498eda1865.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/bb900a34f43a81c8e6ae762820316e498eda1865\/ss_bb900a34f43a81c8e6ae762820316e498eda1865.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/bb900a34f43a81c8e6ae762820316e498eda1865\/ss_bb900a34f43a81c8e6ae762820316e498eda1865.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #3&quot;},{&quot;name&quot;:&quot;0d43cb72df45223c852c40ea11d19f815eb9bfb1_ss_0d43cb72df45223c852c40ea11d19f815eb9bfb1.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/0d43cb72df45223c852c40ea11d19f815eb9bfb1\/ss_0d43cb72df45223c852c40ea11d19f815eb9bfb1.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/0d43cb72df45223c852c40ea11d19f815eb9bfb1\/ss_0d43cb72df45223c852c40ea11d19f815eb9bfb1.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/0d43cb72df45223c852c40ea11d19f815eb9bfb1\/ss_0d43cb72df45223c852c40ea11d19f815eb9bfb1.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #4&quot;},{&quot;name&quot;:&quot;24c8e8498b676078470087c4a6f053223eb525fe_ss_24c8e8498b676078470087c4a6f053223eb525fe.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/24c8e8498b676078470087c4a6f053223eb525fe\/ss_24c8e8498b676078470087c4a6f053223eb525fe.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/24c8e8498b676078470087c4a6f053223eb525fe\/ss_24c8e8498b676078470087c4a6f053223eb525fe.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/24c8e8498b676078470087c4a6f053223eb525fe\/ss_24c8e8498b676078470087c4a6f053223eb525fe.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #5&quot;},{&quot;name&quot;:&quot;2559f0a190b8f6744ce062fbe6cc6c36675be4a3_ss_2559f0a190b8f6744ce062fbe6cc6c36675be4a3.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/2559f0a190b8f6744ce062fbe6cc6c36675be4a3\/ss_2559f0a190b8f6744ce062fbe6cc6c36675be4a3.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/2559f0a190b8f6744ce062fbe6cc6c36675be4a3\/ss_2559f0a190b8f6744ce062fbe6cc6c36675be4a3.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/2559f0a190b8f6744ce062fbe6cc6c36675be4a3\/ss_2559f0a190b8f6744ce062fbe6cc6c36675be4a3.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #6&quot;},{&quot;name&quot;:&quot;cb166e696c517a3689d81e783d47ef7222f35148_ss_cb166e696c517a3689d81e783d47ef7222f35148.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/cb166e696c517a3689d81e783d47ef7222f35148\/ss_cb166e696c517a3689d81e783d47ef7222f35148.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/cb166e696c517a3689d81e783d47ef7222f35148\/ss_cb166e696c517a3689d81e783d47ef7222f35148.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/cb166e696c517a3689d81e783d47ef7222f35148\/ss_cb166e696c517a3689d81e783d47ef7222f35148.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #7&quot;},{&quot;name&quot;:&quot;84f63b9b1b5437a508288f7828d30e4c20ba4cbe_ss_84f63b9b1b5437a508288f7828d30e4c20ba4cbe.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/84f63b9b1b5437a508288f7828d30e4c20ba4cbe\/ss_84f63b9b1b5437a508288f7828d30e4c20ba4cbe.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/84f63b9b1b5437a508288f7828d30e4c20ba4cbe\/ss_84f63b9b1b5437a508288f7828d30e4c20ba4cbe.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/84f63b9b1b5437a508288f7828d30e4c20ba4cbe\/ss_84f63b9b1b5437a508288f7828d30e4c20ba4cbe.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #8&quot;},{&quot;name&quot;:&quot;5fbb0afeca3c29bc134339a81575947d691fe134_ss_5fbb0afeca3c29bc134339a81575947d691fe134.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/5fbb0afeca3c29bc134339a81575947d691fe134\/ss_5fbb0afeca3c29bc134339a81575947d691fe134.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/5fbb0afeca3c29bc134339a81575947d691fe134\/ss_5fbb0afeca3c29bc134339a81575947d691fe134.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/5fbb0afeca3c29bc134339a81575947d691fe134\/ss_5fbb0afeca3c29bc134339a81575947d691fe134.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #9&quot;},{&quot;name&quot;:&quot;432563c2e256d2304afcda34124733f498904dbe_ss_432563c2e256d2304afcda34124733f498904dbe.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/432563c2e256d2304afcda34124733f498904dbe\/ss_432563c2e256d2304afcda34124733f498904dbe.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/432563c2e256d2304afcda34124733f498904dbe\/ss_432563c2e256d2304afcda34124733f498904dbe.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/432563c2e256d2304afcda34124733f498904dbe\/ss_432563c2e256d2304afcda34124733f498904dbe.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #10&quot;},{&quot;name&quot;:&quot;7e76e57a1710641cc55e15b7767af55a95ff3081_ss_7e76e57a1710641cc55e15b7767af55a95ff3081.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/7e76e57a1710641cc55e15b7767af55a95ff3081\/ss_7e76e57a1710641cc55e15b7767af55a95ff3081.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/7e76e57a1710641cc55e15b7767af55a95ff3081\/ss_7e76e57a1710641cc55e15b7767af55a95ff3081.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/7e76e57a1710641cc55e15b7767af55a95ff3081\/ss_7e76e57a1710641cc55e15b7767af55a95ff3081.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #11&quot;},{&quot;name&quot;:&quot;bb0263f463c1d1dcb60cf9b521fdf170fab764b1_ss_bb0263f463c1d1dcb60cf9b521fdf170fab764b1.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/bb0263f463c1d1dcb60cf9b521fdf170fab764b1\/ss_bb0263f463c1d1dcb60cf9b521fdf170fab764b1.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/bb0263f463c1d1dcb60cf9b521fdf170fab764b1\/ss_bb0263f463c1d1dcb60cf9b521fdf170fab764b1.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/bb0263f463c1d1dcb60cf9b521fdf170fab764b1\/ss_bb0263f463c1d1dcb60cf9b521fdf170fab764b1.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #12&quot;},{&quot;name&quot;:&quot;d684b1e88131c77794fd3dae4001ef79955ffa34_ss_d684b1e88131c77794fd3dae4001ef79955ffa34.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/d684b1e88131c77794fd3dae4001ef79955ffa34\/ss_d684b1e88131c77794fd3dae4001ef79955ffa34.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/d684b1e88131c77794fd3dae4001ef79955ffa34\/ss_d684b1e88131c77794fd3dae4001ef79955ffa34.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/d684b1e88131c77794fd3dae4001ef79955ffa34\/ss_d684b1e88131c77794fd3dae4001ef79955ffa34.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #13&quot;},{&quot;name&quot;:&quot;2a014306e5429580b7d26984ac2166bd033f5ee0_ss_2a014306e5429580b7d26984ac2166bd033f5ee0.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/2a014306e5429580b7d26984ac2166bd033f5ee0\/ss_2a014306e5429580b7d26984ac2166bd033f5ee0.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/2a014306e5429580b7d26984ac2166bd033f5ee0\/ss_2a014306e5429580b7d26984ac2166bd033f5ee0.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/2a014306e5429580b7d26984ac2166bd033f5ee0\/ss_2a014306e5429580b7d26984ac2166bd033f5ee0.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #14&quot;},{&quot;name&quot;:&quot;73509fe03ad15929d9acb8d29142c05c00aa0812_ss_73509fe03ad15929d9acb8d29142c05c00aa0812.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/73509fe03ad15929d9acb8d29142c05c00aa0812\/ss_73509fe03ad15929d9acb8d29142c05c00aa0812.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/73509fe03ad15929d9acb8d29142c05c00aa0812\/ss_73509fe03ad15929d9acb8d29142c05c00aa0812.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/73509fe03ad15929d9acb8d29142c05c00aa0812\/ss_73509fe03ad15929d9acb8d29142c05c00aa0812.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #15&quot;},{&quot;name&quot;:&quot;c82984f996ab24b5231a3cc04262b39565ea5fe2_ss_c82984f996ab24b5231a3cc04262b39565ea5fe2.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/c82984f996ab24b5231a3cc04262b39565ea5fe2\/ss_c82984f996ab24b5231a3cc04262b39565ea5fe2.116x65.jpg?t=1792593337&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/c82984f996ab24b5231a3cc04262b39565ea5fe2\/ss_c82984f996ab24b5231a3cc04262b39565ea5fe2.600x338.jpg?t=1792593337&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5028050\/c82984f996ab24b5231a3cc04262b39565ea5fe2\/ss_c82984f996ab24b5231a3cc04262b39565ea5fe2.1920x1080.jpg?t=1792593337&quot;,&quot;altText&quot;:&quot;Screenshot #16&quot;}]}"></div>
+							</div>
+											</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			</div>
+
+
+			
+			
+
+			
+		</div>
+
+
+		</div>
+			<div class="queue_and_playtime">
+				<div class="game_background_lighten">
+					<div class="game_background_lighten_border"></div>
+				</div>
+									<div class="queue_overflow_ctn">
+													<div class="queue_ctn">
+																<div id="queueActionsCtn" class="queue_actions_ctn">
+									<p><a href="https://store.steampowered.com/login/?redir=app%2F5028050&snr=1_5_9_">Sign in</a> to add this item to your wishlist, follow it, or mark it as ignored</p>
+																			<div id="shareBtn"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowNavigatorShare()" aria-label="Share"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_share_ios.svg" alt=""></span></a></div>
+																	</div>
+							</div>
+						
+												<div id="rowBtnActions" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" style="display: none;"></div>
+
+					</div>
+				
+				
+				
+																												
+				
+								
+				<div id="purchaseOptionsContent" class="purchase_options_content" style="display: none;">
+					<!-- game_area_purchase goes here -->
+				</div>
+			</div>
+
+		
+		<div class="page_content middle_page" data-panel="[]" >
+
+				<!-- Right Column -->
+				<div class="rightcol game_meta_data" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+					
+					<div id="responsive_apppage_details_left_ctn"></div>
+
+					<div id="responsive_apppage_details_right_ctn"></div>
+					<div style="clear: both;"></div>
+					
+					<!-- testing a banner on Desktop to open the current page in the desktop Steam client.  When that banner is displayed this section should be hidden. -->
+																		
+
+
+
+
+
+					
+					
+					
+
+												<div class="responsive_block_header responsive_apppage_details_left">Features</div>
+							<div class="block responsive_apppage_details_left" id="category_block">
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="game_area_features_list_ctn">
+									<a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=2&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_singlePlayer.png" alt=""></div><div class="label">Single-player</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=22&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_achievements.png" alt=""></div><div class="label">Steam Achievements</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=30&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_workshop.png" alt=""></div><div class="label">Steam Workshop</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=23&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_cloud.png" alt=""></div><div class="label">Steam Cloud</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=15&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_stats.png" alt=""></div><div class="label">Stats</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=17&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_editor.png" alt=""></div><div class="label">Includes level editor</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=62&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_familysharing.png" alt=""></div><div class="label">Family Sharing</div></a>										<div class="game_area_details_specs_ctn learning_about">
+											<div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_learning_about_game.png"></div>
+											<div class="label">Steam is learning about this game&nbsp;
+											<span class="tooltip" data-tooltip-html="This game is not currently eligible to appear in certain showcases on your Steam Profile, and does not contribute to global Achievement or game collector counts.">
+												<img src="https://store.fastly.steamstatic.com/public/shared/images/ico/icon_questionmark.png" alt="">
+											</span></div>
+
+										</div>
+										
+<div  data-featuretarget="store-sidebar-accessibility-info" data-props="{&quot;bAccessibilityResizableUI&quot;:true,&quot;bAccessibilitySubtitles&quot;:false,&quot;bAccessibilityColorAlternatives&quot;:false,&quot;bAccessibilityCameraComfort&quot;:true,&quot;bAccessibilityBackgroundVolumeControls&quot;:true,&quot;bAccessibilityStereoSound&quot;:false,&quot;bAccessibilitySurroundSound&quot;:false,&quot;bAccessibilityNarratedMenus&quot;:false,&quot;bAccessibilityChatSpeechtoText&quot;:false,&quot;bAccessibilityChatTexttoSpeech&quot;:false,&quot;bAccessibilityPlayableWithoutQuicktimeEvents&quot;:true,&quot;bAccessibilityKeyboardOnlyOption&quot;:false,&quot;bAccessibilityMouseOnlyOption&quot;:true,&quot;bAccessibilityTouchOnlyOption&quot;:false,&quot;bAccessibilityDifficultyLevels&quot;:true,&quot;bAccessibilitySaveAnytime&quot;:false,&quot;bAccessibilityPlayableAtYourOwnPace&quot;:true,&quot;bAccessibilityPlayableWithoutVision&quot;:false,&quot;bAccessibilityContrastControls&quot;:false}"></div>								</div>
+								
+								<div data-featuretarget="store-sidebar-controller-support-info" data-props="{&quot;unAppID&quot;:5028050,&quot;bFullXboxControllerSupport&quot;:false,&quot;bPartialXboxControllerSupport&quot;:false,&quot;bPS4ControllerSupport&quot;:false,&quot;bPS4ControllerBTSupport&quot;:false,&quot;bPS5ControllerSupport&quot;:false,&quot;bPS5ControllerBTSupport&quot;:false,&quot;bSteamInputAPISupport&quot;:false,&quot;bNoKeyboardSupport&quot;:false,&quot;bGamepadPreferred&quot;:false,&quot;bControllerSupportWizardComplete&quot;:true,&quot;bHasXbox&quot;:null,&quot;bHasPS4&quot;:null,&quot;bHasPS5&quot;:null,&quot;bHasOther&quot;:false}"></div>
+								
+								
+								
+								
+								
+								
+															</div>
+																			<div class="block responsive_apppage_details_right">
+								<div class="block_title" id="LanguagesHeader">
+									Languages<span class="responsive_hidden">:</span>
+								</div>
+
+								
+<div id="bannerLanguages" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="ToggleBannerContentVisibility('#languageTable', '#expandLanguageBtn')">
+	<div class="responsive_banner_link_title">
+		English and 13 more	</div>
+	<div id="expandLanguageBtn" class="expand_section"></div>
+</div>
+<div id="languageTable">
+
+<table  class="game_language_options" cellpadding="0" cellspacing="0">
+	<tr>
+		<th style="width: 94px;"></th>
+				<th class="checkcol">Interface</th>
+		<th class="checkcol">Full Audio</th>
+		<th class="checkcol">Subtitles</th>
+	</tr>
+
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				English			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				French			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Italian			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				German			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Spanish - Spain			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Bulgarian			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Czech			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Polish			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Portuguese - Brazil			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Portuguese - Portugal			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Russian			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Simplified Chinese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Spanish - Latin America			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Ukrainian			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+	</table>
+	<script type="text/javascript">
+		function ShowAllLanguages( elLink )
+		{
+			if ( typeof GetUsabilityTracker !== 'undefined' )
+				GetUsabilityTracker().AddEvent( 1002 );
+
+			$J('table.game_language_options tr').show();
+			$J( elLink ).hide();
+			return false;
+		}
+	</script>
+	<a class="all_languages" onclick="return ShowAllLanguages( this )">See all 14 supported languages</a>
+
+
+</div>
+
+							</div>
+																		<div data-featuretarget="deck-verified-results"></div>
+					
+					<div class="responsive_apppage_details_right" data-featuretarget="game-rating-block" data-props="{&quot;bRatingAllowed&quot;:true,&quot;bHideRatingTitle&quot;:false}"></div>
+					
+					
+											<div id="appDetailsUnderlinedLinks" class="block responsive_apppage_details_left game_details underlined_links">
+							<div class="block_content">
+								<div class="block_content_inner">
+									<div id="genresAndManufacturer" class="details_block">
+
+			<b>Title:</b> Traffic Architect<br>
+	
+				<b>Genre:</b> <span data-panel="{&quot;flow-children&quot;:&quot;row&quot;}"><a href="https://store.steampowered.com/genre/Simulation/?snr=1_5_9__408">Simulation</a>, <a href="https://store.steampowered.com/genre/Strategy/?snr=1_5_9__408">Strategy</a></span><br>
+			
+			<div class="dev_row">
+			<b>Developer:</b>
+
+				<a href="https://store.steampowered.com/search/?developer=Green%20Signal%20Games&snr=1_5_9__408">Green Signal Games</a>
+		</div>
+	
+			<div class="dev_row">
+			<b>Publisher:</b>
+
+				<a href="https://store.steampowered.com/search/?publisher=Green%20Signal%20Games&snr=1_5_9__422">Green Signal Games</a>
+		</div>
+	
+			
+	            <b>Release Date:</b> Nov 3, 2026<br>
+        
+            	</div>
+
+
+<div class="details_block" style="padding-top: 14px;">
+
+		
+					<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fx.com%2FTrafficArch" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://x.com/TrafficArch">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M595.2,443.5L920.9,65h-77.2l-282.8,328.7L335.1,65H74.6l341.5,497L74.6,959h77.2l298.6-347.1,238.5,347.1h260.5l-354.2-515.5h0ZM489.5,566.4l-34.6-49.5L179.6,123.1h118.5l222.2,317.8,34.6,49.5,288.8,413.1h-118.5l-235.7-337.1h0Z"/>
+			</svg>
+							<span class="social_account">X</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.gg%2F8Y5KxWZVqa%3Fproof%3D8cf7fb72348a2c0a" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://discord.gg/8Y5KxWZVqa?proof=8cf7fb72348a2c0a">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M823,229.3c-58.9-27-121-46.1-184.9-56.9-8.7,15.6-16.6,31.7-23.7,48.1-68-10.2-137.1-10.2-205.1,0-7-16.4-14.9-32.5-23.7-48.1-63.9,10.9-126.1,30.1-185,57-117,173.1-148.7,341.9-132.8,508.3h0c68.5,50.6,145.2,89.1,226.7,113.8,18.4-24.7,34.6-50.9,48.6-78.3-26.5-9.9-52.1-22.1-76.5-36.5,6.4-4.7,12.7-9.4,18.7-14.1,143.6,67.5,309.7,67.5,453.3,0,6.1,5,12.4,9.8,18.7,14.1-24.4,14.4-50,26.7-76.6,36.6,13.9,27.4,30.2,53.6,48.6,78.2,81.6-24.6,158.3-63.1,226.9-113.7h0c18.6-193-31.8-360.2-133.2-508.5h0ZM363.2,635.4c-44.2,0-80.7-40.1-80.7-89.4s35.2-89.8,80.6-89.8,81.5,40.5,80.8,89.8c-.8,49.3-35.6,89.4-80.6,89.4h-.1ZM660.8,635.4c-44.3,0-80.6-40.1-80.6-89.4s35.2-89.8,80.6-89.8,81.3,40.5,80.6,89.8c-.8,49.3-35.5,89.4-80.6,89.4Z"/>
+			</svg>
+							<span class="social_account">Discord</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+						
+	
+	
+	
+	
+	
+	
+	
+			<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/?appids=5028050&amp;snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			View update history		</a>
+		<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/app/5028050?snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			Read related news		</a>
+	
+				<a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/5028050/discussions/" target="_blank" rel="noreferrer" >
+			View discussions		</a>
+	
+            <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/5028050/workshop/" target="_blank" rel="noreferrer" >
+            Visit the Workshop        </a>
+    
+	        <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/actions/Search?T=ClanAccount&K=Traffic%20Architect">
+            Find Community Groups        </a>
+    </div>
+								</div>
+							</div>
+													</div>
+					
+																		<div id="shareEmbedRow" class="block responsive_apppage_details_left" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+								<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowEmbedWidget(5028050); return false;"><span>Embed</span></a>
+								<a id="ReportAppBtn" class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5028050)"><span data-tooltip-text="Report this Product" aria-label="Report this Product"><i class="ico16 reportv6"></i>&nbsp;</span></a>
+							</div>
+						
+						<div id="reportBtn" style="display:none;"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5028050)"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_report.svg" alt="Report this Product"></span></a></div>
+					
+					
+															
+											<div id="appLinksAndInfoCtn" style="display:none;">
+							<div class="responsive_block_header">Links &amp; info</div>
+							<div id="appLinksAndInfo" class="game_page_autocollapse" style="max-height: 180px;"></div>
+						</div>
+					
+				</div>
+				<!-- End Right Column -->
+
+
+				<div class="leftcol game_description_column"  data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+
+					
+										
+					
+					<div id="game_area_purchase" class="game_area_purchase">
+																			
+																						
+
+							
+																																									<!--[if lte IE 7]>
+<style type="text/css">
+.game_area_purchase_game_dropdown_right_panel .btn_addtocart { float: none; }
+</style>
+<![endif]-->
+
+
+		<div class="game_area_purchase_game demo_above_purchase">
+			<div class="game_area_purchase_platform"><span class="platform_img win"></span><span class="platform_img mac"></span></div>
+			<h1>
+				Download Traffic Architect Demo			</h1>
+						<div class="game_purchase_action">
+				<div class="game_purchase_action_bg">
+										<div id="demoGameBtn" class="btn_addtocart">
+						<a class="btn_green_steamui btn_medium" href="javascript:ShowGotSteamModal( 'steam://install/5133710', &quot;Traffic Architect Demo&quot;, &quot;Download&quot; )">
+							<span>Download</span>
+						</a>
+					</div>
+									</div>
+			</div>
+		</div>
+	<div class="game_area_comingsoon game_area_bubble">
+	<div class="content">
+																<span class="not_yet">This game is not yet available on Steam</span>
+									<h1>
+																Planned Release Date:
+										<span>Nov 3, 2026</span></h1>
+			
+							<p>This game plans to unlock in approximately 4 days</p>
+			
+							</div>
+
+			<div id="add_to_wishlist_area2" class="wishlist_add_reminder">
+
+
+							<div class="wishlist_note">Interested?<br>Add to your wishlist and get notified when it becomes available.</div>
+
+									<div  data-featuretarget="add-to-wishlist" data-props="{&quot;appid&quot;:5028050}"></div>									</div>
+	</div>
+
+
+												
+					</div>
+					<!-- game_area_purchase -->
+
+					
+											<div id="bannerCommunity" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="window.location='https://steamcommunity.com/app/5028050'">
+							<div class="responsive_banner_link_title responsive_chevron_right">View Community Hub</div>
+						</div>
+					
+					<div class="purchase_area_spacer">&nbsp;</div>
+
+					
+					
+					
+																								<script type="text/javascript">
+							var StoreDefaults = {"PartnerEventStore":[{"gid":"701031762452547243","clan_steamid":"103582791475768005","event_name":"Update 1.0.8: interchanges ban turns across the main road, one-click turn bans","event_type":13,"appid":5028050,"server_address":null,"server_password":null,"rtime32_start_time":1793305020,"rtime32_end_time":1793309401,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"0334f2468b7b3ea3e2e53cc441c6b6dc8925e100.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"dc78f402b90e880e0892a3d86bb673baab56f988.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}","announcement_body":{"gid":"701031762452547244","clanid":"46246597","posterid":"0","headline":"Update 1.0.8: interchanges ban turns across the main road, one-click turn bans","posttime":1793305040,"updatetime":1793305040,"body":"[p]Update 1.0.8 is out. Steam installs it automatically. Most of it came from your reports, here in the discussions and on Discord.[\/p]\n\n[img]{STEAM_CLAN_IMAGE}\/46246597\/2d79df121b2518a7b4ef094c6f1f8cbbee3d61e3.png[\/img]\n\n[h2] New [\/h2]\n[list]\n[*][b]Interchanges ban the turns across the main road.[\/b] On roads without a median, a new interchange puts no-turn signs where a ramp meets the main road, so cars use the ramps instead of turning across traffic. The signs are in the price.\n[*][b]Ban left and U-turns.[\/b] A new button in the lane connector removes the left turns and U-turns at a junction in one click. Apply to place the signs, Cancel to drop it. Reset junction now also removes the turn bans there.\n[*][b]Centre line goes on.[\/b] The centre line now continues where two different roads meet and into junctions, and it stays solid where a turn is not allowed.\n[*]Custom traffic light phases are kept when you add a receiving lane next to a turn lane.\n[*]A right-turn lane before a slip road off a one-way road now leads straight into the slip road, so trucks no longer cross every lane to reach it.\n[\/list]\n[p][\/p]\n[h2] Smaller changes [\/h2]\n[list]\n[*]When a building's countdown is close to running out, the game pauses once so you have time to react. You can turn it off in Settings.\n[*]Challenges: Keep Building stops a running test so you can fix your roads, and it is also there after a pass.\n[*]Brightness slider in Settings, under Graphics.\n[*]Loading another city could in rare cases mix the two cities into one. Fixed, and a load that fails now returns to the menu without touching the save.\n[*]No orange dead-end marker is left on a road end after a roundabout or interchange joins it.\n[*]Visual fixes for stop lines and sidewalks where roads of different width meet.\n[\/list]\n[p][\/p]\n[h2] Since 1.0.7 [\/h2]\n[p]The two 1.0.7 hotfixes were only announced on Discord. The main changes in them:[\/p]\n[list]\n[*]Traffic lights keep your green times, custom phases and phase order when you add a turn lane, upgrade a road or connect a new road. Turn lanes are kept when you upgrade the road.\n[*]Turn lanes work on bridges, and turn lanes from both ends of a road can meet.\n[*]Much less lag right after building or upgrading a road.\n[*]STOP signs: cars wait for a gap instead of cutting in and blocking roundabouts.\n[*]With two left-turn lanes, cars use both.\n[*]Continue no longer opens an older city when the newest save is damaged.\n[*]Roundabouts on angled roads no longer turn red after the first click.\n[*]Linux \/ Steam Deck: the window opens properly.\n[\/list]\n[p][\/p]\n[p]Thanks to everyone who posted feedback and bug reports. Keep them coming, here in the discussions or on Discord. The full game comes out on November 3.[\/p]","commentcount":0,"tags":["mod_reviewed","ModAct_487176015_1793305414_0"],"language":0,"hidden":0,"forum_topic_id":"570427373261098846","event_gid":"701031762452547243","voteupcount":6,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"570427373261098846","rtime32_last_modified":1793323279,"news_post_gid":"0","rtime_mod_reviewed":1793305414,"featured_app_tagid":0,"referenced_appids":[],"build_id":26306609,"build_branch":"","unlisted":0,"rtime_created":1793304999,"votes_up":6,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"580552862448315225","gidfeature2":"570427373261098846"},{"gid":"719045526774880833","clan_steamid":"103582791475768005","event_name":"Demo update 1.0.7: ground-level bridges and tunnels, interchanges anywhere","event_type":13,"appid":5028050,"server_address":null,"server_password":null,"rtime32_start_time":1793040060,"rtime32_end_time":1793044801,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"f13d75da74490cb79b5aec0c70749927e242792d.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"c6f3395eec699462382dfc7fd7e865fe099d8c6a.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}","announcement_body":{"gid":"719045526774880834","clanid":"46246597","posterid":"0","headline":"Demo update 1.0.7: ground-level bridges and tunnels, interchanges anywhere","posttime":1793040068,"updatetime":1793040068,"body":"[p]The demo has a new update, 1.0.7. Steam installs it automatically. Most of it came from your reports, here in the discussions and on Discord.[\/p]\n\n[img]{STEAM_CLAN_IMAGE}\/46246597\/2cbaeb4a3c527f62fc31dd891d5c665b70ff256a.jpg[\/img]\n\n[h2] New [\/h2]\n[list]\n[*][b]Ground-level bridge and tunnel.[\/b] The Bridge and Tunnel buttons now have levels; press B or T again to switch. A ground-level bridge crosses a river at road height with no ramps, and a ground-level tunnel goes straight through a mountain. One drag becomes road on land, bridge over water and tunnel through rock.\n[*][b]Interchanges anywhere.[\/b] The Interchange tool no longer needs an existing crossing. On open ground the preview follows the cursor: click to place it, then turn each road (it snaps to nearby roads and to right angles). On a single road it lines up with that road, and at a road's dead end it carries the road on. It builds its own roads in the class you pick, and one Ctrl+Z on pause takes it all back.\n[*][b]Custom rules.[\/b] When you start a New City, a Custom rules panel lets you make single rules harder than the difficulty you picked. The city's name shows it, for example \"Easy +2\".\n[*][b]Undo shows what it gives back.[\/b] While paused, a tag next to your balance shows how much you can still get back. Ctrl+Z also puts back the trees a build cleared, and their cost. Converting a road and converting it back in the same pause returns the money.\n[*][b]Convert by dragging.[\/b] Drag the Convert tool across roads to convert every road you cross.\n[*][b]Drag panels aside.[\/b] The traffic light, sign and turn-ban panels can be dragged by their title. Double-click the title to put them back.\n[*][b]Car horns setting.[\/b] Turn car horns off in Settings.\n[*][b]Camera button.[\/b] Photo mode and Follow car are now in a button on the top bar. The Delete key demolishes, like X.\n[\/list]\n[p][\/p]\n[h2] Traffic [\/h2]\n[list]\n[*]Multi-lane roundabouts: the outer lane exits and the inner lanes go round, so an inner lane no longer cuts across the outer one.\n[*]Traffic lights show a left or right arrow for a turn that has its own phase. New lights start with a green time that fits the road.\n[*]On a road with a bus lane, buses turn left from the turn lane instead of across the straight lanes.\n[*]Cars on a road merging into a divided road at a shallow angle (like a bridge coming down beside it) no longer cut across the median and turn back.\n[*]A car changing into a lane with a queue no longer gets stuck next to it.\n[*]The warning about a road that never gets a green no longer appears by mistake after you switch a light's preset.\n[*]Bus lines explain long waits by their real cause: the line just started, buses stuck in traffic (including a jammed hub), buses bunched together, or too few buses. A new line's first bus picks up passengers at the hub.\n[*]Trucks with a trailer now bend in turns.\n[\/list]\n[p][\/p]\n[h2] Building roads [\/h2]\n[list]\n[*]Roundabouts refuse much less: roads inside the ring are removed, crossing roads become exits, and nearby side streets join it. When a ring really can't fit, it says why.\n[*]Ctrl+Z on a roundabout or interchange puts the crossing back as it was.\n[*]Interchanges work on roads drawn in pieces, the cloverleaf fits better, and turn lanes or bus lanes at the crossing are taken off instead of refusing the build.\n[*]Roads can be built right up to a riverbank.\n[*]Extending a road by a short straight piece is no longer refused as too short.\n[*]The turn-lane tool names the kinds that fit when the one you picked doesn't. A turn-lane edit that can't join the road back is refused instead of leaving the road in pieces.\n[*]A curve drawn across a junction no longer stacks duplicate roads.\n[*]A bridge or tunnel dragged across another bridge or tunnel no longer lays a tangle of tiny pieces or cuts the roads it passes over or under.\n[*]Lane connector: asks Apply or Discard before you leave, sits above the toolbar, and clicks on a line select its lane.\n[*]One-way tunnels show their direction.\n[*]Divided roads are now called \"2-Lane Divided Road\" and \"4-Lane Divided Highway\", and their buttons explain what the median does.\n[*]Visual fixes for bridge ramps, bridge columns, curved one-way merges and split bridges.\n[\/list]\n[p][\/p]\n[h2] Game [\/h2]\n[list]\n[*]Menus grow with the window, so they are no longer half size on a 4K screen. The UI Scale slider shows the size the interface really gets.\n[*]The interface no longer shakes at some window sizes.\n[*]The challenge list scrolls, with the title and Back button always on screen.\n[*]The tutorial runs only on Easy. The Home button works during the tutorial.\n[*]Trip reports stay up long enough to read.\n[*]Junction letters stay readable at any zoom, and junction panels stay open while you move the camera.\n[*]While following a car, how to stop is shown on screen the whole time.\n[*]Settings such as car horns and building detail distance are remembered between launches.\n[*]City Holiday: a queue that empties during the holiday drops its overload bar at once.\n[*]One soundtrack was much louder than the others; it now plays at the same level.\n[\/list]\n[p][\/p]\n[p]Thanks to everyone who posted feedback and bug reports. Keep them coming, here in the discussions or on Discord. The full game comes out on November 3.[\/p]","commentcount":5,"tags":["mod_reviewed","ModAct_783923276_1793041488_0"],"language":0,"hidden":0,"forum_topic_id":"569301136948078529","event_gid":"719045526774880833","voteupcount":23,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"569301136948078529","rtime32_last_modified":1793290348,"news_post_gid":"0","rtime_mod_reviewed":1793041488,"featured_app_tagid":0,"referenced_appids":[],"build_id":25857270,"build_branch":"","unlisted":0,"rtime_created":1793037872,"votes_up":23,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"580552862448315225","gidfeature2":"569301136948078529"}],"EventWebRowEmbed":{"bPreLoaded":true,"announcementGIDList":["701031762452547244","719045526774880834"],"last_update_event":{"rtime":1793305020,"event_gid":"701031762452547243","announcement_gid":"701031762452547244","clan_account_id":46246597}}};
+						</script>
+					
+
+					<div data-featuretarget="events-row"></div>
+				
+								
+				
+				
+
+
+								<div id="contentForThisGame_ctn">
+				</div>
+									<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="aboutThisGame" class="game_page_autocollapse" style="max-height: 850px;">
+						<div id="game_area_description" class="game_area_description">
+							<h2>About This Game</h2>
+							<p class="bb_paragraph" >Traffic Architect is a road builder and traffic-management game. Build and transform the infrastructure network of a self-growing, fully simulated city, where every new building sends fresh trips onto your roads: people driving to work, trucks making deliveries.</p><p class="bb_paragraph" >Every traffic jam has a cause. You provide the creative fix: a few more lanes, a retimed signal, an extra road link, or a whole new highway with an interchange where the crossing used to be. Build it and watch the traffic flow.</p><p class="bb_paragraph" >And when more asphalt stops working, build a public transport network. A bus line with bus-only lanes, a rail link or a metro tunnel placed where people already travel fills up fast, and every rider is one less car in your junction. </p><p class="bb_paragraph" style="text-align: center"><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/bd32c2f6905055ac102fa58054022681.poster.avif?t=1792593337" width=616 height=346 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/bd32c2f6905055ac102fa58054022681.webm?t=1792593337" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/bd32c2f6905055ac102fa58054022681.mp4?t=1792593337" type="video/mp4"></video></span></p><h2 class="bb_tag" >Design the network</h2><ul class="bb_ul"><li><p class="bb_paragraph" >Upgrade roads through 11 tiers, from gravel tracks to boulevards and multi-lane highways</p></li><li><p class="bb_paragraph" >Cross rivers with bridges and mountains with tunnels in one simple move</p></li><li><p class="bb_paragraph" >Rebuild a jammed crossing as a full interchange in one click: 3-way compact or trumpet where three meet, a compact or wide cloverleaf where two roads cross</p></li><li><p class="bb_paragraph" >Shape the flow with one-way streets, turn restrictions and per-junction rules, then tune the traffic lights phase by phase</p></li></ul><p class="bb_paragraph" style="text-align: center"><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/ee84dfc26fe5870228d4b156afe56d0b.poster.avif?t=1792593337" width=616 height=346 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/ee84dfc26fe5870228d4b156afe56d0b.webm?t=1792593337" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/ee84dfc26fe5870228d4b156afe56d0b.mp4?t=1792593337" type="video/mp4"></video></span></p><h2 class="bb_tag" >Traffic simulated car by car</h2><ul class="bb_ul"><li><p class="bb_paragraph" >Every vehicle is simulated. Follow a single car across town and see the jam from inside it</p></li><li><p class="bb_paragraph" >The people using your network report back, a smooth run, a long wait or a detour twice the direct distance, and a congestion heat map shows where the network hurts</p></li><li><p class="bb_paragraph" >Over two dozen live metrics, from queued cars to transit share, each charted across the whole run so you can see what a new interchange did to the numbers</p></li></ul><p class="bb_paragraph" style="text-align: center"><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/b5eb570843fdb9b4b72c3c173e4ed186.poster.avif?t=1792593337" width=616 height=346 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/b5eb570843fdb9b4b72c3c173e4ed186.webm?t=1792593337" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/b5eb570843fdb9b4b72c3c173e4ed186.mp4?t=1792593337" type="video/mp4"></video></span></p><h2 class="bb_tag" >Move beyond the car</h2><ul class="bb_ul"><li><p class="bb_paragraph" >Bus lines with routes and stops, plus bus lanes and bus-only roads so your buses don't sit in jams</p></li><li><p class="bb_paragraph" >Passenger rail and underground metro with stations, level crossings and tunnels. Passengers route across your entire network, bus, rail, metro, transfers included. Build connections, and people will use them</p></li><li><p class="bb_paragraph" >Freight rides the rails: dedicate lines, connect industry to demand, and the trucks come off your roads. Goods change trains at shared stations the same way passengers do</p></li></ul><p class="bb_paragraph" style="text-align: center"><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/5f75cbd47633984bed78315ab808dc30.poster.avif?t=1792593337" width=616 height=346 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/5f75cbd47633984bed78315ab808dc30.webm?t=1792593337" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/5f75cbd47633984bed78315ab808dc30.mp4?t=1792593337" type="video/mp4"></video></span></p><h2 class="bb_tag" >Build it your way</h2><ul class="bb_ul"><li><p class="bb_paragraph" >Traffic Challenges: puzzles where you build the interchanges by hand, one ramp at a time, then test whether enough cars get through</p></li><li><p class="bb_paragraph" >Creative mode: place buildings yourself, no budget and no way to lose</p></li><li><p class="bb_paragraph" >Full map editor: sculpt terrain, rivers, mountains and lakes, then play real runs on your own maps and share them on Steam Workshop</p></li><li><p class="bb_paragraph" >Large maps up to 18x18 km, with dense downtown districts and suburban settlements</p></li></ul><p class="bb_paragraph" style="text-align: center"><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/35adc802f9702bac56b9a3a5252a6f3f.poster.avif?t=1792593337" width=616 height=346 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/35adc802f9702bac56b9a3a5252a6f3f.webm?t=1792593337" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5028050/extras/35adc802f9702bac56b9a3a5252a6f3f.mp4?t=1792593337" type="video/mp4"></video></span></p>						</div>
+					</div>
+				
+				
+				
+					<div class="game_page_autocollapse sys_req" style="max-height: 300px;">
+		<h2>System Requirements</h2>
+				<div class="sysreq_contents">
+							<div class="game_area_sys_req sysreq_content active" data-os="win">
+											<div class="game_area_sys_req_leftCol">
+							<ul>
+								<strong>Minimum:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Dual-core 2.4 GHz (Intel Core i3 or equivalent)<br></li><li><strong>Memory:</strong> 4096 MB RAM<br></li><li><strong>Graphics:</strong> Any GPU with WebGL 2.0 support (Intel HD 4000 or newer)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>							</ul>
+						</div>
+																<div class="game_area_sys_req_rightCol">
+							<ul>
+								<strong>Recommended:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/11 64-bit<br></li><li><strong>Processor:</strong> Quad-core 3.0 GHz (Intel Core i5 or equivalent)<br></li><li><strong>Memory:</strong> 8192 MB RAM<br></li><li><strong>Graphics:</strong> Dedicated GPU, GeForce GTX 1050 / Radeon RX 560 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Sound Card:</strong> Any</li></ul>							</ul>
+						</div>
+										<div style="clear: both;"></div>
+
+									</div>
+					</div>
+	</div>
+	<script type="text/javascript">
+		$J( function() {
+			var $Tabs = $J('.sysreq_tab');
+			var $Content = $J('.sysreq_content');
+
+			$Tabs.click( function() {
+				var $Tab = $J(this);
+				$Tabs.removeClass('active');
+				$Tab.addClass('active');
+
+				$Content.removeClass('active');
+				$Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+				$Content.trigger('gamepage_autocollapse_expand');
+			});
+		} );
+	</script>
+
+				
+								
+				</div>
+
+			<div class="clear_both" style="clear: both;"></div>
+		</div>
+
+		<div class="related_items_ctn">
+			<div class="page_content game_description_column ">
+				
+				
+				
+				
+				<div  data-featuretarget="storeitems-carousel" data-props="{&quot;title&quot;:&quot;More like this&quot;,&quot;seeAllLink&quot;:&quot;https://store.steampowered.com/recommended/morelike/app/5028050/?snr=1_5_9__300&quot;,&quot;appIDs&quot;:[3493540,949230,3219030,427520,1062090,2688950,690830,2162800,703080,3222640,2060160,2295060,1594320,3115220,3215050,1465470,1066780,2938460,233450,1853440,4315040,24010,1894430,2153760,1366540,3204330,4436200,3983860,2719750,1455840],&quot;navKey&quot;:&quot;more_like_this_carousel&quot;,&quot;sortOrder&quot;:&quot;shuffle&quot;,&quot;scorePenaltyIfOwned&quot;:5,&quot;bFullWidth&quot;:false}"></div>
+				<div id="responsive_apppage_reviewblock_ctn" class="rightcol game_meta_data"></div>
+
+				
+
+			</div>
+		</div>
+
+
+		<div class="review_ctn">
+			<div class="page_content">
+
+				<div id="app_reviews_hash" class="app_reviews_area">
+							<div class="" data-featuretarget="appreviews" data-props="{&quot;appid&quot;:5028050,&quot;app_release_date&quot;:&quot;1793728800&quot;,&quot;appname&quot;:&quot;Traffic Architect&quot;,&quot;steamworks_appid&quot;:5028050,&quot;summary_options&quot;:{&quot;bHasAnyReviews&quot;:false,&quot;eUserReviewScorePreference&quot;:0,&quot;bCanManageReviewBombs&quot;:false,&quot;bCanEditApp&quot;:false,&quot;bHasOwnReview&quot;:false}}"></div>
+						</div>
+			</div>
+		</div>
+
+
+			</div>
+	</div>
+
+</div>
+
+		<div class="hover game_hover" id="global_hover" style="display: none; left: 0; top: 0;">
+			<div class="game_hover_box hover_box">
+				<div class="content" id="global_hover_content">
+				</div>
+			</div>
+			<div class="hover_arrow_left"></div>
+			<div class="hover_arrow_right"></div>
+		</div>
+<div id="EmbedModal"  style="display: none">
+	<div id="widget_create">
+		<p>You can use this widget-maker to generate a bit of HTML that can be embedded in your website to easily allow customers to purchase this game on Steam.</p>
+
+				<p class="small">Enter up to 375 characters to add a description to your widget:</p>
+		<div class="app_embed_dialog_description">
+			<textarea name="w_text" placeholder="Become the master of traffic with your expert infrastructure designs. Lay down streets, shape junctions, time traffic lights, design a public transport network, and watch the city come alive. It grows on its own, and every new building sends more trips onto the roads you built." maxlength="375"></textarea>
+		</div>
+
+		<div class="buttoncontainer">
+			<a class="btnv6_blue_hoverfade btn_medium " href="#" onclick="CreateWidget(5028050); return false;"><span>Create widget</span></a>
+		</div>
+	</div>
+	<div id="widget_finished" style="display: none;">
+		<div id="widget_container"></div>
+
+		<p class="small">Copy and paste the HTML below into your website to make the above widget appear</p>
+		<textarea id="widget_code" style=""></textarea>
+	</div>
+
+</div>
+
+	<div id="app_tagging_modal" class="app_tag_modal nologin" style="display: none;">
+		<div class="app_tag_modal_content">
+			<div class="app_tag_modal_seperator"></div>
+			<div class="app_tag_modal_left">
+				<h2>Popular user-defined tags for this product:<span class="app_tag_modal_tooltip" data-tooltip-text="These are tags applied to the product by the most users.  You can click a tag to find other products with that tag applied.  Or, you can hit the plus symbol for any existing tags to increase that tag's popularity on this product.">(?)</span></h2>
+				<div class="app_tags popular_tags">
+				</div>
+			</div>
+			<div class="app_tag_modal_right">
+									<h2>Sign In</h2>
+					<p>Sign in to add your own tags to this product.</p>
+					<p>
+						<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/5028050">
+							<span>Sign In</span>
+						</a>
+					</p>
+							</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$J( function() {
+			InitAppTagModal( 5028050,
+				[{"tagid":4328,"name":"City Builder","count":77,"browseable":true},{"tagid":599,"name":"Simulation","count":71,"browseable":true},{"tagid":9,"name":"Strategy","count":68,"browseable":true},{"tagid":10383,"name":"Transportation","count":47,"browseable":true},{"tagid":1664,"name":"Puzzle","count":44,"browseable":true},{"tagid":4094,"name":"Minimalist","count":38,"browseable":true},{"tagid":1654,"name":"Relaxing","count":36,"browseable":true},{"tagid":12472,"name":"Management","count":34,"browseable":true},{"tagid":1643,"name":"Building","count":32,"browseable":true},{"tagid":255534,"name":"Automation","count":31,"browseable":true},{"tagid":1616,"name":"Trains","count":29,"browseable":true},{"tagid":4791,"name":"Top-Down","count":26,"browseable":true},{"tagid":4191,"name":"3D","count":24,"browseable":true},{"tagid":8945,"name":"Resource Management","count":22,"browseable":true},{"tagid":8122,"name":"Level Editor","count":20,"browseable":true},{"tagid":3810,"name":"Sandbox","count":18,"browseable":true},{"tagid":5350,"name":"Family Friendly","count":16,"browseable":true},{"tagid":492,"name":"Indie","count":14,"browseable":true},{"tagid":5125,"name":"Procedural Generation","count":13,"browseable":true},{"tagid":4182,"name":"Singleplayer","count":10,"browseable":true}],
+				[],
+				"1_5_9__410",
+				"1_5_9__411",
+				null,
+				false			);
+
+						if ( typeof GDynamicStore != 'undefined' )
+				GDynamicStore.FixupNamePortion();
+			
+					});
+	</script>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>

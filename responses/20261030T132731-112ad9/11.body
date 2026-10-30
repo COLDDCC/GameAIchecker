@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Dude, Trust Me on Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://store.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=YzJgj1FjzW34&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_global.css?v=sat0mVAiy9IE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/buttons.css?v=BZhNEtESfYSJ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/store.css?v=pRFy65b3KvQ_&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/styles_linux.css?v=LcZAgwD7_TSW&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/user_reviews.css?v=hcV4WIPnYWMf&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_game_shared.css?v=Xi6rfDkwSwlu&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game.css?v=FpqfPB3I4l_e&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_background_shared.css?v=RuX0Jh-U_mAP&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/recommended.css?v=fwyY12y3q2Mi&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/user_reviews_rewards.css?v=nDJVyLGQ1XMI&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/apphub.css?v=otgZDLujyGMF&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/ui-lightness/jquery-ui-1.7.2.custom.css?v=qgq7mHqEwLbE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game_mob.css?v=XLV-14LI0nm-&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=FJJn0nIxXaGQ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=NXam5zydzNu8&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=w6QbwI-5-j2S&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/main.js?v=VXExFbFD9rs7&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js?v=7IbaKUfZfESM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				$J.data( document, 'x_readytime', new Date().getTime() );
+				$J.data( document, 'x_oldref', GetNavCookie() );
+				SetupTooltips( { tooltipCSSClass: 'store_tooltip'  } );
+		});
+		</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/gamehighlightplayer.js?v=mdJgU3gDKmis&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/user_reviews.js?v=GGcui5RNq7P0&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/app_tagging.js?v=jzh2Y03tD8Ea&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/game.js?v=KNgRXsZ3gVA_&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.min.js?v=mSfqk1QKKgiz&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.min.js?v=MeIf0YViALgL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.min.js?v=CIECDYHJjBgN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.min.js?v=laPWW88ZIIHe&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/dselect.js?v=xOLWzo6KWkKr&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-ui-1.9.2.js?v=wxKVOzU-zSuN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="Get hopelessly misunderstood by your two best friends. One of you goes blind, one goes deaf, one loses their voice, and no puzzle here can be solved by one person. Can the three of you work out how to understand each other?">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Dude, Trust Me on Steam">
+					<meta property="twitter:title" content="Dude, Trust Me on Steam">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:url" content="https://store.steampowered.com/app/5117520/Dude_Trust_Me/">
+					<meta property="og:description" content="Get hopelessly misunderstood by your two best friends. One of you goes blind, one goes deaf, one loses their voice, and no puzzle here can be solved by one person. Can the three of you work out how to understand each other?">
+					<meta property="twitter:description" content="Get hopelessly misunderstood by your two best friends. One of you goes blind, one goes deaf, one loses their voice, and no puzzle here can be solved by one person. Can the three of you work out how to understand each other?">
+			
+			<link rel="canonical" href="https://store.steampowered.com/app/5117520/Dude_Trust_Me/">
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/c35963a67b4f96e527287974a56db4cc99e508b8/capsule_616x353.jpg?t=1792534347">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/c35963a67b4f96e527287974a56db4cc99e508b8/capsule_616x353.jpg?t=1792534347">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/c35963a67b4f96e527287974a56db4cc99e508b8/capsule_616x353.jpg?t=1792534347" />
+				
+	
+	
+	
+	
+	</head>
+<body class="v6 app game_bg menu_background_overlap application widestore v7menu responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com/login/?redir=app%2F5117520%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">
+									Sign in								</a>
+															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-responsive-menu">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-responsive-menu">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-responsive-menu">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-responsive-menu">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-responsive-menu">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-responsive-menu">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/?snr=1_5_9__global-responsive-menu" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_5_9__global-responsive-menu" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+															<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+					<div class="responsive_header_react_target" data-featuretarget="store-menu-responsive-search"><div class="responsive_header_react_placeholder"></div></div>				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/?snr=1_5_9__global-header" aria-label="Link to the Steam Homepage">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-header">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-header">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-header">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-header">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-header">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-header">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=app%2F5117520%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<div class="StoreMenuLoadingPlaceholder" data-featuretarget="store-menu-v7"><div class="PlaceholderInner"></div></div><div id="responsive_store_nav_ctn"></div><div id="responsive_store_nav_overlay" style="display:none"><div id="responsive_store_nav_overlay_ctn"></div><div id="responsive_store_nav_overlay_bottom"></div></div><div id="responsive_store_search_overlay" style="display:none"></div><div data-cart-banner-spot="1"></div>
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793298588,&quot;PAGE_TIMESTAMP&quot;:1793334480,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1793334480,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;1_5_9_&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[3,4]}" data-hwinfo="{&quot;bSteamOS&quot;:false,&quot;bSteamDeck&quot;:false,&quot;bSteamMachine&quot;:false,&quot;bSteamFrame&quot;:false}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-store_page_asset_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/%s?t=1792534347&quot;" data-store_page_extra_assets_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/%s?t=1792534347&quot;" data-store_page_extra_assets_map="{&quot;extras\/0824_3_&quot;:[{&quot;urlPart&quot;:&quot;extras\/aa5bfcca1de447a114f0caf7cfca6cd7.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/aa5bfcca1de447a114f0caf7cfca6cd7.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/aa5bfcca1de447a114f0caf7cfca6cd7.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;}],&quot;extras\/elevenlabs_image_seedream-5-pro_remove_the_colo_2026-08-24t11_41_23__2___3___2_&quot;:[{&quot;urlPart&quot;:&quot;extras\/2857e57eac23d0f522736548505f0984.avif&quot;,&quot;extension&quot;:&quot;avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1096&quot;,&quot;height&quot;:&quot;204&quot;}],&quot;extras\/0827_2_&quot;:[{&quot;urlPart&quot;:&quot;extras\/2c9aba0b0b6b366b98a63fb801faa655.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/2c9aba0b0b6b366b98a63fb801faa655.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/2c9aba0b0b6b366b98a63fb801faa655.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;}],&quot;extras\/0830&quot;:[{&quot;urlPart&quot;:&quot;extras\/1490a4c2ef1388d4e815513f0c2832fe.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/1490a4c2ef1388d4e815513f0c2832fe.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/1490a4c2ef1388d4e815513f0c2832fe.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;}],&quot;extras\/store_sunken_dome&quot;:[{&quot;urlPart&quot;:&quot;extras\/6eed4cd76285fc81052a33ff17a1ab0c.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/6eed4cd76285fc81052a33ff17a1ab0c.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/6eed4cd76285fc81052a33ff17a1ab0c.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;}],&quot;extras\/store_offering_fire&quot;:[{&quot;urlPart&quot;:&quot;extras\/6d0f5c0c74f065f8377b453e903fdb2c.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/6d0f5c0c74f065f8377b453e903fdb2c.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/6d0f5c0c74f065f8377b453e903fdb2c.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;}],&quot;extras\/96um30a2w02ue6bubwxnma&quot;:[{&quot;urlPart&quot;:&quot;extras\/0d6dd688186400f39ada0edc1dd979dd.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/0d6dd688186400f39ada0edc1dd979dd.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;},{&quot;urlPart&quot;:&quot;extras\/0d6dd688186400f39ada0edc1dd979dd.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;854&quot;,&quot;height&quot;:&quot;480&quot;}],&quot;extras\/tnt3txjypbksyfcantzghq&quot;:[{&quot;urlPart&quot;:&quot;extras\/8123c637ade8dd96f8c057e7d72ed3c9.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1091&quot;,&quot;height&quot;:&quot;259&quot;},{&quot;urlPart&quot;:&quot;extras\/8123c637ade8dd96f8c057e7d72ed3c9.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1090&quot;,&quot;height&quot;:&quot;258&quot;},{&quot;urlPart&quot;:&quot;extras\/8123c637ade8dd96f8c057e7d72ed3c9.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1090&quot;,&quot;height&quot;:&quot;258&quot;}],&quot;extras\/hw_store_banner&quot;:[{&quot;urlPart&quot;:&quot;extras\/ad871230cf2cd30f6e3c4f111908006e.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1090&quot;,&quot;height&quot;:&quot;258&quot;},{&quot;urlPart&quot;:&quot;extras\/ad871230cf2cd30f6e3c4f111908006e.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1090&quot;,&quot;height&quot;:&quot;258&quot;},{&quot;urlPart&quot;:&quot;extras\/ad871230cf2cd30f6e3c4f111908006e.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1090&quot;,&quot;height&quot;:&quot;258&quot;}],&quot;extras\/hw_store_banner_alpha&quot;:[{&quot;urlPart&quot;:&quot;extras\/ed6e4188b00cbfdf5d564cf70fcf03e1.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1090&quot;,&quot;height&quot;:&quot;258&quot;},{&quot;urlPart&quot;:&quot;extras\/ed6e4188b00cbfdf5d564cf70fcf03e1.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1090&quot;,&quot;height&quot;:&quot;258&quot;},{&quot;urlPart&quot;:&quot;extras\/ed6e4188b00cbfdf5d564cf70fcf03e1.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1090&quot;,&quot;height&quot;:&quot;258&quot;}]}" data-hardwarecompatibility="{&quot;appid&quot;:5117520,&quot;resolved_category&quot;:0,&quot;resolved_items&quot;:[],&quot;steam_deck_blog_url&quot;:&quot;&quot;,&quot;search_id&quot;:null,&quot;steamos_resolved_category&quot;:0,&quot;steamos_resolved_items&quot;:[],&quot;machine_resolved_category&quot;:0,&quot;machine_resolved_items&quot;:[],&quot;frame_resolved_category&quot;:0,&quot;frame_resolved_items&quot;:[]}" data-appname="&quot;Dude, Trust Me&quot;" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:{&quot;domain&quot;:&quot;store.steampowered.com&quot;,&quot;controller&quot;:&quot;direct-navigation&quot;,&quot;method&quot;:&quot;&quot;,&quot;submethod&quot;:&quot;&quot;,&quot;feature&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;countrycode&quot;:&quot;&quot;,&quot;webkey&quot;:null,&quot;is_client&quot;:false,&quot;curator_data&quot;:null,&quot;is_likely_bot&quot;:false,&quot;is_utm&quot;:false},&quot;wishlist_item_count&quot;:0}"></div><div id="application_root"></div><script>window.g_wapit="";</script><link href="https://store.fastly.steamstatic.com/public/css/applications/store/main.css?v=hzBzuSSSUisO&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11184889";</script>
+<script type="module" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js?contenthash=5jGoX9w1"></script>
+<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_Languages = ["english"];
+	var g_sessionID = "4713cf385ea0eeb635e5efb1";
+	var g_ServerTime = 1793334480;
+	var g_bUseNewCartAPI = true;
+
+			$J( InitMiniprofileHovers( 'https%3A%2F%2Fstore.steampowered.com%2F' ) );
+	
+	
+	if ( typeof GStoreItemData != 'undefined' )
+	{
+		GStoreItemData.AddNavParams({
+			__page_default: "1_5_9_",
+			__page_default_obj: {"domain":"store.steampowered.com","controller":"application","method":"app","submethod":"","feature":null,"depth":null,"countrycode":"US","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":null},
+			__originating_obj: {"domain":"store.steampowered.com","controller":"direct-navigation","method":"","submethod":"","feature":"","depth":0,"countrycode":"","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":false},
+			storemenu_recommendedtags: "1_5_9__17"		});
+	}
+
+	if ( typeof GDynamicStore != 'undefined' )
+	{
+		GDynamicStore.Init(0, false, "", {"primary_language":null,"secondary_languages":null,"platform_windows":null,"platform_mac":null,"platform_linux":null,"timestamp_updated":null,"hide_store_broadcast":null,"review_score_preference":null,"timestamp_content_descriptor_preferences_updated":null,"provide_deck_feedback":null,"additional_languages":null,"game_frame_rate_reporting":null,"disable_microtrailers":null,"disable_animated_marketing":null}, 'US',
+			{"bNoDefaultDescriptors":false});
+		GStoreItemData.SetCurrencyFormatter(function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ".", ","); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + "$" + fmt( nValueInCents, bWholeUnitsOnly );});
+		GStoreItemData.SetCurrencyMinPriceIncrement(1);
+	}
+</script>
+
+<script type="text/javascript">
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"4656000":{"name":"BOMBANANA!","url_name":"BOMBANANA","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4656000\/4940c6b39164d54c5f6ca5917b6621dc2f2c2a52\/capsule_184x69_alt_assets_0.jpg?t=1792877964","os_windows":true,"os_macos":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45812612]},"4704690":{"name":"MECCHA CHAMELEON","url_name":"MECCHA_CHAMELEON","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"599\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$5.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4704690\/18d14b8bd834e30a6a25df5ccd7f0a6e644f1577\/capsule_184x69.jpg?t=1789464996","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45635377]},"4108000":{"name":"Machine Party","url_name":"Machine_Party","discount_block":"<div class=\"discount_block \" data-price-final=\"599\" data-bundlediscount=\"0\" data-discount=\"25\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-25%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$7.99<\/div><div class=\"discount_final_price\">$5.99<\/div><\/div><span class=\"discount_aria_label\">25% off. $7.99 normally, discounted to $5.99<\/span><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4108000\/5986ba4057fa210d0f96bd470e41a0dd439ed6fb\/capsule_184x69.jpg?t=1790860377","os_windows":true,"os_linux":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[45275615,44937494]},"4312190":{"name":"CRACK","url_name":"CRACK","discount_block":"<div class=\"discount_block \" data-price-final=\"679\" data-bundlediscount=\"0\" data-discount=\"15\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-15%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$7.99<\/div><div class=\"discount_final_price\">$6.79<\/div><\/div><span class=\"discount_aria_label\">15% off. $7.99 normally, discounted to $6.79<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4312190\/269e095d387ea33335006c1e001bc8862052ad73\/capsule_184x69_alt_assets_0.jpg?t=1793285498","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[46271254]},"1943950":{"name":"Escape the Backrooms","url_name":"Escape_the_Backrooms","discount_block":"<div class=\"discount_block \" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"20\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-20%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$9.99<\/div><div class=\"discount_final_price\">$7.99<\/div><\/div><span class=\"discount_aria_label\">20% off. $9.99 normally, discounted to $7.99<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1943950\/67f23a45ceba2451489994ef512f30dc64d64cc1\/capsule_184x69_alt_assets_4.jpg?t=1793277465","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[42411130,40103847]},"3949040":{"name":"RV There Yet?","url_name":"RV_There_Yet","discount_block":"<div class=\"discount_block \" data-price-final=\"479\" data-bundlediscount=\"0\" data-discount=\"40\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-40%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$7.99<\/div><div class=\"discount_final_price\">$4.79<\/div><\/div><span class=\"discount_aria_label\">40% off. $7.99 normally, discounted to $4.79<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3949040\/05b77bc86d227612ded8e54753063e43c44698c4\/capsule_184x69.jpg?t=1789134289","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[45054271]},"960090":{"name":"Bloons TD 6","url_name":"Bloons_TD_6","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1399\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$13.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/960090\/capsule_184x69.jpg?t=1782123772","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32943649,44186664]},"2879840":{"name":"Escape Simulator 2","url_name":"Escape_Simulator_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2879840\/a41c68c227b6d6dce8bbcc1685afb944dcf10719\/capsule_184x69_alt_assets_3.jpg?t=1790013058","os_windows":true,"os_macos":true,"vr_htcvive":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32969178]},"1260320":{"name":"Party Animals","url_name":"Party_Animals","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1260320\/ca03736b198d1b4812b0ac11a78b7384149791db\/capsule_184x69_alt_assets_10.jpg?t=1789480764","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"286160":{"name":"Tabletop Simulator","url_name":"Tabletop_Simulator","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/286160\/capsule_184x69.jpg?t=1772387518","os_windows":true,"os_macos":true,"os_linux":true,"vr_htcvive":true,"vr_oculusrift":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1167630":{"name":"Teardown","url_name":"Teardown","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1167630\/592fd402f333d5022f47691dbe49d26c9bae0c6c\/capsule_184x69.jpg?t=1791807602","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45059610]},"4715160":{"name":"Finals Week \u270d\ud83c\udffb","url_name":"Finals_Week","discount_block":"<div class=\"discount_block \" data-price-final=\"495\" data-bundlediscount=\"0\" data-discount=\"38\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-38%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$7.99<\/div><div class=\"discount_final_price\">$4.95<\/div><\/div><span class=\"discount_aria_label\">38% off. $7.99 normally, discounted to $4.95<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4715160\/a358dec96fe91e2f79089db31cd2b8278d95cbc9\/capsule_184x69.jpg?t=1793289966","os_windows":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[36917994]},"2968420":{"name":"PowerWash Simulator 2","url_name":"PowerWash_Simulator_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$24.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2968420\/33ef3ac597ce9813b4eb8da4eace0f5cb51869e5\/capsule_184x69.jpg?t=1791475287","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[40416158,45518879]},"5053820":{"name":"Mimic Party","url_name":"Mimic_Party","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"699\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$6.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5053820\/4adb5e68ffcb7785768a355dada919756e74c31c\/capsule_184x69.jpg?t=1789831835","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"5228920":{"name":"Brick by Brick: Tidy Up the Small Town!","url_name":"Brick_by_Brick_Tidy_Up_the_Small_Town","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5228920\/999d76679b85624ff8d765b9f3e748073e3ee394\/capsule_184x69.jpg?t=1792780766","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45160136]},"5175310":{"name":"Worst Class Ever","url_name":"Worst_Class_Ever","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5175310\/2f01e333bcb778be98f0b530d071119bd8260148\/capsule_184x69.jpg?t=1793179541","os_windows":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Nov 9, 2026","coming_soon_string":"Coming Nov 9, 2026","localized":true,"localized_english":true,"creator_clan_ids":[46459054,35106019]},"2881650":{"name":"Content Warning","url_name":"Content_Warning","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2881650\/capsule_184x69.jpg?t=1785137321","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32941859]},"5117550":{"name":"Fart Together","url_name":"Fart_Together","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117550\/39d9e8bd13c73e088d6df01700a52e3b2e0aa177\/capsule_184x69.jpg?t=1793273054","os_windows":true,"early_access":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Coming soon","coming_soon_string":"Coming soon","localized":true,"localized_english":true},"4412320":{"name":"Dumb Ways to Build","url_name":"Dumb_Ways_to_Build","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4412320\/d0ca58fce7e7bc5a0a87784f18e537adba07d99a\/capsule_184x69.jpg?t=1793146466","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[46140648]},"1435790":{"name":"Escape Simulator","url_name":"Escape_Simulator","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1435790\/45a7f618deb1486f4819e27d4b0d007fdcb5f4f3\/capsule_184x69.jpg?t=1791969592","os_windows":true,"os_macos":true,"os_linux":true,"vr_htcvive":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"4534960":{"name":"Dear Passengers","url_name":"Dear_Passengers","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4534960\/d7b0a9376fb4cab61548730f3e98d3ba1935bc9d\/capsule_184x69.jpg?t=1787132605","os_windows":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: 2026","coming_soon_string":"Coming 2026","localized":true,"localized_english":true},"2141730":{"name":"Backrooms: Escape Together","url_name":"Backrooms_Escape_Together","discount_block":"<div class=\"discount_block \" data-price-final=\"699\" data-bundlediscount=\"0\" data-discount=\"30\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-30%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$9.99<\/div><div class=\"discount_final_price\">$6.99<\/div><\/div><span class=\"discount_aria_label\">30% off. $9.99 normally, discounted to $6.99<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2141730\/dcc2e9cc8d5c08bae8b72bc266592434ecd24425\/capsule_184x69.jpg?t=1780282746","os_windows":true,"early_access":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true},"1290000":{"name":"PowerWash Simulator","url_name":"PowerWash_Simulator","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$24.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1290000\/9d9f1f777477c1b7286f153be8f9e317eeabbfd3\/capsule_184x69.jpg?t=1780392261","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[40416158,45518879]},"4948000":{"name":"Moo Who?","url_name":"Moo_Who","discount_block":"<div class=\"discount_block \" data-price-final=\"489\" data-bundlediscount=\"0\" data-discount=\"30\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-30%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$6.99<\/div><div class=\"discount_final_price\">$4.89<\/div><\/div><span class=\"discount_aria_label\">30% off. $6.99 normally, discounted to $4.89<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4948000\/1d1a4405fab2ae1a883ab2c7ef8ca8ddbcfeb967\/capsule_184x69.jpg?t=1793043982","os_windows":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[46203417]},"3097560":{"name":"Liar's Bar","url_name":"Liars_Bar","discount_block":"<div class=\"discount_block \" data-price-final=\"454\" data-bundlediscount=\"0\" data-discount=\"35\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-35%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$6.99<\/div><div class=\"discount_final_price\">$4.54<\/div><\/div><span class=\"discount_aria_label\">35% off. $6.99 normally, discounted to $4.54<\/span><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3097560\/de5fadeac50760c4cb15ccd0d2b14a8662f00b75\/capsule_184x69.jpg?t=1783933354","os_windows":true,"early_access":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[45224432]},"5037200":{"name":"just volleyball","url_name":"just_volleyball","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5037200\/9b8e9e36b07f2aa8de2b1199fcbcf0bcb941e612\/capsule_184x69.jpg?t=1793063730","os_windows":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Nov 4, 2026","coming_soon_string":"Coming Nov 4, 2026","localized":true,"localized_english":true},"2475460":{"name":"SOS OPS!","url_name":"SOS_OPS","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2475460\/d2d2158ea3d4e103aae5913ced668d412493eee8\/capsule_184x69_alt_assets_0.jpg?t=1793197618","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[44758681,45736840]},"3364070":{"name":"The Jackbox Party Pack 11","url_name":"The_Jackbox_Party_Pack_11","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3364070\/40ee0eb018b102e1e336044274f070cd94dc01b9\/capsule_184x69.jpg?t=1774630140","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33030169]},"1211630":{"name":"The Jackbox Party Pack 7","url_name":"The_Jackbox_Party_Pack_7","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1211630\/capsule_184x69.jpg?t=1728584652","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33030169]},"4824220":{"name":"Meltdown Crew","url_name":"Meltdown_Crew","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4824220\/30b68f24092aeeac91c65d7a7a2c1458b6acea64\/capsule_184x69.jpg?t=1792425907","os_windows":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: December 2026","coming_soon_string":"Coming December 2026","localized":true,"localized_english":true,"creator_clan_ids":[44971526]}},"rgPackages":[],"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		recommend_franchise: "1_5_9__316",
+		more_from_franchise: "1_5_9__317",
+		bundle_component_preview: "1_5_9__412",
+		recommended_ranked_played: "1_5_9__862",
+	} );
+
+	// Temporary code to allow React to move focus to elements that are non-React.
+	function MoveFocusToId( id )
+	{
+		$el = $J( id );
+		if ( $el.length )
+		{
+			$el[0].focus();
+		}
+	}
+	window.MoveFocusToId = MoveFocusToId;
+
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+		// on Tablet wait to do this when the window is fully loaded - see OnPageLoaded()
+		ReparentAppLandingPageForSmallScreens();
+
+		
+			var usability = InitUsabilityTracker( "https:\/\/store.steampowered.com\/app\/usabilitytracking\/5117520" );
+		usability.ScheduleUpload();
+	
+		
+			} );
+
+	
+	function OpenTagModal()
+	{
+		ShowAppTagModal( 5117520 );
+	}
+
+</script>
+
+<div class="game_page_background game" data-miniprofile-appid=5117520>
+
+	
+			<div class="banner_open_in_steam">
+			<div data-featuretarget="open-in-desktop-client"></div>
+		</div>
+	
+	
+	<div  data-featuretarget="apppage-store-browse-cache" data-props="{&quot;rgPayloads&quot;:[{&quot;dataRequestStoreItems&quot;:{&quot;include_assets&quot;:null,&quot;include_release&quot;:null,&quot;include_platforms&quot;:null,&quot;include_all_purchase_options&quot;:null,&quot;include_screenshots&quot;:null,&quot;include_trailers&quot;:null,&quot;include_ratings&quot;:true,&quot;include_tag_count&quot;:null,&quot;include_reviews&quot;:null,&quot;include_basic_info&quot;:null,&quot;include_supported_languages&quot;:null,&quot;include_full_description&quot;:null,&quot;include_included_items&quot;:null,&quot;included_item_data_request&quot;:null,&quot;include_assets_without_overrides&quot;:null,&quot;apply_user_filters&quot;:null,&quot;include_links&quot;:null,&quot;include_extra_details&quot;:null,&quot;include_best_purchase_option&quot;:true,&quot;include_optin_registration_tags&quot;:null},&quot;rgStoreItems&quot;:[{&quot;item_type&quot;:0,&quot;id&quot;:5117520,&quot;gid&quot;:null,&quot;success&quot;:1,&quot;visible&quot;:1,&quot;unvailable_for_country_restriction&quot;:null,&quot;name&quot;:&quot;Dude, Trust Me&quot;,&quot;store_url_path&quot;:&quot;app/5117520/Dude_Trust_Me&quot;,&quot;store_url_slug&quot;:&quot;Dude_Trust_Me&quot;,&quot;appid&quot;:5117520,&quot;type&quot;:0,&quot;included_types&quot;:[],&quot;included_appids&quot;:[],&quot;is_free&quot;:null,&quot;is_early_access&quot;:null,&quot;related_items&quot;:{&quot;parent_appid&quot;:null,&quot;demo_appid&quot;:[5117640],&quot;standalone_demo_appid&quot;:[5117640],&quot;demos&quot;:[{&quot;appid&quot;:5117640,&quot;label&quot;:null,&quot;show_above_purchase&quot;:1}],&quot;standalone_demos&quot;:[{&quot;appid&quot;:5117640,&quot;label&quot;:null,&quot;show_above_purchase&quot;:1}],&quot;playtests&quot;:[],&quot;related_f2p&quot;:null,&quot;dlc_parent_appids&quot;:[]},&quot;included_items&quot;:null,&quot;content_descriptorids&quot;:[],&quot;tagids&quot;:[],&quot;categories&quot;:{&quot;supported_player_categoryids&quot;:[1,9,38],&quot;feature_categoryids&quot;:[64,68,69,70,62],&quot;controller_categoryids&quot;:[18]},&quot;reviews&quot;:null,&quot;basic_info&quot;:null,&quot;tags&quot;:[],&quot;assets&quot;:null,&quot;release&quot;:null,&quot;platforms&quot;:null,&quot;game_rating&quot;:null,&quot;is_coming_soon&quot;:1,&quot;best_purchase_option&quot;:null,&quot;purchase_options&quot;:[],&quot;self_purchase_option&quot;:null,&quot;screenshots&quot;:null,&quot;trailers&quot;:null,&quot;supported_languages&quot;:[],&quot;store_url_path_override&quot;:null,&quot;free_weekend&quot;:null,&quot;unlisted&quot;:null,&quot;game_count&quot;:null,&quot;internal_name&quot;:null,&quot;full_description_bbcode&quot;:null,&quot;is_free_temporarily&quot;:null,&quot;assets_without_overrides&quot;:null,&quot;user_filter_failure&quot;:null,&quot;links&quot;:[],&quot;purchase_description_bbcode&quot;:null,&quot;package_groups&quot;:[],&quot;extra_details&quot;:null,&quot;optin_registration_tags&quot;:[],&quot;purchase_notes&quot;:[]}]}]}"></div><div  data-featuretarget="apppage-gameinterest-cache" data-props="{&quot;appid&quot;:5117520,&quot;userInterest&quot;:{&quot;owned&quot;:null,&quot;wishlist&quot;:null,&quot;ignored&quot;:null,&quot;following&quot;:null,&quot;in_queues&quot;:[],&quot;queues_with_skip&quot;:[],&quot;queue_items_remaining&quot;:[],&quot;queue_items_next_appid&quot;:[],&quot;temporarily_owned&quot;:null,&quot;queues&quot;:[],&quot;ignored_reason&quot;:null,&quot;beta_status&quot;:null}}"></div>
+	<!-- page width wrapper: gutters, max width and the horizontal bleed variable -->
+	<div id="tabletGrid" class="tablet_grid">
+
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+
+		<meta itemprop="image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/1ebc64048124d70c76ef1281c7605af3e0cb1f20/capsule_231x87.jpg?t=1792534347">
+		
+		<div class="page_top_area">
+						<div class="game_page_background_ctn game">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/b51a99a93f0906093f7e7d64b625edef8b78c295/page_bg_raw.jpg?t=1792534347" class="gameColor" alt="">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/b51a99a93f0906093f7e7d64b625edef8b78c295/page_bg_raw.jpg?t=1792534347" class="gameTexture" alt="">
+			</div>
+
+		<div class="page_title_area game_title_area page_content" data-gpnav="columns">
+			<div class="breadcrumbs" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+								<div class="blockbg">
+											<a href="https://store.steampowered.com/search/?term=&snr=1_5_9__205">All Games</a>
+																					&gt; <a href="https://store.steampowered.com/genre/Casual/?snr=1_5_9__205">Casual Games</a>
+																										&gt; <a href="https://store.steampowered.com/app/5117520/?snr=1_5_9__205"><span itemprop="name">Dude, Trust Me</span></a>
+									</div>
+				<div style="clear: left;"></div>
+							</div>
+						
+
+<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+		                      <div class="apphub_OtherSiteInfo">
+
+                    
+                <a class="btnv6_blue_hoverfade btn_medium" href="https://steamcommunity.com/app/5117520">
+                    <span>Community Hub</span>
+                </a>
+            </div>
+         		<div class="apphub_AppIcon"><img src="https://shared.fastly.steamstatic.com/community_assets/images/apps/5117520/13e62a4fa5a76570c793521aa2238ac70165204d.jpg"><div class="overlay"></div></div>
+		<div id="appHubAppName" class="apphub_AppName" role="heading" aria-level="1">Dude, Trust Me</div>
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+											<a href="https://store.steampowered.com/sale/nextfestmostplayed?snr=1_5_9_" class='saleEventBannerLink'>
+			<div class="event_context">THIS GAME IS PART OF A SALE EVENT</div>
+			<img src="https://clan.fastly.steamstatic.com/images/39049601/f5abd23b19f9ab551d3fdc8d13aeb96cced4c355.jpg" class='saleEventBannerStyle saleEventBannerBig' />
+							<img src="https://clan.fastly.steamstatic.com/images/39049601/60bc9b04669a9529a81cff6c32fe89bd204eaf97.jpg" class='saleEventBannerStyle saleEventBannerMobile'/>
+					</a>
+			</div>
+		<div style="clear: left;"></div>
+
+
+		<div class="block game_media_and_summary_ctn">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+			</script>
+
+			
+			<div class="game_background_glow">
+				
+
+				
+								
+				
+					
+								<div id="page_header_img" class="responsive_page_header_img" style="display: none;">
+					<img style="width:100%;" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/ac30c83e7ea38ce5a96e7342155382ae8594ca41/header.jpg?t=1792534347" alt="Dude, Trust Me">
+				</div>
+
+				<div class="block_content page_content" id="broadcast">
+
+				
+				</div>
+				<div class="block_content page_content" id="game_highlights" data-panel="{&quot;navKey&quot;:&quot;game_highlights&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+
+				<div class="rightcol" data-panel="{&quot;flow-children&quot;:&quot;column&quot;,&quot;navKey&quot;:&quot;rightcol&quot;}">
+					<div class="glance_ctn">
+												<div id="gameHeaderCtn" class="game_header_ctn">
+							<div id="gameHeaderImageCtn" class="game_header_image_ctn">
+								<img class="game_header_image_full" alt="" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/ac30c83e7ea38ce5a96e7342155382ae8594ca41/header.jpg?t=1792534347">
+
+																<div id="appHubAppName_responsive" style="display: none;" class="apphub_AppName">Dude, Trust Me</div>
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="appHeaderGridContainer" class="app_header_grid_container" style="display:none">
+
+																			<div class="grid_label">Developer</div>
+										<div class="grid_content">
+											<a href="https://store.steampowered.com/search/?developer=Sefik%20Studios&snr=1_5_9__400">Sefik Studios</a>										</div>
+																																							<div class="grid_label">Publisher</div>
+											<div class="grid_content">
+												<a href="https://store.steampowered.com/search/?publisher=Sefik%20Studios&snr=1_5_9__422">Sefik Studios</a>											</div>
+																			
+																			<div class="grid_label grid_date">Release</div>
+										<div class="grid_content grid_date">
+											Nov 30, 2026										</div>
+																	</div>
+							</div>
+															<div class="game_description_snippet">
+									Get hopelessly misunderstood by your two best friends. One of you goes blind, one goes deaf, one loses their voice, and no puzzle here can be solved by one person. Can the three of you work out how to understand each other?								</div>
+													</div> 												<div id="glanceMidCtn" class="glance_mid_ctn">
+						<div class="glance_ctn_responsive_left">
+																													<div id="userReviews" class="user_reviews">
+
+									
+																		<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="No user reviews" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">
+											All Reviews:										</div>
+										<div class="summary column">
+																					No user reviews																				</div>
+									</a>
+								</div>
+							
+															<div class="release_date">
+									<div class="subtitle column">Release Date:</div>
+									<div class="date">Nov 30, 2026</div>
+								</div>
+							
+																						<div class="dev_row">
+									<div class="subtitle column">Developer:</div>
+									<div class="summary column" id="developers_list">
+										<a href="https://store.steampowered.com/search/?developer=Sefik%20Studios&snr=1_5_9__2000">Sefik Studios</a>									</div>
+								</div>
+							
+																								<div class="dev_row">
+										<div class="subtitle column">Publisher:</div>
+										<div class="summary column">
+										<a href="https://store.steampowered.com/search/?publisher=Sefik%20Studios&snr=1_5_9__422">Sefik Studios</a>										</div>
+									</div>
+															
+																				</div>
+
+						<div id="glanceCtnResponsiveRight" class="glance_ctn_responsive_right" data-panel="{&quot;navKey&quot;:&quot;glanceCtnResponsiveRight&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="responsive_block_header">Tags</div>
+									<div class="glance_tags_ctn popular_tags_ctn" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+										<div class="glance_tags_label">Popular user-defined tags for this product:</div>
+										<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="glance_tags popular_tags" data-appid="5117520">
+											<a href="https://store.steampowered.com/tags/en/Puzzle/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Puzzle												</a><a href="https://store.steampowered.com/tags/en/Online%20Co-Op/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Online Co-Op												</a><a href="https://store.steampowered.com/tags/en/Multiplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Multiplayer												</a><a href="https://store.steampowered.com/tags/en/Party%20Game/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Party Game												</a><a href="https://store.steampowered.com/tags/en/Funny/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Funny												</a><a href="https://store.steampowered.com/tags/en/Team-Based/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Team-Based												</a><a href="https://store.steampowered.com/tags/en/Casual/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Casual												</a><a href="https://store.steampowered.com/tags/en/Time%20Management/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Time Management												</a><a href="https://store.steampowered.com/tags/en/Replay%20Value/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Replay Value												</a><a href="https://store.steampowered.com/tags/en/Co-op/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Co-op												</a><a href="https://store.steampowered.com/tags/en/3D/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												3D												</a><a href="https://store.steampowered.com/tags/en/First-Person/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												First-Person												</a><a href="https://store.steampowered.com/tags/en/Escape%20Room/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Escape Room												</a><a href="https://store.steampowered.com/tags/en/Family%20Friendly/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Family Friendly												</a><a href="https://store.steampowered.com/tags/en/Comedy/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Comedy												</a><a href="https://store.steampowered.com/tags/en/Mystery/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Mystery												</a><a href="https://store.steampowered.com/tags/en/Stylized/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Stylized												</a><a href="https://store.steampowered.com/tags/en/Cartoony/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Cartoony												</a><a href="https://store.steampowered.com/tags/en/Indie/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Indie												</a><a href="https://store.steampowered.com/tags/en/Co-op%20Campaign/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Co-op Campaign												</a><div class="app_tag add_button" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowAppTagModal( 5117520 )">+</div>
+										</div>
+									</div>
+																						</div> 																					<div id="reviewsHeader_responsive" style="display: none;" class="responsive_block_header">Reviews</div>
+															<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" id="userReviews_responsive" style="display: none;" class="user_reviews" onclick="window.location='#app_reviews_hash'">
+
+																		<a id="appReviewsAll_responsive" class="user_reviews_summary_row" href="#app_reviews_hash">
+										<div class="subtitle column all">All Reviews:</div>
+										<div class="summary column">
+																					No user reviews																				</div>
+									</a>
+
+																	</div>
+																				</div>
+					</div>
+				</div>
+
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;navKey&quot;:&quot;leftcol&quot;,&quot;flow-children&quot;:&quot;column&quot;}" class="leftcol">
+					<div class="highlight_ctn">
+													<div class="highlight_overflow">
+								<div class="gamehighlight_desktopskeleton">
+									<div class="gamehighlight_desktopskeleton_itemview"></div>
+									<div class="gamehighlight_desktopskeleton_stripitems"></div>
+									<div class="gamehighlight_desktopskeleton_stripscrollbar"></div>
+								</div>
+								<div class="gamehighlight_desktopcarousel" data-featuretarget="gamehighlight-desktopcarousel" data-props="{&quot;appName&quot;:&quot;Dude, Trust Me&quot;,&quot;trailers&quot;:[{&quot;id&quot;:1,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257418489\/c5e4360f49925031af013e9b42d265a6b0cb2353\/movie_232x130.jpg?t=1792432132&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257418489\/c5e4360f49925031af013e9b42d265a6b0cb2353\/movie_600x337.jpg?t=1792432132&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/5117520\/1125718980&quot;,&quot;category&quot;:3,&quot;title&quot;:&quot;Dude, Trust Me | Official Trailer&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5117520\/1125718980\/b1ea2d8b1985274240720f5bfc40c79e674867cb\/1790953523\/dash_av1.mpd?t=1792432132&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5117520\/1125718980\/b1ea2d8b1985274240720f5bfc40c79e674867cb\/1790953523\/dash_h264.mpd?t=1792432132&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5117520\/1125718980\/b1ea2d8b1985274240720f5bfc40c79e674867cb\/1790953523\/hls_264_master.m3u8?t=1792432132&quot;}],&quot;screenshots&quot;:[{&quot;name&quot;:&quot;c5e4360f49925031af013e9b42d265a6b0cb2353_ss_c5e4360f49925031af013e9b42d265a6b0cb2353.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/c5e4360f49925031af013e9b42d265a6b0cb2353\/ss_c5e4360f49925031af013e9b42d265a6b0cb2353.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/c5e4360f49925031af013e9b42d265a6b0cb2353\/ss_c5e4360f49925031af013e9b42d265a6b0cb2353.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/c5e4360f49925031af013e9b42d265a6b0cb2353\/ss_c5e4360f49925031af013e9b42d265a6b0cb2353.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #0&quot;},{&quot;name&quot;:&quot;de2498b00ac7396da7f306b6aa7cae8a73fb1f89_ss_de2498b00ac7396da7f306b6aa7cae8a73fb1f89.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/de2498b00ac7396da7f306b6aa7cae8a73fb1f89\/ss_de2498b00ac7396da7f306b6aa7cae8a73fb1f89.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/de2498b00ac7396da7f306b6aa7cae8a73fb1f89\/ss_de2498b00ac7396da7f306b6aa7cae8a73fb1f89.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/de2498b00ac7396da7f306b6aa7cae8a73fb1f89\/ss_de2498b00ac7396da7f306b6aa7cae8a73fb1f89.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #1&quot;},{&quot;name&quot;:&quot;297872515e86ec00d190dd962eb6cd8f72d23088_ss_297872515e86ec00d190dd962eb6cd8f72d23088.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/297872515e86ec00d190dd962eb6cd8f72d23088\/ss_297872515e86ec00d190dd962eb6cd8f72d23088.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/297872515e86ec00d190dd962eb6cd8f72d23088\/ss_297872515e86ec00d190dd962eb6cd8f72d23088.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/297872515e86ec00d190dd962eb6cd8f72d23088\/ss_297872515e86ec00d190dd962eb6cd8f72d23088.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #2&quot;},{&quot;name&quot;:&quot;db2fedc2e0af0a114afa67db80ac615364321de6_ss_db2fedc2e0af0a114afa67db80ac615364321de6.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/db2fedc2e0af0a114afa67db80ac615364321de6\/ss_db2fedc2e0af0a114afa67db80ac615364321de6.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/db2fedc2e0af0a114afa67db80ac615364321de6\/ss_db2fedc2e0af0a114afa67db80ac615364321de6.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/db2fedc2e0af0a114afa67db80ac615364321de6\/ss_db2fedc2e0af0a114afa67db80ac615364321de6.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #3&quot;},{&quot;name&quot;:&quot;0effec0286fd9142b971b6ccbcd5059227b3ef5a_ss_0effec0286fd9142b971b6ccbcd5059227b3ef5a.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/0effec0286fd9142b971b6ccbcd5059227b3ef5a\/ss_0effec0286fd9142b971b6ccbcd5059227b3ef5a.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/0effec0286fd9142b971b6ccbcd5059227b3ef5a\/ss_0effec0286fd9142b971b6ccbcd5059227b3ef5a.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/0effec0286fd9142b971b6ccbcd5059227b3ef5a\/ss_0effec0286fd9142b971b6ccbcd5059227b3ef5a.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #4&quot;},{&quot;name&quot;:&quot;10b6abc927af1747325a057525e2e3a1baceca94_ss_10b6abc927af1747325a057525e2e3a1baceca94.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/10b6abc927af1747325a057525e2e3a1baceca94\/ss_10b6abc927af1747325a057525e2e3a1baceca94.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/10b6abc927af1747325a057525e2e3a1baceca94\/ss_10b6abc927af1747325a057525e2e3a1baceca94.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/10b6abc927af1747325a057525e2e3a1baceca94\/ss_10b6abc927af1747325a057525e2e3a1baceca94.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #5&quot;},{&quot;name&quot;:&quot;ca322dcd259d23e7031bea7973a0563a82bd0429_ss_ca322dcd259d23e7031bea7973a0563a82bd0429.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/ca322dcd259d23e7031bea7973a0563a82bd0429\/ss_ca322dcd259d23e7031bea7973a0563a82bd0429.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/ca322dcd259d23e7031bea7973a0563a82bd0429\/ss_ca322dcd259d23e7031bea7973a0563a82bd0429.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/ca322dcd259d23e7031bea7973a0563a82bd0429\/ss_ca322dcd259d23e7031bea7973a0563a82bd0429.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #6&quot;},{&quot;name&quot;:&quot;bbf875c2532bf06253f8780bfe5e2a6bfdeba060_ss_bbf875c2532bf06253f8780bfe5e2a6bfdeba060.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/bbf875c2532bf06253f8780bfe5e2a6bfdeba060\/ss_bbf875c2532bf06253f8780bfe5e2a6bfdeba060.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/bbf875c2532bf06253f8780bfe5e2a6bfdeba060\/ss_bbf875c2532bf06253f8780bfe5e2a6bfdeba060.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/bbf875c2532bf06253f8780bfe5e2a6bfdeba060\/ss_bbf875c2532bf06253f8780bfe5e2a6bfdeba060.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #7&quot;},{&quot;name&quot;:&quot;39e39c617efe2094f7ec3ca4aec7da67c23281cd_ss_39e39c617efe2094f7ec3ca4aec7da67c23281cd.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/39e39c617efe2094f7ec3ca4aec7da67c23281cd\/ss_39e39c617efe2094f7ec3ca4aec7da67c23281cd.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/39e39c617efe2094f7ec3ca4aec7da67c23281cd\/ss_39e39c617efe2094f7ec3ca4aec7da67c23281cd.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/39e39c617efe2094f7ec3ca4aec7da67c23281cd\/ss_39e39c617efe2094f7ec3ca4aec7da67c23281cd.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #8&quot;},{&quot;name&quot;:&quot;8e66a658bea6065d8dad7e27d38851d3cb4c7adf_ss_8e66a658bea6065d8dad7e27d38851d3cb4c7adf.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/8e66a658bea6065d8dad7e27d38851d3cb4c7adf\/ss_8e66a658bea6065d8dad7e27d38851d3cb4c7adf.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/8e66a658bea6065d8dad7e27d38851d3cb4c7adf\/ss_8e66a658bea6065d8dad7e27d38851d3cb4c7adf.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/8e66a658bea6065d8dad7e27d38851d3cb4c7adf\/ss_8e66a658bea6065d8dad7e27d38851d3cb4c7adf.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #9&quot;},{&quot;name&quot;:&quot;d92428ef1b108993b533c44e706d585bdd413c44_ss_d92428ef1b108993b533c44e706d585bdd413c44.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/d92428ef1b108993b533c44e706d585bdd413c44\/ss_d92428ef1b108993b533c44e706d585bdd413c44.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/d92428ef1b108993b533c44e706d585bdd413c44\/ss_d92428ef1b108993b533c44e706d585bdd413c44.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/d92428ef1b108993b533c44e706d585bdd413c44\/ss_d92428ef1b108993b533c44e706d585bdd413c44.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #10&quot;},{&quot;name&quot;:&quot;ab1a4def68fc489c518100c1940d870f63f0dc34_ss_ab1a4def68fc489c518100c1940d870f63f0dc34.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/ab1a4def68fc489c518100c1940d870f63f0dc34\/ss_ab1a4def68fc489c518100c1940d870f63f0dc34.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/ab1a4def68fc489c518100c1940d870f63f0dc34\/ss_ab1a4def68fc489c518100c1940d870f63f0dc34.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/ab1a4def68fc489c518100c1940d870f63f0dc34\/ss_ab1a4def68fc489c518100c1940d870f63f0dc34.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #11&quot;},{&quot;name&quot;:&quot;5fe232d4c00a89a2e7793001c9bfad68343eeca6_ss_5fe232d4c00a89a2e7793001c9bfad68343eeca6.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/5fe232d4c00a89a2e7793001c9bfad68343eeca6\/ss_5fe232d4c00a89a2e7793001c9bfad68343eeca6.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/5fe232d4c00a89a2e7793001c9bfad68343eeca6\/ss_5fe232d4c00a89a2e7793001c9bfad68343eeca6.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/5fe232d4c00a89a2e7793001c9bfad68343eeca6\/ss_5fe232d4c00a89a2e7793001c9bfad68343eeca6.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #12&quot;},{&quot;name&quot;:&quot;6be482773a344ce742dcf858f95857e9cc4c5072_ss_6be482773a344ce742dcf858f95857e9cc4c5072.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/6be482773a344ce742dcf858f95857e9cc4c5072\/ss_6be482773a344ce742dcf858f95857e9cc4c5072.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/6be482773a344ce742dcf858f95857e9cc4c5072\/ss_6be482773a344ce742dcf858f95857e9cc4c5072.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/6be482773a344ce742dcf858f95857e9cc4c5072\/ss_6be482773a344ce742dcf858f95857e9cc4c5072.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #13&quot;},{&quot;name&quot;:&quot;5c22dca6d3229a365c3a2157d90b36b31c566a59_ss_5c22dca6d3229a365c3a2157d90b36b31c566a59.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/5c22dca6d3229a365c3a2157d90b36b31c566a59\/ss_5c22dca6d3229a365c3a2157d90b36b31c566a59.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/5c22dca6d3229a365c3a2157d90b36b31c566a59\/ss_5c22dca6d3229a365c3a2157d90b36b31c566a59.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/5c22dca6d3229a365c3a2157d90b36b31c566a59\/ss_5c22dca6d3229a365c3a2157d90b36b31c566a59.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #14&quot;},{&quot;name&quot;:&quot;032a852ff0955edb37c9f19c8b4a7c5dcfbb99fb_ss_032a852ff0955edb37c9f19c8b4a7c5dcfbb99fb.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/032a852ff0955edb37c9f19c8b4a7c5dcfbb99fb\/ss_032a852ff0955edb37c9f19c8b4a7c5dcfbb99fb.116x65.jpg?t=1792534347&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/032a852ff0955edb37c9f19c8b4a7c5dcfbb99fb\/ss_032a852ff0955edb37c9f19c8b4a7c5dcfbb99fb.600x338.jpg?t=1792534347&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117520\/032a852ff0955edb37c9f19c8b4a7c5dcfbb99fb\/ss_032a852ff0955edb37c9f19c8b4a7c5dcfbb99fb.1920x1080.jpg?t=1792534347&quot;,&quot;altText&quot;:&quot;Screenshot #15&quot;}]}"></div>
+							</div>
+											</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			</div>
+
+
+			
+			
+
+			
+		</div>
+
+
+		</div>
+			<div class="queue_and_playtime">
+				<div class="game_background_lighten">
+					<div class="game_background_lighten_border"></div>
+				</div>
+									<div class="queue_overflow_ctn">
+													<div class="queue_ctn">
+																<div id="queueActionsCtn" class="queue_actions_ctn">
+									<p><a href="https://store.steampowered.com/login/?redir=app%2F5117520&snr=1_5_9_">Sign in</a> to add this item to your wishlist, follow it, or mark it as ignored</p>
+																			<div id="shareBtn"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowNavigatorShare()" aria-label="Share"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_share_ios.svg" alt=""></span></a></div>
+																	</div>
+							</div>
+						
+												<div id="rowBtnActions" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" style="display: none;"></div>
+
+					</div>
+				
+				
+				
+																												
+				
+								
+				<div id="purchaseOptionsContent" class="purchase_options_content" style="display: none;">
+					<!-- game_area_purchase goes here -->
+				</div>
+			</div>
+
+		
+		<div class="page_content middle_page" data-panel="[]" >
+
+				<!-- Right Column -->
+				<div class="rightcol game_meta_data" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+					
+					<div id="responsive_apppage_details_left_ctn"></div>
+
+					<div id="responsive_apppage_details_right_ctn"></div>
+					<div style="clear: both;"></div>
+					
+					<!-- testing a banner on Desktop to open the current page in the desktop Steam client.  When that banner is displayed this section should be hidden. -->
+																		
+
+
+
+
+
+					
+					
+					
+
+												<div class="responsive_block_header responsive_apppage_details_left">Features</div>
+							<div class="block responsive_apppage_details_left" id="category_block">
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="game_area_features_list_ctn">
+									<a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=38&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_coop.png" alt=""></div><div class="label">Online Co-op</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=62&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_familysharing.png" alt=""></div><div class="label">Family Sharing</div></a>										<div class="game_area_details_specs_ctn learning_about">
+											<div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_learning_about_game.png"></div>
+											<div class="label">Steam is learning about this game&nbsp;
+											<span class="tooltip" data-tooltip-html="This game is not currently eligible to appear in certain showcases on your Steam Profile, and does not contribute to global Achievement or game collector counts.">
+												<img src="https://store.fastly.steamstatic.com/public/shared/images/ico/icon_questionmark.png" alt="">
+											</span></div>
+
+										</div>
+										
+<div  data-featuretarget="store-sidebar-accessibility-info" data-props="{&quot;bAccessibilityResizableUI&quot;:true,&quot;bAccessibilitySubtitles&quot;:false,&quot;bAccessibilityColorAlternatives&quot;:false,&quot;bAccessibilityCameraComfort&quot;:false,&quot;bAccessibilityBackgroundVolumeControls&quot;:true,&quot;bAccessibilityStereoSound&quot;:true,&quot;bAccessibilitySurroundSound&quot;:true,&quot;bAccessibilityNarratedMenus&quot;:false,&quot;bAccessibilityChatSpeechtoText&quot;:false,&quot;bAccessibilityChatTexttoSpeech&quot;:false,&quot;bAccessibilityPlayableWithoutQuicktimeEvents&quot;:false,&quot;bAccessibilityKeyboardOnlyOption&quot;:false,&quot;bAccessibilityMouseOnlyOption&quot;:false,&quot;bAccessibilityTouchOnlyOption&quot;:false,&quot;bAccessibilityDifficultyLevels&quot;:false,&quot;bAccessibilitySaveAnytime&quot;:false,&quot;bAccessibilityPlayableAtYourOwnPace&quot;:false,&quot;bAccessibilityPlayableWithoutVision&quot;:false,&quot;bAccessibilityContrastControls&quot;:false}"></div>								</div>
+								
+								<div data-featuretarget="store-sidebar-controller-support-info" data-props="{&quot;unAppID&quot;:5117520,&quot;bFullXboxControllerSupport&quot;:false,&quot;bPartialXboxControllerSupport&quot;:true,&quot;bPS4ControllerSupport&quot;:false,&quot;bPS4ControllerBTSupport&quot;:false,&quot;bPS5ControllerSupport&quot;:false,&quot;bPS5ControllerBTSupport&quot;:false,&quot;bSteamInputAPISupport&quot;:false,&quot;bNoKeyboardSupport&quot;:false,&quot;bGamepadPreferred&quot;:false,&quot;bControllerSupportWizardComplete&quot;:true,&quot;bHasXbox&quot;:null,&quot;bHasPS4&quot;:null,&quot;bHasPS5&quot;:null,&quot;bHasOther&quot;:false}"></div>
+								
+								
+								
+								
+								
+								
+															</div>
+																			<div class="block responsive_apppage_details_right">
+								<div class="block_title" id="LanguagesHeader">
+									Languages<span class="responsive_hidden">:</span>
+								</div>
+
+								
+<div id="bannerLanguages" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="ToggleBannerContentVisibility('#languageTable', '#expandLanguageBtn')">
+	<div class="responsive_banner_link_title">
+		English and 15 more	</div>
+	<div id="expandLanguageBtn" class="expand_section"></div>
+</div>
+<div id="languageTable">
+
+<table  class="game_language_options" cellpadding="0" cellspacing="0">
+	<tr>
+		<th style="width: 94px;"></th>
+				<th class="checkcol">Interface</th>
+		<th class="checkcol">Full Audio</th>
+		<th class="checkcol">Subtitles</th>
+	</tr>
+
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				English			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				French			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Italian			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				German			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Spanish - Spain			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Simplified Chinese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Portuguese - Brazil			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Dutch			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Japanese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Korean			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Polish			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Russian			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Turkish			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Vietnamese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Czech			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Traditional Chinese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+	</table>
+	<script type="text/javascript">
+		function ShowAllLanguages( elLink )
+		{
+			if ( typeof GetUsabilityTracker !== 'undefined' )
+				GetUsabilityTracker().AddEvent( 1002 );
+
+			$J('table.game_language_options tr').show();
+			$J( elLink ).hide();
+			return false;
+		}
+	</script>
+	<a class="all_languages" onclick="return ShowAllLanguages( this )">See all 16 supported languages</a>
+
+
+</div>
+
+							</div>
+																		<div data-featuretarget="deck-verified-results"></div>
+					
+					<div class="responsive_apppage_details_right" data-featuretarget="game-rating-block" data-props="{&quot;bRatingAllowed&quot;:true,&quot;bHideRatingTitle&quot;:false}"></div>
+					
+					
+											<div id="appDetailsUnderlinedLinks" class="block responsive_apppage_details_left game_details underlined_links">
+							<div class="block_content">
+								<div class="block_content_inner">
+									<div id="genresAndManufacturer" class="details_block">
+
+			<b>Title:</b> Dude, Trust Me<br>
+	
+				<b>Genre:</b> <span data-panel="{&quot;flow-children&quot;:&quot;row&quot;}"><a href="https://store.steampowered.com/genre/Casual/?snr=1_5_9__408">Casual</a>, <a href="https://store.steampowered.com/genre/Indie/?snr=1_5_9__408">Indie</a></span><br>
+			
+			<div class="dev_row">
+			<b>Developer:</b>
+
+				<a href="https://store.steampowered.com/search/?developer=Sefik%20Studios&snr=1_5_9__408">Sefik Studios</a>
+		</div>
+	
+			<div class="dev_row">
+			<b>Publisher:</b>
+
+				<a href="https://store.steampowered.com/search/?publisher=Sefik%20Studios&snr=1_5_9__422">Sefik Studios</a>
+		</div>
+	
+			
+	            <b>Release Date:</b> Nov 30, 2026<br>
+        
+            	</div>
+
+
+<div class="details_block" style="padding-top: 14px;">
+
+				<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdudetrustmegame.com%2F" target="_blank" rel="noreferrer  noopener" >
+			Visit the website <img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+		</a>
+	
+					<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.gg%2FGQfrEc5MRm" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://discord.gg/GQfrEc5MRm">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M823,229.3c-58.9-27-121-46.1-184.9-56.9-8.7,15.6-16.6,31.7-23.7,48.1-68-10.2-137.1-10.2-205.1,0-7-16.4-14.9-32.5-23.7-48.1-63.9,10.9-126.1,30.1-185,57-117,173.1-148.7,341.9-132.8,508.3h0c68.5,50.6,145.2,89.1,226.7,113.8,18.4-24.7,34.6-50.9,48.6-78.3-26.5-9.9-52.1-22.1-76.5-36.5,6.4-4.7,12.7-9.4,18.7-14.1,143.6,67.5,309.7,67.5,453.3,0,6.1,5,12.4,9.8,18.7,14.1-24.4,14.4-50,26.7-76.6,36.6,13.9,27.4,30.2,53.6,48.6,78.2,81.6-24.6,158.3-63.1,226.9-113.7h0c18.6-193-31.8-360.2-133.2-508.5h0ZM363.2,635.4c-44.2,0-80.7-40.1-80.7-89.4s35.2-89.8,80.6-89.8,81.5,40.5,80.8,89.8c-.8,49.3-35.6,89.4-80.6,89.4h-.1ZM660.8,635.4c-44.3,0-80.6-40.1-80.6-89.4s35.2-89.8,80.6-89.8,81.3,40.5,80.6,89.8c-.8,49.3-35.5,89.4-80.6,89.4Z"/>
+			</svg>
+							<span class="social_account">Discord</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fx.com%2Fsefikstudios" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://x.com/sefikstudios">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M595.2,443.5L920.9,65h-77.2l-282.8,328.7L335.1,65H74.6l341.5,497L74.6,959h77.2l298.6-347.1,238.5,347.1h260.5l-354.2-515.5h0ZM489.5,566.4l-34.6-49.5L179.6,123.1h118.5l222.2,317.8,34.6,49.5,288.8,413.1h-118.5l-235.7-337.1h0Z"/>
+			</svg>
+							<span class="social_account">X</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://www.youtube.com/@DudeTrustMeGame" target="_blank" rel="" class="ttip" data-tooltip-text="https://www.youtube.com/@DudeTrustMeGame">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M941.3,294.9c-10.3-38.8-40.7-69.4-79.2-79.7-69.9-18.8-350.1-18.8-350.1-18.8,0,0-280.2,0-350.1,18.8-38.6,10.4-68.9,40.9-79.2,79.7-18.7,70.3-18.7,217.1-18.7,217.1,0,0,0,146.7,18.7,217.1,10.3,38.8,40.7,69.4,79.2,79.7,69.9,18.8,350.1,18.8,350.1,18.8,0,0,280.2,0,350.1-18.8,38.6-10.4,68.9-40.9,79.2-79.7,18.7-70.3,18.7-217.1,18.7-217.1,0,0,0-146.7-18.7-217.1ZM420.4,645.2v-266.4l234.2,133.2-234.2,133.2Z"/>
+			</svg>
+							<span class="social_account">YouTube</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+						
+	
+	
+	
+	
+	
+			<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdudetrustmegame.com%2Fprivacy" target="_blank" rel="noreferrer  noopener" >
+			View privacy policy <img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+		</a>
+	
+	
+			<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/?appids=5117520&amp;snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			View update history		</a>
+		<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/app/5117520?snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			Read related news		</a>
+	
+				<a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/5117520/discussions/" target="_blank" rel="noreferrer" >
+			View discussions		</a>
+	
+    
+	        <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/actions/Search?T=ClanAccount&K=Dude%2C%20Trust%20Me">
+            Find Community Groups        </a>
+    </div>
+								</div>
+							</div>
+													</div>
+					
+																		<div id="shareEmbedRow" class="block responsive_apppage_details_left" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+								<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowEmbedWidget(5117520); return false;"><span>Embed</span></a>
+								<a id="ReportAppBtn" class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5117520)"><span data-tooltip-text="Report this Product" aria-label="Report this Product"><i class="ico16 reportv6"></i>&nbsp;</span></a>
+							</div>
+						
+						<div id="reportBtn" style="display:none;"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5117520)"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_report.svg" alt="Report this Product"></span></a></div>
+					
+					
+															
+											<div id="appLinksAndInfoCtn" style="display:none;">
+							<div class="responsive_block_header">Links &amp; info</div>
+							<div id="appLinksAndInfo" class="game_page_autocollapse" style="max-height: 180px;"></div>
+						</div>
+					
+				</div>
+				<!-- End Right Column -->
+
+
+				<div class="leftcol game_description_column"  data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+
+					
+										
+					
+					<div id="game_area_purchase" class="game_area_purchase">
+																			
+																						
+
+							
+																																									<!--[if lte IE 7]>
+<style type="text/css">
+.game_area_purchase_game_dropdown_right_panel .btn_addtocart { float: none; }
+</style>
+<![endif]-->
+
+
+		<div class="game_area_purchase_game demo_above_purchase">
+			<div class="game_area_purchase_platform"><span class="platform_img win"></span><span class="platform_img mac"></span></div>
+			<h1>
+				Download Dude, Trust Me Demo			</h1>
+							<div id="demoLearnMoreLink">
+					<span><a href="https://store.steampowered.com/app/5117640/Dude_Trust_Me_Demo/?snr=1_5_9_">Learn more</a> about this demo</span>
+				</div>
+						<div class="game_purchase_action">
+				<div class="game_purchase_action_bg">
+										<div id="demoGameBtn" class="btn_addtocart">
+						<a class="btn_green_steamui btn_medium" href="javascript:ShowGotSteamModal( 'steam://install/5117640', &quot;Dude, Trust Me Demo&quot;, &quot;Download&quot; )">
+							<span>Download</span>
+						</a>
+					</div>
+									</div>
+			</div>
+		</div>
+	<div class="game_area_comingsoon game_area_bubble">
+	<div class="content">
+																<span class="not_yet">This game is not yet available on Steam</span>
+									<h1>
+																Planned Release Date:
+										<span>Nov 30, 2026</span></h1>
+			
+							<p>This game plans to unlock in approximately 4 weeks </p>
+			
+							</div>
+
+			<div id="add_to_wishlist_area2" class="wishlist_add_reminder">
+
+
+							<div class="wishlist_note">Interested?<br>Add to your wishlist and get notified when it becomes available.</div>
+
+									<div  data-featuretarget="add-to-wishlist" data-props="{&quot;appid&quot;:5117520}"></div>									</div>
+	</div>
+
+
+												
+					</div>
+					<!-- game_area_purchase -->
+
+					
+											<div id="bannerCommunity" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="window.location='https://steamcommunity.com/app/5117520'">
+							<div class="responsive_banner_link_title responsive_chevron_right">View Community Hub</div>
+						</div>
+					
+					<div class="purchase_area_spacer">&nbsp;</div>
+
+					
+					
+					
+																								<script type="text/javascript">
+							var StoreDefaults = {"PartnerEventStore":[{"gid":"686394429475397169","clan_steamid":"103582791475795589","event_name":"\ud83c\udf89Thank you! Dude, Trust Me finished #42 in Steam Next Fest's Top Demos\u2764\ufe0f","event_type":28,"appid":5117520,"server_address":null,"server_password":null,"rtime32_start_time":1793133060,"rtime32_end_time":1793136360,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[\"We're 150,000 dudes strong. Here's what you did, and what comes next.\",\"Jetzt sind wir schon 150.000 Leute. Das habt ihr geschafft, und so geht es weiter.\",\"Nous sommes d\u00e9sormais 150 000 potes. Voici ce que vous avez accompli, et la suite.\",\"Ora siamo 150.000 ragazzi. Ecco cosa avete fatto e cosa ci aspetta.\",\"\ubc8c\uc368 15\ub9cc \uba85\uc758 \uce5c\uad6c\ub4e4\uc774 \ubaa8\uc600\uc2b5\ub2c8\ub2e4. \uc5ec\ub7ec\ubd84\uc774 \ud574\ub0b8 \uc77c\uacfc \uc55e\uc73c\ub85c\uc758 \uacc4\ud68d\uc744 \uc804\ud574\ub4dc\ub824\uc694.\",\"Ya somos 150.000 colegas. Esto es lo que hab\u00e9is conseguido y lo que viene ahora.\",\"\u5144\u5f1f\u4eec\u5df2\u7ecf\u6709 15 \u4e07\u4eba\u4e86\uff01\u770b\u770b\u4f60\u4eec\u505a\u5230\u4e86\u4ec0\u4e48\uff0c\u4ee5\u53ca\u63a5\u4e0b\u6765\u7684\u8ba1\u5212\u3002\",\"\u5144\u5f1f\u5011\u5df2\u7d93\u6709 15 \u842c\u4eba\u4e86\uff01\u4f86\u770b\u770b\u4f60\u5011\u7684\u6210\u7e3e\uff0c\u9084\u6709\u63a5\u4e0b\u4f86\u7684\u8a08\u756b\u3002\",\"\u041d\u0430\u0441 \u0443\u0436\u0435 150 000 \u0447\u0443\u0432\u0430\u043a\u043e\u0432. \u0412\u043e\u0442 \u0447\u0442\u043e \u0432\u044b \u0441\u0434\u0435\u043b\u0430\u043b\u0438 \u0438 \u0447\u0442\u043e \u0431\u0443\u0434\u0435\u0442 \u0434\u0430\u043b\u044c\u0448\u0435.\",null,\"15\u4e07\u4eba\u306e\u4ef2\u9593\u304c\u96c6\u307e\u308a\u307e\u3057\u305f\u3002\u307f\u3093\u306a\u306e\u6210\u679c\u3068\u3001\u3053\u308c\u304b\u3089\u306e\u3053\u3068\u3002\",null,\"Jest nas ju\u017c 150 000 ziomk\u00f3w. Oto, czego dokonali\u015bcie, i co dalej.\",null,\"We zijn nu met 150.000 gasten. Dit hebben jullie gedaan, en dit komt er nog.\",null,null,null,null,\"U\u017e je n\u00e1s 150 000 k\u00e1mo\u0161\u016f. Tohle jste dok\u00e1zali a tohle n\u00e1s \u010dek\u00e1.\",null,\"Art\u0131k 150.000 kankay\u0131z. Neler ba\u015fard\u0131\u011f\u0131m\u0131za ve s\u0131rada ne oldu\u011funa bir bak.\",\"Agora somos 150.000 par\u00e7as. Veja o que voc\u00eas fizeram e o que vem por a\u00ed.\",null,null,null,null,\"Ya somos 150,000 amigos. Esto es lo que lograron y lo que viene.\",\"Gi\u1edd \u0111\u00e3 c\u00f3 150.000 anh em r\u1ed3i. \u0110\u00e2y l\u00e0 nh\u1eefng g\u00ec m\u1ecdi ng\u01b0\u1eddi \u0111\u00e3 l\u00e0m v\u00e0 \u0111i\u1ec1u s\u1eafp t\u1edbi.\",null,null,null],\"localized_summary\":[\"#42 in Steam Next Fest's Top Demos and 150,000 dudes. Thank you for playing, dudes! \u2764\ufe0f\",\"Platz 42 der Top-Demos beim Steam Next Fest und schon 150.000 Leute. Danke f\u00fcrs Spielen! \u2764\ufe0f\",\"42e des meilleures d\u00e9mos du Steam Next Fest et 150 000 potes. Merci d'avoir jou\u00e9, les potes ! \u2764\ufe0f\",\"42\u00b0 tra le migliori demo dello Steam Next Fest e 150.000 ragazzi. Grazie per aver giocato! \u2764\ufe0f\",\"Steam Next Fest \uc778\uae30 \uccb4\ud5d8\ud310 42\uc704, \uadf8\ub9ac\uace0 15\ub9cc \uba85\uc758 \uce5c\uad6c\ub4e4! \ud50c\ub808\uc774\ud574 \uc8fc\uc154\uc11c \uace0\ub9c8\uc6cc\uc694! \u2764\ufe0f\",\"Puesto 42 entre las mejores demos del Steam Next Fest y ya somos 150.000 colegas. \u00a1Gracias por jugar! \u2764\ufe0f\",\"Steam \u65b0\u54c1\u8282\u70ed\u95e8\u8bd5\u73a9\u7b2c 42 \u540d\uff0c\u8fd8\u6709 15 \u4e07\u5144\u5f1f\uff01\u8c22\u8c22\u5927\u5bb6\u6765\u73a9\uff01\u2764\ufe0f\",\"Steam \u65b0\u54c1\u7bc0\u71b1\u9580\u8a66\u73a9\u7b2c 42 \u540d\uff0c\u9084\u6709 15 \u842c\u5144\u5f1f\uff01\u8b1d\u8b1d\u5927\u5bb6\u4f86\u73a9\uff01\u2764\ufe0f\",\"42-\u0435 \u043c\u0435\u0441\u0442\u043e \u0441\u0440\u0435\u0434\u0438 \u043b\u0443\u0447\u0448\u0438\u0445 \u0434\u0435\u043c\u043e\u0432\u0435\u0440\u0441\u0438\u0439 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044f \u00ab\u0418\u0433\u0440\u0430\u043c \u0431\u044b\u0442\u044c\u00bb \u0438 150 000 \u0447\u0443\u0432\u0430\u043a\u043e\u0432. \u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0447\u0442\u043e \u0438\u0433\u0440\u0430\u0435\u0442\u0435! \u2764\ufe0f\",null,\"Steam Next\u30d5\u30a7\u30b9\u306e\u4eba\u6c17\u4f53\u9a13\u7248\u306742\u4f4d\u3001\u305d\u3057\u306615\u4e07\u4eba\u306e\u4ef2\u9593\uff01\u904a\u3093\u3067\u304f\u308c\u3066\u672c\u5f53\u306b\u3042\u308a\u304c\u3068\u3046\uff01\u2764\ufe0f\",null,\"42. miejsce w\u015br\u00f3d najlepszych dem Steam Next Fest i 150 000 ziomk\u00f3w. Dzi\u0119ki za gr\u0119! \u2764\ufe0f\",null,\"Plek 42 in de topdemo's van Steam Next Fest en 150.000 gasten. Bedankt voor het spelen! \u2764\ufe0f\",null,null,null,null,\"42. m\u00edsto mezi nejlep\u0161\u00edmi demy Steam Next Festu a 150 000 k\u00e1mo\u0161\u016f. D\u00edky, \u017ee hrajete! \u2764\ufe0f\",null,\"Steam Next Fest'te en iyi demolar aras\u0131nda 42. olduk ve 150.000 kankaya ula\u015ft\u0131k. Oynad\u0131\u011f\u0131n\u0131z i\u00e7in te\u015fekk\u00fcrler! \u2764\ufe0f\",\"42\u00ba entre as melhores demos do Steam Next Fest e 150.000 par\u00e7as. Valeu por jogar, galera! \u2764\ufe0f\",null,null,null,null,\"Puesto 42 entre las mejores demos del Steam Next Fest y ya somos 150,000 amigos. \u00a1Gracias por jugar! \u2764\ufe0f\",\"H\u1ea1ng 42 trong top demo Steam Next Fest v\u00e0 150.000 anh em. C\u1ea3m \u01a1n m\u1ecdi ng\u01b0\u1eddi \u0111\u00e3 ch\u01a1i! \u2764\ufe0f\",null,null,null],\"localized_title_image\":[\"61ab6112071419db39fd4bccce2c3c2ad811fa28.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"eacf2b456ef95dee97005b0f25bae585679b3da0.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}","announcement_body":{"gid":"686394429475397170","clanid":"46274181","posterid":"0","headline":"\ud83c\udf89Thank you! Dude, Trust Me finished #42 in Steam Next Fest's Top Demos\u2764\ufe0f","posttime":1793133110,"updatetime":1793133110,"body":"[p]Steam Next Fest is over, and we are still a little stunned: Dude, Trust Me finished #42 among the festival's top demos, and somewhere along the way we became 150,000 dudes strong. \ud83c\udf89[\/p]\n\n[h3]We read everything[\/h3]\n[p]Reviews, Discord messages, bug reports, clips and streams: we went through them all week and we're still going. A lot of it is already on our list for the full game.[\/p]\n\n[h3]What's next[\/h3]\n[p]We're heading back into development to build more puzzles and more ways to misunderstand each other. If you had fun, please add Dude, Trust Me to your wishlist. It's the biggest help you can give a small team, and Steam will tell you the moment we launch.[\/p]\n\n[p]Dude, trust us. This is just the beginning. \ud83e\udde1[\/p]","commentcount":1,"tags":["mod_reviewed","ModAct_1447510170_1793133434_0"],"language":0,"hidden":0,"forum_topic_id":"562546024123516293","event_gid":"686394429475397169","voteupcount":8,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"562546024123516293","rtime32_last_modified":1793217711,"news_post_gid":"0","rtime_mod_reviewed":1793133435,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1793128092,"votes_up":8,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"590691034935122373","gidfeature2":"562546024123516293"},{"gid":"678512495722235245","clan_steamid":"103582791475795589","event_name":"\ud83c\udf89100,000+ Dudes & 15,000+ Wishlists in Less Than a Month!\u2764\ufe0f","event_type":28,"appid":5117520,"server_address":null,"server_password":null,"rtime32_start_time":1792420680,"rtime32_end_time":1792421880,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[\"100,000+ dudes joined the adventure in less than a month! Thank you for the incredible support!\u2764\ufe0f\",\"\u00dcber 100.000 Leute sind in weniger als einem Monat ins Abenteuer gestartet! Danke f\u00fcr eure riesige Unterst\u00fctzung!\u2764\ufe0f\",\"Plus de 100 000 potes ont rejoint l'aventure en moins d'un mois ! Merci pour votre soutien incroyable !\u2764\ufe0f\",\"Oltre 100.000 ragazzi si sono uniti all'avventura in meno di un mese! Grazie per l'incredibile supporto!\u2764\ufe0f\",\"\ud55c \ub2ec\ub3c4 \uc548 \ub3fc\uc11c 10\ub9cc \uba85\uc774 \ub118\ub294 \uce5c\uad6c\ub4e4\uc774 \ubaa8\ud5d8\uc5d0 \ud568\uaed8\ud574 \uc8fc\uc168\uc2b5\ub2c8\ub2e4! \uc5c4\uccad\ub09c \uc751\uc6d0 \uc815\ub9d0 \uac10\uc0ac\ud569\ub2c8\ub2e4!\u2764\ufe0f\",\"\u00a1M\u00e1s de 100.000 colegas se han unido a la aventura en menos de un mes! \u00a1Gracias por vuestro incre\u00edble apoyo!\u2764\ufe0f\",\"\u4e0d\u5230\u4e00\u4e2a\u6708\uff0c\u5df2\u6709\u8d85\u8fc7 10 \u4e07\u4f4d\u5144\u5f1f\u52a0\u5165\u5192\u9669\uff01\u611f\u8c22\u5927\u5bb6\u7684\u8d85\u5f3a\u652f\u6301\uff01\u2764\ufe0f\",\"\u4e0d\u5230\u4e00\u500b\u6708\uff0c\u5c31\u6709\u8d85\u904e 10 \u842c\u500b\u5144\u5f1f\u52a0\u5165\u5192\u96aa\uff01\u8b1d\u8b1d\u5927\u5bb6\u8d85\u5f37\u7684\u652f\u6301\uff01\u2764\ufe0f\",\"\u0411\u043e\u043b\u044c\u0448\u0435 100 000 \u0447\u0443\u0432\u0430\u043a\u043e\u0432 \u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u0438\u043b\u0438\u0441\u044c \u043a \u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044e \u043c\u0435\u043d\u044c\u0448\u0435 \u0447\u0435\u043c \u0437\u0430 \u043c\u0435\u0441\u044f\u0446! \u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u0443\u044e \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0443!\u2764\ufe0f\",null,\"1\u304b\u6708\u8db3\u3089\u305a\u306710\u4e07\u4eba\u4ee5\u4e0a\u306e\u4ef2\u9593\u304c\u5192\u967a\u306b\u53c2\u52a0\u3057\u3066\u304f\u308c\u307e\u3057\u305f\uff01\u305f\u304f\u3055\u3093\u306e\u5fdc\u63f4\u3001\u672c\u5f53\u306b\u3042\u308a\u304c\u3068\u3046\uff01\u2764\ufe0f\",null,\"Ponad 100 000 ziomk\u00f3w do\u0142\u0105czy\u0142o do przygody w nieca\u0142y miesi\u0105c! Dzi\u0119ki za niesamowite wsparcie!\u2764\ufe0f\",null,\"Meer dan 100.000 gasten begonnen in minder dan een maand aan het avontuur! Bedankt voor jullie geweldige steun!\u2764\ufe0f\",null,null,null,null,\"Za necel\u00fd m\u011bs\u00edc se do dobrodru\u017estv\u00ed pustilo p\u0159es 100 000 k\u00e1mo\u0161\u016f! D\u00edky za neuv\u011b\u0159itelnou podporu!\u2764\ufe0f\",null,\"Bir aydan k\u0131sa s\u00fcrede 100.000+ kanka maceraya kat\u0131ld\u0131! \u0130nan\u0131lmaz deste\u011finiz i\u00e7in te\u015fekk\u00fcrler!\u2764\ufe0f\",\"Mais de 100.000 par\u00e7as entraram na aventura em menos de um m\u00eas! Valeu demais pelo apoio incr\u00edvel!\u2764\ufe0f\",null,null,null,null,null,\"H\u01a1n 100.000 anh em \u0111\u00e3 tham gia cu\u1ed9c phi\u00eau l\u01b0u trong ch\u01b0a \u0111\u1ea7y m\u1ed9t th\u00e1ng! C\u1ea3m \u01a1n m\u1ecdi ng\u01b0\u1eddi \u0111\u00e3 \u1ee7ng h\u1ed9 h\u1ebft m\u00ecnh!\u2764\ufe0f\",null,null,null],\"localized_summary\":[\"100,000+ players and 15,000+ wishlists in less than a month! We never expected to grow this fast. Thank you, dudes!\u2764\ufe0f\",\"100.000+ Spieler und 15.000+ Wunschlisten in weniger als einem Monat! Mit so einem Wachstum h\u00e4tten wir nie gerechnet. Danke, Leute!\u2764\ufe0f\",\"100 000+ joueurs et 15 000+ listes de souhaits en moins d'un mois ! On ne s'attendait pas \u00e0 grandir aussi vite. Merci, les potes !\u2764\ufe0f\",\"100.000+ giocatori e 15.000+ liste dei desideri in meno di un mese! Non ci aspettavamo di crescere cos\u00ec in fretta. Grazie, ragazzi!\u2764\ufe0f\",\"\ud55c \ub2ec\ub3c4 \uc548 \ub3fc\uc11c \ud50c\ub808\uc774\uc5b4 10\ub9cc \uba85, \uc704\uc2dc\ub9ac\uc2a4\ud2b8 1.5\ub9cc \ub3cc\ud30c! \uc774\ub807\uac8c \ube68\ub9ac \ucee4\uc9c8 \uc904\uc740 \uc815\ub9d0 \ubab0\ub790\uc5b4\uc694. \ub2e4\ub4e4 \uace0\ub9c8\uc6cc\uc694!\u2764\ufe0f\",\"\u00a1100.000+ jugadores y 15.000+ listas de deseados en menos de un mes! Nunca esperamos crecer tan r\u00e1pido. \u00a1Gracias, colegas!\u2764\ufe0f\",\"\u4e0d\u5230\u4e00\u4e2a\u6708\uff0c\u73a9\u5bb6\u7a81\u7834 10 \u4e07\uff0c\u613f\u671b\u5355\u7a81\u7834 1.5 \u4e07\uff01\u6211\u4eec\u5b8c\u5168\u6ca1\u60f3\u5230\u4f1a\u6da8\u5f97\u8fd9\u4e48\u5feb\u3002\u8c22\u8c22\u4f60\u4eec\uff0c\u5144\u5f1f\u4eec\uff01\u2764\ufe0f\",\"\u4e0d\u5230\u4e00\u500b\u6708\uff0c\u73a9\u5bb6\u7a81\u7834 10 \u842c\u3001\u9858\u671b\u6e05\u55ae\u7a81\u7834 1.5 \u842c\uff01\u6211\u5011\u5b8c\u5168\u6c92\u60f3\u5230\u6703\u6210\u9577\u5f97\u9019\u9ebc\u5feb\u3002\u8b1d\u5566\uff0c\u5144\u5f1f\u5011\uff01\u2764\ufe0f\",\"100 000+ \u0438\u0433\u0440\u043e\u043a\u043e\u0432 \u0438 15 000+ \u0432\u0438\u0448\u043b\u0438\u0441\u0442\u043e\u0432 \u043c\u0435\u043d\u044c\u0448\u0435 \u0447\u0435\u043c \u0437\u0430 \u043c\u0435\u0441\u044f\u0446! \u041c\u044b \u0438 \u043f\u043e\u0434\u0443\u043c\u0430\u0442\u044c \u043d\u0435 \u043c\u043e\u0433\u043b\u0438, \u0447\u0442\u043e \u0431\u0443\u0434\u0435\u043c \u0440\u0430\u0441\u0442\u0438 \u0442\u0430\u043a \u0431\u044b\u0441\u0442\u0440\u043e. \u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0447\u0443\u0432\u0430\u043a\u0438!\u2764\ufe0f\",null,\"1\u304b\u6708\u8db3\u3089\u305a\u3067\u30d7\u30ec\u30a4\u30e4\u30fc10\u4e07\u4eba\u3001\u30a6\u30a3\u30c3\u30b7\u30e5\u30ea\u30b9\u30c81.5\u4e07\u4ef6\u3092\u7a81\u7834\uff01\u3053\u3093\u306a\u306b\u65e9\u304f\u5e83\u304c\u308b\u306a\u3093\u3066\u601d\u3063\u3066\u3082\u307f\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u307f\u3093\u306a\u3001\u3042\u308a\u304c\u3068\u3046\uff01\u2764\ufe0f\",null,\"100 000+ graczy i 15 000+ list \u017cycze\u0144 w nieca\u0142y miesi\u0105c! Nigdy nie spodziewali\u015bmy si\u0119, \u017ce uro\u015bniemy tak szybko. Dzi\u0119ki, ziomki!\u2764\ufe0f\",null,\"100.000+ spelers en 15.000+ verlanglijstjes in minder dan een maand! We hadden nooit verwacht zo snel te groeien. Bedankt, gasten!\u2764\ufe0f\",null,null,null,null,\"100 000+ hr\u00e1\u010d\u016f a 15 000+ seznam\u016f p\u0159\u00e1n\u00ed za necel\u00fd m\u011bs\u00edc! Nikdy jsme ne\u010dekali, \u017ee porosteme tak rychle. D\u00edky, k\u00e1mo\u0161i!\u2764\ufe0f\",null,\"Bir aydan k\u0131sa s\u00fcrede 100.000+ oyuncu ve 15.000+ istek listesi! Bu kadar h\u0131zl\u0131 b\u00fcy\u00fcyece\u011fimizi hi\u00e7 beklemiyorduk. Sa\u011f olun kankalar!\u2764\ufe0f\",\"100.000+ jogadores e 15.000+ listas de desejos em menos de um m\u00eas! A gente nunca esperou crescer t\u00e3o r\u00e1pido. Valeu, galera!\u2764\ufe0f\",null,null,null,null,null,\"100.000+ ng\u01b0\u1eddi ch\u01a1i v\u00e0 15.000+ wishlist trong ch\u01b0a \u0111\u1ea7y m\u1ed9t th\u00e1ng! T\u1ee5i m\u00ecnh ch\u01b0a bao gi\u1edd ngh\u0129 s\u1ebd ph\u00e1t tri\u1ec3n nhanh \u0111\u1ebfn v\u1eady. C\u1ea3m \u01a1n anh em!\u2764\ufe0f\",null,null,null],\"localized_title_image\":[\"77746d192d4a17a8e8aeab68b98668e05dc1b9a3.png\",null,null,null,\"e70c55629668e715c2b58f2fca4913f831a5b19f.png\",null,\"e1f5e9f2ae044a8bc362e52cf93f915f2b0032f7.png\",\"98dc6cb2fb9e590d576823a0efdd1748b14a129e.png\",\"5bae6a090a65de09c524b6d500bf36bf416cb78b.png\",null,\"6bf4e46b0b2ea5d53d0093298b82f83bd981201a.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"faef68e46c2c7356600759c29e4fee789d4f616a.png\",null,null,null,\"d51e667f3cdcc70b691e5e302504b33ec206d658.png\",null,\"4b2fb10cb814a08aa67306817d8f21e6d4a04601.png\",\"597199d44c18303d33e3de1ccd37a7b57863ffe3.png\",\"5a3a4403e5a0873e5101cc27884ba484ca723b1a.png\",null,\"b60e540de034210e290e29830e7ad7d391c6cb5e.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}","announcement_body":{"gid":"678512495722235246","clanid":"46274181","posterid":"0","headline":"\ud83c\udf89100,000+ Dudes & 15,000+ Wishlists in Less Than a Month!\u2764\ufe0f","posttime":1792420700,"updatetime":1792421408,"body":"[b]100,000+ players. 15,000+ wishlists. WHAT?! \ud83e\udd2f\u2764\ufe0f[\/b]\n\nWe never imagined so many dudes would be dancing, punching each other, and struggling through our puzzles! \ud83d\ude02\ud83e\udd4a\n\nReaching these numbers in less than a month makes us incredibly happy! Seeing how fast our little game is growing, along with all your videos, streams, and reactions, means the world to us. \u2764\ufe0f\n\nWe're working hard to bring you even more chaos in the full game! \ud83d\udd25\n\n[b]Thank you for trusting us, dudes! \u2764\ufe0f[\/b]\n\nDude, trust me. We're just getting started!\n\nSee you at Next Fest!","commentcount":0,"tags":["mod_reviewed","ModAct_1889321037_1792428899_0"],"language":0,"hidden":0,"forum_topic_id":"570426530135649962","event_gid":"678512495722235245","voteupcount":5,"votedowncount":1,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":1792420680,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"570426530135649962","rtime32_last_modified":1792980835,"news_post_gid":"0","rtime_mod_reviewed":1792428900,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1792418235,"votes_up":5,"votes_down":1,"comment_type":"ForumTopic","gidfeature":"590691034935122373","gidfeature2":"570426530135649962"},{"gid":"678512495722234738","clan_steamid":"103582791475795589","event_name":"\ud83c\udf83 Dude, Trust Me is in costume for Halloween \ud83e\udd87","event_type":14,"appid":5117520,"server_address":null,"server_password":null,"rtime32_start_time":1792187040,"rtime32_end_time":1792191601,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[\"Three costumes, four dressed-up maps and a pumpkin hat for Sefik\",null,null,null,\"\uc758\uc0c1 \uc138 \uac00\uc9c0, \uc0c8\ub85c \uafb8\ubbfc \ub9f5 \ub124 \uac1c, \uadf8\ub9ac\uace0 Sefik\uc758 \ud638\ubc15 \ubaa8\uc790\",null,\"\u4e09\u5957\u670d\u88c5\u3001\u56db\u5f20\u88c5\u626e\u4e00\u65b0\u7684\u5730\u56fe\uff0c\u8fd8\u6709 Sefik \u7684\u5357\u74dc\u5e3d\",\"\u4e09\u5957\u8b8a\u88dd\u3001\u56db\u5f35\u63db\u4e0a\u7bc0\u6176\u88dd\u98fe\u7684\u5730\u5716\uff0c\u9084\u6709 Sefik \u7684\u5357\u74dc\u5e3d\",\"\u0422\u0440\u0438 \u043a\u043e\u0441\u0442\u044e\u043c\u0430, \u0447\u0435\u0442\u044b\u0440\u0435 \u0443\u043a\u0440\u0430\u0448\u0435\u043d\u043d\u044b\u0435 \u043a\u0430\u0440\u0442\u044b \u0438 \u0448\u043b\u044f\u043f\u0430-\u0442\u044b\u043a\u0432\u0430 \u0434\u043b\u044f \u0428\u0435\u0444\u0438\u043a\u0430\",null,\"3\u3064\u306e\u30b3\u30b9\u30c1\u30e5\u30fc\u30e0\u3001\u98fe\u308a\u3064\u3051\u305f4\u3064\u306e\u30de\u30c3\u30d7\u3001\u305d\u3057\u3066Sefik\u306e\u30ab\u30dc\u30c1\u30e3\u5e3d\u5b50\",null,null,null,null,null,null,null,null,null,null,\"\u00dc\u00e7 kost\u00fcm, s\u00fcslenmi\u015f d\u00f6rt harita ve Sefik'e balkaba\u011f\u0131 \u015fapka\",null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"f10bffad555ed3141190d6276911d41f767838c9.png\",null,null,null,\"eef9d81b78606d553b5c0078ff81a53dec5344dd.png\",null,\"d0c91e5119d1d7cba93bd6057616432328bfb30d.png\",\"0873f99c08b72512039c24a7d6f10c97f49fffc1.png\",\"920facca8ca0857a60b0df61fdbc027b28e99a18.png\",null,\"02e9417252d8fbcc02d059d8bb6657137d442716.png\",null,null,null,null,null,null,null,null,null,null,\"f10bffad555ed3141190d6276911d41f767838c9.png\",null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"344b44747e26c927d76d0f1dc8a8e90b2ac8f9a9.png\",null,null,null,\"c979a338e0f36852aef8660728141e2c5244b3ba.png\",null,\"ddc97a9e3008af87a110abe2efb0360c67597ba6.png\",\"183dc9ff444878506b0043585071112cd4a6962b.png\",\"8979f3ed8d9b23eb2e3131d1e799fce1d82473d8.png\",null,\"bb24f261c46a869048f08eeaa7a3f75fc9dfa32d.png\",null,null,null,null,null,null,null,null,null,null,\"344b44747e26c927d76d0f1dc8a8e90b2ac8f9a9.png\",null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"library_spotlight\":true}","announcement_body":{"gid":"678512495722234739","clanid":"46274181","posterid":"0","headline":"\ud83c\udf83 Dude, Trust Me is in costume for Halloween \ud83e\udd87","posttime":1792187094,"updatetime":1792235979,"body":"[p]Halloween is here, just in time for Steam Next Fest. Grab your two friends and see who you're stuck with this time.[\/p]\n[h3]\ud83c\udfad Costumes[\/h3]\n[list]\n[*]The Blind's head is a jack-o'-lantern, and its grin moves when you talk.\n[*]The Deaf wears devil horns over the headphones.\n[*]The Mute found a witch hat.\n[*]Sefik wears a carved pumpkin.\n[\/list]\n[h3]\ud83d\udd78\ufe0f Four maps, dressed up[\/h3]\n[list]\n[*]The Offering Fire: jack-o'-lanterns, a scarecrow and string lights, with bats circling overhead.\n[*]Blind Passage: bunting, a bubbling cauldron, spiders and bats.\n[*]The Sunken Dome: pumpkins, candles and a cauldron among the ruins.\n[*]Carousel Playground: the carousel wears a witch hat.\n[\/list]\n[p]The Blind can see the decorations too. That doesn't stop them walking into the pumpkins.[\/p]\n[h3]\ud83e\udd87 Menus[\/h3]\n[p]A Halloween logo, a lobby full of bats and cobwebs, a pumpkin cursor, and every launch opens on an organ.[\/p]\n[h3]\ud83c\udfae Steam Next Fest[\/h3]\n[p]The demo stays in costume through Steam Next Fest, October 19\u201326. Bring two friends, and if you have fun, add Dude, Trust Me to your wishlist.[\/p]\n[p]Dude, trust me. It's not that scary. \ud83c\udf83[\/p]","commentcount":0,"tags":["mod_reviewed","ModAct_803139239_1792190299_0","ModAct_1434278705_1792236101_4"],"language":0,"hidden":0,"forum_topic_id":"570426339809605661","event_gid":"678512495722234738","voteupcount":4,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"570426339809605661","rtime32_last_modified":1792253002,"news_post_gid":"0","rtime_mod_reviewed":1792236102,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1792185884,"votes_up":4,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"590691034935122373","gidfeature2":"570426339809605661"}],"EventWebRowEmbed":{"bPreLoaded":true,"announcementGIDList":["686394429475397170","678512495722235246"],"last_update_event":{"rtime":1792187040,"event_gid":"678512495722234738","announcement_gid":"678512495722234739","clan_account_id":46274181}}};
+						</script>
+					
+
+					<div data-featuretarget="events-row"></div>
+				
+								
+				
+				
+
+
+								<div id="contentForThisGame_ctn">
+				</div>
+									<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="aboutThisGame" class="game_page_autocollapse" style="max-height: 850px;">
+						<div id="game_area_description" class="game_area_description">
+							<h2>About This Game</h2>
+							<h2 class="bb_tag" >Dude, Trust Me</h2><p class="bb_paragraph" >Three friends walk into a wonderland with 4 levels and 6 puzzles, each level harder than the last, and nobody holds more than a third of any answer. One of you goes blind, one goes deaf, and one loses their voice.</p><p class="bb_paragraph" >So you describe it wrong. You guess. You try to explain a color to someone who cannot see one, and your hands are on something while your friend across the room is reading the very symbol you need.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/8123c637ade8dd96f8c057e7d72ed3c9.poster.avif?t=1792534347" width=1090 height=258 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/8123c637ade8dd96f8c057e7d72ed3c9.webm?t=1792534347" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/8123c637ade8dd96f8c057e7d72ed3c9.mp4?t=1792534347" type="video/mp4"></video></span></p><h2 class="bb_tag" >Pick your role</h2><ul class="bb_ul"><li><p class="bb_paragraph" >BLIND, the Hands. No color; you only see white outlines in the dark. You hear everything and you can speak, so whatever you find has to leave your mouth.</p></li><li><p class="bb_paragraph" >DEAF, the Eyes. Total silence, not a word from your friends. In return, you have your magic goggles; use them to see the room as it really is. You can still talk, so talk.</p></li><li><p class="bb_paragraph" >MUTE, the Brain. You are the only one who can read, and the magic book is yours. You hear everything and say nothing: your only answers are emotes and hand gestures.</p></li></ul><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/0d6dd688186400f39ada0edc1dd979dd.poster.avif?t=1792534347" width=854 height=480 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/0d6dd688186400f39ada0edc1dd979dd.webm?t=1792534347" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/0d6dd688186400f39ada0edc1dd979dd.mp4?t=1792534347" type="video/mp4"></video></span></p><h2 class="bb_tag" >Every room deals the jobs out again</h2><p class="bb_paragraph" >Each map brings its own puzzles, its own unique mechanics in different difficulties, and its own answer to who is allowed to do what.</p><p class="bb_paragraph" ><strong>Blind Passage</strong></p><p class="bb_paragraph" >Can you get your friends through the passage without feeding them to the sharks?</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/2c9aba0b0b6b366b98a63fb801faa655.poster.avif?t=1792534347" width=854 height=480 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/2c9aba0b0b6b366b98a63fb801faa655.webm?t=1792534347" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/2c9aba0b0b6b366b98a63fb801faa655.mp4?t=1792534347" type="video/mp4"></video></span></p><p class="bb_paragraph" ><strong>The Offering Fire</strong></p><p class="bb_paragraph" >Good luck trying to summon Sefik, in the dark forest full of mysteries.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/6d0f5c0c74f065f8377b453e903fdb2c.poster.avif?t=1792534347" width=854 height=480 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/6d0f5c0c74f065f8377b453e903fdb2c.webm?t=1792534347" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/6d0f5c0c74f065f8377b453e903fdb2c.mp4?t=1792534347" type="video/mp4"></video></span></p><p class="bb_paragraph" ><strong>Sunken Dome</strong></p><p class="bb_paragraph" >Try to figure out what lies in the deep lands of Atlantis.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/6eed4cd76285fc81052a33ff17a1ab0c.poster.avif?t=1792534347" width=854 height=480 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/6eed4cd76285fc81052a33ff17a1ab0c.webm?t=1792534347" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/6eed4cd76285fc81052a33ff17a1ab0c.mp4?t=1792534347" type="video/mp4"></video></span></p><p class="bb_paragraph" ><strong>Carousel Playground</strong></p><p class="bb_paragraph" >The carousel hasn’t moved in years.</p><p class="bb_paragraph" >Don’t you wonder why?..</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/1490a4c2ef1388d4e815513f0c2832fe.poster.avif?t=1792534347" width=854 height=480 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/1490a4c2ef1388d4e815513f0c2832fe.webm?t=1792534347" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5117520/extras/1490a4c2ef1388d4e815513f0c2832fe.mp4?t=1792534347" type="video/mp4"></video></span></p><h2 class="bb_tag" >What's in the box</h2><ul class="bb_ul"><li><p class="bb_paragraph" >Exactly three players, online.</p></li><li><p class="bb_paragraph" >4 levels in their unique environments containing 6 puzzles with different difficulties.</p></li><li><p class="bb_paragraph" >Find new friends to argue through the lobby browser.</p></li><li><p class="bb_paragraph" >Trouble communicating? Try punching! 👊😀</p></li><li><p class="bb_paragraph" >Trouble punching? THEN TRY DANCING!!! 🕺</p></li><li><p class="bb_paragraph" >Voice chat built straight into the game and shaped by the role you picked.</p></li><li><p class="bb_paragraph" >Every run is unique and replayable.</p></li><li><p class="bb_paragraph" >Swap roles and experience other perspectives to prove you are better than your ex-friend.</p></li><li><p class="bb_paragraph" >An end of run summary, so all three of you have something to argue about.</p></li></ul><p class="bb_paragraph" >Grab two friends and test your friendship by finding out how well you actually understand each other.</p>						</div>
+					</div>
+				
+				
+				
+					<div class="game_page_autocollapse sys_req" style="max-height: 300px;">
+		<h2>System Requirements</h2>
+					<div class="sysreq_tabs">
+									<div class="sysreq_tab active" data-os="win">
+						Windows					</div>
+									<div class="sysreq_tab " data-os="mac">
+						macOS					</div>
+								<div style="clear: left;"></div>
+			</div>
+				<div class="sysreq_contents">
+							<div class="game_area_sys_req sysreq_content active" data-os="win">
+											<div class="game_area_sys_req_leftCol">
+							<ul>
+								<strong>Minimum:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit, version 21H1 or newer<br></li><li><strong>Processor:</strong> Intel Core i3-6100 / AMD FX-6300<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel UHD Graphics 630 / NVIDIA GeForce GTX 750 Ti / AMD Radeon R7 260X<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 4 GB available space<br></li><li><strong>Sound Card:</strong> Any + microphone required</li></ul>							</ul>
+						</div>
+																<div class="game_area_sys_req_rightCol">
+							<ul>
+								<strong>Recommended:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system</li></ul>							</ul>
+						</div>
+										<div style="clear: both;"></div>
+
+									</div>
+							<div class="game_area_sys_req sysreq_content " data-os="mac">
+											<div class="game_area_sys_req_leftCol">
+							<ul>
+								<strong>Minimum:</strong><br><ul class="bb_ul"><li>Requires an Apple processor<br></li><li><strong>OS:</strong> macOS 12.0 Monterey<br></li><li><strong>Processor:</strong> Apple M1<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Apple M1 integrated GPU (Metal)<br></li><li><strong>Storage:</strong> 4 GB available space<br></li><li><strong>Sound Card:</strong> Any + microphone required</li></ul>							</ul>
+						</div>
+																<div class="game_area_sys_req_rightCol">
+							<ul>
+								<strong>Recommended:</strong><br><ul class="bb_ul"><li>Requires an Apple processor</li></ul>							</ul>
+						</div>
+										<div style="clear: both;"></div>
+
+									</div>
+					</div>
+	</div>
+	<script type="text/javascript">
+		$J( function() {
+			var $Tabs = $J('.sysreq_tab');
+			var $Content = $J('.sysreq_content');
+
+			$Tabs.click( function() {
+				var $Tab = $J(this);
+				$Tabs.removeClass('active');
+				$Tab.addClass('active');
+
+				$Content.removeClass('active');
+				$Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+				$Content.trigger('gamepage_autocollapse_expand');
+			});
+		} );
+	</script>
+
+									<div class="game_page_autocollapse" style="max-height: 400px;">
+						<div id="game_area_legal">
+							<p> © 2026 Sefik Studios. All rights reserved.<br />
+  Dude, Trust Me was made with Unity®. Unity is a trademark or registered trademark of Unity Technologies.<br />
+  Copyright © 2005-2026 Unity Technologies. All rights reserved.<br />
+  Level art adapted from a 3D model by Vector Studios, licensed under CC BY 4.0<br />
+  (creativecommons.org/licenses/by/4.0/).<br />
+  Third-party software and font licenses are included with the game in THIRD_PARTY_NOTICES.txt.</p>
+						</div>
+					</div>
+				
+								
+				</div>
+
+			<div class="clear_both" style="clear: both;"></div>
+		</div>
+
+		<div class="related_items_ctn">
+			<div class="page_content game_description_column ">
+				
+				
+				
+				
+				<div  data-featuretarget="storeitems-carousel" data-props="{&quot;title&quot;:&quot;More like this&quot;,&quot;seeAllLink&quot;:&quot;https://store.steampowered.com/recommended/morelike/app/5117520/?snr=1_5_9__300&quot;,&quot;appIDs&quot;:[4656000,4704690,4108000,4312190,1943950,3949040,960090,2879840,1260320,286160,1167630,4715160,2968420,5053820,5228920,5175310,2881650,5117550,4412320,1435790,4534960,2141730,1290000,4948000,3097560,5037200,2475460,3364070,1211630,4824220],&quot;navKey&quot;:&quot;more_like_this_carousel&quot;,&quot;sortOrder&quot;:&quot;shuffle&quot;,&quot;scorePenaltyIfOwned&quot;:5,&quot;bFullWidth&quot;:false}"></div>
+				<div id="responsive_apppage_reviewblock_ctn" class="rightcol game_meta_data"></div>
+
+				
+				<div class="steam_curators_block block responsive_apppage_reviewblock">
+			<div class="block_header">
+				<div class="right"><a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=5117520&snr=1_5_9__top-curators">View all</a></div>
+				<h2>What Curators Say</h2>
+				<div class="no_curators_followed">
+					1 Curator has reviewed this product. Click <a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=5117520&snr=1_5_9__top-curators">here</a> to see them.				</div>
+			</div>
+		</div>
+		
+
+			</div>
+		</div>
+
+
+		<div class="review_ctn">
+			<div class="page_content">
+
+				<div id="app_reviews_hash" class="app_reviews_area">
+							<div class="" data-featuretarget="appreviews" data-props="{&quot;appid&quot;:5117520,&quot;app_release_date&quot;:&quot;1796049600&quot;,&quot;appname&quot;:&quot;Dude, Trust Me&quot;,&quot;steamworks_appid&quot;:5117520,&quot;summary_options&quot;:{&quot;bHasAnyReviews&quot;:false,&quot;eUserReviewScorePreference&quot;:0,&quot;bCanManageReviewBombs&quot;:false,&quot;bCanEditApp&quot;:false,&quot;bHasOwnReview&quot;:false}}"></div>
+						</div>
+			</div>
+		</div>
+
+
+			</div>
+	</div>
+
+</div>
+
+		<div class="hover game_hover" id="global_hover" style="display: none; left: 0; top: 0;">
+			<div class="game_hover_box hover_box">
+				<div class="content" id="global_hover_content">
+				</div>
+			</div>
+			<div class="hover_arrow_left"></div>
+			<div class="hover_arrow_right"></div>
+		</div>
+<div id="EmbedModal"  style="display: none">
+	<div id="widget_create">
+		<p>You can use this widget-maker to generate a bit of HTML that can be embedded in your website to easily allow customers to purchase this game on Steam.</p>
+
+				<p class="small">Enter up to 375 characters to add a description to your widget:</p>
+		<div class="app_embed_dialog_description">
+			<textarea name="w_text" placeholder="Get hopelessly misunderstood by your two best friends. One of you goes blind, one goes deaf, one loses their voice, and no puzzle here can be solved by one person. Can the three of you work out how to understand each other?" maxlength="375"></textarea>
+		</div>
+
+		<div class="buttoncontainer">
+			<a class="btnv6_blue_hoverfade btn_medium " href="#" onclick="CreateWidget(5117520); return false;"><span>Create widget</span></a>
+		</div>
+	</div>
+	<div id="widget_finished" style="display: none;">
+		<div id="widget_container"></div>
+
+		<p class="small">Copy and paste the HTML below into your website to make the above widget appear</p>
+		<textarea id="widget_code" style=""></textarea>
+	</div>
+
+</div>
+
+	<div id="app_tagging_modal" class="app_tag_modal nologin" style="display: none;">
+		<div class="app_tag_modal_content">
+			<div class="app_tag_modal_seperator"></div>
+			<div class="app_tag_modal_left">
+				<h2>Popular user-defined tags for this product:<span class="app_tag_modal_tooltip" data-tooltip-text="These are tags applied to the product by the most users.  You can click a tag to find other products with that tag applied.  Or, you can hit the plus symbol for any existing tags to increase that tag's popularity on this product.">(?)</span></h2>
+				<div class="app_tags popular_tags">
+				</div>
+			</div>
+			<div class="app_tag_modal_right">
+									<h2>Sign In</h2>
+					<p>Sign in to add your own tags to this product.</p>
+					<p>
+						<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/5117520">
+							<span>Sign In</span>
+						</a>
+					</p>
+							</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$J( function() {
+			InitAppTagModal( 5117520,
+				[{"tagid":1664,"name":"Puzzle","count":98,"browseable":true},{"tagid":3843,"name":"Online Co-Op","count":92,"browseable":true},{"tagid":3859,"name":"Multiplayer","count":89,"browseable":true},{"tagid":7178,"name":"Party Game","count":86,"browseable":true},{"tagid":4136,"name":"Funny","count":83,"browseable":true},{"tagid":5711,"name":"Team-Based","count":77,"browseable":true},{"tagid":597,"name":"Casual","count":75,"browseable":true},{"tagid":16689,"name":"Time Management","count":73,"browseable":true},{"tagid":4711,"name":"Replay Value","count":71,"browseable":true},{"tagid":1685,"name":"Co-op","count":70,"browseable":true},{"tagid":4191,"name":"3D","count":67,"browseable":true},{"tagid":3839,"name":"First-Person","count":65,"browseable":true},{"tagid":769306,"name":"Escape Room","count":63,"browseable":true},{"tagid":5350,"name":"Family Friendly","count":61,"browseable":true},{"tagid":1719,"name":"Comedy","count":59,"browseable":true},{"tagid":5716,"name":"Mystery","count":57,"browseable":true},{"tagid":4252,"name":"Stylized","count":55,"browseable":true},{"tagid":4195,"name":"Cartoony","count":53,"browseable":true},{"tagid":492,"name":"Indie","count":49,"browseable":true},{"tagid":4508,"name":"Co-op Campaign","count":33,"browseable":true}],
+				[],
+				"1_5_9__410",
+				"1_5_9__411",
+				null,
+				false			);
+
+						if ( typeof GDynamicStore != 'undefined' )
+				GDynamicStore.FixupNamePortion();
+			
+					});
+	</script>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
