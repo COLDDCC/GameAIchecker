@@ -1,0 +1,13 @@
+{
+ "url": "https://store.steampowered.com/search/results/?query=Never+Wither&start=0&count=12&l=english&cc=us&infinite=1",
+ "mode": "body",
+ "httpStatus": 429,
+ "contentType": "text/html; charset=UTF-8",
+ "effectiveUrl": "https://store.steampowered.com/search/results/?query=Never+Wither&start=0&count=12&l=english&cc=us&infinite=1",
+ "curlExit": 0,
+ "error": "",
+ "fetchedAt": "2026-10-30T04:16:12.005581+00:00",
+ "contentHash": "a8eb32766548eefdbf8e1a1638a518b36615a7498f80b00a06acd3d93503eab5",
+ "bytes": 314,
+ "headers": "HTTP/1.1 429 Too Many Requests\nServer: nginx\nContent-Type: text/html; charset=UTF-8\nExpires: Mon, 26 Jul 1997 05:00:00 GMT\nCache-Control: no-cache\nContent-Security-Policy: default-src blob: data: https: 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://store.fastly.steamstatic.com/ https://store.fastly.steamstatic.com/ https://recaptcha.net https://www.google.com/recaptcha/ https://www.gstatic.cn/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.youtube.com/ https://s.ytimg.com; object-src 'none'; connect-src 'self' http://store.steampowered.com https://store.steampowered.com http://127.0.0.1:27060 ws://127.0.0.1:27060 https://community.fastly.steamstatic.com/ https://steamcommunity.com/ https://steamcommunity.com/ wss://community.steam-api.com/websocket/ https://api.steampowered.com/ https://login.steampowered.com/ https://help.steampowered.com/ https://steam.tv/ https://shared.fastly.steamstatic.com/ https://checkout.steampowered.com/; frame-src 'self' steam:  http://www.youtube.com https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://sketchfab.com https://player.vimeo.com https://steamcommunity.com/ https://login.steampowered.com/ https://help.steampowered.com/ https://checkout.steampowered.com/ https://www.google.com/recaptcha/ https://recaptcha.net/recaptcha/; frame-ancestors 'none';\nContent-Encoding: gzip\nVary: Accept-Encoding\nStrict-Transport-Security: max-age=63072000\nContent-Length: 314\nDate: Fri, 30 Oct 2026 04:16:11 GMT\nConnection: keep-alive\nSet-Cookie: sessionid=4a5ece7ddfb77b1104cef64f; Path=/; Secure; SameSite=None\n\n"
+}
