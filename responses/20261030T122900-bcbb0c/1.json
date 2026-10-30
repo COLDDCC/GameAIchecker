@@ -1,0 +1,13 @@
+{
+ "url": "https://kotaku.com/search?q=little+sister",
+ "mode": "body",
+ "httpStatus": 200,
+ "contentType": "text/html; charset=UTF-8",
+ "effectiveUrl": "https://kotaku.com/?s=little+sister&q=little+sister",
+ "curlExit": 0,
+ "error": "",
+ "fetchedAt": "2026-10-30T03:29:17.904932+00:00",
+ "contentHash": "39fb6b457862132e7f0385b4011a55ca690ab938cb4c4be3fd094da092af113f",
+ "bytes": 92341,
+ "headers": "HTTP/2 301 \ndate: Fri, 30 Oct 2026 03:29:17 GMT\ncontent-type: text/html\nlocation: https://kotaku.com/?s=little+sister&q=little+sister\nserver: cloudflare\nx-rocket-nginx-serving-static: No\nstrict-transport-security: max-age=15552000; includeSubDomains; preload\ncf-cache-status: DYNAMIC\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nx-content-type-options: nosniff\nspeculation-rules: \"/cdn-cgi/speculation\"\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Otl6yhsMmsWNQD3JVGjmC2Uwv0IUcsxDS%2Bblq0X2G%2FMh7CZf7j%2BeMmXsJzWxdz4nrJUjmCmRxqPznzWCuH2eaVy51Egbda%2F9GJHXg6okDuTotAmexY9r38k5Vcc%3D\"}]}\ncf-ray: a52755b36a85072c-MSP\nalt-svc: h3=\":443\"; ma=86400\n\nHTTP/2 200 \ndate: Fri, 30 Oct 2026 03:29:17 GMT\ncontent-type: text/html; charset=UTF-8\nserver: cloudflare\nx-remove-qs: 0\nx-no-cache: 0\nx-cache: MISS\ncontent-security-policy: upgrade-insecure-requests; frame-ancestors 'self'\nx-frame-options: SAMEORIGIN\nx-content-type-options: nosniff\nreferrer-policy: no-referrer-when-downgrade\npermissions-policy: autoplay=(*), fullscreen=(*), accelerometer=(*), geolocation=(*)\ncf-cache-status: DYNAMIC\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nstrict-transport-security: max-age=15552000; includeSubDomains; preload\nspeculation-rules: \"/cdn-cgi/speculation\"\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oip8kUoC0XieHx%2FR1B5BpFV8dM4efGSZGQdHNQcHrwUQjRlA20zicyDuZ%2Br92ff%2BICigfKN%2BQ6kOuTK067XJyPmaGO0gS6fsJmKE4d1pC3eGDUw2VhjvRptY1Ns%3D\"}]}\ncf-ray: a52755b3ede0072c-MSP\nalt-svc: h3=\":443\"; ma=86400\n\n"
+}
