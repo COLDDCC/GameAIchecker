@@ -1,0 +1,109 @@
+{
+  "appId": "3948460",
+  "name": "Teach My Little Sister How To Drive",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "副驾驶视角的语音驾驶模拟：玩家只能通过麦克风口述指令，教妹妹在危险道路上开车。商店 AI 披露说明玩家可与游戏内 NPC 自由语音对话，妹妹的声音由本地模型实时生成，且不收集、不存储玩家语音；同一页面还列出为生成 AI 内容而连接的第三方服务，全球为 Gemini API 与 ChatGPT，中国大陆为 Qwen 与 Byteplus。",
+  "aiUsageCategories": [
+    "ingame",
+    "voice"
+  ],
+  "aiAreas": {
+    "ingame": "used",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "游玩中玩家可随时用语音与 NPC 对话，妹妹会实时回应；这是游戏核心机制，不是离线预生成内容。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "商店披露称妹妹的声音由本地模型实时生成；开发者 AI 透明页补充对话期间语音会发送给外部 AI 服务。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "voice": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3948460/",
+  "developer": "Easy Fox",
+  "publisher": "Easy Fox",
+  "steamReleaseDate": "January 2027（计划；核查时尚未发售）",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3948460/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-30",
+      "excerpt": "The user can freely interact with NPCs in the game world through voice chat. The sister’s voice is generated in real time using a local model. We do not collect or store any user voice data under any circumstances."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3948460/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 136）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/3948460/discussions/0/585062631125146566/",
+      "label": "I'm glad your slop is failing",
+      "date": "2026-10-30",
+      "excerpt": "玩家指责游戏是“抄袭机器”，随后围绕 AI 训练数据与运营成本争论；可见回复中没有开发者的具体说明，属于社区观点而非使用证据。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/3948460/discussions/0/574929704291811770/",
+      "label": "Worthless AI slop",
+      "date": "2026-10-30",
+      "excerpt": "玩家以“AI slop”批评游戏，讨论中有玩家指出妹妹的回复由 AI 生成；该帖没有开发者说明具体使用领域，属于社区观点。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://kotaku.com/ai-driven-driving-simulator-developers-go-into-debt-just-to-maintain-steam-demo-2000743791",
+      "label": "Kotaku: Developer Goes Into Debt Spending $1,000 A Day To Keep Steam Demo For AI-Fueled Driving Sim Going",
+      "date": "2026-10-30",
+      "excerpt": "As the update explains, the game originally patched players through to a chat bot operating on Google’s Gemini.",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "developer_statement",
+      "url": "https://easyfoxgames.com/tsd/ai/privacy/gl",
+      "label": "Easy Fox Games: How this game uses AI (transparency page)",
+      "date": "2026-10-30",
+      "excerpt": "your voice is sent to external AI services while a conversation is running.",
+      "publishedAt": "2026-08-27"
+    }
+  ],
+  "reviewNote": "核查 Steam 完整 AI 披露、游戏身份、英文讨论区首页及 2 个相关主题帖全文，并单独检索公开报道，读取了 Kotaku 报道与开发者 AI 透明页原文。讨论区仅覆盖首页，检索并非穷尽；结论基于开发者自述与公开报道，未经独立审计。",
+  "disclosureQuote": "The user can freely interact with NPCs in the game world through voice chat. The sister’s voice is generated in real time using a local model. We do not collect or store any user voice data under any circumstances.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-30 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A voice-driven driving simulator played from the passenger seat: the player can only talk the sister character through dangerous roads. The Steam disclosure states that players can hold free voice conversations with in-game NPCs, that the sister’s voice is generated in real time by a local model, and that no player voice data is collected or stored; the same page lists third-party AI services (Gemini API and ChatGPT globally, Qwen and Byteplus in mainland China) used to generate AI content.",
+    "reviewNote": "Reviewed the full Steam AI disclosure, the game identity, the English discussion homepage and two related threads in full, plus a separate public-report search that read the Kotaku report and the developer’s AI transparency page. Discussion coverage is limited to the homepage and the search is not exhaustive; findings rely on developer statements and public reporting, not an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "Players talk to in-game NPCs through voice chat at any point during play, and the sister answers in real time; this is the core mechanic, not pre-generated offline content.",
+      "code": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "art": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "music": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "voice": "The disclosure says the sister’s voice is generated in real time by a local model; the developer’s AI transparency page adds that conversation audio is sent to external AI services.",
+      "writing": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "translation": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use.",
+      "marketing": "This area is not explicitly addressed by the reviewed official disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "51a584048d8fdabcf344ca73f8a6a6db552e7e40b3961a14faecbc5dad81f1c6"
+  }
+}
