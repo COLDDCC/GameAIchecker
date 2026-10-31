@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "893a7ef704eb112ff54e4af4bd272daa98514e03",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-10-31T02:03:13.788994+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -551,10 +551,87 @@
       },
       "bytes": 22288124,
       "verifiedRemoteSha": "dbfedcb383b47c1392c034395e1f546da157a871"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41160911472",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41160911517"
+    },
+    "production": {
+      "sha": "bcde41f7fa0fdc255e3ffddbf0326b48b49485b4",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/ef1bba24-dee8-493d-899b-2a9f96078460",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>bcde41f</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://ef1bba24.gameaichecker.pages.dev'>https://ef1bba24.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/ef1bba24-dee8-493d-899b-2a9f96078460)\n",
+      "checkedAt": "2026-10-31T02:51:57.663415+00:00"
+    },
+    "onlineImages": {
+      "responses": 327,
+      "cache": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\online-images-bcde41f7fa0fdc255e3ffddbf0326b48b49485b4.json"
+    },
+    "online": [
+      {
+        "appId": "5147000",
+        "url": "https://gameaichecker.com/games/5147000-daydream-cat-dreamspirits-idle-adventure/",
+        "checkedAt": "2026-10-31T02:52:20.147567+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2482760",
+        "url": "https://gameaichecker.com/games/2482760-hunting-simulator-3/",
+        "checkedAt": "2026-10-31T02:52:20.150885+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4071650",
+        "url": "https://gameaichecker.com/games/4071650-stream-train/",
+        "checkedAt": "2026-10-31T02:52:20.153682+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5062910",
+        "url": "https://gameaichecker.com/games/5062910-life-is-a-dungeon-lean-into-it/",
+        "checkedAt": "2026-10-31T02:52:20.156024+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3299050",
+        "url": "https://gameaichecker.com/games/3299050-no-such-place/",
+        "checkedAt": "2026-10-31T02:52:20.158523+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "1486940",
+        "url": "https://gameaichecker.com/games/1486940-earthx-2/",
+        "checkedAt": "2026-10-31T02:52:20.160746+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3951810",
+        "url": "https://gameaichecker.com/games/3951810-cheater-s-table/",
+        "checkedAt": "2026-10-31T02:52:20.162889+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5053820",
+        "url": "https://gameaichecker.com/games/5053820-mimic-party/",
+        "checkedAt": "2026-10-31T02:52:20.165316+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3985950",
+        "url": "https://gameaichecker.com/games/3985950-r-i-p-reincarnation-insurance-program/",
+        "checkedAt": "2026-10-31T02:52:20.167817+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5020310",
+        "url": "https://gameaichecker.com/games/5020310-dub-together/",
+        "checkedAt": "2026-10-31T02:52:20.170073+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "e2640cb2a628580b24de6c4911ba1524643512a8"
+    "media": "e2640cb2a628580b24de6c4911ba1524643512a8",
+    "site": "bcde41f7fa0fdc255e3ffddbf0326b48b49485b4"
   },
   "attempts": 10,
   "maxAttempts": 30,
@@ -566,5 +643,6 @@
   },
   "applyBase": "f32ef0c4ff9a0ce55639dcc5ca0033ab2a1e79bf",
   "pendingTree": "e3cb83fc595161fdd04cd700ac9f166f310cf2ad",
-  "siteBase": "dbfedcb383b47c1392c034395e1f546da157a871"
+  "siteBase": "dbfedcb383b47c1392c034395e1f546da157a871",
+  "siteTree": "755c3404a35b08468931bf35f3b4aabdf786bd82"
 }
