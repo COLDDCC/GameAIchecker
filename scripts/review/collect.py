@@ -134,7 +134,9 @@ def collect_game(b,g):
         api=json.loads(raw).get(app,{})
         if not api.get('success'): raise ValueError('appdetails unavailable')
         d=api['data']
-        if str(d['steam_appid'])!=app or d['name']!=facts['name'] or d['name']!=g['name'] or not d.get('developers') or d.get('type')!='game': raise ValueError('identity mismatch/demo')
+        # Steam sometimes returns a display name with stray leading/trailing spaces
+        # (e.g. "Nekome: Nazi Hunter ") while the storefront heading is trimmed.
+        if str(d['steam_appid'])!=app or d['name'].strip()!=facts['name'].strip() or d['name'].strip()!=g['name'].strip() or not d.get('developers') or d.get('type')!='game': raise ValueError('identity mismatch/demo')
         # Cross-check developer name against visible storefront.
         if not all(dev in Tree(s).root.text() for dev in d['developers']): raise ValueError('developer mismatch')
         e['identity']=dict(appId=app,name=d['name'],developer=', '.join(d['developers']),publisher=', '.join(d.get('publishers',[])),type=d['type'],verified=True,release=d.get('release_date',{}).get('date','待公布'),comingSoon=d.get('release_date',{}).get('coming_soon'),genres=[v['description'] for v in d.get('genres',[])],description=html.unescape(re.sub('<[^>]+>',' ',d.get('short_description',''))),identityEvidence=meta)

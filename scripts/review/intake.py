@@ -184,20 +184,20 @@ def validate_game(b,g):
     e=read(p/'evidence.json',{})
     d=read(p/'decision.json',{})
     if any(g.get(k)!='complete' for k in ('identity','store','discussion','press')): raise ValueError('coverage incomplete '+app)
-    if not e.get('identity',{}).get('verified') or e['identity'].get('appId')!=app or e['identity'].get('name')!=g['name']: raise ValueError('identity mismatch')
+    if not e.get('identity',{}).get('verified') or e['identity'].get('appId')!=app or str(e['identity'].get('name','')).strip()!=g['name'].strip(): raise ValueError('identity mismatch')
     if not e['identity'].get('developer') or e['identity'].get('type')!='game': raise ValueError('missing developer or not full game')
     identity_evidence=e['identity'].get('identityEvidence',{})
     evidence_ok(identity_evidence,app)
     identity_raw=read(ROOT/identity_evidence['cachePath'],{}).get(app,{})
     data=identity_raw.get('data',{})
-    if not identity_raw.get('success') or str(data.get('steam_appid'))!=app or data.get('name')!=g['name'] or ', '.join(data.get('developers',[]))!=e['identity']['developer'] or data.get('type')!='game': raise ValueError('identity raw mismatch')
+    if not identity_raw.get('success') or str(data.get('steam_appid'))!=app or str(data.get('name','')).strip()!=g['name'].strip() or ', '.join(data.get('developers',[]))!=e['identity']['developer'] or data.get('type')!='game': raise ValueError('identity raw mismatch')
     from collect import parse_store, parse_discussion, parse_thread, Tree
     for source in e.get('sources',[]):
         evidence_ok(source,app)
         raw=(ROOT/source['cachePath']).read_text(encoding='utf-8')
         if source['sourceType']=='store':
             parsed=parse_store(raw,app)
-            if parsed['name']!=g['name'] or parsed['quote']!=source['quote'] or parsed['disclosurePresent']!=source.get('disclosurePresent'): raise ValueError('store quote/raw mismatch')
+            if parsed['name'].strip()!=g['name'].strip() or parsed['quote']!=source['quote'] or parsed['disclosurePresent']!=source.get('disclosurePresent'): raise ValueError('store quote/raw mismatch')
         elif source['sourceType']=='discussion':
             parsed=parse_discussion(raw,app,g['name'])
             for key in ('visibleTopics','totalTopics','topics'):
@@ -218,7 +218,7 @@ def validate_game(b,g):
     if not di.get('pagesScanned') or 'visibleTopics' not in di or 'coverageLimits' not in di: raise ValueError('discussion scope missing')
     for t in di.get('related',[]):
         if t.get('status')!='complete' or t.get('evidenceId') not in sources or not t.get('identityVerified') or not t.get('repliesChecked'): raise ValueError('related discussion unread/mismatch')
-    if d.get('identityName')!=g['name'] or d.get('identityDeveloper')!=e['identity']['developer']: raise ValueError('decision identity not confirmed')
+    if str(d.get('identityName','')).strip()!=g['name'].strip() or d.get('identityDeveloper')!=e['identity']['developer']: raise ValueError('decision identity not confirmed')
     if set(d.get('areas',{}))!=set(AREAS): raise ValueError('eight areas required')
     category=d.get('category')
     if category not in ('official_ai_disclosure','developer_ai_disclosure','developer_no_genai_statement','no_verified_genai_evidence'): raise ValueError('invalid category')

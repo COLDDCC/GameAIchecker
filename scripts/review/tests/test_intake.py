@@ -58,6 +58,14 @@ class IntakeTests(unittest.TestCase):
   r=i.record(b,b['games'][0],e,d)
   self.assertEqual(r['developer'],'Small Mill'); self.assertEqual(r['publisher'],'Small Mill')
   self.assertEqual(i.dedupe_credit('Valve, Blizzard'), 'Valve, Blizzard')
+ def test_identity_name_surrounding_space_is_tolerated(self):
+  b=self.fixture();g=b['games'][0];app=g['appId'];path=i.work(b)/app
+  raw=i.read(path/'appdetails.json');raw[app]['data']['name']=g['name']+' '
+  i.atomic(path/'appdetails.json',raw)
+  e=i.read(path/'evidence.json');e['identity']['name']=g['name']+' '
+  e['identity']['identityEvidence']['contentHash']=i.sha(path/'appdetails.json')
+  i.atomic(path/'evidence.json',e)
+  self.assertEqual(i.validate_game(b,g)[0]['identity']['name'],g['name']+' ')
  def test_duplicate_and_existing_ids(self):
   b=self.fixture();b['games']*=2;b['requestedCount']=2
   with self.assertRaises(ValueError):i.validate(b)
