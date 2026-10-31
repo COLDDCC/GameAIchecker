@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Dub Together on Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://store.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=YzJgj1FjzW34&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_global.css?v=sat0mVAiy9IE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/buttons.css?v=BZhNEtESfYSJ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/store.css?v=pRFy65b3KvQ_&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/styles_linux.css?v=LcZAgwD7_TSW&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/user_reviews.css?v=hcV4WIPnYWMf&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_game_shared.css?v=Xi6rfDkwSwlu&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game.css?v=FpqfPB3I4l_e&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_background_shared.css?v=RuX0Jh-U_mAP&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/recommended.css?v=fwyY12y3q2Mi&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/user_reviews_rewards.css?v=nDJVyLGQ1XMI&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/apphub.css?v=otgZDLujyGMF&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/ui-lightness/jquery-ui-1.7.2.custom.css?v=qgq7mHqEwLbE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game_mob.css?v=XLV-14LI0nm-&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=FJJn0nIxXaGQ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=NXam5zydzNu8&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=w6QbwI-5-j2S&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/main.js?v=VXExFbFD9rs7&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js?v=7IbaKUfZfESM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				$J.data( document, 'x_readytime', new Date().getTime() );
+				$J.data( document, 'x_oldref', GetNavCookie() );
+				SetupTooltips( { tooltipCSSClass: 'store_tooltip'  } );
+		});
+		</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/gamehighlightplayer.js?v=mdJgU3gDKmis&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/user_reviews.js?v=GGcui5RNq7P0&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/app_tagging.js?v=jzh2Y03tD8Ea&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/game.js?v=KNgRXsZ3gVA_&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.min.js?v=mSfqk1QKKgiz&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.min.js?v=MeIf0YViALgL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.min.js?v=CIECDYHJjBgN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.min.js?v=laPWW88ZIIHe&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/dselect.js?v=xOLWzo6KWkKr&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-ui-1.9.2.js?v=wxKVOzU-zSuN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="Up to eight players redub video clips and give them a whole new meaning. You record the scene, then watch every result together and vote. With voice effects, a built-in clip editor and live voting from your Twitch chat.">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Dub Together on Steam">
+					<meta property="twitter:title" content="Dub Together on Steam">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:url" content="https://store.steampowered.com/app/5020310/Dub_Together/">
+					<meta property="og:description" content="Up to eight players redub video clips and give them a whole new meaning. You record the scene, then watch every result together and vote. With voice effects, a built-in clip editor and live voting from your Twitch chat.">
+					<meta property="twitter:description" content="Up to eight players redub video clips and give them a whole new meaning. You record the scene, then watch every result together and vote. With voice effects, a built-in clip editor and live voting from your Twitch chat.">
+			
+			<link rel="canonical" href="https://store.steampowered.com/app/5020310/Dub_Together/">
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5020310/86c99237c2a476587b0a229186a211c4673741d8/capsule_616x353.jpg?t=1790943462">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5020310/86c99237c2a476587b0a229186a211c4673741d8/capsule_616x353.jpg?t=1790943462">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5020310/86c99237c2a476587b0a229186a211c4673741d8/capsule_616x353.jpg?t=1790943462" />
+				
+	
+	
+	
+	
+	</head>
+<body class="v6 app game_bg menu_background_overlap application widestore v7menu responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com/login/?redir=app%2F5020310%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">
+									Sign in								</a>
+															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-responsive-menu">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-responsive-menu">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-responsive-menu">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-responsive-menu">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-responsive-menu">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-responsive-menu">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/?snr=1_5_9__global-responsive-menu" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_5_9__global-responsive-menu" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+															<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+					<div class="responsive_header_react_target" data-featuretarget="store-menu-responsive-search"><div class="responsive_header_react_placeholder"></div></div>				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/?snr=1_5_9__global-header" aria-label="Link to the Steam Homepage">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-header">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-header">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-header">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-header">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-header">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-header">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=app%2F5020310%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<div class="StoreMenuLoadingPlaceholder" data-featuretarget="store-menu-v7"><div class="PlaceholderInner"></div></div><div id="responsive_store_nav_ctn"></div><div id="responsive_store_nav_overlay" style="display:none"><div id="responsive_store_nav_overlay_ctn"></div><div id="responsive_store_nav_overlay_bottom"></div></div><div id="responsive_store_search_overlay" style="display:none"></div><div data-cart-banner-spot="1"></div>
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793383169,&quot;PAGE_TIMESTAMP&quot;:1793412039,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1793412039,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;1_5_9_&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[3,4]}" data-hwinfo="{&quot;bSteamOS&quot;:false,&quot;bSteamDeck&quot;:false,&quot;bSteamMachine&quot;:false,&quot;bSteamFrame&quot;:false}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-store_page_asset_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/%s?t=1790943462&quot;" data-store_page_extra_assets_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/%s?t=1790943462&quot;" data-store_page_extra_assets_map="[]" data-hardwarecompatibility="{&quot;appid&quot;:5020310,&quot;resolved_category&quot;:2,&quot;resolved_items&quot;:[{&quot;display_type&quot;:3,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_InterfaceTextIsLegible&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant&quot;}],&quot;steam_deck_blog_url&quot;:&quot;&quot;,&quot;search_id&quot;:null,&quot;steamos_resolved_category&quot;:2,&quot;steamos_resolved_items&quot;:[{&quot;display_type&quot;:3,&quot;loc_token&quot;:&quot;#SteamOS_TestResult_GameStartupFunctional&quot;},{&quot;display_type&quot;:1,&quot;loc_token&quot;:&quot;#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard&quot;}],&quot;machine_resolved_category&quot;:2,&quot;machine_resolved_items&quot;:[{&quot;display_type&quot;:3,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_ControllerGlyphsMatchDevice&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_DefaultConfigurationIsPerformant&quot;}],&quot;frame_resolved_category&quot;:null,&quot;frame_resolved_items&quot;:[]}" data-appname="&quot;Dub Together&quot;" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:{&quot;domain&quot;:&quot;store.steampowered.com&quot;,&quot;controller&quot;:&quot;direct-navigation&quot;,&quot;method&quot;:&quot;&quot;,&quot;submethod&quot;:&quot;&quot;,&quot;feature&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;countrycode&quot;:&quot;&quot;,&quot;webkey&quot;:null,&quot;is_client&quot;:false,&quot;curator_data&quot;:null,&quot;is_likely_bot&quot;:false,&quot;is_utm&quot;:false},&quot;wishlist_item_count&quot;:0}"></div><div id="application_root"></div><script>window.g_wapit="";</script><link href="https://store.fastly.steamstatic.com/public/css/applications/store/main.css?v=hzBzuSSSUisO&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11190067";</script>
+<script type="module" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js?contenthash=QfwV29jv"></script>
+<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_Languages = ["english"];
+	var g_sessionID = "59e84655cb12786f852ea46c";
+	var g_ServerTime = 1793412039;
+	var g_bUseNewCartAPI = true;
+
+			$J( InitMiniprofileHovers( 'https%3A%2F%2Fstore.steampowered.com%2F' ) );
+	
+	
+	if ( typeof GStoreItemData != 'undefined' )
+	{
+		GStoreItemData.AddNavParams({
+			__page_default: "1_5_9_",
+			__page_default_obj: {"domain":"store.steampowered.com","controller":"application","method":"app","submethod":"","feature":null,"depth":null,"countrycode":"US","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":null},
+			__originating_obj: {"domain":"store.steampowered.com","controller":"direct-navigation","method":"","submethod":"","feature":"","depth":0,"countrycode":"","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":false},
+			storemenu_recommendedtags: "1_5_9__17"		});
+	}
+
+	if ( typeof GDynamicStore != 'undefined' )
+	{
+		GDynamicStore.Init(0, false, "", {"primary_language":null,"secondary_languages":null,"platform_windows":null,"platform_mac":null,"platform_linux":null,"timestamp_updated":null,"hide_store_broadcast":null,"review_score_preference":null,"timestamp_content_descriptor_preferences_updated":null,"provide_deck_feedback":null,"additional_languages":null,"game_frame_rate_reporting":null,"disable_microtrailers":null,"disable_animated_marketing":null}, 'US',
+			{"bNoDefaultDescriptors":false});
+		GStoreItemData.SetCurrencyFormatter(function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ".", ","); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + "$" + fmt( nValueInCents, bWholeUnitsOnly );});
+		GStoreItemData.SetCurrencyMinPriceIncrement(1);
+	}
+</script>
+
+<script type="text/javascript">
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"4656000":{"name":"BOMBANANA!","url_name":"BOMBANANA","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4656000\/4940c6b39164d54c5f6ca5917b6621dc2f2c2a52\/capsule_184x69_alt_assets_0.jpg?t=1792877964","os_windows":true,"os_macos":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45812612]},"4704690":{"name":"MECCHA CHAMELEON","url_name":"MECCHA_CHAMELEON","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"599\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$5.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4704690\/18d14b8bd834e30a6a25df5ccd7f0a6e644f1577\/capsule_184x69.jpg?t=1789464996","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45635377]},"4199960":{"name":"The Jackbox Party Pack 12","url_name":"The_Jackbox_Party_Pack_12","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4199960\/19b9f4ce4730f02a1b083f1bc4b104a55cfeb60d\/capsule_184x69.jpg?t=1792701225","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"3048060":{"name":"Trivia Murder Party 3","url_name":"Trivia_Murder_Party_3","discount_block":"<div class=\"discount_block \" data-price-final=\"1199\" data-bundlediscount=\"0\" data-discount=\"20\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-20%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$14.99<\/div><div class=\"discount_final_price\">$11.99<\/div><\/div><span class=\"discount_aria_label\">20% off. $14.99 normally, discounted to $11.99<\/span><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3048060\/7cc626fda8cb2c5fbeeaf5e4574016c960ac5db5\/capsule_184x69_alt_assets_1.jpg?t=1792698126","os_windows":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[33030169]},"1260320":{"name":"Party Animals","url_name":"Party_Animals","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1260320\/ca03736b198d1b4812b0ac11a78b7384149791db\/capsule_184x69_alt_assets_10.jpg?t=1789480764","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"285900":{"name":"Gang Beasts","url_name":"Gang_Beasts","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/285900\/capsule_184x69.jpg?t=1780410654","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"status_string":"Early Access Now Available","creator_clan_ids":[38847675]},"4069520":{"name":"Super Battle Golf","url_name":"Super_Battle_Golf","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1299\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$12.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4069520\/778c2cb70cbb47abb6d82f0bb1aef05cc69e1378\/capsule_184x69.jpg?t=1793094846","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[44937494]},"5053820":{"name":"Mimic Party","url_name":"Mimic_Party","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"699\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$6.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5053820\/4adb5e68ffcb7785768a355dada919756e74c31c\/capsule_184x69.jpg?t=1789831835","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"880940":{"name":"Pummel Party","url_name":"Pummel_Party","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/880940\/capsule_184x69.jpg?t=1725311353","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"3935020":{"name":"Backyard Baseball","url_name":"Backyard_Baseball","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3935020\/01f8a5179dab6b13e65032ed0b21116b2a299116\/capsule_184x69.jpg?t=1792617144","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44448720,45227847,45227857]},"2475460":{"name":"SOS OPS!","url_name":"SOS_OPS","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2475460\/d2d2158ea3d4e103aae5913ced668d412493eee8\/capsule_184x69_alt_assets_0.jpg?t=1793197618","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[44758681,45736840]},"5117550":{"name":"Fart Together","url_name":"Fart_Together","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117550\/39d9e8bd13c73e088d6df01700a52e3b2e0aa177\/capsule_184x69.jpg?t=1793273054","os_windows":true,"early_access":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Coming soon","coming_soon_string":"Coming soon","localized":true,"localized_english":true},"5175310":{"name":"Worst Class Ever","url_name":"Worst_Class_Ever","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5175310\/2f01e333bcb778be98f0b530d071119bd8260148\/capsule_184x69.jpg?t=1793351951","os_windows":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Nov 9, 2026","coming_soon_string":"Coming Nov 9, 2026","localized":true,"localized_english":true,"creator_clan_ids":[46459054,35106019]},"434170":{"name":"The Jackbox Party Pack 3","url_name":"The_Jackbox_Party_Pack_3","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$24.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/434170\/capsule_184x69.jpg?t=1728584278","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33030169]},"728880":{"name":"Overcooked! 2","url_name":"Overcooked_2","discount_block":"<div class=\"discount_block \" data-price-final=\"1648\" data-bundlediscount=\"0\" data-discount=\"66\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-66%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$48.49<\/div><div class=\"discount_final_price\">$16.48<\/div><\/div><span class=\"discount_aria_label\">66% off. $48.49 normally, discounted to $16.48<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/728880\/729e5b5ce6a2c529d104a37baec5bfe555c609e1\/capsule_184x69.jpg?t=1789548883","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[34636320,32941731]},"3364070":{"name":"The Jackbox Party Pack 11","url_name":"The_Jackbox_Party_Pack_11","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3364070\/40ee0eb018b102e1e336044274f070cd94dc01b9\/capsule_184x69.jpg?t=1774630140","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33030169]},"5037200":{"name":"just volleyball","url_name":"just_volleyball","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5037200\/9b8e9e36b07f2aa8de2b1199fcbcf0bcb941e612\/capsule_184x69.jpg?t=1793340499","os_windows":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Nov 4, 2026","coming_soon_string":"Coming Nov 4, 2026","localized":true,"localized_english":true},"1211630":{"name":"The Jackbox Party Pack 7","url_name":"The_Jackbox_Party_Pack_7","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1211630\/capsule_184x69.jpg?t=1728584652","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33030169]},"2869860":{"name":"Monster Prom 4: Monster Con","url_name":"Monster_Prom_4_Monster_Con","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2869860\/b8a2ecb62b85dd26e827f2ff20e1cf007a439e4d\/capsule_184x69.jpg?t=1766067469","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33978800]},"386940":{"name":"Ultimate Chicken Horse","url_name":"Ultimate_Chicken_Horse","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/386940\/capsule_184x69.jpg?t=1765298731","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32938545]},"4948000":{"name":"Moo Who?","url_name":"Moo_Who","discount_block":"<div class=\"discount_block \" data-price-final=\"489\" data-bundlediscount=\"0\" data-discount=\"30\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-30%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$6.99<\/div><div class=\"discount_final_price\">$4.89<\/div><\/div><span class=\"discount_aria_label\">30% off. $6.99 normally, discounted to $4.89<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4948000\/1d1a4405fab2ae1a883ab2c7ef8ca8ddbcfeb967\/capsule_184x69.jpg?t=1793043982","os_windows":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[46203417]},"1922560":{"name":"Plants vs. Zombies\u2122 Garden Warfare 2: Deluxe Edition","url_name":"Plants_vs_Zombies_Garden_Warfare_2_Deluxe_Edition","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1922560\/capsule_184x69.jpg?t=1772707471","os_windows":true,"has_live_broadcast":false,"mastersub_granting_app":{"capsule":"https:\/\/cdn.fastly.steamstatic.com\/store\/mastersubs\/eaplay\/eaplay.svg","name":"EA Play"},"localized":true,"localized_english":true,"creator_clan_ids":[37140667,36135791,36140475]},"1243830":{"name":"Overcooked! All You Can Eat","url_name":"Overcooked_All_You_Can_Eat","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1243830\/capsule_184x69.jpg?t=1788969190","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32941731,34636320]},"4285690":{"name":"Airport Security Sucks!","url_name":"Airport_Security_Sucks","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4285690\/57604e5fa72ea0f8bc9224c991f66dfcbdb5ccb8\/capsule_184x69.jpg?t=1790047051","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true},"3654560":{"name":"Plants vs. Zombies\u2122: Replanted","url_name":"Plants_vs_Zombies_Replanted","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3654560\/e0c2fb45f1a787153aafed3b948a57395d94fe09\/capsule_184x69.jpg?t=1763401327","os_windows":true,"has_live_broadcast":false,"mastersub_granting_app":{"capsule":"https:\/\/cdn.fastly.steamstatic.com\/store\/mastersubs\/eaplay\/eaplay.svg","name":"EA Play"},"localized":true,"localized_english":true,"creator_clan_ids":[37140667,36135791,36140475]},"5127370":{"name":"Who's Cheating?","url_name":"Whos_Cheating","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"779\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.79<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5127370\/039e3dd05cef0e375547706e51c227cc24897941\/capsule_184x69.jpg?t=1793163125","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[46299610]},"4776500":{"name":"Carry On Together","url_name":"Carry_On_Together","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4776500\/ad6a65d375f40592dfb9c9fe0d2ba815a5da5f93\/capsule_184x69.jpg?t=1793038446","os_windows":true,"has_live_broadcast":true,"coming_soon":true,"release_date_string":"Available: Nov 6, 2026","coming_soon_string":"Coming Nov 6, 2026","localized":true,"localized_english":true,"creator_clan_ids":[44123520]},"2622000":{"name":"Astral Party ","url_name":"Astral_Party","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2622000\/161770009211fc0558719211d936c39046084b53\/capsule_184x69.jpg?t=1792037033","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_sex":true},"1552350":{"name":"The Jackbox Party Pack 8","url_name":"The_Jackbox_Party_Pack_8","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1552350\/capsule_184x69.jpg?t=1728584688","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33030169]},"5086460":{"name":"PeeVPee","url_name":"PeeVPee","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5086460\/88632e1fa55160f09b45fdafe6e54307fab2a4e9\/capsule_184x69.jpg?t=1792681371","os_windows":true,"os_linux":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Nov 9, 2026","coming_soon_string":"Coming Nov 9, 2026","localized":true,"localized_english":true,"creator_clan_ids":[44636050]}},"rgPackages":{"1540783":{"name":"Zad Archery","url_name":"Zad_Archery","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"699\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$6.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4412000\/80212772e01a767a3fa1d3bd811476969468adac\/capsule_sm_120.jpg?t=1793035308","tags":["Incremental","Idler","Loot","Platformer","Roguelite"],"tagids":[560542,615955,4236,1625,3959,13382],"os_windows":true,"os_macos":true,"os_linux":true,"appids":[4412000],"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45814459]},"1741003":{"name":"Dub Together","url_name":"Dub_Together","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/33f05f1c5a6e74374e0994eab7d150a0a42e496f\/capsule_sm_120.jpg?t=1790943462","tags":["Party Game","Multiplayer","Funny","Casual","Comedy"],"tagids":[7178,3859,4136,597,1719,4878],"os_windows":true,"appids":[5020310],"has_live_broadcast":false,"localized":true,"localized_english":true}},"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		recommend_franchise: "1_5_9__316",
+		more_from_franchise: "1_5_9__317",
+		bundle_component_preview: "1_5_9__412",
+		recommended_ranked_played: "1_5_9__862",
+	} );
+
+	// Temporary code to allow React to move focus to elements that are non-React.
+	function MoveFocusToId( id )
+	{
+		$el = $J( id );
+		if ( $el.length )
+		{
+			$el[0].focus();
+		}
+	}
+	window.MoveFocusToId = MoveFocusToId;
+
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+		// on Tablet wait to do this when the window is fully loaded - see OnPageLoaded()
+		ReparentAppLandingPageForSmallScreens();
+
+		
+			var usability = InitUsabilityTracker( "https:\/\/store.steampowered.com\/app\/usabilitytracking\/5020310" );
+		usability.ScheduleUpload();
+	
+		
+			} );
+
+	
+	function OpenTagModal()
+	{
+		ShowAppTagModal( 5020310 );
+	}
+
+</script>
+
+<div class="game_page_background game" data-miniprofile-appid=5020310>
+
+	
+			<div class="banner_open_in_steam">
+			<div data-featuretarget="open-in-desktop-client"></div>
+		</div>
+	
+	
+	<div  data-featuretarget="apppage-store-browse-cache" data-props="{&quot;rgPayloads&quot;:[{&quot;dataRequestStoreItems&quot;:{&quot;include_assets&quot;:null,&quot;include_release&quot;:null,&quot;include_platforms&quot;:null,&quot;include_all_purchase_options&quot;:null,&quot;include_screenshots&quot;:null,&quot;include_trailers&quot;:null,&quot;include_ratings&quot;:true,&quot;include_tag_count&quot;:null,&quot;include_reviews&quot;:null,&quot;include_basic_info&quot;:null,&quot;include_supported_languages&quot;:null,&quot;include_full_description&quot;:null,&quot;include_included_items&quot;:null,&quot;included_item_data_request&quot;:null,&quot;include_assets_without_overrides&quot;:null,&quot;apply_user_filters&quot;:null,&quot;include_links&quot;:null,&quot;include_extra_details&quot;:null,&quot;include_best_purchase_option&quot;:true,&quot;include_optin_registration_tags&quot;:null},&quot;rgStoreItems&quot;:[{&quot;item_type&quot;:0,&quot;id&quot;:5020310,&quot;gid&quot;:null,&quot;success&quot;:1,&quot;visible&quot;:1,&quot;unvailable_for_country_restriction&quot;:null,&quot;name&quot;:&quot;Dub Together&quot;,&quot;store_url_path&quot;:&quot;app/5020310/Dub_Together&quot;,&quot;store_url_slug&quot;:&quot;Dub_Together&quot;,&quot;appid&quot;:5020310,&quot;type&quot;:0,&quot;included_types&quot;:[],&quot;included_appids&quot;:[],&quot;is_free&quot;:null,&quot;is_early_access&quot;:null,&quot;related_items&quot;:null,&quot;included_items&quot;:null,&quot;content_descriptorids&quot;:[],&quot;tagids&quot;:[],&quot;categories&quot;:{&quot;supported_player_categoryids&quot;:[2,1,49,36],&quot;feature_categoryids&quot;:[30,23,17,62],&quot;controller_categoryids&quot;:[]},&quot;reviews&quot;:null,&quot;basic_info&quot;:null,&quot;tags&quot;:[],&quot;assets&quot;:null,&quot;release&quot;:null,&quot;platforms&quot;:null,&quot;game_rating&quot;:null,&quot;is_coming_soon&quot;:null,&quot;best_purchase_option&quot;:{&quot;packageid&quot;:1741003,&quot;bundleid&quot;:null,&quot;purchase_option_name&quot;:&quot;Dub Together&quot;,&quot;final_price_in_cents&quot;:&quot;499&quot;,&quot;original_price_in_cents&quot;:null,&quot;formatted_final_price&quot;:&quot;$4.99&quot;,&quot;formatted_original_price&quot;:null,&quot;discount_pct&quot;:null,&quot;bundle_discount_pct&quot;:null,&quot;is_free_to_keep&quot;:null,&quot;price_before_bundle_discount&quot;:null,&quot;formatted_price_before_bundle_discount&quot;:null,&quot;active_discounts&quot;:[],&quot;user_can_purchase_as_gift&quot;:1,&quot;is_commercial_license&quot;:null,&quot;should_suppress_discount_pct&quot;:null,&quot;hide_discount_pct_for_compliance&quot;:0,&quot;included_game_count&quot;:1,&quot;lowest_recent_price_in_cents&quot;:null,&quot;requires_shipping&quot;:null,&quot;recurrence_info&quot;:null,&quot;free_to_keep_ends&quot;:null,&quot;must_purchase_as_set&quot;:0,&quot;package_group&quot;:&quot;default&quot;,&quot;is_edition&quot;:null,&quot;free_to_keep_base_package&quot;:null,&quot;price_cannot_be_displayed_as_discount&quot;:0,&quot;price_to_base_discount_on&quot;:null,&quot;free_with_master_sub_appid&quot;:null,&quot;formatted_lowest_recent_price&quot;:null,&quot;is_free_license&quot;:null,&quot;combined_discount_pct&quot;:null},&quot;purchase_options&quot;:[],&quot;self_purchase_option&quot;:null,&quot;screenshots&quot;:null,&quot;trailers&quot;:null,&quot;supported_languages&quot;:[],&quot;store_url_path_override&quot;:null,&quot;free_weekend&quot;:null,&quot;unlisted&quot;:null,&quot;game_count&quot;:null,&quot;internal_name&quot;:null,&quot;full_description_bbcode&quot;:null,&quot;is_free_temporarily&quot;:null,&quot;assets_without_overrides&quot;:null,&quot;user_filter_failure&quot;:null,&quot;links&quot;:[],&quot;purchase_description_bbcode&quot;:null,&quot;package_groups&quot;:[],&quot;extra_details&quot;:null,&quot;optin_registration_tags&quot;:[],&quot;purchase_notes&quot;:[]}]}]}"></div><div  data-featuretarget="apppage-gameinterest-cache" data-props="{&quot;appid&quot;:5020310,&quot;userInterest&quot;:{&quot;owned&quot;:null,&quot;wishlist&quot;:null,&quot;ignored&quot;:null,&quot;following&quot;:null,&quot;in_queues&quot;:[],&quot;queues_with_skip&quot;:[],&quot;queue_items_remaining&quot;:[],&quot;queue_items_next_appid&quot;:[],&quot;temporarily_owned&quot;:null,&quot;queues&quot;:[],&quot;ignored_reason&quot;:null,&quot;beta_status&quot;:null}}"></div>
+	<!-- page width wrapper: gutters, max width and the horizontal bleed variable -->
+	<div id="tabletGrid" class="tablet_grid">
+
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+
+		<meta itemprop="image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5020310/33f05f1c5a6e74374e0994eab7d150a0a42e496f/capsule_231x87.jpg?t=1790943462">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" style="display: none;">
+				<meta itemprop="priceCurrency" content="USD">
+				<meta itemprop="price" content="4.99">
+							</div>
+		
+		<div class="page_top_area">
+						<div class="game_page_background_ctn game">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5020310/7d8e374c4be0435e1bc90f4d888fd796f692e6af/page_bg_raw.jpg?t=1790943462" class="gameColor" alt="">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5020310/7d8e374c4be0435e1bc90f4d888fd796f692e6af/page_bg_raw.jpg?t=1790943462" class="gameTexture" alt="">
+			</div>
+
+		<div class="page_title_area game_title_area page_content" data-gpnav="columns">
+			<div class="breadcrumbs" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+								<div class="blockbg">
+											<a href="https://store.steampowered.com/search/?term=&snr=1_5_9__205">All Games</a>
+																					&gt; <a href="https://store.steampowered.com/genre/Indie/?snr=1_5_9__205">Indie Games</a>
+																										&gt; <a href="https://store.steampowered.com/app/5020310/?snr=1_5_9__205"><span itemprop="name">Dub Together</span></a>
+									</div>
+				<div style="clear: left;"></div>
+							</div>
+						
+
+<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+		                      <div class="apphub_OtherSiteInfo">
+
+                    
+                <a class="btnv6_blue_hoverfade btn_medium" href="https://steamcommunity.com/app/5020310">
+                    <span>Community Hub</span>
+                </a>
+            </div>
+         		<div class="apphub_AppIcon"><img src="https://shared.fastly.steamstatic.com/community_assets/images/apps/5020310/c3c4557d025e1ff2a821f21464586c4c9bbf2a73.jpg"><div class="overlay"></div></div>
+		<div id="appHubAppName" class="apphub_AppName" role="heading" aria-level="1">Dub Together</div>
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+											</div>
+		<div style="clear: left;"></div>
+
+
+		<div class="block game_media_and_summary_ctn">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+			</script>
+
+			
+			<div class="game_background_glow">
+				
+
+				
+								
+				
+					
+								<div id="page_header_img" class="responsive_page_header_img" style="display: none;">
+					<img style="width:100%;" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462" alt="Dub Together">
+				</div>
+
+				<div class="block_content page_content" id="broadcast">
+
+				
+				</div>
+				<div class="block_content page_content" id="game_highlights" data-panel="{&quot;navKey&quot;:&quot;game_highlights&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+
+				<div class="rightcol" data-panel="{&quot;flow-children&quot;:&quot;column&quot;,&quot;navKey&quot;:&quot;rightcol&quot;}">
+					<div class="glance_ctn">
+												<div id="gameHeaderCtn" class="game_header_ctn">
+							<div id="gameHeaderImageCtn" class="game_header_image_ctn">
+								<img class="game_header_image_full" alt="" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462">
+
+																<div id="appHubAppName_responsive" style="display: none;" class="apphub_AppName">Dub Together</div>
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="appHeaderGridContainer" class="app_header_grid_container" style="display:none">
+
+																			<div class="grid_label">Developer</div>
+										<div class="grid_content">
+											<a href="https://store.steampowered.com/search/?developer=Banani&snr=1_5_9__400">Banani</a>										</div>
+																																							<div class="grid_label">Publisher</div>
+											<div class="grid_content">
+												<a href="https://store.steampowered.com/search/?publisher=Banani&snr=1_5_9__422">Banani</a>											</div>
+																			
+																			<div class="grid_label grid_date">Released</div>
+										<div class="grid_content grid_date">
+											Sep 1, 2026										</div>
+																	</div>
+							</div>
+															<div class="game_description_snippet">
+									Up to eight players redub video clips and give them a whole new meaning. You record the scene, then watch every result together and vote. With voice effects, a built-in clip editor and live voting from your Twitch chat.								</div>
+													</div> 												<div id="glanceMidCtn" class="glance_mid_ctn">
+						<div class="glance_ctn_responsive_left">
+																													<div id="userReviews" class="user_reviews">
+
+																											<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="92% of the 484 user reviews in the last 30 days are positive.">
+										<div class="subtitle column">Recent Reviews:</div>
+										<div class="summary column">
+											<span class="game_review_summary positive">Very Positive</span>
+																							<span class="responsive_hidden">
+													(484)
+												</span>
+																																	<span class="nonresponsive_hidden responsive_reviewdesc">
+												- 92% of the 484 user reviews in the last 30 days are positive.											</span>
+										</div>
+									</a>
+									
+																		<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="93% of the 773 user reviews for this game are positive." itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">
+											All Reviews:										</div>
+										<div class="summary column">
+																					<span class="game_review_summary positive" itemprop="description">Very Positive</span>
+																							<span class="responsive_hidden">
+													(773)
+												</span>
+																																	<span class="nonresponsive_hidden responsive_reviewdesc">
+												- 93% of the 773 user reviews for this game are positive.											</span>
+
+											<!-- microdata -->
+											<meta itemprop="reviewCount" content="773">
+											<meta itemprop="ratingValue" content="9">
+											<meta itemprop="bestRating" content="10">
+											<meta itemprop="worstRating" content="1">
+																				</div>
+									</a>
+								</div>
+							
+															<div class="release_date">
+									<div class="subtitle column">Release Date:</div>
+									<div class="date">Sep 1, 2026</div>
+								</div>
+							
+																						<div class="dev_row">
+									<div class="subtitle column">Developer:</div>
+									<div class="summary column" id="developers_list">
+										<a href="https://store.steampowered.com/search/?developer=Banani&snr=1_5_9__2000">Banani</a>									</div>
+								</div>
+							
+																								<div class="dev_row">
+										<div class="subtitle column">Publisher:</div>
+										<div class="summary column">
+										<a href="https://store.steampowered.com/search/?publisher=Banani&snr=1_5_9__422">Banani</a>										</div>
+									</div>
+															
+																				</div>
+
+						<div id="glanceCtnResponsiveRight" class="glance_ctn_responsive_right" data-panel="{&quot;navKey&quot;:&quot;glanceCtnResponsiveRight&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="responsive_block_header">Tags</div>
+									<div class="glance_tags_ctn popular_tags_ctn" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+										<div class="glance_tags_label">Popular user-defined tags for this product:</div>
+										<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="glance_tags popular_tags" data-appid="5020310">
+											<a href="https://store.steampowered.com/tags/en/Party%20Game/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Party Game												</a><a href="https://store.steampowered.com/tags/en/Multiplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Multiplayer												</a><a href="https://store.steampowered.com/tags/en/Funny/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Funny												</a><a href="https://store.steampowered.com/tags/en/Casual/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Casual												</a><a href="https://store.steampowered.com/tags/en/Comedy/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Comedy												</a><a href="https://store.steampowered.com/tags/en/Parody%20/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Parody 												</a><a href="https://store.steampowered.com/tags/en/FMV/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												FMV												</a><a href="https://store.steampowered.com/tags/en/Level%20Editor/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Level Editor												</a><a href="https://store.steampowered.com/tags/en/Memes/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Memes												</a><a href="https://store.steampowered.com/tags/en/PvP/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												PvP												</a><a href="https://store.steampowered.com/tags/en/Cartoon/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Cartoon												</a><a href="https://store.steampowered.com/tags/en/Indie/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Indie												</a><a href="https://store.steampowered.com/tags/en/Colorful/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Colorful												</a><a href="https://store.steampowered.com/tags/en/Cute/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Cute												</a><a href="https://store.steampowered.com/tags/en/Artificial%20Intelligence/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Artificial Intelligence												</a><a href="https://store.steampowered.com/tags/en/Family%20Friendly/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Family Friendly												</a><a href="https://store.steampowered.com/tags/en/2D/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												2D												</a><div class="app_tag add_button" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowAppTagModal( 5020310 )">+</div>
+										</div>
+									</div>
+																						</div> 																					<div id="reviewsHeader_responsive" style="display: none;" class="responsive_block_header">Reviews</div>
+															<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" id="userReviews_responsive" style="display: none;" class="user_reviews" onclick="window.location='#app_reviews_hash'">
+
+																		<a id="appReviewsAll_responsive" class="user_reviews_summary_row" href="#app_reviews_hash">
+										<div class="subtitle column all">All Reviews:</div>
+										<div class="summary column">
+																					<span class="responsive_reviewdesc_short">
+												<span class="desc_short">All Time:</span>
+																								<span class="game_review_summary positive">Very Positive</span>
+												(93% of 773)
+											</span>
+																				</div>
+									</a>
+
+																											<a id="appReviewsRecent_responsive" class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="92% of the 484 user reviews in the last 30 days are positive.">
+										<div class="subtitle column">Recent Reviews:</div>
+										<div class="summary column">
+											<span class="responsive_reviewdesc_short">
+												<span class="desc_short">Recent:</span>
+																								<span class="game_review_summary positive">Very Positive</span>
+												(92% of 484)
+											</span>
+										</div>
+									</a>
+																	</div>
+																				</div>
+					</div>
+				</div>
+
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;navKey&quot;:&quot;leftcol&quot;,&quot;flow-children&quot;:&quot;column&quot;}" class="leftcol">
+					<div class="highlight_ctn">
+													<div class="highlight_overflow">
+								<div class="gamehighlight_desktopskeleton">
+									<div class="gamehighlight_desktopskeleton_itemview"></div>
+									<div class="gamehighlight_desktopskeleton_stripitems"></div>
+									<div class="gamehighlight_desktopskeleton_stripscrollbar"></div>
+								</div>
+								<div class="gamehighlight_desktopcarousel" data-featuretarget="gamehighlight-desktopcarousel" data-props="{&quot;appName&quot;:&quot;Dub Together&quot;,&quot;trailers&quot;:[{&quot;id&quot;:1,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257408026\/5845e86367ef4224059510bec4d71d017932e9df\/movie_232x130.jpg?t=1787658090&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257408026\/5845e86367ef4224059510bec4d71d017932e9df\/movie_600x337.jpg?t=1787658090&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/5020310\/1929316456&quot;,&quot;category&quot;:1,&quot;title&quot;:&quot;Dub Together Gameplay Trailer&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5020310\/1929316456\/68a601cb1fbb95beebfee8e7e583ecb44e10085c\/1787655078\/dash_av1.mpd?t=1787658090&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5020310\/1929316456\/68a601cb1fbb95beebfee8e7e583ecb44e10085c\/1787655078\/dash_h264.mpd?t=1787658090&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5020310\/1929316456\/68a601cb1fbb95beebfee8e7e583ecb44e10085c\/1787655078\/hls_264_master.m3u8?t=1787658090&quot;}],&quot;screenshots&quot;:[{&quot;name&quot;:&quot;e27d8e87368ae7a7a835ace05de81c1cc6b23b0e_ss_e27d8e87368ae7a7a835ace05de81c1cc6b23b0e.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/e27d8e87368ae7a7a835ace05de81c1cc6b23b0e\/ss_e27d8e87368ae7a7a835ace05de81c1cc6b23b0e.116x65.jpg?t=1790943462&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/e27d8e87368ae7a7a835ace05de81c1cc6b23b0e\/ss_e27d8e87368ae7a7a835ace05de81c1cc6b23b0e.600x338.jpg?t=1790943462&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/e27d8e87368ae7a7a835ace05de81c1cc6b23b0e\/ss_e27d8e87368ae7a7a835ace05de81c1cc6b23b0e.1920x1080.jpg?t=1790943462&quot;,&quot;altText&quot;:&quot;Screenshot #0&quot;},{&quot;name&quot;:&quot;4e14d8fa308fd177f2db789f77d9b86c0b93b62c_ss_4e14d8fa308fd177f2db789f77d9b86c0b93b62c.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/4e14d8fa308fd177f2db789f77d9b86c0b93b62c\/ss_4e14d8fa308fd177f2db789f77d9b86c0b93b62c.116x65.jpg?t=1790943462&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/4e14d8fa308fd177f2db789f77d9b86c0b93b62c\/ss_4e14d8fa308fd177f2db789f77d9b86c0b93b62c.600x338.jpg?t=1790943462&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/4e14d8fa308fd177f2db789f77d9b86c0b93b62c\/ss_4e14d8fa308fd177f2db789f77d9b86c0b93b62c.1920x1080.jpg?t=1790943462&quot;,&quot;altText&quot;:&quot;Screenshot #1&quot;},{&quot;name&quot;:&quot;04794e7f3fcf845cbef33f19c35ce9c7fe600aec_ss_04794e7f3fcf845cbef33f19c35ce9c7fe600aec.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/04794e7f3fcf845cbef33f19c35ce9c7fe600aec\/ss_04794e7f3fcf845cbef33f19c35ce9c7fe600aec.116x65.jpg?t=1790943462&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/04794e7f3fcf845cbef33f19c35ce9c7fe600aec\/ss_04794e7f3fcf845cbef33f19c35ce9c7fe600aec.600x338.jpg?t=1790943462&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/04794e7f3fcf845cbef33f19c35ce9c7fe600aec\/ss_04794e7f3fcf845cbef33f19c35ce9c7fe600aec.1920x1080.jpg?t=1790943462&quot;,&quot;altText&quot;:&quot;Screenshot #2&quot;},{&quot;name&quot;:&quot;65fe60b663bf33a375789f1b66882143e9b3d95e_ss_65fe60b663bf33a375789f1b66882143e9b3d95e.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/65fe60b663bf33a375789f1b66882143e9b3d95e\/ss_65fe60b663bf33a375789f1b66882143e9b3d95e.116x65.jpg?t=1790943462&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/65fe60b663bf33a375789f1b66882143e9b3d95e\/ss_65fe60b663bf33a375789f1b66882143e9b3d95e.600x338.jpg?t=1790943462&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/65fe60b663bf33a375789f1b66882143e9b3d95e\/ss_65fe60b663bf33a375789f1b66882143e9b3d95e.1920x1080.jpg?t=1790943462&quot;,&quot;altText&quot;:&quot;Screenshot #3&quot;},{&quot;name&quot;:&quot;dde2899b7e9ab050980c347be83309927bd443e0_ss_dde2899b7e9ab050980c347be83309927bd443e0.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/dde2899b7e9ab050980c347be83309927bd443e0\/ss_dde2899b7e9ab050980c347be83309927bd443e0.116x65.jpg?t=1790943462&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/dde2899b7e9ab050980c347be83309927bd443e0\/ss_dde2899b7e9ab050980c347be83309927bd443e0.600x338.jpg?t=1790943462&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/dde2899b7e9ab050980c347be83309927bd443e0\/ss_dde2899b7e9ab050980c347be83309927bd443e0.1920x1080.jpg?t=1790943462&quot;,&quot;altText&quot;:&quot;Screenshot #4&quot;},{&quot;name&quot;:&quot;9c92549805b7d0bab2b05cff3b1e394566b725b6_ss_9c92549805b7d0bab2b05cff3b1e394566b725b6.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/9c92549805b7d0bab2b05cff3b1e394566b725b6\/ss_9c92549805b7d0bab2b05cff3b1e394566b725b6.116x65.jpg?t=1790943462&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/9c92549805b7d0bab2b05cff3b1e394566b725b6\/ss_9c92549805b7d0bab2b05cff3b1e394566b725b6.600x338.jpg?t=1790943462&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/9c92549805b7d0bab2b05cff3b1e394566b725b6\/ss_9c92549805b7d0bab2b05cff3b1e394566b725b6.1920x1080.jpg?t=1790943462&quot;,&quot;altText&quot;:&quot;Screenshot #5&quot;},{&quot;name&quot;:&quot;260e8616b72c4d46c7dad8ddb36fe27cc2cbf2c9_ss_260e8616b72c4d46c7dad8ddb36fe27cc2cbf2c9.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/260e8616b72c4d46c7dad8ddb36fe27cc2cbf2c9\/ss_260e8616b72c4d46c7dad8ddb36fe27cc2cbf2c9.116x65.jpg?t=1790943462&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/260e8616b72c4d46c7dad8ddb36fe27cc2cbf2c9\/ss_260e8616b72c4d46c7dad8ddb36fe27cc2cbf2c9.600x338.jpg?t=1790943462&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5020310\/260e8616b72c4d46c7dad8ddb36fe27cc2cbf2c9\/ss_260e8616b72c4d46c7dad8ddb36fe27cc2cbf2c9.1920x1080.jpg?t=1790943462&quot;,&quot;altText&quot;:&quot;Screenshot #6&quot;}]}"></div>
+							</div>
+											</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			</div>
+
+
+			
+			
+
+			
+		</div>
+
+
+		</div>
+			<div class="queue_and_playtime">
+				<div class="game_background_lighten">
+					<div class="game_background_lighten_border"></div>
+				</div>
+									<div class="queue_overflow_ctn">
+													<div class="queue_ctn">
+																<div id="queueActionsCtn" class="queue_actions_ctn">
+									<p><a href="https://store.steampowered.com/login/?redir=app%2F5020310&snr=1_5_9_">Sign in</a> to add this item to your wishlist, follow it, or mark it as ignored</p>
+																			<div id="shareBtn"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowNavigatorShare()" aria-label="Share"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_share_ios.svg" alt=""></span></a></div>
+																	</div>
+							</div>
+						
+												<div id="rowBtnActions" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" style="display: none;"></div>
+
+					</div>
+				
+				
+				
+																												
+				
+								
+				<div id="purchaseOptionsContent" class="purchase_options_content" style="display: none;">
+					<!-- game_area_purchase goes here -->
+				</div>
+			</div>
+
+		
+		<div class="page_content middle_page" data-panel="[]" >
+
+				<!-- Right Column -->
+				<div class="rightcol game_meta_data" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+					
+					<div id="responsive_apppage_details_left_ctn"></div>
+
+					<div id="responsive_apppage_details_right_ctn"></div>
+					<div style="clear: both;"></div>
+					
+					<!-- testing a banner on Desktop to open the current page in the desktop Steam client.  When that banner is displayed this section should be hidden. -->
+																		
+
+
+
+
+
+					
+					
+					
+
+												<div class="responsive_block_header responsive_apppage_details_left">Features</div>
+							<div class="block responsive_apppage_details_left" id="category_block">
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="game_area_features_list_ctn">
+									<a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=2&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_singlePlayer.png" alt=""></div><div class="label">Single-player</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=36&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_multiPlayer.png" alt=""></div><div class="label">Online PvP</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=30&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_workshop.png" alt=""></div><div class="label">Steam Workshop</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=23&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_cloud.png" alt=""></div><div class="label">Steam Cloud</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=17&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_editor.png" alt=""></div><div class="label">Includes level editor</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=62&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_familysharing.png" alt=""></div><div class="label">Family Sharing</div></a>
+<div  data-featuretarget="store-sidebar-accessibility-info" data-props="{&quot;bAccessibilityResizableUI&quot;:false,&quot;bAccessibilitySubtitles&quot;:false,&quot;bAccessibilityColorAlternatives&quot;:false,&quot;bAccessibilityCameraComfort&quot;:false,&quot;bAccessibilityBackgroundVolumeControls&quot;:false,&quot;bAccessibilityStereoSound&quot;:false,&quot;bAccessibilitySurroundSound&quot;:false,&quot;bAccessibilityNarratedMenus&quot;:false,&quot;bAccessibilityChatSpeechtoText&quot;:false,&quot;bAccessibilityChatTexttoSpeech&quot;:false,&quot;bAccessibilityPlayableWithoutQuicktimeEvents&quot;:false,&quot;bAccessibilityKeyboardOnlyOption&quot;:false,&quot;bAccessibilityMouseOnlyOption&quot;:false,&quot;bAccessibilityTouchOnlyOption&quot;:false,&quot;bAccessibilityDifficultyLevels&quot;:false,&quot;bAccessibilitySaveAnytime&quot;:false,&quot;bAccessibilityPlayableAtYourOwnPace&quot;:false,&quot;bAccessibilityPlayableWithoutVision&quot;:false,&quot;bAccessibilityContrastControls&quot;:false}"></div>								</div>
+								
+								<div data-featuretarget="store-sidebar-controller-support-info" data-props="{&quot;unAppID&quot;:5020310,&quot;bFullXboxControllerSupport&quot;:false,&quot;bPartialXboxControllerSupport&quot;:false,&quot;bPS4ControllerSupport&quot;:false,&quot;bPS4ControllerBTSupport&quot;:false,&quot;bPS5ControllerSupport&quot;:false,&quot;bPS5ControllerBTSupport&quot;:false,&quot;bSteamInputAPISupport&quot;:false,&quot;bNoKeyboardSupport&quot;:false,&quot;bGamepadPreferred&quot;:false,&quot;bControllerSupportWizardComplete&quot;:true,&quot;bHasXbox&quot;:null,&quot;bHasPS4&quot;:null,&quot;bHasPS5&quot;:null,&quot;bHasOther&quot;:false}"></div>
+								
+								
+								
+								
+								
+								
+															</div>
+																			<div class="block responsive_apppage_details_right">
+								<div class="block_title" id="LanguagesHeader">
+									Languages<span class="responsive_hidden">:</span>
+								</div>
+
+								
+<div id="bannerLanguages" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="ToggleBannerContentVisibility('#languageTable', '#expandLanguageBtn')">
+	<div class="responsive_banner_link_title">
+		English and 6 more	</div>
+	<div id="expandLanguageBtn" class="expand_section"></div>
+</div>
+<div id="languageTable">
+
+<table  class="game_language_options" cellpadding="0" cellspacing="0">
+	<tr>
+		<th style="width: 94px;"></th>
+				<th class="checkcol">Interface</th>
+		<th class="checkcol">Full Audio</th>
+		<th class="checkcol">Subtitles</th>
+	</tr>
+
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				English			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				German			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				French			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Italian			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Spanish - Spain			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Portuguese - Brazil			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Russian			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+	</table>
+	<script type="text/javascript">
+		function ShowAllLanguages( elLink )
+		{
+			if ( typeof GetUsabilityTracker !== 'undefined' )
+				GetUsabilityTracker().AddEvent( 1002 );
+
+			$J('table.game_language_options tr').show();
+			$J( elLink ).hide();
+			return false;
+		}
+	</script>
+	<a class="all_languages" onclick="return ShowAllLanguages( this )">See all 7 supported languages</a>
+
+
+</div>
+
+							</div>
+																		<div data-featuretarget="deck-verified-results"></div>
+					
+					<div class="responsive_apppage_details_right" data-featuretarget="game-rating-block" data-props="{&quot;bRatingAllowed&quot;:true,&quot;bHideRatingTitle&quot;:false}"></div>
+					
+					
+											<div id="appDetailsUnderlinedLinks" class="block responsive_apppage_details_left game_details underlined_links">
+							<div class="block_content">
+								<div class="block_content_inner">
+									<div id="genresAndManufacturer" class="details_block">
+
+			<b>Title:</b> Dub Together<br>
+	
+				<b>Genre:</b> <span data-panel="{&quot;flow-children&quot;:&quot;row&quot;}"><a href="https://store.steampowered.com/genre/Casual/?snr=1_5_9__408">Casual</a>, <a href="https://store.steampowered.com/genre/Indie/?snr=1_5_9__408">Indie</a></span><br>
+			
+			<div class="dev_row">
+			<b>Developer:</b>
+
+				<a href="https://store.steampowered.com/search/?developer=Banani&snr=1_5_9__408">Banani</a>
+		</div>
+	
+			<div class="dev_row">
+			<b>Publisher:</b>
+
+				<a href="https://store.steampowered.com/search/?publisher=Banani&snr=1_5_9__422">Banani</a>
+		</div>
+	
+			
+	            <b>Release Date:</b> Sep 1, 2026<br>
+        
+            	</div>
+
+
+<div class="details_block" style="padding-top: 14px;">
+
+		
+					<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.com%2Finvite%2Fdub-together%3Fproof%3Dedae0e2afc7a6b4c" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://discord.com/invite/dub-together?proof=edae0e2afc7a6b4c">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M823,229.3c-58.9-27-121-46.1-184.9-56.9-8.7,15.6-16.6,31.7-23.7,48.1-68-10.2-137.1-10.2-205.1,0-7-16.4-14.9-32.5-23.7-48.1-63.9,10.9-126.1,30.1-185,57-117,173.1-148.7,341.9-132.8,508.3h0c68.5,50.6,145.2,89.1,226.7,113.8,18.4-24.7,34.6-50.9,48.6-78.3-26.5-9.9-52.1-22.1-76.5-36.5,6.4-4.7,12.7-9.4,18.7-14.1,143.6,67.5,309.7,67.5,453.3,0,6.1,5,12.4,9.8,18.7,14.1-24.4,14.4-50,26.7-76.6,36.6,13.9,27.4,30.2,53.6,48.6,78.2,81.6-24.6,158.3-63.1,226.9-113.7h0c18.6-193-31.8-360.2-133.2-508.5h0ZM363.2,635.4c-44.2,0-80.7-40.1-80.7-89.4s35.2-89.8,80.6-89.8,81.5,40.5,80.8,89.8c-.8,49.3-35.6,89.4-80.6,89.4h-.1ZM660.8,635.4c-44.3,0-80.6-40.1-80.6-89.4s35.2-89.8,80.6-89.8,81.3,40.5,80.6,89.8c-.8,49.3-35.5,89.4-80.6,89.4Z"/>
+			</svg>
+							<span class="social_account">Discord</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+						
+	
+	
+	
+	
+	
+	
+	
+			<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/?appids=5020310&amp;snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			View update history		</a>
+		<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/app/5020310?snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			Read related news		</a>
+	
+				<a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/5020310/discussions/" target="_blank" rel="noreferrer" >
+			View discussions		</a>
+	
+            <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/5020310/workshop/" target="_blank" rel="noreferrer" >
+            Visit the Workshop        </a>
+    
+	        <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/actions/Search?T=ClanAccount&K=Dub%20Together">
+            Find Community Groups        </a>
+    </div>
+								</div>
+							</div>
+													</div>
+					
+																		<div id="shareEmbedRow" class="block responsive_apppage_details_left" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+								<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowEmbedWidget(5020310); return false;"><span>Embed</span></a>
+								<a id="ReportAppBtn" class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5020310)"><span data-tooltip-text="Report this Product" aria-label="Report this Product"><i class="ico16 reportv6"></i>&nbsp;</span></a>
+							</div>
+						
+						<div id="reportBtn" style="display:none;"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5020310)"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_report.svg" alt="Report this Product"></span></a></div>
+					
+					
+															
+											<div id="appLinksAndInfoCtn" style="display:none;">
+							<div class="responsive_block_header">Links &amp; info</div>
+							<div id="appLinksAndInfo" class="game_page_autocollapse" style="max-height: 180px;"></div>
+						</div>
+					
+				</div>
+				<!-- End Right Column -->
+
+
+				<div class="leftcol game_description_column"  data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+
+					
+										
+					
+					<div id="game_area_purchase" class="game_area_purchase">
+																			
+																						
+
+							
+																																									<!--[if lte IE 7]>
+<style type="text/css">
+.game_area_purchase_game_dropdown_right_panel .btn_addtocart { float: none; }
+</style>
+<![endif]-->
+
+<div class="game_area_purchase_game_wrapper">
+			<div class="game_area_purchase_game" id="game_area_purchase_section_add_to_cart_1741003" role="region" aria-labelledby="game_area_purchase_section_add_to_cart_title_1741003">
+				<form name="add_to_cart_1741003" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="originating_snr" value="1_direct-navigation__">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="59e84655cb12786f852ea46c">
+			<input type="hidden" name="subid" value="1741003">
+		</form>
+		<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h2 id="game_area_purchase_section_add_to_cart_title_1741003" class="title">Buy Dub Together</h2>
+				
+		
+										
+		<div class="game_purchase_action">
+																<div class="game_purchase_action_bg">
+															<div class="game_purchase_price price" data-price-final="499">
+							$4.99						</div>
+													<div class="btn_addtocart">
+																																<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium" href="javascript:addToCart(1741003);" id="btn_add_to_cart_1741003">
+								<span>Add to Cart</span>
+							</a>
+																		
+				</div>
+							</div>
+		</div>
+	</div>
+		</div>
+
+<div data-panel="[]" class="game_area_purchase_game_wrapper dynamic_bundle_description ds_no_flags"  data-ds-bundleid="87368" data-ds-bundle-data="{&quot;m_nDiscountPct&quot;:&quot;10&quot;,&quot;m_bMustPurchaseAsSet&quot;:1,&quot;m_rgItems&quot;:[{&quot;m_nPackageID&quot;:1540783,&quot;m_rgIncludedAppIDs&quot;:[4412000],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:699,&quot;m_nFinalPriceInCents&quot;:699,&quot;m_nFinalPriceWithBundleDiscount&quot;:629},{&quot;m_nPackageID&quot;:1741003,&quot;m_rgIncludedAppIDs&quot;:[5020310],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:449}],&quot;m_bIsCommercial&quot;:false,&quot;m_bRestrictGifting&quot;:false}" data-ds-itemkey="Bundle_87368" data-ds-tagids="[560542,7178,615955,597,3859,4236,4136]" data-ds-crtrids="[45814459]" >
+
+	<div class="game_area_purchase_game_dropdown_subscription game_area_purchase_game" role="region" aria-labelledby="bundle_purchase_label_87368">
+		<form name="add_bundle_to_cart_87368" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="59e84655cb12786f852ea46c">
+			<input type="hidden" name="bundleid" value="87368">
+		</form>
+				<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h2 id="bundle_purchase_label_87368" class="title">
+			Buy Zad Archery X Dub Together					</h2>
+
+		
+		<p class="package_contents package_contents_collapsed">
+						<b>Includes 2 items:</b>
+			<a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/4412000/Zad_Archery/">Zad Archery</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5020310/Dub_Together/">Dub Together</a>					</p>
+
+		<div class="game_purchase_action">
+																	<div class="game_purchase_action_bg">
+					<div class="btn_addtocart btn_packageinfo">
+						<a class="btn_blue_steamui btn_medium" href="https://store.steampowered.com/bundle/87368/Zad_Archery_X_Dub_Together/?snr=1_5_9__403">
+							<span>Bundle info</span>
+						</a>
+					</div>
+				</div>
+						<div class="game_purchase_action_bg">
+				<div class="discount_block game_purchase_discount no_discount" data-price-final="1078" data-bundlediscount="10" data-discount="10"><div class="bundle_base_discount" aria-hidden="true" data-tooltip-text="This is what you save by buying these items together in the bundle">-10%</div><div class="discount_pct" aria-hidden="true" data-tooltip-text="In addition to the bundle discount, one or more items in this bundle has a limited-time discount, making the total discount larger">-10%</div><div class="discount_prices" aria-hidden="true"><div class="discount_original_price">$11.98</div><div class="discount_final_price">$10.78</div></div><span class="discount_aria_label">10% off. $11.98 normally, discounted to $10.78</span></div>
+
+				<div class="btn_addtocart">
+																		<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium"
+							   href="javascript:addBundleToCart( 87368);">
+
+								<span>Add to Cart</span>
+
+							</a>
+															</div>
+
+
+								<div class="btn_addtocart btn_packageinfo btn_addtoaccount" style="display: none" data-tooltip-text="This game is available for free to your account.  Click here to add this game to your account.">
+						<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_blue_steamui btn_medium" onclick="AddFreeBundle( 87368, &quot;Zad Archery X Dub Together&quot; );">
+							<span>Add to Account</span>
+						</span>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+												
+					</div>
+					<!-- game_area_purchase -->
+
+					
+											<div id="bannerCommunity" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="window.location='https://steamcommunity.com/app/5020310'">
+							<div class="responsive_banner_link_title responsive_chevron_right">View Community Hub</div>
+						</div>
+					
+					<div class="purchase_area_spacer">&nbsp;</div>
+
+					
+					
+					<div  data-featuretarget="deck-topplayed-banner" data-props="{&quot;app_name&quot;:&quot;Dub Together&quot;,&quot;appid&quot;:5020310}"></div>
+																								<script type="text/javascript">
+							var StoreDefaults = {"PartnerEventStore":[{"gid":"683016729753820870","clan_steamid":"103582791475779350","event_name":"\ud83c\udf89 200.000 COPIES SOLD! \u2764\ufe0f","event_type":28,"appid":5020310,"server_address":null,"server_password":null,"rtime32_start_time":1793119320,"rtime32_end_time":1793122380,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"6021f14f9a31536b34f164eb8a856e54b94e4328.png\",\"6021f14f9a31536b34f164eb8a856e54b94e4328.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"ef9dad726e54b9dca8fe4fb505c63fd038349264.png\",\"ef9dad726e54b9dca8fe4fb505c63fd038349264.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}","announcement_body":{"gid":"683016729753820871","clanid":"46257942","posterid":"0","headline":"\ud83c\udf89 200.000 COPIES SOLD! \u2764\ufe0f","posttime":1793119355,"updatetime":1793119355,"body":"[h1]Thank you![\/h1]\n\nWe just hit [b]200,000 copies sold[\/b] of [b]Dub Together[\/b], and honestly, we still can't believe it.\n\nSeeing so many people playing, laughing, and creating hilarious moments with their friends means the world to us.\n\nWhat started as a small project has grown into something we never could have imagined.\n\n[b]Thank you so much for all the support, feedback, and love you've shown the game. \u2764\ufe0f[\/b]\n\nAnd don't worry, we're not done yet! More updates and new content are on the way.\n\n[b]Here's to 200K and beyond! [\/b]\n\nMuch love,\n- Leon & Luca","commentcount":7,"tags":["mod_reviewed","ModAct_1691520782_1793120139_0"],"language":0,"hidden":0,"forum_topic_id":"574930920107180806","event_gid":"683016729753820870","voteupcount":82,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"574930920107180806","rtime32_last_modified":1793401245,"news_post_gid":"0","rtime_mod_reviewed":1793120140,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1793118754,"votes_up":82,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"582807198746530460","gidfeature2":"574930920107180806"},{"gid":"683016729753819192","clan_steamid":"103582791475779350","event_name":"NEW GAME MODE & INGAME PROFILES ARE HERE!","event_type":14,"appid":5020310,"server_address":null,"server_password":null,"rtime32_start_time":1792960320,"rtime32_end_time":1792965601,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[\"Write topics for each other, show off your stats and badges, and style your profile\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"The new Scenario mode, player profiles with stats and badges, the animated Sakura Profile Pack, plus Make Changes.\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"aba1ce9cd2bcbeff5f4c2d6e4c43540a2a3b64a0.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}","announcement_body":{"gid":"683016729753819193","clanid":"46257942","posterid":"0","headline":"NEW GAME MODE & INGAME PROFILES ARE HERE!","posttime":1792960340,"updatetime":1792960340,"body":"[h2]\ud83c\udfac New mode: Scenario[\/h2]\nEveryone writes a topic first, or rolls the dice for an idea. Then:\n[list]\n[*][b]One topic each:[\/b] you get someone else's topic and dub your clip around it. Before every clip a title card shows the topic, and afterwards you see who came up with it.\n[*][b]One topic for all:[\/b] a spinning reel picks one topic for the whole round.\n[\/list]\nThe topic stays on screen while you record. Scenario is multiplayer only, and everyone needs the latest version.\n[h2]\ud83d\udc64 Profiles[\/h2]\nClick any player in the lobby to open their profile. Your own profile is in the top right of the main menu.\n[list]\n[*]Stats: rounds played, wins, podiums, votes received and takes recorded\n[*]Badges in bronze, silver and gold for rounds, wins, votes, takes and character mode\n[*]Free profile colors\n[*]Add players as Steam friends right from their profile\n[\/list]\nThe topic stays on screen while you record. Scenario is multiplayer only, and everyone needs the latest version.\n[h2]\ud83c\udf38 Sakura Profile Pack (DLC)[\/h2]\n18 animated cosmetics inspired by Japanese art: 8 nameplates, 4 profile motifs and 6 avatar frames. Purely cosmetic, and everyone in the lobby sees them, even without the pack. Profiles, stats and badges stay free for everyone.\n[h2]\u2728 More changes[\/h2]\n[list]\n[*][b]Make changes:[\/b] after submitting, you can go back and redo lines while others are still recording\n[*]Fullscreen now switches instantly, and new players start in fullscreen\n[*]New recording layout: two clear button rows, all voice effects in one menu that shows the active effect\n[*]Joining via lobby code and lobby list is more reliable, and lobbies recover by themselves after short Steam hiccups\n[*]Clearer help when Windows or an antivirus blocks the game's video tools\n[\/list]","commentcount":11,"tags":["mod_reviewed","ModAct_487176015_1792961658_0"],"language":0,"hidden":0,"forum_topic_id":"574930637987930738","event_gid":"683016729753819192","voteupcount":75,"votedowncount":3,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"574930637987930738","rtime32_last_modified":1793410403,"news_post_gid":"0","rtime_mod_reviewed":1792961658,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1792959514,"votes_up":75,"votes_down":3,"comment_type":"ForumTopic","gidfeature":"582807198746530460","gidfeature2":"574930637987930738"},{"gid":"683016729753819796","clan_steamid":"103582791475779350","event_name":"Quality Of Life Update for the Pack Creator","event_type":12,"appid":5020310,"server_address":null,"server_password":null,"rtime32_start_time":1793057700,"rtime32_end_time":1793062801,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"f7fdf25922c8523f231fda9411a828d74a87b29f.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[]}","announcement_body":{"gid":"683016729753819797","clanid":"46257942","posterid":"0","headline":"Quality Of Life Update for the Pack Creator","posttime":1793057746,"updatetime":1793057746,"body":"[h2]Pack Creator: one track per character[\/h2]\n\nYou told us the single timeline gets messy, especially when several characters talk at once. So we rebuilt it:\n[list]\n[*][b]Own track for every character:[\/b] Lines spoken at the same time now sit below each other instead of on top of each other.\n[*][b]Drag to reassign:[\/b] Drag a line into another track and it switches to that character.\n[*][b]Draw in a track:[\/b] A new line you draw in a track gets that character right away.\n[*][b]Rename in one go:[\/b] Double-click a character name to rename all of their lines. Type an existing name to merge two characters.\n[*][b]+ Character:[\/b] Adds a new track. Empty tracks can be removed with the x.\n[*][b]No character:[\/b] Lines without a character, for example after automatic line detection, wait in a red track until you drag them where they belong.\n[*][b]Lots of characters?[\/b] The timeline grows with them and scrolls when needed.\n[*]The character field now applies the name when you press Enter or click away, so lines no longer jump around while you type.\n[\/list]\n","commentcount":3,"tags":["patchnotes","mod_reviewed","ModAct_783923276_1793059100_0"],"language":0,"hidden":0,"forum_topic_id":"574930637988021516","event_gid":"683016729753819796","voteupcount":31,"votedowncount":2,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"574930637988021516","rtime32_last_modified":1793369576,"news_post_gid":"0","rtime_mod_reviewed":1793059101,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1793057447,"votes_up":31,"votes_down":2,"comment_type":"ForumTopic","gidfeature":"582807198746530460","gidfeature2":"574930637988021516"}],"EventWebRowEmbed":{"bPreLoaded":true,"announcementGIDList":["683016729753820871","683016729753819193"],"last_update_event":{"rtime":1793057700,"event_gid":"683016729753819796","announcement_gid":"683016729753819797","clan_account_id":46257942}}};
+						</script>
+					
+
+					<div data-featuretarget="events-row"></div>
+				
+								
+				
+				
+
+
+								<div id="contentForThisGame_ctn">
+				</div>
+									<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="aboutThisGame" class="game_page_autocollapse" style="max-height: 850px;">
+						<div id="game_area_description" class="game_area_description">
+							<h2>About This Game</h2>
+							<p class="bb_paragraph" >In <strong>Dub Together</strong> you redub video clips together. Up to eight players speak their lines into their own microphone and turn a scene everyone knows into something completely new.</p><p class="bb_paragraph" >Once all the recordings are done the curtain goes up and you watch together what came out of it.</p><h2 class="bb_tag" >Parallel Mode: Everyone dubs the same clip</h2><p class="bb_paragraph" >Everyone gets the same clip and makes their own version of it. At the end you pick the best one.</p><p class="bb_paragraph" ><strong>1. Record</strong></p><p class="bb_paragraph" >The clip plays without the original voices. You see your text and speak it to fit the scene, line by line, without hearing what the others are making of it.</p><p class="bb_paragraph" ><strong>2. Watch</strong></p><p class="bb_paragraph" >The curtain goes up and you watch every version in turn over the original picture.</p><p class="bb_paragraph" ><strong>3. Vote</strong></p><p class="bb_paragraph" >Everyone picks a favourite. The best version goes on the podium. Afterwards every version can be saved as a video.</p><h2 class="bb_tag" >Character Mode: Everyone voices one role</h2><p class="bb_paragraph" >Instead of eight separate versions you end up with a single one that everybody worked on. Two players or more.</p><p class="bb_paragraph" ><strong>1. Assign the roles</strong></p><p class="bb_paragraph" >Every character in the clip gets one performer. Roles nobody takes keep their original voice.</p><p class="bb_paragraph" ><strong>2. Record together</strong></p><p class="bb_paragraph" >You go through the lines together. Whoever is up speaks, the others watch. That way the dialogue grows out of the conversation instead of running side by side.</p><p class="bb_paragraph" ><strong>3. Watch</strong></p><p class="bb_paragraph" >You watch your shared version in one piece and save it as a video. There is no vote here, there is only one result.</p><p class="bb_paragraph" >This goes for both modes: a recording you are not happy with, you simply do again, as long as the round timer is running.</p><h2 class="bb_tag" >Give your voice a new sound</h2><p class="bb_paragraph" >You can pick a voice effect for every single line. Turn into a squeaky voice with Chipmunk, into a villain with Monster, or make things even more absurd with Echo, Robot and Phone.</p><p class="bb_paragraph" >The effects are applied straight to your recording. On playback everyone hears exactly the version you performed.</p><p class="bb_paragraph" >A built-in noise filter removes background noise between the sentences and makes sure that simple microphones still come out clean.</p><h2 class="bb_tag" >Turn your own clips into rounds</h2><p class="bb_paragraph" >The Pack Creator turns your own videos into playable rounds.</p><p class="bb_paragraph" >Just drop a clip in and trim it down to the part you want. The spoken parts are detected automatically and the matching text is written for them. Speech, music and background sound are separated from each other, so the atmosphere of the scene stays in while you replace the voices.</p><p class="bb_paragraph" >Finally you assign a character to each line, export the pack and can play it right away.</p><h2 class="bb_tag" >Share your packs on the Steam Workshop</h2><p class="bb_paragraph" >Upload your finished packs to the Workshop with one click, or subscribe to other people's. Whatever you subscribe to shows up in your list right away, no restart needed.</p><p class="bb_paragraph" >If a player is missing the pack for the round, their game pulls it in by itself when the round starts. Nothing has to be sent back and forth.</p><h2 class="bb_tag" >For streamers and their community</h2><p class="bb_paragraph" >Connect your Twitch channel and let your chat decide along with you.</p><p class="bb_paragraph" >Viewers vote for their favourite performance with !vote or simply the number, and get to influence who wins the round. Streamer mode also hides the lobby code on screen so nobody drops into your session uninvited.</p><h2 class="bb_tag" >At a glance</h2><ul class="bb_ul"><li><p class="bb_paragraph" >Online multiplayer for up to eight players</p></li><li><p class="bb_paragraph" >Two modes: Parallel with a vote, Character with fixed roles</p></li><li><p class="bb_paragraph" >Join through the Steam friends list or with a lobby code</p></li><li><p class="bb_paragraph" >Your own voice recordings with six different voice effects</p></li><li><p class="bb_paragraph" >Automatic speech and text detection for your own clips</p></li><li><p class="bb_paragraph" >Steam Workshop for sharing and subscribing to packs</p></li><li><p class="bb_paragraph" >Twitch integration with viewer votes</p></li><li><p class="bb_paragraph" >Export the finished dub as a video</p></li><li><p class="bb_paragraph" >Light and dark theme</p></li></ul><h2 class="bb_tag" >Packs made by players</h2><p class="bb_paragraph" >Dub Together ships with a Pack Creator, and players share their packs through the</p><p class="bb_paragraph" >Steam Workshop. Those packs come from the players themselves and live on Steam's</p><p class="bb_paragraph" >servers, not on ours.</p><p class="bb_paragraph" >You may only upload material you hold the rights to. For films, shows or music by</p><p class="bb_paragraph" >others you need permission from the rights holders. If you spot a pack that does</p><p class="bb_paragraph" >not belong there, report it on its Steam page or write to <a href="mailto:support@dub-together.com">support@dub-together.com</a>.</p><p class="bb_paragraph" >We will look into it.</p><p class="bb_paragraph" >One pack ships with the game: an excerpt from Sprite Fright by Blender</p><p class="bb_paragraph" >Studio, used under CC BY 4.0.</p>						</div>
+					</div>
+					<div class="game_page_autocollapse">
+		<div id="game_area_content_descriptors" class="game_area_description">
+			<h2>AI Generated Content Disclosure</h2>
+			<p>The developers describe how their game uses AI Generated Content like this:</p>
+			<p><i>
+					Some of the artwork in this game was made with AI image generators and edited by hand afterwards. This covers the two player characters, the logo, the menu icons and the curtain texture. The English interface texts were written with the help of a language model and reviewed afterwards. The German texts are written by hand.<br />
+<br />
+The bundled Pack Creator uses a speech recognition model to find the spoken parts of a video you supply yourself and turn them into the lines you read out. An AI noise filter for your microphone recordings and AI-based separation of speech and background audio work the same way. All of this runs locally on your own machine and never sends data to an external service. These models only process material you provide yourself, they do not invent content of their own, and the result stays inside your own lobby.				</i>
+			</p>
+					</div>
+	</div>
+	
+				
+				
+					<div class="game_page_autocollapse sys_req" style="max-height: 300px;">
+		<h2>System Requirements</h2>
+				<div class="sysreq_contents">
+							<div class="game_area_sys_req sysreq_content active" data-os="win">
+											<div class="game_area_sys_req_leftCol">
+							<ul>
+								<strong>Minimum:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-Bit<br></li><li><strong>Processor:</strong> 4 Kerne, 2,5 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Vulkan capable GPU with 1 GB, GeForce GTX 750 or Radeon RX 460 and up<br></li><li><strong>Storage:</strong> 2 GB available space</li></ul>							</ul>
+						</div>
+																<div class="game_area_sys_req_rightCol">
+							<ul>
+								<strong>Recommended:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64-Bit<br></li><li><strong>Processor:</strong> 6 cores, 3.0 GHz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Vulkan capable GPU with 2 GB<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>							</ul>
+						</div>
+										<div style="clear: both;"></div>
+
+									</div>
+					</div>
+	</div>
+	<script type="text/javascript">
+		$J( function() {
+			var $Tabs = $J('.sysreq_tab');
+			var $Content = $J('.sysreq_content');
+
+			$Tabs.click( function() {
+				var $Tab = $J(this);
+				$Tabs.removeClass('active');
+				$Tab.addClass('active');
+
+				$Content.removeClass('active');
+				$Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+				$Content.trigger('gamepage_autocollapse_expand');
+			});
+		} );
+	</script>
+
+									<div class="game_page_autocollapse" style="max-height: 400px;">
+						<div id="game_area_legal">
+							<p>Dub Together © Banani. All trademarks are property of their respective owners.<br />
+Packs shared via the Steam Workshop come from the respective users and are hosted<br />
+by Steam, not by Banani. Anyone uploading a pack confirms they hold the necessary<br />
+rights. Please report possible infringements using the report function on the<br />
+item's Steam page, or write to support@dub-together.com. We follow up on every<br />
+report and have affected items removed.</p>
+						</div>
+					</div>
+				
+								
+				</div>
+
+			<div class="clear_both" style="clear: both;"></div>
+		</div>
+
+		<div class="related_items_ctn">
+			<div class="page_content game_description_column ">
+				
+				
+				
+				
+				<div  data-featuretarget="storeitems-carousel" data-props="{&quot;title&quot;:&quot;More like this&quot;,&quot;seeAllLink&quot;:&quot;https://store.steampowered.com/recommended/morelike/app/5020310/?snr=1_5_9__300&quot;,&quot;appIDs&quot;:[4656000,4704690,4199960,3048060,1260320,285900,4069520,5053820,880940,3935020,2475460,5117550,5175310,434170,728880,3364070,5037200,1211630,2869860,386940,4948000,1922560,1243830,4285690,3654560,5127370,4776500,2622000,1552350,5086460],&quot;navKey&quot;:&quot;more_like_this_carousel&quot;,&quot;sortOrder&quot;:&quot;shuffle&quot;,&quot;scorePenaltyIfOwned&quot;:5,&quot;bFullWidth&quot;:false}"></div>
+				<div id="responsive_apppage_reviewblock_ctn" class="rightcol game_meta_data"></div>
+
+				
+				<div class="steam_curators_block block responsive_apppage_reviewblock">
+			<div class="block_header">
+				<div class="right"><a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=5020310&snr=1_5_9__top-curators">View all</a></div>
+				<h2>What Curators Say</h2>
+				<div class="no_curators_followed">
+					7 Curators have reviewed this product. Click <a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=5020310&snr=1_5_9__top-curators">here</a> to see them.				</div>
+			</div>
+		</div>
+		
+
+			</div>
+		</div>
+
+
+		<div class="review_ctn">
+			<div class="page_content">
+
+				<div id="app_reviews_hash" class="app_reviews_area">
+							<div class="" data-featuretarget="appreviews" data-props="{&quot;appid&quot;:5020310,&quot;app_release_date&quot;:&quot;1788289373&quot;,&quot;appname&quot;:&quot;Dub Together&quot;,&quot;steamworks_appid&quot;:5020310,&quot;app_type&quot;:0,&quot;summary_num_positive_reviews&quot;:723,&quot;summary_num_reviews&quot;:773,&quot;summary_options&quot;:{&quot;bHasAnyReviews&quot;:true,&quot;eUserReviewScorePreference&quot;:0,&quot;bCanManageReviewBombs&quot;:false,&quot;bCanEditApp&quot;:false,&quot;summaryDisplayed&quot;:{&quot;nReviews&quot;:773,&quot;nReviewsPositive&quot;:723,&quot;eReviewScore&quot;:8,&quot;bFilteredReviews&quot;:true,&quot;nAgeInDays&quot;:0},&quot;summaryRecent&quot;:{&quot;nReviews&quot;:484,&quot;nReviewsPositive&quot;:448,&quot;eReviewScore&quot;:8,&quot;bFilteredReviews&quot;:true,&quot;nAgeInDays&quot;:30}},&quot;filter_options&quot;:{&quot;nReviewsPositive&quot;:897,&quot;nReviewsNegative&quot;:57,&quot;nReviewsSteamPurchase&quot;:773,&quot;nReviewsNonSteamPurchase&quot;:181,&quot;nReviewsYourLanguages&quot;:146}}"></div>
+		<div style="clear: left"></div>
+					</div>
+			</div>
+		</div>
+
+
+			</div>
+	</div>
+
+</div>
+
+		<div class="hover game_hover" id="global_hover" style="display: none; left: 0; top: 0;">
+			<div class="game_hover_box hover_box">
+				<div class="content" id="global_hover_content">
+				</div>
+			</div>
+			<div class="hover_arrow_left"></div>
+			<div class="hover_arrow_right"></div>
+		</div>
+<div id="EmbedModal"  style="display: none">
+	<div id="widget_create">
+		<p>You can use this widget-maker to generate a bit of HTML that can be embedded in your website to easily allow customers to purchase this game on Steam.</p>
+
+				<p class="small">Enter up to 375 characters to add a description to your widget:</p>
+		<div class="app_embed_dialog_description">
+			<textarea name="w_text" placeholder="Up to eight players redub video clips and give them a whole new meaning. You record the scene, then watch every result together and vote. With voice effects, a built-in clip editor and live voting from your Twitch chat." maxlength="375"></textarea>
+		</div>
+
+		<div class="buttoncontainer">
+			<a class="btnv6_blue_hoverfade btn_medium " href="#" onclick="CreateWidget(5020310); return false;"><span>Create widget</span></a>
+		</div>
+	</div>
+	<div id="widget_finished" style="display: none;">
+		<div id="widget_container"></div>
+
+		<p class="small">Copy and paste the HTML below into your website to make the above widget appear</p>
+		<textarea id="widget_code" style=""></textarea>
+	</div>
+
+</div>
+
+	<div id="app_tagging_modal" class="app_tag_modal nologin" style="display: none;">
+		<div class="app_tag_modal_content">
+			<div class="app_tag_modal_seperator"></div>
+			<div class="app_tag_modal_left">
+				<h2>Popular user-defined tags for this product:<span class="app_tag_modal_tooltip" data-tooltip-text="These are tags applied to the product by the most users.  You can click a tag to find other products with that tag applied.  Or, you can hit the plus symbol for any existing tags to increase that tag's popularity on this product.">(?)</span></h2>
+				<div class="app_tags popular_tags">
+				</div>
+			</div>
+			<div class="app_tag_modal_right">
+									<h2>Sign In</h2>
+					<p>Sign in to add your own tags to this product.</p>
+					<p>
+						<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/5020310">
+							<span>Sign In</span>
+						</a>
+					</p>
+							</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$J( function() {
+			InitAppTagModal( 5020310,
+				[{"tagid":7178,"name":"Party Game","count":56,"browseable":true},{"tagid":3859,"name":"Multiplayer","count":50,"browseable":true},{"tagid":4136,"name":"Funny","count":45,"browseable":true},{"tagid":597,"name":"Casual","count":44,"browseable":true},{"tagid":1719,"name":"Comedy","count":42,"browseable":true},{"tagid":4878,"name":"Parody ","count":36,"browseable":true},{"tagid":18594,"name":"FMV","count":32,"browseable":true},{"tagid":8122,"name":"Level Editor","count":30,"browseable":true},{"tagid":10397,"name":"Memes","count":30,"browseable":true},{"tagid":1775,"name":"PvP","count":26,"browseable":true},{"tagid":4562,"name":"Cartoon","count":22,"browseable":true},{"tagid":492,"name":"Indie","count":21,"browseable":true},{"tagid":4305,"name":"Colorful","count":19,"browseable":true},{"tagid":4726,"name":"Cute","count":16,"browseable":true},{"tagid":7926,"name":"Artificial Intelligence","count":15,"browseable":true},{"tagid":5350,"name":"Family Friendly","count":15,"browseable":true},{"tagid":3871,"name":"2D","count":14,"browseable":true}],
+				[],
+				"1_5_9__410",
+				"1_5_9__411",
+				null,
+				false			);
+
+						if ( typeof GDynamicStore != 'undefined' )
+				GDynamicStore.FixupNamePortion();
+			
+					});
+	</script>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>

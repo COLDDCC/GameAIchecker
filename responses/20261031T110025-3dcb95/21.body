@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>World of Warships: Legends on Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://store.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=YzJgj1FjzW34&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_global.css?v=sat0mVAiy9IE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/buttons.css?v=BZhNEtESfYSJ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/store.css?v=pRFy65b3KvQ_&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/styles_linux.css?v=LcZAgwD7_TSW&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/user_reviews.css?v=hcV4WIPnYWMf&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_game_shared.css?v=Xi6rfDkwSwlu&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game.css?v=FpqfPB3I4l_e&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_background_shared.css?v=RuX0Jh-U_mAP&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/recommended.css?v=fwyY12y3q2Mi&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/user_reviews_rewards.css?v=nDJVyLGQ1XMI&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/apphub.css?v=otgZDLujyGMF&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/ui-lightness/jquery-ui-1.7.2.custom.css?v=qgq7mHqEwLbE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game_mob.css?v=XLV-14LI0nm-&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=FJJn0nIxXaGQ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=NXam5zydzNu8&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=w6QbwI-5-j2S&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/main.js?v=VXExFbFD9rs7&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js?v=7IbaKUfZfESM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				$J.data( document, 'x_readytime', new Date().getTime() );
+				$J.data( document, 'x_oldref', GetNavCookie() );
+				SetupTooltips( { tooltipCSSClass: 'store_tooltip'  } );
+		});
+		</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/gamehighlightplayer.js?v=mdJgU3gDKmis&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/user_reviews.js?v=GGcui5RNq7P0&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/app_tagging.js?v=jzh2Y03tD8Ea&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/game.js?v=KNgRXsZ3gVA_&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.min.js?v=mSfqk1QKKgiz&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.min.js?v=MeIf0YViALgL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.min.js?v=CIECDYHJjBgN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.min.js?v=laPWW88ZIIHe&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/dselect.js?v=xOLWzo6KWkKr&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-ui-1.9.2.js?v=wxKVOzU-zSuN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="Join this free-to-play PvP online naval shooter with fast-paced combat, easy-to-learn gameplay, intuitive controls, and cross-platform play on Steam, console, and mobile. Choose from 600+ warships and 150+ Commanders, and master tactics on diverse maps. Play now and become a legend!">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="World of Warships: Legends on Steam">
+					<meta property="twitter:title" content="World of Warships: Legends on Steam">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:url" content="https://store.steampowered.com/app/2964090/World_of_Warships_Legends/">
+					<meta property="og:description" content="Join this free-to-play PvP online naval shooter with fast-paced combat, easy-to-learn gameplay, intuitive controls, and cross-platform play on Steam, console, and mobile. Choose from 600+ warships and 150+ Commanders, and master tactics on diverse maps. Play now and become a legend!">
+					<meta property="twitter:description" content="Join this free-to-play PvP online naval shooter with fast-paced combat, easy-to-learn gameplay, intuitive controls, and cross-platform play on Steam, console, and mobile. Choose from 600+ warships and 150+ Commanders, and master tactics on diverse maps. Play now and become a legend!">
+			
+			<link rel="canonical" href="https://store.steampowered.com/app/2964090/World_of_Warships_Legends/">
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/9be6a70dc2a0469f962a87139395f03bae0332e1/capsule_616x353.jpg?t=1792062889">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/9be6a70dc2a0469f962a87139395f03bae0332e1/capsule_616x353.jpg?t=1792062889">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/9be6a70dc2a0469f962a87139395f03bae0332e1/capsule_616x353.jpg?t=1792062889" />
+				
+	
+	
+	
+	
+	</head>
+<body class="v6 app game_bg menu_background_overlap application widestore v7menu responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com/login/?redir=app%2F2964090%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">
+									Sign in								</a>
+															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-responsive-menu">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-responsive-menu">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-responsive-menu">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-responsive-menu">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-responsive-menu">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-responsive-menu">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/?snr=1_5_9__global-responsive-menu" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_5_9__global-responsive-menu" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+															<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+					<div class="responsive_header_react_target" data-featuretarget="store-menu-responsive-search"><div class="responsive_header_react_placeholder"></div></div>				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/?snr=1_5_9__global-header" aria-label="Link to the Steam Homepage">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-header">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-header">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-header">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-header">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-header">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-header">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=app%2F2964090%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<div class="StoreMenuLoadingPlaceholder" data-featuretarget="store-menu-v7"><div class="PlaceholderInner"></div></div><div id="responsive_store_nav_ctn"></div><div id="responsive_store_nav_overlay" style="display:none"><div id="responsive_store_nav_overlay_ctn"></div><div id="responsive_store_nav_overlay_bottom"></div></div><div id="responsive_store_search_overlay" style="display:none"></div><div data-cart-banner-spot="1"></div>
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793383169,&quot;PAGE_TIMESTAMP&quot;:1793412053,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1793412053,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;1_5_9_&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[3,4]}" data-hwinfo="{&quot;bSteamOS&quot;:false,&quot;bSteamDeck&quot;:false,&quot;bSteamMachine&quot;:false,&quot;bSteamFrame&quot;:false}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-store_page_asset_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/%s?t=1792062889&quot;" data-store_page_extra_assets_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/%s?t=1792062889&quot;" data-store_page_extra_assets_map="{&quot;extras\/reduced_steam_banner_animation_wowsl_1.gif&quot;:[{&quot;urlPart&quot;:&quot;extras\/1bb455b7991d0923322978fc62cbd6ef.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;234&quot;},{&quot;urlPart&quot;:&quot;extras\/1bb455b7991d0923322978fc62cbd6ef.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;234&quot;},{&quot;urlPart&quot;:&quot;extras\/1bb455b7991d0923322978fc62cbd6ef.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;234&quot;}],&quot;extras\/reduced_steam_banner_animation_wowsl_2.gif&quot;:[{&quot;urlPart&quot;:&quot;extras\/752bccf8d1a7fc8a01ac172baa4d19fa.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;304&quot;},{&quot;urlPart&quot;:&quot;extras\/752bccf8d1a7fc8a01ac172baa4d19fa.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;304&quot;},{&quot;urlPart&quot;:&quot;extras\/752bccf8d1a7fc8a01ac172baa4d19fa.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;304&quot;}],&quot;extras\/reduced_steam_banner_animation_wowsl_4.gif&quot;:[{&quot;urlPart&quot;:&quot;extras\/cc9555dc6a6ec754b939e0858219f356.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;234&quot;},{&quot;urlPart&quot;:&quot;extras\/cc9555dc6a6ec754b939e0858219f356.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;234&quot;},{&quot;urlPart&quot;:&quot;extras\/cc9555dc6a6ec754b939e0858219f356.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;234&quot;}],&quot;extras\/reduced_steam_banner_animation_wowsl_3.gif&quot;:[{&quot;urlPart&quot;:&quot;extras\/fa625468f1d310778c82b44d8138572b.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;257&quot;},{&quot;urlPart&quot;:&quot;extras\/fa625468f1d310778c82b44d8138572b.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;256&quot;},{&quot;urlPart&quot;:&quot;extras\/fa625468f1d310778c82b44d8138572b.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;596&quot;,&quot;height&quot;:&quot;256&quot;}],&quot;extras\/w_an.gif&quot;:[{&quot;urlPart&quot;:&quot;extras\/0a49fb1a5944ee27de934ab57ca70d5b.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;614&quot;,&quot;height&quot;:&quot;96&quot;},{&quot;urlPart&quot;:&quot;extras\/0a49fb1a5944ee27de934ab57ca70d5b.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;614&quot;,&quot;height&quot;:&quot;96&quot;},{&quot;urlPart&quot;:&quot;extras\/0a49fb1a5944ee27de934ab57ca70d5b.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;614&quot;,&quot;height&quot;:&quot;96&quot;}],&quot;extras\/wowsl_con_vid_mix_1170x450_steam_v5&quot;:[{&quot;urlPart&quot;:&quot;extras\/783aeff3e7b80cdee3bd9c725a39b9de.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/783aeff3e7b80cdee3bd9c725a39b9de.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/783aeff3e7b80cdee3bd9c725a39b9de.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;}],&quot;extras\/wowsl_con_vid_mix_1170x450_steam_v3&quot;:[{&quot;urlPart&quot;:&quot;extras\/a8df5dc39104488cff96e7b03e7ca2bd.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/a8df5dc39104488cff96e7b03e7ca2bd.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/a8df5dc39104488cff96e7b03e7ca2bd.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;}],&quot;extras\/wowsl_con_vid_mix_1170x450_steam_v2&quot;:[{&quot;urlPart&quot;:&quot;extras\/3d1f65fdbf50c6d78fa6d94497cbf638.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/3d1f65fdbf50c6d78fa6d94497cbf638.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/3d1f65fdbf50c6d78fa6d94497cbf638.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;}],&quot;extras\/wowsl_con_vid_mix_1170x450_steam_v1&quot;:[{&quot;urlPart&quot;:&quot;extras\/b36d0e926e1673249bef0d83c0ae343e.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/b36d0e926e1673249bef0d83c0ae343e.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/b36d0e926e1673249bef0d83c0ae343e.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;}],&quot;extras\/wowsl_con_vid_mix_1170x450_steam_v4&quot;:[{&quot;urlPart&quot;:&quot;extras\/e31b33804af96cc6e275c0e128a20599.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/e31b33804af96cc6e275c0e128a20599.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;},{&quot;urlPart&quot;:&quot;extras\/e31b33804af96cc6e275c0e128a20599.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;1170&quot;,&quot;height&quot;:&quot;450&quot;}]}" data-hardwarecompatibility="{&quot;appid&quot;:2964090,&quot;resolved_category&quot;:3,&quot;resolved_items&quot;:[{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_InterfaceTextIsLegible&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant&quot;}],&quot;steam_deck_blog_url&quot;:&quot;&quot;,&quot;search_id&quot;:null,&quot;steamos_resolved_category&quot;:2,&quot;steamos_resolved_items&quot;:[{&quot;display_type&quot;:3,&quot;loc_token&quot;:&quot;#SteamOS_TestResult_GameStartupFunctional&quot;}],&quot;machine_resolved_category&quot;:3,&quot;machine_resolved_items&quot;:[{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_ControllerGlyphsMatchDevice&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_DefaultConfigurationIsPerformant&quot;}],&quot;frame_resolved_category&quot;:null,&quot;frame_resolved_items&quot;:[]}" data-appname="&quot;World of Warships: Legends&quot;" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:{&quot;domain&quot;:&quot;store.steampowered.com&quot;,&quot;controller&quot;:&quot;direct-navigation&quot;,&quot;method&quot;:&quot;&quot;,&quot;submethod&quot;:&quot;&quot;,&quot;feature&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;countrycode&quot;:&quot;&quot;,&quot;webkey&quot;:null,&quot;is_client&quot;:false,&quot;curator_data&quot;:null,&quot;is_likely_bot&quot;:false,&quot;is_utm&quot;:false},&quot;wishlist_item_count&quot;:0}"></div><div id="application_root"></div><script>window.g_wapit="";</script><link href="https://store.fastly.steamstatic.com/public/css/applications/store/main.css?v=hzBzuSSSUisO&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11190067";</script>
+<script type="module" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js?contenthash=QfwV29jv"></script>
+<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_Languages = ["english"];
+	var g_sessionID = "ee45f581c2c72f01cbae0d4d";
+	var g_ServerTime = 1793412053;
+	var g_bUseNewCartAPI = true;
+
+			$J( InitMiniprofileHovers( 'https%3A%2F%2Fstore.steampowered.com%2F' ) );
+	
+	
+	if ( typeof GStoreItemData != 'undefined' )
+	{
+		GStoreItemData.AddNavParams({
+			__page_default: "1_5_9_",
+			__page_default_obj: {"domain":"store.steampowered.com","controller":"application","method":"app","submethod":"","feature":null,"depth":null,"countrycode":"US","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":null},
+			__originating_obj: {"domain":"store.steampowered.com","controller":"direct-navigation","method":"","submethod":"","feature":"","depth":0,"countrycode":"","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":false},
+			storemenu_recommendedtags: "1_5_9__17"		});
+	}
+
+	if ( typeof GDynamicStore != 'undefined' )
+	{
+		GDynamicStore.Init(0, false, "", {"primary_language":null,"secondary_languages":null,"platform_windows":null,"platform_mac":null,"platform_linux":null,"timestamp_updated":null,"hide_store_broadcast":null,"review_score_preference":null,"timestamp_content_descriptor_preferences_updated":null,"provide_deck_feedback":null,"additional_languages":null,"game_frame_rate_reporting":null,"disable_microtrailers":null,"disable_animated_marketing":null}, 'US',
+			{"bNoDefaultDescriptors":false});
+		GStoreItemData.SetCurrencyFormatter(function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ".", ","); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + "$" + fmt( nValueInCents, bWholeUnitsOnly );});
+		GStoreItemData.SetCurrencyMinPriceIncrement(1);
+	}
+</script>
+
+<script type="text/javascript">
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"552990":{"name":"World of Warships","url_name":"World_of_Warships","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/552990\/74133093749b4627d25ff3229e9ade3291b665d6\/capsule_184x69_alt_assets_17.jpg?t=1793268266","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"status_string":"Just Updated","creator_clan_ids":[32977250,45638312]},"236390":{"name":"War Thunder","url_name":"War_Thunder","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/236390\/e791436bba88d064d1837cf85f38d01ca09886e4\/capsule_184x69.jpg?t=1793185672","os_windows":true,"os_macos":true,"os_linux":true,"vr_htcvive":true,"vr_oculusrift":true,"vr_windowsmr":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"status_string":"Free To Play - Just Updated!","creator_clan_ids":[37819846]},"1407200":{"name":"World of Tanks","url_name":"World_of_Tanks","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1407200\/d7ebe4d7dfb1fe42c7eb4ded656356199dd4ac82\/capsule_184x69.jpg?t=1793012187","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32977250,46016445]},"359550":{"name":"Tom Clancy's Rainbow Six Siege","url_name":"Tom_Clancys_Rainbow_Six_Siege","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/359550\/0d1a802e939ca3bc9d8f8e4d4f0b6fd5e75f35f5\/capsule_184x69_alt_assets_27.jpg?t=1792001976","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33075774,44535644,43517366]},"730":{"name":"Counter-Strike 2","url_name":"CounterStrike_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/730\/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d\/capsule_184x69.jpg?t=1793054556","os_windows":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[4]},"1867240":{"name":"WARDOGS","url_name":"WARDOGS","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1867240\/c118898d00094cea15b423f6ffbbf79c584e7ef4\/capsule_184x69_alt_assets_0.jpg?t=1791928607","os_windows":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[42656369]},"2406770":{"name":"Bodycam","url_name":"Bodycam","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3332\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$33.32<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2406770\/2bc46dcf375a61a0a5626bc96aaf09e32436e8cd\/capsule_184x69.jpg?t=1791014741","os_windows":true,"early_access":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[46061319]},"3932890":{"name":"Escape from Tarkov","url_name":"Escape_from_Tarkov","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$49.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3932890\/236dcc64545c082a9f4382757390ce91c474ddbe\/capsule_184x69_alt_assets_2.jpg?t=1785782094","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true},"3079210":{"name":"Hell Let Loose: Vietnam","url_name":"Hell_Let_Loose_Vietnam","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3079210\/fafbea801ff2a4945f59cd1fc045cbf3a9f43cd4\/capsule_184x69.jpg?t=1789556600","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true},"2950790":{"name":"IRON NEST: Heavy Turret Simulator","url_name":"IRON_NEST_Heavy_Turret_Simulator","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2950790\/922472560f653fd897313ab7a10dd86b018d373f\/capsule_184x69.jpg?t=1793368782","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45896935,45896884,46661883]},"394360":{"name":"Hearts of Iron IV","url_name":"Hearts_of_Iron_IV","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$49.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/394360\/08a0a8f6c28071017611aa39b835c193a27f2518\/capsule_184x69.jpg?t=1791468228","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[4117016,6859167]},"2479810":{"name":"Gray Zone Warfare","url_name":"Gray_Zone_Warfare","discount_block":"<div class=\"discount_block \" data-price-final=\"2599\" data-bundlediscount=\"0\" data-discount=\"35\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-35%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$39.99<\/div><div class=\"discount_final_price\">$25.99<\/div><\/div><span class=\"discount_aria_label\">35% off. $39.99 normally, discounted to $25.99<\/span><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2479810\/20b65094efc293c54fef3332d4bdc29ddb73d308\/capsule_184x69_alt_assets_6.jpg?t=1793375678","os_windows":true,"early_access":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[44849842]},"2807960":{"name":"Battlefield\u2122 6","url_name":"Battlefield_6","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"6999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$69.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2807960\/d7ae078e0a543a97ff5a5d72165999535b0b1cdc\/capsule_184x69.jpg?t=1793314012","os_windows":true,"has_live_broadcast":false,"mastersub_granting_app":{"capsule":"https:\/\/cdn.fastly.steamstatic.com\/store\/mastersubs\/eaplay\/eaplay.svg","name":"EA Play"},"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[36135791]},"5155360":{"name":"Hood Warfare 2","url_name":"Hood_Warfare_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"599\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$5.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5155360\/3fb79cd5dc290348c1febfccb140a0545be56797\/capsule_184x69.jpg?t=1792873404","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[46299814]},"1874880":{"name":"Arma Reforger","url_name":"Arma_Reforger","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1874880\/capsule_184x69.jpg?t=1789052055","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[32984825]},"3028330":{"name":"Battlefield\u2122 REDSEC","url_name":"Battlefield_REDSEC","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3028330\/f7ec6648f9de149b098b8b9674aa99a0b1c284c8\/capsule_184x69.jpg?t=1792018418","os_windows":true,"has_live_broadcast":false,"mastersub_granting_app":{"capsule":"https:\/\/cdn.fastly.steamstatic.com\/store\/mastersubs\/eaplay\/eaplay.svg","name":"EA Play"},"localized":true,"localized_english":true,"creator_clan_ids":[36140373,36135791]},"1938090":{"name":"Call of Duty\u00ae","url_name":"Call_of_Duty","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1938090\/0ac3cc02398b9db61c8db4fef2e3e1b4b8b66e4b\/capsule_184x69.jpg?t=1793386059","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[42356652,42355870]},"107410":{"name":"Arma 3","url_name":"Arma_3","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/107410\/capsule_184x69.jpg?t=1786458620","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[32984825]},"400750":{"name":"Call to Arms - Gates of Hell: Ostfront","url_name":"Call_to_Arms_Gates_of_Hell_Ostfront","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$34.99<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/400750\/518ba193aa22508abb7271d972098bbbc4f9a8d4\/capsule_184x69.jpg?t=1793359453","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[37284302,1560170]},"393380":{"name":"Squad","url_name":"Squad","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/393380\/e069cbeca98b633002e2d2202b4cc4ae58138549\/capsule_184x69.jpg?t=1792423549","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"status_string":"Just Updated","creator_clan_ids":[33965189]},"767560":{"name":"War Robots","url_name":"War_Robots","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/767560\/84c2908ff77748d5be8ab7ded9a02427845c2fdf\/capsule_184x69.jpg?t=1790758165","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32943016]},"714010":{"name":"Aimlabs","url_name":"Aimlabs","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/714010\/907fa062895ed963ea6182be0a1059059df63057\/capsule_184x69.jpg?t=1791001714","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45645680]},"444200":{"name":"World of Tanks Blitz","url_name":"World_of_Tanks_Blitz","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/444200\/04fc4abfe58c7934bbfc12830d9975210846c815\/capsule_184x69.jpg?t=1792910839","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"status_string":"Just Updated","creator_clan_ids":[32977250,46016445]},"686810":{"name":"Hell Let Loose","url_name":"Hell_Let_Loose","discount_block":"<div class=\"discount_block \" data-price-final=\"1749\" data-bundlediscount=\"0\" data-discount=\"75\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-75%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$69.99<\/div><div class=\"discount_final_price\">$17.49<\/div><\/div><span class=\"discount_aria_label\">75% off. $69.99 normally, discounted to $17.49<\/span><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/686810\/69692fc982df6854de6ce4b162073e9d682cbee7\/capsule_184x69_alt_assets_6.jpg?t=1790181050","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[32941731]},"3595270":{"name":"Call of Duty\u00ae: Modern Warfare\u00ae III","url_name":"Call_of_Duty_Modern_Warfare_III","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"6999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$69.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3595270\/05b8f73493348dfa9b6662dc13a6740929ea195b\/capsule_184x69.jpg?t=1778886604","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[42356652,42355870]},"3065940":{"name":"Gallipoli","url_name":"Gallipoli","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3065940\/8241f8f3e49226d916e09f31f642fb0f5d05f463\/capsule_184x69.jpg?t=1792069746","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[33042325,35312128]},"1324780":{"name":"Easy Red 2","url_name":"Easy_Red_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"899\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$8.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1324780\/2da4a16d4e489b91dee3caaf61c8862eb6a89e75\/capsule_184x69.jpg?t=1793284845","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true},"1913370":{"name":"OPERATOR","url_name":"OPERATOR","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1913370\/c4ae8879133e0ba854a1eb0f5a3dfdf589d58c0b\/capsule_184x69.jpg?t=1793336634","os_windows":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true},"589290":{"name":"Holdfast: Nations At War","url_name":"Holdfast_Nations_At_War","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/589290\/ab1b7f48a2a5faa2661541ec92d142253e78b09b\/capsule_184x69.jpg?t=1789730298","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[8826733]},"3595230":{"name":"Call of Duty\u00ae: Modern Warfare\u00ae II","url_name":"Call_of_Duty_Modern_Warfare_II","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"6999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$69.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3595230\/054c163a183d9958c4d9eb9a08517ee2b4992ff3\/capsule_184x69.jpg?t=1778886532","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[42356652,42355870]}},"rgPackages":[],"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		recommend_franchise: "1_5_9__316",
+		more_from_franchise: "1_5_9__317",
+		bundle_component_preview: "1_5_9__412",
+		recommended_ranked_played: "1_5_9__862",
+	} );
+
+	// Temporary code to allow React to move focus to elements that are non-React.
+	function MoveFocusToId( id )
+	{
+		$el = $J( id );
+		if ( $el.length )
+		{
+			$el[0].focus();
+		}
+	}
+	window.MoveFocusToId = MoveFocusToId;
+
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+		// on Tablet wait to do this when the window is fully loaded - see OnPageLoaded()
+		ReparentAppLandingPageForSmallScreens();
+
+		
+			var usability = InitUsabilityTracker( "https:\/\/store.steampowered.com\/app\/usabilitytracking\/2964090" );
+		usability.ScheduleUpload();
+	
+		
+			} );
+
+	
+	function OpenTagModal()
+	{
+		ShowAppTagModal( 2964090 );
+	}
+
+</script>
+
+<div class="game_page_background game" data-miniprofile-appid=2964090>
+
+	
+			<div class="banner_open_in_steam">
+			<div data-featuretarget="open-in-desktop-client"></div>
+		</div>
+	
+	
+	<div  data-featuretarget="apppage-store-browse-cache" data-props="{&quot;rgPayloads&quot;:[{&quot;dataRequestStoreItems&quot;:{&quot;include_assets&quot;:null,&quot;include_release&quot;:null,&quot;include_platforms&quot;:null,&quot;include_all_purchase_options&quot;:null,&quot;include_screenshots&quot;:null,&quot;include_trailers&quot;:null,&quot;include_ratings&quot;:true,&quot;include_tag_count&quot;:null,&quot;include_reviews&quot;:null,&quot;include_basic_info&quot;:null,&quot;include_supported_languages&quot;:null,&quot;include_full_description&quot;:null,&quot;include_included_items&quot;:null,&quot;included_item_data_request&quot;:null,&quot;include_assets_without_overrides&quot;:null,&quot;apply_user_filters&quot;:null,&quot;include_links&quot;:null,&quot;include_extra_details&quot;:null,&quot;include_best_purchase_option&quot;:true,&quot;include_optin_registration_tags&quot;:null},&quot;rgStoreItems&quot;:[{&quot;item_type&quot;:0,&quot;id&quot;:2964090,&quot;gid&quot;:null,&quot;success&quot;:1,&quot;visible&quot;:1,&quot;unvailable_for_country_restriction&quot;:null,&quot;name&quot;:&quot;World of Warships: Legends&quot;,&quot;store_url_path&quot;:&quot;app/2964090/World_of_Warships_Legends&quot;,&quot;store_url_slug&quot;:&quot;World_of_Warships_Legends&quot;,&quot;appid&quot;:2964090,&quot;type&quot;:0,&quot;included_types&quot;:[],&quot;included_appids&quot;:[],&quot;is_free&quot;:1,&quot;is_early_access&quot;:null,&quot;related_items&quot;:null,&quot;included_items&quot;:null,&quot;content_descriptorids&quot;:[],&quot;tagids&quot;:[],&quot;categories&quot;:{&quot;supported_player_categoryids&quot;:[1,20,49,36,9,38,27],&quot;feature_categoryids&quot;:[22,29,35,66,68,69,70,74,23,15,61,62,63],&quot;controller_categoryids&quot;:[28,55,56,57,58]},&quot;reviews&quot;:null,&quot;basic_info&quot;:null,&quot;tags&quot;:[],&quot;assets&quot;:null,&quot;release&quot;:null,&quot;platforms&quot;:null,&quot;game_rating&quot;:{&quot;type&quot;:null,&quot;rating&quot;:&quot;t&quot;,&quot;descriptors&quot;:[&quot;Violence&quot;,&quot;Suggestive Themes&quot;],&quot;interactive_elements&quot;:&quot;Users Interact\nIn-Game Purchases (Includes Random Items)&quot;,&quot;agency&quot;:1,&quot;banned&quot;:0,&quot;esrb_online_music_not_rated&quot;:0,&quot;esrb_online_interactions_not_rated&quot;:0,&quot;survey_interactive_elements&quot;:[1,2,3,4],&quot;required_age&quot;:0,&quot;use_age_gate&quot;:0,&quot;descriptor_images&quot;:[],&quot;content_survey_notes&quot;:null,&quot;image_url&quot;:&quot;public/shared/images/game_ratings/ESRB/t.png&quot;,&quot;image_target&quot;:null},&quot;is_coming_soon&quot;:null,&quot;best_purchase_option&quot;:null,&quot;purchase_options&quot;:[],&quot;self_purchase_option&quot;:null,&quot;screenshots&quot;:null,&quot;trailers&quot;:null,&quot;supported_languages&quot;:[],&quot;store_url_path_override&quot;:null,&quot;free_weekend&quot;:null,&quot;unlisted&quot;:null,&quot;game_count&quot;:null,&quot;internal_name&quot;:null,&quot;full_description_bbcode&quot;:null,&quot;is_free_temporarily&quot;:null,&quot;assets_without_overrides&quot;:null,&quot;user_filter_failure&quot;:null,&quot;links&quot;:[],&quot;purchase_description_bbcode&quot;:null,&quot;package_groups&quot;:[],&quot;extra_details&quot;:null,&quot;optin_registration_tags&quot;:[],&quot;purchase_notes&quot;:[]}]}]}"></div><div  data-featuretarget="apppage-gameinterest-cache" data-props="{&quot;appid&quot;:2964090,&quot;userInterest&quot;:{&quot;owned&quot;:null,&quot;wishlist&quot;:null,&quot;ignored&quot;:null,&quot;following&quot;:null,&quot;in_queues&quot;:[],&quot;queues_with_skip&quot;:[],&quot;queue_items_remaining&quot;:[],&quot;queue_items_next_appid&quot;:[],&quot;temporarily_owned&quot;:null,&quot;queues&quot;:[],&quot;ignored_reason&quot;:null,&quot;beta_status&quot;:null}}"></div>
+	<!-- page width wrapper: gutters, max width and the horizontal bleed variable -->
+	<div id="tabletGrid" class="tablet_grid">
+
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+
+		<meta itemprop="image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/2f2ba998c187edfa9ef173d3b2eacc4e026fe56f/capsule_231x87.jpg?t=1792062889">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" style="display: none;">
+				<meta itemprop="priceCurrency" content="USD">
+				<meta itemprop="price" content="0.00">
+							</div>
+		
+		<div class="page_top_area">
+						<div class="game_page_background_ctn game">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/3e575e78ba31e2f6d065f712a2334ac38fcbd6b3/page_bg_raw.jpg?t=1792062889" class="gameColor" alt="">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/3e575e78ba31e2f6d065f712a2334ac38fcbd6b3/page_bg_raw.jpg?t=1792062889" class="gameTexture" alt="">
+			</div>
+
+		<div class="page_title_area game_title_area page_content" data-gpnav="columns">
+			<div class="breadcrumbs" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+								<div class="blockbg">
+											<a href="https://store.steampowered.com/search/?term=&snr=1_5_9__205">All Games</a>
+																					&gt; <a href="https://store.steampowered.com/genre/Free%20to%20Play/?snr=1_5_9__205">Free To Play Games</a>
+																										&gt; <a href="https://store.steampowered.com/app/2964090/?snr=1_5_9__205"><span itemprop="name">World of Warships: Legends</span></a>
+									</div>
+				<div style="clear: left;"></div>
+							</div>
+						
+
+<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+		                      <div class="apphub_OtherSiteInfo">
+
+                    
+                <a class="btnv6_blue_hoverfade btn_medium" href="https://steamcommunity.com/app/2964090">
+                    <span>Community Hub</span>
+                </a>
+            </div>
+         		<div class="apphub_AppIcon"><img src="https://shared.fastly.steamstatic.com/community_assets/images/apps/2964090/7231cc501d0f139c93d4c96fe525a803c8f597a1.jpg"><div class="overlay"></div></div>
+		<div id="appHubAppName" class="apphub_AppName" role="heading" aria-level="1">World of Warships: Legends</div>
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+											</div>
+		<div style="clear: left;"></div>
+
+
+		<div class="block game_media_and_summary_ctn">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+			</script>
+
+			
+			<div class="game_background_glow">
+				
+
+				
+								
+				
+					
+								<div id="page_header_img" class="responsive_page_header_img" style="display: none;">
+					<img style="width:100%;" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/5a9fb88ec0bb58f822cc99c49ed2576b48202cc0/header.jpg?t=1792062889" alt="World of Warships: Legends">
+				</div>
+
+				<div class="block_content page_content" id="broadcast">
+
+				
+				</div>
+				<div class="block_content page_content" id="game_highlights" data-panel="{&quot;navKey&quot;:&quot;game_highlights&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+
+				<div class="rightcol" data-panel="{&quot;flow-children&quot;:&quot;column&quot;,&quot;navKey&quot;:&quot;rightcol&quot;}">
+					<div class="glance_ctn">
+												<div id="gameHeaderCtn" class="game_header_ctn">
+							<div id="gameHeaderImageCtn" class="game_header_image_ctn">
+								<img class="game_header_image_full" alt="" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/5a9fb88ec0bb58f822cc99c49ed2576b48202cc0/header.jpg?t=1792062889">
+
+																<div id="appHubAppName_responsive" style="display: none;" class="apphub_AppName">World of Warships: Legends</div>
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="appHeaderGridContainer" class="app_header_grid_container" style="display:none">
+
+																			<div class="grid_label">Developer</div>
+										<div class="grid_content">
+											<a href="https://store.steampowered.com/developer/wargaming?snr=1_5_9__400">Wargaming Group Limited</a>										</div>
+																																							<div class="grid_label">Publisher</div>
+											<div class="grid_content">
+												<a href="https://store.steampowered.com/publisher/wargaming?snr=1_5_9__400">Wargaming Group Limited</a>											</div>
+																			
+																			<div class="grid_label grid_date">Released</div>
+										<div class="grid_content grid_date">
+											May 4, 2026										</div>
+																	</div>
+							</div>
+															<div class="game_description_snippet">
+									Join this free-to-play PvP online naval shooter with fast-paced combat, easy-to-learn gameplay, intuitive controls, and cross-platform play on Steam, console, and mobile. Choose from 600+ warships and 150+ Commanders, and master tactics on diverse maps. Play now and become a legend!								</div>
+													</div> 												<div id="glanceMidCtn" class="glance_mid_ctn">
+						<div class="glance_ctn_responsive_left">
+																													<div id="userReviews" class="user_reviews">
+
+																											<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="65% of the 52 user reviews in the last 30 days are positive.">
+										<div class="subtitle column">Recent Reviews:</div>
+										<div class="summary column">
+											<span class="game_review_summary mixed">Mixed</span>
+																							<span class="responsive_hidden">
+													(52)
+												</span>
+																																	<span class="nonresponsive_hidden responsive_reviewdesc">
+												- 65% of the 52 user reviews in the last 30 days are positive.											</span>
+										</div>
+									</a>
+									
+																		<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="63% of the 799 user reviews for this game are positive." itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">
+											All Reviews:										</div>
+										<div class="summary column">
+																					<span class="game_review_summary mixed" itemprop="description">Mixed</span>
+																							<span class="responsive_hidden">
+													(799)
+												</span>
+																																	<span class="nonresponsive_hidden responsive_reviewdesc">
+												- 63% of the 799 user reviews for this game are positive.											</span>
+
+											<!-- microdata -->
+											<meta itemprop="reviewCount" content="799">
+											<meta itemprop="ratingValue" content="6">
+											<meta itemprop="bestRating" content="10">
+											<meta itemprop="worstRating" content="1">
+																				</div>
+									</a>
+								</div>
+							
+															<div class="release_date">
+									<div class="subtitle column">Release Date:</div>
+									<div class="date">May 4, 2026</div>
+								</div>
+							
+																						<div class="dev_row">
+									<div class="subtitle column">Developer:</div>
+									<div class="summary column" id="developers_list">
+										<a href="https://store.steampowered.com/developer/wargaming?snr=1_5_9__2000">Wargaming Group Limited</a>									</div>
+								</div>
+							
+																								<div class="dev_row">
+										<div class="subtitle column">Publisher:</div>
+										<div class="summary column">
+										<a href="https://store.steampowered.com/publisher/wargaming?snr=1_5_9__2000">Wargaming Group Limited</a>										</div>
+									</div>
+															
+																				</div>
+
+						<div id="glanceCtnResponsiveRight" class="glance_ctn_responsive_right" data-panel="{&quot;navKey&quot;:&quot;glanceCtnResponsiveRight&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="responsive_block_header">Tags</div>
+									<div class="glance_tags_ctn popular_tags_ctn" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+										<div class="glance_tags_label">Popular user-defined tags for this product:</div>
+										<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="glance_tags popular_tags" data-appid="2964090">
+											<a href="https://store.steampowered.com/tags/en/Action/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Action												</a><a href="https://store.steampowered.com/tags/en/Simulation/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Simulation												</a><a href="https://store.steampowered.com/tags/en/Shooter/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Shooter												</a><a href="https://store.steampowered.com/tags/en/Third-Person%20Shooter/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Third-Person Shooter												</a><a href="https://store.steampowered.com/tags/en/3D/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												3D												</a><a href="https://store.steampowered.com/tags/en/Realistic/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Realistic												</a><a href="https://store.steampowered.com/tags/en/Historical/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Historical												</a><a href="https://store.steampowered.com/tags/en/Military/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Military												</a><a href="https://store.steampowered.com/tags/en/Naval/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Naval												</a><a href="https://store.steampowered.com/tags/en/Tactical/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Tactical												</a><a href="https://store.steampowered.com/tags/en/War/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												War												</a><a href="https://store.steampowered.com/tags/en/World%20War%20II/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												World War II												</a><a href="https://store.steampowered.com/tags/en/PvP/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												PvP												</a><a href="https://store.steampowered.com/tags/en/Controller/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Controller												</a><a href="https://store.steampowered.com/tags/en/Naval%20Combat/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Naval Combat												</a><a href="https://store.steampowered.com/tags/en/Massively%20Multiplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Massively Multiplayer												</a><a href="https://store.steampowered.com/tags/en/Team-Based/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Team-Based												</a><a href="https://store.steampowered.com/tags/en/Free%20to%20Play/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Free to Play												</a><a href="https://store.steampowered.com/tags/en/Multiplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Multiplayer												</a><a href="https://store.steampowered.com/tags/en/Online%20Co-Op/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Online Co-Op												</a><div class="app_tag add_button" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowAppTagModal( 2964090 )">+</div>
+										</div>
+									</div>
+																						</div> 																					<div id="reviewsHeader_responsive" style="display: none;" class="responsive_block_header">Reviews</div>
+															<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" id="userReviews_responsive" style="display: none;" class="user_reviews" onclick="window.location='#app_reviews_hash'">
+
+																		<a id="appReviewsAll_responsive" class="user_reviews_summary_row" href="#app_reviews_hash">
+										<div class="subtitle column all">All Reviews:</div>
+										<div class="summary column">
+																					<span class="responsive_reviewdesc_short">
+												<span class="desc_short">All Time:</span>
+																								<span class="game_review_summary mixed">Mixed</span>
+												(63% of 799)
+											</span>
+																				</div>
+									</a>
+
+																											<a id="appReviewsRecent_responsive" class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="65% of the 52 user reviews in the last 30 days are positive.">
+										<div class="subtitle column">Recent Reviews:</div>
+										<div class="summary column">
+											<span class="responsive_reviewdesc_short">
+												<span class="desc_short">Recent:</span>
+																								<span class="game_review_summary mixed">Mixed</span>
+												(65% of 52)
+											</span>
+										</div>
+									</a>
+																	</div>
+																				</div>
+					</div>
+				</div>
+
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;navKey&quot;:&quot;leftcol&quot;,&quot;flow-children&quot;:&quot;column&quot;}" class="leftcol">
+					<div class="highlight_ctn">
+													<div class="highlight_overflow">
+								<div class="gamehighlight_desktopskeleton">
+									<div class="gamehighlight_desktopskeleton_itemview"></div>
+									<div class="gamehighlight_desktopskeleton_stripitems"></div>
+									<div class="gamehighlight_desktopskeleton_stripscrollbar"></div>
+								</div>
+								<div class="gamehighlight_desktopcarousel" data-featuretarget="gamehighlight-desktopcarousel" data-props="{&quot;appName&quot;:&quot;World of Warships: Legends&quot;,&quot;trailers&quot;:[{&quot;id&quot;:1,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257331146\/3815ddf229c3704675cc2a796fe7a80f1e0325c5\/movie_232x130.jpg?t=1777887310&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257331146\/3815ddf229c3704675cc2a796fe7a80f1e0325c5\/movie_600x337.jpg?t=1777887310&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/2964090\/1833063934&quot;,&quot;category&quot;:3,&quot;title&quot;:&quot;World of Warships: Legends&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/2964090\/1833063934\/2a6df19357334893b7a0987da957d9f1ce0d004b\/1777885743\/dash_av1.mpd?t=1777887310&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/2964090\/1833063934\/2a6df19357334893b7a0987da957d9f1ce0d004b\/1777885743\/dash_h264.mpd?t=1777887310&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/2964090\/1833063934\/2a6df19357334893b7a0987da957d9f1ce0d004b\/1777885743\/hls_264_master.m3u8?t=1777887310&quot;}],&quot;screenshots&quot;:[{&quot;name&quot;:&quot;bc286aa1637288457bb4877b8a3ede00267ace0d_ss_bc286aa1637288457bb4877b8a3ede00267ace0d.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/bc286aa1637288457bb4877b8a3ede00267ace0d\/ss_bc286aa1637288457bb4877b8a3ede00267ace0d.116x65.jpg?t=1792062889&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/bc286aa1637288457bb4877b8a3ede00267ace0d\/ss_bc286aa1637288457bb4877b8a3ede00267ace0d.600x338.jpg?t=1792062889&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/bc286aa1637288457bb4877b8a3ede00267ace0d\/ss_bc286aa1637288457bb4877b8a3ede00267ace0d.1920x1080.jpg?t=1792062889&quot;,&quot;altText&quot;:&quot;Screenshot #0&quot;},{&quot;name&quot;:&quot;c469d12950fe99d56c1c8a145777296713b09199_ss_c469d12950fe99d56c1c8a145777296713b09199.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/c469d12950fe99d56c1c8a145777296713b09199\/ss_c469d12950fe99d56c1c8a145777296713b09199.116x65.jpg?t=1792062889&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/c469d12950fe99d56c1c8a145777296713b09199\/ss_c469d12950fe99d56c1c8a145777296713b09199.600x338.jpg?t=1792062889&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/c469d12950fe99d56c1c8a145777296713b09199\/ss_c469d12950fe99d56c1c8a145777296713b09199.1920x1080.jpg?t=1792062889&quot;,&quot;altText&quot;:&quot;Screenshot #1&quot;},{&quot;name&quot;:&quot;b56c288af9a4d334aeadd4ebb48ba1d0ccc5ae7e_ss_b56c288af9a4d334aeadd4ebb48ba1d0ccc5ae7e.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/b56c288af9a4d334aeadd4ebb48ba1d0ccc5ae7e\/ss_b56c288af9a4d334aeadd4ebb48ba1d0ccc5ae7e.116x65.jpg?t=1792062889&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/b56c288af9a4d334aeadd4ebb48ba1d0ccc5ae7e\/ss_b56c288af9a4d334aeadd4ebb48ba1d0ccc5ae7e.600x338.jpg?t=1792062889&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/b56c288af9a4d334aeadd4ebb48ba1d0ccc5ae7e\/ss_b56c288af9a4d334aeadd4ebb48ba1d0ccc5ae7e.1920x1080.jpg?t=1792062889&quot;,&quot;altText&quot;:&quot;Screenshot #2&quot;},{&quot;name&quot;:&quot;18b677db59839e6a962c1ade4415a41820e90a20_ss_18b677db59839e6a962c1ade4415a41820e90a20.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/18b677db59839e6a962c1ade4415a41820e90a20\/ss_18b677db59839e6a962c1ade4415a41820e90a20.116x65.jpg?t=1792062889&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/18b677db59839e6a962c1ade4415a41820e90a20\/ss_18b677db59839e6a962c1ade4415a41820e90a20.600x338.jpg?t=1792062889&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/18b677db59839e6a962c1ade4415a41820e90a20\/ss_18b677db59839e6a962c1ade4415a41820e90a20.1920x1080.jpg?t=1792062889&quot;,&quot;altText&quot;:&quot;Screenshot #3&quot;},{&quot;name&quot;:&quot;a251f05d8cce5ff81d9b09abc3ffed9d65c4576a_ss_a251f05d8cce5ff81d9b09abc3ffed9d65c4576a.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/a251f05d8cce5ff81d9b09abc3ffed9d65c4576a\/ss_a251f05d8cce5ff81d9b09abc3ffed9d65c4576a.116x65.jpg?t=1792062889&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/a251f05d8cce5ff81d9b09abc3ffed9d65c4576a\/ss_a251f05d8cce5ff81d9b09abc3ffed9d65c4576a.600x338.jpg?t=1792062889&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/a251f05d8cce5ff81d9b09abc3ffed9d65c4576a\/ss_a251f05d8cce5ff81d9b09abc3ffed9d65c4576a.1920x1080.jpg?t=1792062889&quot;,&quot;altText&quot;:&quot;Screenshot #4&quot;},{&quot;name&quot;:&quot;5a820cf17c1bdc7781a615825e3180c80f9126cc_ss_5a820cf17c1bdc7781a615825e3180c80f9126cc.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/5a820cf17c1bdc7781a615825e3180c80f9126cc\/ss_5a820cf17c1bdc7781a615825e3180c80f9126cc.116x65.jpg?t=1792062889&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/5a820cf17c1bdc7781a615825e3180c80f9126cc\/ss_5a820cf17c1bdc7781a615825e3180c80f9126cc.600x338.jpg?t=1792062889&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2964090\/5a820cf17c1bdc7781a615825e3180c80f9126cc\/ss_5a820cf17c1bdc7781a615825e3180c80f9126cc.1920x1080.jpg?t=1792062889&quot;,&quot;altText&quot;:&quot;Screenshot #5&quot;}]}"></div>
+							</div>
+											</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			</div>
+
+
+			
+			
+
+			
+		</div>
+
+
+		</div>
+			<div class="queue_and_playtime">
+				<div class="game_background_lighten">
+					<div class="game_background_lighten_border"></div>
+				</div>
+									<div class="queue_overflow_ctn">
+													<div class="queue_ctn">
+																<div id="queueActionsCtn" class="queue_actions_ctn">
+									<p><a href="https://store.steampowered.com/login/?redir=app%2F2964090&snr=1_5_9_">Sign in</a> to add this item to your wishlist, follow it, or mark it as ignored</p>
+																			<div id="shareBtn"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowNavigatorShare()" aria-label="Share"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_share_ios.svg" alt=""></span></a></div>
+																	</div>
+							</div>
+						
+												<div id="rowBtnActions" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" style="display: none;"></div>
+
+					</div>
+				
+				
+				
+																												
+				
+								
+				<div id="purchaseOptionsContent" class="purchase_options_content" style="display: none;">
+					<!-- game_area_purchase goes here -->
+				</div>
+			</div>
+
+		
+		<div class="page_content middle_page" data-panel="[]" >
+
+				<!-- Right Column -->
+				<div class="rightcol game_meta_data" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+					
+					<div id="responsive_apppage_details_left_ctn"></div>
+
+					<div id="responsive_apppage_details_right_ctn"></div>
+					<div style="clear: both;"></div>
+					
+					<!-- testing a banner on Desktop to open the current page in the desktop Steam client.  When that banner is displayed this section should be hidden. -->
+																		
+
+
+
+
+
+					
+					
+					
+
+												<div class="responsive_block_header responsive_apppage_details_left">Features</div>
+							<div class="block responsive_apppage_details_left" id="category_block">
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="game_area_features_list_ctn">
+									<a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=20&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_multiPlayer.png" alt=""></div><div class="label">MMO</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=36&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_multiPlayer.png" alt=""></div><div class="label">Online PvP</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=38&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_coop.png" alt=""></div><div class="label">Online Co-op</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=27&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_multiPlayer.png" alt=""></div><div class="label">Cross-Platform Multiplayer</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=22&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_achievements.png" alt=""></div><div class="label">Steam Achievements</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=29&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_cards.png" alt=""></div><div class="label">Steam Trading Cards</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=35&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_cart.png" alt=""></div><div class="label">In-App Purchases</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=23&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_cloud.png" alt=""></div><div class="label">Steam Cloud</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=15&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_stats.png" alt=""></div><div class="label">Stats</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=61&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_hdr.png" alt=""></div><div class="label">HDR available</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=62&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_familysharing.png" alt=""></div><div class="label">Family Sharing</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=63&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_timeline.png" alt=""></div><div class="label">Steam Timeline</div></a>
+<div  data-featuretarget="store-sidebar-accessibility-info" data-props="{&quot;bAccessibilityResizableUI&quot;:false,&quot;bAccessibilitySubtitles&quot;:false,&quot;bAccessibilityColorAlternatives&quot;:true,&quot;bAccessibilityCameraComfort&quot;:false,&quot;bAccessibilityBackgroundVolumeControls&quot;:true,&quot;bAccessibilityStereoSound&quot;:true,&quot;bAccessibilitySurroundSound&quot;:true,&quot;bAccessibilityNarratedMenus&quot;:false,&quot;bAccessibilityChatSpeechtoText&quot;:false,&quot;bAccessibilityChatTexttoSpeech&quot;:false,&quot;bAccessibilityPlayableWithoutQuicktimeEvents&quot;:true,&quot;bAccessibilityKeyboardOnlyOption&quot;:false,&quot;bAccessibilityMouseOnlyOption&quot;:false,&quot;bAccessibilityTouchOnlyOption&quot;:false,&quot;bAccessibilityDifficultyLevels&quot;:false,&quot;bAccessibilitySaveAnytime&quot;:false,&quot;bAccessibilityPlayableAtYourOwnPace&quot;:false,&quot;bAccessibilityPlayableWithoutVision&quot;:false,&quot;bAccessibilityContrastControls&quot;:false}"></div>								</div>
+								
+								<div data-featuretarget="store-sidebar-controller-support-info" data-props="{&quot;unAppID&quot;:2964090,&quot;bFullXboxControllerSupport&quot;:true,&quot;bPartialXboxControllerSupport&quot;:false,&quot;bPS4ControllerSupport&quot;:true,&quot;bPS4ControllerBTSupport&quot;:true,&quot;bPS5ControllerSupport&quot;:true,&quot;bPS5ControllerBTSupport&quot;:true,&quot;bSteamInputAPISupport&quot;:false,&quot;bNoKeyboardSupport&quot;:false,&quot;bGamepadPreferred&quot;:false,&quot;bControllerSupportWizardComplete&quot;:true,&quot;bHasXbox&quot;:null,&quot;bHasPS4&quot;:null,&quot;bHasPS5&quot;:null,&quot;bHasOther&quot;:false}"></div>
+								
+								
+								
+								
+																	<div class="DRM_notice"data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" >
+										<div>Requires agreement to a 3rd-party EULA</div>
+																					<div><a href="https://store.steampowered.com//eula/2964090_eula_0" onclick="ShowEULA( this ); return false;">World of Warships: Legends EULA</a></div>
+																			</div>
+								
+								
+															</div>
+																			<div class="block responsive_apppage_details_right">
+								<div class="block_title" id="LanguagesHeader">
+									Languages<span class="responsive_hidden">:</span>
+								</div>
+
+								
+<div id="bannerLanguages" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="ToggleBannerContentVisibility('#languageTable', '#expandLanguageBtn')">
+	<div class="responsive_banner_link_title">
+		English and 9 more	</div>
+	<div id="expandLanguageBtn" class="expand_section"></div>
+</div>
+<div id="languageTable">
+
+<table  class="game_language_options" cellpadding="0" cellspacing="0">
+	<tr>
+		<th style="width: 94px;"></th>
+				<th class="checkcol">Interface</th>
+		<th class="checkcol">Full Audio</th>
+		<th class="checkcol">Subtitles</th>
+	</tr>
+
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				English			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				French			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				German			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Japanese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Korean			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Portuguese - Brazil			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Russian			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Simplified Chinese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Spanish - Latin America			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Traditional Chinese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+	</table>
+	<script type="text/javascript">
+		function ShowAllLanguages( elLink )
+		{
+			if ( typeof GetUsabilityTracker !== 'undefined' )
+				GetUsabilityTracker().AddEvent( 1002 );
+
+			$J('table.game_language_options tr').show();
+			$J( elLink ).hide();
+			return false;
+		}
+	</script>
+	<a class="all_languages" onclick="return ShowAllLanguages( this )">See all 10 supported languages</a>
+
+
+</div>
+
+							</div>
+																		<div data-featuretarget="deck-verified-results"></div>
+					
+					<div class="responsive_apppage_details_right" data-featuretarget="game-rating-block" data-props="{&quot;bRatingAllowed&quot;:true,&quot;bHideRatingTitle&quot;:false}"></div>
+					<div  data-featuretarget="achievements"></div>
+					
+						<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" id="bannerPointsShop" class="responsive_banner_link" style="display: none" onclick="window.location='https://store.steampowered.com/points/shop/app/2964090/'">
+							<div class="responsive_banner_link_title responsive_chevron_right">View Points Shop Items <span class="responsive_banner_link_total">(31)</span></div>
+						</div>
+
+						<div class="block responsive_apppage_details_right" id="achievement_block">
+							<div class="block_title">
+								Points Shop Items Available							</div>
+							<div class="communitylink_points_shop_images">
+																	<a class="communitylink_points_shop_item" href="https://store.steampowered.com/points/shop/app/2964090/reward/1530474/">
+										<img class="" title="Attack of the Kraken" src="https://shared.fastly.steamstatic.com/community_assets/images/items/2964090/f432166d675ccf6c2b94bfdb2cd0c25cc27b4bf4.png">
+									</a>
+																		<a class="communitylink_points_shop_item" href="https://store.steampowered.com/points/shop/app/2964090/reward/1530453/">
+										<img class="" title="Captain's quarters" src="https://community.fastly.steamstatic.com/economy/profilebackground/items/2964090/e336fc7a52c5f56e2c42aa85ec8b0008b0bae4ef.jpg?size=64x0">
+									</a>
+																		<a class="communitylink_points_shop_item" href="https://store.steampowered.com/points/shop/app/2964090/reward/2652529/">
+										<img class="" title="Ready to Retreat" src="https://shared.fastly.steamstatic.com/community_assets/images/items/2964090/fda7da431a042be36a681892f3672730f7cd27dc.png">
+									</a>
+																		<a class="communitylink_points_shop_item" href="https://store.steampowered.com/points/shop/app/2964090/reward/1530451/">
+										<img class="" title="Unsinkable Sam" src="https://shared.fastly.steamstatic.com/community_assets/images/items/2964090/be736914ff317549b43745d8863647defdb0109b.jpg">
+									</a>
+																										<a class="communitylink_points_shop_item communitylink_achivement_plusmore" href="https://store.steampowered.com/points/shop/app/2964090/">
+										View all<br>31									</a>
+															</div>
+						</div>
+					
+											<div id="appDetailsUnderlinedLinks" class="block responsive_apppage_details_left game_details underlined_links">
+							<div class="block_content">
+								<div class="block_content_inner">
+									<div id="genresAndManufacturer" class="details_block">
+
+			<b>Title:</b> World of Warships: Legends<br>
+	
+				<b>Genre:</b> <span data-panel="{&quot;flow-children&quot;:&quot;row&quot;}"><a href="https://store.steampowered.com/genre/Action/?snr=1_5_9__408">Action</a>, <a href="https://store.steampowered.com/genre/Massively%20Multiplayer/?snr=1_5_9__408">Massively Multiplayer</a>, <a href="https://store.steampowered.com/genre/Simulation/?snr=1_5_9__408">Simulation</a>, <a href="https://store.steampowered.com/genre/Strategy/?snr=1_5_9__408">Strategy</a>, <a href="https://store.steampowered.com/genre/Free%20to%20Play/?snr=1_5_9__408">Free To Play</a></span><br>
+			
+			<div class="dev_row">
+			<b>Developer:</b>
+
+				<a href="https://store.steampowered.com/developer/wargaming?snr=1_5_9__408">Wargaming Group Limited</a>
+		</div>
+	
+			<div class="dev_row">
+			<b>Publisher:</b>
+
+				<a href="https://store.steampowered.com/publisher/wargaming?snr=1_5_9__408">Wargaming Group Limited</a>
+		</div>
+	
+				<div class="dev_row">
+			<b>Franchise:</b>
+
+			<a href="https://store.steampowered.com/search/?franchise=The%20World%20of%20Warships&snr=1_5_9__408">The World of Warships</a>
+		</div>
+		
+	            <b>Release Date:</b> May 4, 2026<br>
+        
+            	</div>
+
+
+<div class="details_block" style="padding-top: 14px;">
+
+				<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fwowslegends.com%2F" target="_blank" rel="noreferrer  noopener" >
+			Visit the website <img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+		</a>
+	
+					<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.com%2Finvite%2Fwowslegends" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://discord.com/invite/wowslegends">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M823,229.3c-58.9-27-121-46.1-184.9-56.9-8.7,15.6-16.6,31.7-23.7,48.1-68-10.2-137.1-10.2-205.1,0-7-16.4-14.9-32.5-23.7-48.1-63.9,10.9-126.1,30.1-185,57-117,173.1-148.7,341.9-132.8,508.3h0c68.5,50.6,145.2,89.1,226.7,113.8,18.4-24.7,34.6-50.9,48.6-78.3-26.5-9.9-52.1-22.1-76.5-36.5,6.4-4.7,12.7-9.4,18.7-14.1,143.6,67.5,309.7,67.5,453.3,0,6.1,5,12.4,9.8,18.7,14.1-24.4,14.4-50,26.7-76.6,36.6,13.9,27.4,30.2,53.6,48.6,78.2,81.6-24.6,158.3-63.1,226.9-113.7h0c18.6-193-31.8-360.2-133.2-508.5h0ZM363.2,635.4c-44.2,0-80.7-40.1-80.7-89.4s35.2-89.8,80.6-89.8,81.5,40.5,80.8,89.8c-.8,49.3-35.6,89.4-80.6,89.4h-.1ZM660.8,635.4c-44.3,0-80.6-40.1-80.6-89.4s35.2-89.8,80.6-89.8,81.3,40.5,80.6,89.8c-.8,49.3-35.5,89.4-80.6,89.4Z"/>
+			</svg>
+							<span class="social_account">Discord</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://www.reddit.com/r/WoWs_Legends/" target="_blank" rel="" class="ttip" data-tooltip-text="https://www.reddit.com/r/WoWs_Legends/">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M829.1,381c-29.9,0-57.5,10.1-79.5,27.1-60-37.1-135.6-60.4-218.5-63.5v-.3c0-55.5,41.3-101.6,94.7-109.1,9.7,41.1,46.6,71.8,90.7,71.8s93.2-41.7,93.2-93.2-41.7-93.2-93.2-93.2-82.6,31.9-91.3,74.3c-75.4,8.1-134.3,72-134.3,149.5v.5c-82,3.5-156.8,26.8-216.3,63.6-22.1-17.1-49.8-27.3-79.8-27.3-72.2,0-130.6,58.5-130.6,130.6s30.8,97.5,75.2,118.3c4.3,151.6,169.6,273.6,372.8,273.6s368.7-122.1,372.8-273.9c44.1-21,74.6-65.9,74.6-118s-58.5-130.6-130.6-130.6h0Z"/>
+			</svg>
+							<span class="social_account">Reddit</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fwww.facebook.com%2FWoWsLegends%2F" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://www.facebook.com/WoWsLegends/">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M512,66c-246.3,0-446,199.7-446,446s144,384.7,338.3,432.9v-296.6h-92v-136.3h92v-58.7c0-151.8,68.7-222.2,217.7-222.2s77,5.5,97,11.1v123.5c-10.5-1.1-28.8-1.7-51.5-1.7-73.1,0-101.4,27.7-101.4,99.7v48.2h145.7l-25,136.3h-120.7v306.4c220.8-26.7,392-214.7,392-442.7S758.3,66,512,66Z"/>
+			</svg>
+							<span class="social_account">Facebook</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fwww.instagram.com%2Fwows_legends%2F" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://www.instagram.com/wows_legends/">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M327.6,69.9c-47.4,2.2-79.7,9.8-108,20.9-29.3,11.4-54.1,26.7-78.8,51.5-24.7,24.8-39.9,49.6-51.2,78.9-11,28.3-18.4,60.7-20.5,108.1-2.1,47.4-2.6,62.6-2.3,183.5.2,120.9.8,136.1,3.1,183.6,2.3,47.4,9.8,79.7,20.9,108,11.4,29.3,26.7,54.1,51.5,78.8,24.8,24.7,49.6,39.9,79,51.2,28.3,10.9,60.7,18.4,108.1,20.5,47.4,2.1,62.6,2.6,183.5,2.3,120.9-.2,136.1-.8,183.6-3s79.7-9.8,108-20.9c29.3-11.5,54.1-26.7,78.8-51.5,24.7-24.8,39.9-49.6,51.2-79,11-28.3,18.4-60.7,20.5-108.1,2.1-47.5,2.6-62.7,2.3-183.6-.2-120.9-.8-136.1-3-183.5s-9.8-79.7-20.9-108c-11.4-29.3-26.7-54.1-51.5-78.8-24.8-24.7-49.6-39.9-79-51.2-28.3-11-60.7-18.4-108.1-20.5s-62.6-2.6-183.6-2.3-136.1.7-183.5,3.1M332.8,874.8c-43.4-1.9-67-9.1-82.7-15.1-20.8-8-35.6-17.7-51.3-33.2-15.7-15.5-25.3-30.4-33.4-51.1-6.1-15.7-13.4-39.3-15.5-82.7-2.2-46.9-2.7-61-2.9-179.9s.2-132.9,2.3-179.9c1.9-43.4,9.1-67,15.1-82.7,8-20.8,17.7-35.6,33.2-51.3,15.5-15.6,30.4-25.3,51.1-33.4,15.7-6.1,39.2-13.4,82.6-15.5,47-2.2,61-2.7,179.9-2.9,118.9-.3,133,.2,179.9,2.3,43.4,1.9,67,9.1,82.7,15.1,20.8,8,35.6,17.6,51.3,33.2,15.6,15.6,25.3,30.3,33.4,51.2,6.1,15.6,13.4,39.2,15.5,82.6,2.2,47,2.7,61,3,179.9.2,118.8-.2,133-2.3,179.9-1.9,43.4-9.1,67-15.1,82.7-8,20.8-17.7,35.6-33.2,51.3-15.5,15.6-30.4,25.3-51.1,33.4-15.7,6.1-39.2,13.4-82.6,15.5-47,2.2-61,2.7-179.9,2.9-118.9.3-132.9-.2-179.9-2.3M695.8,274c0,29.5,24,53.4,53.5,53.3s53.4-24,53.3-53.5c0-29.5-24-53.4-53.5-53.3,0,0,0,0,0,0-29.5,0-53.4,24-53.3,53.5M283.4,512.4c.2,126.3,102.8,228.4,229,228.2,126.2-.2,228.4-102.8,228.2-229.1-.2-126.3-102.8-228.4-229.1-228.2s-228.4,102.8-228.2,229.1M363.6,512.3c-.2-82,66.2-148.6,148.1-148.7,82-.2,148.6,66.2,148.7,148.1.2,82-66.2,148.6-148.1,148.7-82,.2-148.5-66.1-148.7-148.1h0"/>
+			</svg>
+							<span class="social_account">Instagram</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fx.com%2FWoWs_Legends" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://x.com/WoWs_Legends">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M595.2,443.5L920.9,65h-77.2l-282.8,328.7L335.1,65H74.6l341.5,497L74.6,959h77.2l298.6-347.1,238.5,347.1h260.5l-354.2-515.5h0ZM489.5,566.4l-34.6-49.5L179.6,123.1h118.5l222.2,317.8,34.6,49.5,288.8,413.1h-118.5l-235.7-337.1h0Z"/>
+			</svg>
+							<span class="social_account">X</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://www.youtube.com/worldofwarshipslegends" target="_blank" rel="" class="ttip" data-tooltip-text="https://www.youtube.com/worldofwarshipslegends">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M941.3,294.9c-10.3-38.8-40.7-69.4-79.2-79.7-69.9-18.8-350.1-18.8-350.1-18.8,0,0-280.2,0-350.1,18.8-38.6,10.4-68.9,40.9-79.2,79.7-18.7,70.3-18.7,217.1-18.7,217.1,0,0,0,146.7,18.7,217.1,10.3,38.8,40.7,69.4,79.2,79.7,69.9,18.8,350.1,18.8,350.1,18.8,0,0,280.2,0,350.1-18.8,38.6-10.4,68.9-40.9,79.2-79.7,18.7-70.3,18.7-217.1,18.7-217.1,0,0,0-146.7-18.7-217.1ZM420.4,645.2v-266.4l234.2,133.2-234.2,133.2Z"/>
+			</svg>
+							<span class="social_account">YouTube</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+						
+	
+	
+	
+			<a class="linkbar" href="https://steamcommunity.com/app/2964090/discussions/2/809101443875439877/" target="_blank" rel="noreferrer" >
+			View the manual <img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+		</a>
+	
+	
+			<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Flegal.wargaming.net%2Fen%2Fuser-documents%2Fprivacy%2Fprivacy-policy%2Fview" target="_blank" rel="noreferrer  noopener" >
+			View privacy policy <img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+		</a>
+	
+	
+			<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/?appids=2964090&amp;snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			View update history		</a>
+		<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/app/2964090?snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			Read related news		</a>
+	
+				<a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/2964090/discussions/" target="_blank" rel="noreferrer" >
+			View discussions		</a>
+	
+    
+	        <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/actions/Search?T=ClanAccount&K=World%20of%20Warships%3A%20Legends">
+            Find Community Groups        </a>
+    </div>
+								</div>
+							</div>
+													</div>
+					
+																		<div id="shareEmbedRow" class="block responsive_apppage_details_left" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+								<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowEmbedWidget(2964090); return false;"><span>Embed</span></a>
+								<a id="ReportAppBtn" class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(2964090)"><span data-tooltip-text="Report this Product" aria-label="Report this Product"><i class="ico16 reportv6"></i>&nbsp;</span></a>
+							</div>
+						
+						<div id="reportBtn" style="display:none;"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(2964090)"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_report.svg" alt="Report this Product"></span></a></div>
+					
+					
+															
+											<div id="appLinksAndInfoCtn" style="display:none;">
+							<div class="responsive_block_header">Links &amp; info</div>
+							<div id="appLinksAndInfo" class="game_page_autocollapse" style="max-height: 180px;"></div>
+						</div>
+					
+				</div>
+				<!-- End Right Column -->
+
+
+				<div class="leftcol game_description_column"  data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+
+					
+										
+					
+					<div id="game_area_purchase" class="game_area_purchase">
+																			
+																						
+
+							
+																																									<!--[if lte IE 7]>
+<style type="text/css">
+.game_area_purchase_game_dropdown_right_panel .btn_addtocart { float: none; }
+</style>
+<![endif]-->
+
+	<div class="game_area_purchase_game  " role="region" aria-labelledby="game_area_purchase_section_free_2964090">
+		<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+				<h2 id="game_area_purchase_section_free_2964090" class="title">
+			Play World of Warships: Legends		</h2>
+						<div class="game_purchase_action">
+			<div class="game_purchase_action_bg">
+
+									<div class="game_purchase_price price">
+						Free To Play					</div>
+				
+									<div id="freeGameBtn" class="btn_addtocart">
+						
+							<a class="btn_green_steamui btn_medium" href="javascript:ShowGotSteamModal('steam://run/2964090', &quot;World of Warships: Legends&quot;, 'Play this game now' )">
+								<span>Play Game</span>
+							</a>
+											</div>
+											</div>
+		</div>
+	</div>
+<div id="gameAreaDLCSection" class="game_area_dlc_section">
+
+	<h2 class="gradientbg" aria-label="Content For This Game">Content For This Game<span class="note"><a href="https://store.steampowered.com/dlc/2964090/World_of_Warships_Legends/?snr=1_5_9__1061">Browse all <em>(9)</em></a></span></h2>
+
+	
+			<div class="game_area_dlc_list">
+			<form name="add_all_dlc_to_cart" action="https://store.steampowered.com/cart/?snr=1_5_9_" method="POST">
+				<input type="hidden" name="action" value="add_to_cart">
+				<input type="hidden" name="sessionid" value="ee45f581c2c72f01cbae0d4d">
+
+				<div class="tableView">
+											<div class="gameDlcBlocks">
+										<a class="game_area_dlc_row  odd ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_4596240"
+						href="https://store.steampowered.com/app/4596240/World_of_Warships_Legends_Prince_of_Prussia/?snr=1_5_9__405"
+						 data-ds-appid="4596240" data-ds-itemkey="App_4596240" data-ds-tagids="[19,599,1774,3814,4191,4175,3987]" data-ds-crtrids="[32977250]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:4596240,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														World of Warships: Legends — Prince of Prussia						</div>
+
+						<div class="game_area_dlc_price">
+																																		$49.99																														</div>
+													<input type="hidden" name="subid[]" value="1601759">
+												</a>
+											<a class="game_area_dlc_row  even ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_4604950"
+						href="https://store.steampowered.com/app/4604950/World_of_Warships_Legends_The_Ocean_Runner/?snr=1_5_9__405"
+						 data-ds-appid="4604950" data-ds-itemkey="App_4604950" data-ds-tagids="[19,599,1774,3814,4191,4175,3987]" data-ds-crtrids="[32977250]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:4604950,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														World of Warships: Legends — The Ocean Runner						</div>
+
+						<div class="game_area_dlc_price">
+																																		$0.99																														</div>
+													<input type="hidden" name="subid[]" value="1604581">
+												</a>
+											<a class="game_area_dlc_row  odd ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_4626910"
+						href="https://store.steampowered.com/app/4626910/World_of_Warships_Legends_Mighty_Starter_Pack/?snr=1_5_9__405"
+						 data-ds-appid="4626910" data-ds-itemkey="App_4626910" data-ds-tagids="[19,599,1774,3814,4191,4175,3987]" data-ds-crtrids="[32977250]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:4626910,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														World of Warships: Legends — Mighty Starter Pack						</div>
+
+						<div class="game_area_dlc_price">
+																																		$4.99																														</div>
+													<input type="hidden" name="subid[]" value="1611606">
+												</a>
+											<a class="game_area_dlc_row  even ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_4636090"
+						href="https://store.steampowered.com/app/4636090/World_of_Warships_Legends_Pilgrim_From_Devon/?snr=1_5_9__405"
+						 data-ds-appid="4636090" data-ds-itemkey="App_4636090" data-ds-tagids="[19,599,1774,3814,4191,4175,3987]" data-ds-crtrids="[32977250]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:4636090,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														World of Warships: Legends — Pilgrim From Devon						</div>
+
+						<div class="game_area_dlc_price">
+																																		$69.99																														</div>
+													<input type="hidden" name="subid[]" value="1614639">
+												</a>
+											<a class="game_area_dlc_row  odd ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_4640340"
+						href="https://store.steampowered.com/app/4640340/World_of_Warships_Legends_a_Tale_of_Bravery/?snr=1_5_9__405"
+						 data-ds-appid="4640340" data-ds-itemkey="App_4640340" data-ds-tagids="[19,599,1774,3814,4191,4175,3987]" data-ds-crtrids="[32977250]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:4640340,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														World of Warships: Legends — a Tale of Bravery						</div>
+
+						<div class="game_area_dlc_price">
+																																		$29.99																														</div>
+													<input type="hidden" name="subid[]" value="1616146">
+												</a>
+													</div>
+							<div id="game_area_dlc_expanded" style="display: none;">
+											<a class="game_area_dlc_row  even ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_4652620"
+						href="https://store.steampowered.com/app/4652620/World_of_Warships_Legends_Dawns_Guardian/?snr=1_5_9__405"
+						 data-ds-appid="4652620" data-ds-itemkey="App_4652620" data-ds-tagids="[19,599,1774,3814,4191,4175,3987]" data-ds-crtrids="[32977250]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:4652620,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														World of Warships: Legends — Dawn's Guardian						</div>
+
+						<div class="game_area_dlc_price">
+																																		$39.99																														</div>
+													<input type="hidden" name="subid[]" value="1620036">
+												</a>
+											<a class="game_area_dlc_row  odd ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_5001710"
+						href="https://store.steampowered.com/app/5001710/World_of_Warships_Legends_Fury_of_the_Adriatic/?snr=1_5_9__405"
+						 data-ds-appid="5001710" data-ds-itemkey="App_5001710" data-ds-tagids="[19,599,1774,3814,4191,4175,3987]" data-ds-crtrids="[32977250]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:5001710,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														World of Warships: Legends – Fury of the Adriatic						</div>
+
+						<div class="game_area_dlc_price">
+																																		$29.99																														</div>
+													<input type="hidden" name="subid[]" value="1734923">
+												</a>
+											<a class="game_area_dlc_row  even ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_5065460"
+						href="https://store.steampowered.com/app/5065460/World_of_Warships_Legends_Swift_as_the_River/?snr=1_5_9__405"
+						 data-ds-appid="5065460" data-ds-itemkey="App_5065460" data-ds-tagids="[19,599,1774,3814,4191,4175,3987]" data-ds-crtrids="[32977250]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:5065460,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														World of Warships: Legends — Swift as the River						</div>
+
+						<div class="game_area_dlc_price">
+																																		$19.99																														</div>
+													<input type="hidden" name="subid[]" value="1755742">
+												</a>
+											<a class="game_area_dlc_row  odd ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_5347030"
+						href="https://store.steampowered.com/app/5347030/World_of_Warships_Legends_Rage_Unbound/?snr=1_5_9__405"
+						 data-ds-appid="5347030" data-ds-itemkey="App_5347030" data-ds-tagids="[19,599,1774,3814,4191,4175,3987]" data-ds-crtrids="[32977250]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:5347030,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														World of Warships: Legends – Rage Unbound						</div>
+
+						<div class="game_area_dlc_price">
+																																		$29.99																														</div>
+													<input type="hidden" name="subid[]" value="1847300">
+												</a>
+						
+																										<div id="dlc_purchase_action" class="game_purchase_action game_purchase_action_bg"
+							     style="display: none;">
+								<div class="game_purchase_price price">
+									$275.91								</div>
+								<div class="btn_addtocart">
+
+																			<a class="btn_green_steamui btn_medium" href="javascript:addAllDlcToCart();">
+											<span>Add all DLC to Cart</span>
+										</a>
+									
+								</div>
+							</div>
+																	</div>
+									<div id="dlc_footer">
+						<div class="dlc_footer_element" id="dlc_show_all_link"
+						     onclick="$J('#dlc_footer').hide(); $J('#dlc_purchase_action').fadeIn( 250 ); $J('#game_area_dlc_expanded').slideDown( 250 );">
+							<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="pulldown">See All</div>
+						</div>
+						<div
+							class="dlc_footer_element">showing 1 - 5 of 9</div>
+					</div>
+							
+			</div> <!-- tableView -->
+
+			<div style="clear: right;"></div>
+
+			</form>
+		</div>
+	
+	</div>
+
+												
+					</div>
+					<!-- game_area_purchase -->
+
+					
+											<div id="bannerCommunity" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="window.location='https://steamcommunity.com/app/2964090'">
+							<div class="responsive_banner_link_title responsive_chevron_right">View Community Hub</div>
+						</div>
+					
+					<div class="purchase_area_spacer">&nbsp;</div>
+
+					
+					
+					<div  data-featuretarget="deck-topplayed-banner" data-props="{&quot;app_name&quot;:&quot;World of Warships: Legends&quot;,&quot;appid&quot;:2964090}"></div>
+																								<script type="text/javascript">
+							var StoreDefaults = {"PartnerEventStore":[{"gid":"678513764320938104","clan_steamid":"103582791475142694","event_name":"November Update: Black Ships on Dark Seas","event_type":13,"appid":2964090,"server_address":null,"server_password":null,"rtime32_start_time":1793602800,"rtime32_end_time":1793608201,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"8227b1b11071002267ae898fd3a9c5aaecf21d3a.png\",\"439d605fb0159a4963621cad8f782aa7fffca1fb.png\",\"8b28b59b09d52907bd8b38717537c678b2b4a5ee.png\",null,\"7b814de2f23ad408567bc6e29471cfdd5ee13abb.png\",null,\"5a56e161c06b702a197c439385bfd13cb4d5567d.png\",\"5cef4d4a75464617219a5c1a91c8faa5bba92b9f.png\",\"8927073b7100fda943e0e5d90bdda2a9cc66f546.png\",null,\"cea441b9a76518eca8a01d15240623f078e1fda7.png\",null,null,null,null,null,null,null,null,null,null,null,\"31d442f87e7e7f434e4e4c9bb75bb5d555cb838d.png\",null,null,null,null,\"ce3ef832ca64d945db4c8527304d9162b3260da4.png\",null,null,null,null],\"localized_capsule_image\":[\"bf001e66a223cee5de1f34c1fcfe55a695ebc74d.png\",\"6fd1d0979da642113c75cb8196a1f4d03d538bc2.png\",\"0f0a7eedc77afeb1c3269c7ab5f68fa01d422ed3.png\",null,\"440a753e5617663126c1cef06b3d769acfbb7186.png\",null,\"29c73c3640aeffc9c1e391fdf368c89802e54f24.png\",\"32b0287fe13254b33bf9083726a8a0cb7da69062.png\",\"71ad467817ed708a866146d98115a8aa260b3519.png\",null,\"bfbfcd8fd955879491df7bd696083252900777b4.png\",null,null,null,null,null,null,null,null,null,null,null,\"bde0d1ca9cffa63086dfc26a68b5798a679ccd3e.png\",null,null,null,null,\"a63d9a799b512aa1a609fe0bad2cc85a08643466.png\",null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"library_spotlight\":true}","announcement_body":{"gid":"678513764320938105","clanid":"45621286","posterid":"0","headline":"November Update: Black Ships on Dark Seas","posttime":1793373961,"updatetime":1793373961,"body":"[p][img src=\"{STEAM_CLAN_IMAGE}\/45621286\/22e0af27868c2e9e30b9cf5c5b0a8e2dad409ab6.png\"][\/img][\/p][p][previewyoutube=\"tZrFtwHuxkk;full\"][\/previewyoutube][\/p][p]Welcome to the new update information hub, Captains! Let's dive right in with a list of everything that's on the horizon.[\/p][p][img src=\"{STEAM_CLAN_IMAGE}\/45621286\/7f0fa526ca859390f29c64b6fef563b4d3beb4ef.jpg\"][\/img][\/p][list][*][p]The \"\u0421old Rain, Gray Steel\" campaign, rewarding Japanese Tier VII Premium destroyer Shigure[\/p][\/*][*][p]New black ships drop anchor[\/p][\/*][*][p]The Road to New Year continues[\/p][\/*][*][p]The Forrest Sherman marathon in full swing[\/p][\/*][*][p]The Advent Calendar awaits[\/p][\/*][*][p]Ranked & Brawl seasons[\/p][\/*][*][p]The Fleet Cup returns for Season 8[\/p][\/*][*][p]Pirates return to the Store[\/p][\/*][*][p]Battle of Taranto event[\/p][\/*][*][p]New battleship Commander for Soviet ships[\/p][\/*][*][p]Balance changes[\/p][\/*][*][p]Improvements and bug fixes[\/p][\/*][\/list][h1]\"\u0421old Rain, Gray Steel\" Campaign[\/h1][p]The new campaign, running November 2 through December 7, will feature a variety of goodies, with the all-new Japanese destroyer Shigure at the top of the pile. She's a hybrid option for playing Japanese destroyers. Her solid artillery suite and great concealment, paired with state-of-the-art, high-speed, hard-hitting torpedoes, put her in firmly in the running for the best in her tier. Plus, Shigure is the only Japanese destroyer to boast access to the combo of Exhaust Smoke Generator and Sonar. With the Engine Boost consumable further enhancing her speed, you're in for a rare treat.[\/p][p][img src=\"{STEAM_CLAN_IMAGE}\/45621286\/1f3375d7dd32b0222fd703235d870909490e4932.jpg\"][\/img][\/p][p]You get the new ship once you complete all 100 milestones of the campaign with Admiralty Backing active. You can always catch up on missed challenges using a special built-in mechanic. The full list of rewards is as follows:[\/p][p][img src=\"{STEAM_CLAN_IMAGE}\/45621286\/6a73d64156afa7b7a32c68c07ede8142725b76cb.jpg\"][\/img][\/p][p][b]Rewards available without the Admiralty Backing:[\/b][\/p][list][*][p]50x Common Boosters[\/p][\/*][*][p]12x Imperial Japanese Navy camouflages[\/p][\/*][*][p]12x Shadow camouflages[\/p][\/*][*][p]10,000 Global XP[\/p][\/*][*][p]105,000 Commander XP[\/p][\/*][*][p]700,000 Research Points[\/p][\/*][*][p]600,000 credits[\/p][\/*][*][p]15x Promotion Orders[\/p][\/*][*][p]1x Insignia[\/p][\/*][*][p]1x Commendation[\/p][\/*][*][p]5 days of Premium Account[\/p][\/*][*][p]2,000 Ship Parts[\/p][\/*][*][p]2,500 Giftlets[\/p][\/*][*][p]1x Black Friday '26 crate[\/p][\/*][*][p]7x Fall Big Crates[\/p][\/*][*][p]1x Japanese Commander crate[\/p][\/*][*][p]Shigure patch base[\/p][\/*][*][p]Shigure patch symbol[\/p][\/*][\/list][p]Value of the rewards without the Admiralty Backing: [b]22,030 doubloons[\/b][\/p][p][b]Additional rewards with the Admiralty Backing (2,500 doubloons):[\/b][\/p][list][*][p]50x Rare Boosters[\/p][\/*][*][p]12x Imperial Japanese Navy camouflages[\/p][\/*][*][p]12x Shadow camouflages[\/p][\/*][*][p]35,000 Global XP[\/p][\/*][*][p]345,000 Commander XP[\/p][\/*][*][p]1,050,000 Research Points[\/p][\/*][*][p]2,400,000 credits[\/p][\/*][*][p]30x Promotion Orders[\/p][\/*][*][p]4x Insignia[\/p][\/*][*][p]4x Commendations[\/p][\/*][*][p]750 doubloons[\/p][\/*][*][p]2,000 Ship Parts[\/p][\/*][*][p]Shigure flag[\/p][\/*][*][p]Admiralty Backing special weekly mission rewarding Renown Points[\/p][\/*][*][p]Japanese Tier VII Premium destroyer Shigure[\/p][\/*][\/list][p]Total value of the rewards with the Admiralty Backing: [b]71,710 doubloons[\/b][\/p][h1]Black Ships: Dark Squadron Arrives[\/h1][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/f18d8c086b9448feac4d968c4e22a19d.jpg\" style=\"max-width: 100%;\"][\/img][\/p][p]Since Black Friday is upon us, this update comes with a selection of new black ships. As many as [b]six[\/b] of those will grace the Legendary waters this time, including the all-new Pan-American Tier VII Premium cruiser [b]Almirante Grau B[\/b], joined by [b]Rhode Island B,[\/b] [b]Lepanto B,[\/b] [b]Suwo B[\/b], [b]Osborne B[\/b], and [b]Asturias B[\/b]. All six ships feature stunning black skins, and their bundles include dedicated flags. This year's themed crate and content from previous Black Friday events will also be available. Stay tuned for more info in the dedicated article![\/p][h1]Pirates Return![\/h1][p][img src=\"{STEAM_CLAN_IMAGE}\/45621286\/d790b8eb6974c1e9550457911cf263df4b44cc40.jpg\"][\/img][\/p][p]Yarrr! From November 16 till December 7, all Commanders, ships, and skins from the prior pirate events will be available in the Store. The same goes for the latest version of the pirate crrrate. It's a great way to enhance your collection, so don't miss out![\/p][h1]Ranked, Brawl, and Fleet Cup: Magnificent Trio[\/h1][p]There's plenty of ways to play your favorite game in this update! First of all, Fleet Cup returns for the 8th season, with 5v5 battles allowing only Tech Tree ships with no carriers included, available on each Friday, Saturday and Sunday of the update. The Ranked seasons are coming in hot, too: three straight week-long seasons of 1v1 Tier VII action, with the first one starting as early as November 3. Here's the full schedule:[\/p][list][*][p]Season 110: November 3\u20139, battleships only[\/p][\/*][*][p]Season 111: November 10\u201316, cruisers only[\/p][\/*][*][p]Season 112: November 17\u201323, destroyers only[\/p][\/*][\/list][p]Last but definitely not least comes the Asymmetric Brawl, challenging you to take on 12 AI-controlled enemies in a team of five between November 24 and 30. Keep your eyes peeled for the dedicated articles; each will dive into the details of the different battle types.[\/p][h1]Battle of Taranto Event[\/h1][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/15f7b20dd6904ce8bc1a2cafb24be7dd.jpg\" style=\"max-width: 100%;\"][\/img][\/p][p]A special event will be held to commemorate the anniversary of the Battle of Taranto. Within a free mission, active between November 9 and 30, you'll be able to score a variety of themed goods, including a unique flag. On top of that, expect discounts for British and Italian ships, all of that coupled with an option to acquire Napoli\u00a0B for doubloons and Warspite\u00a0B for Global XP through chained bundles.[\/p][h1]New Battleship Commander[\/h1][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/144802670b87483489123f9ebf8b7105.jpg\" style=\"max-width: 100%;\"][\/img][\/p][p]Besides that, Soviet battleships are receiving a new Commander you can put at their helm. Zinovy Rozhestvensky is a prominent historical figure and comes with an array of new skills (including a new Legendary skill) focused on improving both the offensive and defensive capabilities of your ship. His [b]Mad Dog[\/b] base trait improves your battleship's main battery damage within 11 km range by up to 6%, while his \"[b]The Long Voyage[\/b]\" unique skill increases Repair Party duration (by up to 30%) and reduces its cooldown time (by up to 20%), while also increasing the total citadel HP restored by that consumable by up to 20% in a new unique effect. However, HP healed per second decreases (by up to 10%) to balance out all the bonuses.[\/p][p]Here's a list of the new skills[\/p][list][*][p][b]Shrapnel-Proof[\/b] reduces the fire-catching chance for your ship and fire damage to your battleship by up to 10% and 5% respectively.[\/p][\/*][*][p][b]Concentrated Fire[\/b] improves battleship main battery shell grouping by up to 7.5%, and subsequent AP shell damage to the same target with each AP shell hit by up to 5% total.[\/p][\/*][*][p][b]All or Nothing[\/b] reduces minimum and guaranteed ricochet angles for shells that hit your battleship by up to 5% each; increases damage to your ship's extremities by up to 5%.[\/p][\/*][*][p][b]Test of Endurance[\/b] reduces Damage Control Party cooldown time by up to 10% and increases its duration by up to 10%; grants one extra charge to all consumables; and reduces incoming damage from shells, torpedoes, and bombs to your battleship while Damage Control Party is active by up to 10%.[\/p][\/*][*][p][b]Unbreakable (Legendary skill)[\/b] reduces torpedo damage to your ship (by up to 20%). It also grants a special effect that reduces incoming damage to your battleship by up to 10% and makes your modules immune to damage and disabling. This special effect activates when an enemy ship is within a range of 6 km (at maximum skill mastery).[\/p][\/*][\/list][p]You'll be able to acquire this Commander via a dedicated prolonged mission running throughout the update.[\/p][h1]The Road to New Year: Still To Come[\/h1][p]The Road to New Year event does not stop here! Continue accumulating Giftlets through various activities so that you can acquire a selection of rewards when the next update starts, with a choice between Ohio, Lenin, and Jean Bart as the biggest holiday treat. A detailed look, including a dedicated video, [url=\"https:\/\/wowslegends.com\/news\/588-road-to-new-year-begins-lenin-jean-bart-ohio-and-more-rewards\"]is available here[\/url].[\/p][p]That's not all! On December 1 (surprisingly!), the Advent Calendar arrives, with rewards each day just for checking in and more for completing missions, including up to 2,500 doubloons, with a surprise final prize that will be revealed as you progress through the Calendar. If you're working toward your Jean Bart, Lenin or Ohio, the holiday campaign's Admiralty Backing will have the last Giftlets you need!We'll keep you posted: look out for more information as the release date approaches.[\/p][h1]The Forrest Sherman Marathon Continues[\/h1][p]This update you'll be able to collect more Ship Parts to propel you on the way to acquiring U.S. Legendary Tier destroyer Forrest Sherman! You can obtain them through the campaign (both with and without Admiralty Backing), Weekly Assignments, and as a bonus with the black ships acquired from Store bundles or crates.[\/p][p]Before you go, take a break and reward yourself with a small bonus:[\/p][list][*][p]1x Fall Big Crate[\/p][\/*][*][p]10x Shadow camouflages[\/p][\/*][*][p]10x Common Battle Boosters[\/p][\/*][*][p]Captain Reader flag[\/p][\/*][\/list][p]Redeem the code: [b]X9JJXNVYWW[\/b][\/p][h1]Balance Changes[\/h1][p]This update brings improvements for the French alternative cruiser line and U.S. alternative destroyers. On top of that, Hood (she's getting torpedoes!), Genova, Hindenburg and more ships also receive various adjustments. That, [i]perhaps surprisingly[\/i], includes a [b]nerf[\/b] for Vanguard.[\/p][p]A detailed look at the changes is available in [url=\"https:\/\/wowslegends.com\/news\/600\"]another issue of our Ministry of Balance series[\/url]. The changes for this update are not limited to ships: the Shards map has been reworked to provide more strategic possibilities and improve overall gameplay, namely readjusting some of the island terrain.[\/p][h2]Grimshard Exchange[\/h2][p]Starting with this update, Grimshards will be no longer available in-game. You'll receive a compensation of 1,500 credits per 1 Grimshard. At the same time, Soulshards will be removed without compensation.[\/p][h1]Improvements and Bug Fixes[\/h1][p]The following bugs have been fixed:[\/p][h3]All platforms[\/h3][list][*][p]The camera for Theseus torpedo bombers has been improved[\/p][\/*][*][p]The Aerial Fire Support skill description has been improved[\/p][\/*][*][p]The H\u00e9rcules voiceover has been corrected[\/p][\/*][*][p]The torpedo upgrade on Orage is now depicted correctly in the Specs tab[\/p][\/*][*][p]The Kaga planes' sound with the Mecha Pioneer skin equipped has been improved[\/p][\/*][*][p]A couple of minor interface improvements have been made to the Service Record[\/p][\/*][\/list][h3]PC[\/h3][list][*][p]Start of battle crashes have been fixed[\/p][\/*][\/list][p]Brave the dark waters, and turn the tide![\/p]","commentcount":0,"tags":["mod_reviewed","ModAct_1889321037_1793375718_0"],"language":0,"hidden":0,"forum_topic_id":"568175573451669910","event_gid":"678513764320938104","voteupcount":7,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":5,"ignore_count":0,"forum_topic_id":"568175573451669910","rtime32_last_modified":1793400518,"news_post_gid":"0","rtime_mod_reviewed":1793375718,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1793361343,"votes_up":7,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"612037567209046188","gidfeature2":"568175573451669910"},{"gid":"692022026548806696","clan_steamid":"103582791475142694","event_name":"Halloween Update: The Restless Fleet","event_type":13,"appid":2964090,"server_address":null,"server_password":null,"rtime32_start_time":1791183600,"rtime32_end_time":1791189001,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"e7677a48f51a070600ba4389dbe9f7bb98370e98.png\",\"ab35a845087c630bf2b837260fb9ec270bf596e6.png\",\"ee21996d707ffda0f65473a3f916636c5c783622.png\",null,\"b21202125c7eb5220c2b320cdfd58f8647667f99.png\",null,\"619c882aa100f98e5cec72ed4a32e7808a944ead.png\",\"38bd7c021bf3e4541f2c90fd43963747f045055f.png\",\"d36c116d20dcdd2b2d182b22f2abfa51a742d889.png\",null,\"7923fc856cfd77a4b91a77696e70686d819cb543.png\",null,null,null,null,null,null,null,null,null,null,null,\"8a2d59820f129d3fc136bce25258eb0d9417de06.png\",null,null,null,null,\"28348607807de7d6c1995cc9f92cbefdc3717033.png\",null,null,null,null],\"localized_capsule_image\":[\"a4736533ffad1dca4967fc45e48235f603ed7745.png\",\"92c3ea00e232f7f6b24400a8427af949e867dd41.png\",\"ef3d5f48ddfade3bb2bd27959abc5ec6b847db5d.png\",null,\"c1a1cf3aff9e16be7af1d9ac15ae30f985e952fb.png\",null,\"a87f11ab46d9b02cc455d82f153cdcf051c8c5bf.png\",\"99b7a2353ea19371bc2cf1ed80fd1af8ba43baec.png\",\"e59b4ed46d262d279182009403e4498467e860a7.png\",null,\"461950543404896c04618116903aaa315b9f893a.png\",null,null,null,null,null,null,null,null,null,null,null,\"4a225f76ec80f09875d478ef85fe2123f046f0d1.png\",null,null,null,null,\"6d5ab83175a6072c85590f94f36a8ac2e2f9bd47.png\",null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"library_spotlight\":false}","announcement_body":{"gid":"692022026548806697","clanid":"45621286","posterid":"0","headline":"Halloween Update: The Restless Fleet","posttime":1790953649,"updatetime":1793373866,"body":"[p][\/p][previewyoutube=\"KauxGYfFfpY;full\"][\/previewyoutube][h2]Halloween Update: The Restless Fleet[\/h2][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/images\/8.8_Aberdeen_j29022_NoLOGO_1920x1080_WoWSL_5181c9931c.png\"][\/img][\/p][p]Ahoy, Captains! Shadows are gathering on the horizon\u2014Halloween is coming, bringing new content and various changes along with it. Let's find out![\/p][p][img src=\"{STEAM_CLAN_IMAGE}\/45621286\/1461b5d7b9ae92efba403cd23822781bb9fe0c4c.jpg\"][\/img][\/p][p]Here's what's new in this update:[\/p][list][*][p]Campaign featuring British Tier VIII Premium cruiser Aberdeen[\/p][\/*][*][p]Halloween '26: new battle type with themed content[\/p][\/*][*][p]Road to New Year: Start collecting Giftlets to prepare for the winter update[\/p][\/*][*][p]Start of the marathon for U.S. Legendary Tier destroyer Forrest Sherman[\/p][\/*][*][p]The return of the Blue Archive collaboration\u00a0[\/p][\/*][*][p]400th anniversary of the French Navy[\/p][\/*][*][p]Battle of Trafalgar commemorative event[\/p][\/*][*][p]Battle of Leyte Gulf: Themed missions, new camouflages, and discounts[\/p][\/*][*][p]New ship for Steel: Pan-American Legendary Tier destroyer La Pampa[\/p][\/*][*][p]New Bureau Project: British Legendary Tier battleship St. Vincent[\/p][\/*][*][p]Balance changes[\/p][\/*][*][p]Improvements and bug fixes[\/p][\/*][\/list][h2]\"The Foghorn's Bride\" Campaign[\/h2][p]Complete the new 4-week \"The Foghorn's Bride\" campaign from October 5 to November 2 and get a variety of rewards! The final prize is British Tier VIII Premium cruiser Aberdeen. This ship is armed with four 152 mm twinturrets, exclusively firing AP shells with improved penetration angles. Combined with fast-reloading guns, these AP shells give Aberdeen high, consistent damage per minute. The ship is also equipped with a powerful Repair Party, Radar, and a short-burst Smoke Generator similar to those found on destroyers.[\/p][p][\/p][carousel][img src=\"{STEAM_CLAN_IMAGE}\/45621286\/e0d94fbb302dcd6e0aaa1ea492c23300463012b3.jpg\"][\/img][img src=\"{STEAM_CLAN_IMAGE}\/45621286\/47ed6d4b2a341ddd2ba06ff2ac33c9703ebb8a91.jpg\"][\/img][\/carousel][p]You get the new ship once you complete all 80 milestones of the campaign with an active Admiralty Backing. You can always catch up on missed challenges using a special built-in mechanic. In addition to Standard, Arcade, and Versus AI Battles, you can also complete challenges in the new Halloween battle type, but this may require more effort. Take a look at the full list of campaign rewards:[\/p][p][img src=\"{STEAM_CLAN_IMAGE}\/45621286\/19c68e6eb4985e2db08540a800a600483e73287c.jpg\"][\/img][\/p][p][b]Rewards available without the Admiralty Backing:[\/b][\/p][list][*][p]50x Common Boosters[\/p][\/*][*][p]8x Union Jack camouflages[\/p][\/*][*][p]8x \"Type 3 \u2013 Halloween\" camouflages[\/p][\/*][*][p]10,000 Global XP[\/p][\/*][*][p]100,000 Commander XP[\/p][\/*][*][p]525,000 Research Points[\/p][\/*][*][p]500,000 credits[\/p][\/*][*][p]14x Promotion Orders[\/p][\/*][*][p]1x Insignia[\/p][\/*][*][p]1x Commendation[\/p][\/*][*][p]5 days of Premium Account[\/p][\/*][*][p]3,000 Ship Parts[\/p][\/*][*][p]2,500 Grimshards[\/p][\/*][*][p]3x Halloween Ultimate Crates[\/p][\/*][*][p]1x Halloween '26 crate[\/p][\/*][*][p]2x Fall Big Crates[\/p][\/*][*][p]1x British Commander crate[\/p][\/*][*][p]Aberdeen patch base[\/p][\/*][*][p]Aberdeen patch symbol[\/p][\/*][\/list][p]Value of the rewards without the Admiralty Backing: [b]18,553 doubloons[\/b][\/p][p][b]Additional rewards with the Admiralty Backing (2,500 doubloons):[\/b][\/p][list][*][p]50x Rare Boosters[\/p][\/*][*][p]8x Union Jack camouflages[\/p][\/*][*][p]8x \"Type 3 \u2013 Halloween\" camouflages[\/p][\/*][*][p]35,000 Global XP[\/p][\/*][*][p]380,000 Commander XP[\/p][\/*][*][p]1,225,000 Research Points[\/p][\/*][*][p]2,650,000 credits[\/p][\/*][*][p]16x Promotion Orders[\/p][\/*][*][p]4x Insignia[\/p][\/*][*][p]4x Commendations[\/p][\/*][*][p]750 doubloons[\/p][\/*][*][p]3,000 Ship Parts[\/p][\/*][*][p]2,500 Grimshards[\/p][\/*][*][p]Aberdeen flag[\/p][\/*][*][p]Admiralty Backing special weekly mission rewarding Renown Points[\/p][\/*][*][p]British Tier VIII Premium cruiser Aberdeen[\/p][\/*][\/list][p]Total value of the rewards with the Admiralty Backing: [b]74,615 doubloons[\/b][\/p][h2]Halloween '26: New Battle Type[\/h2][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/a1f6e02e1bfa4d3fb24a78c68a1dec94.jpg\" style=\"max-width: 100%;\"][\/img][\/p][p]Spooky season brings a new game mode! From October 5 to November 2, confront the headless admiral Ludwig Jackson and stop him from gathering the fragments of his charred soul. Earn Grimshards along the way and trade them for Halloween Commanders and skins, a new, higher-tier version of B\u0142yskawica, and more rewards. [url=\"https:\/\/wowslegends.com\/news\/587\"]Check out a dedicated article[\/url] for all the details![\/p][h2]The Road to New Year Begins![\/h2][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/1b32411edbd148ab8a0f0fc4a9e447f2.png\" style=\"max-width: 100%;\"][\/img][\/p][p]The new Road to New Year event starts on October 5, giving you a unique opportunity to receive a rare ship for free: Ohio, Lenin, Jean Bart, or one of the new ships we'll reveal later. Participate in various in-game activities across three consecutive updates and earn Giftlets. Once the winter holiday update begins, you'll be able to exchange them for these ships and more rewards. To be able to receive a ship for free, be sure to start collecting Giftlets as soon as the new update launches! Each Captain will also get a coupon for a free Premium ship. [url=\"https:\/\/wowslegends.com\/news\/588\"]Read the Road to New Year article[\/url] for the full event details and more info on rewards.[\/p][h2]New Marathon Starts: Forrest Sherman[\/h2][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/1a6917870bcd46629681fd97dae24d5c.jpg\" style=\"max-width: 100%;\"][\/img][\/p][p]Join the marathon for U.S. Legendary Tier destroyer Forrest Sherman, starting October 5! Historically, she was the lead ship of a post-WWII destroyer series. In Legends, she wields three 127 mm guns with the fastest reload so far among Legendary Tier destroyers, firing both HE and SAP shells. You can earn Forrest Sherman by collecting Ship Parts over several updates. During the upcoming update, you can find Ship Parts in the campaign, Weekly Assignments, and as a bonus with some of the Halloween content.[\/p][h2]Blue Archive: The Big Comeback\u00a0[\/h2][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/48dc03e6433a4ed18995c39b3118c711.png\" style=\"max-width: 100%;\"][\/img][\/p][p]Good news for all Blue Archive fans: Your favorite characters and ships from both waves of the collaboration are returning to Legends from October 5 through December 7! The returning content includes eight Commanders\u2014Hoshino, Nonomi, Ayane, Shiroko, Serika, Yuuka, Maki, and Wakamo\u2014as well as five unique ships: BA Montana, BA Tirpitz, BA Utnapishtim's Ship, BA Binah, and BA Hovercraft. A special skin for Takahashi is also returning.\u00a0[\/p][p]You can find all Blue Archive content in the Store and in Blue Archive II containers. Don't forget to complete the special mission available from October 5 through December 7 to receive one Blue Archive II container for free, along with a set of themed camouflages.\u00a0[\/p][p]\u00a9 2026 NEXON Korea Corporation. & NEXON Games co., Ltd. All Rights Reserved.\u00a0[\/p][h2]400th Anniversary of the French Navy[\/h2][p]This year marks the 400th anniversary of the founding of the French Navy! From October 12 to November 2, complete the \"Marine Nationale: 400 Years\" mission to earn a themed flag and background, 10x Promotion Orders, and 1x French Battleship crate. This crate offers you a chance to receive Tier VI Premium battleship Strasbourg, Tier VII Premium battleship Flandre, or one of the R\u00e9publique Fran\u00e7aise skins for French battleships.[\/p][h2]Battle of Trafalgar[\/h2][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/4936ef5713c14ba2b980d4cf90804c67.jpg\" style=\"max-width: 100%;\"][\/img][\/p][p]From October 12 to November 2, commemorate the Battle of Trafalgar\u2014the decisive naval clash of the Napoleonic Wars fought on October 21, 1805, where the British fleet, commanded by Vice Admiral Horatio Nelson, defeated the combined Franco-Spanish fleet. Visit the Store to claim the \"Trafalgar: Breaking the Line\" free mission exclusively for British, French, and Spanish ships. Completing this mission will bring you British and French national camouflages, the Trafalgar Day flag, and 1x Royal Benevolence crate. This new crate can drop a British Premium ship, including two new ones\u2014Tier V battleship Royal Sovereign and Tier VII aircraft carrier Theseus\u2014plus Tier VI cruiser Belfast and Tier VII battleship Rodney. You'll also find various themed content in the Store, including discounted French battleships and a chained bundle with French Tier VII Premium battleship Picardie in the final bundle.[\/p][p]Also, don't miss a 30% discount on Tier IV\u2013VIII British, French, and Spanish Tech Tree ships, active from October 12 to November 2.[\/p][h2]Battle of Leyte Gulf[\/h2][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/1c4edaa3a1c046d1b78664ec10b8f386.jpg\" style=\"max-width: 100%;\"][\/img][\/p][p]From October 19 to November 2, we'll be commemorating the biggest naval clash of World War II that took place on October 23\u201326, 1944. First of all, you can join three new missions, each reflecting a major phase of the battle: the San Bernardino Strait transit, Ozawa's decoy operation to lure Task Force 38 away, and the Battle of Surigao Strait. Completing each mission with specific historical ships will be much faster\u2014see the details for each mission once the event is live. The rewards include Commander crates and new player backgrounds.[\/p][p]Additionally, check out the Store during the event for discounts on ships that participated in the battle. You'll also find a special bundle where you can choose one of the two new history-inspired permanent camouflages\u2014one for Massachusetts and another for Atago\u2014and obtain it for Global XP. The remaining one will be available for doubloons.[\/p][h2]New Ship for Steel: La Pampa[\/h2][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/9ed407466227405797d1f0c53ea89e3b.jpg\" style=\"max-width: 100%;\"][\/img][\/p][p]New Pan-American Legendary Tier destroyer La Pampa is coming to the Store for Steel on October 5 and will remain there indefinitely. This ship allows for a hybrid playstyle, combining strong firepower with potent torpedo armament. She's equipped with two 113 mm twin main battery turrets mounted on the bow, as well as 15 torpedo tubes arranged across three launchers at the stern. Both her main battery and torpedoes benefit from fast reload times, allowing her to effectively engage enemy destroyers with gunfire while maintaining consistent pressure on larger ships with torpedo attacks. La Pampa also boasts a versatile set of consumables, including a Smoke Generator, Torpedo Reload Booster, and the choice between an enhanced Repair Party and Advanced Sonar.[\/p][p]Need more Steel? Here's how to earn it in the upcoming update:[\/p][list][*][p]The Steel Harvest weekly mission for the new Halloween battle type, unlocked once you complete the Shard Harvest mission (which resets after two weeks of the event, so you need to complete it again to unlock Steel Harvest for weeks 3 and 4): Up to 3,200 Steel in total[\/p][\/*][*][p]\"The Foghorn's Bride\" campaign: Up to 250 Steel weekly through Endless Trials, which unlock after completing the campaign with the Admiralty Backing. If you buy out the campaign on day 1 and complete all the Endless Trials, you can get up to 1,000 Steel in total[\/p][\/*][*][p]The Premium Supplies mission for Premium ships, resetting weekly: Up to 600 Steel in total[\/p][\/*][\/list][h2]New Bureau Project: St. Vincent[\/h2][p][img src=\"https:\/\/navy-media-lepo-prod.wgcdn.co\/lepo\/media\/news_gallery\/53cb4726d663473b8a48e120969d2e11.jpg\" style=\"max-width: 100%;\"][\/img][\/p][p]British Legendary Tier battleship St. Vincent will arrive as a Bureau Project starting October 5 and remain there indefinitely. This new ship is based on the battlecruiser design I3. She's equipped with nine 457 mm guns, delivering some of the highest AP damage per second among battleships at her tier. Her good concealment lets her move closer to the fight before being spotted, while her high speed gives her the flexibility to reposition quickly, exploit weak flanks, and create crossfires.[\/p][p][i]Read this far? Here's a small gift: 1x Fall Big Crate, 10x Halloween '24 camouflages, 10x Common Credit Boosters, and the Captain Reader flag if you don't already have it. \nRedeem the code: [b]NP9JT74BLH[\/b][\/i][\/p][p][\/p][h2]Balance Changes[\/h2][p][b]Ships[\/b][\/p][p]We're introducing various adjustments to the following British alternative battleships and Soviet Tech Tree battleships: Tiger, Renown, Rooke, Hawke, Duncan, Dover, Gangut, Pyotr Velikiy, Izmail, Sinop, Vladivostok, and Sovetsky Soyuz.[\/p][p]Find all the details of these changes in the new [url=\"https:\/\/wowslegends.com\/news\/589\"]Ministry of Balance article[\/url].[\/p][p][b]Module HP[\/b][\/p][p]We've also updated the way HP is assigned to secondary battery, AA, and torpedo modules at the start of each battle. Now, identical modules on the same ships will always have the same HP value rather than a randomized one each battle.[\/p][p][b]\"Farsight\" Skill Update[\/b][\/p][p]We've completely reworked the \"Farsight\" Commander skill for true sniping mastery:[\/p][list][*][p]New effects added:[\/p][list][*][p]Reducing main battery dispersion by 5% for the cost of reducing battleship gun traverse speed by 1.5\u00b0\/s[\/p][\/*][*][p]Showing a warning indicator for incoming long-range enemy fire[\/p][\/*][*][p]Special effect: When no detected enemy ships are within 9\/8.5\/8\/7.5 km range, dealing 10% more damage with citadel strikes and increasing battleship's AP shell penetration multiplier by 10%[\/p][\/*][\/list][\/*][*][p]Old effects removed:[\/p][list][*][p]Increasing torpedo acquisition range[\/p][\/*][*][p]Reducing torpedo damage to your ship[\/p][\/*][\/list][\/*][\/list][p]Here's the list of Commanders who have this skill: Jonathan Hawke, William Sims, Azur\u00a0Lane Colorado, Azur\u00a0Lane New Jersey, Justinian Lyons XIII, Andrew Cunningham, John Arbuthnot Fisher, Azur\u00a0Lane Hood, Azur\u00a0Lane Nelson, Azur\u00a0Lane Queen Elizabeth, Simon Cassidy, Takagi Takeo, Azur\u00a0Lane Fusou, ARP Kirishima, Godzilla, ARP Musashi, ARP Yamato, Franz von Hipper, Azur\u00a0Lane Prinz Heinrich, Henry J. Hide, John Luke Pickup, Robert Jaujard, Azur\u00a0Lane Richelieu, Azur\u00a0Lane Dunkerque, Lev Galler, Angelo Iachino, and Azur\u00a0Lane Littorio.[\/p][h2]Cross-Platform Item Access[\/h2][p]Starting with this update, items obtained on one platform will also be available on your other platforms. This includes ships, skins, permanent camouflages, containers, and flags. This applies retroactively\u2014everything you've already unlocked carries over, along with anything you unlock from now on.[\/p][p]The only exception: Items obtained outside the PlayStation Store will remain locked on PlayStation.[\/p][h2]Mariner's Coins Exchange[\/h2][p]Mariner's Coins are leaving the game in this update. You'll receive a compensation of 1,500 credits per 1 Mariner's Coin.[\/p][h2]Improvements and Bug Fixes[\/h2][p][b]All platforms[\/b][\/p][list][*][p]Fixed a bug causing Sejong's torpedo protection to drop to 0% when upgrading to Hull B.[\/p][\/*][*][p]Fixed a visual issue where a wooden deck was still visible when using certain camouflages on Tirpitz.[\/p][\/*][*][p]Fixed minor visual issues on \"The Atlantic\" and \"Greece\" maps.[\/p][\/*][\/list][p][b]PC[\/b][\/p][list][*][p]Fixed a bug where a container's list of guaranteed rewards sometimes appeared incomplete.[\/p][\/*][\/list][p]Play Legends and turn the tide![\/p]","commentcount":4,"tags":["mod_reviewed","ModAct_1889321037_1790954456_0","ModAct_1889321037_1793375680_4"],"language":0,"hidden":0,"forum_topic_id":"591816934842145305","event_gid":"692022026548806696","voteupcount":61,"votedowncount":4,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"591816934842145305","rtime32_last_modified":1793400528,"news_post_gid":"0","rtime_mod_reviewed":1793375681,"featured_app_tagid":0,"referenced_appids":[],"build_id":0,"build_branch":"","unlisted":0,"rtime_created":1790943544,"votes_up":61,"votes_down":4,"comment_type":"ForumTopic","gidfeature":"612037567209046188","gidfeature2":"591816934842145305"}],"EventWebRowEmbed":{"bPreLoaded":true,"announcementGIDList":["678513764320938105","692022026548806697"],"last_update_event":{"rtime":1793602800,"event_gid":"678513764320938104","announcement_gid":"678513764320938105","clan_account_id":45621286}}};
+						</script>
+					
+
+					<div data-featuretarget="events-row"></div>
+				
+								
+				
+				
+
+
+								<div id="contentForThisGame_ctn">
+				</div>
+									<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="aboutThisGame" class="game_page_autocollapse" style="max-height: 850px;">
+						<div id="game_area_description" class="game_area_description">
+							<h2>About This Game</h2>
+							<p class="bb_paragraph" >World of Warships: Legends—the renowned console naval shooter, now on PC.</p><h2 class="bb_tag" >FAST BATTLES AND BIG GUNS</h2><p class="bb_paragraph" >In World of Warships: Legends, fast-paced action blends with tactical depth. Victory is earned through strategic play, smart positioning, and coordinated teamwork. As a Captain, you can choose from more than 600 historically inspired warships, including legendary vessels from WWII like Yamato, USS Laffey, USS Texas, and many more.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/3d1f65fdbf50c6d78fa6d94497cbf638.poster.avif?t=1792062889" width=1170 height=450 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/3d1f65fdbf50c6d78fa6d94497cbf638.webm?t=1792062889" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/3d1f65fdbf50c6d78fa6d94497cbf638.mp4?t=1792062889" type="video/mp4"></video></span></p><p class="bb_paragraph" > </p><h2 class="bb_tag" >YOUR NAVAL PLAYSTYLE</h2><p class="bb_paragraph" >The pace of battle is yours to control, with four ship types that play very differently. Destroyers rely on speed and stealth, battleships on armor and firepower, and cruisers on versatility, while aircraft carriers influence the fight from above, directing air squadrons to project power anywhere on the map. With hundreds of warships from multiple nations—including the USA, UK, Japan, Germany, Italy, and the USSR—there’s always a ship to match your playstyle.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/a8df5dc39104488cff96e7b03e7ca2bd.poster.avif?t=1792062889" width=1170 height=450 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/a8df5dc39104488cff96e7b03e7ca2bd.webm?t=1792062889" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/a8df5dc39104488cff96e7b03e7ca2bd.mp4?t=1792062889" type="video/mp4"></video></span></p><h2 class="bb_tag" >ELITE LEADERSHIP</h2><p class="bb_paragraph" >Lead your fleet with over 150 historical and fictional Commanders. Each one features a unique skill tree, allowing you to create specialized builds that fit your ship and your playstyle. If you want a different look, use Commander guises with unique visuals and voiceovers. Customize your Commanders and find the perfect combination to win.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/783aeff3e7b80cdee3bd9c725a39b9de.poster.avif?t=1792062889" width=1170 height=450 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/783aeff3e7b80cdee3bd9c725a39b9de.webm?t=1792062889" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/783aeff3e7b80cdee3bd9c725a39b9de.mp4?t=1792062889" type="video/mp4"></video></span></p><h2 class="bb_tag" >UPDATES &amp; MODES</h2><p class="bb_paragraph" >We release major content updates almost every month to ensure there is always something new to explore. Discover everything from powerful new ships and Commanders to unique game modes, ranging from casual PvE events to intense PvP battles. Take part in special collaborations with iconic franchises such as Star Trek and Azur Lane, bringing themed ships, Commanders, and cosmetic content into the game. Complete mission chains, progress through the battle pass, and experience epic War Tales—there is always fresh content for every Captain to enjoy.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/e31b33804af96cc6e275c0e128a20599.poster.avif?t=1792062889" width=1170 height=450 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/e31b33804af96cc6e275c0e128a20599.webm?t=1792062889" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2964090/extras/e31b33804af96cc6e275c0e128a20599.mp4?t=1792062889" type="video/mp4"></video></span></p><h2 class="bb_tag" >CROSS-PROGRESSION</h2><p class="bb_paragraph" >With cross-progression, you can link your console or mobile account to Steam without losing progress. Team up with friends on PC, console, or mobile and dominate the high seas together. Some account linking rules may apply—check the FAQ in the community discussions for details.</p><h2 class="bb_tag" >LEARN. ADAPT. PREVAIL. </h2><p class="bb_paragraph" >Legends is beginner-friendly, but prepare for a journey with true tactical depth. While the basics are easy to learn, the game offers many levels of strategy for those who want to dive deep. If you have questions, our in-game wiki, video tutorials, and community channels provide all the answers you need. Play exactly how you want with full support for keyboard, gamepad, and handheld devices, including Steam Deck.</p>						</div>
+					</div>
+					<div class="game_page_autocollapse">
+		<div id="game_area_content_descriptors" class="game_area_description">
+			<h2>AI Generated Content Disclosure</h2>
+			<p>The developers describe how their game uses AI Generated Content like this:</p>
+			<p><i>
+					Generative AI is used solely during development for supplemental, non-essential purposes, including unit testing or the creation of certain art elements. These AI-generated outputs are limited in scope, reviewed by our development team, and never substituted human creative or technical decision-making. All final core assets and game content are created entirely by Wargaming’s artists and developers.				</i>
+			</p>
+					</div>
+	</div>
+	
+				
+				
+					<div class="game_page_autocollapse sys_req" style="max-height: 300px;">
+		<h2>System Requirements</h2>
+				<div class="sysreq_contents">
+							<div class="game_area_sys_req sysreq_content active" data-os="win">
+											<div class="game_area_sys_req_leftCol">
+							<ul>
+								<strong>Minimum:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows® 10, Windows® 11, 64bit<br></li><li><strong>Processor:</strong> Intel Core i7-7700/Ryzen 5 3600<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVidia GeForce GTX 1650 (4GB) /AMD Radeon RX 570 (4GB)<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 45 GB available space<br></li><li><strong>Additional Notes:</strong> Vulkan compatible graphics card</li></ul>							</ul>
+						</div>
+																<div class="game_area_sys_req_rightCol">
+							<ul>
+								<strong>Recommended:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows® 10, Windows® 11, 64bit<br></li><li><strong>Processor:</strong> Intel Core i7-8700/AMD Ryzen 5 7600<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVidia GeForce RTX 2060 (6GB) /AMD RX 5600 XT (6GB)<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 45 GB available space<br></li><li><strong>Additional Notes:</strong> Vulkan compatible graphics card</li></ul>							</ul>
+						</div>
+										<div style="clear: both;"></div>
+
+									</div>
+					</div>
+	</div>
+	<script type="text/javascript">
+		$J( function() {
+			var $Tabs = $J('.sysreq_tab');
+			var $Content = $J('.sysreq_content');
+
+			$Tabs.click( function() {
+				var $Tab = $J(this);
+				$Tabs.removeClass('active');
+				$Tab.addClass('active');
+
+				$Content.removeClass('active');
+				$Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+				$Content.trigger('gamepage_autocollapse_expand');
+			});
+		} );
+	</script>
+
+									<div class="game_page_autocollapse" style="max-height: 400px;">
+						<div id="game_area_legal">
+							<p>© 2012-2026 Wargaming.net. All rights reserved. 'Wargaming.net', 'World of Warships: Legends' and their respective logos are trademarks or registered trademarks of Wargaming in the USA and other countries.</p>
+						</div>
+					</div>
+				
+								
+				</div>
+
+			<div class="clear_both" style="clear: both;"></div>
+		</div>
+
+		<div class="related_items_ctn">
+			<div class="page_content game_description_column ">
+				
+				
+				
+				
+				<div  data-featuretarget="storeitems-carousel" data-props="{&quot;title&quot;:&quot;More like this&quot;,&quot;seeAllLink&quot;:&quot;https://store.steampowered.com/recommended/morelike/app/2964090/?snr=1_5_9__300&quot;,&quot;appIDs&quot;:[552990,236390,1407200,359550,730,1867240,2406770,3932890,3079210,2950790,394360,2479810,2807960,5155360,1874880,3028330,1938090,107410,400750,393380,767560,714010,444200,686810,3595270,3065940,1324780,1913370,589290,3595230],&quot;navKey&quot;:&quot;more_like_this_carousel&quot;,&quot;sortOrder&quot;:&quot;shuffle&quot;,&quot;scorePenaltyIfOwned&quot;:5,&quot;bFullWidth&quot;:false}"></div>
+				<div id="responsive_apppage_reviewblock_ctn" class="rightcol game_meta_data"></div>
+
+				
+				<div class="steam_curators_block block responsive_apppage_reviewblock">
+			<div class="block_header">
+				<div class="right"><a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=2964090&snr=1_5_9__top-curators">View all</a></div>
+				<h2>What Curators Say</h2>
+				<div class="no_curators_followed">
+					14 Curators have reviewed this product. Click <a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=2964090&snr=1_5_9__top-curators">here</a> to see them.				</div>
+			</div>
+		</div>
+		
+
+			</div>
+		</div>
+
+
+		<div class="review_ctn">
+			<div class="page_content">
+
+				<div id="app_reviews_hash" class="app_reviews_area">
+							<div class="" data-featuretarget="appreviews" data-props="{&quot;appid&quot;:2964090,&quot;app_release_date&quot;:&quot;1777893299&quot;,&quot;appname&quot;:&quot;World of Warships: Legends&quot;,&quot;steamworks_appid&quot;:2964090,&quot;app_type&quot;:0,&quot;summary_num_positive_reviews&quot;:507,&quot;summary_num_reviews&quot;:799,&quot;summary_options&quot;:{&quot;bHasAnyReviews&quot;:true,&quot;eUserReviewScorePreference&quot;:0,&quot;bCanManageReviewBombs&quot;:false,&quot;bCanEditApp&quot;:false,&quot;summaryDisplayed&quot;:{&quot;nReviews&quot;:799,&quot;nReviewsPositive&quot;:507,&quot;eReviewScore&quot;:5,&quot;bFilteredReviews&quot;:true,&quot;nAgeInDays&quot;:0},&quot;summaryRecent&quot;:{&quot;nReviews&quot;:52,&quot;nReviewsPositive&quot;:34,&quot;eReviewScore&quot;:5,&quot;bFilteredReviews&quot;:true,&quot;nAgeInDays&quot;:30}},&quot;filter_options&quot;:{&quot;nReviewsPositive&quot;:507,&quot;nReviewsNegative&quot;:292,&quot;nReviewsSteamPurchase&quot;:4,&quot;nReviewsNonSteamPurchase&quot;:795,&quot;nReviewsYourLanguages&quot;:413}}"></div>
+		<div style="clear: left"></div>
+					</div>
+			</div>
+		</div>
+
+
+			</div>
+	</div>
+
+</div>
+
+		<div class="hover game_hover" id="global_hover" style="display: none; left: 0; top: 0;">
+			<div class="game_hover_box hover_box">
+				<div class="content" id="global_hover_content">
+				</div>
+			</div>
+			<div class="hover_arrow_left"></div>
+			<div class="hover_arrow_right"></div>
+		</div>
+<div id="EmbedModal"  style="display: none">
+	<div id="widget_create">
+		<p>You can use this widget-maker to generate a bit of HTML that can be embedded in your website to easily allow customers to purchase this game on Steam.</p>
+
+				<p class="small">Enter up to 375 characters to add a description to your widget:</p>
+		<div class="app_embed_dialog_description">
+			<textarea name="w_text" placeholder="Join this free-to-play PvP online naval shooter with fast-paced combat, easy-to-learn gameplay, intuitive controls, and cross-platform play on Steam, console, and mobile. Choose from 600+ warships and 150+ Commanders, and master tactics on diverse maps. Play now and become a legend!" maxlength="375"></textarea>
+		</div>
+
+		<div class="buttoncontainer">
+			<a class="btnv6_blue_hoverfade btn_medium " href="#" onclick="CreateWidget(2964090); return false;"><span>Create widget</span></a>
+		</div>
+	</div>
+	<div id="widget_finished" style="display: none;">
+		<div id="widget_container"></div>
+
+		<p class="small">Copy and paste the HTML below into your website to make the above widget appear</p>
+		<textarea id="widget_code" style=""></textarea>
+	</div>
+
+</div>
+
+	<div id="app_tagging_modal" class="app_tag_modal nologin" style="display: none;">
+		<div class="app_tag_modal_content">
+			<div class="app_tag_modal_seperator"></div>
+			<div class="app_tag_modal_left">
+				<h2>Popular user-defined tags for this product:<span class="app_tag_modal_tooltip" data-tooltip-text="These are tags applied to the product by the most users.  You can click a tag to find other products with that tag applied.  Or, you can hit the plus symbol for any existing tags to increase that tag's popularity on this product.">(?)</span></h2>
+				<div class="app_tags popular_tags">
+				</div>
+			</div>
+			<div class="app_tag_modal_right">
+									<h2>Sign In</h2>
+					<p>Sign in to add your own tags to this product.</p>
+					<p>
+						<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/2964090">
+							<span>Sign In</span>
+						</a>
+					</p>
+							</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$J( function() {
+			InitAppTagModal( 2964090,
+				[{"tagid":19,"name":"Action","count":237,"browseable":true},{"tagid":599,"name":"Simulation","count":227,"browseable":true},{"tagid":1774,"name":"Shooter","count":203,"browseable":true},{"tagid":3814,"name":"Third-Person Shooter","count":197,"browseable":true},{"tagid":4191,"name":"3D","count":194,"browseable":true},{"tagid":4175,"name":"Realistic","count":181,"browseable":true},{"tagid":3987,"name":"Historical","count":178,"browseable":true},{"tagid":4168,"name":"Military","count":172,"browseable":true},{"tagid":6910,"name":"Naval","count":164,"browseable":true},{"tagid":1708,"name":"Tactical","count":149,"browseable":true},{"tagid":1678,"name":"War","count":143,"browseable":true},{"tagid":4150,"name":"World War II","count":131,"browseable":true},{"tagid":1775,"name":"PvP","count":125,"browseable":true},{"tagid":7481,"name":"Controller","count":117,"browseable":true},{"tagid":4994,"name":"Naval Combat","count":104,"browseable":true},{"tagid":128,"name":"Massively Multiplayer","count":85,"browseable":true},{"tagid":5711,"name":"Team-Based","count":81,"browseable":true},{"tagid":113,"name":"Free to Play","count":60,"browseable":true},{"tagid":3859,"name":"Multiplayer","count":49,"browseable":true},{"tagid":3843,"name":"Online Co-Op","count":28,"browseable":true}],
+				[],
+				"1_5_9__410",
+				"1_5_9__411",
+				null,
+				false			);
+
+						if ( typeof GDynamicStore != 'undefined' )
+				GDynamicStore.FixupNamePortion();
+			
+					});
+	</script>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
