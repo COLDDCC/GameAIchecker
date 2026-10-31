@@ -129,7 +129,16 @@ def online(b):
         plain=h.unescape(re.sub('<[^>]+>',' ',html));plain=re.sub(r'\s+',' ',plain)
         if r['name'] not in plain or url not in html or 'canonical' not in html or '<title>' not in html: raise ValueError('online title/canonical mismatch '+url)
         if r.get('disclosureQuote') and re.sub(r'\s+',' ',r['disclosureQuote']) not in plain: raise ValueError('online disclosure missing '+url)
-        if not all(s['url'].replace('&','&amp;') in html or s['url'] in html for s in r['sources']): raise ValueError('online sources missing '+url)
+        # The site keeps only the first source per Steam app id (src/lib/games.js pushSources),
+        # so a second link to the same app (for example a curator URL) never reaches the page.
+        required=[];seen_apps=set()
+        for s in r['sources']:
+            app_id=re.search(r'store\.steampowered\.com/app/(\d+)',s['url'])
+            if app_id:
+                if app_id.group(1) in seen_apps: continue
+                seen_apps.add(app_id.group(1))
+            required.append(s['url'])
+        if not all(u.replace('&','&amp;') in html or u in html for u in required): raise ValueError('online sources missing '+url)
         gallery=read(ROOT/f'public/images/steam/apps/{g["appId"]}/gallery.json')
         if not any(i['src'].split('?')[0] in html for i in gallery['images']): raise ValueError('online gallery missing')
         for image in gallery['images']:
