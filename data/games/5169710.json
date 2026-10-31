@@ -1,0 +1,92 @@
+{
+  "appId": "5169710",
+  "name": "Witchkeeping",
+  "category": "developer_ai_disclosure",
+  "verification": "developer_self_statement",
+  "summary": "开发者承认使用 AI 辅助编程、调试和本地化。试玩书封存在 AI 质疑；开发者表示无法核实外包方的否认，已开始替换，美术争议尚不能定案。",
+  "aiUsageCategories": [
+    "code",
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "used",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次核查未取得足以确认本领域使用或未使用生成式 AI 的证据。",
+    "code": "开发者在 Steam 回复中承认使用 AI 辅助编程、调试和本地化；具体工具及模型未说明。",
+    "art": "玩家质疑试玩书封；开发者后续表示无法核实外包方的未使用声明，并开始替换。原素材是否由 AI 生成及替换完成情况均未独立确认。",
+    "music": "本次核查未取得足以确认本领域使用或未使用生成式 AI 的证据。",
+    "voice": "本次核查未取得足以确认本领域使用或未使用生成式 AI 的证据。",
+    "writing": "本次核查未取得足以确认本领域使用或未使用生成式 AI 的证据。",
+    "translation": "开发者在 Steam 回复中承认使用 AI 辅助编程、调试和本地化；具体工具及模型未说明。",
+    "marketing": "本次核查未取得足以确认本领域使用或未使用生成式 AI 的证据。"
+  },
+  "aiAreaSources": {
+    "code": "developer_statement",
+    "translation": "developer_statement"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5169710/",
+  "developer": "Longtail Worlds",
+  "publisher": "Longtail Worlds",
+  "steamReleaseDate": "Nov 23, 2026（计划；核查时尚未发售）",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/5169710/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "完整商店页未显示 AI 生成内容披露栏；未披露不等于未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5169710/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 14 个主题（总数 14）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/5169710/discussions/0/574930338697028423/",
+      "label": "Please post an AI disclosure",
+      "date": "2026-10-31",
+      "excerpt": "玩家质疑试玩书封；开发者先否认 AI 美术，后承认无法核实外包方的否认，报告已替换 11 张并计划继续替换。不能据此确认全部替换已完成。"
+    },
+    {
+      "type": "developer_statement",
+      "url": "https://steamcommunity.com/app/5169710/discussions/0/574930338697028423/",
+      "label": "Steam 开发者回复：AI 辅助开发及书封争议",
+      "date": "2026-10-31",
+      "excerpt": "开发者承认使用 AI 辅助编程、调试和本地化；10 月 22 日表示无法核实外包书封是否使用生成式 AI，已开始替换。"
+    }
+  ],
+  "reviewNote": "核对正式版 Steam 身份、完整商店页、讨论区首页全部 14 个主题，并读完 AI 质疑帖及可见 15 条回复，另做独立网络检索。商店没有 AI 生成内容披露栏；使用结论来自带开发者标识的回复，不是商店披露。10 月 14 日的美术否认已被 10 月 22 日更审慎的说明修正：外包方否认使用 AI，但开发者无法核实，并报告已替换 11 张书封、计划继续替换。未确认全部替换完成，也不把试玩素材质疑扩展为正式版已确认使用 AI 美术。开发者对音频及写作的早期否认未作独立审计。",
+  "english": {
+    "summary": "The developer acknowledges AI-assisted coding, debugging and localization. Players questioned demo book covers; the developer could not verify the contractor’s denial and began replacing them. AI-generated art remains unconfirmed.",
+    "reviewNote": "Verified the full-game Steam identity, complete store page, all 14 visible discussion titles, the AI thread and its 15 visible replies, plus a separate web search. The store has no AI disclosure section; the use finding comes from developer-badged replies. The October 14 art denial was qualified on October 22: the contractor denied AI use, but the developer could not verify this and reported 11 replacement covers with more planned. Completion was not verified. Demo-art allegations are not proof of AI art in the full release. Earlier audio and writing denials were not independently audited.",
+    "aiAreaNotes": {
+      "ingame": "The reviewed evidence does not establish whether generative AI was used in this area.",
+      "code": "The developer acknowledges AI-assisted coding, debugging and localization in a Steam reply; specific tools and models are not identified.",
+      "art": "Demo covers were questioned. The developer could not verify the contractor’s denial and began replacing them; AI use and completion remain unconfirmed.",
+      "music": "The reviewed evidence does not establish whether generative AI was used in this area.",
+      "voice": "The reviewed evidence does not establish whether generative AI was used in this area.",
+      "writing": "The reviewed evidence does not establish whether generative AI was used in this area.",
+      "translation": "The developer acknowledges AI-assisted coding, debugging and localization in a Steam reply; specific tools and models are not identified.",
+      "marketing": "The reviewed evidence does not establish whether generative AI was used in this area."
+    },
+    "sourceRecordHash": "702fe45d4317491f9cb652a73a11acb38c40a8f08bebed83e631b17981dce75e"
+  }
+}

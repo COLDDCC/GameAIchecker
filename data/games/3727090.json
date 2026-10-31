@@ -1,0 +1,87 @@
+{
+  "appId": "3727090",
+  "name": "Horses of Hoofprint Bay",
+  "category": "developer_no_genai_statement",
+  "verification": "developer_self_statement",
+  "summary": "开发者在 Steam 商店及官方账号声明游戏完全由人工制作，未使用生成式 AI；这是开发者自述，未经独立审计。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "claimed_none",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者作出全游戏未使用生成式 AI 的概括声明，但没有逐项说明本领域的工作流程；未经独立审计。",
+    "code": "开发者作出全游戏未使用生成式 AI 的概括声明，但没有逐项说明本领域的工作流程；未经独立审计。",
+    "art": "Steam 描述手绘美术，并声明游戏完全由人工制作、不使用生成式 AI；开发者自述，未经独立审计。",
+    "music": "开发者作出全游戏未使用生成式 AI 的概括声明，但没有逐项说明本领域的工作流程；未经独立审计。",
+    "voice": "开发者作出全游戏未使用生成式 AI 的概括声明，但没有逐项说明本领域的工作流程；未经独立审计。",
+    "writing": "开发者作出全游戏未使用生成式 AI 的概括声明，但没有逐项说明本领域的工作流程；未经独立审计。",
+    "translation": "开发者作出全游戏未使用生成式 AI 的概括声明，但没有逐项说明本领域的工作流程；未经独立审计。",
+    "marketing": "开发者作出全游戏未使用生成式 AI 的概括声明，但没有逐项说明本领域的工作流程；未经独立审计。"
+  },
+  "aiAreaSources": {
+    "art": "developer_statement"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3727090/",
+  "developer": "Thogli Studios",
+  "publisher": "The Mane Quest",
+  "steamReleaseDate": "Nov 4, 2026（计划；核查时尚未发售）",
+  "genres": [
+    "Casual",
+    "Simulation",
+    "Sports"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/3727090/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "完整商店页未显示 AI 生成内容披露栏；未披露不等于未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3727090/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 85）；仅覆盖首页。"
+    },
+    {
+      "type": "developer_statement",
+      "url": "https://store.steampowered.com/app/3727090/Horses_of_Hoofprint_Bay/?curator_clanid=45644471&l=english",
+      "label": "Steam 商店：开发者未使用生成式 AI 声明",
+      "date": "2026-10-31",
+      "excerpt": "开发者自述游戏由人工制作，未使用生成式 AI；未经独立审计。"
+    },
+    {
+      "type": "developer_statement",
+      "url": "https://bsky.app/profile/thoglistudios.com/post/3mycmlr6dik26",
+      "label": "开发者官方账号：人工制作声明",
+      "date": "2026-10-31",
+      "excerpt": "开发者自述游戏由人工制作，未使用生成式 AI；未经独立审计。"
+    }
+  ],
+  "reviewNote": "核对了正式版 Steam 身份、完整商店页、英文讨论区首页 15 个主题（共 85 个）及独立网络检索。商店未显示 AI 生成内容披露栏，但游戏介绍有明确未使用生成式 AI 的声明。逐项领域仅将明确手绘美术记为开发者声明未使用，其余保留概括声明的范围限制。未审计代码、素材和供应链，未扫描完整历史讨论；正式版核查时尚未发售。开发者自述，未经独立审计。",
+  "english": {
+    "summary": "The developer states on Steam and its official account that the game is entirely human-made without generative AI. This is a self-report, not an independent audit.",
+    "reviewNote": "Reviewed the full-game Steam identity, complete store page, 15 visible discussion topics out of 85, and a separate web search. The description contains a no-generative-AI statement despite having no AI disclosure section. Only explicitly hand-drawn art is marked as claimed none; the blanket statement does not detail the other workflows. Code, assets and suppliers were not audited, and historical discussions were not exhaustively searched. The full game was unreleased at review time.",
+    "aiAreaNotes": {
+      "ingame": "The developer makes a blanket no-generative-AI claim without detailing this workflow; it has not been independently audited.",
+      "code": "The developer makes a blanket no-generative-AI claim without detailing this workflow; it has not been independently audited.",
+      "art": "The developer describes hand-drawn art and a wholly human-made game without generative AI. This self-report has not been independently audited.",
+      "music": "The developer makes a blanket no-generative-AI claim without detailing this workflow; it has not been independently audited.",
+      "voice": "The developer makes a blanket no-generative-AI claim without detailing this workflow; it has not been independently audited.",
+      "writing": "The developer makes a blanket no-generative-AI claim without detailing this workflow; it has not been independently audited.",
+      "translation": "The developer makes a blanket no-generative-AI claim without detailing this workflow; it has not been independently audited.",
+      "marketing": "The developer makes a blanket no-generative-AI claim without detailing this workflow; it has not been independently audited."
+    },
+    "sourceRecordHash": "99d21ffa6aeec0e54ea0a68699f6fc65bdb474b17519a249cbfd3847e2a19234"
+  }
+}
