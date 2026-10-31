@@ -4,7 +4,7 @@
   "requestedCount": 2,
   "baseSha": "893a7ef704eb112ff54e4af4bd272daa98514e03",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-10-31T01:37:12.381784+00:00",
   "oldHashes": {
     "4440550": "9a04b6c922d3df57c4d3554f8c9ed60fae3941c36db2581a32a7a9a0cbcd0932",
@@ -271,10 +271,39 @@
       },
       "bytes": 9707941,
       "verifiedRemoteSha": "d44f38a1471acb27ef20f57867100a86ea6ad91d"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41163529422",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41163529409"
+    },
+    "production": {
+      "sha": "08218b53c378198ecbf01a3d07db4a8f2986c4e2",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/b2643200-fdd9-4068-bc34-bbaecf703e2b",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>08218b5</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://b2643200.gameaichecker.pages.dev'>https://b2643200.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/b2643200-fdd9-4068-bc34-bbaecf703e2b)\n",
+      "checkedAt": "2026-10-31T03:23:00.197342+00:00"
+    },
+    "onlineImages": {
+      "responses": 75,
+      "cache": ".cache\\gameaichecker-review\\20261031T093712-822a01\\online-images-08218b53c378198ecbf01a3d07db4a8f2986c4e2.json"
+    },
+    "online": [
+      {
+        "appId": "5169710",
+        "url": "https://gameaichecker.com/games/5169710-witchkeeping/",
+        "checkedAt": "2026-10-31T03:23:25.910014+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3727090",
+        "url": "https://gameaichecker.com/games/3727090-horses-of-hoofprint-bay/",
+        "checkedAt": "2026-10-31T03:23:25.912459+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "6c838b4e8f3b8b097837b60a2ffe83b16c9fc71f"
+    "media": "6c838b4e8f3b8b097837b60a2ffe83b16c9fc71f",
+    "site": "08218b53c378198ecbf01a3d07db4a8f2986c4e2"
   },
   "attempts": 2,
   "maxAttempts": 6,
@@ -286,5 +315,6 @@
   },
   "applyBase": "ec14164f811ae79547fdf16a65a8011d0e72f832",
   "pendingTree": "e061a1897eff0e8a86a5a6a75a8315b6b77bdbe9",
-  "siteBase": "157f93ff75832189865d49c3b48320ac7bce0176"
+  "siteBase": "157f93ff75832189865d49c3b48320ac7bce0176",
+  "siteTree": "ca6b97d0abf533238ae9f8f4a493eedabf2eb055"
 }
