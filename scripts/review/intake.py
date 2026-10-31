@@ -221,7 +221,7 @@ def validate_game(b,g):
     if d.get('identityName')!=g['name'] or d.get('identityDeveloper')!=e['identity']['developer']: raise ValueError('decision identity not confirmed')
     if set(d.get('areas',{}))!=set(AREAS): raise ValueError('eight areas required')
     category=d.get('category')
-    if category not in ('official_ai_disclosure','developer_no_genai_statement','no_verified_genai_evidence'): raise ValueError('invalid category')
+    if category not in ('official_ai_disclosure','developer_ai_disclosure','developer_no_genai_statement','no_verified_genai_evidence'): raise ValueError('invalid category')
     official=[s for s in sources.values() if s['sourceType']=='store' and s.get('disclosurePresent')]
     if category=='official_ai_disclosure' and (not official or d.get('disclosureQuote')!=official[0]['quote'] or not d['disclosureQuote']): raise ValueError('official full disclosure missing')
     if official and category!='official_ai_disclosure': raise ValueError('cannot discard official disclosure')
@@ -232,6 +232,9 @@ def validate_game(b,g):
             if not s or not v.get('quote') or v['quote'] not in s['quote'] or s['sourceType'] not in ('store','developer'): raise ValueError('unbound area '+k)
             if not v.get('note'): raise ValueError('area note required')
     if category=='developer_no_genai_statement' and not any(v['state']=='claimed_none' for v in d['areas'].values()): raise ValueError('human statement missing')
+    if category=='developer_ai_disclosure':
+        used=[v for v in d['areas'].values() if v['state']=='used']
+        if not used or any(sources[v['evidenceId']]['sourceType']!='developer' for v in used): raise ValueError('developer use statement missing')
     if category=='no_verified_genai_evidence' and any(v['state'] not in ('not_stated','unreviewed') for v in d['areas'].values()): raise ValueError('no-evidence state conflict')
     if d.get('aiScopeUnspecified') and any(v['state']!='not_stated' for v in d['areas'].values()): raise ValueError('unspecified scope conflict')
     if category=='official_ai_disclosure' and not any(v['state']=='used' for v in d['areas'].values()) and not d.get('aiScopeUnspecified'): raise ValueError('scope flag required')
@@ -275,6 +278,7 @@ def record(b,g,e,d):
     release=d.get('releaseNote') or ident.get('release','待公布')
     if ident.get('comingSoon') and not d.get('releaseNote'): release+='（计划；核查时尚未发售）'
     r=dict(appId=app,name=g['name'],category=d['category'],verification='steam_developer_self_disclosure' if official else ('developer_self_statement' if d['category']=='developer_no_genai_statement' else 'reviewed_no_substantiated_genai_claim'),summary=d['summary'],aiUsageCategories=used,aiAreas=states,aiAreaNotes={k:v['note'] for k,v in d['areas'].items() if v.get('note')},aiAreaSources={k:('official' if next(s for s in e['sources'] if s['id']==v['evidenceId'])['sourceType']=='store' else 'developer_statement') for k,v in d['areas'].items() if v['state'] not in ('not_stated','unreviewed')},steamUrl=f'https://store.steampowered.com/app/{app}/',developer=dedupe_credit(ident['developer']),publisher=dedupe_credit(ident.get('publisher','')),steamReleaseDate=release,genres=ident.get('genres',[]),reviewedAt=date,sources=sources,reviewNote=d['reviewNote'])
+    if d['category']=='developer_ai_disclosure': r['verification']='developer_self_statement'
     if official: r.update(disclosureQuote=d['disclosureQuote'],disclosureQuoteNote=f'Steam 商店 AI 生成内容披露栏完整原文，{date} 核查；可能随商店页更新。')
     if d.get('aiScopeUnspecified'): r['aiScopeUnspecified']=True
     if d.get('english'):

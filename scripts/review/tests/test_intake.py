@@ -82,6 +82,18 @@ class IntakeTests(unittest.TestCase):
   d.update(category='developer_no_genai_statement');d.pop('disclosureQuote',None);d['areas']['art']=dict(state='claimed_none',note='素材声明。',quote=claim,evidenceId='statement');d['english']=english_fixture(i);i.atomic(path/'evidence.json',e);i.atomic(path/'decision.json',d);self.assertEqual(i.validate(b)['valid'],1)
   community=raw_source(i,self.root,path/'community.html','100','community',claim,name=b['games'][0]['name']);community['id']='statement';e['sources'][-1]=community;i.atomic(path/'evidence.json',e)
   with self.assertRaisesRegex(ValueError,'unbound'):i.validate(b)
+ def test_developer_use_requires_developer_evidence(self):
+  b=self.fixture();g=b['games'][0];path=i.work(b)/'100';e=i.read(path/'evidence.json');d=i.read(path/'decision.json')
+  claim='We use AI tools for coding.'
+  e['sources'][0]=raw_source(i,self.root,path/'store.html','100','store','',name=g['name'],disclosure=False)
+  source=raw_source(i,self.root,path/'developer.html','100','developer',claim,name=g['name']);source['id']='statement';e['sources'].append(source)
+  d.update(category='developer_ai_disclosure',areas={k:{'state':'not_stated'} for k in i.AREAS});d.pop('disclosureQuote',None)
+  d['areas']['code']=dict(state='used',note='Developer statement.',quote=claim,evidenceId='statement')
+  i.atomic(path/'evidence.json',e);i.atomic(path/'decision.json',d)
+  self.assertEqual(i.validate(b)['valid'],1)
+  record=i.record(b,g,e,d);self.assertEqual(record['verification'],'developer_self_statement');self.assertNotIn('disclosureQuote',record)
+  e['sources'][-1]['sourceType']='community';i.atomic(path/'evidence.json',e)
+  with self.assertRaisesRegex(ValueError,'unbound'):i.validate(b)
  def test_unsafe_fields_and_changed_cache(self):
   b=self.fixture();path=i.work(b)/'100';d=i.read(path/'decision.json');d['verification']='site_owner_review_passed';i.atomic(path/'decision.json',d)
   with self.assertRaisesRegex(ValueError,'unsafe'):i.validate(b)
