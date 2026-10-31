@@ -1,0 +1,85 @@
+{
+  "appId": "4835560",
+  "name": "Banana Airways",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "合作航空经营乱斗：玩家与最多五名好友一起驾驶客机，在食人鸡、辐射乘客和尖叫婴儿之间供餐、维修并设法降落。本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，公开报道与开发者官网也未见相关声明。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/4835560/",
+  "developer": "Eggscape Entertainment Inc.",
+  "publisher": "Eggscape Entertainment Inc.",
+  "steamReleaseDate": "Q1 2027（计划；核查时尚未发售）",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Indie"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/4835560/?l=english",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-30",
+      "excerpt": "完整商店页未显示 AI 生成内容披露栏；未披露不等于未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4835560/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 7 个主题（总数 7）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://qgreloaded.com/banana-airways-demo-steam-next-fest/",
+      "label": "QG Reloaded 试玩报道",
+      "date": "2026-10-31",
+      "excerpt": "A surreal co-op game where you pilot the plane, serve bananas and try to land with as many passengers alive as possible."
+    },
+    {
+      "type": "third_party",
+      "url": "https://indiegame.com/en/archives/38653",
+      "label": "IndieGame.com 报道",
+      "date": "2026-10-31",
+      "excerpt": "Banana Airways is co-developed by Eggscape Entertainment Inc."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整页面，确认没有 AI 生成内容披露栏；英文讨论区首页 7 个主题（总数 7），没有与 AI 使用相关的主题。本款单独检索 2 次、登记 29 条结果，读取 2 篇原始来源（QG Reloaded 试玩报道、IndieGame.com 报道），均未提及生成式 AI；开发商官网为 JS 渲染，静态抓取没有可读正文，未作为来源。游戏计划 2027 年第一季度发售，核查时尚未发售。八个领域均标为“未提及”。",
+  "english": {
+    "summary": "A co-op airline management romp for up to six players, juggling cannibal chickens, radioactive passengers and screaming babies while trying to land the plane. This review found no evidence of generative AI use: the Steam store page carries no AI disclosure and no related statement appeared in press coverage or on the developer site.",
+    "reviewNote": "Reviewed the full English Steam store page and confirmed there is no AI-generated content disclosure; the English discussion homepage showed 7 topics (7 total) with none about AI use. This title was searched twice with 29 results logged and two raw sources read (QG Reloaded hands-on, IndieGame.com report), neither mentioning generative AI; the developer website is JavaScript-rendered and its static fetch contained no readable body text, so it was not used. The game is scheduled for Q1 2027 and was unreleased at review time. All eight areas are marked as not stated.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "a36cff4db846262f630896700c6298295bb1476eb01f9b3414e67f8b0826d56d"
+  }
+}

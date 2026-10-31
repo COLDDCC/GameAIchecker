@@ -1,0 +1,86 @@
+{
+  "appId": "4910490",
+  "name": "Ignite the Depths",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "暗黑奇幻合作地牢爬行游戏：玩家单人或多达四人组队，穿越三个手工打造维度，搭配职业能力对抗 Boss 与环境谜题。本次核查未发现生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，官方新闻稿与公开报道也未见相关声明。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/4910490/",
+  "developer": "SK Studios",
+  "publisher": "Ytopia",
+  "steamReleaseDate": "2027（计划；核查时尚未发售）",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Indie",
+    "RPG"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/4910490/?l=english",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-30",
+      "excerpt": "完整商店页未显示 AI 生成内容披露栏；未披露不等于未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4910490/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 110）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://rpggamers.com/news/ignite-the-depths-is-expected-to-launch-in-q3-2026",
+      "label": "RPG Gamers 报道",
+      "date": "2026-10-31",
+      "excerpt": "SK Studios announced that its dark-fantasy dungeon crawler Ignite the Depths is coming out in the third quarter of 2026."
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.gamespress.com/Ignite-the-Depths-Announcement",
+      "label": "Games Press 官方新闻稿",
+      "date": "2026-10-31",
+      "excerpt": "The three-person team at Seattle-based SK Studios has announced Ignite the Depths , an atmospheric dark-fantasy dungeon crawler where players descend through three handcrafted dimensions, combining unique class abilities to overcome raid-inspired bosses and environmental puzzles in solo or four-player co-op."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整页面，确认没有 AI 生成内容披露栏；英文讨论区首页 15 个主题（总数 110），没有与 AI 使用相关的主题。本款单独检索 2 次、登记 18 条结果，读取 2 篇原始来源（RPG Gamers 报道、Games Press 官方新闻稿），均未提及生成式 AI。游戏计划 2027 年发售，核查时尚未发售。八个领域均标为“未提及”。",
+  "english": {
+    "summary": "A dark-fantasy co-op dungeon crawler for one to four players across three handcrafted dimensions, built around class synergies, raid-inspired bosses and environmental puzzles. This review found no evidence of generative AI use: the Steam store page carries no AI disclosure and no related statement appeared in the official press release or press coverage.",
+    "reviewNote": "Reviewed the full English Steam store page and confirmed there is no AI-generated content disclosure; the English discussion homepage showed 15 topics (110 total) with none about AI use. This title was searched twice with 18 results logged and two raw sources read (RPG Gamers report, Games Press release), neither mentioning generative AI. The game is scheduled for 2027 and was unreleased at review time. All eight areas are marked as not stated.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "a671a75af74fb9629a231d1d83deac356f9eee26180a58252b2ade75c4652164"
+  }
+}

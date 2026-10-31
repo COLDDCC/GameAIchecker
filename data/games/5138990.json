@@ -1,0 +1,91 @@
+{
+  "appId": "5138990",
+  "name": "Unharvest",
+  "category": "no_verified_genai_evidence",
+  "verification": "reviewed_no_substantiated_genai_claim",
+  "summary": "反向种田增量游戏：玩家扮演吞噬生命的力量，感染作物、升级瘟疫，把整片田野榨干。本次核查未发现可核实的生成式 AI 使用证据：Steam 商店页无 AI 生成内容披露，公开报道与开发者渠道也未见相关声明；社区有一则针对收集品插画的 AI 质疑，但未获开发者回应，也未获其他玩家认同。",
+  "aiUsageCategories": [],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "社区有玩家怀疑收集品中的火柴人插画由生成式 AI 制作；该帖无开发者回应，其他玩家多不认同，质疑未经证实，不足以认定美术使用生成式 AI。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {},
+  "steamUrl": "https://store.steampowered.com/app/5138990/",
+  "developer": "SkorpionDev",
+  "publisher": "SkorpionDev",
+  "steamReleaseDate": "2026-12-07（计划；核查时尚未发售）",
+  "genres": [
+    "Casual",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-30",
+  "sources": [
+    {
+      "type": "steam_store",
+      "url": "https://store.steampowered.com/app/5138990/?l=english",
+      "label": "Steam 商店页：AI 生成内容披露栏核查",
+      "date": "2026-10-30",
+      "excerpt": "完整商店页未显示 AI 生成内容披露栏；未披露不等于未使用。"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5138990/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-30",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 42）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/5138990/discussions/0/569300839163876152/",
+      "label": "Was the collectibles AI generated?",
+      "date": "2026-10-30",
+      "excerpt": "Something about the color and artificing is very familiar with AI art. Specifically talking about the stickman drawings you can pick up in the field. No hate for generative AI usage, but if it was AI, the fair thing to do is put up a disclaimer about it\nwbirch15 View Profile View Posts Oct 21 @ 7:43pm Report this post booo #1\nerandomone View Profile View Posts Oct 21 @ 8:44pm Report this post Obligatory AI expert accusing a game of having AI art. Can mark that bingo cell. #2\nOwlie View Profile View Posts Oct 21 @ 11:07pm Report this post Originally posted by erandomone : Obligatory AI expert accusing a game of having AI art. Can mark that bingo cell. Not trying to be malicious. Just had a suspicion and wanted to ask if it's true or not #3\nShapechanger View Profile View Posts Oct 21 @ 11:12pm Report this post For what it's worth, I don't think so. #4\nBob View Profile View Posts Oct 21 @ 11:21pm Report this post its ♥♥♥♥♥♥♥ stick figure art? If you use AI for stick figure art your either the dumbest human alive, or entirely unable to physically draw. A toddler can draw stick figures dude. #5\nBlueSun View Profile View Posts Oct 22 @ 9:47am Report this post Smoothest brain in the world #6\nWaffle View Profile View Posts Oct 24 @ 9:01am Report this post The entire game was lol #7\nMax58201 View Profile View Posts 1 Oct 25 @ 11:02am Report this post Originally posted by Owlie : Originally posted by erandomone : Obligatory AI expert accusing a game of having AI art. Can mark that bingo cell. Not trying to be malicious. Just had a suspicion and wanted to ask if it's true or not you are accusing stick figures of being AI. there is a point where suspicion crosses the line into ignorant accusations. #8\nFrizzle View Profile View Posts Oct 25 @ 7:25pm Report this post Originally posted by Owlie : No hate for generative AI usage yeah no ♥♥♥♥, you would never try to draw something lol #9\nchazdragoon View Profile View Posts Oct 25 @ 11:36pm Report this post unkindly, go ♥♥♥♥ yourself you AI Deranged Karen. Preferably with a plague coated rod. #10"
+    },
+    {
+      "type": "third_party",
+      "url": "https://unharvest.wiki/reviews/unharvest-review",
+      "label": "Unharvest Wiki 试玩评测",
+      "date": "2026-10-31",
+      "excerpt": "Developed and published by SkorpionDev, the PC demo offers a focused 23 to 30-minute slice of reverse-farming incremental gameplay ahead of its planned December 7, 2026 release date."
+    },
+    {
+      "type": "third_party",
+      "url": "https://indiebunny.com/news/unharvest-official-trailer",
+      "label": "IndieBunny 预告片报道",
+      "date": "2026-10-31",
+      "excerpt": "Unharvest is a slow-burn incremental game where you design and upgrade plagues to wither every living thing you encounter."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整页面，确认没有 AI 生成内容披露栏；英文讨论区首页 15 个主题（总数 42），其中“Was the collectibles AI generated?”一帖已读全文：发帖者怀疑收集品中的火柴人插画为 AI 生成，10 条回复中没有开发者回应，多数玩家不认同该怀疑。该质疑属于社区猜测，不能作为官方领域判断的依据。本款单独检索 2 次、登记 27 条结果，读取 2 篇原始来源（Unharvest Wiki 试玩评测、IndieBunny 预告片报道），均未提及生成式 AI。游戏计划 2026 年 12 月 7 日发售。八个领域均标为“未提及”。",
+  "english": {
+    "summary": "A reverse-farming incremental game where the player drains life from the world, infecting crops and upgrading plagues. This review found no verifiable evidence of generative AI use: the Steam store page carries no AI disclosure and no related statement appeared in press coverage or developer channels. A community thread questioned whether collectible illustrations were AI-generated, but the developer did not reply and other players disagreed.",
+    "reviewNote": "Reviewed the full English Steam store page and confirmed there is no AI-generated content disclosure; the English discussion homepage showed 15 topics (42 total), and the thread \"Was the collectibles AI generated?\" was read in full: the poster suspected the stick-figure collectible art was AI-generated, none of the 10 replies came from the developer, and most players disagreed. That suspicion is community speculation and cannot support an official area finding. This title was searched twice with 27 results logged and two raw sources read (Unharvest Wiki demo review, IndieBunny trailer report), neither mentioning generative AI. The game is scheduled for 7 December 2026. All eight areas are marked as not stated.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "A community poster suspected the stick-figure collectible art was AI-generated; the developer did not reply, other players disagreed, and the claim is unverified, so it does not establish generative AI use in art.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "c30583356e34eca7392dd295c3f2c86aa88497ab445480453d7bf74a474cc471"
+  }
+}
