@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Everyone passing because AI :: SLAM TANK General Discussions</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://community.akamai.steamstatic.com/public/shared/css/motiva_sans.css?v=G517uopaUy8x&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/shared/css/buttons.css?v=WgcGW2rjIiQ0&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/shared/css/shared_global.css?v=XIYptIOlpBWN&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/css/globalv2.css?v=dRiOMTaO1-6B&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/shared/css/apphub.css?v=Cc3lqIusBDbz&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/css/skin_1/modalContent.css?v=WXAusLHclDIt&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/css/skin_1/apphub_home.css?v=CVCDYGAAkjOY&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/css/skin_1/forums.css?v=xC9-1-4GOS-o&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/shared/css/shared_responsive.css?v=iWTBNfm6GeKS&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/shared/css/apphub_images.css?v=qtyTgHSLW-6i&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<link href="https://community.akamai.steamstatic.com/public/css/skin_1/header.css?v=CMT0GkdQa1OT&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	var __PrototypePreserve=[];
+	__PrototypePreserve[0] = Array.from;
+	__PrototypePreserve[1] = Array.prototype.filter;
+	__PrototypePreserve[2] = Array.prototype.flatMap;
+	__PrototypePreserve[3] = Array.prototype.find;
+	__PrototypePreserve[4] = Array.prototype.some;
+	__PrototypePreserve[5] = Function.prototype.bind;
+	__PrototypePreserve[6] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/javascript/prototype-1.7.js?v=npJElBnrEO6W&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript">
+	Array.from = __PrototypePreserve[0] || Array.from;
+	Array.prototype.filter = __PrototypePreserve[1] || Array.prototype.filter;
+	Array.prototype.flatMap = __PrototypePreserve[2] || Array.prototype.flatMap;
+	Array.prototype.find = __PrototypePreserve[3] || Array.prototype.find;
+	Array.prototype.some = __PrototypePreserve[4] || Array.prototype.some;
+	Function.prototype.bind = __PrototypePreserve[5] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __PrototypePreserve[6] || HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript">
+	var __ScriptaculousPreserve=[];
+	__ScriptaculousPreserve[0] = Array.from;
+	__ScriptaculousPreserve[1] = Function.prototype.bind;
+	__ScriptaculousPreserve[2] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/javascript/scriptaculous/_combined.js?v=pbdAKOcDIgbC&amp;l=english&amp;_cdn=akamai&amp;load=effects,controls,slider,dragdrop"></script>
+<script type="text/javascript">
+	Array.from = __ScriptaculousPreserve[0] || Array.from;
+	Function.prototype.bind = __ScriptaculousPreserve[1] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __ScriptaculousPreserve[2] || HTMLElement.prototype.scrollTo;
+delete String['__parseStyleElement'];  Prototype.Browser.WebKit = true;</script>
+<script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/community.akamai.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://community.akamai.steamstatic.com/public/javascript/global.js?v=BXxE4Y7f09lb&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=gQHVlrK4-jX-&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/shared/javascript/shared_global.js?v=ABylLOrGN4B_&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/shared/javascript/auth_refresh.js?v=w6QbwI-5-j2S&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script><script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"https:\/\/community.akamai.steamstatic.com\/public\/javascript\/json2.js?v=54NKNglvGTO8&amp;l=english&amp;_cdn=akamai\"><\/script>\n" ); };
+</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				SetupTooltips( { tooltipCSSClass: 'community_tooltip'} );
+		});
+		</script><script type="text/javascript" src="https://community.akamai.steamstatic.com/public/javascript/modalv2.js?v=zBXEuexVQ0FZ&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/javascript/modalContent.js?v=Ebc6wsFpyW7y&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/shared/javascript/apphub.js?v=vovOtA4iEOuy&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/javascript/forums.js?v=TDP5YtvjSgZE&amp;l=english&amp;_cdn=akamai"></script>
+<script type="text/javascript" src="https://community.akamai.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=akamai"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="You will never play or buy a game again. AI is the future. Within 5 years entire games will be 100% made, developed and voiced by AI. People are already not buying anything with AI used in any capacity. Okay, never buy or play a game past 2023 then.">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Everyone passing because AI :: SLAM TANK General Discussions">
+					<meta property="twitter:title" content="Everyone passing because AI :: SLAM TANK General Discussions">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:description" content="You will never play or buy a game again. AI is the future. Within 5 years entire games will be 100% made, developed and voiced by AI. People are already not buying anything with AI used in any capacity. Okay, never buy or play a game past 2023 then.">
+					<meta property="twitter:description" content="You will never play or buy a game again. AI is the future. Within 5 years entire games will be 100% made, developed and voiced by AI. People are already not buying anything with AI used in any capacity. Okay, never buy or play a game past 2023 then.">
+			
+	
+			<link rel="image_src" href="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5186030/46bbf83331319ac674fb9c852e789bba072429ae/header.jpg?t=1793322765">
+		<meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5186030/46bbf83331319ac674fb9c852e789bba072429ae/header.jpg?t=1793322765">
+		<meta name="twitter:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5186030/46bbf83331319ac674fb9c852e789bba072429ae/header.jpg?t=1793322765" />
+				
+	
+	
+	
+	
+	</head>
+<body class="flat_page thread responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://steamcommunity.com/login/home/?goto=app%2F5186030%2Fdiscussions%2F0%2F568174730608300015%2F">
+									Sign in								</a>
+															<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://community.akamai.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://community.akamai.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/">
+															<img src="https://community.akamai.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/" aria-label="Link to the Steam Homepage">
+						<img src="https://community.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=app%2F5186030%2Fdiscussions%2F0%2F568174730608300015%2F">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<script type="text/javascript">
+	g_sessionID = "dd61c7e139b087c1a9a5b844";
+	g_steamID = false;
+	g_strLanguage = "english";
+	g_SNR = '2_9_100006_100202';
+	g_bAllowAppImpressions = true;
+		g_ContentDescriptorPreferences = [1,3,4];
+
+	
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+					InitMiniprofileHovers(( 'https%3A%2F%2Fsteamcommunity.com' ));
+			InitEmoticonHovers();
+		
+		ApplyAdultContentPreferences();
+	});
+
+	$J( function() { InitEconomyHovers( "https:\/\/community.akamai.steamstatic.com\/public\/css\/skin_1\/economy.css?v=w8xSn8rq4Kcf&l=english&_cdn=akamai", "https:\/\/community.akamai.steamstatic.com\/public\/javascript\/economy_common.js?v=TSVmDS2fQKJu&l=english&_cdn=akamai", "https:\/\/community.akamai.steamstatic.com\/public\/javascript\/economy.js?v=fMqYqiI1IVrY&l=english&_cdn=akamai" );});</script>
+<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.akamai.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.akamai.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.akamai.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.akamai.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.akamai.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.akamai.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/community.akamai.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/community.akamai.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.akamai.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/steamcommunity.com\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793400188,&quot;PAGE_TIMESTAMP&quot;:1793417187,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.akamai.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Community&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.akamai.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.akamai.steamstatic.com\/&quot;,&quot;NOW&quot;:1793417187,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;2_9_100006_100202&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[1,3,4]}" data-community="[]" data-loyaltystore="{&quot;webapi_token&quot;:&quot;&quot;}" data-steam_notifications="null"></div><link href="https://community.akamai.steamstatic.com/public/css/applications/community/main.css?v=fBlBcxbgsXm1&amp;l=english&amp;_cdn=akamai" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11192500";</script>
+<script type="module" src="https://community.akamai.steamstatic.com/public/javascript/applications/community/main.js?contenthash=BPPtNZbV"></script>
+<div  data-featuretarget="apphub-events"></div><div  data-featuretarget="community-awards"></div>	<div id="application_root"></div>
+
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<script type="text/javascript">
+	</script>
+<div class="pagecontent">
+		<div class="apphub_Content">
+		<div class="apphub_background apphub_background_gamepad_blur" style="background-image: url('https://store.akamai.steamstatic.com/images/storepagebackground/app/5186030?t=1793322765');"></div>
+		<div class="apphub_HomeHeader">
+			
+
+<div class="apphub_HomeHeaderContent">
+
+
+	<script lang="js">
+		const g_bIsAppHubModerator = 0;
+	</script>
+
+	
+	
+	<div class="apphub_HeaderTop">
+		<div class="apphub_OtherSiteInfo responsive_hidden">
+			
+							<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/5186030?snr=2_9_100006_100202_apphubheader" data-appid="5186030">
+					<span>Store Page</span>
+				</a>
+					</div>
+		<div class="apphub_AppDetails">
+			<div class="apphub_AppIcon"><img src="https://shared.akamai.steamstatic.com/community_assets/images/apps/5186030/c08e8c061462ea16111b9e6ebfd52e0f43d652be.jpg"><div class="overlay"></div></div>
+			<div class="apphub_AppName ellipsis">SLAM TANK</div>
+		</div>
+		<div style="clear: both"></div>
+
+		
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" class="apphub_sectionTabs responsive_hidden">
+				
+	<a href="https://steamcommunity.com/app/5186030" class="apphub_sectionTab  "><span>All</span></a>
+		
+	<a href="https://steamcommunity.com/app/5186030/discussions/" class="apphub_sectionTab active "><span>Discussions</span></a>
+		
+	<a href="https://steamcommunity.com/app/5186030/screenshots/" class="apphub_sectionTab  "><span>Screenshots</span></a>
+		
+	<a href="https://steamcommunity.com/app/5186030/images/" class="apphub_sectionTab  "><span>Artwork</span></a>
+		
+	<a href="https://steamcommunity.com/app/5186030/broadcasts/" class="apphub_sectionTab  "><span>Broadcasts</span></a>
+		
+	<a href="https://steamcommunity.com/app/5186030/videos/" class="apphub_sectionTab  "><span>Videos</span></a>
+		
+	<a href="https://steamcommunity.com/app/5186030/allnews/" class="apphub_sectionTab  "><span>News</span></a>
+		
+	<a href="https://steamcommunity.com/app/5186030/guides/" class="apphub_sectionTab  "><span>Guides</span></a>
+		
+	<a href="https://steamcommunity.com/app/5186030/reviews/" class="apphub_sectionTab  "><span>Reviews</span></a>
+			</div>
+
+		<div class="nonresponsive_hidden responsive_tab_ctn sharedfiles_responsive_tab">
+			<div class="responsive_tab_control">
+				<div class="responsive_tab_control_inner">
+										<select class="responsive_tab_select" id="responsive_tab_select6ae55fe36ee69">
+													<option value="https://steamcommunity.com/app/5186030" >
+								All							</option>
+													<option value="https://steamcommunity.com/app/5186030/discussions/" selected>
+								Discussions							</option>
+													<option value="https://steamcommunity.com/app/5186030/screenshots/" >
+								Screenshots							</option>
+													<option value="https://steamcommunity.com/app/5186030/images/" >
+								Artwork							</option>
+													<option value="https://steamcommunity.com/app/5186030/broadcasts/" >
+								Broadcasts							</option>
+													<option value="https://steamcommunity.com/app/5186030/videos/" >
+								Videos							</option>
+													<option value="https://steamcommunity.com/app/5186030/allnews/" >
+								News							</option>
+													<option value="https://steamcommunity.com/app/5186030/guides/" >
+								Guides							</option>
+													<option value="https://steamcommunity.com/app/5186030/reviews/" >
+								Reviews							</option>
+											</select>
+				</div>
+			</div>
+			<div class="responsive_tab_baseline"></div>
+		</div>
+	</div>
+	<div class="apphub_sectionTabsHR responsive_hidden"></div>
+
+
+	<!-- these elements are used to populate the local menu on responsive pages -->
+	<div style="display: none;">
+		<div class="responsive_local_menu apphub_responsive_menu">
+			<h3 class="ellipsis apphub_responsive_menu_title">SLAM TANK</h3>
+			<div class="apphub_ResponsiveMenuCtn">
+									<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/5186030">
+						<span>Store Page</span>
+					</a>
+											</div>
+											</div>
+	</div>
+	<!-- end responsive menu -->
+
+	
+</div>
+
+	<div class="apphub_HeaderBottomBG_ctn">
+		<div class="apphub_HeaderBottomBG_blur"></div><div class="apphub_HeaderBottomBG"></div>
+	</div>
+			<div style="clear: both"></div>
+		</div>
+	</div>
+	
+	<div id="AppHubContent" class="apphub_Discussion_Content" data-miniprofile-appid="5186030">
+		<div class="maincontent">
+				<div class="leftcol">
+					<div>
+						<div class="forum_breadcrumbs group_content_bodytext breadcrumbs">
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/5186030">SLAM TANK</a> <span class="breadcrumb_separator">&gt;</span>
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/5186030/discussions/0/">General Discussions</a> <span class="breadcrumb_separator">&gt;</span>
+							<span class="breadcrumb_current_page">Topic Details</span>
+						</div>
+					</div>
+										<div  data-featuretarget="content-moderation-report-dialog"></div>
+
+
+	<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="forum_op " id="forum_op_568174730608300015">
+						<div class="forum_op_header commentthread_comment_author" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" id="forum_op_header_568174730608300015">
+
+							<div class="forum_op_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2157830/dd77b44f9481567aad6864ab2b669af864bc7fd1.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2157830/6e0a2d4ededc158278e297dbcc86b5a1bbac9dfe.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/2157830/6e0a2d4ededc158278e297dbcc86b5a1bbac9dfe.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/fear57">
+						<img src="https://avatars.akamai.steamstatic.com/1d04652a0348e81c272c5f893f459c1a00b20470.jpg" data-miniprofile="26797902">
+					</a>
+				</div>
+			
+			<div class="authorline author_name_group">
+				<div class="flex_row">
+													<a class="hoverunderline forum_op_author " href="https://steamcommunity.com/id/fear57" onclick="return Forum_AuthorMenu( this, 26797902, -1 );"  data-miniprofile="26797902">
+						Fear57<span class="forum_author_action_pulldown"></span></a>
+							<div id="author_menu_26797902_-1" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/fear57">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/fear57/posthistory/">View Posts</a>
+															</div>
+		</div>
+																					<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_forum_topic_568174730608300015">							<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForTopic( '568174730608300015', 29 )" data-reaction="29" data-reactioncount="4" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/29.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;One Hundred&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Totally, absolutely, completely agree.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+								<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/29.png?v=5"/>
+								<span class="community_award_count ">4</span>
+							</div>
+														<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForTopic( '568174730608300015', 28 )" data-reaction="28" data-reactioncount="3" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/28.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Funny&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;ROFL. Or LOL at the very least.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+								<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/28.png?v=5"/>
+								<span class="community_award_count ">3</span>
+							</div>
+														<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForTopic( '568174730608300015', 24 )" data-reaction="24" data-reactioncount="2" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/24.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Winner&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;The absolute best! Or first. At least for now.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+								<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/24.png?v=5"/>
+								<span class="community_award_count ">2</span>
+							</div>
+							</div>				</div>
+
+
+				<div class="date commentthread_comment_timestamp" title="October 20, 2026 @ 7:17:57 am PDT" data-timestamp="1792505877">
+					Oct 20 @ 7:17am				</div>
+
+			</div>
+							<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174730608300015">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174730608300015">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '26797902', '-1' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+						
+		</div>
+
+		<div class="topic" id="forum_op_topic_568174730608300015">
+		Everyone passing because AI	</div>
+	<div class="content" id="forum_op_content_568174730608300015">
+		You will never play or buy a game again. AI is the future. Within 5 years entire games will be 100% made, developed and voiced by AI. People are already not buying anything with AI used in any capacity. Okay, never buy or play a game past 2023 then.	</div>
+		
+	<div class="forum_op_footer">
+		<div></div>
+			</div>
+</div>
+<div data-featuretarget="community-awards"></div>
+<script type="text/javascript">
+	$J( function() {
+		InitializeForumTopic( {"owner":"46329996","type":"General","feature":"0","gidforum":"582809103434380736","forum_display_name":"General Discussions","forum_url":"https:\/\/steamcommunity.com\/app\/5186030\/discussions\/0\/","forum_search_url":"https:\/\/steamcommunity.com\/app\/5186030\/discussions\/search\/","is_public":1,"permissions":{"can_view":1,"can_post":1,"can_reply":1,"is_banned":0,"can_delete":0,"can_edit":0},"appid":5186030}, "https:\/\/steamcommunity.com\/forum\/46329996\/General\/",
+		"568174730608300015", {"author":"Fear57","text":"You will never play or buy a game again. AI is the future. Within 5 years entire games will be 100% made, developed and voiced by AI. People are already not buying anything with AI used in any capacity. Okay, never buy or play a game past 2023 then."}		);
+			} );
+</script>
+										<script type="text/javascript">
+$J( function() { InitializeCommentThread( "ForumTopic", "ForumTopic_103582791475851404_582809103434380736_568174730608300015", {"feature":"582809103434380736","feature2":"568174730608300015","owner":"103582791475851404","commentthreadid":"660065061","total_count":26,"start":0,"pagesize":15,"has_upvoted":0,"upvotes":0,"votecountid":null,"voteupid":null,"commentcountid":null,"subscribed":false,"extended_data":"{\"topic_permissions\":{\"can_view\":1,\"can_post\":1,\"can_reply\":1,\"is_banned\":0,\"can_delete\":0,\"can_edit\":0},\"original_poster\":26797902,\"topic_gidanswer\":\"0\",\"forum_appid\":5186030,\"forum_public\":1,\"forum_type\":\"General\",\"forum_gidfeature\":\"0\"}","oldestfirst":true,"comments_raw":{"568174730608309201":{"text":"AI shillers be freaking hilarious they should do stand-up comedy lmao","author":"SoulKing"},"568174730608309463":{"text":"Fact buddy. Its here and its going nowhere. You are the person laughing at the clown on stage who is saying the building is on fire.","author":"Fear57"},"568174730608310796":{"text":"[quote=Fear57;568174730608309463]Fact buddy. Its here and its going nowhere. You are the person laughing at the clown on stage who is saying the building is on fire. [\/quote]\nSaying \"it is going nowhere\" is such a defeatist statement. Gamers have the power to choose what games they buy. If games developed with AI don't get any sales and \"regular\" games do then game developers will eventually stop using AI. In the end the consumer has the choice to vote with their wallet","author":"thomzen"},"568174730608310925":{"text":"[quote=Thomzen;568174730608310796][quote=Fear57;568174730608309463]Fact buddy. Its here and its going nowhere. You are the person laughing at the clown on stage who is saying the building is on fire. [\/quote]\nSaying \"it is going nowhere\" is such a defeatist statement. Gamers have the power to choose what games they buy. If games developed with AI don't get any sales and \"regular\" games do then game developers will eventually stop using AI. In the end the consumer has the choice to vote with their wallet [\/quote]\nDo you tell developers to code in 0s and 1s instead of programming languages that make it easier to program? Are they dumb because they don't do it the \"true\" way? The same reaction happened when we invented phonograph (canned music!), cameras (painting is the only true art!), electricity, internet, cars...\n\nIf humanity had waited for people like you to give them permission to innovate, the world would be so boring. Oh, and we'll all be dead by now without any technologies if we feared used them. All of them are dual use, we exploit the good, minimize the bad.\n\nAI coding and asset generation literally enables indie developers to do passion projects and what used to require millions of dollars and expensive dev teams. It literally democratizes art and access to infinite entertainment for everyone. You should be complaining about the low effort generic human slop that triple A companies do every year, instead of moaning about the golden age of gaming and modding that is coming thanks to new technologies.","author":"Raulikien"},"568174730608311150":{"text":"[quote=Raulikien;568174730608310925][quote=Thomzen;568174730608310796]\nSaying \"it is going nowhere\" is such a defeatist statement. Gamers have the power to choose what games they buy. If games developed with AI don't get any sales and \"regular\" games do then game developers will eventually stop using AI. In the end the consumer has the choice to vote with their wallet [\/quote]\nAI literally enables indie developers to do passion projects and what used to require millions of dollars and expensive dev teams. It literally democratizes art and access to infinite entertainment. You should be complaining about the low effort generic human slop that triple A companies do every year. [\/quote]\nThis is also true. Both statements can be true at the same time","author":"thomzen"},"568174730608335758":{"text":"If AI is the future why are you so upset?","author":"CatCatCatCatCat!!!!"},"568174939259017216":{"text":"I dont mind AI when its used for programming but it makes visuals look like shit","author":"Gilver"},"568174939259028300":{"text":"[quote=SoulKing;568174730608309201]AI shillers be freaking hilarious they should do stand-up comedy lmao [\/quote]\nAll the kids supporting AI were the same people supporting NFTs \u02d0lunar2019laughingpig\u02d0","author":"Zeruca"},"568174939259035509":{"text":"[quote=Fear57]You will never play or buy a game again. AI is the future. Within 5 years entire games will be 100% made, developed and voiced by AI. People are already not buying anything with AI used in any capacity. Okay, never buy or play a game past 2023 then. [\/quote]\nOkay.","author":"DrBrogbo"},"568174939259078798":{"text":"AI hate in ALL its forms is something we will have to get used to.\n\nRemember back in the day when people found out Carbs were bad and we had to advertise everything as low carb or carb free? Then we found out there were GOOD carbs so we went on to hate Trans Fats.\n\nRemember when we realized mouths were filled with germs and bacteria so mouthwash was advertised as killing 99.9% of all germs till we realized there were beneficial germs we were killing too so now its low or no alcohol in mouthwash.\n\nViolence in videogames is abhorant and disgusting according to late 80s early to mid 90s adults! Its the scourge of our youth! (before that it was gangs, before that it was drugs, before that it was rock and roll music) Then we learned to move on and hate profanity then anything sexual.\n\nDont pay it too much mind. AI is used to make \"slop\". But we must remember its a tool at the end of the day and has its uses. AI is the future. The world was in great turmoil when we lost generations of cultivating\/smithing knowledge when the industrial revolution came and eliminated those jobs. But we are all better off even if it did affect MANY families and regular people.\n\nPeople are making things with AI that NEVER would have been made without it. Mods, Videos, music! People without the know how on how to do these things are doing it with AI. Without those people these things wouldnt have been made. As an example people are making entire shows about for example the Malfoid trend. A real person a real artist, a real writer woudlnt have taken on that project since no one would have funded it. But some guy did it with the help of AI and its excellent.","author":"Ensign"},"568174939259089661":{"text":"I think it's great but I agree on the AI Art. A lot of it looks like slop that could be done a bit better. It all got that deep fry look that you get when you ask Chatgpt for multiple times to edit an image.","author":"Discop"},"568174939259096340":{"text":"AI is not a tool. It is a cancer. It's not used to make labors of love, it's used to make the mediocre think they're gifted. It's for lazy people who want to make a quick buck.","author":"Kildan24"},"568174939259096961":{"text":"[quote=Kildan24;568174939259096340]AI is not a tool. It is a cancer. It's not used to make labors of love, it's used to make the mediocre think they're gifted. It's for lazy people who want to make a quick buck. [\/quote]\n\nYou havent explored enough. There are many labors of love out here. Go play rimworld and you will find quite a few labor of love mods both quality of life and game changing from people like me who love the game but dont have the know how on how to make mods so they just \"vibe code\" thier own. Its not for profit, its for personal use and they share it with us incase anyone else wants to try it.\n\nAgain on youtube there are people trying to make money yes, but amoung the sea of greedy mediocre drama ai audio reads and lazy history videos there is actual entertainment being made music that would never have been made, animations that never would have been made. It is absolutely a tool.","author":"Ensign"},"568174939259099282":{"text":"Gameplay is all that matters.","author":"Geist"},"568174939259293164":{"text":"[quote=Fear57]You will never play or buy a game again. AI is the future. Within 5 years entire games will be 100% made, developed and voiced by AI. People are already not buying anything with AI used in any capacity. Okay, never buy or play a game past 2023 then. [\/quote]\nActually fun thing about free will, we can all choose for ourselves how much is too much AI or too little AI. In this case the game suffers because the music quality is terrible and you can hear how it breaks down. The cinematics suffer because the two second cuts show us that they couldn't even pay for a premium video making AI account. \n\nWhen we really can't tell, then much less people will care. But while its this obvious, no one wants to engage in media that doesn't have a soul. \n\nWe all reserve the right to feel differently about it later.","author":"RamblyBear"}},"track_navigation":true}, 'https://steamcommunity.com/comment/ForumTopic/', 40 ); } );
+</script>
+<div class="commentthread_area forumtopic_comments" id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_area">
+	        <div id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_pagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_pagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_pagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_pagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_pagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_pagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Showing <span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_pagestart">1</span>-<span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_pageend">15</span> of <span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_pagetotal">26</span> comments            </div>
+            <div style="clear: both;"></div>
+        </div>
+        	<div class="commentthread_comment_container" id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_postcontainer">
+		<div data-panel="{&quot;noFocusRing&quot;:true}" class="commentthread_comments" id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_posts">
+					
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174730608309201" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+															<a href="https://steamcommunity.com/profiles/76561199123450904" data-miniprofile="1163185176">
+													<img src="https://avatars.akamai.steamstatic.com/bfa67000bb4ed5fb669777125aea155461da7449.jpg" srcset="https://avatars.akamai.steamstatic.com/bfa67000bb4ed5fb669777125aea155461da7449.jpg 1x, https://avatars.akamai.steamstatic.com/bfa67000bb4ed5fb669777125aea155461da7449_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561199123450904" onclick="return Forum_AuthorMenu( this, 1163185176, '568174730608309201' );" data-miniprofile="1163185176">
+							<bdi>SoulKing<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_1163185176_568174730608309201" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561199123450904">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561199123450904/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174730608309201">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174730608309201', 29 )" data-reaction="29" data-reactioncount="2" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/29.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;One Hundred&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Totally, absolutely, completely agree.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/29.png?v=5"/>
+									<span class="community_award_count ">2</span>
+								</div>
+																<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174730608309201', 25 )" data-reaction="25" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/25.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Beautiful&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Words cannot describe, so this award will have to do.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/25.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+																<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174730608309201', 27 )" data-reaction="27" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/27.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Fire&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;This isn't the first of great works of art, and probably won't be the last.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/27.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+																<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174730608309201', 32 )" data-reaction="32" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/32.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Plus One&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;I agree. I think everyone should know that I agree.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/32.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+																<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award more_btn tooltip" onClick="Forum_ShowMoreAwardsForComment( '568174730608309201' )"
+															data-count="1" data-tooltip-text="Expand all Community Awards">
+									<img class="community_award_icon" src="https://community.akamai.steamstatic.com/public/shared/images//award_icon_blue.svg"/>
+									<span class="community_award_count">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 20, 2026 @ 9:03:55 am PDT" data-timestamp="1792512235">
+						Oct 20 @ 9:03am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174730608309201">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174730608309201">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '1163185176', '568174730608309201' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174730608309201">
+				AI shillers be freaking hilarious they should do stand-up comedy lmao			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174730608309201">#1</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174730608309463" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2157830/dd77b44f9481567aad6864ab2b669af864bc7fd1.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2157830/6e0a2d4ededc158278e297dbcc86b5a1bbac9dfe.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/2157830/6e0a2d4ededc158278e297dbcc86b5a1bbac9dfe.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/fear57" data-miniprofile="26797902">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2157830/c234e0aced8436c07218bd68804714f5c5ba8b57.jpg"></source>
+				<img srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2157830/30c54474fef03155e7301995bc5b2b70af0d23ef.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/fear57" onclick="return Forum_AuthorMenu( this, 26797902, '568174730608309463' );" data-miniprofile="26797902">
+							<bdi>Fear57<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_26797902_568174730608309463" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/fear57">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/fear57/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174730608309463">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174730608309463', 28 )" data-reaction="28" data-reactioncount="3" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/28.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Funny&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;ROFL. Or LOL at the very least.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/28.png?v=5"/>
+									<span class="community_award_count ">3</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 20, 2026 @ 9:07:15 am PDT" data-timestamp="1792512435">
+						Oct 20 @ 9:07am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174730608309463">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174730608309463">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '26797902', '568174730608309463' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174730608309463">
+				Fact buddy. Its here and its going nowhere. You are the person laughing at the clown on stage who is saying the building is on fire.			</div>
+			<div class="comment_footer_ctn">
+									<div class="forum_audit">
+			Last edited by <a href="https://steamcommunity.com/id/fear57" class="hoverunderline">Fear57</a>;
+		<span  title="October 20, 2026 @ 9:08:06 am PDT" data-timestamp="1792512486">Oct 20 @ 9:08am</span>		</div>				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174730608309463">#2</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174730608310796" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2861690/92d724b76474a5a4953dd9d1ae52715cfd8229a0.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2861690/396aa5ec2a44df7548ffa2bcc5383eef91095a4b.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/2861690/396aa5ec2a44df7548ffa2bcc5383eef91095a4b.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/thomzen" data-miniprofile="1148247571">
+													<img src="https://avatars.akamai.steamstatic.com/7ced9a8fb98877e1d875235845f538ff5739ea28.jpg" srcset="https://avatars.akamai.steamstatic.com/7ced9a8fb98877e1d875235845f538ff5739ea28.jpg 1x, https://avatars.akamai.steamstatic.com/7ced9a8fb98877e1d875235845f538ff5739ea28_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/thomzen" onclick="return Forum_AuthorMenu( this, 1148247571, '568174730608310796' );" data-miniprofile="1148247571">
+							<bdi>thomzen<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_1148247571_568174730608310796" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/thomzen">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/thomzen/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174730608310796"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 20, 2026 @ 9:22:31 am PDT" data-timestamp="1792513351">
+						Oct 20 @ 9:22am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174730608310796">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174730608310796">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '1148247571', '568174730608310796' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174730608310796">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c568174730608309463">Fear57</a></b>:</div>Fact buddy. Its here and its going nowhere. You are the person laughing at the clown on stage who is saying the building is on fire. </blockquote>Saying &quot;it is going nowhere&quot; is such a defeatist statement. Gamers have the power to choose what games they buy. If games developed with AI don't get any sales and &quot;regular&quot; games do then game developers will eventually stop using AI. In the end the consumer has the choice to vote with their wallet			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174730608310796">#3</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174730608310925" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/id/Raulikien" data-miniprofile="102508710">
+													<img src="https://avatars.akamai.steamstatic.com/32112b46cab2d5c9e76118653659a698f0ec359e.jpg" srcset="https://avatars.akamai.steamstatic.com/32112b46cab2d5c9e76118653659a698f0ec359e.jpg 1x, https://avatars.akamai.steamstatic.com/32112b46cab2d5c9e76118653659a698f0ec359e_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/Raulikien" onclick="return Forum_AuthorMenu( this, 102508710, '568174730608310925' );" data-miniprofile="102508710">
+							<bdi>Raulikien<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_102508710_568174730608310925" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Raulikien">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Raulikien/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174730608310925">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174730608310925', 28 )" data-reaction="28" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/28.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Funny&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;ROFL. Or LOL at the very least.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/28.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+																<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174730608310925', 29 )" data-reaction="29" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/29.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;One Hundred&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Totally, absolutely, completely agree.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/29.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 20, 2026 @ 9:23:42 am PDT" data-timestamp="1792513422">
+						Oct 20 @ 9:23am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174730608310925">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174730608310925">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '102508710', '568174730608310925' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174730608310925">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c568174730608310796">Thomzen</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c568174730608309463">Fear57</a></b>:</div>Fact buddy. Its here and its going nowhere. You are the person laughing at the clown on stage who is saying the building is on fire. </blockquote>Saying &quot;it is going nowhere&quot; is such a defeatist statement. Gamers have the power to choose what games they buy. If games developed with AI don't get any sales and &quot;regular&quot; games do then game developers will eventually stop using AI. In the end the consumer has the choice to vote with their wallet </blockquote>Do you tell developers to code in 0s and 1s instead of programming languages that make it easier to program? Are they dumb because they don't do it the &quot;true&quot; way? The same reaction happened when we invented phonograph (canned music!), cameras (painting is the only true art!), electricity, internet, cars...<br><br>If humanity had waited for people like you to give them permission to innovate, the world would be so boring. Oh, and we'll all be dead by now without any technologies if we feared used them. All of them are dual use, we exploit the good, minimize the bad.<br><br>AI coding and asset generation literally enables indie developers to do passion projects and what used to require millions of dollars and expensive dev teams. It literally democratizes art and access to infinite entertainment for everyone. You should be complaining about the low effort generic human slop that triple A companies do every year, instead of moaning about the golden age of gaming and modding that is coming thanks to new technologies.			</div>
+			<div class="comment_footer_ctn">
+									<div class="forum_audit">
+			Last edited by <a href="https://steamcommunity.com/id/Raulikien" class="hoverunderline">Raulikien</a>;
+		<span  title="October 20, 2026 @ 9:28:50 am PDT" data-timestamp="1792513730">Oct 20 @ 9:28am</span>		</div>				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174730608310925">#4</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174730608311150" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2861690/92d724b76474a5a4953dd9d1ae52715cfd8229a0.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2861690/396aa5ec2a44df7548ffa2bcc5383eef91095a4b.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/2861690/396aa5ec2a44df7548ffa2bcc5383eef91095a4b.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/thomzen" data-miniprofile="1148247571">
+													<img src="https://avatars.akamai.steamstatic.com/7ced9a8fb98877e1d875235845f538ff5739ea28.jpg" srcset="https://avatars.akamai.steamstatic.com/7ced9a8fb98877e1d875235845f538ff5739ea28.jpg 1x, https://avatars.akamai.steamstatic.com/7ced9a8fb98877e1d875235845f538ff5739ea28_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/thomzen" onclick="return Forum_AuthorMenu( this, 1148247571, '568174730608311150' );" data-miniprofile="1148247571">
+							<bdi>thomzen<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_1148247571_568174730608311150" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/thomzen">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/thomzen/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174730608311150"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 20, 2026 @ 9:26:08 am PDT" data-timestamp="1792513568">
+						Oct 20 @ 9:26am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174730608311150">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174730608311150">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '1148247571', '568174730608311150' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174730608311150">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c568174730608310925">Raulikien</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c568174730608310796">Thomzen</a></b>:</div>Saying &quot;it is going nowhere&quot; is such a defeatist statement. Gamers have the power to choose what games they buy. If games developed with AI don't get any sales and &quot;regular&quot; games do then game developers will eventually stop using AI. In the end the consumer has the choice to vote with their wallet </blockquote>AI literally enables indie developers to do passion projects and what used to require millions of dollars and expensive dev teams. It literally democratizes art and access to infinite entertainment. You should be complaining about the low effort generic human slop that triple A companies do every year. </blockquote>This is also true. Both statements can be true at the same time			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174730608311150">#5</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174730608335758" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/730/08763b38c214a554b5e83c5a39a048495b6ecee6.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/730/08763b38c214a554b5e83c5a39a048495b6ecee6.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/730/08763b38c214a554b5e83c5a39a048495b6ecee6.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198029563754" data-miniprofile="69298026">
+													<img src="https://avatars.akamai.steamstatic.com/f5de9b7ea6619f038716bd0e3b389f1c6cc08a02.jpg" srcset="https://avatars.akamai.steamstatic.com/f5de9b7ea6619f038716bd0e3b389f1c6cc08a02.jpg 1x, https://avatars.akamai.steamstatic.com/f5de9b7ea6619f038716bd0e3b389f1c6cc08a02_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198029563754" onclick="return Forum_AuthorMenu( this, 69298026, '568174730608335758' );" data-miniprofile="69298026">
+							<bdi>CatCatCatCatCat!!!!<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_69298026_568174730608335758" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198029563754">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198029563754/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174730608335758"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 20, 2026 @ 2:35:43 pm PDT" data-timestamp="1792532143">
+						Oct 20 @ 2:35pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174730608335758">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174730608335758">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '69298026', '568174730608335758' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174730608335758">
+				If AI is the future why are you so upset?			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174730608335758">#6</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174939259017216" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2206560/3c389ed84bad37381f406830f2845f126645a8df.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2206560/44715ce4fef8940263ec9e966a61cc83499a096f.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/2206560/44715ce4fef8940263ec9e966a61cc83499a096f.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561199243773917" data-miniprofile="1283508189">
+													<img src="https://avatars.akamai.steamstatic.com/64a64f1a199bb493a730e30d6e7be206ed73c102.jpg" srcset="https://avatars.akamai.steamstatic.com/64a64f1a199bb493a730e30d6e7be206ed73c102.jpg 1x, https://avatars.akamai.steamstatic.com/64a64f1a199bb493a730e30d6e7be206ed73c102_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561199243773917" onclick="return Forum_AuthorMenu( this, 1283508189, '568174939259017216' );" data-miniprofile="1283508189">
+							<bdi>Gilver<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_1283508189_568174939259017216" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561199243773917">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561199243773917/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174939259017216"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 20, 2026 @ 4:35:01 pm PDT" data-timestamp="1792539301">
+						Oct 20 @ 4:35pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174939259017216">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174939259017216">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '1283508189', '568174939259017216' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174939259017216">
+				I dont mind AI when its used for programming but it makes visuals look like ♥♥♥♥			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174939259017216">#7</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174939259028300" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/3300160/c19fd1636e0c59773c4fbdaf7760b9c03bcebf8a.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/3300160/0d759616b4f327dd469cdd5d5dd0da9eeaca3f88.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/3300160/0d759616b4f327dd469cdd5d5dd0da9eeaca3f88.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/Zeruca" data-miniprofile="84712149">
+													<img src="https://avatars.akamai.steamstatic.com/83bd401978a7c0d56cb443824d641dae407ba394.jpg" srcset="https://avatars.akamai.steamstatic.com/83bd401978a7c0d56cb443824d641dae407ba394.jpg 1x, https://avatars.akamai.steamstatic.com/83bd401978a7c0d56cb443824d641dae407ba394_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/Zeruca" onclick="return Forum_AuthorMenu( this, 84712149, '568174939259028300' );" data-miniprofile="84712149">
+							<bdi>Zeruca<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_84712149_568174939259028300" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Zeruca">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Zeruca/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174939259028300"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 20, 2026 @ 7:58:49 pm PDT" data-timestamp="1792551529">
+						Oct 20 @ 7:58pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174939259028300">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174939259028300">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '84712149', '568174939259028300' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174939259028300">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c568174730608309201">SoulKing</a></b>:</div>AI shillers be freaking hilarious they should do stand-up comedy lmao </blockquote>All the kids supporting AI were the same people supporting NFTs <img src="https://community.akamai.steamstatic.com/economy/emoticon/lunar2019laughingpig" alt=":lunar2019laughingpig:" class="emoticon">			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174939259028300">#8</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174939259035509" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2603600/567c9d16525e46e222cc21900987acf21c47ea6e.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2603600/ba1ce3d28ef75329afe4e784b1b6f9fe863cfae4.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/2603600/ba1ce3d28ef75329afe4e784b1b6f9fe863cfae4.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/Brogbo" data-miniprofile="39558106">
+													<img src="https://avatars.akamai.steamstatic.com/77562b061e4f60312f7b437c5d28d4636a9f9953.jpg" srcset="https://avatars.akamai.steamstatic.com/77562b061e4f60312f7b437c5d28d4636a9f9953.jpg 1x, https://avatars.akamai.steamstatic.com/77562b061e4f60312f7b437c5d28d4636a9f9953_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/Brogbo" onclick="return Forum_AuthorMenu( this, 39558106, '568174939259035509' );" data-miniprofile="39558106">
+							<bdi>DrBrogbo<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_39558106_568174939259035509" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Brogbo">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Brogbo/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174939259035509"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 20, 2026 @ 10:20:52 pm PDT" data-timestamp="1792560052">
+						Oct 20 @ 10:20pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174939259035509">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174939259035509">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '39558106', '568174939259035509' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174939259035509">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b>Fear57</b>:</div>You will never play or buy a game again. AI is the future. Within 5 years entire games will be 100% made, developed and voiced by AI. People are already not buying anything with AI used in any capacity. Okay, never buy or play a game past 2023 then. </blockquote>Okay.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174939259035509">#9</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174939259078798" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/1263950/a6e73033e3d9c1848d7effd5946242832b404e45.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561197987419382" data-miniprofile="27153654">
+													<img src="https://avatars.akamai.steamstatic.com/ab1ad396295da5093a0132ca1de1c2b955f9ae6f.jpg" srcset="https://avatars.akamai.steamstatic.com/ab1ad396295da5093a0132ca1de1c2b955f9ae6f.jpg 1x, https://avatars.akamai.steamstatic.com/ab1ad396295da5093a0132ca1de1c2b955f9ae6f_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197987419382" onclick="return Forum_AuthorMenu( this, 27153654, '568174939259078798' );" data-miniprofile="27153654">
+							<bdi>Ensign<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_27153654_568174939259078798" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197987419382">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197987419382/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174939259078798">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174939259078798', 28 )" data-reaction="28" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/28.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Funny&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;ROFL. Or LOL at the very least.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/28.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 21, 2026 @ 10:12:48 am PDT" data-timestamp="1792602768">
+						Oct 21 @ 10:12am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174939259078798">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174939259078798">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '27153654', '568174939259078798' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174939259078798">
+				AI hate in ALL its forms is something we will have to get used to.<br><br>Remember back in the day when people found out Carbs were bad and we had to advertise everything as low carb or carb free? Then we found out there were GOOD carbs so we went on to hate Trans Fats.<br><br>Remember when we realized mouths were filled with germs and bacteria so mouthwash was advertised as killing 99.9% of all germs till we realized there were beneficial germs we were killing too so now its low or no alcohol in mouthwash.<br><br>Violence in videogames is abhorant and disgusting according to late 80s early to mid 90s adults! Its the scourge of our youth! (before that it was gangs, before that it was drugs, before that it was rock and roll music) Then we learned to move on and hate profanity then anything sexual.<br><br>Dont pay it too much mind. AI is used to make &quot;slop&quot;. But we must remember its a tool at the end of the day and has its uses. AI is the future. The world was in great turmoil when we lost generations of cultivating/smithing knowledge when the industrial revolution came and eliminated those jobs. But we are all better off even if it did affect MANY families and regular people.<br><br>People are making things with AI that NEVER would have been made without it. Mods, Videos, music! People without the know how on how to do these things are doing it with AI. Without those people these things wouldnt have been made. As an example people are making entire shows about for example the Malfoid trend. A real person a real artist, a real writer woudlnt have taken on that project since no one would have funded it. But some guy did it with the help of AI and its excellent.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174939259078798">#10</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174939259089661" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/1299690/3546f18bfff3ee5f96c39fd9b84c4d4dc86bbdeb.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/1299690/7d375c0d29856cb5eb8c74fb9e5fb52cee17c930.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/1299690/7d375c0d29856cb5eb8c74fb9e5fb52cee17c930.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/Discopart" data-miniprofile="41182300">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2873080/21d49278763efc70a8003bbb1a529fede5ed7bcc.jpg"></source>
+				<img srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2873080/33e549955162361a7684873731207e3cce5d66ad.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/Discopart" onclick="return Forum_AuthorMenu( this, 41182300, '568174939259089661' );" data-miniprofile="41182300">
+							<bdi>Discop<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_41182300_568174939259089661" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Discopart">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Discopart/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174939259089661"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 21, 2026 @ 12:27:19 pm PDT" data-timestamp="1792610839">
+						Oct 21 @ 12:27pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174939259089661">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174939259089661">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '41182300', '568174939259089661' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174939259089661">
+				I think it's great but I agree on the AI Art. A lot of it looks like slop that could be done a bit better. It all got that deep fry look that you get when you ask Chatgpt for multiple times to edit an image.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174939259089661">#11</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174939259096340" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2861690/92d724b76474a5a4953dd9d1ae52715cfd8229a0.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/2861690/396aa5ec2a44df7548ffa2bcc5383eef91095a4b.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/2861690/396aa5ec2a44df7548ffa2bcc5383eef91095a4b.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/kildan24" data-miniprofile="1075783097">
+													<img src="https://avatars.akamai.steamstatic.com/eca23d4513ee20d5fae9d913681d0bc622251d7f.jpg" srcset="https://avatars.akamai.steamstatic.com/eca23d4513ee20d5fae9d913681d0bc622251d7f.jpg 1x, https://avatars.akamai.steamstatic.com/eca23d4513ee20d5fae9d913681d0bc622251d7f_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/kildan24" onclick="return Forum_AuthorMenu( this, 1075783097, '568174939259096340' );" data-miniprofile="1075783097">
+							<bdi>Kildan24<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_1075783097_568174939259096340" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/kildan24">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/kildan24/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174939259096340"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 21, 2026 @ 1:49:41 pm PDT" data-timestamp="1792615781">
+						Oct 21 @ 1:49pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174939259096340">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174939259096340">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '1075783097', '568174939259096340' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174939259096340">
+				AI is not a tool. It is a cancer. It's not used to make labors of love, it's used to make the mediocre think they're gifted. It's for lazy people who want to make a quick buck.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174939259096340">#12</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174939259096961" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/1263950/a6e73033e3d9c1848d7effd5946242832b404e45.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561197987419382" data-miniprofile="27153654">
+													<img src="https://avatars.akamai.steamstatic.com/ab1ad396295da5093a0132ca1de1c2b955f9ae6f.jpg" srcset="https://avatars.akamai.steamstatic.com/ab1ad396295da5093a0132ca1de1c2b955f9ae6f.jpg 1x, https://avatars.akamai.steamstatic.com/ab1ad396295da5093a0132ca1de1c2b955f9ae6f_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197987419382" onclick="return Forum_AuthorMenu( this, 27153654, '568174939259096961' );" data-miniprofile="27153654">
+							<bdi>Ensign<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_27153654_568174939259096961" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197987419382">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197987419382/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174939259096961">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174939259096961', 28 )" data-reaction="28" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/28.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Funny&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;ROFL. Or LOL at the very least.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/28.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 21, 2026 @ 1:58:52 pm PDT" data-timestamp="1792616332">
+						Oct 21 @ 1:58pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174939259096961">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174939259096961">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '27153654', '568174939259096961' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174939259096961">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c568174939259096340">Kildan24</a></b>:</div>AI is not a tool. It is a cancer. It's not used to make labors of love, it's used to make the mediocre think they're gifted. It's for lazy people who want to make a quick buck. </blockquote><br>You havent explored enough. There are many labors of love out here. Go play rimworld and you will find quite a few labor of love mods both quality of life and game changing from people like me who love the game but dont have the know how on how to make mods so they just &quot;vibe code&quot; thier own. Its not for profit, its for personal use and they share it with us incase anyone else wants to try it.<br><br>Again on youtube there are people trying to make money yes, but amoung the sea of greedy mediocre drama ai audio reads and lazy history videos there is actual entertainment being made music that would never have been made, animations that never would have been made. It is absolutely a tool.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174939259096961">#13</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174939259099282" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/1091500/f8bc37f642de99dfb2d96a04f34b1007fa72f7fb.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/1091500/2504dff701df1c304a964370e15f42aecee8e21b.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/1091500/2504dff701df1c304a964370e15f42aecee8e21b.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198028204613" data-miniprofile="67938885">
+													<img src="https://avatars.akamai.steamstatic.com/59d0d6a9c87dffa8fbcc590cb4ed46c7549eb2bf.jpg" srcset="https://avatars.akamai.steamstatic.com/59d0d6a9c87dffa8fbcc590cb4ed46c7549eb2bf.jpg 1x, https://avatars.akamai.steamstatic.com/59d0d6a9c87dffa8fbcc590cb4ed46c7549eb2bf_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198028204613" onclick="return Forum_AuthorMenu( this, 67938885, '568174939259099282' );" data-miniprofile="67938885">
+							<bdi>Geist<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_67938885_568174939259099282" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198028204613">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198028204613/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174939259099282">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '568174939259099282', 28 )" data-reaction="28" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.akamai.steamstatic.com/public/images/loyalty/reactions/animated/28.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Funny&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;ROFL. Or LOL at the very least.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.akamai.steamstatic.com/public/images/loyalty/reactions/still/28.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 21, 2026 @ 2:33:50 pm PDT" data-timestamp="1792618430">
+						Oct 21 @ 2:33pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174939259099282">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174939259099282">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '67938885', '568174939259099282' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174939259099282">
+				Gameplay is all that matters.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174939259099282">#14</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_568174939259293164" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/105600/2c29ecab86c2249f90c4f08ac5942810b188b50e.png"></source>
+						<source srcset="https://shared.akamai.steamstatic.com/community_assets/images/items/105600/2d876cff5940a8724340a5798c1c8e48880c675f.png"></source>
+						<img src="https://shared.akamai.steamstatic.com/community_assets/images/items/105600/2d876cff5940a8724340a5798c1c8e48880c675f.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/RamblyBear" data-miniprofile="113560296">
+													<img src="https://avatars.akamai.steamstatic.com/2f7946f7a9d827e166261bd9bb89d52d9cf6b048.jpg" srcset="https://avatars.akamai.steamstatic.com/2f7946f7a9d827e166261bd9bb89d52d9cf6b048.jpg 1x, https://avatars.akamai.steamstatic.com/2f7946f7a9d827e166261bd9bb89d52d9cf6b048_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/RamblyBear" onclick="return Forum_AuthorMenu( this, 113560296, '568174939259293164' );" data-miniprofile="113560296">
+							<bdi>RamblyBear<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_113560296_568174939259293164" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/RamblyBear">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/RamblyBear/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_568174939259293164"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 23, 2026 @ 2:51:39 pm PDT" data-timestamp="1792792299">
+						Oct 23 @ 2:51pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_568174939259293164">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_568174939259293164">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475851404', '582809103434380736', '568174730608300015', '113560296', '568174939259293164' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_568174939259293164">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b>Fear57</b>:</div>You will never play or buy a game again. AI is the future. Within 5 years entire games will be 100% made, developed and voiced by AI. People are already not buying anything with AI used in any capacity. Okay, never buy or play a game past 2023 then. </blockquote>Actually fun thing about free will, we can all choose for ourselves how much is too much AI or too little AI. In this case the game suffers because the music quality is terrible and you can hear how it breaks down. The cinematics suffer because the two second cuts show us that they couldn't even pay for a premium video making AI account. <br><br>When we really can't tell, then much less people will care. But while its this obvious, no one wants to engage in media that doesn't have a soul. <br><br>We all reserve the right to feel differently about it later.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c568174939259293164">#15</a>
+											</div>
+							</div>
+		</div>
+	</div>
+
+		</div>
+	</div>
+	        <div id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_fpagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_fpagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_fpagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_fpagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_fpagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_fpagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Showing <span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_fpagestart">1</span>-<span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_fpageend">15</span> of <span id="commentthread_ForumTopic_103582791475851404_582809103434380736_568174730608300015_fpagetotal">26</span> comments            </div>
+            <div style="clear: both;"></div>
+        </div>
+        			<div class="commentthread_pagination_ctn" style="float: right;">
+			<div class="forum_pagesize_options topic_replies">Per page: <span class="commentthread_pagination_link">15</span><a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 30 );">30</a> <a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 50 );">50</a> </div>		</div>
+		<br clear="both">
+			<div style="clear: right;"></div>
+</div>					
+					<div class="bottom_breadcrumbs">
+						<div class="forum_breadcrumbs group_content_bodytext breadcrumbs">
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/5186030">SLAM TANK</a> <span class="breadcrumb_separator">&gt;</span>
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/5186030/discussions/0/">General Discussions</a> <span class="breadcrumb_separator">&gt;</span>
+							<span class="breadcrumb_current_page">Topic Details</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="rightcol responsive_local_menu">
+					<div class="rightbox">
+						<div class="content">
+							<div class="topicstats"><span class="topicstats_label">Date Posted:</span> <span class="topicstats_value">Oct 20 @ 7:17am</span></div><div class="topicstats"><span class="topicstats_label">Posts:</span> <span class="topicstats_value">26</span></div>						</div>
+
+
+													
+													
+					</div>
+
+
+											<form class="" method="GET" name="DiscussionSearchForm" id="DiscussionSearchForm" action="https://steamcommunity.com/app/5186030/discussions/search/" >
+							<div class="discussionSearchTextContainer">
+																<input type="hidden" name="gidtopic" value="568174730608300015">
+								<input class="discussionSearchText searchText" type="text" name="q" value="" placeholder="Search this topic">
+								<img onclick="$('DiscussionSearchForm').submit()" class="discussionSearchTextSubmitImg" src="https://community.akamai.steamstatic.com/public/images/sharedfiles/searchbox_workshop_submit.gif" width="23" height="18" border="0">
+							</div>
+						</form>
+
+						<div class="rightbox rules">
+							<div class="content">
+								<div class="weblink"><a href="https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810" target="_blank" rel="" ><img src="https://community.akamai.steamstatic.com/public/images/skin_1/iconRules.png"> Discussions Rules and Guidelines</a></div>
+															</div>
+						</div>
+					
+					
+					
+
+											
+						
+												<div class=""></div>
+						<div class="">
+							<div class="rightSectionTopTitle">More discussions</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="2 replies">
+										<img src="https://community.akamai.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 2									</div>
+								</div>
+								<div class="forum_topic_name" title="The game is an absolute blast to play and a lot of fun. The combat and movement are extremely satisfying (tank go yahoo flip x2 and brrrr) and I really can't wait for more.
+
+Its only setback is not too great optimization. Either it's my rig (I have quite modern, but still entry-level hw), settings (it was set to max by default) or actually the game itself, but the train bossfight tanked my FPS really hard, compared to a regular stage.
+
+But either way, the demo's been really fun and I'm eagerly waiting for ">
+									<a href="https://steamcommunity.com/app/5186030/discussions/0/568174730608310063/">
+										Buying this day 0									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="2 replies">
+										<img src="https://community.akamai.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 2									</div>
+								</div>
+								<div class="forum_topic_name" title="我知道我的电脑很垃圾，但是真没想到在这个游戏里会卡的动不了。明明老头环都能流程运行的，但是到了这里即使开到最低还是卡的像ｐｐｔ一样。我其实很期待这个游戏，这样的结果让我感到十分可惜">
+									<a href="https://steamcommunity.com/app/5186030/discussions/0/568174730608248989/">
+										还能继续优化一下吗？									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="12 replies">
+										<img src="https://community.akamai.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 12									</div>
+								</div>
+								<div class="forum_topic_name" title="Blown like never before. You will have so many games to choose from, and so cheap, that you'll wet your pants. The gaming industry will be flipped on its head. You will have 1000 more games than now in a few years. And there will be super unique and original stuff there also.">
+									<a href="https://steamcommunity.com/app/5186030/discussions/0/568175240219519653/">
+										People will be blown away in a year or two, when big AI projects will begin to release.									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="1 reply">
+										<img src="https://community.akamai.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 1									</div>
+								</div>
+								<div class="forum_topic_name" title="cannot play it with my setup?">
+									<a href="https://steamcommunity.com/app/5186030/discussions/0/569301473354287012/">
+										crashes on intel arc a770									</a>
+								</div>
+							</div>
+													</div>
+						<div class=""></div>
+											
+
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+	</div>
+
+	</div>
+</div>
+
+<div id="forum_modal" class="modal_frame" style="display:none;">
+	<div class="modal_top_band">
+		<div class="modal_close"><a href="javascript:hideModal( 'forum_modal' )"><img src="https://community.akamai.steamstatic.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close" /></a></div>
+	</div>
+	<div class="modal_box">
+		<div class="modal_box_ctn">
+				</div>
+	</div>
+</div>
+
+	<div id="report_modal_content" style="display: none;">
+		<h2><img src="https://community.akamai.steamstatic.com/public/images/skin_1/notification_icon_flag.png"> Report this post</h2>
+		<div class="forum_newtopic_header">REASON</div>
+		<form id="forum_reportpost_form">
+			<input type="hidden" name="sessionid" value="dd61c7e139b087c1a9a5b844">
+			<input type="hidden" name="author" value="">
+			<input type="hidden" name="gidcomment" value="">
+			<input type="hidden" name="gidtopic" value="">
+
+			<div class="gray_bevel">
+				<textarea rows="3" cols="40" class="forumtopic_reply_textarea" name="report_reason" id="forum_report_reason"></textarea>
+			</div>
+		</form>
+		<div class="forum_report_instructions">Note: This is ONLY to be used to report spam, advertising, and problematic (harassment, fighting, or rude) posts.</div>
+	</div>
+<div id="modalBG" style="display: none;"></div>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+				<script>
+			RecordAppImpression( 5186030, '2_9_100006_100202' );
+		</script>
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
