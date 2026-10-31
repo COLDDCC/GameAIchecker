@@ -1,0 +1,94 @@
+{
+  "appId": "5147000",
+  "name": "Daydream Cat: DreamSpirits Idle Adventure",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "放置类猫咪 RPG。开发者披露 AI 用于部分曲目的初版生成（随后人工编辑并改造成可循环版本）以及商店页简介的草拟与修改，并明确称视觉美术未使用生成式 AI。",
+  "aiUsageCategories": [
+    "music",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "claimed_none",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露明确称本作的视觉美术未使用生成式 AI。此为开发者自述，未经独立审计。",
+    "music": "披露称部分曲目的初版由生成式 AI 创作，之后再人工编辑并改造成可循环版本用于游戏内。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "披露称 AI 参与草拟并修改部分商店页简介文案，属营销素材。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5147000/",
+  "developer": "StandinFire Studio",
+  "publisher": "StandinFire Studio",
+  "steamReleaseDate": "Oct 29, 2026",
+  "genres": [
+    "Casual",
+    "Indie",
+    "RPG"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5147000/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "No generative AI was used to create the game's visual art or artwork. Generative AI was used to create the initial versions of some music tracks, which were then manually edited and adapted into loopable versions for use in the game. AI was also used to assist with drafting and editing some store page descriptions."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5147000/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 38）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gamedb.ai/games/5147000-daydream-cat-dreamspirits-idle-adventure",
+      "label": "GameDB.ai 对本作 Steam AI 披露的结构化索引页",
+      "date": "2026-10-31",
+      "excerpt": "Some music tracks began as AI output and were edited by hand; AI helped draft store text; no AI art."
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/5147000",
+      "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+      "date": "2026-10-31",
+      "excerpt": "No generative AI was used to create the game's visual art or artwork."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 StandinFire Studio）与英文讨论区首页（可见 15 个主题，总数 38），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源（GameDB.ai 对本作 Steam AI 披露的结构化索引页、AI Transparency Index 逐字复刻商店披露的分析页）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "No generative AI was used to create the game's visual art or artwork. Generative AI was used to create the initial versions of some music tracks, which were then manually edited and adapted into loopable versions for use in the game. AI was also used to assist with drafting and editing some store page descriptions.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-31 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An idle cat RPG. The developer states generative AI produced the initial versions of some music tracks, which were then manually edited into loopable versions, and that AI also helped draft and edit store page descriptions, while no generative AI was used for the game's visual art.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer StandinFire Studio) and the English discussion homepage (15 visible topics of 38); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 2 raw source(s) were read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure states no generative AI was used for the game's visual art or artwork; this is a developer self-report and was not independently audited.",
+      "music": "Some music tracks were first produced with generative AI and were then manually edited and adapted into loopable versions used in the game.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "AI also assisted with drafting and editing some store page descriptions, which is marketing material."
+    },
+    "sourceRecordHash": "00e97299a6b2d1f95d06f59d1dc44de03696a988b370d2acd7a26444465071a3"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "appId": "5020310",
+  "name": "Dub Together",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "多人配音派对游戏。开发者披露部分美术（两名玩家角色、logo、菜单图标、幕布贴图）由 AI 图像生成后再手工修改，英文界面文本在语言模型协助下撰写，德语文本为人工撰写；内置 Pack Creator 使用语音识别模型、AI 降噪与人声/背景分离，全部本地运行且不外传数据。",
+  "aiUsageCategories": [
+    "ingame",
+    "art",
+    "voice",
+    "writing"
+  ],
+  "aiAreas": {
+    "ingame": "used",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "used",
+    "writing": "used",
+    "translation": "claimed_none",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露称内置的 Pack Creator 使用语音识别模型从玩家自备视频中提取台词，AI 降噪与人声/背景分离也属游戏内功能；官方强调全部本地运行、不外传数据、模型不自行编造内容。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称部分美术由 AI 图像生成器完成后再手工修改，具体包括两名玩家角色、logo、菜单图标与幕布贴图。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "披露称麦克风录音使用 AI 降噪，并对人声与背景音频做 AI 分离。",
+    "writing": "披露称英文界面文本在语言模型协助下撰写，之后经人工审阅。",
+    "translation": "披露只对德语文本声明由人工撰写，未说明其他语言的本地化方式；就德语文本而言开发者称未使用 AI。属自述，未经独立审计。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "voice": "official",
+    "writing": "official",
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5020310/",
+  "developer": "Banani",
+  "publisher": "Banani",
+  "steamReleaseDate": "1 Sep, 2026",
+  "genres": [
+    "Casual",
+    "Indie"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5020310/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "Some of the artwork in this game was made with AI image generators and edited by hand afterwards. This covers the two player characters, the logo, the menu icons and the curtain texture. The English interface texts were written with the help of a language model and reviewed afterwards. The German texts are written by hand. The bundled Pack Creator uses a speech recognition model to find the spoken parts of a video you supply yourself and turn them into the lines you read out. An AI noise filter for your microphone recordings and AI-based separation of speech and background audio work the same way. All of this runs locally on your own machine and never sends data to an external service. These models only process material you provide yourself, they do not invent content of their own, and the result stays inside your own lobby."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5020310/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 150）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/5020310",
+      "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+      "date": "2026-10-31",
+      "excerpt": "Some of the artwork in this game was made with AI image generators and edited by hand afterwards."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Banani）与英文讨论区首页（可见 15 个主题，总数 150），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 逐字复刻商店披露的分析页）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Some of the artwork in this game was made with AI image generators and edited by hand afterwards. This covers the two player characters, the logo, the menu icons and the curtain texture. The English interface texts were written with the help of a language model and reviewed afterwards. The German texts are written by hand. The bundled Pack Creator uses a speech recognition model to find the spoken parts of a video you supply yourself and turn them into the lines you read out. An AI noise filter for your microphone recordings and AI-based separation of speech and background audio work the same way. All of this runs locally on your own machine and never sends data to an external service. These models only process material you provide yourself, they do not invent content of their own, and the result stays inside your own lobby.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-31 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A multiplayer dubbing party game. The developer states some artwork made with AI image generators was edited by hand, covering the two player characters, the logo, the menu icons and the curtain texture; the English interface texts were written with the help of a language model while the German texts were handwritten, and the bundled Pack Creator uses a local speech recognition model plus AI noise filtering and speech separation without sending data to any external service.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Banani) and the English discussion homepage (15 visible topics of 150); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The bundled Pack Creator uses a speech recognition model to extract spoken parts from a video the player supplies, and the AI noise filter and speech/background separation are in-game features; the developer stresses this runs locally, sends no data out and that the models do not invent content.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Some artwork was made with AI image generators and edited by hand afterwards, covering the two player characters, the logo, the menu icons and the curtain texture.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "AI is used on the player's microphone recordings for noise filtering and for separating speech from background audio.",
+      "writing": "The English interface texts were written with the help of a language model and reviewed afterwards.",
+      "translation": "Only the German texts are stated to be handwritten; other languages are not addressed, so non-use is recorded for the German texts alone. This is a self-report and was not independently audited.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "d67be547d5b9067754794750589ac047d8138b5f72a530e9124de793cb3d6884"
+  }
+}

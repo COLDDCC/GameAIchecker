@@ -1,0 +1,86 @@
+{
+  "appId": "3985950",
+  "name": "R.I.P. - Reincarnation Insurance Program",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "幸存者类动作 Roguelite。开发者披露 AI 生成工具协助制作商店营销素材（如胶囊图）与部分游戏内道具图标，之后再由人工审阅打磨。",
+  "aiUsageCategories": [
+    "art",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称部分游戏内道具图标由 AI 生成工具协助制作，之后再由人工审阅与打磨。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "披露称商店营销素材（如胶囊图）由 AI 生成工具协助制作，之后再由人工审阅与打磨。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3985950/",
+  "developer": "WarmCore Studio",
+  "publisher": "2P Games",
+  "steamReleaseDate": "Sep 15, 2026",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Casual"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3985950/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "AI generation tools were used to assist in the creation of store marketing assets (such as capsule art) and some in-game item icons. These assets were further reviewed and polished by humans."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3985950/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 282）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.pcgamesn.com/rip/release-date",
+      "label": "PCGamesN 对本作发售信息的报道，作者明确谈到 Steam 上的生成式 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "There's just one problem: the generative AI disclosure on its Steam page."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 WarmCore Studio）与英文讨论区首页（可见 15 个主题，总数 282），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（PCGamesN 对本作发售信息的报道，作者明确谈到 Steam 上的生成式 AI 披露）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "AI generation tools were used to assist in the creation of store marketing assets (such as capsule art) and some in-game item icons. These assets were further reviewed and polished by humans.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-31 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A survivors-like action roguelite. The developer states AI generation tools assisted in creating store marketing assets such as capsule art and some in-game item icons, which were then reviewed and polished by humans.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer WarmCore Studio) and the English discussion homepage (15 visible topics of 282); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Some in-game item icons were assisted by AI generation tools and were then reviewed and polished by humans.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "Store marketing assets such as capsule art were assisted by AI generation tools and then reviewed and polished by humans."
+    },
+    "sourceRecordHash": "86afd36d5550bb2ced923cb2335ab22a08c47a43d286c665d53c7af34734eb23"
+  }
+}

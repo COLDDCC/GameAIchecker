@@ -1,0 +1,82 @@
+{
+  "appId": "2482760",
+  "name": "Hunting Simulator 3",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "狩猎模拟系列新作。开发者声明本作完全由人类设计与开发，AI 仅用于少量 NPC 台词的语音生成。",
+  "aiUsageCategories": [
+    "voice"
+  ],
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "claimed_none",
+    "voice": "used",
+    "writing": "claimed_none",
+    "translation": "claimed_none",
+    "marketing": "claimed_none"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露用“only”把 AI 用途限定在少量 NPC 台词，未披露游玩时生成内容。属自述，未经独立审计。",
+    "code": "开发者声明本作完全由人类设计与开发。属自述，未经独立审计。",
+    "art": "同上：总括性“only”声明覆盖本领域，开发者未披露本领域使用 AI。属自述，未经独立审计。",
+    "music": "同上：总括性“only”声明覆盖本领域，开发者未披露本领域使用 AI。属自述，未经独立审计。",
+    "voice": "披露称只有一小批 NPC 台词使用 AI 语音生成。",
+    "writing": "同上：总括性“only”声明覆盖本领域，开发者未披露本领域使用 AI。属自述，未经独立审计。",
+    "translation": "同上：总括性“only”声明覆盖本领域，开发者未披露本领域使用 AI。属自述，未经独立审计。",
+    "marketing": "同上：总括性“only”声明覆盖本领域，开发者未披露本领域使用 AI。属自述，未经独立审计。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "code": "official",
+    "art": "official",
+    "music": "official",
+    "voice": "official",
+    "writing": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/2482760/",
+  "developer": "Nacon Studio Ghent",
+  "publisher": "Nacon",
+  "steamReleaseDate": "Oct 29, 2026",
+  "genres": [
+    "Simulation"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/2482760/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "Hunting Simulator 3 was fully designed and developed by humans. AI voice generation was used only for a handful NPC lines."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2482760/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 217）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Nacon Studio Ghent）与英文讨论区首页（可见 15 个主题，总数 217），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 3 次，登记的为其中 1 次、共 6 条结果，读取 0 篇原始来源（无；检索结果只有商店页、社交站点与 google.com/goto 跳转壳，在不把跳转壳当来源的前提下读不到原文）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。 除登记的这一次外，另有的检索同样只返回商店页、社交站点与跳转壳，未出现针对本作的独立报道；缺少可读报道只说明检索范围，不作为判定依据。 身份经商店页与 appdetails 双重核对（开发商 Nacon Studio Ghent，发行商 Nacon）。",
+  "disclosureQuote": "Hunting Simulator 3 was fully designed and developed by humans. AI voice generation was used only for a handful NPC lines.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-31 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A hunting simulation. The developer states the game was fully designed and developed by humans and that AI voice generation was used only for a handful of NPC lines.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Nacon Studio Ghent) and the English discussion homepage (15 visible topics of 217); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 3 times; the logged search has 6 results and 0 raw source(s) were read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. Searches beyond the logged one again returned only store pages, social posts and google.com/goto redirect shells, with no independent coverage of this title; unreadable coverage only describes the search scope and is not treated as a finding. Identity was cross-checked on both the store page and the appdetails response (developer Nacon Studio Ghent).",
+    "aiAreaNotes": {
+      "ingame": "The wording limits AI use to a handful of NPC lines, so no runtime generation is disclosed; this is a self-report and was not independently audited.",
+      "code": "The developer states the game was fully designed and developed by humans; this is a self-report and was not independently audited.",
+      "art": "The blanket \"only\" claim covers this area and no AI use is disclosed for it; this is a self-report and was not independently audited.",
+      "music": "The blanket \"only\" claim covers this area and no AI use is disclosed for it; this is a self-report and was not independently audited.",
+      "voice": "AI voice generation was used for a handful of NPC lines only.",
+      "writing": "The blanket \"only\" claim covers this area and no AI use is disclosed for it; this is a self-report and was not independently audited.",
+      "translation": "The blanket \"only\" claim covers this area and no AI use is disclosed for it; this is a self-report and was not independently audited.",
+      "marketing": "The blanket \"only\" claim covers this area and no AI use is disclosed for it; this is a self-report and was not independently audited."
+    },
+    "sourceRecordHash": "f4e487f6ef148973951c992b9f99c72bb9f9a5f240aaa9959806493f3b9a3026"
+  }
+}
