@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LD0BSRL171"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LD0BSRL171');</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam games with AI disclosure | Zing</title>
+    <meta name="description" content="Steam games whose store page discloses AI-generated content, with release date, reviews, current players and the developer's own disclosure. Checked from each game's Steam store page and updated hourly.">
+    <link rel="canonical" href="https://zing.co.uk/industry-resources/steam-charts/ai-disclosed/">
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f1117; color: #e2e8f0; }
+        a { color: inherit; text-decoration: none; }
+        .wrapper { max-width: 1180px; margin: 0 auto; padding: 32px 16px 80px; }
+        .breadcrumb { font-size: 12px; color: #4b5563; margin-bottom: 24px; display: flex; align-items: center; justify-content: space-between; gap: 6px; flex-wrap: wrap; }
+        .breadcrumb-links { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+        .breadcrumb a { color: #6b7280; transition: color .15s; }
+        .breadcrumb a:hover { color: #a5b4fc; }
+        .breadcrumb-sep { color: #2d3148; }
+        .home-link { color: #4b5563; display: inline-flex; align-items: center; flex-shrink: 0; transition: color .15s; }
+        .home-link:hover { color: #7c6ff7; }
+        .home-link svg { width: 22px; height: 22px; }
+        .page-label { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #7c6ff7; margin-bottom: 6px; }
+        .page-title { font-size: clamp(22px, 4vw, 34px); font-weight: 700; color: #f1f5f9; margin-bottom: 6px; text-wrap: balance; }
+        .page-sub { font-size: 14px; color: #6b7280; margin-bottom: 20px; line-height: 1.5; }
+        .presets { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .chip { font-size: 12px; font-weight: 600; padding: 6px 13px; border-radius: 999px; border: 1px solid #2d3148; background: #13161f; color: #9ca3af; }
+        .chip:hover { border-color: #7c6ff7; color: #e2e8f0; }
+        .chip.on { background: #7c6ff7; border-color: #7c6ff7; color: #fff; }
+        .chip:focus-visible, .btn:focus-visible, th a:focus-visible, .pager a:focus-visible { outline: 2px solid #a5b4fc; outline-offset: 2px; }
+        .panel { background: #1a1d27; border: 1px solid #2d3148; border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; }
+        form.filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px 12px; align-items: end; }
+        .field label { display: block; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: #4b5563; margin-bottom: 4px; }
+        .field input, .field select { width: 100%; background: #13161f; border: 1px solid #2d3148; border-radius: 8px; color: #e2e8f0; font: inherit; font-size: 13px; padding: 8px 10px; }
+        .field input:focus-visible, .field select:focus-visible { outline: 2px solid #7c6ff7; outline-offset: 1px; }
+        .field.wide { grid-column: span 2; }
+        .actions { display: flex; gap: 8px; align-items: center; }
+        .btn { background: #7c6ff7; border: 0; border-radius: 8px; color: #fff; font: inherit; font-size: 13px; font-weight: 700; padding: 9px 16px; cursor: pointer; }
+        .btn.ghost { background: transparent; border: 1px solid #2d3148; color: #9ca3af; font-weight: 600; }
+        .countbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin: 0 0 10px; }
+        .count { font-size: 13px; color: #6b7280; margin: 0; }
+        .btn.ghost { display: inline-block; text-decoration: none; padding: 7px 14px; font-size: 12px; }
+        .table-wrap { overflow-x: auto; border: 1px solid #2d3148; border-radius: 10px; background: #1a1d27; }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        th, td { padding: 9px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid #1f2333; font-variant-numeric: tabular-nums; }
+        th { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #6b7280; background: #151821; position: sticky; top: 0; }
+        th a { color: inherit; } th a:hover { color: #e2e8f0; } th.sorted { color: #a5b4fc; }
+        td.game, th.game { text-align: left; }
+        td.game { display: flex; align-items: center; gap: 12px; min-width: 300px; white-space: normal; }
+        td.game img { width: 92px; height: 43px; object-fit: cover; border-radius: 4px; background: #13161f; flex: none; }
+        td.game .gname { font-weight: 600; color: #f1f5f9; } td.game a:hover .gname { color: #a5b4fc; }
+        td.game .gsub { font-size: 11px; color: #6b7280; margin-top: 2px; }
+        td.dim { color: #4b5563; } td.est { color: #c4b5fd; }
+        tr:last-child td { border-bottom: 0; } tbody tr:hover { background: #1c1e2e; }
+        .pager { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; margin: 18px 0; font-size: 13px; }
+        .pager a, .pager span { padding: 6px 12px; border-radius: 8px; border: 1px solid #2d3148; background: #13161f; color: #9ca3af; }
+        .pager a:hover { border-color: #7c6ff7; color: #e2e8f0; } .pager .cur { background: #2d3148; color: #f1f5f9; font-weight: 700; } .pager .gap { border: 0; background: none; }
+        .gate { background: #1a1d27; border: 1px solid #7c6ff7; border-radius: 10px; padding: 16px; margin: 18px 0; font-size: 14px; line-height: 1.5; }
+        .gate a { color: #a5b4fc; text-decoration: underline; }
+        .note { font-size: 12px; color: #6b7280; line-height: 1.55; margin-top: 18px; }
+        .note a { color: #a5b4fc; text-decoration: underline; }
+        .empty { padding: 48px 16px; text-align: center; color: #6b7280; font-size: 14px; }
+        td.game details { margin-top: 6px; } td.game summary { cursor: pointer; font-size: 11px; color: #9ca3af; } td.game summary:hover { color: #e2e8f0; }
+        td.game .dtext { font-size: 12px; line-height: 1.5; color: #9ca3af; margin-top: 4px; max-width: 520px; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-bottom: 18px; }
+        .stat { background: #1a1d27; border: 1px solid #2d3148; border-radius: 10px; padding: 14px 16px; } .stat .n { font-size: 24px; font-weight: 700; color: #fcd34d; } .stat .l { font-size: 11px; color: #6b7280; margin-top: 2px; }
+        .presence h2 { font-size: 15px; font-weight: 700; color: #f1f5f9; margin-bottom: 4px; }
+        .presence-sub, .presence-note { font-size: 13px; color: #9ca3af; line-height: 1.5; }
+        .presence-note { font-size: 11px; color: #6b7280; margin-top: 12px; }
+        .presence-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; margin-top: 12px; }
+        .pchart { background: #13161f; border: 1px solid #2d3148; border-radius: 8px; padding: 12px 14px; }
+        .pname { font-size: 13px; font-weight: 700; color: #e2e8f0; } .pname span { font-weight: 500; color: #6b7280; font-size: 11px; margin-left: 4px; }
+        .ptiers { display: flex; gap: 22px; margin-top: 8px; }
+        .ptiers b { display: block; font-size: 26px; color: #fcd34d; font-variant-numeric: tabular-nums; line-height: 1.1; } .ptiers i { font-style: normal; font-size: 11px; color: #6b7280; }
+        .ptop { font-size: 12px; color: #9ca3af; margin-top: 10px; line-height: 1.5; }
+        @media (max-width: 640px) { .field.wide { grid-column: span 1; } }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="breadcrumb">
+        <div class="breadcrumb-links">
+            <a href="/">Zing</a><span class="breadcrumb-sep">›</span>
+            <a href="/industry-resources/">Industry Resources</a><span class="breadcrumb-sep">›</span>
+            <a href="/industry-resources/steam-charts/">Steam Intelligence</a><span class="breadcrumb-sep">›</span>
+            <span>AI-disclosed games</span>
+        </div>
+        <a class="home-link" href="https://zing.co.uk" title="Home" aria-label="Home">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><polyline points="9 21 9 12 15 12 15 21"/></svg>
+        </a>
+    </div>
+
+    <div class="page-label">Steam Intelligence</div>
+    <h1 class="page-title">Steam games that disclose AI use</h1>
+    <p class="page-sub">Games whose Steam store page carries an &ldquo;AI Generated Content Disclosure&rdquo;, with the developer&rsquo;s own wording. We check each game&rsquo;s store page, starting with games charting now and popular releases since January 2024, so this list covers games checked so far, not every game on Steam.</p>
+
+    <div class="stats">
+        <div class="stat"><div class="n">160</div><div class="l">games disclose AI use</div></div>
+        <div class="stat"><div class="n">1,856</div><div class="l">games checked (charting + popular since 2024)</div></div>
+        <div class="stat"><div class="n">8.6%</div><div class="l">of checked games disclose</div></div>
+        <div class="stat"><div class="n" style="font-size:16px;line-height:1.9">31 Oct 2026, 01:42 UTC</div><div class="l">last check</div></div>
+    </div>
+
+        <section class="panel presence" aria-labelledby="presence-h">
+        <h2 id="presence-h">Chart presence</h2>
+        <p class="presence-sub">Games on this list that sit in the top of Steam&rsquo;s own charts right now. A disclosure means the developer declared AI-generated content on the store page; these games are still being bought and played at the top of the charts.</p>
+        <div class="presence-grid">
+                    <div class="pchart">
+                <div class="pname">Top Sellers <span>ranked by revenue</span></div>
+                <div class="ptiers">
+                    <div><b>4</b><i>in top 10</i></div>
+                    <div><b>10</b><i>in top 50</i></div>
+                    <div><b>16</b><i>in top 100</i></div>
+                </div>
+                <div class="ptop">#3 Call of Duty®: Modern Warfare® 4 · #5 AION 2 · #8 Crimson Desert Enhanced · #9 Moon Sweepers</div>            </div>
+                    <div class="pchart">
+                <div class="pname">Most Played <span>ranked by current players</span></div>
+                <div class="ptiers">
+                    <div><b>3</b><i>in top 10</i></div>
+                    <div><b>7</b><i>in top 50</i></div>
+                    <div><b>10</b><i>in top 100</i></div>
+                </div>
+                <div class="ptop">#3 PUBG: BATTLEGROUNDS · #6 Call of Duty® · #9 AION 2</div>            </div>
+                </div>
+        <p class="presence-note">Counts cover the 1,856 games checked so far, so they are a minimum. Chart rank is the current Zing snapshot, not a measure of why players chose a game.</p>
+    </section>
+    
+    <nav class="presets" aria-label="Preset views">
+        <a class="chip on" href="./">Most reviewed</a>
+        <a class="chip" href="?preset=recent">Recently found</a><a class="chip" href="?preset=played">Most played now</a><a class="chip" href="?preset=charting">Charting now</a><a class="chip" href="?preset=new">Released 2026</a><a class="chip" href="?preset=changed">Recently changed</a>    </nav>
+
+    <form class="panel filters" method="get" action="./">
+                <div class="field wide"><label for="f-q">Game name</label><input id="f-q" type="search" name="q" value="" placeholder="Search by name"></div>
+        <div class="field"><label for="f-from">Released after</label><input id="f-from" type="date" name="from" value=""></div>
+        <div class="field"><label for="f-to">Released before</label><input id="f-to" type="date" name="to" value=""></div>
+        <div class="field"><label for="f-rmin">Min reviews</label><input id="f-rmin" type="number" min="0" step="1" name="rmin" value=""></div>
+        <div class="actions"><button class="btn" type="submit">Apply</button></div>
+    </form>
+
+    <div class="countbar"><p class="count"><strong style="color:#e2e8f0">160</strong> games match — page 1 of 4</p></div>
+
+    <div class="table-wrap"><table>
+        <caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Steam games with an AI-content disclosure</caption>
+        <thead><tr>
+                    <th scope="col" class="game "><a rel="nofollow" href="?sort=name&amp;dir=asc">Game</a></th>
+                    <th scope="col" class=""><a rel="nofollow" href="?sort=release&amp;dir=desc">Released</a></th>
+                    <th scope="col" class=""><a rel="nofollow" href="?sort=price&amp;dir=desc">Price</a></th>
+                    <th scope="col" class="sorted" aria-sort="descending"><a rel="nofollow" href="?sort=reviews&amp;dir=asc">Reviews ▼</a></th>
+                    <th scope="col" class=""><a rel="nofollow" href="?sort=pct&amp;dir=desc">Positive</a></th>
+                    <th scope="col" class=""><a rel="nofollow" href="?sort=now&amp;dir=desc">Players now</a></th>
+                    <th scope="col" class=""><a rel="nofollow" href="?sort=rank&amp;dir=asc">Seller rank</a></th>
+                    <th scope="col" class=""><a rel="nofollow" href="?sort=seen&amp;dir=desc">First seen</a></th>
+                </tr></thead>
+        <tbody>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1764817633" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/578080-pubg-battlegrounds/"><div class="gname">PUBG: BATTLEGROUNDS</div><div class="gsub">PUBG Corporation · Action, Adventure</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Our team uses AI tools to help develop some in-game content.</div></details></div></td>
+                <td>21 Dec 2017</td>
+                <td>Free</td>
+                <td>2.6M</td>
+                <td>59%</td>
+                <td>244k</td>
+                <td>#70</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/06107605348820087bb51ca89ed620c22fe559aa/header.jpg?t=1766101980" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1938090-call-of-duty/"><div class="gname">Call of Duty®</div><div class="gsub">Treyarch,Raven Software,Beenox,High Moon · Action</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Our team uses generative AI tools to help develop some in game assets.</div></details></div></td>
+                <td>27 Oct 2022</td>
+                <td>Free</td>
+                <td>714k</td>
+                <td>59%</td>
+                <td>112k</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg?t=1763571534" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1599340-lost-ark/"><div class="gname">Lost Ark</div><div class="gsub">Smilegate RPG · Action, Adventure</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Some game content was translated with the assistance of AI tools.</div></details></div></td>
+                <td>11 Feb 2022</td>
+                <td>Free</td>
+                <td>202k</td>
+                <td>71%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/d4f552ecb03e914cb3878890c80b0591b273c752/header_alt_assets_10.jpg?t=1764336805" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/281990-stellaris/"><div class="gname">Stellaris</div><div class="gsub">Paradox Development Studio · Simulation, Strategy</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">We employ generative AI technologies during the creation of some assets. Typically this involves the ideation of content and visual reference material. These elements represent a minor component of the overall development. AI has been used to generate voices for an AI antagonist and a player advisor.</div></details></div></td>
+                <td>9 May 2016</td>
+                <td>$9.99</td>
+                <td>185k</td>
+                <td>86%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/ac7b926dde8748e62e4f156bc9cdbb47c0ac83e8/header.jpg?t=1765897495" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/552990-world-of-warships/"><div class="gname">World of Warships</div><div class="gsub">Wargaming Group Limited · Action, Massively Multiplayer</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Generative AI is used only during development for minor, replaceable elements like textures or icons. All core assets are created entirely by Wargaming’s artists and developers.</div></details></div></td>
+                <td>15 Nov 2017</td>
+                <td>Free</td>
+                <td>147k</td>
+                <td>77%</td>
+                <td>6,150</td>
+                <td>#23</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665460/e1a5c0d1e401706421594deb14fed5e16c7830cd/header.jpg?t=1764835984" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1665460-efootball/"><div class="gname">eFootball™</div><div class="gsub">KONAMI · Simulation, Sports</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">During the development of this game, generative AI is used to create reference materials and support production tasks. Specifically, AI is utilised when carrying out the following processes. ・ Partial creation of base images used for background art production of Events ・ Partial retouching work of some player images in accordance with license agreements, such as the removal of visual defects on strips. ・ Production of some audio for stadium announcements ・ Generation and copyediting of some text ・ Review of some translations Across all processes, AI-generated content is only used for support purposes. The final version is always verified and edited by the development team before use. The quality of all final content is ensured through human evaluation.</div></details></div></td>
+                <td>29 Sep 2021</td>
+                <td>Free</td>
+                <td>92k</td>
+                <td>48%</td>
+                <td>11k</td>
+                <td>#41</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/516750/header.jpg?t=1736372299" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/516750-my-summer-car/"><div class="gname">My Summer Car</div><div class="gsub">Amistech Games · Indie, Racing</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">There are some AI generated paintings found inside the main house.</div></details></div></td>
+                <td>8 Jan 2025</td>
+                <td>$14.99</td>
+                <td>91k</td>
+                <td>95%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/4468c9925879301585eb0255b27a8e2f5245c3aa/header_alt_assets_23.jpg?t=1764929929" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1407200-world-of-tanks/"><div class="gname">World of Tanks</div><div class="gsub">Wargaming Group Limited · Action, Massively Multiplayer</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Generative AI is used only during development for minor, replaceable elements like textures or icons. All core assets and code base are created entirely by Wargaming’s artists and developers.</div></details></div></td>
+                <td>28 Apr 2021</td>
+                <td>Free</td>
+                <td>88k</td>
+                <td>83%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/e3b40443eb87d075818ec45883d85c1c47d15c00/header.jpg?t=1765832625" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1304930-the-outlast-trials/"><div class="gname">The Outlast Trials</div><div class="gsub">Red Barrels · Action, Adventure</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Throughout the development of our game, we may leverage AI-based tools to assist our team in content creation. Please rest assured that what you see in the game reflects the creativity and hard work of our team. Examples may include pictures and/or posters used in some of our environments.</div></details></div></td>
+                <td>5 Mar 2024</td>
+                <td>$11.99</td>
+                <td>67k</td>
+                <td>93%</td>
+                <td>10k</td>
+                <td>#43</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3097560/b3c329e47cc499727f516da18522342d769f620f/header.jpg?t=1766139747" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/3097560-liar-s-bar/"><div class="gname">Liar&#039;s Bar</div><div class="gsub">Curve Animation · Casual, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">The character voices used in the game were generated by artificial intelligence.</div></details></div></td>
+                <td>2 Oct 2024</td>
+                <td>$3.49</td>
+                <td>49k</td>
+                <td>91%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1268750/b8944ac0c60d26922a1cab23d7269a91423dc998/header_alt_assets_3.jpg?t=1764615519" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1268750-starship-troopers-extermination/"><div class="gname">Starship Troopers: Extermination</div><div class="gsub">Offworld · Action, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Used AI powered video editing tool to animate the static images of our Rico Character and Sky Marshal. We used all our fully contracted and paid for existing content and images we had with these actors from our original recording sessions. No new AI content was generated.</div></details></div></td>
+                <td>10 Oct 2024</td>
+                <td>$9.89</td>
+                <td>31k</td>
+                <td>81%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128580/b7e0ff7f05df2c97692bc61c5d3ddf751acb3477/header.jpg?t=1782972934" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/4128580-bidking/"><div class="gname">BidKing</div><div class="gsub">MindSurge Network &amp; Games · Casual, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">The developer&#039;s description of how AI-generated content is used in the game is as follows: Certain artistic assets in this work were produced using Stable Diffusion, including but not limited to: scene images, loading images, and select item icons.</div></details></div></td>
+                <td>15 Apr 2026</td>
+                <td>$2.99</td>
+                <td>24k</td>
+                <td>32%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1040200/header.jpg?t=1765055591" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1040200-crime-scene-cleaner/"><div class="gname">Crime Scene Cleaner</div><div class="gsub">President Studio · Action, Simulation</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">We do NOT use AI-generated art, and we never intentionally include AI assets in our game. We sometimes purchase assets and use stock photos. We do our best to verify them, but nowadays, distinguishing AI from human-made art can be hard. That said, if there is any specific artwork that you believe looks like AI or raises concerns, we would appreciate it if you could point it out on our Discord server. We will investigate and replace anything that might have slipped through. AI-generated art is NOT something we want to include in our game.</div></details></div></td>
+                <td>14 Aug 2024</td>
+                <td>$19.99</td>
+                <td>22k</td>
+                <td>98%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/89acee5c3d965af802002617d6c130e5e03bd240/header.jpg?t=1761814842" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2456740-inzoi/"><div class="gname">inZOI</div><div class="gsub">inZOI Studio · Adventure, Casual</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Players can generate unique textures for character outfits and various items based on text input. They can also create 3D objects from 2D image input, which can be used as interior decorations or character accessories, and add distinctive motions to their Zoi using video input. Additionally, character actions and thoughts can be influenced with text using SLM technology, enabling more engaging and intuitive interactions. AI-based tools are utilized as auxiliary support during the content creation process and text localizations. All content generated through this process was thoroughly reviewed and manually refined by the development team before applied to the final product.</div></details></div></td>
+                <td>27 Mar 2025</td>
+                <td>$39.99</td>
+                <td>21k</td>
+                <td>79%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3679080/86b4734355e3e43b8323426e69d127ce79bab888/header.jpg?t=1791364897" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/3679080-the-seven-deadly-sins-origin/"><div class="gname">The Seven Deadly Sins: Origin</div><div class="gsub">Netmarble F&amp;C · Action, Adventure</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">During the development process, our team may utilize AI-based tools in a limited, supplementary capacity to support content creation. This includes the creation of certain 2D prop assets and soundtrack pieces, as well as the localization of some languages. In all cases, the final touches and quality review were carried out by our own team, and the final product reflects our team&#039;s creativity and artistic expression.</div></details></div></td>
+                <td>16 Mar 2026</td>
+                <td>Free</td>
+                <td>16k</td>
+                <td>59%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465460/509aaaf4c97c4d6d19bc3c5ec1d425ad4ccd749b/header_alt_assets_2.jpg?t=1766225541" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1465460-infection-free-zone/"><div class="gname">Infection Free Zone</div><div class="gsub">Jutsu Games · Action, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">- Some artworks have been made with the help of the Midjourney AI tool. - The Map Data in some countries has been generated with the help of AI technology to recognize satellite images.</div></details></div></td>
+                <td>11 Apr 2024</td>
+                <td>$19.99</td>
+                <td>15k</td>
+                <td>79%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/216150/8846fbe0bab4d46b5af24c8cb0604714539273ad/header_alt_assets_13.jpg?t=1765412460" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/216150-maplestory/"><div class="gname">MapleStory</div><div class="gsub">NEXON Korea Corporation · Action, Adventure</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Generative AI is used for two features: - To allow players to create a custom illustration of their character reflecting their personalized appearance and equipped items for in-game use. - To assist with translation for languages other than English.</div></details></div></td>
+                <td>9 Aug 2012</td>
+                <td>Free</td>
+                <td>14k</td>
+                <td>63%</td>
+                <td>23k</td>
+                <td>—</td>
+                <td class="dim">27 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2772750/header.jpg?t=1754994534" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2772750-age-of-history-3/"><div class="gname">Age of History 3</div><div class="gsub">Łukasz Jakowski · Simulation, Strategy</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Game contains images of units, buildings, characters generated by AI.</div></details></div></td>
+                <td>23 Oct 2024</td>
+                <td>$4.99</td>
+                <td>13k</td>
+                <td>87%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812450/d387c517d49f2b8370a3b744bc884ca4a944ace2/header_alt_assets_1.jpg?t=1766079675" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1812450-bellwright/"><div class="gname">Bellwright</div><div class="gsub">Donkey Crew · Action, RPG</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Generative AI is used during development to prototype the voice acting. Expect professional voice acting quality by the full release.</div></details></div></td>
+                <td>23 Apr 2024</td>
+                <td>$19.79</td>
+                <td>12k</td>
+                <td>81%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1114150/1f75e1d54e74cc8c81c4baed87ac8b935a838d7a/header.jpg?t=1757415929" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1114150-carx-street/"><div class="gname">CarX Street</div><div class="gsub">CarX Technologies, LLC · Massively Multiplayer, Racing</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">During development, we may use AI tools to assist with character voice-overs and certain illustrations. In all such cases, AI-generated materials are treated as draft content: our team selects, edits, and combines them before approving the end result. The final product is made under the full creative control of our developers and artists and reflects their artistic vision.</div></details></div></td>
+                <td>29 Aug 2024</td>
+                <td>$8.99</td>
+                <td>11k</td>
+                <td>71%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920570/header.jpg?t=1738015624" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2920570-dale-dawson-stationery-supplies/"><div class="gname">Dale &amp; Dawson Stationery Supplies</div><div class="gsub">Striped Panda Studios · Casual, RPG</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">AI only was used to create the achievement images</div></details></div></td>
+                <td>30 Aug 2024</td>
+                <td>$3.99</td>
+                <td>7,714</td>
+                <td>92%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2012510/1d48ad2eb7e5cff4fa4404f88ca41943cb418d80/header.jpg?t=1754678344" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2012510-stormgate/"><div class="gname">Stormgate</div><div class="gsub">Frost Giant Studios · Action, Strategy</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Some AI tools were used to help with early ideation in the development process. AI tools were also used to assist in up-rezzing our portraits and adding facial animations. Final assets were all painted by artists. We have not replaced any developers with AI and believe that talented people lie at the heart of exciting games.</div></details></div></td>
+                <td>5 Aug 2025</td>
+                <td>Free</td>
+                <td>7,483</td>
+                <td>50%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575940/abb35498d83df73c53a0cc6f07616fe43936eccc/header_alt_assets_4.jpg?t=1765374786" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1575940-sins-of-a-solar-empire-ii/"><div class="gname">Sins of a Solar Empire II</div><div class="gsub">Ironclad Games Corporation,Stardock Ente · Simulation, Strategy</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">This game used AI to help quickly iterate through designs for some UI elements using our own artwork as a baseline. AI is also used to help translate the game.</div></details></div></td>
+                <td>15 Aug 2024</td>
+                <td>$24.99</td>
+                <td>6,946</td>
+                <td>86%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2625420/header.jpg?t=1763590271" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2625420-drive-beyond-horizons/"><div class="gname">Drive Beyond Horizons</div><div class="gsub">Drive Beyond Horizons · Action, Adventure</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">- Voice</div></details></div></td>
+                <td>24 Mar 2025</td>
+                <td>$18.74</td>
+                <td>6,853</td>
+                <td>81%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1063420/header.jpg?t=1758891723" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1063420-void-crew/"><div class="gname">Void Crew</div><div class="gsub">Hutlihut Games · Action, Adventure</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Pre-generated Text-To-Speech Voice Cloning for the Homunculus AI, where it makes sense creatively.</div></details></div></td>
+                <td>25 Nov 2024</td>
+                <td>$17.49</td>
+                <td>6,713</td>
+                <td>88%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873080/header.jpg?t=1764642693" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2873080-the-noexistencen-of-you-and-me/"><div class="gname">The NOexistenceN of you AND me</div><div class="gsub">0x0Real Studio · Adventure, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">The exhilarating background music for the Demon King Battle was created through a powerful collaboration between us and AI.</div></details></div></td>
+                <td>15 Dec 2024</td>
+                <td>$1.49</td>
+                <td>6,585</td>
+                <td>94%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771980/header.jpg?t=1755332606" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1771980-the-operator/"><div class="gname">The Operator</div><div class="gsub">Bureau 81 · Adventure, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">AI was used in the ChemScan manual to generate the photo of the machine. NO AI used for the voices.</div></details></div></td>
+                <td>22 Jul 2024</td>
+                <td>$9.09</td>
+                <td>6,196</td>
+                <td>93%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2294660/f409bf38047232c0c9c21813d359c0e2667a580e/header.jpg?t=1740799193" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2294660-the-quinfall/"><div class="gname">The Quinfall</div><div class="gsub">Vawraek Technology Inc. · Massively Multiplayer, Early Access</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Some in-game interface images were created through known image AIs. All AI running outside the game interface is programmed by Vawraek Technology.</div></details></div></td>
+                <td>24 Jan 2025</td>
+                <td>$0.99</td>
+                <td>6,190</td>
+                <td>48%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1477070/header.jpg?t=1754021116" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1477070-depersonalization/"><div class="gname">Depersonalization</div><div class="gsub">MeowNature · Adventure, Casual</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Regarding AI usage: The game employs AI in only two areas 1. Character voice lines (disabled by default) The ultra-large script (800k words) makes authentic voice acting financially unaffordable for our small studio. 2. &quot;Seek Answers&quot; function in the game lobby’s Sosoth (NPC) interaction interface For entertainment purposes, we used AI chat. What we can guarantee: Beyond these, translation, scripts, design, art, animation, and other game components absolutely did not use AI. Connects to 3rd-Party Service for AI Content Generation: kimi</div></details></div></td>
+                <td>8 Aug 2024</td>
+                <td>$14.99</td>
+                <td>5,955</td>
+                <td>94%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2916430/header.jpg?t=1762536253" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2916430-fast-food-simulator/"><div class="gname">Fast Food Simulator</div><div class="gsub">No Ceiling Games · Indie, Simulation</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">The game does not contain AI-generated content. AI-generated content is used just for Steam Images.</div></details></div></td>
+                <td>10 Dec 2024</td>
+                <td>$9.74</td>
+                <td>5,773</td>
+                <td>94%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890830/header.jpg?t=1751968040" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2890830-streamer-life-simulator-2/"><div class="gname">Streamer Life Simulator 2</div><div class="gsub">Cheesecake Dev · Indie, Simulation</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">The game uses some icons and visuals that were previously created with artificial intelligence (some in-game visuals and capsule image, etc...)</div></details></div></td>
+                <td>23 Jan 2025</td>
+                <td>$6.69</td>
+                <td>4,924</td>
+                <td>83%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963880/582e04c544ef60fb5e3e35f0cdd8f7e8522393a0/header.jpg?t=1761823537" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2963880-murky-divers/"><div class="gname">Murky Divers</div><div class="gsub">Embers · Action, Adventure</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">A custom tool that detects player voices and mimics them using an AI-generated voice.</div></details></div></td>
+                <td>12 Dec 2024</td>
+                <td>$4.49</td>
+                <td>4,519</td>
+                <td>89%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3107230/d035e24caff895b5816a861361b4acd84990d5f9/header.jpg?t=1747753972" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/3107230-pantheon-rise-of-the-fallen/"><div class="gname">Pantheon: Rise of the Fallen</div><div class="gsub">Visionary Realms · Adventure, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Every asset in Pantheon: Rise of the Fallen is conceived, directed, and finalized by human artists. Artists may elect to use AI tools trained exclusively on our internal art library solely to streamline repetitive production tasks. We also use AI to assist early testing and evaluation.</div></details></div></td>
+                <td>13 Dec 2024</td>
+                <td>$31.99</td>
+                <td>4,432</td>
+                <td>76%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1278540/045ff5eccb4bb4be6b770328f08746a624417c8e/header.jpg?t=1759146225" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1278540-esports-godfather/"><div class="gname">Esports Godfather</div><div class="gsub">Asteroid Game Studio · Casual, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">In our game development process, we have adopted AI technology to generate art content, mainly for the character portraits of esports players and illustrations in game events. We hope to provide players with richer and more diverse character portraits, but considering the economic, manpower, and time aspects, we find it difficult to afford a large amount of hand-drawn content. We have tried to separate parts such as the mouth, face, and nose, and then assemble them into 3D characters, but the effect was not satisfactory. Therefore, we decided to try a new method: using AI to generate these contents. We used some of the content we had created before to train the AI model, allowing it to learn and understand the art style and requirements we want. Now, all the AI-generated character portraits and illustrations in the game are made by our trained model, and after completion, we also manually correct them. We deeply understand that AI cannot replace the creativity and uniqueness of real artists. For this, we feel very sorry, but we also promise you that “Esports Godfather” is not a work without sincerity. We have spent a tremendous amount of time polishing innovative gameplay and various experience content. In these four and a half years, we have been committed to completing a work that satisfies everyone. We hope you can understand our decision and continue to support our game. We will continue to work hard to provide you with a better gaming experience.</div></details></div></td>
+                <td>23 May 2024</td>
+                <td>$13.99</td>
+                <td>3,739</td>
+                <td>92%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967990/header.jpg?t=1764602050" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2967990-train-sim-world-5/"><div class="gname">Train Sim World® 5</div><div class="gsub">Dovetail Games · Simulation</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">We are using ElevenLabs for some of our Voice-over production for Train Sim World® 5. All scripts and content are ours, but the voiceover itself has an AI element.</div></details></div></td>
+                <td>17 Sep 2024</td>
+                <td>$24.99</td>
+                <td>3,701</td>
+                <td>80%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1330000/header.jpg?t=1750178240" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1330000-stolen-realm/"><div class="gname">Stolen Realm</div><div class="gsub">Burst2Flame Entertainment · Adventure, RPG</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Generative AI is used for the English audio narration, loading screens and a small percentage of skill icons.</div></details></div></td>
+                <td>8 Mar 2024</td>
+                <td>$7.99</td>
+                <td>3,232</td>
+                <td>85%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1991040/190aef97bad1385419b606a167e774896287f0f0/header_alt_assets_0.jpg?t=1766137857" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1991040-school-days/"><div class="gname">School Days</div><div class="gsub">白雨工作室 · Casual, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">In the KZone website system in the game, individual dynamic pictures are generated by AI.</div></details></div></td>
+                <td>29 Jan 2025</td>
+                <td>$10.19</td>
+                <td>2,853</td>
+                <td>79%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/983870/0f30201b6e555fc7728769321c577b617667c390/header.jpg?t=1766055800" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/983870-foundry/"><div class="gname">FOUNDRY</div><div class="gsub">Channel 3 Entertainment · Indie, Simulation</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">We leveraged AI-generated content to enrich our game with elements that would have been otherwise challenging to include. Specifically, we used AI for the AI character voiceover in different languages, a feature made possible thanks to this technology. In this case it made even more sense since the character is actually an AI. Otherwise, all the core art and visual elements of the game have been designed by human talents.</div></details></div></td>
+                <td>2 May 2024</td>
+                <td>$22.49</td>
+                <td>2,783</td>
+                <td>79%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465470/0b52b754b8ee306f3b5d8c79f4a7a7b6c289b974/header_alt_assets_14.jpg?t=1766696899" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1465470-the-crust/"><div class="gname">The Crust</div><div class="gsub">VEOM Studio · Simulation, Strategy</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">All voice acting is performed by professional actors and is licensed. All the music in the game was composed by real composers—Ilya Khaminov, Sergey Sergeev, Alexander Kosyakov, and Emil Zenko—and is licensed. All 3D models and animations were created by our talented team of professional artists. As part of the development process, generative AI was used to assist in the creation of certain visual elements, including artistic textures and company logos. The AI-generated content was reviewed, edited, and/or further refined by our development team before being incorporated into the game. The game has been in development since 2019, and 99% of all game content was created by professional developers, artists, and designers.</div></details></div></td>
+                <td>15 Jul 2024</td>
+                <td>$16.49</td>
+                <td>2,603</td>
+                <td>77%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2875140/header.jpg?t=1761625243" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2875140-/"><div class="gname">失业了，我获得了亿万游戏财产！</div><div class="gsub">Bolingogames · Adventure, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">游戏内少量的图标和插图利用AI进行辅助设计</div></details></div></td>
+                <td>8 Aug 2024</td>
+                <td>$9.09</td>
+                <td>2,528</td>
+                <td>87%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245480/86178a55fcb50864c4649e521eca977e8b0efb7c/header.jpg?t=1760608814" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1245480-synduality-echo-of-ada/"><div class="gname">SYNDUALITY Echo of Ada</div><div class="gsub">Game Studio Inc. · Action</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">The following portion of the in-game audio was created using an AI-generated text to speech program and reviewed by the development team: Garage radio chatter voice.</div></details></div></td>
+                <td>23 Jan 2025</td>
+                <td>$19.99</td>
+                <td>2,490</td>
+                <td>39%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442430/7e80101e998d9bed0bac2fe7c73f4a13b1150a14/header.jpg?t=1765465348" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1442430-storage-hunter-simulator/"><div class="gname">Storage Hunter Simulator</div><div class="gsub">Raccoons Studio · Casual, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">AI is used for a part of the localization, voice overs, artworks and other marketing materials.</div></details></div></td>
+                <td>27 Nov 2025</td>
+                <td>$16.24</td>
+                <td>2,463</td>
+                <td>83%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">29 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1578220/2b44eb2081f6410206afa084555438c370ab4e63/header.jpg?t=1746979349" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1578220-mister-furry-hot-muscles/"><div class="gname">Mister Furry: Hot Muscles</div><div class="gsub">Red Six Development,Male Union · Action, Adventure</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Some arts and sounds is made with AI assistance</div></details></div></td>
+                <td>31 May 2024</td>
+                <td>$0.49</td>
+                <td>2,330</td>
+                <td>92%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">29 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/37f833ca5bd3d5c3eec2b411131f3e00f580bbe7/header.jpg?t=1762963192" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/3059520-f1-25/"><div class="gname">F1® 25</div><div class="gsub">Codemasters · Racing, Simulation</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Generative AI may have been used in creating pre-rendered or live-generated content for this game. All such content is the result of a human-led artistic and creative process.</div></details></div></td>
+                <td>30 May 2025</td>
+                <td>$29.99</td>
+                <td>2,088</td>
+                <td>89%</td>
+                <td>2,470</td>
+                <td>#84</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928520/aa9e33e360aa06005e80095408c07d320c766068/header.jpg?t=1766067959" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2928520-recycling-center-simulator/"><div class="gname">Recycling Center Simulator</div><div class="gsub">Balas Games · Casual, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">AI is used for store page capsule art and in-game character portrait art creation...</div></details></div></td>
+                <td>2 Oct 2024</td>
+                <td>$9.79</td>
+                <td>2,040</td>
+                <td>89%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">29 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2328480/header.jpg?t=1765514989" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2328480-ascension/"><div class="gname">Ascension</div><div class="gsub">Element Game 微元游戏 · Strategy, Early Access</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">This game uses AI assistance to create some of the 2D art assets.</div></details></div></td>
+                <td>8 May 2025</td>
+                <td>$16.99</td>
+                <td>2,032</td>
+                <td>62%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">29 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2353250/header.jpg?t=1764702654" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/2353250-astrometica/"><div class="gname">Astrometica</div><div class="gsub">BeryMery · Adventure, Indie</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Some in-game posters were originally designed using AI-generated concepts to speed up the creative process. These visuals were then refined by our artist to fit the game&#039;s style. AI is not used during gameplay, and all content is curated by the development team.</div></details></div></td>
+                <td>10 Dec 2024</td>
+                <td>$13.39</td>
+                <td>2,019</td>
+                <td>87%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">29 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3272300/header.jpg?t=1744717414" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/3272300-yasuke-simulator/"><div class="gname">Yasuke Simulator</div><div class="gsub">HistoryAccurateDevelopers · Action, Casual</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">some Audio and Graphics where created with the help of AI</div></details></div></td>
+                <td>20 Mar 2025</td>
+                <td>$4.19</td>
+                <td>1,917</td>
+                <td>97%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">29 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128400/89639ca2b8f37f7c4b2ce26d5890fef8939f0714/header.jpg?t=1792185641" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/4128400-ebaseball-pro-spirit/"><div class="gname">eBaseball™: PRO SPIRIT</div><div class="gsub">KONAMI · Action, Sports</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">To achieve more flexible play-by-play commentary, this game has an AI-generated voice feature. *Only available in Japanese commentary.</div></details></div></td>
+                <td>4 Mar 2026</td>
+                <td>Free</td>
+                <td>1,881</td>
+                <td>78%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">28 Oct 2026</td>
+            </tr>
+                    <tr>
+                <td class="game"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1360810/da8205a1b323df8a8a2fe77ae03fef1b910e664b/header_alt_assets_1.jpg?t=1765856773" alt="" loading="lazy" width="92" height="43" onerror="this.style.visibility='hidden'">                    <div><a href="/industry-resources/steam-charts/game/1360810-office-life/"><div class="gname">Office Life</div><div class="gsub">LeiYun Games · RPG, Simulation</div></a>
+                    <details><summary>Developer&rsquo;s disclosure</summary><div class="dtext">Because there are so many characters in the game, we used AI art (based on our own art style) to create a few characters towards the end of the game.</div></details></div></td>
+                <td>17 Dec 2024</td>
+                <td>$11.99</td>
+                <td>1,772</td>
+                <td>89%</td>
+                <td>—</td>
+                <td>—</td>
+                <td class="dim">29 Oct 2026</td>
+            </tr>
+                </tbody>
+    </table></div>
+
+        <nav class="pager" aria-label="Pages">
+                <span class="cur" aria-current="page">1</span><a rel="nofollow" href="?page=2">2</a><span class="gap">…</span><a rel="nofollow" href="?page=4">4</a>        <a href="?page=2" rel="next nofollow">Next →</a>    </nav>
+        
+    <p class="note">
+        <strong>How to read this.</strong> A game appears here when its Steam store page has an &ldquo;AI Generated Content Disclosure&rdquo; section; the text is the developer&rsquo;s own. Steam&rsquo;s rule applies to AI content players see or hear, so games that use AI only for code or tooling may not disclose, and the real level of AI use is likely higher.
+        We check games charting on Zing weekly, and popular games released since January 2024 (20+ reviews) most-reviewed first, re-checking every 60 days; the list grows as checking proceeds. Because checked games skew towards successful ones, &ldquo;of checked games&rdquo; is not the share of all Steam releases.
+        Steam introduced AI disclosures in January 2024, so older games only appear if their developer has added one. &ldquo;First seen&rdquo; is when Zing first saw the disclosure, not when the developer added it.
+        Reviews, price and players come from Zing&rsquo;s <a href="/industry-resources/steam-charts/games-table/">games table</a>.
+    </p>
+</div>
+<script src="/assets/steam-nav.js?v=19" defer></script>
+<script src="/assets/footer.js?v=7" defer></script>
+<script src="/assets/share-button.js" defer></script>
+</body>
+</html>
