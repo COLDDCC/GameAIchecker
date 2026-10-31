@@ -4,7 +4,7 @@
   "requestedCount": 5,
   "baseSha": "893a7ef704eb112ff54e4af4bd272daa98514e03",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-10-30T07:34:59.212529+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -466,10 +466,57 @@
       },
       "bytes": 12908168,
       "verifiedRemoteSha": "589ddc031cc04e1cf7f86b643d2452299b2f7ebe"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41157167481",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41157167469"
+    },
+    "production": {
+      "sha": "f32ef0c4ff9a0ce55639dcc5ca0033ab2a1e79bf",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/fa635f1c-2681-4fa2-8805-de08e0c35b57",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>f32ef0c</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://fa635f1c.gameaichecker.pages.dev'>https://fa635f1c.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/fa635f1c-2681-4fa2-8805-de08e0c35b57)\n",
+      "checkedAt": "2026-10-31T02:44:56.343798+00:00"
+    },
+    "onlineImages": {
+      "responses": 204,
+      "cache": ".cache\\gameaichecker-review\\20261030T163459-9a2bb4\\online-images-f32ef0c4ff9a0ce55639dcc5ca0033ab2a1e79bf.json"
+    },
+    "online": [
+      {
+        "appId": "4835560",
+        "url": "https://gameaichecker.com/games/4835560-banana-airways/",
+        "checkedAt": "2026-10-31T02:48:31.755031+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3489340",
+        "url": "https://gameaichecker.com/games/3489340-reblade-the-death-spiral/",
+        "checkedAt": "2026-10-31T02:48:31.757235+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5138990",
+        "url": "https://gameaichecker.com/games/5138990-unharvest/",
+        "checkedAt": "2026-10-31T02:48:31.759745+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4200110",
+        "url": "https://gameaichecker.com/games/4200110-nekome-nazi-hunter/",
+        "checkedAt": "2026-10-31T02:48:31.762275+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4910490",
+        "url": "https://gameaichecker.com/games/4910490-ignite-the-depths/",
+        "checkedAt": "2026-10-31T02:48:31.764330+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "9d996272f99d6c554dc2b421e5e502dec1a08677"
+    "media": "9d996272f99d6c554dc2b421e5e502dec1a08677",
+    "site": "f32ef0c4ff9a0ce55639dcc5ca0033ab2a1e79bf"
   },
   "attempts": 5,
   "maxAttempts": 15,
@@ -481,5 +528,6 @@
   },
   "applyBase": "218f8a2c88c6b71e7ff121f55354342f42b7eea2",
   "pendingTree": "65f1b6546d514c4e32af45461c4d9bcf5a4ffcd5",
-  "siteBase": "589ddc031cc04e1cf7f86b643d2452299b2f7ebe"
+  "siteBase": "589ddc031cc04e1cf7f86b643d2452299b2f7ebe",
+  "siteTree": "f6b0e692075c844fa018c0c031c74cacd4380ced"
 }
