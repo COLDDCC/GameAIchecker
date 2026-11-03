@@ -1,0 +1,136 @@
+{
+  "sources": [
+    {
+      "appId": "3636930",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/3636930/?l=english",
+      "fetchedAt": "2026-11-03T07:55:12.907273+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "6de5ae260d3472d596d5b4a5c8f140ca46d909707d826cf751b4cf1bf9f76c3a",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\3636930\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Since we’re a very small team, we use generative AI for a small part of the development process, for example, to create graphical placeholders like icons or background images, or to localize newly added text. The vast majority of the game was localized by humans; only new text is machine-translated in order to include as many players as possible. The voice in the game is text-to-speech, not AI.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Since we’re a very small team, we use generative AI for a small part of the development process, for example, to create graphical placeholders like icons or background images, or to localize newly added text. The vast majority of the game was localized by humans; only new text is machine-translated in order to include as many players as possible. The voice in the game is text-to-speech, not AI."
+    },
+    {
+      "appId": "3636930",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/3636930/discussions/?l=english",
+      "fetchedAt": "2026-11-03T07:55:14.128553+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "46d43231cb66eff8dbf7be0d3982ec9dff19f11adbc60e37f3fa19448cc1204b",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\3636930\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Feedback about the Professional Ship Simulator Demo\nCrashing on Startup\ngame wont load\nI couldn't board it !\nLevel 2, But cant buy anything but starter boats?\nWhere is Seaborn in Career?\nOn/Off Engine button\nWaypoints aren't going where I placed them to go!!!\nCRASHING ON START\n怎么提升等级\n[Known BUG?] Boat fuel gauges not registering in Career mode\nWhy respawn only at ralswiek?\nIssues with the cruise ship\nTried the demo\nBuoyancy physics issues",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 279）；仅覆盖首页。"
+    }
+  ],
+  "identity": {
+    "appId": "3636930",
+    "name": "Professional Ship Simulator",
+    "developer": "SWE Systems",
+    "publisher": "Aerosoft",
+    "type": "game",
+    "verified": true,
+    "release": "Sep 16, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Simulation",
+      "Early Access"
+    ],
+    "description": "Take the helm in this realistic, large-scale maritime simulation. Command your fleet from agile rescue vessels to massive LNG tankers and perform precise maneuvers in challenging conditions. Navigate a living open world where weather, traffic, and every wave shape your career.",
+    "identityEvidence": {
+      "appId": "3636930",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=3636930&l=english",
+      "fetchedAt": "2026-11-03T07:55:13.437001+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "917fd1f909f3c5a2b1a3dcbdbb5ee51a1bfea9a752ea56321eec3399d82c7003",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\3636930\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 279,
+    "topics": [
+      {
+        "title": "PINNED: Feedback about the Professional Ship Simulator Demo",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/599660817248451037/"
+      },
+      {
+        "title": "Crashing on Startup",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/581683203528548935/"
+      },
+      {
+        "title": "game wont load",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049990495819925/"
+      },
+      {
+        "title": "I couldn't board it !",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049990495708370/"
+      },
+      {
+        "title": "Level 2, But cant buy anything but starter boats?",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049990495629503/"
+      },
+      {
+        "title": "Where is Seaborn in Career?",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049990495773856/"
+      },
+      {
+        "title": "On/Off Engine button",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/572678840008313275/"
+      },
+      {
+        "title": "Waypoints aren't going where I placed them to go!!!",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049990495750515/"
+      },
+      {
+        "title": "CRASHING ON START",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/661611657898940561/"
+      },
+      {
+        "title": "怎么提升等级",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049990495631623/"
+      },
+      {
+        "title": "[Known BUG?] Boat fuel gauges not registering in Career mode",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049990495627625/"
+      },
+      {
+        "title": "Why respawn only at ralswiek?",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049673541817696/"
+      },
+      {
+        "title": "Issues with the cruise ship",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049990495607004/"
+      },
+      {
+        "title": "Tried the demo",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/567049673541786909/"
+      },
+      {
+        "title": "Buoyancy physics issues",
+        "url": "https://steamcommunity.com/app/3636930/discussions/0/572678840008304901/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  }
+}
