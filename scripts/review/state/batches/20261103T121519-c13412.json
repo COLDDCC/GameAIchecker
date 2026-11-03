@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "d51106568fd92c1a0a9ddb2d925c223c4bbdd0e7",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-11-03T03:15:19.455890+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -650,10 +650,87 @@
       },
       "bytes": 43633323,
       "verifiedRemoteSha": "59eec6ed2f5e5c86c7b50ff4be8f4d10f73ab06d"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41573710162",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41573710161"
+    },
+    "production": {
+      "sha": "d4652305d5d70c7f5277adfe1aca80274647f2cc",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/bbaf64b5-32b2-4b3d-89d2-08b5a64c072d",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>d465230</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://bbaf64b5.gameaichecker.pages.dev'>https://bbaf64b5.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/bbaf64b5-32b2-4b3d-89d2-08b5a64c072d)\n",
+      "checkedAt": "2026-11-03T03:45:38.520827+00:00"
+    },
+    "onlineImages": {
+      "responses": 483,
+      "cache": ".cache\\gameaichecker-review\\20261103T121519-c13412\\online-images-d4652305d5d70c7f5277adfe1aca80274647f2cc.json"
+    },
+    "online": [
+      {
+        "appId": "5027520",
+        "url": "https://gameaichecker.com/games/5027520-megastore-tidy-up-together/",
+        "checkedAt": "2026-11-03T03:46:04.345471+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4678800",
+        "url": "https://gameaichecker.com/games/4678800-train-sim-world-7/",
+        "checkedAt": "2026-11-03T03:46:04.348339+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4094660",
+        "url": "https://gameaichecker.com/games/4094660-rivage/",
+        "checkedAt": "2026-11-03T03:46:04.352494+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4164790",
+        "url": "https://gameaichecker.com/games/4164790-survival-log/",
+        "checkedAt": "2026-11-03T03:46:04.355165+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4159680",
+        "url": "https://gameaichecker.com/games/4159680-barfender-co-op-bar-simulator/",
+        "checkedAt": "2026-11-03T03:46:04.359344+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4948000",
+        "url": "https://gameaichecker.com/games/4948000-moo-who/",
+        "checkedAt": "2026-11-03T03:46:04.362289+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5189500",
+        "url": "https://gameaichecker.com/games/5189500-a-place-for-every-potion/",
+        "checkedAt": "2026-11-03T03:46:04.366215+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5127370",
+        "url": "https://gameaichecker.com/games/5127370-who-s-cheating/",
+        "checkedAt": "2026-11-03T03:46:04.369334+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4072240",
+        "url": "https://gameaichecker.com/games/4072240-woman-simulator/",
+        "checkedAt": "2026-11-03T03:46:04.373291+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5306540",
+        "url": "https://gameaichecker.com/games/5306540-groundwork-simulator/",
+        "checkedAt": "2026-11-03T03:46:04.375656+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "3721144f9bfa8b664dc770473959b7fa7adba2b4"
+    "media": "3721144f9bfa8b664dc770473959b7fa7adba2b4",
+    "site": "d4652305d5d70c7f5277adfe1aca80274647f2cc"
   },
   "attempts": 11,
   "maxAttempts": 30,
@@ -680,5 +757,6 @@
   ],
   "applyBase": "d51106568fd92c1a0a9ddb2d925c223c4bbdd0e7",
   "pendingTree": "1a435c769c645bd1982baea89172ed939c6123e8",
-  "siteBase": "59eec6ed2f5e5c86c7b50ff4be8f4d10f73ab06d"
+  "siteBase": "59eec6ed2f5e5c86c7b50ff4be8f4d10f73ab06d",
+  "siteTree": "90f816dcd9f85f6a5da94e8838b6efe6d9dc3926"
 }
