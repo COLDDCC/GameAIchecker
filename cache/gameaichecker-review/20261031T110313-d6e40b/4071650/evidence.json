@@ -1,0 +1,198 @@
+{
+  "sources": [
+    {
+      "appId": "4071650",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4071650/?l=english",
+      "fetchedAt": "2026-10-31T02:04:12.092853+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "6150748ec145b0816666554412dd342af19241d3692b0630364e9543af4b1b14",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\4071650\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "We used AI to generate additional chat message ideas based on the initial list we made ourselves. Relevant message ideas were added to the game, some messages were altered to fit, and rest were left on the cutting room floor.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "We used AI to generate additional chat message ideas based on the initial list we made ourselves. Relevant message ideas were added to the game, some messages were altered to fit, and rest were left on the cutting room floor."
+    },
+    {
+      "appId": "4071650",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4071650/discussions/?l=english",
+      "fetchedAt": "2026-10-31T02:04:13.473423+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "63141efa3507ef51153a59b5e79688d27da5eba011f648d43a331e41d7fe0946",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\4071650\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Stream Train - Bug Megathread\nFound a spot one can get stuck xD\nController support\nищу тиммейта\nищу тиму\nAggiungere una funzionalità Twitch\nИщем тимейтов\nSave character customization?\nFuel\nHi creators\nищю тиму\nEscaping ufo\n这个没有存档吗？\nHow to customize?\nСобираю лобби",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 22）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4071650",
+      "sourceType": "press",
+      "url": "https://www.gamespress.com/All-aboard-Stream-Train-has-launched-on-Steam",
+      "fetchedAt": "2026-10-31T02:18:08.235076+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "Independent developer Half Past Yellow is delighted to announce the launch of their co-op horror game, Stream Train on Steam!",
+      "locator": "full article text",
+      "label": "Games Press 上开发者自撰的发行通稿，核对身份与上架时间；全文未提及 AI",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\4071650\\press-0.html",
+      "contentHash": "108c6c6be98364556db69b8ad4d194e944f4ec9f4aa9d5a82b19a0920792f9d6"
+    }
+  ],
+  "identity": {
+    "appId": "4071650",
+    "name": "Stream Train",
+    "developer": "Half Past Yellow",
+    "publisher": "Half Past Yellow",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 16, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Adventure"
+    ],
+    "description": "An online co-op horror game where up to 6 players livestream their trip down an abandoned rail road. Keep your audience entertained by filming creatures, doing dangerous stunts, and pranking your friends. Use chatter donations to buy fuel and gear. Can you make it through the Uncanny Valley alive?",
+    "identityEvidence": {
+      "appId": "4071650",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4071650&l=english",
+      "fetchedAt": "2026-10-31T02:04:12.738606+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "ba53ea0bfd57ab5d838d5bb1c10160adf92e65f35f9f9a0454e9700161806a6f",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\4071650\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 22,
+    "topics": [
+      {
+        "title": "PINNED: Stream Train - Bug Megathread",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/564796840407484029/"
+      },
+      {
+        "title": "Found a spot one can get stuck xD",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678840008151220/"
+      },
+      {
+        "title": "Controller support",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678840008337666/"
+      },
+      {
+        "title": "ищу тиммейта",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678840008289948/"
+      },
+      {
+        "title": "ищу тиму",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678840008191865/"
+      },
+      {
+        "title": "Aggiungere una funzionalità Twitch",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678840008102129/"
+      },
+      {
+        "title": "Ищем тимейтов",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678538884568967/"
+      },
+      {
+        "title": "Save character customization?",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678538884343022/"
+      },
+      {
+        "title": "Fuel",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678538884388766/"
+      },
+      {
+        "title": "Hi creators",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/564796840407540175/"
+      },
+      {
+        "title": "ищю тиму",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678538884408486/"
+      },
+      {
+        "title": "Escaping ufo",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/572678538884325056/"
+      },
+      {
+        "title": "这个没有存档吗？",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/564797030489326460/"
+      },
+      {
+        "title": "How to customize?",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/564797030489279740/"
+      },
+      {
+        "title": "Собираю лобби",
+        "url": "https://steamcommunity.com/app/4071650/discussions/0/564797030489340603/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Stream Train\" Steam game UFDTech review \"AI\"",
+    "searchedAt": "2026-10-31T02:17:00+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://www.youtube.com/watch?v=KDhhkLZcd2E",
+        "relevant": false,
+        "reason": "预告片视频页，正文只有播放器脚手架，无关于 AI 的文字。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4071650/Stream_Train/",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://www.gamespress.com/All-aboard-Stream-Train-has-launched-on-Steam",
+        "relevant": true,
+        "reason": "开发者自撰发行通稿，确认 Half Past Yellow 与 2026-10-16 上架，已读全文；全文未涉及 AI 披露，不作为任何领域证据。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAEShgEB6zswFV9A27REoeF1weRYMgv-VarWkuFO4YeIIz4dwQruF6ZHFwyGLQ4_eg-e70wMfd58ngKoYWXe8E_eNramXm-hJY3b6rpift_O-d_aKk4y9ZbzNGkbQL-XNJ5P7rXSEpzbEUaAMlquT_kttYQ2vGLVqu07M86FTMenk5oefMqUMjUVvQ",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESZgHrOzAVM7LJTZs-irjhvflY5k33mS92W-EqeX7THDmkiREobaTgPGQu_MsXnxcaLfG-uETGut3Q9tkofVIh4ky1SEK9jnv3O6MC61B-WO6X10uxNPlQwqCA4dP5PNcs6YU93w_k1g",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESdAHrOzAVkn0DvHrhhgxPcdqquSzSBnrX6TZ-1IbbA-yGrxgohQXGiun8lvXknbds7wkXQNxSu7W5gF1qa0wPEGnkMYWA0ga8zEC6vaqNYlJjGgnx8mnym78NSTtX94IGdlKozaWwHQ4sTBr6Siim1n6RNhbJ",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      }
+    ],
+    "readUrls": [
+      "https://www.gamespress.com/All-aboard-Stream-Train-has-launched-on-Steam"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+      "本款先以 “Stream Train Steam game AI generated content disclosure developer” 检索一次，返回仅含商店页、两条 Facebook 视频页与三个跳转壳；Facebook 视频页抓取返回 200 但只有登录占位，故登记第二次检索为本次来源，第一次的结果范围在此说明。",
+      "已读的发行通稿由开发者自撰，不含 AI 相关表述，未据其改判。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\4071650\\press-search.json",
+    "contentHash": "2137a14d1f251a3bd41384e31a91ce3f5f87da014008191ac9f42a3d47c58307"
+  }
+}

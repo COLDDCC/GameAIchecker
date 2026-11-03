@@ -1,0 +1,71 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5247530/A_Place_for_Every_Potion_Demo/",
+   "relevant": false,
+   "reason": "页面属于另一款游戏或本作的 Demo，不是本作正式版，与本作 AI 披露无关。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5189500",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5189500/A_Place_for_Every_Potion/?l=schinese&snr=1_1050_curatorsrecommending__suggested-curator-recommended&curator_clanid=44339075",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5189500-a-place-for-every-potion",
+   "relevant": false,
+   "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/game/5189500-a-place-for-every-potion",
+   "relevant": true,
+   "reason": "Steam AI Filter 本作页逐字复刻商店披露，已读取原文；属转录，不构成独立核实。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/5189500",
+   "relevant": true,
+   "reason": "AI Transparency Index 复刻本作披露并标注 AI 音乐与贴图后来被人工版本替换，已读取原文；仍是对披露的转录。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5189500",
+   "sourceType": "press",
+   "url": "https://steamaifilter.xyz/game/5189500-a-place-for-every-potion",
+   "fetchedAt": "2026-11-03T03:21:37.897593+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "The developer of A Place for Every Potion disclosed AI-generated content on its Steam store page",
+   "locator": "full article text",
+   "label": "Steam AI Filter 本作页逐字复刻商店披露",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5189500\\press-0.html",
+   "contentHash": "b04af53aeb654ced9fc8f5d4d939c7e11ec11da57f7749b2aba5f130fe1d6a90"
+  },
+  {
+   "id": "press-1",
+   "appId": "5189500",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/5189500",
+   "fetchedAt": "2026-11-03T03:21:38.859956+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI assisted with textures and music, which were later replaced by human-made versions; all other content was created by the developer.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 复刻本作披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5189500\\press-1.html",
+   "contentHash": "8c6d734c168fa173e0696920b9508d15be8b337dae709bede59117f868d58558"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+ ]
+}

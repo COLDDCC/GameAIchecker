@@ -1,0 +1,55 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4854120/Ski_Lines_Trail_Map/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4854120/Ski_Lines%E6%BB%91%E9%9B%AA%E9%81%93%E5%9C%B0%E5%9B%BE/?l=hungarian&snr=1_1056_4_1056_curator-tabs&curator_clanid=46212172",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4854120",
+   "relevant": true,
+   "reason": "AI Transparency Index 逐字复刻本作 Steam 披露并给出结构化分析，已读取原始页面；其内容仍是商店披露的转录，不构成独立核实。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESnQEB6zswFdydv-7mKzfRyE0_A4I-iKRrR0CakkvW8QpL9qJlT3WoIVL3BW4UPZauuziUPzAOQ6eCrZA5mH2Hd77Gx3TQvSEIwPJRSrKcgnZHdk23ghPzx-DHlg5u_6LZoDYzJwnU8Ndvj947LbArfieYC2WtRFTWSc-_qq7QrdppL2ofT49-bHpaLrufqLpJWzCAGbrNRzNyLNuEkuGe",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESYwHrOzAVvDO2z83yn6UNgWI9mebdUF6PbnNbJKS7QRUO0dpSPk_U7X-UdRK5le5_sSyJpAvlkTeUJtklGac7fetDQdxT8ECE0N0NEjxy4AJOnxABAJ8Eqb_tX80AtTXpnEyn5A",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESmgEB6zswFUIYZ_E8vLlk47usdQ0_SY60wVSY5DgXlxVosWWAinNPR5J1qO_eZMN7RKiIkUjftH0D5oV_nR_DEqU_M_tQbbxn2VtieF7BqxgE_aenpm4Ugz06CI3jJK_DuMIfb-8fys5v_It1ABdBdC7F0iKEZUpzLXZXlB6d0eZWI_kMNu7pCcQLxwDfaJYCaM2qF5JUq5iP4zhF",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4854120",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4854120",
+   "fetchedAt": "2026-11-03T02:36:15.697811+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI was used throughout production to support artwork creation, music and sound design",
+   "locator": "full article text",
+   "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4854120\\press-0.html",
+   "contentHash": "4f4776f77dbfeeb41a6d31781efafceb5d80a8fdd46424a7c41b5eff80ca2145"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+ ]
+}

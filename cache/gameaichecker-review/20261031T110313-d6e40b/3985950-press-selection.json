@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://www.facebook.com/PCGamesNetwork/posts/the-loot-progression-in-rip-or-reincarnation-insurance-program-reminds-me-of-dia/1444870650325777/",
+   "relevant": false,
+   "reason": "抓取返回 HTTP 200，但正文只有登录占位与站点脚本，页面全文没有出现游戏名，无法读取原帖内容；仅登记线索，不作为证据。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3985950/_RIP/?snr=1_1056_4_1056_curator-tabs&curator_clanid=45150501",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.pcgamesn.com/rip/release-date",
+   "relevant": true,
+   "reason": "PCGamesN 报道直接讨论本作 Steam 页的生成式 AI 披露，已读全文。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEScQHrOzAVcX2TfMH5ZJtXzvpbJ_iMYGvUHuC0laTcYFVkOJ09yns_D50n53Im8ob9xGMvClTKs5fnVbh42m5G4xJN9zpDfTwRqWPf_srMbajGAnTHRjalIwvW7EZz2na5Gv7-DHCwy5GKRnp2dIy2TpBV",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEShAEB6zswFYE7jW3wRo-QHtIzLpJraMHIOyrApxwGQDf7XyythuNGQRU-y8RJhKttF-Ht6hK0O5OzRWHDvZ0_cxCesOodFI4Z5Ukvw1iRfOFE93hlWDuLwyjSCcH2ikDMhSdySpAG0tYMPwrXFo10o4F94punpoVmFEKqbYC6tqSipAWurDw",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESbAHrOzAVd59oLbsN29s-sJMe3EVMfBM_ok9Co-a1oEwWvYMuUB2cMMcVBaCewlshTZr1u4rz6STLmsm4RixtJpPAB-CwfWIvjc0cv_iyxPZibSThY2WhMl5Ys5kSZcywGPL9kFXDc2X2UHsAwA",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3985950",
+   "sourceType": "press",
+   "url": "https://www.pcgamesn.com/rip/release-date",
+   "fetchedAt": "2026-10-31T02:09:40.253284+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "There's just one problem: the generative AI disclosure on its Steam page.",
+   "locator": "full article text",
+   "label": "PCGamesN 对本作发售信息的报道，作者明确谈到 Steam 上的生成式 AI 披露",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\3985950\\press-0.html",
+   "contentHash": "25334514e953a8494c7549e437f6c9991fe7c9b1a4ea05b438498189acabfd0b"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "抓取返回 HTTP 200，但正文只有登录占位与站点脚本，页面全文没有出现游戏名，无法读取原帖内容；仅登记线索，不作为证据。",
+  "PCGamesN 文章为开发者自撰报道，观点不等同于对 AI 使用范围的核实。"
+ ]
+}

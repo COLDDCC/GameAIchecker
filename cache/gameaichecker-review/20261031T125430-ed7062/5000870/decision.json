@@ -1,0 +1,59 @@
+{
+ "identityName": "BreathBound",
+ "identityDeveloper": "SanShineStudios",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称独立开发团队为完成游戏内容使用了部分 AI 生成美术素材。",
+   "evidenceId": "store",
+   "quote": "we used some AI-generated art assets to complete the game content"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "As independent developers, we used some AI-generated art assets to complete the game content. Thank you for your understanding and support!",
+ "summary": "1 至 4 人合作恐怖游戏，靠呼吸与声音管理躲避追踪。开发者以独立开发者身份披露，为完成游戏内容使用了部分 AI 生成美术素材。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 SanShineStudios，发行商 SSS）与英文讨论区首页（可见 1 个主题，总数 1），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 0 篇原始来源（结果只有本作与另一款作品的商店页、比价站页面和 google.com/goto 跳转壳，没有出现针对本作的独立报道）。缺少可读报道只说明检索范围，不作为判定依据。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。 本作核查时尚未发售（商店页标注 Coming soon）。披露未说明素材数量与占比，也未说明是否运行时生成，相应领域按“披露未说明”处理。",
+ "description": "官方披露称独立团队为完成游戏内容使用了部分 AI 生成美术素材，未说明范围与占比。",
+ "english": {
+  "summary": "A 1 to 4 player co-op horror game built on breath and sound management. The developer states that, as independent developers, they used some AI-generated art assets to complete the game content.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer SanShineStudios, publisher SSS) and the English discussion homepage (1 visible topic of 1); the single topic does not concern AI use and individual threads were not opened. This title was searched 1 time with 6 results and 0 raw source(s) were read, because the results were only store pages for this title and another game, a price page and google.com/goto redirect shells, with no independent coverage of this title. Unreadable coverage only describes the search scope and not treated as a finding. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The game had not been released at review time (the store page lists Coming soon). The disclosure does not quantify the assets or say whether anything is generated at run time, so those areas are recorded as not addressed.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure does not say whether any content is generated at run time; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The developer states some AI-generated art assets were used to complete the game content.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

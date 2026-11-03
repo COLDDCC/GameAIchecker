@@ -1,0 +1,198 @@
+{
+  "sources": [
+    {
+      "appId": "5053820",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5053820/?l=english",
+      "fetchedAt": "2026-10-31T02:04:22.546917+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "c5de16d950a61611f0e715d008db33e6e413388a3be51df9b5e973d049262f82",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5053820\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Some of the game's 2D illustration assets and sound reference material were created with the help of AI tools during development, then reviewed, edited and validated by hand before shipping. No content is generated at runtime.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Some of the game's 2D illustration assets and sound reference material were created with the help of AI tools during development, then reviewed, edited and validated by hand before shipping. No content is generated at runtime."
+    },
+    {
+      "appId": "5053820",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5053820/discussions/?l=english",
+      "fetchedAt": "2026-10-31T02:04:23.840883+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "4b12c9de835c8e2f8ef83608bf434b9c40a49b5c934c7acb702727502998b5b0",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5053820\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Review bots on store page\nне вижу скачанные паки\ni cnat join servers on middle east serverst\nsz游戏\nГАЙД ДЛЯ ТЕХ КОГО ВЫКИДЫВАЕТ!!!!!!!!!!\nMic quality\n为什么只能保留一个包\nHI anyone wants to have play ?\nКто пойдет в пати?\nLanguages\n1\nзаходите играть код внизу\nНе заходит в игру\nЗАХОДИТЕ ИГРАТЬ\nBusco BRs :p",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 46）；仅覆盖首页。"
+    },
+    {
+      "id": "community-0",
+      "appId": "5053820",
+      "sourceType": "community",
+      "url": "https://bsky.app/profile/duckaislop.bsky.social/post/3mvld6gqfyk2h",
+      "fetchedAt": "2026-10-31T02:09:38.643618+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "Mimic Party\\nFoliesAPP. Steam disclosure -y",
+      "locator": "full article text",
+      "label": "Bluesky 账号 Duck AI Slop!! 的帖子，正文出现本作名、开发商与 Steam disclosure 字样；仅为社区线索",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5053820\\community-0.html",
+      "contentHash": "79887d274c1a1484526d52e1671ffc7e5eaefddea618ab47151572ab8189830e"
+    }
+  ],
+  "identity": {
+    "appId": "5053820",
+    "name": "Mimic Party",
+    "developer": "FoliesAPP",
+    "publisher": "FoliesAPP",
+    "type": "game",
+    "verified": true,
+    "release": "27 Aug, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual"
+    ],
+    "description": "A 1-5 player online voice party game. You hear a sound, the whole table gets one shot to imitate it all at once, no turns. Your take is scored on pitch and rhythm, then the wheel decides who gets a bonus and whose take becomes a fart.",
+    "identityEvidence": {
+      "appId": "5053820",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5053820&l=english",
+      "fetchedAt": "2026-10-31T02:04:23.100455+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "af3a2079cf30e87334e595b8f1949817f9792b9267bcb7085c7cf39f43fcb4ac",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5053820\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 46,
+    "topics": [
+      {
+        "title": "Review bots on store page",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/573805072991009654/"
+      },
+      {
+        "title": "не вижу скачанные паки",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/573805072990945408/"
+      },
+      {
+        "title": "i cnat join servers on middle east serverst",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/565923440615545918/"
+      },
+      {
+        "title": "sz游戏",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/574929940135389913/"
+      },
+      {
+        "title": "ГАЙД ДЛЯ ТЕХ КОГО ВЫКИДЫВАЕТ!!!!!!!!!!",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/574929940135335886/"
+      },
+      {
+        "title": "Mic quality",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/574929704291735058/"
+      },
+      {
+        "title": "为什么只能保留一个包",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/585062414363591742/"
+      },
+      {
+        "title": "HI anyone wants to have play ?",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/562541634873648939/"
+      },
+      {
+        "title": "Кто пойдет в пати?",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/585062414363522703/"
+      },
+      {
+        "title": "Languages",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/585061805382014050/"
+      },
+      {
+        "title": "1",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/585062169816659591/"
+      },
+      {
+        "title": "заходите играть код внизу",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/585061805381959976/"
+      },
+      {
+        "title": "Не заходит в игру",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/585061535403158515/"
+      },
+      {
+        "title": "ЗАХОДИТЕ ИГРАТЬ",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/585061535403150174/"
+      },
+      {
+        "title": "Busco BRs :p",
+        "url": "https://steamcommunity.com/app/5053820/discussions/0/585061535402957926/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Mimic Party\" Steam AI generated content disclosure developer",
+    "searchedAt": "2026-10-31T02:04:00+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://bsky.app/profile/duckaislop.bsky.social/post/3mvld6gqfyk2h",
+        "relevant": true,
+        "reason": "Bluesky 社区帖点名本作与开发商的 Steam 披露；只登记不判定，已读整页。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5053820/Mimic_Party/",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://www.resetera.com/threads/list-of-games-that-use-generative-ai.1367848/page-21",
+        "relevant": false,
+        "reason": "抓取返回 HTTP 403，正文未能读取；保留为抓取失败，不作为证据。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESmwEB6zswFTF4WjBqfSwPlOD7T81qXgoKyluAj3Qne5wtWiJE_oXMv4NEmhYB14sGv1D7XrcRY6kAIQRD47QJaUxpu0dWlCnfKQ2M6a0GVmvajkmuVtpOZ1XT2XWQlMuGrcVuAT1Ba5y5a48mEwjNdZkjn3P5n16FYue8OSFqoG1DUDjV-JSw51U3mQPdec7hf5G75BSsAHa46jkiXg",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESnwEB6zswFYnkKv8ztMdSW-oEQJss4y6Q8Lntrl6yBPqP2LBa4EqWnRyZwyGL63HWPWXs8PeK33btUgg4rqyiRL4LFlDtTMB7Fmcu50Po6k8NxGFF4tTIIiciAa55Fa3J-hPMzbSyvBVCwJSbuPKGVPjUxA6DzYiri4mgLTfELCjedAVJhIXA7SuTA6HCuOVYIMA6kKnoIUqx6F2kyDGY0Cs",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESagHrOzAVOoBNYMiGXP_jHxkOZhQgGmMqlaxYKFC3jSBCiizBGZsBC6LblzcPMandFyBUb2RnGjFfHQ1r_UVvO7VVYH1VkXQKgpUIn3MHSECdFeFh4jMOSiLtPuqGNeBXkcY0VllgT25QEBE",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      }
+    ],
+    "readUrls": [
+      "https://bsky.app/profile/duckaislop.bsky.social/post/3mvld6gqfyk2h"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+      "resetera 的生成式 AI 游戏清单帖返回 HTTP 403，正文未能读取，保留为抓取失败。",
+      "Bluesky 帖为社区线索，只登记不判定。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5053820\\press-search.json",
+    "contentHash": "abec7e75f484a85f17e02792c148c192dbd86390433aa6d0109cbecd632e326d"
+  }
+}

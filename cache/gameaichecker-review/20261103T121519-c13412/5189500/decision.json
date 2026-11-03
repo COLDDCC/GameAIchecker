@@ -1,0 +1,63 @@
+{
+ "identityName": "A Place for Every Potion",
+ "identityDeveloper": "CubeQuad Games",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "claimed_none",
+   "note": "披露称全部游戏代码与架构由开发者本人设计与编写；属开发者自述，未经独立核实。",
+   "evidenceId": "store",
+   "quote": "All of the game code and architecture was designed and programmed by me."
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称独立开发者用 AI 协助部分贴图制作；后文补充有一位自由职业者 volunteered 协助贴图。",
+   "evidenceId": "store",
+   "quote": "I used AI to assist me with some of the textures and the music."
+  },
+  "music": {
+   "state": "none",
+   "note": "披露原文的 [UPDATE] 说明应玩家要求已把 AI 音乐替换为人工制作的音乐，正式版不再包含 AI 音乐。",
+   "evidenceId": "store",
+   "quote": "Since many players requested, I replaced the AI music with human-made music."
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "I am a solo developer with ten years of experience, who started out as a 3D artist. Every piece of 3D art in this game was made by me: the models, the UVs, the LODs. All of the game code and architecture was designed and programmed by me. I used AI to assist me with some of the textures and the music. This is a solo project with no funding and I wanted it to follow my vision so I needed any help I could get. If I ever could afford to hire people, that is what I am going to do, so we can deliver even better quality games! [UPDATE] Since many players requested, I replaced the AI music with human-made music. And one nice freelancer volunteered to help with textures. Not sure if we can make it until the release though but will try!",
+ "summary": "上架药水整理解谜，2026 年 10 月 28 日上市。开发者自述十年经验、3D 美术与代码全部自己完成，只用 AI 协助部分贴图与音乐；披露原文的更新段写明应玩家要求已把 AI 音乐换成人工制作，并有一位自由职业者协助贴图。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 CubeQuad Games，发行商同名）与英文讨论区首页（可见 15 个主题，总数 84），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源（Steam AI Filter 逐字复刻商店披露、AI Transparency Index 复刻披露并标注 AI 音乐与贴图后来被人工版本替换），两者都是对披露的转录，不构成独立核实。同批结果还包含本作 Demo 页（另一 App ID，不用于本作判定）与一款数据库列表页。音乐领域按披露原文的更新段记为“未使用”（正式版已替换），贴图领域记为“已使用”并保留“后续有人工协助”的自述；两者都来自开发者自述，未经独立审计。",
+ "description": "把混浊的药水倒到清澈再上架的整理解谜，4160 瓶药水分 52 层架，无计时无失败。",
+ "english": {
+  "summary": "A cosy potion-sorting puzzle game released on Oct 28, 2026. The solo developer states that all 3D art and all code were made personally and that AI was used to assist with some textures and the music, then adds in an update to the same disclosure that the AI music was replaced with human-made music after player requests and that a freelancer volunteered to help with textures.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer CubeQuad Games, self-published) and the English discussion homepage (15 visible topics of 84); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 2 raw source(s) were read: a Steam AI Filter page reproducing the store disclosure verbatim and an AI Transparency Index page that also reproduces it and notes the AI music and textures were later replaced by human-made versions. Both transcribe the disclosure and are not independent verification. Other results included the game's separate Demo page, which is a different application ID and is not used for this title, and a database listing page. The music area follows the update sentence inside the disclosure, which states the AI music was replaced with human-made music, and the texture area keeps the developer's own note that a freelancer later helped with textures; both rest on self-reporting without an independent audit.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "The developer states that all of the game code and architecture was designed and programmed personally; this is a human statement about non-use and was not independently verified.",
+   "art": "The disclosure states AI was used to assist with some of the textures, and its update adds that a freelancer volunteered to help with textures.",
+   "music": "The disclosure first names AI assistance with the music, then its update states that the AI music was replaced with human-made music after many players requested it.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

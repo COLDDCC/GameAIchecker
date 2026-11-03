@@ -1,0 +1,55 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4279510/No_Mortal_Space/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/no-mortal-space/stats/",
+   "relevant": false,
+   "reason": "第三方比价站的价格/统计页，正文没有 AI 披露内容，与领域判定无关。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4279510",
+   "relevant": true,
+   "reason": "AI Transparency Index 逐字复刻本作 Steam 披露并给出结构化分析，已读取原始页面；其内容仍是商店披露的转录，不构成独立核实。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEShAEB6zswFV5PoRHXfDhc6jVAqbcERMHrZbE98Rr4iYILb2OAg3h_xFTZKk2ipvYT8TPUiLfaFWuWr6rF8l8__D2M_iV4HIEp7bzmskQlgeG4Ve0vqBscJ5Fezrp1HfOzlFhp3vA3aSpYkRGFd7YWve3SGefj2--zTDKzAPOQ1zN30PmdorU",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESpQEB6zswFZSOQLa43_PAujSJytZ_s0WQ8zkhxKp4iDPMGrWYWpIiyyqFUwiLpmsmtAOE07pWOsPUhZD1G1-Ftx1m7W4_3AiEUVBsFmwS8VxP4KUiI4KPOUZCOUomZnIEoOxudKD7cfXT4-OGeCKKKiC8gMVN5vn4Ct5g5VNpmjKZhD-EyvG3YcgPSljLR2TmM5H0w6EYCdJKhFthyxrMG7aI7cIuohY",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAES0gEB6zswFfOweGhyvGuf0-TIrMhheQbs3_1QeExc_1tpiQWJQ-dpYg_nHPa7uP3S919GhrYHXFiL2OXY0lgzE61RZohFQm5g9bzcaQXj-XOCtlYZrhdgJpI7v_LqO9k0ltcj87XlmGoW1CgkJlo6yCQbdOpvYOzsqPFOFCaRbDJcLPfIReSCKKHc7BpnSN0D5Q-P6Ctw454rU8J_JXO0ypAOb0BrZAKRCEeWsQjaipEDv6boTmy4Zq_Ria6S1lJ9nxIoXF2ORIeL-vQj_DJXrO8IRyw",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4279510",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4279510",
+   "fetchedAt": "2026-11-03T02:36:20.935806+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "The 3D models of some minions and items in the game were created using AI-generated technology",
+   "locator": "full article text",
+   "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4279510\\press-0.html",
+   "contentHash": "69093006db74e7e709a4b21118ba321e148559036cd2967e8be8df1ea3610af2"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+ ]
+}

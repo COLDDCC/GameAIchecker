@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4159680/?snr=1_5_9__205",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4159680/Barfender_COOP_Bar_Simulator/?l=schinese&curator_clanid=33970940",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://howmuchai.games/game/barfender-co-op-bar-simulator",
+   "relevant": true,
+   "reason": "HowMuchAI 按部件拆解本作披露的分析页，已读取原文并逐字复刻披露；其依据仍是商店披露文本。"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DeCeSqBgaIo/",
+   "relevant": false,
+   "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+  },
+  {
+   "url": "https://www.tiktok.com/@wilfratgaming/video/7696952581528063254",
+   "relevant": false,
+   "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+  },
+  {
+   "url": "https://www.facebook.com/bcarlislegaming/videos/this-new-coop-bar-simulator-lets-your-customers-destroy-the-entire-bar-barfender/1049453241391092/",
+   "relevant": false,
+   "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4159680",
+   "sourceType": "press",
+   "url": "https://howmuchai.games/game/barfender-co-op-bar-simulator",
+   "fetchedAt": "2026-11-03T03:21:35.448019+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Generative AI was used for narration/voice acting, with the voice artist's consent",
+   "locator": "full article text",
+   "label": "HowMuchAI 按部件拆解本作披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4159680\\press-0.html",
+   "contentHash": "09fcb5e10eda66b9a7ea635f18bcc387a9bf088a2fc753066b604d6bce98c7b4"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+ ]
+}

@@ -1,0 +1,200 @@
+{
+  "sources": [
+    {
+      "appId": "4164790",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4164790/?l=english",
+      "fetchedAt": "2026-11-03T03:15:45.511233+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "42ede1ff0ee2998a7b20634051effd7b4c15aba6c658e091a7a2fc655c3648a0",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4164790\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Artificial intelligence was used in the creation of some of the game's 2D art assets.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Artificial intelligence was used in the creation of some of the game's 2D art assets."
+    },
+    {
+      "appId": "4164790",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4164790/discussions/?l=english",
+      "fetchedAt": "2026-11-03T03:15:46.913808+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "3ca4c28e59509947246634af9b652b449dbe3489e9c83a064ecbb04f082c1fef",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4164790\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: [Bug Report Guide]\nPINNED: 【游戏 BUG 反馈指南】\nTh Agricultural Research Center Isn't accepting the items on their list\ncan we have wind power please\n小小建議\nNeeds more broken glass\n同样的菜名同样的品质却有不同BUFF？\n發現小彩蛋\n有人接過肉類料理的委託嗎?\n希望能联机\nMac via Crossover: unplayable\n生存卡古怪设定\nreward points or what they are called..\n結局-如約而至\n为什么不能拥有多结局存档？",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 287）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4164790",
+      "sourceType": "press",
+      "url": "https://opencredits.games/games/survival-log",
+      "fetchedAt": "2026-11-03T03:21:34.043045+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "developer disclosed AI use on Steam without saying which parts of the game it was used for.",
+      "locator": "full article text",
+      "label": "Open Credits 本作分析页（称披露未说明部位）",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4164790\\press-0.html",
+      "contentHash": "0e43c06170230255009b399fca8e09a9350b8e791f263a13f8d41404821e42d7"
+    }
+  ],
+  "identity": {
+    "appId": "4164790",
+    "name": "Survival Log",
+    "developer": "Midnight Workshop",
+    "publisher": "Lilith Games",
+    "type": "game",
+    "verified": true,
+    "release": "Aug 12, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Simulation",
+      "Strategy"
+    ],
+    "description": "The apocalypse is here, and you saw it coming. Survival Log is a zombie-apocalypse hoarding survival sim. Hoard supplies, reinforce your home, and optimize every run before zombies flood the city. Every failure becomes experience. You must adapt and survive this time.",
+    "identityEvidence": {
+      "appId": "4164790",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4164790&l=english",
+      "fetchedAt": "2026-11-03T03:15:46.167062+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "681844d44b460750903052da37ecb1030d6a1a4237cac2a4c022670d8a904c3a",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4164790\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 287,
+    "topics": [
+      {
+        "title": "PINNED: [Bug Report Guide]",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/581679396200410323/"
+      },
+      {
+        "title": "PINNED: 【游戏 BUG 反馈指南】",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/581679396200410039/"
+      },
+      {
+        "title": "Th Agricultural Research Center Isn't accepting the items on their list",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495808049/"
+      },
+      {
+        "title": "can we have wind power please",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495766740/"
+      },
+      {
+        "title": "小小建議",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495774837/"
+      },
+      {
+        "title": "Needs more broken glass",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495771605/"
+      },
+      {
+        "title": "同样的菜名同样的品质却有不同BUFF？",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495703443/"
+      },
+      {
+        "title": "發現小彩蛋",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495751756/"
+      },
+      {
+        "title": "有人接過肉類料理的委託嗎?",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495635440/"
+      },
+      {
+        "title": "希望能联机",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495713113/"
+      },
+      {
+        "title": "Mac via Crossover: unplayable",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495658249/"
+      },
+      {
+        "title": "生存卡古怪设定",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049990495667625/"
+      },
+      {
+        "title": "reward points or what they are called..",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/572678840008293666/"
+      },
+      {
+        "title": "結局-如約而至",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/572679123738048538/"
+      },
+      {
+        "title": "为什么不能拥有多结局存档？",
+        "url": "https://steamcommunity.com/app/4164790/discussions/0/567049673541807041/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Survival Log\" Midnight Workshop Lilith Games Steam AI art disclosure",
+    "searchedAt": "2026-11-03T03:17:07+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/4164790/_/?l=english&snr=1_1056_4_1056_curator-tabs&curator_clanid=38366376",
+        "relevant": false,
+        "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+      },
+      {
+        "url": "https://opencredits.games/games/survival-log",
+        "relevant": true,
+        "reason": "Open Credits 本作分析页，已读取原文；该页称披露未说明使用部位，与其核查日（9 月 28 日）之后的商店文本不一致，因此只作第三方转录登记，不改变以商店披露原文为准的判定。"
+      },
+      {
+        "url": "https://www.gamegrin.com/news/steam-top-releases-august-2026-gold-silver-and-bronze-bestsellers/",
+        "relevant": false,
+        "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4164790/Survival_Log/?snr=1_1056_4_1056_1057&curator_clanid=45531068",
+        "relevant": false,
+        "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+      },
+      {
+        "url": "https://www.pcgame.com/4164790/survival-log",
+        "relevant": false,
+        "reason": "第三方 Key 商城商品页，只有销售信息。"
+      },
+      {
+        "url": "https://note.com/kc_tmn/n/nebc79d7d359a?hl=en",
+        "relevant": false,
+        "reason": "第三方博客/资讯页，标题与本作 AI 披露无直接关系，未读取正文。"
+      }
+    ],
+    "readUrls": [
+      "https://opencredits.games/games/survival-log"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+      "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+      "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4164790\\press-search.json",
+    "contentHash": "7be6ff33a57947a6c09fbb54495d5f754332acc80ac299afead17d9916c0b4bc"
+  }
+}

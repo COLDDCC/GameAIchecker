@@ -1,0 +1,61 @@
+{
+ "identityName": "Megastore: Tidy Up Together",
+ "identityDeveloper": "Yolo Games Studio",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称 AI 参与生成游戏内两张贴图，这两张贴图在进入正式版前经人工编辑、打磨与复核。",
+   "evidenceId": "store",
+   "quote": "AI tools were used to assist with some of the game’s translations and in the creation of two in-game textures."
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "同一段披露说明 AI 也协助了本作部分文本的翻译。",
+   "evidenceId": "store",
+   "quote": "AI tools were used to assist with some of the game’s translations"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "AI tools were used to assist with some of the game’s translations and in the creation of two in-game textures. These textures were subsequently edited, refined, and carefully reviewed by a human before being included in the final game. We strictly rely on human creativity and craftsmanship throughout the game’s development.",
+ "summary": "商店整理模拟，2026 年 9 月 2 日上市、可单人或在线合作。开发者披露 AI 协助了部分翻译，并参与生成游戏内两张贴图，这两张贴图上线前经过人工编辑与复核。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Yolo Games Studio，发行商同名）与英文讨论区首页（可见 15 个主题，总数 211），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 逐字复刻商店披露的分析页，其内容仍是披露的转录而非独立核实）。同批的 Reddit 帖经 GitHub Actions 中转抓取返回 HTTP 403，读不到正文，且该帖讨论的是游戏节奏而非 AI；一条指向另一款游戏（Librarian: Tidy Up）讨论页的结果与一条 Bluesky 个人帖均按无关处置。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+ "description": "四家店规模递增的整理类模拟：玩具店、电子产品店、超市与两层大卖场，拿起、分类、上架数千件商品。",
+ "english": {
+  "summary": "A cosy store-tidying simulation released on Sep 2, 2026, playable solo or in online co-op. The developer states that AI tools assisted with some translations and were used to create two in-game textures, which were then edited, refined and reviewed by a human before inclusion in the final game.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Yolo Games Studio, self-published) and the English discussion homepage (15 visible topics of 211); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read: an AI Transparency Index page that reproduces the store disclosure verbatim, which is a transcription and not independent verification. The related Reddit thread returned HTTP 403 to the relay and is about pacing rather than AI, one result points to the discussion page of a different title and one Bluesky post could not be tied to this disclosure, so all three are logged without being read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "AI tools were used to create two in-game textures, which the developer states were edited, refined and reviewed by a human before being included in the final game.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "The same disclosure sentence states that AI tools assisted with some of the game's translations.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

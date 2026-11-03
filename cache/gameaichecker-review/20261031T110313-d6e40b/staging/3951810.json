@@ -1,0 +1,81 @@
+{
+  "appId": "3951810",
+  "name": "Cheater's Table",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "抢先体验的社交推理模拟。开发者披露部分音频素材由 AI 制作并计划替换，另有 AI 草稿视觉素材将在 1.0 前换成原创美术；同一份披露称主角设计与整体视觉风格为团队原创。",
+  "aiUsageCategories": [
+    "art",
+    "music"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称当前仍有 AI 草稿视觉素材，计划在 1.0 之前替换为原创美术；同一份披露也称主角设计与整体视觉风格为团队原创。替换承诺兑现前记为使用。",
+    "music": "披露称部分音频素材由 AI 工具制作，官方计划在未来的更新中替换。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3951810/",
+  "developer": "Lagari",
+  "publisher": "Lagari",
+  "steamReleaseDate": "2 Jun, 2026",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Simulation",
+    "Strategy",
+    "Early Access"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3951810/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "As a small team, we created most of the game's content ourselves, while also using paid and free third-party assets. The main character designs and the game's visual style are our own original work. AI tools were used to create some audio assets, which we plan to replace in future updates. Some ai draft visuals will be replaced with original artwork before the 1.0 release."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3951810/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 22）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Lagari）与英文讨论区首页（可见 15 个主题，总数 22），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 3 次，登记的为其中 1 次、共 6 条结果，读取 0 篇原始来源（无；检索结果只有商店页、社交站点与 google.com/goto 跳转壳，在不把跳转壳当来源的前提下读不到原文）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。 除登记的这一次外，另有的检索同样只返回商店页、社交站点与跳转壳，未出现针对本作的独立报道；缺少可读报道只说明检索范围，不作为判定依据。 本作处于抢先体验阶段。",
+  "disclosureQuote": "As a small team, we created most of the game's content ourselves, while also using paid and free third-party assets. The main character designs and the game's visual style are our own original work. AI tools were used to create some audio assets, which we plan to replace in future updates. Some ai draft visuals will be replaced with original artwork before the 1.0 release.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-31 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An Early Access social deduction simulation. The developer states some audio assets were created with AI tools and are to be replaced in future updates, and that some AI draft visuals will be replaced with original artwork before the 1.0 release, while also describing the main character designs and visual style as original work.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Lagari) and the English discussion homepage (15 visible topics of 22); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 3 times; the logged search has 6 results and 0 raw source(s) were read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. Searches beyond the logged one again returned only store pages, social posts and google.com/goto redirect shells, with no independent coverage of this title; unreadable coverage only describes the search scope and is not treated as a finding. The game is in Early Access.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "AI draft visuals are still present and are planned to be replaced with original artwork before the 1.0 release, while the same disclosure calls the main character designs and visual style original work; the area is recorded as used until the replacement actually happens.",
+      "music": "Some audio assets were created with AI tools and the developer plans to replace them in future updates.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "206fe59ddaaf7da885d7b401c9edaec93721ac9e447dcadb3c5bc4d57e7d874a"
+  }
+}

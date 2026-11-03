@@ -1,0 +1,40 @@
+{
+ "results": [
+  {
+   "url": "https://gamedb.ai/games/3828740-chicken-jump-puppy-jump",
+   "relevant": false,
+   "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5127370/Whos_Cheating/",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4216610-spellfall-last-mage-standing",
+   "relevant": false,
+   "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+  },
+  {
+   "url": "https://gamedb.ai/games/3175590-haunt",
+   "relevant": false,
+   "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5307350-voice-meteor-battle-with-original-magic-born-from-your-voice",
+   "relevant": false,
+   "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+  },
+  {
+   "url": "https://gamedb.ai/ai/voice",
+   "relevant": false,
+   "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+ ]
+}

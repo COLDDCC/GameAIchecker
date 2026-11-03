@@ -1,0 +1,65 @@
+{
+ "identityName": "Rideshare \"Stimulator\"",
+ "identityDeveloper": "UNIGINE",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "music": {
+   "state": "used",
+   "note": "披露称两种模式的电台都混合人类制作与 AI 生成的音乐，含 AI 生成音乐的电台在游戏内有明确标注。",
+   "evidenceId": "store",
+   "quote": "Both game modes include radio stations featuring a mix of human-made music and AI-generated music"
+  },
+  "voice": {
+   "state": "used",
+   "note": "披露称英语配音由真人演员完成，AI 工具用于对白配音的本地化。",
+   "evidenceId": "store",
+   "quote": "AI tools were used to localize text and voice overs"
+  },
+  "writing": {
+   "state": "used",
+   "note": "披露称可选的 Free Ride 模式包含 AI 生成的乘客任务；主线 Campaign 的故事、角色与对白由人类编剧团队撰写。",
+   "evidenceId": "store",
+   "quote": "The optional Free Ride mode includes AI-generated passenger missions"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露称 AI 工具用于文本本地化，Free Ride 模式还含本地化后的对白。",
+   "evidenceId": "store",
+   "quote": "AI tools were used to localize text"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "The main Campaign story, characters, and dialogue were written by a team of human writers and voiced in English by human actors. AI tools were used to localize text and voice overs. The optional Free Ride mode includes AI-generated passenger missions and localized dialogue. Free Ride mode is separate from the main Campaign and can be skipped by players who prefer to experience only human-written narrative content. Both game modes include radio stations featuring a mix of human-made music and AI-generated music. Stations containing AI-generated music are clearly labeled as such in the game.",
+ "summary": "网约车经营模拟。开发者披露主线剧情的故事、角色与对白由人类编剧团队撰写、英语对白由真人配音，AI 用于文本与配音本地化；可选 Free Ride 模式含 AI 生成的乘客任务与本地化对白、可跳过；两种模式的电台混合人类制作与 AI 生成音乐，AI 音乐台在游戏内明确标注。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 UNIGINE，发行商 Saber Interactive）与英文讨论区首页（可见 15 个主题，总数 129），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（Eurogamer 报道 Saber Interactive 在与前编剧的公开争议后为本作补上 Steam AI 披露，并转述披露内容与 CEO 的说法；属媒体转述，不构成对 AI 使用范围的独立核实）。相关 Reddit 帖经 GitHub Actions 中转抓取返回 HTTP 403，读不到正文。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。 本作核查时尚未发售（商店页标注 Coming soon）。Free Ride 模式中的 AI 生成内容是否运行时产出，披露未说明，ingame 按“披露未说明”处理。",
+ "description": "官方披露区分主线（人类编剧与真人配音）与可选 Free Ride 模式（AI 生成乘客任务），并说明 AI 用于文本与配音本地化、部分电台音乐为 AI 生成且游戏内标注。",
+ "english": {
+  "summary": "A rideshare business simulation. The developer states that the main campaign story, characters and dialogue were written by a team of human writers and voiced in English by human actors, that AI tools were used to localise text and voice overs, that the optional and skippable Free Ride mode contains AI-generated passenger missions and localised dialogue, and that radio stations in both modes mix human-made and AI-generated music, with AI music stations clearly labelled in game.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer UNIGINE, publisher Saber Interactive) and the English discussion homepage (15 visible topics of 129); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read: an Eurogamer report on Saber Interactive adding the disclosure after a public dispute with a former writer, which retells the disclosure and the CEO's statements rather than independently verifying the scope of AI use. The related Reddit thread returned HTTP 403 to the relay and could not be read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The game had not been released at review time (the store page lists Coming soon). The disclosure does not say whether the Free Ride content is generated at run time, so the in-game area is recorded as not addressed.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure does not say whether the AI-generated Free Ride missions are produced at run time; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "music": "Radio stations in both modes mix human-made and AI-generated music, and the AI music stations are labelled in game.",
+   "voice": "English voice acting is human according to the disclosure, but AI tools were used to localise voice overs.",
+   "writing": "The optional Free Ride mode contains AI-generated passenger missions, while the disclosure credits the main campaign story, characters and dialogue to human writers.",
+   "translation": "The disclosure states AI tools were used to localise text.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "results": [
+  {
+   "url": "https://www.reddit.com/r/aigamedev/comments/1v6wsy0/i_spent_8_months_making_my_first_ai_assisted_game/",
+   "relevant": false,
+   "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文无法读取；该帖与本作 AI 使用直接相关，只登记线索，不作为任何领域的证据。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4459590",
+   "relevant": true,
+   "reason": "AI Transparency Index 逐字复刻本作 Steam 披露并给出结构化分析，已读取原始页面；其内容仍是商店披露的转录，不构成独立核实。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4459590/discussions/0/568165880361460345/",
+   "relevant": true,
+   "reason": "Steam 讨论帖由玩家 DocPhineas 指称本作用到 AI 美术与代码，已抓取原帖正文；按规则只登记为社区线索，不作为任何领域的证据。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEScAHrOzAVCOLrf0Y-3zsDjLOOrGX2_D-PaJrAwhGoWO_pC5eJsO0b1p3oV65sgUzuROFqmNGx8vLloj2Foze_N4f7W0CVegtWEAr9-YGWOR3BIIcqVT3xzRKS3xNVODaIPOr22WThMS7LtViD1erSW6w",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZQHrOzAVli5Pur7YiFI-cCRAztHgZP5XcoyQgzqjkGzuqWC6yrN71vTxYPNncv6G1JnCNrKD5tVWRtGgrz236iWscNaJxd0ODhLcrPLpxGXVlDk4wJZBH_fsoeB2LCURnBVndYQw",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZgHrOzAVnv62hMIZFS0IWS8uKhFT5O5x3kdSfCtKdnD5jNZIqxgzV_YPvg9fTWFw75_05-bx7S6hPr6kYVqbnw0HYkrC0BqUDgl831rLFBE8e7M8gVa7Q3vYHDjHQTTnLlMA3Tywww",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4459590",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4459590",
+   "fetchedAt": "2026-11-03T02:36:14.078476+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "various visual assets and promotional materials for Slotbound were created with the assistance of generative AI tools.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4459590\\press-0.html",
+   "contentHash": "4b18e79265ec8049c629dd9041fd3c790ea45facf1532151d502e854cd05f355"
+  },
+  {
+   "id": "community-0",
+   "appId": "4459590",
+   "sourceType": "community",
+   "url": "https://steamcommunity.com/app/4459590/discussions/0/568165880361460345/",
+   "fetchedAt": "2026-11-03T02:40:22.749498+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Did not notice at first that the program uses AI slop for both art and coding, as stated by the store page and the dev",
+   "locator": "full article text",
+   "label": "Steam 社区玩家帖指称本作用到 AI 美术与代码（玩家指控，不作为判定依据）",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4459590\\community-0.html",
+   "contentHash": "8cdd8814b1877a19d561eea288fda93c148f7e45e950d487896fe7ffb500b3ef"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "Reddit 链接经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读，只能作为线索登记。",
+  "社区帖为玩家指控，按规则只登记不判定。"
+ ]
+}

@@ -1,0 +1,126 @@
+{
+  "sources": [
+    {
+      "appId": "5000870",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5000870/?l=english",
+      "fetchedAt": "2026-10-31T03:55:15.757109+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "b44b457afdba85fff5e5e90fa54dadc09bb18557e0368cfa802d2e74b9ab56f8",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\5000870\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "As independent developers, we used some AI-generated art assets to complete the game content. Thank you for your understanding and support!",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "As independent developers, we used some AI-generated art assets to complete the game content. Thank you for your understanding and support!"
+    },
+    {
+      "appId": "5000870",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5000870/discussions/?l=english",
+      "fetchedAt": "2026-10-31T03:55:16.874891+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "7640088c9811c01566fc6369c4580203a69ecf75e7392cef2afb5cfb132bcb45",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\5000870\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: 《BreathBound》本周0829更新公告",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 1 个主题（总数 1）；仅覆盖首页。"
+    }
+  ],
+  "identity": {
+    "appId": "5000870",
+    "name": "BreathBound",
+    "developer": "SanShineStudios",
+    "publisher": "SSS",
+    "type": "game",
+    "verified": true,
+    "release": "Coming soon",
+    "comingSoon": true,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "description": "BreathBound is a 1–4 player co-op horror game built on breath and sound management. In the dark, every breath, step, and collision can draw the Corpse King, who hunts by smell and hearing. Team up to gather resources, distract threats, and rescue each other—know when to risk it and when to retreat.",
+    "identityEvidence": {
+      "appId": "5000870",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5000870&l=english",
+      "fetchedAt": "2026-10-31T03:55:16.316740+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "bda57ae04e98f5cb48d73cb729b71b1c0af3bbb574b1096c8464d75770b80999",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\5000870\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 1,
+    "totalTopics": 1,
+    "topics": [
+      {
+        "title": "PINNED: 《BreathBound》本周0829更新公告",
+        "url": "https://steamcommunity.com/app/5000870/discussions/1/585058652581314929/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"BreathBound\" Steam game AI disclosure",
+    "searchedAt": "2026-10-31T03:57:00+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/5000870/BreathBound/",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5063510/_Demo/",
+        "relevant": false,
+        "reason": "结果是其他作品的页面，与本作无关。"
+      },
+      {
+        "url": "https://isthereanydeal.com/game/breathbound--1/info/",
+        "relevant": false,
+        "reason": "第三方比价站的价格/统计页，正文没有 AI 披露内容，与领域判定无关。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAEScgHrOzAVF0_02oowhT7yMWPgaFeUNqQE1PyxSraKluXf-sdKPaFYusTWh12p9rfMu7wEsx5jtlWpraCjpDk2n6tbg-P8BKbEQvgV-uJzTbJibheebsWY4HEBPhc-3muwOu3YM9am0QAvP6wsOY0G83cfYQ",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESZgHrOzAVOQmp-qxOlWclo3Q1gmpOs-dfK0hPbo3ydLKhKutB98fpl6U32Qxxb2vX1xJ7nLZIcjFxBk43-V9ObMmZ6RjdvbMRW5vmSAy1toeaTfBTrFDrBQZcDuLIAkiosT8l0FbeeQ",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESYAHrOzAVsuUGR3_xMZd9oNqFOBzmT5-agt5Il8hXlWzy7XkezLZJmBB8XedDwIC_Jmj4c_bIYdLbBX6T-Md6dDeFr9BP1LfTmJVCUYsdxaUrnBZpS52-SxZlJ6gT5VhrYg",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      }
+    ],
+    "readUrls": [],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+      "其余检索同样只返回商店页、比价站、社交站点与跳转壳，未出现针对本作的独立报道；缺少可读报道只说明检索范围，不作为判定依据。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\5000870\\press-search.json",
+    "contentHash": "68551f6c1aa64544518cf718836f0a382959b6ab2b1aa2e97444ba5876b32ccc"
+  }
+}

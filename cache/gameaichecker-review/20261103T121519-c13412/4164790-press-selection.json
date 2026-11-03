@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4164790/_/?l=english&snr=1_1056_4_1056_curator-tabs&curator_clanid=38366376",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://opencredits.games/games/survival-log",
+   "relevant": true,
+   "reason": "Open Credits 本作分析页，已读取原文；该页称披露未说明使用部位，与其核查日（9 月 28 日）之后的商店文本不一致，因此只作第三方转录登记，不改变以商店披露原文为准的判定。"
+  },
+  {
+   "url": "https://www.gamegrin.com/news/steam-top-releases-august-2026-gold-silver-and-bronze-bestsellers/",
+   "relevant": false,
+   "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4164790/Survival_Log/?snr=1_1056_4_1056_1057&curator_clanid=45531068",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://www.pcgame.com/4164790/survival-log",
+   "relevant": false,
+   "reason": "第三方 Key 商城商品页，只有销售信息。"
+  },
+  {
+   "url": "https://note.com/kc_tmn/n/nebc79d7d359a?hl=en",
+   "relevant": false,
+   "reason": "第三方博客/资讯页，标题与本作 AI 披露无直接关系，未读取正文。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4164790",
+   "sourceType": "press",
+   "url": "https://opencredits.games/games/survival-log",
+   "fetchedAt": "2026-11-03T03:21:34.043045+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "developer disclosed AI use on Steam without saying which parts of the game it was used for.",
+   "locator": "full article text",
+   "label": "Open Credits 本作分析页（称披露未说明部位）",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4164790\\press-0.html",
+   "contentHash": "0e43c06170230255009b399fca8e09a9350b8e791f263a13f8d41404821e42d7"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+ ]
+}

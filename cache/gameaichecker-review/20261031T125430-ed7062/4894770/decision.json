@@ -1,0 +1,61 @@
+{
+ "identityName": "Flow Treehouse",
+ "identityDeveloper": "Fairy Tea Time",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "claimed_none",
+   "note": "披露称本作全部美术、动画与角色均为手绘，属开发者自述该领域未使用生成式 AI，未经独立核实。",
+   "evidenceId": "store",
+   "quote": "All art, animation and characters in this game are hand-drawn"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露称部分非中文界面文本与商店页描述借助 AI 完成翻译。",
+   "evidenceId": "store",
+   "quote": "Some non-Chinese UI text and store descriptions were translated with the help of AI"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "All art, animation and characters in this game are hand-drawn. Some non-Chinese UI text and store descriptions were translated with the help of AI.",
+ "summary": "尚未发售的桌面小树屋陪伴型专注游戏。开发者披露全部美术、动画与角色均为手绘，只有部分非中文界面文本与商店页描述借助 AI 翻译。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Fairy Tea Time，发行商同名）与英文讨论区首页（可见 0 个主题，总数 0），讨论区还没有任何主题，无从逐帖展开。本款单独检索公开报道 2 次、登记的为其中 1 次、共 6 条结果，读取 0 篇原始来源（结果只有商店页、另一款游戏的比价页与 google.com/goto 跳转壳；开发者在 Reddit 的宣传帖未抓取正文，同批 Reddit 链接经 GitHub Actions 中转抓取统一返回 HTTP 403）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。 本作核查时尚未发售。美术领域的“未使用”只是“手绘”这一自述，不等于独立核实。",
+ "description": "官方披露只涉及界面与商店文本的 AI 翻译，美术由开发者自述为全手绘。",
+ "english": {
+  "summary": "A pre-release desktop treehouse companion game about focus and to-dos. The developer states that all art, animation and characters are hand-drawn, and that AI helped translate some non-Chinese user interface text and store page descriptions.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Fairy Tea Time, self-published) and the English discussion homepage (0 visible topics of 0), which is empty, so no thread could be opened. This title was searched 2 times; the logged search has 6 results and 0 raw source(s) were read, because the results were only the store page, a price page for a different title and google.com/goto redirect shells; the developer's Reddit post was not fetched, and Reddit returned HTTP 403 to the relay for every other title in this batch. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The game had not been released at review time. The art finding is the developer's own hand-drawn statement and was not independently verified.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The developer states all art, animation and characters are hand-drawn; this is a human statement about non-use and was not independently verified.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "Some non-Chinese user interface text and store page descriptions were translated with the help of AI.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

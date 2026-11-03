@@ -1,0 +1,199 @@
+{
+  "sources": [
+    {
+      "appId": "5020310",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5020310/?l=english",
+      "fetchedAt": "2026-10-31T02:04:26.767098+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "c4f64107bb7fe25118a4f253baedb05204fbcd509df45ac906dece980511afd6",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5020310\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Some of the artwork in this game was made with AI image generators and edited by hand afterwards. This covers the two player characters, the logo, the menu icons and the curtain texture. The English interface texts were written with the help of a language model and reviewed afterwards. The German texts are written by hand. The bundled Pack Creator uses a speech recognition model to find the spoken parts of a video you supply yourself and turn them into the lines you read out. An AI noise filter for your microphone recordings and AI-based separation of speech and background audio work the same way. All of this runs locally on your own machine and never sends data to an external service. These models only process material you provide yourself, they do not invent content of their own, and the result stays inside your own lobby.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Some of the artwork in this game was made with AI image generators and edited by hand afterwards. This covers the two player characters, the logo, the menu icons and the curtain texture. The English interface texts were written with the help of a language model and reviewed afterwards. The German texts are written by hand. The bundled Pack Creator uses a speech recognition model to find the spoken parts of a video you supply yourself and turn them into the lines you read out. An AI noise filter for your microphone recordings and AI-based separation of speech and background audio work the same way. All of this runs locally on your own machine and never sends data to an external service. These models only process material you provide yourself, they do not invent content of their own, and the result stays inside your own lobby."
+    },
+    {
+      "appId": "5020310",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5020310/discussions/?l=english",
+      "fetchedAt": "2026-10-31T02:04:28.134135+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "a1e2ea634cc3269ed91679d6d156eb50fd3741c5d051da2c7fa912c62e544bf5",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5020310\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: DISCORD-SERVER\nKeep disconnecting\nCreator Modus Audiospur und verbesserte Szenenauswahl\nКто пойдет сейчас играть?\ncan you not pick what characters to voice?\nИщу друзей-озвучкеров в Dub Together\nИщу озвучкеров в Dub Together\nrecording suggestion\nПОЗОВИТЕ МЕНЯ ОЗВУЧИВАТЬ ЧТО-НИБУДЬ\nЖДУ ЛЮДЕЙ НА ПЕРЕОЗВУЧКУ ВСЕЙ КУНГ ФУ ПАНДЫ\nВылетает игра\nбаг\nигра автоматически закрываеться при входе в неё\nneeds volume normalization on scenes\nИщу по приколу/по серьёзу на озвучку всякого (мемы, фильмы, не важно), 16+",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 150）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5020310",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/5020310",
+      "fetchedAt": "2026-10-31T02:09:41.761804+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "Some of the artwork in this game was made with AI image generators and edited by hand afterwards.",
+      "locator": "full article text",
+      "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5020310\\press-0.html",
+      "contentHash": "746f0db6a2b3fe3dc483cf3042489c7c3fb1ee3dee2b7ae9f3b880173164db18"
+    }
+  ],
+  "identity": {
+    "appId": "5020310",
+    "name": "Dub Together",
+    "developer": "Banani",
+    "publisher": "Banani",
+    "type": "game",
+    "verified": true,
+    "release": "1 Sep, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie"
+    ],
+    "description": "Up to eight players redub video clips and give them a whole new meaning. You record the scene, then watch every result together and vote. With voice effects, a built-in clip editor and live voting from your Twitch chat.",
+    "identityEvidence": {
+      "appId": "5020310",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5020310&l=english",
+      "fetchedAt": "2026-10-31T02:04:27.314987+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "fcf2df0ff423a8d4528cb5652905fbedd1bdf345cd8a5fa4353559ec8e5e45e9",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5020310\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 150,
+    "topics": [
+      {
+        "title": "PINNED: DISCORD-SERVER",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/582807520276533878/"
+      },
+      {
+        "title": "Keep disconnecting",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/563670705224373175/"
+      },
+      {
+        "title": "Creator Modus Audiospur und verbesserte Szenenauswahl",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/574930637987932545/"
+      },
+      {
+        "title": "Кто пойдет сейчас играть?",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/574930637987803703/"
+      },
+      {
+        "title": "can you not pick what characters to voice?",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/574930920107190142/"
+      },
+      {
+        "title": "Ищу друзей-озвучкеров в Dub Together",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/586188528590869165/"
+      },
+      {
+        "title": "Ищу озвучкеров в Dub Together",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/574930338697149048/"
+      },
+      {
+        "title": "recording suggestion",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/564797873721547542/"
+      },
+      {
+        "title": "ПОЗОВИТЕ МЕНЯ ОЗВУЧИВАТЬ ЧТО-НИБУДЬ",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/564797873721520792/"
+      },
+      {
+        "title": "ЖДУ ЛЮДЕЙ НА ПЕРЕОЗВУЧКУ ВСЕЙ КУНГ ФУ ПАНДЫ",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/574930637988044264/"
+      },
+      {
+        "title": "Вылетает игра",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/586187704184677915/"
+      },
+      {
+        "title": "баг",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/574930637988026383/"
+      },
+      {
+        "title": "игра автоматически закрываеться при входе в неё",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/574930920107194022/"
+      },
+      {
+        "title": "needs volume normalization on scenes",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/574930920107189862/"
+      },
+      {
+        "title": "Ищу по приколу/по серьёзу на озвучку всякого (мемы, фильмы, не важно), 16+",
+        "url": "https://steamcommunity.com/app/5020310/discussions/0/574930920107180049/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Dub Together\" Steam AI generated content disclosure",
+    "searchedAt": "2026-10-31T02:04:00+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://aitransparencyindex.com/products/steam/5020310",
+        "relevant": true,
+        "reason": "第三方 AI 披露索引，逐字复刻商店披露原文，已读全文。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5020310/Dub_Together/",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://zing.co.uk/industry-resources/steam-charts/ai-disclosed/",
+        "relevant": false,
+        "reason": "聚合榜单页仅第 1 页被读取，160 款披露游戏中未列出本作，属聚合榜单而非针对本作的报道。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESdwHrOzAV5Wxr3R4wKiUCSrnuicLcGhxJRMnzoG0zc_2WcbtXnq3bgGuUvLKSOxowcARPcUckcik5UhONzxMXNp8sdO8NA1m6AE-_cVCxc9OegJsVa1uZSeHJ3GumLnFyNcbURhrA3gm_alSNMq-RLfxdaBCzz3_6&gsessionid=8UUoTWUfCWddrJq2dQPQ664O9si2vlGoWId1gTtEMSByfVNjX18t_w",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESkAEB6zswFdAkNAY_F1uihwNi3zyCDbqTDGiek9M8miIKYHAdV-ZZnpFFsdCk5atCoNC4q6ptpVR4GQTkCCkPFqPVyGcBtMuOIY-PuOyjh_XmZsaSMxokV3L2W6bMaktZbbWUDkVUDQ4P_o_whb0ihy4Fwt_wfXb0_Ixqt4ZG7U7-fB_bqXSwfdbsXJqjGR0m73w&gsessionid=8UUoTWUfCWddrJq2dQPQ664O9si2vlGoWId1gTtEMSByfVNjX18t_w",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESnQEB6zswFWDGnHZe-A3QuS-eYhzijZ4HBKulkD09Cdnr2xWMSggzrZjKnRaMVChGd408jr7HyTOXx_WVrZWPQ92GwhS7NRY7M6EGgvhHPctqUb-i2Dn77-dzBGzupwM6Zyw9AbQTbCQLxZSGU1QxZYOY7mAfhWEU2Gz5eTgtAhg_MaRaHSI52VDYW2KZ9xEfCOB02O8TmeQ19A7gwNFn&gsessionid=8UUoTWUfCWddrJq2dQPQ664O9si2vlGoWId1gTtEMSByfVNjX18t_w",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/5020310"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+      "zing.co.uk 的 Steam AI 披露榜单页只读取了第 1 页（共 4 页），本页未列出本作。",
+      "索引站页面只是对 Steam 披露的转录，不据此改判。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5020310\\press-search.json",
+    "contentHash": "c402a64d57ebd11710fc340a0c045bcb9d238ac550e259fb813070343532f7df"
+  }
+}

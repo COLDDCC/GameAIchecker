@@ -1,0 +1,40 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5000870/BreathBound/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5063510/_Demo/",
+   "relevant": false,
+   "reason": "结果是其他作品的页面，与本作无关。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/breathbound--1/info/",
+   "relevant": false,
+   "reason": "第三方比价站的价格/统计页，正文没有 AI 披露内容，与领域判定无关。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEScgHrOzAVF0_02oowhT7yMWPgaFeUNqQE1PyxSraKluXf-sdKPaFYusTWh12p9rfMu7wEsx5jtlWpraCjpDk2n6tbg-P8BKbEQvgV-uJzTbJibheebsWY4HEBPhc-3muwOu3YM9am0QAvP6wsOY0G83cfYQ",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZgHrOzAVOQmp-qxOlWclo3Q1gmpOs-dfK0hPbo3ydLKhKutB98fpl6U32Qxxb2vX1xJ7nLZIcjFxBk43-V9ObMmZ6RjdvbMRW5vmSAy1toeaTfBTrFDrBQZcDuLIAkiosT8l0FbeeQ",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESYAHrOzAVsuUGR3_xMZd9oNqFOBzmT5-agt5Il8hXlWzy7XkezLZJmBB8XedDwIC_Jmj4c_bIYdLbBX6T-Md6dDeFr9BP1LfTmJVCUYsdxaUrnBZpS52-SxZlJ6gT5VhrYg",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "其余检索同样只返回商店页、比价站、社交站点与跳转壳，未出现针对本作的独立报道；缺少可读报道只说明检索范围，不作为判定依据。"
+ ]
+}

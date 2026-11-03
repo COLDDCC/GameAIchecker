@@ -1,0 +1,199 @@
+{
+  "sources": [
+    {
+      "appId": "5027520",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5027520/?l=english",
+      "fetchedAt": "2026-11-03T03:15:38.926815+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "21fb5b413c485ea036f9b818816ce2d5c0803ddabcce66438d215b16e97a98b0",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5027520\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI tools were used to assist with some of the game’s translations and in the creation of two in-game textures. These textures were subsequently edited, refined, and carefully reviewed by a human before being included in the final game. We strictly rely on human creativity and craftsmanship throughout the game’s development.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI tools were used to assist with some of the game’s translations and in the creation of two in-game textures. These textures were subsequently edited, refined, and carefully reviewed by a human before being included in the final game. We strictly rely on human creativity and craftsmanship throughout the game’s development."
+    },
+    {
+      "appId": "5027520",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5027520/discussions/?l=english",
+      "fetchedAt": "2026-11-03T03:15:40.203551+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "4834b15fcd2db4e1ff5392133da4c451fa15305be85ef74ba853b46c9485e5ef",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5027520\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Suggestions, Feedback & Bug Reports\nFailed first 3 hour Toy Store attempt ;(\nShelf Completion Sound\nGift Shop - Vintage Vase mislabelling\nPLSSSS make it so all 26 letters can fit in the same shelf area\nRustic Pumpkin Lantern\nSuche deutsche Spieler für gemeinsames zusammenspielen\nGLASS SHELVES ISSUES\nCo op partner\nArcade Tokens for Gift Shop? **SPOILERS**\nTimelapse\nKey on the floor?\nExtra wolf\nSkill System Needs Better Descriptions and a Reset Option\nSkill pair up",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 211）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5027520",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/5027520",
+      "fetchedAt": "2026-11-03T03:21:27.795559+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "AI assisted with translations and the creation of two in-game textures, which were human-edited before inclusion.",
+      "locator": "full article text",
+      "label": "AI Transparency Index 复刻本作商店披露的分析页",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5027520\\press-0.html",
+      "contentHash": "3443d077ecc75f9cccd44f1237ee2adf0cff9015c2e13f48a3fa4ff0de7272ff"
+    }
+  ],
+  "identity": {
+    "appId": "5027520",
+    "name": "Megastore: Tidy Up Together",
+    "developer": "Yolo Games Studio",
+    "publisher": "Yolo Games Studio",
+    "type": "game",
+    "verified": true,
+    "release": "Sep 2, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie",
+      "Simulation"
+    ],
+    "description": "Megastore: Tidy Up Together is a cozy sorting game for solo or online co-op play. Organize four stores of increasing scale: a Toy Store, an Electronics Store, a bustling Supermarket, and a massive two-story Megastore. Pick up, sort, and shelve thousands of items, and get ready to open!",
+    "identityEvidence": {
+      "appId": "5027520",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5027520&l=english",
+      "fetchedAt": "2026-11-03T03:15:39.515371+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "88aafe5beb81689618b1d8bab480538fbd02caf9a96c4680df5d1ba5d9fdb5c7",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5027520\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 211,
+    "topics": [
+      {
+        "title": "PINNED: Suggestions, Feedback & Bug Reports",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/583932134340971120/"
+      },
+      {
+        "title": "Failed first 3 hour Toy Store attempt ;(",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687923027085/"
+      },
+      {
+        "title": "Shelf Completion Sound",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687923138125/"
+      },
+      {
+        "title": "Gift Shop - Vintage Vase mislabelling",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687923133132/"
+      },
+      {
+        "title": "PLSSSS make it so all 26 letters can fit in the same shelf area",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/573804280379698927/"
+      },
+      {
+        "title": "Rustic Pumpkin Lantern",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687923108250/"
+      },
+      {
+        "title": "Suche deutsche Spieler für gemeinsames zusammenspielen",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687923106514/"
+      },
+      {
+        "title": "GLASS SHELVES ISSUES",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687922993645/"
+      },
+      {
+        "title": "Co op partner",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687923054504/"
+      },
+      {
+        "title": "Arcade Tokens for Gift Shop? **SPOILERS**",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687922991425/"
+      },
+      {
+        "title": "Timelapse",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687922929658/"
+      },
+      {
+        "title": "Key on the floor?",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687923013455/"
+      },
+      {
+        "title": "Extra wolf",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427373261226375/"
+      },
+      {
+        "title": "Skill System Needs Better Descriptions and a Reset Option",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687922989509/"
+      },
+      {
+        "title": "Skill pair up",
+        "url": "https://steamcommunity.com/app/5027520/discussions/0/570427687922968059/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Megastore: Tidy Up Together\" Steam AI disclosure",
+    "searchedAt": "2026-11-03T03:16:10+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://www.reddit.com/r/TidyUpGames/comments/1w7f0r7/is_the_progression_in_megastore_tidy_up_together/",
+        "relevant": false,
+        "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；只登记线索，不作为任何领域的证据。"
+      },
+      {
+        "url": "https://isthereanydeal.com/game/megastore-tidy-up-together/history/",
+        "relevant": false,
+        "reason": "比价/折扣聚合页，只有价格与折扣信息，没有 AI 使用内容。"
+      },
+      {
+        "url": "https://aitransparencyindex.com/products/steam/5027520",
+        "relevant": true,
+        "reason": "AI Transparency Index 逐字复刻本作商店披露并给出结构化分析，已读取原始页面；其内容仍是披露的转录，不构成独立核实。"
+      },
+      {
+        "url": "https://bsky.app/profile/duckaislop.bsky.social/post/3muwwd5xhoc27",
+        "relevant": false,
+        "reason": "Bluesky 个人帖子，标题无法判断与本作 AI 披露相关，中转抓取未读取正文，只登记线索。"
+      },
+      {
+        "url": "https://steamcommunity.com/app/4197610/discussions/0/525387344813187642/?l=german",
+        "relevant": false,
+        "reason": "页面属于另一款游戏或本作的 Demo，不是本作正式版，与本作 AI 披露无关。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5027520/Megastore_Tidy_Up_Together/",
+        "relevant": false,
+        "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/5027520"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+      "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+      "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5027520\\press-search.json",
+    "contentHash": "ca85ffdc211fe87f74dabb450f4b2724a58b8acb76f7c9c8cac29ad776c8e1ba"
+  }
+}

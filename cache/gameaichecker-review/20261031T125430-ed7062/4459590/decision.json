@@ -1,0 +1,61 @@
+{
+ "identityName": "Slotbound",
+ "identityDeveloper": "Optima Arch",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称本作的多种视觉素材在生成式 AI 工具协助下制作，所有内容经开发者审阅、打磨后整合。",
+   "evidenceId": "store",
+   "quote": "various visual assets and promotional materials for Slotbound were created with the assistance of generative AI tools"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "used",
+   "note": "披露把宣传素材与视觉素材并列，明确说明同样由生成式 AI 工具协助制作。",
+   "evidenceId": "store",
+   "quote": "promotional materials for Slotbound were created with the assistance of generative AI tools"
+  }
+ },
+ "disclosureQuote": "various visual assets and promotional materials for Slotbound were created with the assistance of generative AI tools. All AI-generated content was reviewed, refined, and integrated by the developer to ensure consistency with the game's artistic direction and quality standards.",
+ "summary": "11 月 9 日上市的 Roguelike 老虎机式自走塔防。开发者披露多种视觉素材与宣传素材在生成式 AI 工具协助下制作，AI 生成内容全部经开发者审阅、打磨并整合进游戏。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Optima Arch，发行商同名）与英文讨论区首页（可见 15 个主题，总数 224），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源（AI Transparency Index 逐字复刻商店披露的分析页；Steam 讨论区玩家帖指称本作用到 AI 美术与代码，并转述开发者在 Reddit 的说法）。玩家帖属指控与二手转述，按规则只登记不判定，code 领域维持“披露未说明”；Reddit 原帖经中转抓取返回 HTTP 403，读不到正文。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。 本作核查时尚未发售（商店页标注 2026 年 11 月 9 日）。",
+ "description": "官方披露承认视觉素材与宣传素材由生成式 AI 协助制作；玩家帖另指称代码也用了 AI，但该指控未进入领域判定。",
+ "english": {
+  "summary": "A roguelike auto-battler defence game built around a 3x3 slot machine, released on Nov 9, 2026. The developer states that various visual assets and promotional materials were created with the assistance of generative AI tools and that all AI-generated content was reviewed, refined and integrated by the developer.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Optima Arch, self-published) and the English discussion homepage (15 visible topics of 224); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 2 raw source(s) were read: an AI Transparency Index page that reproduces the store disclosure verbatim, which is a transcription and not independent verification, and a Steam discussion thread in which a player alleges that both the art and the code use AI and cites a developer Reddit thread. That thread is an allegation and second-hand retelling, so it is logged only and changes no area finding; the code area stays as not addressed by the disclosure. The cited Reddit thread returned HTTP 403 to the relay and could not be read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The title had not shipped at review time (the store page lists Nov 9, 2026).",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "Various visual assets were created with the assistance of generative AI tools, then reviewed, refined and integrated by the developer.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "Promotional materials are named in the same disclosure sentence as the visual assets and were also created with generative AI assistance."
+  }
+ }
+}

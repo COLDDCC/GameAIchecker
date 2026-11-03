@@ -1,0 +1,85 @@
+{
+  "appId": "5053820",
+  "name": "Mimic Party",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "免费音声派对游戏。开发者披露部分 2D 插画素材与声音参考素材在开发期借助 AI 制作、出货前经人工审阅编辑，并明确说明没有任何内容在运行时生成。",
+  "aiUsageCategories": [
+    "art",
+    "music"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露明确说明没有任何内容在运行时生成。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称部分 2D 插画素材在开发期借助 AI 工具制作，出货前经人工审阅、编辑与确认。",
+    "music": "披露称部分声音参考素材（sound reference material）借助 AI 工具制作，之后经人工审阅与编辑。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "music": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5053820/",
+  "developer": "FoliesAPP",
+  "publisher": "FoliesAPP",
+  "steamReleaseDate": "27 Aug, 2026",
+  "genres": [
+    "Casual"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5053820/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "Some of the game's 2D illustration assets and sound reference material were created with the help of AI tools during development, then reviewed, edited and validated by hand before shipping. No content is generated at runtime."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5053820/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 46）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://bsky.app/profile/duckaislop.bsky.social/post/3mvld6gqfyk2h",
+      "label": "Bluesky 账号 Duck AI Slop!! 的帖子，正文出现本作名、开发商与 Steam disclosure 字样；仅为社区线索",
+      "date": "2026-10-31",
+      "excerpt": "Mimic Party\\nFoliesAPP. Steam disclosure -y"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 FoliesAPP）与英文讨论区首页（可见 15 个主题，总数 46），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（Bluesky 账号 Duck AI Slop!! 的帖子，正文出现本作名、开发商与 Steam disclosure 字样；仅为社区线索）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Some of the game's 2D illustration assets and sound reference material were created with the help of AI tools during development, then reviewed, edited and validated by hand before shipping. No content is generated at runtime.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-31 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A free voice-based party game. The developer states some 2D illustration assets and sound reference material were created with AI tools during development and reviewed, edited and validated by hand before shipping, and that no content is generated at runtime.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer FoliesAPP) and the English discussion homepage (15 visible topics of 46); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure states that no content is generated at runtime.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Some 2D illustration assets were produced with AI tools during development and were reviewed, edited and validated by hand before shipping.",
+      "music": "Some sound reference material was produced with the help of AI tools and was then reviewed and edited by hand.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "460c5bde9db4779a359289a23a68d8631052b7cd67761d5242710558a354b601"
+  }
+}

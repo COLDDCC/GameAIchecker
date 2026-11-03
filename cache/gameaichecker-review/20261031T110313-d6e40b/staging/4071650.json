@@ -1,0 +1,82 @@
+{
+  "appId": "4071650",
+  "name": "Stream Train",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "以直播弹幕为主题的模拟冒险。开发者披露 AI 在团队自拟清单之外补充生成聊天消息点子，采纳的进游戏、部分改写适配、其余弃用。",
+  "aiUsageCategories": [
+    "writing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "披露称团队先自拟聊天消息清单，再用 AI 补充生成更多消息点子，被采纳的进入游戏、部分改写以适配、其余弃用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "writing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4071650/",
+  "developer": "Half Past Yellow",
+  "publisher": "Half Past Yellow",
+  "steamReleaseDate": "Oct 16, 2026",
+  "genres": [
+    "Adventure"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4071650/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "We used AI to generate additional chat message ideas based on the initial list we made ourselves. Relevant message ideas were added to the game, some messages were altered to fit, and rest were left on the cutting room floor."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4071650/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 22）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.gamespress.com/All-aboard-Stream-Train-has-launched-on-Steam",
+      "label": "Games Press 上开发者自撰的发行通稿，核对身份与上架时间；全文未提及 AI",
+      "date": "2026-10-31",
+      "excerpt": "Independent developer Half Past Yellow is delighted to announce the launch of their co-op horror game, Stream Train on Steam!"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Half Past Yellow）与英文讨论区首页（可见 15 个主题，总数 22），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 2 次，登记的为其中 1 次、共 6 条结果，读取 1 篇原始来源（Games Press 上开发者自撰的发行通稿，核对身份与上架时间；全文未提及 AI）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。 除登记的这一次外，另有的检索同样只返回商店页、社交站点与跳转壳，未出现针对本作的独立报道；缺少可读报道只说明检索范围，不作为判定依据。",
+  "disclosureQuote": "We used AI to generate additional chat message ideas based on the initial list we made ourselves. Relevant message ideas were added to the game, some messages were altered to fit, and rest were left on the cutting room floor.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-31 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A simulation about running a stream. The developer states AI generated additional chat message ideas on top of a list the team wrote themselves, with accepted ideas added to the game, some altered to fit and the rest discarded.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Half Past Yellow) and the English discussion homepage (15 visible topics of 22); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 2 times; the logged search has 6 results and 1 raw source(s) were read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. Searches beyond the logged one again returned only store pages, social posts and google.com/goto redirect shells, with no independent coverage of this title; unreadable coverage only describes the search scope and is not treated as a finding.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "The team wrote an initial list of chat messages themselves, then used AI to generate additional message ideas; accepted ideas were added to the game, some were altered to fit and the rest were discarded.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "522a294b80d835e150408afdeedd351a8e47b85fbbe828199f5846f251fed833"
+  }
+}

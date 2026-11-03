@@ -1,0 +1,41 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4894770/Flow_Treehouse/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/pc-electro-onna-chan-checker/info/",
+   "relevant": false,
+   "reason": "结果是其他作品的页面，与本作无关。"
+  },
+  {
+   "url": "https://www.reddit.com/r/IndieGaming/comments/1xb15x7/we_made_a_short_about_todudu_the_bunny_from_our/",
+   "relevant": false,
+   "reason": "帖子标题出现本作角色 Todudu，属开发者宣传帖；本轮未逐帖抓取正文（同批 Reddit 链接经中转抓取统一返回 HTTP 403），只登记线索，不作为证据。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESfgHrOzAVGPbxzJLsEWNdeLo1P6xpVBUI4seP6R3vHakT-UEZOvT_mkuJjFMW-mpWhsfnQqtWEMOIm0P6AVKUvQoH2I633w8InQ3UwhhX7MY5SFEi4efN8214ato42FqtBxFM7lc-embuxjBqFKeoP-0wy4zQmiRvvNN6awuuRg&gsessionid=XFpwYOymZmj-0indkS0RHmiolcmqBAMCrsUsdW4UfbyLsie07ZPSIA",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESaAHrOzAVa-vwC9Rq9j45qMG5Wv-NZB9FeWoiJR1L4qt1fd1JoMK6AtW0mvPYf9MZ2ziP7B-V6yPq2Y1w38W1XVnbVHs8MmTHH6fRyyQ-27079drIoHceMpLiLuG63I3L6JVwGO52Mra6&gsessionid=XFpwYOymZmj-0indkS0RHmiolcmqBAMCrsUsdW4UfbyLsie07ZPSIA",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEScgHrOzAVleMlTzZ8rqYJjVCYvZpzWVLTxnWoKZet5uzhiAlN_IPX9kvYJQuQ4ZvTjZND_r_Hr5wlR0I9GkujdQ9Kd4y4K0JzuO856h1O8fqu0GC03W0Cl3GmzH0yij3SrSJ_nEAq6xFpVJikguuFFNYuKw&gsessionid=XFpwYOymZmj-0indkS0RHmiolcmqBAMCrsUsdW4UfbyLsie07ZPSIA",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "Reddit 链接经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读，只能作为线索登记。",
+  "其余检索同样只返回商店页、比价站、社交站点与跳转壳，未出现针对本作的独立报道；缺少可读报道只说明检索范围，不作为判定依据。"
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5062910/Life_Is_a_Dungeon_Lean_into_It/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5062910-life-is-a-dungeon-lean-into-it",
+   "relevant": true,
+   "reason": "第三方 AI 披露索引，按八个领域转录本作 Steam 披露，已读全文。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5063310/Life_Is_a_Dungeon_Lean_into_It_Demo/",
+   "relevant": false,
+   "reason": "本作试玩版页面，非独立报道，且不参与本批收录判断。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESjAEB6zswFbsBY_OgbTG7NzFFe7FNhPD3Dnm-x1dkN3NM0KlfPeHa3tFXIJ18XObTQoABrchyR8o_FALcVoVvjhEB56N7I-JlUEuDg3QEgkyhCkqlVYkRwJ8toCERd9Fcza9PU5Zotw6Zbv9UyHfBbkY7s-96mlgFJGQg8IC3zt139FYvmk2CZY82RYtc_Q",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESdgHrOzAVRXnAeRyMXk_YBqfrtOMAkoKwRaUxGrda6zWLxEBRNtapVB7cVXEmalW5p1FMzvgYTwnGPAyET-vHNSGsYztoMVPtsaTQwzs4ZhuQDO-ZkwGZLl2YdqpAfUAsZvJWJ9ArqiKSwIWMRs8yKmYGY_hirn8",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESjQEB6zswFX_0xJSXGp-ryn3fq30LZMsHqf7z9Od8sES96HCizQNeNVbHYF9HPx_SHHUSP60OQzSs4qf5OM6ZBETJlrq0BDPX8oO2A6GHDHI3yuwkyyrEzFwOXLPPcH80kclsdsf6ERtVI9b7T098ElWKGFnXeIXBaFH6Dw5KPW4f6TE23mx5or3rPwjUKBc",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5062910",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/5062910-life-is-a-dungeon-lean-into-it",
+   "fetchedAt": "2026-10-31T02:09:36.914035+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI helped create some graphics and promotional images, translate character voices, and write and implement code.",
+   "locator": "full article text",
+   "label": "GameDB.ai 对本作 Steam AI 披露的结构化索引页",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5062910\\press-0.html",
+   "contentHash": "ea5392f9368915afcadd1c87f997c086da9c7b560d9e10a4d0539016d8d91fa8"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "索引站页面只是对 Steam 披露的转录，不据此改判。"
+ ]
+}

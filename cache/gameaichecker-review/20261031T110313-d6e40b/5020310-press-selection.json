@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://aitransparencyindex.com/products/steam/5020310",
+   "relevant": true,
+   "reason": "第三方 AI 披露索引，逐字复刻商店披露原文，已读全文。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5020310/Dub_Together/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://zing.co.uk/industry-resources/steam-charts/ai-disclosed/",
+   "relevant": false,
+   "reason": "聚合榜单页仅第 1 页被读取，160 款披露游戏中未列出本作，属聚合榜单而非针对本作的报道。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESdwHrOzAV5Wxr3R4wKiUCSrnuicLcGhxJRMnzoG0zc_2WcbtXnq3bgGuUvLKSOxowcARPcUckcik5UhONzxMXNp8sdO8NA1m6AE-_cVCxc9OegJsVa1uZSeHJ3GumLnFyNcbURhrA3gm_alSNMq-RLfxdaBCzz3_6&gsessionid=8UUoTWUfCWddrJq2dQPQ664O9si2vlGoWId1gTtEMSByfVNjX18t_w",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESkAEB6zswFdAkNAY_F1uihwNi3zyCDbqTDGiek9M8miIKYHAdV-ZZnpFFsdCk5atCoNC4q6ptpVR4GQTkCCkPFqPVyGcBtMuOIY-PuOyjh_XmZsaSMxokV3L2W6bMaktZbbWUDkVUDQ4P_o_whb0ihy4Fwt_wfXb0_Ixqt4ZG7U7-fB_bqXSwfdbsXJqjGR0m73w&gsessionid=8UUoTWUfCWddrJq2dQPQ664O9si2vlGoWId1gTtEMSByfVNjX18t_w",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESnQEB6zswFWDGnHZe-A3QuS-eYhzijZ4HBKulkD09Cdnr2xWMSggzrZjKnRaMVChGd408jr7HyTOXx_WVrZWPQ92GwhS7NRY7M6EGgvhHPctqUb-i2Dn77-dzBGzupwM6Zyw9AbQTbCQLxZSGU1QxZYOY7mAfhWEU2Gz5eTgtAhg_MaRaHSI52VDYW2KZ9xEfCOB02O8TmeQ19A7gwNFn&gsessionid=8UUoTWUfCWddrJq2dQPQ664O9si2vlGoWId1gTtEMSByfVNjX18t_w",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5020310",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/5020310",
+   "fetchedAt": "2026-10-31T02:09:41.761804+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Some of the artwork in this game was made with AI image generators and edited by hand afterwards.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5020310\\press-0.html",
+   "contentHash": "746f0db6a2b3fe3dc483cf3042489c7c3fb1ee3dee2b7ae9f3b880173164db18"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "zing.co.uk 的 Steam AI 披露榜单页只读取了第 1 页（共 4 页），本页未列出本作。",
+  "索引站页面只是对 Steam 披露的转录，不据此改判。"
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "results": [
+  {
+   "url": "https://www.reddit.com/r/gamers/comments/1wt8evn/do_not_buy_slam_tank/",
+   "relevant": false,
+   "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文无法读取；该帖与本作 AI 使用直接相关，只登记线索，不作为任何领域的证据。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5186030/SLAM_TANK/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESbAHrOzAVTS69jeopB46eNLiN-6MwjndsY-FcXul3eJSJrbyAh4XFHB-gfnpXVEEyK36StEB2qSDDIwHwId30t8aYsCdwuP2ogVohDDhxZHCnqIkGSwIoR3Ngd6lberehkc217SkP51EPHbdszA",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESawHrOzAVXPtN4hTBHnraEsG6STG2UjrBGiizNlwiFVcqtW3WoH1xqykD-yIaXBJToWzoJH8c8DD1g6A5VJnWlwMpTx-j5Ozzpk7DM6uXxWJX1Brwu_Klo3xPO_uSxp6G2414wjIn4JEw8Fq_",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "Reddit 链接经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读，只能作为线索登记。",
+  "其余检索同样只返回商店页、比价站、社交站点与跳转壳，未出现针对本作的独立报道；缺少可读报道只说明检索范围，不作为判定依据。"
+ ]
+}

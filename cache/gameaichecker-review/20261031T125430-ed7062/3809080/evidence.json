@@ -1,0 +1,198 @@
+{
+  "sources": [
+    {
+      "appId": "3809080",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/3809080/?l=english",
+      "fetchedAt": "2026-10-31T03:55:10.532840+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "520f93f10906367cf9ddc19724b2d82a3790208c4d99ce81ca762a39c5615a16",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\3809080\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Some images on the store page are generated using AI tools to create initial concept art, which are then manually adjusted and modified by artists. The final works combine AI-generated foundational designs with human artistic revisions.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Some images on the store page are generated using AI tools to create initial concept art, which are then manually adjusted and modified by artists. The final works combine AI-generated foundational designs with human artistic revisions."
+    },
+    {
+      "appId": "3809080",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/3809080/discussions/?l=english",
+      "fetchedAt": "2026-10-31T03:55:11.712284+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "0ccea644d3d57f2db35aea42a64c6dbe9b82d050783b1e2f3b0258e5180fd3b7",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\3809080\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Feedback / 意见反馈 / 意見回饋\nMalwarebtes detected Malware\n建议 ： 不用急于发售\nAny Humans In the World?\nlogin failed -91 error 40001\nBug; Can't remove the teleport pool.\nLogin failed\nHonestly Really Enjoying This\nFrozen on Start Screen\n[Demo] No Audio after the world loads\nDemo is good, but not sure what the objective or end goal\ntranslate to ptbr\nHidden chamber room?\nWill this be another always online game?\n沒有支援手把",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 41）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "3809080",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/3809080",
+      "fetchedAt": "2026-11-03T02:36:19.796989+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "Some images on the store page are generated using AI tools to create initial concept art, which are then manually adjusted and modified by artists. The final works combine AI-generated foundational designs with human artistic revisions.",
+      "locator": "full article text",
+      "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\3809080\\press-0.html",
+      "contentHash": "bce9f034ce5f81f799afe1807a95a3cb8d168a27ed7b6d905128779336126436"
+    }
+  ],
+  "identity": {
+    "appId": "3809080",
+    "name": "Never Wither",
+    "developer": "Geo Seed Games",
+    "publisher": "Luckycalf",
+    "type": "game",
+    "verified": true,
+    "release": "Coming soon",
+    "comingSoon": true,
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "description": "Experience unprecedented creature collection gameplay—Transform into almost any creature you see! Collect and raise fantastical creatures, and command them to farm, build, and craft. In this open world survival crafting game, Establish your settlement, become the last hope against the Corruption.",
+    "identityEvidence": {
+      "appId": "3809080",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=3809080&l=english",
+      "fetchedAt": "2026-10-31T03:55:11.087813+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "6b3aba4ffbc07a959481f125d348e4747addec97f0fcc57f101902dd5e2d8193",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\3809080\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 41,
+    "topics": [
+      {
+        "title": "PINNED: Feedback / 意见反馈 / 意見回饋",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/663863113757595932/"
+      },
+      {
+        "title": "Malwarebtes detected Malware",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/572679173080087709/"
+      },
+      {
+        "title": "建议 ： 不用急于发售",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/572679173079953459/"
+      },
+      {
+        "title": "Any Humans In the World?",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/570426104667575146/"
+      },
+      {
+        "title": "login failed -91 error 40001",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/562546024123514328/"
+      },
+      {
+        "title": "Bug; Can't remove the teleport pool.",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/572679173079827887/"
+      },
+      {
+        "title": "Login failed",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/562546024123494781/"
+      },
+      {
+        "title": "Honestly Really Enjoying This",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/570426530135574023/"
+      },
+      {
+        "title": "Frozen on Start Screen",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/570426104667670428/"
+      },
+      {
+        "title": "[Demo] No Audio after the world loads",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/562545740485916856/"
+      },
+      {
+        "title": "Demo is good, but not sure what the objective or end goal",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/562545740485902202/"
+      },
+      {
+        "title": "translate to ptbr",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/562545740485852711/"
+      },
+      {
+        "title": "Hidden chamber room?",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/562545439723033908/"
+      },
+      {
+        "title": "Will this be another always online game?",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/562545439723033598/"
+      },
+      {
+        "title": "沒有支援手把",
+        "url": "https://steamcommunity.com/app/3809080/discussions/0/562545439722981375/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Never Wither\" Steam game AI disclosure",
+    "searchedAt": "2026-10-31T03:57:00+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://aitransparencyindex.com/products/steam/3809080",
+        "relevant": true,
+        "reason": "AI Transparency Index 逐字复刻本作 Steam 披露并给出结构化分析，已读取原始页面；其内容仍是商店披露的转录，不构成独立核实。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/3809080/Never_Wither/?curator_clanid=36376191",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://isthereanydeal.com/game/never-wither/info/",
+        "relevant": false,
+        "reason": "第三方比价站的价格/统计页，正文没有 AI 披露内容，与领域判定无关。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESrwEB6zswFQYLEhMWh-lErvrceGjc1S36Pxug35F7uTZtWyNMdOq22myEc5u22eaBC_P6CR-eLNxRfXoWyLH8nnZAydnkdRUFD_yhs4KLtCuaRfe_6XWlWL0PjpuODj9F2P4xW_L-qOTaqVwUKxR-a3eQtErG78liipBUrVmI6bcNQiYZB5wkwBliDO8oXEmQLHcvj4V6gJiV554KqNZMQ-mAcVXfdGuPzRkv_uyAd46i",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESeAHrOzAVEgKxSUtnfPWjq_DeBKKbRzV_5h09GFJDj0Tx6NIsHNjHHb_ZTqUqiIbvIabdiWngA0kovKdFaH5ND3ugTD-L6APK-bYvLVT_--GPZB81Wqe2l5NndTPF39_JvWI89g_6WF3zdi4xZeL6ZK5Xf99mSPjAZQ",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESlwEB6zswFbL_1hekMkXI7Vor99x8wAwglPXlA2K_6MRuRlp4M1CB8qLQNqhch9k8lkYwX4SlctORFCRX7bRN4VZ07Hld2QExdUays0kSWCFeWcZ3eBU5MtMKSpU0m5fK_S5CsUQgezZ-XT2o5Gq0_sQW5SSq3w8_pVlVCXEWNRp09HcdpUXMi_M3w3NQly7l6hxeYzkBkn8E",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/3809080"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\3809080\\press-search.json",
+    "contentHash": "fbfdd03e038b52571c0d61b80ca4a212aaadda874e8b1bfdc3bd7b1f031961ef"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "sources": [
+    {
+      "appId": "4459590",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4459590/?l=english",
+      "fetchedAt": "2026-10-31T03:55:01.525064+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "20dc6f95ad55e2e9ef631e5d284b68aa18799c4d471d8ae040e425bd20e04bd1",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4459590\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "various visual assets and promotional materials for Slotbound were created with the assistance of generative AI tools. All AI-generated content was reviewed, refined, and integrated by the developer to ensure consistency with the game's artistic direction and quality standards.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "various visual assets and promotional materials for Slotbound were created with the assistance of generative AI tools. All AI-generated content was reviewed, refined, and integrated by the developer to ensure consistency with the game's artistic direction and quality standards."
+    },
+    {
+      "appId": "4459590",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4459590/discussions/?l=english",
+      "fetchedAt": "2026-10-31T03:55:02.669860+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "aa249b7ae52b33fae0e7837a6cfbfc024892387d0b715025f1e208af513ac788",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4459590\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Roulette Wheel Is Awful\nSoftlock after a crash\n모바일 출시 계획 있으신가요?\n疑问\nWill progress carry over?\n試玩版玩了121小時終於中大獎了\nBest strategy to roll the joker\n游戏没发售，正式版已经在手机小程序上能玩了\n期待\n人口一旦超过10人加上敌对怪物数量，两倍数情况下画面会变得卡顿\n正式版快点来吧！！！\n세이브경로 문의\n버그신고\n希望完整版能支持macos\nPossible Bug",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 224）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4459590",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/4459590",
+      "fetchedAt": "2026-11-03T02:36:14.078476+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "various visual assets and promotional materials for Slotbound were created with the assistance of generative AI tools.",
+      "locator": "full article text",
+      "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4459590\\press-0.html",
+      "contentHash": "4b18e79265ec8049c629dd9041fd3c790ea45facf1532151d502e854cd05f355"
+    },
+    {
+      "id": "community-0",
+      "appId": "4459590",
+      "sourceType": "community",
+      "url": "https://steamcommunity.com/app/4459590/discussions/0/568165880361460345/",
+      "fetchedAt": "2026-11-03T02:40:22.749498+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "Did not notice at first that the program uses AI slop for both art and coding, as stated by the store page and the dev",
+      "locator": "full article text",
+      "label": "Steam 社区玩家帖指称本作用到 AI 美术与代码（玩家指控，不作为判定依据）",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4459590\\community-0.html",
+      "contentHash": "8cdd8814b1877a19d561eea288fda93c148f7e45e950d487896fe7ffb500b3ef"
+    }
+  ],
+  "identity": {
+    "appId": "4459590",
+    "name": "Slotbound",
+    "developer": "Optima Arch",
+    "publisher": "Optima Arch",
+    "type": "game",
+    "verified": true,
+    "release": "Nov 9, 2026",
+    "comingSoon": true,
+    "genres": [
+      "Indie",
+      "Strategy"
+    ],
+    "description": "A roguelike auto-battler defense where luck meets strategy. Spin a 3x3 slot machine to summon units and grow your army by absorbing others. Use Items and Cores to manipulate the odds and survive challenging judgement waves and boss waves. Every spin and every choice counts.",
+    "identityEvidence": {
+      "appId": "4459590",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4459590&l=english",
+      "fetchedAt": "2026-10-31T03:55:02.058025+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "570541374d519dc342891fc8516236b58c34a546ced8fecafd6411db40ac860d",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4459590\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 224,
+    "topics": [
+      {
+        "title": "Roulette Wheel Is Awful",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/564797873721613346/"
+      },
+      {
+        "title": "Softlock after a crash",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/564797873721515410/"
+      },
+      {
+        "title": "모바일 출시 계획 있으신가요?",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/574930637987977216/"
+      },
+      {
+        "title": "疑问",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/574930637988031292/"
+      },
+      {
+        "title": "Will progress carry over?",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/586188313445158141/"
+      },
+      {
+        "title": "試玩版玩了121小時終於中大獎了",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/574930338697089039/"
+      },
+      {
+        "title": "Best strategy to roll the joker",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/586188069723503820/"
+      },
+      {
+        "title": "游戏没发售，正式版已经在手机小程序上能玩了",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/563671129707782457/"
+      },
+      {
+        "title": "期待",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/563671129707851404/"
+      },
+      {
+        "title": "人口一旦超过10人加上敌对怪物数量，两倍数情况下画面会变得卡顿",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/563671129707830556/"
+      },
+      {
+        "title": "正式版快点来吧！！！",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/563670940040359595/"
+      },
+      {
+        "title": "세이브경로 문의",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/563670940040310741/"
+      },
+      {
+        "title": "버그신고",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/563670705224456685/"
+      },
+      {
+        "title": "希望完整版能支持macos",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/563670705224417027/"
+      },
+      {
+        "title": "Possible Bug",
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/563670705224478657/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Slotbound\" Steam game AI disclosure",
+    "searchedAt": "2026-10-31T03:56:30+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://www.reddit.com/r/aigamedev/comments/1v6wsy0/i_spent_8_months_making_my_first_ai_assisted_game/",
+        "relevant": false,
+        "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文无法读取；该帖与本作 AI 使用直接相关，只登记线索，不作为任何领域的证据。"
+      },
+      {
+        "url": "https://aitransparencyindex.com/products/steam/4459590",
+        "relevant": true,
+        "reason": "AI Transparency Index 逐字复刻本作 Steam 披露并给出结构化分析，已读取原始页面；其内容仍是商店披露的转录，不构成独立核实。"
+      },
+      {
+        "url": "https://steamcommunity.com/app/4459590/discussions/0/568165880361460345/",
+        "relevant": true,
+        "reason": "Steam 讨论帖由玩家 DocPhineas 指称本作用到 AI 美术与代码，已抓取原帖正文；按规则只登记为社区线索，不作为任何领域的证据。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAEScAHrOzAVCOLrf0Y-3zsDjLOOrGX2_D-PaJrAwhGoWO_pC5eJsO0b1p3oV65sgUzuROFqmNGx8vLloj2Foze_N4f7W0CVegtWEAr9-YGWOR3BIIcqVT3xzRKS3xNVODaIPOr22WThMS7LtViD1erSW6w",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESZQHrOzAVli5Pur7YiFI-cCRAztHgZP5XcoyQgzqjkGzuqWC6yrN71vTxYPNncv6G1JnCNrKD5tVWRtGgrz236iWscNaJxd0ODhLcrPLpxGXVlDk4wJZBH_fsoeB2LCURnBVndYQw",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESZgHrOzAVnv62hMIZFS0IWS8uKhFT5O5x3kdSfCtKdnD5jNZIqxgzV_YPvg9fTWFw75_05-bx7S6hPr6kYVqbnw0HYkrC0BqUDgl831rLFBE8e7M8gVa7Q3vYHDjHQTTnLlMA3Tywww",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/4459590",
+      "https://steamcommunity.com/app/4459590/discussions/0/568165880361460345/"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+      "Reddit 链接经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读，只能作为线索登记。",
+      "社区帖为玩家指控，按规则只登记不判定。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4459590\\press-search.json",
+    "contentHash": "feff9bef1d4b700e46badb4769e013f88f047e50ec08abc340cf1e6900e44e97"
+  }
+}

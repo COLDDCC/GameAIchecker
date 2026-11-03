@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/3299050/No_Such_Place/?snr=1_1056_4_1056_1057&curator_clanid=45353266",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DZmY4m2CVkO/",
+   "relevant": false,
+   "reason": "抓取返回 HTTP 200，但正文只有登录占位与站点脚本，页面全文没有出现游戏名，无法读取原帖内容；仅登记线索，不作为证据。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/3299050/discussions/0/571541859030195913/?l=latam",
+   "relevant": true,
+   "reason": "社区指控帖，玩家指称本作用到生成式 AI 语音、另一批玩家反驳；只登记不判定，已读整帖正文与回复。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESkAEB6zswFS-Hs1R3ZcjrJ4ZSf2YSMag2qQh1e-9_JIbHrF2lQbUctf2uXsDaDNWfazLb13tRPX7WsqM9ThhAKhxMS2P2z8gKsu6IjoPUmj_le4ZybLQ9UzmXIuFChbxctHFTrBRUsx6NfEe2BY0m59sQGGquPNPCtRxCnb2nkLeoBpcUb7t5wKvMOI7dfqyo4C0&gsessionid=WKkXqvwU8usMgjJIdamNz3QioFTaVIXMEud1fZDz8KLCxPgPC3px4Q",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESdAHrOzAVbni41_zVzRX4WQc59s9h6uO9L4wHsY3CF8A0YuAaI1hRy2ErN6QeqfvyJSi9uS9ubJNUcKmeu7b4_gqXJE8QbmaD1dpz2A7-3g0zG5wsgNSY2KAPwiun8mzSPs3FfM-2LQqMau8TUqdBMwpq73-_&gsessionid=WKkXqvwU8usMgjJIdamNz3QioFTaVIXMEud1fZDz8KLCxPgPC3px4Q",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESkwEB6zswFeUlg3CZ065RvWXQlNXXwdeLXcFcCLZOniYNTieGPgD27YKtWk4wKf_N0eXfReWnup3dQxdizV98IvzHAacf6s_9R3refCVvkxqRT6bznjZWPbh0GaMs-FYjywSZQfxMAueSAdXYPgEI3zFCLV_D_WW07KQbe3mky15YAnMMFmmhBOdPc7gtxN5VQNXTKSk&gsessionid=WKkXqvwU8usMgjJIdamNz3QioFTaVIXMEud1fZDz8KLCxPgPC3px4Q",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "community-0",
+   "appId": "3299050",
+   "sourceType": "community",
+   "url": "https://steamcommunity.com/app/3299050/discussions/0/571541859030195913/?l=latam",
+   "fetchedAt": "2026-10-31T02:09:38.051380+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "There is no disclosure of AI use, even though the game uses genAI for (for example) voices.",
+   "locator": "full article text",
+   "label": "Steam 社区玩家在讨论区指称本作用到生成式 AI 语音、且称页面当时无披露（与当前商店披露不一致，属玩家指控）",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\3299050\\community-0.html",
+   "contentHash": "ad926edc37899e6a6f31345143fb4cc4c51872d31726bab30f8194e4590e2ccc"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "抓取返回 HTTP 200，但正文只有登录占位与站点脚本，页面全文没有出现游戏名，无法读取原帖内容；仅登记线索，不作为证据。",
+  "社区帖为玩家指控，与当前商店披露相互矛盾，只登记不判定，不作为任何领域的证据。"
+ ]
+}

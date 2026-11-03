@@ -1,0 +1,215 @@
+{
+  "sources": [
+    {
+      "appId": "5147000",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5147000/?l=english",
+      "fetchedAt": "2026-10-31T02:04:07.708717+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "50463df813ea28a2fe01d22e2dc2f690a456c23ec44ad028003df15a48667e7e",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5147000\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "No generative AI was used to create the game's visual art or artwork. Generative AI was used to create the initial versions of some music tracks, which were then manually edited and adapted into loopable versions for use in the game. AI was also used to assist with drafting and editing some store page descriptions.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "No generative AI was used to create the game's visual art or artwork. Generative AI was used to create the initial versions of some music tracks, which were then manually edited and adapted into loopable versions for use in the game. AI was also used to assist with drafting and editing some store page descriptions."
+    },
+    {
+      "appId": "5147000",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5147000/discussions/?l=english",
+      "fetchedAt": "2026-10-31T02:04:09.040243+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "51cc14f7328683aba903bc4ad73a3f75393f76b7cdc2ebcc385dd3609259057a",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5147000\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Daydream Cat – Common Issues & Troubleshooting Guide\n工坊的下拉式璇單\nSpirit potential unclear\nOffline progress how can i see how long i can last offline to gain resources\n상성표\nWish there was a fullcreen option\n會閃退呢\nPiste d'amélioration du jeu\n玩了大概10個小時\nHow to use Chaos Dust or Other Items?\nUI scale 150% doesn t work. It just does not select on click.\n希望倉庫的篩選能優化一下\n目前有没有未来更新计划\n1 Feedback\nCan any rarity reach T13? What a confusing explanation.",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 38）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5147000",
+      "sourceType": "press",
+      "url": "https://gamedb.ai/games/5147000-daydream-cat-dreamspirits-idle-adventure",
+      "fetchedAt": "2026-10-31T02:09:33.345707+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "Some music tracks began as AI output and were edited by hand; AI helped draft store text; no AI art.",
+      "locator": "full article text",
+      "label": "GameDB.ai 对本作 Steam AI 披露的结构化索引页",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5147000\\press-0.html",
+      "contentHash": "280174abeb751226b3719eb2b2a6127346ae2f4346e877f1f7551debd846420e"
+    },
+    {
+      "id": "press-1",
+      "appId": "5147000",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/5147000",
+      "fetchedAt": "2026-10-31T02:09:34.833812+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "No generative AI was used to create the game's visual art or artwork.",
+      "locator": "full article text",
+      "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5147000\\press-1.html",
+      "contentHash": "9f804466593b6494240e6dccd00421b84feaaa49d38fadabfc94799213e44588"
+    }
+  ],
+  "identity": {
+    "appId": "5147000",
+    "name": "Daydream Cat: DreamSpirits Idle Adventure",
+    "developer": "StandinFire Studio",
+    "publisher": "StandinFire Studio",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 29, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie",
+      "RPG"
+    ],
+    "description": "An idle collection RPG that keeps adventuring on your desktop. Build a team of three Dreamspirits, combine roles, skills, equipment, and innate affixes, then push farther through auto-battles, hatching, fusion, and talent progression.",
+    "identityEvidence": {
+      "appId": "5147000",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5147000&l=english",
+      "fetchedAt": "2026-10-31T02:04:08.323048+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "9157309f2e39dd6affc31d982473578f354a1151fdc92a78475c32cce166e381",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5147000\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 38,
+    "topics": [
+      {
+        "title": "PINNED: Daydream Cat – Common Issues & Troubleshooting Guide",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/565923440615474419/"
+      },
+      {
+        "title": "工坊的下拉式璇單",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991206973/"
+      },
+      {
+        "title": "Spirit potential unclear",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991223771/"
+      },
+      {
+        "title": "Offline progress how can i see how long i can last offline to gain resources",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991176894/"
+      },
+      {
+        "title": "상성표",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991174665/"
+      },
+      {
+        "title": "Wish there was a fullcreen option",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991178306/"
+      },
+      {
+        "title": "會閃退呢",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991204318/"
+      },
+      {
+        "title": "Piste d'amélioration du jeu",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/574929704291693985/"
+      },
+      {
+        "title": "玩了大概10個小時",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991183421/"
+      },
+      {
+        "title": "How to use Chaos Dust or Other Items?",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991200617/"
+      },
+      {
+        "title": "UI scale 150% doesn t work. It just does not select on click.",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991151175/"
+      },
+      {
+        "title": "希望倉庫的篩選能優化一下",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991142757/"
+      },
+      {
+        "title": "目前有没有未来更新计划",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072991153855/"
+      },
+      {
+        "title": "1 Feedback",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/574929704291857176/"
+      },
+      {
+        "title": "Can any rarity reach T13? What a confusing explanation.",
+        "url": "https://steamcommunity.com/app/5147000/discussions/0/573805072990984287/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Daydream Cat\" DreamSpirits Idle Adventure Steam AI disclosure generative AI",
+    "searchedAt": "2026-10-31T02:02:00+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://gamedb.ai/games/5147000-daydream-cat-dreamspirits-idle-adventure",
+        "relevant": true,
+        "reason": "第三方 AI 披露索引，按八个领域转录本作 Steam 披露，已读全文。"
+      },
+      {
+        "url": "https://aitransparencyindex.com/products/steam/5147000",
+        "relevant": true,
+        "reason": "第三方 AI 披露索引，逐字复刻商店披露原文，已读全文。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5147000/Daydream_Cat_DreamSpirits_Idle_Adventure/",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESZQHrOzAVR-JqrIB6WDff5e84waMsP-0ovFcZneEhIUlUrEHKK__T7ejjnJiPVJ8p8vYWNzJIUYNF_G0WrTOoW7dbCiOuDv3Hj0j8um3yK5K5NTfijzMrm-sVBZsIkuoAzr3ZQjj1",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAES0QEB6zswFY3CbcnIRdBgPy2MBur6v4I38rydN1AqqT8LIxQKwBcesszR8wHkE5IuZj2Cq64GnUfswBOwlqhJlf7uW-bol9wbS5hP6XD4cLDh_hK-eva45LKMHcw-xe9GsOtKTcjywZhu7CBR2w6WeD5Xo6Ivzox37MxFv6LgrB4DieImDjE1L1azAOGbSI4nPSRGNs9w9I6E170yOfvtJph5dg9mMhC3dV5rNS2fVGkNBG_WF7spok9gRNOIX2vBhkL2_0hcSXDKXjVlS1e_tEarLw",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESoAEB6zswFWZ9fnJw0huNNFnnRFsBr78KWhCtrWObqf33Rj9QduYsGQAbW77itAmrLUY1wpQzwbjPG_8XfRFvMkVBJt-8jLpNFrQJeYB2D2v8uyUgDtQL6QJ5-TE579nfM4EDrJLoauX3qzUt5y9auCupLS0-Ribf2-9Ji5oVCuTxeR3ojp28IXoYFX5Ac1MLdLi965Hy64I1QvpnsrSQ4EcK",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/5147000",
+      "https://gamedb.ai/games/5147000-daydream-cat-dreamspirits-idle-adventure"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+      "两条索引站页面都是对本作 Steam 披露的转录与再加工，不与商店原文互相替代；领域判定一律以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5147000\\press-search.json",
+    "contentHash": "f2a773dd25f77a7c7578b145d429ef69b0f58fa5b3aa72ec3b1b1e06775a95d8"
+  }
+}

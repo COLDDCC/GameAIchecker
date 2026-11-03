@@ -1,0 +1,200 @@
+{
+  "sources": [
+    {
+      "appId": "4854120",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4854120/?l=english",
+      "fetchedAt": "2026-10-31T03:55:03.383963+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "fcf4fcb4c48e3805ede505dbd47ccade3d393b5471a21c0b057776f1a5105e96",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4854120\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Ski Lines is a solo-developed indie game created with the help of generative AI tools. AI was used throughout production to support artwork creation, music and sound design, code assistance, prototyping, iteration, and marketing assets. Every AI-assisted element was curated, edited, and integrated by the developer to fit the game’s minimalist ski-map aesthetic and gameplay vision. The use of AI helped accelerate production while preserving human creative direction, design decisions, quality control, and final authorship.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Ski Lines is a solo-developed indie game created with the help of generative AI tools. AI was used throughout production to support artwork creation, music and sound design, code assistance, prototyping, iteration, and marketing assets. Every AI-assisted element was curated, edited, and integrated by the developer to fit the game’s minimalist ski-map aesthetic and gameplay vision. The use of AI helped accelerate production while preserving human creative direction, design decisions, quality control, and final authorship."
+    },
+    {
+      "appId": "4854120",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4854120/discussions/?l=english",
+      "fetchedAt": "2026-10-31T03:55:04.582067+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "59c2ce0408c7953493b3887271265599c597cd84120d51485dcde3eb06a4633b",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4854120\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "MacOS, Snapping, Synchronized game\nOn Game Exit, it crashes\nNothing but praise for this game\nWindows now blocking the demo\nLose condition & other questions\nLose at 6 PM\nText size controls\nSkiers waiting for lift at 6 pm\nIs there a way to zoom in/out? (And/or keymapping info)\nDelete Suggestion\nmake skier use alternative routes\nArt style feedback\nSteam workshop not working\nTrail Meging\nSki Dubai day 39 score 169444 rank #1",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 44）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4854120",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/4854120",
+      "fetchedAt": "2026-11-03T02:36:15.697811+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "AI was used throughout production to support artwork creation, music and sound design",
+      "locator": "full article text",
+      "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4854120\\press-0.html",
+      "contentHash": "4f4776f77dbfeeb41a6d31781efafceb5d80a8fdd46424a7c41b5eff80ca2145"
+    }
+  ],
+  "identity": {
+    "appId": "4854120",
+    "name": "Ski Lines: Trail Map",
+    "developer": "Yunogames",
+    "publisher": "Yunogames",
+    "type": "game",
+    "verified": true,
+    "release": "November 2026",
+    "comingSoon": true,
+    "genres": [
+      "Casual",
+      "Indie",
+      "Simulation",
+      "Sports",
+      "Strategy"
+    ],
+    "description": "Ski Lines is a minimalist strategy game about designing a ski resort map. Draw pistes, build lifts, and connect mountain landmarks as new points of interest appear. Spend your limited resources wisely, adapt your network each day, and keep the resort moving for as long as possible.",
+    "identityEvidence": {
+      "appId": "4854120",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4854120&l=english",
+      "fetchedAt": "2026-10-31T03:55:03.894973+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "90b1bfb88b57fe67c8f3a07973cf391a03a79f2f18859336467bde5607b42fc1",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4854120\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 44,
+    "topics": [
+      {
+        "title": "MacOS, Snapping, Synchronized game",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373261157989/"
+      },
+      {
+        "title": "On Game Exit, it crashes",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373261159136/"
+      },
+      {
+        "title": "Nothing but praise for this game",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373261208526/"
+      },
+      {
+        "title": "Windows now blocking the demo",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373261075258/"
+      },
+      {
+        "title": "Lose condition & other questions",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373261187740/"
+      },
+      {
+        "title": "Lose at 6 PM",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373261208574/"
+      },
+      {
+        "title": "Text size controls",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/569301136948080410/"
+      },
+      {
+        "title": "Skiers waiting for lift at 6 pm",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373261155433/"
+      },
+      {
+        "title": "Is there a way to zoom in/out? (And/or keymapping info)",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/569301136948109047/"
+      },
+      {
+        "title": "Delete Suggestion",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373260952193/"
+      },
+      {
+        "title": "make skier use alternative routes",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373260963542/"
+      },
+      {
+        "title": "Art style feedback",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/569301416225576159/"
+      },
+      {
+        "title": "Steam workshop not working",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373260962367/"
+      },
+      {
+        "title": "Trail Meging",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373261025532/"
+      },
+      {
+        "title": "Ski Dubai day 39 score 169444 rank #1",
+        "url": "https://steamcommunity.com/app/4854120/discussions/0/570427373261064916/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Ski Lines\" \"Trail Map\" Steam game AI",
+    "searchedAt": "2026-10-31T03:56:30+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/4854120/Ski_Lines_Trail_Map/",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4854120/Ski_Lines%E6%BB%91%E9%9B%AA%E9%81%93%E5%9C%B0%E5%9B%BE/?l=hungarian&snr=1_1056_4_1056_curator-tabs&curator_clanid=46212172",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://aitransparencyindex.com/products/steam/4854120",
+        "relevant": true,
+        "reason": "AI Transparency Index 逐字复刻本作 Steam 披露并给出结构化分析，已读取原始页面；其内容仍是商店披露的转录，不构成独立核实。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESnQEB6zswFdydv-7mKzfRyE0_A4I-iKRrR0CakkvW8QpL9qJlT3WoIVL3BW4UPZauuziUPzAOQ6eCrZA5mH2Hd77Gx3TQvSEIwPJRSrKcgnZHdk23ghPzx-DHlg5u_6LZoDYzJwnU8Ndvj947LbArfieYC2WtRFTWSc-_qq7QrdppL2ofT49-bHpaLrufqLpJWzCAGbrNRzNyLNuEkuGe",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESYwHrOzAVvDO2z83yn6UNgWI9mebdUF6PbnNbJKS7QRUO0dpSPk_U7X-UdRK5le5_sSyJpAvlkTeUJtklGac7fetDQdxT8ECE0N0NEjxy4AJOnxABAJ8Eqb_tX80AtTXpnEyn5A",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESmgEB6zswFUIYZ_E8vLlk47usdQ0_SY60wVSY5DgXlxVosWWAinNPR5J1qO_eZMN7RKiIkUjftH0D5oV_nR_DEqU_M_tQbbxn2VtieF7BqxgE_aenpm4Ugz06CI3jJK_DuMIfb-8fys5v_It1ABdBdC7F0iKEZUpzLXZXlB6d0eZWI_kMNu7pCcQLxwDfaJYCaM2qF5JUq5iP4zhF",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/4854120"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4854120\\press-search.json",
+    "contentHash": "6c116724fde626dc4daa7c8449c9da1416c846f626477da3c90da15b79cb1c43"
+  }
+}

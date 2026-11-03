@@ -1,0 +1,40 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5306540/Groundwork_Simulator/",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/5306540/negativereviews/?l=schinese&browsefilter=toprated",
+   "relevant": false,
+   "reason": "本作 Steam 差评列表页（不是单条主题帖），本轮未逐帖抓取，不作为任何领域证据。"
+  },
+  {
+   "url": "https://www.instagram.com/reel/De4cAvAtfFw/",
+   "relevant": false,
+   "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5306540/Groundwork_Simulator/?l=schinese&snr=1_7_7_230_150_44",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://steamdb.info/app/5306540/history/",
+   "relevant": false,
+   "reason": "SteamDB 页面只记录价格与上架状态变更，没有 AI 披露内容。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=b_Qnx6kZDZo",
+   "relevant": false,
+   "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+ ]
+}

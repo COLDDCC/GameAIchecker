@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://www.pcgamingwiki.com/wiki/Woman_Simulator",
+   "relevant": false,
+   "reason": "PCGamingWiki 条目页，内容以运行环境与修正为主，与本作 AI 披露无直接关系，未读取正文。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4072240-woman-simulator",
+   "relevant": true,
+   "reason": "GameDB.ai 本作页把商店披露摘要为“AI 生成音乐与部分图像、并承担部分语种本地化”，已读取原文；属转录，不构成独立核实。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4072240/Woman_Simulator/?l=danish&curator_clanid=42532812",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4981700-robot-vacuum-simulator",
+   "relevant": false,
+   "reason": "页面属于另一款游戏或本作的 Demo，不是本作正式版，与本作 AI 披露无关。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4072240/Woman_Simulator/?l=malay&snr=1_7_7_230_150_1992",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://note.com/kc_tmn/n/n5975dbaee433?hl=en",
+   "relevant": false,
+   "reason": "第三方博客/资讯页，标题与本作 AI 披露无直接关系，未读取正文。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4072240",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/4072240-woman-simulator",
+   "fetchedAt": "2026-11-03T03:21:39.736288+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI created the music and some images, and localized the game into some languages.",
+   "locator": "full article text",
+   "label": "GameDB.ai 本作页对商店披露的摘要",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4072240\\press-0.html",
+   "contentHash": "8e8b78d61fe4f50fb1cddb9a2b27d860cb63de5e041a075bd63e099514106621"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+ ]
+}

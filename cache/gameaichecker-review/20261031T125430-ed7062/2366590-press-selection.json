@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://www.reddit.com/r/Games/comments/1vodftd/rideshare_stimulator_posts_ai_disclosure_on_steam/",
+   "relevant": false,
+   "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文无法读取；该帖与本作 AI 使用直接相关，只登记线索，不作为任何领域的证据。"
+  },
+  {
+   "url": "https://www.eurogamer.net/saber-rideshare-stimulator-steam-ai-disclaimer",
+   "relevant": true,
+   "reason": "Eurogamer 报道 Saber Interactive 在与前编剧的争议后为本作补上 Steam AI 披露，转述披露内容与 CEO 说法，已读取全文。"
+  },
+  {
+   "url": "https://www.facebook.com/Eurogamer/posts/saber-interactive-finally-adds-an-ai-disclaimer-to-rideshare-stimulators-steam-p/1379079011079419/",
+   "relevant": false,
+   "reason": "Facebook 转发的是同一篇 Eurogamer 报道，原文已按 Eurogamer 链接读取，不重复计入来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEShAEB6zswFadgGEzoISVIj1N0XGSXEl7Pv5DU1Pe_lfjNX1xLNuJ0SRwPt1X2vNsiTC9rda7rCoHHRRVSpnNA2A5gI45Uu63lzG5Q3nmXa7cx_5i0BYLRB9l6SV2LARVqi0OMz47lILKQbg2WQMN5Kh_tecmiQF9SCX2HyOXL79OKSnxr2_I",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEScAHrOzAVyzdmsGekF6Hxa3KLamHsKh7O1LoIVcs2K-1n7tjTVU83WQtOLqmLRI_yr6TAmBCusF69SpTO30NGVcKNkZ5JSvvAdQOiNtvLMuTnSZSOkwFzmESZ6h1sa0CJRGjxwFVGMj4emXxakYdwfDo",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESYwHrOzAVMC-29xAkRq465vrAW0o2eBNS2cEZsMRIyReFYSjRI_wQ9WFp3038U3Na-k3f6guj0V-LB5ujRElNTkjSEq1UJw0w6sQdaN4FgT37ZLwWk4aDJ3cqhOUYNFVX6lFzZw",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "2366590",
+   "sourceType": "press",
+   "url": "https://www.eurogamer.net/saber-rideshare-stimulator-steam-ai-disclaimer",
+   "fetchedAt": "2026-11-03T02:36:18.196737+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "It states that the main campaign's story, characters and dialogue are written entirely by human writers, with AI tools used only for voice generation and some localisation.",
+   "locator": "full article text",
+   "label": "Eurogamer 对本作补上 Steam AI 披露的报道",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\2366590\\press-0.html",
+   "contentHash": "26561b7be08304509571262c094e9ebf575d92d81b05236f5cd303ea3ac65736"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "Reddit 链接经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读，只能作为线索登记。",
+  "Eurogamer 报道转述开发者与发行方的说法，不等同于对 AI 使用范围的独立核实。"
+ ]
+}

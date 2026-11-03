@@ -1,0 +1,88 @@
+{
+  "appId": "3299050",
+  "name": "No Such Place",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "抢先体验的 roguelike 动作冒险。开发者以“独立团队资源有限”为由，披露 AI 用于叙事开场视频的主持人与游戏内少量语音台词，并声明可玩内容、美术素材与代码的其他部分均未使用生成式 AI。",
+  "aiUsageCategories": [
+    "voice"
+  ],
+  "aiAreas": {
+    "ingame": "claimed_none",
+    "code": "claimed_none",
+    "art": "claimed_none",
+    "music": "not_stated",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "开发者声明除上述主持人与少量语音外，可玩内容没有使用生成式 AI。属自述，未经独立审计。",
+    "code": "开发者声明代码未使用生成式 AI。属自述，未经独立审计。",
+    "art": "开发者声明美术素材未使用生成式 AI；但同一份披露把开场视频主持人单列，未说明其视觉素材归类，存在表述张力。属自述，未经独立审计。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "披露称叙事开场视频的主持人以及游戏内少量语音由生成式 AI 制作。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "code": "official",
+    "art": "official",
+    "voice": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3299050/",
+  "developer": "ChillyRoom, CritTeam 暴击组",
+  "publisher": "ChillyRoom, LoongGate",
+  "steamReleaseDate": "Oct 13, 2026",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Indie",
+    "Early Access"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3299050/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "As an independent team with limited resources, we used generative AI tools to create the presenter in the narrative opening video and a limited number of voice lines in the game. No generative AI technology was used in any other part of the game's playable content, art assets, or code."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3299050/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 285）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/3299050/discussions/0/571541859030195913/?l=latam",
+      "label": "Steam 社区玩家在讨论区指称本作用到生成式 AI 语音、且称页面当时无披露（与当前商店披露不一致，属玩家指控）",
+      "date": "2026-10-31",
+      "excerpt": "There is no disclosure of AI use, even though the game uses genAI for (for example) voices."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 ChillyRoom, CritTeam 暴击组）与英文讨论区首页（可见 15 个主题，总数 285），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（Steam 社区玩家在讨论区指称本作用到生成式 AI 语音、且称页面当时无披露（与当前商店披露不一致，属玩家指控））。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。 本作处于抢先体验阶段。 检索到的社区帖指称本作用到未披露的 AI 语音，与当前商店披露相互矛盾；按规则只登记不判定，不作为任何领域的证据。",
+  "disclosureQuote": "As an independent team with limited resources, we used generative AI tools to create the presenter in the narrative opening video and a limited number of voice lines in the game. No generative AI technology was used in any other part of the game's playable content, art assets, or code.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-31 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An Early Access roguelike action adventure. Calling itself a resource-limited independent team, the developer states generative AI was used to create the presenter in the narrative opening video and a limited number of voice lines, and that no generative AI was used in any other part of the playable content, art assets or code.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer ChillyRoom, CritTeam) and the English discussion homepage (15 visible topics of 285); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The game is in Early Access. A community thread alleging undisclosed AI voice-over was read and logged as an allegation only; it is not evidence and changes no area finding.",
+    "aiAreaNotes": {
+      "ingame": "The developer states that no generative AI was used in any other part of the playable content; this is a self-report and was not independently audited.",
+      "code": "The developer states that no generative AI was used in the code; this is a self-report and was not independently audited.",
+      "art": "The developer states art assets contain no generative AI, yet the same disclosure carves out the opening-video presenter without classifying its visual material, which leaves a wording tension; this is a self-report and was not independently audited.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "Generative AI was used to create the presenter in the narrative opening video and a limited number of voice lines in the game.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "c16d474e90442fab4ce48b5a0386ada6f0b7e32e1bcfc105eb3098d8cc24297c"
+  }
+}

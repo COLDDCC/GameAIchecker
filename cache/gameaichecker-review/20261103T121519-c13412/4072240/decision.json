@@ -1,0 +1,63 @@
+{
+ "identityName": "Woman Simulator",
+ "identityDeveloper": "Sebasa Games",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称本作部分图像素材由 AI 制作。",
+   "evidenceId": "store",
+   "quote": "The music and some of the images were created using artificial intelligence."
+  },
+  "music": {
+   "state": "used",
+   "note": "披露称本作的音乐由 AI 制作。",
+   "evidenceId": "store",
+   "quote": "The music"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露称本作部分语种的本地化由 AI 完成。",
+   "evidenceId": "store",
+   "quote": "Localization into some languages was performed using artificial intelligence."
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "The music and some of the images were created using artificial intelligence. Localization into some languages was performed using artificial intelligence.",
+ "summary": "以家庭主妇日常为主题的生活模拟，2026 年 9 月 25 日上市。开发者披露本作音乐与部分图像由 AI 制作，部分语种本地化也由 AI 完成。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Sebasa Games，发行商同名）与英文讨论区首页（可见 15 个主题，总数 252），首页有 4 个与 AI 直接相关的主题，已逐帖读取原文，内容是玩家批评 AI 美术与 AI 音乐、争论小型工作室是否该用 AI；按规则只登记不判定，不改变任何领域结论。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（GameDB.ai 本作页把披露摘要为“AI 生成音乐与部分图像、并承担部分语种本地化”，属转录，不构成独立核实）。PCGamingWiki 条目以运行环境与修正为主，另两条结果属于其他游戏或未读取。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+ "description": "以女性日常为主题的模拟：打扫、做饭、洗衣，几乎没有休息时间。",
+ "english": {
+  "summary": "A life simulation about the daily routine of a housewife, released on Sep 25, 2026. The developer states that the music and some of the images were created using artificial intelligence and that localization into some languages was also performed with AI.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Sebasa Games, self-published) and the English discussion homepage (15 visible topics of 252), where four topics directly concern AI use; all four threads were opened and read in full. They are player criticism of the AI art and the AI song in the trailer and argument over whether a small studio should use AI, so they are logged without changing any area finding. This title was searched 1 time with 6 results and 1 raw source(s) were read; the GameDB.ai page summarizes the disclosure as AI creating the music and some images and localizing the game into some languages, which is a transcription and not independent verification. The PCGamingWiki entry covers runtime and fixes rather than the disclosure, and the remaining results were other store locales, a page for a different title and an unrelated event post. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure states that some of the images were created using artificial intelligence.",
+   "music": "The disclosure states that the music was created using artificial intelligence.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "The disclosure states that localization into some languages was performed using artificial intelligence.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

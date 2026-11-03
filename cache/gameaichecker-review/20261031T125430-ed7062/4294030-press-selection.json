@@ -1,0 +1,55 @@
+{
+ "results": [
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4294030",
+   "relevant": true,
+   "reason": "AI Transparency Index 逐字复刻本作 Steam 披露并给出结构化分析，已读取原始页面；其内容仍是商店披露的转录，不构成独立核实。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/tavernia--1/info/",
+   "relevant": false,
+   "reason": "第三方比价站的价格/统计页，正文没有 AI 披露内容，与领域判定无关。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4294030/Tavernia/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESiwEB6zswFfGXWVuTu4b3FCDvFPHSAKWIFpCtqWwzhFpsNJesXlCBYVD19cLQj1W4qvZZ0BLdp2VFfMKgzjvU1FfexDS_gBR7Kw92LI0nAB-5BduSg2K_ZvvQ9gL5mVNmN9ULqirWRRPTep4GWkm43UaQ5vqZJBZZuLz94ptnnJbQNBDNlWXJ2zz9VMus",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESdAHrOzAVFM9EGothmQgX_S3Ac-vnGE-zZSfHSkllhUY2L54Qla_YXT_Q_KL2eLPGfzDk8kphnPw7eOMJRfgEQHnSdeS7XUyC_k4wgiccG9myesD9tX-F6pAT-w4I3dQXdkdBNd4rXiLr4vo7SpyzBnl8wtoE",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESiwEB6zswFe19hMQ0kld3grReEFkp18AsPj6RSi8IvTtgCh_UhOphuQclVL9ilbcpD16BpP-R6l0oL41OZPgExSMroBD2En_6JlivzkvUofixXuhZiEk6uEhZL6n_S7DGncIF3WmIx8cMXWIVm22TLniHzc3z-9Rb8h6FWP5cGn5Tq8t-Z9jwna0fA1Ac",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4294030",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4294030",
+   "fetchedAt": "2026-11-03T02:36:16.653882+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Some assets were created with the assistance of generative AI.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4294030\\press-0.html",
+   "contentHash": "efa09137b126ff15ed7227b6ab4f5af14acc175fdbbbcec5d8207cf824adb62e"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+ ]
+}

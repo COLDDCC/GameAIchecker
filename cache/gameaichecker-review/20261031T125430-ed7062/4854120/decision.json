@@ -1,0 +1,65 @@
+{
+ "identityName": "Ski Lines: Trail Map",
+ "identityDeveloper": "Yunogames",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "used",
+   "note": "披露称 AI 提供代码协助。",
+   "evidenceId": "store",
+   "quote": "music and sound design, code assistance"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称生成式 AI 贯穿整个制作过程，用于支持美术创作。",
+   "evidenceId": "store",
+   "quote": "AI was used throughout production to support artwork creation"
+  },
+  "music": {
+   "state": "used",
+   "note": "披露称 AI 同时用于音乐与音效设计，所有 AI 协助元素由开发者筛选、编辑后整合。",
+   "evidenceId": "store",
+   "quote": "to support artwork creation, music and sound design"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "used",
+   "note": "披露称营销素材也由 AI 协助，并强调创意方向、设计决策、质量控制与最终署名仍由人把握。",
+   "evidenceId": "store",
+   "quote": "prototyping, iteration, and marketing assets"
+  }
+ },
+ "disclosureQuote": "Ski Lines is a solo-developed indie game created with the help of generative AI tools. AI was used throughout production to support artwork creation, music and sound design, code assistance, prototyping, iteration, and marketing assets. Every AI-assisted element was curated, edited, and integrated by the developer to fit the game’s minimalist ski-map aesthetic and gameplay vision. The use of AI helped accelerate production while preserving human creative direction, design decisions, quality control, and final authorship.",
+ "summary": "个人开发的极简滑雪道地图策略游戏，计划 2026 年 11 月推出。开发者披露生成式 AI 贯穿制作过程，用于支持美术创作、音乐与音效设计、代码协助、原型与迭代以及营销素材，所有 AI 协助元素都经开发者筛选、编辑并整合。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Yunogames，发行商同名）与英文讨论区首页（可见 15 个主题，总数 44），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 逐字复刻商店披露的分析页，其内容仍是披露的转录而非独立核实）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。 本作核查时尚未发售（商店页标注 2026 年 11 月）。披露说明 AI 协助元素经过人工筛选编辑，但未说明是否存在运行时生成，ingame 领域按“披露未说明”处理。",
+ "description": "官方披露把 AI 用在美术、音乐与音效、代码协助、原型迭代与营销素材上，并强调人工把关创意方向与最终署名。",
+ "english": {
+  "summary": "A solo-developed minimalist ski resort map strategy game planned for November 2026. The developer states that generative AI tools supported artwork creation, music and sound design, code assistance, prototyping, iteration and marketing assets throughout production, and that every AI-assisted element was curated, edited and integrated by the developer.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Yunogames, self-published) and the English discussion homepage (15 visible topics of 44); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read; the AI Transparency Index page reproduces the store disclosure verbatim and is not independent verification. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The game had not been released at review time (the store page lists November 2026). The disclosure describes human curation of AI-assisted elements but does not say whether anything is generated at run time, so the in-game area is recorded as not addressed.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure covers development-time assistance but does not say whether any content is generated at run time; that is not proof of non-use.",
+   "code": "Code assistance is named in the disclosure as an area AI supported.",
+   "art": "Artwork creation is named in the disclosure as one of the areas AI supported throughout production.",
+   "music": "Music and sound design are named in the disclosure as areas AI supported.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "Marketing assets are named in the disclosure, while the developer states creative direction, design decisions, quality control and final authorship stayed human."
+  }
+ }
+}

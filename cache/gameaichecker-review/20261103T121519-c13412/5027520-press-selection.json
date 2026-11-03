@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://www.reddit.com/r/TidyUpGames/comments/1w7f0r7/is_the_progression_in_megastore_tidy_up_together/",
+   "relevant": false,
+   "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；只登记线索，不作为任何领域的证据。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/megastore-tidy-up-together/history/",
+   "relevant": false,
+   "reason": "比价/折扣聚合页，只有价格与折扣信息，没有 AI 使用内容。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/5027520",
+   "relevant": true,
+   "reason": "AI Transparency Index 逐字复刻本作商店披露并给出结构化分析，已读取原始页面；其内容仍是披露的转录，不构成独立核实。"
+  },
+  {
+   "url": "https://bsky.app/profile/duckaislop.bsky.social/post/3muwwd5xhoc27",
+   "relevant": false,
+   "reason": "Bluesky 个人帖子，标题无法判断与本作 AI 披露相关，中转抓取未读取正文，只登记线索。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4197610/discussions/0/525387344813187642/?l=german",
+   "relevant": false,
+   "reason": "页面属于另一款游戏或本作的 Demo，不是本作正式版，与本作 AI 披露无关。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5027520/Megastore_Tidy_Up_Together/",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5027520",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/5027520",
+   "fetchedAt": "2026-11-03T03:21:27.795559+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI assisted with translations and the creation of two in-game textures, which were human-edited before inclusion.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 复刻本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5027520\\press-0.html",
+   "contentHash": "3443d077ecc75f9cccd44f1237ee2adf0cff9015c2e13f48a3fa4ff0de7272ff"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+ ]
+}

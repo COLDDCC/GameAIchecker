@@ -1,0 +1,91 @@
+{
+  "appId": "5062910",
+  "name": "Life Is a Dungeon: Lean into It.",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "地牢题材动作 RPG。开发者披露 AI 用于部分图形与宣传图的创作与迭代、角色语音翻译，以及协助编写与实现游戏代码；所有输出经开发者筛选审阅，且明确说明游玩时不产出 AI 生成内容。",
+  "aiUsageCategories": [
+    "code",
+    "art",
+    "translation",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "used",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露明确说明游玩过程中不产出任何 AI 生成内容，且所有输出均由开发者筛选、审阅并整合。",
+    "code": "披露称 AI 协助编写并实现游戏代码。",
+    "art": "披露称部分图形由生成式 AI 创作并反复打磨。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "同一句原文把“翻译角色语音”列为 AI 用途，因此本地化领域同样计入。",
+    "marketing": "披露称宣传图（promotional images）由生成式 AI 参与创作与迭代。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "code": "official",
+    "art": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5062910/",
+  "developer": "Anonymous Works",
+  "publisher": "syn Sophia, Inc.",
+  "steamReleaseDate": "Oct 26, 2026",
+  "genres": [
+    "Action",
+    "Indie",
+    "RPG"
+  ],
+  "reviewedAt": "2026-10-31",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5062910/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-10-31",
+      "excerpt": "Generative AI was used to create and iteratively refine some graphics and promotional images, to translate character voices, and to assist with writing and implementing the game’s code. All outputs were selected, reviewed, and integrated by the developer. No AI-generated content is produced during gameplay."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5062910/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-10-31",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 26）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gamedb.ai/games/5062910-life-is-a-dungeon-lean-into-it",
+      "label": "GameDB.ai 对本作 Steam AI 披露的结构化索引页",
+      "date": "2026-10-31",
+      "excerpt": "AI helped create some graphics and promotional images, translate character voices, and write and implement code."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Anonymous Works）与英文讨论区首页（可见 15 个主题，总数 26），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（GameDB.ai 对本作 Steam AI 披露的结构化索引页）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Generative AI was used to create and iteratively refine some graphics and promotional images, to translate character voices, and to assist with writing and implementing the game’s code. All outputs were selected, reviewed, and integrated by the developer. No AI-generated content is produced during gameplay.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-10-31 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An action RPG. The developer states generative AI created and iteratively refined some graphics and promotional images, translated character voices, and assisted with writing and implementing the code, that all outputs were selected and reviewed by the developer, and that no AI-generated content is produced during gameplay.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Anonymous Works) and the English discussion homepage (15 visible topics of 26); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure states no AI-generated content is produced during gameplay and that all outputs were selected, reviewed and integrated by the developer.",
+      "code": "AI assisted with writing and implementing the game's code.",
+      "art": "Some graphics were created and iteratively refined with generative AI.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The same sentence lists translating character voices as an AI use, so the localisation area is recorded here as well.",
+      "marketing": "Promotional images were created and iteratively refined with generative AI."
+    },
+    "sourceRecordHash": "a61071b2e357cadaa44b4bf72250c91f0be19b1fb08b8ef83c0a4dc7ddc340bc"
+  }
+}

@@ -1,0 +1,55 @@
+{
+ "results": [
+  {
+   "url": "https://aitransparencyindex.com/products/steam/3809080",
+   "relevant": true,
+   "reason": "AI Transparency Index 逐字复刻本作 Steam 披露并给出结构化分析，已读取原始页面；其内容仍是商店披露的转录，不构成独立核实。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3809080/Never_Wither/?curator_clanid=36376191",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/never-wither/info/",
+   "relevant": false,
+   "reason": "第三方比价站的价格/统计页，正文没有 AI 披露内容，与领域判定无关。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESrwEB6zswFQYLEhMWh-lErvrceGjc1S36Pxug35F7uTZtWyNMdOq22myEc5u22eaBC_P6CR-eLNxRfXoWyLH8nnZAydnkdRUFD_yhs4KLtCuaRfe_6XWlWL0PjpuODj9F2P4xW_L-qOTaqVwUKxR-a3eQtErG78liipBUrVmI6bcNQiYZB5wkwBliDO8oXEmQLHcvj4V6gJiV554KqNZMQ-mAcVXfdGuPzRkv_uyAd46i",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESeAHrOzAVEgKxSUtnfPWjq_DeBKKbRzV_5h09GFJDj0Tx6NIsHNjHHb_ZTqUqiIbvIabdiWngA0kovKdFaH5ND3ugTD-L6APK-bYvLVT_--GPZB81Wqe2l5NndTPF39_JvWI89g_6WF3zdi4xZeL6ZK5Xf99mSPjAZQ",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESlwEB6zswFbL_1hekMkXI7Vor99x8wAwglPXlA2K_6MRuRlp4M1CB8qLQNqhch9k8lkYwX4SlctORFCRX7bRN4VZ07Hld2QExdUays0kSWCFeWcZ3eBU5MtMKSpU0m5fK_S5CsUQgezZ-XT2o5Gq0_sQW5SSq3w8_pVlVCXEWNRp09HcdpUXMi_M3w3NQly7l6hxeYzkBkn8E",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3809080",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/3809080",
+   "fetchedAt": "2026-11-03T02:36:19.796989+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Some images on the store page are generated using AI tools to create initial concept art, which are then manually adjusted and modified by artists. The final works combine AI-generated foundational designs with human artistic revisions.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\3809080\\press-0.html",
+   "contentHash": "bce9f034ce5f81f799afe1807a95a3cb8d168a27ed7b6d905128779336126436"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+ ]
+}

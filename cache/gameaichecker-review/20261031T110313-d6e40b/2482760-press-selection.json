@@ -1,0 +1,42 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/2482760/Hunting_Simulator_3/?snr=1_300_morelikev2__105_6",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.instagram.com/p/De7aJSkEQ5z/",
+   "relevant": false,
+   "reason": "抓取返回 HTTP 200，但正文只有登录占位与站点脚本，页面全文没有出现游戏名，无法读取原帖内容；仅登记线索，不作为证据。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/2482760/?snr=1_5_9__205",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZgHrOzAVzajDNn4qFYo6CvOzEDOcTXWlwH28AUX4eAxAZYYuewQ905TfzOR6zRsNTYIzx4ms1tTAaMU9G0dS0kTpI2vaImlGZsuE3jNNi4_bRv1Bd3V8P_XK4d-c4EJ_FHDvh5u7Zg",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESzAEB6zswFfZ-05xurYj7Zmk3rIqZRX2u3Ta7Dq8C7IAWA5FscIq0KNdJyhqxjzDsjXxu6y9-r_BH3jtsO9SHX8SKk--S8_PB2XxwPj-xo8TbIlDOO0y1Vs1sKV5WDGKsKPYytT3WOpV1Ad6Kgx_Az4ZfVXShEyDVO2L4PVTg31uTJRwfnIw4diS5CaPU7GqE4aUcP7n-38daDdT9VByDfZ6j80WzptpwjUCI9zleWndfeWAhAgzaQAucVlB5yoSGzAUqnqi2lONZjo5I2cU",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESzwEB6zswFTyZIR308HCpfd-mUpGMr_wUEh837VkmbSxKx2XOIn30aQu3NCRZYxbIGt7lSDfVM6YePpNGyovyko6pjmKk-aF4rkT3OiBu-XIf89QubNtwUWQgfVZR8dXtQE_ttTyayo-6QIEhSPm4ZSgeEw3LbwYGQFYmrhpreZBsDUrM-Omhua9A7POXmpWaUt-nh4u7DR3HceodsJKQn2b4dd3PEc3lGgo9NV3UcP6IMhiqMK727qKvXlulYnOYO8PX9rd6LhHIw6SAc01eWU8",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "本款另以 “Hunting Simulator 3 review AI generated content disclosure Steam” 与 “2482760 Hunting Simulator 3 AI disclosure gamedb.ai OR aitransparencyindex OR news” 复检两次，返回仍是商店页、Instagram 与跳转壳，未出现针对本作的独立报道。",
+  "抓取返回 HTTP 200，但正文只有登录占位与站点脚本，页面全文没有出现游戏名，无法读取原帖内容；仅登记线索，不作为证据。",
+  "未读取到独立报道只说明本次检索范围，不能据此认定本作没有相关讨论。"
+ ]
+}

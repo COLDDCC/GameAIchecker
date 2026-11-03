@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://bsky.app/profile/duckaislop.bsky.social/post/3mvld6gqfyk2h",
+   "relevant": true,
+   "reason": "Bluesky 社区帖点名本作与开发商的 Steam 披露；只登记不判定，已读整页。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5053820/Mimic_Party/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.resetera.com/threads/list-of-games-that-use-generative-ai.1367848/page-21",
+   "relevant": false,
+   "reason": "抓取返回 HTTP 403，正文未能读取；保留为抓取失败，不作为证据。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESmwEB6zswFTF4WjBqfSwPlOD7T81qXgoKyluAj3Qne5wtWiJE_oXMv4NEmhYB14sGv1D7XrcRY6kAIQRD47QJaUxpu0dWlCnfKQ2M6a0GVmvajkmuVtpOZ1XT2XWQlMuGrcVuAT1Ba5y5a48mEwjNdZkjn3P5n16FYue8OSFqoG1DUDjV-JSw51U3mQPdec7hf5G75BSsAHa46jkiXg",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESnwEB6zswFYnkKv8ztMdSW-oEQJss4y6Q8Lntrl6yBPqP2LBa4EqWnRyZwyGL63HWPWXs8PeK33btUgg4rqyiRL4LFlDtTMB7Fmcu50Po6k8NxGFF4tTIIiciAa55Fa3J-hPMzbSyvBVCwJSbuPKGVPjUxA6DzYiri4mgLTfELCjedAVJhIXA7SuTA6HCuOVYIMA6kKnoIUqx6F2kyDGY0Cs",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESagHrOzAVOoBNYMiGXP_jHxkOZhQgGmMqlaxYKFC3jSBCiizBGZsBC6LblzcPMandFyBUb2RnGjFfHQ1r_UVvO7VVYH1VkXQKgpUIn3MHSECdFeFh4jMOSiLtPuqGNeBXkcY0VllgT25QEBE",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "community-0",
+   "appId": "5053820",
+   "sourceType": "community",
+   "url": "https://bsky.app/profile/duckaislop.bsky.social/post/3mvld6gqfyk2h",
+   "fetchedAt": "2026-10-31T02:09:38.643618+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Mimic Party\\nFoliesAPP. Steam disclosure -y",
+   "locator": "full article text",
+   "label": "Bluesky 账号 Duck AI Slop!! 的帖子，正文出现本作名、开发商与 Steam disclosure 字样；仅为社区线索",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\5053820\\community-0.html",
+   "contentHash": "79887d274c1a1484526d52e1671ffc7e5eaefddea618ab47151572ab8189830e"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "resetera 的生成式 AI 游戏清单帖返回 HTTP 403，正文未能读取，保留为抓取失败。",
+  "Bluesky 帖为社区线索，只登记不判定。"
+ ]
+}

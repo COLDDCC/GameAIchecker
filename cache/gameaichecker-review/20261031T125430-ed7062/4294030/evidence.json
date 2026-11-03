@@ -1,0 +1,154 @@
+{
+  "sources": [
+    {
+      "appId": "4294030",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4294030/?l=english",
+      "fetchedAt": "2026-10-31T03:55:05.328791+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "be4ac6244f9d6572055832dbb858cb43ce88e54c6087015f85857d2c1371776c",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4294030\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Some assets were created with the assistance of generative AI.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Some assets were created with the assistance of generative AI."
+    },
+    {
+      "appId": "4294030",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4294030/discussions/?l=english",
+      "fetchedAt": "2026-10-31T03:55:06.618107+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "4153c533b49cbd25c5dd02bf42db198880a96f30c955657ca12ddc39349a519c",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4294030\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Expanze tvorba\nNové téma\nSlovenčina\nProblém s hnědou obrazovkou",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 4 个主题（总数 4）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4294030",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/4294030",
+      "fetchedAt": "2026-11-03T02:36:16.653882+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "Some assets were created with the assistance of generative AI.",
+      "locator": "full article text",
+      "label": "AI Transparency Index 逐字复刻商店披露的分析页",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4294030\\press-0.html",
+      "contentHash": "efa09137b126ff15ed7227b6ab4f5af14acc175fdbbbcec5d8207cf824adb62e"
+    }
+  ],
+  "identity": {
+    "appId": "4294030",
+    "name": "Tavernia",
+    "developer": "Hradba",
+    "publisher": "Hradba",
+    "type": "game",
+    "verified": true,
+    "release": "November 2026",
+    "comingSoon": true,
+    "genres": [
+      "Casual",
+      "Strategy",
+      "Free To Play"
+    ],
+    "description": "A strategy board game for 2–8 players. Answer trivia to claim empty tiles, then beat your opponents in minigame duels to take theirs. Play cards to challenge them to typing races, word puzzles, reaction tests, and more.",
+    "identityEvidence": {
+      "appId": "4294030",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4294030&l=english",
+      "fetchedAt": "2026-10-31T03:55:05.925048+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "90539800aa00be3b2232576d20b022bbf83cb9b1be8ffb8688c01fe8ba56629e",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4294030\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 4,
+    "totalTopics": 4,
+    "topics": [
+      {
+        "title": "Expanze tvorba",
+        "url": "https://steamcommunity.com/app/4294030/discussions/0/562545740486027248/"
+      },
+      {
+        "title": "Nové téma",
+        "url": "https://steamcommunity.com/app/4294030/discussions/0/562545740485770513/"
+      },
+      {
+        "title": "Slovenčina",
+        "url": "https://steamcommunity.com/app/4294030/discussions/0/570426530135774622/"
+      },
+      {
+        "title": "Problém s hnědou obrazovkou",
+        "url": "https://steamcommunity.com/app/4294030/discussions/0/570426530135760123/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Tavernia\" Steam game AI disclosure",
+    "searchedAt": "2026-10-31T03:56:30+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://aitransparencyindex.com/products/steam/4294030",
+        "relevant": true,
+        "reason": "AI Transparency Index 逐字复刻本作 Steam 披露并给出结构化分析，已读取原始页面；其内容仍是商店披露的转录，不构成独立核实。"
+      },
+      {
+        "url": "https://isthereanydeal.com/game/tavernia--1/info/",
+        "relevant": false,
+        "reason": "第三方比价站的价格/统计页，正文没有 AI 披露内容，与领域判定无关。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4294030/Tavernia/",
+        "relevant": false,
+        "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESiwEB6zswFfGXWVuTu4b3FCDvFPHSAKWIFpCtqWwzhFpsNJesXlCBYVD19cLQj1W4qvZZ0BLdp2VFfMKgzjvU1FfexDS_gBR7Kw92LI0nAB-5BduSg2K_ZvvQ9gL5mVNmN9ULqirWRRPTep4GWkm43UaQ5vqZJBZZuLz94ptnnJbQNBDNlWXJ2zz9VMus",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESdAHrOzAVFM9EGothmQgX_S3Ac-vnGE-zZSfHSkllhUY2L54Qla_YXT_Q_KL2eLPGfzDk8kphnPw7eOMJRfgEQHnSdeS7XUyC_k4wgiccG9myesD9tX-F6pAT-w4I3dQXdkdBNd4rXiLr4vo7SpyzBnl8wtoE",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      },
+      {
+        "url": "https://www.google.com/goto?url=CAESiwEB6zswFe19hMQ0kld3grReEFkp18AsPj6RSi8IvTtgCh_UhOphuQclVL9ilbcpD16BpP-R6l0oL41OZPgExSMroBD2En_6JlivzkvUofixXuhZiEk6uEhZL6n_S7DGncIF3WmIx8cMXWIVm22TLniHzc3z-9Rb8h6FWP5cGn5Tq8t-Z9jwna0fA1Ac",
+        "relevant": false,
+        "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/4294030"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+      "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\4294030\\press-search.json",
+    "contentHash": "00b88ae62153987af09e8ef3ce3e6316ebf434fd0696d6a9014d69f67e48ff0b"
+  }
+}

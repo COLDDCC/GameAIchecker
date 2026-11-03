@@ -1,0 +1,71 @@
+{
+ "results": [
+  {
+   "url": "https://kyusaimedia.com/gaming/rivage-first-impressions",
+   "relevant": false,
+   "reason": "第三方博客/资讯页，标题与本作 AI 披露无直接关系，未读取正文。"
+  },
+  {
+   "url": "https://www.resetera.com/threads/rivage-25th-century-firstperson-sci-fi-puzzle-adventure-demo-out-now.1494193/",
+   "relevant": false,
+   "reason": "论坛讨论页，标题围绕玩法与 Demo，不涉及本作 AI 披露，未读取正文。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4094660",
+   "relevant": true,
+   "reason": "AI Transparency Index 复刻本作商店披露的分析页，已读取原文；内容是披露转录，不构成独立核实。"
+  },
+  {
+   "url": "https://www.techtimes.com/articles/326303/20260902/rivage-puts-power-not-death-center-its-time-loop-puzzle-design.htm",
+   "relevant": true,
+   "reason": "TechTimes 本作报道把商店 AI 披露与延期一并叙述，属媒体转述开发者说法，已读取原文，不作为独立核实。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4094660/Rivage/?l=ukrainian&snr=1_1050_curatorsreviewing__suggested-curator-recommended&curator_clanid=45514146",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Ddpq4tBzc5W/",
+   "relevant": false,
+   "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4094660",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4094660",
+   "fetchedAt": "2026-11-03T03:21:32.372814+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI tools were used only during early prototyping, with all AI-generated assets replaced by original content in the final game.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 复刻本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4094660\\press-0.html",
+   "contentHash": "e5e7e7c09e5e33817269c8e2bbc2e65f36208a2572ad379c980c7061a92d4a39"
+  },
+  {
+   "id": "press-1",
+   "appId": "4094660",
+   "sourceType": "press",
+   "url": "https://www.techtimes.com/articles/326303/20260902/rivage-puts-power-not-death-center-its-time-loop-puzzle-design.htm",
+   "fetchedAt": "2026-11-03T03:21:33.116995+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Exnilo disclosed on the game's store page that generative AI tools were used during early visual prototyping, and that all AI-generated prototype assets were subsequently replaced by original artist-created work. The game ships no AI-generated content.",
+   "locator": "full article text",
+   "label": "TechTimes 本作报道中转述商店披露与延期的段落",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4094660\\press-1.html",
+   "contentHash": "8cbbf1b6e09231d13100068f8d05ef44f9e51496f0ba20c6278c95ac1adc3f72"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+ ]
+}

@@ -1,0 +1,154 @@
+{
+  "sources": [
+    {
+      "appId": "5127370",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5127370/?l=english",
+      "fetchedAt": "2026-11-03T03:15:56.360410+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "e6a9d1e664aade1fca3c196038a3d76ad11c637225e6737647bf46971ae4810c",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5127370\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "During development we use AI-based tools to assist with content creation, including modelling, voice lines, music and translations. All of it is reviewed by the team to ensure the final product stays true to our own vision.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "During development we use AI-based tools to assist with content creation, including modelling, voice lines, music and translations. All of it is reviewed by the team to ensure the final product stays true to our own vision."
+    },
+    {
+      "appId": "5127370",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5127370/discussions/?l=english",
+      "fetchedAt": "2026-11-03T03:15:57.656858+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "42766cffc4f20742391b3abc7a5d366fc735c9c0c32656ab09c8e146e275cc72",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5127370\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Cheating has already taken over\nOther modes?\nCoop\ngame crashing on repeat\nmy friend cant collect with us\nyou can guess whos the cheater as 4 man\nHave Bug Start\nLobby Start",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 8 个主题（总数 8）；仅覆盖首页。"
+    }
+  ],
+  "identity": {
+    "appId": "5127370",
+    "name": "Who's Cheating?",
+    "developer": "LumenLabs",
+    "publisher": "LumenLabs",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 16, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Casual",
+      "Indie"
+    ],
+    "description": "Everyone is gambling. One player is cheating. In this social deduction game for 3 to 8 players, the Cheater uses glasses that reveal the next winning bet while the Security Guard studies the tables, reads the bets and decides who gets the shotgun. Lie, steal and larp over proximity chat.",
+    "identityEvidence": {
+      "appId": "5127370",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5127370&l=english",
+      "fetchedAt": "2026-11-03T03:15:57.006591+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "70745f4bd623e8be1cb91c6e9dc56b9617abca193523a8fbd8085b9346f74de7",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5127370\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 8,
+    "totalTopics": 8,
+    "topics": [
+      {
+        "title": "Cheating has already taken over",
+        "url": "https://steamcommunity.com/app/5127370/discussions/0/571552638979653569/"
+      },
+      {
+        "title": "Other modes?",
+        "url": "https://steamcommunity.com/app/5127370/discussions/0/571553273172990929/"
+      },
+      {
+        "title": "Coop",
+        "url": "https://steamcommunity.com/app/5127370/discussions/0/571552638979807089/"
+      },
+      {
+        "title": "game crashing on repeat",
+        "url": "https://steamcommunity.com/app/5127370/discussions/0/571552997743531780/"
+      },
+      {
+        "title": "my friend cant collect with us",
+        "url": "https://steamcommunity.com/app/5127370/discussions/0/572678133316158706/"
+      },
+      {
+        "title": "you can guess whos the cheater as 4 man",
+        "url": "https://steamcommunity.com/app/5127370/discussions/0/572678133316105828/"
+      },
+      {
+        "title": "Have Bug Start",
+        "url": "https://steamcommunity.com/app/5127370/discussions/0/572678133316091415/"
+      },
+      {
+        "title": "Lobby Start",
+        "url": "https://steamcommunity.com/app/5127370/discussions/0/572678133316090157/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Who's Cheating?\" LumenLabs Steam AI voice music disclosure",
+    "searchedAt": "2026-11-03T03:18:37+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://gamedb.ai/games/3828740-chicken-jump-puppy-jump",
+        "relevant": false,
+        "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5127370/Whos_Cheating/",
+        "relevant": false,
+        "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+      },
+      {
+        "url": "https://gamedb.ai/games/4216610-spellfall-last-mage-standing",
+        "relevant": false,
+        "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+      },
+      {
+        "url": "https://gamedb.ai/games/3175590-haunt",
+        "relevant": false,
+        "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+      },
+      {
+        "url": "https://gamedb.ai/games/5307350-voice-meteor-battle-with-original-magic-born-from-your-voice",
+        "relevant": false,
+        "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+      },
+      {
+        "url": "https://gamedb.ai/ai/voice",
+        "relevant": false,
+        "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+      }
+    ],
+    "readUrls": [],
+    "coverageLimits": [
+      "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+      "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+      "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\5127370\\press-search.json",
+    "contentHash": "2dfecc3f1621ed5ec764fca32095ede33b6116f0b107b59504bff47cc8d9afbd"
+  }
+}

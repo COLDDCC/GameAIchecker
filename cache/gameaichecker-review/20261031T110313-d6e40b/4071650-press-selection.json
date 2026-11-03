@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://www.youtube.com/watch?v=KDhhkLZcd2E",
+   "relevant": false,
+   "reason": "预告片视频页，正文只有播放器脚手架，无关于 AI 的文字。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4071650/Stream_Train/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://www.gamespress.com/All-aboard-Stream-Train-has-launched-on-Steam",
+   "relevant": true,
+   "reason": "开发者自撰发行通稿，确认 Half Past Yellow 与 2026-10-16 上架，已读全文；全文未涉及 AI 披露，不作为任何领域证据。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAEShgEB6zswFV9A27REoeF1weRYMgv-VarWkuFO4YeIIz4dwQruF6ZHFwyGLQ4_eg-e70wMfd58ngKoYWXe8E_eNramXm-hJY3b6rpift_O-d_aKk4y9ZbzNGkbQL-XNJ5P7rXSEpzbEUaAMlquT_kttYQ2vGLVqu07M86FTMenk5oefMqUMjUVvQ",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESZgHrOzAVM7LJTZs-irjhvflY5k33mS92W-EqeX7THDmkiREobaTgPGQu_MsXnxcaLfG-uETGut3Q9tkofVIh4ky1SEK9jnv3O6MC61B-WO6X10uxNPlQwqCA4dP5PNcs6YU93w_k1g",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  },
+  {
+   "url": "https://www.google.com/goto?url=CAESdAHrOzAVkn0DvHrhhgxPcdqquSzSBnrX6TZ-1IbbA-yGrxgohQXGiun8lvXknbds7wkXQNxSu7W5gF1qa0wPEGnkMYWA0ga8zEC6vaqNYlJjGgnx8mnym78NSTtX94IGdlKozaWwHQ4sTBr6Siim1n6RNhbJ",
+   "relevant": false,
+   "reason": "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4071650",
+   "sourceType": "press",
+   "url": "https://www.gamespress.com/All-aboard-Stream-Train-has-launched-on-Steam",
+   "fetchedAt": "2026-10-31T02:18:08.235076+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Independent developer Half Past Yellow is delighted to announce the launch of their co-op horror game, Stream Train on Steam!",
+   "locator": "full article text",
+   "label": "Games Press 上开发者自撰的发行通稿，核对身份与上架时间；全文未提及 AI",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\4071650\\press-0.html",
+   "contentHash": "108c6c6be98364556db69b8ad4d194e944f4ec9f4aa9d5a82b19a0920792f9d6"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "结果经 google.com/goto 跳转壳返回，正文需二次跳转才能定位原始站点；本轮不以跳转壳充当已读来源。",
+  "本款先以 “Stream Train Steam game AI generated content disclosure developer” 检索一次，返回仅含商店页、两条 Facebook 视频页与三个跳转壳；Facebook 视频页抓取返回 200 但只有登录占位，故登记第二次检索为本次来源，第一次的结果范围在此说明。",
+  "已读的发行通稿由开发者自撰，不含 AI 相关表述，未据其改判。"
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "identityName": "Moo Who?",
+ "identityDeveloper": "SAT Productions",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称除音乐外，部分 GUI 图标也由 AI 协助制作；除此之外没有其他 AI 内容。",
+   "evidenceId": "store",
+   "quote": "Only the game's music and some GUI icons were created with the assistance of AI."
+  },
+  "music": {
+   "state": "used",
+   "note": "披露称本作的音乐是在 AI 协助下制作的。",
+   "evidenceId": "store",
+   "quote": "Only the game's music"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "Only the game's music and some GUI icons were created with the assistance of AI.",
+ "summary": "多人语音模仿派对游戏，2026 年 8 月 21 日上市。开发者披露只有本作的音乐与部分 GUI 图标是在 AI 协助下完成的。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 SAT Productions，发行商同名）与英文讨论区首页（可见 15 个主题，总数 33），首页有 2 个与 AI 直接相关的主题，已逐帖读取原文：一帖是玩家为 AI 制作辩护并对比大厂，跟帖里有开发者账号致谢；另一帖是玩家表示因使用 AI 而不购买。两帖属玩家与开发者的立场表达，按规则只登记不判定，不改变任何领域结论。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源（AI Transparency Index 复刻披露的分析页；Open Credits 把披露拆成界面与音频两类，其分类来自模型判读）。两者都不是独立核实。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+ "description": "动物玩家混在 NPC 里对着麦克风模仿动物叫，猎人要找出假的那个。",
+ "english": {
+  "summary": "A multiplayer voice-mimicry party game released on Aug 21, 2026. The developer states that only the game's music and some GUI icons were created with the assistance of AI.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer SAT Productions, self-published) and the English discussion homepage (15 visible topics of 33), where two topics directly concern AI use; both threads were opened and read in full. One thread defends the use of AI by a small studio against larger companies and includes a reply from the developer account thanking players, the other states a player will not buy the game because of AI use. Both are opinions and second-hand statements, so they are logged without changing any area finding. This title was searched 1 time with 6 results and 2 raw source(s) were read: an AI Transparency Index page reproducing the disclosure and an Open Credits page that splits it into interface and audio, a model classification of the same text. Neither is independent verification. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure names some GUI icons as created with the assistance of AI, and the word only limits AI use to the music and those icons.",
+   "music": "The disclosure names the game's music as created with the assistance of AI.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

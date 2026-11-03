@@ -1,0 +1,41 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/1486940/EarthX_2/",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/1486940/EarthX_2?l=english",
+   "relevant": false,
+   "reason": "Steam 商店页的原文披露已通过 store 来源完整抓取并逐句核查，不重复计入补充来源。"
+  },
+  {
+   "url": "https://oceantogames.com/earthx-2-early-access-free-download/",
+   "relevant": true,
+   "reason": "下载站页面逐字转载商店披露，可作为披露措辞的时间戳旁证，已读全文；不构成独立报道。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "1486940",
+   "sourceType": "press",
+   "url": "https://oceantogames.com/earthx-2-early-access-free-download/",
+   "fetchedAt": "2026-10-31T02:15:44.772863+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI Generated Content Disclosure The developers describe how their game uses AI Generated Content like this: AI-powered tools were used to proofread grammar, hunt for bugs, and localize the text into different languages for additional accessibility.",
+   "locator": "full article text",
+   "label": "第三方下载站页面逐字转载了商店页的 AI 披露文本，只能作为披露措辞与存在的时间戳旁证",
+   "cachePath": ".cache\\gameaichecker-review\\20261031T110313-d6e40b\\1486940\\press-0.html",
+   "contentHash": "48915b39e711c9cdcbaccb6af901b1b8dd6dcf646c5ae45244b053ddb6003131"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次约返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网无报道。",
+  "针对本作的检索只命中商店页的两种地址与一个下载站页面；未检索到独立媒体报道，这不代表全网无报道，也不能据此认定无 AI 使用之外的任何事实。",
+  "下载站页面转载的是商店披露原文，只作为披露措辞的时间戳旁证。"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4948000/Moo_Who/",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4948000",
+   "relevant": true,
+   "reason": "AI Transparency Index 复刻本作商店披露的分析页，已读取原文；内容是披露转录，不构成独立核实。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4948000/Moo_Who/?l=schinese&snr=1_300_morelikev2__105_3",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4948000-moo-who",
+   "relevant": false,
+   "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道。"
+  },
+  {
+   "url": "https://opencredits.games/games/moo-who",
+   "relevant": true,
+   "reason": "Open Credits 把本作披露拆为美术/界面与音频两类，已读取原文；拆分来自其模型判断，不作为独立核实。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4948000/Moo_Who/?l=latam&curator_clanid=45134494",
+   "relevant": false,
+   "reason": "Steam 商店页本身，不是第三方报道；本作披露已按商店页原文完整核查，不重复登记为已读来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4948000",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4948000",
+   "fetchedAt": "2026-11-03T03:21:36.406744+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI-assisted music and GUI icons are disclosed as part of the playable game.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 复刻本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4948000\\press-0.html",
+   "contentHash": "d7d4453390be1571497762ba966e123ff414a1d161209c2383653b0b007448eb"
+  },
+  {
+   "id": "press-1",
+   "appId": "4948000",
+   "sourceType": "press",
+   "url": "https://opencredits.games/games/moo-who",
+   "fetchedAt": "2026-11-03T03:21:37.119804+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Moo Who? uses AI for music and interface, according to its Steam disclosure.",
+   "locator": "full article text",
+   "label": "Open Credits 本作分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T121519-c13412\\4948000\\press-1.html",
+   "contentHash": "49c45523b8cb0735fdff61739716b298b0c3e1e1598e22ac5323f8863fae9c43"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / HowMuchAI / Open Credits / Steam AI Filter / GameDB.ai）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与部分社媒链接经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。"
+ ]
+}
