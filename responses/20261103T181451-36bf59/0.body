@@ -1,0 +1,1667 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="es"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>To what extent does Aion 2 utilize AI? :: AION 2 General Discussion</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://community.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=-yZgCk0Nu7kH&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/buttons.css?v=0Ihq-pAoptBq&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_global.css?v=LPzP0XCBpQoS&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/globalv2.css?v=VJJj6r-t5GM6&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/apphub.css?v=V8gSeRZKZDy_&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/modalContent.css?v=WXAusLHclDIt&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/apphub_home.css?v=N40XUxgnWrMY&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/forums.css?v=O7yPUbJwKVr8&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=G6uS9kBT7364&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/apphub_images.css?v=MycZFO0quD1j&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/header.css?v=EM4kCu67DNda&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	var __PrototypePreserve=[];
+	__PrototypePreserve[0] = Array.from;
+	__PrototypePreserve[1] = Array.prototype.filter;
+	__PrototypePreserve[2] = Array.prototype.flatMap;
+	__PrototypePreserve[3] = Array.prototype.find;
+	__PrototypePreserve[4] = Array.prototype.some;
+	__PrototypePreserve[5] = Function.prototype.bind;
+	__PrototypePreserve[6] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/prototype-1.7.js?v=npJElBnrEO6W&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript">
+	Array.from = __PrototypePreserve[0] || Array.from;
+	Array.prototype.filter = __PrototypePreserve[1] || Array.prototype.filter;
+	Array.prototype.flatMap = __PrototypePreserve[2] || Array.prototype.flatMap;
+	Array.prototype.find = __PrototypePreserve[3] || Array.prototype.find;
+	Array.prototype.some = __PrototypePreserve[4] || Array.prototype.some;
+	Function.prototype.bind = __PrototypePreserve[5] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __PrototypePreserve[6] || HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript">
+	var __ScriptaculousPreserve=[];
+	__ScriptaculousPreserve[0] = Array.from;
+	__ScriptaculousPreserve[1] = Function.prototype.bind;
+	__ScriptaculousPreserve[2] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/scriptaculous/_combined.js?v=pbdAKOcDIgbC&amp;l=spanish&amp;_cdn=fastly&amp;load=effects,controls,slider,dragdrop"></script>
+<script type="text/javascript">
+	Array.from = __ScriptaculousPreserve[0] || Array.from;
+	Function.prototype.bind = __ScriptaculousPreserve[1] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __ScriptaculousPreserve[2] || HTMLElement.prototype.scrollTo;
+delete String['__parseStyleElement'];  Prototype.Browser.WebKit = true;</script>
+<script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/community.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/global.js?v=0xTEbM07ZjwW&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=gQHVlrK4-jX-&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=H1nkpCE87mQN&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=w6QbwI-5-j2S&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script><script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"https:\/\/community.fastly.steamstatic.com\/public\/javascript\/json2.js?v=54NKNglvGTO8&amp;l=spanish&amp;_cdn=fastly\"><\/script>\n" ); };
+</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				SetupTooltips( { tooltipCSSClass: 'community_tooltip'} );
+		});
+		</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/modalv2.js?v=zBXEuexVQ0FZ&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/modalContent.js?v=7x4nRXLvH6JB&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/apphub.js?v=vovOtA4iEOuy&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/forums.js?v=m-gwzVWqZMsa&amp;l=spanish&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=3VT92uzm_JNY&amp;l=spanish&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="I was considering dipping my toes in, however I was a bit curious what exactly is AI in the game itself and how much of it is derived from such. Are we talking in terms of music composition, translation/localization, 3D asset generation, writing, 2D icons and/or something else like AI concept art in preproduction? Thanks so much">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="To what extent does Aion 2 utilize AI? :: AION 2 General Discussion">
+					<meta property="twitter:title" content="To what extent does Aion 2 utilize AI? :: AION 2 General Discussion">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:description" content="I was considering dipping my toes in, however I was a bit curious what exactly is AI in the game itself and how much of it is derived from such. Are we talking in terms of music composition, translation/localization, 3D asset generation, writing, 2D icons and/or something else like AI concept art in preproduction? Thanks so much">
+					<meta property="twitter:description" content="I was considering dipping my toes in, however I was a bit curious what exactly is AI in the game itself and how much of it is derived from such. Are we talking in terms of music composition, translation/localization, 3D asset generation, writing, 2D icons and/or something else like AI concept art in preproduction? Thanks so much">
+			
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1792771538">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1792771538">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1792771538" />
+				
+	
+	
+	
+	
+	</head>
+<body class="flat_page thread responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Menú móvil">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://steamcommunity.com/login/home/?goto=app%2F3393110%2Fdiscussions%2F1%2F583935635494110426%2F%3Fl%3Dspanish">
+									Iniciar sesión								</a>
+															<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Tienda			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Página principal											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Lista de descubrimientos											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Lista de deseados											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Tienda de puntos											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						Noticias											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Gráficos											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Comunidad			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Página principal											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discusiones											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Mercado											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Retransmisiones											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				Acerca de			</a>
+										<a class="menuitem " href="https://help.steampowered.com/es/">
+				Soporte			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Cambiar idioma								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Descargar Steam Mobile</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										Ver versión clásica									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. Todos los derechos reservados. Todas las marcas registradas pertenecen a sus respectivos dueños en EE. UU. y otros países.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/" target="_blank">Política de Privacidad</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Información legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accesibilidad</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/" target="_blank">Acuerdo de Suscriptor a Steam</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/" target="_blank">Reembolsos</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filtrar&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/">
+															<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/" aria-label="Enlace a la página principal de Steam">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Enlace a la página principal de Steam">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Menú global">
+								<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				TIENDA			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Página principal											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Lista de descubrimientos											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Lista de deseados											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Tienda de puntos											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						Noticias											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Gráficos											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMUNIDAD			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Página principal											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discusiones											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Mercado											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Retransmisiones											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				Acerca de			</a>
+										<a class="menuitem " href="https://help.steampowered.com/es/">
+				SOPORTE			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Menú de la cuenta">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/">
+						<div class="header_installsteam_btn_content">
+							Instalar Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=app%2F3393110%2Fdiscussions%2F1%2F583935635494110426%2F%3Fl%3Dspanish">iniciar sesión</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">idioma</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (chino simplificado)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (chino tradicional)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (japonés)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (coreano)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (tailandés)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (indonesio)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (malayo)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (búlgaro)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (checo)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (danés)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (alemán)																					</a>
+																													<a class="popup_menu_item tight" href="?l=english" onclick="ChangeLanguage( 'english' ); return false;">
+											English (inglés)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español de Hispanoamérica																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (griego)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (francés)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (húngaro)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (holandés)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (noruego)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (polaco)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portugués de Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português-Brasil (portugués de Brasil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (rumano)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (ruso)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (finés)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (sueco)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (turco)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (vietnamita)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (ucraniano)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Comunicar un error de traducción</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<script type="text/javascript">
+	g_sessionID = "d5da60c08ed89c802f8d0a64";
+	g_steamID = false;
+	g_strLanguage = "spanish";
+	g_SNR = '2_9_100006_100202';
+	g_bAllowAppImpressions = true;
+		g_ContentDescriptorPreferences = [1,3,4];
+
+	
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+					InitMiniprofileHovers(( 'https%3A%2F%2Fsteamcommunity.com' ));
+			InitEmoticonHovers();
+		
+		ApplyAdultContentPreferences();
+	});
+
+	$J( function() { InitEconomyHovers( "https:\/\/community.fastly.steamstatic.com\/public\/css\/skin_1\/economy.css?v=RsRFFW9vaq1B&l=spanish&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy_common.js?v=TSVmDS2fQKJu&l=spanish&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy.js?v=8jMKOATjs_Me&l=spanish&_cdn=fastly" );});</script>
+<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;spanish&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/steamcommunity.com\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793400188,&quot;PAGE_TIMESTAMP&quot;:1793697307,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Community&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1793697307,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;2_9_100006_100202&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[1,3,4]}" data-community="[]" data-loyaltystore="{&quot;webapi_token&quot;:&quot;&quot;}" data-steam_notifications="null"></div><link href="https://community.fastly.steamstatic.com/public/css/applications/community/main.css?v=fBlBcxbgsXm1&amp;l=spanish&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11192500";</script>
+<script type="module" src="https://community.fastly.steamstatic.com/public/javascript/applications/community/main.js?contenthash=BPPtNZbV"></script>
+<div  data-featuretarget="apphub-events"></div><div  data-featuretarget="community-awards"></div>	<div id="application_root"></div>
+
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<script type="text/javascript">
+	</script>
+<div class="pagecontent">
+		<div class="apphub_Content">
+		<div class="apphub_background apphub_background_gamepad_blur" style="background-image: url('https://store.fastly.steamstatic.com/images/storepagebackground/app/3393110?t=1792771538');"></div>
+		<div class="apphub_HomeHeader">
+			
+
+<div class="apphub_HomeHeaderContent">
+
+
+	<script lang="js">
+		const g_bIsAppHubModerator = 0;
+	</script>
+
+	
+	
+	<div class="apphub_HeaderTop">
+		<div class="apphub_OtherSiteInfo responsive_hidden">
+			
+							<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/3393110?snr=2_9_100006_100202_apphubheader" data-appid="3393110">
+					<span>Página de la tienda</span>
+				</a>
+					</div>
+		<div class="apphub_AppDetails">
+			<div class="apphub_AppIcon"><img src="https://shared.fastly.steamstatic.com/community_assets/images/apps/3393110/14f90efcc700b0d6238e95ce07fd548990f26f1f.jpg"><div class="overlay"></div></div>
+			<div class="apphub_AppName ellipsis">AION 2</div>
+		</div>
+		<div style="clear: both"></div>
+
+		
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" class="apphub_sectionTabs responsive_hidden">
+				
+	<a href="https://steamcommunity.com/app/3393110" class="apphub_sectionTab  "><span>Todo</span></a>
+		
+	<a href="https://steamcommunity.com/app/3393110/discussions/" class="apphub_sectionTab active "><span>Discusiones</span></a>
+		
+	<a href="https://steamcommunity.com/app/3393110/screenshots/" class="apphub_sectionTab  "><span>Capturas</span></a>
+		
+	<a href="https://steamcommunity.com/app/3393110/images/" class="apphub_sectionTab  "><span>Material gráfico</span></a>
+		
+	<a href="https://steamcommunity.com/app/3393110/broadcasts/" class="apphub_sectionTab  "><span>Retransmisiones</span></a>
+		
+	<a href="https://steamcommunity.com/app/3393110/videos/" class="apphub_sectionTab  "><span>Vídeos</span></a>
+		
+	<a href="https://steamcommunity.com/app/3393110/allnews/" class="apphub_sectionTab  "><span>Noticias</span></a>
+		
+	<a href="https://steamcommunity.com/app/3393110/guides/" class="apphub_sectionTab  "><span>Guías</span></a>
+		
+	<a href="https://steamcommunity.com/app/3393110/reviews/" class="apphub_sectionTab  "><span>Reseñas</span></a>
+			</div>
+
+		<div class="nonresponsive_hidden responsive_tab_ctn sharedfiles_responsive_tab">
+			<div class="responsive_tab_control">
+				<div class="responsive_tab_control_inner">
+										<select class="responsive_tab_select" id="responsive_tab_select6ae9a61b87793">
+													<option value="https://steamcommunity.com/app/3393110" >
+								Todo							</option>
+													<option value="https://steamcommunity.com/app/3393110/discussions/" selected>
+								Discusiones							</option>
+													<option value="https://steamcommunity.com/app/3393110/screenshots/" >
+								Capturas							</option>
+													<option value="https://steamcommunity.com/app/3393110/images/" >
+								Material gráfico							</option>
+													<option value="https://steamcommunity.com/app/3393110/broadcasts/" >
+								Retransmisiones							</option>
+													<option value="https://steamcommunity.com/app/3393110/videos/" >
+								Vídeos							</option>
+													<option value="https://steamcommunity.com/app/3393110/allnews/" >
+								Noticias							</option>
+													<option value="https://steamcommunity.com/app/3393110/guides/" >
+								Guías							</option>
+													<option value="https://steamcommunity.com/app/3393110/reviews/" >
+								Reseñas							</option>
+											</select>
+				</div>
+			</div>
+			<div class="responsive_tab_baseline"></div>
+		</div>
+	</div>
+	<div class="apphub_sectionTabsHR responsive_hidden"></div>
+
+
+	<!-- these elements are used to populate the local menu on responsive pages -->
+	<div style="display: none;">
+		<div class="responsive_local_menu apphub_responsive_menu">
+			<h3 class="ellipsis apphub_responsive_menu_title">AION 2</h3>
+			<div class="apphub_ResponsiveMenuCtn">
+									<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/3393110">
+						<span>Página de la tienda</span>
+					</a>
+											</div>
+											</div>
+	</div>
+	<!-- end responsive menu -->
+
+	
+</div>
+
+	<div class="apphub_HeaderBottomBG_ctn">
+		<div class="apphub_HeaderBottomBG_blur"></div><div class="apphub_HeaderBottomBG"></div>
+	</div>
+			<div style="clear: both"></div>
+		</div>
+	</div>
+	
+	<div id="AppHubContent" class="apphub_Discussion_Content" data-miniprofile-appid="3393110">
+		<div class="maincontent">
+				<div class="leftcol">
+					<div>
+						<div class="forum_breadcrumbs group_content_bodytext breadcrumbs">
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/3393110">AION 2</a> <span class="breadcrumb_separator">&gt;</span>
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/3393110/discussions/1/">General Discussion</a> <span class="breadcrumb_separator">&gt;</span>
+							<span class="breadcrumb_current_page">Detalles del tema</span>
+						</div>
+					</div>
+										<div  data-featuretarget="content-moderation-report-dialog"></div>
+
+
+	<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="forum_op " id="forum_op_583935635494110426">
+						<div class="forum_op_header commentthread_comment_author" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" id="forum_op_header_583935635494110426">
+
+							<div class="forum_op_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/profiles/76561198928916641">
+						<img src="https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" data-miniprofile="968650913">
+					</a>
+				</div>
+			
+			<div class="authorline author_name_group">
+				<div class="flex_row">
+													<a class="hoverunderline forum_op_author " href="https://steamcommunity.com/profiles/76561198928916641" onclick="return Forum_AuthorMenu( this, 968650913, -1 );"  data-miniprofile="968650913">
+						nickviguenewhaven<span class="forum_author_action_pulldown"></span></a>
+							<div id="author_menu_968650913_-1" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198928916641">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198928916641/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+																					<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_forum_topic_583935635494110426"></div>				</div>
+
+
+				<div class="date commentthread_comment_timestamp" title="30 de septiembre de 2026 a las 14:08:36 PST" data-timestamp="1790802516">
+					30 SEP a las 14:08				</div>
+
+			</div>
+							<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583935635494110426">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583935635494110426">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '968650913', '-1' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+						
+		</div>
+
+		<div class="topic" id="forum_op_topic_583935635494110426">
+		To what extent does Aion 2 utilize AI?	</div>
+	<div class="content" id="forum_op_content_583935635494110426">
+		I was considering dipping my toes in, however I was a bit curious what exactly is AI in the game itself and how much of it is derived from such. Are we talking in terms of music composition, translation/localization, 3D asset generation, writing, 2D icons and/or something else like AI concept art in preproduction? <br><br>Thanks so much	</div>
+		
+	<div class="forum_op_footer">
+		<div></div>
+			</div>
+</div>
+<div data-featuretarget="community-awards"></div>
+<script type="text/javascript">
+	$J( function() {
+		InitializeForumTopic( {"owner":"46074831","type":"General","feature":"1","gidforum":"807973945275927412","forum_display_name":"General Discussion","forum_url":"https:\/\/steamcommunity.com\/app\/3393110\/discussions\/1\/","forum_search_url":"https:\/\/steamcommunity.com\/app\/3393110\/discussions\/search\/","is_public":1,"permissions":{"can_view":1,"can_post":1,"can_reply":1,"is_banned":0,"can_delete":0,"can_edit":0},"appid":3393110}, "https:\/\/steamcommunity.com\/forum\/46074831\/General\/",
+		"583935635494110426", {"author":"nickviguenewhaven","text":"I was considering dipping my toes in, however I was a bit curious what exactly is AI in the game itself and how much of it is derived from such. Are we talking in terms of music composition, translation\/localization, 3D asset generation, writing, 2D icons and\/or something else like AI concept art in preproduction? \n\nThanks so much"}		);
+			} );
+</script>
+										<script type="text/javascript">
+$J( function() { InitializeCommentThread( "ForumTopic", "ForumTopic_103582791475596239_807973945275927412_583935635494110426", {"feature":"807973945275927412","feature2":"583935635494110426","owner":"103582791475596239","commentthreadid":"656650793","total_count":23,"start":0,"pagesize":15,"has_upvoted":0,"upvotes":0,"votecountid":null,"voteupid":null,"commentcountid":null,"subscribed":false,"extended_data":"{\"topic_permissions\":{\"can_view\":1,\"can_post\":1,\"can_reply\":1,\"is_banned\":0,\"can_delete\":0,\"can_edit\":0},\"original_poster\":968650913,\"topic_gidanswer\":\"0\",\"forum_appid\":3393110,\"forum_public\":1,\"forum_type\":\"General\",\"forum_gidfeature\":\"1\"}","oldestfirst":true,"comments_raw":{"583935635494111559":{"text":"The entire game was made in chatgpt.","author":"DJ Gershwin"},"583935635494111793":{"text":"Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors.  ","author":"CyberDown"},"583935635494114463":{"text":"We answered this recently in this thread:\nhttps:\/\/steamcommunity.com\/app\/3393110\/discussions\/1\/583935003344372119\/\n\nHello everyone,\n\nWe\u2019ve followed the discussion here about the use of AI in game development and wanted to clarify how our artwork is created.\n\nAION 2 is built by a large, incredibly talented team with hundreds of artists who painstakingly create the characters, environments, animations, and visual identity of Atreia by hand. The overwhelming majority of the art you will experience in the game is a result of their craft and countless hours of work. \n\nWe are proud of what we\u2019ve made and hope our passion comes through as you play the game for the first time over the coming week. Our disclaimer on our store page was made out of an abundance of caution. 99.9% of the art in the game is made by humans and any use of AI is replaced by our handcrafted finished graphics.\n\nThanks for reading and for your enthusiasm about our game!","author":"[NC] CM Sakaar"},"583935635494115357":{"text":"[quote=NC CM Sakaar;583935635494114463]We answered this recently in this thread:\nhttps:\/\/steamcommunity.com\/app\/3393110\/discussions\/1\/583935003344372119\/\n\nHello everyone,\n\nWe\u2019ve followed the discussion here about the use of AI in game development and wanted to clarify how our artwork is created.\n\nAION 2 is built by a large, incredibly talented team with hundreds of artists who painstakingly create the characters, environments, animations, and visual identity of Atreia by hand. The overwhelming majority of the art you will experience in the game is a result of their craft and countless hours of work. \n\nWe are proud of what we\u2019ve made and hope our passion comes through as you play the game for the first time over the coming week. Our disclaimer on our store page was made out of an abundance of caution. 99.9% of the art in the game is made by humans and any use of AI is replaced by our handcrafted finished graphics.\n\nThanks for reading and for your enthusiasm about our game! [\/quote]\n\nWhat about outfits etc... Are any of those generated by ai?\nOr only icons and cards?","author":"\u239b\u239d Kupo \u23a0\u239e"},"583935635494115575":{"text":"[quote=CyberDown;583935635494111793]Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors. [\/quote]\n\nThe reason they'll never be able to do that is because you're not 14 anymore, no MMO is ever going to recreate it.\nYou can't recreate your first time.\n\n There's good reasons to hate generative ai... It's built on theft and parasites off of artists the same people who make these games...\nIt's just bizarre to defend it, because you're not defending creatives you're defending corporate who want to replace people to save a buck.\nThe people who actually make the games pretty much universally don't want to use this shit and are forced to.\n\n It's strange how some people defend gen ai being used so hard when all that is happening is you're being given a lower quality product so a CEO can buy another yacht.","author":"\u239b\u239d Kupo \u23a0\u239e"},"583935635494116189":{"text":"[quote=\u239b\u239d Kupo \u23a0\u239e;583935635494115575][quote=CyberDown;583935635494111793]Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors. [\/quote]\n\nThe reason they'll never be able to do that is because you're not 14 anymore, no MMO is ever going to recreate it.\nYou can't recreate your first time.\n\n There's good reasons to hate generative ai... It's built on theft and parasites off of artists the same people who make these games...\nIt's just bizarre to defend it, because you're not defending creatives you're defending corporate who want to replace people to save a buck.\nThe people who actually make the games pretty much universally don't want to use this shit and are forced to.\n\n It's strange how some people defend gen ai being used so hard when all that is happening is you're being given a lower quality product so a CEO can buy another yacht. [\/quote]\nAi bot post ignore","author":"DJ Gershwin"},"583935635494172733":{"text":"[quote=DJ Gershwin;583935635494111559]The entire game was made in chatgpt. [\/quote]\nWait, was it really? This makes me so sad if that's true.","author":"Ale"},"583935635494176390":{"text":"[quote=Ale;583935635494172733][quote=DJ Gershwin;583935635494111559]The entire game was made in chatgpt. [\/quote]\nWait, was it really? This makes me so sad if that's true. [\/quote]\nThere would be more noises if that was true but you never know. Dialogues are apparently spicy enough to have that thought. Cinematics are AI it seems.","author":"Firecam"},"583936001036090060":{"text":"[quote=Ale;583935635494172733][quote=DJ Gershwin;583935635494111559]The entire game was made in chatgpt. [\/quote]\nWait, was it really? This makes me so sad if that's true. [\/quote]\n\nAs of yet, its impossible to prompt chatgpt to make aion2. You can only generate pieces of a game and use coding agents to piece them together. So for now at least a dozent of people were involved in making of aion \u02d0compa\u02d0","author":"Hifumi Starlight"},"583936001036091278":{"text":"[quote=CyberDown;583935635494111793]Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors. [\/quote]\n\nMmorpgs aren't that different from those years back then. What has changed is the world itself. Mmos used to be what social media is to us today. Internet is normalized, people we interact with are just names instead of actual people behind them. You have people cussing or starting fights over nothing. Socializing with people across the world is normalized, there is no more \"magic\" in that. Newer generations are super competitive and achievement focused so they rush content like bunch of druggies ignoring online aspect of socialization in mmos.\n\nWe got to enjoy best years of mmorpgs xD it's over old man","author":"Crylz"},"583936001036091409":{"text":"[quote=Ale;583935635494172733][quote=DJ Gershwin;583935635494111559]The entire game was made in chatgpt. [\/quote]\nWait, was it really? This makes me so sad if that's true. [\/quote]\nIts just insane you even believe that...","author":"Caduryn"},"583936001036110325":{"text":"[quote=Caduryn;583936001036091409][quote=Ale;583935635494172733]\nWait, was it really? This makes me so sad if that's true. [\/quote]\nIts just insane you even believe that... [\/quote]\nit was actually claude code","author":"DJ Gershwin"},"583936001036119927":{"text":"[quote=CyberDown;583935635494111793]Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors. [\/quote]\n\nThat's because the only ones motivated by that are frauds who just want to put out a playable version and then sell it as early access and run off with all the money. It happens all the time and triple A studios don't care about that, it's infinitely more profitable to release some mobile game with whales. \n\nThose games earns billions per year just from microtransactions alone, FF14 really is the only one left that's a proper MMO and not ruined by all this.\n\nI have plans and I know there's a vet dev team out there working on something too but it's all too early to even mention anything.","author":"FugNugt"},"583936001036122528":{"text":"[quote=NC CM Sakaar;583935635494114463]We answered this recently in this thread:\nhttps:\/\/steamcommunity.com\/app\/3393110\/discussions\/1\/583935003344372119\/\n[\/quote]\n\nSome people are deaf and blind.\nThey think they are intelligent, and for some reason, are trying to compete with Ai...\n\nBut thank you for clearing that up for everyone that can understand basic English.\n\nAi is the devil to so many people - not because they care about humanity, creativity, or even Armageddon...\n\nBut because it shows them up.  \nFrom chat bots, to music, to art, to video gen...  Ai is a tool.  \nAnd used responsibly, is an asset.\n\nBut people are too often the problem.  And technology always gets scape-goated.\n\nTurning the world into a bunch of angry Villagers, trying to burn Frankenstein's monster - again...\nUtterly blind to the fact ethics and integrity are human concepts.\n\nSome of us appreciate the work that was put in, regardless.  \nThanks again.","author":"Darque"},"583936001036127688":{"text":"Best use of AI would be for taking out Bots RMT and the cause of the rot the Gold Buyers.","author":"Wompoo"}},"track_navigation":true}, 'https://steamcommunity.com/comment/ForumTopic/', 40 ); } );
+</script>
+<div class="commentthread_area forumtopic_comments" id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_area">
+	        <div id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_pagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_pagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_pagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_pagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_pagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_pagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Mostrando <span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_pagestart">1</span>-<span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_pageend">15</span> de <span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_pagetotal">23</span> comentarios            </div>
+            <div style="clear: both;"></div>
+        </div>
+        	<div class="commentthread_comment_container" id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_postcontainer">
+		<div data-panel="{&quot;noFocusRing&quot;:true}" class="commentthread_comments" id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_posts">
+					
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583935635494111559" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1091500/8463084f35370cc5577c093a1702660bc1f94bcc.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1091500/4f38822072e2c3a8f6960ab161b9d25e94be646d.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1091500/4f38822072e2c3a8f6960ab161b9d25e94be646d.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561197994668200" data-miniprofile="34402472">
+													<img src="https://avatars.fastly.steamstatic.com/5105eecdeea28d62f5f1d76594786e52c005b92b.jpg" srcset="https://avatars.fastly.steamstatic.com/5105eecdeea28d62f5f1d76594786e52c005b92b.jpg 1x, https://avatars.fastly.steamstatic.com/5105eecdeea28d62f5f1d76594786e52c005b92b_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197994668200" onclick="return Forum_AuthorMenu( this, 34402472, '583935635494111559' );" data-miniprofile="34402472">
+							<bdi>DJ Gershwin<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_34402472_583935635494111559" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197994668200">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197994668200/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583935635494111559"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="30 de septiembre de 2026 a las 14:22:11 PST" data-timestamp="1790803331">
+						30 SEP a las 14:22&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583935635494111559">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583935635494111559">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '34402472', '583935635494111559' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583935635494111559">
+				The entire game was made in chatgpt.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583935635494111559">#1</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583935635494111793" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/601220/c4471a48c0cc70b9248edbc41d971809b51f0e36.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/601220/8b844b61b953d353deff005013883789c83e232d.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/601220/8b844b61b953d353deff005013883789c83e232d.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198086087452" data-miniprofile="125821724">
+													<img src="https://avatars.fastly.steamstatic.com/c929e46a64dd06f17f4a92df1838370180cbfdc3.jpg" srcset="https://avatars.fastly.steamstatic.com/c929e46a64dd06f17f4a92df1838370180cbfdc3.jpg 1x, https://avatars.fastly.steamstatic.com/c929e46a64dd06f17f4a92df1838370180cbfdc3_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198086087452" onclick="return Forum_AuthorMenu( this, 125821724, '583935635494111793' );" data-miniprofile="125821724">
+							<bdi>CyberDown<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_125821724_583935635494111793" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198086087452">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198086087452/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583935635494111793"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="30 de septiembre de 2026 a las 14:25:07 PST" data-timestamp="1790803507">
+						30 SEP a las 14:25&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583935635494111793">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583935635494111793">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '125821724', '583935635494111793' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583935635494111793">
+				Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors.  			</div>
+			<div class="comment_footer_ctn">
+									<div class="forum_audit">
+			Última edición por <a href="https://steamcommunity.com/profiles/76561198086087452" class="hoverunderline">CyberDown</a>;
+		<span  title="30 de septiembre de 2026 a las 14:25:36 PST" data-timestamp="1790803536">30 SEP a las 14:25</span>		</div>				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583935635494111793">#2</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583935635494114463" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+															<a href="https://steamcommunity.com/profiles/76561198645652836" data-miniprofile="685387108">
+													<img src="https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" srcset="https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg 1x, https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link commentthread_author_developer" href="https://steamcommunity.com/profiles/76561198645652836" onclick="return Forum_AuthorMenu( this, 685387108, '583935635494114463' );" data-miniprofile="685387108">
+							<bdi>[NC] CM Sakaar<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_685387108_583935635494114463" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198645652836">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198645652836/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<span class="commentthread_workshop_authorbadge">&nbsp;[desarrollador]</span>																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583935635494114463">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '583935635494114463', 24 )" data-reaction="24" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/24.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Ganador&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;¡El mejor de todos! O el primero... al menos por ahora.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/24.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="30 de septiembre de 2026 a las 14:58:41 PST" data-timestamp="1790805521">
+						30 SEP a las 14:58&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583935635494114463">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583935635494114463">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '685387108', '583935635494114463' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583935635494114463">
+				We answered this recently in this thread:<br><a class="bb_link" href="https://steamcommunity.com/app/3393110/discussions/1/583935003344372119/" target="_blank" rel="" >https://steamcommunity.com/app/3393110/discussions/1/583935003344372119/</a><br><br>Hello everyone,<br><br>We’ve followed the discussion here about the use of AI in game development and wanted to clarify how our artwork is created.<br><br>AION 2 is built by a large, incredibly talented team with hundreds of artists who painstakingly create the characters, environments, animations, and visual identity of Atreia by hand. The overwhelming majority of the art you will experience in the game is a result of their craft and countless hours of work. <br><br>We are proud of what we’ve made and hope our passion comes through as you play the game for the first time over the coming week. Our disclaimer on our store page was made out of an abundance of caution. 99.9% of the art in the game is made by humans and any use of AI is replaced by our handcrafted finished graphics.<br><br>Thanks for reading and for your enthusiasm about our game!			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583935635494114463">#3</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583935635494115357" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2441700/8fa84aa75d615d1ca74a59f946ce6c2f54919d2e.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2441700/530d3f384c1aba4bd000a7fa1aa56ad96d7d0b55.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/2441700/530d3f384c1aba4bd000a7fa1aa56ad96d7d0b55.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/Kupochan93" data-miniprofile="39889344">
+													<img src="https://avatars.fastly.steamstatic.com/0b282acbc03167e81e204a59b750a61a3897017b.jpg" srcset="https://avatars.fastly.steamstatic.com/0b282acbc03167e81e204a59b750a61a3897017b.jpg 1x, https://avatars.fastly.steamstatic.com/0b282acbc03167e81e204a59b750a61a3897017b_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/Kupochan93" onclick="return Forum_AuthorMenu( this, 39889344, '583935635494115357' );" data-miniprofile="39889344">
+							<bdi>⎛⎝ Kupo ⎠⎞<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_39889344_583935635494115357" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Kupochan93">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Kupochan93/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583935635494115357"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="30 de septiembre de 2026 a las 15:10:45 PST" data-timestamp="1790806245">
+						30 SEP a las 15:10&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583935635494115357">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583935635494115357">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '39889344', '583935635494115357' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583935635494115357">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494114463">NC CM Sakaar</a></b>:</div>We answered this recently in this thread:<br><a class="bb_link" href="https://steamcommunity.com/app/3393110/discussions/1/583935003344372119/" target="_blank" rel="" >https://steamcommunity.com/app/3393110/discussions/1/583935003344372119/</a><br><br>Hello everyone,<br><br>We’ve followed the discussion here about the use of AI in game development and wanted to clarify how our artwork is created.<br><br>AION 2 is built by a large, incredibly talented team with hundreds of artists who painstakingly create the characters, environments, animations, and visual identity of Atreia by hand. The overwhelming majority of the art you will experience in the game is a result of their craft and countless hours of work. <br><br>We are proud of what we’ve made and hope our passion comes through as you play the game for the first time over the coming week. Our disclaimer on our store page was made out of an abundance of caution. 99.9% of the art in the game is made by humans and any use of AI is replaced by our handcrafted finished graphics.<br><br>Thanks for reading and for your enthusiasm about our game! </blockquote><br>What about outfits etc... Are any of those generated by ai?<br>Or only icons and cards?			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583935635494115357">#4</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583935635494115575" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2441700/8fa84aa75d615d1ca74a59f946ce6c2f54919d2e.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2441700/530d3f384c1aba4bd000a7fa1aa56ad96d7d0b55.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/2441700/530d3f384c1aba4bd000a7fa1aa56ad96d7d0b55.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/Kupochan93" data-miniprofile="39889344">
+													<img src="https://avatars.fastly.steamstatic.com/0b282acbc03167e81e204a59b750a61a3897017b.jpg" srcset="https://avatars.fastly.steamstatic.com/0b282acbc03167e81e204a59b750a61a3897017b.jpg 1x, https://avatars.fastly.steamstatic.com/0b282acbc03167e81e204a59b750a61a3897017b_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/Kupochan93" onclick="return Forum_AuthorMenu( this, 39889344, '583935635494115575' );" data-miniprofile="39889344">
+							<bdi>⎛⎝ Kupo ⎠⎞<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_39889344_583935635494115575" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Kupochan93">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Kupochan93/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583935635494115575">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '583935635494115575', 29 )" data-reaction="29" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/29.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Al 100 %&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Total, absoluta y completamente de acuerdo.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/29.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="30 de septiembre de 2026 a las 15:13:32 PST" data-timestamp="1790806412">
+						30 SEP a las 15:13&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583935635494115575">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583935635494115575">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '39889344', '583935635494115575' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583935635494115575">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494111793">CyberDown</a></b>:</div>Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors. </blockquote><br>The reason they'll never be able to do that is because you're not 14 anymore, no MMO is ever going to recreate it.<br>You can't recreate your first time.<br><br> There's good reasons to hate generative ai... It's built on theft and parasites off of artists the same people who make these games...<br>It's just bizarre to defend it, because you're not defending creatives you're defending corporate who want to replace people to save a buck.<br>The people who actually make the games pretty much universally don't want to use this ♥♥♥♥ and are forced to.<br><br> It's strange how some people defend gen ai being used so hard when all that is happening is you're being given a lower quality product so a CEO can buy another yacht.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583935635494115575">#5</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583935635494116189" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1091500/8463084f35370cc5577c093a1702660bc1f94bcc.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1091500/4f38822072e2c3a8f6960ab161b9d25e94be646d.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1091500/4f38822072e2c3a8f6960ab161b9d25e94be646d.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561197994668200" data-miniprofile="34402472">
+													<img src="https://avatars.fastly.steamstatic.com/5105eecdeea28d62f5f1d76594786e52c005b92b.jpg" srcset="https://avatars.fastly.steamstatic.com/5105eecdeea28d62f5f1d76594786e52c005b92b.jpg 1x, https://avatars.fastly.steamstatic.com/5105eecdeea28d62f5f1d76594786e52c005b92b_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197994668200" onclick="return Forum_AuthorMenu( this, 34402472, '583935635494116189' );" data-miniprofile="34402472">
+							<bdi>DJ Gershwin<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_34402472_583935635494116189" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197994668200">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197994668200/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583935635494116189"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="30 de septiembre de 2026 a las 15:21:27 PST" data-timestamp="1790806887">
+						30 SEP a las 15:21&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583935635494116189">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583935635494116189">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '34402472', '583935635494116189' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583935635494116189">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494115575">⎛⎝ Kupo ⎠⎞</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494111793">CyberDown</a></b>:</div>Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors. </blockquote><br>The reason they'll never be able to do that is because you're not 14 anymore, no MMO is ever going to recreate it.<br>You can't recreate your first time.<br><br> There's good reasons to hate generative ai... It's built on theft and parasites off of artists the same people who make these games...<br>It's just bizarre to defend it, because you're not defending creatives you're defending corporate who want to replace people to save a buck.<br>The people who actually make the games pretty much universally don't want to use this ♥♥♥♥ and are forced to.<br><br> It's strange how some people defend gen ai being used so hard when all that is happening is you're being given a lower quality product so a CEO can buy another yacht. </blockquote>Ai bot post ignore			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583935635494116189">#6</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583935635494172733" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1145350/53de24eb77b996af73092309974b25c6929940de.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1145350/21e16e44e5797d4a44946507b45bba9cb4f9eefc.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1145350/21e16e44e5797d4a44946507b45bba9cb4f9eefc.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198356881295" data-miniprofile="396615567">
+													<img src="https://avatars.fastly.steamstatic.com/199c833b86ca28ef4977494fe04c376d399a03a2.jpg" srcset="https://avatars.fastly.steamstatic.com/199c833b86ca28ef4977494fe04c376d399a03a2.jpg 1x, https://avatars.fastly.steamstatic.com/199c833b86ca28ef4977494fe04c376d399a03a2_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198356881295" onclick="return Forum_AuthorMenu( this, 396615567, '583935635494172733' );" data-miniprofile="396615567">
+							<bdi>Ale<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_396615567_583935635494172733" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198356881295">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198356881295/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583935635494172733"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="1 de octubre de 2026 a las 5:24:41 PST" data-timestamp="1790857481">
+						1 OCT a las 5:24&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583935635494172733">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583935635494172733">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '396615567', '583935635494172733' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583935635494172733">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494111559">DJ Gershwin</a></b>:</div>The entire game was made in chatgpt. </blockquote>Wait, was it really? This makes me so sad if that's true.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583935635494172733">#7</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583935635494176390" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/449960/9aa5870f60d2c2b09016ef5f74840a5c92ba69ba.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/449960/939261b888699b9d564218fafa183a10015ae07c.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/449960/939261b888699b9d564218fafa183a10015ae07c.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561197967549663" data-miniprofile="7283935">
+													<img src="https://avatars.fastly.steamstatic.com/aeaa90d8359d78cd9a6770eede133f6ecafb3edc.jpg" srcset="https://avatars.fastly.steamstatic.com/aeaa90d8359d78cd9a6770eede133f6ecafb3edc.jpg 1x, https://avatars.fastly.steamstatic.com/aeaa90d8359d78cd9a6770eede133f6ecafb3edc_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197967549663" onclick="return Forum_AuthorMenu( this, 7283935, '583935635494176390' );" data-miniprofile="7283935">
+							<bdi>Firecam<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_7283935_583935635494176390" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197967549663">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197967549663/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583935635494176390"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="1 de octubre de 2026 a las 6:11:34 PST" data-timestamp="1790860294">
+						1 OCT a las 6:11&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583935635494176390">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583935635494176390">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '7283935', '583935635494176390' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583935635494176390">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494172733">Ale</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494111559">DJ Gershwin</a></b>:</div>The entire game was made in chatgpt. </blockquote>Wait, was it really? This makes me so sad if that's true. </blockquote>There would be more noises if that was true but you never know. Dialogues are apparently spicy enough to have that thought. Cinematics are AI it seems.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583935635494176390">#8</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583936001036090060" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/897160/99737662f3f48468e170690d1212988f6e13bd67.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/897160/1befaf5aa7e17fa9efdfe0636775ee0138894cec.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/897160/1befaf5aa7e17fa9efdfe0636775ee0138894cec.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/hifumi_stl" data-miniprofile="85648318">
+													<img src="https://avatars.fastly.steamstatic.com/0c36bb7719c4852c56744afb8db82080232e8a49.jpg" srcset="https://avatars.fastly.steamstatic.com/0c36bb7719c4852c56744afb8db82080232e8a49.jpg 1x, https://avatars.fastly.steamstatic.com/0c36bb7719c4852c56744afb8db82080232e8a49_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/hifumi_stl" onclick="return Forum_AuthorMenu( this, 85648318, '583936001036090060' );" data-miniprofile="85648318">
+							<bdi>Hifumi Starlight<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_85648318_583936001036090060" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/hifumi_stl">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/hifumi_stl/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583936001036090060"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="4 de octubre de 2026 a las 13:16:55 PST" data-timestamp="1791145015">
+						4 OCT a las 13:16&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583936001036090060">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583936001036090060">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '85648318', '583936001036090060' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583936001036090060">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494172733">Ale</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494111559">DJ Gershwin</a></b>:</div>The entire game was made in chatgpt. </blockquote>Wait, was it really? This makes me so sad if that's true. </blockquote><br>As of yet, its impossible to prompt chatgpt to make aion2. You can only generate pieces of a game and use coding agents to piece them together. So for now at least a dozent of people were involved in making of aion <img src="https://community.fastly.steamstatic.com/economy/emoticon/compa" alt=":compa:" class="emoticon">			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583936001036090060">#9</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583936001036091278" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2139460/c7ef702c5fb15481d00767f5efd889a53ce76b3f.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2139460/0f59a9982a9399d93c9eefda975921a8f978e7c2.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/2139460/0f59a9982a9399d93c9eefda975921a8f978e7c2.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198006484860" data-miniprofile="46219132">
+													<img src="https://avatars.fastly.steamstatic.com/f342be62b57c5ee4293d8012644e547f69a3b36a.jpg" srcset="https://avatars.fastly.steamstatic.com/f342be62b57c5ee4293d8012644e547f69a3b36a.jpg 1x, https://avatars.fastly.steamstatic.com/f342be62b57c5ee4293d8012644e547f69a3b36a_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198006484860" onclick="return Forum_AuthorMenu( this, 46219132, '583936001036091278' );" data-miniprofile="46219132">
+							<bdi>Crylz<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_46219132_583936001036091278" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198006484860">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198006484860/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583936001036091278"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="4 de octubre de 2026 a las 13:31:38 PST" data-timestamp="1791145898">
+						4 OCT a las 13:31&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583936001036091278">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583936001036091278">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '46219132', '583936001036091278' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583936001036091278">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494111793">CyberDown</a></b>:</div>Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors. </blockquote><br>Mmorpgs aren't that different from those years back then. What has changed is the world itself. Mmos used to be what social media is to us today. Internet is normalized, people we interact with are just names instead of actual people behind them. You have people cussing or starting fights over nothing. Socializing with people across the world is normalized, there is no more &quot;magic&quot; in that. Newer generations are super competitive and achievement focused so they rush content like bunch of druggies ignoring online aspect of socialization in mmos.<br><br>We got to enjoy best years of mmorpgs xD it's over old man			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583936001036091278">#10</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583936001036091409" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/profiles/76561198030759249" data-miniprofile="70493521">
+													<img src="https://avatars.fastly.steamstatic.com/34d59b5c8d4d53af169e25ab53d611863aae29da.jpg" srcset="https://avatars.fastly.steamstatic.com/34d59b5c8d4d53af169e25ab53d611863aae29da.jpg 1x, https://avatars.fastly.steamstatic.com/34d59b5c8d4d53af169e25ab53d611863aae29da_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198030759249" onclick="return Forum_AuthorMenu( this, 70493521, '583936001036091409' );" data-miniprofile="70493521">
+							<bdi>Caduryn<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_70493521_583936001036091409" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198030759249">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198030759249/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583936001036091409"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="4 de octubre de 2026 a las 13:33:07 PST" data-timestamp="1791145987">
+						4 OCT a las 13:33&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583936001036091409">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583936001036091409">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '70493521', '583936001036091409' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583936001036091409">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494172733">Ale</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494111559">DJ Gershwin</a></b>:</div>The entire game was made in chatgpt. </blockquote>Wait, was it really? This makes me so sad if that's true. </blockquote>Its just insane you even believe that...			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583936001036091409">#11</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583936001036110325" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1091500/8463084f35370cc5577c093a1702660bc1f94bcc.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1091500/4f38822072e2c3a8f6960ab161b9d25e94be646d.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1091500/4f38822072e2c3a8f6960ab161b9d25e94be646d.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561197994668200" data-miniprofile="34402472">
+													<img src="https://avatars.fastly.steamstatic.com/5105eecdeea28d62f5f1d76594786e52c005b92b.jpg" srcset="https://avatars.fastly.steamstatic.com/5105eecdeea28d62f5f1d76594786e52c005b92b.jpg 1x, https://avatars.fastly.steamstatic.com/5105eecdeea28d62f5f1d76594786e52c005b92b_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197994668200" onclick="return Forum_AuthorMenu( this, 34402472, '583936001036110325' );" data-miniprofile="34402472">
+							<bdi>DJ Gershwin<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_34402472_583936001036110325" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197994668200">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197994668200/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583936001036110325"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="4 de octubre de 2026 a las 18:31:56 PST" data-timestamp="1791163916">
+						4 OCT a las 18:31&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583936001036110325">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583936001036110325">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '34402472', '583936001036110325' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583936001036110325">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583936001036091409">Caduryn</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494172733">Ale</a></b>:</div>Wait, was it really? This makes me so sad if that's true. </blockquote>Its just insane you even believe that... </blockquote>it was actually claude code			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583936001036110325">#12</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583936001036119927" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/profiles/76561198042011451" data-miniprofile="81745723">
+													<img src="https://avatars.fastly.steamstatic.com/baa16c283256042f7c5db9524f7925dcc902152e.jpg" srcset="https://avatars.fastly.steamstatic.com/baa16c283256042f7c5db9524f7925dcc902152e.jpg 1x, https://avatars.fastly.steamstatic.com/baa16c283256042f7c5db9524f7925dcc902152e_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198042011451" onclick="return Forum_AuthorMenu( this, 81745723, '583936001036119927' );" data-miniprofile="81745723">
+							<bdi>FugNugt<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_81745723_583936001036119927" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198042011451">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198042011451/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583936001036119927"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="4 de octubre de 2026 a las 21:17:50 PST" data-timestamp="1791173870">
+						4 OCT a las 21:17&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583936001036119927">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583936001036119927">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '81745723', '583936001036119927' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583936001036119927">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494111793">CyberDown</a></b>:</div>Meanwhile real humans unable to recreate the magic in mmorpgs that happened 20-25 years ago.  But its popular to hate AI so people do.  Only chance we have getting a good mmorpg will be due to AI and lack of investors. </blockquote><br>That's because the only ones motivated by that are frauds who just want to put out a playable version and then sell it as early access and run off with all the money. It happens all the time and triple A studios don't care about that, it's infinitely more profitable to release some mobile game with whales. <br><br>Those games earns billions per year just from microtransactions alone, FF14 really is the only one left that's a proper MMO and not ruined by all this.<br><br>I have plans and I know there's a vet dev team out there working on something too but it's all too early to even mention anything.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583936001036119927">#13</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583936001036122528" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/3331000/0b8841a8f2ca6aa6e9cb7ed38932180f31cc4742.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/3331000/a7d905d4878a55566e354a1454d91998259c3373.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/3331000/a7d905d4878a55566e354a1454d91998259c3373.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561197972809800" data-miniprofile="12544072">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/236390/11aae4508ef296916004f1b300fbc15517108748.jpg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/236390/18d11f424e4c0481770ba42a034eeff3a30e7732.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197972809800" onclick="return Forum_AuthorMenu( this, 12544072, '583936001036122528' );" data-miniprofile="12544072">
+							<bdi>Darque<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_12544072_583936001036122528" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197972809800">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197972809800/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583936001036122528"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="4 de octubre de 2026 a las 22:01:03 PST" data-timestamp="1791176463">
+						4 OCT a las 22:01&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583936001036122528">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583936001036122528">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '12544072', '583936001036122528' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583936001036122528">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Publicado originalmente por <b><a href="#c583935635494114463">NC CM Sakaar</a></b>:</div>We answered this recently in this thread:<br><a class="bb_link" href="https://steamcommunity.com/app/3393110/discussions/1/583935003344372119/" target="_blank" rel="" >https://steamcommunity.com/app/3393110/discussions/1/583935003344372119/</a></blockquote><br>Some people are deaf and blind.<br>They think they are intelligent, and for some reason, are trying to compete with Ai...<br><br>But thank you for clearing that up for everyone that can understand basic English.<br><br>Ai is the devil to so many people - not because they care about humanity, creativity, or even Armageddon...<br><br>But because it shows them up.  <br>From chat bots, to music, to art, to video gen...  Ai is a tool.  <br>And used responsibly, is an asset.<br><br>But people are too often the problem.  And technology always gets scape-goated.<br><br>Turning the world into a bunch of angry Villagers, trying to burn Frankenstein's monster - again...<br>Utterly blind to the fact ethics and integrity are human concepts.<br><br>Some of us appreciate the work that was put in, regardless.  <br>Thanks again.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583936001036122528">#14</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_583936001036127688" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/profiles/76561198025518464" data-miniprofile="65252736">
+													<img src="https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" srcset="https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg 1x, https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198025518464" onclick="return Forum_AuthorMenu( this, 65252736, '583936001036127688' );" data-miniprofile="65252736">
+							<bdi>Wompoo<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_65252736_583936001036127688" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198025518464">Ver perfil</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198025518464/posthistory/">Ver mensajes</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="tiene AION 2">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_583936001036127688"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="4 de octubre de 2026 a las 23:26:20 PST" data-timestamp="1791181580">
+						4 OCT a las 23:26&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_583936001036127688">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_583936001036127688">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475596239', '807973945275927412', '583935635494110426', '65252736', '583936001036127688' );" data-tooltip-text="Denunciar este mensaje por contenido inapropiado. Los mensajes denunciados son marcados para que sean revisados por los moderadores.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Denunciar este mensaje</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_583936001036127688">
+				Best use of AI would be for taking out Bots RMT and the cause of the rot the Gold Buyers.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c583936001036127688">#15</a>
+											</div>
+							</div>
+		</div>
+	</div>
+
+		</div>
+	</div>
+	        <div id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_fpagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_fpagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_fpagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_fpagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_fpagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_fpagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Mostrando <span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_fpagestart">1</span>-<span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_fpageend">15</span> de <span id="commentthread_ForumTopic_103582791475596239_807973945275927412_583935635494110426_fpagetotal">23</span> comentarios            </div>
+            <div style="clear: both;"></div>
+        </div>
+        			<div class="commentthread_pagination_ctn" style="float: right;">
+			<div class="forum_pagesize_options topic_replies">Por página: <span class="commentthread_pagination_link">15</span><a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 30 );">30</a> <a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 50 );">50</a> </div>		</div>
+		<br clear="both">
+			<div style="clear: right;"></div>
+</div>					
+					<div class="bottom_breadcrumbs">
+						<div class="forum_breadcrumbs group_content_bodytext breadcrumbs">
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/3393110">AION 2</a> <span class="breadcrumb_separator">&gt;</span>
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/3393110/discussions/1/">General Discussion</a> <span class="breadcrumb_separator">&gt;</span>
+							<span class="breadcrumb_current_page">Detalles del tema</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="rightcol responsive_local_menu">
+					<div class="rightbox">
+						<div class="content">
+							<div class="topicstats"><span class="topicstats_label">Publicado el:</span> <span class="topicstats_value">30 SEP a las 14:08</span></div><div class="topicstats"><span class="topicstats_label">Mensajes:</span> <span class="topicstats_value">23</span></div>						</div>
+
+
+													
+													
+					</div>
+
+
+											<form class="" method="GET" name="DiscussionSearchForm" id="DiscussionSearchForm" action="https://steamcommunity.com/app/3393110/discussions/search/" >
+							<div class="discussionSearchTextContainer">
+																<input type="hidden" name="gidtopic" value="583935635494110426">
+								<input class="discussionSearchText searchText" type="text" name="q" value="" placeholder="Buscar en este tema">
+								<img onclick="$('DiscussionSearchForm').submit()" class="discussionSearchTextSubmitImg" src="https://community.fastly.steamstatic.com/public/images/sharedfiles/searchbox_workshop_submit.gif" width="23" height="18" border="0">
+							</div>
+						</form>
+
+						<div class="rightbox rules">
+							<div class="content">
+								<div class="weblink"><a href="https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810" target="_blank" rel="" ><img src="https://community.fastly.steamstatic.com/public/images/skin_1/iconRules.png"> Normas y directrices sobre discusión</a></div>
+															</div>
+						</div>
+					
+					
+					
+
+											
+						
+												<div class=""></div>
+						<div class="">
+							<div class="rightSectionTopTitle">Más discusiones</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="1 respuesta">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 1									</div>
+								</div>
+								<div class="forum_topic_name" title="Он создал персонажа на одном сервере, я на другом. На его сервере не мог, потому что писало &quot;Ограничено создание персонажа&quot;. Спросил у гугла - говорит, что поиграть можно будет если мы на разных серверах (возможно наврал). Можно ли как-то перенести персонажа, или что нам делать? Мы хо�">
+									<a href="https://steamcommunity.com/app/3393110/discussions/1/583936269908886811/">
+										Как поиграть с другом?									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="No hay respuestas">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 0									</div>
+								</div>
+								<div class="forum_topic_name" title="I am tired of everything being shoulder to shoulder at a shopping mall. 45 people attacking the same mob as you anywhere in the world. 78 people on the same resource node. 4500 people on the same world boss. I can't even do abyss siege because there's no room in the abyss server to participate even when you try to enter 30 minutes before it starts.
+
+Is it just me, or does anyone else find it annoying how you can't go ANYWHERE without there being a thousand people. You go on top of a mountain, this is a nic">
+									<a href="https://steamcommunity.com/app/3393110/discussions/1/583936269908975365/">
+										Decrease Server Size? OR Am I going Insane?									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="4 respuestas">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 4									</div>
+								</div>
+								<div class="forum_topic_name" title="any way to get all skills on the monitor to show or I need to replace them with available ones ?">
+									<a href="https://steamcommunity.com/app/3393110/discussions/1/583936269908899803/">
+										I have unlocked few skills and there is like 4 rows of skills empty but it says exceeds number of registered skills									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="1 respuesta">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 1									</div>
+								</div>
+								<div class="forum_topic_name" title="Is the bane of my existence.
+I understand the need to use a controller/keyboard/mouse hybrid control system.
+my hands have the old-disease and using controller 90% of the time helps tremendously.
+
+I absolutely hate staring at the cursor smack dab in the middle of my screen anytime i do anything ever that has a cinematic.
+
+[b][u]Please How to[/u][/b]: 
+Disable visible cursor whenever controller is in use and until the keyboard or mouse is touched again when i need them?
+
+[h3]Please and thank you:[/h3]
+(hint">
+									<a href="https://steamcommunity.com/app/3393110/discussions/1/583936001036228594/">
+										CENTER CURSOR DISPLAY									</a>
+								</div>
+							</div>
+													</div>
+						<div class=""></div>
+											
+
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+	</div>
+
+	</div>
+</div>
+
+<div id="forum_modal" class="modal_frame" style="display:none;">
+	<div class="modal_top_band">
+		<div class="modal_close"><a href="javascript:hideModal( 'forum_modal' )"><img src="https://community.fastly.steamstatic.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Cerrar" /></a></div>
+	</div>
+	<div class="modal_box">
+		<div class="modal_box_ctn">
+				</div>
+	</div>
+</div>
+
+	<div id="report_modal_content" style="display: none;">
+		<h2><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag.png"> Denunciar este mensaje</h2>
+		<div class="forum_newtopic_header">MOTIVO</div>
+		<form id="forum_reportpost_form">
+			<input type="hidden" name="sessionid" value="d5da60c08ed89c802f8d0a64">
+			<input type="hidden" name="author" value="">
+			<input type="hidden" name="gidcomment" value="">
+			<input type="hidden" name="gidtopic" value="">
+
+			<div class="gray_bevel">
+				<textarea rows="3" cols="40" class="forumtopic_reply_textarea" name="report_reason" id="forum_report_reason"></textarea>
+			</div>
+		</form>
+		<div class="forum_report_instructions">Aviso: Esto SOLO debe ser usado para denunciar spam, publicidad y mensajes problemáticos (acoso, peleas o groserías).</div>
+	</div>
+<div id="modalBG" style="display: none;"></div>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+				<script>
+			RecordAppImpression( 3393110, '2_9_100006_100202' );
+		</script>
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
