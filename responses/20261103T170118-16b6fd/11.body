@@ -1,0 +1,3269 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+    <title>NVIDIA DLSS 5 in NBA 2K27: GPU Requirements and Costs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        (function () {
+            var match = window.location.pathname.match(/^\/(ko|en|zh|ja|es|vi|ar|he|ms)(?:\/|$)/);
+            if (match) {
+                document.documentElement.lang = match[1];
+                document.documentElement.dir = /^(ar|he)$/.test(match[1]) ? 'rtl' : 'ltr';
+            }
+            else if (window.location.pathname === '/') document.documentElement.lang = 'ko';
+        })();
+    </script>
+
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow">
+    <meta name="CCBot" content="index, follow">
+    <meta name="GPTBot" content="index, follow">
+    <meta name="Google-Extended" content="index, follow">
+    <meta name="anthropic-ai" content="index, follow">
+    <meta name="PerplexityBot" content="index, follow">
+    <meta name="ClaudeBot" content="index, follow">
+    <meta name="Bytespider" content="index, follow">
+    <meta name="cohere-ai" content="index, follow">
+    <link rel="alternate" type="text/plain" href="https://www.vlsi.kr/llms.txt" title="VLSI Korea LLM-readable site guide">
+
+    <meta name="google-adsense-account" content="ca-pub-8120151239409558">
+
+    <meta name="impact-site-verification" value="4b3eccfc-1f6f-45fb-b560-76d2923be736">
+
+    <link rel="preload" as="style" href="https://www.vlsi.kr/assets/built/reading.css?v=LCcqJIJgMSO1Q9PX">
+
+    <link rel="preload" as="font" type="font/woff2" href="https://www.vlsi.kr/assets/fonts/inter-roman.woff2?v=OecsB5TBLy27FKD2" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: optional;
+        src: url(https://www.vlsi.kr/assets/fonts/inter-roman.woff2?v=OecsB5TBLy27FKD2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+
+    <link rel="stylesheet" href="https://www.vlsi.kr/assets/built/reading.css?v=LCcqJIJgMSO1Q9PX">
+    <link rel="stylesheet" href="https://www.vlsi.kr/assets/built/reader-actions.css?v=ijZfSnCh-4hUhLmV">
+    <link rel="stylesheet" href="https://www.vlsi.kr/assets/built/vlsi-ghost-search-v1.css?v=UD2fXlkTYh6Pqwfq">
+    <link rel="stylesheet" href="https://www.vlsi.kr/assets/built/vlsi-redesign-v3.css?v=FiPGjfphoaSc-ceh">
+    <link rel="stylesheet" href="https://www.vlsi.kr/assets/built/vlsi-engage.css?v=TVSWJvOk3eFrp6kf">
+    <link rel="stylesheet" href="https://www.vlsi.kr/assets/built/network-ga4.css?v=-vZCMIQk_TP2z2dc">
+    <style id="vk-google-one-tap-styles">
+    #credential_picker_container iframe,
+    iframe#credential_picker_iframe {
+        color-scheme: light;
+    }
+</style>
+    
+    <script defer src="https://www.vlsi.kr/assets/built/vlsi-comment-colors.js?v=LFpJLs14cdXUOEoi"></script>
+    <link rel="icon" type="image/svg+xml" href="https://www.vlsi.kr/assets/favicon.svg?v=rIDJw3hCPlGXjqOo">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.vlsi.kr/assets/favicon-32x32.png?v=1txU6blPirK5jkol">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.vlsi.kr/assets/favicon-16x16.png?v=UL-Xw5qgib4euQks">
+    <link rel="shortcut icon" href="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w256h256/2026/01/VLSI-Korea-LOGO.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.vlsi.kr/assets/apple-touch-icon.png?v=QIt0NPoBpvX6DeBs">
+
+    <meta name="color-scheme" content="dark">
+
+    <style id="vk-legacy-popup-block-style">
+        #vk-popup-exp-root,
+        #vk-own-popup,
+        #gh-floating-bar { display: none !important; visibility: hidden !important; pointer-events: none !important; }
+    </style>
+    <script id="vk-legacy-popup-block">
+        (function () {
+            var BLOCKED = { 'vk-popup-exp-root': true, 'vk-own-popup': true, 'gh-floating-bar': true };
+            function remove(node) {
+                if (node && node.parentNode) node.parentNode.removeChild(node);
+            }
+            function sweep() {
+                Object.keys(BLOCKED).forEach(function (id) { remove(document.getElementById(id)); });
+            }
+            var observer = new MutationObserver(function (mutations) {
+                for (var i = 0; i < mutations.length; i++) {
+                    var added = mutations[i].addedNodes;
+                    for (var j = 0; j < added.length; j++) {
+                        var node = added[j];
+                        if (node.nodeType === 1 && BLOCKED[node.id]) remove(node);
+                    }
+                }
+            });
+            observer.observe(document.documentElement, { childList: true, subtree: true });
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', sweep, { once: true });
+            } else {
+                sweep();
+            }
+        })();
+    </script>
+
+    <script id="vk-consent-bootstrap">
+        (function () {
+            var storageKey = 'vlsikr-cookie-consent-v1';
+            var measurementId = 'G-HCPRHPJW1P';
+            var callbacks = [];
+
+            function read() {
+                try {
+                    var value = window.localStorage.getItem(storageKey);
+                    return value === 'accepted' || value === 'rejected' ? value : 'unset';
+                } catch (error) {
+                    return 'unset';
+                }
+            }
+
+            function clearAnalyticsCookies() {
+                document.cookie.split(';').forEach(function (item) {
+                    var name = item.split('=')[0].trim();
+                    if (!/^_ga(?:_|$)/.test(name)) return;
+                    // This product owns only host-scoped legacy analytics cookies.
+                    // Shared parent-domain analytics cookies belong to other hosts.
+                    document.cookie = name + '=; Max-Age=0; path=/; SameSite=Lax; Secure';
+                });
+            }
+
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+
+            function applyGoogleConsent(choice) {
+                var accepted = choice === 'accepted';
+                window['ga-disable-' + measurementId] = choice === 'rejected';
+                window.gtag('consent', choice === 'unset' ? 'default' : 'update', {
+                    analytics_storage: accepted ? 'granted' : 'denied',
+                    ad_storage: accepted ? 'granted' : 'denied',
+                    ad_user_data: accepted ? 'granted' : 'denied',
+                    ad_personalization: accepted ? 'granted' : 'denied',
+                    functionality_storage: 'granted',
+                    security_storage: 'granted'
+                });
+                if (!accepted) clearAnalyticsCookies();
+            }
+
+            function announce(choice) {
+                var event;
+                try {
+                    event = new CustomEvent('vlsi:consent-change', {detail: {choice: choice}});
+                } catch (error) {
+                    event = document.createEvent('CustomEvent');
+                    event.initCustomEvent('vlsi:consent-change', false, false, {choice: choice});
+                }
+                window.dispatchEvent(event);
+            }
+
+            function flush() {
+                if (read() !== 'accepted') return;
+                var pending = callbacks.slice();
+                callbacks.length = 0;
+                pending.forEach(function (callback) {
+                    try { callback(); } catch (error) {}
+                });
+            }
+
+            // Geo-split consent (2026-11-01, GA runtime 8): EEA + UK visitors
+            // keep the opt-in banner flow below. Visitors from other regions
+            // get analytics_storage granted automatically with no banner —
+            // their jurisdictions do not require prior consent for this
+            // minimized measurement, and Consent Mode v2's denied default was
+            // hiding them from GA4. The region comes from Cloudflare's
+            // same-origin /cdn-cgi/trace country signal (loc=XX). Any failure
+            // to read the signal falls back to the EEA flow (banner + denied).
+            var EEA_COUNTRIES = {
+                AT: 1, BE: 1, BG: 1, HR: 1, CY: 1, CZ: 1, DK: 1, EE: 1, FI: 1,
+                FR: 1, DE: 1, GR: 1, HU: 1, IE: 1, IT: 1, LV: 1, LT: 1, LU: 1,
+                MT: 1, NL: 1, PL: 1, PT: 1, RO: 1, SK: 1, SI: 1, ES: 1, SE: 1,
+                IS: 1, LI: 1, NO: 1, GB: 1, GI: 1
+            };
+            var regionState = read() === 'unset' ? 'pending' : 'stored';
+            var settleRegionPromise = function () {};
+            var regionPromise = new Promise(function (resolve) { settleRegionPromise = resolve; });
+            function settleRegion(state) {
+                if (regionState !== 'pending') return;
+                regionState = state;
+                settleRegionPromise(state);
+            }
+            function resolveRegion() {
+                if (regionState !== 'pending') {
+                    settleRegionPromise(regionState);
+                    return;
+                }
+                var finished = false;
+                var timer = window.setTimeout(function () { finish('fallback'); }, 2000);
+                function finish(state) {
+                    if (finished) return;
+                    finished = true;
+                    window.clearTimeout(timer);
+                    settleRegion(state);
+                }
+                try {
+                    fetch('/cdn-cgi/trace', { credentials: 'same-origin', cache: 'no-store' })
+                        .then(function (response) { return response && response.ok ? response.text() : ''; })
+                        .then(function (text) {
+                            var match = /(?:^|\n)loc=([A-Z]{2})/.exec(text || '');
+                            var loc = match ? match[1] : '';
+                            if (!loc || loc === 'XX' || loc === 'T1') { finish('fallback'); return; }
+                            if (EEA_COUNTRIES[loc]) { finish('eea'); return; }
+                            // Non-EEA/UK: grant analytics only. The site choice
+                            // itself stays unset, so advertising, Trivet and
+                            // other accept-gated features remain off, and the
+                            // reader can still decline in Cookie settings.
+                            window.gtag('consent', 'update', { analytics_storage: 'granted' });
+                            finish('auto');
+                        })
+                        .catch(function () { finish('fallback'); });
+                } catch (error) {
+                    finish('fallback');
+                }
+            }
+
+            window.VLSIConsent = {
+                key: storageKey,
+                get: read,
+                region: function () { return regionState; },
+                ready: regionPromise,
+                set: function (choice) {
+                    if (choice !== 'accepted' && choice !== 'rejected') return;
+                    try { window.localStorage.setItem(storageKey, choice); } catch (error) {}
+                    applyGoogleConsent(choice);
+                    if (choice === 'accepted') flush();
+                    announce(choice);
+                },
+                onAccept: function (callback) {
+                    if (typeof callback !== 'function') return;
+                    if (read() === 'accepted') {
+                        window.setTimeout(callback, 0);
+                    } else {
+                        callbacks.push(callback);
+                    }
+                }
+            };
+
+            applyGoogleConsent(read());
+            resolveRegion();
+        })();
+    </script>
+
+    <script>
+        (function () {
+            function loadGoogleAdSense() {
+                if (document.querySelector('script[data-vk-adsense], script[src*="adsbygoogle.js"]')) return;
+                if (!document.querySelector('ins.adsbygoogle, [data-vk-ad-slot]')) return;
+                var script = document.createElement('script');
+                script.async = true;
+                script.crossOrigin = 'anonymous';
+                script.dataset.vkAdsense = 'true';
+                script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8120151239409558';
+                document.head.appendChild(script);
+            }
+
+            function scheduleGoogleAdSense() {
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', loadGoogleAdSense, {once: true});
+                } else {
+                    loadGoogleAdSense();
+                }
+            }
+
+            if (window.VLSIConsent) window.VLSIConsent.onAccept(scheduleGoogleAdSense);
+        })();
+    </script>
+
+    
+    <link rel="alternate" hreflang="ko" href="https://www.vlsi.kr/ko/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-ko/">
+    
+    
+    
+    
+    
+    
+    
+    <link rel="alternate" hreflang="en" href="https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    <meta name="description" content="NBA 2K27 recommends an RTX 2070, but local DLSS 5 neural rendering needs RTX 50 hardware. A practical look at costs, compatibility and FPS claims.">
+    <link rel="icon" href="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w256h256/2026/01/VLSI-Korea-LOGO.png" type="image/png">
+    <link rel="canonical" href="https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="VLSI Korea">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="NVIDIA DLSS 5 in NBA 2K27: GPU Requirements and Costs">
+    <meta property="og:description" content="NBA 2K27 recommends an RTX 2070, but local DLSS 5 neural rendering needs RTX 50 hardware. A practical look at costs, compatibility and FPS claims.">
+    <meta property="og:url" content="https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/">
+    <meta property="og:image" content="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w1200/2026/09/rtx5090-photo.png">
+    <meta property="article:published_time" content="2026-09-05T10:48:43.000Z">
+    <meta property="article:modified_time" content="2026-11-01T06:16:32.000Z">
+    <meta property="article:tag" content="pillar">
+    <meta property="article:tag" content="english">
+    
+    <meta property="article:author" content="https://www.facebook.com/vlsikr">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NVIDIA DLSS 5 in NBA 2K27: GPU Requirements and Costs">
+    <meta name="twitter:description" content="NBA 2K27 recommends an RTX 2070, but local DLSS 5 neural rendering needs RTX 50 hardware. A practical look at costs, compatibility and FPS claims.">
+    <meta name="twitter:url" content="https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w1200/2026/09/rtx5090-photo.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Chase Na 나경채">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="pillar, english">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="675">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "VLSI Korea",
+        "url": "https://www.vlsi.kr/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/2026/01/VLSI-Korea-LOGO.png",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Chase Na 나경채",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/2025/05/IMG_5087-2.jpeg",
+            "width": 773,
+            "height": 994
+        },
+        "url": "https://www.vlsi.kr/author/chase/",
+        "sameAs": [
+            "https://www.vlsi.kr",
+            "https://www.facebook.com/vlsikr",
+            "https://www.threads.net/@vlsikr",
+            "https://bsky.app/profile/vlsikorea.bsky.social",
+            "https://mastodon.social/@vlsikr",
+            "https://www.youtube.com/@vlsikr",
+            "https://www.instagram.com/vlsikr",
+            "https://www.linkedin.com/in/vlsikr"
+        ]
+    },
+    "headline": "NVIDIA DLSS 5 in NBA 2K27: GPU Requirements and Costs",
+    "url": "https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/",
+    "datePublished": "2026-09-05T10:48:43.000Z",
+    "dateModified": "2026-11-01T06:16:32.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w1200/2026/09/rtx5090-photo.png",
+        "width": 1200,
+        "height": 675
+    },
+    "keywords": "pillar, english",
+    "description": "NBA 2K27 recommends an RTX 2070, but local DLSS 5 neural rendering needs RTX 50 hardware. A practical look at costs, compatibility and FPS claims.",
+    "mainEntityOfPage": "https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.74">
+    <link rel="alternate" type="application/rss+xml" title="VLSI Korea" href="https://www.vlsi.kr/rss/">
+    <style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js" data-announcement-bar="https://www.vlsi.kr/" data-api-url="https://www.vlsi.kr/members/api/announcement/" crossorigin="anonymous"></script>
+    <link href="https://www.vlsi.kr/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=mLGdiz8Ij-Hk3ydN"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=WwnU9jw5ancNC8Gc">
+    <script defer src="/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9" data-ghost-comments-counts-api="https://www.vlsi.kr/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=AKG4hWena9j3yX3I"></script>
+    <script defer src="/public/ghost-stats.min.js?v=GjA0fyDfVPF71jEZ" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://www.vlsi.kr/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="e01dab3f-8599-4f20-85b3-3b2507a10672" tb_post_uuid="5e9cebd7-b5ad-4b6d-9689-fa5cfab9479f" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined" tb_gift_link=""></script><style>:root {--ghost-accent-color: #000000;}</style>
+    <!-- VLSIKR: Members API CDN cache-bust fix (Cloudflare caches 503 despite no-store) -->
+<script>
+(function(){
+  var _origFetch = window.fetch;
+  window.fetch = function(input, init) {
+    var url = (typeof input === 'string') ? input : (input && input.url ? input.url : '');
+    if (url.indexOf('/members/api/') !== -1) {
+      var sep = url.indexOf('?') === -1 ? '?' : '&';
+      var bustedUrl = url + sep + '_cb=' + Date.now();
+      if (typeof input === 'string') {
+        return _origFetch.call(this, bustedUrl, init).then(function(resp) {
+          if (resp.status === 503) {
+            return new Promise(function(resolve) {
+              setTimeout(function() {
+                resolve(_origFetch.call(window, url + (url.indexOf('?') === -1 ? '?' : '&') + '_cb=' + Date.now(), init));
+              }, 1500);
+            });
+          }
+          return resp;
+        });
+      } else {
+        var newReq = new Request(bustedUrl, input);
+        return _origFetch.call(this, newReq, init);
+      }
+    }
+    return _origFetch.apply(this, arguments);
+  };
+})();
+</script>
+<!-- Native VLSI Korea theme renders the interface. No UI-hiding injection. -->
+<!-- Google Site Verification -->
+<meta name="google-site-verification" content="NAEX2Sq86yjJbeXlc3NVz1052tMqOSKBbWs40IrJOn8" />
+
+
+<!-- Naver Search Advisor -->
+<meta name="naver-site-verification" content="0ed34ab3034cf7f76da4c57d78e19709b6b79c8d" />
+
+
+<!-- VLSIKR-GA4: separate Google recipient consent in reviewed theme assets. -->
+
+<!-- Trivet: optional subscription enhancement. -->
+<script>
+(function () {
+    function loadTrivet() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://trivet.contraption.co/embed/trivet-one-tap.js?account=bcea0c33-77da-42f4-bc85-2f83297b07c4&v=1';
+        document.head.appendChild(script);
+    }
+    if (window.VLSIConsent) window.VLSIConsent.onAccept(loadTrivet);
+})();
+</script>
+
+<!-- Yandex Webmaster -->
+<meta name="yandex-verification" content="5c6853b423ba2c59" />
+<!-- VLSI Korea: per-post language detection via body tag class.
+     Paste this in Ghost Admin → Settings → Advanced → Code Injection → Site Header. -->
+<script>
+(function () {
+  var LANG_MAP = {
+    korean: { iso: "ko", locale: "ko_KR" },
+    english: { iso: "en", locale: "en_US" },
+    chinese: { iso: "zh", locale: "zh_CN" },
+    japanese: { iso: "ja", locale: "ja_JP" },
+    russian: { iso: "ru", locale: "ru_RU" },
+    spanish: { iso: "es", locale: "es_ES" },
+    portuguese: { iso: "pt", locale: "pt_PT" }
+  };
+  function apply() {
+    var cls = (document.body && document.body.className) || "";
+    for (var key in LANG_MAP) {
+      if (cls.indexOf("tag-" + key) !== -1) {
+        var info = LANG_MAP[key];
+        document.documentElement.setAttribute("lang", info.iso);
+        var meta = document.querySelector('meta[property="og:locale"]');
+        if (!meta) {
+          meta = document.createElement("meta");
+          meta.setAttribute("property", "og:locale");
+          document.head.appendChild(meta);
+        }
+        meta.setAttribute("content", info.locale);
+        break;
+      }
+    }
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", apply);
+  } else {
+    apply();
+  }
+})();
+</script>
+
+<!-- Article schema.org JSON-LD helper — boosts AEO/SEO when article content is present. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "VLSI Korea",
+  "url": "https://www.vlsi.kr/",
+  "description": "반도체를 만드는 엔지니어가 해석하는 반도체. By engineers, for engineers worldwide.",
+  "inLanguage": ["ko", "en", "zh", "ja", "ru", "es", "pt"]
+}
+</script>
+
+<!-- VLSIKR-LANG-LANDING v4 -->
+<script>
+/* Remember explicit language choices, but keep the x-default root URL stable.
+   Browser-language redirects on `/` can cause crawlers to collapse `/en/`
+   into the root canonical and are intentionally disabled. */
+(function(){
+  var path = location.pathname;
+  function setCookie(v){
+    document.cookie = 'vlsikr_lang=' + v + '; path=/; max-age=31536000; SameSite=Lax';
+  }
+  if (path === '/tag/korean/' || path === '/tag/korean' ||
+      path === '/ko/' || path === '/ko') { setCookie('ko'); return; }
+  if (path === '/tag/english/' || path === '/tag/english' ||
+      path === '/en/' || path === '/en') { setCookie('en'); }
+})();
+</script>
+<!-- end VLSIKR-LANG-LANDING -->
+
+<!-- VLSIKR-MEMBER-CACHE-FAILOPEN:v1:start -->
+<!--
+  Cloudflare has occasionally served Ghost's member-personalized HTML from
+  cache even though the origin response is private/no-store. Reconcile the
+  visible membership controls against Ghost's uncached member endpoint so an
+  anonymous visitor never loses the signup path.
+-->
+<script>
+(function () {
+  'use strict';
+
+  var memberEndpoint = '/members/api/member/?_cb=';
+  var dismissKey = 'vlsikr-subscribe-prompt-dismissed-v1';
+
+  function portalCluster(isMember) {
+    if (isMember) {
+      return '<a class="gh-button vk-subscribe" href="#/portal/account" data-portal="account">Account</a>';
+    }
+    return '<a class="vk-signin" href="#/portal/signin" data-portal="signin">Sign in</a>' +
+      '<a class="gh-button vk-subscribe" href="#/portal/signup" data-portal="signup">Subscribe</a>';
+  }
+
+  function ensureAnonymousPrompt() {
+    if (document.getElementById('gh-floating-bar')) return;
+
+    var bar = document.createElement('div');
+    bar.className = 'gh-floating-bar';
+    bar.id = 'gh-floating-bar';
+    bar.innerHTML =
+      '<div class="gh-floating-bar-inner">' +
+        '<div class="gh-floating-bar-text">' +
+          '<strong>VLSI Korea</strong>' +
+          '<span>매일 아침 10:30, 반도체 핵심 분석을 메일로 · 무료</span>' +
+        '</div>' +
+        '<button class="gh-button gh-floating-bar-btn" data-portal="signup">무료 구독</button>' +
+        '<button class="gh-floating-bar-close" type="button" aria-label="Close">' +
+          '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>' +
+        '</button>' +
+      '</div>';
+    document.body.appendChild(bar);
+
+    var dismissed = false;
+    var shown = false;
+    try {
+      var dismissedAt = Number(window.localStorage.getItem(dismissKey) || 0);
+      dismissed = Boolean(dismissedAt && Date.now() - dismissedAt < 7 * 24 * 60 * 60 * 1000);
+    } catch (error) {}
+    if (dismissed) bar.classList.add('is-dismissed');
+
+    function revealThreshold() {
+      var content = document.querySelector('.gh-content');
+      if (content) {
+        return window.scrollY + content.getBoundingClientRect().top + content.offsetHeight * 0.25;
+      }
+      return Math.max(1200, document.documentElement.scrollHeight * 0.3);
+    }
+
+    function update() {
+      if (dismissed) return;
+      if (window.scrollY + window.innerHeight > revealThreshold()) {
+        bar.classList.add('is-visible');
+        if (!shown) {
+          shown = true;
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'subscribe_prompt_view', {placement: 'floating_cache_recovery'});
+          }
+        }
+      } else {
+        bar.classList.remove('is-visible');
+      }
+    }
+
+    window.addEventListener('scroll', update, {passive: true});
+    bar.querySelector('.gh-floating-bar-close').addEventListener('click', function () {
+      dismissed = true;
+      bar.classList.remove('is-visible');
+      bar.classList.add('is-dismissed');
+      try { window.localStorage.setItem(dismissKey, String(Date.now())); } catch (error) {}
+    });
+    update();
+  }
+
+  function reconcile(isMember, reason) {
+    var changed = false;
+    document.querySelectorAll('.gh-navigation-members').forEach(function (cluster) {
+      var hasAccount = Boolean(cluster.querySelector('[data-portal="account"]'));
+      var hasSignup = Boolean(cluster.querySelector('[data-portal="signup"]'));
+      if ((isMember && !hasAccount) || (!isMember && !hasSignup)) {
+        cluster.innerHTML = portalCluster(isMember);
+        changed = true;
+      }
+    });
+
+    var bar = document.getElementById('gh-floating-bar');
+    if (isMember) {
+      if (bar) bar.remove();
+    } else {
+      ensureAnonymousPrompt();
+    }
+    document.documentElement.setAttribute('data-vlsikr-member-state', isMember ? 'member' : 'anonymous');
+
+    if (changed && typeof window.gtag === 'function') {
+      window.gtag('event', 'member_cache_reconciled', {
+        rendered_state: isMember ? 'anonymous' : 'member',
+        verified_state: isMember ? 'member' : 'anonymous',
+        reason: reason
+      });
+    }
+  }
+
+  function verify() {
+    fetch(memberEndpoint + Date.now(), {credentials: 'same-origin', cache: 'no-store'})
+      .then(function (response) {
+        if (response.status === 204) return null;
+        if (response.status !== 200) throw new Error('member endpoint ' + response.status);
+        return response.json();
+      })
+      .then(function (member) { reconcile(Boolean(member && member.email), 'api'); })
+      .catch(function () {
+        // Conversion-safe fallback: when the API is unavailable, prefer an
+        // anonymous signup path over a cached Account-only dead end.
+        reconcile(false, 'api_error');
+      });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', verify, {once: true});
+  } else {
+    verify();
+  }
+})();
+</script>
+<!-- VLSIKR-MEMBER-CACHE-FAILOPEN:v1:end -->
+<meta name="msvalidate.01" content="1A2DCA5368E23D1D7DB4C98BCEFD7494">
+<meta name="yandex-verification" content="7a42d90860514ce0">
+
+<!-- VLSIKR-SIGNUP-SIMPLIFY:v3: CSS - dialog shows email + reading language only.
+     Profile questions and the second (delivery) language select stay in the
+     DOM (theme JS keeps them in sync) but are no longer shown to readers. -->
+<style>
+#vk-signup-dialog .vk-signup-profile{display:none!important}
+#vk-signup-dialog #vk-signup-delivery,
+#vk-signup-dialog label[for="vk-signup-delivery"],
+#vk-signup-dialog [data-vk-delivery-note]{display:none!important}
+</style>
+
+<!-- travelpayouts-drive -->
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+(function () {
+  var script = document.createElement("script");
+  script.async = 1;
+  script.setAttribute("data-cmp-ab","2");
+  script.src = 'https://emrld.ltd/NTg5OTM2.js?t=589936';
+  document.head.appendChild(script);
+})();
+</script>
+
+<!-- vlsi-signup-head-guard-v1 -->
+<!-- VLSI Korea signup head guard v1 (2026-10-26, header Portal leak fix).
+     Append at the END of codeinjection_head.
+     Problem (verified live 2026-10-26 18:21-26 KST, Japanese article):
+       the first header Subscribe click in a page view opened Ghost's
+       native Portal in Korean (no language choice, no language-matched
+       newsletter), while later clicks opened the custom dialog with the
+       article language preselected. The custom-dialog interceptors
+       (theme member-experience.js and the foot cta-intercept-v1 block)
+       only register at end-of-body / on deferred init, so a click that
+       lands before they are live escapes to Portal's native hash
+       handling. A first-time visitor's first action is exactly that
+       click -- JP-geo signups landing in en/ko newsletters (41 members,
+       0 in ja) are the member-record fingerprint of this leak.
+     Fix: register the capture-phase click guard from <head>, before the
+     page is interactive. On a signup-link click it swallows the native
+     navigation, waits (poll, up to 3s) for #vk-signup-dialog if the
+     dialog is not in the DOM yet, then opens it with the page segment's
+     language preselected -- the same open logic as cta-intercept-v1.
+     It NEVER falls back to Portal on anonymous pages (that fallback
+     was the leak). Signed-in members are left untouched (the theme
+     does not render the dialog for them and their header action is
+     account, not signup). Modified clicks are left untouched. -->
+<script>
+(function () {
+    'use strict';
+    if (window.__vlsiSignupHeadGuard) return;
+    window.__vlsiSignupHeadGuard = true;
+    var SEG_TO_DIALOG_LANG = {
+        ko: 'ko', en: 'en', ja: 'ja', zh: 'zh', 'zh-tw': 'zh',
+        es: 'es', vi: 'vi', ar: 'ar', he: 'he', ms: 'ms'
+    };
+    function isSignupLink(a) {
+        if (!a || a.tagName !== 'A') return false;
+        var href = a.getAttribute('href') || '';
+        if (href.indexOf('/portal/signup') >= 0) return true;
+        if (a.getAttribute('data-portal') === 'signup') return true;
+        return false;
+    }
+    function isAnonymous() {
+        var b = document.body;
+        if (!b || !b.dataset) return true; // body not parsed yet -> assume visitor
+        var s = b.dataset.memberStatus;
+        return !s || s === 'anonymous';
+    }
+    function openDialog(dialog) {
+        var seg = (location.pathname.split('/')[1] || 'ko').toLowerCase();
+        var want = SEG_TO_DIALOG_LANG[seg];
+        var language = dialog.querySelector('#vk-signup-language');
+        if (want && language && language.options) {
+            var has = false;
+            for (var i = 0; i < language.options.length; i++) {
+                if (language.options[i].value === want) { has = true; break; }
+            }
+            if (has && language.value !== want) {
+                language.value = want;
+                var ev;
+                try { ev = new Event('change', { bubbles: true }); }
+                catch (e) { ev = document.createEvent('Event'); ev.initEvent('change', true, false); }
+                language.dispatchEvent(ev);
+            }
+        }
+        if (!dialog.open && typeof dialog.showModal === 'function') dialog.showModal();
+        var email = dialog.querySelector('[data-members-email]');
+        if (email && typeof email.focus === 'function') email.focus();
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', 'subscribe_dialog_open', { placement: 'head_guard' });
+        }
+        return true;
+    }
+    function handle(a) {
+        var dialog = document.getElementById('vk-signup-dialog');
+        if (dialog) {
+            if (dialog.open) return;
+            openDialog(dialog);
+            return;
+        }
+        // Dialog not in DOM yet (interceptors/theme still initialising):
+        // hold the click and poll briefly instead of leaking to Portal.
+        var waited = 0;
+        var timer = setInterval(function () {
+            waited += 100;
+            var d = document.getElementById('vk-signup-dialog');
+            if (d) {
+                clearInterval(timer);
+                if (!d.open) openDialog(d);
+            } else if (waited >= 3000) {
+                clearInterval(timer);
+                // Give up silently: no Portal fallback (that was the leak).
+                // The visitor can click again once the page has settled.
+                if (window.console && console.info) {
+                    console.info('[vlsi] signup dialog not ready; click held by head guard');
+                }
+            }
+        }, 100);
+    }
+    document.addEventListener('click', function (e) {
+        if (e.button && e.button !== 0) return;
+        if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+        var a = e.target && e.target.closest ? e.target.closest('a') : null;
+        if (!isSignupLink(a)) return;
+        if (a.closest && a.closest('#vk-signup-dialog')) return;
+        if (!isAnonymous()) return;
+        var dialog = document.getElementById('vk-signup-dialog');
+        if (dialog && dialog.open) return;
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        handle(a);
+    }, true);
+})();
+</script>
+<!-- vlsi-monetization-pause-v1 -->
+<!-- VLSI Korea monetization pause v1 (2026-10-26, owner instruction).
+     Append at the END of codeinjection_head. Hides every remaining
+     monetization surface while paid tiers are paused ahead of the
+     owner's employer (COI) notification. Nothing is deleted: removing
+     this single block (plus restoring tier visibility to public)
+     re-enables everything. Free signup and all content stay untouched.
+     Targets: footer support/donation block, affiliate deals sidebar,
+     member upgrade buttons. -->
+<style>
+#vlsi-support-qa-block{display:none!important}
+.gh-affiliate-sidebar{display:none!important}
+[data-portal="upgrade"]{display:none!important}
+</style>
+
+    <!-- vlsi-hreflang-static:start -->
+<link rel="alternate" hreflang="ko" href="https://www.vlsi.kr/ko/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-ko/">
+<link rel="alternate" hreflang="en" href="https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/">
+<link rel="alternate" hreflang="x-default" href="https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/">
+<!-- vlsi-hreflang-static:end -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8120151239409558" crossorigin="anonymous"></script>
+    <template id="vk-ghost-app-config"><meta name="generator" content="Ghost 6.74">
+    <link rel="alternate" type="application/rss+xml" title="VLSI Korea" href="https://www.vlsi.kr/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.72/umd/portal.min.js" data-i18n="true" data-ghost="https://www.vlsi.kr/" data-key="23ac1ee47358b180958862f868" data-api="https://vlsi.ghost.io/ghost/api/content/" data-locale="ko" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.9/umd/sodo-search.min.js" data-key="23ac1ee47358b180958862f868" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.9/umd/main.css" data-sodo-search="https://vlsi.ghost.io/" data-locale="ko" crossorigin="anonymous"></script>
+    <link href="https://www.vlsi.kr/webmentions/receive/" rel="webmention">
+    <script defer src="/public/member-attribution.min.js?v=AKG4hWena9j3yX3I"></script>
+    <script defer src="/public/ghost-stats.min.js?v=GjA0fyDfVPF71jEZ" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://www.vlsi.kr/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="e01dab3f-8599-4f20-85b3-3b2507a10672" tb_post_uuid="5e9cebd7-b5ad-4b6d-9689-fa5cfab9479f" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined" tb_gift_link=""></script><style>:root {--ghost-accent-color: #000000;}</style>
+    <!-- VLSIKR: Members API CDN cache-bust fix (Cloudflare caches 503 despite no-store) -->
+<script>
+(function(){
+  var _origFetch = window.fetch;
+  window.fetch = function(input, init) {
+    var url = (typeof input === 'string') ? input : (input && input.url ? input.url : '');
+    if (url.indexOf('/members/api/') !== -1) {
+      var sep = url.indexOf('?') === -1 ? '?' : '&';
+      var bustedUrl = url + sep + '_cb=' + Date.now();
+      if (typeof input === 'string') {
+        return _origFetch.call(this, bustedUrl, init).then(function(resp) {
+          if (resp.status === 503) {
+            return new Promise(function(resolve) {
+              setTimeout(function() {
+                resolve(_origFetch.call(window, url + (url.indexOf('?') === -1 ? '?' : '&') + '_cb=' + Date.now(), init));
+              }, 1500);
+            });
+          }
+          return resp;
+        });
+      } else {
+        var newReq = new Request(bustedUrl, input);
+        return _origFetch.call(this, newReq, init);
+      }
+    }
+    return _origFetch.apply(this, arguments);
+  };
+})();
+</script>
+<!-- Native VLSI Korea theme renders the interface. No UI-hiding injection. -->
+<!-- Google Site Verification -->
+<meta name="google-site-verification" content="NAEX2Sq86yjJbeXlc3NVz1052tMqOSKBbWs40IrJOn8" />
+
+
+<!-- Naver Search Advisor -->
+<meta name="naver-site-verification" content="0ed34ab3034cf7f76da4c57d78e19709b6b79c8d" />
+
+
+<!-- VLSIKR-GA4: separate Google recipient consent in reviewed theme assets. -->
+
+<!-- Trivet: optional subscription enhancement. -->
+<script>
+(function () {
+    function loadTrivet() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://trivet.contraption.co/embed/trivet-one-tap.js?account=bcea0c33-77da-42f4-bc85-2f83297b07c4&v=1';
+        document.head.appendChild(script);
+    }
+    if (window.VLSIConsent) window.VLSIConsent.onAccept(loadTrivet);
+})();
+</script>
+
+<!-- Yandex Webmaster -->
+<meta name="yandex-verification" content="5c6853b423ba2c59" />
+<!-- VLSI Korea: per-post language detection via body tag class.
+     Paste this in Ghost Admin → Settings → Advanced → Code Injection → Site Header. -->
+<script>
+(function () {
+  var LANG_MAP = {
+    korean: { iso: "ko", locale: "ko_KR" },
+    english: { iso: "en", locale: "en_US" },
+    chinese: { iso: "zh", locale: "zh_CN" },
+    japanese: { iso: "ja", locale: "ja_JP" },
+    russian: { iso: "ru", locale: "ru_RU" },
+    spanish: { iso: "es", locale: "es_ES" },
+    portuguese: { iso: "pt", locale: "pt_PT" }
+  };
+  function apply() {
+    var cls = (document.body && document.body.className) || "";
+    for (var key in LANG_MAP) {
+      if (cls.indexOf("tag-" + key) !== -1) {
+        var info = LANG_MAP[key];
+        document.documentElement.setAttribute("lang", info.iso);
+        var meta = document.querySelector('meta[property="og:locale"]');
+        if (!meta) {
+          meta = document.createElement("meta");
+          meta.setAttribute("property", "og:locale");
+          document.head.appendChild(meta);
+        }
+        meta.setAttribute("content", info.locale);
+        break;
+      }
+    }
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", apply);
+  } else {
+    apply();
+  }
+})();
+</script>
+
+<!-- Article schema.org JSON-LD helper — boosts AEO/SEO when article content is present. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "VLSI Korea",
+  "url": "https://www.vlsi.kr/",
+  "description": "반도체를 만드는 엔지니어가 해석하는 반도체. By engineers, for engineers worldwide.",
+  "inLanguage": ["ko", "en", "zh", "ja", "ru", "es", "pt"]
+}
+</script>
+
+<!-- VLSIKR-LANG-LANDING v4 -->
+<script>
+/* Remember explicit language choices, but keep the x-default root URL stable.
+   Browser-language redirects on `/` can cause crawlers to collapse `/en/`
+   into the root canonical and are intentionally disabled. */
+(function(){
+  var path = location.pathname;
+  function setCookie(v){
+    document.cookie = 'vlsikr_lang=' + v + '; path=/; max-age=31536000; SameSite=Lax';
+  }
+  if (path === '/tag/korean/' || path === '/tag/korean' ||
+      path === '/ko/' || path === '/ko') { setCookie('ko'); return; }
+  if (path === '/tag/english/' || path === '/tag/english' ||
+      path === '/en/' || path === '/en') { setCookie('en'); }
+})();
+</script>
+<!-- end VLSIKR-LANG-LANDING -->
+
+<!-- VLSIKR-MEMBER-CACHE-FAILOPEN:v1:start -->
+<!--
+  Cloudflare has occasionally served Ghost's member-personalized HTML from
+  cache even though the origin response is private/no-store. Reconcile the
+  visible membership controls against Ghost's uncached member endpoint so an
+  anonymous visitor never loses the signup path.
+-->
+<script>
+(function () {
+  'use strict';
+
+  var memberEndpoint = '/members/api/member/?_cb=';
+  var dismissKey = 'vlsikr-subscribe-prompt-dismissed-v1';
+
+  function portalCluster(isMember) {
+    if (isMember) {
+      return '<a class="gh-button vk-subscribe" href="#/portal/account" data-portal="account">Account</a>';
+    }
+    return '<a class="vk-signin" href="#/portal/signin" data-portal="signin">Sign in</a>' +
+      '<a class="gh-button vk-subscribe" href="#/portal/signup" data-portal="signup">Subscribe</a>';
+  }
+
+  function ensureAnonymousPrompt() {
+    if (document.getElementById('gh-floating-bar')) return;
+
+    var bar = document.createElement('div');
+    bar.className = 'gh-floating-bar';
+    bar.id = 'gh-floating-bar';
+    bar.innerHTML =
+      '<div class="gh-floating-bar-inner">' +
+        '<div class="gh-floating-bar-text">' +
+          '<strong>VLSI Korea</strong>' +
+          '<span>매일 아침 10:30, 반도체 핵심 분석을 메일로 · 무료</span>' +
+        '</div>' +
+        '<button class="gh-button gh-floating-bar-btn" data-portal="signup">무료 구독</button>' +
+        '<button class="gh-floating-bar-close" type="button" aria-label="Close">' +
+          '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>' +
+        '</button>' +
+      '</div>';
+    document.body.appendChild(bar);
+
+    var dismissed = false;
+    var shown = false;
+    try {
+      var dismissedAt = Number(window.localStorage.getItem(dismissKey) || 0);
+      dismissed = Boolean(dismissedAt && Date.now() - dismissedAt < 7 * 24 * 60 * 60 * 1000);
+    } catch (error) {}
+    if (dismissed) bar.classList.add('is-dismissed');
+
+    function revealThreshold() {
+      var content = document.querySelector('.gh-content');
+      if (content) {
+        return window.scrollY + content.getBoundingClientRect().top + content.offsetHeight * 0.25;
+      }
+      return Math.max(1200, document.documentElement.scrollHeight * 0.3);
+    }
+
+    function update() {
+      if (dismissed) return;
+      if (window.scrollY + window.innerHeight > revealThreshold()) {
+        bar.classList.add('is-visible');
+        if (!shown) {
+          shown = true;
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'subscribe_prompt_view', {placement: 'floating_cache_recovery'});
+          }
+        }
+      } else {
+        bar.classList.remove('is-visible');
+      }
+    }
+
+    window.addEventListener('scroll', update, {passive: true});
+    bar.querySelector('.gh-floating-bar-close').addEventListener('click', function () {
+      dismissed = true;
+      bar.classList.remove('is-visible');
+      bar.classList.add('is-dismissed');
+      try { window.localStorage.setItem(dismissKey, String(Date.now())); } catch (error) {}
+    });
+    update();
+  }
+
+  function reconcile(isMember, reason) {
+    var changed = false;
+    document.querySelectorAll('.gh-navigation-members').forEach(function (cluster) {
+      var hasAccount = Boolean(cluster.querySelector('[data-portal="account"]'));
+      var hasSignup = Boolean(cluster.querySelector('[data-portal="signup"]'));
+      if ((isMember && !hasAccount) || (!isMember && !hasSignup)) {
+        cluster.innerHTML = portalCluster(isMember);
+        changed = true;
+      }
+    });
+
+    var bar = document.getElementById('gh-floating-bar');
+    if (isMember) {
+      if (bar) bar.remove();
+    } else {
+      ensureAnonymousPrompt();
+    }
+    document.documentElement.setAttribute('data-vlsikr-member-state', isMember ? 'member' : 'anonymous');
+
+    if (changed && typeof window.gtag === 'function') {
+      window.gtag('event', 'member_cache_reconciled', {
+        rendered_state: isMember ? 'anonymous' : 'member',
+        verified_state: isMember ? 'member' : 'anonymous',
+        reason: reason
+      });
+    }
+  }
+
+  function verify() {
+    fetch(memberEndpoint + Date.now(), {credentials: 'same-origin', cache: 'no-store'})
+      .then(function (response) {
+        if (response.status === 204) return null;
+        if (response.status !== 200) throw new Error('member endpoint ' + response.status);
+        return response.json();
+      })
+      .then(function (member) { reconcile(Boolean(member && member.email), 'api'); })
+      .catch(function () {
+        // Conversion-safe fallback: when the API is unavailable, prefer an
+        // anonymous signup path over a cached Account-only dead end.
+        reconcile(false, 'api_error');
+      });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', verify, {once: true});
+  } else {
+    verify();
+  }
+})();
+</script>
+<!-- VLSIKR-MEMBER-CACHE-FAILOPEN:v1:end -->
+<meta name="msvalidate.01" content="1A2DCA5368E23D1D7DB4C98BCEFD7494">
+<meta name="yandex-verification" content="7a42d90860514ce0">
+
+<!-- VLSIKR-SIGNUP-SIMPLIFY:v3: CSS - dialog shows email + reading language only.
+     Profile questions and the second (delivery) language select stay in the
+     DOM (theme JS keeps them in sync) but are no longer shown to readers. -->
+<style>
+#vk-signup-dialog .vk-signup-profile{display:none!important}
+#vk-signup-dialog #vk-signup-delivery,
+#vk-signup-dialog label[for="vk-signup-delivery"],
+#vk-signup-dialog [data-vk-delivery-note]{display:none!important}
+</style>
+
+<!-- travelpayouts-drive -->
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+(function () {
+  var script = document.createElement("script");
+  script.async = 1;
+  script.setAttribute("data-cmp-ab","2");
+  script.src = 'https://emrld.ltd/NTg5OTM2.js?t=589936';
+  document.head.appendChild(script);
+})();
+</script>
+
+<!-- vlsi-signup-head-guard-v1 -->
+<!-- VLSI Korea signup head guard v1 (2026-10-26, header Portal leak fix).
+     Append at the END of codeinjection_head.
+     Problem (verified live 2026-10-26 18:21-26 KST, Japanese article):
+       the first header Subscribe click in a page view opened Ghost's
+       native Portal in Korean (no language choice, no language-matched
+       newsletter), while later clicks opened the custom dialog with the
+       article language preselected. The custom-dialog interceptors
+       (theme member-experience.js and the foot cta-intercept-v1 block)
+       only register at end-of-body / on deferred init, so a click that
+       lands before they are live escapes to Portal's native hash
+       handling. A first-time visitor's first action is exactly that
+       click -- JP-geo signups landing in en/ko newsletters (41 members,
+       0 in ja) are the member-record fingerprint of this leak.
+     Fix: register the capture-phase click guard from <head>, before the
+     page is interactive. On a signup-link click it swallows the native
+     navigation, waits (poll, up to 3s) for #vk-signup-dialog if the
+     dialog is not in the DOM yet, then opens it with the page segment's
+     language preselected -- the same open logic as cta-intercept-v1.
+     It NEVER falls back to Portal on anonymous pages (that fallback
+     was the leak). Signed-in members are left untouched (the theme
+     does not render the dialog for them and their header action is
+     account, not signup). Modified clicks are left untouched. -->
+<script>
+(function () {
+    'use strict';
+    if (window.__vlsiSignupHeadGuard) return;
+    window.__vlsiSignupHeadGuard = true;
+    var SEG_TO_DIALOG_LANG = {
+        ko: 'ko', en: 'en', ja: 'ja', zh: 'zh', 'zh-tw': 'zh',
+        es: 'es', vi: 'vi', ar: 'ar', he: 'he', ms: 'ms'
+    };
+    function isSignupLink(a) {
+        if (!a || a.tagName !== 'A') return false;
+        var href = a.getAttribute('href') || '';
+        if (href.indexOf('/portal/signup') >= 0) return true;
+        if (a.getAttribute('data-portal') === 'signup') return true;
+        return false;
+    }
+    function isAnonymous() {
+        var b = document.body;
+        if (!b || !b.dataset) return true; // body not parsed yet -> assume visitor
+        var s = b.dataset.memberStatus;
+        return !s || s === 'anonymous';
+    }
+    function openDialog(dialog) {
+        var seg = (location.pathname.split('/')[1] || 'ko').toLowerCase();
+        var want = SEG_TO_DIALOG_LANG[seg];
+        var language = dialog.querySelector('#vk-signup-language');
+        if (want && language && language.options) {
+            var has = false;
+            for (var i = 0; i < language.options.length; i++) {
+                if (language.options[i].value === want) { has = true; break; }
+            }
+            if (has && language.value !== want) {
+                language.value = want;
+                var ev;
+                try { ev = new Event('change', { bubbles: true }); }
+                catch (e) { ev = document.createEvent('Event'); ev.initEvent('change', true, false); }
+                language.dispatchEvent(ev);
+            }
+        }
+        if (!dialog.open && typeof dialog.showModal === 'function') dialog.showModal();
+        var email = dialog.querySelector('[data-members-email]');
+        if (email && typeof email.focus === 'function') email.focus();
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', 'subscribe_dialog_open', { placement: 'head_guard' });
+        }
+        return true;
+    }
+    function handle(a) {
+        var dialog = document.getElementById('vk-signup-dialog');
+        if (dialog) {
+            if (dialog.open) return;
+            openDialog(dialog);
+            return;
+        }
+        // Dialog not in DOM yet (interceptors/theme still initialising):
+        // hold the click and poll briefly instead of leaking to Portal.
+        var waited = 0;
+        var timer = setInterval(function () {
+            waited += 100;
+            var d = document.getElementById('vk-signup-dialog');
+            if (d) {
+                clearInterval(timer);
+                if (!d.open) openDialog(d);
+            } else if (waited >= 3000) {
+                clearInterval(timer);
+                // Give up silently: no Portal fallback (that was the leak).
+                // The visitor can click again once the page has settled.
+                if (window.console && console.info) {
+                    console.info('[vlsi] signup dialog not ready; click held by head guard');
+                }
+            }
+        }, 100);
+    }
+    document.addEventListener('click', function (e) {
+        if (e.button && e.button !== 0) return;
+        if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+        var a = e.target && e.target.closest ? e.target.closest('a') : null;
+        if (!isSignupLink(a)) return;
+        if (a.closest && a.closest('#vk-signup-dialog')) return;
+        if (!isAnonymous()) return;
+        var dialog = document.getElementById('vk-signup-dialog');
+        if (dialog && dialog.open) return;
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        handle(a);
+    }, true);
+})();
+</script>
+<!-- vlsi-monetization-pause-v1 -->
+<!-- VLSI Korea monetization pause v1 (2026-10-26, owner instruction).
+     Append at the END of codeinjection_head. Hides every remaining
+     monetization surface while paid tiers are paused ahead of the
+     owner's employer (COI) notification. Nothing is deleted: removing
+     this single block (plus restoring tier visibility to public)
+     re-enables everything. Free signup and all content stay untouched.
+     Targets: footer support/donation block, affiliate deals sidebar,
+     member upgrade buttons. -->
+<style>
+#vlsi-support-qa-block{display:none!important}
+.gh-affiliate-sidebar{display:none!important}
+[data-portal="upgrade"]{display:none!important}
+</style>
+
+    <!-- vlsi-hreflang-static:start -->
+<link rel="alternate" hreflang="ko" href="https://www.vlsi.kr/ko/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-ko/">
+<link rel="alternate" hreflang="en" href="https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/">
+<link rel="alternate" hreflang="x-default" href="https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/">
+<!-- vlsi-hreflang-static:end --></template>
+
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[
+      {"@type":"Organization","@id":"https://www.vlsi.kr/#organization","name":"VLSI Korea","url":"https://www.vlsi.kr","logo":"https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/2026/01/VLSI-Korea-LOGO.png" },
+      {"@type":"WebSite","@id":"https://www.vlsi.kr/#website","name":"VLSI Korea","url":"https://www.vlsi.kr","publisher":{"@id":"https://www.vlsi.kr/#organization"}}
+    ]}
+    </script>
+
+    
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebPage","@id":"https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/#webpage","url":"https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/","name":"NVIDIA DLSS 5 is in NBA 2K27. Does your GPU need replacing?","isPartOf":{"@id":"https://www.vlsi.kr/#website"},"publisher":{"@id":"https://www.vlsi.kr/#organization"}}
+    </script>
+    
+
+</head>
+<body class="post-template tag-pillar tag-english tag-hash-grp-news-7d91d4c880f9e208 tag-hash-daily-news-stream tag-hash-no-email tag-hash-cat-engineering has-sans-title has-sans-body" data-member-status="anonymous">
+
+<a class="vk-skip-link" href="#vk-main-content"><span class="vk-lang-ko" lang="ko">본문으로 건너뛰기</span><span class="vk-lang-other" lang="en">Skip to content</span></a>
+
+<a class="vk-contact-link" href="/cdn-cgi/l/email-protection#b9dedaf9cfd5cad097d2cb86caccdbd3dcdacd84eff5eaf09c8b89f2d6cbdcd89c8b89f0d7c8ccd0cbc0">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+        <path d="M12 2c1.7 6 4 8.3 10 10-6 1.7-8.3 4-10 10C10.3 16 8 13.7 2 12c6-1.7 8.3-4 10-10Z"/>
+    </svg>
+    <span class="vk-lang-ko" lang="ko">1:1 문의<span class="vk-contact-sr"> — <span class="__cf_email__" data-cfemail="cbaca88bbda7b8a2e5a0b9">[email&#160;protected]</span>로 이메일 작성</span></span>
+    <span class="vk-lang-other" lang="en">Contact us<span class="vk-contact-sr"> — email <span class="__cf_email__" data-cfemail="197e7a596f756a7037726b">[email&#160;protected]</span></span></span>
+</a>
+
+<div class="gh-viewport">
+
+    <header class="vlsi-gs2 vk-editorial-shell" data-current-product="korea" data-locale="en" data-vlsi-consumer-id="korea" data-vlsi-global-shell-v2>
+    <div class="vlsi-gs2__masthead">
+        <a class="vlsi-gs2__brand-home" href="https://www.vlsi.kr/" aria-label="VLSI Korea home" data-vlsi-current-home="true" data-vlsi-locale-destination="home" data-vlsi-product-id="korea"><img class="vlsi-gs2__brand-mark" src="https://www.vlsi.kr/assets/images/vlsi-global-shell-v2-mark.png?v=9fd-r0R5fE1w9Jh2" width="26" height="26" alt="" decoding="async">VLSI Korea</a>
+            <div class="vlsi-gs2__account-actions">
+                <button class="vlsi-gs2__search-trigger vlsi-gs2__search-trigger--masthead" type="button" aria-label="Search" aria-expanded="false" aria-controls="vk-shell-search" data-vlsi-disclosure-trigger data-vlsi-search-trigger><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg><span class="vlsi-gs2__visually-hidden">Search</span></button>
+        <div class="vlsi-gs2__language">
+            <button class="vlsi-gs2__language-trigger" type="button" aria-expanded="false" aria-controls="vk-shell-language" aria-label="Language" data-vlsi-disclosure-trigger><span aria-hidden="true" data-vlsi-language-icon>🇰🇷</span><span data-vlsi-language-label>en</span><span class="vlsi-gs2__chevron" aria-hidden="true">▼</span></button>
+            <div class="vlsi-gs2__disclosure vlsi-gs2__language-panel" id="vk-shell-language" data-vlsi-disclosure-panel hidden>
+                <ul>
+                    <li><a href="https://www.vlsi.kr/" lang="ko" hreflang="ko" data-vlsi-locale="ko"><span>🇰🇷 한국어</span></a></li>
+                    <li><a href="https://www.vlsi.kr/en/" lang="en" hreflang="en" data-vlsi-locale="en"><span>🇺🇸 English</span></a></li>
+                    <li><a href="https://www.vlsi.kr/zh/" lang="zh" hreflang="zh" data-vlsi-locale="zh"><span>🇨🇳 中文</span></a></li>
+                    <li><a href="https://www.vlsi.kr/tag/chinese-traditional/" lang="zh-TW" hreflang="zh-TW" data-vlsi-locale="zh-tw"><span>🇹🇼 繁體中文</span></a></li>
+                    <li><a href="https://www.vlsi.kr/ja/" lang="ja" hreflang="ja" data-vlsi-locale="ja"><span>🇯🇵 日本語</span></a></li>
+                    <li><a href="https://www.vlsi.kr/es/" lang="es" hreflang="es" data-vlsi-locale="es"><span>🇪🇸 Español</span></a></li>
+                    <li><a href="https://www.vlsi.kr/vi/" lang="vi" hreflang="vi" data-vlsi-locale="vi"><span>🇻🇳 Tiếng Việt</span></a></li>
+                    <li dir="rtl"><a href="https://www.vlsi.kr/ar/" lang="ar" hreflang="ar" data-vlsi-locale="ar"><span>🇸🇦 العربية</span></a></li>
+                    <li dir="rtl"><a href="https://www.vlsi.kr/he/" lang="he" hreflang="he" data-vlsi-locale="he"><span>🇮🇱 עברית</span></a></li>
+                    <li><a href="https://www.vlsi.kr/ms/" lang="ms" hreflang="ms" data-vlsi-locale="ms"><span>🇲🇾 Bahasa Melayu</span></a></li>
+                </ul>
+            </div>
+        </div>
+
+                <a class="vlsi-gs2__account-link vlsi-gs2__account-link--login" href="#/portal/signin" data-portal="signin">Sign in</a>
+                <a class="vlsi-gs2__account-link vlsi-gs2__account-link--subscribe" href="#/portal/signup" data-portal="signup">Subscribe</a>
+            </div>
+    </div>
+
+    <div class="vlsi-gs2__nav-shell">
+        <div class="vlsi-gs2__nav-scroll">
+            <nav class="vlsi-gs2__nav-row" aria-label="VLSI Korea">
+                <button class="vlsi-gs2__disclosure-trigger" type="button" aria-expanded="false" aria-controls="vk-shell-articles" data-vlsi-disclosure-trigger><span>Articles</span><span class="vlsi-gs2__chevron" aria-hidden="true">▼</span></button>
+                <button class="vlsi-gs2__disclosure-trigger" type="button" aria-expanded="false" aria-controls="vk-shell-market" data-vlsi-disclosure-trigger><span>Market</span><span class="vlsi-gs2__chevron" aria-hidden="true">▼</span></button>
+                <a class="vlsi-gs2__nav-link" href="https://edu.vlsi.kr/" data-vlsi-locale-destination="home" data-vlsi-product-id="education">Edu</a>
+                <a class="vlsi-gs2__nav-link" href="https://calendar.vlsi.kr/" data-vlsi-locale-destination="home" data-vlsi-product-id="calendar">Calendar</a>
+                <a class="vlsi-gs2__nav-link" href="https://hub.vlsi.kr/" data-vlsi-locale-destination="home" data-vlsi-product-id="hub">Hub</a>
+                <a class="vlsi-gs2__nav-link" href="https://museum.vlsi.kr/" data-vlsi-locale-destination="home" data-vlsi-product-id="museum">Museum</a>
+                <a class="vlsi-gs2__nav-link" href="https://map.vlsi.kr/" data-vlsi-locale-destination="home" data-vlsi-product-id="map">Map</a>
+                <button class="vlsi-gs2__disclosure-trigger" type="button" aria-expanded="false" aria-controls="vk-shell-more" data-vlsi-disclosure-trigger><span>More</span><span class="vlsi-gs2__chevron" aria-hidden="true">▼</span></button>
+                
+            </nav>
+        </div>
+
+        <div class="vlsi-gs2__disclosure vlsi-gs2__disclosure--articles" id="vk-shell-articles" data-vlsi-disclosure-panel hidden>
+            <ul>
+                <li><a href="https://www.vlsi.kr/en/latest/"><span>Latest</span></a></li>
+            </ul>
+            <div class="vlsi-gs2__articles-grid">
+                <section class="vlsi-gs2__market-group">
+                    <div class="vlsi-gs2__menu-label">Topics</div>
+                    <ul>
+                        <li><a href="https://www.vlsi.kr/tag/jongmogbunseog/"><span>Markets</span></a></li>
+                        <li><a href="https://www.vlsi.kr/tag/memory/"><span>Memory</span></a></li>
+                        <li><a href="https://www.vlsi.kr/tag/ai-semiconductor/"><span>AI Chips</span></a></li>
+                        <li><a href="https://www.vlsi.kr/tag/foundry/"><span>Manufacturing</span></a></li>
+                        <li><a href="https://www.vlsi.kr/tag/eda/"><span>Design</span></a></li>
+                        <li><a href="https://www.vlsi.kr/tag/advanced-packaging/"><span>Packaging &amp; Test</span></a></li>
+                        <li><a href="https://www.vlsi.kr/en/research/"><span>Research</span></a></li>
+                        <li><a href="https://www.vlsi.kr/en/engineering/"><span>Engineering</span></a></li>
+                        <li><a href="https://www.vlsi.kr/en/career/"><span>Career</span></a></li>
+                    </ul>
+                </section>
+                <section class="vlsi-gs2__market-group">
+                    <div class="vlsi-gs2__menu-label">Series</div>
+                    <ul>
+                        <li><a href="https://www.vlsi.kr/en/daily/"><span>Daily Silicon</span></a></li>
+                        <li><a href="https://www.vlsi.kr/en/weekly/"><span>Weekly Silicon</span></a></li>
+                        <li><a href="https://www.vlsi.kr/en/monthly/"><span>Monthly Silicon</span></a></li>
+                    </ul>
+                </section>
+                <section class="vlsi-gs2__market-group">
+                    <div class="vlsi-gs2__menu-label">Rankings</div>
+                    <ul>
+                        <li><a href="https://www.vlsi.kr/popular/"><span>Popular</span></a></li>
+                        <li><a href="https://www.vlsi.kr/liked/"><span>Most liked</span></a></li>
+                        <li><a href="https://www.vlsi.kr/discussed/"><span>Most commented</span></a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div class="vlsi-gs2__disclosure vlsi-gs2__disclosure--market" id="vk-shell-market" data-vlsi-disclosure-panel hidden>
+            <div class="vlsi-gs2__market-grid">
+                <section class="vlsi-gs2__market-group">
+                    <div class="vlsi-gs2__menu-label">Explore</div>
+                    <ul>
+                        <li><a href="https://market.vlsi.kr/"><span>Overview</span></a></li>
+                        <li><a href="https://market.vlsi.kr/companies"><span>Companies</span></a></li>
+                        <li><a href="https://market.vlsi.kr/products"><span>Products</span></a></li>
+                        <li><a href="https://market.vlsi.kr/fabs"><span>Fabs</span></a></li>
+                        <li><a href="https://market.vlsi.kr/supply-chain"><span>Supply Chain</span></a></li>
+                        <li><a href="https://market.vlsi.kr/map"><span>Map</span></a></li>
+                    </ul>
+                </section>
+                <section class="vlsi-gs2__market-group">
+                    <div class="vlsi-gs2__menu-label">Prices &amp; data</div>
+                    <ul>
+                        <li><a href="https://market.vlsi.kr/markets/memory"><span>Memory prices</span></a></li>
+                        <li><a href="https://market.vlsi.kr/markets/marketplace"><span>Product prices</span></a></li>
+                        <li><a href="https://market.vlsi.kr/markets/analyze"><span>Universal chart</span></a></li>
+                        <li><a href="https://market.vlsi.kr/markets"><span>Market atlas</span></a></li>
+                        <li><a href="https://market.vlsi.kr/industry"><span>Industry atlas</span></a></li>
+                    </ul>
+                </section>
+                <section class="vlsi-gs2__market-group">
+                    <div class="vlsi-gs2__menu-label">Production &amp; supply</div>
+                    <ul>
+                        <li><a href="https://market.vlsi.kr/foundry"><span>Foundries</span></a></li>
+                        <li><a href="https://market.vlsi.kr/markets/manufacturing"><span>Manufacturing</span></a></li>
+                        <li><a href="https://market.vlsi.kr/markets/logic"><span>Compute &amp; logic</span></a></li>
+                        <li><a href="https://market.vlsi.kr/markets/display"><span>Display</span></a></li>
+                        <li><a href="https://market.vlsi.kr/markets/power-analog"><span>Power &amp; analog</span></a></li>
+                        <li><a href="https://market.vlsi.kr/trade"><span>Trade flows</span></a></li>
+                    </ul>
+                </section>
+                <section class="vlsi-gs2__market-group">
+                    <div class="vlsi-gs2__menu-label">Intelligence</div>
+                    <ul>
+                        <li><a href="https://market.vlsi.kr/my-market"><span>My Market</span></a></li>
+                        <li><a href="https://market.vlsi.kr/changes"><span>News &amp; changes</span></a></li>
+                        <li><a href="https://market.vlsi.kr/startups"><span>Startups &amp; capital</span></a></li>
+                        <li><a href="https://market.vlsi.kr/investors"><span>Investor graph</span></a></li>
+                        <li><a href="https://market.vlsi.kr/eda"><span>EDA</span></a></li>
+                        <li><a href="https://market.vlsi.kr/ip"><span>Semiconductor IP</span></a></li>
+                        <li><a href="https://market.vlsi.kr/roadmaps"><span>Roadmaps</span></a></li>
+                        <li><a href="https://market.vlsi.kr/search"><span>Search Market</span></a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div class="vlsi-gs2__disclosure vlsi-gs2__disclosure--more" id="vk-shell-more" data-vlsi-disclosure-panel hidden>
+            <ul>
+                <li><a href="https://www.vlsi.kr/ask/"><span>Ask VLSI</span></a></li>
+                <li><a href="https://www.vlsi.kr/about/"><span>About</span></a></li>
+                <li><a href="https://www.vlsi.kr/fan/"><span>Partnership</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="vlsi-gs2__search-panel" id="vk-shell-search" data-vlsi-disclosure-panel hidden>
+        <div class="vlsi-gs2__search-inner">
+            <form class="vlsi-gs2__search-form" action="https://www.google.com/search" data-vlsi-platform-search data-vlsi-ghost-public-origin="https://www.vlsi.kr" method="get" role="search" target="_blank" rel="noopener">
+                <label class="vlsi-gs2__visually-hidden" for="vk-shell-query">Search VLSI Korea articles</label>
+                <input id="vk-shell-query" name="q" type="search" dir="ltr" autocomplete="off" required aria-controls="vk-shell-article-results" aria-describedby="vk-shell-search-help" placeholder="Search VLSI Korea articles…">
+                <button type="submit" data-vlsi-search-mode="blog">Search articles</button>
+                <button type="submit" data-vlsi-search-mode="network" title="Search VLSI Network on Google">VLSI Network<span aria-hidden="true"> ↗</span></button>
+                <button type="submit" data-vlsi-search-mode="google">Google<span aria-hidden="true"> ↗</span></button>
+            </form>
+            <p class="vlsi-gs2__search-help" id="vk-shell-search-help" lang="en" dir="ltr">Search titles and excerpts in this edition's language. Results appear as you type, or choose a wider Google search.</p>
+            <p class="vlsi-gs2__search-status" data-vlsi-ghost-search-status dir="auto" role="status" aria-live="polite" aria-atomic="true"></p>
+            <section class="vlsi-gs2__search-results" id="vk-shell-article-results" aria-label="VLSI Korea article results" data-vlsi-ghost-search-results hidden>
+                <ol data-vlsi-ghost-search-list></ol>
+            </section>
+            <noscript><p class="vlsi-gs2__search-help">Article results need JavaScript; the form searches Google when JavaScript is unavailable.</p></noscript>
+        </div>
+    </div>
+
+    <noscript><nav aria-label="VLSI Korea"><a href="https://www.vlsi.kr/en/latest/">Latest</a> <a href="https://www.vlsi.kr/en/daily/">Daily Silicon</a> <a href="https://www.vlsi.kr/en/weekly/">Weekly Silicon</a> <a href="https://www.vlsi.kr/en/monthly/">Monthly Silicon</a> <a href="https://www.vlsi.kr/en/research/">Research</a> <a href="https://www.vlsi.kr/en/engineering/">Engineering</a> <a href="https://market.vlsi.kr/">Market overview</a> <a href="https://market.vlsi.kr/companies">Companies</a> <a href="https://market.vlsi.kr/products">Products</a> <a href="https://market.vlsi.kr/fabs">Fabs</a> <a href="https://market.vlsi.kr/supply-chain">Supply Chain</a> <a href="https://market.vlsi.kr/map">Map</a> <a href="https://edu.vlsi.kr/">Edu</a> <a href="https://calendar.vlsi.kr/">Calendar</a> <a href="https://hub.vlsi.kr/">Hub</a> <a href="https://museum.vlsi.kr/">Museum</a> <a href="https://map.vlsi.kr/">Map</a> <a href="https://www.vlsi.kr/ask/">Ask VLSI</a> <a href="https://www.vlsi.kr/about/">About</a> <a href="https://www.vlsi.kr/fan/">Partnership</a></nav></noscript>
+</header>
+
+    
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.vlsi.kr"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "pillar",
+            "item": "https://www.vlsi.kr/tag/pillar/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "NVIDIA DLSS 5 is in NBA 2K27. Does your GPU need replacing?",
+            "item": "https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/"
+        }
+            ]
+}
+</script>
+
+<main id="vk-main-content" class="gh-main gh-main-with-sidebar" tabindex="-1">
+
+    <article
+        class="gh-article post tag-pillar tag-english tag-hash-grp-news-7d91d4c880f9e208 tag-hash-daily-news-stream tag-hash-no-email tag-hash-cat-engineering"
+    >
+
+        <header class="gh-article-header gh-canvas">
+
+                <a class="gh-article-tag" href="https://www.vlsi.kr/tag/pillar/">pillar</a>
+            <h1 class="gh-article-title is-title">NVIDIA DLSS 5 is in NBA 2K27. Does your GPU need replacing?</h1>
+                <p class="gh-article-excerpt is-body">NBA 2K27 recommends an RTX 2070, but local DLSS 5 neural rendering needs RTX 50 hardware. A practical look at costs, compatibility and FPS claims.</p>
+
+            <div class="gh-article-meta">
+                <div class="gh-article-author-image instapaper_ignore">
+                            <a href="/author/chase/">
+                                <img class="author-profile-image" width="48" height="48" decoding="async" src="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w160/2025/05/IMG_5087-2.jpeg" alt="Chase Na 나경채">
+                            </a>
+                </div>
+                <div class="gh-article-meta-wrapper">
+                    <div class="gh-article-meta-top">
+                        <p class="gh-article-author-name"><span><a href="/author/chase/">Chase Na 나경채</a></span></p>
+                        <div class="gh-author-social">
+                            <a href="https://bsky.app/profile/vlsikorea.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky" title="Bluesky"><svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.8868 11.3624C10.8107 9.1288 7.87874 4.96656 5.15331 2.91348C3.18679 1.43245 0 0.28612 0 3.93314C0 4.66121 0.416033 10.0519 0.660462 10.927C1.50889 13.9693 4.60131 14.7453 7.352 14.2758C2.54378 15.0967 1.32092 17.8158 3.9624 20.535C8.97901 25.6994 11.1728 19.2393 11.7346 17.584C11.8385 17.2784 11.8868 17.1365 11.8868 17.262C11.8868 17.1365 11.9351 17.2784 12.0391 17.584C12.6008 19.2393 14.7946 25.6994 19.8113 20.535C22.4527 17.8158 21.2298 15.0967 16.4217 14.2758C19.1723 14.7453 22.2648 13.9693 23.1132 10.927C23.3576 10.0519 23.7736 4.66121 23.7736 3.93314C23.7736 0.28612 20.5872 1.43245 18.6204 2.91348C15.8949 4.96656 12.963 9.1288 11.8868 11.3624Z" fill="currentColor"/>
+</svg></a>
+                            <a href="https://www.linkedin.com/in/vlsikr/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                            <a href="https://x.com/vlsikr" target="_blank" rel="noopener" aria-label="X" title="X"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="https://blog.naver.com/gc_na" target="_blank" rel="noopener" aria-label="Naver" title="Naver Blog"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16.273 12.845 7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727z"/></svg></a>
+                            <a class="gh-author-bmc" href="https://buymeacoffee.com/vlsi" target="_blank" rel="noopener" aria-label="Buy Me a Coffee" title="Buy Me a Coffee"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><line x1="6" x2="6" y1="2" y2="4"/><line x1="10" x2="10" y1="2" y2="4"/><line x1="14" x2="14" y1="2" y2="4"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="gh-article-meta-content">
+                        <time class="gh-article-meta-date" datetime="2026-09-05T19:48:43+09:00">
+                            2026.09.05 19:48 KST
+                        </time>
+                        <time class="gh-article-meta-date" datetime="2026-11-01T15:16:32+09:00">
+                            Updated 2026.11.01 15:16 KST
+                        </time>
+                            <span class="gh-article-meta-length"><span class="bull">·</span> 4 min read</span>
+                            <a class="gh-article-comment-count" href="#discussion" data-comment-intent><span class="bull">·</span> <script
+    data-ghost-comment-count="6a9bf38b3ec3f000010b8756"
+    data-ghost-comment-count-empty="Start discussion"
+    data-ghost-comment-count-singular="1 comment"
+    data-ghost-comment-count-plural="% comments"
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name=""
+    data-ghost-comment-count-autowrap="true"
+>
+</script></a>
+                    </div>
+                </div>
+            </div>
+
+                <figure class="gh-article-image">
+        <picture>
+            <source
+                type="image/webp"
+                srcset="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w320/format/webp/2026/09/rtx5090-photo.png 320w,
+                        https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w600/format/webp/2026/09/rtx5090-photo.png 600w,
+                        https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w960/format/webp/2026/09/rtx5090-photo.png 960w,
+                        https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w1200/format/webp/2026/09/rtx5090-photo.png 1200w,
+                        https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w2000/format/webp/2026/09/rtx5090-photo.png 2000w"
+                sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(100vw - 80px), 1180px"
+            >
+            <img
+                srcset="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w320/2026/09/rtx5090-photo.png 320w,
+                        https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w600/2026/09/rtx5090-photo.png 600w,
+                        https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w960/2026/09/rtx5090-photo.png 960w,
+                        https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w1200/2026/09/rtx5090-photo.png 1200w,
+                        https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w2000/2026/09/rtx5090-photo.png 2000w"
+                sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(100vw - 80px), 1180px"
+                src="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w1200/2026/09/rtx5090-photo.png"
+                alt="Physical GeForce RTX 5090 Founders Edition graphics card with two fans and a visible RTX 5090 mark"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+                width="1200"
+                height="675"
+            >
+        </picture>
+            <figcaption>RTX 5090 Founders Edition, photographed in January 2025; one example of supported RTX 50 hardware, not a requirement to buy this model. Still: <a href="https://www.youtube.com/watch?v=5nj1qLazPlk">ZMASLO</a> via <a href="https://commons.wikimedia.org/wiki/File:RTX_5090_-_du%C5%BCa_wydajno%C5%9B%C4%87_du%C5%BCym_kosztem_(2160p_30fps_VP9_LQ-96kbit_AAC)-00.00.05.900.png">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Unmodified.</figcaption>
+    </figure>
+
+        </header>
+
+        <section class="gh-content gh-canvas is-body">
+            <blockquote>🆓 <strong>Free article</strong> · Anyone can read this article for free</blockquote><p>The game runs. The new graphics option does not.</p><p>That is when the specifications get another reading. Is the PC falling behind, or does the new feature have a separate admission ticket?</p><p><a href="https://www.vlsi.kr/en/nvidia-vera-cpu-bandwidth-en/">NVIDIA</a>'s <a href="https://www.nvidia.com/en-us/geforce/news/nba-2k27-dlss-5-3d-guided-neural-rendering-geforce-game-ready-driver/?ref=vlsi.kr">September 3 Game Ready announcement for NBA 2K27</a> makes that distinction concrete. <strong>Running the game and enabling DLSS 5's new visual feature have different requirements.</strong></p><h2 id="the-recommended-list-says-rtx-2070-the-new-option-says-rtx-50">The recommended list says RTX 2070. The new option says RTX 50.</h2><p><a href="https://store.steampowered.com/app/4356430/NBA_2K27/?ref=vlsi.kr">Steam recommends</a> an RTX 2070 with 8GB of VRAM among its GPU choices. NVIDIA's local support for DLSS 5 3D-Guided Neural Rendering covers the RTX 50 series. Meeting a game's recommended specifications does not mean every new graphics feature will be available.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/2026/10/dlss-flow.png" class="kg-image" alt="Flow diagram separating the roles of DLSS 5, Multi Frame Generation and Reflex" loading="lazy"><figcaption>DLSS 5 neural rendering (lighting and materials), Multi Frame Generation (displayed frames) and Reflex (latency) do three different jobs. Per the article.</figcaption></figure><p>An existing PC therefore raises two questions: can it deliver an enjoyable game, and is the new lighting and material treatment worth an additional expense? <em>Recommended specifications are not a promise of a particular frame rate at your chosen resolution.</em></p><h2 id="better-looking-frames-and-additional-frames-do-different-jobs">Better-looking frames and additional frames do different jobs</h2><p>In <a href="https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/?ref=vlsi.kr">NVIDIA's technical explanation</a>, the neural-rendering stage enriches lighting and materials on the foundation of the engine-rendered frame. It uses a one-frame-in, one-frame-out model. Multi Frame Generation produces additional frames. Features that work together need not do the same job.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/2026/10/concept-dlss.jpg" class="kg-image" alt="Concept image of neural rendering on a transparent-shroud graphics card with a basketball game scene" loading="lazy"><figcaption>A GPU whose neural rendering enriches lighting and materials in a basketball game scene — image quality and frame generation must be judged separately.</figcaption></figure><p>NVIDIA's figure of <strong>up to 370 FPS on an RTX 5090 at 4K, Ultra settings and ray tracing</strong> combines multiple DLSS features, including Super Resolution and Multi Frame Generation. It is a vendor result, not a measurement of the neural-rendering feature in isolation.</p><p>Image quality and responsiveness also deserve separate checks. A displayed frame rate that includes generated frames cannot, by itself, tell you the delay between pressing a button and seeing a response. <a href="https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/gaming.html?ref=vlsi.kr">NVIDIA distinguishes Frame Generation from its latency-reducing Reflex technology.</a> For a useful comparison, hold resolution and other settings constant, then inspect the image, frame pacing and controls with neural rendering toggled.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/2026/09/dlss-three-roles.png" class="kg-image" alt="DLSS 5 addresses image appearance, Multi Frame Generation displayed frame count, and Reflex PC latency. Evaluate the effects separately." loading="lazy"><figcaption>VLSI Korea original schematic. DLSS 5 addresses image appearance, Multi Frame Generation displayed frame count, and Reflex PC latency. Evaluate the effects separately. Sources: <a href="https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/?ref=vlsi.kr">www.nvidia.com</a>, <a href="https://www.nvidia.com/en-us/geforce/technologies/reflex/?ref=vlsi.kr">www.nvidia.com</a>.</figcaption></figure><h2 id="the-buying-decision-starts-with-the-equipment-you-already-own">The buying decision starts with the equipment you already own</h2><p>The <a href="https://store.steampowered.com/app/4356430/NBA_2K27/?cc=us&ref=vlsi.kr">U.S. Steam base-game listing</a> checked on September 5 is $69.99. That is not a converted Korean price or a verified tax-inclusive checkout total. It cannot stand in for the cost of replacing a GPU as well as buying the game.</p><p>For someone who already owns both an RTX 50 PC and the game, trying the setting comes first. An older-GPU owner faces a larger question: does this change in one game's presentation justify replacing hardware? Developers also have to consider the supported audience and the combinations they must test. That is an operational implication of the compatibility boundary, not a sales forecast.</p><p>Cloud gaming offers another route, with qualifications. <a href="https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/?ref=vlsi.kr">NVIDIA specifies</a> Ultimate members using RTX 5080-powered rigs in NVIDIA-operated regions. That announcement does not establish availability or prices for a Korean alliance-partner service. A fair cost comparison needs the relevant region's actual support, subscription price and connection conditions.</p><blockquote>VLSI Korea view: A PC that plays the game and a PC that enables every new graphics option answer different buying questions.</blockquote><h2 id="product-economics-specifications">Product economics &amp; specifications</h2>
+<!--kg-card-begin: html-->
+<table><thead><tr><th>Dimension</th><th>Details</th><th>Buyer implication</th><th>Evidence</th></tr></thead><tbody><tr><th>Base game (U.S.)</th><td>NBA 2K27 Standard/base game: USD 69.99, Steam U.S., checked Sep 5, 2026; no discount. Final tax treatment not verified.</td><td>Game-only price; excludes GPU, PC and optional purchases. Not a Korean quote.</td><td>verified · <a href="https://store.steampowered.com/api/appdetails?appids=4356430&cc=us&l=english&ref=vlsi.kr">Source</a></td></tr><tr><th>DLSS feature / hardware cost</th><td>No standalone DLSS 5 price is listed in the launch materials; regional GPU and cloud subscription quotes were not verified.</td><td>Do not compare a full GPU replacement with the game price alone.</td><td>unavailable · unavailable</td></tr><tr><th>Likely first users</th><td>Players who already own both an RTX 50 PC and NBA 2K27.</td><td>Try the visual option before treating it as a hardware-buying reason. Buyer-fit analysis, not verified adoption.</td><td>analysis · analysis</td></tr><tr><th>Local feature support</th><td>RTX 50 series; Game Ready 616.64 WHQL; enable DLSS Neural Rendering in game.</td><td>Feature eligibility differs from the base game requirements.</td><td>verified · <a href="https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/?ref=vlsi.kr">Source</a></td></tr><tr><th>Base-game recommendation</th><td>One recommended GPU: RTX 2070 8GB; recommended RAM: 16GB; storage: 110GB, SSD required.</td><td>These do not guarantee DLSS 5 neural-rendering access or a target FPS.</td><td>verified · <a href="https://store.steampowered.com/api/appdetails?appids=4356430&cc=us&l=english&ref=vlsi.kr">Source</a></td></tr><tr><th>Cloud availability</th><td>GeForce NOW Ultimate, RTX 5080-powered rigs, NVIDIA-operated regions.</td><td>Check local service availability and connection conditions; do not assume Korean partner support.</td><td>verified · <a href="https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/?ref=vlsi.kr">Source</a></td></tr><tr><th>Benchmark interpretation</th><td>Vendor claim: up to 370 FPS, RTX 5090, 4K Ultra + ray tracing, multiple DLSS features enabled.</td><td>Not an isolated neural-rendering speedup or an input-latency measurement.</td><td>verified · <a href="https://www.nvidia.com/en-us/geforce/news/nba-2k27-dlss-5-3d-guided-neural-rendering-geforce-game-ready-driver/?ref=vlsi.kr">Source</a></td></tr></tbody></table>
+<!--kg-card-end: html-->
+<h2 id="share-price-context">Share-price context</h2><p><em>Share-price chart unavailable: NVIDIA IR: verified daily history unavailable.</em></p><h2 id="watch-the-official-demonstration">Watch the official demonstration</h2><p><a href="https://www.youtube.com/watch?v=LHUzFnq70b8&ref=vlsi.kr">NBA 2K27 | NVIDIA DLSS 5 Launch Trailer</a> · NVIDIA GeForce</p><p><a href="https://www.youtube.com/watch?v=58FagrSqC4M&ref=vlsi.kr">DLSS 5 | Introducing 3D-Guided Neural Rendering</a> · NVIDIA GeForce</p><p><a href="https://investor.nvidia.com/stock-info/stock-quote-and-chart/?ref=vlsi.kr">NVIDIA's official stock page</a> provides market context. This run did not obtain a verifiable daily history; no price move is attributed to the game-feature announcement.</p><p><em>AI assisted research and writing from public original sources, with a separate independent review. Information checked September 5, 2026.</em></p><p>Disclosure</p><p><em>This article is provided for informational purposes only and does not constitute a recommendation to buy or sell any security. Figures and factual statements are based on publicly available sources, including company filings, news reports, and market research, and may contain errors in the source material or in the preparation of this article. The author may own shares in companies mentioned. All investment decisions and their outcomes are the reader's responsibility.</em></p><p><strong>Related reading</strong></p><ul><li><a href="https://www.vlsi.kr/en/daily-silicon-nvidia-96-2b-ai-silicon-and-ucie-design-shift/">Daily Silicon: NVIDIA $96.2B, AI Silicon and UCIe Design Shift</a></li><li><a href="https://www.vlsi.kr/en/daily-silicon-nvidia-81-6b-q2-guide-91b-parabolic/">Daily Silicon: NVIDIA $81.6B, Q2 Guide $91B — Parabolic</a></li><li><a href="https://www.vlsi.kr/en/daily-silicon-nvidia-d-day-triple-memory-pt-hike/">Daily Silicon: NVIDIA D-day, Triple Memory PT Hike</a></li></ul>
+        </section>
+
+        <section class="vk-engage gh-canvas" data-engage-bar data-loading="true" data-slug="daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en" data-post-id="6a9bf38b3ec3f000010b8756" aria-label="Like and share">
+    <div class="vk-engage-row">
+        <button type="button" class="vk-engage-like" data-engage-like aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <span>Like</span>
+            <span class="vk-engage-like-count" data-engage-like-count>0</span>
+        </button>
+        <div class="vk-engage-share" role="group" aria-label="Share">
+            <span class="vk-engage-share-label">Share</span>
+            <button type="button" data-share="native">Share…</button>
+            <button type="button" data-share="x">X</button>
+            <button type="button" data-share="facebook">Facebook</button>
+            <button type="button" data-share="linkedin">LinkedIn</button>
+            <button type="button" data-share="copy" data-copied-label="Link copied">Copy link</button>
+        </div>
+    </div>
+    <p class="vk-engage-status" data-engage-status role="status" aria-live="polite"></p>
+</section>
+
+    </article>
+
+    <aside class="vk-article-follow gh-canvas" aria-label="Follow VLSI Korea">
+    <div class="vk-google-source" data-vk-google-source data-placement="article">
+    <a class="vk-google-source-button" href="https://www.google.com/preferences/source?q=vlsi.kr" target="_blank" rel="noopener noreferrer" data-vk-google-add>
+        <span class="vk-lang-ko" lang="ko" dir="ltr">Google 선호 출처에 VLSI Korea 추가</span><span class="vk-lang-other" lang="en" dir="ltr">Add VLSI Korea to your Google Preferred Sources</span>
+    </a>
+    <p class="vk-google-status" data-vk-google-status role="status" aria-live="polite"></p>
+    <a class="vk-google-fallback" href="https://www.google.com/preferences/source?q=vlsi.kr" target="_blank" rel="noopener noreferrer" data-vk-google-fallback hidden><span class="vk-lang-ko" lang="ko" dir="ltr">Google 설정에서 직접 확인하기 ↗</span><span class="vk-lang-other" lang="en" dir="ltr">Check directly in Google settings ↗</span></a>
+</div>
+    <details class="vk-ai-search">
+        <summary><span class="vk-lang-ko" lang="ko" dir="ltr">AI에서 VLSI Korea 검색하기</span><span class="vk-lang-other" lang="en" dir="ltr">Search for VLSI Korea with AI</span></summary>
+        <p data-vk-search-prompt><span class="vk-lang-ko" lang="ko" dir="ltr">웹에서 site:vlsi.kr의 반도체 분석을 검색하고 원문 링크와 발행일을 함께 알려줘.</span><span class="vk-lang-other" lang="en" dir="ltr">Search the web for semiconductor analysis on site:vlsi.kr and include original source links and publication dates.</span></p>
+        <button type="button" data-vk-copy-search><span class="vk-lang-ko" lang="ko" dir="ltr">검색 질문 복사</span><span class="vk-lang-other" lang="en" dir="ltr">Copy search prompt</span></button>
+        <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT ↗</a>
+        <a href="https://claude.ai/" target="_blank" rel="noopener noreferrer">Claude ↗</a>
+        <p class="vk-google-status" data-vk-copy-status role="status" aria-live="polite"></p>
+    </details>
+</aside>
+
+        <section class="vk-discussion gh-canvas" id="discussion" aria-labelledby="vk-discussion-title">
+            <header class="vk-discussion-header">
+                <h2 id="vk-discussion-title">Discussion</h2>
+            </header>
+            <div class="gh-comments" data-vlsi-discussion>
+                <template data-vlsi-comments-template>
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~1.6/umd/comments-ui.min.js" data-locale="ko" data-ghost-comments="https://www.vlsi.kr/" data-api="https://vlsi.ghost.io/ghost/api/content/" data-admin="https://vlsi.ghost.io/ghost/" data-key="23ac1ee47358b180958862f868" data-title="" data-count="false" data-post-id="6a9bf38b3ec3f000010b8756" data-color-scheme="dark" data-avatar-saturation="60" data-accent-color="#000000" data-comments-enabled="all" data-publication="VLSI Korea" crossorigin="anonymous"></script>
+    </template>
+                <button class="gh-button" type="button" hidden data-vlsi-comments-load data-loading-label="Loading discussion." data-error-label="Discussion could not load. Please try again.">Load discussion</button>
+                <p role="status" aria-live="polite" data-vlsi-comments-status></p>
+                <noscript><p>Enable JavaScript to view the discussion.</p></noscript>
+            </div>
+        </section>
+        <script defer src="https://www.vlsi.kr/assets/built/vlsi-discussion-loader.js?v=mPSGNRmLcHofp0_v"></script>
+
+
+</main>
+
+
+                    <section class="gh-container is-grid gh-outer vk-related-reading" data-related-reading>
+                        <div class="gh-container-inner gh-inner">
+                            <h2 class="gh-container-title">Read next</h2>
+                            <div class="gh-feed">
+                                <article
+    class="gh-card post"
+>
+    <a class="gh-card-link" href="/en/lx-semicon-q3-2026-flash-en/" data-recirculation="related">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w160/format/webp/2026/11/photo-lx-semicon-chips-cover-1.jpg 160w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w320/format/webp/2026/11/photo-lx-semicon-chips-cover-1.jpg 320w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w600/format/webp/2026/11/photo-lx-semicon-chips-cover-1.jpg 600w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w960/format/webp/2026/11/photo-lx-semicon-chips-cover-1.jpg 960w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w1200/format/webp/2026/11/photo-lx-semicon-chips-cover-1.jpg 1200w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w2000/format/webp/2026/11/photo-lx-semicon-chips-cover-1.jpg 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w600/2026/11/photo-lx-semicon-chips-cover-1.jpg"
+                    alt="LX Semicon Q3 2026: Operating Loss of KRW 15.6B as Revenue Falls 15%"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <p class="gh-card-tag" lang="en">Analysis
+</p>
+                <h3 class="gh-card-title is-title">LX Semicon Q3 2026: Operating Loss of KRW 15.6B as Revenue Falls 15%</h3>
+                <p class="gh-card-excerpt is-body">LX Semicon filed preliminary third-quarter 2026 results with revenue of KRW 336.0 billion, down 14.8% year over year, and an operating loss of KRW 15.6 billion. The board also named Jun-ho Na as its next CEO on the same day.</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Chase Na 나경채</span>
+                    <time class="gh-card-date" datetime="2026-11-03" dir="ltr">2026.11.03</time>
+                <!--
+             --><span class="gh-card-comments"><script
+    data-ghost-comment-count="6ae9928df33b0c00013678dc"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular="1 comment"
+    data-ghost-comment-count-plural="% comments"
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name=""
+    data-ghost-comment-count-autowrap="true"
+>
+</script></span><!--
+             --><span class="gh-card-likes" data-engage-count="lx-semicon-q3-2026-flash-en" hidden> ♥ <span data-engage-count-num>0</span></span><!--
+         --></footer>
+        </div>
+    </a>
+</article>
+<article
+    class="gh-card post"
+>
+    <a class="gh-card-link" href="/en/supply-chain-check-2026-11-03-en/" data-recirculation="related">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w160/format/webp/2026/11/chart-cover-25.png 160w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w320/format/webp/2026/11/chart-cover-25.png 320w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w600/format/webp/2026/11/chart-cover-25.png 600w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w960/format/webp/2026/11/chart-cover-25.png 960w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w1200/format/webp/2026/11/chart-cover-25.png 1200w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w2000/format/webp/2026/11/chart-cover-25.png 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w600/2026/11/chart-cover-25.png"
+                    alt="Supply-Chain Check: KRW 2.65 Trillion in One Week — SEMCO&#x27;s MLCC Deal, Samsung&#x27;s CSOT Stake, Isu Petasys Plant 7, Daeduck Earnings"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <p class="gh-card-tag" lang="en">Analysis
+</p>
+                <h3 class="gh-card-title is-title">Supply-Chain Check: KRW 2.65 Trillion in One Week — SEMCO&#x27;s MLCC Deal, Samsung&#x27;s CSOT Stake, Isu Petasys Plant 7, Daeduck Earnings</h3>
+                <p class="gh-card-excerpt is-body">A weekly supply-chain ledger built only from filings and official announcements, Oct 28 to Nov 2: SEMCO&#x27;s KRW 879.3bn MLCC deal, Samsung Electronics&#x27; KRW 1,271.8bn CSOT stake buy, Isu Petasys&#x27; KRW 500bn plant agreement, and Daeduck&#x27;s record quarter.</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Chase Na 나경채</span>
+                    <time class="gh-card-date" datetime="2026-11-03" dir="ltr">2026.11.03</time>
+                <!--
+             --><span class="gh-card-comments"><script
+    data-ghost-comment-count="6ae98e6ff33b0c0001367898"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular="1 comment"
+    data-ghost-comment-count-plural="% comments"
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name=""
+    data-ghost-comment-count-autowrap="true"
+>
+</script></span><!--
+             --><span class="gh-card-likes" data-engage-count="supply-chain-check-2026-11-03-en" hidden> ♥ <span data-engage-count-num>0</span></span><!--
+         --></footer>
+        </div>
+    </a>
+</article>
+<article
+    class="gh-card post"
+>
+    <a class="gh-card-link" href="/en/liquid-cooling-threshold-en/" data-recirculation="related">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w160/format/webp/2026/11/photo-nvidia-gb200-nvl72-4.jpg 160w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w320/format/webp/2026/11/photo-nvidia-gb200-nvl72-4.jpg 320w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w600/format/webp/2026/11/photo-nvidia-gb200-nvl72-4.jpg 600w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w960/format/webp/2026/11/photo-nvidia-gb200-nvl72-4.jpg 960w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w1200/format/webp/2026/11/photo-nvidia-gb200-nvl72-4.jpg 1200w,
+                            https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w2000/format/webp/2026/11/photo-nvidia-gb200-nvl72-4.jpg 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w600/2026/11/photo-nvidia-gb200-nvl72-4.jpg"
+                    alt="The Coldest Cooling Does Not Win: Liquid Cooling in AI Data Centers and the Operations Threshold"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <p class="gh-card-tag" lang="en">Analysis
+</p>
+                <h3 class="gh-card-title is-title">The Coldest Cooling Does Not Win: Liquid Cooling in AI Data Centers and the Operations Threshold</h3>
+                <p class="gh-card-excerpt is-body">Liquid cooling&#x27;s winner will not be the coldest method. Once racks pass 20 kW, cold plates lead immersion not on thermal performance but on retrofit, maintenance, and fluid supply — the operations threshold.</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Chase Na 나경채</span>
+                    <time class="gh-card-date" datetime="2026-11-03" dir="ltr">2026.11.03</time>
+                <!--
+             --><span class="gh-card-comments"><script
+    data-ghost-comment-count="6ae98322f33b0c0001367842"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular="1 comment"
+    data-ghost-comment-count-plural="% comments"
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name=""
+    data-ghost-comment-count-autowrap="true"
+>
+</script></span><!--
+             --><span class="gh-card-likes" data-engage-count="liquid-cooling-threshold-en" hidden> ♥ <span data-engage-count-num>0</span></span><!--
+         --></footer>
+        </div>
+    </a>
+</article>
+
+                            </div>
+                        </div>
+                    </section>
+
+
+    <footer class="gh-footer vk-footer gh-outer">
+    <div class="gh-footer-inner gh-inner">
+        <div class="vk-footer-grid">
+            <section class="vk-footer-brand">
+                <a class="vk-footer-wordmark" href="https://www.vlsi.kr/en/" data-vk-home>
+                    <img src="https://storage.ghost.io/c/e0/1d/e01dab3f-8599-4f20-85b3-3b2507a10672/content/images/size/w160/format/webp/2026/01/VLSI-Korea-LOGO.png" alt="" width="42" height="42">
+                    <span>VLSI<strong>Korea</strong></span>
+                </a>
+                <p lang="en">Korean-first semiconductor open intelligence for engineers, researchers and investors.</p>
+                <a class="vk-footer-contact" href="/cdn-cgi/l/email-protection#e18682a1978d9288cf8a93"><span class="__cf_email__" data-cfemail="442327043228372d6a2f36">[email&#160;protected]</span></a>
+            </section>
+
+            <nav class="vk-footer-column" aria-label="Intelligence sections">
+                <strong>INTELLIGENCE</strong>
+                <a href="https://www.vlsi.kr/en/latest/" data-vk-route="latest" data-vk-section-path="latest" data-vk-copy="latest">Latest Posts</a>
+                <a href="https://www.vlsi.kr/en/daily/" data-vk-route="daily-brief" data-vk-section-path="daily" data-vk-copy="daily">Daily Brief</a>
+                <a href="https://www.vlsi.kr/en/research/" data-vk-route="industry-research" data-vk-section-path="research" data-vk-copy="research">Research</a>
+                <a href="https://www.vlsi.kr/en/engineering/" data-vk-route="pillar" data-vk-section-path="engineering" data-vk-copy="engineering">Engineering</a>
+                <a href="https://www.vlsi.kr/en/weekly/" data-vk-route="weekly-silicon" data-vk-section-path="weekly" data-vk-copy="weekly">Weekly</a>
+                <a href="https://www.vlsi.kr/en/monthly/" data-vk-route="vlsi-monthly" data-vk-section-path="monthly" data-vk-copy="monthly">Monthly</a>
+            </nav>
+
+            <nav class="vk-footer-column" aria-label="Engineering resources">
+                <strong>ENGINEERING</strong>
+                <a href="https://www.vlsi.kr/en/career/" data-vk-route="career" data-vk-section-path="career" data-vk-copy="career">Career</a>
+                <a href="https://www.vlsi.kr/jobs/" data-vk-copy="jobs">Jobs</a>
+                <a href="https://www.vlsi.kr/glossary/" data-vk-copy="glossary">Glossary</a>
+                <a href="https://www.vlsi.kr/labs/" data-vk-copy="labs">Labs</a>
+                <a href="https://www.vlsi.kr/projects/" data-vk-copy="projects">Projects</a>
+                <a href="https://edu.vlsi.kr/" target="_blank" rel="noopener"><span data-vk-copy="education">VLSI Edu</span> ↗</a>
+            </nav>
+
+            <nav class="vk-footer-column" aria-label="VLSI Korea information">
+                <strong>VLSI KOREA</strong>
+                <a href="https://www.vlsi.kr/about/" data-vk-copy="about">About</a>
+                <a href="https://www.vlsi.kr/privacy/">Privacy</a>
+                <a href="https://www.vlsi.kr/terms/">Terms</a>
+                <a href="https://www.vlsi.kr/contact/">Contact</a>
+                <a href="https://www.vlsi.kr/corrections/">Corrections</a>
+                <a href="https://www.vlsi.kr/disclosure/">Disclosure</a>
+                <a href="https://www.vlsi.kr/refund/">Refund Policy</a>
+                <a href="https://calendar.vlsi.kr/" target="_blank" rel="noopener" data-vk-copy="calendar">VLSI Calendar ↗</a>
+                <a href="https://market.vlsi.kr/" target="_blank" rel="noopener">VLSI Market ↗</a>
+                <a href="https://www.vlsi.kr/transparency/">Transparency &amp; Editorial</a>
+                <a class="vk-footer-partner" href="https://www.vlsi.kr/fan/" data-vk-copy="business">For business</a>
+            </nav>
+        </div>
+
+        <div class="vk-footer-google"><div class="vk-google-source" data-vk-google-source data-placement="footer">
+    <a class="vk-google-source-button" href="https://www.google.com/preferences/source?q=vlsi.kr" target="_blank" rel="noopener noreferrer" data-vk-google-add>
+        <span class="vk-lang-ko" lang="ko" dir="ltr">Google 선호 출처에 VLSI Korea 추가</span><span class="vk-lang-other" lang="en" dir="ltr">Add VLSI Korea to your Google Preferred Sources</span>
+    </a>
+    <p class="vk-google-status" data-vk-google-status role="status" aria-live="polite"></p>
+    <a class="vk-google-fallback" href="https://www.google.com/preferences/source?q=vlsi.kr" target="_blank" rel="noopener noreferrer" data-vk-google-fallback hidden><span class="vk-lang-ko" lang="ko" dir="ltr">Google 설정에서 직접 확인하기 ↗</span><span class="vk-lang-other" lang="en" dir="ltr">Check directly in Google settings ↗</span></a>
+</div>
+</div>
+
+        <div class="vk-footer-social" aria-label="VLSI Korea channels">
+            <a href="https://www.linkedin.com/in/vlsikr/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M22.2 0H1.8C1.32261 0 0.864773 0.18964 0.527213 0.527213C0.18964 0.864773 0 1.32261 0 1.8V22.2C0 22.6773 0.18964 23.1352 0.527213 23.4728C0.864773 23.8104 1.32261 24 1.8 24H22.2C22.6773 24 23.1352 23.8104 23.4728 23.4728C23.8104 23.1352 24 22.6773 24 22.2V1.8C24 1.32261 23.8104 0.864773 23.4728 0.527213C23.1352 0.18964 22.6773 0 22.2 0ZM7.2 20.4H3.6V9.6H7.2V20.4ZM5.4 7.5C4.98741 7.48821 4.58747 7.35509 4.25011 7.11729C3.91275 6.87949 3.65293 6.54755 3.50316 6.16293C3.35337 5.77832 3.32025 5.35809 3.40793 4.95476C3.4956 4.55144 3.7002 4.18288 3.99613 3.89517C4.29208 3.60745 4.66624 3.41332 5.07188 3.33704C5.47752 3.26075 5.89664 3.30569 6.27688 3.46625C6.65712 3.6268 6.98163 3.89585 7.20983 4.23977C7.43804 4.58371 7.55983 4.98725 7.56 5.4C7.55052 5.96441 7.318 6.50213 6.91327 6.89564C6.50852 7.28913 5.96447 7.50643 5.4 7.5ZM20.4 20.4H16.8V14.712C16.8 13.008 16.08 12.396 15.144 12.396C14.8696 12.4143 14.6015 12.4865 14.3551 12.6088C14.1087 12.7309 13.8888 12.9007 13.7081 13.108C13.5276 13.3155 13.3896 13.5565 13.3024 13.8173C13.2152 14.0781 13.1804 14.3536 13.2 14.628C13.194 14.6839 13.194 14.7401 13.2 14.796V20.4H9.6V9.6H13.08V11.16C13.4311 10.626 13.9133 10.1911 14.4807 9.89693C15.048 9.6028 15.6813 9.4592 16.32 9.48C18.18 9.48 20.352 10.512 20.352 13.872L20.4 20.4Z" fill="currentColor"/>
+</svg></a>
+            <a href="https://x.com/vlsikr" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg></a>
+            <a href="https://www.instagram.com/vlsikr/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 2.982C14.937 2.982 15.285 2.993 16.445 3.046C17.1424 3.05412 17.8331 3.18233 18.487 3.425C18.965 3.60111 19.3973 3.88237 19.752 4.248C20.1176 4.60269 20.3989 5.035 20.575 5.513C20.8177 6.16685 20.9459 6.85762 20.954 7.555C21.007 8.715 21.018 9.063 21.018 12C21.018 14.937 21.007 15.285 20.954 16.445C20.9459 17.1424 20.8177 17.8331 20.575 18.487C20.3919 18.9615 20.1116 19.3924 19.752 19.752C19.3924 20.1116 18.9615 20.3919 18.487 20.575C17.8331 20.8177 17.1424 20.9459 16.445 20.954C15.285 21.007 14.937 21.018 12 21.018C9.063 21.018 8.715 21.007 7.555 20.954C6.85762 20.9459 6.16685 20.8177 5.513 20.575C5.035 20.3989 4.60269 20.1176 4.248 19.752C3.88237 19.3973 3.60111 18.965 3.425 18.487C3.18233 17.8331 3.05412 17.1424 3.046 16.445C2.993 15.285 2.982 14.937 2.982 12C2.982 9.063 2.993 8.715 3.046 7.555C3.05412 6.85762 3.18233 6.16685 3.425 5.513C3.60111 5.035 3.88237 4.60269 4.248 4.248C4.60269 3.88237 5.035 3.60111 5.513 3.425C6.16685 3.18233 6.85762 3.05412 7.555 3.046C8.715 2.993 9.063 2.982 12 2.982ZM12 1C9.013 1 8.638 1.013 7.465 1.066C6.55258 1.08486 5.6499 1.25762 4.795 1.577C4.06355 1.86017 3.3994 2.29319 2.84521 2.84824C2.29102 3.40329 1.85904 4.06811 1.577 4.8C1.25762 5.6549 1.08486 6.55758 1.066 7.47C1.013 8.638 1 9.013 1 12C1 14.987 1.013 15.362 1.066 16.535C1.08486 17.4474 1.25762 18.3501 1.577 19.205C1.86017 19.9365 2.29319 20.6006 2.84824 21.1548C3.40329 21.709 4.06811 22.141 4.8 22.423C5.6549 22.7424 6.55758 22.9151 7.47 22.934C8.638 22.987 9.013 23 12 23C14.987 23 15.362 22.987 16.535 22.934C17.4474 22.9151 18.3501 22.7424 19.205 22.423C19.9365 22.1398 20.6006 21.7068 21.1548 21.1518C21.709 20.5967 22.141 19.9319 22.423 19.2C22.7424 18.3451 22.9151 17.4424 22.934 16.53C22.987 15.362 23 14.987 23 12C23 9.013 22.987 8.638 22.934 7.465C22.9151 6.55258 22.7424 5.6499 22.423 4.795C22.1398 4.06355 21.7068 3.3994 21.1518 2.84521C20.5967 2.29102 19.9319 1.85904 19.2 1.577C18.3451 1.25762 17.4424 1.08486 16.53 1.066C15.362 1.013 14.987 1 12 1Z" fill="currentColor"/>
+    <path d="M11.9996 6.35107C10.8823 6.35107 9.79015 6.68238 8.86117 7.3031C7.9322 7.92382 7.20815 8.80608 6.78059 9.8383C6.35303 10.8705 6.24116 12.0063 6.45913 13.1021C6.6771 14.1979 7.21512 15.2045 8.00514 15.9945C8.79517 16.7845 9.80172 17.3226 10.8975 17.5405C11.9933 17.7585 13.1291 17.6466 14.1614 17.2191C15.1936 16.7915 16.0758 16.0675 16.6966 15.1385C17.3173 14.2095 17.6486 13.1173 17.6486 12.0001C17.6486 10.5019 17.0534 9.06502 15.994 8.00563C14.9346 6.94624 13.4978 6.35107 11.9996 6.35107ZM11.9996 15.6671C11.2743 15.6671 10.5653 15.452 9.96231 15.0491C9.35928 14.6461 8.88927 14.0734 8.61172 13.4034C8.33418 12.7333 8.26156 11.996 8.40305 11.2847C8.54454 10.5734 8.89379 9.91995 9.40663 9.40711C9.91947 8.89427 10.5729 8.54503 11.2842 8.40353C11.9955 8.26204 12.7328 8.33466 13.4029 8.61221C14.0729 8.88975 14.6457 9.35976 15.0486 9.9628C15.4515 10.5658 15.6666 11.2748 15.6666 12.0001C15.6666 12.9726 15.2802 13.9053 14.5925 14.593C13.9049 15.2807 12.9721 15.6671 11.9996 15.6671Z" fill="currentColor"/>
+    <path d="M17.8718 7.44811C18.6008 7.44811 19.1918 6.85712 19.1918 6.12811C19.1918 5.39909 18.6008 4.80811 17.8718 4.80811C17.1427 4.80811 16.5518 5.39909 16.5518 6.12811C16.5518 6.85712 17.1427 7.44811 17.8718 7.44811Z" fill="currentColor"/>
+</svg>
+</a>
+            <a href="https://www.threads.com/@vlsikr" target="_blank" rel="noopener" aria-label="Threads"><svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.5609 11.1236C17.4575 11.074 17.3526 11.0263 17.2462 10.9806C17.0611 7.56727 15.1967 5.61312 12.0661 5.59312C12.0519 5.59304 12.0379 5.59304 12.0237 5.59304C10.1512 5.59304 8.59388 6.39262 7.63537 7.84759L9.35708 9.0291C10.0732 7.94229 11.1969 7.7106 12.0245 7.7106C12.034 7.7106 12.0436 7.7106 12.0531 7.71068C13.0839 7.71726 13.8618 8.01708 14.3652 8.60175C14.7315 9.02742 14.9765 9.61563 15.0978 10.3579C14.1839 10.2026 13.1956 10.1548 12.139 10.2155C9.16261 10.387 7.24916 12.1235 7.37767 14.5365C7.44288 15.7605 8.05242 16.8135 9.09393 17.5014C9.97446 18.0829 11.1087 18.3673 12.2874 18.3029C13.844 18.2175 15.0652 17.6234 15.9171 16.5371C16.564 15.712 16.9732 14.6429 17.154 13.2958C17.8957 13.7436 18.4455 14.333 18.7492 15.0414C19.2655 16.2459 19.2956 18.225 17.6814 19.8385C16.267 21.2521 14.5669 21.8635 11.9976 21.8824C9.14756 21.8613 6.9921 20.9468 5.59068 19.1646C4.27836 17.4958 3.60015 15.0852 3.57484 12C3.60015 8.91472 4.27836 6.5042 5.59068 4.83533C6.9921 3.05312 9.14752 2.13875 11.9976 2.11756C14.8684 2.13891 17.0614 3.05767 18.5164 4.8485C19.2299 5.7267 19.7677 6.8311 20.1224 8.11879L22.14 7.58028C21.7102 5.99527 21.0338 4.62946 20.1135 3.49675C18.248 1.20083 15.5199 0.024398 12.0046 0H11.9906C8.48249 0.0243044 5.78485 1.20522 3.97257 3.50991C2.3599 5.5608 1.52804 8.41446 1.50008 11.9916L1.5 12L1.50008 12.0084C1.52804 15.5855 2.3599 18.4393 3.97257 20.4901C5.78485 22.7947 8.48249 23.9758 11.9906 24H12.0046C15.1235 23.9783 17.3219 23.1615 19.1329 21.3513C21.5024 18.9833 21.431 16.0149 20.6501 14.1927C20.0898 12.8859 19.0216 11.8245 17.5609 11.1236ZM12.1759 16.1884C10.8715 16.2619 9.51623 15.6761 9.44937 14.4215C9.39984 13.4913 10.1111 12.4533 12.256 12.3296C12.5016 12.3154 12.7427 12.3085 12.9794 12.3085C13.7585 12.3085 14.4874 12.3842 15.1499 12.5292C14.9028 15.6169 13.4532 16.1183 12.1759 16.1884Z" fill="currentColor"/>
+</svg>
+</a>
+            <a href="https://bsky.app/profile/vlsikorea.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky"><svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.8868 11.3624C10.8107 9.1288 7.87874 4.96656 5.15331 2.91348C3.18679 1.43245 0 0.28612 0 3.93314C0 4.66121 0.416033 10.0519 0.660462 10.927C1.50889 13.9693 4.60131 14.7453 7.352 14.2758C2.54378 15.0967 1.32092 17.8158 3.9624 20.535C8.97901 25.6994 11.1728 19.2393 11.7346 17.584C11.8385 17.2784 11.8868 17.1365 11.8868 17.262C11.8868 17.1365 11.9351 17.2784 12.0391 17.584C12.6008 19.2393 14.7946 25.6994 19.8113 20.535C22.4527 17.8158 21.2298 15.0967 16.4217 14.2758C19.1723 14.7453 22.2648 13.9693 23.1132 10.927C23.3576 10.0519 23.7736 4.66121 23.7736 3.93314C23.7736 0.28612 20.5872 1.43245 18.6204 2.91348C15.8949 4.96656 12.963 9.1288 11.8868 11.3624Z" fill="currentColor"/>
+</svg></a>
+            <a class="vk-footer-social-text" href="https://t.me/vlsikorea" target="_blank" rel="noopener">Telegram</a>
+            <a class="vk-footer-social-text" href="https://blog.naver.com/gc_na" target="_blank" rel="noopener">Naver</a>
+        </div>
+
+        <div class="vk-footer-bottom">
+            <p lang="en">© 2026 VLSI Korea. Independent semiconductor intelligence.</p>
+            <p lang="ko">교육 및 정보 제공 목적이며 투자 자문이 아닙니다. 모든 견해는 저자의 개인 의견입니다.</p>
+            <button type="button" class="vk-footer-cookie-settings" data-vk-cookie-settings><span class="vk-lang-ko" lang="ko">쿠키 설정</span><span class="vk-lang-other" lang="en">Cookie settings</span></button>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="vk-cookie-consent" id="vk-cookie-consent" role="dialog" aria-modal="false" aria-labelledby="vk-cookie-consent-title" hidden>
+    <div class="vk-cookie-consent-inner">
+        <span class="vk-cookie-consent-kicker">PRIVACY CONTROL</span>
+        <div class="vk-cookie-consent-copy">
+            <strong id="vk-cookie-consent-title"><span class="vk-lang-ko">쿠키 사용을 선택해 주세요.</span><span class="vk-lang-other">Choose your cookie preference.</span></strong>
+            <p><span class="vk-lang-ko">회원 가입과 Ghost의 쿠키 없는 1차 통계는 동의 없이도 작동합니다. 동의 전 Google Analytics는 쿠키와 식별자 없이 기본 측정만 하고, 동의하면 Google Analytics와 Google 광고, Trivet 유입 측정, 푸시 알림, TradingView 시세 위젯을 사용합니다. 거부하면 Google 태그 요청 자체를 보내지 않습니다.</span><span class="vk-lang-other">Membership signup and Ghost's cookie-free first-party analytics work without consent. Before you choose, Google Analytics runs in a cookie-free basic measurement mode with no identifiers stored; accepting enables full Google Analytics and advertising, Trivet attribution, push notifications, and the TradingView market widget. Declining blocks Google tag requests entirely.</span></p>
+        </div>
+        <div class="vk-cookie-consent-actions">
+            <button type="button" class="vk-cookie-button is-reject" data-vk-cookie-choice="rejected"><span class="vk-lang-ko">거부</span><span class="vk-lang-other">Reject</span></button>
+            <button type="button" class="vk-cookie-button is-accept" data-vk-cookie-choice="accepted"><span class="vk-lang-ko">동의</span><span class="vk-lang-other">Accept</span></button>
+        </div>
+    </div>
+</section>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-vk-consent-ui="early">
+(function () {
+    if (!document.querySelector('main.vk-front-page.vk-editorial')) return;
+    var consent = window.VLSIConsent;
+    var banner = document.getElementById('vk-cookie-consent');
+    if (!consent || !banner || banner.dataset.vkConsentUiReady) return;
+    banner.dataset.vkConsentUiReady = 'true';
+    var choices = banner.querySelectorAll('[data-vk-cookie-choice]');
+    function show() {
+        banner.hidden = false;
+        document.documentElement.classList.add('has-cookie-consent');
+        var choice = consent.get();
+        choices.forEach(function (button) {
+            button.setAttribute('aria-pressed', button.dataset.vkCookieChoice === choice ? 'true' : 'false');
+        });
+    }
+    choices.forEach(function (button) {
+        button.addEventListener('click', function () {
+            consent.set(button.dataset.vkCookieChoice);
+            banner.hidden = true;
+            document.documentElement.classList.remove('has-cookie-consent');
+        });
+    });
+    document.querySelectorAll('[data-vk-cookie-settings]').forEach(function (button) {
+        button.addEventListener('click', function () {
+            show();
+            window.setTimeout(function () {
+                (banner.querySelector('[aria-pressed="true"]') || choices[0]).focus();
+            }, 0);
+        });
+    });
+    if (consent.get() === 'unset') {
+        // Geo-split (2026-11-01): visitors outside the EEA + UK never see
+        // the banner — analytics is granted automatically for them. Wait for
+        // the bootstrap's region resolution before deciding to show; EEA/UK
+        // and any resolution failure keep the previous behavior. The manual
+        // Cookie settings button above still opens the banner everywhere.
+        if (consent.ready && typeof consent.ready.then === 'function') {
+            consent.ready.then(function () {
+                var region = typeof consent.region === 'function' ? consent.region() : '';
+                if (region !== 'auto' && consent.get() === 'unset') show();
+            });
+        } else {
+            show();
+        }
+    }
+}());
+</script>
+<script src="https://www.vlsi.kr/assets/built/source.js?v=ZCQLPRFX5jhGs9Mk" defer></script>
+<script src="https://www.vlsi.kr/assets/built/reader-actions.js?v=DeG66zgmwvY4-zJp" defer></script>
+<script src="https://www.vlsi.kr/assets/built/vlsi-global-shell-v2.js?v=XzSRRZzzUbZH46aq" defer></script>
+<script src="https://www.vlsi.kr/assets/built/vlsi-ghost-search-v1.js?v=GyaYq7jAQlrjGD0y" defer></script>
+<script src="https://www.vlsi.kr/assets/built/vlsi-ghost-apps-v1.js?v=l1m3hp3IkprRN7kd" defer></script>
+<script src="https://www.vlsi.kr/assets/built/vlsi-engage.js?v=d4ONBmSPhJeBkZDi" defer></script>
+
+    <script>
+    (function () {
+        var selector = '.kg-image-card > .kg-image[width][height], .kg-gallery-image > img';
+        var loading = false;
+
+        function loadLightbox(event) {
+            var target = event.target.closest && event.target.closest(selector);
+            if (!target || loading) return;
+
+            event.preventDefault();
+            loading = true;
+            document.removeEventListener('click', loadLightbox, true);
+
+            var script = document.createElement('script');
+            script.src = 'https://www.vlsi.kr/assets/built/lightbox.js?v=eKrppIMCVjJrjHFc';
+            script.async = true;
+            script.onload = function () {
+                if (typeof window.lightbox === 'function') window.lightbox(selector, target);
+            };
+            script.onerror = function () {
+                loading = false;
+                document.addEventListener('click', loadLightbox, true);
+            };
+            document.head.appendChild(script);
+        }
+
+        document.addEventListener('click', loadLightbox, true);
+    })();
+    </script>
+
+
+<dialog class="vk-signup-dialog" id="vk-signup-dialog" aria-labelledby="vk-signup-title">
+  <button type="button" class="vk-signup-close" data-vk-signup-close aria-label="Close">×</button>
+  <p class="vk-signup-eyebrow">VLSI KOREA BRIEFING</p>
+  <h2 id="vk-signup-title" data-vk-member-copy="title">반도체를 읽는 안목, 메일함으로.</h2>
+  <p class="vk-signup-intro" data-vk-member-copy="intro">엔지니어의 시각과 산업의 흐름을 함께. 무료로 구독하세요.</p>
+  <form data-members-form="subscribe" class="vk-signup-form" data-signup-placement="profile-dialog">
+    <label for="vk-signup-email" data-vk-member-copy="email">이메일</label>
+    <input id="vk-signup-email" data-members-email type="email" autocomplete="email" placeholder="you@example.com" required maxlength="254">
+    <label for="vk-signup-language" data-vk-member-copy="language">선호하는 콘텐츠 언어</label>
+    <select id="vk-signup-language" data-vk-profile="language" required>
+      <option value="ko">한국어</option><option value="en">English</option><option value="zh">中文</option><option value="ja">日本語</option><option value="es">Español</option><option value="vi">Tiếng Việt</option><option value="ar">العربية</option><option value="he">עברית</option><option value="ms">Bahasa Melayu</option>
+    </select>
+    <input type="hidden" data-members-label value="language:ko" data-vk-label="language">
+    <input type="hidden" data-members-label data-vk-language-lock value="lang:ko">
+    <label for="vk-signup-delivery" data-vk-member-copy="delivery">지금 받을 뉴스레터 언어</label>
+    <select id="vk-signup-delivery"><option value="ko">한국어</option><option value="en">English</option></select>
+    <input type="hidden" data-members-label data-vk-newsletter-label value="newsletter:ko">
+    <input type="hidden" data-members-newsletter value="VLSI Korea — 한국어">
+    <p class="vk-signup-terms" data-vk-delivery-note hidden>선호 언어는 앞으로의 뉴스레터 기획에 반영합니다. 현재 발송 중인 한국어·영어 중 수신 언어를 따로 선택해 주세요.</p>
+    <details class="vk-signup-profile"><summary data-vk-member-copy="optional">관심 분야와 직업 (선택)</summary>
+      <fieldset class="vk-signup-interests"><legend data-vk-member-copy="interests">관심 분야 · 여러 개 선택 가능</legend><label class="vk-interest-option"><input type="checkbox" value="chip-design" data-vk-interest><span data-vk-interest-copy="chip-design">칩 설계 · EDA</span></label><label class="vk-interest-option"><input type="checkbox" value="manufacturing" data-vk-interest><span data-vk-interest-copy="manufacturing">파운드리 · 공정 · 장비</span></label><label class="vk-interest-option"><input type="checkbox" value="memory-packaging" data-vk-interest><span data-vk-interest-copy="memory-packaging">메모리 · 패키징</span></label><label class="vk-interest-option"><input type="checkbox" value="ai-infrastructure" data-vk-interest><span data-vk-interest-copy="ai-infrastructure">AI 칩 · 데이터센터</span></label><label class="vk-interest-option"><input type="checkbox" value="investment" data-vk-interest><span data-vk-interest-copy="investment">실적 · 투자 · 산업 분석</span></label><label class="vk-interest-option"><input type="checkbox" value="papers" data-vk-interest><span data-vk-interest-copy="papers">논문 · 기술 연구</span></label><label class="vk-interest-option"><input type="checkbox" value="career" data-vk-interest><span data-vk-interest-copy="career">커리어 · 교육</span></label><label class="vk-interest-option"><input type="checkbox" value="events" data-vk-interest><span data-vk-interest-copy="events">학회 · 행사</span></label></fieldset><div data-vk-interest-labels></div>
+      <label for="vk-signup-job" data-vk-member-copy="job">직군</label>
+      <select id="vk-signup-job" data-vk-profile="job-function"><option value="" data-vk-member-copy="skip">선택하지 않음</option><option value="engineering">Engineering</option><option value="research">Research / Academia</option><option value="investment">Investment / Finance</option><option value="product-business">Product / Business</option><option value="student">Student</option><option value="other">Other</option></select>
+      <input type="hidden" data-vk-label="job-function">
+      <label for="vk-signup-level" data-vk-member-copy="level">경력 수준</label>
+      <select id="vk-signup-level" data-vk-profile="job-level"><option value="" data-vk-member-copy="skip">선택하지 않음</option><option value="student">Student</option><option value="early-career">Early career</option><option value="experienced">Experienced</option><option value="senior-staff">Senior / Staff / Principal</option><option value="manager-director">Manager / Director</option><option value="executive">Executive / Partner</option></select>
+      <input type="hidden" data-vk-label="job-level">
+    </details>
+    <button type="submit" class="vk-signup-submit"><span data-vk-member-copy="subscribe">무료 구독</span><span aria-hidden="true"> →</span></button>
+    <p class="vk-signup-terms"><span data-vk-member-copy="terms">구독하면 VLSI Korea 이메일을 받습니다. 언제든 해지할 수 있으며, 언어·관심 분야·직업은 앞으로의 콘텐츠 기획과 뉴스레터 분류에 사용합니다. 선택 정보 없이도 구독할 수 있습니다.</span> <a href="/privacy/" data-vk-member-copy="privacy">개인정보 처리방침</a></p>
+    <p class="vk-signup-success" role="status" data-vk-member-copy="success">메일함을 확인해 주세요. 이메일의 확인 링크를 누르면 구독이 완료됩니다.</p>
+    <p class="vk-signup-error" role="alert" data-members-error></p>
+  </form>
+  <p class="vk-signup-login"><span data-vk-member-copy="already">이미 구독 중인가요?</span> <a href="#/portal/signin" data-portal="signin" data-vk-signup-close data-vk-member-copy="signin">로그인</a></p>
+</dialog>
+<script defer src="https://www.vlsi.kr/assets/built/member-experience.js?v=fXYdMboQvayikE9o"></script>
+<script type="module" src="https://www.vlsi.kr/assets/built/network-ga4.js?v=MZYYIlAxCiVScg-f"></script>
+<!-- VLSI Korea operational injection. UI is owned by the Ghost theme. -->
+<!-- VLSIKR-BUILD: 20260715-022153 -->
+
+<!-- OneSignal Web Push v16. The deploy script stamps the public app id. -->
+<script>
+window.VLSIKR_ONESIGNAL_APP_ID = 'c429bc56-5b9b-41d8-9049-63ab34e8b59e';
+(function () {
+    var loaded = false;
+
+    function loadOneSignal() {
+        if (loaded || !window.VLSIKR_ONESIGNAL_APP_ID || window.VLSIKR_ONESIGNAL_APP_ID.indexOf('ONESIGNAL_APP_ID') !== -1) return;
+        loaded = true;
+
+    var sdk = document.createElement('script');
+    sdk.src = 'https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js';
+    sdk.defer = true;
+    document.head.appendChild(sdk);
+
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    window.OneSignalDeferred.push(async function (OneSignal) {
+        try {
+            await OneSignal.init({
+                appId: window.VLSIKR_ONESIGNAL_APP_ID,
+                safari_web_id: window.VLSIKR_SAFARI_WEB_ID || undefined,
+                serviceWorkerPath: '/assets/OneSignalSDKWorker.js',
+                serviceWorkerParam: {scope: '/assets/'},
+                notifyButton: {enable: false}
+            });
+
+            function state() {
+                return {
+                    supported: OneSignal.Notifications.isPushSupported(),
+                    permission: Boolean(OneSignal.Notifications.permission),
+                    nativePermission: window.Notification ? window.Notification.permission : 'unsupported'
+                };
+            }
+
+            function announce() {
+                window.VLSIKR_PUSH_STATE = state();
+                document.dispatchEvent(new CustomEvent('vlsi:push-ready', {detail: window.VLSIKR_PUSH_STATE}));
+            }
+
+            window.vlsiRequestPush = async function () {
+                if (!OneSignal.Notifications.isPushSupported()) return state();
+                if (typeof window.vlsiTrack === 'function') window.vlsiTrack('push_permission_prompt', {placement: 'reader_hub'});
+                await OneSignal.Notifications.requestPermission();
+                announce();
+                return state();
+            };
+
+            OneSignal.Notifications.addEventListener('permissionChange', function (permission) {
+                announce();
+                if (typeof window.vlsiTrack === 'function') {
+                    window.vlsiTrack(permission ? 'push_permission_granted' : 'push_permission_declined', {placement: 'reader_hub'});
+                }
+            });
+            OneSignal.User.PushSubscription.addEventListener('change', function (event) {
+                if (event.current && event.current.token && (!event.previous || !event.previous.token) && typeof window.vlsiTrack === 'function') {
+                    window.vlsiTrack('push_subscription_complete', {placement: 'reader_hub'});
+                }
+            });
+            announce();
+        } catch (error) {}
+    });
+    }
+
+    if (window.VLSIConsent) window.VLSIConsent.onAccept(loadOneSignal);
+})();
+</script>
+<!-- VLSIKR-CONSENT-GATED:push:v1 -->
+
+<!-- Keep Ghost newsletter choices aligned with the reader edition. v2 (2026-10-21) -->
+<!-- Replaces the v1 ko/en-only block in Code Injection > Site Footer.
+     v2: handles every published language edition. It only touches a
+     newsletter checkbox when that newsletter actually exists in the
+     portal (so it is safe before/after plan upgrade), checks the
+     edition matching the current path/browser language, and unchecks
+     the OTHER language newsletters so a new signup does not silently
+     receive every language. -->
+<script>
+(function () {
+    var MAP = {
+        'ko':    {slug: 'default-newsletter',   words: ['한국어', 'korean']},
+        'en':    {slug: 'english',              words: ['english']},
+        'ja':    {slug: 'japanese',             words: ['日本語', 'japanese']},
+        'zh':    {slug: 'chinese',              words: ['中文简体', '简体中文', 'simplified chinese']},
+        'zh-tw': {slug: 'chinese-traditional',  words: ['中文繁體', '繁體中文', '繁体中文', 'traditional chinese']},
+        'es':    {slug: 'spanish',              words: ['español', 'spanish']},
+        'pt':    {slug: 'portuguese',           words: ['português', 'portuguese']},
+        'id':    {slug: 'indonesian',           words: ['bahasa indonesia', 'indonesian']},
+        'vi':    {slug: 'vietnamese',           words: ['tiếng việt', 'vietnamese']}
+    };
+
+    function detectLang() {
+        var m = location.pathname.match(/^\/(ko|en|ja|zh-tw|zh|es|pt|id|vi)(?:\/|$)/);
+        if (m) return m[1];
+        var nav = (navigator.language || 'en').toLowerCase();
+        if (nav.indexOf('ko') === 0) return 'ko';
+        if (nav.indexOf('ja') === 0) return 'ja';
+        if (nav.indexOf('zh-tw') === 0 || nav.indexOf('zh-hk') === 0 || nav.indexOf('zh-hant') === 0) return 'zh-tw';
+        if (nav.indexOf('zh') === 0) return 'zh';
+        if (nav.indexOf('es') === 0) return 'es';
+        if (nav.indexOf('pt') === 0) return 'pt';
+        if (nav.indexOf('id') === 0) return 'id';
+        if (nav.indexOf('vi') === 0) return 'vi';
+        return 'en';
+    }
+
+    function setCheckbox(input, checked) {
+        if (!input || input.type !== 'checkbox' || input.checked === checked) return;
+        input.click();
+    }
+
+    function findBySlug(doc, slug) {
+        var found = [];
+        var selectors = [
+            'input[data-test-newsletter*="' + slug + '"]',
+            'input[type="checkbox"][value*="' + slug + '"]',
+            'input[type="checkbox"][name*="' + slug + '"]',
+            '[data-newsletter-slug="' + slug + '"] input[type="checkbox"]'
+        ];
+        selectors.forEach(function (selector) {
+            try {
+                doc.querySelectorAll(selector).forEach(function (input) { found.push(input); });
+            } catch (error) {}
+        });
+        return found;
+    }
+
+    function findByText(doc, words) {
+        var found = [];
+        doc.querySelectorAll('label').forEach(function (label) {
+            var text = (label.textContent || '').toLowerCase();
+            if (!words.some(function (word) { return text.indexOf(word.toLowerCase()) !== -1; })) return;
+            var input = label.querySelector('input[type="checkbox"]');
+            if (!input && label.htmlFor) input = doc.getElementById(label.htmlFor);
+            if (input) found.push(input);
+        });
+        return found;
+    }
+
+    function apply(doc) {
+        if (!doc) return;
+        var wanted = MAP[detectLang()];
+        if (!wanted) return;
+        // Wanted edition: check it if its newsletter exists in this doc.
+        var wantedInputs = findBySlug(doc, wanted.slug);
+        if (!wantedInputs.length) wantedInputs = findByText(doc, wanted.words);
+        if (!wantedInputs.length) return; // newsletter not offered here -> leave portal untouched
+        wantedInputs.forEach(function (input) { setCheckbox(input, true); });
+        // Other language editions that exist here: uncheck.
+        Object.keys(MAP).forEach(function (lang) {
+            var entry = MAP[lang];
+            if (entry.slug === wanted.slug) return;
+            var inputs = findBySlug(doc, entry.slug);
+            if (!inputs.length) inputs = findByText(doc, entry.words);
+            inputs.forEach(function (input) { setCheckbox(input, false); });
+        });
+    }
+
+    function applyEverywhere() {
+        apply(document);
+        document.querySelectorAll('iframe').forEach(function (frame) {
+            try { apply(frame.contentDocument); } catch (error) {}
+        });
+    }
+
+    document.addEventListener('click', function (event) {
+        if (!event.target.closest || !event.target.closest('[data-portal="signup"], [href*="#/portal/signup"]')) return;
+        [80, 220, 500, 1000, 1800, 3000].forEach(function (delay) {
+            setTimeout(applyEverywhere, delay);
+        });
+    }, true);
+
+    setTimeout(applyEverywhere, 300);
+})();
+</script>
+
+<!-- VLSIKR-SIGNUP-SIMPLIFY:v3 + VLSIKR-POPUP:v3 (2026-10-23)
+     1) Dialog: delivery select is auto-synced from the reading-language
+        select; Japanese readers are assigned the Japanese newsletter
+        (theme JS maps every non-Korean choice to English, so the hidden
+        newsletter field is corrected after the theme handler runs).
+     2) The theme article popup (55% scroll / 45s dwell, English-only copy)
+        is suppressed per session and replaced by a localized popup at
+        35% scroll or 25s dwell. -->
+<script>
+(function () {
+    'use strict';
+    // Suppress the theme popup for this session (its own seen-flag).
+    try { sessionStorage.setItem('vlsikr-newsletter-popup-seen-v1', '1'); } catch (e) {}
+
+    var JA_NAME = 'VLSI Korea — 日本語';
+    function whenReady(fn) {
+        function run() { setTimeout(fn, 80); }
+        if (document.readyState === 'complete') run();
+        else window.addEventListener('load', run);
+    }
+
+    /* ---------- 1) Dialog simplification ---------- */
+    whenReady(function () {
+        var dialog = document.getElementById('vk-signup-dialog');
+        if (!dialog) return;
+        var form = dialog.querySelector('form');
+        var language = dialog.querySelector('#vk-signup-language');
+        var delivery = dialog.querySelector('#vk-signup-delivery');
+        if (!form || !language || !delivery) return;
+        var news = form.querySelector('[data-members-newsletter]');
+        var labelEl = form.querySelector('[data-vk-newsletter-label]');
+        function syncDelivery() {
+            var want = language.value === 'ko' ? 'ko' : 'en';
+            if (delivery.value !== want) delivery.value = want;
+        }
+        function fixAll() {
+            syncDelivery();
+            if (language.value === 'ja' && news) {
+                news.value = JA_NAME;
+                if (labelEl) labelEl.value = 'newsletter:ja';
+            }
+        }
+        // Capture: sync delivery BEFORE the theme labels() handler (bubble) reads it.
+        form.addEventListener('change', syncDelivery, true);
+        // Bubble: registered after the theme handler, so the ja correction lands last.
+        form.addEventListener('change', fixAll, false);
+        // Capture submit: registered after the theme submit handler, runs after it.
+        form.addEventListener('submit', fixAll, true);
+        fixAll();
+    });
+
+    /* ---------- 2) Own localized popup ---------- */
+    whenReady(function () {
+        var article = document.querySelector('article .gh-content');
+        if (!article) return;
+        if (!document.body || document.body.dataset.memberStatus !== 'anonymous') return;
+        var DKEY = 'vk-own-popup-dismissed-v1', SKEY = 'vk-own-popup-shown-v1', WEEK = 7 * 24 * 3600 * 1000;
+        try {
+            if (Date.now() - Number(localStorage.getItem(DKEY) || 0) < WEEK) return;
+            if (sessionStorage.getItem(SKEY)) return;
+        } catch (e) {}
+        var seg = (location.pathname.split('/')[1] || 'ko').toLowerCase(); if (seg === 'subscribe-ja') seg = 'ja'; else if (seg === 'subscribe-zh-tw') seg = 'zh-tw'; else if (seg === 'subscribe') seg = 'ko';
+        var COPY = {
+            ko: {t: '반도체 인사이트, 매일 아침 메일로', b: 'Daily Silicon과 실적·리포트 해설을 무료로 받아보세요.', btn: '무료 구독', x: '닫기'},
+            en: {t: 'Semiconductor insight, in your inbox', b: 'Daily analysis plus earnings and report breakdowns. Free.', btn: 'Subscribe free', x: 'Close'},
+            ja: {t: '半導体インサイトを、毎朝メールで', b: '市場分析と決算・レポート解説を無料でお届けします。', btn: '無料で購読', x: '閉じる'}
+        };
+        var c = COPY[seg] || COPY.en;
+        var card = document.createElement('div');
+        card.id = 'vk-own-popup';
+        card.setAttribute('role', 'dialog');
+        card.setAttribute('aria-label', c.t);
+        card.style.cssText = 'position:fixed;left:50%;transform:translate(-50%,16px);bottom:88px;z-index:2147483000;width:calc(100% - 32px);max-width:520px;background:#ffffff;color:#111827;border:1px solid #e5e7eb;border-radius:16px;box-shadow:0 18px 50px rgba(15,23,42,.28);padding:18px 20px;opacity:0;pointer-events:none;transition:opacity .25s ease,transform .25s ease;font-family:inherit;box-sizing:border-box';
+        card.innerHTML = '<button type="button" aria-label="' + c.x + '" style="position:absolute;top:8px;right:10px;background:none;border:0;font-size:20px;line-height:1;color:#6b7280;cursor:pointer;padding:4px">×</button>' +
+            '<strong style="display:block;font-size:17px;line-height:1.35;margin:0 28px 6px 0">' + c.t + '</strong>' +
+            '<span style="display:block;font-size:14px;line-height:1.5;color:#4b5563;margin:0 0 12px">' + c.b + '</span>' +
+            '<a href="#/portal/signup/free" style="display:inline-block;background:#1d4ed8;color:#ffffff;font-weight:700;font-size:14px;padding:10px 18px;border-radius:999px;text-decoration:none">' + c.btn + '</a>';
+        document.body.appendChild(card);
+        var shown = false, dwell = 0, lastTick = Date.now(), pending = false;
+        function blocked() {
+            return document.hidden || location.hash.indexOf('#/portal') === 0 || document.querySelector('dialog[open]') || document.documentElement.classList.contains('has-cookie-consent');
+        }
+        function show() {
+            if (shown) return;
+            if (blocked()) { pending = true; return; }
+            shown = true;
+            try { sessionStorage.setItem(SKEY, '1'); } catch (e) {}
+            card.style.opacity = '1';
+            card.style.transform = 'translate(-50%,0)';
+            card.style.pointerEvents = 'auto';
+            if (typeof window.gtag === 'function') window.gtag('event', 'subscribe_prompt_view', {placement: 'own_popup'});
+        }
+        card.querySelector('button').addEventListener('click', function () {
+            card.style.display = 'none';
+            try { localStorage.setItem(DKEY, String(Date.now())); } catch (e) {}
+            if (typeof window.gtag === 'function') window.gtag('event', 'subscribe_prompt_dismiss', {placement: 'own_popup'});
+        });
+        card.querySelector('a').addEventListener('click', function () {
+            try { localStorage.setItem(DKEY, String(Date.now())); } catch (e) {}
+        });
+        setInterval(function () {
+            var now = Date.now();
+            if (!document.hidden) dwell += now - lastTick;
+            lastTick = now;
+            if (!shown && dwell >= 25000) show();
+            if (pending && !blocked()) { pending = false; show(); }
+        }, 500);
+        window.addEventListener('scroll', function () {
+            if (shown) return;
+            var rect = article.getBoundingClientRect();
+            if (rect.height > 0 && window.innerHeight - rect.top >= rect.height * 0.35) show();
+        }, {passive: true});
+    });
+})();
+</script>
+
+<!-- VLSIKR: post-list/byline visibility badges -->
+<script>
+/* VLSI Korea — list-view visibility badge injector.
+ *
+ * Ghost themes render post cards, so the free/members/paid emoji next to
+ * each card's date (and the byline date on post pages) is added here,
+ * client-side, from a static slug->visibility map.
+ *
+ *   public  -> 🆓  (무료 글)
+ *   paid    -> 🔒  (멤버십 글)
+ *   members -> 👥  (회원 글)
+ *
+ * Paste into Ghost Admin > Settings > Code injection > Site Footer,
+ 
+ * regenerated + the bridge redeployed whenever post visibility changes.
+ */
+(function () {
+  "use strict";
+
+  var MAP_URL = "https://vlsi-mor-bridge.vercel.app/badge-map.json";
+  var CACHE_KEY = "vlsi-badge-map-v1";
+  var EMOJI = { public: "🆓", paid: "🔒", members: "👥" };
+  var LABEL = { public: "무료 글", paid: "멤버십 글", members: "회원 글" };
+  var BADGE_CLASS = "vlsi-vis-badge";
+
+  function getMap() {
+    try {
+      var cached = sessionStorage.getItem(CACHE_KEY);
+      if (cached) return Promise.resolve(JSON.parse(cached));
+    } catch (e) { /* storage unavailable */ }
+    return fetch(MAP_URL, { mode: "cors" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (doc) {
+        var map = doc && doc.map ? doc.map : null;
+        if (map) {
+          try { sessionStorage.setItem(CACHE_KEY, JSON.stringify(map)); }
+          catch (e) { /* quota — ignore */ }
+        }
+        return map;
+      })
+      .catch(function () { return null; });
+  }
+
+  function slugFromUrl(url) {
+    try {
+      var path = new URL(url, window.location.href).pathname;
+      var parts = path.split("/").filter(function (s) { return s.length; });
+      return parts.length ? parts[parts.length - 1] : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function makeBadge(visibility) {
+    var span = document.createElement("span");
+    span.className = BADGE_CLASS;
+    span.textContent = EMOJI[visibility];
+    span.setAttribute("title", LABEL[visibility]);
+    span.setAttribute("aria-label", LABEL[visibility]);
+    span.style.marginLeft = "6px";
+    span.style.fontStyle = "normal";
+    return span;
+  }
+
+  var DATE_TEXT = /20\d{2}\s?[.\-/년]\s?\d{1,2}/;
+
+  function findDateEl(scope) {
+    var t = scope.querySelector("time");
+    if (t) return t;
+    var leaves = scope.querySelectorAll(
+      "span, div, p, li, a, [class*='date'], [class*='meta']");
+    for (var i = 0; i < leaves.length; i++) {
+      var el = leaves[i];
+      if (el.children.length === 0 && DATE_TEXT.test(el.textContent || "")) {
+        return el;
+      }
+    }
+    return null;
+  }
+
+  function insertBadge(anchorEl, visibility) {
+    if (!anchorEl || !EMOJI[visibility]) return;
+    var host = anchorEl.parentElement || anchorEl;
+    if (host.querySelector("." + BADGE_CLASS)) return; // already badged
+    anchorEl.insertAdjacentElement("afterend", makeBadge(visibility));
+  }
+
+  function badgeCard(article, map) {
+    if (article.dataset.vlsiBadged) return;
+    var links = article.querySelectorAll("a[href]");
+    var slug = null;
+    for (var i = 0; i < links.length; i++) {
+      var s = slugFromUrl(links[i].getAttribute("href"));
+      if (s && Object.prototype.hasOwnProperty.call(map, s)) {
+        slug = s;
+        break;
+      }
+    }
+    if (!slug) return;
+    var dateEl = findDateEl(article);
+    if (dateEl) {
+      insertBadge(dateEl, map[slug]);
+      article.dataset.vlsiBadged = "1";
+    }
+  }
+
+  function badgePostPage(map) {
+    var slug = slugFromUrl(window.location.href);
+    if (!slug || !Object.prototype.hasOwnProperty.call(map, slug)) return;
+    var article = document.querySelector(
+      "article.gh-article, main article, article");
+    if (!article) return;
+    var dateEl = findDateEl(article);
+    if (dateEl) insertBadge(dateEl, map[slug]);
+  }
+
+  function run(map) {
+    if (!map) return;
+    var cards = document.querySelectorAll("article");
+    for (var i = 0; i < cards.length; i++) badgeCard(cards[i], map);
+    badgePostPage(map);
+  }
+
+  function init() {
+    getMap().then(function (map) {
+      if (!map) return;
+      run(map);
+      // Cards can appear later (load-more / infinite scroll).
+      var pending = null;
+      var observer = new MutationObserver(function () {
+        if (pending) return;
+        pending = setTimeout(function () {
+          pending = null;
+          run(map);
+        }, 400);
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+      setTimeout(function () { observer.disconnect(); }, 60000);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+<!-- VLSI author-social v2 (2026-10-24, user decision: representative few + expandable full view)
+       Paste APPENDED to Ghost Admin > Settings > Code injection > Site Footer. Do NOT replace existing content.
+       Default view: theme's 5 (Bluesky/LinkedIn/X/Naver/BMC) + Instagram = 6 representative icons.
+       A "+ 전체 보기" pill toggles the rest: Threads/Facebook/YouTube/Mastodon/CSDN/Zenn/Tumblr.
+       Idempotent: skips hrefs already present; safe to run twice. -->
+  <style>
+    .gh-author-social-more { display: none; align-items: center; gap: inherit; }
+    .gh-author-social-more.open { display: inline-flex; }
+    .vlsi-social-toggle { margin-left: 8px; padding: 2px 10px; border: 1px solid currentColor; border-radius: 999px;
+      background: transparent; color: inherit; font-size: 11px; line-height: 1.6; cursor: pointer; opacity: .75; white-space: nowrap; }
+    .vlsi-social-toggle:hover { opacity: 1; }
+  </style>
+  <script>
+  (function () {
+    var CORE = [
+      { href: "https://www.instagram.com/vlsikr/", label: "Instagram", path: "M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9-.1-1.3-.1-1.6-.1-4.8s0-3.6.1-4.8C2.4 4 4 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 3.6a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-10.5a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z" }
+    ];
+    var MORE = [
+      { href: "https://www.threads.com/@vlsikr", label: "Threads", letter: "@" },
+      { href: "https://www.facebook.com/vlsikr", label: "Facebook", path: "M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.49h-2.8V24C19.62 23.1 24 18.1 24 12.07z" },
+      { href: "https://www.youtube.com/@vlsikr", label: "YouTube", path: "M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81zM9.55 15.57V8.43L15.82 12l-6.27 3.57z" },
+      { href: "https://mastodon.social/@vlsikr", label: "Mastodon", path: "M23.27 12.14c0-3.85-2.52-4.98-2.52-4.98C19.47.51 15.83.04 12 .02h-.07C8.1.04 4.46.5 3.2 1.16 3.2 1.16.72 1.63.2 5.31.2 12.14c0 1.06.01 2.33.07 3.67.26 5.9 2.03 11.7 12.24 12.57 2.26.2 4.2.24 5.76.21 2.83-.07 4.42-.44 4.42-.44-.09-1.97-.66-2.83-.66-2.83-1.55.16-3.59.21-4.09.18-2.17-.12-3.56-.77-3.56-.77l-.05-1.14s1.62.45 3.66.4c1.3-.03 2.54-.1 2.72-.74.03-.1.04-.23.04-.36 0 0-1.3.33-2.75.29-2.91-.08-4.3-1.22-4.61-4.09-.02-.24-.03-.47-.03-.72 0 0 2.03.5 4.61.62 1.57.08 3.05-.1 4.54-.29 2.87-.36 5.36-2.23 5.67-3.93.1-.53.15-1.14.15-1.76zM20.9 16.95h-2.56V10.7c0-1.32-.55-1.99-1.66-1.99-1.22 0-1.84.8-1.84 2.36v3.42h-2.55V11.07c0-1.56-.61-2.36-1.84-2.36-1.1 0-1.66.67-1.66 1.99v6.25H6.23V10.6c0-1.32.34-2.37 1.01-3.14.7-.8 1.61-1.21 2.75-1.21 1.31 0 2.31.51 2.97 1.52l.64 1.08.64-1.08c.66-1.01 1.66-1.52 2.97-1.52 1.14 0 2.05.41 2.75 1.21.67.77 1.01 1.82 1.01 3.14v6.35z" },
+      { href: "https://blog.csdn.net/2401_84976491", label: "CSDN", letter: "C" },
+      { href: "https://zenn.dev/vlsikorea", label: "Zenn", letter: "Z" },
+      { href: "https://www.tumblr.com/vlsikr", label: "Tumblr", letter: "t" }
+    ];
+    function icon(l) {
+      if (l.path) return '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="' + l.path + '"/></svg>';
+      return '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><text x="12" y="17" text-anchor="middle" font-size="14" font-weight="700" font-family="inherit">' + l.letter + "</text></svg>";
+    }
+    function makeLink(l) {
+      var a = document.createElement("a");
+      a.href = l.href; a.target = "_blank"; a.rel = "noopener";
+      a.setAttribute("aria-label", l.label); a.title = l.label;
+      a.innerHTML = icon(l);
+      return a;
+    }
+    function add() {
+      var box = document.querySelector(".gh-author-social");
+      if (!box || box.querySelector(".vlsi-social-toggle")) return;
+      var existing = {};
+      document.querySelectorAll(".gh-author-social a").forEach(function (a) { existing[a.href.replace(/\/$/, "")] = 1; });
+      CORE.forEach(function (l) { if (!existing[l.href.replace(/\/$/, "")]) box.appendChild(makeLink(l)); });
+      var more = document.createElement("span");
+      more.className = "gh-author-social-more";
+      MORE.forEach(function (l) { if (!existing[l.href.replace(/\/$/, "")]) more.appendChild(makeLink(l)); });
+      box.appendChild(more);
+      var btn = document.createElement("button");
+      btn.type = "button"; btn.className = "vlsi-social-toggle"; btn.textContent = "+ 전체 보기";
+      btn.setAttribute("aria-expanded", "false");
+      btn.addEventListener("click", function () {
+        var open = more.classList.toggle("open");
+        btn.textContent = open ? "접기" : "+ 전체 보기";
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+      box.appendChild(btn);
+    }
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", add); else add();
+  })();
+  </script>
+<!-- VLSI support + paid Q&A block v2 (2026-10-24, copy revised per user direction)
+     APPEND to Ghost Admin > Settings > Code injection > Site Footer. Do NOT replace existing content.
+     Revision vs v1: support is framed as TWO kinds — (1) pure encouragement support,
+     (2) support with a question attached. Amount choice on BMC is mentioned.
+     All answer-guarantee wording removed, and a short non-contract notice was added:
+     support is voluntary encouragement, not a contract in exchange for an answer;
+     questions about the operator's employer or questions too hard to answer may go unanswered.
+     Behavior: on post pages only (body.post-template, not page-template) it appends a
+     "Support (Buy Me a Coffee) + Paid Q&A" card at the very end of the article body
+     (.gh-content), directly below the in-body subscribe CTA blockquote.
+     Pages like /fan/, home, tag/author archives get nothing.
+     Language: URL first segment (ko/en/ja have full copy; every other language falls back to en).
+     Idempotent: element id "vlsi-support-qa-block" guard prevents duplicates.
+     Rollback: delete this whole block (from this comment to the closing </script>) from Site Footer.
+     LINK MANAGEMENT: the two URLs live in ONE place — the LINKS object at the top of the script.
+ COI UPDATE 2026-10-26: paid Q&A positioning REMOVED by user decision. This block is voluntary reader support ONLY -- no Q&A product, no services promised. -->
+<style>
+  #vlsi-support-qa-block { margin: 40px 0 8px; padding: 22px 22px 18px; border: 1px solid rgba(0,0,0,.13);
+    border-radius: 14px; background: rgba(127,127,127,.05); }
+  #vlsi-support-qa-block .vsq-row + .vsq-row { margin-top: 20px; padding-top: 18px; border-top: 1px dashed rgba(0,0,0,.14); }
+  #vlsi-support-qa-block .vsq-title { margin: 0 0 6px; font-size: 17px; font-weight: 700; line-height: 1.4; }
+  #vlsi-support-qa-block .vsq-text { margin: 0 0 12px; font-size: 14.5px; line-height: 1.65; opacity: .85; }
+  #vlsi-support-qa-block .vsq-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+  #vlsi-support-qa-block .vsq-btn { display: inline-flex; align-items: center; gap: 6px; padding: 10px 18px;
+    border-radius: 999px; font-size: 14px; font-weight: 700; line-height: 1.2; text-decoration: none; }
+  #vlsi-support-qa-block .vsq-btn-coffee { background: #ffdd00; color: #111; border: 1px solid #e6c700; }
+  #vlsi-support-qa-block .vsq-btn-coffee:hover { background: #f5d400; }
+  #vlsi-support-qa-block .vsq-btn-qa { background: transparent; color: inherit; border: 1.5px solid currentColor; }
+  #vlsi-support-qa-block .vsq-btn-qa:hover { opacity: .75; }
+  #vlsi-support-qa-block .vsq-note { margin: 16px 0 0; font-size: 12.5px; line-height: 1.6; opacity: .62; }
+  @media (max-width: 480px) {
+    #vlsi-support-qa-block { padding: 18px 16px 14px; }
+    #vlsi-support-qa-block .vsq-btn { width: 100%; justify-content: center; }
+  }
+</style>
+<script>
+(function () {
+  /* ==== LINK MANAGEMENT (single place) ==== */
+  var LINKS = {
+    support: "https://buymeacoffee.com/vlsi?utm_source=vlsi_post&utm_medium=support_block",
+    /* Fixed-price Q&A product later: set qa to the product URL (e.g. BMC Extras item). Nothing else changes. */
+  };
+  var COPY = {
+    ko: {
+      supportTitle: "☕ 이 글이 도움이 됐나요?",
+      supportText: "VLSI Korea는 현직 엔지니어가 운영하는 독립 미디어입니다. 글이 좋았다면 커피로 응원해 주세요 — 금액(커피 수)은 후원 페이지에서 자유롭게 고를 수 있습니다. 후원은 더 깊이 있는 반도체 분석을 계속 이어가는 힘이 됩니다.",
+      supportBtn: "커피로 응원하기",
+      note: "안내: 후원은 응원의 의미일 뿐, 답변과 교환되는 계약이 아닙니다. 질문을 남겨 주셔도 답변을 보장드리지는 않으며, 운영자의 소속 회사와 관련된 질문이나 답변이 어려운 질문에는 답하지 못할 수 있습니다. 답장이 없더라도 후원은 응원으로 감사히 받겠습니다. 질문은 이메일로 보내 주시면 편집자 재량으로 공개 글로 다룰 수 있으나, 답변을 보장하지는 않습니다."
+    },
+    en: {
+      supportTitle: "☕ Found this analysis helpful?",
+      supportText: "VLSI Korea is an independent publication run by a practicing semiconductor engineer. If you enjoyed this piece, cheer it on with a coffee — you can choose any amount (number of coffees) on the support page. Your support keeps in-depth semiconductor coverage going.",
+      supportBtn: "Support with a coffee",
+      note: "Please note: support is a voluntary gesture of encouragement, not a payment in exchange for an answer. Attaching a question doesn't guarantee a reply — I can't answer questions about my employer, and some questions may be beyond what I can address. Even when I can't reply, your support is gratefully received as the encouragement it is."
+    },
+    ja: {
+      supportTitle: "☕ この分析が役に立ったら",
+      supportText: "VLSI Koreaは現役の半導体エンジニアが運営する独立メディアです。記事が良かったら、コーヒーで応援してください — 金額（コーヒーの数）は支援ページで自由に選べます。ご支援が、深い半導体分析を続ける力になります。",
+      supportBtn: "コーヒーで応援する",
+      note: "ご案内：ご支援は応援の気持ちによるもので、回答と引き換えの契約ではありません。質問を添えていただいても回答をお約束するものではなく、運営者の所属会社に関するご質問や、回答が難しいご質問にはお答えできない場合があります。お返事できない場合でも、ご支援は応援としてありがたく受け取ります。"
+    }
+  };
+  function lang() {
+    var seg = (location.pathname.split("/")[1] || "").toLowerCase();
+    return COPY[seg] ? seg : "en";
+  }
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function build() {
+    var c = COPY[lang()];
+    var block = el("div");
+    block.id = "vlsi-support-qa-block";
+    var row1 = el("div", "vsq-row");
+    row1.appendChild(el("p", "vsq-title", c.supportTitle));
+    row1.appendChild(el("p", "vsq-text", c.supportText));
+    var b1 = el("div", "vsq-btns");
+    var a1 = el("a", "vsq-btn vsq-btn-coffee", "☕ " + c.supportBtn);
+    a1.href = LINKS.support; a1.target = "_blank"; a1.rel = "noopener";
+    b1.appendChild(a1); row1.appendChild(b1);
+    block.appendChild(row1); 
+    block.appendChild(el("p", "vsq-note", c.note));
+    return block;
+  }
+  function init() {
+    if (!document.body) return;
+    if (!document.body.classList.contains("post-template")) return;
+    if (document.body.classList.contains("page-template")) return;
+    if (document.getElementById("vlsi-support-qa-block")) return;
+    var host = document.querySelector("article.gh-article .gh-content")
+      || document.querySelector(".gh-content")
+      || document.querySelector("article.gh-article");
+    if (!host) return;
+    host.appendChild(build());
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
+})();
+</script>
+
+<!-- coffee-btn-contrast-fix-2026-10-25 -->
+<style>
+#vlsi-support-qa-block .vsq-btn-coffee { background: #6F4E37 !important; color: #FFFFFF !important; border-color: #54382A !important; }
+#vlsi-support-qa-block .vsq-btn-coffee:hover { background: #7D5A41 !important; }
+</style>
+
+<!-- vlsi-about-locale-link -->
+<script>
+(function(){
+  var m = location.pathname.match(/^\/(ko|en|ja|zh-tw|zh|es|pt|id|vi)(?:\/|$)/);
+  if(!m || m[1]==='ko') return;
+  var target = '/about-' + m[1] + '/';
+  document.querySelectorAll('a[href$="/about/"]').forEach(function(a){
+    try { var u = new URL(a.href); if(u.origin===location.origin && u.pathname==='/about/') a.href = target; } catch(e){}
+  });
+})();
+</script>
+<!-- vlsi-popup-exp-v1.1 -->
+<!-- VLSI Korea subscribe popup A/B experiment v1.1 (2026-10-25, signup-i18n-fix).
+     REPLACES the v1 block (vlsi-popup-exp-v1) at the END of codeinjection_foot.
+     What changed vs v1 (R1 of GHOST-ONLY-HACKS.md):
+       - The CTA anchor to the raw Portal (#/portal/signup/free) is gone.
+         Each variant now carries an embedded Ghost members form
+         (data-members-form="signup") with a hidden data-members-newsletter
+         pinned to the newsletter of the reader's language segment, so the
+         assignment is exact on every segment (dialog-grade), not Portal-default.
+       - Form submit fires the existing subscribe_prompt_click GA event
+         (metric definition: link click -> form submit; see APPLY.md).
+       - On success (Portal adds .success to the form) the card swaps to a
+         localized success view; non-Korean segments also get the Korean
+         confirmation-mail preview panel (R-C3).
+     Unchanged vs v1: variant assignment/persistence, trigger (35% scroll /
+     25s dwell), blocked conditions, 14-day frequency cap, session-once,
+     view/dismiss GA events with variant parameter.
+     This block still pre-sets the old VLSIKR-POPUP:v3 session flag below so
+     the legacy white popup stays suppressed. -->
+<script>
+try { sessionStorage.setItem('vk-own-popup-shown-v1', '1'); } catch (e) {}
+</script>
+<script>
+/* Fallback guard: only relevant if this block was APPENDED after the v1
+   block instead of replacing it (see APPLY.md). Removes the v1 root so a
+   single popup shows. In the normal replacement install this finds nothing. */
+try {
+    var legacyPopupRoot = document.getElementById('vk-popup-exp-root');
+    if (legacyPopupRoot && legacyPopupRoot.parentNode) legacyPopupRoot.parentNode.removeChild(legacyPopupRoot);
+} catch (e) {}
+</script>
+<style>
+#vk-popup-exp-root{position:fixed;inset:0;z-index:2147483000;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.72);padding:12px;box-sizing:border-box}
+#vk-popup-exp-card{position:relative;width:calc(100% - 24px);max-width:430px;max-height:calc(100vh - 48px);overflow-y:auto;background:#000;color:#fff;border:1px solid #2a2a2a;border-radius:20px;padding:30px 26px 24px;box-shadow:0 30px 70px rgba(0,0,0,.8);font-family:inherit;box-sizing:border-box}
+#vk-popup-exp-card *{box-sizing:border-box}
+.vkexp-x{position:absolute;top:12px;right:14px;background:none;border:0;font-size:22px;line-height:1;color:#8a8a8a;cursor:pointer;padding:4px}
+.vkexp-eyebrow{font-size:10.5px;font-weight:800;letter-spacing:.24em;color:#9a9a9a}
+.vkexp-title{font-size:27px;line-height:1.25;font-weight:900;letter-spacing:-.02em;margin:13px 0 0;color:#fff}
+.vkexp-title-huge{font-size:34px;line-height:1.1;letter-spacing:-.01em}
+.vkexp-body{font-size:14px;line-height:1.65;color:#bdbdbd;margin:12px 0 0}
+.vkexp-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:18px}
+.vkexp-cell{border:1px solid #2c2c2c;border-radius:12px;padding:11px 13px;background:#0a0a0a}
+.vkexp-cell-label{display:block;font-size:13px;font-weight:700;color:#eee}
+.vkexp-cell-desc{display:block;font-size:11px;font-weight:500;color:#888;margin-top:3px;line-height:1.45}
+.vkexp-list{margin-top:18px;border-top:1px solid #222}
+.vkexp-list-row{display:flex;gap:12px;padding:11px 2px;border-bottom:1px solid #222;font-size:13.5px;font-weight:700;color:#eee}
+.vkexp-list-num{font-style:normal;color:#666;font-weight:800;font-size:12px;padding-top:1px}
+.vkexp-chips{margin-top:16px;font-size:12px;line-height:2}
+.vkexp-chip{display:inline-block;color:#fff;border:1px solid #333;border-radius:999px;padding:3px 10px;margin:0 4px 4px 0;font-weight:700;white-space:nowrap}
+.vkexp-rule{height:1px;background:#fff;opacity:.9;margin:20px 0 2px}
+.vkexp-form{margin-top:20px}
+.vkexp-email{display:block;width:100%;background:#141414;border:1px solid #333;border-radius:999px;padding:13px 16px;font-size:14px;color:#fff;outline:none}
+.vkexp-email::placeholder{color:#777}
+.vkexp-cta{display:block;width:100%;margin-top:8px;background:#fff;color:#000;font-weight:900;font-size:15.5px;text-align:center;padding:15px;border:0;border-radius:999px;text-decoration:none;cursor:pointer}
+.vkexp-error{color:#ff9fa7;font-size:12.5px;line-height:1.5;margin-top:8px}
+.vkexp-error:empty{display:none}
+.vkexp-footer{margin-top:12px;font-size:11.5px;text-align:center;color:#777;line-height:1.5}
+.vkexp-later{margin-top:11px;text-align:center;font-size:12.5px;color:#666;text-decoration:underline;cursor:pointer;background:none;border:0;width:100%;padding:0}
+.vkexp-center{text-align:center}
+.vkexp-center .vkexp-body{text-align:center}
+.vkexp-success{margin-top:2px}
+.vkexp-success-body{font-size:14px;line-height:1.65;color:#bdbdbd;margin:12px 0 0}
+.vkexp-preview-note{font-size:13px;line-height:1.6;color:#e8e8e8;margin-top:16px;border:1px solid #2c2c2c;border-radius:12px;padding:12px 13px;background:#0a0a0a;text-align:left}
+.vkexp-mailpreview{margin-top:10px;background:#fff;color:#111;border-radius:12px;padding:14px 16px;pointer-events:none;text-align:left}
+.vkexp-mp-head{font-size:11px;font-weight:800;letter-spacing:.08em;color:#555;border-bottom:1px solid #e5e5e5;padding-bottom:8px}
+.vkexp-mp-body strong{display:block;font-size:15px;margin:10px 0 6px;color:#111}
+.vkexp-mp-body p{font-size:12.5px;line-height:1.55;color:#333;margin:0 0 10px}
+.vkexp-mp-btn{display:block;text-align:center;background:#000;color:#fff;font-weight:700;font-size:13px;border-radius:8px;padding:10px}
+.vkexp-mp-small{font-size:11px;color:#777;margin-top:8px}
+</style>
+<script>
+(function () {
+    'use strict';
+    var VARIANTS = [
+        {
+            id: 'v1', kind: 'grid',
+            eyebrow: 'VLSI KOREA — NEWSLETTER',
+            title: '반도체의 모든 것, 메일 한 통으로 끝',
+            body: '기술부터 투자까지. 매일 새로 쌓이는 반도체의 모든 변화를 현직 엔지니어가 골라서 정리해 보내드립니다.',
+            grid: [
+                ['기술', 'HBM·공정·패키징·EDA 딥다이브'],
+                ['투자·시장', '실적·주가·리포트·수급'],
+                ['기업·산업', '전략·공급망·지정학'],
+                ['커리어', '연봉·채용·현직자 인사이트']
+            ],
+            cta: '무료 구독',
+            footer: '무료 · 스팸 없음 · 언제든 해지 · 구독자 300명+'
+        },
+        {
+            id: 'v2', kind: 'list',
+            eyebrow: 'DAILY SILICON · EVERY MORNING',
+            title: '아침 5분이면 반도체 전체가 보입니다',
+            body: '뉴스는 넘치고 시간은 없습니다. 하루의 반도체를 한 통에 압축해 아침마다 보내드립니다.',
+            list: [
+                '오늘 꼭 알아야 할 핵심 뉴스',
+                '기술 딥다이브 한 편',
+                '시장과 주가의 움직임',
+                '기업·산업·커리어 신호'
+            ],
+            cta: '매일 받아보기',
+            footer: '무료 · 스팸 없음 · 언제든 해지'
+        },
+        {
+            id: 'v3', kind: 'chips',
+            eyebrow: 'VLSI KOREA — NEWSLETTER',
+            title: '반도체는 매일 움직입니다. 놓치면, 격차가 됩니다',
+            body: '새 공정, 대형 계약, 실적 서프라이즈, 연봉 판도까지 — 한 번 놓친 정보는 다시 돌아오지 않습니다. 중요한 것만 골라 아침마다 전해드립니다.',
+            chips: ['기술', '투자', '기업', '산업', '커리어'],
+            cta: '놓치지 않기 — 무료 구독',
+            footer: '무료 · 스팸 없음 · 언제든 해지',
+            later: '나중에 볼게요'
+        },
+        {
+            id: 'v4', kind: 'minimal', center: true,
+            eyebrow: 'VLSI KOREA',
+            title: 'EVERYTHING SEMICONDUCTOR',
+            body: '반도체에 관한 모든 것 — 기술, 투자, 산업, 그리고 일하는 사람들까지. 매일 아침, 메일로.',
+            cta: '구독',
+            footer: 'Free · No spam · Unsubscribe anytime'
+        }
+    ];
+    var V1_INTL = {
+        en: {
+            id: 'v1-intl', kind: 'grid',
+            eyebrow: 'VLSI KOREA — NEWSLETTER',
+            title: 'Everything semiconductor, in one email',
+            body: 'From technology to investing. Every day, a practicing engineer picks and distills the semiconductor changes that matter, and sends them to you.',
+            grid: [
+                ['Technology', 'HBM, process, packaging and EDA deep dives'],
+                ['Investing & Markets', 'Earnings, stocks, reports and flows'],
+                ['Companies & Industry', 'Strategy, supply chains and geopolitics'],
+                ['Career', 'Salaries, hiring and insider insight']
+            ],
+            cta: 'Subscribe free',
+            footer: 'Free · No spam · Unsubscribe anytime · Join 300+ subscribers'
+        },
+        ja: {
+            id: 'v1-intl', kind: 'grid',
+            eyebrow: 'VLSI KOREA — NEWSLETTER',
+            title: '半導体のすべてを、メール1通で',
+            body: '技術から投資まで。毎日積み重なる半導体の変化を、現役エンジニアが選んで整理してお届けします。',
+            grid: [
+                ['技術', 'HBM・プロセス・パッケージング・EDAの深掘り'],
+                ['投資・市場', '決算・株価・レポート・需給'],
+                ['企業・産業', '戦略・サプライチェーン・地政学'],
+                ['キャリア', '年収・採用・現役インサイト']
+            ],
+            cta: '無料で購読',
+            footer: '無料 · スパムなし · いつでも解除可 · 購読者300名+'
+        }
+    };
+    var NEWSLETTER_BY_SEG = {
+        ko: 'VLSI Korea — 한국어',
+        en: 'VLSI Korea — English',
+        ja: 'VLSI Korea — 日本語'
+    };
+    var EMAIL_PLACEHOLDER = { ko: '이메일 주소', en: 'Email address', ja: 'メールアドレス' };
+    var SUCCESS_COPY = {
+        ko: {
+            title: '메일함을 확인해 주세요',
+            body: '이메일의 확인 링크를 누르면 구독이 완료됩니다.',
+            preview: null
+        },
+        en: {
+            title: 'Check your inbox',
+            body: 'Follow the confirmation link in the email to complete your subscription.',
+            preview: 'One thing to know: the confirmation email itself arrives in Korean — a limitation of our mail system. If it looks like the message below, it is the right one. Tap the black button to finish.'
+        },
+        ja: {
+            title: 'メールを送信しました',
+            body: 'メールボックスを確認してください。メール内の確認リンクを押すと購読が完了します。',
+            preview: '確認メールはシステムの都合で韓国語で届きます。下のようなメールが届いていれば正常です。黒いボタン「이메일을 확인해 주세요」を押すと購読が完了します。'
+        }
+    };
+    var MAIL_PREVIEW_HTML =
+        '<div class="vkexp-mp-head">VLSI KOREA</div>' +
+        '<div class="vkexp-mp-body"><strong>안녕하세요,</strong>' +
+        '<p>탭하시면 VLSI Korea 구독이 완료돼요! 이 링크를 사용하여 이메일 주소를 확인해 주세요.</p>' +
+        '<span class="vkexp-mp-btn">이메일을 확인해 주세요</span>' +
+        '<p class="vkexp-mp-small">보안을 위해 링크는 24시간 후에 만료돼요.</p></div>';
+    var article = document.querySelector('article .gh-content');
+    if (!article) return;
+    if (!document.body || document.body.dataset.memberStatus !== 'anonymous') return;
+    var DKEY = 'vk-popup-exp-dismissed', SKEY = 'vk-popup-exp-shown-v1', VKEY = 'vk-popup-exp-variant';
+    var FOURTEEN_DAYS = 14 * 24 * 3600 * 1000;
+    try {
+        if (Date.now() - Number(localStorage.getItem(DKEY) || 0) < FOURTEEN_DAYS) return;
+        if (sessionStorage.getItem(SKEY)) return;
+    } catch (e) {}
+    var seg = (location.pathname.split('/')[1] || 'ko').toLowerCase();
+    var def, variantId, uiLang;
+    if (seg === 'ko') {
+        uiLang = 'ko';
+        var saved = null;
+        try { saved = localStorage.getItem(VKEY); } catch (e) {}
+        def = null;
+        for (var i = 0; i < VARIANTS.length; i++) if (VARIANTS[i].id === saved) def = VARIANTS[i];
+        if (!def) {
+            def = VARIANTS[Math.floor(Math.random() * VARIANTS.length)];
+            try { localStorage.setItem(VKEY, def.id); } catch (e) {}
+        }
+        variantId = def.id;
+    } else {
+        uiLang = seg === 'ja' ? 'ja' : 'en';
+        def = V1_INTL[uiLang];
+        variantId = 'v1-intl';
+    }
+    var newsletterName = NEWSLETTER_BY_SEG[uiLang];
+    var successCopy = SUCCESS_COPY[uiLang];
+    function track(name) {
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', name, {placement: 'own_popup_exp', variant: variantId});
+        }
+    }
+    function stampDismissed() {
+        try { localStorage.setItem(DKEY, String(Date.now())); } catch (e) {}
+    }
+    function mk(tag, cls, text) {
+        var el = document.createElement(tag);
+        if (cls) el.className = cls;
+        if (text != null) el.textContent = text;
+        return el;
+    }
+    function hideEl(el) { if (el) el.style.display = 'none'; }
+    var root = mk('div');
+    root.id = 'vk-popup-exp-root';
+    var card = mk('div');
+    card.id = 'vk-popup-exp-card';
+    if (def.center) card.className = 'vkexp-center';
+    card.setAttribute('role', 'dialog');
+    card.setAttribute('aria-modal', 'true');
+    card.setAttribute('aria-label', def.title);
+    var xBtn = mk('button', 'vkexp-x', '×');
+    xBtn.setAttribute('type', 'button');
+    xBtn.setAttribute('aria-label', 'Close');
+    card.appendChild(xBtn);
+    card.appendChild(mk('div', 'vkexp-eyebrow', def.eyebrow));
+    var titleEl = mk('div', 'vkexp-title' + (def.kind === 'minimal' ? ' vkexp-title-huge' : ''), def.title);
+    card.appendChild(titleEl);
+    if (def.kind === 'minimal') card.appendChild(mk('div', 'vkexp-rule'));
+    var bodyEl = mk('p', 'vkexp-body', def.body);
+    card.appendChild(bodyEl);
+    var extraEl = null;
+    if (def.kind === 'grid' && def.grid) {
+        extraEl = mk('div', 'vkexp-grid');
+        def.grid.forEach(function (pair) {
+            var cell = mk('div', 'vkexp-cell');
+            cell.appendChild(mk('span', 'vkexp-cell-label', pair[0]));
+            cell.appendChild(mk('span', 'vkexp-cell-desc', pair[1]));
+            extraEl.appendChild(cell);
+        });
+        card.appendChild(extraEl);
+    }
+    if (def.kind === 'list' && def.list) {
+        extraEl = mk('div', 'vkexp-list');
+        def.list.forEach(function (item, idx) {
+            var row = mk('div', 'vkexp-list-row');
+            row.appendChild(mk('i', 'vkexp-list-num', ('0' + (idx + 1)).slice(-2)));
+            row.appendChild(mk('span', null, item));
+            extraEl.appendChild(row);
+        });
+        card.appendChild(extraEl);
+    }
+    if (def.kind === 'chips' && def.chips) {
+        extraEl = mk('div', 'vkexp-chips');
+        def.chips.forEach(function (chip) { extraEl.appendChild(mk('span', 'vkexp-chip', chip)); });
+        card.appendChild(extraEl);
+    }
+    var form = mk('form', 'vkexp-form');
+    form.setAttribute('data-members-form', 'signup');
+    var nlInput = mk('input');
+    nlInput.setAttribute('type', 'hidden');
+    nlInput.setAttribute('data-members-newsletter', '');
+    nlInput.value = newsletterName;
+    form.appendChild(nlInput);
+    var srcLabel = mk('input');
+    srcLabel.setAttribute('type', 'hidden');
+    srcLabel.setAttribute('data-members-label', '');
+    srcLabel.value = 'source:popup-' + variantId;
+    form.appendChild(srcLabel);
+    var emailInput = mk('input', 'vkexp-email');
+    emailInput.setAttribute('type', 'email');
+    emailInput.setAttribute('data-members-email', '');
+    emailInput.setAttribute('required', '');
+    emailInput.setAttribute('autocomplete', 'email');
+    emailInput.setAttribute('placeholder', EMAIL_PLACEHOLDER[uiLang]);
+    form.appendChild(emailInput);
+    var submitBtn = mk('button', 'vkexp-cta', def.cta);
+    submitBtn.setAttribute('type', 'submit');
+    form.appendChild(submitBtn);
+    var errEl = mk('p', 'vkexp-error');
+    errEl.setAttribute('data-members-error', '');
+    form.appendChild(errEl);
+    card.appendChild(form);
+    var footerEl = mk('div', 'vkexp-footer', def.footer);
+    card.appendChild(footerEl);
+    var laterBtn = null;
+    if (def.later) {
+        laterBtn = mk('button', 'vkexp-later', def.later);
+        laterBtn.setAttribute('type', 'button');
+        card.appendChild(laterBtn);
+    }
+    var successView = mk('div', 'vkexp-success');
+    successView.style.display = 'none';
+    successView.appendChild(mk('p', 'vkexp-success-body', successCopy.body));
+    if (successCopy.preview) {
+        successView.appendChild(mk('p', 'vkexp-preview-note', successCopy.preview));
+        var previewCard = mk('div', 'vkexp-mailpreview');
+        previewCard.innerHTML = MAIL_PREVIEW_HTML;
+        successView.appendChild(previewCard);
+    }
+    card.appendChild(successView);
+    root.appendChild(card);
+    document.body.appendChild(root);
+    var successShown = false;
+    function showSuccess() {
+        if (successShown) return;
+        successShown = true;
+        titleEl.textContent = successCopy.title;
+        hideEl(bodyEl); hideEl(extraEl); hideEl(form); hideEl(footerEl); hideEl(laterBtn);
+        successView.style.display = 'block';
+        track('subscribe_prompt_success');
+    }
+    if (window.MutationObserver) {
+        var formObserver = new MutationObserver(function () {
+            if ((' ' + form.className + ' ').indexOf(' success ') >= 0) showSuccess();
+        });
+        formObserver.observe(form, {attributes: true, attributeFilter: ['class']});
+    }
+    form.addEventListener('submit', function () {
+        stampDismissed();
+        track('subscribe_prompt_click');
+    });
+    var shown = false, dwell = 0, lastTick = Date.now(), pending = false;
+    function blocked() {
+        return document.hidden || location.hash.indexOf('#/portal') === 0 ||
+            document.querySelector('dialog[open]') ||
+            document.documentElement.classList.contains('has-cookie-consent');
+    }
+    function show() {
+        if (shown) return;
+        if (blocked()) { pending = true; return; }
+        shown = true;
+        try { sessionStorage.setItem(SKEY, '1'); } catch (e) {}
+        root.style.display = 'flex';
+        track('subscribe_prompt_view');
+    }
+    function dismiss() {
+        if (!shown) return;
+        root.style.display = 'none';
+        stampDismissed();
+        track('subscribe_prompt_dismiss');
+    }
+    xBtn.addEventListener('click', dismiss);
+    if (laterBtn) laterBtn.addEventListener('click', dismiss);
+    root.addEventListener('click', function (ev) { if (ev.target === root) dismiss(); });
+    document.addEventListener('keydown', function (ev) {
+        if (shown && (ev.key === 'Escape' || ev.keyCode === 27)) dismiss();
+    });
+    setInterval(function () {
+        var now = Date.now();
+        if (!document.hidden) dwell += now - lastTick;
+        lastTick = now;
+        if (!shown && dwell >= 25000) show();
+        if (pending && !blocked()) { pending = false; show(); }
+    }, 500);
+    window.addEventListener('scroll', function () {
+        if (shown) return;
+        var rect = article.getBoundingClientRect();
+        if (rect.height > 0 && window.innerHeight - rect.top >= rect.height * 0.35) show();
+    }, {passive: true});
+})();
+</script>
+
+<!-- vlsi-cta-intercept-v1 -->
+<!-- VLSI Korea body-CTA dialog intercept v1 (2026-10-25, signup-i18n-fix R1).
+     Append at the END of codeinjection_foot (after all existing blocks).
+     Problem: in-article subscribe CTAs (subscribe-cta cta.json, mid-cta)
+     and other in-content links point at the raw Portal
+     (https://www.vlsi.kr/#/portal/signup/free). Portal assigns the
+     signup-default newsletter (Korean) regardless of the article's
+     language. The theme's own dialog interceptor
+     (theme 3.1.35, assets/built/member-experience.js) only matches
+       [data-vk-subscribe], a[data-portal="signup"], button[data-portal="signup"],
+       a[href="#/portal/signup"], a[href="https://www.vlsi.kr/#/portal/signup"]
+     so the /free-suffixed content links escape it.
+     This block closes the gap with the same mechanism: a capture-phase
+     document click listener that opens #vk-signup-dialog (which pins the
+     correct newsletter per language) instead of following the link.
+     - Language default: before opening, the dialog's language select is
+       set to the current page segment (when the dialog offers that
+       language) and a bubbling 'change' is dispatched, so the theme
+       labels() handler and the SIGNUP-SIMPLIFY ja correction re-run and
+       the hidden newsletter field lands on the segment's newsletter.
+     - Fallbacks: no dialog on the page (signed-in members) -> a synthetic
+       click on a temporary a[data-portal="signup"] element (the theme /
+       Portal path); modified clicks (ctrl/cmd/middle) and clicks while
+       the dialog is already open are left untouched. -->
+<script>
+(function () {
+    'use strict';
+    var SEG_TO_DIALOG_LANG = {
+        ko: 'ko', en: 'en', ja: 'ja', zh: 'zh', 'zh-tw': 'zh',
+        es: 'es', vi: 'vi', ar: 'ar', he: 'he', ms: 'ms'
+    };
+    function isSignupPortalLink(a) {
+        if (!a || a.tagName !== 'A') return false;
+        var href = a.getAttribute('href') || '';
+        return href.indexOf('/portal/signup') >= 0;
+    }
+    function openDialog() {
+        var dialog = document.getElementById('vk-signup-dialog');
+        if (!dialog || typeof dialog.showModal !== 'function') return false;
+        var seg = (location.pathname.split('/')[1] || 'ko').toLowerCase();
+        var want = SEG_TO_DIALOG_LANG[seg];
+        var language = dialog.querySelector('#vk-signup-language');
+        if (want && language) {
+            var has = false;
+            for (var i = 0; i < language.options.length; i++) {
+                if (language.options[i].value === want) { has = true; break; }
+            }
+            if (has && language.value !== want) {
+                language.value = want;
+                var ev;
+                try { ev = new Event('change', {bubbles: true}); }
+                catch (e) { ev = document.createEvent('Event'); ev.initEvent('change', true, false); }
+                language.dispatchEvent(ev);
+            }
+        }
+        if (!dialog.open) dialog.showModal();
+        var email = dialog.querySelector('[data-members-email]');
+        if (email && typeof email.focus === 'function') email.focus();
+        return true;
+    }
+    document.addEventListener('click', function (e) {
+        if (e.button && e.button !== 0) return;
+        if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+        var a = e.target && e.target.closest ? e.target.closest('a') : null;
+        if (!isSignupPortalLink(a)) return;
+        var dialog = document.getElementById('vk-signup-dialog');
+        if (dialog && dialog.open) return;
+        if (a.closest && a.closest('#vk-signup-dialog')) return;
+        e.preventDefault();
+        if (openDialog()) {
+            if (typeof window.gtag === 'function') {
+                window.gtag('event', 'subscribe_dialog_open', {placement: 'cta_intercept'});
+            }
+            return;
+        }
+        var tmp = document.createElement('a');
+        tmp.setAttribute('data-portal', 'signup');
+        tmp.setAttribute('href', '#/portal/signup');
+        tmp.style.display = 'none';
+        document.body.appendChild(tmp);
+        tmp.click();
+        tmp.remove();
+    }, true);
+})();
+</script>
+
+<!-- vlsi-dialog-i18n-fix-v1 -->
+<!-- VLSI Korea signup-dialog i18n fix v1 (2026-10-25, signup-i18n-fix R2 + R-C3).
+     Append at the END of codeinjection_foot (after all existing blocks).
+     R2 — theme 3.1.35 member-experience.js builds dialog copy as
+     Object.assign({}, en, local[uiLang]): the English dictionary is the
+     base and the per-language dictionary only overrides the keys it has.
+     The ja dictionary is missing 7 keys (intro, interests, delivery,
+     terms, privacy, success, already), so Japanese readers see those
+     slots in English — including the post-submit success message.
+     This block re-sets exactly those slots (marked in the theme markup
+     with data-vk-member-copy) to Japanese when the page segment is ja.
+     It runs on window load +80ms, the same whenReady pattern the existing
+     SIGNUP-SIMPLIFY block uses, i.e. after the theme's start() copy pass.
+     R-C3 — when the dialog form reaches its success state
+     (.vk-signup-form.success, the theme's own CSS hook), readers whose
+     chosen delivery language is not Korean get an extra panel inside the
+     form: a localized note that the confirmation mail arrives in Korean,
+     plus a miniature replica of that mail (white card, greeting, black
+     "이메일을 확인해 주세요" button) so they can recognize it and finish.
+     The panel language follows the dialog's language select at success
+     time (ja -> Japanese, anything else non-ko -> English). -->
+<style>
+.vk-mail-preview{display:none}
+.vk-signup-form.success .vk-mail-preview{display:block}
+.vk-mp-note{font-size:13.5px;line-height:1.6;margin:14px 0 0}
+.vk-mp-card{margin-top:10px;background:#fff;color:#111;border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;pointer-events:none}
+.vk-mp-head{font-size:11px;font-weight:800;letter-spacing:.08em;color:#555;border-bottom:1px solid #e5e5e5;padding-bottom:8px}
+.vk-mp-card strong{display:block;font-size:15px;margin:10px 0 6px;color:#111}
+.vk-mp-card p{font-size:12.5px;line-height:1.55;color:#333;margin:0 0 10px}
+.vk-mp-btn{display:block;text-align:center;background:#000;color:#fff;font-weight:700;font-size:13px;border-radius:8px;padding:10px}
+.vk-mp-small{font-size:11px;color:#777;margin-top:8px}
+</style>
+<script>
+(function () {
+    'use strict';
+    var JA_MISSING = {
+        intro: 'エンジニアの視点と産業の流れを一緒に。無料で購読できます。',
+        interests: '関心分野 · 複数選択可',
+        delivery: '今すぐ受け取るニュースレターの言語',
+        terms: '購読するとVLSI Koreaのメールを受け取ります。いつでも解除できます。言語・関心分野・お仕事の情報は、今後のコンテンツ企画とニュースレターの分類に使用します。任意項目を入力しなくても購読できます。',
+        privacy: 'プライバシーポリシー',
+        success: 'メールボックスを確認してください。メール内の確認リンクを押すと購読が完了します。',
+        already: 'すでに購読中ですか？'
+    };
+    var PANEL_COPY = {
+        ja: '確認メールはシステムの都合で韓国語で届きます。下のようなメールが届いていれば正常です。黒いボタン「이메일을 확인해 주세요」を押すと購読が完了します。',
+        en: 'One thing to know: the confirmation email itself arrives in Korean — a limitation of our mail system. If it looks like the message below, it is the right one. Tap the black button to finish.'
+    };
+    var MAIL_CARD_HTML =
+        '<div class="vk-mp-head">VLSI KOREA</div>' +
+        '<strong>안녕하세요,</strong>' +
+        '<p>탭하시면 VLSI Korea 구독이 완료돼요! 이 링크를 사용하여 이메일 주소를 확인해 주세요.</p>' +
+        '<span class="vk-mp-btn">이메일을 확인해 주세요</span>' +
+        '<p class="vk-mp-small">보안을 위해 링크는 24시간 후에 만료돼요.</p>';
+    function whenReady(fn) {
+        function run() { setTimeout(fn, 80); }
+        if (document.readyState === 'complete') run();
+        else window.addEventListener('load', run);
+    }
+    whenReady(function () {
+        var dialog = document.getElementById('vk-signup-dialog');
+        if (!dialog) return;
+        var form = dialog.querySelector('form');
+        if (!form) return;
+        var seg = (location.pathname.split('/')[1] || 'ko').toLowerCase(); if (seg === 'subscribe-ja') seg = 'ja'; else if (seg === 'subscribe-zh-tw') seg = 'zh-tw'; else if (seg === 'subscribe') seg = 'ko';
+        if (seg === 'ja') {
+            dialog.querySelectorAll('[data-vk-member-copy]').forEach(function (el) {
+                var key = el.getAttribute('data-vk-member-copy');
+                if (key && JA_MISSING[key] != null) el.textContent = JA_MISSING[key];
+            });
+        }
+        if (form.querySelector('.vk-mail-preview')) return;
+        var panel = document.createElement('div');
+        panel.className = 'vk-mail-preview';
+        var note = document.createElement('p');
+        note.className = 'vk-mp-note';
+        panel.appendChild(note);
+        var cardReplica = document.createElement('div');
+        cardReplica.className = 'vk-mp-card';
+        cardReplica.innerHTML = MAIL_CARD_HTML;
+        panel.appendChild(cardReplica);
+        form.appendChild(panel);
+        function refreshPanel() {
+            var language = dialog.querySelector('#vk-signup-language');
+            var delivery = dialog.querySelector('#vk-signup-delivery');
+            var chosen = language ? language.value : (delivery ? delivery.value : 'ko');
+            if (chosen === 'ko') { panel.style.display = 'none'; return; }
+            panel.style.display = '';
+            note.textContent = chosen === 'ja' ? PANEL_COPY.ja : PANEL_COPY.en;
+        }
+        if (window.MutationObserver) {
+            var obs = new MutationObserver(function () {
+                if ((' ' + form.className + ' ').indexOf(' success ') >= 0) refreshPanel();
+            });
+            obs.observe(form, {attributes: true, attributeFilter: ['class']});
+        }
+        form.addEventListener('change', function () {
+            if ((' ' + form.className + ' ').indexOf(' success ') >= 0) refreshPanel();
+        });
+    });
+})();
+</script>
+<!-- vlsi-partnership-locale v1 (2026-10-28): route the header "Partnership" link (More menu -> /fan/) to the reader's language edition of the partnership page. Append to Ghost Admin > Settings > Code injection > Site Footer. Rollback: delete this entire block. -->
+<script>
+(function () {
+  var seg = (location.pathname.split('/')[1] || '').toLowerCase();
+  var lang = { 'en': 'en', 'ja': 'ja', 'zh-tw': 'zh-tw' }[seg] || null;
+  if (!lang) {
+    var mm = location.pathname.match(/-(en|ja|zh-tw)\/?$/);
+    if (mm) lang = mm[1];
+  }
+  if (!lang) return;
+  var target = '/partnership-' + lang + '/';
+  function fix() {
+    document.querySelectorAll('a').forEach(function (a) {
+      var href = a.getAttribute('href') || '';
+      if (/\/fan\/?$/.test(href) && (a.textContent || '').trim().toLowerCase() === 'partnership') {
+        a.setAttribute('href', target);
+      }
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fix);
+  else fix();
+})();
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a549da78ae08fced',t:'MTc5MzY5MjkxMQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a549da78ae08fced',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
