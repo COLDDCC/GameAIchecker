@@ -1,0 +1,86 @@
+{
+  "appId": "5027520",
+  "name": "Megastore: Tidy Up Together",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "商店整理模拟，2026 年 9 月 2 日上市、可单人或在线合作。开发者披露 AI 协助了部分翻译，并参与生成游戏内两张贴图，这两张贴图上线前经过人工编辑与复核。",
+  "aiUsageCategories": [
+    "art",
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称 AI 参与生成游戏内两张贴图，这两张贴图在进入正式版前经人工编辑、打磨与复核。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "同一段披露说明 AI 也协助了本作部分文本的翻译。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5027520/",
+  "developer": "Yolo Games Studio",
+  "publisher": "Yolo Games Studio",
+  "steamReleaseDate": "Sep 2, 2026",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5027520/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "AI tools were used to assist with some of the game’s translations and in the creation of two in-game textures. These textures were subsequently edited, refined, and carefully reviewed by a human before being included in the final game. We strictly rely on human creativity and craftsmanship throughout the game’s development."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5027520/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 211）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/5027520",
+      "label": "AI Transparency Index 复刻本作商店披露的分析页",
+      "date": "2026-11-03",
+      "excerpt": "AI assisted with translations and the creation of two in-game textures, which were human-edited before inclusion."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Yolo Games Studio，发行商同名）与英文讨论区首页（可见 15 个主题，总数 211），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 逐字复刻商店披露的分析页，其内容仍是披露的转录而非独立核实）。同批的 Reddit 帖经 GitHub Actions 中转抓取返回 HTTP 403，读不到正文，且该帖讨论的是游戏节奏而非 AI；一条指向另一款游戏（Librarian: Tidy Up）讨论页的结果与一条 Bluesky 个人帖均按无关处置。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "AI tools were used to assist with some of the game’s translations and in the creation of two in-game textures. These textures were subsequently edited, refined, and carefully reviewed by a human before being included in the final game. We strictly rely on human creativity and craftsmanship throughout the game’s development.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A cosy store-tidying simulation released on Sep 2, 2026, playable solo or in online co-op. The developer states that AI tools assisted with some translations and were used to create two in-game textures, which were then edited, refined and reviewed by a human before inclusion in the final game.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Yolo Games Studio, self-published) and the English discussion homepage (15 visible topics of 211); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read: an AI Transparency Index page that reproduces the store disclosure verbatim, which is a transcription and not independent verification. The related Reddit thread returned HTTP 403 to the relay and is about pacing rather than AI, one result points to the discussion page of a different title and one Bluesky post could not be tied to this disclosure, so all three are logged without being read. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "AI tools were used to create two in-game textures, which the developer states were edited, refined and reviewed by a human before being included in the final game.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The same disclosure sentence states that AI tools assisted with some of the game's translations.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "13f7eea3f5c82752411fe86f94df636471e7a6e550fce2316c13a5a6067acbbb"
+  }
+}
