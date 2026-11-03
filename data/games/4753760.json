@@ -1,0 +1,87 @@
+{
+  "appId": "4753760",
+  "name": "Your Fiancée",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "桌面伴侣应用，2026 年 9 月 17 日由 DigitalDream 发行。开发者称核心内容由大量手工开发完成，主角、服装与全部 Live2D 模型均为手绘与手工绑定，而 AI 只作为有限辅助，用在少量 UI 插画、部分可选抽卡角色、商店图与原声音乐上。",
+  "aiUsageCategories": [
+    "art",
+    "music",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称 AI 只作为有限的制作辅助，用在少量 UI 插画与部分可选的抽卡角色上（这些角色经过大量手工编辑、分层、动态化与细化）；同时明确主力角色、服装与全部 Live2D 模型完全由开发者手绘、手工绑定与打磨。登记的“已使用”只覆盖被点名的少量 UI 插画与部分抽卡角色。",
+    "music": "同一句把“原声音乐（the soundtrack）”列入 AI 辅助的范围；未说明曲目数量与是否混入真人录制素材，也未说明预告片等音频是否在范围内。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "同一句点名“商店图（store images）”属于 AI 有限辅助的范围，即宣传与商店视觉素材也在披露之内；原文用“Only … as a limited production aid”限定规模，但未给出数量。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4753760/",
+  "developer": "DigitalDream",
+  "publisher": "DigitalDream",
+  "steamReleaseDate": "Sep 17, 2026",
+  "genres": [
+    "Casual",
+    "Indie"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4753760/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "The game's core content was created through extensive manual development. The main character, outfits, and all Live2D models are entirely hand-drawn, manually rigged, animated, and polished by the developer. AI was used only as a limited production aid for a small number of UI illustrations, some optional Gacha characters (which were extensively edited, layered, animated, and refined by hand), store images,and the soundtrack."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4753760/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 160）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4753760/discussions/0/574930972896765415/",
+      "label": "AI Companion node.js",
+      "date": "2026-11-03",
+      "excerpt": "I have installed the LTS file, currently being given \"The Agent exited. Verify installation and login in a terminal, and check the launch parameters.\" The terminal login/setup command does not have a command copyable. I did some digging, but nothing seems to be working. Running Gemini CLI.\nDigital Dream Games View Profile View Posts [developer] Oct 28 @ 10:08pm Report this post Thank you for reporting this issue! We’ll investigate the problem and work on a fix as soon as possible. We appreciate your feedback and patience! #1"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 DigitalDream）与英文讨论区首页（可见 15 个主题，总数 160），首页有 1 个被自动匹配为相关的主题（“AI Companion node.js”），已逐帖读取原文：这是玩家求助本作新出的 AI Companion 扩展 DLC 里外部 AI 代理（Gemini CLI）无法启动的问题，跟帖有带 developer 徽章的官方回复表示会调查修复；内容属技术支持与外部工具的可用性，没有说明该功能在运行时生成什么，因此按规则只登记不判定，不改变游戏内实时生成等任何领域结论。本款单独检索公开报道 1 次、登记 6 条结果，读取 0 篇原始来源：六条结果是本作商店页与另一个商店页入口、带鉴赏家参数的社区中心页、Instagram 上的预告片转发（读不到正文）、西语相似游戏列表与俄语比价页，均不含第三方对 AI 披露的核实内容；检索范围仅限工具实际返回的内容，不能据此认定没有其他公开报道。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。披露以“only … limited production aid”限定规模并声明主角与 Live2D 全手工，但这些仍是开发者自述，本站据此把美术、音乐、营销登记为已使用，其余五个领域按未提及处理。",
+  "disclosureQuote": "The game's core content was created through extensive manual development. The main character, outfits, and all Live2D models are entirely hand-drawn, manually rigged, animated, and polished by the developer. AI was used only as a limited production aid for a small number of UI illustrations, some optional Gacha characters (which were extensively edited, layered, animated, and refined by hand), store images,and the soundtrack.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A desktop companion application released by DigitalDream on Sep 17, 2026. The developer states that the core content was built by hand, with the main character, outfits and all Live2D models entirely hand-drawn and manually rigged, and that AI was a limited production aid used for a small number of UI illustrations, some optional Gacha characters, store images and the soundtrack.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher DigitalDream) and the English discussion homepage (15 visible topics of 160), where one topic matched the AI keyword screen; it was opened and read in full. The post is a player asking why the external AI agent bundled with this title's AI Companion expansion, running Gemini CLI, will not start, and a reply carrying the developer badge says the issue will be investigated. It concerns the availability of a third-party agent rather than what content is generated at run time, so it is logged without changing any area finding, including in-game generation. This title was searched 1 time with 6 results and 0 raw sources were read because all six were the store page and a second store entry, the community hub with a curator parameter, an Instagram trailer share with no readable body, a Spanish similar-games list and a Russian price comparison page, none of which verifies the disclosure; that describes the search range and is not proof that no other coverage exists. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit: the wording only as a limited production aid and the hand-drawn Live2D claim are the developer's own, art, music and marketing are recorded as used for the assets actually named, and the other five areas stay recorded as not addressed.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The developer describes AI as a limited production aid used for a small number of UI illustrations and some optional Gacha characters, which they say were extensively edited, layered, animated and refined by hand, while the main character, outfits and all Live2D models are stated to be entirely hand-drawn and manually rigged; the finding covers only the assets that are named.",
+      "music": "The same sentence includes the soundtrack in the limited AI-assisted work, without saying how many tracks, whether recordings were mixed in, or whether trailer audio is covered.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "The same sentence names store images among the work where AI was a limited production aid, so store and promotional visuals are inside the disclosure, though no count or proportion is given."
+    },
+    "sourceRecordHash": "95d705cffe760b948c32637a04174e427957c089422bff2474e1bedd12b927c1"
+  }
+}
