@@ -32,6 +32,21 @@
       "id": "discussion",
       "label": "Steam 讨论区首页核查",
       "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 242）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4356430",
+      "sourceType": "press",
+      "url": "https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/",
+      "fetchedAt": "2026-11-03T08:01:51.681871+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "September 3 Game Ready announcement for NBA 2K27 makes that distinction concrete. Running the game and enabling DLSS 5's new visual feature have different requirements. The recommended list says RTX 2070. The new option says RTX 50.",
+      "locator": "full page text",
+      "label": "VLSI Korea 本作 DLSS 5 支持与技术要求报道",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\4356430\\press-0.html",
+      "contentHash": "6c289ded5ae1092a24e694ba318a894a0d710dc4f6835e724115aa2e2dd182d0"
     }
   ],
   "identity": {
@@ -131,5 +146,53 @@
     "coverageLimits": [
       "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
     ]
+  },
+  "press": {
+    "query": "\"NBA 2K27\" Steam AI generated content disclosure DLSS neural rendering",
+    "searchedAt": "2026-11-03T07:57:20Z",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/4356430/NBA_2K27?snr=1_7001_topselling_",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+      },
+      {
+        "url": "https://shattered.io/dlss-5-leak-nba-2k27-neural-rendering-fps-2026/",
+        "relevant": false,
+        "reason": "第三方硬件博客报道 DLSS 5 文件泄漏与帧数表现，未讨论本作商店 AI 披露，未读取正文。"
+      },
+      {
+        "url": "http://steamaifilter.xyz/game/4356430-nba-2k27",
+        "relevant": false,
+        "reason": "该聚合页在检索结果里只提供 http 明文地址，GitHub Actions 中转只接受 https，因此未能读取原文；按未读取登记，不影响以商店披露原文为准的判定。"
+      },
+      {
+        "url": "https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/",
+        "relevant": true,
+        "reason": "VLSI Korea 本作 DLSS 5 支持页，已读取原文；它核对的是 NVIDIA 的显卡支持与 Game Ready 公告，可佐证披露所述“可选启用 DLSS 5 三维引导神经渲染”这一技术事实，但不是对本作 AI 内容的审计；该页自身声明其写作有 AI 辅助，因此只作旁证登记。"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+        "relevant": false,
+        "reason": "NVIDIA DLSS 官方技术页，说明 DLSS 5 本身，不含本作披露内容。"
+      },
+      {
+        "url": "https://zing.co.uk/industry-resources/steam-charts/ai-disclosed/",
+        "relevant": false,
+        "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道，未读取正文。"
+      }
+    ],
+    "readUrls": [
+      "https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+      "第三方 AI 披露聚合站（AI Transparency Index / Steam AI Filter / GameAICheck / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+      "Reddit、Facebook、Instagram、YouTube 与部分转载页经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。",
+      "本批十款均未检索到独立于商店披露的核实性报道（如审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\4356430\\press-search.json",
+    "contentHash": "589b0dd2990dedd9ca7af403150819dc0879c30ef23ef26eeeafa462000f649f"
   }
 }

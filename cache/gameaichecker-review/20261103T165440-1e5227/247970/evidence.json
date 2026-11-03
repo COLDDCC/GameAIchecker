@@ -47,6 +47,21 @@
       "quote": "A strange change from GB is the frequency of the AI wingman's callouts to you in mission. Sure, 'Bauke Bauke' is burnt into my brain, and supposedly the new voice system should keep callouts more helpful. But its the volume of callouts thats gone down, and the game is worse for it. I was flying my MiG-15 career, and got into a furball with Sabers. At no time did the AI give me a 'bandits, four low' or even a 'Tally!' or whatever the North Korean/Russian equivalent is. Maybe I forgot to explicitly order them to tally bandits, but why do I need to tell the AI to do this at all, wouldn't standing doctrine be to do this? Something established in training? But its not just in air callouts either, the AI seems very hit or miss with whenever any voice communication occurs. I give commands and they just... say nothing. Not even a confirmation? Something seems almost bugged in the behavior. Its a small thing, but very frustrating.\nLukeFF View Profile View Posts [developer] Nov 1 @ 1:49pm Report this post You can order them to or to not call out enemy contacts from the command menu. #1\nPopaStern View Profile View Posts Nov 1 @ 1:53pm Report this post The Ai behavior is set on automatic by default and act on everything without requiring your flight lead input. This also means that they often won't respond to your commands. If you would rather they obey to your commands, mostly, go to settings/game/artificial intelligence and select the option \"Maintain Formation\". I noticed more radio replies when this is turned on, such as flight formation confirmations. I also would like having more control on radio volume in the future. My biggest negative on this topic is the often uncomprehensible ai voices forcing me to open my map screen to read the chat bubbles. I read that a voice rework is in the works so we can expect things to get better. Fly safe! #2\nBeondTheGrave View Profile View Posts 15 hours ago Report this post Originally posted by LukeFF : You can order them to or to not call out enemy contacts from the command menu. Which is inconsistent, half the time they *still* don't do it, and anyway should be the default behavior and *not* something I have to check each sortie. In general, as I note above, the AI seems to only ever half reply to your commands which means you really don't know if the command has taken, if the behavior has changed, etc. until after its too late. Poor response to player input. The Ai behavior is set on automatic by default and act on everything without requiring your flight lead input. This also means that they often won't respond to your commands. If you would rather they obey to your commands, mostly, go to settings/game/artificial intelligence and select the option \"Maintain Formation\". I noticed more radio replies when this is turned on, such as flight formation confirmations. Thanks I will try this and see if it helps. A voice rework would be very appreciated overall. I've slowly come to 'understand' the AI voice, whenever it does trigger, but its like learning greek it can be very garbled. The Korean voices in my MiG-15 are quite poor, coming from someone whose been trying to learn Korean a few years now. I don't hate what theyre going for with this new voice system, but where it is now is unnecessarily challenging. #3\nLukeFF View Profile View Posts [developer] 11 hours ago Report this post Originally posted by PopaStern : The Ai behavior is set on automatic by default and act on everything without requiring your flight lead input. This also means that they often won't respond to your commands. If you would rather they obey to your commands, mostly, go to settings/game/artificial intelligence and select the option \"Maintain Formation\". I noticed more radio replies when this is turned on, such as flight formation confirmations. I also would like having more control on radio volume in the future. My biggest negative on this topic is the often uncomprehensible ai voices forcing me to open my map screen to read the chat bubbles. I read that a voice rework is in the works so we can expect things to get better. Fly safe! Yes, we are continuing to work on improving the system. BTW, you can control the radio volume just like in GB. The only limitation right now is the radio beacon volume is tied to it as well. #4",
       "id": "thread-0",
       "label": "AI pilot call outs"
+    },
+    {
+      "id": "press-0",
+      "appId": "247970",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/247970",
+      "fetchedAt": "2026-11-03T08:01:46.430605+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "AI-assisted workflows were used to create in-game radio communications, pilot portraits, and Career mode images, which were manually reviewed and refined.",
+      "locator": "full page text",
+      "label": "AI Transparency Index 复刻本作商店披露的分析页",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\247970\\press-0.html",
+      "contentHash": "313ce30c0722498bcc5430027f2d62b7ea28273106155770714839d5679e9ba2"
     }
   ],
   "identity": {
@@ -156,5 +171,53 @@
     "coverageLimits": [
       "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
     ]
+  },
+  "press": {
+    "query": "\"Korea. IL-2 Series\" Steam generative AI disclosure",
+    "searchedAt": "2026-11-03T07:56:20Z",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://steamcommunity.com/app/247970/discussions/0/580552797772104950/?l=portuguese",
+        "relevant": false,
+        "reason": "Steam 讨论区主题帖，本轮已在讨论区核查环节逐帖读取并登记为相关主题；内容属玩家立场表达或开发者自述，不在报道来源中重复登记，也不改变任何领域判定。"
+      },
+      {
+        "url": "https://aitransparencyindex.com/products/steam/247970",
+        "relevant": true,
+        "reason": "AI Transparency Index 复刻本作商店披露的分析页，已读取原始页面；其内容是对披露的转录与模型再分类，不构成独立核实。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/247970/Koreya_Seriya_Il2/",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+      },
+      {
+        "url": "https://www.pcgamingwiki.com/wiki/Korea._IL-2_Series",
+        "relevant": false,
+        "reason": "PCGamingWiki 条目页以运行环境与修正为主，与本作 AI 披露无直接关系，未读取正文。"
+      },
+      {
+        "url": "https://www.reddit.com/r/il2sturmovik/comments/1u9zvdn/seriously_disappointed_by_the_ai_preview_for_il2/",
+        "relevant": false,
+        "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；只登记线索，不作为任何领域的证据。"
+      },
+      {
+        "url": "https://www.reddit.com/r/pcgaming/comments/1vfezkt/korea_il2_series_release_trailer/",
+        "relevant": false,
+        "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；只登记线索，不作为任何领域的证据。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/247970"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+      "第三方 AI 披露聚合站（AI Transparency Index / Steam AI Filter / GameAICheck / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+      "Reddit、Facebook、Instagram、YouTube 与部分转载页经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。",
+      "本批十款均未检索到独立于商店披露的核实性报道（如审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\247970\\press-search.json",
+    "contentHash": "4b4173fdaa59616fb140ef3392820b85a5dba71da10ddc7d4a8f536e147aeaf8"
   }
 }

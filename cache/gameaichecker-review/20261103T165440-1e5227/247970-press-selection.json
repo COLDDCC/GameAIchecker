@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://steamcommunity.com/app/247970/discussions/0/580552797772104950/?l=portuguese",
+   "relevant": false,
+   "reason": "Steam 讨论区主题帖，本轮已在讨论区核查环节逐帖读取并登记为相关主题；内容属玩家立场表达或开发者自述，不在报道来源中重复登记，也不改变任何领域判定。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/247970",
+   "relevant": true,
+   "reason": "AI Transparency Index 复刻本作商店披露的分析页，已读取原始页面；其内容是对披露的转录与模型再分类，不构成独立核实。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/247970/Koreya_Seriya_Il2/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://www.pcgamingwiki.com/wiki/Korea._IL-2_Series",
+   "relevant": false,
+   "reason": "PCGamingWiki 条目页以运行环境与修正为主，与本作 AI 披露无直接关系，未读取正文。"
+  },
+  {
+   "url": "https://www.reddit.com/r/il2sturmovik/comments/1u9zvdn/seriously_disappointed_by_the_ai_preview_for_il2/",
+   "relevant": false,
+   "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；只登记线索，不作为任何领域的证据。"
+  },
+  {
+   "url": "https://www.reddit.com/r/pcgaming/comments/1vfezkt/korea_il2_series_release_trailer/",
+   "relevant": false,
+   "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；只登记线索，不作为任何领域的证据。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "247970",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/247970",
+   "fetchedAt": "2026-11-03T08:01:46.430605+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI-assisted workflows were used to create in-game radio communications, pilot portraits, and Career mode images, which were manually reviewed and refined.",
+   "locator": "full page text",
+   "label": "AI Transparency Index 复刻本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\247970\\press-0.html",
+   "contentHash": "313ce30c0722498bcc5430027f2d62b7ea28273106155770714839d5679e9ba2"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / Steam AI Filter / GameAICheck / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit、Facebook、Instagram、YouTube 与部分转载页经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。",
+  "本批十款均未检索到独立于商店披露的核实性报道（如审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+ ]
+}

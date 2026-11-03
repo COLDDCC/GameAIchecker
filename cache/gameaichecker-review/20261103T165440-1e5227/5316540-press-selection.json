@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5316540/Tidy_Up_the_Halloween_Shop/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5316540/Tidy_Up_the_Halloween_Shop/?snr=1_1056_4_1056_curatorfeatureddiscount&curator_clanid=46193645",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5221510/Tidy_Up_the_Flower_Shop/",
+   "relevant": false,
+   "reason": "页面指向另一款游戏或另一个 App ID，不是本作正式版页面，与本作 AI 披露无关。"
+  },
+  {
+   "url": "https://www.reddit.com/r/TidyUpGames/rising/",
+   "relevant": false,
+   "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；只登记线索，不作为任何领域的证据。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/5316540",
+   "relevant": true,
+   "reason": "AI Transparency Index 复刻本作商店披露的分析页，已读取原始页面；其结论仍由模型对披露文本再分类得到，是转录而非独立核实。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/art-store-tidy-up/info/",
+   "relevant": false,
+   "reason": "比价/折扣聚合页，只有价格与折扣信息，没有 AI 使用内容，未读取正文。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5316540",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/5316540",
+   "fetchedAt": "2026-11-03T08:01:40.582958+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Generative AI was used across multiple disciplines including visual art, audio, 3D models, logo, and localization, with heavy human editing.",
+   "locator": "full page text",
+   "label": "AI Transparency Index 复刻本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\5316540\\press-0.html",
+   "contentHash": "a1171dc1ad4e8c93704f3edb85939cce3fd5c71de6fc26e9be2799c65ca155b5"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / Steam AI Filter / GameAICheck / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit、Facebook、Instagram、YouTube 与部分转载页经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。",
+  "本批十款均未检索到独立于商店披露的核实性报道（如审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+ ]
+}

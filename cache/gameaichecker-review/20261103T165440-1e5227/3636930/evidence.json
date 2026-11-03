@@ -32,6 +32,21 @@
       "id": "discussion",
       "label": "Steam 讨论区首页核查",
       "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 279）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "3636930",
+      "sourceType": "press",
+      "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+      "fetchedAt": "2026-11-03T08:01:42.450768+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "Developer says generative AI made placeholder icons and background images and machine-translated some new text; the rest is human-made.",
+      "locator": "full page text",
+      "label": "GameAICheck 新品 AI 列表页中本作条目的披露摘要",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\3636930\\press-0.html",
+      "contentHash": "f2485123227384bc50b5caab84cd7c0707778096b4c3a5d04e44bf6eed8e68a5"
     }
   ],
   "identity": {
@@ -132,5 +147,53 @@
     "coverageLimits": [
       "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
     ]
+  },
+  "press": {
+    "query": "\"Professional Ship Simulator\" Steam AI generated content disclosure",
+    "searchedAt": "2026-11-03T07:55:30Z",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/3636930/_/?snr=1_1056_4_18_1057&curator_clanid=33010843",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/3636930/Professional_Ship_Simulator/",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/F8Nxq6iOFvY",
+        "relevant": false,
+        "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+      },
+      {
+        "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+        "relevant": true,
+        "reason": "GameAICheck 的新品 AI 列表页逐条给出本作披露的摘要（占位图标与背景图、部分新文本机翻），已读取原始页面；摘要是第三方对披露的复述，不是独立核实。"
+      },
+      {
+        "url": "https://www.resetera.com/threads/list-of-games-that-use-generative-ai.1367848/page-21",
+        "relevant": false,
+        "reason": "论坛的玩家汇总清单帖（本作的生成式 AI 游戏清单第 21 页），属玩家整理而非本作的报道，未逐页读取，不作为证据。"
+      },
+      {
+        "url": "https://www.instagram.com/p/DXy901sDaC6/",
+        "relevant": false,
+        "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+      }
+    ],
+    "readUrls": [
+      "https://gameaicheck.com/lists/new-releases-with-ai"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+      "第三方 AI 披露聚合站（AI Transparency Index / Steam AI Filter / GameAICheck / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+      "Reddit、Facebook、Instagram、YouTube 与部分转载页经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。",
+      "本批十款均未检索到独立于商店披露的核实性报道（如审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\3636930\\press-search.json",
+    "contentHash": "9552b8568eca50695b59ddac4c0aa5caf10ecd040a575827b5783632c8e9d5dd"
   }
 }

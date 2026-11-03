@@ -47,6 +47,21 @@
       "quote": "i know others have been complaining about this since launch but if iracing isnt going to fix or atleast tweak the problems with the AI i cant play it anymore. Just cost me a win in the last race of the season by getting rammed by a AI car when slowing down to pit.\n",
       "id": "thread-0",
       "label": "AI doesnt avoid wrecks or slow down if something is in front of them"
+    },
+    {
+      "id": "press-0",
+      "appId": "4883590",
+      "sourceType": "press",
+      "url": "https://steamaifilter.xyz/game/4883590-iracing-studios-nascar-26",
+      "fetchedAt": "2026-11-03T08:01:43.851195+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "The developer of iRacing® Studios NASCAR 26 disclosed AI-generated content on its Steam store page: “NASCAR 26 used AI to generate certain VO lines and other presentation elements throughout the UI.”",
+      "locator": "full page text",
+      "label": "Steam AI Filter 本作页逐字复刻商店披露",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\4883590\\press-0.html",
+      "contentHash": "f0dc5a5d16fe2617a8ba99c935606045f9b0de85b6273398ebb3c7bb3b34e728"
     }
   ],
   "identity": {
@@ -157,5 +172,53 @@
     "coverageLimits": [
       "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
     ]
+  },
+  "press": {
+    "query": "iRacing Studios NASCAR 26 Steam AI voice disclosure",
+    "searchedAt": "2026-11-03T07:56:05Z",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://steamcommunity.com/app/4883590?l=english",
+        "relevant": false,
+        "reason": "Steam 社区中心页（本作），只有商店入口与讨论区导航，没有第三方 AI 使用内容。"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=hqRY45VmIio",
+        "relevant": false,
+        "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+      },
+      {
+        "url": "https://steamaifilter.xyz/game/4883590-iracing-studios-nascar-26",
+        "relevant": true,
+        "reason": "Steam AI Filter 本作页逐字复刻商店披露并给出结构化问答，已读取原始页面；属转录，不构成独立核实。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4883590/",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+      },
+      {
+        "url": "https://www.reddit.com/r/pcgaming/comments/1va014b/iracing_studios_nascar_26_is_coming_to_steam_on/",
+        "relevant": false,
+        "reason": "Reddit 对 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；只登记线索，不作为任何领域的证据。"
+      },
+      {
+        "url": "https://www.iracing.com/nascar-and-iracing-studios-debut-official-gameplay-trailer-open-pre-orders-for-nascar-26/",
+        "relevant": false,
+        "reason": "开发者官网新闻稿只公布预告片、预购时间与玩法特性，其中的“better driver AI”指游戏内对手 AI 而非生成式 AI，全文没有 AI 内容披露；已读取原文但不作为任何领域证据。"
+      }
+    ],
+    "readUrls": [
+      "https://steamaifilter.xyz/game/4883590-iracing-studios-nascar-26"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+      "第三方 AI 披露聚合站（AI Transparency Index / Steam AI Filter / GameAICheck / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+      "Reddit、Facebook、Instagram、YouTube 与部分转载页经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。",
+      "本批十款均未检索到独立于商店披露的核实性报道（如审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\4883590\\press-search.json",
+    "contentHash": "2f6e64eee509b46175722e5c7ee5274b2f5099c3e5d4f763fe5cd9d23202f5e6"
   }
 }

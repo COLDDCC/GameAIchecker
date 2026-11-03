@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/3059520/F1_25/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/game/3059520-f1-25",
+   "relevant": true,
+   "reason": "Steam AI Filter 本作页逐字复刻商店披露（含 EA 使用的通用披露句式），已读取原始页面；属转录，不构成独立核实。"
+  },
+  {
+   "url": "https://www.gamegrin.com/news/steam-top-releases-june-2026-gold-silver-and-bronze-bestsellers/",
+   "relevant": false,
+   "reason": "第三方数据库的分类汇总列表页，不是本作的独立报道，未读取正文。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3059520/F1_25/?l=dutch&curator_clanid=45873208",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3059520/F1_25/?l=schinese&snr=1_1056_4_1056_curator-tabs&curator_clanid=45873208",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3059520/F1_25/?l=romanian&snr=1_1056_4_1056_curator-tabs&curator_clanid=45873208",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3059520",
+   "sourceType": "press",
+   "url": "https://steamaifilter.xyz/game/3059520-f1-25",
+   "fetchedAt": "2026-11-03T08:01:49.631439+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "The developer of F1® 25 disclosed AI-generated content on its Steam store page: “Generative AI may have been used in creating pre-rendered or live-generated content for this game. All such content is the result of a human-led artistic and creative process.”",
+   "locator": "full page text",
+   "label": "Steam AI Filter 本作页逐字复刻商店披露",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\3059520\\press-0.html",
+   "contentHash": "552dbcab92cdb06ac622e524994b83dc8a2e3cea68bf653c380d7757bba37083"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / Steam AI Filter / GameAICheck / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit、Facebook、Instagram、YouTube 与部分转载页经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。",
+  "本批十款均未检索到独立于商店披露的核实性报道（如审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4094350/Online_404/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4094350/Online_404/?snr=1_300_morelikev2__105_3",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言版本），不是第三方报道；本作披露已按商店页原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4094350",
+   "relevant": true,
+   "reason": "AI Transparency Index 复刻本作商店披露的分析页，已读取原始页面；其内容是对披露的转录与模型再分类，不构成独立核实。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=M77214xafhw",
+   "relevant": false,
+   "reason": "视频或社媒页面（YouTube/Instagram/TikTok/Facebook），中转抓取只拿到壳页，读不到正文，只能作为线索登记。"
+  },
+  {
+   "url": "https://www.resetera.com/threads/list-of-games-that-use-generative-ai.1367848/page-21",
+   "relevant": false,
+   "reason": "论坛的玩家汇总清单帖（本作的生成式 AI 游戏清单第 21 页），属玩家整理而非本作的报道，未逐页读取，不作为证据。"
+  },
+  {
+   "url": "https://store.steampowered.com/curators/curatorsreviewing/?l=tchinese&appid=3393280&snr=1_5_9__top-curators",
+   "relevant": false,
+   "reason": "Steam 鉴赏家聚合页，指向另一个 App ID，不是本作页面，与本作披露无关。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4094350",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4094350",
+   "fetchedAt": "2026-11-03T08:01:41.502889+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI was used to voice game characters. Process AI-generated Live AI during play No Evidence & analysis details Evidence used “We use AI to voice game characters” Model-reported confidence 95%",
+   "locator": "full page text",
+   "label": "AI Transparency Index 复刻本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T165440-1e5227\\4094350\\press-0.html",
+   "contentHash": "351c3c02526e7e017c8d6b8865916187c0248809ce13be741f8114171d50428f"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每次返回 4-6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / Steam AI Filter / GameAICheck / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit、Facebook、Instagram、YouTube 与部分转载页经 GitHub Actions 中转抓取返回 HTTP 403 或只返回壳页，正文不可读，只能作为线索登记。",
+  "本批十款均未检索到独立于商店披露的核实性报道（如审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+ ]
+}
