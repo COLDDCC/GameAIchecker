@@ -1,0 +1,86 @@
+{
+  "appId": "4030150",
+  "name": "The Legend of Fancy Realm Remake",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "1998 年战棋经典的重制版，2026 年 9 月 9 日由 USERJOY 自行发行。开发者披露开发期用生成式 AI 辅助制作背景、角色与 UI 概念的前期素材，以及音乐与影像元素的初稿，并称这些素材后续都由专业美术、声音与影像团队细化、手工调整。",
+  "aiUsageCategories": [
+    "art",
+    "music"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称开发期用生成式 AI 辅助制作背景、角色与 UI 概念的“前期素材”，并说明相关素材随后由专业美术团队细化与手工调整；登记的“已使用”覆盖前期概念与草稿阶段。",
+    "music": "同一句把“音乐的初稿”也列为生成式 AI 辅助制作的前期素材，并称由专业声音团队后续细化；未说明成品原声里保留多少。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4030150/",
+  "developer": "USERJOY Technology Co., Ltd.",
+  "publisher": "USERJOY Technology Co., Ltd.",
+  "steamReleaseDate": "Sep 9, 2026",
+  "genres": [
+    "Adventure",
+    "RPG",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4030150/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "During the development process, we utilized generative AI to assist in creating preliminary assets for backgrounds, characters, UI concepts, as well as initial drafts for music and video elements. All related assets were subsequently refined and manually adjusted by our professional art, sound, and video teams to ensure they align perfectly with the game’s unique artistic style and meet our high-quality standards."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4030150/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 285）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.gamemeca.com/en/view.php?gid=1779139",
+      "label": "Gamemeca 本作 9 月 10 日上线新闻（全文未提本作生成式 AI 使用）",
+      "date": "2026-11-03",
+      "excerpt": "UserJoy is bringing their fantasy strategy RPG, The Legend of Fancy Realm Remake, to PC via Steam on September 10."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 USERJOY Technology Co.,Ltd.；商店原始字段的名字首带一个空格，判定文件按采集到的开发者字段原样登记）与英文讨论区首页（可见 15 个主题，总数 285），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源：Gamemeca 英文站的本作上线新闻，已读取全文，报道 9 月 10 日上线、五种语言支持与重制内容，通篇没有提及本作的生成式 AI 使用，页面另带该站自有的“AI Summary”与“此新闻由 AI 翻译”标注，属媒体自身的 AI 用法，不构成本作任何领域的证据。其余结果为本作商店页、SteamDB 补丁页、一段评测视频、第三方条目页 WAME 与 Facebook 上的上线转发帖（读不到正文）。披露把“影像元素（video elements）的初稿”也列为 AI 辅助产出，但本站的八个领域没有对应的类目，影像素材按其呈现形态分别可能属于美术或营销，商店原文没有说明，因此不擅自归入任何领域，只在评论里登记这一无法对应的表述。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "During the development process, we utilized generative AI to assist in creating preliminary assets for backgrounds, characters, UI concepts, as well as initial drafts for music and video elements. All related assets were subsequently refined and manually adjusted by our professional art, sound, and video teams to ensure they align perfectly with the game’s unique artistic style and meet our high-quality standards.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "The remake of a 1998 tactical RPG, self-published by USERJOY on Sep 9, 2026. The developer states that generative AI was used during development to help create preliminary assets for backgrounds, characters and UI concepts, plus initial drafts for music and video elements, and that all of it was afterwards refined and manually adjusted by professional art, sound and video teams.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher USERJOY Technology Co.,Ltd., whose store credit is recorded here exactly as collected, including its leading space) and the English discussion homepage (15 visible topics of 285); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source was read: the Gamemeca English article announcing this remake, read in full, which covers the September 10 release date, five supported languages and the remake's changes and never mentions generative AI use in the game; the page carries the outlet's own AI Summary and a note that the news was translated by AI, which is the publisher's own AI use and not evidence about any area of the game. The remaining results were the store page, a SteamDB patch notes page, a YouTube review video, a WAME database entry and a Facebook share of the release news whose body could not be read. The disclosure also lists initial drafts for video elements among the AI-assisted output, but this site's eight areas have no matching category and the store text does not say whether those assets appear in-game or in promotion, so the wording is logged in this review note rather than assigned to an area. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure states that generative AI was used during development to help create preliminary assets for backgrounds, characters and UI concepts, which the developer says were later refined and manually adjusted by their professional art team; the finding covers the preliminary stage described.",
+      "music": "The same sentence names initial drafts for music among the preliminary assets assisted by generative AI, said to be refined afterwards by the sound team, without saying how much of the final score retains them.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "d989102821ffadab6c9af3e4a553609d823f0dfb77808963f9d13b2264645693"
+  }
+}

@@ -1,0 +1,59 @@
+{
+ "identityName": "One Way Tickets",
+ "identityDeveloper": "Future Tech.",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露称只有 AI 工具被用来完成繁体中文与英文本地化的一部分，且全部文本经过人工复核与校对。开发者用“Only”把 AI 用途限定在本地化环节，但这句话没有逐项说明其它学科是否用到 AI，因此本站把翻译登记为已使用，其余领域一律按“披露未说明”登记，不把它们改判为未使用。",
+   "evidenceId": "store",
+   "quote": "Only AI tools were used to complete part of the Traditional Chinese and English localization. All text was manually reviewed and proofread."
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "Only AI tools were used to complete part of the Traditional Chinese and English localization. All text was manually reviewed and proofread.",
+ "summary": "Roguelite 增量冒险游戏，2026 年 10 月 22 日由 Future Tech. 发行并进入抢先体验。商店披露只涉及本地化：只有 AI 工具被用来完成繁体中文与英文本地化的一部分，全部文本经人工复核与校对；其余七个领域都是披露未说明。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 Future Tech.）与英文讨论区首页（可见 15 个主题，总数 110），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 0 篇原始来源：六条结果都是本作商店页与折扣页、两个销量与收入估算页（Gamalytic、Steam 收入计算器）与两个第三方key 卡销售或导购页，没有任何第三方对 AI 披露的核实内容；检索范围仅限工具实际返回的内容，不能据此认定没有其他公开报道。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计；披露以“Only”自限范围，但本站不把未被点名的领域判为未使用。本作处于抢先体验阶段。",
+ "description": "开着小车穿越奇幻世界的增量冒险：用下方控制台操作车上装置，边看风景边击退沿途敌人、攒资源，撑不住就叫路上遇到的同伴帮忙。",
+ "english": {
+  "summary": "A roguelite incremental adventure published by Future Tech. and in Early Access since Oct 22, 2026. The disclosure concerns localisation only: AI tools alone were used to complete part of the Traditional Chinese and English localisation and all text was manually reviewed and proofread; the other seven areas are recorded as not addressed.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher Future Tech.) and the English discussion homepage (15 visible topics of 110); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 0 raw sources were read because every result was a store or discount page for this game, a Gamalytic or revenue-calculator estimate page or a third-party key reseller listing, none of which verifies the disclosure; that describes the search range and is not proof that no other coverage exists. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit, and the developer's use of only to bound AI to localisation is not extended into a finding of non-use for the areas the text never names. The title is in Early Access.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "The disclosure states that only AI tools were used to complete part of the Traditional Chinese and English localisation and that all text was manually reviewed and proofread. The word only limits AI to the localisation step in the developer's own phrasing, but the sentence does not itemise other disciplines, so this area is recorded as used and the remaining areas as not addressed rather than as non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

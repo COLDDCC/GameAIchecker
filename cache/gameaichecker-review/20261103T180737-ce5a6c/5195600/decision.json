@@ -1,0 +1,67 @@
+{
+ "identityName": "QuestAway",
+ "identityDeveloper": "ART X GAMES",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "none",
+   "note": "开发者明确写道所有 AI 辅助内容都是预渲染、游戏运行时没有任何东西是生成的；这是对运行时生成的“未使用”自述，未经独立核实。",
+   "evidenceId": "store",
+   "quote": "All AI-assisted content is pre-rendered: nothing is generated while the game is running."
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称部分游戏美术素材（角色与敌人模型、头像、图标）在开发期由生成式 AI 辅助制作，随后由团队审阅、筛选与编辑；没有说明这些素材的占比。",
+   "evidenceId": "store",
+   "quote": "Some of the game's art assets, such as character and enemy models, portraits and icons, were created during development with the assistance of generative AI tools, and were then reviewed, curated and edited by the team."
+  },
+  "music": {
+   "state": "used",
+   "note": "披露称预告片的音乐与游戏内部分音效由 AI 工具生成，再由团队编辑与混音；范围包括预告片音频与“部分”音效，未说明原声背景乐是否在列。",
+   "evidenceId": "store",
+   "quote": "The music in our trailer and some of the game's sound effects"
+  },
+  "voice": {
+   "state": "used",
+   "note": "同一句称游戏内“部分配音（voices）”由 AI 工具生成后由团队编辑混音；未说明是哪些角色或台词，也未说明是否预先烘好（下一句自述全部为预渲染）。",
+   "evidenceId": "store",
+   "quote": "The music in our trailer and some of the game's sound effects and voices were also generated with AI tools"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "used",
+   "note": "披露点名的对象是“我们预告片里的音乐”，预告片属宣传素材，因此本条按营销领域登记，并同时说明这句只覆盖预告片音频，不代表商店图或其它宣传素材。",
+   "evidenceId": "store",
+   "quote": "The music in our trailer"
+  }
+ },
+ "disclosureQuote": "Some of the game's art assets, such as character and enemy models, portraits and icons, were created during development with the assistance of generative AI tools, and were then reviewed, curated and edited by the team. The music in our trailer and some of the game's sound effects and voices were also generated with AI tools, then edited and mixed by the team. All AI-assisted content is pre-rendered: nothing is generated while the game is running.",
+ "summary": "贴在任务栏旁的小型放置 RPG，2026 年 10 月 23 日由 ART X GAMES 发行、免费游玩。开发者披露四类素材用了生成式 AI：部分美术素材（角色与敌人模型、头像、图标）、预告片音乐与部分音效、部分配音，并声明全部 AI 辅助内容都是预渲染、游戏运行时不生成任何内容。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 ART X GAMES）与英文讨论区首页（可见 15 个主题，总数 214），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源：GenPlay 的本作 AI 问答页按商店披露列出美术、音效、音乐与配音并引用披露原句；HowMuchAI 的按部件拆解页把本作标为 9 个部件中的 5 个提到 AI，其中包含“Store page”“Sound effects”这类与本站八领域不同的分类，其依据仍是商店披露文本本身，且自述部件拆解是他们自己的归类。两者都是转录或模型再分类，不构成独立核实，本站的领域划分以商店披露原文为准。其余结果包括 GameDB.ai 的本作页（与已读两页同类，本轮未重复读取）、一个带 AI 披露游戏的榜单汇总页、越南语商店页与第三方导购页。披露中“预告片的音乐”既属音频也属宣传素材，本站分别登记在音乐与营销两个领域并注明各自覆盖范围。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。本作为免费游玩。",
+ "description": "贴在任务栏旁边的小窗口放置 RPG：组好队伍让他们自己打，你回去干活，回来时有掉落可捡，一天十二次全员共斗巨型 Boss。",
+ "english": {
+  "summary": "A tiny taskbar idle RPG released free to play by ART X GAMES on Oct 23, 2026. The developer names four uses of generative AI: some art assets such as character and enemy models, portraits and icons, the music in their trailer, some sound effects and some voices, all of it reviewed, edited and mixed by the team, and states that every AI-assisted asset is pre-rendered with nothing generated while the game runs.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher ART X GAMES) and the English discussion homepage (15 visible topics of 214); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 2 raw sources were read: a GenPlay page answering whether this game uses AI by listing art, sound effects, music and voices and quoting the disclosure, and a HowMuchAI page that breaks the disclosure down part by part, counting 5 of 9 parts as mentioning AI under its own taxonomy, which includes categories such as Store page and Sound effects that do not map one to one onto this site's eight areas and which the page itself describes as their own classification of the developer's words. Both are transcriptions or model reclassification rather than independent verification, so the area findings here follow the store text. The remaining results were a GameDB.ai page for this title of the same kind, which was not read again, an industry list page of Steam games with AI disclosure, the Vietnamese store page and a third-party storefront page. The trailer music named in the disclosure is audio and promotional material at once, so it is recorded under both music and marketing with the scope of each clause noted. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The title is free to play.",
+  "aiAreaNotes": {
+   "ingame": "The developer states that all AI-assisted content is pre-rendered and that nothing is generated while the game is running; this is a self-report of non-use at run time and was not independently verified.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "Some art assets, namely character and enemy models, portraits and icons, were created during development with the assistance of generative AI tools and then reviewed, curated and edited by the team, with no share given.",
+   "music": "The music in the trailer and some of the in-game sound effects were generated with AI tools and then edited and mixed by the team; the disclosure does not say whether the background score is covered.",
+   "voice": "Some of the game's voices were also generated with AI tools and then edited and mixed by the team, without saying which characters or lines; the next sentence states that all AI-assisted content is pre-rendered.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "The itemised asset is the music in the developers' own trailer, which is promotional material, so the finding is filed under marketing, with the caveat that this clause covers trailer audio only and not store artwork or other promotion."
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "identityName": "Creator Chronicles",
+ "identityDeveloper": "Origin Studio",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露只有这一句：为游戏内“部分美术资源”的开发使用了生成式 AI 工具。没有说明是角色、场景、UI 还是宣传图中的哪一类，也没有说明数量、是否经人工重制，或“部分”对应的比例。",
+   "evidenceId": "store",
+   "quote": "We used generative AI tools for the development of some in-game art resources."
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "We used generative AI tools for the development of some in-game art resources.",
+ "summary": "公会长经营模拟 RPG，2026 年 9 月 14 日上市，Origin Studio 开发并由 Origin Studio 与 Gamersky Games 发行。商店披露只有一句：为游戏内部分美术资源的开发使用了生成式 AI 工具，未点名素材类别与数量；其余七个领域都是披露未说明。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Origin Studio，发行商 Origin Studio 与 Gamersky Games）与英文讨论区首页（可见 15 个主题，总数 275），首页有 1 个被自动匹配为相关的主题（“Feedback: House building costs are way too high compared to income generation”），已逐帖读取原文：内容是玩家抱怨建房成本相对收益过高、请求重新平衡经济数值，与生成式 AI 无关，按无关主题登记，不改变任何领域结论。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 本作页复刻商店披露并按领域给出结构化结论，同时标注其“模型自评置信度 95%”是模型估计而非人工审核分数，属转录而非独立核实）。其余结果为一个标题为玩家美术讨论的讨论区主题帖（本轮未读取正文，帖内亦无开发方对生成式 AI 的说明）、SteamDB 图表页、本作商店页、一段 YouTube 玩法视频与 GamingBible 的免费试玩推荐文章（只谈玩法与观感，未涉及本作披露）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+ "description": "被拉进自己游戏里的公会长：重建被烧毁的村庄、招人、下副本、跑生产与装饰，你做的每个选择都会写成这个世界的历史。",
+ "english": {
+  "summary": "A guild-master simulation RPG released on Sep 14, 2026, developed by Origin Studio and published by Origin Studio and Gamersky Games. The disclosure is one sentence stating that generative AI tools were used to develop some in-game art resources, with no asset category or quantity named; the other seven areas are recorded as not addressed.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Origin Studio, publishers Origin Studio and Gamersky Games) and the English discussion homepage (15 visible topics of 275), where one topic matched the AI keyword screen; it was opened and read in full and turns out to be a player asking for the economy to be rebalanced because house building costs are high relative to income, which has nothing to do with generative AI, so it is logged as unrelated and changes no area finding. This title was searched 1 time with 6 results and 1 raw source was read: an AI Transparency Index page reproducing the store disclosure and giving a structured area breakdown, which labels its own 95 percent figure as a model estimate rather than a human review score, so it is a transcription and not independent verification. The remaining results were a discussion thread about character artwork that was not read and contains no developer statement on generative AI, a SteamDB charts page, the store page, a YouTube gameplay video and a GamingBible free trial recommendation that discusses the game rather than its disclosure. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure is a single sentence stating that generative AI tools were used to develop some in-game art resources; it does not say which kind of art, how much of it, whether it was reworked by hand, or what share some represents.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

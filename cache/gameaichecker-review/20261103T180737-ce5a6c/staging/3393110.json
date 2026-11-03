@@ -1,0 +1,86 @@
+{
+  "appId": "3393110",
+  "name": "AION 2",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "NC 用虚幻 5 做的空战 MMORPG，2026 年 10 月 5 日上线、免费游玩。商店披露称部分游戏内素材在 AI 工具辅助下制作，并点名 Arcana 卡面设计与若干图标使用了 AI 生成素材；其余七个领域都是披露未说明。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露第一句把范围写成“部分游戏内素材在 AI 工具辅助下制作”，但没有逐项列举；真正点名的是第二句的 Arcana 卡面设计与若干图标使用 AI 生成素材。本站只按被点名的卡面与图标登记“已使用”，第一句的宽范围不据此外推到其它领域。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3393110/",
+  "developer": "NC",
+  "publisher": "NC",
+  "steamReleaseDate": "Oct 5, 2026",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Massively Multiplayer",
+    "RPG",
+    "Free To Play"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3393110/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "Some in-game assets were created with the assistance of AI tools. Arcana card designs and some icons use AI-generated assets."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3393110/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 1881）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/3393110/discussions/1/583935635494110426/?l=spanish",
+      "label": "Steam 讨论区主题帖，含 NC 官方社区经理 [NC] CM Sakaar 的美术声明（开发者自述）",
+      "date": "2026-11-03",
+      "excerpt": "Our disclaimer on our store page was made out of an abundance of caution. 99.9% of the art in the game is made by humans and any use of AI is replaced by our handcrafted finished graphics."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 NC）与英文讨论区首页（可见 15 个主题，总数 1881），首页可见主题里没有直接讨论生成式 AI 使用范围的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源：Steam 讨论区主题帖「To what extent does Aion 2 utilize AI?」，已读取全文，帖内 NC 官方社区经理 [NC] CM Sakaar 转发了另一主题的声明，称商店页的免责声明是出于谨慎而做出、游戏里 99.9% 的美术由人类制作、任何用到 AI 的部分都会被手工成品替换。这是开发者自述而不是审计，因此本站不因它把商店披露已点名使用的卡面与图标改判为未使用，也不据此把音乐、配音、文案、翻译、营销、代码与游戏内实时生成等其余领域改为未使用。其余结果包括 Valve 的 Steamworks「AI Content on Steam」平台政策公告页（中转取回的 HTML 只有站点外壳、公告正文异步加载，本轮未读到原文，且平台通用政策不针对本作）、一段标题为 AI Use Explained 的 YouTube 视频页（读不到正文）、一个 Reddit 帖（中转返回 HTTP 403）、本作商店页与 SteamDB 的带披露游戏标签页。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。本作为免费游玩。",
+  "disclosureQuote": "Some in-game assets were created with the assistance of AI tools. Arcana card designs and some icons use AI-generated assets.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "NC's aerial-combat MMORPG, released free to play on Oct 5, 2026. The store disclosure states that some in-game assets were created with the assistance of AI tools and names Arcana card designs and some icons as using AI-generated assets; the other seven areas are recorded as not addressed.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher NC) and the English discussion homepage (15 visible topics of 1881); no visible homepage topic discusses the scope of generative AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source was read: the Steam thread To what extent does Aion 2 utilize AI?, read in full, in which the official community manager [NC] CM Sakaar reposts a statement from another thread saying the store-page disclaimer was made out of an abundance of caution, that 99.9 percent of the art in the game is made by humans and that any use of AI is replaced by handcrafted finished graphics. That is a developer statement rather than an audit, so it is not used to reverse the disclosed use in Arcana cards and icons, nor to record the remaining areas as non-use. The other results were Valve's Steamworks AI Content on Steam policy announcement, whose fetched HTML contains only the store shell because the announcement body loads asynchronously and which was therefore not read and does not describe this game, a YouTube video titled AI Use Explained with no readable body, a Reddit thread that returned HTTP 403 through the relay, the store page and a SteamDB tag page listing games with AI disclosure. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The title is free to play.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The first sentence covers some in-game assets made with the assistance of AI tools without itemising them, while the second names Arcana card designs and some icons as using AI-generated assets; the finding is recorded for what is actually named and the general first clause is not extended to other areas.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "a37a16cca61c310d558d9fa7f5a45db978fdf38c26f924583f628732fbbd65f9"
+  }
+}

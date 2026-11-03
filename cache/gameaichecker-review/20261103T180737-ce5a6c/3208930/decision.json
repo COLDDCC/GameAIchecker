@@ -1,0 +1,63 @@
+{
+ "identityName": "Galvatein : Adventurers' Guild",
+ "identityDeveloper": "BLANBEE",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "none",
+   "note": "开发者明确写道所有 AI 辅助内容都是在开发期预先做好、游玩过程中不使用生成式 AI；这是对运行时生成的“未使用”自述，未经独立核实。",
+   "evidenceId": "store",
+   "quote": "All AI-assisted content was created in advance during development, and no generative AI is used during gameplay."
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称生成式 AI 用在角色与背景美术的前期阶段，用来探索初始概念、表情、姿势与构图，并说明 AI 产出只作为早期草稿与参考素材，最终的角色与背景美术由美术师直接重绘（姿势、构图、表情、人体结构、服装与道具、配色与细化设计）。本站登记的“已使用”覆盖的是这段前期与草稿环节；正式版是否还留有 AI 像素，商店页没有逐项说明。",
+   "evidenceId": "store",
+   "quote": "Generative AI was used during the early stages of character and background artwork production to explore initial concepts, expressions, poses, and compositions."
+  },
+  "music": {
+   "state": "used",
+   "note": "披露另有一句把生成式 AI 用在部分背景音乐的制作上；没有说明是哪几首、占原声多少比例，也没有说明这些曲子最终是否被重做。",
+   "evidenceId": "store",
+   "quote": "Generative AI was also used in the production of some background music."
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "Generative AI was used during the early stages of character and background artwork production to explore initial concepts, expressions, poses, and compositions. AI-generated content was used only for early drafts and reference materials. The final character and background artwork was completed through direct redrawing by artists, including poses, compositions, expressions, anatomy, clothing and props, colors, and detailed designs. Generative AI was also used in the production of some background music. All AI-assisted content was created in advance during development, and no generative AI is used during gameplay.",
+ "summary": "奇幻公会前台模拟，2026 年 9 月 22 日由 GRAVITY 发行并进入抢先体验。开发者把生成式 AI 用在两处：角色与背景美术的前期概念探索（并自述最终美术由美术师直接重绘）与部分背景音乐的制作，同时声明所有 AI 辅助内容都是开发期预做、游玩过程中不使用生成式 AI。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 BLANBEE，发行商 GRAVITY）与英文讨论区首页（可见 15 个主题，总数 128），首页有 2 个与 AI 直接相关的主题（“AI in this is such a disappointment”与韩语主题“AI 이미지 사용할거면 니지저니나 노벨AI라도 사용해주세요”），已逐帖读取原文：前者是玩家对游戏内 AI 的失望与争论，后者抱怨 AI 图像质量并要求改用别的绘图工具，两帖都是玩家立场表达，按规则只登记不判定，不改变任何领域结论。本款单独检索公开报道 1 次、登记 6 条结果，读取 3 篇原始来源。其一是讨论区「About AI usage」主题帖：发帖人在帖中摘录的是一段与本作当前英文商店披露措辞不同的通用句式（称 AI 主要用于处理重复性任务或作为提质工具、核心内容与最终产出由专业人员完成），并要求开发者给出具体例子，回帖玩家据此指控背景图、剧本与翻译都用了 AI，全帖没有带开发方身份的作者回应——摘录的段落不是本站核查的那份披露，玩家指控亦无官方证实，因此只登记线索，翻译领域仍按当前披露记为未提及。其二是 GameDB.ai 本作页，逐字复刻商店披露并按领域拆解，该站自述其 AI 标签读自各游戏的 Steam 披露，属转录。其三是 ZeroToBeast 的东京电玩展 2026 独立游戏评论，把本作列为首位并在购买提示里转述商店披露，仍是对披露的转述而非独立核实。其余结果为本作商店页与折扣页、一个俄语第三方条目页。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。本作处于抢先体验阶段。",
+ "description": "奇幻公会的前台工作：冒险者回来说自己干完了活，你查战利品、翻魔物图鉴、对地图与执照，决定公会正式受理哪一份报告。",
+ "english": {
+  "summary": "A fantasy guild reception simulation published by GRAVITY and in Early Access since Sep 22, 2026. The developer names two uses of generative AI, early-stage concept exploration for character and background artwork, which they say was then redrawn by artists, and the production of some background music, and states that all AI-assisted content was pre-made during development with no generative AI used during gameplay.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer BLANBEE, publisher GRAVITY) and the English discussion homepage (15 visible topics of 128), where two topics directly concern AI use; both were opened and read in full. They are players expressing disappointment about AI in the game and complaining about the quality of AI imagery while asking the studio to use a different image tool, so they are logged as opinions and change no area finding. This title was searched 1 time with 6 results and 3 raw sources were read. The first is the About AI usage thread: the opening post quotes a piece of generic wording that differs from the disclosure text reviewed on this game's English store page, saying AI handles repetitive tasks or improves quality while core content and final outputs come from professionals, and asks the developer for a concrete example, while replies allege AI in backgrounds, script and translation. Nobody writing with a developer identity replies in that thread, the quoted wording is not the disclosure this review checked, and the allegations are unverified, so they are logged as leads only and the translation area stays recorded as not addressed. The second source is a GameDB.ai page reproducing the store disclosure and splitting it by area, which that site states is read from each game's Steam disclosure, i.e. a transcription. The third is a ZeroToBeast Tokyo Game Show 2026 indie feature that ranks this title first and restates the store disclosure as a buying caveat, again a retelling rather than independent verification. The remaining results were store and discount pages for this game and a Russian third-party entry. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The title is in Early Access.",
+  "aiAreaNotes": {
+   "ingame": "The developer states that all AI-assisted content was created in advance during development and that no generative AI is used during gameplay; this is a self-report of non-use at run time and was not independently verified.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure states that generative AI was used during the early stages of character and background artwork production to explore initial concepts, expressions, poses and compositions, that the AI output served only as early drafts and reference material, and that the final character and background artwork was completed through direct redrawing by artists; it does not itemise whether any AI-generated pixel remains in the shipped build.",
+   "music": "A separate sentence states that generative AI was also used in the production of some background music, without saying which tracks, what share of the score, or whether any of it was later replaced.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}
