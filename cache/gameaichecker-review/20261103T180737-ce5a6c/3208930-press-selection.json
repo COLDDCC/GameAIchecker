@@ -1,0 +1,88 @@
+{
+ "results": [
+  {
+   "url": "https://steamcommunity.com/app/3208930/discussions/0/591773674360588503/",
+   "relevant": true,
+   "reason": "Steam 讨论区「About AI usage」主题帖，已通过中转读取原文：发帖人摘录商店披露并要求开发者给出具体例子，回帖玩家指控背景图、剧本与翻译使用 AI，全帖没有开发方身份的作者回应。玩家指控只登记不判定，翻译领域仍按商店披露记为未提及。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3208930/Galvatein_Adventurers_Guild/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://gamedb.ai/games/3208930-galvatein-adventurers-guild",
+   "relevant": true,
+   "reason": "GameDB.ai 本作页逐字复刻 Steam 商店披露并按领域拆解，已读取原始页面；该站自述其 AI 标签读自各游戏的 Steam 披露，属转录而非独立核实。"
+  },
+  {
+   "url": "https://www.siftergames.com/ru/game/steam/3208930",
+   "relevant": false,
+   "reason": "第三方 Steam Deck/Linux 兼容性数据库的俄语条目页，只有商店元数据复刻，没有独立的 AI 使用信息，未读取正文。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3208930/_/?snr=1_4_seasonalsale__137",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://zerotobeast.com/5-tokyo-game-show-2026-indies-wed-stop-walking-for-ranked-by-booth-magnet-potential/",
+   "relevant": true,
+   "reason": "ZeroToBeast 的东京电玩展 2026 独立游戏评论文章，把本作列为首位并在购买提示中转述商店披露（早期概念与背景音乐使用生成式 AI、视觉素材经人工细化、游玩时不生成 AI 内容）；已读取原文，仍属对商店披露的转述，不构成独立核实。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3208930",
+   "sourceType": "community",
+   "url": "https://steamcommunity.com/app/3208930/discussions/0/591773674360588503/",
+   "fetchedAt": "2026-11-03T09:16:36.431646+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "The store page AI disclosure says the following - \"We leverage AI technology in certain tasks to achieve higher-quality results. AI is used primarily for handling repetitive tasks or as a tool for quality enhancement, while the core content and final outputs are crafted by skilled professionals",
+   "locator": "full page text",
+   "label": "Steam 讨论区「About AI usage」主题帖：摘录商店披露并要求开发者给出具体例子",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\3208930\\press-0.html",
+   "contentHash": "9f68c123c7e366cbabd69775ed1da674ae7e5beab806c8d967129ff375587939"
+  },
+  {
+   "id": "press-1",
+   "appId": "3208930",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/3208930-galvatein-adventurers-guild",
+   "fetchedAt": "2026-11-03T09:16:37.631511+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Quoted from the Steam store page Generative AI was used during the early stages of character and background artwork production to explore initial concepts, expressions, poses, and compositions.",
+   "locator": "full page text",
+   "label": "GameDB.ai 本作页逐字复刻商店披露",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\3208930\\press-1.html",
+   "contentHash": "5170c0cccc696ab0d9659ae233b3d3e6d1a66d096ba246755e25c9f414e02875"
+  },
+  {
+   "id": "press-2",
+   "appId": "3208930",
+   "sourceType": "press",
+   "url": "https://zerotobeast.com/5-tokyo-game-show-2026-indies-wed-stop-walking-for-ranked-by-booth-magnet-potential/",
+   "fetchedAt": "2026-11-03T09:16:39.300943+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "The material caveat: the Steam page discloses generative AI use during early character/background concept exploration and for background music, with the developer saying visual material was manually refined and finalized and that no generative AI content is created during gameplay.",
+   "locator": "full page text",
+   "label": "ZeroToBeast 东京电玩展 2026 独立游戏评论（本作列首位，转述商店披露作为购买提示）",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\3208930\\press-2.html",
+   "contentHash": "2c51543988958dceda1082ee5ffcba39fa566ca55a65e81061a6232902ed88d3"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每个关键词返回 6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / GameDB.ai / GenPlay / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与 GlobeNewswire 经 GitHub Actions 中转抓取返回 HTTP 403；YouTube、Instagram、Facebook 只返回壳页；Valve 的 Steam 公告页正文异步加载，取回的 HTML 无正文，均按未读取登记。",
+  "4533490、4753760、4817620、4870960、4954910 五款本轮没有可读的第三方报道，判定完全以商店披露原文为准；检索无结果不用于推定未使用 AI。",
+  "本批十款均未检索到独立于商店披露的核实性报道（审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+ ]
+}

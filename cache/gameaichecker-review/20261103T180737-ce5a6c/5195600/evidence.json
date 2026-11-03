@@ -1,0 +1,218 @@
+{
+  "sources": [
+    {
+      "appId": "5195600",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5195600/?l=english",
+      "fetchedAt": "2026-11-03T09:08:40.731841+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "adcf75c72c75d1cb220f84dac1ab50b719d070fd4e0b673b342e74f9dcf9c4f3",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\5195600\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Some of the game's art assets, such as character and enemy models, portraits and icons, were created during development with the assistance of generative AI tools, and were then reviewed, curated and edited by the team. The music in our trailer and some of the game's sound effects and voices were also generated with AI tools, then edited and mixed by the team. All AI-assisted content is pre-rendered: nothing is generated while the game is running.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Some of the game's art assets, such as character and enemy models, portraits and icons, were created during development with the assistance of generative AI tools, and were then reviewed, curated and edited by the team. The music in our trailer and some of the game's sound effects and voices were also generated with AI tools, then edited and mixed by the team. All AI-assisted content is pre-rendered: nothing is generated while the game is running."
+    },
+    {
+      "appId": "5195600",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5195600/discussions/?l=english",
+      "fetchedAt": "2026-11-03T09:08:42.165550+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "c6008af4628fb1ebcae57cca22a7be157a10193a516569e5e649f376b525ef2a",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\5195600\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: 中国人遇到验证码问题\nPINNED: QuestAway Discord\n版本更新内容为什么打不开啊！？\n反傷聖騎不是被削最多的 腐朽女巫才是\n更新後的經驗值\n傻眼\n削弱没问题但是这样的大幅度改动直接让骑士废了\n第一次steam負評就給你了\n你们是不是存心恶心我，我刚搞完装备你就改了？能给我回档吗，我的宝石和附魔全部废了\n本來是各好遊戲 一更新.....\n怎么更新后，仓库东西少了！\n在DC問是我角色被削弱還是怪物變強 就把我從DC踢出???\n这游戏到底怎么练级才快啊？\n工程师需要加强\n充值错误了 申请退款两天了还不退为什么呢",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 214）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5195600",
+      "sourceType": "press",
+      "url": "https://genplay.gg/games/questaway/",
+      "fetchedAt": "2026-11-03T09:17:37.812983+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "According to the developer's AI disclosure on Steam, AI was used for the art, sound effects, music and voices in QuestAway.",
+      "locator": "full page text",
+      "label": "GenPlay 本作 AI 披露问答页（转录商店披露）",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\5195600\\press-0.html",
+      "contentHash": "98754a5ef9c3ba33567ecfc50da25855efdfd4b223967f6c307e0cde0dbf2bff"
+    },
+    {
+      "id": "press-1",
+      "appId": "5195600",
+      "sourceType": "press",
+      "url": "https://howmuchai.games/game/questaway",
+      "fetchedAt": "2026-11-03T09:17:38.939518+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "Some art (character and enemy models, portraits, icons), trailer music, some sound effects and voices were AI-generated and team-edited; nothing is generated at runtime.",
+      "locator": "full page text",
+      "label": "HowMuchAI 按部件拆解本作披露的分析页（其分类与本站八领域不同）",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\5195600\\press-1.html",
+      "contentHash": "7515a73a5b2decfce42be7992bb92eda10575a818ff33c219e36eb7b83ac8be7"
+    }
+  ],
+  "identity": {
+    "appId": "5195600",
+    "name": "QuestAway",
+    "developer": "ART X GAMES",
+    "publisher": "ART X GAMES",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 23, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie",
+      "RPG",
+      "Free To Play"
+    ],
+    "description": "A tiny idle RPG that lives next to your taskbar. Build a party of heroes, send them off to fight and get back to work. There's loot waiting when you come back. Twelve times a day, everyone takes on a giant Colossus together.",
+    "identityEvidence": {
+      "appId": "5195600",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5195600&l=english",
+      "fetchedAt": "2026-11-03T09:08:41.514821+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "793626d1860cf162dd97376fdf662674dd49ed2f2633f06ea0c07e37cc686a46",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\5195600\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 214,
+    "topics": [
+      {
+        "title": "PINNED: 中国人遇到验证码问题",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/562545740485798546/"
+      },
+      {
+        "title": "PINNED: QuestAway Discord",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/570426104667490471/"
+      },
+      {
+        "title": "版本更新内容为什么打不开啊！？",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124399329/"
+      },
+      {
+        "title": "反傷聖騎不是被削最多的 腐朽女巫才是",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124395551/"
+      },
+      {
+        "title": "更新後的經驗值",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124387580/"
+      },
+      {
+        "title": "傻眼",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124383767/"
+      },
+      {
+        "title": "削弱没问题但是这样的大幅度改动直接让骑士废了",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124387171/"
+      },
+      {
+        "title": "第一次steam負評就給你了",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124390640/"
+      },
+      {
+        "title": "你们是不是存心恶心我，我刚搞完装备你就改了？能给我回档吗，我的宝石和附魔全部废了",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124384164/"
+      },
+      {
+        "title": "本來是各好遊戲 一更新.....",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124389040/"
+      },
+      {
+        "title": "怎么更新后，仓库东西少了！",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124384838/"
+      },
+      {
+        "title": "在DC問是我角色被削弱還是怪物變強 就把我從DC踢出???",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124384606/"
+      },
+      {
+        "title": "这游戏到底怎么练级才快啊？",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124239134/"
+      },
+      {
+        "title": "工程师需要加强",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124224251/"
+      },
+      {
+        "title": "充值错误了 申请退款两天了还不退为什么呢",
+        "url": "https://steamcommunity.com/app/5195600/discussions/0/572679490124215807/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"QuestAway\" ART X GAMES Steam AI generated",
+    "searchedAt": "2026-11-03T09:13:00Z",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://genplay.gg/games/questaway/",
+        "relevant": true,
+        "reason": "GenPlay 的本作 AI 披露问答页，已读取原文：按商店披露列出美术、音效、音乐与配音，并直接引用披露原句；属转录，不构成独立核实。"
+      },
+      {
+        "url": "https://howmuchai.games/game/questaway",
+        "relevant": true,
+        "reason": "HowMuchAI 按部件拆解本作披露的分析页，已读取原文；其部件分类（9 项，含“Store page”“Sound effects”）与本站的八个领域不一致，本文按商店披露原文归入本站领域，该页仅作转录登记。"
+      },
+      {
+        "url": "https://gamedb.ai/games/5195600-questaway",
+        "relevant": false,
+        "reason": "GameDB.ai 的本作页与已读的 GenPlay / HowMuchAI 同类（转录商店披露），本轮未重复读取，不作为额外来源。"
+      },
+      {
+        "url": "https://zing.co.uk/industry-resources/steam-charts/ai-disclosed/",
+        "relevant": false,
+        "reason": "第三方游戏的分类汇总或相似推荐列表页，不是本作的独立报道，未读取正文。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5195600/?l=vietnamese&curator_clanid=32686107&utm_source=Steam250",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+      },
+      {
+        "url": "https://www.pcgame.com/5195600/questaway",
+        "relevant": false,
+        "reason": "第三方导购页，只有配置要求、价格与相似推荐，没有独立的本作 AI 信息，未读取正文。"
+      }
+    ],
+    "readUrls": [
+      "https://genplay.gg/games/questaway/",
+      "https://howmuchai.games/game/questaway"
+    ],
+    "coverageLimits": [
+      "Qoder WebSearch 每个关键词返回 6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+      "第三方 AI 披露聚合站（AI Transparency Index / GameDB.ai / GenPlay / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+      "Reddit 与 GlobeNewswire 经 GitHub Actions 中转抓取返回 HTTP 403；YouTube、Instagram、Facebook 只返回壳页；Valve 的 Steam 公告页正文异步加载，取回的 HTML 无正文，均按未读取登记。",
+      "4533490、4753760、4817620、4870960、4954910 五款本轮没有可读的第三方报道，判定完全以商店披露原文为准；检索无结果不用于推定未使用 AI。",
+      "本批十款均未检索到独立于商店披露的核实性报道（审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\5195600\\press-search.json",
+    "contentHash": "e470744683515214e98643018f216781e71020b6215caa4924d57b0df397ee28"
+  }
+}

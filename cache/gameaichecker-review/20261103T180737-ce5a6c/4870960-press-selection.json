@@ -1,0 +1,42 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4870960/The_Fame_Game_II_LA_Heartbreaker/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4870960/%E5%90%8D%E5%88%A9%E5%9C%BA2%E5%86%92%E7%89%8C%E5%AF%8C%E5%B0%91/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4870960",
+   "relevant": false,
+   "reason": "本作 Steam 社区中心页，只有商店入口与讨论区导航（本作讨论区仅 4 个主题，已在讨论区核查环节全部读取），没有第三方 AI 使用内容。"
+  },
+  {
+   "url": "https://steamdb.info/app/4870960/charts/",
+   "relevant": false,
+   "reason": "SteamDB / Gamalytic / 收入估算类页面只记录价格、榜单与在线人数估算，没有本作的 AI 披露内容。"
+  },
+  {
+   "url": "https://steam-revenue-calculator.com/app/4870960/the-fame-game-ii:-l.a.-heartbreaker",
+   "relevant": false,
+   "reason": "SteamDB / Gamalytic / 收入估算类页面只记录价格、榜单与在线人数估算，没有本作的 AI 披露内容。"
+  },
+  {
+   "url": "https://www.globenewswire.com/news-release/2026-10-15/3382179/0/zh-hant/snail-games-%E9%99%84%E5%B1%AC%E5%85%AC%E5%8F%B8-interactive-films-%E6%8E%A8%E5%87%BA-the-fame-game-ii-l-a-heartbreaker-%E6%8B%93%E5%B1%95%E5%85%B6%E4%BA%92%E5%8B%95%E8%8D%B7%E9%87%8C%E6%B4%BB%E5%8A%87%E6%83%85%E7%B3%BB%E5%88%97.html",
+   "relevant": false,
+   "reason": "Snail Games 附属 Interactive Films 的本作新闻稿（GlobeNewswire，中文）：中转抓取返回 HTTP 403，正文不可读，无法核实稿件是否含 AI 相关说明；按未读取登记，不据此推定任何领域。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "Qoder WebSearch 每个关键词返回 6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / GameDB.ai / GenPlay / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与 GlobeNewswire 经 GitHub Actions 中转抓取返回 HTTP 403；YouTube、Instagram、Facebook 只返回壳页；Valve 的 Steam 公告页正文异步加载，取回的 HTML 无正文，均按未读取登记。",
+  "4533490、4753760、4817620、4870960、4954910 五款本轮没有可读的第三方报道，判定完全以商店披露原文为准；检索无结果不用于推定未使用 AI。",
+  "本批十款均未检索到独立于商店披露的核实性报道（审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+ ]
+}

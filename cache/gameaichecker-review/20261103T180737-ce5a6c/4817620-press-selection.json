@@ -1,0 +1,42 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4817620/One_Way_Tickets/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4817620/One_Way_Tickets/?snr=1_1056_4_1056_1057&curator_clanid=46132045",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://gamalytic.com/game/4817620?utm_source=SteamDB",
+   "relevant": false,
+   "reason": "SteamDB / Gamalytic / 收入估算类页面只记录价格、榜单与在线人数估算，没有本作的 AI 披露内容。"
+  },
+  {
+   "url": "https://steam-revenue-calculator.com/app/4817620/one-way-tickets",
+   "relevant": false,
+   "reason": "SteamDB / Gamalytic / 收入估算类页面只记录价格、榜单与在线人数估算，没有本作的 AI 披露内容。"
+  },
+  {
+   "url": "https://www.g2a.com/one-way-tickets-p10000516602",
+   "relevant": false,
+   "reason": "比价、折扣或销售渠道聚合页，只有价格与库存信息，没有 AI 使用内容，未读取正文。"
+  },
+  {
+   "url": "https://www.tendancegaming.com/en/boutique/one-way-tickets-pc/?srsltid=AYCX9vKdaUlWTqjVquaOTGmgkf9V7zFNK7dagn44LrrPcbaSz8vYi4LT",
+   "relevant": false,
+   "reason": "比价、折扣或销售渠道聚合页，只有价格与库存信息，没有 AI 使用内容，未读取正文。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "Qoder WebSearch 每个关键词返回 6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / GameDB.ai / GenPlay / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与 GlobeNewswire 经 GitHub Actions 中转抓取返回 HTTP 403；YouTube、Instagram、Facebook 只返回壳页；Valve 的 Steam 公告页正文异步加载，取回的 HTML 无正文，均按未读取登记。",
+  "4533490、4753760、4817620、4870960、4954910 五款本轮没有可读的第三方报道，判定完全以商店披露原文为准；检索无结果不用于推定未使用 AI。",
+  "本批十款均未检索到独立于商店披露的核实性报道（审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+ ]
+}

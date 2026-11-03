@@ -1,0 +1,58 @@
+{
+ "results": [
+  {
+   "url": "https://steamcommunity.com/app/3947460/discussions/0/806832558910224535/",
+   "relevant": false,
+   "reason": "Steam 讨论区主题帖「Charcter Artwork」为玩家美术讨论，本轮未通过中转读取正文，帖中亦无开发方对生成式 AI 的说明，只作线索登记。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/3947460",
+   "relevant": true,
+   "reason": "AI Transparency Index 复刻本作商店披露的分析页，已读取原始页面；其领域分类由模型对披露文本再分类得到，并自报模型置信度，属转录而非独立核实。"
+  },
+  {
+   "url": "https://steamdb.info/app/3947460/charts/",
+   "relevant": false,
+   "reason": "SteamDB / Gamalytic / 收入估算类页面只记录价格、榜单与在线人数估算，没有本作的 AI 披露内容。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3947460/%E5%85%AC%E6%9C%83%E5%89%B5%E4%B8%96%E7%B4%80?l=english&snr=1_100755_100755_",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=xZShVu10kSk",
+   "relevant": false,
+   "reason": "视频或社媒页面（YouTube/Instagram/Facebook），中转抓取只拿到壳页或返回 403，读不到正文，只能作为线索登记。"
+  },
+  {
+   "url": "https://www.gamingbible.com/news/platform/steam/stardew-valley-vibes-new-rpg-try-free-056944-20250925",
+   "relevant": false,
+   "reason": "GamingBible 的免费试玩推荐文章，检索结果标题与摘要只谈玩法与星露谷风格观感，未涉及本作的生成式 AI 披露；本轮未读取正文。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3947460",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/3947460",
+   "fetchedAt": "2026-11-03T09:17:06.265119+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI content is included in the game Generative AI tools were used for the development of some in-game art resources.",
+   "locator": "full page text",
+   "label": "AI Transparency Index 复刻本作商店披露的分析页",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\3947460\\press-0.html",
+   "contentHash": "76f94860311a12445b31362e322ae91b328ba9ed013bc84edb11401886e02a6a"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每个关键词返回 6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / GameDB.ai / GenPlay / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与 GlobeNewswire 经 GitHub Actions 中转抓取返回 HTTP 403；YouTube、Instagram、Facebook 只返回壳页；Valve 的 Steam 公告页正文异步加载，取回的 HTML 无正文，均按未读取登记。",
+  "4533490、4753760、4817620、4870960、4954910 五款本轮没有可读的第三方报道，判定完全以商店披露原文为准；检索无结果不用于推定未使用 AI。",
+  "本批十款均未检索到独立于商店披露的核实性报道（审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+ ]
+}

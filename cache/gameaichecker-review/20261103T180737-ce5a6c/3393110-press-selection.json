@@ -1,0 +1,58 @@
+{
+ "results": [
+  {
+   "url": "https://www.reddit.com/r/Steam/comments/1w738go/since_steam_features_ai_generated_content/",
+   "relevant": false,
+   "reason": "Reddit 帖子页对 GitHub Actions 中转抓取返回 HTTP 403，正文不可读（本批另一条 Reddit 链接实测即为 403）；该帖是讨论 Steam 披露机制的玩家帖，按线索登记，不作为证据。"
+  },
+  {
+   "url": "https://store.steampowered.com/news/group/4145017/view/3862463747997849618",
+   "relevant": false,
+   "reason": "Valve 的 Steamworks「AI Content on Steam」平台政策公告页，不是本作的开发者声明；中转取回的 HTML 只有站点外壳、公告正文异步加载，本轮未读到原文，且平台通用政策不构成本作任何领域的证据。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3393110/AION_2?snr=1_7001_topselling__7003",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=W-wT5sMSsnU",
+   "relevant": false,
+   "reason": "标题为「AI Use Explained - Aion 2」的 YouTube 视频页：中转只拿到壳页，读不到内容，无法核实其说法，按线索登记，不作为证据。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/3393110/discussions/1/583935635494110426/?l=spanish",
+   "relevant": true,
+   "reason": "Steam 讨论区主题帖「To what extent does Aion 2 utilize AI?」，已通过中转读取原文：NC 官方社区经理 [NC] CM Sakaar 在内引用并复述了另一主题的声明，称商店页免责声明是出于谨慎做出、游戏 99.9% 的美术由人类制作。属开发者自述，登记后不改变按商店披露做出的美术=已使用判定，也不能替商店披露把其它领域改为未使用。"
+  },
+  {
+   "url": "https://steamdb.info/tag/1368160/",
+   "relevant": false,
+   "reason": "SteamDB / Gamalytic / 收入估算类页面只记录价格、榜单与在线人数估算，没有本作的 AI 披露内容。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3393110",
+   "sourceType": "community",
+   "url": "https://steamcommunity.com/app/3393110/discussions/1/583935635494110426/?l=spanish",
+   "fetchedAt": "2026-11-03T09:15:07.770072+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Our disclaimer on our store page was made out of an abundance of caution. 99.9% of the art in the game is made by humans and any use of AI is replaced by our handcrafted finished graphics.",
+   "locator": "full page text",
+   "label": "Steam 讨论区主题帖，含 NC 官方社区经理 [NC] CM Sakaar 的美术声明（开发者自述）",
+   "cachePath": ".cache\\gameaichecker-review\\20261103T180737-ce5a6c\\3393110\\press-0.html",
+   "contentHash": "31459b1db4d240efb7aca57d1243946591356bc62b053b03cdd04a7f7f4c8fa4"
+  }
+ ],
+ "coverageLimits": [
+  "Qoder WebSearch 每个关键词返回 6 条结果，检索范围限于工具实际返回的内容，不代表全网没有报道。",
+  "第三方 AI 披露聚合站（AI Transparency Index / GameDB.ai / GenPlay / HowMuchAI）的正文是对 Steam 商店披露的转录或模型再分类，登记为已读来源但不构成独立核实。",
+  "Reddit 与 GlobeNewswire 经 GitHub Actions 中转抓取返回 HTTP 403；YouTube、Instagram、Facebook 只返回壳页；Valve 的 Steam 公告页正文异步加载，取回的 HTML 无正文，均按未读取登记。",
+  "4533490、4753760、4817620、4870960、4954910 五款本轮没有可读的第三方报道，判定完全以商店披露原文为准；检索无结果不用于推定未使用 AI。",
+  "本批十款均未检索到独立于商店披露的核实性报道（审计、逐素材取证或开发者实名访谈），所有领域判定仍以开发者自述为准。"
+ ]
+}
