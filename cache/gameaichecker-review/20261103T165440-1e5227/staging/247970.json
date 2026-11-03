@@ -1,0 +1,92 @@
+{
+  "appId": "247970",
+  "name": "Korea. IL-2 Series",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "IL-2 系列的朝鲜战争空战篇，2026 年 8 月 4 日上市。开发者把 AI 用在三类内容上：游戏内无线电通话（基于团队与配音演员录音的 TTS）、飞行员肖像与生涯模式图片（以自有素材为底料的 AI 辅助流程，产出经人工复核打磨），并声明生成式 AI 不替代创意方向、全部内容由团队定稿。",
+  "aiUsageCategories": [
+    "art",
+    "voice"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称飞行员肖像与生涯模式图片由 AI 辅助流程制作，底料是自有素材、游戏内截图、模型与历史参考，产出再经本团队美术人工复核与打磨；并声明生成式 AI 不替代创意方向，所有内容最终由开发团队筛选、检查与定稿。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "披露称游戏内无线电通话采用文字转语音技术，且该 TTS 建立在团队自有录音与配音演员录音（依相应协议）之上；未说明语音是预先烘好还是运行时合成。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "voice": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/247970/",
+  "developer": "FOR-GAMES CR LTD",
+  "publisher": "FOR-GAMES CR LTD",
+  "steamReleaseDate": "Aug 4, 2026",
+  "genres": [
+    "Action",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/247970/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "Generative technologies are used in Korea. IL-2 Series as production tools for selected types of content: in-game radio communications, pilot portraits and images used in Career mode. Radio communications use text-to-speech technology based on voice recordings made by our team and voice actors under the relevant agreements. Pilot portraits and Career mode images are created with AI-assisted workflows based on our own assets, in-game screenshots, models, and historical references, then manually reviewed and refined by our artists. Generative AI is not used as a replacement for creative direction. All such content is curated, checked, and finalized by the development team."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/247970/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 274）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/247970/discussions/0/573805391546193767/",
+      "label": "AI pilot call outs",
+      "date": "2026-11-03",
+      "excerpt": "A strange change from GB is the frequency of the AI wingman's callouts to you in mission. Sure, 'Bauke Bauke' is burnt into my brain, and supposedly the new voice system should keep callouts more helpful. But its the volume of callouts thats gone down, and the game is worse for it. I was flying my MiG-15 career, and got into a furball with Sabers. At no time did the AI give me a 'bandits, four low' or even a 'Tally!' or whatever the North Korean/Russian equivalent is. Maybe I forgot to explicitly order them to tally bandits, but why do I need to tell the AI to do this at all, wouldn't standing doctrine be to do this? Something established in training? But its not just in air callouts either, the AI seems very hit or miss with whenever any voice communication occurs. I give commands and they just... say nothing. Not even a confirmation? Something seems almost bugged in the behavior. Its a small thing, but very frustrating.\nLukeFF View Profile View Posts [developer] Nov 1 @ 1:49pm Report this post You can order them to or to not call out enemy contacts from the command menu. #1\nPopaStern View Profile View Posts Nov 1 @ 1:53pm Report this post The Ai behavior is set on automatic by default and act on everything without requiring your flight lead input. This also means that they often won't respond to your commands. If you would rather they obey to your commands, mostly, go to settings/game/artificial intelligence and select the option \"Maintain Formation\". I noticed more radio replies when this is turned on, such as flight formation confirmations. I also would like having more control on radio volume in the future. My biggest negative on this topic is the often uncomprehensible ai voices forcing me to open my map screen to read the chat bubbles. I read that a voice rework is in the works so we can expect things to get better. Fly safe! #2\nBeondTheGrave View Profile View Posts 15 hours ago Report this post Originally posted by LukeFF : You can order them to or to not call out enemy contacts from the command menu. Which is inconsistent, half the time they *still* don't do it, and anyway should be the default behavior and *not* something I have to check each sortie. In general, as I note above, the AI seems to only ever half reply to your commands which means you really don't know if the command has taken, if the behavior has changed, etc. until after its too late. Poor response to player input. The Ai behavior is set on automatic by default and act on everything without requiring your flight lead input. This also means that they often won't respond to your commands. If you would rather they obey to your commands, mostly, go to settings/game/artificial intelligence and select the option \"Maintain Formation\". I noticed more radio replies when this is turned on, such as flight formation confirmations. Thanks I will try this and see if it helps. A voice rework would be very appreciated overall. I've slowly come to 'understand' the AI voice, whenever it does trigger, but its like learning greek it can be very garbled. The Korean voices in my MiG-15 are quite poor, coming from someone whose been trying to learn Korean a few years now. I don't hate what theyre going for with this new voice system, but where it is now is unnecessarily challenging. #3\nLukeFF View Profile View Posts [developer] 11 hours ago Report this post Originally posted by PopaStern : The Ai behavior is set on automatic by default and act on everything without requiring your flight lead input. This also means that they often won't respond to your commands. If you would rather they obey to your commands, mostly, go to settings/game/artificial intelligence and select the option \"Maintain Formation\". I noticed more radio replies when this is turned on, such as flight formation confirmations. I also would like having more control on radio volume in the future. My biggest negative on this topic is the often uncomprehensible ai voices forcing me to open my map screen to read the chat bubbles. I read that a voice rework is in the works so we can expect things to get better. Fly safe! Yes, we are continuing to work on improving the system. BTW, you can control the radio volume just like in GB. The only limitation right now is the radio beacon volume is tied to it as well. #4"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/247970",
+      "label": "AI Transparency Index 复刻本作商店披露的分析页",
+      "date": "2026-11-03",
+      "excerpt": "AI-assisted workflows were used to create in-game radio communications, pilot portraits, and Career mode images, which were manually reviewed and refined."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 FOR-GAMES CR LTD）与英文讨论区首页（可见 15 个主题，总数 274），首页有 1 个与 AI 直接相关的主题（“AI pilot call outs”），已逐帖读取原文：玩家讨论的是僚机呼叫的频次与新版语音系统让提示变少、影响玩法，属玩法反馈，虽触及语音系统但未质疑或补充 AI 使用范围，按规则只登记不判定。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 复刻商店披露的分析页，属转录，不构成独立核实）。其余结果为葡语界面的本作讨论区主题页、两个读不到正文的 Reddit 帖（其一标题涉及本作 AI 预览）、商店页与 PCGamingWiki 条目页。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。披露未说明语音是预合成还是运行时生成，游戏内实时生成按“披露未说明”登记；代码、音乐、文案与营销同样未涉及。",
+  "disclosureQuote": "Generative technologies are used in Korea. IL-2 Series as production tools for selected types of content: in-game radio communications, pilot portraits and images used in Career mode. Radio communications use text-to-speech technology based on voice recordings made by our team and voice actors under the relevant agreements. Pilot portraits and Career mode images are created with AI-assisted workflows based on our own assets, in-game screenshots, models, and historical references, then manually reviewed and refined by our artists. Generative AI is not used as a replacement for creative direction. All such content is curated, checked, and finalized by the development team.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "The Korean War entry of the IL-2 series, released on Aug 4, 2026. The developer lists three uses of generative technology: in-game radio communication produced with text-to-speech built on recordings by the team and voice actors, and pilot portraits and Career mode images made through AI-assisted workflows over the studio's own assets, then manually reviewed and refined, adding that generative AI does not replace creative direction and that the team curates and finalises all of it.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher FOR-GAMES CR LTD) and the English discussion homepage (15 visible topics of 274), where one topic directly mentions AI; it was opened and read in full. The post is gameplay feedback about how often the wingman radio callouts happen under the new voice system rather than a question about AI content, so it is logged without changing any area finding. This title was searched 1 time with 6 results and 1 raw source was read: an AI Transparency Index page reproducing the store disclosure, a transcription rather than independent verification. The remaining results were a Portuguese-locale thread on this game's board, two Reddit threads with no readable body, one of which refers to the AI in this game's preview, the store page and a PCGamingWiki entry. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The disclosure does not say whether the radio speech is pre-rendered or generated live, so in-game generation is recorded as not addressed, and code, music, writing and marketing are not addressed either.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Pilot portraits and Career mode images come from AI-assisted workflows built on the studio's own assets, screenshots, models and historical references, which the developer states were then manually reviewed and refined by their artists.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "In-game radio speech is produced with text-to-speech technology built on recordings made by the team and by voice actors under agreements; the disclosure does not say whether the lines are pre-rendered or synthesised at run time.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "d8aed856895a1300d5c07c2d2364419356b85b6a3712463a1108a50655e0ebfa"
+  }
+}

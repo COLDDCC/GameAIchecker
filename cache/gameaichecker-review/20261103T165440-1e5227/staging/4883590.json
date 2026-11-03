@@ -1,0 +1,93 @@
+{
+  "appId": "4883590",
+  "name": "iRacing® Studios NASCAR 26",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "NASCAR 官方赛车游戏，2026 年 9 月 17 日上市（Steam 商店页日期）。开发者披露本作使用 AI 生成了部分 VO 台词与贯穿界面的其他呈现元素。",
+  "aiUsageCategories": [
+    "art",
+    "voice"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "同一句把“贯穿 UI 的其他呈现元素”也列为 AI 生成；原文没有区分这些元素是图形还是文本，本条按美术/UI 领域登记并保留其原始措辞的模糊范围。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "披露称本作使用 AI 生成了部分 VO 台词（某些解说/配音台词），未说明数量与由谁的声音合成。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "voice": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4883590/",
+  "developer": "iRacing.com Motorsport Simulations, LLC",
+  "publisher": "iRacing.com Motorsport Simulations, LLC",
+  "steamReleaseDate": "Sep 17, 2026",
+  "genres": [
+    "Racing",
+    "Simulation",
+    "Sports"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4883590/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "NASCAR 26 used AI to generate certain VO lines and other presentation elements throughout the UI."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4883590/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 214）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4883590/discussions/0/570427041544152390/",
+      "label": "AI doesnt avoid wrecks or slow down if something is in front of them",
+      "date": "2026-11-03",
+      "excerpt": "i know others have been complaining about this since launch but if iracing isnt going to fix or atleast tweak the problems with the AI i cant play it anymore. Just cost me a win in the last race of the season by getting rammed by a AI car when slowing down to pit.\n"
+    },
+    {
+      "type": "third_party",
+      "url": "https://steamaifilter.xyz/game/4883590-iracing-studios-nascar-26",
+      "label": "Steam AI Filter 本作页逐字复刻商店披露",
+      "date": "2026-11-03",
+      "excerpt": "The developer of iRacing® Studios NASCAR 26 disclosed AI-generated content on its Steam store page: “NASCAR 26 used AI to generate certain VO lines and other presentation elements throughout the UI.”"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 iRacing.com Motorsport Simulations, LLC）与英文讨论区首页（可见 15 个主题，总数 214），首页有 1 个标题含 AI 的主题（“AI doesnt avoid wrecks or slow down if something is in front of them”），已逐帖读取原文：内容抱怨赛道上对手车辆的行车 AI 不会避让事故车，属游戏内对手 AI 的玩法反馈，与商店披露所指的生成式 AI 无关，按无关主题登记，不改变任何领域结论。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（Steam AI Filter 本作页逐字复刻商店披露，属转录，不构成独立核实）；另读取开发者官网新闻稿 1 篇原文，其内容只公布预告片、预购与玩法特性，文中的 “better driver AI” 指游戏内对手 AI，全文没有生成式 AI 或披露相关内容，因此登记为已读但不作为任何领域证据。其余结果为本作商店页、社区中心页、YouTube 玩家短评与读不到正文的 Reddit 帖。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "NASCAR 26 used AI to generate certain VO lines and other presentation elements throughout the UI.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "The official NASCAR video game by iRacing Studios, released on Sep 17, 2026 according to the store page. The developer states that AI generated certain VO lines and other presentation elements throughout the user interface.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher iRacing.com Motorsport Simulations, LLC) and the English discussion homepage (15 visible topics of 214), where one topic has AI in its title; it was opened and read in full. The post complains that the opponent cars on track do not avoid wrecks or slow down, which is about the in-game driving AI rather than generative AI, so it is logged as unrelated and changes no area finding. This title was searched 1 time with 6 results and 1 raw source was read: a Steam AI Filter page reproducing the store disclosure verbatim, a transcription rather than independent verification. The official iRacing press release was also fetched and read in full, but it covers the trailer, pre-orders and gameplay features only, its better driver AI wording refers to opponent behaviour and it says nothing about generative AI content, so it is logged without being used as evidence for any area. The remaining results were the store page, the community hub, a YouTube player review and a Reddit thread that returned no readable body. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The same sentence covers other presentation elements throughout the UI; the wording does not separate graphics from text, so the finding is recorded under art and user interface with the ambiguity of the original phrasing preserved.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "The disclosure states that AI generated certain VO lines, without saying how many or whose voices were used or synthesised.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "eb9e2f8e4088260459cbc91316e60e8f0cef0ed7d227a25a0a88339dc610d4fd"
+  }
+}

@@ -1,0 +1,63 @@
+{
+ "identityName": "Professional Ship Simulator",
+ "identityDeveloper": "SWE Systems",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称生成式 AI 用于制作图标、背景图一类的图形占位素材，并自述只占开发流程的一小部分；正式版是否仍保留这些素材，商店页没有说明。",
+   "evidenceId": "store",
+   "quote": "to create graphical placeholders like icons or background images"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "none",
+   "note": "开发者明确写道游戏内语音是文字转语音、不是 AI；这是对某一领域“未使用”的自述，未经独立核实。",
+   "evidenceId": "store",
+   "quote": "The voice in the game is text-to-speech, not AI."
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露称新增文本由机器翻译，同时自述“绝大部分”本地化由人工完成，以保证尽可能多的玩家能玩到。",
+   "evidenceId": "store",
+   "quote": "or to localize newly added text. The vast majority of the game was localized by humans; only new text is machine-translated"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "Since we’re a very small team, we use generative AI for a small part of the development process, for example, to create graphical placeholders like icons or background images, or to localize newly added text. The vast majority of the game was localized by humans; only new text is machine-translated in order to include as many players as possible. The voice in the game is text-to-speech, not AI.",
+ "summary": "大型船舶操纵模拟，2026 年 9 月 16 日进入抢先体验，Aerosoft 发行。开发者自述团队很小、只在一小部分流程使用生成式 AI：生成图标与背景图之类的图形占位素材、机翻新增文本；同时明确说明游戏内语音是文字转语音而非 AI。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 SWE Systems，发行商 Aerosoft）与英文讨论区首页（可见 15 个主题，总数 279），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（GameAICheck 的新品 AI 列表页，把本作披露摘要为“占位图标与背景图、部分新文本机翻”，属第三方复述，不是独立核实）。其余结果为本作商店页与折扣页、YouTube 抢先体验宣传片、Instagram 上另一款潜艇游戏的宣传帖、ResetEra 玩家 AI 清单帖（第 21 页）。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计；美术领域的“已使用”只覆盖开发者自述的图形占位素材阶段，语音领域的“未使用”同样是自述。本作处于抢先体验阶段。",
+ "description": "以真实船舶系统为准的海事模拟：亲自操舵、管机舱、排航线、进港靠泊，不做街机化简化。",
+ "english": {
+  "summary": "A large-scale maritime ship-handling simulation that entered Early Access on Sep 16, 2026, published by Aerosoft. A self-described very small team states that generative AI covers a small part of the process, used for graphical placeholders such as icons or background images and for machine translating newly added text, and adds that the in-game voice is text-to-speech rather than AI.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer SWE Systems, publisher Aerosoft) and the English discussion homepage (15 visible topics of 279); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source was read: a GameAICheck list page summarising this disclosure as placeholder icons and background images plus machine-translated new text, which is a third-party retelling and not independent verification. The remaining results were store and discount pages for this game, a YouTube Early Access trailer, an Instagram post about a different submarine title and page 21 of a ResetEra player list of games using generative AI. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit: the art finding covers the placeholder stage the developer describes, and the voice non-use is also their own claim. The title is in Early Access.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure states that generative AI was used to create graphical placeholders such as icons or background images, described as a small part of the process, and does not say whether any of it remains in the shipped build.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "The developer states that the in-game voice is text-to-speech and not AI; this is a human statement about non-use and was not independently verified.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "Newly added text is machine translated while the developer states that the vast majority of the localisation was done by humans; the split between the two is the developer's own figure and was not verified.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

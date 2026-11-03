@@ -1,0 +1,59 @@
+{
+ "identityName": "Online: 404",
+ "identityDeveloper": " Cornfield Games",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "used",
+   "note": "披露只有这一句：用 AI 为游戏角色配音；未说明涉及多少角色或台词，也未说明是预先合成还是运行时生成。",
+   "evidenceId": "store",
+   "quote": "We use AI to voice game characters."
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "We use AI to voice game characters.",
+ "summary": "废弃隔离区里的单人求生模拟，2026 年 10 月 21 日进入抢先体验。开发者只留下一句“我们用 AI 为游戏角色配音”，除配音之外的七个领域一律是披露未说明。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 Cornfield Games；商店原始字段的名字首带一个空格，记录时按站点的开发者字段规整去掉了首尾空格）与英文讨论区首页（可见 15 个主题，总数 285），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 复刻商店披露的分析页，把本作归入 audio 并给出 95% 的模型自评置信度，属转录而非独立核实）。其余结果为本作商店页与折扣页、指向另一 App ID（3393280）的 Steam 鉴赏家聚合页、YouTube 玩法预告片与 ResetEra 的玩家 AI 游戏清单帖（第 21 页），均未读取为证据。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。披露未说明语音规模与生成时机，因此游戏内实时生成按“披露未说明”登记。本作处于抢先体验阶段。",
+ "description": "被隔离的空旷街区里从零开始：捡拾、挖矿、冶炼，按一个真实的人会怎么做来活下去。",
+ "english": {
+  "summary": "A solo survival simulation set in an abandoned quarantined district that entered Early Access on Oct 21, 2026. The disclosure is a single sentence stating that AI is used to voice the game's characters; the other seven areas are recorded as not addressed.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher Cornfield Games, whose store credit carries a leading space in the raw page that the site's credit normalisation trims) and the English discussion homepage (15 visible topics of 285); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source was read: an AI Transparency Index page reproducing the disclosure, filing the title under audio and showing a model-reported confidence figure, so it is a transcription rather than independent verification. The remaining results were store and discount pages for this game, a Steam curators page for a different App ID, a YouTube gameplay trailer and page 21 of a ResetEra player list of games using generative AI, none of which was read as evidence. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The disclosure does not quantify the voice work or say when it is generated, so in-game generation is recorded as not addressed. The title is in Early Access.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "The single sentence of the disclosure states that AI is used to voice the game's characters; it does not say how many characters or lines, or whether the speech is pre-rendered or produced at run time.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

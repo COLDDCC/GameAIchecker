@@ -1,0 +1,82 @@
+{
+  "appId": "4356430",
+  "name": "NBA 2K27",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "Visual Concepts 的篮球模拟，2026 年 9 月 3 日由 2K 发行。商店 AI 披露只有一句：NBA 2K27 可选用 NVIDIA DLSS 5 的三维引导神经渲染，在运行时实时增强游戏观感；除此之外的七个领域都是披露未说明。",
+  "aiUsageCategories": [
+    "ingame"
+  ],
+  "aiAreas": {
+    "ingame": "used",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露点名的是一项可选开启、在运行时实时影响画面的神经渲染功能（NVIDIA DLSS 5 三维引导神经渲染），属游戏内实时生成的范畴；开发者没有说明默认是否开启，只写“optionally”。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4356430/",
+  "developer": "Visual Concepts",
+  "publisher": "2K",
+  "steamReleaseDate": "Sep 3, 2026",
+  "genres": [
+    "Sports"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4356430/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "NBA 2K27 optionally utilizes NVIDIA DLSS 5's 3D Guided Neural Rendering to enhance the appearance of the game in real-time."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4356430/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 242）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.vlsi.kr/en/daily-silicon-nvidia-dlss5-nba2k27-game-ready-2026-09-03-en/",
+      "label": "VLSI Korea 本作 DLSS 5 支持与技术要求报道",
+      "date": "2026-11-03",
+      "excerpt": "September 3 Game Ready announcement for NBA 2K27 makes that distinction concrete. Running the game and enabling DLSS 5's new visual feature have different requirements. The recommended list says RTX 2070. The new option says RTX 50."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Visual Concepts，发行商 2K）与英文讨论区首页（可见 15 个主题，总数 242），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（VLSI Korea 的本作 DLSS 5 报道，核对的是 NVIDIA 的显卡支持与 Game Ready 公告，可佐证“该作可选启用 DLSS 5 实时神经渲染”这一技术事实，但不是对本作 AI 内容的审计；该页自身声明其研究写作为 AI 辅助并经人工复核，因此只作旁证登记）。结果里另有一个同类聚合页（Steam AI Filter）在检索响应中只给出 http 明文地址，中转只接受 https，未能读取原文，按未读取登记。其余结果为本作商店页、NVIDIA DLSS 官方技术页、第三方硬件博客的 DLSS 5 泄漏报道与带 AI 披露游戏的汇总列表页。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。该句描述的是可选的运行时画面增强，并未说明静态美术素材、配音、文案、音乐或本地化是否由 AI 生成，这些领域一律按“披露未说明”登记。",
+  "disclosureQuote": "NBA 2K27 optionally utilizes NVIDIA DLSS 5's 3D Guided Neural Rendering to enhance the appearance of the game in real-time.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "The current NBA 2K entry, released on Sep 3, 2026 and published by 2K. The store disclosure is a single sentence stating that NBA 2K27 optionally uses NVIDIA DLSS 5's 3D Guided Neural Rendering to enhance the appearance of the game in real time; the other seven areas are recorded as not addressed.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Visual Concepts, publisher 2K) and the English discussion homepage (15 visible topics of 242); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source was read: a VLSI Korea report on DLSS 5 support in this game, which checks NVIDIA's hardware support and Game Ready announcement and corroborates the technical fact that an optional real-time neural rendering mode exists, but does not audit the game's AI content; that page also states its own research and writing was AI assisted with a separate human review, so it is logged as corroborating coverage only. Another aggregator result for this title appears in the search response with an http-only address that the relay, which accepts https only, could not fetch, so it is recorded as not read. The remaining results were the store page, NVIDIA's DLSS technology page, a hardware blog post about a DLSS 5 leak and a list page of Steam games with AI disclosure. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The sentence describes an optional run-time visual feature and says nothing about whether static art, voice, writing, music or localisation involve AI, so those areas stay recorded as not addressed.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure names an optional, real-time in-game feature, NVIDIA DLSS 5 3D Guided Neural Rendering, that changes how the game looks while it runs; the wording optionally is kept, so the feature is not described as on by default.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "901ac229be73ea8e3a49accb90ddaf2c9797748e21e8def2e5eee8b5f1c01307"
+  }
+}

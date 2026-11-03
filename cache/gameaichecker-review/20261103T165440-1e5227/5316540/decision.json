@@ -1,0 +1,63 @@
+{
+ "identityName": "Tidy Up the Halloween Shop",
+ "identityDeveloper": "Over The Moon Games",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称生成式 AI 参与视觉美术与 3D 模型，并点名本作 logo；同一句把范围表述为“所有开发学科”，但逐项列举只到音频、视觉美术、3D 模型、logo 与本地化。",
+   "evidenceId": "store",
+   "quote": "That involves audio and visual art, 3D models, our logo, and localization."
+  },
+  "music": {
+   "state": "used",
+   "note": "开发者自述本作有一整张“1950 年代万圣节流行金曲”原声带由 AI 生成，并说明在预告片里就能听出来；同一句也把 audio 列入 AI 使用范围。",
+   "evidenceId": "store",
+   "quote": "We also have a full soundtrack of 1950's halloween pop hits that are obviously made by AI, as you can hear in the trailer."
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "同一句披露把 localization 列入 AI 使用范围，未说明涉及哪些语种、占比或人工复核程度。",
+   "evidenceId": "store",
+   "quote": "That involves audio and visual art, 3D models, our logo, and localization."
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "We use generative AI across all disciplines of game development, most often with heavy amounts of human editing. That involves audio and visual art, 3D models, our logo, and localization. We use it as a productivity tool so we can achieve a higher level of quality, faster, than we would have been able to. We also have a full soundtrack of 1950's halloween pop hits that are obviously made by AI, as you can hear in the trailer. It's awesome and it'd be basically impossible otherwise.",
+ "summary": "万圣节主题整理模拟，2026 年 10 月 23 日上市。开发者自述“所有开发学科”都用生成式 AI、且多数经过大量人工编辑，逐项点名的是音频、视觉美术、3D 模型、本作 logo 与本地化，另外说明整张 1950 年代风万圣节流行金曲原声带由 AI 生成。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Over The Moon Games，发行商同名）与英文讨论区首页（可见 15 个主题，总数 64），首页有 2 个与 AI 直接相关的主题（“AI trash”“Non-stop AI SLOP!”），已逐帖读取原文：内容都是玩家围绕游戏使用 AI 的争执与立场表达，一帖要求开发者不要使用 AI、跟帖有人反驳并称更喜欢本作的 AI 音乐，另一帖抨击“整理”品类的 AI 内容；两帖均为玩家意见与二手说法，按规则只登记不判定，不改变任何领域结论。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 复刻商店披露并做结构化分析，其置信度是模型自评，属转录而非独立核实）。其余结果为本作商店页与另一款同类游戏（Tidy Up the Flower Shop，App ID 5221510）的商店页、读不到正文的 Reddit 版块页与比价聚合页。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。披露自称覆盖“所有开发学科”，但逐项点名只到音频、视觉美术、3D 模型、logo 与本地化；代码、配音、文案、营销与游戏内实时生成都按“披露未说明”登记，不据此认定未使用。",
+ "description": "把散落一地的糖果、药水与小使魔分类归位，一边整理万圣节商店一边拼出这里发生过什么。",
+ "english": {
+  "summary": "A Halloween shop tidying simulation released on Oct 23, 2026. The developer states that generative AI was used across all disciplines of development, most often with heavy human editing, and names audio, visual art, 3D models, the logo and localization, adding that the whole soundtrack of 1950s-style Halloween pop hits is AI generated.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Over The Moon Games, self-published) and the English discussion homepage (15 visible topics of 64), where two topics directly concern AI use; both threads were opened and read in full. They are player arguments about AI in games, one asking the developer not to use AI and replies defending it and enjoying the AI music, the other attacking AI content in the tidy-up genre. Both are opinions and second-hand statements, so they are logged without changing any area finding. This title was searched 1 time with 6 results and 1 raw source was read: an AI Transparency Index page reproducing the store disclosure with a model-scored confidence figure, which is a transcription and not independent verification. The remaining results were store pages for this game and for a different tidy-up title, a Reddit board page that returned no readable body and a price aggregator. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The disclosure claims every discipline while only itemising audio, visual art, 3D models, the logo and localization, so code, voice, writing, marketing and in-game generation are recorded as not addressed rather than as non-use.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure names visual art, 3D models and the game's logo as made with generative AI, with the developer stating the tools were used across all disciplines of development and that outputs went through heavy human editing.",
+   "music": "The developer states that the entire soundtrack of 1950s-style Halloween pop hits is AI generated and that this is audible in the trailer, and the same disclosure lists audio among the disciplines using generative AI.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "The same sentence lists localization among the areas where generative AI was used; the disclosure does not say which languages, how much, or how the output was reviewed.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

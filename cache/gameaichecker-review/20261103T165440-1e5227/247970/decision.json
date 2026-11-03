@@ -1,0 +1,61 @@
+{
+ "identityName": "Korea. IL-2 Series",
+ "identityDeveloper": "FOR-GAMES CR LTD",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露称飞行员肖像与生涯模式图片由 AI 辅助流程制作，底料是自有素材、游戏内截图、模型与历史参考，产出再经本团队美术人工复核与打磨；并声明生成式 AI 不替代创意方向，所有内容最终由开发团队筛选、检查与定稿。",
+   "evidenceId": "store",
+   "quote": "Pilot portraits and Career mode images are created with AI-assisted workflows based on our own assets, in-game screenshots, models, and historical references, then manually reviewed and refined by our artists."
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "used",
+   "note": "披露称游戏内无线电通话采用文字转语音技术，且该 TTS 建立在团队自有录音与配音演员录音（依相应协议）之上；未说明语音是预先烘好还是运行时合成。",
+   "evidenceId": "store",
+   "quote": "Radio communications use text-to-speech technology based on voice recordings made by our team and voice actors under the relevant agreements."
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "Generative technologies are used in Korea. IL-2 Series as production tools for selected types of content: in-game radio communications, pilot portraits and images used in Career mode. Radio communications use text-to-speech technology based on voice recordings made by our team and voice actors under the relevant agreements. Pilot portraits and Career mode images are created with AI-assisted workflows based on our own assets, in-game screenshots, models, and historical references, then manually reviewed and refined by our artists. Generative AI is not used as a replacement for creative direction. All such content is curated, checked, and finalized by the development team.",
+ "summary": "IL-2 系列的朝鲜战争空战篇，2026 年 8 月 4 日上市。开发者把 AI 用在三类内容上：游戏内无线电通话（基于团队与配音演员录音的 TTS）、飞行员肖像与生涯模式图片（以自有素材为底料的 AI 辅助流程，产出经人工复核打磨），并声明生成式 AI 不替代创意方向、全部内容由团队定稿。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 FOR-GAMES CR LTD）与英文讨论区首页（可见 15 个主题，总数 274），首页有 1 个与 AI 直接相关的主题（“AI pilot call outs”），已逐帖读取原文：玩家讨论的是僚机呼叫的频次与新版语音系统让提示变少、影响玩法，属玩法反馈，虽触及语音系统但未质疑或补充 AI 使用范围，按规则只登记不判定。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（AI Transparency Index 复刻商店披露的分析页，属转录，不构成独立核实）。其余结果为葡语界面的本作讨论区主题页、两个读不到正文的 Reddit 帖（其一标题涉及本作 AI 预览）、商店页与 PCGamingWiki 条目页。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。披露未说明语音是预合成还是运行时生成，游戏内实时生成按“披露未说明”登记；代码、音乐、文案与营销同样未涉及。",
+ "description": "喷气机时代开端的空战模拟：朝鲜战争里活塞战机与初代喷气机对决，本系列首次全面支持手柄。",
+ "english": {
+  "summary": "The Korean War entry of the IL-2 series, released on Aug 4, 2026. The developer lists three uses of generative technology: in-game radio communication produced with text-to-speech built on recordings by the team and voice actors, and pilot portraits and Career mode images made through AI-assisted workflows over the studio's own assets, then manually reviewed and refined, adding that generative AI does not replace creative direction and that the team curates and finalises all of it.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher FOR-GAMES CR LTD) and the English discussion homepage (15 visible topics of 274), where one topic directly mentions AI; it was opened and read in full. The post is gameplay feedback about how often the wingman radio callouts happen under the new voice system rather than a question about AI content, so it is logged without changing any area finding. This title was searched 1 time with 6 results and 1 raw source was read: an AI Transparency Index page reproducing the store disclosure, a transcription rather than independent verification. The remaining results were a Portuguese-locale thread on this game's board, two Reddit threads with no readable body, one of which refers to the AI in this game's preview, the store page and a PCGamingWiki entry. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The disclosure does not say whether the radio speech is pre-rendered or generated live, so in-game generation is recorded as not addressed, and code, music, writing and marketing are not addressed either.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "Pilot portraits and Career mode images come from AI-assisted workflows built on the studio's own assets, screenshots, models and historical references, which the developer states were then manually reviewed and refined by their artists.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "In-game radio speech is produced with text-to-speech technology built on recordings made by the team and by voice actors under agreements; the disclosure does not say whether the lines are pre-rendered or synthesised at run time.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}
