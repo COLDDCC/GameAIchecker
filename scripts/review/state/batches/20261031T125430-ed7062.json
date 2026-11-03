@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "e6d61bba1529bccc08686e819db1e6753c2b0a3d",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-10-31T03:54:30.045129+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -584,10 +584,87 @@
       },
       "bytes": 38902865,
       "verifiedRemoteSha": "b62d0ce304350b7268362ad338a595971e09259f"
-    }
+    },
+    "ci": {
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41569130492",
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41569130330"
+    },
+    "production": {
+      "sha": "db469a6e5f4a35a24949ed1ca05acb439dc795c0",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/d4668e2f-01d1-4795-a9de-708405767e76",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>db469a6</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://d4668e2f.gameaichecker.pages.dev'>https://d4668e2f.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/d4668e2f-01d1-4795-a9de-708405767e76)\n",
+      "checkedAt": "2026-11-03T03:06:22.187099+00:00"
+    },
+    "onlineImages": {
+      "responses": 426,
+      "cache": ".cache\\gameaichecker-review\\20261031T125430-ed7062\\online-images-db469a6e5f4a35a24949ed1ca05acb439dc795c0.json"
+    },
+    "online": [
+      {
+        "appId": "4894770",
+        "url": "https://gameaichecker.com/games/4894770-flow-treehouse/",
+        "checkedAt": "2026-11-03T03:06:45.165583+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4459590",
+        "url": "https://gameaichecker.com/games/4459590-slotbound/",
+        "checkedAt": "2026-11-03T03:06:45.167692+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4854120",
+        "url": "https://gameaichecker.com/games/4854120-ski-lines-trail-map/",
+        "checkedAt": "2026-11-03T03:06:45.169834+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4294030",
+        "url": "https://gameaichecker.com/games/4294030-tavernia/",
+        "checkedAt": "2026-11-03T03:06:45.172466+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5186030",
+        "url": "https://gameaichecker.com/games/5186030-slam-tank/",
+        "checkedAt": "2026-11-03T03:06:45.179703+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2366590",
+        "url": "https://gameaichecker.com/games/2366590-rideshare-stimulator/",
+        "checkedAt": "2026-11-03T03:06:45.182120+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3809080",
+        "url": "https://gameaichecker.com/games/3809080-never-wither/",
+        "checkedAt": "2026-11-03T03:06:45.184172+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4279510",
+        "url": "https://gameaichecker.com/games/4279510-no-mortal-space/",
+        "checkedAt": "2026-11-03T03:06:45.186848+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3514000",
+        "url": "https://gameaichecker.com/games/3514000-crazy-life/",
+        "checkedAt": "2026-11-03T03:06:45.189692+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5000870",
+        "url": "https://gameaichecker.com/games/5000870-breathbound/",
+        "checkedAt": "2026-11-03T03:06:45.192740+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "46e734722ffa712d94274f5759b10658e268626c"
+    "media": "46e734722ffa712d94274f5759b10658e268626c",
+    "site": "db469a6e5f4a35a24949ed1ca05acb439dc795c0"
   },
   "attempts": 10,
   "maxAttempts": 30,
@@ -599,5 +676,6 @@
   },
   "applyBase": "e6d61bba1529bccc08686e819db1e6753c2b0a3d",
   "pendingTree": "174d14ef7d7296a6404fb4d00df3316f66c40cf5",
-  "siteBase": "b62d0ce304350b7268362ad338a595971e09259f"
+  "siteBase": "b62d0ce304350b7268362ad338a595971e09259f",
+  "siteTree": "38842da9a64c898604a4dc93b8cc95df5d639146"
 }
