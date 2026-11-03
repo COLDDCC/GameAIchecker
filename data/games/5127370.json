@@ -1,0 +1,83 @@
+{
+  "appId": "5127370",
+  "name": "Who's Cheating?",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "3 至 8 人的社交推理派对游戏，2026 年 10 月 16 日上市。开发者披露开发期用 AI 工具协助内容制作，明确列出建模、台词配音、音乐与翻译四类，全部内容都经团队审阅。",
+  "aiUsageCategories": [
+    "art",
+    "music",
+    "voice",
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称开发期用 AI 协助内容制作，明确列出的项目包括建模。",
+    "music": "披露列出的 AI 协助项目包含音乐。",
+    "voice": "披露列出的 AI 协助项目包含台词配音。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "披露列出的 AI 协助项目包含翻译。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "voice": "official",
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5127370/",
+  "developer": "LumenLabs",
+  "publisher": "LumenLabs",
+  "steamReleaseDate": "Oct 16, 2026",
+  "genres": [
+    "Action",
+    "Casual",
+    "Indie"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5127370/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "During development we use AI-based tools to assist with content creation, including modelling, voice lines, music and translations. All of it is reviewed by the team to ensure the final product stays true to our own vision."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5127370/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 8 个主题（总数 8）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 LumenLabs，发行商同名）与英文讨论区首页（可见 8 个主题，总数 8，即全部主题），首页没有与 AI 使用相关的主题，无需逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 0 篇原始来源：结果只有本作商店页、另一款游戏的页面与一个“Steam 上使用 AI 配音的游戏”分类列表页，没有针对本作的报道。检索范围仅限工具实际返回的内容，不能据此认定本作没有其他公开报道。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计；披露只说“AI 辅助内容制作”，未说明是否存在运行时生成，ingame 按“披露未说明”处理。",
+  "disclosureQuote": "During development we use AI-based tools to assist with content creation, including modelling, voice lines, music and translations. All of it is reviewed by the team to ensure the final product stays true to our own vision.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A social deduction party game for three to eight players, released on Oct 16, 2026. The developer states that AI-based tools assisted content creation during development, naming modelling, voice lines, music and translations, with all of it reviewed by the team.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer LumenLabs, self-published) and the English discussion homepage (8 visible topics of 8, that is the whole forum); no topic concerns AI use beyond the disclosure itself, so no individual thread needed opening. This title was searched 1 time with 6 results and 0 raw source(s) were read, because the results were only the store page, a page for a different title and a category listing of Steam games with AI voices, none of which reports on this game. That describes the search range and is not proof that no other coverage exists. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The disclosure names assisted content creation but does not say whether anything is generated at run time, so the in-game area is recorded as not addressed.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Modelling is named in the disclosure as one of the areas AI-based tools assisted with during development.",
+      "music": "Music is named in the disclosure as one of the areas AI-based tools assisted with.",
+      "voice": "Voice lines are named in the disclosure as one of the areas AI-based tools assisted with.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "Translations are named in the disclosure as one of the areas AI-based tools assisted with, and the developer states everything was reviewed by the team.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "7c68e701901abd3d5ffcd4993270dc35c419e77912d320909b86174437609c62"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "appId": "4094660",
+  "name": "Rivage",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "科幻第一人称密室解谜，2026 年 9 月 22 日发售，Raw Fury 发行。开发者披露两名开发者的小团队只在早期原型阶段使用生成式 AI 加速设计与研究，原型里的 AI 素材已全部替换为原创美术，成品中没有任何 AI 生成内容。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露明确写道本作游戏中不存在 AI 生成内容，一切为人工制作。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称原型阶段确有 AI 生成素材，正式版已把这些素材全部替换为原创美术内容；此处按开发期使用过、成品未保留登记。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4094660/",
+  "developer": "Exnilo Studio",
+  "publisher": "Raw Fury",
+  "steamReleaseDate": "Sep 22, 2026",
+  "genres": [
+    "Adventure",
+    "Indie"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4094660/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "We want to be transparent with our community. As a team of only two devs, generative AI tools were used only during early prototyping to accelerate game design iteration and research for the game. Any AI generated assets from the prototype have been fully replaced with original artist made content in the final game. No AI generated content is present in the game, everything is human made."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4094660/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 275）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://aitransparencyindex.com/products/steam/4094660",
+      "label": "AI Transparency Index 复刻本作商店披露的分析页",
+      "date": "2026-11-03",
+      "excerpt": "AI tools were used only during early prototyping, with all AI-generated assets replaced by original content in the final game."
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.techtimes.com/articles/326303/20260902/rivage-puts-power-not-death-center-its-time-loop-puzzle-design.htm",
+      "label": "TechTimes 本作报道中转述商店披露与延期的段落",
+      "date": "2026-11-03",
+      "excerpt": "Exnilo disclosed on the game's store page that generative AI tools were used during early visual prototyping, and that all AI-generated prototype assets were subsequently replaced by original artist-created work. The game ships no AI-generated content."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Exnilo Studio，发行商 Raw Fury）与英文讨论区首页（可见 15 个主题，总数 275），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源（AI Transparency Index 复刻商店披露的分析页；TechTimes 本作报道把该披露与延期一并叙述，属媒体转述开发者说法）。两者都不是对 AI 使用范围的独立核实。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。美术领域登记为“已使用”只针对被替换掉的原型阶段素材，正式版按披露不含 AI 素材；披露未说明代码、音乐、配音与营销等环节。",
+  "disclosureQuote": "We want to be transparent with our community. As a team of only two devs, generative AI tools were used only during early prototyping to accelerate game design iteration and research for the game. Any AI generated assets from the prototype have been fully replaced with original artist made content in the final game. No AI generated content is present in the game, everything is human made.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A first-person sci-fi escape-room puzzle adventure released on Sep 22, 2026 and published by Raw Fury. The two-person team states that generative AI tools were used only during early prototyping to speed up design iteration and research, that every AI-generated prototype asset was replaced with original artist-made content, and that no AI-generated content is present in the game.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Exnilo Studio, publisher Raw Fury) and the English discussion homepage (15 visible topics of 275); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 2 raw source(s) were read: an AI Transparency Index page reproducing the store disclosure and a TechTimes article that retells the disclosure alongside the game's delay. Neither is independent verification of how AI was used. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit. The art finding covers prototype-stage assets that the disclosure says were fully replaced, so the shipped game is recorded as containing no AI content; the disclosure does not address code, music, voice or marketing.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure states that no AI-generated content is present in the game and that everything is human made.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The developer states that AI-generated assets existed in the prototype and were fully replaced with original artist-made content in the final game, so the finding covers development-time use rather than shipped assets.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "2cb2fd259b0e03e4978ba8baaddf89a42c9ca734699346bb8edad6cbda6d577e"
+  }
+}

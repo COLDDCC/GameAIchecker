@@ -1,0 +1,85 @@
+{
+  "appId": "4164790",
+  "name": "Survival Log",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "僵尸末日囤货生存模拟，2026 年 8 月 12 日由 Lilith Games 发行。开发者披露本作的部分 2D 美术素材由 AI 参与制作。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露称本作的部分 2D 美术素材由 AI 参与制作。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4164790/",
+  "developer": "Midnight Workshop",
+  "publisher": "Lilith Games",
+  "steamReleaseDate": "Aug 12, 2026",
+  "genres": [
+    "Adventure",
+    "RPG",
+    "Simulation",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4164790/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-03",
+      "excerpt": "Artificial intelligence was used in the creation of some of the game's 2D art assets."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4164790/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-03",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 287）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://opencredits.games/games/survival-log",
+      "label": "Open Credits 本作分析页（称披露未说明部位）",
+      "date": "2026-11-03",
+      "excerpt": "developer disclosed AI use on Steam without saying which parts of the game it was used for."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Midnight Workshop，发行商 Lilith Games）与英文讨论区首页（可见 15 个主题，总数 287），首页没有与 AI 使用直接相关的主题，未逐帖展开。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源（Open Credits 本作分析页）。该页称“披露未说明用于哪些部分”，与其核查日期（2026 年 9 月 28 日）所见的文本一致，而当前商店披露已明确写出部分 2D 美术素材，因此该页只按第三方转录登记，判定仍以商店原文为准。其余结果为本作商店页、Steam 畅销榜汇总新闻、Key 商城与日文博客。领域判定全部来自商店披露原文，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Artificial intelligence was used in the creation of some of the game's 2D art assets.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-03 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A zombie-apocalypse hoarding and survival simulation released on Aug 12, 2026 and published by Lilith Games. The developer states that artificial intelligence was used in the creation of some of the game's 2D art assets.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer Midnight Workshop, publisher Lilith Games) and the English discussion homepage (15 visible topics of 287); no homepage topic directly concerns AI use and individual threads were not opened. This title was searched 1 time with 6 results and 1 raw source(s) were read; the Open Credits page states that the disclosure does not say which parts used AI, which matches the text as that site checked it on Sep 28, 2026, while the current store disclosure does name some 2D art assets, so the page is logged as a third-party transcription and the store text stays authoritative. The remaining results were the store page, a Steam bestseller roundup, a key shop and a Japanese blog post. Every area finding comes from the store disclosure text itself and rests on the developer's own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure states that artificial intelligence was used in the creation of some of the game's 2D art assets.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "207757898533fc4e7def24cb794520936a76c49ff2bc26e1e75a65ece1d656c9"
+  }
+}
