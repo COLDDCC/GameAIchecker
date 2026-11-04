@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Bandit Simulator TD on Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://store.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=YzJgj1FjzW34&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_global.css?v=74peH5tT7Gwq&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/buttons.css?v=BZhNEtESfYSJ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/store.css?v=x0q56gZkJ3LX&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/styles_linux.css?v=LcZAgwD7_TSW&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/user_reviews.css?v=4Y9yEq8NT1VV&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_game_shared.css?v=nT5MkvCFxFip&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game.css?v=oPGo1qbajirN&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_background_shared.css?v=QdtB2XtIVYaK&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/recommended.css?v=nYH-OD7CvrVG&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/user_reviews_rewards.css?v=nDJVyLGQ1XMI&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/apphub.css?v=ieeWyHhqrM5C&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/ui-lightness/jquery-ui-1.7.2.custom.css?v=qgq7mHqEwLbE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game_mob.css?v=CTwny5wDcEg7&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=yDhbieTgQ-uc&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=NXam5zydzNu8&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=lqbABc7pOZZC&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/main.js?v=VXExFbFD9rs7&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js?v=7IbaKUfZfESM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				$J.data( document, 'x_readytime', new Date().getTime() );
+				$J.data( document, 'x_oldref', GetNavCookie() );
+				SetupTooltips( { tooltipCSSClass: 'store_tooltip'  } );
+		});
+		</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/gamehighlightplayer.js?v=mdJgU3gDKmis&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/user_reviews.js?v=WeNgYWdq8VoL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/app_tagging.js?v=X8GLJ7ITdwu4&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/game.js?v=3ayU8zTvznsI&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.min.js?v=mSfqk1QKKgiz&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.min.js?v=MeIf0YViALgL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.min.js?v=CIECDYHJjBgN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.min.js?v=laPWW88ZIIHe&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/dselect.js?v=xOLWzo6KWkKr&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-ui-1.9.2.js?v=wxKVOzU-zSuN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="This is a &amp;quot;Tower Defense + Base Building&amp;quot; game where you establish a bandit stronghold from scratch. With &amp;quot;Tower defense&amp;quot; at its core, you can ambush travelers, develop characters through profession and equipment systems, and expand your stronghold by researching, forging, and constructing!">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Bandit Simulator TD on Steam">
+					<meta property="twitter:title" content="Bandit Simulator TD on Steam">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:url" content="https://store.steampowered.com/app/4267800/Bandit_Simulator_TD/">
+					<meta property="og:description" content="This is a &amp;quot;Tower Defense + Base Building&amp;quot; game where you establish a bandit stronghold from scratch. With &amp;quot;Tower defense&amp;quot; at its core, you can ambush travelers, develop characters through profession and equipment systems, and expand your stronghold by researching, forging, and constructing!">
+					<meta property="twitter:description" content="This is a &amp;quot;Tower Defense + Base Building&amp;quot; game where you establish a bandit stronghold from scratch. With &amp;quot;Tower defense&amp;quot; at its core, you can ambush travelers, develop characters through profession and equipment systems, and expand your stronghold by researching, forging, and constructing!">
+			
+			<link rel="canonical" href="https://store.steampowered.com/app/4267800/Bandit_Simulator_TD/">
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/3372c0538bf8a0c781a92bdfabc051c0d1d444af/capsule_616x353.jpg?t=1792161965">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/3372c0538bf8a0c781a92bdfabc051c0d1d444af/capsule_616x353.jpg?t=1792161965">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/3372c0538bf8a0c781a92bdfabc051c0d1d444af/capsule_616x353.jpg?t=1792161965" />
+				
+	
+	
+	
+	
+	</head>
+<body class="v6 app game_bg menu_background_overlap application widestore v7menu responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com/login/?redir=app%2F4267800%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">
+									Sign in								</a>
+															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-responsive-menu">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-responsive-menu">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-responsive-menu">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-responsive-menu">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-responsive-menu">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-responsive-menu">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/?snr=1_5_9__global-responsive-menu" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_5_9__global-responsive-menu" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+															<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+					<div class="responsive_header_react_target" data-featuretarget="store-menu-responsive-search"><div class="responsive_header_react_placeholder"></div></div>				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/?snr=1_5_9__global-header" aria-label="Link to the Steam Homepage">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-header">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-header">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-header">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-header">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-header">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-header">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=app%2F4267800%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<div class="StoreMenuLoadingPlaceholder" data-featuretarget="store-menu-v7"><div class="PlaceholderInner"></div></div><div id="responsive_store_nav_ctn"></div><div id="responsive_store_nav_overlay" style="display:none"><div id="responsive_store_nav_overlay_ctn"></div><div id="responsive_store_nav_overlay_bottom"></div></div><div id="responsive_store_search_overlay" style="display:none"></div><div data-cart-banner-spot="1"></div>
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793754762,&quot;PAGE_TIMESTAMP&quot;:1793757593,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1793757593,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;1_5_9_&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[3,4]}" data-hwinfo="{&quot;bSteamOS&quot;:false,&quot;bSteamDeck&quot;:false,&quot;bSteamMachine&quot;:false,&quot;bSteamFrame&quot;:false}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-store_page_asset_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/%s?t=1792161965&quot;" data-store_page_extra_assets_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/%s?t=1792161965&quot;" data-store_page_extra_assets_map="{&quot;extras\/\u56fe3&quot;:[{&quot;urlPart&quot;:&quot;extras\/a220c83bd551be4317e909e4d09a3889.avif&quot;,&quot;extension&quot;:&quot;avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:&quot;extras_big\/a220c83bd551be4317e909e4d09a3889.webp&quot;,&quot;width&quot;:&quot;1560&quot;,&quot;height&quot;:&quot;406&quot;}],&quot;extras\/\u56fe5&quot;:[{&quot;urlPart&quot;:&quot;extras\/2a3ad8a1237383f467db743f5e2f393d.avif&quot;,&quot;extension&quot;:&quot;avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:&quot;extras_big\/2a3ad8a1237383f467db743f5e2f393d.webp&quot;,&quot;width&quot;:&quot;1560&quot;,&quot;height&quot;:&quot;575&quot;}],&quot;extras\/\u56fe1&quot;:[{&quot;urlPart&quot;:&quot;extras\/1edc8f2c0ef2515d17714a127050b049.avif&quot;,&quot;extension&quot;:&quot;avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:&quot;extras_big\/1edc8f2c0ef2515d17714a127050b049.webp&quot;,&quot;width&quot;:&quot;1560&quot;,&quot;height&quot;:&quot;703&quot;}],&quot;extras\/\u56fe2&quot;:[{&quot;urlPart&quot;:&quot;extras\/58cd0dc9a5ebbd95511d370981d49f22.avif&quot;,&quot;extension&quot;:&quot;avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:&quot;extras_big\/58cd0dc9a5ebbd95511d370981d49f22.webp&quot;,&quot;width&quot;:&quot;1560&quot;,&quot;height&quot;:&quot;597&quot;}],&quot;extras\/\u56fe4&quot;:[{&quot;urlPart&quot;:&quot;extras\/6eda81907c00ff0128bef34e1e09e9d7.avif&quot;,&quot;extension&quot;:&quot;avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:&quot;extras_big\/6eda81907c00ff0128bef34e1e09e9d7.webp&quot;,&quot;width&quot;:&quot;1560&quot;,&quot;height&quot;:&quot;636&quot;}],&quot;extras\/\u4f5c\u8005\u6e38\u620f\u63a8\u8350&quot;:[{&quot;urlPart&quot;:&quot;extras\/81cb27bd8027756f9bbe7be67ef5c595.avif&quot;,&quot;extension&quot;:&quot;avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;600&quot;,&quot;height&quot;:&quot;275&quot;}]}" data-hardwarecompatibility="{&quot;appid&quot;:4267800,&quot;resolved_category&quot;:2,&quot;resolved_items&quot;:[{&quot;display_type&quot;:3,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice&quot;},{&quot;display_type&quot;:3,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible&quot;},{&quot;display_type&quot;:3,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_NativeResolutionNotDefault&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant&quot;}],&quot;steam_deck_blog_url&quot;:&quot;&quot;,&quot;search_id&quot;:null,&quot;steamos_resolved_category&quot;:2,&quot;steamos_resolved_items&quot;:[{&quot;display_type&quot;:3,&quot;loc_token&quot;:&quot;#SteamOS_TestResult_GameStartupFunctional&quot;}],&quot;machine_resolved_category&quot;:2,&quot;machine_resolved_items&quot;:[{&quot;display_type&quot;:3,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional&quot;},{&quot;display_type&quot;:4,&quot;loc_token&quot;:&quot;#SteamMachine_TestResult_DefaultConfigurationIsPerformant&quot;}],&quot;frame_resolved_category&quot;:null,&quot;frame_resolved_items&quot;:[]}" data-appname="&quot;Bandit Simulator TD&quot;" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:{&quot;domain&quot;:&quot;store.steampowered.com&quot;,&quot;controller&quot;:&quot;direct-navigation&quot;,&quot;method&quot;:&quot;&quot;,&quot;submethod&quot;:&quot;&quot;,&quot;feature&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;countrycode&quot;:&quot;&quot;,&quot;webkey&quot;:null,&quot;is_client&quot;:false,&quot;curator_data&quot;:null,&quot;is_likely_bot&quot;:false,&quot;is_utm&quot;:false},&quot;wishlist_item_count&quot;:0}"></div><div id="application_root"></div><script>window.g_wapit="";</script><link href="https://store.fastly.steamstatic.com/public/css/applications/store/main.css?v=WeGIkJqN9Dw8&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11203085";</script>
+<script type="module" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js?contenthash=CFzBcxgL"></script>
+<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_Languages = ["english"];
+	var g_sessionID = "3ca3b9568e825d6771dc880b";
+	var g_ServerTime = 1793757593;
+	var g_bUseNewCartAPI = true;
+
+			$J( InitMiniprofileHovers( 'https%3A%2F%2Fstore.steampowered.com%2F' ) );
+	
+	
+	if ( typeof GStoreItemData != 'undefined' )
+	{
+		GStoreItemData.AddNavParams({
+			__page_default: "1_5_9_",
+			__page_default_obj: {"domain":"store.steampowered.com","controller":"application","method":"app","submethod":"","feature":null,"depth":null,"countrycode":"US","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":null},
+			__originating_obj: {"domain":"store.steampowered.com","controller":"direct-navigation","method":"","submethod":"","feature":"","depth":0,"countrycode":"","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":false},
+			storemenu_recommendedtags: "1_5_9__17"		});
+	}
+
+	if ( typeof GDynamicStore != 'undefined' )
+	{
+		GDynamicStore.Init(0, false, "", {"primary_language":null,"secondary_languages":null,"platform_windows":null,"platform_mac":null,"platform_linux":null,"timestamp_updated":null,"hide_store_broadcast":null,"review_score_preference":null,"timestamp_content_descriptor_preferences_updated":null,"provide_deck_feedback":null,"additional_languages":null,"game_frame_rate_reporting":null,"disable_microtrailers":null,"disable_animated_marketing":null}, 'US',
+			{"bNoDefaultDescriptors":false});
+		GStoreItemData.SetCurrencyFormatter(function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ".", ","); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + "$" + fmt( nValueInCents, bWholeUnitsOnly );});
+		GStoreItemData.SetCurrencyMinPriceIncrement(1);
+	}
+</script>
+
+<script type="text/javascript">
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"294100":{"name":"RimWorld","url_name":"RimWorld","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$34.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/294100\/a805ac5e3ceb54a2d7d3e1c1049907f1ef8bbb89\/capsule_184x69.jpg?t=1782756789","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32942316]},"108600":{"name":"Project Zomboid","url_name":"Project_Zomboid","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$24.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/108600\/capsule_184x69.jpg?t=1793224893","os_windows":true,"os_macos":true,"os_linux":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"status_string":"Early Access Now Available"},"413150":{"name":"Stardew Valley","url_name":"Stardew_Valley","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/413150\/capsule_184x69.jpg?t=1786554168","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32938395]},"427520":{"name":"Factorio","url_name":"Factorio","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3500\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$35.00<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/427520\/2dca545120676172d4b6db984d210a7fdc387a1e\/capsule_184x69.jpg?t=1792752343","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"5160800":{"name":"Find The Needle","url_name":"Find_The_Needle","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5160800\/3dec380fa3c66a40ffc1d36be2ac518cf9dcda05\/capsule_184x69.jpg?t=1793692964","os_windows":true,"early_access":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Nov 6, 2026","coming_soon_string":"Coming Nov 6, 2026","localized":true,"localized_english":true,"creator_clan_ids":[46629528]},"4731620":{"name":"Fortune Mill","url_name":"Fortune_Mill","discount_block":"<div class=\"discount_block \" data-price-final=\"519\" data-bundlediscount=\"0\" data-discount=\"35\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-35%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$7.99<\/div><div class=\"discount_final_price\">$5.19<\/div><\/div><span class=\"discount_aria_label\">35% off. $7.99 normally, discounted to $5.19<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4731620\/baf682fe0acb0b037a0825b85d7b60bb203f76d7\/capsule_184x69.jpg?t=1788113305","os_windows":true,"os_macos":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[44064918]},"3669570":{"name":"Alchemy Factory","url_name":"Alchemy_Factory","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$17.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3669570\/0d6a99c774333d83944373b1c0fedbd70feb3a06\/capsule_184x69.jpg?t=1789021559","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33788459]},"2162800":{"name":"shapez 2 - Factory","url_name":"shapez_2_Factory","discount_block":"<div class=\"discount_block \" data-price-final=\"2399\" data-bundlediscount=\"0\" data-discount=\"40\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-40%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$39.99<\/div><div class=\"discount_final_price\">$23.99<\/div><\/div><span class=\"discount_aria_label\">40% off. $39.99 normally, discounted to $23.99<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2162800\/5cdaa9e8359c7c39de9b96aeba814616c59641cb\/capsule_184x69.jpg?t=1788787557","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[41012350,33788459]},"2764460":{"name":"Sandustry","url_name":"Sandustry","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2764460\/f0a29d6c91be4e91e9fa2f384dd5ae695bfd6b5b\/capsule_184x69.jpg?t=1793270057","os_windows":true,"os_macos":true,"os_linux":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45559613,38719421]},"599140":{"name":"Graveyard Keeper","url_name":"Graveyard_Keeper","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/599140\/cd8cb8097f236a6cfcaa2a08381f31775693fac1\/capsule_184x69.jpg?t=1791579735","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[32946824,6858705]},"1013320":{"name":"Firestone \u2013 Idle Clicker Online RPG","url_name":"Firestone_Idle_Clicker_Online_RPG","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1013320\/d9973d69341f243522322d5742c81a451e40f839\/capsule_184x69.jpg?t=1793716434","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[35249244]},"457140":{"name":"Oxygen Not Included","url_name":"Oxygen_Not_Included","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$24.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/457140\/capsule_184x69.jpg?t=1790785089","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[112393,46307133]},"47890":{"name":"The Sims\u2122 3","url_name":"The_Sims_3","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/47890\/capsule_184x69.jpg?t=1738703889","os_windows":true,"has_live_broadcast":false,"mastersub_granting_app":{"capsule":"https:\/\/cdn.fastly.steamstatic.com\/store\/mastersubs\/eaplay\/eaplay.svg","name":"EA Play"},"localized":true,"localized_english":true,"status_string":"New DLC Available!","creator_clan_ids":[37140763,36135791]},"3115220":{"name":"Town to City","url_name":"Town_to_City","discount_block":"<div class=\"discount_block \" data-price-final=\"2249\" data-bundlediscount=\"0\" data-discount=\"25\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-25%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$29.99<\/div><div class=\"discount_final_price\">$22.49<\/div><\/div><span class=\"discount_aria_label\">25% off. $29.99 normally, discounted to $22.49<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3115220\/afb81e9e9cd4cc5d942d9b50e3f4d99b541bca84\/capsule_184x69.jpg?t=1792506986","os_windows":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[44386682,39269540]},"588430":{"name":"Fallout Shelter","url_name":"Fallout_Shelter","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/588430\/215588003e8684f96229d5d86dd1e837b3661a8d\/capsule_184x69.jpg?t=1792675580","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33028765,35501442]},"4207990":{"name":"GemCraft - Legacy Collection","url_name":"GemCraft_Legacy_Collection","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$9.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4207990\/235e4c9ee8f229e81442a092abd055a6ecbd311f\/capsule_184x69_alt_assets_0.jpg?t=1792670139","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[4147632]},"1158160":{"name":"Coral Island","url_name":"Coral_Island","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1158160\/153ddc8eb755eaa1b94b592b5316a972acb715e5\/capsule_184x69.jpg?t=1781768008","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45356176,6869120]},"4740930":{"name":"Legend of Defenders","url_name":"Legend_of_Defenders","discount_block":"<div class=\"discount_block \" data-price-final=\"980\" data-bundlediscount=\"0\" data-discount=\"30\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-30%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$14.00<\/div><div class=\"discount_final_price\">$9.80<\/div><\/div><span class=\"discount_aria_label\">30% off. $14.00 normally, discounted to $9.80<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4740930\/c039f0eefcde5abda7dd71d5cf6f18422d0b2d5a\/capsule_184x69_alt_assets_1.jpg?t=1793690576","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[42658688]},"4310440":{"name":"Crown Siege","url_name":"Crown_Siege","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$9.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4310440\/0dc98ce581e1818d37f981768bbf5962c4bf6bd1\/capsule_184x69.jpg?t=1791179815","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45722225,34486216]},"627690":{"name":"Idle Champions of the Forgotten Realms","url_name":"Idle_Champions_of_the_Forgotten_Realms","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/627690\/7d4bbd3e37b7242da26c8f1f85a165649d63b5b4\/capsule_184x69.jpg?t=1793658426","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32992558,46232247]},"1084600":{"name":"My Time at Sandrock","url_name":"My_Time_at_Sandrock","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1084600\/capsule_184x69.jpg?t=1792297629","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33359871,38511887]},"4538080":{"name":"Kingdom Inc.","url_name":"Kingdom_Inc","discount_block":"<div class=\"discount_block \" data-price-final=\"719\" data-bundlediscount=\"0\" data-discount=\"10\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-10%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$7.99<\/div><div class=\"discount_final_price\">$7.19<\/div><\/div><span class=\"discount_aria_label\">10% off. $7.99 normally, discounted to $7.19<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4538080\/b27678b6427532ef19434203fc4d91b67078ac28\/capsule_184x69.jpg?t=1793293302","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[46044565]},"436780":{"name":"Tavern Keeper \ud83c\udf7b","url_name":"Tavern_Keeper","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/436780\/ce5a851d599448045cb5439b223ff89f24248465\/capsule_184x69.jpg?t=1791434713","os_windows":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32974840]},"1454400":{"name":"Cookie Clicker","url_name":"Cookie_Clicker","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1454400\/capsule_184x69.jpg?t=1792369237","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32980145]},"3204330":{"name":"County of Fortune","url_name":"County_of_Fortune","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3204330\/758122006dfe5743634f459ca2185f3642a19468\/capsule_184x69.jpg?t=1793349057","os_windows":true,"os_linux":true,"early_access":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Nov 5, 2026","coming_soon_string":"Coming Nov 5, 2026","localized":true,"localized_english":true,"creator_clan_ids":[45611660]},"2295060":{"name":"Beyond These Stars","url_name":"Beyond_These_Stars","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2295060\/c060f4df90e23f39db22875fcf89d40a73a82e8f\/capsule_184x69.jpg?t=1793357696","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[43473596,38719421]},"3084810":{"name":"Tower Lab","url_name":"Tower_Lab","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$9.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3084810\/5b53d93b701bae22dba05e9b1cfccd3945e9ac92\/capsule_184x69.jpg?t=1788909160","os_windows":true,"os_macos":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"246620":{"name":"Plague Inc: Evolved","url_name":"Plague_Inc_Evolved","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/246620\/6360836e806dacf895d368663da4bb7c626bb661\/capsule_184x69.jpg?t=1792426460","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"status_string":"Now Available on Linux!","creator_clan_ids":[6858865]},"2897580":{"name":"Idle Hero TD - Tower Defense RPG","url_name":"Idle_Hero_TD_Tower_Defense_RPG","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2897580\/capsule_184x69.jpg?t=1785757332","os_windows":true,"os_macos":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"233450":{"name":"Prison Architect","url_name":"Prison_Architect","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[1,2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/233450\/capsule_184x69.jpg?t=1759221867","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[32795128,41245051,6859167]}},"rgPackages":{"1493381":{"name":"Bandit Simulator TD","url_name":"Bandit_Simulator_TD","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1199\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$11.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/c7b1ea6202d25e4f9165abbae7c1cc7b843e1732\/capsule_sm_120.jpg?t=1792161965","tags":["Idler","Tower Defense","Xianxia","Loot","2D"],"tagids":[615955,1645,760247,4236,3871,492],"os_windows":true,"appids":[4267800],"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]},"1812639":{"name":"Bandit Simulator TD - Supporters Pack","url_name":"Bandit_Simulator_TD__Supporters_Pack","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5240540\/fb2980085161e678db00ad3178d1cc523100aa26\/capsule_sm_120.jpg?t=1791770337","tags":["Idler","Tower Defense","Xianxia","Loot","Strategy"],"tagids":[615955,1645,760247,4236,9,122],"os_windows":true,"appids":[5240540],"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]},"992317":{"name":"Multiverse Loot Hunter","url_name":"Multiverse_Loot_Hunter","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1199\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$11.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2776450\/2031198ba20cfc2b51b05c82f5cc22d0df4cc20f\/capsule_sm_120.jpg?t=1768120880","tags":["Creature Collector","RPG","Loot","Idler","Time Travel"],"tagids":[916648,122,4236,615955,10679,4325],"os_windows":true,"appids":[2776450],"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]},"1370467":{"name":"Multiverse Loot Hunter - Supporters Pack","url_name":"Multiverse_Loot_Hunter__Supporters_Pack","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3899280\/62b8a094858cffe51e2a0eecd621a4e74c3bdf67\/capsule_sm_120.jpg?t=1755267946","tags":["Strategy","Adventure","RPG","Indie","Casual"],"tagids":[9,21,122,492,597,599],"os_windows":true,"appids":[3899280],"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]},"1484675":{"name":"Multiverse Loot Hunter - God Realm DLC","url_name":"Multiverse_Loot_Hunter__God_Realm_DLC","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"699\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$6.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4241290\/91df57049b146411c1ba7901275c44afefe75a25\/capsule_sm_120.jpg?t=1766144431","tags":["RPG","Creature Collector","Strategy","Loot","Idler"],"tagids":[122,916648,9,4236,615955,10679],"os_windows":true,"appids":[4241290],"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]},"586267":{"name":"Xiuzhen Idle","url_name":"Xiuzhen_Idle","discount_block":"<div class=\"discount_block \" data-price-final=\"479\" data-bundlediscount=\"0\" data-discount=\"20\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-20%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$5.99<\/div><div class=\"discount_final_price\">$4.79<\/div><\/div><span class=\"discount_aria_label\">20% off. $5.99 normally, discounted to $4.79<\/span><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1649730\/capsule_sm_120.jpg?t=1768121020","tags":["Idler","Indie","Word Game","Casual","RPG"],"tagids":[615955,492,24003,597,122,493],"os_windows":true,"appids":[1649730],"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]},"873186":{"name":"Xiuzhen Idle DLC - Cosmetics","url_name":"Xiuzhen_Idle_DLC__Cosmetics","discount_block":"<div class=\"discount_block \" data-price-final=\"179\" data-bundlediscount=\"0\" data-discount=\"10\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-10%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$1.99<\/div><div class=\"discount_final_price\">$1.79<\/div><\/div><span class=\"discount_aria_label\">10% off. $1.99 normally, discounted to $1.79<\/span><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2426820\/capsule_sm_120.jpg?t=1718716570","tags":["Strategy","RPG","Indie","Casual","Simulation"],"tagids":[9,122,492,597,599],"os_windows":true,"appids":[2426820],"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]},"1003852":{"name":"Xiuzhen Idle DLC - Talismans","url_name":"Xiuzhen_Idle_DLC__Talismans","discount_block":"<div class=\"discount_block \" data-price-final=\"179\" data-bundlediscount=\"0\" data-discount=\"10\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-10%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$1.99<\/div><div class=\"discount_final_price\">$1.79<\/div><\/div><span class=\"discount_aria_label\">10% off. $1.99 normally, discounted to $1.79<\/span><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2811350\/capsule_sm_120.jpg?t=1718717189","tags":["Strategy","RPG","Indie","Casual","Simulation"],"tagids":[9,122,492,597,599],"os_windows":true,"appids":[2811350],"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]},"872130":{"name":"Space Industrial Empire","url_name":"Space_Industrial_Empire","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"599\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$5.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2423620\/capsule_sm_120.jpg?t=1768121089","tags":["Automation","Space","Indie","Management","Idler"],"tagids":[255534,1755,492,12472,615955,9],"os_windows":true,"appids":[2423620],"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]},"905912":{"name":"Space industrial empire\uff1aSpace behemoth","url_name":"Space_industrial_empireSpace_behemoth","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2520270\/capsule_sm_120.jpg?t=1719466415","tags":["Casual","Strategy","Indie"],"tagids":[597,9,492],"os_windows":true,"appids":[2520270],"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[44065864]}},"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		recommend_franchise: "1_5_9__316",
+		more_from_franchise: "1_5_9__317",
+		bundle_component_preview: "1_5_9__412",
+		recommended_ranked_played: "1_5_9__862",
+	} );
+
+	// Temporary code to allow React to move focus to elements that are non-React.
+	function MoveFocusToId( id )
+	{
+		$el = $J( id );
+		if ( $el.length )
+		{
+			$el[0].focus();
+		}
+	}
+	window.MoveFocusToId = MoveFocusToId;
+
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+		// on Tablet wait to do this when the window is fully loaded - see OnPageLoaded()
+		ReparentAppLandingPageForSmallScreens();
+
+		
+			var usability = InitUsabilityTracker( "https:\/\/store.steampowered.com\/app\/usabilitytracking\/4267800" );
+		usability.ScheduleUpload();
+	
+		
+			} );
+
+	
+	function OpenTagModal()
+	{
+		ShowAppTagModal( 4267800 );
+	}
+
+</script>
+
+<div class="game_page_background game" data-miniprofile-appid=4267800>
+
+	
+			<div class="banner_open_in_steam">
+			<div data-featuretarget="open-in-desktop-client"></div>
+		</div>
+	
+	
+	<div  data-featuretarget="apppage-store-browse-cache" data-props="{&quot;rgPayloads&quot;:[{&quot;dataRequestStoreItems&quot;:{&quot;include_assets&quot;:null,&quot;include_release&quot;:null,&quot;include_platforms&quot;:null,&quot;include_all_purchase_options&quot;:null,&quot;include_screenshots&quot;:null,&quot;include_trailers&quot;:null,&quot;include_ratings&quot;:true,&quot;include_tag_count&quot;:null,&quot;include_reviews&quot;:null,&quot;include_basic_info&quot;:null,&quot;include_supported_languages&quot;:null,&quot;include_full_description&quot;:null,&quot;include_included_items&quot;:null,&quot;included_item_data_request&quot;:null,&quot;include_assets_without_overrides&quot;:null,&quot;apply_user_filters&quot;:null,&quot;include_links&quot;:null,&quot;include_extra_details&quot;:null,&quot;include_best_purchase_option&quot;:true,&quot;include_optin_registration_tags&quot;:null},&quot;rgStoreItems&quot;:[{&quot;item_type&quot;:0,&quot;id&quot;:4267800,&quot;gid&quot;:null,&quot;success&quot;:1,&quot;visible&quot;:1,&quot;unvailable_for_country_restriction&quot;:null,&quot;name&quot;:&quot;Bandit Simulator TD&quot;,&quot;store_url_path&quot;:&quot;app/4267800/Bandit_Simulator_TD&quot;,&quot;store_url_slug&quot;:&quot;Bandit_Simulator_TD&quot;,&quot;appid&quot;:4267800,&quot;type&quot;:0,&quot;included_types&quot;:[],&quot;included_appids&quot;:[],&quot;is_free&quot;:null,&quot;is_early_access&quot;:null,&quot;related_items&quot;:null,&quot;included_items&quot;:null,&quot;content_descriptorids&quot;:[],&quot;tagids&quot;:[],&quot;categories&quot;:{&quot;supported_player_categoryids&quot;:[2],&quot;feature_categoryids&quot;:[22,74,79,23,62],&quot;controller_categoryids&quot;:[]},&quot;reviews&quot;:null,&quot;basic_info&quot;:null,&quot;tags&quot;:[],&quot;assets&quot;:null,&quot;release&quot;:null,&quot;platforms&quot;:null,&quot;game_rating&quot;:null,&quot;is_coming_soon&quot;:null,&quot;best_purchase_option&quot;:{&quot;packageid&quot;:1493381,&quot;bundleid&quot;:null,&quot;purchase_option_name&quot;:&quot;Bandit Simulator TD&quot;,&quot;final_price_in_cents&quot;:&quot;1199&quot;,&quot;original_price_in_cents&quot;:null,&quot;formatted_final_price&quot;:&quot;$11.99&quot;,&quot;formatted_original_price&quot;:null,&quot;discount_pct&quot;:null,&quot;bundle_discount_pct&quot;:null,&quot;is_free_to_keep&quot;:null,&quot;price_before_bundle_discount&quot;:null,&quot;formatted_price_before_bundle_discount&quot;:null,&quot;active_discounts&quot;:[],&quot;user_can_purchase_as_gift&quot;:1,&quot;is_commercial_license&quot;:null,&quot;should_suppress_discount_pct&quot;:null,&quot;hide_discount_pct_for_compliance&quot;:0,&quot;included_game_count&quot;:1,&quot;lowest_recent_price_in_cents&quot;:null,&quot;requires_shipping&quot;:null,&quot;recurrence_info&quot;:null,&quot;free_to_keep_ends&quot;:null,&quot;must_purchase_as_set&quot;:0,&quot;package_group&quot;:&quot;default&quot;,&quot;is_edition&quot;:null,&quot;free_to_keep_base_package&quot;:null,&quot;price_cannot_be_displayed_as_discount&quot;:0,&quot;price_to_base_discount_on&quot;:null,&quot;free_with_master_sub_appid&quot;:null,&quot;formatted_lowest_recent_price&quot;:null,&quot;is_free_license&quot;:null,&quot;combined_discount_pct&quot;:null},&quot;purchase_options&quot;:[],&quot;self_purchase_option&quot;:null,&quot;screenshots&quot;:null,&quot;trailers&quot;:null,&quot;supported_languages&quot;:[],&quot;store_url_path_override&quot;:null,&quot;free_weekend&quot;:null,&quot;unlisted&quot;:null,&quot;game_count&quot;:null,&quot;internal_name&quot;:null,&quot;full_description_bbcode&quot;:null,&quot;is_free_temporarily&quot;:null,&quot;assets_without_overrides&quot;:null,&quot;user_filter_failure&quot;:null,&quot;links&quot;:[],&quot;purchase_description_bbcode&quot;:null,&quot;package_groups&quot;:[],&quot;extra_details&quot;:null,&quot;optin_registration_tags&quot;:[],&quot;purchase_notes&quot;:[]}]}]}"></div><div  data-featuretarget="apppage-gameinterest-cache" data-props="{&quot;appid&quot;:4267800,&quot;userInterest&quot;:{&quot;owned&quot;:null,&quot;wishlist&quot;:null,&quot;ignored&quot;:null,&quot;following&quot;:null,&quot;in_queues&quot;:[],&quot;queues_with_skip&quot;:[],&quot;queue_items_remaining&quot;:[],&quot;queue_items_next_appid&quot;:[],&quot;temporarily_owned&quot;:null,&quot;queues&quot;:[],&quot;ignored_reason&quot;:null,&quot;beta_status&quot;:null}}"></div>
+	<!-- page width wrapper: gutters, max width and the horizontal bleed variable -->
+	<div id="tabletGrid" class="tablet_grid">
+
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+
+		<meta itemprop="image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/c7b1ea6202d25e4f9165abbae7c1cc7b843e1732/capsule_231x87.jpg?t=1792161965">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" style="display: none;">
+				<meta itemprop="priceCurrency" content="USD">
+				<meta itemprop="price" content="11.99">
+							</div>
+		
+		<div class="page_top_area">
+						<div class="game_page_background_ctn game">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/d8c06b21b4f4a1377e4b7525f3c57e986e4166da/ss_d8c06b21b4f4a1377e4b7525f3c57e986e4166da.1920x1080.jpg?t=1792161965" class="gameColor" alt="">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/d8c06b21b4f4a1377e4b7525f3c57e986e4166da/ss_d8c06b21b4f4a1377e4b7525f3c57e986e4166da.1920x1080.jpg?t=1792161965" class="gameTexture" alt="">
+			</div>
+
+		<div class="page_title_area game_title_area page_content" data-gpnav="columns">
+			<div class="breadcrumbs" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+								<div class="blockbg">
+											<a href="https://store.steampowered.com/search/?term=&snr=1_5_9__205">All Games</a>
+																					&gt; <a href="https://store.steampowered.com/genre/Indie/?snr=1_5_9__205">Indie Games</a>
+																										&gt; <a href="https://store.steampowered.com/app/4267800/?snr=1_5_9__205"><span itemprop="name">Bandit Simulator TD</span></a>
+									</div>
+				<div style="clear: inline-start;"></div>
+							</div>
+						
+
+<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+		                      <div class="apphub_OtherSiteInfo">
+
+                    
+                <a class="btnv6_blue_hoverfade btn_medium" href="https://steamcommunity.com/app/4267800">
+                    <span>Community Hub</span>
+                </a>
+            </div>
+         		<div class="apphub_AppIcon"><img src="https://shared.akamai.steamstatic.com/community_assets/images/apps/4267800/dfabe8cd865881b7c2c0d03cbb4fdea6a7a9a136.jpg"><div class="overlay"></div></div>
+		<div id="appHubAppName" class="apphub_AppName" role="heading" aria-level="1">Bandit Simulator TD</div>
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+											</div>
+		<div style="clear: inline-start;"></div>
+
+
+		<div class="block game_media_and_summary_ctn">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+			</script>
+
+			
+			<div class="game_background_glow">
+				
+
+				
+								
+				
+					
+								<div id="page_header_img" class="responsive_page_header_img" style="display: none;">
+					<img style="width:100%;" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/576b1470407bfd98c32eb218f27edba26ce728f1/header.jpg?t=1792161965" alt="Bandit Simulator TD">
+				</div>
+
+				<div class="block_content page_content" id="broadcast">
+
+				
+				</div>
+				<div class="block_content page_content" id="game_highlights" data-panel="{&quot;navKey&quot;:&quot;game_highlights&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+
+				<div class="rightcol" data-panel="{&quot;flow-children&quot;:&quot;column&quot;,&quot;navKey&quot;:&quot;rightcol&quot;}">
+					<div class="glance_ctn">
+												<div id="gameHeaderCtn" class="game_header_ctn">
+							<div id="gameHeaderImageCtn" class="game_header_image_ctn">
+								<img class="game_header_image_full" alt="" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/576b1470407bfd98c32eb218f27edba26ce728f1/header.jpg?t=1792161965">
+
+																<div id="appHubAppName_responsive" style="display: none;" class="apphub_AppName">Bandit Simulator TD</div>
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="appHeaderGridContainer" class="app_header_grid_container" style="display:none">
+
+																			<div class="grid_label">Developer</div>
+										<div class="grid_content">
+											<a href="https://store.steampowered.com/curator/44065864?snr=1_5_9__400">游戏养家工作室</a>										</div>
+																																							<div class="grid_label">Publisher</div>
+											<div class="grid_content">
+												<a href="https://store.steampowered.com/curator/44065864?snr=1_5_9__400">游戏养家工作室</a>											</div>
+																			
+																			<div class="grid_label grid_date">Released</div>
+										<div class="grid_content grid_date">
+											Oct 11, 2026										</div>
+																	</div>
+							</div>
+															<div class="game_description_snippet">
+									This is a &quot;Tower Defense + Base Building&quot; game where you establish a bandit stronghold from scratch. With &quot;Tower defense&quot; at its core, you can ambush travelers, develop characters through profession and equipment systems, and expand your stronghold by researching, forging, and constructing!								</div>
+													</div> 												<div id="glanceMidCtn" class="glance_mid_ctn">
+						<div class="glance_ctn_responsive_left">
+																													<div id="userReviews" class="user_reviews">
+
+									
+																		<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="74% of the 445 user reviews for this game are positive." itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">
+											All Reviews:										</div>
+										<div class="summary column">
+																					<span class="game_review_summary positive" itemprop="description">Mostly Positive</span>
+																							<span class="responsive_hidden">
+													(445)
+												</span>
+																																	<span class="nonresponsive_hidden responsive_reviewdesc">
+												- 74% of the 445 user reviews for this game are positive.											</span>
+
+											<!-- microdata -->
+											<meta itemprop="reviewCount" content="445">
+											<meta itemprop="ratingValue" content="7">
+											<meta itemprop="bestRating" content="10">
+											<meta itemprop="worstRating" content="1">
+																				</div>
+									</a>
+								</div>
+							
+															<div class="release_date">
+									<div class="subtitle column">Release Date:</div>
+									<div class="date">Oct 11, 2026</div>
+								</div>
+							
+																						<div class="dev_row">
+									<div class="subtitle column">Developer:</div>
+									<div class="summary column" id="developers_list">
+										<a href="https://store.steampowered.com/curator/44065864?snr=1_5_9__2000">游戏养家工作室</a>									</div>
+								</div>
+							
+																								<div class="dev_row">
+										<div class="subtitle column">Publisher:</div>
+										<div class="summary column">
+										<a href="https://store.steampowered.com/curator/44065864?snr=1_5_9__2000">游戏养家工作室</a>										</div>
+									</div>
+															
+																				</div>
+
+						<div id="glanceCtnResponsiveRight" class="glance_ctn_responsive_right" data-panel="{&quot;navKey&quot;:&quot;glanceCtnResponsiveRight&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="responsive_block_header">Tags</div>
+									<div class="glance_tags_ctn popular_tags_ctn" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+										<div class="glance_tags_label">Popular user-defined tags for this product:</div>
+										<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="glance_tags popular_tags" data-appid="4267800">
+											<a href="https://store.steampowered.com/tags/en/Idler/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Idler												</a><a href="https://store.steampowered.com/tags/en/Tower%20Defense/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Tower Defense												</a><a href="https://store.steampowered.com/tags/en/Xianxia/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Xianxia												</a><a href="https://store.steampowered.com/tags/en/Loot/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Loot												</a><a href="https://store.steampowered.com/tags/en/2D/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												2D												</a><a href="https://store.steampowered.com/tags/en/Indie/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Indie												</a><a href="https://store.steampowered.com/tags/en/Singleplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Singleplayer												</a><a href="https://store.steampowered.com/tags/en/Strategy/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Strategy												</a><a href="https://store.steampowered.com/tags/en/RPG/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												RPG												</a><a href="https://store.steampowered.com/tags/en/Simulation/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Simulation												</a><a href="https://store.steampowered.com/tags/en/Casual/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Casual												</a><a href="https://store.steampowered.com/tags/en/Sandbox/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Sandbox												</a><a href="https://store.steampowered.com/tags/en/Building/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Building												</a><a href="https://store.steampowered.com/tags/en/Alternate%20History/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Alternate History												</a><a href="https://store.steampowered.com/tags/en/Base%20Building/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Base Building												</a><a href="https://store.steampowered.com/tags/en/Management/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Management												</a><a href="https://store.steampowered.com/tags/en/Artificial%20Intelligence/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Artificial Intelligence												</a><div class="app_tag add_button" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowAppTagModal( 4267800 )">+</div>
+										</div>
+									</div>
+																						</div> 																					<div id="reviewsHeader_responsive" style="display: none;" class="responsive_block_header">Reviews</div>
+															<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" id="userReviews_responsive" style="display: none;" class="user_reviews" onclick="window.location='#app_reviews_hash'">
+
+																		<a id="appReviewsAll_responsive" class="user_reviews_summary_row" href="#app_reviews_hash">
+										<div class="subtitle column all">All Reviews:</div>
+										<div class="summary column">
+																					<span class="responsive_reviewdesc_short">
+												<span class="desc_short">All Time:</span>
+																								<span class="game_review_summary positive">Mostly Positive</span>
+												(74% of 445)
+											</span>
+																				</div>
+									</a>
+
+																	</div>
+																				</div>
+					</div>
+				</div>
+
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;navKey&quot;:&quot;leftcol&quot;,&quot;flow-children&quot;:&quot;column&quot;}" class="leftcol">
+					<div class="highlight_ctn">
+													<div class="highlight_overflow">
+								<div class="gamehighlight_desktopskeleton">
+									<div class="gamehighlight_desktopskeleton_itemview"></div>
+									<div class="gamehighlight_desktopskeleton_stripitems"></div>
+									<div class="gamehighlight_desktopskeleton_stripscrollbar"></div>
+								</div>
+								<div class="gamehighlight_desktopcarousel" data-featuretarget="gamehighlight-desktopcarousel" data-props="{&quot;appName&quot;:&quot;Bandit Simulator TD&quot;,&quot;trailers&quot;:[{&quot;id&quot;:1,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257456464\/63d5ebb9a5b38101761c508384835b036c98f444\/movie_232x130.jpg?t=1791697144&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257456464\/63d5ebb9a5b38101761c508384835b036c98f444\/movie_600x337.jpg?t=1791697144&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/4267800\/1598831546&quot;,&quot;category&quot;:3,&quot;title&quot;:&quot;\u82f1\u6587\u5ba3\u4f20\u7247&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/4267800\/1598831546\/f1519fee70038abfa009b6c4e6f0bba0b39c50d3\/1791696611\/dash_av1.mpd?t=1791697144&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/4267800\/1598831546\/f1519fee70038abfa009b6c4e6f0bba0b39c50d3\/1791696611\/dash_h264.mpd?t=1791697144&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/4267800\/1598831546\/f1519fee70038abfa009b6c4e6f0bba0b39c50d3\/1791696611\/hls_264_master.m3u8?t=1791697144&quot;}],&quot;screenshots&quot;:[{&quot;name&quot;:&quot;504a8f3e5dc3ad6eecd3a7d0c9ced18b6b0455f8_ss_504a8f3e5dc3ad6eecd3a7d0c9ced18b6b0455f8.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/504a8f3e5dc3ad6eecd3a7d0c9ced18b6b0455f8\/ss_504a8f3e5dc3ad6eecd3a7d0c9ced18b6b0455f8.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/504a8f3e5dc3ad6eecd3a7d0c9ced18b6b0455f8\/ss_504a8f3e5dc3ad6eecd3a7d0c9ced18b6b0455f8.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/504a8f3e5dc3ad6eecd3a7d0c9ced18b6b0455f8\/ss_504a8f3e5dc3ad6eecd3a7d0c9ced18b6b0455f8.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #0&quot;},{&quot;name&quot;:&quot;515bd3d3016b167cd17a701a780da957d3c7b37d_ss_515bd3d3016b167cd17a701a780da957d3c7b37d.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/515bd3d3016b167cd17a701a780da957d3c7b37d\/ss_515bd3d3016b167cd17a701a780da957d3c7b37d.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/515bd3d3016b167cd17a701a780da957d3c7b37d\/ss_515bd3d3016b167cd17a701a780da957d3c7b37d.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/515bd3d3016b167cd17a701a780da957d3c7b37d\/ss_515bd3d3016b167cd17a701a780da957d3c7b37d.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #1&quot;},{&quot;name&quot;:&quot;d8c06b21b4f4a1377e4b7525f3c57e986e4166da_ss_d8c06b21b4f4a1377e4b7525f3c57e986e4166da.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/d8c06b21b4f4a1377e4b7525f3c57e986e4166da\/ss_d8c06b21b4f4a1377e4b7525f3c57e986e4166da.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/d8c06b21b4f4a1377e4b7525f3c57e986e4166da\/ss_d8c06b21b4f4a1377e4b7525f3c57e986e4166da.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/d8c06b21b4f4a1377e4b7525f3c57e986e4166da\/ss_d8c06b21b4f4a1377e4b7525f3c57e986e4166da.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #2&quot;},{&quot;name&quot;:&quot;88414e1d005995b275d57c38f0c97af5fc3f2b85_ss_88414e1d005995b275d57c38f0c97af5fc3f2b85.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/88414e1d005995b275d57c38f0c97af5fc3f2b85\/ss_88414e1d005995b275d57c38f0c97af5fc3f2b85.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/88414e1d005995b275d57c38f0c97af5fc3f2b85\/ss_88414e1d005995b275d57c38f0c97af5fc3f2b85.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/88414e1d005995b275d57c38f0c97af5fc3f2b85\/ss_88414e1d005995b275d57c38f0c97af5fc3f2b85.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #3&quot;},{&quot;name&quot;:&quot;5a75237ba2c38982dbbacc3370f65b3bba9c821c_ss_5a75237ba2c38982dbbacc3370f65b3bba9c821c.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/5a75237ba2c38982dbbacc3370f65b3bba9c821c\/ss_5a75237ba2c38982dbbacc3370f65b3bba9c821c.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/5a75237ba2c38982dbbacc3370f65b3bba9c821c\/ss_5a75237ba2c38982dbbacc3370f65b3bba9c821c.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/5a75237ba2c38982dbbacc3370f65b3bba9c821c\/ss_5a75237ba2c38982dbbacc3370f65b3bba9c821c.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #4&quot;},{&quot;name&quot;:&quot;b45ca647c922d9d6e0be8f20289872613fe4f89a_ss_b45ca647c922d9d6e0be8f20289872613fe4f89a.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/b45ca647c922d9d6e0be8f20289872613fe4f89a\/ss_b45ca647c922d9d6e0be8f20289872613fe4f89a.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/b45ca647c922d9d6e0be8f20289872613fe4f89a\/ss_b45ca647c922d9d6e0be8f20289872613fe4f89a.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/b45ca647c922d9d6e0be8f20289872613fe4f89a\/ss_b45ca647c922d9d6e0be8f20289872613fe4f89a.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #5&quot;},{&quot;name&quot;:&quot;39729767098d69108bc422bba057c699bb00efd3_ss_39729767098d69108bc422bba057c699bb00efd3.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/39729767098d69108bc422bba057c699bb00efd3\/ss_39729767098d69108bc422bba057c699bb00efd3.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/39729767098d69108bc422bba057c699bb00efd3\/ss_39729767098d69108bc422bba057c699bb00efd3.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/39729767098d69108bc422bba057c699bb00efd3\/ss_39729767098d69108bc422bba057c699bb00efd3.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #6&quot;},{&quot;name&quot;:&quot;94a4f5a88d7963cada98394f53f9988b93b3cd7e_ss_94a4f5a88d7963cada98394f53f9988b93b3cd7e.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/94a4f5a88d7963cada98394f53f9988b93b3cd7e\/ss_94a4f5a88d7963cada98394f53f9988b93b3cd7e.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/94a4f5a88d7963cada98394f53f9988b93b3cd7e\/ss_94a4f5a88d7963cada98394f53f9988b93b3cd7e.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/94a4f5a88d7963cada98394f53f9988b93b3cd7e\/ss_94a4f5a88d7963cada98394f53f9988b93b3cd7e.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #7&quot;},{&quot;name&quot;:&quot;9aa4d6c24db0f5f83a3636290db6ec4fafb3b211_ss_9aa4d6c24db0f5f83a3636290db6ec4fafb3b211.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/9aa4d6c24db0f5f83a3636290db6ec4fafb3b211\/ss_9aa4d6c24db0f5f83a3636290db6ec4fafb3b211.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/9aa4d6c24db0f5f83a3636290db6ec4fafb3b211\/ss_9aa4d6c24db0f5f83a3636290db6ec4fafb3b211.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/9aa4d6c24db0f5f83a3636290db6ec4fafb3b211\/ss_9aa4d6c24db0f5f83a3636290db6ec4fafb3b211.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #8&quot;},{&quot;name&quot;:&quot;6467491d1daf87cfb304fb665e0b12db30cda543_ss_6467491d1daf87cfb304fb665e0b12db30cda543.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/6467491d1daf87cfb304fb665e0b12db30cda543\/ss_6467491d1daf87cfb304fb665e0b12db30cda543.116x65.jpg?t=1792161965&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/6467491d1daf87cfb304fb665e0b12db30cda543\/ss_6467491d1daf87cfb304fb665e0b12db30cda543.600x338.jpg?t=1792161965&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4267800\/6467491d1daf87cfb304fb665e0b12db30cda543\/ss_6467491d1daf87cfb304fb665e0b12db30cda543.1920x1080.jpg?t=1792161965&quot;,&quot;altText&quot;:&quot;Screenshot #9&quot;}]}"></div>
+							</div>
+											</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			</div>
+
+
+			
+			
+
+			
+		</div>
+
+
+		</div>
+			<div class="queue_and_playtime">
+				<div class="game_background_lighten">
+					<div class="game_background_lighten_border"></div>
+				</div>
+									<div class="queue_overflow_ctn">
+													<div class="queue_ctn">
+																<div id="queueActionsCtn" class="queue_actions_ctn">
+									<p><a href="https://store.steampowered.com/login/?redir=app%2F4267800&snr=1_5_9_">Sign in</a> to add this item to your wishlist, follow it, or mark it as ignored</p>
+																			<div id="shareBtn"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowNavigatorShare()" aria-label="Share"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_share_ios.svg" alt=""></span></a></div>
+																	</div>
+							</div>
+						
+												<div id="rowBtnActions" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" style="display: none;"></div>
+
+					</div>
+				
+				
+				
+																												
+				
+								
+				<div id="purchaseOptionsContent" class="purchase_options_content" style="display: none;">
+					<!-- game_area_purchase goes here -->
+				</div>
+			</div>
+
+		
+		<div class="page_content middle_page" data-panel="[]" >
+
+				<!-- Right Column -->
+				<div class="rightcol game_meta_data" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+					
+					<div id="responsive_apppage_details_left_ctn"></div>
+
+					<div id="responsive_apppage_details_right_ctn"></div>
+					<div style="clear: both;"></div>
+					
+					<!-- testing a banner on Desktop to open the current page in the desktop Steam client.  When that banner is displayed this section should be hidden. -->
+																		
+
+
+
+
+
+					
+					
+					
+
+												<div class="responsive_block_header responsive_apppage_details_left">Features</div>
+							<div class="block responsive_apppage_details_left" id="category_block">
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="game_area_features_list_ctn">
+									<a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=2&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_singlePlayer.png" alt=""></div><div class="label">Single-player</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=22&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_achievements.png" alt=""></div><div class="label">Steam Achievements</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=23&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_cloud.png" alt=""></div><div class="label">Steam Cloud</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=62&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_familysharing.png" alt=""></div><div class="label">Family Sharing</div></a>
+<div  data-featuretarget="store-sidebar-accessibility-info" data-props="{&quot;bAccessibilityResizableUI&quot;:false,&quot;bAccessibilitySubtitles&quot;:false,&quot;bAccessibilityColorAlternatives&quot;:false,&quot;bAccessibilityCameraComfort&quot;:false,&quot;bAccessibilityBackgroundVolumeControls&quot;:false,&quot;bAccessibilityStereoSound&quot;:false,&quot;bAccessibilitySurroundSound&quot;:false,&quot;bAccessibilityNarratedMenus&quot;:false,&quot;bAccessibilityChatSpeechtoText&quot;:false,&quot;bAccessibilityChatTexttoSpeech&quot;:false,&quot;bAccessibilityPlayableWithoutQuicktimeEvents&quot;:true,&quot;bAccessibilityKeyboardOnlyOption&quot;:false,&quot;bAccessibilityMouseOnlyOption&quot;:false,&quot;bAccessibilityTouchOnlyOption&quot;:false,&quot;bAccessibilityDifficultyLevels&quot;:false,&quot;bAccessibilitySaveAnytime&quot;:true,&quot;bAccessibilityPlayableAtYourOwnPace&quot;:false,&quot;bAccessibilityPlayableWithoutVision&quot;:false,&quot;bAccessibilityContrastControls&quot;:false}"></div>								</div>
+								
+								<div data-featuretarget="store-sidebar-controller-support-info" data-props="{&quot;unAppID&quot;:4267800,&quot;bFullXboxControllerSupport&quot;:false,&quot;bPartialXboxControllerSupport&quot;:false,&quot;bPS4ControllerSupport&quot;:false,&quot;bPS4ControllerBTSupport&quot;:false,&quot;bPS5ControllerSupport&quot;:false,&quot;bPS5ControllerBTSupport&quot;:false,&quot;bSteamInputAPISupport&quot;:false,&quot;bNoKeyboardSupport&quot;:false,&quot;bGamepadPreferred&quot;:false,&quot;bControllerSupportWizardComplete&quot;:true,&quot;bHasXbox&quot;:null,&quot;bHasPS4&quot;:null,&quot;bHasPS5&quot;:null,&quot;bHasOther&quot;:false}"></div>
+								
+								
+								
+								
+								
+								
+															</div>
+																			<div class="block responsive_apppage_details_right">
+								<div class="block_title" id="LanguagesHeader">
+									Languages<span class="responsive_hidden">:</span>
+								</div>
+
+								
+<div id="bannerLanguages" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="ToggleBannerContentVisibility('#languageTable', '#expandLanguageBtn')">
+	<div class="responsive_banner_link_title">
+		English and 2 more	</div>
+	<div id="expandLanguageBtn" class="expand_section"></div>
+</div>
+<div id="languageTable">
+
+<table  class="game_language_options" cellpadding="0" cellspacing="0">
+	<tr>
+		<th style="width: 94px;"></th>
+				<th class="checkcol">Interface</th>
+		<th class="checkcol">Full Audio</th>
+		<th class="checkcol">Subtitles</th>
+	</tr>
+
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				English			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Simplified Chinese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Traditional Chinese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+					</tr>
+	</table>
+
+
+</div>
+
+							</div>
+																		<div data-featuretarget="deck-verified-results"></div>
+					
+					<div class="responsive_apppage_details_right" data-featuretarget="game-rating-block" data-props="{&quot;bRatingAllowed&quot;:true,&quot;bHideRatingTitle&quot;:false}"></div>
+					<div  data-featuretarget="achievements"></div>
+					
+											<div id="appDetailsUnderlinedLinks" class="block responsive_apppage_details_left game_details underlined_links">
+							<div class="block_content">
+								<div class="block_content_inner">
+									<div id="genresAndManufacturer" class="details_block">
+
+			<b>Title:</b> Bandit Simulator TD<br>
+	
+				<b>Genre:</b> <span data-panel="{&quot;flow-children&quot;:&quot;row&quot;}"><a href="https://store.steampowered.com/genre/Casual/?snr=1_5_9__408">Casual</a>, <a href="https://store.steampowered.com/genre/Indie/?snr=1_5_9__408">Indie</a>, <a href="https://store.steampowered.com/genre/RPG/?snr=1_5_9__408">RPG</a>, <a href="https://store.steampowered.com/genre/Simulation/?snr=1_5_9__408">Simulation</a>, <a href="https://store.steampowered.com/genre/Strategy/?snr=1_5_9__408">Strategy</a></span><br>
+			
+			<div class="dev_row">
+			<b>Developer:</b>
+
+				<a href="https://store.steampowered.com/curator/44065864?snr=1_5_9__408">游戏养家工作室</a>
+		</div>
+	
+			<div class="dev_row">
+			<b>Publisher:</b>
+
+				<a href="https://store.steampowered.com/curator/44065864?snr=1_5_9__408">游戏养家工作室</a>
+		</div>
+	
+				<div class="dev_row">
+			<b>Franchise:</b>
+
+			<a href="https://store.steampowered.com/search/?franchise=%E5%B0%8F%E8%8C%AB%E7%9A%84%E6%8C%82%E6%9C%BA%E6%94%BE%E7%BD%AE%E6%B8%B8%E6%88%8F%E9%9B%86&snr=1_5_9__408">小茫的挂机放置游戏集</a>
+		</div>
+		
+	            <b>Release Date:</b> Oct 11, 2026<br>
+        
+            	</div>
+
+
+<div class="details_block" style="padding-top: 14px;">
+
+		
+					<div class="linkbar">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M861.6,624.9c-8-25.6-18.8-55.5-29.8-84.2h0l-40.2-100.3c0-1.2.5-20.9.5-31.1,0-171.5-81-343.9-280.1-343.9S231.9,237.8,231.9,409.3s.5,29.9.5,31.1h0l-40.2,100.3h0c-11,28.7-21.9,58.6-29.8,84.2-38,122.2-25.7,172.8-16.3,173.9,20.1,2.4,78.2-92,78.2-92,0,54.7,28.2,126,89.1,177.6-22.8,7-50.7,17.8-68.6,31.1-16.1,11.9-14.1,24-11.2,28.9,12.8,21.5,218.9,13.8,278.4,7.1h0c59.5,6.7,265.7,14.5,278.4-7.1,2.9-4.9,4.9-17-11.2-28.9-18-13.3-45.9-24.1-68.7-31.1,60.9-51.5,89-122.9,89-177.5,0,0,58.1,94.4,78.2,92,9.4-1.1,21.7-51.7-16.3-173.9h.2Z"/>
+			</svg>
+							<span class="social_account">QQ 1046234865</span>
+				</div>
+						
+	
+	
+	
+	
+	
+	
+	
+			<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/?appids=4267800&amp;snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			View update history		</a>
+		<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/app/4267800?snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			Read related news		</a>
+	
+				<a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/4267800/discussions/" target="_blank" rel="noreferrer" >
+			View discussions		</a>
+	
+    
+	        <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/actions/Search?T=ClanAccount&K=Bandit%20Simulator%20TD">
+            Find Community Groups        </a>
+    </div>
+								</div>
+							</div>
+													</div>
+					
+																		<div id="shareEmbedRow" class="block responsive_apppage_details_left" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+								<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowEmbedWidget(4267800); return false;"><span>Embed</span></a>
+								<a id="ReportAppBtn" class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(4267800)"><span data-tooltip-text="Report this Product" aria-label="Report this Product"><i class="ico16 reportv6"></i>&nbsp;</span></a>
+							</div>
+						
+						<div id="reportBtn" style="display:none;"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(4267800)"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_report.svg" alt="Report this Product"></span></a></div>
+					
+					
+															
+											<div id="appLinksAndInfoCtn" style="display:none;">
+							<div class="responsive_block_header">Links &amp; info</div>
+							<div id="appLinksAndInfo" class="game_page_autocollapse" style="max-height: 180px;"></div>
+						</div>
+					
+				</div>
+				<!-- End Right Column -->
+
+
+				<div class="leftcol game_description_column"  data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+
+					
+										
+					
+					<div id="game_area_purchase" class="game_area_purchase">
+																			
+																						
+
+							
+																																									<!--[if lte IE 7]>
+<style type="text/css">
+.game_area_purchase_game_dropdown_right_panel .btn_addtocart { float: none; }
+</style>
+<![endif]-->
+
+<div class="game_area_purchase_game_wrapper">
+			<div class="game_area_purchase_game" id="game_area_purchase_section_add_to_cart_1493381" role="region" aria-labelledby="game_area_purchase_section_add_to_cart_title_1493381">
+				<form name="add_to_cart_1493381" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="originating_snr" value="1_direct-navigation__">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="3ca3b9568e825d6771dc880b">
+			<input type="hidden" name="subid" value="1493381">
+		</form>
+		<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h2 id="game_area_purchase_section_add_to_cart_title_1493381" class="title">Buy Bandit Simulator TD</h2>
+				
+		
+										
+		<div class="game_purchase_action">
+																<div class="game_purchase_action_bg">
+															<div class="game_purchase_price price" data-price-final="1199">
+							$11.99						</div>
+													<div class="btn_addtocart">
+																																<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium" href="javascript:addToCart(1493381);" id="btn_add_to_cart_1493381">
+								<span>Add to Cart</span>
+							</a>
+																		
+				</div>
+							</div>
+		</div>
+	</div>
+		</div>
+
+<div data-panel="[]" class="game_area_purchase_game_wrapper dynamic_bundle_description ds_no_flags"  data-ds-bundleid="91268" data-ds-bundle-data="{&quot;m_nDiscountPct&quot;:&quot;5&quot;,&quot;m_bMustPurchaseAsSet&quot;:0,&quot;m_rgItems&quot;:[{&quot;m_nPackageID&quot;:1493381,&quot;m_rgIncludedAppIDs&quot;:[4267800],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:1199,&quot;m_nFinalPriceInCents&quot;:1199,&quot;m_nFinalPriceWithBundleDiscount&quot;:1139},{&quot;m_nPackageID&quot;:1812639,&quot;m_rgIncludedAppIDs&quot;:[5240540],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:474}],&quot;m_bIsCommercial&quot;:false,&quot;m_bRestrictGifting&quot;:false}" data-ds-itemkey="Bundle_91268" data-ds-tagids="[615955,1645,760247,4236,492,9,3871]" data-ds-crtrids="[44065864]" >
+
+	<div class="game_area_purchase_game_dropdown_subscription game_area_purchase_game" role="region" aria-labelledby="bundle_purchase_label_91268">
+		<form name="add_bundle_to_cart_91268" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="3ca3b9568e825d6771dc880b">
+			<input type="hidden" name="bundleid" value="91268">
+		</form>
+				<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h2 id="bundle_purchase_label_91268" class="title">
+			Buy Bandit Simulator TD - Deluxe Edition							<span class="bundle_label" data-tooltip-text="Bundles are a special discount on a set of products.  If you already own some of the products contained in the bundle, purchasing the bundle will allow you to &quot;complete the set&quot;, paying only for the products you don't already own while still receiving the full bundle discount on each of those products.">
+					BUNDLE					<span class="bundle_label_tooltip">(?)</span>
+				</span>
+					</h2>
+
+		
+		<p class="package_contents package_contents_collapsed">
+						<b>Includes 2 items:</b>
+			<a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/4267800/Bandit_Simulator_TD/">Bandit Simulator TD</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5240540/Bandit_Simulator_TD_Supporters_Pack/">Bandit Simulator TD - Supporters Pack</a>					</p>
+
+		<div class="game_purchase_action">
+																	<div class="game_purchase_action_bg">
+					<div class="btn_addtocart btn_packageinfo">
+						<a class="btn_blue_steamui btn_medium" href="https://store.steampowered.com/bundle/91268/Bandit_Simulator_TD_Deluxe_Edition/?snr=1_5_9__403">
+							<span>Bundle info</span>
+						</a>
+					</div>
+				</div>
+						<div class="game_purchase_action_bg">
+				<div class="discount_block game_purchase_discount no_discount" data-price-final="1613" data-bundlediscount="5" data-discount="5"><div class="bundle_base_discount" aria-hidden="true" data-tooltip-text="This is what you save by buying these items together in the bundle">-5%</div><div class="discount_pct" aria-hidden="true" data-tooltip-text="In addition to the bundle discount, one or more items in this bundle has a limited-time discount, making the total discount larger">-5%</div><div class="discount_prices" aria-hidden="true"><div class="discount_original_price">$16.98</div><div class="discount_final_price">$16.13</div></div><span class="discount_aria_label">5% off. $16.98 normally, discounted to $16.13</span></div>
+
+				<div class="btn_addtocart">
+																		<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium"
+							   href="javascript:addBundleToCart( 91268);">
+
+								<span>Add to Cart</span>
+
+							</a>
+															</div>
+
+
+								<div class="btn_addtocart btn_packageinfo btn_addtoaccount" style="display: none" data-tooltip-text="This game is available for free to your account.  Click here to add this game to your account.">
+						<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_blue_steamui btn_medium" onclick="AddFreeBundle( 91268, &quot;Bandit Simulator TD - Deluxe Edition&quot; );">
+							<span>Add to Account</span>
+						</span>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	</div>
+<div data-panel="[]" class="game_area_purchase_game_wrapper dynamic_bundle_description ds_no_flags"  data-ds-bundleid="65804" data-ds-bundle-data="{&quot;m_nDiscountPct&quot;:&quot;15&quot;,&quot;m_bMustPurchaseAsSet&quot;:0,&quot;m_rgItems&quot;:[{&quot;m_nPackageID&quot;:992317,&quot;m_rgIncludedAppIDs&quot;:[2776450],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:1199,&quot;m_nFinalPriceInCents&quot;:1199,&quot;m_nFinalPriceWithBundleDiscount&quot;:1019},{&quot;m_nPackageID&quot;:1370467,&quot;m_rgIncludedAppIDs&quot;:[3899280],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:424},{&quot;m_nPackageID&quot;:1484675,&quot;m_rgIncludedAppIDs&quot;:[4241290],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:699,&quot;m_nFinalPriceInCents&quot;:699,&quot;m_nFinalPriceWithBundleDiscount&quot;:594},{&quot;m_nPackageID&quot;:586267,&quot;m_rgIncludedAppIDs&quot;:[1649730],&quot;m_bPackageDiscounted&quot;:true,&quot;m_nBasePriceInCents&quot;:599,&quot;m_nFinalPriceInCents&quot;:479,&quot;m_nFinalPriceWithBundleDiscount&quot;:407},{&quot;m_nPackageID&quot;:873186,&quot;m_rgIncludedAppIDs&quot;:[2426820],&quot;m_bPackageDiscounted&quot;:true,&quot;m_nBasePriceInCents&quot;:199,&quot;m_nFinalPriceInCents&quot;:179,&quot;m_nFinalPriceWithBundleDiscount&quot;:152},{&quot;m_nPackageID&quot;:1003852,&quot;m_rgIncludedAppIDs&quot;:[2811350],&quot;m_bPackageDiscounted&quot;:true,&quot;m_nBasePriceInCents&quot;:199,&quot;m_nFinalPriceInCents&quot;:179,&quot;m_nFinalPriceWithBundleDiscount&quot;:152},{&quot;m_nPackageID&quot;:872130,&quot;m_rgIncludedAppIDs&quot;:[2423620],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:599,&quot;m_nFinalPriceInCents&quot;:599,&quot;m_nFinalPriceWithBundleDiscount&quot;:509},{&quot;m_nPackageID&quot;:905912,&quot;m_rgIncludedAppIDs&quot;:[2520270],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:424},{&quot;m_nPackageID&quot;:1493381,&quot;m_rgIncludedAppIDs&quot;:[4267800],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:1199,&quot;m_nFinalPriceInCents&quot;:1199,&quot;m_nFinalPriceWithBundleDiscount&quot;:1019},{&quot;m_nPackageID&quot;:1812639,&quot;m_rgIncludedAppIDs&quot;:[5240540],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:424}],&quot;m_bIsCommercial&quot;:false,&quot;m_bRestrictGifting&quot;:false}" data-ds-itemkey="Bundle_65804" data-ds-tagids="[9,122,492,615955,597,4236,599]" data-ds-crtrids="[44065864]" >
+
+	<div class="game_area_purchase_game_dropdown_subscription game_area_purchase_game" role="region" aria-labelledby="bundle_purchase_label_65804">
+		<form name="add_bundle_to_cart_65804" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="3ca3b9568e825d6771dc880b">
+			<input type="hidden" name="bundleid" value="65804">
+		</form>
+				<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h2 id="bundle_purchase_label_65804" class="title">
+			Buy All games by the author - including DLC							<span class="bundle_label" data-tooltip-text="Bundles are a special discount on a set of products.  If you already own some of the products contained in the bundle, purchasing the bundle will allow you to &quot;complete the set&quot;, paying only for the products you don't already own while still receiving the full bundle discount on each of those products.">
+					BUNDLE					<span class="bundle_label_tooltip">(?)</span>
+				</span>
+					</h2>
+
+		
+		<p class="package_contents package_contents_collapsed">
+						<b>Includes 10 items:</b>
+			<a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/2776450/Multiverse_Loot_Hunter/">Multiverse Loot Hunter</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/3899280/Multiverse_Loot_Hunter_Supporters_Pack/">Multiverse Loot Hunter - Supporters Pack</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/4241290/Multiverse_Loot_Hunter_God_Realm_DLC/">Multiverse Loot Hunter - God Realm DLC</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/1649730/xiuzhen_idle/">Xiuzhen Idle</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/2426820/Xiuzhen_Idle_DLC_Cosmetics/">Xiuzhen Idle DLC - Cosm</a><span class="package_contents_overflow"><a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/2426820/Xiuzhen_Idle_DLC_Cosmetics/">etics</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/2811350/Xiuzhen_Idle_DLC_Talismans/">Xiuzhen Idle DLC - Talismans</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/2423620/Space_industrial_empire/">Space Industrial Empire</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/2520270/Space_industrial_empireThe_giants_of_deep_space/">Space industrial empire：Space behemoth</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/4267800/Bandit_Simulator_TD/">Bandit Simulator TD</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5240540/Bandit_Simulator_TD_Supporters_Pack/">Bandit Simulator TD - Supporters Pack</a><a class="package_contents_show_less" onclick="ToggleShowAllPackageContentsText( event )">Show less</a></span><span class="package_contents_show_more">&hellip; <a class="package_contents_show_more_link" onclick="ToggleShowAllPackageContentsText( event )">Show more</a></span>					</p>
+
+		<div class="game_purchase_action">
+																	<div class="game_purchase_action_bg">
+					<div class="btn_addtocart btn_packageinfo">
+						<a class="btn_blue_steamui btn_medium" href="https://store.steampowered.com/bundle/65804/All_games_by_the_author_including_DLC/?snr=1_5_9__403">
+							<span>Bundle info</span>
+						</a>
+					</div>
+				</div>
+						<div class="game_purchase_action_bg">
+				<div class="discount_block game_purchase_discount" data-price-final="5124" data-bundlediscount="15" data-discount="17"><div class="bundle_base_discount" aria-hidden="true" data-tooltip-text="In addition to the bundle discount, one or more items in this bundle has a limited-time discount, making the total discount larger">-15%</div><div class="discount_pct" aria-hidden="true" data-tooltip-text="In addition to the bundle discount, one or more items in this bundle has a limited-time discount, making the total discount larger">-17%</div><div class="discount_prices" aria-hidden="true"><div class="discount_original_price">$61.90</div><div class="discount_final_price">$51.24</div></div><span class="discount_aria_label">17% off. $61.90 normally, discounted to $51.24</span></div>
+
+				<div class="btn_addtocart">
+																		<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium"
+							   href="javascript:addBundleToCart( 65804);">
+
+								<span>Add to Cart</span>
+
+							</a>
+															</div>
+
+
+								<div class="btn_addtocart btn_packageinfo btn_addtoaccount" style="display: none" data-tooltip-text="This game is available for free to your account.  Click here to add this game to your account.">
+						<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_blue_steamui btn_medium" onclick="AddFreeBundle( 65804, &quot;All games by the author - including DLC&quot; );">
+							<span>Add to Account</span>
+						</span>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	</div>
+<div data-panel="[]" class="game_area_purchase_game_wrapper dynamic_bundle_description ds_no_flags"  data-ds-bundleid="49102" data-ds-bundle-data="{&quot;m_nDiscountPct&quot;:&quot;10&quot;,&quot;m_bMustPurchaseAsSet&quot;:0,&quot;m_rgItems&quot;:[{&quot;m_nPackageID&quot;:586267,&quot;m_rgIncludedAppIDs&quot;:[1649730],&quot;m_bPackageDiscounted&quot;:true,&quot;m_nBasePriceInCents&quot;:599,&quot;m_nFinalPriceInCents&quot;:479,&quot;m_nFinalPriceWithBundleDiscount&quot;:431},{&quot;m_nPackageID&quot;:872130,&quot;m_rgIncludedAppIDs&quot;:[2423620],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:599,&quot;m_nFinalPriceInCents&quot;:599,&quot;m_nFinalPriceWithBundleDiscount&quot;:539},{&quot;m_nPackageID&quot;:992317,&quot;m_rgIncludedAppIDs&quot;:[2776450],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:1199,&quot;m_nFinalPriceInCents&quot;:1199,&quot;m_nFinalPriceWithBundleDiscount&quot;:1079},{&quot;m_nPackageID&quot;:1493381,&quot;m_rgIncludedAppIDs&quot;:[4267800],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:1199,&quot;m_nFinalPriceInCents&quot;:1199,&quot;m_nFinalPriceWithBundleDiscount&quot;:1079}],&quot;m_bIsCommercial&quot;:false,&quot;m_bRestrictGifting&quot;:false}" data-ds-itemkey="Bundle_49102" data-ds-tagids="[615955,492,4236,122,9,597,255534]" data-ds-crtrids="[44065864]" >
+
+	<div class="game_area_purchase_game_dropdown_subscription game_area_purchase_game" role="region" aria-labelledby="bundle_purchase_label_49102">
+		<form name="add_bundle_to_cart_49102" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="3ca3b9568e825d6771dc880b">
+			<input type="hidden" name="bundleid" value="49102">
+		</form>
+				<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h2 id="bundle_purchase_label_49102" class="title">
+			Buy All Games by the Author - Base Games Only							<span class="bundle_label" data-tooltip-text="Bundles are a special discount on a set of products.  If you already own some of the products contained in the bundle, purchasing the bundle will allow you to &quot;complete the set&quot;, paying only for the products you don't already own while still receiving the full bundle discount on each of those products.">
+					BUNDLE					<span class="bundle_label_tooltip">(?)</span>
+				</span>
+					</h2>
+
+		
+		<p class="package_contents package_contents_collapsed">
+						<b>Includes 4 items:</b>
+			<a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/1649730/xiuzhen_idle/">Xiuzhen Idle</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/2423620/Space_industrial_empire/">Space Industrial Empire</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/2776450/Multiverse_Loot_Hunter/">Multiverse Loot Hunter</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/4267800/Bandit_Simulator_TD/">Bandit Simulator TD</a>					</p>
+
+		<div class="game_purchase_action">
+																	<div class="game_purchase_action_bg">
+					<div class="btn_addtocart btn_packageinfo">
+						<a class="btn_blue_steamui btn_medium" href="https://store.steampowered.com/bundle/49102/All_Games_by_the_Author_Base_Games_Only/?snr=1_5_9__403">
+							<span>Bundle info</span>
+						</a>
+					</div>
+				</div>
+						<div class="game_purchase_action_bg">
+				<div class="discount_block game_purchase_discount" data-price-final="3128" data-bundlediscount="10" data-discount="13"><div class="bundle_base_discount" aria-hidden="true" data-tooltip-text="In addition to the bundle discount, one or more items in this bundle has a limited-time discount, making the total discount larger">-10%</div><div class="discount_pct" aria-hidden="true" data-tooltip-text="In addition to the bundle discount, one or more items in this bundle has a limited-time discount, making the total discount larger">-13%</div><div class="discount_prices" aria-hidden="true"><div class="discount_original_price">$35.96</div><div class="discount_final_price">$31.28</div></div><span class="discount_aria_label">13% off. $35.96 normally, discounted to $31.28</span></div>
+
+				<div class="btn_addtocart">
+																		<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium"
+							   href="javascript:addBundleToCart( 49102);">
+
+								<span>Add to Cart</span>
+
+							</a>
+															</div>
+
+
+								<div class="btn_addtocart btn_packageinfo btn_addtoaccount" style="display: none" data-tooltip-text="This game is available for free to your account.  Click here to add this game to your account.">
+						<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_blue_steamui btn_medium" onclick="AddFreeBundle( 49102, &quot;All Games by the Author - Base Games Only&quot; );">
+							<span>Add to Account</span>
+						</span>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	</div>
+<div id="gameAreaDLCSection" class="game_area_dlc_section">
+
+	<h2 class="gradientbg" aria-label="Content For This Game">Content For This Game<span class="note"><a href="https://store.steampowered.com/dlc/4267800/Bandit_Simulator_TD/?snr=1_5_9__1061">Browse all <em>(1)</em></a></span></h2>
+
+	
+			<div class="game_area_dlc_list">
+			<form name="add_all_dlc_to_cart" action="https://store.steampowered.com/cart/?snr=1_5_9_" method="POST">
+				<input type="hidden" name="action" value="add_to_cart">
+				<input type="hidden" name="sessionid" value="3ca3b9568e825d6771dc880b">
+
+				<div class="tableView">
+											<div class="gameDlcBlocks">
+										<a class="game_area_dlc_row dlc_highlight odd ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_5240540"
+						href="https://store.steampowered.com/app/5240540/Bandit_Simulator_TD_Supporters_Pack/?snr=1_5_9__405"
+						 data-ds-appid="5240540" data-ds-itemkey="App_5240540" data-ds-tagids="[615955,1645,760247,4236,9,122,492]" data-ds-crtrids="[44065864]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:5240540,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+													<div class="capsule_container">
+								<img class="capsule"  src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5240540/fb2980085161e678db00ad3178d1cc523100aa26/capsule_231x87.jpg?t=1791770337">
+							</div>
+						
+						<div class="game_area_dlc_name">
+															<div class="dlc_highlight_reason_container">
+									<div class="dlc_highlight_reason">New</div>
+								</div>
+														Bandit Simulator TD - Supporters Pack						</div>
+
+						<div class="game_area_dlc_price">
+																																		$4.99																														</div>
+													<input type="hidden" name="subid[]" value="1812639">
+												</a>
+						
+																										<div id="dlc_purchase_action" class="game_purchase_action game_purchase_action_bg"
+							     style="">
+								<div class="game_purchase_price price">
+									$4.99								</div>
+								<div class="btn_addtocart">
+
+																			<a class="btn_green_steamui btn_medium" href="javascript:addAllDlcToCart();">
+											<span>Add all DLC to Cart</span>
+										</a>
+									
+								</div>
+							</div>
+																	</div>
+							
+			</div> <!-- tableView -->
+
+			<div style="clear: inline-end;"></div>
+
+			</form>
+		</div>
+	
+	</div>
+
+												
+					</div>
+					<!-- game_area_purchase -->
+
+					
+											<div id="bannerCommunity" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="window.location='https://steamcommunity.com/app/4267800'">
+							<div class="responsive_banner_link_title responsive_chevron_right">View Community Hub</div>
+						</div>
+					
+					<div class="purchase_area_spacer">&nbsp;</div>
+
+					
+					
+					<div  data-featuretarget="deck-topplayed-banner" data-props="{&quot;app_name&quot;:&quot;Bandit Simulator TD&quot;,&quot;appid&quot;:4267800}"></div>
+																								<script type="text/javascript">
+							var StoreDefaults = {"PartnerEventStore":[{"gid":"713416661425719995","clan_steamid":"103582791475457672","event_name":"Test Branch Update \u2014 Version 1.0.18.0","event_type":13,"appid":4267800,"server_address":null,"server_password":null,"rtime32_start_time":1793667720,"rtime32_end_time":1793673001,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[\"Comfortable Quality-of-Life Changes\",null,null,null,null,null,\"\\u4e24\\u9879\\u8212\\u670d\\u7684\\u51cf\\u8d1f\\u6539\\u52a8\",\"\\u4e24\\u9879\\u8212\\u670d\\u7684\\u51cf\\u8d1f\\u6539\\u52a8\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"14cbb2bf6540812ffd4d015fb0e0b5615fe9a447.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"0df1732d95779cbdcb9539a50fd0cdda46d718fe.png\",null,null,null,null,null,\"ae56cd9bff4216f35ac62b91b1fd497239a22a1c.png\",\"ae56cd9bff4216f35ac62b91b1fd497239a22a1c.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"clone_from_event_gid\":\"713416661425719344\",\"clone_from_sale_enabled\":false}","announcement_body":{"gid":"713416661425719996","clanid":"45936264","posterid":"0","headline":"Test Branch Update \u2014 Version 1.0.18.0","posttime":1793667759,"updatetime":1793667759,"body":"To prevent nasty bugs from slipping into future versions, we've opened a \"Test\" branch as an early-update branch for each version.\nThis branch is used for testing each version, so the risks are unpredictable \u2014 we don't recommend regular players switch to it.\nBrave players can right-click the game \u2192 \"Properties\" \u2192 \"Game Versions & Betas\" \u2192 select the \"test\" branch to try out new versions early.\n(Be absolutely sure to back up your saves, and beware of data loss and other nasty bugs caused by the test branch.)\n\n[h3][color=lightblue]Test Branch[\/color] Update \u2014 Version 1.0.18.0[\/h3]\n\n[color=yellow]Improvements[\/color]\n1. Added an auto quick-click recruitment assist feature.\n2. Optimized stuttering caused by sorting certain items \/ storage.\n3. Removed the random range when generating refined inner elixirs \u2014 it now always produces the maximum value, saving our OCD players.\n4. Improved the display of enemy health text.\n5. Added a cleanup mechanism for residual visual effects.\n\n[color=yellow]Fixes[\/color]\n1. Fixed an issue where the interface window didn't close when clicking the Demolish button.\n\nWe're currently putting full effort into developing the campaign dungeon gameplay.\n\nIf you enjoy this game, [color=yellow]we sincerely beg you to leave a positive Steam review[\/color]! It helps the game go further! Thank you so much!\n\n[h3][color=yellow]Solutions for Crashes or Being Unable to Enter the Game[\/color][\/h3]\n[list]\n[*] Crashes (mainly Win11 users): Right-click the game in your Steam library \u2192 \"Properties\" \u2192 select \"Game Versions & Betas\" \u2192 select \"win11stable\"\n[*] Can't enter (Win7 users only): Right-click the game in your Steam library \u2192 \"Properties\" \u2192 select \"Game Versions & Betas\" \u2192 select \"win7compat\"\n[*] Can't enter (NWjs error shown): Clean up your C drive to free up enough cache space. (The engine needs some virtual cache space.)\n[*] Stuck on the blue \"Enter Game\" button in Steam: Right-click the game in your Steam library, open the game installation directory, and \"Run as administrator\"\n[*] 50-series GPUs: Please disable AI frame generation in your GPU settings, set the GPU to high-performance mode, or try updating your graphics driver.\n[*] \"Failed to start the game's process\" error: This is caused by Win11's Smart App Control blocking it.\n     Disable it in Windows Security Center \u2192 App & Browser Control \u2192 Smart App Control settings.\n[\/list][color=lightblue]If problems persist, you can contact me via email or the QQ group for one-on-one support.[\/color]\n\n[h3][color=yellow]Xiao Mang Has a New Game to Warm Up Early![\/color][\/h3]\n[list]\n[*] To ride this wave of momentum and make sure we can keep going, we've put up the Steam store page for *Eternal Xiuzhen* ahead of time!\n[*] This game is a small \"incremental + hunting + cultivation\" title, leaning more toward incremental; idle elements may be added in the late game after clearing.\n[*] Don't worry \u2014 while I'm handling the design for this game, I'm not the one writing the code or doing the art.\n[*] Right now this game doesn't take up any of my workload, and I'll still be focusing on *Bandit Simulator TD*. At this stage, our programmer is doing the early groundwork.\n[*] We sincerely beg everyone to [color=yellow]Follow + Wishlist[\/color] to show your support! A playtest demo will be released later too!\n[\/list]\nhttps:\/\/store.steampowered.com\/app\/5339710\/_\/\n","commentcount":5,"tags":["mod_reviewed","ModAct_1896160435_1793669322_0"],"language":0,"hidden":0,"forum_topic_id":"569301797587658629","event_gid":"713416661425719995","voteupcount":10,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"569301797587658629","rtime32_last_modified":1793757440,"news_post_gid":"0","rtime_mod_reviewed":1793669323,"featured_app_tagid":0,"referenced_appids":[],"build_id":26370474,"build_branch":"","unlisted":0,"rtime_created":1793667758,"votes_up":9,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"685242695859515340","gidfeature2":"569301797587658629"},{"gid":"713416661425719471","clan_steamid":"103582791475457672","event_name":"Default Branch Update \u2014 Version 1.0.17.0","event_type":13,"appid":4267800,"server_address":null,"server_password":null,"rtime32_start_time":1793585880,"rtime32_end_time":1793590201,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[\"Backup Equipment Set Switch\",null,null,null,null,null,\"\u5168\u529b\u5728\u5236\u4f5c\u6218\u5f79\u526f\u672c\u7684\u73a9\u6cd5\u4e2d\",\"\u5168\u529b\u5728\u5236\u4f5c\u6218\u5f79\u526f\u672c\u7684\u73a9\u6cd5\u4e2d\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"14cbb2bf6540812ffd4d015fb0e0b5615fe9a447.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"0df1732d95779cbdcb9539a50fd0cdda46d718fe.png\",null,null,null,null,null,\"ae56cd9bff4216f35ac62b91b1fd497239a22a1c.png\",\"ae56cd9bff4216f35ac62b91b1fd497239a22a1c.png\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"clone_from_event_gid\":\"713416661425719285\",\"clone_from_sale_enabled\":false}","announcement_body":{"gid":"713416661425719472","clanid":"45936264","posterid":"0","headline":"Default Branch Update \u2014 Version 1.0.17.0","posttime":1793585917,"updatetime":1793585917,"body":"[h3][color=lightblue]Default Branch[\/color] Update \u2014 Version 1.0.17.0[\/h3]\n\n[color=yellow]Improvements[\/color]\n1. Added a second equipment set switching feature. [color=yellow](Must be unlocked via technology.)[\/color]\n2. Changed the second affix of the UR treasure \"Lihuo Fanshi Seal\" to skill damage.\n\n[color=yellow]Fixes[\/color]\n1. Fixed an issue where Work level EXP bonuses from a duty didn't refresh after the character was removed from that post.\n2. Fixed incorrect text content.\n\nWe're currently putting full effort into developing the campaign dungeon gameplay.\n\n[h3][color=yellow]Solutions for Crashes or Being Unable to Enter the Game[\/color][\/h3]\n[list]\n[*] Crashes (mainly Win11 users): Right-click the game in your Steam library \u2192 \"Properties\" \u2192 select \"Game Versions & Betas\" \u2192 select \"win11stable\"\n[*] Can't enter (Win7 users only): Right-click the game in your Steam library \u2192 \"Properties\" \u2192 select \"Game Versions & Betas\" \u2192 select \"win7compat\"\n[*] Can't enter (NWjs error shown): Clean up your C drive to free up enough cache space. (The engine needs some virtual cache space.)\n[*] Stuck on the blue \"Enter Game\" button in Steam: Right-click the game in your Steam library, open the game installation directory, and \"Run as administrator\"\n[*] 50-series GPUs: Please disable AI frame generation in your GPU settings, set the GPU to high-performance mode, or try updating your graphics driver.\n[*] \"Failed to start the game's process\" error: This is caused by Win11's Smart App Control blocking it.\n     Disable it in Windows Security Center \u2192 App & Browser Control \u2192 Smart App Control settings.\n[\/list][color=lightblue]If problems persist, you can contact me via email or the QQ group for one-on-one support.[\/color]\n\n[h3][color=yellow]Xiao Mang Has a New Game to Warm Up Early![\/color][\/h3]\n[list]\n[*] To ride this wave of momentum and make sure we can keep going, we've put up the Steam store page for *Eternal Xiuzhen* ahead of time!\n[*] This game is a small \"incremental + hunting + cultivation\" title, leaning more toward incremental; idle elements may be added in the late game after clearing.\n[*] Don't worry \u2014 while I'm handling the design for this game, I'm not the one writing the code or doing the art.\n[*] Right now this game doesn't take up any of my workload, and I'll still be focusing on *Bandit Simulator TD*. At this stage, our programmer is doing the early groundwork.\n[*] We sincerely beg everyone to [color=yellow]Follow + Wishlist[\/color] to show your support! A playtest demo will be released later too!\n[\/list]\nhttps:\/\/store.steampowered.com\/app\/5339710\/_\/\n","commentcount":6,"tags":["mod_reviewed","ModAct_1896160435_1793586473_0"],"language":0,"hidden":0,"forum_topic_id":"569301797587570032","event_gid":"713416661425719471","voteupcount":18,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"569301797587570032","rtime32_last_modified":1793751668,"news_post_gid":"0","rtime_mod_reviewed":1793586473,"featured_app_tagid":0,"referenced_appids":[],"build_id":26338654,"build_branch":"","unlisted":0,"rtime_created":1793583112,"votes_up":18,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"685242695859515340","gidfeature2":"569301797587570032"}],"EventWebRowEmbed":{"bPreLoaded":true,"announcementGIDList":["713416661425719996","713416661425719472"],"last_update_event":{"rtime":1793667720,"event_gid":"713416661425719995","announcement_gid":"713416661425719996","clan_account_id":45936264}}};
+						</script>
+					
+
+					<div data-featuretarget="events-row"></div>
+				
+								
+				
+				
+
+
+				<div class="game_page_autocollapse" style="max-height: 300px;"></div>				<div id="contentForThisGame_ctn">
+				</div>
+									<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="aboutThisGame" class="game_page_autocollapse" style="max-height: 850px;">
+						<div id="game_area_description" class="game_area_description">
+							<h2>About This Game</h2>
+							<ul class="bb_ul"><li><p class="bb_paragraph" >This is a straightforward game that combines &quot;tower defense battles, base building, and idle gameplay.&quot;</p></li><li><p class="bb_paragraph" >The game simulates the development process of an ancient mountain bandit stronghold. With tower defense (Tower Defense) as its core combat mechanic, it pays tribute to (Fenghe) several classic masterpieces (such as Warcraft RPG - Thief TD, Element TD, and Cultivation Simulator) while ultimately simplifying the gameplay. By integrating idle mechanics, it balances &quot;addictive excitement&quot; with &quot;simple and relaxed&quot; enjoyment.</p></li><li><p class="bb_paragraph" >Each character functions as a stationary tower—they do not move on their own. Whether engaged in combat, gathering resources, or crafting, all actions are carried out in the form of tower defense (TD).</p></li></ul><p class="bb_paragraph" ><span class="bb_img_ctn"><img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras/1edc8f2c0ef2515d17714a127050b049.avif?t=1792161965" data-big-src=https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras_big/1edc8f2c0ef2515d17714a127050b049.webp?t=1792161965 width=1560 height=703 /></span></p><ul class="bb_ul"><li><p class="bb_paragraph" ><strong>Plunder</strong> residents, merchants, and troops from various cities to obtain <strong>currency, resources, and experience</strong>. This is all about <strong>attack—no defense</strong>. Engage in battles with <strong>zero loss</strong>, allowing you to acquire resources <strong>effortlessly and worry-free</strong>, with no fear of stagnation from defeat.</p><p class="bb_paragraph" ></p></li></ul><p class="bb_paragraph" ><span class="bb_img_ctn"><img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras/58cd0dc9a5ebbd95511d370981d49f22.avif?t=1792161965" data-big-src=https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras_big/58cd0dc9a5ebbd95511d370981d49f22.webp?t=1792161965 width=1560 height=597 /></span></p><ul class="bb_ul"><li><p class="bb_paragraph" >In a reimagined world of Huaxia, legendary figures from various dynasties converge. Recruit, upgrade, assign professions, and equip them—multifaceted cultivation systems allow these characters to grow and evolve in every dimension.</p><p class="bb_paragraph" ></p></li></ul><p class="bb_paragraph" ><span class="bb_img_ctn"><img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras/a220c83bd551be4317e909e4d09a3889.avif?t=1792161965" data-big-src=https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras_big/a220c83bd551be4317e909e4d09a3889.webp?t=1792161965 width=1560 height=406 /></span></p><ul class="bb_ul"><li><p class="bb_paragraph" >Characters can be deployed not only for combat but also for gathering resources, forging equipment, researching technologies, and refining elixirs. Leverage their unique strengths to continuously develop and expand your mountain stronghold.</p></li></ul><p class="bb_paragraph" ><span class="bb_img_ctn"><img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras/2a3ad8a1237383f467db743f5e2f393d.avif?t=1792161965" data-big-src=https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras_big/2a3ad8a1237383f467db743f5e2f393d.webp?t=1792161965 width=1560 height=575 /></span></p><ul class="bb_ul"><li><p class="bb_paragraph" >A map of alternate history awaits your exploration—cities, wilderness, and special locations are scattered across the land. Plunder resources, hunt beasts in the wild, delve into hidden realms, and in the later stages, embark on campaigns to conquer the world and claim dominion over all.</p><p class="bb_paragraph" ></p></li></ul><p class="bb_paragraph" ><span class="bb_img_ctn"><img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras/6eda81907c00ff0128bef34e1e09e9d7.avif?t=1792161965" data-big-src=https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4267800/extras_big/6eda81907c00ff0128bef34e1e09e9d7.webp?t=1792161965 width=1560 height=636 /></span></p><ul class="bb_ul"><li><p class="bb_paragraph" >Featuring extensive advancement paths, this chart only outlines the initial tier of professions. By the mid to late stages, a rich and intricate professional system will take shape, offering specialized directions for both combat and production roles.</p></li></ul><p class="bb_paragraph" ></p>						</div>
+					</div>
+					<div class="game_page_autocollapse">
+		<div id="game_area_content_descriptors" class="game_area_description">
+			<h2>AI Generated Content Disclosure</h2>
+			<p>The developers describe how their game uses AI Generated Content like this:</p>
+			<p><i>
+					Some of the game's art assets were created with AI assistance. However, all of them went through human review and refinement.<br />
+<br />
+Aside from that, all design and programming code were created without AI assistance.				</i>
+			</p>
+					</div>
+	</div>
+	
+				
+				
+					<div class="game_page_autocollapse sys_req" style="max-height: 300px;">
+		<h2>System Requirements</h2>
+				<div class="sysreq_contents">
+							<div class="game_area_sys_req sysreq_content active" data-os="win">
+											<div class="game_area_sys_req_full">
+							<ul>
+								<strong>Minimum:</strong><br><ul class="bb_ul"><li><strong>OS *:</strong> Windows 8.1 or later<br></li><li><strong>Processor:</strong> Intel Dual-Core 1.6GHz or faster processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Graphic card with DX10 (Shader-Model 4.0) abilities<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>							</ul>
+						</div>
+															<div style="clear: both;"></div>
+
+											<div class="game_area_sys_req_note">
+							<strong>*</strong>
+							Starting January 1st, 2024, the Steam Client will only support Windows 10 and later versions.						</div>
+									</div>
+					</div>
+	</div>
+	<script type="text/javascript">
+		$J( function() {
+			var $Tabs = $J('.sysreq_tab');
+			var $Content = $J('.sysreq_content');
+
+			$Tabs.click( function() {
+				var $Tab = $J(this);
+				$Tabs.removeClass('active');
+				$Tab.addClass('active');
+
+				$Content.removeClass('active');
+				$Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+				$Content.trigger('gamepage_autocollapse_expand');
+			});
+		} );
+	</script>
+
+				
+								
+				</div>
+
+			<div class="clear_both" style="clear: both;"></div>
+		</div>
+
+		<div class="related_items_ctn">
+			<div class="page_content game_description_column ">
+				
+				
+				
+				<div  data-featuretarget="creatorhome-carousel" data-props="{&quot;title&quot;:&quot;More from 游戏养家工作室&quot;,&quot;clanID&quot;:44065864,&quot;seeAllLink&quot;:&quot;https://store.steampowered.com/curator/44065864?snr=1_5_9__317&quot;,&quot;appIDs&quot;:[2776450,1649730,2423620,1997360,2497430,3214000],&quot;rgAppIDToCreatorIDs&quot;:[],&quot;rgAllCreatorClanIDs&quot;:[],&quot;strFeatureFirstAppMsg&quot;:&quot;#Featured_App_Reason_Franchise&quot;,&quot;bFullWidth&quot;:false}"></div>
+				<div  data-featuretarget="storeitems-carousel" data-props="{&quot;title&quot;:&quot;More like Bandit Simulator TD&quot;,&quot;seeAllLink&quot;:&quot;https://store.steampowered.com/recommended/morelike/app/4267800/?snr=1_5_9__300&quot;,&quot;appIDs&quot;:[294100,108600,413150,427520,5160800,4731620,3669570,2162800,2764460,599140,1013320,457140,47890,3115220,588430,4207990,1158160,4740930,4310440,627690,1084600,4538080,436780,1454400,3204330,2295060,3084810,246620,2897580,233450],&quot;navKey&quot;:&quot;more_like_this_carousel&quot;,&quot;sortOrder&quot;:&quot;shuffle&quot;,&quot;scorePenaltyIfOwned&quot;:5,&quot;bFullWidth&quot;:false}"></div>
+				<div id="responsive_apppage_reviewblock_ctn" class="rightcol game_meta_data"></div>
+
+				
+				<div class="steam_curators_block block responsive_apppage_reviewblock">
+			<div class="block_header">
+				<div class="right"><a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=4267800&snr=1_5_9__top-curators">View all</a></div>
+				<h2>What Curators Say</h2>
+				<div class="no_curators_followed">
+					4 Curators have reviewed this product. Click <a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=4267800&snr=1_5_9__top-curators">here</a> to see them.				</div>
+			</div>
+		</div>
+		
+
+			</div>
+		</div>
+
+
+		<div class="review_ctn">
+			<div class="page_content">
+
+				<div id="app_reviews_hash" class="app_reviews_area">
+							<div class="" data-featuretarget="appreviews" data-props="{&quot;appid&quot;:4267800,&quot;app_release_date&quot;:&quot;1791770325&quot;,&quot;appname&quot;:&quot;Bandit Simulator TD&quot;,&quot;steamworks_appid&quot;:4267800,&quot;app_type&quot;:0,&quot;summary_num_positive_reviews&quot;:331,&quot;summary_num_reviews&quot;:445,&quot;summary_options&quot;:{&quot;bHasAnyReviews&quot;:true,&quot;eUserReviewScorePreference&quot;:0,&quot;bCanManageReviewBombs&quot;:false,&quot;bCanEditApp&quot;:false,&quot;summaryDisplayed&quot;:{&quot;nReviews&quot;:445,&quot;nReviewsPositive&quot;:331,&quot;eReviewScore&quot;:6,&quot;bFilteredReviews&quot;:true,&quot;nAgeInDays&quot;:0}},&quot;filter_options&quot;:{&quot;nReviewsPositive&quot;:340,&quot;nReviewsNegative&quot;:119,&quot;nReviewsSteamPurchase&quot;:445,&quot;nReviewsNonSteamPurchase&quot;:14,&quot;nReviewsYourLanguages&quot;:43}}"></div>
+		<div style="clear: left"></div>
+					</div>
+			</div>
+		</div>
+
+
+			</div>
+	</div>
+
+</div>
+
+		<div class="hover game_hover" id="global_hover" style="display: none; left: 0; top: 0;">
+			<div class="game_hover_box hover_box">
+				<div class="content" id="global_hover_content">
+				</div>
+			</div>
+			<div class="hover_arrow_left"></div>
+			<div class="hover_arrow_right"></div>
+		</div>
+<div id="EmbedModal"  style="display: none">
+	<div id="widget_create">
+		<p>You can use this widget-maker to generate a bit of HTML that can be embedded in your website to easily allow customers to purchase this game on Steam.</p>
+
+				<p class="small">Enter up to 375 characters to add a description to your widget:</p>
+		<div class="app_embed_dialog_description">
+			<textarea name="w_text" placeholder="This is a &amp;quot;Tower Defense + Base Building&amp;quot; game where you establish a bandit stronghold from scratch. With &amp;quot;Tower defense&amp;quot; at its core, you can ambush travelers, develop characters through profession and equipment systems, and expand your stronghold by researching, forging, and constructing!" maxlength="375"></textarea>
+		</div>
+
+		<div class="buttoncontainer">
+			<a class="btnv6_blue_hoverfade btn_medium " href="#" onclick="CreateWidget(4267800); return false;"><span>Create widget</span></a>
+		</div>
+	</div>
+	<div id="widget_finished" style="display: none;">
+		<div id="widget_container"></div>
+
+		<p class="small">Copy and paste the HTML below into your website to make the above widget appear</p>
+		<textarea id="widget_code" style=""></textarea>
+	</div>
+
+</div>
+
+	<div id="app_tagging_modal" class="app_tag_modal nologin" style="display: none;">
+		<div class="app_tag_modal_content">
+			<div class="app_tag_modal_seperator"></div>
+			<div class="app_tag_modal_left">
+				<h2>Popular user-defined tags for this product:<span class="app_tag_modal_tooltip" data-tooltip-text="These are tags applied to the product by the most users.  You can click a tag to find other products with that tag applied.  Or, you can hit the plus symbol for any existing tags to increase that tag's popularity on this product.">(?)</span></h2>
+				<div class="app_tags popular_tags">
+				</div>
+			</div>
+			<div class="app_tag_modal_right">
+									<h2>Sign In</h2>
+					<p>Sign in to add your own tags to this product.</p>
+					<p>
+						<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/4267800">
+							<span>Sign In</span>
+						</a>
+					</p>
+							</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$J( function() {
+			InitAppTagModal( 4267800,
+				[{"tagid":615955,"name":"Idler","count":96,"browseable":true},{"tagid":1645,"name":"Tower Defense","count":88,"browseable":true},{"tagid":760247,"name":"Xianxia","count":81,"browseable":true},{"tagid":4236,"name":"Loot","count":71,"browseable":true},{"tagid":3871,"name":"2D","count":38,"browseable":true},{"tagid":492,"name":"Indie","count":32,"browseable":true},{"tagid":4182,"name":"Singleplayer","count":32,"browseable":true},{"tagid":9,"name":"Strategy","count":31,"browseable":true},{"tagid":122,"name":"RPG","count":30,"browseable":true},{"tagid":599,"name":"Simulation","count":30,"browseable":true},{"tagid":597,"name":"Casual","count":30,"browseable":true},{"tagid":3810,"name":"Sandbox","count":26,"browseable":true},{"tagid":1643,"name":"Building","count":10,"browseable":true},{"tagid":4598,"name":"Alternate History","count":10,"browseable":true},{"tagid":7332,"name":"Base Building","count":10,"browseable":true},{"tagid":12472,"name":"Management","count":10,"browseable":true},{"tagid":7926,"name":"Artificial Intelligence","count":8,"browseable":true}],
+				[],
+				"1_5_9__410",
+				"1_5_9__411",
+				null,
+				false			);
+
+						if ( typeof GDynamicStore != 'undefined' )
+				GDynamicStore.FixupNamePortion();
+			
+					});
+	</script>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
