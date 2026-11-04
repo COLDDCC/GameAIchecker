@@ -1,0 +1,13 @@
+{
+ "url": "https://store.steampowered.com/search/results/?query=&start=0&count=100&sort_by=Released_DESC&category1=998&format=json",
+ "mode": "body",
+ "httpStatus": 200,
+ "contentType": "text/html; charset=UTF-8",
+ "effectiveUrl": "https://store.steampowered.com/search/results/?query=&start=0&count=100&sort_by=Released_DESC&category1=998&format=json",
+ "curlExit": 0,
+ "error": "",
+ "fetchedAt": "2026-11-04T07:10:36.017444+00:00",
+ "contentHash": "35b7c3772b43e9aefca82ebbec36d1c7bf5fdb26292a80dce60c21b7585271b4",
+ "bytes": 207043,
+ "headers": "HTTP/1.1 200 OK\nServer: nginx\nContent-Type: text/html; charset=UTF-8\nContent-Security-Policy: default-src blob: data: https: 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://store.akamai.steamstatic.com/ https://store.akamai.steamstatic.com/ https://recaptcha.net https://www.google.com/recaptcha/ https://www.gstatic.cn/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.youtube.com/ https://s.ytimg.com; object-src 'none'; connect-src 'self' http://store.steampowered.com https://store.steampowered.com http://127.0.0.1:27060 ws://127.0.0.1:27060 https://community.akamai.steamstatic.com/ https://steamcommunity.com/ https://steamcommunity.com/ wss://community.steam-api.com/websocket/ https://api.steampowered.com/ https://login.steampowered.com/ https://help.steampowered.com/ https://steam.tv/ https://shared.akamai.steamstatic.com/ https://checkout.steampowered.com/; frame-src 'self' steam:  http://www.youtube.com https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://sketchfab.com https://player.vimeo.com https://steamcommunity.com/ https://login.steampowered.com/ https://help.steampowered.com/ https://checkout.steampowered.com/ https://www.google.com/recaptcha/ https://recaptcha.net/recaptcha/; frame-ancestors 'none';\nX-Frame-Options: DENY\nExpires: Mon, 26 Jul 1997 05:00:00 GMT\nCache-Control: private,max-age=240\nStrict-Transport-Security: max-age=63072000\nVary: origin\nDate: Wed, 04 Nov 2026 07:10:36 GMT\nTransfer-Encoding:  chunked\nConnection: keep-alive\nConnection: Transfer-Encoding\nSet-Cookie: steamCountry=US%7C8ebdd612ae35bf4472c39d39006d49de; path=/; secure; HttpOnly; SameSite=None\nSet-Cookie: browserid=345248029471930262; expires=Thu, 04 Nov 2027 07:10:35 GMT; Max-Age=31536000; path=/; secure; SameSite=None\nSet-Cookie: sessionid=5923a92fbd0c346074723bf3; Path=/; Secure; SameSite=None\n\n"
+}
