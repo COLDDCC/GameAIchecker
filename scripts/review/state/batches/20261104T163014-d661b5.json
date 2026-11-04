@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "164541e58877a68885e2cfa752e9fb358f625201",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-11-04T07:30:14.703433+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -674,10 +674,87 @@
       },
       "bytes": 45326664,
       "verifiedRemoteSha": "9bf4018807928de7603cfd57713d6ef95d881b49"
-    }
+    },
+    "ci": {
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41797297906",
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41797297950"
+    },
+    "production": {
+      "sha": "aa1ea27e3d9f0d80c3faa041965b9dc8c89907aa",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/46d9f446-a893-4c0d-8b23-17f3d819641b",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>aa1ea27</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://46d9f446.gameaichecker.pages.dev'>https://46d9f446.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/46d9f446-a893-4c0d-8b23-17f3d819641b)\n",
+      "checkedAt": "2026-11-04T08:13:53.983138+00:00"
+    },
+    "onlineImages": {
+      "responses": 468,
+      "cache": ".cache\\gameaichecker-review\\20261104T163014-d661b5\\online-images-aa1ea27e3d9f0d80c3faa041965b9dc8c89907aa.json"
+    },
+    "online": [
+      {
+        "appId": "5099430",
+        "url": "https://gameaichecker.com/games/5099430-the-rhapsody-of-zephyr-remastered/",
+        "checkedAt": "2026-11-04T08:14:26.751838+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "868160",
+        "url": "https://gameaichecker.com/games/868160-code-terraform/",
+        "checkedAt": "2026-11-04T08:14:26.754060+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2934330",
+        "url": "https://gameaichecker.com/games/2934330-radiosol/",
+        "checkedAt": "2026-11-04T08:14:26.756320+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4622260",
+        "url": "https://gameaichecker.com/games/4622260-game/",
+        "checkedAt": "2026-11-04T08:14:26.758591+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2712590",
+        "url": "https://gameaichecker.com/games/2712590-dragon-shelter/",
+        "checkedAt": "2026-11-04T08:14:26.760900+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3859180",
+        "url": "https://gameaichecker.com/games/3859180-the-electorate/",
+        "checkedAt": "2026-11-04T08:14:26.762951+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4460460",
+        "url": "https://gameaichecker.com/games/4460460-miniature-land-four-seasons/",
+        "checkedAt": "2026-11-04T08:14:26.764917+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5072430",
+        "url": "https://gameaichecker.com/games/5072430-ghost-in-the-sql-data/",
+        "checkedAt": "2026-11-04T08:14:26.768111+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2990190",
+        "url": "https://gameaichecker.com/games/2990190-magi-scapes/",
+        "checkedAt": "2026-11-04T08:14:26.770704+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5356930",
+        "url": "https://gameaichecker.com/games/5356930-sort-the-dumplings/",
+        "checkedAt": "2026-11-04T08:14:26.772492+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "90152dec3d32ff6d9fed26b531981b76443bedb4"
+    "media": "90152dec3d32ff6d9fed26b531981b76443bedb4",
+    "site": "aa1ea27e3d9f0d80c3faa041965b9dc8c89907aa"
   },
   "attempts": 11,
   "maxAttempts": 30,
@@ -707,5 +784,6 @@
   ],
   "applyBase": "164541e58877a68885e2cfa752e9fb358f625201",
   "pendingTree": "54b1d841b54bea36380567eb7f24f864c0284266",
-  "siteBase": "9bf4018807928de7603cfd57713d6ef95d881b49"
+  "siteBase": "9bf4018807928de7603cfd57713d6ef95d881b49",
+  "siteTree": "42cba0b832d5cb1d8e5bff28c570d664b02cf03d"
 }
