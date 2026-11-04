@@ -1,0 +1,117 @@
+{
+  "appId": "2990190",
+  "name": "Magi Scapes",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "像素风沙盒经营＋高自定义 NPC 的抢先体验作品，2026 年 10 月 28 日上架，AutoGame 独立开发并发行，分类为冒险／休闲／独立／RPG／模拟／抢先体验。商店 AI 披露把生成式 AI 用在运行环节：游戏中动态生成 NPC 对话与其它文本内容，NPC 依据玩家的交互与上下文回应。本站据此登记游戏内实时生成与文本创作为已使用，其余六个领域（美术、音乐、语音、翻译、代码、营销）记为披露未说明。",
+  "aiUsageCategories": [
+    "ingame",
+    "writing"
+  ],
+  "aiAreas": {
+    "ingame": "used",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露原文直接写明 during gameplay：生成式 AI 在游戏进行过程中动态生成 NPC 对话与其它文本内容，NPC 会依据玩家的交互与游戏内上下文回应。这是八个领域里唯一被披露点名的运行时用途。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "同一句里的“dynamic NPC dialogue and other text-based content”说明游戏内对话与文本内容由生成式 AI 产出，因此文本创作领域登记为已使用；披露没有说明初始剧本或世界观文本是否也由 AI 生成，只覆盖它写明的对话与其它文本内容。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "writing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/2990190/",
+  "developer": "AutoGame",
+  "publisher": "AutoGame",
+  "steamReleaseDate": "Oct 28, 2026",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Indie",
+    "RPG",
+    "Simulation",
+    "Early Access"
+  ],
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/2990190/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-04",
+      "excerpt": "Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content. NPCs can respond to players based on their interactions and in-game context, creating more varied and personalized conversations."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/2990190/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-04",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 170）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/2990190/discussions/0/562546398187387886/",
+      "label": "So how does the AI stuff work, exactly? And how much content is in the game?",
+      "date": "2026-11-04",
+      "excerpt": "The concept sounds VERY cool and I'm interested, but I'm also cautious since its early access (many EA games fall over or get rushed out the door just to be done with it) and AI heavy (many AI games fall over or get rushed out the door because working with AI is expensive). So, you know, AI EA game sounds like double the risk yanno? So I wanna know if this game is \"future proofed\" if it gets abandoned or whatever. Firstly, I want to make sure I understand how the AI works. I get that you get a starting amount of crystals and its enough to make 3 or 4 characters, and you can have 10 AI generated responses per in-game day? If you want more, go buy more crystals? Or are you expected to buy that starting pack DLC for that? I believe that once a character is made, they can operate as a normal NPC without AI involvement? So if the AI part falls over, at least you still have the game? You only need AI and crystals for the initial generation of a character and if you want live responses? I see the store page mentions AI generated backstories, quests and items though but does that come out of your pocket? Like, if an NPC decides to bombard you with 5 fetch quests at once is that your fault? Also, the fact that items are AI generated makes me wonder if there's ways to abuse the process. Like you make a character who is very rich and generous and gives away powerful items, and then you bug them to give you powerful items. Anyway, my main concern is about how much it costs to run the AI parts of the game and what happens if the AI part fails/shuts down/gets abandoned. Like, what actually happens? What still functions and what breaks? Secondly, how much content is in the game right now? Like, if I bought it and the game never updated again would I feel like I got my money's worth? EA games man, you never know, yanno? Thanks and cheers.\nKyubox View Profile View Posts Nov 1 @ 7:57pm Report this post Oh yeah, now that I think about it, how is content moderation with AI? Like, am I gonna get hit with \"as an AI model i cannot-\" type stuff if i ask for something that's too bloody, gory or sexy? #1\nWhispierre View Profile View Posts Nov 2 @ 2:29pm Report this post Just so you aren't left hanging, I'll try tossing my two cents in here: Any video game that incorporates live AI services is going to disappear someday. Everything about AI is a giant money sinkhole, and the general business model is to nickel and dime users with premium currency purchases. You know what you are comfortable spending, and I don't really care to tell you what you should or shouldn't do with your money. But to answer your question about future proofing, I don't think that's something that any AI-centric developer would want to entertain overly much. The developer is constantly burning money for as long as the game remains up, so from a business perspective, this game needs to make a lot of cash as fast as possible and they can't have people opt out of paying for anything if they can help it. The developer is playing chicken with the consumer, watching their bank account rise and fall month by month, trying to determine when the best moment to pull out and secure their winnings will be. If people are using the AI without finding any excuse to throw money at the developer for more premium currency, then it actually ends up losing them money just to leave it up. In the best case scenario, enough whales get hooked that they keep feeding the developer fistfuls of cash month after month, paying enough for all the freemium users to coast by, cushioning whatever financial blow they're producing for the dev. AI microtransactions aren't all that different from loot boxes, you roll the dice, maybe you get something that gives you a small dopamine spike if you get a good roll, and then you go back to grinding. Instead of gun skins or digital cards, you get a paragraph of text that miiiiight make sense and miiiight be pleasant to read, and will probably look very similar to the other eight paragraphs of text you've been given up that point since AI has a habit of homogenizing everything. I guess what I'm saying is that what you're paying for here is even more ephemeral than what you get out of a gacha or loot box, so concerns about \"future proofing\" might be missing the forest through the trees. If it's the gameplay you're after, I personally feel like you'd probably get more out of games like Elin or Creator of Another World, because I'm fairly confident in saying that you won't find satisfaction in what the AI chat bot replies to you with and if you strip the game of that gimmick, it looks like a lesser version of already existing games. (And again, that gimmick of live AI interactions is predicated on constant premium currency purchases to keep the developer from pulling out with whatever earnings they've secured before the AI services drain their wallet dry, so it's best to evaluate the game itself rather than the temporary gimmick it's trying to sell folks on.) #2\nKiryuu Sonya View Profile View Posts Nov 2 @ 2:40pm Report this post The developer of the game has released a beta function to allow people to use their own models. Image generation still uses the official model but the devs are looking into allowing people to use their own models for that as well. #3\nKyubox View Profile View Posts Nov 2 @ 3:43pm Report this post Originally posted by Whispierre : If it's the gameplay you're after, I personally feel like you'd probably get more out of games like Elin or Creator of Another World Oh. I thought this was a farming based game like stardew valley based on all the farming screenshots. I hate games like Elin, Elona and Dwarf Fortress. If this game is like that, I don't care anymore. #4"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/2990190/discussions/0/562546398187400747/",
+      "label": "hard cap on ai followers?",
+      "date": "2026-11-04",
+      "excerpt": "i have no idea if im doing somthing wrong here am i limited to just five ai followers aint no big is i am but im goin nuts trying to figure it out google say need to delete some to make more and i didnt want to do so if im just dumb and cant figure it out on the last princess stone thing now any info woud be a big thanks\nKc View Profile View Posts Nov 2 @ 5:50am Report this post The game just came out lol google doesn't have the answers, you can't delete them also there's no limit you just need those purple crystals someone on the discord gas infinite purple crystals- #1"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/2990190/discussions/0/562546398187308088/",
+      "label": "is the world generated with ai?",
+      "date": "2026-11-04",
+      "excerpt": "why my world sometimes glitch and that change the terrain like at first its a land and after the glitch it changed to a water, is it because its generated with AI?\nKc View Profile View Posts Nov 1 @ 7:59am Report this post nupe its not supposed to, its a glitch #1"
+    },
+    {
+      "type": "third_party",
+      "url": "https://steamaifilter.xyz/game/2990190-magi-scapes",
+      "label": "Steam AI Filter 本作条目：按领域转录商店披露",
+      "date": "2026-11-04",
+      "excerpt": "The developer describes how Magi Scapes uses AI-generated content like this: Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content. NPCs can respond to players based on their interactions and in-game context, creating more varied and personalized conversations."
+    },
+    {
+      "type": "third_party",
+      "url": "https://howmuchai.games/game/magi-scapes",
+      "label": "HowMuchAI 本作条目：逐领域转录，自述 9 项中 2 项提及 AI",
+      "date": "2026-11-04",
+      "excerpt": "AI by part, from the developer's disclosure 2 of 9 parts mention AI Art Not mentioned Store page Not mentioned Voice Not mentioned Music Not mentioned Sound effects Not mentioned Writing AI-generated Translation Not mentioned Code Not mentioned Live generation AI-generated"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 AutoGame）与英文讨论区首页（可见 15 个主题，总数 170，仅覆盖首页）。首页有 3 个命中 AI 关键词的主题，全部读取全帖：主题一“So how does the AI stuff work, exactly? And how much content is in the game?”（转录正文 5,740 字符）是玩家在追问 AI 的计费与额度机制，提到起始水晶只够生成 3 到 4 个角色、每游戏日 10 次 AI 生成回复、并担心抢先体验叠加 AI 依赖的双重风险，还引述商店页写着 AI 生成背景故事、任务与道具；主题二“hard cap on ai followers?”（577 字符）是玩家询问 AI 随从上限，回帖者答“没有上限，需要紫色水晶”；主题三“is the world generated with ai?”（264 字符）里有人问地形突变是不是 AI 生成，回帖是“nupe its not supposed to, its a glitch”。三个帖子里都没有带开发方徽章的回复，回帖者身份是普通玩家，因此主题三那句“不是 AI，是 bug”不能作为判定依据，本站也不据此把地形生成记为未使用；主题一对商店页“AI 生成背景故事、任务、道具”的引述属于玩家转述，与本站登记的文本领域方向一致，但不作为独立证据。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源：Steam AI Filter 本作条目按领域转录为 AI writing 与 Live AI generation 并复述披露原文；HowMuchAI 本作条目把披露逐领域转录为 9 项中 2 项提及 AI（Writing AI-generated、Live generation AI-generated），并标注首次收录 2026-10-26、复查 2026-11-04。两站都自述内容取自商店披露，属转录与分类读法，不构成独立核实。其余 4 条为本作商店页、两个聚合列表页（live 生成专题）与另一款游戏（EA SPORTS FC 26）的条目页。",
+  "disclosureQuote": "Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content. NPCs can respond to players based on their interactions and in-game context, creating more varied and personalized conversations.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-04 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A pixel-art sandbox with heavily customisable NPCs, released into Early Access on Oct 28, 2026, developed and published by AutoGame, filed under Adventure, Casual, Indie, RPG, Simulation and Early Access. The Steam AI disclosure puts generative AI inside the running game: it generates dynamic NPC dialogue and other text-based content during gameplay, and NPCs respond to the player based on their interactions and in-game context. This site records live in-game generation and writing as used on that sentence and records the remaining six areas, art, music, voice, translation, code and marketing, as areas the disclosure does not address.",
+    "reviewNote": "Reviewed the complete English Steam AI disclosure, the identity (AutoGame credited as both developer and publisher) and the English discussion homepage (15 visible topics of 170, first page only). Three homepage topics match the AI keyword search and all three were opened and read in full. The first, So how does the AI stuff work, exactly? And how much content is in the game? (5,740 characters of transcribed text), is a player working out the cost and quota model: the writer reads the store page as granting enough starting crystals for three or four characters and ten AI-generated responses per in-game day, asks whether characters keep working as ordinary NPCs if the AI service disappears, worries that Early Access plus AI dependence is double the risk, and quotes the store page as mentioning AI-generated backstories, quests and items. The second, hard cap on ai followers? (577 characters), asks about a limit on AI followers and gets the answer that there is no cap, only purple crystals needed. The third, is the world generated with ai? (264 characters), asks whether a terrain that changed from land to water after a glitch is AI generation, and a fellow player replies nupe its not supposed to, its a glitch. No reply in any of the three threads carries a developer identity badge, so that player answer cannot decide anything and this site does not use it to record world generation as unused; the store-page quotation about AI-generated backstories, quests and items is likewise a player paraphrase, logged but not used as evidence. This title was searched once, that response holds 6 results and 2 raw sources were read: the Steam AI Filter entry for this game transcribes the disclosure under the AI writing and Live AI generation labels, and the HowMuchAI entry for this game transcribes it as two of nine parts, Writing AI-generated and Live generation AI-generated, with first seen Oct 26, 2026 and last checked Nov 4, 2026. Both sites state their content comes from the store disclosure, so they are transcriptions rather than independent verification. The other 4 results were the store page for this game, two aggregate live-generation list pages and an entry for a different game, EA SPORTS FC 26.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure puts AI inside the running game: Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content, and NPCs respond to player interactions and in-game context.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "The same sentence makes NPC dialogue and other text-based content AI-generated, so writing is recorded as used. The disclosure does not say whether the initial scripts or world text are also AI-produced, so this finding stops at the dialogue and text content it names.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "be4c08addd805a149ff26f422b7ecedc1c40c39de70534053818d877f75825c2"
+  }
+}
