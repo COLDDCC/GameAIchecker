@@ -1,0 +1,58 @@
+{
+ "identityName": "Nuclear Design Bureau",
+ "identityDeveloper": "Design Bureau KB-11",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。披露原文第二句 No AI content is generated during gameplay. 是对运行时生成的自述，但同一份披露没有点名任何素材类型，本站按“范围未说明”处理，八个领域全部记为未说明，这句原文在此登记留档，不单独改判本领域。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。披露只写“AI-generated assets”，没有说明是美术、音频还是文本素材；第三方站 AI Transparency Index 把这条披露自动分类为 art/audio/text 三项，那是模型分类而非开发者表述，本站不采纳。"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "This game uses AI-generated assets made during development. No AI content is generated during gameplay.",
+ "summary": "硬核核武器物理模拟（抢先体验），2026 年 9 月 14 日上市，Design Bureau KB-11 开发并发行。商店 AI 披露只有两句：“本作使用开发期间制作的 AI 生成素材”“游玩过程中不生成 AI 内容”，通篇没有点名素材属于美术、音频还是文本，因此八个领域全部记为披露未说明，并标记为范围未说明；游玩过程不生成 AI 这一句作为开发者自述在 ingame 条目下留档。第三方站 AI Transparency Index 把这条披露自动分成 art/audio/text 三个标签，属模型分类，本站不采纳。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 Design Bureau KB-11）与英文讨论区首页（可见 15 个主题，总数 217）。首页唯一命中关键词的主题“Neutron Generator bug”经读取原文确认是 bug 报告：玩家讨论中子发生器的计时数值异常与一次 D-T 中子发生器把 K 值从 0.98 推到 1.04 的现象，另有玩家指出这是重复放置导致的 bug 并给出删除重放的处理办法——关键词命中来自“Generator”一词，与 AI 使用无关，已排除。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源：AI Transparency Index 本作条目把只写了“AI-generated assets”的披露自动分类为 art、audio、text 三个标签，页面自述该置信度是模型估计、不是实测准确率或人工复核分，本站不采纳其领域拆分，只登记为第三方读法。其余结果为本作商店页与中文商店页、评测页、SteamDB 图表页，以及一个 Reddit 版块推荐帖（本机与代理两条通道均无法读取全文，未登记）。本款结论的关键是披露本身没有点名学科，因此按范围未说明登记而非按第三方分类定案。结论基于开发者自述，未经独立审计。本作处于抢先体验阶段。",
+ "description": "在库尔恰托夫研究所当一名初级工程师：设计原子装置以完成国家的指标，用流体、中子输运与热核聚变的硬核物理模拟把你的方案跑通并起爆。",
+ "english": {
+  "summary": "A hardcore nuclear weapon physics simulation in Early Access since Sep 14, 2026, developed and published by Design Bureau KB-11. The store disclosure says only that the game uses AI-generated assets made during development and that no AI content is generated during gameplay, never naming whether those assets are art, audio or text, so all eight areas are recorded as not addressed and the scope is flagged as unspecified, with the run-time sentence kept on record under the ingame entry. An AI Transparency Index entry that auto-classifies this disclosure into art, audio and text is model output and is not adopted here.",
+  "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher both Design Bureau KB-11) and the English discussion homepage (15 visible topics of 217). The only homepage topic matching the keyword set, titled Neutron Generator bug, was opened and read in full and is a bug report, players discussing neutron generator timing values, one reporting that adding a D-T generator pushed the K value from 0.98 to 1.04 at rest and another identifying it as a duplication bug with a delete and replace workaround. The match comes from the word Generator and has nothing to do with AI use, so it is excluded. This title was searched 1 time with 6 results and 1 raw source was read: an AI Transparency Index entry that auto-classifies this disclosure, which only says AI-generated assets, into art, audio and text tags, while the page itself states that its confidence figure is a model estimate rather than a measured accuracy rate or a human review score; this site does not adopt that area split and logs it as a third-party reading. The other results were the store page, its Chinese entry, the review page, a SteamDB chart page and a Reddit recommendation post that could not be read because neither the direct route nor the local proxy completed a TLS handshake. The finding turns on the disclosure itself naming no discipline, so the scope is recorded as unspecified instead of being settled from a third-party classification. It rests on the developer own statement, without an independent audit. The title is in Early Access.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure in the sense this table uses, because the scope is flagged as unspecified and no area can carry a bound finding then. It is still worth recording that the disclosure second sentence states that no AI content is generated during gameplay, a self-report of non-use at run time that was not independently verified.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure only says AI-generated assets and never identifies the kind, and the art, audio and text tags an AI Transparency Index shows for this game are that site model classification rather than developer wording.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ },
+ "aiScopeUnspecified": true
+}

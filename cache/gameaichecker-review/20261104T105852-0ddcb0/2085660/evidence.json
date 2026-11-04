@@ -1,0 +1,200 @@
+{
+  "sources": [
+    {
+      "appId": "2085660",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/2085660/?l=english",
+      "fetchedAt": "2026-11-04T01:59:50.257687+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "1a5cf3d7a2a8f9a784b4fbb4e5ad5c8eedb3c90fde97312cb4ce385dfc177330",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\2085660\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Generative AI was used to assist in the creation of some fictional company logos featured in the game.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Generative AI was used to assist in the creation of some fictional company logos featured in the game."
+    },
+    {
+      "appId": "2085660",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/2085660/discussions/?l=english",
+      "fetchedAt": "2026-11-04T01:59:51.426143+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "2c51db080265825d3b0c35a8d9e65d03ba297abfed53341f722f01aa6d32f91a",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\2085660\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Black screen in fullscreen?\nPINNED: Keyboard Editor - Video on Youtube\nPINNED: CPU Editor - Video on YouTube\nPINNED: Investments, Shares & Company Acquisitions - Video on YouTube\nIs it possible to play without webview2\nUpdate 1.7 (my ideas)\nNot working on linux\nSuggestions & Ideas for Universal software editot page same like OS page\nadd weapon production\nwating for 1.7\nScreen quality - Calidad de las pantallas\nBug report for Devices tycoon\nБаг с анимацией рук у сотрудников в офисе\nView Competitor Product List\nProfit Margins",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 249）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "2085660",
+      "sourceType": "press",
+      "url": "https://gamedb.ai/games/2085660-devices-tycoon",
+      "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "AI helped create some fictional company logos in the game.",
+      "locator": "full article text",
+      "label": "GameDB.ai 本作条目：自述 AI 标签读自商店披露",
+      "publicExcerpt": "AI helped create some fictional company logos in the game.",
+      "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/2085660/press-0.html",
+      "contentHash": "b6e0790ccaa76baef92a4fd66563784665a4c2f96b89e3826bc83598a8d987b1"
+    }
+  ],
+  "identity": {
+    "appId": "2085660",
+    "name": "Devices Tycoon",
+    "developer": "Roastery Games",
+    "publisher": "Roastery Games",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 16, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Indie",
+      "Simulation",
+      "Strategy"
+    ],
+    "description": "Devices Tycoon is a unique business simulator that will make you feel like the owner of a company that creates your own devices! In the game you can create your own smartphones, tablets, laptops, smart watches, headphones, operating systems and even your own processors!",
+    "identityEvidence": {
+      "appId": "2085660",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=2085660&l=english",
+      "fetchedAt": "2026-11-04T01:59:50.752986+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "53c4e38cac2bec26039f697ed356e47a91f1372bd9b67dbba8cef71cfdc6c6da",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\2085660\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 249,
+    "topics": [
+      {
+        "title": "PINNED: Black screen in fullscreen?",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/571552240778632852/"
+      },
+      {
+        "title": "PINNED: Keyboard Editor - Video on Youtube",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/809098674828463607/"
+      },
+      {
+        "title": "PINNED: CPU Editor - Video on YouTube",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/796712029630057341/"
+      },
+      {
+        "title": "PINNED: Investments, Shares & Company Acquisitions - Video on YouTube",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/767436134178388667/"
+      },
+      {
+        "title": "Is it possible to play without webview2",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568176172894039568/"
+      },
+      {
+        "title": "Update 1.7 (my ideas)",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175573451677614/"
+      },
+      {
+        "title": "Not working on linux",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175892569997500/"
+      },
+      {
+        "title": "Suggestions & Ideas for Universal software editot page same like OS page",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175892569996565/"
+      },
+      {
+        "title": "add weapon production",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175892569922571/"
+      },
+      {
+        "title": "wating for 1.7",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175892569906503/"
+      },
+      {
+        "title": "Screen quality - Calidad de las pantallas",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175892569934944/"
+      },
+      {
+        "title": "Bug report for Devices tycoon",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175892569924837/"
+      },
+      {
+        "title": "Баг с анимацией рук у сотрудников в офисе",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175892569822121/"
+      },
+      {
+        "title": "View Competitor Product List",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175573451639890/"
+      },
+      {
+        "title": "Profit Margins",
+        "url": "https://steamcommunity.com/app/2085660/discussions/0/568175573451504265/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Devices Tycoon\" Steam game AI disclosure",
+    "searchedAt": "2026-11-04T01:59:00Z",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://gamedb.ai/games/2085660-devices-tycoon",
+        "relevant": true,
+        "reason": "GameDB.ai 本作条目：把商店披露概括为“AI 协助制作了游戏内部分虚构公司 logo”，该站自述 AI 标签读自各游戏的 Steam 披露，属转录，已读取原始页面。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/2085660/",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/2085660/Devices_Tycoon/?snr=1_4_4__145_6",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DemefGsS2uh/",
+        "relevant": false,
+        "reason": "Instagram 短视频条目，与本作无直接对应关系，未读取。"
+      },
+      {
+        "url": "https://isthereanydeal.com/game/techdev-tycoon/info/",
+        "relevant": false,
+        "reason": "另一款游戏（TechDev Tycoon）的比价条目页，属同名近似作品的干扰结果，与本作无关。"
+      },
+      {
+        "url": "https://www.reddit.com/r/gamedesign/comments/1x6q7tp/im_building_a_tycoon_game_where_you_dont_get_to/",
+        "relevant": false,
+        "reason": "Reddit 游戏设计版块的开发帖，未标明即本作；Reddit 帖：本机直连与 127.0.0.1:7897 代理两条通道都无法完成 TLS 握手，全文未能读取，因此不登记为本作来源。"
+      }
+    ],
+    "readUrls": [
+      "https://gamedb.ai/games/2085660-devices-tycoon"
+    ],
+    "coverageLimits": [
+      "每个候选单独检索一轮，检索词为英文（4261320 因讨论区身份无法核验已被替换，未检索其报道）；只登记本响应文件所记录的这一次查询结果集，另做的宽泛检索未产出可核验的独立报道时不再追加。",
+      "检索面向公开网页，未覆盖 Steam 中文/韩文分区、社交媒体站内检索与付费数据库；未能读取全文的条目一律标为不相关。",
+      "第三方 AI 披露聚合站的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域结论。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\2085660\\press-search.json",
+    "contentHash": "de656d1ee5eff0c14d08e1b6d1a101b11ca79d48981fe7968724f334322c04d9"
+  }
+}

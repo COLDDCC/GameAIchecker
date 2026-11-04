@@ -1,0 +1,73 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4279730/_Demo/?snr=1_7_7_151_150_3053",
+   "relevant": false,
+   "reason": "本作的试玩版商店页（App ID 4279730），按政策试玩版不充新增，且没有独立于正式版披露的信息。"
+  },
+  {
+   "url": "https://gameaicheck.com/game/4246640/dungeon-brawls",
+   "relevant": true,
+   "reason": "第三方站 GameAICheck 的本作条目：复述商店披露并给出由 deepseek-flash 生成的“Major AI · solid production”判词与开发商产出统计；属该站的模型判断与转录，未经独立核实，只登记为第三方观点。"
+  },
+  {
+   "url": "https://opencredits.games/games/dungeon-brawls",
+   "relevant": true,
+   "reason": "Open Credits 本作条目：按领域转录商店披露（Art Mostly AI、Menus/UI/HUD 依据披露、其余 Not stated），并统计“341 条评论中 1 条纯粹讨论 AI 使用且为差评”；属转录与自有统计，已读取原始页面。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4246640/_/?l=english&curator_clanid=34823631",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+   "relevant": false,
+   "reason": "第三方 AI 披露汇总列表页，面向一批游戏而非本作单独核验，本次未作为本作来源读取。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4580510-united2030",
+   "relevant": false,
+   "reason": "另一款游戏（App ID 4580510 United2030）的条目页，与本作无关。"
+  }
+ ],
+ "coverageLimits": [
+  "每个候选单独检索一轮，检索词为英文（4261320 因讨论区身份无法核验已被替换，未检索其报道）；只登记本响应文件所记录的这一次查询结果集，另做的宽泛检索未产出可核验的独立报道时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区、社交媒体站内检索与付费数据库；未能读取全文的条目一律标为不相关。",
+  "第三方 AI 披露聚合站的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4246640",
+   "sourceType": "press",
+   "url": "https://opencredits.games/games/dungeon-brawls",
+   "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Yes. Dungeon Brawls uses AI for interface, according to its Steam disclosure.",
+   "locator": "full article text",
+   "label": "Open Credits 本作条目：按领域转录商店披露",
+   "publicExcerpt": "Yes. Dungeon Brawls uses AI for interface, according to its Steam disclosure.",
+   "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/4246640/press-0.html",
+   "contentHash": "928fe4025f648b2c49f528e3d71a008172acf1df620a4c235292f968ec25edbe"
+  },
+  {
+   "id": "press-1",
+   "appId": "4246640",
+   "sourceType": "press",
+   "url": "https://gameaicheck.com/game/4246640/dungeon-brawls",
+   "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "The developer discloses that most of the game's art and UI are AI-generated.",
+   "locator": "full article text",
+   "label": "GameAICheck 本作条目：第三方模型判词加商店披露转录",
+   "publicExcerpt": "The developer discloses that most of the game's art and UI are AI-generated.",
+   "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/4246640/press-1.html",
+   "contentHash": "8a253b9b77cc3d6d1eff2c8e04ca7036fae4b64503bc6222ca42aec148065b0b"
+  }
+ ]
+}

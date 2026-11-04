@@ -1,0 +1,84 @@
+{
+  "appId": "5097840",
+  "name": "Spellbound & Shelved",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "免费放置式魔法图书馆整理游戏，2026 年 9 月 7 日上市，needmoar.games 开发并发行。商店 AI 披露是一句语法不完整的原文：Steam assets and code was code assisted with AI.。其中“code”被明确点名，本领域登记为已使用；同一句里的“Steam assets”没有说明指哪一类素材，因此包括美术在内的其余七个领域全部按披露未说明登记，不替开发者补全含义。",
+  "aiUsageCategories": [
+    "code"
+  ],
+  "aiAreas": {
+    "code": "used",
+    "art": "not_stated",
+    "ingame": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "code": "披露原文只有整句“Steam assets and code was code assisted with AI.”，句法不完整，但“code”被明确点名，本领域登记为已使用；至于 AI 辅助到什么规模，商店页没有任何限定。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。同一句里被点名的“Steam assets”没有说明是哪一类素材（商店页素材、游戏内素材还是其它），本站不替开发者补全含义，因此美术按未说明登记。",
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。若“Steam assets”指商店页素材，本领域可能与该词有关，但披露没有说明，本站不据此定案。"
+  },
+  "aiAreaSources": {
+    "code": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5097840/",
+  "developer": "needmoar.games",
+  "publisher": "needmoar.games",
+  "steamReleaseDate": "Sep 7, 2026",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Free To Play"
+  ],
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5097840/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-04",
+      "excerpt": "Steam assets and code was code assisted with AI."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5097840/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-04",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 24）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/5097840/discussions/0/583933421007600227/",
+      "label": "Ai disclosure",
+      "date": "2026-11-04",
+      "excerpt": "You know, if it's not player facing (ie code) you don't have to disclose it. Just an FYI.\nDede View Profile View Posts Sep 7 @ 4:37pm Report this post You still have to disclose it, just because it's not art assets doesn't mean development didn't use AI. Why would you not want it disclosed regardless, if the code for the game is made by AI and all someone did was the art assets I'd still want to know. #1\nrecentteen14 View Profile View Posts Sep 7 @ 6:23pm Report this post Better to disclose it. People would still want to know and vibe coding isn't exactly the best, given how many issues it can cause and how buggy it can get better to know ahead of time. Let people make their own completely informed decisions. #2"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 needmoar.games）与英文讨论区首页（可见 15 个主题，总数 24），首页有 1 个命中 AI 关键词的主题“Ai disclosure”，已读取全帖：发帖人说如果不是面向玩家的内容（例如代码）本可以不披露，两名回帖者反驳称仍然必须披露，因为代码由 AI 完成而美术由人做同样值得知道，并提到 vibe coding 带来的 bug 风险。全帖是玩家对披露义务的看法，没有带开发方身份的回复，按规则只登记不判定，不改变任何领域结论。本款单独检索公开报道 1 次、登记 3 条结果，逐条处置后没有需要读取的第三方来源：本作商店页、一个第三方 AI 披露汇总列表页与一个“用 AI 制作的游戏”周榜首页，两者都面向一批游戏而非本作单独核验。为扩检索又追加一次含开发者名的英文检索，返回结果全为 Facebook 群组帖、Instagram 短视频与 SteamDB 统计页，均无独立于商店披露的 AI 信息，未登记。检索结果为空只说明本次检索范围，不能据此证明没有 AI。本款的关键点是披露原文本身不完整：本站按可确认的“code”登记一处使用，并把范围含糊的“Steam assets”留作未说明。结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "Steam assets and code was code assisted with AI.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-04 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A free cozy idle game about clearing a magical academy library, released on Sep 7, 2026, developed and published by needmoar.games. The whole store AI disclosure is the single, grammatically incomplete sentence Steam assets and code was code assisted with AI. The word code is named, so that area is recorded as used, while Steam assets is never explained, so art and the other six areas are recorded as not addressed instead of this site completing the meaning for the developer.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher both needmoar.games) and the English discussion homepage (15 visible topics of 24), where one topic matches the AI keyword set, titled Ai disclosure. It was opened and read in full: the opening post suggests that anything not player facing, code for example, need not have been disclosed, and two replies push back, arguing that disclosure is still required, that knowing the code was written by AI while humans only did the art matters to buyers, and that vibe coding is associated with bugs. Nobody in the thread writes with a developer identity, so these are opinions about disclosure duty and they change no area finding. This title was searched 1 time with 3 results and, after each result was dispositioned by hand, no third-party source needed to be read: the store page, a third-party aggregate list page and the homepage of a weekly chart of games made with AI, the latter two covering many games rather than verifying this one. A second English search naming the developer was run to widen coverage and returned only a Facebook group post, Instagram reels and a SteamDB statistics page, none carrying AI information independent of the store disclosure, so nothing was registered. An empty press finding only describes the search scope and is not evidence that no AI was used. The point of this record is that the disclosure sentence itself is incomplete: one use is recorded where the word code is explicit and the vague Steam assets wording is left as not addressed. The finding rests on the developer own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "code": "The single disclosure sentence names code as AI-assisted. The sentence is grammatically broken and gives no scale, so the area is recorded as used on the one word that is explicit.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The same sentence also names Steam assets without saying what kind of asset that means, so this site does not complete the meaning for the developer.",
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. If Steam assets means store-page material this area could be touched by the same wording, but the disclosure never says so and no finding is made."
+    },
+    "sourceRecordHash": "280c5361754617638c1763f1de90c699d9e6432f2d0b7ff42dcc781f6dfbbd21"
+  }
+}

@@ -1,0 +1,73 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4753960/Meow_Squad_Incremental_Fishing/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://steamdb.info/app/4753960/charts/",
+   "relevant": false,
+   "reason": "第三方条目页只有商店元数据复刻或同类推荐，没有独立的 AI 使用信息，未读取正文。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/meow-squad-incremental-fishing/info/",
+   "relevant": false,
+   "reason": "第三方比价站条目页，只有各商店价格信息，没有 AI 使用内容。"
+  },
+  {
+   "url": "https://opencredits.games/games/meow-squad-incremental-fishing",
+   "relevant": true,
+   "reason": "Open Credits 本作条目：把八个领域全部标为 Not stated，称开发者“没有说明用在哪部分”；这与本作商店披露原文“certain visual assets”并不一致，本站按商店原文判定美术领域，该页只作为第三方读法登记。"
+  },
+  {
+   "url": "https://www.incrementaldb.com/game/meow-squad-incremental-fishing",
+   "relevant": false,
+   "reason": "放置类游戏数据库条目页，只有商店元数据复刻，没有 AI 使用内容。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4753960",
+   "relevant": true,
+   "reason": "AI Transparency Index 本作条目：自动从公开披露分类，页面自述“Model-reported confidence 95% 是模型估计，不是实测准确率或人工复核分”，并把披露原文整段列在页面下方；属转录，已读取原始页面。"
+  }
+ ],
+ "coverageLimits": [
+  "每个候选单独检索一轮，检索词为英文（4261320 因讨论区身份无法核验已被替换，未检索其报道）；只登记本响应文件所记录的这一次查询结果集，另做的宽泛检索未产出可核验的独立报道时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区、社交媒体站内检索与付费数据库；未能读取全文的条目一律标为不相关。",
+  "第三方 AI 披露聚合站的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4753960",
+   "sourceType": "press",
+   "url": "https://opencredits.games/games/meow-squad-incremental-fishing",
+   "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Yes. Meow Squad: Incremental Fishing's developer disclosed AI use on Steam without saying which parts of the game it was used for.",
+   "locator": "full article text",
+   "label": "Open Credits 本作条目：把全部领域标为 Not stated",
+   "publicExcerpt": "Yes. Meow Squad: Incremental Fishing's developer disclosed AI use on Steam without saying which parts of the game it was used for.",
+   "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/4753960/press-0.html",
+   "contentHash": "94bc75c2763fc45dc7ee0230b063b8d8848f10d34d8c92e55c2c2e8a60d823ae"
+  },
+  {
+   "id": "press-1",
+   "appId": "4753960",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4753960",
+   "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Generative AI assisted in creating certain visual assets during development, with all final in-game content created by professional artists.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 本作条目：模型自动分类，自述非人工复核",
+   "publicExcerpt": "Generative AI assisted in creating certain visual assets during development, with all final in-game content created by professional artists.",
+   "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/4753960/press-1.html",
+   "contentHash": "ea136242faaefc8efc0639f1c374ee31f0f6f7a288c7b333df26c0afaf19a9ed"
+  }
+ ]
+}

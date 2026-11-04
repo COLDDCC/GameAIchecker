@@ -1,0 +1,93 @@
+{
+  "appId": "4870430",
+  "name": "Tidy Up History",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "博物馆整理模拟，2026 年 9 月 16 日上市，Casual Human 开发并发行。商店披露分三层：团队正主动在上线前替换所有占位 AI 美术、但承认正式版可能仍残留少量素材；AI 工具被用于协助游戏与商店页的本地化；所有 3D 游戏内美术由人类美术师创作或取自真实博物馆照片扫描。八个领域登记美术（占位素材）与翻译两处已使用，其余记为披露未说明。英文讨论区有带 [developer] 身份的回复把 AI 用途收窄为“几张壁纸和几个门图标”，并说明 AI 本地化会保留。",
+  "aiUsageCategories": [
+    "art",
+    "translation"
+  ],
+  "aiAreas": {
+    "art": "used",
+    "translation": "used",
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "披露的第一、二句是：团队正主动在上线前替换所有占位用的 AI 美术，并承认虽然目标是完全由人完成，正式版可能仍有少量素材未替换。第三句另称所有 3D 游戏内美术由人类美术师创作，或取自真实博物馆的照片扫描（并让玩家去看致谢菜单）。因此本领域登记为“已使用（占位素材，声明替换中）”，商店页没有给出已替换的比例；讨论区里带 [developer] 身份的回复把范围进一步说成“只有几张壁纸和几个门图标”，那是论坛发言而非披露栏内容，本站不据此改动登记。",
+    "translation": "披露明确写道 AI 工具还被用于协助游戏与商店页的本地化（assist with localizing the game and store page）；没有说明涉及哪些语种，也没有说明是否有人工复核。",
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。披露只说明 AI 协助本地化，脚本与文案是否由人撰写没有单独写明。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。披露把本地化范围写到商店页，但没有说明商店页素材或宣传物料是否由 AI 生成。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4870430/",
+  "developer": "Casual Human",
+  "publisher": "Casual Human",
+  "steamReleaseDate": "Sep 16, 2026",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4870430/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-04",
+      "excerpt": "We are actively working to replace all placeholder AI art before launch. While we aim for a fully human-crafted experience, a few minor assets may still remain at release. AI tools were also used to assist with localizing the game and store page. All 3D in-game art was created by human artists or derived from real-world museum photoscans. (See the credits menu for full attributions.)"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4870430/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-04",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 76）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/4870430/discussions/0/572675438578734043/",
+      "label": "Chance of removing all AI?",
+      "date": "2026-11-04",
+      "excerpt": "Interested in playing but I'm more interested if the AI generated placeholders will be removed.\nViolet View Profile View Posts Sep 20 @ 8:09pm Report this post Subscribing and commenting in hopes of a response. Store page says AI placeholders to be removed at launch. Did this happen? Will this happen? What is the timeline if so? #1\nZelrune View Profile View Posts Sep 20 @ 10:36pm Report this post It's been five days since launch and the AI placeholder wasn't removed, dev might not have gotten to it yet but I'm hoping it's soonish. #2\ncasualhuman View Profile View Posts [developer] Sep 21 @ 1:20am Report this post Our efforts right now are focused on fixing bugs and improving the experience. Even if we removed all the AI art, AI localization will stay for a simple reason, we can't ensure at 100% that localization companies aren't using AI. As an (almost) solo dev, I can't afford to hire a company to do something I can do, just so it looks better on paper. This game only uses AI for a few wallpapers and a few door icons, even if they were recreated by hand, they would look pretty much the same, because that's the iconography I wanted to achieve, as an artist myself, for the included cultures. We will do it if we have free time, but in all honesty it's not our priority atm. If you don't feel good about AI usage at all, I would advise you to not buy this game. #3\nawarlock View Profile View Posts Sep 21 @ 10:38am Report this post Great game!! I don't care whether AI was used or not to create some things. Glad to purchase and play!! Ready for more!! #4\nZelrune View Profile View Posts Oct 2 @ 10:46pm Report this post Any update to this? #5\nAbduxuel View Profile View Posts Oct 6 @ 7:34am Report this post I just finished the game and I LOVED IT! Didn't even notice if there was AI to be honest. Thank you so much for this game :) Please make more lol #6"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gamedb.ai/games/4870430-tidy-up-history",
+      "label": "GameDB.ai 本作条目：把披露拆成 Translation(Core) 与 Art(Placeholder)",
+      "date": "2026-11-04",
+      "excerpt": "Placeholder AI art is being replaced before launch, and AI tools helped localize the game and store page."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 Casual Human）与英文讨论区首页（可见 15 个主题，总数 76），首页有 1 个命中 AI 关键词的主题“Chance of removing all AI?”，已读取全帖：发帖人问占位 AI 美术是否会被移除，一名玩家指出上线五天后仍未移除；带 [developer] 身份的作者回复称当前精力在修 bug 与改善体验，并写明“就算把所有 AI 美术都换掉，AI 本地化也会保留，因为我们无法 100% 保证本地化公司不用 AI”，还说本作只有几张壁纸和几个门图标用了 AI、作为美术师重做也差不多，并称若不介意 AI 就别买；后面几楼是通关好评与再次催更。开发方的论坛发言与披露栏不同口径（披露写“少量素材可能仍残留”，论坛写“只有几张壁纸和几个门图标”），本站不据此改判领域，只把两处原文都登记在案。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源：GameDB.ai 本作条目把披露概括为“占位 AI 美术正在替换、AI 协助本地化”，并按领域标为 Translation(Core) 与 Art(Placeholder)，该站自述 AI 标签读自各游戏的 Steam 披露，属转录。其余结果为本作商店页、一个 Reddit 同类游戏好评帖（本机与代理两条通道均无法读取全文，未登记）、另一款游戏（App ID 4197610）讨论区里求同类非 AI 游戏的主题帖、一个比价站条目页与两个与本作无关的 YouTube 视频条目。八个领域全部按商店披露原文判定，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "We are actively working to replace all placeholder AI art before launch. While we aim for a fully human-crafted experience, a few minor assets may still remain at release. AI tools were also used to assist with localizing the game and store page. All 3D in-game art was created by human artists or derived from real-world museum photoscans. (See the credits menu for full attributions.)",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-04 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A museum tidying simulation released on Sep 16, 2026, developed and published by Casual Human. The store disclosure has three layers: the team is actively replacing all placeholder AI art before launch while admitting a few minor assets may still remain at release, AI tools also assisted with localizing the game and the store page, and all 3D in-game art was made by human artists or derived from real-world museum photoscans. The art area is recorded as used for the placeholder assets with the replacement still claimed in progress, translation as used, and the remaining areas as not addressed. A reply written under a developer identity in the English discussions narrows the AI use to a few wallpapers and a few door icons and says the AI localization will stay.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher both Casual Human) and the English discussion homepage (15 visible topics of 76), where one topic matches the AI keyword set, titled Chance of removing all AI. It was opened and read in full: the opening post asks whether the AI placeholders will be removed, a player notes that nothing had been removed five days after launch, and the reply written under a developer badge says current effort goes to bugs and polish, that even if all the AI art were removed the AI localization would stay because they cannot guarantee that localisation companies avoid AI, that the game only uses AI for a few wallpapers and a few door icons which would look much the same if redone by an artist, and advises readers not to buy it if AI use feels wrong; later posts are completion praise and another request for an update. The forum wording and the disclosure wording differ, the disclosure allowing that a few assets may remain while the forum post narrows it to specific icon and wallpaper counts, so this site does not reclassify any area on the forum text and logs both as written. This title was searched 1 time with 6 results and 1 raw source was read: a GameDB.ai entry summarising the disclosure as placeholder AI art being replaced plus AI-assisted localisation and tagging it Translation and Art, which that site states is read from each game Steam disclosure, i.e. a transcription. The remaining results were the store page, a Reddit recommendation post in a genre community that could not be reached because neither the direct route nor the local proxy completed a TLS handshake, a thread in a different game discussion board about asking for similar games without generative AI, a price-comparison entry and two YouTube items unrelated to this game. Every area finding comes from the store disclosure text and rests on the developer own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "art": "The disclosure says the team is actively replacing all placeholder AI art before launch while conceding that a few minor assets may still remain at release, and separately states that all 3D in-game art was created by human artists or derived from real-world museum photoscans. The area is recorded as used for the placeholder assets; the store page gives no share replaced, and the developer reply in the discussions, which narrows it to a few wallpapers and a few door icons, is forum wording rather than the disclosure block, so it does not change the finding.",
+      "translation": "The disclosure states that AI tools were also used to assist with localizing the game and the store page. It does not say which languages are covered or whether the output was human-reviewed, and the developer reply in the discussions adds that this AI localization will stay.",
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure only covers AI assistance with localisation, and does not say who wrote the script and copy.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure extends the localisation scope to the store page but does not say whether store or promotional imagery was AI-generated."
+    },
+    "sourceRecordHash": "a61ab340de796c4bbca2ba7cd3db19a1439a8f81ce9afd49b81a1d0f7f380928"
+  }
+}

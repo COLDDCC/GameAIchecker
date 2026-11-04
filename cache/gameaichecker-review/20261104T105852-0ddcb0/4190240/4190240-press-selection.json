@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4190240/Nuclear_Design_Bureau/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4190240/reviews/",
+   "relevant": false,
+   "reason": "Steam 社区页（评测/新闻/其它语言入口），只有本作商店元数据与玩家评论入口，没有独立于商店披露的 AI 信息，未读取正文。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4190240",
+   "relevant": true,
+   "reason": "AI Transparency Index 本作条目：把只写了“AI-generated assets”的披露自动分类为 art/audio/text 三个标签，页面自述该分类由模型给出、不是人工复核；本站不采纳其领域拆分，只登记为第三方读法，已读取原始页面。"
+  },
+  {
+   "url": "https://www.reddit.com/r/nuclearweapons/comments/1wg52xw/nuclear_design_bureau_a_game_where_you_design/",
+   "relevant": false,
+   "reason": "Reddit 核武器版块的游戏推荐帖，主题是玩法科普而非 AI 使用；Reddit 帖：本机直连与 127.0.0.1:7897 代理两条通道都无法完成 TLS 握手，全文未能读取，因此不登记为本作来源。"
+  },
+  {
+   "url": "https://steamdb.info/app/4190240/charts/",
+   "relevant": false,
+   "reason": "第三方条目页只有商店元数据复刻或同类推荐，没有独立的 AI 使用信息，未读取正文。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4190240/Nuclear_Design_Bureau/?l=schinese",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  }
+ ],
+ "coverageLimits": [
+  "每个候选单独检索一轮，检索词为英文（4261320 因讨论区身份无法核验已被替换，未检索其报道）；只登记本响应文件所记录的这一次查询结果集，另做的宽泛检索未产出可核验的独立报道时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区、社交媒体站内检索与付费数据库；未能读取全文的条目一律标为不相关。",
+  "第三方 AI 披露聚合站的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4190240",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4190240",
+   "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI-generated assets were used in the game, with no AI content generated during gameplay.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 本作条目：模型自动分类，自述非人工复核",
+   "publicExcerpt": "AI-generated assets were used in the game, with no AI content generated during gameplay.",
+   "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/4190240/press-0.html",
+   "contentHash": "89c16d95d0666e5ccd6c8042255fa52a211f40bf9338bc5f29efb7b38cc8715f"
+  }
+ ]
+}

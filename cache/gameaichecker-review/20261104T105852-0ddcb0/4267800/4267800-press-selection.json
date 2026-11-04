@@ -1,0 +1,40 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4267800/Bandit_Simulator_TD/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://www.allkeyshop.com/blog/en-us/buy-bandit-simulator-td-key-compare-prices/",
+   "relevant": false,
+   "reason": "钥匙比价博客页，只有价格与折扣信息，没有独立的 AI 使用信息。"
+  },
+  {
+   "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+   "relevant": false,
+   "reason": "第三方 AI 披露汇总列表页，面向一批游戏而非本作单独核验，本次未作为本作来源读取。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4267800/?l=norwegian&curator_clanid=4777282&utm_source=SteamDB",
+   "relevant": false,
+   "reason": "Steam 社区页（评测/新闻/其它语言入口），只有本作商店元数据与玩家评论入口，没有独立于商店披露的 AI 信息，未读取正文。"
+  },
+  {
+   "url": "https://gameaton.com/game/bandit-simulator-td",
+   "relevant": false,
+   "reason": "Gameaton 本作条目页：已读取原始页面并逐段核对，全文为同类推荐与优缺点摘要，页面上出现的“AI”只是另一款被推荐游戏的名称（Rogue AI Simulator），没有本作的 AI 使用信息，因此不作为来源登记。"
+  },
+  {
+   "url": "https://www.instagram.com/p/B2ieMA-AGjE/",
+   "relevant": false,
+   "reason": "Instagram 帖子与本作无关（同名干扰结果），未读取。"
+  }
+ ],
+ "coverageLimits": [
+  "每个候选单独检索一轮，检索词为英文（4261320 因讨论区身份无法核验已被替换，未检索其报道）；只登记本响应文件所记录的这一次查询结果集，另做的宽泛检索未产出可核验的独立报道时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区、社交媒体站内检索与付费数据库；未能读取全文的条目一律标为不相关。",
+  "第三方 AI 披露聚合站的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域结论。"
+ ],
+ "sources": []
+}

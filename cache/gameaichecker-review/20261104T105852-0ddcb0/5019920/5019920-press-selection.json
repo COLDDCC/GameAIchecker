@@ -1,0 +1,73 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5019920/_Tasty_Chef/?snr=1_300_morelikev2__105_10",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/5019920",
+   "relevant": true,
+   "reason": "AI Transparency Index 本作条目：把披露概括为“生成式 AI 用于制作全部视觉美术与音乐”，属模型自动分类，页面自述分类结果不是人工复核；已读取原始页面。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5019920/Tasty_Chef/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/cjSlELVx23w",
+   "relevant": false,
+   "reason": "YouTube Shorts 视频条目，标题为泛讨论“玩家是否讨厌 AI 游戏”，不是本作的可核验图文来源，未读取。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5019920-tasty-chef",
+   "relevant": true,
+   "reason": "GameDB.ai 本作条目：自述“AI labels are read from each game’s Steam disclosure”，把本作标为 Art(Core) 与 Music & SFX(Core) 并复述商店披露；属转录，已读取原始页面。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5019920/Tasty_Chef/?snr=1_7_7_151_150_211",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  }
+ ],
+ "coverageLimits": [
+  "每个候选单独检索一轮，检索词为英文（4261320 因讨论区身份无法核验已被替换，未检索其报道）；只登记本响应文件所记录的这一次查询结果集，另做的宽泛检索未产出可核验的独立报道时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区、社交媒体站内检索与付费数据库；未能读取全文的条目一律标为不相关。",
+  "第三方 AI 披露聚合站的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5019920",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/5019920",
+   "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Generative AI was used to create all visual art assets and music featured in the game.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 本作条目：模型自动分类，自述非人工复核",
+   "publicExcerpt": "Generative AI was used to create all visual art assets and music featured in the game.",
+   "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/5019920/press-0.html",
+   "contentHash": "315fc8872107c9d56abe530ad9d865d4a8664ac98b2cb549b5646ebf32be5764"
+  },
+  {
+   "id": "press-1",
+   "appId": "5019920",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/5019920-tasty-chef",
+   "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI created all visual art and music; no AI content is generated during gameplay.",
+   "locator": "full article text",
+   "label": "GameDB.ai 本作条目：自述 AI 标签读自商店披露",
+   "publicExcerpt": "AI created all visual art and music; no AI content is generated during gameplay.",
+   "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/5019920/press-1.html",
+   "contentHash": "553955da5ae8c36e2e61b0ad1511e9c45f3d301bec1a8f6113d6425d029bd601"
+  }
+ ]
+}

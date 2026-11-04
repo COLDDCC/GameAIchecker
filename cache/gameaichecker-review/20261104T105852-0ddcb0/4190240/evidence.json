@@ -1,0 +1,225 @@
+{
+  "sources": [
+    {
+      "appId": "4190240",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4190240/?l=english",
+      "fetchedAt": "2026-11-04T01:59:52.095824+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "938c53bacbde915a72360080077d35cb080eb24819ec82dfc28acce8afe4baeb",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\4190240\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "This game uses AI-generated assets made during development. No AI content is generated during gameplay.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "This game uses AI-generated assets made during development. No AI content is generated during gameplay."
+    },
+    {
+      "appId": "4190240",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4190240/discussions/?l=english",
+      "fetchedAt": "2026-11-04T01:59:53.222203+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "a77a382f5c1b35725a8467c43f8bf18dd1f80d98dde32047b61ba25c3b20aa83",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\4190240\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Anyone hit 10Mt yet?\nI'm making breakthroughs but I would like some assistance or input.\nHow to stop early detonation?\nWhats your highest yield for a fusion boosted implosion device?\nPlease add electric discharge\nNeutron Generator bug\nCan't get RDS-4 Directive 3-2 to work.\nWheres my \"No Plutonium\" achievement?\nDevelopers, please read\nBrush suggestions\nSteam overlay not working and achievments not triggering\nHow to share a screenshot? Current record 1.84 Gt yield per kg fissile material\nDesign dashboard?\nLinux / Proton support\nHow and why does this design work?",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 217）；仅覆盖首页。"
+    },
+    {
+      "appId": "4190240",
+      "sourceType": "thread",
+      "url": "https://steamcommunity.com/app/4190240/discussions/0/574927167599683127/",
+      "fetchedAt": "2026-11-04T02:00:33.649563+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "65ba32e7696ada5597143a192f92bd09d7773106023f910d644f3249d600d898",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\4190240\\thread-0.html",
+      "locator": "forum_op + all visible replies",
+      "quote": "I think neutron generators timing may be bugged, no matter the timing value it appears to be firing the instant the sim starts\nFennecFax View Profile View Posts Sep 15 @ 9:25pm Report this post Had the same problem, on 3-1, the first plutonium experiment it changed the detonator times from measuring in MS to PS, changing the timing to the same whole number in PS worked, not sure why it's designed this way #1\nTiax View Profile View Posts Nov 1 @ 5:16am Report this post Same issue there. Even weirder, adding a D-T Neutron Generator pushed the K from 0.98 to 1.04 at rest, even with a 100000 microseconds delay. #2\nRasterz View Profile View Posts Nov 1 @ 5:45am Report this post It's caused by a duplication bug. Delete the DT-generator using air or the select tool, then place a new one. #3",
+      "id": "thread-0",
+      "label": "Neutron Generator bug"
+    },
+    {
+      "id": "press-0",
+      "appId": "4190240",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/4190240",
+      "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "AI-generated assets were used in the game, with no AI content generated during gameplay.",
+      "locator": "full article text",
+      "label": "AI Transparency Index 本作条目：模型自动分类，自述非人工复核",
+      "publicExcerpt": "AI-generated assets were used in the game, with no AI content generated during gameplay.",
+      "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/4190240/press-0.html",
+      "contentHash": "89c16d95d0666e5ccd6c8042255fa52a211f40bf9338bc5f29efb7b38cc8715f"
+    }
+  ],
+  "identity": {
+    "appId": "4190240",
+    "name": "Nuclear Design Bureau",
+    "developer": "Design Bureau KB-11",
+    "publisher": "Design Bureau KB-11",
+    "type": "game",
+    "verified": true,
+    "release": "Sep 14, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Indie",
+      "Simulation",
+      "Strategy",
+      "Early Access"
+    ],
+    "description": "Design. Simulate. Detonate. As a junior engineer at the Kurchatov Institute, you design atomic devices to satisfy the demands of the State. A hardcore physics game simulating hydrodynamics, neutron transport, and thermonuclear fusion.",
+    "identityEvidence": {
+      "appId": "4190240",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4190240&l=english",
+      "fetchedAt": "2026-11-04T01:59:52.605442+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "e11e380da74c1b2d02e06ba8e429a09f746d65a67a4789598483418f13985fe7",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\4190240\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 217,
+    "topics": [
+      {
+        "title": "Anyone hit 10Mt yet?",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/574927238287363510/"
+      },
+      {
+        "title": "I'm making breakthroughs but I would like some assistance or input.",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/571553580273910156/"
+      },
+      {
+        "title": "How to stop early detonation?",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/571552997743588145/"
+      },
+      {
+        "title": "Whats your highest yield for a fusion boosted implosion device?",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/594069606514266619/"
+      },
+      {
+        "title": "Please add electric discharge",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/571553273173160685/"
+      },
+      {
+        "title": "Neutron Generator bug",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/574927167599683127/"
+      },
+      {
+        "title": "Can't get RDS-4 Directive 3-2 to work.",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/594068999055145893/"
+      },
+      {
+        "title": "Wheres my \"No Plutonium\" achievement?",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/571553273173172744/"
+      },
+      {
+        "title": "Developers, please read",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/571552997743538661/"
+      },
+      {
+        "title": "Brush suggestions",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/571552997743692525/"
+      },
+      {
+        "title": "Steam overlay not working and achievments not triggering",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/572678133316117675/"
+      },
+      {
+        "title": "How to share a screenshot? Current record 1.84 Gt yield per kg fissile material",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/571552997743535532/"
+      },
+      {
+        "title": "Design dashboard?",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/571552997743631914/"
+      },
+      {
+        "title": "Linux / Proton support",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/594069100231316998/"
+      },
+      {
+        "title": "How and why does this design work?",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/571552638979710296/"
+      }
+    ],
+    "related": [
+      {
+        "title": "Neutron Generator bug",
+        "url": "https://steamcommunity.com/app/4190240/discussions/0/574927167599683127/",
+        "status": "complete",
+        "evidenceId": "thread-0",
+        "identityVerified": true,
+        "repliesChecked": true
+      }
+    ],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Nuclear Design Bureau\" Steam game AI",
+    "searchedAt": "2026-11-04T01:59:00Z",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/4190240/Nuclear_Design_Bureau/",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+      },
+      {
+        "url": "https://steamcommunity.com/app/4190240/reviews/",
+        "relevant": false,
+        "reason": "Steam 社区页（评测/新闻/其它语言入口），只有本作商店元数据与玩家评论入口，没有独立于商店披露的 AI 信息，未读取正文。"
+      },
+      {
+        "url": "https://aitransparencyindex.com/products/steam/4190240",
+        "relevant": true,
+        "reason": "AI Transparency Index 本作条目：把只写了“AI-generated assets”的披露自动分类为 art/audio/text 三个标签，页面自述该分类由模型给出、不是人工复核；本站不采纳其领域拆分，只登记为第三方读法，已读取原始页面。"
+      },
+      {
+        "url": "https://www.reddit.com/r/nuclearweapons/comments/1wg52xw/nuclear_design_bureau_a_game_where_you_design/",
+        "relevant": false,
+        "reason": "Reddit 核武器版块的游戏推荐帖，主题是玩法科普而非 AI 使用；Reddit 帖：本机直连与 127.0.0.1:7897 代理两条通道都无法完成 TLS 握手，全文未能读取，因此不登记为本作来源。"
+      },
+      {
+        "url": "https://steamdb.info/app/4190240/charts/",
+        "relevant": false,
+        "reason": "第三方条目页只有商店元数据复刻或同类推荐，没有独立的 AI 使用信息，未读取正文。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4190240/Nuclear_Design_Bureau/?l=schinese",
+        "relevant": false,
+        "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/4190240"
+    ],
+    "coverageLimits": [
+      "每个候选单独检索一轮，检索词为英文（4261320 因讨论区身份无法核验已被替换，未检索其报道）；只登记本响应文件所记录的这一次查询结果集，另做的宽泛检索未产出可核验的独立报道时不再追加。",
+      "检索面向公开网页，未覆盖 Steam 中文/韩文分区、社交媒体站内检索与付费数据库；未能读取全文的条目一律标为不相关。",
+      "第三方 AI 披露聚合站的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域结论。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\4190240\\press-search.json",
+    "contentHash": "a4fff1a450c732e0abf40a262b462f1f8635b85a72d39cb42562cb6f2d8f2074"
+  }
+}

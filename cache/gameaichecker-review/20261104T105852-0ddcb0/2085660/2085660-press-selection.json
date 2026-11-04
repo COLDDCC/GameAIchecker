@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://gamedb.ai/games/2085660-devices-tycoon",
+   "relevant": true,
+   "reason": "GameDB.ai 本作条目：把商店披露概括为“AI 协助制作了游戏内部分虚构公司 logo”，该站自述 AI 标签读自各游戏的 Steam 披露，属转录，已读取原始页面。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/2085660/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/2085660/Devices_Tycoon/?snr=1_4_4__145_6",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DemefGsS2uh/",
+   "relevant": false,
+   "reason": "Instagram 短视频条目，与本作无直接对应关系，未读取。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/techdev-tycoon/info/",
+   "relevant": false,
+   "reason": "另一款游戏（TechDev Tycoon）的比价条目页，属同名近似作品的干扰结果，与本作无关。"
+  },
+  {
+   "url": "https://www.reddit.com/r/gamedesign/comments/1x6q7tp/im_building_a_tycoon_game_where_you_dont_get_to/",
+   "relevant": false,
+   "reason": "Reddit 游戏设计版块的开发帖，未标明即本作；Reddit 帖：本机直连与 127.0.0.1:7897 代理两条通道都无法完成 TLS 握手，全文未能读取，因此不登记为本作来源。"
+  }
+ ],
+ "coverageLimits": [
+  "每个候选单独检索一轮，检索词为英文（4261320 因讨论区身份无法核验已被替换，未检索其报道）；只登记本响应文件所记录的这一次查询结果集，另做的宽泛检索未产出可核验的独立报道时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区、社交媒体站内检索与付费数据库；未能读取全文的条目一律标为不相关。",
+  "第三方 AI 披露聚合站的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "2085660",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/2085660-devices-tycoon",
+   "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI helped create some fictional company logos in the game.",
+   "locator": "full article text",
+   "label": "GameDB.ai 本作条目：自述 AI 标签读自商店披露",
+   "publicExcerpt": "AI helped create some fictional company logos in the game.",
+   "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/2085660/press-0.html",
+   "contentHash": "b6e0790ccaa76baef92a4fd66563784665a4c2f96b89e3826bc83598a8d987b1"
+  }
+ ]
+}

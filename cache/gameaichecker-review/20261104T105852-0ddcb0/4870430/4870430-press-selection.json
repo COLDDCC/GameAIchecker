@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://www.reddit.com/r/TidyUpGames/comments/1wicz2q/tidy_up_history_is_excellent/",
+   "relevant": false,
+   "reason": "Reddit 同类游戏社区的好评帖，主题是玩法体验而非 AI；Reddit 帖：本机直连与 127.0.0.1:7897 代理两条通道都无法完成 TLS 握手，全文未能读取，因此不登记为本作来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4870430/Tidy_Up_History/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（含本作的其它语言或折扣入口版本）；本作的披露已按商店页英文原文完整核查，不在报道来源中重复登记。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4197610/discussions/0/525387344813187642/?l=thai",
+   "relevant": false,
+   "reason": "另一款游戏（App ID 4197610）讨论区里“求同类不使用生成式 AI 的游戏”的主题帖，属于同名题材的邻站线索，不是本作的信息来源。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/tidy-up-history/info/",
+   "relevant": false,
+   "reason": "第三方比价站条目页，只有各商店价格信息，没有 AI 使用内容。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4870430-tidy-up-history",
+   "relevant": true,
+   "reason": "GameDB.ai 本作条目：把商店披露概括为“占位 AI 美术正在替换、AI 协助本地化”，并按领域标为 Translation(Core) 与 Art(Placeholder)；该站自述 AI 标签读自各游戏的 Steam 披露，属转录，已读取原始页面。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=LpsNbpRiNT4",
+   "relevant": false,
+   "reason": "YouTube 视频条目，主题为整理类游戏的流行趋势，不是本作可核验的图文来源，未读取。"
+  }
+ ],
+ "coverageLimits": [
+  "每个候选单独检索一轮，检索词为英文（4261320 因讨论区身份无法核验已被替换，未检索其报道）；只登记本响应文件所记录的这一次查询结果集，另做的宽泛检索未产出可核验的独立报道时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区、社交媒体站内检索与付费数据库；未能读取全文的条目一律标为不相关。",
+  "第三方 AI 披露聚合站的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4870430",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/4870430-tidy-up-history",
+   "fetchedAt": "2026-11-04T02:12:38.387428+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Placeholder AI art is being replaced before launch, and AI tools helped localize the game and store page.",
+   "locator": "full article text",
+   "label": "GameDB.ai 本作条目：把披露拆成 Translation(Core) 与 Art(Placeholder)",
+   "publicExcerpt": "Placeholder AI art is being replaced before launch, and AI tools helped localize the game and store page.",
+   "cachePath": ".cache/gameaichecker-review/20261104T105852-0ddcb0/4870430/press-0.html",
+   "contentHash": "0fc18759508ce20117a91e11fbe094f30acdb75f1fc5dcd6fc655fa8dc1e9d4f"
+  }
+ ]
+}
