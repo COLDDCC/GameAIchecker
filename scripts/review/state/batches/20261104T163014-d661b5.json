@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "164541e58877a68885e2cfa752e9fb358f625201",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "prepared",
+  "phase": "media_ready",
   "createdAt": "2026-11-04T07:30:14.703433+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -667,8 +667,18 @@
       "decisionHash": "d7e8c1afaaa18bc3e17ce3c00a06ed8686b01ee391547cd115df5249ac49a7ce"
     }
   ],
-  "checkResults": {},
-  "publishShas": {},
+  "checkResults": {
+    "media": {
+      "checks": {
+        "Persist media for reviewed games": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41796911123"
+      },
+      "bytes": 45326664,
+      "verifiedRemoteSha": "9bf4018807928de7603cfd57713d6ef95d881b49"
+    }
+  },
+  "publishShas": {
+    "media": "90152dec3d32ff6d9fed26b531981b76443bedb4"
+  },
   "attempts": 11,
   "maxAttempts": 30,
   "selectionOverride": {
@@ -695,5 +705,7 @@
       "reason": "store page is login-gated (HTTP 200 returns Steam Sign In for every language/region variant); official disclosure text cannot be captured"
     }
   ],
-  "applyBase": "164541e58877a68885e2cfa752e9fb358f625201"
+  "applyBase": "164541e58877a68885e2cfa752e9fb358f625201",
+  "pendingTree": "54b1d841b54bea36380567eb7f24f864c0284266",
+  "siteBase": "9bf4018807928de7603cfd57713d6ef95d881b49"
 }
