@@ -1,0 +1,62 @@
+{
+ "identityName": "Ghost in the SQL Data",
+ "identityDeveloper": "Isaac MENARD",
+ "category": "official_ai_disclosure",
+ "disclosureQuote": "AI was used on this game: to assist with the programming, and to produce the translations. If a line reads wrong in your language, report it on the Steam community hub.",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "used",
+   "note": "披露点名两项用途，其一是编程协助：to assist with the programming。用词是 assist，未说明生成占比，本站按原文登记为已使用。",
+   "evidenceId": "store",
+   "quote": "AI was used on this game: to assist with the programming"
+  },
+  "art": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露的其二是产出译文：to produce the translations，并补一句 If a line reads wrong in your language, report it on the Steam community hub.，即把译文质量问题引导到社区反馈。开发者的原文用词是 produce，比协助更强，本站按原文登记为已使用。",
+   "evidenceId": "store",
+   "quote": "to produce the translations. If a line reads wrong in your language, report it on the Steam community hub."
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "summary": "用 SQL 查询破案的侦探游戏，2026 年 10 月 29 日上架，Isaac MENARD 独立开发并发行，分类为模拟／策略。玩法是在一年的巴黎急救通话记录里查一起“比首位目击者早 14 分钟报警”的学校火灾电话。商店 AI 披露写明两处用途：AI 协助编程，并由 AI 产出译文；开发者还请玩家在语言不对时到社区反馈。本站据此登记代码与翻译为已使用，其余六个领域（美术、音乐、语音、文本创作、游戏内实时生成、营销）记为披露未说明。讨论区里开发者本人的回复与披露同向，只作为佐证登记，不改变判定。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 Isaac MENARD）与英文讨论区首页（可见 15 个主题，总数 74，仅覆盖首页）。首页有 1 个命中 AI 关键词的主题“AI”，已读取全帖（转录正文 15,304 字符）：玩家问“用了多少 AI”，带 [developer] 徽章的开发者 is02ac 回复 Hi, I used it for programming and translating from French (sometimes I write directly in English, but not every time)，即编程与从法语译成其它语言两处使用，并说明有时自己直接写英文；后续跟帖里有人引用这句回复说“编程可以接受”，也有身为 SQL 开发者的玩家争论“为什么编程可以而美术不行”，开发者再次以 [developer] 身份回帖。这条开发者回复与商店披露同向，且多给了一个可核对的信息：源语言是法语；本站按规则把领域结论绑定在商店披露原文上，开发者的社区回复只登记为佐证，不作为独立核实。需要留意的是，开发者说“有时自己直接写英文”，说明文本创作领域存在人工写作，但披露未逐项说明 AI 是否参与原始文本，因此写作领域仍记为未说明。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源：AI Transparency Index 本作条目把披露自动分类为“AI 辅助编程并产出译文”，标注 Process 为 AI-assisted、Live AI during play 为 No，页面自述 95% 置信度只是模型估计、不是人工复核分，并把披露原文整段列在下方；HowMuchAI 本作条目逐领域转录为 9 项中 2 项提及 AI（Translation AI-generated、Code AI-assisted），并标注首次收录 2026-10-26、复查 2026-11-04。两站内容均取自商店披露，属转录与模型分类，不构成独立核实。其余 4 条为一条 LinkedIn 推广帖（需登录渲染，未读取）、SteamPeek 同类推荐页、一个 appid 指向 3889540 的 Steam 鉴赏家列表页与 steampageanalyzer 的列表页。",
+ "description": "一桩比目击者早 14 分钟的报警电话：在写满 SQL 表的巴黎急救通话数据里查清是谁报的警。",
+ "english": {
+  "summary": "A detective game played through SQL queries, released on Oct 29, 2026, developed and published by Isaac MENARD, filed under Simulation and Strategy, where the player searches a year of Paris emergency calls for the report that reached a school fire fourteen minutes before the first witness saw it. The Steam AI disclosure names two uses: AI assisted with the programming and AI produced the translations, with an invitation to report badly readable lines on the community hub. This site records code as used on the wording assist with the programming and translation as used on the wording produce the translations, and records art, music, voice, writing, live in-game generation and marketing as areas the disclosure does not address.",
+  "reviewNote": "Reviewed the complete English Steam AI disclosure, the identity (Isaac MENARD credited as both developer and publisher) and the English discussion homepage (15 visible topics of 74, first page only). One homepage topic matches the AI keyword search, titled simply AI, and it was opened and read in full (15,304 characters of transcribed text): a player asks how much AI is used, and the reply carrying the developer identity badge, from is02ac, states Hi, I used it for programming and translating from French (sometimes I write directly in English, but not every time), which adds one checkable detail the store sentence does not give, that the source language is French and that some English lines are written by the developer directly. Later replies quote that sentence, one player says programming is tolerable, another who works as a SQL developer argues why programming is accepted where art is not, and the developer answers again under the developer badge. This site binds each area finding to the store disclosure text and logs the community reply only as corroboration, not as independent verification. Because the developer says some English is written directly, writing is left as an area the disclosure does not address rather than upgraded or denied. This title was searched once, that response holds 6 results and 2 raw sources were read: the AI Transparency Index entry for this game auto-classifies the disclosure as programming assistance plus produced translations, marks the process as AI-assisted with live AI during play as No, states that its 95 percent confidence is a model estimate rather than a measured accuracy or a human review score, and prints the raw disclosure below; the HowMuchAI entry for this game transcribes it as two of nine parts, Translation AI-generated and Code AI-assisted, with first seen Oct 26, 2026 and last checked Nov 4, 2026. Both sites state their content comes from the store disclosure, so they are transcriptions and model classifications rather than verification. The other 4 results were a LinkedIn promotion post that cannot be quoted without a logged-in render, a SteamPeek similar-games page, a Steam curators page whose appid is 3889540 and a steampageanalyzer index page.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "The disclosure names programming assistance outright: AI was used on this game, to assist with the programming. The word is assist, so no share of the code is attributed, and the developer later said the same thing under the developer badge in the discussions.",
+   "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "The second named use is stronger wording, to produce the translations, followed by a request to report any line that reads wrongly in the player language. This area is recorded as used on that produce wording.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

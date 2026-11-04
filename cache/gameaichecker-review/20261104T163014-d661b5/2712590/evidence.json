@@ -1,0 +1,200 @@
+{
+  "sources": [
+    {
+      "appId": "2712590",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/2712590/?l=english",
+      "fetchedAt": "2026-11-04T07:30:50.769996+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "a9b9e7401cbe9c804f3d94dabcd8bbee0f5e777449178c4f21750dd8698f4e1e",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T163014-d661b5\\2712590\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Generative AI is used only to assist with localization/translation. All localized text is reviewed and edited by the developer. No AI-generated art, audio, or in-game live generation is used.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Generative AI is used only to assist with localization/translation. All localized text is reviewed and edited by the developer. No AI-generated art, audio, or in-game live generation is used."
+    },
+    {
+      "appId": "2712590",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/2712590/discussions/?l=english",
+      "fetchedAt": "2026-11-04T07:30:51.959674+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "f7543946ab6cc49f3667fa9469ec724ec504f7c37c7c2d89c2c5734688bf8785",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T163014-d661b5\\2712590\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Dragon Shelter on Social Media!\nPINNED: FAQ\nWhat's that blue tornado-looking icon you need to finish the irrigation quest?\nloading time\nWhen Will Korean Language Support Be Added?\nWhy is the developers previous game marked as Early Access and Abandoned (15+ months) incomplete?\nHas the Korean language disappeared?\nИгра начинает напрягать\na scarf to try on\nIron axe?\nColor options?\nI placed the shelf from the alchemist on my farm and now I can’t deconstruct it\nClay respawn zones?\nTime\nДоска заказов на ферме плохо работает",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 277）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "2712590",
+      "sourceType": "press",
+      "url": "https://gameaicheck.com/game/2712590/dragon-shelter",
+      "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "The disclosure limits AI to localization/translation, which is a supporting task, not shipped game content. No AI art, audio, or live generation is declared. The developer has one recent release and 328 reviews, showing a normal production cadence.",
+      "locator": "full article text",
+      "label": "GameAICheck 本作条目：第三方模型判词加商店披露转录",
+      "publicExcerpt": "The disclosure limits AI to localization/translation, which is a supporting task, not shipped game content. No AI art, audio, or live generation is declared. The developer has one recent release and 328 reviews, showing a normal production cadence.",
+      "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/2712590/press-0.html",
+      "contentHash": "cfa152a4085f8d1137a8f0f2ceb05daf03c56297842aaff10bd6515dddd1941b"
+    }
+  ],
+  "identity": {
+    "appId": "2712590",
+    "name": "Dragon Shelter",
+    "developer": "Wild Forest Studio",
+    "publisher": "Curve Games",
+    "type": "game",
+    "verified": true,
+    "release": "Sep 24, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie",
+      "Simulation"
+    ],
+    "description": "Dragon Shelter is a farming sim set in a fantasy world. Become a hero who'll reignite the long-lost friendship between humans and dragons. Care for wondrous creatures, explore the magical world, and cook enchanted dishes together!",
+    "identityEvidence": {
+      "appId": "2712590",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=2712590&l=english",
+      "fetchedAt": "2026-11-04T07:30:51.325816+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "d192e9953c8bdab0537b3bcd22683eb68b7023b182f357ea93efd624005e4393",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T163014-d661b5\\2712590\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 277,
+    "topics": [
+      {
+        "title": "PINNED: Dragon Shelter on Social Media!",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/4033600533828729803/"
+      },
+      {
+        "title": "PINNED: FAQ",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/4033600533828699842/"
+      },
+      {
+        "title": "What's that blue tornado-looking icon you need to finish the irrigation quest?",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/591816596100660771/"
+      },
+      {
+        "title": "loading time",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/569288155749098848/"
+      },
+      {
+        "title": "When Will Korean Language Support Be Added?",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/572679173079858043/"
+      },
+      {
+        "title": "Why is the developers previous game marked as Early Access and Abandoned (15+ months) incomplete?",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/562545439722967066/"
+      },
+      {
+        "title": "Has the Korean language disappeared?",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/562545439722869597/"
+      },
+      {
+        "title": "Игра начинает напрягать",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/570426530135746731/"
+      },
+      {
+        "title": "a scarf to try on",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/562545439722707070/"
+      },
+      {
+        "title": "Iron axe?",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/590691034935114147/"
+      },
+      {
+        "title": "Color options?",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/570426339809666031/"
+      },
+      {
+        "title": "I placed the shelf from the alchemist on my farm and now I can’t deconstruct it",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/570426104667542203/"
+      },
+      {
+        "title": "Clay respawn zones?",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/590691304693911938/"
+      },
+      {
+        "title": "Time",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/590691913363974001/"
+      },
+      {
+        "title": "Доска заказов на ферме плохо работает",
+        "url": "https://steamcommunity.com/app/2712590/discussions/0/590692129307768004/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Dragon Shelter\" Steam game AI generated content disclosure developer",
+    "searchedAt": "2026-11-04T07:33:36+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://www.facebook.com/groups/cozygamer/posts/1732601784656462/",
+        "relevant": false,
+        "reason": "社交平台帖子或账号页，正文需登录渲染且属转述性宣传，不作为可逐字核验的来源，未读取。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/2712590/Dragon_Shelter/",
+        "relevant": false,
+        "reason": "Steam 商店页本身（本作的其它语言或折扣入口），本作的官方披露已按商店页原文完整核查，不在报道来源里重复登记。"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=A4HWtaBsHL8",
+        "relevant": false,
+        "reason": "官方发布预告视频条目，不含独立于商店披露的 AI 信息，视频平台条目（短视频或预告片），无法作为可逐字核验的图文来源，未读取。"
+      },
+      {
+        "url": "https://gameaicheck.com/game/2712590/dragon-shelter",
+        "relevant": true,
+        "reason": "第三方站 GameAICheck 的本作条目：正文转录商店披露，并给出由 deepseek-flash 生成的“Minor AI · solid production”判词与开发商产出统计（一款近期作品、328 条评论）；这些是该站的模型判断与统计，不构成独立核实，本站判定仍以商店披露原文为准。已读取原始页面。"
+      },
+      {
+        "url": "https://store.steampowered.com/curators/curatorsreviewing/?appid=4840950&snr=1_5_9__top-curators",
+        "relevant": false,
+        "reason": "Steam 鉴赏家列表页，URL 的 appid 指向其它游戏，与本作无关，未读取正文。"
+      },
+      {
+        "url": "https://www.tiktok.com/@curvegames/video/7680118089203092769",
+        "relevant": false,
+        "reason": "TikTok 短视频条目，标题指向另一款作品（Cloudscrapers），属干扰结果，视频平台条目（短视频或预告片），无法作为可逐字核验的图文来源，未读取。"
+      }
+    ],
+    "readUrls": [
+      "https://gameaicheck.com/game/2712590/dragon-shelter"
+    ],
+    "coverageLimits": [
+      "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+      "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+      "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261104T163014-d661b5\\2712590\\press-search.json",
+    "contentHash": "e8ced97e37444d1ce527631c2742ed22d925c0b6ce0d38ac12a4e337b86d4016"
+  }
+}

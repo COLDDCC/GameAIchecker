@@ -1,0 +1,33 @@
+{
+ "results": [
+  {
+   "url": "https://inthegamer.com/%EC%B0%BD%EC%84%B8%EA%B8%B0%EC%A0%84-%EC%84%9C%ED%92%8D%EC%9D%98-%EA%B4%91%EC%8B%9C%EA%B3%A1-%EB%A6%AC%EB%A7%88%EC%8A%A4%ED%84%B0-%ED%8E%B8%EC%9D%98-%EA%B8%B0%EB%8A%A5%EC%9D%80-%EC%A0%95%EC%84%9D/",
+   "relevant": true,
+   "reason": "韩国游戏媒体 inthegamer 于 2026-09-29 发布的《창세기전 서풍의 광시곡》（The War of Genesis Side Story: Rhapsody of Zephyr）重制版评测：正文与“아쉬운 점（不足之处）”两处都把画面描述为对原作素材做 AI 放大（AI 업스케일），并提醒“若期待全新绘制的画面可能会失望”；属第三方独立评测，与商店披露中“角色与背景图形素材、插入影片画质提升用的放大”一致，已读取原始页面（韩文全文）。"
+  }
+ ],
+ "coverageLimits": [
+  "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+  "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。",
+  "本作首轮英文检索只命中聚合列表页与 opencredits 上其它游戏的条目，改用韩文检索后该响应仅返回 1 条结果（即已读取的 inthegamer 评测）；未覆盖韩文媒体的站内检索与付费数据库。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5099430",
+   "sourceType": "press",
+   "url": "https://inthegamer.com/%EC%B0%BD%EC%84%B8%EA%B8%B0%EC%A0%84-%EC%84%9C%ED%92%8D%EC%9D%98-%EA%B4%91%EC%8B%9C%EA%B3%A1-%EB%A6%AC%EB%A7%88%EC%8A%A4%ED%84%B0-%ED%8E%B8%EC%9D%98-%EA%B8%B0%EB%8A%A5%EC%9D%80-%EC%A0%95%EC%84%9D/",
+   "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+   "httpStatus": 200,
+   "language": "korean",
+   "readStatus": "complete",
+   "quote": "그래픽은 원작 에셋을 AI로 업스케일한 수준이라, 새로 그린 그림을 기대하면 실망할 수 있습니다.",
+   "locator": "full article text",
+   "label": "inthegamer（韩）本作重制版评测：两处把画面称为原作素材的 AI 放大",
+   "publicExcerpt": "그래픽은 원작 에셋을 AI로 업스케일한 수준이라, 새로 그린 그림을 기대하면 실망할 수 있습니다.",
+   "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/5099430/press-0.html",
+   "contentHash": "c6d3c174b8d31497daca59dc854114c67bd17246d565037736d2133347617085"
+  }
+ ]
+}

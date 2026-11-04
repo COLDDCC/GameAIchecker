@@ -1,0 +1,62 @@
+{
+ "identityName": "Magi Scapes",
+ "identityDeveloper": "AutoGame",
+ "category": "official_ai_disclosure",
+ "disclosureQuote": "Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content. NPCs can respond to players based on their interactions and in-game context, creating more varied and personalized conversations.",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "used",
+   "note": "披露原文直接写明 during gameplay：生成式 AI 在游戏进行过程中动态生成 NPC 对话与其它文本内容，NPC 会依据玩家的交互与游戏内上下文回应。这是八个领域里唯一被披露点名的运行时用途。",
+   "evidenceId": "store",
+   "quote": "Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content."
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "used",
+   "note": "同一句里的“dynamic NPC dialogue and other text-based content”说明游戏内对话与文本内容由生成式 AI 产出，因此文本创作领域登记为已使用；披露没有说明初始剧本或世界观文本是否也由 AI 生成，只覆盖它写明的对话与其它文本内容。",
+   "evidenceId": "store",
+   "quote": "Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content. NPCs can respond to players based on their interactions and in-game context, creating more varied and personalized conversations."
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "summary": "像素风沙盒经营＋高自定义 NPC 的抢先体验作品，2026 年 10 月 28 日上架，AutoGame 独立开发并发行，分类为冒险／休闲／独立／RPG／模拟／抢先体验。商店 AI 披露把生成式 AI 用在运行环节：游戏中动态生成 NPC 对话与其它文本内容，NPC 依据玩家的交互与上下文回应。本站据此登记游戏内实时生成与文本创作为已使用，其余六个领域（美术、音乐、语音、翻译、代码、营销）记为披露未说明。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 AutoGame）与英文讨论区首页（可见 15 个主题，总数 170，仅覆盖首页）。首页有 3 个命中 AI 关键词的主题，全部读取全帖：主题一“So how does the AI stuff work, exactly? And how much content is in the game?”（转录正文 5,740 字符）是玩家在追问 AI 的计费与额度机制，提到起始水晶只够生成 3 到 4 个角色、每游戏日 10 次 AI 生成回复、并担心抢先体验叠加 AI 依赖的双重风险，还引述商店页写着 AI 生成背景故事、任务与道具；主题二“hard cap on ai followers?”（577 字符）是玩家询问 AI 随从上限，回帖者答“没有上限，需要紫色水晶”；主题三“is the world generated with ai?”（264 字符）里有人问地形突变是不是 AI 生成，回帖是“nupe its not supposed to, its a glitch”。三个帖子里都没有带开发方徽章的回复，回帖者身份是普通玩家，因此主题三那句“不是 AI，是 bug”不能作为判定依据，本站也不据此把地形生成记为未使用；主题一对商店页“AI 生成背景故事、任务、道具”的引述属于玩家转述，与本站登记的文本领域方向一致，但不作为独立证据。本款单独检索公开报道 1 次、登记 6 条结果，读取 2 篇原始来源：Steam AI Filter 本作条目按领域转录为 AI writing 与 Live AI generation 并复述披露原文；HowMuchAI 本作条目把披露逐领域转录为 9 项中 2 项提及 AI（Writing AI-generated、Live generation AI-generated），并标注首次收录 2026-10-26、复查 2026-11-04。两站都自述内容取自商店披露，属转录与分类读法，不构成独立核实。其余 4 条为本作商店页、两个聚合列表页（live 生成专题）与另一款游戏（EA SPORTS FC 26）的条目页。",
+ "description": "像素风沙盒：建造、耕种、探险、战斗，与一批可随时对话的高自定义 NPC 共处，陪伴感不止于几句台词。",
+ "english": {
+  "summary": "A pixel-art sandbox with heavily customisable NPCs, released into Early Access on Oct 28, 2026, developed and published by AutoGame, filed under Adventure, Casual, Indie, RPG, Simulation and Early Access. The Steam AI disclosure puts generative AI inside the running game: it generates dynamic NPC dialogue and other text-based content during gameplay, and NPCs respond to the player based on their interactions and in-game context. This site records live in-game generation and writing as used on that sentence and records the remaining six areas, art, music, voice, translation, code and marketing, as areas the disclosure does not address.",
+  "reviewNote": "Reviewed the complete English Steam AI disclosure, the identity (AutoGame credited as both developer and publisher) and the English discussion homepage (15 visible topics of 170, first page only). Three homepage topics match the AI keyword search and all three were opened and read in full. The first, So how does the AI stuff work, exactly? And how much content is in the game? (5,740 characters of transcribed text), is a player working out the cost and quota model: the writer reads the store page as granting enough starting crystals for three or four characters and ten AI-generated responses per in-game day, asks whether characters keep working as ordinary NPCs if the AI service disappears, worries that Early Access plus AI dependence is double the risk, and quotes the store page as mentioning AI-generated backstories, quests and items. The second, hard cap on ai followers? (577 characters), asks about a limit on AI followers and gets the answer that there is no cap, only purple crystals needed. The third, is the world generated with ai? (264 characters), asks whether a terrain that changed from land to water after a glitch is AI generation, and a fellow player replies nupe its not supposed to, its a glitch. No reply in any of the three threads carries a developer identity badge, so that player answer cannot decide anything and this site does not use it to record world generation as unused; the store-page quotation about AI-generated backstories, quests and items is likewise a player paraphrase, logged but not used as evidence. This title was searched once, that response holds 6 results and 2 raw sources were read: the Steam AI Filter entry for this game transcribes the disclosure under the AI writing and Live AI generation labels, and the HowMuchAI entry for this game transcribes it as two of nine parts, Writing AI-generated and Live generation AI-generated, with first seen Oct 26, 2026 and last checked Nov 4, 2026. Both sites state their content comes from the store disclosure, so they are transcriptions rather than independent verification. The other 4 results were the store page for this game, two aggregate live-generation list pages and an entry for a different game, EA SPORTS FC 26.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure puts AI inside the running game: Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content, and NPCs respond to player interactions and in-game context.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "The same sentence makes NPC dialogue and other text-based content AI-generated, so writing is recorded as used. The disclosure does not say whether the initial scripts or world text are also AI-produced, so this finding stops at the dialogue and text content it names.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "results": [
+  {
+   "url": "https://aitransparencyindex.com/products/steam/5072430",
+   "relevant": true,
+   "reason": "AI Transparency Index 本作条目：自动从公开披露分类为 “AI assisted with programming and produced translations”，页面自述 “Model-reported confidence 95% 是模型估计，不是实测准确率或人工复核分”，并把披露原文列在下方；属转录，已读取原始页面。"
+  },
+  {
+   "url": "https://howmuchai.games/game/ghost-in-the-sql-data",
+   "relevant": true,
+   "reason": "HowMuchAI 本作条目：逐领域转录（Code AI-assisted、Translation AI-generated，其余 Not mentioned），并附披露原文与首次收录/复查日期；属该站分类读法，本站按商店原文与开发者回复判定，已读取原始页面。"
+  },
+  {
+   "url": "https://www.linkedin.com/posts/mavlyanovzakir_ghostinthesqldata-gaming-programming-activity-7497568659347755008-JNqo",
+   "relevant": false,
+   "reason": "社交平台帖子或账号页，正文需登录渲染且属转述性宣传，不作为可逐字核验的来源，未读取。"
+  },
+  {
+   "url": "https://steampeek.hu/?appid=5072430",
+   "relevant": false,
+   "reason": "第三方数据库条目页，只有商店元数据复刻与同类推荐，没有独立于商店披露的 AI 信息，未读取正文。"
+  },
+  {
+   "url": "https://store.steampowered.com/curators/curatorsreviewing/?appid=3889540&snr=1_5_9__top-curators",
+   "relevant": false,
+   "reason": "Steam 鉴赏家列表页，URL 的 appid 指向其它游戏，与本作无关，未读取正文。"
+  },
+  {
+   "url": "https://www.steampageanalyzer.com/games",
+   "relevant": false,
+   "reason": "第三方商店页度量站的列表页，面向一批游戏的页面结构统计，没有本作 AI 内容，未读取。"
+  }
+ ],
+ "coverageLimits": [
+  "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+  "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5072430",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/5072430",
+   "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI content is included in the game AI assisted with programming and produced translations for the game.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 本作条目：模型自动分类，自述非人工复核",
+   "publicExcerpt": "AI content is included in the game AI assisted with programming and produced translations for the game.",
+   "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/5072430/press-0.html",
+   "contentHash": "d5524b13eb50e9841a52f972cdb5288a4a33ceabc8930e4e769c73dc23da7cd9"
+  },
+  {
+   "id": "press-1",
+   "appId": "5072430",
+   "sourceType": "press",
+   "url": "https://howmuchai.games/game/ghost-in-the-sql-data",
+   "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI assisted with programming and produced the game's translations. AI by part, from the developer's disclosure 2 of 9 parts mention AI Art Not mentioned Store page Not mentioned Voice Not mentioned Music Not mentioned Sound effects Not mentioned Writing Not mentioned Translation AI-generated Code AI-assisted Live generation Not mentioned",
+   "locator": "full article text",
+   "label": "HowMuchAI 本作条目：逐领域转录（Code AI-assisted、Translation AI-generated）",
+   "publicExcerpt": "AI assisted with programming and produced the game's translations. AI by part, from the developer's disclosure 2 of 9 parts mention AI Art Not mentioned Store page Not mentioned Voice Not mentioned Music Not mentioned Sound effects Not mentioned Writing Not mentioned Translation AI-generated Code AI-assisted Live generation Not mentioned",
+   "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/5072430/press-1.html",
+   "contentHash": "0a53d6f4f26716533602692a751ed258ae9da7980190ee1d03626d2a7efdf6ec"
+  }
+ ]
+}

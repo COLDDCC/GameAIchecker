@@ -1,0 +1,60 @@
+{
+ "identityName": "放置斩魔录",
+ "identityDeveloper": "三两人工作室",
+ "category": "official_ai_disclosure",
+ "disclosureQuote": "As a small-scale indie game project, this title is developed under limited funding and team resources, and currently has no dedicated art staff. Therefore, generative AI has been used in parts of the content creation process to reduce basic production costs and help move development forward. All such content has been manually reviewed and adjusted.",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露的因果链条点名的是美术：项目资金与人力有限、目前没有专职美术（currently has no dedicated art staff），因此生成式 AI 被用在内容创作流程的部分环节（in parts of the content creation process）以压低成本、推进开发，且此类内容均经人工复核与调整。本站按这一句把美术登记为已使用，并按原文把范围限定在“部分环节”，不把它扩大成“全部素材由 AI 生成”。",
+   "evidenceId": "store",
+   "quote": "currently has no dedicated art staff. Therefore, generative AI has been used in parts of the content creation process to reduce basic production costs and help move development forward. All such content has been manually reviewed and adjusted."
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "summary": "武侠题材的放置挂机＋回合制战斗＋流派构筑养成游戏，2026 年 9 月 23 日以抢先体验上架，三两人工作室独立开发并发行，分类包含冒险／休闲／独立／RPG／模拟／策略／抢先体验。商店英文 AI 披露说明：作为小规模独立项目、目前没有专职美术，因此生成式 AI 被用于内容创作流程的部分环节以压低成本，且相关内容均经人工复核与调整。本站据此只把美术登记为已使用，其余七个领域（音乐、语音、文本创作、翻译、代码、游戏内实时生成、营销）记为披露未说明。“部分环节”这一范围限定来自披露原文，本站不做扩大解释，结论基于开发者自述，未经独立审计。",
+ "reviewNote": "核查 Steam 商店页完整 AI 披露（本作披露栏以英文给出）、身份（开发商与发行商均为三两人工作室）与讨论区首页（可见 15 个主题，总数 172，仅覆盖首页），首页没有命中 AI 关键词的主题，故无相关帖读取。本款做了两轮中文检索：登记的这一轮响应返回 6 条结果，读取并作为来源的为 0 篇。逐条处置如下：两条开发者新闻帖入口与一个新闻列表页、一个 Steamworks 关于“内容调查”（Valve 收集 AI 披露字段的官方文档，不含本作信息）、游民星空本作资料页；其中标题为《放置斩魔录》EA版本新增内容简介的那条新闻帖已通过 GitHub Actions 抓取通道取回原始 HTML（HTTP 200，38,528 字节）并通读，可渲染正文只是领地翻新、开脉境修行、门客堂、铁匠铺合成强化、珍宝阁、灵宝坛、17 种套装等玩法更新清单，没有任何 AI 使用表述，因此不登记为来源，也不能据此收窄商店披露的范围。另做的一轮中文检索命中知乎专栏《单人3个月做的AI游戏，Steam好评率94%》（标注 2026-08-19），本机直连、127.0.0.1:7897 代理与 GitHub Actions 三条通道都返回 HTTP 403，全文无法读取，且该文日期早于本作 EA 上线（2026-09-23），未能确认其对应本作，故不作为来源。检索范围内没有出现本作的独立第三方报道，这不等于本作没有 AI 使用：领域结论只来自商店披露原文。美术之外的七个领域在原文里只写成“内容创作流程的部分环节”，未逐项列出，因此一律记为未说明。",
+ "description": "放置挂机的武侠养成：练角色、配流派、刷随机与独立装备，在领地经营、副本与试练塔里堆出自己的最强阵容。",
+ "english": {
+  "summary": "A wuxia idle game that mixes incremental play, turn-based combat and build crafting, launched in Early Access on Sep 23, 2026, developed and published by a two-person studio whose Steam credit is a Chinese name, credited as both developer and publisher, filed under Adventure, Casual, Indie, RPG, Simulation, Strategy and Early Access. The Steam AI disclosure, written in English on this store page, explains that the project has limited funding and no dedicated art staff, so generative AI was used in parts of the content creation process to cut basic production cost, with all such content manually reviewed and adjusted. This site records art as used on that sentence and keeps the wording limit of parts of the content creation process, and records the other seven areas as not addressed. Nothing here has been independently audited.",
+  "reviewNote": "Reviewed the complete AI disclosure from the store page, the identity (the same studio credited as developer and publisher) and the discussion homepage (15 visible topics of 172, first page only), where no topic matches the AI keyword search, so no thread needed reading. Two Chinese-language searches were run for this title. The registered response holds 6 results and 0 sources were read as coverage of this game. The dispositions are: two developer news-post entries, a news index page, the Steamworks documentation page for the content survey where Valve collects the AI disclosure field (it contains nothing about this game), a Gamersky database listing for this game, and one further news post entry. That news post, titled as a summary of new Early Access content, was fetched through the GitHub Actions relay in full (HTTP 200, 38,528 bytes) and read through: the renderable body is only a feature list for the territory upgrade, a new cultivation stage, a retainer hall, smithing synthesis and upgrades, a treasure pavilion, a spirit-altar system and seventeen set gear builds, with no statement about AI at all, so it is not registered as a source and cannot be used to narrow the store disclosure. A second search surfaced a Zhihu column article titled as an AI game made alone in three months with a 94 percent Steam positive rate, dated Aug 19, 2026: the direct route, the local proxy and the GitHub Actions relay all returned HTTP 403, so the text could not be read, and the date precedes this game Early Access launch on Sep 23, 2026, so its subject could not be confirmed; it is not registered either. No independent third-party coverage of this game was found inside the searched scope, which is not evidence that no AI was used: every area finding comes from the disclosure text alone, and the seven areas other than art are only described as parts of the content creation process, so they stay recorded as not addressed.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure ties AI use to the art gap by name: the project is small and currently has no dedicated art staff, so generative AI was used in parts of the content creation process to reduce basic production cost, and all such content was manually reviewed and adjusted. This area is recorded as used, with the wording limit of parts kept intact and no extension to the rest of the content pipeline.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

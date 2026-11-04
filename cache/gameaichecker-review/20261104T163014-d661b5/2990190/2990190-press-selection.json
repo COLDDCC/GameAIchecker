@@ -1,0 +1,73 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/2990190/MagiScapes/?snr=1_7_7_151_150_1",
+   "relevant": false,
+   "reason": "Steam 商店页本身（本作的其它语言或折扣入口），本作的官方披露已按商店页原文完整核查，不在报道来源里重复登记。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/game/2990190-magi-scapes",
+   "relevant": true,
+   "reason": "Steam AI Filter 本作条目：按领域转录商店披露（AI writing、Live AI generation）并复述披露原文，页面自述数据来自各游戏 Steam 披露，属转录而非独立核实；已读取原始页面。"
+  },
+  {
+   "url": "https://howmuchai.games/game/magi-scapes",
+   "relevant": true,
+   "reason": "HowMuchAI 本作条目：把披露逐领域转录为 9 项中 2 项提及 AI（Writing AI-generated、Live generation AI-generated），并标注“first seen Oct 26, 2026 / last checked Nov 4, 2026”；属该站对商店披露的分类读法，本站按披露原文判定，已读取原始页面。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/ai-games/live",
+   "relevant": false,
+   "reason": "第三方 AI 披露汇总列表页，面向一批游戏而非本作单独核验，本次未作为本作来源读取。"
+  },
+  {
+   "url": "https://howmuchai.games/ai/live-generation",
+   "relevant": false,
+   "reason": "第三方 AI 披露汇总列表页，面向一批游戏而非本作单独核验，本次未作为本作来源读取。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/game/3405690-ea-sports-fcTM-26",
+   "relevant": false,
+   "reason": "检索命中的是另一款游戏的条目页，属同名或同类题材的干扰结果，与本作无关，未读取正文。"
+  }
+ ],
+ "coverageLimits": [
+  "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+  "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "2990190",
+   "sourceType": "press",
+   "url": "https://steamaifilter.xyz/game/2990190-magi-scapes",
+   "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "The developer describes how Magi Scapes uses AI-generated content like this: Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content. NPCs can respond to players based on their interactions and in-game context, creating more varied and personalized conversations.",
+   "locator": "full article text",
+   "label": "Steam AI Filter 本作条目：按领域转录商店披露",
+   "publicExcerpt": "The developer describes how Magi Scapes uses AI-generated content like this: Generative AI is used during gameplay to generate dynamic NPC dialogue and other text-based content. NPCs can respond to players based on their interactions and in-game context, creating more varied and personalized conversations.",
+   "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/2990190/press-0.html",
+   "contentHash": "275e42da92eb93d4abccb6e140866e242c1cfb1389a3f06b37e472a124e04aee"
+  },
+  {
+   "id": "press-1",
+   "appId": "2990190",
+   "sourceType": "press",
+   "url": "https://howmuchai.games/game/magi-scapes",
+   "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI by part, from the developer's disclosure 2 of 9 parts mention AI Art Not mentioned Store page Not mentioned Voice Not mentioned Music Not mentioned Sound effects Not mentioned Writing AI-generated Translation Not mentioned Code Not mentioned Live generation AI-generated",
+   "locator": "full article text",
+   "label": "HowMuchAI 本作条目：逐领域转录，自述 9 项中 2 项提及 AI",
+   "publicExcerpt": "AI by part, from the developer's disclosure 2 of 9 parts mention AI Art Not mentioned Store page Not mentioned Voice Not mentioned Music Not mentioned Sound effects Not mentioned Writing AI-generated Translation Not mentioned Code Not mentioned Live generation AI-generated",
+   "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/2990190/press-1.html",
+   "contentHash": "be08ff1841825dad5883b62bf5a1fec3adbf3fea0ef8b22503475cff0db25422"
+  }
+ ]
+}

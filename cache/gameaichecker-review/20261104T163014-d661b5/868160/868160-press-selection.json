@@ -1,0 +1,58 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/868160",
+   "relevant": false,
+   "reason": "Steam 商店页本身（本作的其它语言或折扣入口），本作的官方披露已按商店页原文完整核查，不在报道来源里重复登记。"
+  },
+  {
+   "url": "https://www.g2a.com/news/game-spotlights/code-terraform-is-an-automation-game-where-nothing-works-until-you-code-it/",
+   "relevant": false,
+   "reason": "G2A 新闻栏对本作的介绍帖：本机直连返回 curl 连接失败，改走 127.0.0.1:7897 代理后 Akamai 返回 HTTP 403 “Access Denied”，两次都未取到可核验原文，因此不登记为本作来源。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/868160",
+   "relevant": true,
+   "reason": "AI Transparency Index 本作条目：把披露概括为“AI 用于生成配音、音乐、图形、商店胶囊图与主菜单美术，并翻译文本”，流程标注为 “AI-generated, then edited”、Live AI during play 为 No；页面自述该分类由模型给出、95% 置信度只是模型估计而非人工复核，本站不采纳其模型判定，只作为第三方读法登记，已读取原始页面。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/868160/negativereviews/?l=schinese&browsefilter=toprated",
+   "relevant": false,
+   "reason": "Steam 社区差评列表页（简体中文入口），属玩家评价入口；本作的讨论区已按独立流程核查，未在此重复读取。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/868160/Code:_Terraform/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（本作的其它语言或折扣入口），本作的官方披露已按商店页原文完整核查，不在报道来源里重复登记。"
+  },
+  {
+   "url": "https://www.reddit.com/r/Games/comments/16k20p0/terraforming_mars_team_defends_ai_use_as/",
+   "relevant": false,
+   "reason": "Reddit 关于另一款游戏（Terraforming Mars）AI 争议的旧帖，属关键词干扰结果，与本作无关；且本机直连与代理均无法完成对 reddit.com 的抓取。"
+  }
+ ],
+ "coverageLimits": [
+  "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+  "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。",
+  "G2A 新闻帖经直连与代理两条通道均被 Akamai 拒绝，未能读取，故本作来源只有 AI Transparency Index 条目页。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "868160",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/868160",
+   "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "AI tools were used to generate voice acting, music, graphics, store capsules, main menu art, and to translate the game's text into multiple languages.",
+   "locator": "full article text",
+   "label": "AI Transparency Index 本作条目：模型自动分类，自述非人工复核",
+   "publicExcerpt": "AI tools were used to generate voice acting, music, graphics, store capsules, main menu art, and to translate the game's text into multiple languages.",
+   "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/868160/press-0.html",
+   "contentHash": "8083be5b89e545f1798aa64f89a7cba4341f635eb6e4e06eb107a5442ad1c619"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/news/app/4622260/view/1846651706678126?l=vietnamese",
+   "relevant": false,
+   "reason": "本作开发者新闻帖（越南语入口），未包含超出商店披露的 AI 信息，未读取正文。"
+  },
+  {
+   "url": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey?language=schinese&l=turkish",
+   "relevant": false,
+   "reason": "Steamworks 官方“内容调查”文档页，说明 Valve 如何收集 AI 披露字段，但不含本作任何信息，不作为本作来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/news/app/4622260/view/675130991105279387",
+   "relevant": false,
+   "reason": "开发者新闻帖《放置斩魔录》EA版本新增内容简介：已通过 GitHub Actions 抓取通道取回原始 HTML（HTTP 200，38,528 字节）并通读，可渲染正文仅为领地翻新、开脉境修行、门客堂、铁匠铺合成、珍宝阁、灵宝坛、17 种套装等玩法更新清单，没有任何 AI 使用表述，因此不登记为本作来源，也不能据此收窄商店披露的范围。"
+  },
+  {
+   "url": "https://store.steampowered.com/news/app/4622260?l=malay&snr=1_5_9_",
+   "relevant": false,
+   "reason": "本作 Steam 新闻列表页（马来语入口），是帖目集合而非单篇可核验来源，未读取正文。"
+  },
+  {
+   "url": "https://store.steampowered.com/news/app/4622260/view/1845383656380170?l=schinese",
+   "relevant": false,
+   "reason": "本作另一条开发者新闻帖（简体中文入口），未读取；本轮只抓取了标题指向 EA 内容简介的那一条并确认其无 AI 表述。"
+  },
+  {
+   "url": "https://ku.gamersky.com/2026/fangzhizml/?tag=wap",
+   "relevant": false,
+   "reason": "第三方数据库条目页，只有商店元数据复刻与同类推荐，没有独立于商店披露的 AI 信息，未读取正文。"
+  }
+ ],
+ "coverageLimits": [
+  "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+  "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。",
+  "另做一轮中文检索，命中知乎专栏《单人3个月做的AI游戏，Steam好评率94%》（标注 2026-08-19）：本机直连、127.0.0.1:7897 代理与 GitHub Actions 抓取通道均返回 HTTP 403，无法读取全文；该文发布于本作 EA 上线（2026-09-23）之前，未能确认其对应本作，因此不登记来源。"
+ ],
+ "sources": []
+}

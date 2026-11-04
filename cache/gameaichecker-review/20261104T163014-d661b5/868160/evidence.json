@@ -1,0 +1,203 @@
+{
+  "sources": [
+    {
+      "appId": "868160",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/868160/?l=english",
+      "fetchedAt": "2026-11-04T07:30:44.289696+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "807b0e949ebdfe596ccda7056e337af20347e99e0785a4e8d643e1eca0689c5f",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T163014-d661b5\\868160\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Some voice acting, music, graphics (SVG), store capsules and main menu art were created with AI generation tools, then reviewed and curated by the developer. The game's text is also translated into multiple languages with the help of AI: each of its more than 15,000 strings is translated with its in-game context and then checked by a separate, independent AI review. Feedback from native speakers is welcome.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Some voice acting, music, graphics (SVG), store capsules and main menu art were created with AI generation tools, then reviewed and curated by the developer. The game's text is also translated into multiple languages with the help of AI: each of its more than 15,000 strings is translated with its in-game context and then checked by a separate, independent AI review. Feedback from native speakers is welcome."
+    },
+    {
+      "appId": "868160",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/868160/discussions/?l=english",
+      "fetchedAt": "2026-11-04T07:30:46.287040+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "9085ed8a2e92cbaf617ff880c5f108a395fc6fbc41564998b2ee3c5eea4dae37",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T163014-d661b5\\868160\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Mac Support\nRuntimeError on `flush`\nglobal variables\nAtmosphere Values Make No Sense\nInput eject() on Fuel Assembler\nCode window\nVietnamese language support?\nA JavaScript follow-up game?\nLightning Rods - lackluster.. ?\nWeather and Deciphering Collection coordinates\nYellow Lamp\nAtmosphere needs a little boost to wrap up the game\nStorage bins are useless once you get warehouses...\nAPI inconsistencies\nContract \"Sealed vault\"",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 286）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "868160",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/868160",
+      "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "quote": "AI tools were used to generate voice acting, music, graphics, store capsules, main menu art, and to translate the game's text into multiple languages.",
+      "locator": "full article text",
+      "label": "AI Transparency Index 本作条目：模型自动分类，自述非人工复核",
+      "publicExcerpt": "AI tools were used to generate voice acting, music, graphics, store capsules, main menu art, and to translate the game's text into multiple languages.",
+      "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/868160/press-0.html",
+      "contentHash": "8083be5b89e545f1798aa64f89a7cba4341f635eb6e4e06eb107a5442ad1c619"
+    }
+  ],
+  "identity": {
+    "appId": "868160",
+    "name": "Code: Terraform",
+    "developer": "AppsMafia",
+    "publisher": "AppsMafia",
+    "type": "game",
+    "verified": true,
+    "release": "Sep 9, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie",
+      "Simulation",
+      "Strategy",
+      "Early Access"
+    ],
+    "description": "A deep automation and programming game on a frozen alien planet. Write real code to drive rovers, run power grids, fabricate parts, and fly drone fleets across the world. Your scripts run while you plan your next move. The more you terraform, the more the planet responds.",
+    "identityEvidence": {
+      "appId": "868160",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=868160&l=english",
+      "fetchedAt": "2026-11-04T07:30:44.984929+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "c43e1caede81d901e0df959bad1ae20dfc219e874c1798eebf6fca2abc96dbb1",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T163014-d661b5\\868160\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 286,
+    "topics": [
+      {
+        "title": "Mac Support",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/562546398187298509/"
+      },
+      {
+        "title": "RuntimeError on `flush`",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/562546398187493842/"
+      },
+      {
+        "title": "global variables",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/563668239243250106/"
+      },
+      {
+        "title": "Atmosphere Values Make No Sense",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/562546073917473279/"
+      },
+      {
+        "title": "Input eject() on Fuel Assembler",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/562546073917310833/"
+      },
+      {
+        "title": "Code window",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/589565500617438725/"
+      },
+      {
+        "title": "Vietnamese language support?",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/567049339876472249/"
+      },
+      {
+        "title": "A JavaScript follow-up game?",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/565919666444415333/"
+      },
+      {
+        "title": "Lightning Rods - lackluster.. ?",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/567049039351288569/"
+      },
+      {
+        "title": "Weather and Deciphering Collection coordinates",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/567049039351397519/"
+      },
+      {
+        "title": "Yellow Lamp",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/567049039351393137/"
+      },
+      {
+        "title": "Atmosphere needs a little boost to wrap up the game",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/569300204759731327/"
+      },
+      {
+        "title": "Storage bins are useless once you get warehouses...",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/589566013534815542/"
+      },
+      {
+        "title": "API inconsistencies",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/567049039351122644/"
+      },
+      {
+        "title": "Contract \"Sealed vault\"",
+        "url": "https://steamcommunity.com/app/868160/discussions/0/569300630414326816/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Code: Terraform\" Steam game AI generated art disclosure developer",
+    "searchedAt": "2026-11-04T07:33:36+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/868160",
+        "relevant": false,
+        "reason": "Steam 商店页本身（本作的其它语言或折扣入口），本作的官方披露已按商店页原文完整核查，不在报道来源里重复登记。"
+      },
+      {
+        "url": "https://www.g2a.com/news/game-spotlights/code-terraform-is-an-automation-game-where-nothing-works-until-you-code-it/",
+        "relevant": false,
+        "reason": "G2A 新闻栏对本作的介绍帖：本机直连返回 curl 连接失败，改走 127.0.0.1:7897 代理后 Akamai 返回 HTTP 403 “Access Denied”，两次都未取到可核验原文，因此不登记为本作来源。"
+      },
+      {
+        "url": "https://aitransparencyindex.com/products/steam/868160",
+        "relevant": true,
+        "reason": "AI Transparency Index 本作条目：把披露概括为“AI 用于生成配音、音乐、图形、商店胶囊图与主菜单美术，并翻译文本”，流程标注为 “AI-generated, then edited”、Live AI during play 为 No；页面自述该分类由模型给出、95% 置信度只是模型估计而非人工复核，本站不采纳其模型判定，只作为第三方读法登记，已读取原始页面。"
+      },
+      {
+        "url": "https://steamcommunity.com/app/868160/negativereviews/?l=schinese&browsefilter=toprated",
+        "relevant": false,
+        "reason": "Steam 社区差评列表页（简体中文入口），属玩家评价入口；本作的讨论区已按独立流程核查，未在此重复读取。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/868160/Code:_Terraform/",
+        "relevant": false,
+        "reason": "Steam 商店页本身（本作的其它语言或折扣入口），本作的官方披露已按商店页原文完整核查，不在报道来源里重复登记。"
+      },
+      {
+        "url": "https://www.reddit.com/r/Games/comments/16k20p0/terraforming_mars_team_defends_ai_use_as/",
+        "relevant": false,
+        "reason": "Reddit 关于另一款游戏（Terraforming Mars）AI 争议的旧帖，属关键词干扰结果，与本作无关；且本机直连与代理均无法完成对 reddit.com 的抓取。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/868160"
+    ],
+    "coverageLimits": [
+      "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+      "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+      "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。",
+      "G2A 新闻帖经直连与代理两条通道均被 Akamai 拒绝，未能读取，故本作来源只有 AI Transparency Index 条目页。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261104T163014-d661b5\\868160\\press-search.json",
+    "contentHash": "03b87e0938f77312dcde7992f69411621ce887318818aa90bd865910fa58c571"
+  }
+}

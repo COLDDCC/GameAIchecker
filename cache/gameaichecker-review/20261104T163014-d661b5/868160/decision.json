@@ -1,0 +1,68 @@
+{
+ "identityName": "Code: Terraform",
+ "identityDeveloper": "AppsMafia",
+ "category": "official_ai_disclosure",
+ "disclosureQuote": "Some voice acting, music, graphics (SVG), store capsules and main menu art were created with AI generation tools, then reviewed and curated by the developer. The game's text is also translated into multiple languages with the help of AI: each of its more than 15,000 strings is translated with its in-game context and then checked by a separate, independent AI review. Feedback from native speakers is welcome.",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "同一句点名的第三、四项是图形（graphics，括号注明 SVG）与主菜单美术（main menu art）由 AI 生成工具产出；范围词 Some 修饰整份清单，故登记为部分使用。",
+   "evidenceId": "store",
+   "quote": "Some voice acting, music, graphics (SVG), store capsules and main menu art were created with AI generation tools, then reviewed and curated by the developer."
+  },
+  "music": {
+   "state": "used",
+   "note": "同一句点名的第二项是音乐（music）由 AI 生成工具产出，并经开发者审核挑选。",
+   "evidenceId": "store",
+   "quote": "Some voice acting, music, graphics (SVG), store capsules and main menu art were created with AI generation tools, then reviewed and curated by the developer."
+  },
+  "voice": {
+   "state": "used",
+   "note": "披露逐项点名，第一项是部分配音（Some voice acting）由 AI 生成工具产出，随后由开发者审核挑选；范围词 Some 予以保留，即并非全部配音。",
+   "evidenceId": "store",
+   "quote": "Some voice acting, music, graphics (SVG), store capsules and main menu art were created with AI generation tools, then reviewed and curated by the developer."
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露第二句说明游戏文本由 AI 协助翻译成多种语言，并给出可核对的量：超过 15,000 条字符串逐条结合游戏内上下文翻译，再交给另一个独立的 AI 复核，同时欢迎母语者反馈。",
+   "evidenceId": "store",
+   "quote": "The game's text is also translated into multiple languages with the help of AI: each of its more than 15,000 strings is translated with its in-game context and then checked by a separate, independent AI review. Feedback from native speakers is welcome."
+  },
+  "marketing": {
+   "state": "used",
+   "note": "同一句还点名 store capsules（商店胶囊图），那是商店页展示素材而非游戏内素材，因此营销单独登记为已使用。",
+   "evidenceId": "store",
+   "quote": "Some voice acting, music, graphics (SVG), store capsules and main menu art were created with AI generation tools, then reviewed and curated by the developer."
+  }
+ },
+ "summary": "冰冻异星上的自动化与编程游戏，2026 年 9 月 9 日进入抢先体验，AppsMafia 独立开发并发行，分类为休闲／独立／模拟／策略／抢先体验，玩家写真代码驱动探测车、电网、零件制造与无人机编队。商店 AI 披露点名五项：部分配音、音乐、图形（SVG）与商店胶囊图、主菜单美术由 AI 生成工具产出并经开发者审核挑选；游戏文本由 AI 协助翻译成多语言，超过 15,000 条字符串逐条结合上下文翻译并另由一个独立 AI 复核。本站据此把语音、音乐、美术、营销、翻译登记为已使用；代码、文本创作与游戏内实时生成三项记为披露未说明——本作玩法本身就是写代码，但披露并未说明开发这款游戏的代码是否由 AI 参与，两者不能混为一谈。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 AppsMafia）与英文讨论区首页（可见 15 个主题，总数 286，仅覆盖首页），首页没有命中 AI 关键词的主题，故无相关帖读取。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源：AI Transparency Index 本作条目（HTTP 200，53,273 字节已通读），它把披露概括为“AI 生成配音、音乐、图形、商店胶囊与主菜单美术并翻译文本”，流程标注为 AI-generated, then edited、Live AI during play 标注为 No，并在页面上自述 95% 置信度只是模型估计而非人工复核分，披露原文完整列在下方；本站按原文逐项登记，不采纳其模型判定。其余 5 条为本作商店页与两个入口、一条 G2A 新闻栏对本作的介绍帖与一条 Reddit 关于另一款游戏（Terraforming Mars）AI 争议的旧帖：G2A 帖本机直连返回连接失败，走 127.0.0.1:7897 代理后 Akamai 返回 HTTP 403 Access Denied，两次都取不到可核验原文，因此不登记为来源；Reddit 帖属关键词干扰结果且直连与代理都无法完成抓取。需要单独说明的一处易混点：本作的核心玩法是玩家在游戏里写代码，但披露的被点名清单里没有开发环节的编程，因此代码领域记为未说明而不是已使用；同理，披露只说文本被翻译，没有说原始文本由 AI 写作，文本创作领域也记为未说明。",
+ "description": "在冰冻异星上写真代码跑自动化：调度探测车、维护电网、制造零件、指挥无人机群，星球会随着你改造的程度做出反应。",
+ "english": {
+  "summary": "A deep automation and programming game set on a frozen alien planet, released into Early Access on Sep 9, 2026, developed and published by AppsMafia, filed under Casual, Indie, Simulation, Strategy and Early Access, where the player writes real code to run rovers, power grids, parts fabrication and drone fleets. The Steam AI disclosure lists five uses: some voice acting, music, graphics in SVG form, store capsules and main menu art were created with AI generation tools and then reviewed and curated by the developer, and the game text was translated into multiple languages with the help of AI, with every one of more than 15,000 strings translated in its in-game context and then checked by a separate independent AI review. This site records voice, music, art, marketing and translation as used on those sentences, and records code, writing and live in-game generation as areas the disclosure does not address. The fact that the gameplay itself is programming is not evidence that AI wrote the game code, so that area stays unaddressed.",
+  "reviewNote": "Reviewed the complete English Steam AI disclosure, the identity (AppsMafia credited as both developer and publisher) and the English discussion homepage (15 visible topics of 286, first page only), where no topic matches the AI keyword search, so no thread needed reading. This title was searched once, that response holds 6 results and 1 raw source was read: the AI Transparency Index entry for this game (HTTP 200, 53,273 bytes, read in full) summarises the disclosure as AI-generated voice acting, music, graphics, store capsules and main menu art plus translated text, marks the process as AI-generated then edited with live AI during play as No, states on the page that its 95 percent model-reported confidence is an estimate rather than a measured accuracy rate or a human review score, and prints the raw disclosure underneath. This site works from the disclosure wording item by item and logs that classification only. Of the other 5 results, two were the store page and a discount entry for this game, one was a G2A newsroom spotlight article about this game, one was a Reddit thread about a different game Terraforming Mars AI controversy, and one was a Chinese-language Steam negative reviews entry that this site already covers through its own discussion check. The G2A article could not be read at all: the direct route failed to complete the transfer and the local proxy returned an Akamai Access Denied page with HTTP 403, so no quotable original exists and it is not registered as a source; the Reddit thread is a keyword interference hit and reddit.com could not be reached over either route either. One confusion worth spelling out for readers: the game is about writing code, but the disclosure list does not name the development programming, so code stays recorded as an area the disclosure does not address, and the disclosure says the text was translated rather than written by AI, so writing stays unaddressed as well.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The same list names graphics, given in the text as SVG, and main menu art as created with AI generation tools, reviewed and curated by the developer, with the limiter some carried over from the start of the sentence.",
+   "music": "Music is the second item named in the same list, created with AI generation tools and then reviewed and curated by the developer.",
+   "voice": "The disclosure names some voice acting in its list of items created with AI generation tools, then reviewed and curated by the developer; the limiter some means not the whole cast, and this site keeps that limit.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "The second disclosure sentence says the game text was translated into multiple languages with the help of AI, and gives a checkable quantity: each of more than 15,000 strings was translated with its in-game context and then checked by a separate, independent AI review, with feedback from native speakers invited.",
+   "marketing": "Store capsules are named in the same sentence; those are store page display assets rather than in-game content, so marketing is recorded on that item."
+  }
+ }
+}

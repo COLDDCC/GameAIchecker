@@ -1,0 +1,82 @@
+{
+  "appId": "5099430",
+  "name": "The Rhapsody of Zephyr Remastered",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "《창세기전》外传《서풍의 광시곡》（The War of Genesis: The Rhapsody of Zephyr）的重制版，2026 年 9 月 18 日上架，Nine Circles Corporation 开发并发行，分类为 RPG，主打 HD 16:9 宽屏、全程配音与体验改进。商店 AI 披露（韩文）说明生成式 AI 仅有限用于三类画面素材：角色与背景图形素材、插入影片的画质放大、以及为宽屏适配所做的背景素材扩展。本站据此把美术登记为已使用，其余七个领域记为披露未说明；商店简介另写有 full voice acting，披露未涉及语音是否由 AI 生成，两处原文都照录、不替开发者取舍。韩国媒体 inthegamer 的重制版评测两处把画面描述为对原作素材做 AI 放大，与披露同向，属第三方独立观感，本站判定仍以商店披露原文为准。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "韩文披露原文的含义是：仅在角色与背景图形素材、游戏内插入影片画质提升所用的放大（업스케일링），以及为对应宽屏幕所做的背景素材扩展上有限使用（제한적으로 사용되었습니다）。三项都落在画面素材上，因此本站把美术登记为已使用，并按原文写成“放大与扩展既有素材”，而不是新绘制素材；用词限制（제한적）予以保留。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5099430/",
+  "developer": "Nine Circles Corporation",
+  "publisher": "Nine Circles Corporation",
+  "steamReleaseDate": "Sep 18, 2026",
+  "genres": [
+    "RPG"
+  ],
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5099430/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-04",
+      "excerpt": "캐릭터 및 배경 그래픽 어셋, 게임에 삽입된 동영상의 화질 향상을 위한 업스케일링과 와이드 스크린 대응을 위한 배경 리소스 확장에 제한적으로 사용되었습니다."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5099430/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-04",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 95）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://inthegamer.com/%EC%B0%BD%EC%84%B8%EA%B8%B0%EC%A0%84-%EC%84%9C%ED%92%8D%EC%9D%98-%EA%B4%91%EC%8B%9C%EA%B3%A1-%EB%A6%AC%EB%A7%88%EC%8A%A4%ED%84%B0-%ED%8E%B8%EC%9D%98-%EA%B8%B0%EB%8A%A5%EC%9D%80-%EC%A0%95%EC%84%9D/",
+      "label": "inthegamer（韩）本作重制版评测：两处把画面称为原作素材的 AI 放大",
+      "date": "2026-11-04",
+      "excerpt": "그래픽은 원작 에셋을 AI로 업스케일한 수준이라, 새로 그린 그림을 기대하면 실망할 수 있습니다."
+    }
+  ],
+  "reviewNote": "核查 Steam 商店页完整 AI 披露（本作披露栏为韩文，本站按韩文原文核查并给出对应含义）、身份（开发商与发行商均为 Nine Circles Corporation）与英文讨论区首页（可见 15 个主题，总数 95，仅覆盖首页），首页没有命中 AI 关键词的主题，故无相关帖读取。本款做了两轮检索：第一轮英文宽泛检索的 6 条结果里只有聚合列表页与 opencredits 上其它游戏的条目（Forest Escape: Last Train、Age of History 3、My Winter Car），无本作独立报道；登记的响应是改用韩文关键词（리마스터／AI／업스케일／논란）那一轮，只返回 1 条结果，即已读取的韩国游戏媒体 inthegamer 于 2026-09-29 发布的重制版评测（原始 HTML 105,869 字节，韩文渲染正文 54,177 字符已通读）。评测在正文与“아쉬운 점（不足之处）”两处都把画面描述为对原作素材做 AI 放大，并提醒“若期待全新绘制的画面可能会失望”，同时把便利功能、全程配音列为好评点；这是第三方独立评测的观感与总结，与本站按披露原文作出的美术判定同向，但本站的领域结论仍只绑定商店披露原文。其余未登记结果为一个 SteamDB 标签列表页（AI Content Disclosed Games，聚合页）、本作商店页与 GameAICheck 的新品聚合列表页。披露以限制词（제한적으로）说明范围，因此除美术外的七个领域记为未说明；简介里的 full voice acting 与披露栏不同栏位，本站按披露栏判定。",
+  "disclosureQuote": "캐릭터 및 배경 그래픽 어셋, 게임에 삽입된 동영상의 화질 향상을 위한 업스케일링과 와이드 스크린 대응을 위한 배경 리소스 확장에 제한적으로 사용되었습니다.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-04 核查；可能随商店页更新。",
+  "english": {
+    "summary": "The remaster of The War of Genesis side story The Rhapsody of Zephyr, released on Sep 18, 2026, developed and published by Nine Circles Corporation, filed under RPG, and sold on HD 16:9 widescreen support, full voice acting and quality-of-life improvements. The Steam AI disclosure is written in Korean and keeps the use narrow: character and background graphic assets, upscaling done to improve the quality of the video sequences embedded in the game, and background resource expansion to fit a widescreen ratio, all described as limited use. This site records art as used on those three items and records the other seven areas as not addressed, including voice, because the disclosure does not mention it while the store description separately advertises full voice acting; both sentences are logged as written and neither is adjudicated. A Korean review from inthegamer describes the picture as AI-upscaled original assets, which points the same way, and this site still decides the area from the disclosure text.",
+    "reviewNote": "Reviewed the complete AI disclosure from the store page, which this game publishes in Korean, and checked the identity (Nine Circles Corporation credited as both developer and publisher) and the English discussion homepage (15 visible topics of 95, first page only), where no topic matches the AI keyword search, so no thread needed reading. Two searches were run. The first, a broad English query, returned 6 results holding only aggregate list pages and opencredits entries for three other games (Forest Escape: Last Train, Age of History 3 and My Winter Car) with no coverage of this game. The registered response is the second search, in Korean, using the words for remaster, AI, upscaling and controversy; it returned a single result, the inthegamer review of this remaster published Sep 29, 2026, whose raw page (105,869 bytes, 54,177 characters of rendered Korean text) was fetched and read in full. That review describes the graphics twice as the original assets taken through AI upscaling, once in the body and once in its list of shortcomings, and warns that a player expecting newly drawn artwork may be disappointed, while crediting the convenience features and the full voice track as the strengths. This is a third-party independent reading that agrees with the store wording, and this site still binds the area finding to the disclosure text rather than to the review. Not registered were a SteamDB tag index page for AI content disclosed games, the store page for this game and the GameAICheck new-releases aggregate list. Because the disclosure uses the wording of limited use across three named picture-side items, the seven areas other than art stay recorded as not addressed.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The Korean disclosure limits the use to three picture-side items: character and background graphic assets, upscaling to improve the quality of the embedded video sequences, and background resource expansion to fit widescreen, each described as limited use. This area is recorded as used on that reading, which is upscaling and extension of existing material rather than newly generated artwork, and the limitation wording is preserved.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "9fa59975185ee48e8b399b4f0c0c4cf0f4237de68e54a9695b99b80ac10be945"
+  }
+}

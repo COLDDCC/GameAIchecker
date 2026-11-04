@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://steamaifilter.xyz/game/3859180-the-electorate",
+   "relevant": true,
+   "reason": "Steam AI Filter 本作条目：把只写“AI was used to help localize text in the game.”的披露转录为 AI writing 与 AI translation 两个标签，页面自述内容取自本作 Steam 商店披露；其中 AI writing 一项在披露原文里没有对应表述，本站不予采纳，只按 translation 判定，已读取原始页面。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3859180/The_Electorate/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（本作的其它语言或折扣入口），本作的官方披露已按商店页原文完整核查，不在报道来源里重复登记。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/ai-games/writing",
+   "relevant": false,
+   "reason": "第三方 AI 披露汇总列表页，面向一批游戏而非本作单独核验，本次未作为本作来源读取。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5238680/VoxPrinceps_The_Political_Game/?snr=1_7_7_151_150_41969",
+   "relevant": false,
+   "reason": "检索命中的是另一款游戏的条目页，属同名或同类题材的干扰结果，与本作无关，未读取正文。"
+  },
+  {
+   "url": "https://www.techdirt.com/2026-10-14/",
+   "relevant": false,
+   "reason": "Techdirt 的按日期归档列表页，不是单篇报道，未读取正文。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/ai-games/translation",
+   "relevant": false,
+   "reason": "第三方 AI 披露汇总列表页，面向一批游戏而非本作单独核验，本次未作为本作来源读取。"
+  }
+ ],
+ "coverageLimits": [
+  "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+  "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3859180",
+   "sourceType": "press",
+   "url": "https://steamaifilter.xyz/game/3859180-the-electorate",
+   "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Yes. The Electorate discloses AI-generated content on Steam for in-game text and translation, according to its developer, Galactic Interactive. ⚠️ Uses AI-generated content (disclosed) AI writing AI translation The developer describes how The Electorate uses AI-generated content like this: AI was used to help localize text in the game.",
+   "locator": "full article text",
+   "label": "Steam AI Filter 本作条目：把披露转录为 AI writing 与 AI translation",
+   "publicExcerpt": "Yes. The Electorate discloses AI-generated content on Steam for in-game text and translation, according to its developer, Galactic Interactive. ⚠️ Uses AI-generated content (disclosed) AI writing AI translation The developer describes how The Electorate uses AI-generated content like this: AI was used to help localize text in the game.",
+   "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/3859180/press-0.html",
+   "contentHash": "4d73a7b4211426f94979bc64180856e4e5bc7432ef096d3e9ef02d03651f28d8"
+  }
+ ]
+}

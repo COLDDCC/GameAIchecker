@@ -1,0 +1,58 @@
+{
+ "results": [
+  {
+   "url": "https://www.instagram.com/p/DdOiCxKyg-X/",
+   "relevant": false,
+   "reason": "Instagram 帖子条目（日文，主题涉及本作是否需要重拍画面），平台正文需登录才能稳定渲染，未作为可逐字核验的来源抓取。"
+  },
+  {
+   "url": "https://adventuregamehotspot.com/game/2525/miniature-land-four-seasons",
+   "relevant": true,
+   "reason": "Adventure Game Hotspot（2022 年起运营、自称由资深记者独立经营的冒险游戏专业站）本作数据库条目：把画面风格同时标注为 “Hand-crafted” 与 “AI-supported”，与本作的照片底图加 AI 扩展/修补披露一致；属第三方标注，不改变本站按商店原文作出的领域判定，已读取原始页面。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4819110/Miniature_LAND_Four_Seasons_Demo/",
+   "relevant": false,
+   "reason": "本作的试玩版商店页（App ID 4819110），按政策试玩版不充新增，也没有独立于正式版披露的信息。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4460460-miniature-land-four-seasons",
+   "relevant": false,
+   "reason": "GameDB.ai 本作条目页：已抓取原始 HTML 并通读渲染文本，静态页面只输出站点导航、筛选词与登录弹窗，本作的逐领域 AI 标签由客户端渲染，抓取件里没有可读的独立信息，因此不登记为本作来源。"
+  },
+  {
+   "url": "https://steamdb.info/app/4460460/patchnotes/",
+   "relevant": false,
+   "reason": "第三方数据库条目页，只有商店元数据复刻与同类推荐，没有独立于商店披露的 AI 信息，未读取正文。"
+  },
+  {
+   "url": "https://thinkmay.net/discovery/4460460/miniature-land-four-seasons-/",
+   "relevant": false,
+   "reason": "越南语汉化/下载条目页，只有商店简介复刻与下载信息，没有独立 AI 内容，未读取正文。"
+  }
+ ],
+ "coverageLimits": [
+  "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+  "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。",
+  "本作的日文报道线索只到 Instagram 帖子为止，未检索到可读的日文媒体全文；判定只依据商店披露原文与 Adventure Game Hotspot 的第三方标注。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4460460",
+   "sourceType": "press",
+   "url": "https://adventuregamehotspot.com/game/2525/miniature-land-four-seasons",
+   "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "Graphic Style Hand-crafted , AI-supported",
+   "locator": "full article text",
+   "label": "Adventure Game Hotspot 本作条目：画面风格同时标注 Hand-crafted 与 AI-supported",
+   "publicExcerpt": "Graphic Style Hand-crafted , AI-supported",
+   "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/4460460/press-0.html",
+   "contentHash": "82b1dc41f87479a6f1ebe846f968a2db3961038dcfa8b648f0802158ff0137c9"
+  }
+ ]
+}

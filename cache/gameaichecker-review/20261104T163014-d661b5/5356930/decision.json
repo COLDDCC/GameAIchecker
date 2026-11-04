@@ -1,0 +1,64 @@
+{
+ "identityName": "Sort The Dumplings",
+ "identityDeveloper": "Black Vault Games",
+ "category": "official_ai_disclosure",
+ "disclosureQuote": "Generative AI tools were used to assist in creating some pre-generated 3D models, textures, visual assets, and promotional artwork. All content is generated before gameplay, reviewed by the developer, and integrated into the finished game. No generative AI is used live during gameplay.",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "none",
+   "note": "披露以独立的一句明确否认运行时生成：No generative AI is used live during gameplay.，配合“All content is generated before gameplay, reviewed by the developer, and integrated into the finished game.”。这是开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "No generative AI is used live during gameplay."
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露点名的是生成式 AI 协助制作了“部分预先生成的 3D 模型、贴图与视觉素材”（some pre-generated 3D models, textures, visual assets），范围词是 some，且说明内容全部在游戏前生成、由开发者审核后整合进成品。",
+   "evidenceId": "store",
+   "quote": "Generative AI tools were used to assist in creating some pre-generated 3D models, textures, visual assets, and promotional artwork."
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "used",
+   "note": "同一句里被点名的还有一项 promotional artwork（宣传用图），它不属于游戏内素材，因此本站把营销登记为已使用；第三方站只给出一个 art 标签，粒度粗于原文，本站按原文分开登记。",
+   "evidenceId": "store",
+   "quote": "Generative AI tools were used to assist in creating some pre-generated 3D models, textures, visual assets, and promotional artwork."
+  }
+ },
+ "summary": "饺子分类整理类休闲游戏，2026 年 10 月 28 日上架，Black Vault Games 独立开发并发行，分类为休闲，卖点是 19 个主题合集里的 190 种饺子。商店 AI 披露写明生成式 AI 协助制作了部分预先生成的 3D 模型、贴图与视觉素材，以及宣传用图，所有内容在 gameplay 之前生成、由开发者审核后整合，并单句否认游戏过程中有实时 AI 生成。本站据此登记美术与营销为已使用、游戏内实时生成为披露明确否认的未使用，音乐、语音、文本创作、翻译、代码五项记为披露未说明。否定结论只有开发者自述作依据，未经独立审计。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 Black Vault Games）与英文讨论区首页（可见 7 个主题，总数 7，已覆盖全部主题），首页没有命中 AI 关键词的主题，故无相关帖读取。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源：Steam AI Filter 本作条目。该页直连超时，改经 127.0.0.1:7897 代理取得原始 HTML（HTTP 200，15,396 字节）并通读：它只按一个 “AI art & images” 标签转录本作披露，但把披露原文完整复述在页面上，包括 promotional artwork 与 No generative AI is used live during gameplay. 两句。该站标签粒度粗于披露原文，本站据原文把游戏内素材与宣传用图分别登记为美术与营销两项已使用，其单一标签只作第三方读法登记。其余 5 条为本作商店页与折扣入口、HowMuchAI 的 store-page 专题列表页、另一个 art 专题列表页与另一款游戏（Tarpit，App ID 5277680）的条目页。披露范围词 some 与“全部在运行前生成”的说明予以保留；音乐与语音未在被点名清单里，故记为未说明而非未使用。",
+ "description": "把一堆萌系饺子按类别归位：19 个主题合集、190 种饺子，整理货架、解锁场景、刷更快时间。",
+ "english": {
+  "summary": "A dumpling sorting game, released on Oct 28, 2026, developed and published by Black Vault Games, filed under Casual, built around 190 dumplings in 19 themed collections. The Steam AI disclosure says generative AI tools helped create some pre-generated 3D models, textures and visual assets together with promotional artwork, that all of it was generated before gameplay, reviewed by the developer and integrated into the finished game, and states separately that no generative AI is used live during gameplay. This site records art and marketing as used on the two named groups and live in-game generation as not used on the denying sentence, and records music, voice, writing, translation and code as areas the disclosure does not address. The negative finding is the developer own statement and has not been independently audited.",
+  "reviewNote": "Reviewed the complete English Steam AI disclosure, the identity (Black Vault Games credited as both developer and publisher) and the English discussion homepage (7 visible topics of 7, so the whole list was covered), where no topic matches the AI keyword search, so no thread needed reading. This title was searched once, that response holds 6 results and 1 raw source was read. The Steam AI Filter entry for this game timed out over the direct route and was fetched through the local proxy instead (HTTP 200, 15,396 bytes), then read in full: it carries one label for this game, AI art and images, while reproducing the disclosure sentence in full, including the promotional artwork item and the sentence that no generative AI is used live during gameplay. Because that single label is coarser than the disclosure wording, this site splits the finding into art for the in-game models, textures and visual assets and marketing for the promotional artwork, and logs the aggregator label as a third-party reading only. The other 5 results were the store page and discount entry for this game, two aggregate list pages from the same sites, and an entry for a different game, Tarpit, App ID 5277680. The wording some and the statement that everything is generated before gameplay are preserved in the area notes, and music and voice are recorded as not addressed rather than not used because they do not appear in the named list.",
+  "aiAreaNotes": {
+   "ingame": "A separate sentence denies runtime generation: No generative AI is used live during gameplay., reinforced by the statement that all content is generated before gameplay. This is a developer statement and has not been independently audited.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure names some pre-generated 3D models, textures and visual assets as created with generative AI tools, with the limiter some, and adds that everything was reviewed by the developer before being integrated into the finished game.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "The same sentence also names promotional artwork, which is store and marketing material rather than in-game content, so this area is recorded separately from art on that wording."
+  }
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/2934330/RADIOSOL/",
+   "relevant": false,
+   "reason": "Steam 商店页本身（本作的其它语言或折扣入口），本作的官方披露已按商店页原文完整核查，不在报道来源里重复登记。"
+  },
+  {
+   "url": "https://gameaicheck.com/game/2934330/radiosol",
+   "relevant": true,
+   "reason": "第三方站 GameAICheck 的本作条目：转录商店披露并给出 deepseek-flash 生成的“Minor AI · solid production”判词，其中明确“视觉与音频素材被开发者写明未经 AI 生成”，同时声明披露为开发者自述、无法独立核实；已读取原始页面。"
+  },
+  {
+   "url": "https://store.steampowered.com/curators/curatorsreviewing/?l=brazilian&appid=2824380&snr=1_5_9__top-curators",
+   "relevant": false,
+   "reason": "Steam 鉴赏家列表页，URL 的 appid 指向其它游戏，与本作无关，未读取正文。"
+  },
+  {
+   "url": "https://bsky.app/profile/skacky.bsky.social",
+   "relevant": false,
+   "reason": "个人 Bluesky 主页（本作相关开发者线索账号），页面为动态时间线，没有稳定可逐字核验的披露文本，未读取全文。"
+  },
+  {
+   "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+   "relevant": false,
+   "reason": "第三方 AI 披露汇总列表页，面向一批游戏而非本作单独核验，本次未作为本作来源读取。"
+  },
+  {
+   "url": "https://www.pcgamer.com/the-signal-from-tlva-review/",
+   "relevant": false,
+   "reason": "检索命中的是另一款游戏的条目页，属同名或同类题材的干扰结果，与本作无关，未读取正文。"
+  }
+ ],
+ "coverageLimits": [
+  "每款候选各检索 1 到 3 轮（英文为主，4622260 另做中文检索，5099430 改用韩文检索后命中独立评测）；每个批次登记进 press 的只有对应那一次检索响应所返回的结果集，另做的检索没有产出新的可核验独立来源时不再追加。",
+  "检索面向公开网页，未覆盖 Steam 中文/韩文分区站内检索、社交媒体登录后的正文与付费数据库；无法读取全文的条目一律标为不相关并写明原因。",
+  "第三方 AI 披露聚合站（GameAICheck、Steam AI Filter、HowMuchAI、AI Transparency Index、GameDB.ai）的内容均为对商店披露的转录或模型分类，不构成独立核实，不能据此提高或降低任何领域的结论。"
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "2934330",
+   "sourceType": "press",
+   "url": "https://gameaicheck.com/game/2934330/radiosol",
+   "fetchedAt": "2026-11-04T07:54:13.041295+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "quote": "The disclosure states AI was used solely for localization into five languages, which is a supporting, non-asset use. Visual and audio assets are explicitly stated as not AI-generated.",
+   "locator": "full article text",
+   "label": "GameAICheck 本作条目：第三方模型判词加商店披露转录",
+   "publicExcerpt": "The disclosure states AI was used solely for localization into five languages, which is a supporting, non-asset use. Visual and audio assets are explicitly stated as not AI-generated.",
+   "cachePath": ".cache/gameaichecker-review/20261104T163014-d661b5/2934330/press-0.html",
+   "contentHash": "936e573888e1daf29e1f2a63464091cb4f8ce0ea657e7a66e25c9875227b37ee"
+  }
+ ]
+}

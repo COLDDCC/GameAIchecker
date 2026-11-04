@@ -1,0 +1,83 @@
+{
+  "appId": "3859180",
+  "name": "The Electorate",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "美国选举题材的模拟策略游戏，2026 年 10 月 29 日上架，Galactic Interactive 独立开发并发行，分类为模拟／策略。商店 AI 披露只有一句：AI was used to help localize text in the game.，即 AI 协助游戏内文本的本地化。本站据此只把翻译登记为已使用，其余七个领域（美术、音乐、语音、文本创作、代码、游戏内实时生成、营销）都记为披露未说明；披露原文没有说游戏内文本本身由 AI 写作，第三方站把本作标成 AI writing 属其自己的分类，本站不采纳。",
+  "aiUsageCategories": [
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "披露只有一句话：AI was used to help localize text in the game.，把用途限定在游戏内文本的本地化协助，且用词是 help（协助），未说明生成占比。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/3859180/",
+  "developer": "Galactic Interactive",
+  "publisher": "Galactic Interactive",
+  "steamReleaseDate": "Oct 29, 2026",
+  "genres": [
+    "Simulation",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/3859180/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-04",
+      "excerpt": "AI was used to help localize text in the game."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/3859180/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-04",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 39）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://steamaifilter.xyz/game/3859180-the-electorate",
+      "label": "Steam AI Filter 本作条目：把披露转录为 AI writing 与 AI translation",
+      "date": "2026-11-04",
+      "excerpt": "Yes. The Electorate discloses AI-generated content on Steam for in-game text and translation, according to its developer, Galactic Interactive. ⚠️ Uses AI-generated content (disclosed) AI writing AI translation The developer describes how The Electorate uses AI-generated content like this: AI was used to help localize text in the game."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 Galactic Interactive）与英文讨论区首页（可见 15 个主题，总数 39，仅覆盖首页），首页没有命中 AI 关键词的主题，故无相关帖读取。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源：Steam AI Filter 本作条目把这一句披露转录为 AI writing 与 AI translation 两个标签，页面自述数据取自本作 Steam 商店披露。其 AI writing 一项在披露原文里没有对应表述，本站不予采纳，文本创作领域维持披露未说明；翻译领域按原文登记为已使用。其余 5 条为本作商店页、另一款同类题材游戏（Vox Princeps，App ID 5238680）的商店页、两个聚合专题列表页（AI writing、AI translation）与 Techdirt 的按日期归档列表页（非单篇报道，未读取正文）。本作的披露是八个领域里最短的一档，只有一句话，因此除翻译外的七个领域都只能记为未说明，不能写成未使用。",
+  "disclosureQuote": "AI was used to help localize text in the game.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-04 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A United States election simulation, released on Oct 29, 2026, developed and published by Galactic Interactive, filed under Simulation and Strategy. The Steam AI disclosure is a single sentence, AI was used to help localize text in the game., which limits the disclosed use to helping localise in-game text and uses the word help without stating how much of the work AI did. This site records translation as used on that sentence and records the other seven areas, art, music, voice, writing, code, live in-game generation and marketing, as areas the disclosure does not address. A third-party aggregator labels this game as AI writing as well, and that label has no wording behind it in the disclosure, so this site does not adopt it.",
+    "reviewNote": "Reviewed the complete English Steam AI disclosure, the identity (Galactic Interactive credited as both developer and publisher) and the English discussion homepage (15 visible topics of 39, first page only), where no topic matches the AI keyword search, so no thread needed reading. This title was searched once, that response holds 6 results and 1 raw source was read: the Steam AI Filter entry for this game transcribes the single sentence under two of its own labels, AI writing and AI translation, and states on the page that its content comes from this game Steam store disclosure. The AI writing label has nothing in the disclosure sentence behind it, so this site leaves writing as an unaddressed area and records only translation as used. The other 5 results were the store page for this game, the store page of a different game on a similar subject (Vox Princeps, App ID 5238680), two aggregate topic list pages for AI writing and AI translation, and a Techdirt day-archive index page rather than a single article, which was not read. With a disclosure this short, the seven areas other than translation can only be recorded as not addressed rather than as not used.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The whole disclosure is one sentence, AI was used to help localize text in the game. It covers localisation assistance and does not quantify how much of the work AI did.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "fdfea5cb94f677d20bfe54c57b5f482c5d9bdc071f36bd8af718dbcf6d1c7981"
+  }
+}

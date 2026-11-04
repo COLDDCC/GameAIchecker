@@ -1,0 +1,62 @@
+{
+ "identityName": "Miniature LAND -Four Seasons-",
+ "identityDeveloper": "WarmingApp",
+ "category": "official_ai_disclosure",
+ "disclosureQuote": "We use generative AI in a limited capacity to extend backgrounds (canvas expansion) and remove unwanted elements in some of the live-action miniature images. The original source materials are real photographs, and all content is reviewed and adjusted by the developer. Generative AI is also used as a writing assistant for parts of the in-game text.",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露把美术用途限定在两件事：对部分实景微缩摄影图做背景扩展（canvas expansion）与移除多余元素，并强调原始素材是真实拍摄的照片、全部内容经开发者复核调整。因此本站登记美术为已使用，同时按原文把范围限定为“部分图片的扩展与修补”，不写成整幅画面由 AI 生成。",
+   "evidenceId": "store",
+   "quote": "We use generative AI in a limited capacity to extend backgrounds (canvas expansion) and remove unwanted elements in some of the live-action miniature images. The original source materials are real photographs, and all content is reviewed and adjusted by the developer."
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "used",
+   "note": "披露另句写明生成式 AI 也作为写作助手用于游戏内文本的部分内容（as a writing assistant for parts of the in-game text），用词是 assistant 且范围是 parts，本站按这两个限定登记。",
+   "evidenceId": "store",
+   "quote": "Generative AI is also used as a writing assistant for parts of the in-game text."
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "summary": "以真实微缩模型摄影搭成的解谜冒险（escape room），2026 年 10 月 29 日上架，WarmingApp 独立开发并发行，分类为冒险／休闲／独立。商店 AI 披露说明生成式 AI 只在有限范围内使用：对部分实景微缩照片做背景扩展（画布外扩）与去除多余元素，原始素材均为真实拍摄、全部内容由开发者复核调整；另有生成式 AI 作为写作助手参与游戏内部分文本。本站据此登记美术与文本创作为已使用，其余六个领域记为披露未说明。第三方冒险游戏专业站 Adventure Game Hotspot 把本作画面风格同时标注为 Hand-crafted 与 AI-supported，与商店原文的“照片底图＋AI 扩展修补”一致。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 WarmingApp）与英文讨论区首页（可见 5 个主题，总数 5，已覆盖全部主题，无命中 AI 关键词的主题）。本款做了两轮检索：第一轮英文宽泛检索的 6 条结果里没有可读取的本作独立报道（gamedb.ai 命中的是另一款游戏 Potion Pantry 的条目，另有 Scribd 一本艺术传记与 archive.org 一份 1972 年报纸全文，均属干扰结果）；第二轮改用围绕摄影与 AI 美术的英文检索后，登记该次响应的 6 条结果并读取 1 篇原始来源：Adventure Game Hotspot（自称 2022 年起由资深记者独立经营的冒险游戏专业站）本作条目把画面风格同时标注为 Hand-crafted 与 AI-supported，属第三方标注，本站按商店原文作出领域判定，不采纳其标注作为证据。同轮命中的 GameDB.ai 本作条目页已抓取原始 HTML（HTTP 200，190,084 字节）并通读渲染文本，但静态页面只输出站点导航、筛选词与登录弹窗，逐领域 AI 标签由客户端渲染，抓取件里没有可读的独立信息，因此不登记为来源；Instagram 帖子需登录渲染，未抓取；其余为本作商店页与折扣入口、本作试玩版商店页（App ID 4819110，按政策试玩版不充新增）、SteamDB 更新日志页与一个越南语汉化下载条目页。",
+ "description": "在手工搭建的微缩模型世界里找路：一段以真实摄影呈现的点击式密室冒险，问题只有一个——你能不能找到回家的路。",
+ "english": {
+  "summary": "An escape-room adventure built from photographed handmade miniature sets, released on Oct 29, 2026, developed and published by WarmingApp, filed under Adventure, Casual and Indie. The Steam AI disclosure keeps generative AI to a limited capacity: extending backgrounds by canvas expansion and removing unwanted elements in some of the live-action miniature photographs, stating that the original source material is real photography and that all content was reviewed and adjusted by the developer, and adding that generative AI was also used as a writing assistant for parts of the in-game text. This site records art and writing as used within exactly those limits, and records the other six areas as not addressed. The adventure-gaming site Adventure Game Hotspot tags the game Hand-crafted and AI-supported, which matches the store wording, and this site still decides each area from the disclosure text itself.",
+  "reviewNote": "Reviewed the complete English Steam AI disclosure, the identity (WarmingApp credited as both developer and publisher) and the English discussion homepage (5 visible topics of 5, so the whole list was covered, and none matches the AI keyword search). Two searches were run for this title. The first, a broad English query, returned 6 results with no readable coverage of this game: the GameDB.ai hit belonged to a different game (Potion Pantry), and the remaining results were a Scribd copy of an art biography and an archive.org scan of a 1972 newspaper, which are interference hits. The second query, aimed at the photography and the AI art wording, is the response registered here: 6 results and 1 raw source read, the Adventure Game Hotspot database entry for this game, from a site that describes itself as an independent adventure-gaming magazine run by working journalists since 2022, which tags the graphic style as both Hand-crafted and AI-supported. That is a third-party tag, logged but not used as evidence, since every area finding comes from the store disclosure itself. The GameDB.ai entry for this game was also fetched in full (HTTP 200, 190,084 bytes) and its rendered text read through, but the static page ships only site navigation, filter words and a sign-in dialog, with the per-area AI labels rendered client-side, so nothing quotable about this game is in the capture and it is not registered as a source. An Instagram post about whether the shots needed re-taking cannot be quoted verbatim without a logged-in render and was not fetched. The remaining results were the store page and discount entry for this game, the demo store page for this game (App ID 4819110, which policy excludes from new intake), a SteamDB patch-notes page and a Vietnamese fan-translation download listing.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure keeps this use narrow: generative AI extends backgrounds by canvas expansion and removes unwanted elements in some of the live-action miniature images, while the original source material is stated to be real photographs and all content to be reviewed and adjusted by the developer. This area is recorded as used within those limits, not as AI-generated imagery.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "The disclosure adds that generative AI was used as a writing assistant for parts of the in-game text; both words matter, assistant and parts, so this area is recorded as used on that limited wording.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

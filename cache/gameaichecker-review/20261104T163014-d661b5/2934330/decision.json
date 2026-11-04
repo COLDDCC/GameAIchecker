@@ -1,0 +1,66 @@
+{
+ "identityName": "RADIOSOL",
+ "identityDeveloper": "TripletConcept, Yodez, Hius, WhereaboutsUnknown",
+ "category": "official_ai_disclosure",
+ "disclosureQuote": "Generative AI was used to translate the game into Spanish, Japanese, German, French, and Chinese. AI was NOT used to generate any visual or audio assets.",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "none",
+   "note": "披露用大写 NOT 写明“AI was NOT used to generate any visual or audio assets.”，据此把美术登记为未使用。这是开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "AI was NOT used to generate any visual or audio assets."
+  },
+  "music": {
+   "state": "none",
+   "note": "同一句的用词是 visual or audio assets，未单列音乐；本站按 audio 把音乐登记为未使用，并保留只是开发者自述的限定。",
+   "evidenceId": "store",
+   "quote": "AI was NOT used to generate any visual or audio assets."
+  },
+  "voice": {
+   "state": "none",
+   "note": "同一句的用词是 visual or audio assets，未单列语音；本站按 audio 把语音登记为未使用，并保留只是开发者自述的限定。",
+   "evidenceId": "store",
+   "quote": "AI was NOT used to generate any visual or audio assets."
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露写明生成式 AI 用于把游戏翻译成西班牙语、日语、德语、法语与中文五种语言，并把可核验的语言清单直接列出（Spanish, Japanese, German, French, and Chinese）。",
+   "evidenceId": "store",
+   "quote": "Generative AI was used to translate the game into Spanish, Japanese, German, French, and Chinese."
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "summary": "末世步行探索冒险，2026 年 9 月 30 日上架，由 TripletConcept、Yodez、Hius、WhereaboutsUnknown 共同开发、TripletConcept 发行，分类为冒险／独立／模拟。商店 AI 披露说明生成式 AI 只用于把游戏翻译成西班牙语、日语、德语、法语与中文五种语言，并用大写 NOT 声明视觉与音频素材不是 AI 生成。本站据此登记翻译为已使用、美术／音乐／语音为披露明确否认的未使用，代码、文本创作、游戏内实时生成与营销四项记为披露未说明。否定结论只有开发者自述作依据，未经独立审计。",
+ "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 TripletConcept、Yodez、Hius、WhereaboutsUnknown，发行商 TripletConcept）与英文讨论区首页（可见 15 个主题，总数 184，仅覆盖首页）。首页有 1 个命中 AI 关键词的主题“Gravelly disappointed, usage of AI”，已读取全帖（转录正文 3,619 字符）：发帖人标题就写“对 AI 的使用深感失望”，说本来很期待、因为看到开发者用 LLM 翻译才来问为什么要这么做，跟帖里有人说“宁可不买也要请人工翻译”，也有人反驳称这只是 Google 翻译用了十几年的东西、并区分了“自动化型 AI”和“生成式 AI”。全帖没有出现带开发方徽章的回复，都是玩家立场，按规则只登记不判定，不改变任何领域结论；本帖的争议点恰好落在本站已登记为已使用的翻译领域，与商店披露一致。本款单独检索公开报道 1 次、登记 6 条结果，读取 1 篇原始来源：GameAICheck 本作条目转录披露并给出 deepseek-flash 生成的“Minor AI · solid production”判词，其中复述“视觉与音频素材被开发者写明未经 AI 生成”，同时声明披露属开发者自述、无法独立核实；本站采纳的只有商店原文，第三方判词只作登记。其余 5 条为本作商店页、一个 appid 指向 2824380 的 Steam 鉴赏家列表页、一个开发者相关个人的 Bluesky 主页（动态时间线，无稳定可逐字核验的披露文本，未读取全文）、GameAICheck 的新品聚合列表页与 PC Gamer 对另一款游戏（The Signal From Tölva）的评测，均不作为本作来源。",
+ "description": "被行星灾变烤焦的荒原上，一个人穿行在巨型废墟与废弃城市之间找答案，还要避开直射的阳光。",
+ "english": {
+  "summary": "A walking exploration adventure through a world burned by a planetary cataclysm, released on Sep 30, 2026, developed by TripletConcept, Yodez, Hius and WhereaboutsUnknown and published by TripletConcept, filed under Adventure, Indie and Simulation. The Steam AI disclosure states that generative AI was used to translate the game into Spanish, Japanese, German, French and Chinese, and uses a capitalised NOT to say that no visual or audio assets were AI-generated. This site records translation as used and art, music and voice as not used on those two sentences, and records code, writing, live in-game generation and marketing as areas the disclosure does not address. The negative findings are the developer own statement and have not been independently audited.",
+  "reviewNote": "Reviewed the complete English Steam AI disclosure, the identity (four credited developers, publisher TripletConcept) and the English discussion homepage (15 visible topics of 184, first page only). One homepage topic matches the AI keyword search, titled Gravelly disappointed, usage of AI, and it was opened and read in full (3,619 characters of transcribed text): the opening post says the writer was looking forward to the game until seeing that the developers used LLMs to translate it, one reply refuses to buy and asks for a human translator, another answers that this is what Google Translate has done for over a decade, and a further reply argues there is a difference between AI that automates translation and generative AI that produces artwork or voice lines. Nobody writing with a developer identity replies, so these are player positions, logged without changing any area finding; the dispute lands on the translation area, which this site already records as used on the store wording. This title was searched once, that response holds 6 results and 1 raw source was read: the GameAICheck entry for this game transcribes the disclosure and prints a deepseek-flash judgment of Minor AI, solid production, restating that visual and audio assets are declared not AI-generated while also noting the disclosure is self-reported and cannot be independently verified. This site relies on the store wording and logs the third-party judgment only. The other 5 results were the store page for this game, a Steam curators page whose appid is 2824380, one personal Bluesky profile connected to the team (a dynamic timeline with no stable quotable disclosure text, not read in full), the GameAICheck new-releases aggregate list and a PC Gamer review of a different game, The Signal From Tölva; none is registered as a source for this game.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure denies AI-generated visuals with a capitalised NOT: AI was NOT used to generate any visual or audio assets. This is a developer statement, not an audited finding.",
+   "music": "The denying sentence uses the single word audio and does not name music separately; this area is recorded as not used on that word, with the developer statement caveat intact.",
+   "voice": "The denying sentence uses the single word audio and does not name voice acting separately; this area is recorded as not used on that word, with the developer statement caveat intact.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "The disclosure names the use and the target languages: Generative AI was used to translate the game into Spanish, Japanese, German, French, and Chinese.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}
