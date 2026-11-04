@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>AI :: Ghost in the SQL Data General Discussions</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://community.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=-yZgCk0Nu7kH&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/buttons.css?v=0Ihq-pAoptBq&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_global.css?v=s7S0UuIlaM4s&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/globalv2.css?v=VJJj6r-t5GM6&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/apphub.css?v=NffKBoKGro4H&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/modalContent.css?v=WXAusLHclDIt&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/apphub_home.css?v=N40XUxgnWrMY&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/forums.css?v=O7yPUbJwKVr8&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=jtzHDfvy1W_l&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/apphub_images.css?v=MycZFO0quD1j&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/header.css?v=fSkVqUFOfW78&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	var __PrototypePreserve=[];
+	__PrototypePreserve[0] = Array.from;
+	__PrototypePreserve[1] = Array.prototype.filter;
+	__PrototypePreserve[2] = Array.prototype.flatMap;
+	__PrototypePreserve[3] = Array.prototype.find;
+	__PrototypePreserve[4] = Array.prototype.some;
+	__PrototypePreserve[5] = Function.prototype.bind;
+	__PrototypePreserve[6] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/prototype-1.7.js?v=npJElBnrEO6W&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">
+	Array.from = __PrototypePreserve[0] || Array.from;
+	Array.prototype.filter = __PrototypePreserve[1] || Array.prototype.filter;
+	Array.prototype.flatMap = __PrototypePreserve[2] || Array.prototype.flatMap;
+	Array.prototype.find = __PrototypePreserve[3] || Array.prototype.find;
+	Array.prototype.some = __PrototypePreserve[4] || Array.prototype.some;
+	Function.prototype.bind = __PrototypePreserve[5] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __PrototypePreserve[6] || HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript">
+	var __ScriptaculousPreserve=[];
+	__ScriptaculousPreserve[0] = Array.from;
+	__ScriptaculousPreserve[1] = Function.prototype.bind;
+	__ScriptaculousPreserve[2] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/scriptaculous/_combined.js?v=pbdAKOcDIgbC&amp;l=english&amp;_cdn=fastly&amp;load=effects,controls,slider,dragdrop"></script>
+<script type="text/javascript">
+	Array.from = __ScriptaculousPreserve[0] || Array.from;
+	Function.prototype.bind = __ScriptaculousPreserve[1] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __ScriptaculousPreserve[2] || HTMLElement.prototype.scrollTo;
+delete String['__parseStyleElement'];  Prototype.Browser.WebKit = true;</script>
+<script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/community.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/global.js?v=gFpIMpzMJ37e&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=gQHVlrK4-jX-&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=lqbABc7pOZZC&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script><script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"https:\/\/community.fastly.steamstatic.com\/public\/javascript\/json2.js?v=54NKNglvGTO8&amp;l=english&amp;_cdn=fastly\"><\/script>\n" ); };
+</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				SetupTooltips( { tooltipCSSClass: 'community_tooltip'} );
+		});
+		</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/modalv2.js?v=zBXEuexVQ0FZ&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/modalContent.js?v=uqf5ttWTRe7l&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/apphub.js?v=vovOtA4iEOuy&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/forums.js?v=jBcMXSv2pMhZ&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="How much AI is used? I'm just curious">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="AI :: Ghost in the SQL Data General Discussions">
+					<meta property="twitter:title" content="AI :: Ghost in the SQL Data General Discussions">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:description" content="How much AI is used? I'm just curious">
+					<meta property="twitter:description" content="How much AI is used? I'm just curious">
+			
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5072430/51f9c7715c2f874443595ae9e76269b02444c496/header.jpg?t=1793701208">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5072430/51f9c7715c2f874443595ae9e76269b02444c496/header.jpg?t=1793701208">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5072430/51f9c7715c2f874443595ae9e76269b02444c496/header.jpg?t=1793701208" />
+				
+	
+	
+	
+	
+	</head>
+<body class="flat_page thread responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://steamcommunity.com/login/home/?goto=app%2F5072430%2Fdiscussions%2F0%2F569300439979438766%2F">
+									Sign in								</a>
+															<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/">
+															<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/" aria-label="Link to the Steam Homepage">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=app%2F5072430%2Fdiscussions%2F0%2F569300439979438766%2F">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<script type="text/javascript">
+	g_sessionID = "78eeabac6886642545402e43";
+	g_steamID = false;
+	g_strLanguage = "english";
+	g_SNR = '2_9_100006_100202';
+	g_bAllowAppImpressions = true;
+		g_ContentDescriptorPreferences = [1,3,4];
+
+	
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+					InitMiniprofileHovers(( 'https%3A%2F%2Fsteamcommunity.com' ));
+			InitEmoticonHovers();
+		
+		ApplyAdultContentPreferences();
+	});
+
+	$J( function() { InitEconomyHovers( "https:\/\/community.fastly.steamstatic.com\/public\/css\/skin_1\/economy.css?v=RsRFFW9vaq1B&l=english&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy_common.js?v=TSVmDS2fQKJu&l=english&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy.js?v=pY7JMvljOOPC&l=english&_cdn=fastly" );});</script>
+<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/steamcommunity.com\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793756631,&quot;PAGE_TIMESTAMP&quot;:1793777504,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Community&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1793777504,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;2_9_100006_100202&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[1,3,4]}" data-community="[]" data-loyaltystore="{&quot;webapi_token&quot;:&quot;&quot;}" data-steam_notifications="null"></div><link href="https://community.fastly.steamstatic.com/public/css/applications/community/main.css?v=jx4wL9oVT36X&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11202421";</script>
+<script type="module" src="https://community.fastly.steamstatic.com/public/javascript/applications/community/main.js?contenthash=YyCh67xk"></script>
+<div  data-featuretarget="apphub-events"></div><div  data-featuretarget="community-awards"></div>	<div id="application_root"></div>
+
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<script type="text/javascript">
+	</script>
+<div class="pagecontent">
+		<div class="apphub_Content">
+		<div class="apphub_background apphub_background_gamepad_blur" style="background-image: url('https://store.fastly.steamstatic.com/images/storepagebackground/app/5072430?t=1793701208');"></div>
+		<div class="apphub_HomeHeader">
+			
+
+<div class="apphub_HomeHeaderContent">
+
+
+	<script lang="js">
+		const g_bIsAppHubModerator = 0;
+	</script>
+
+	
+	
+	<div class="apphub_HeaderTop">
+		<div class="apphub_OtherSiteInfo responsive_hidden">
+			
+							<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/5072430?snr=2_9_100006_100202_apphubheader" data-appid="5072430">
+					<span>Store Page</span>
+				</a>
+					</div>
+		<div class="apphub_AppDetails">
+			<div class="apphub_AppIcon"><img src="https://shared.fastly.steamstatic.com/community_assets/images/apps/5072430/6e549b223c4e68027c05f3f1cf92f34e7a00b2e3.jpg"><div class="overlay"></div></div>
+			<div class="apphub_AppName ellipsis">Ghost in the SQL Data</div>
+		</div>
+		<div style="clear: both"></div>
+
+		
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" class="apphub_sectionTabs responsive_hidden">
+				
+	<a href="https://steamcommunity.com/app/5072430" class="apphub_sectionTab  "><span>All</span></a>
+		
+	<a href="https://steamcommunity.com/app/5072430/discussions/" class="apphub_sectionTab active "><span>Discussions</span></a>
+		
+	<a href="https://steamcommunity.com/app/5072430/screenshots/" class="apphub_sectionTab  "><span>Screenshots</span></a>
+		
+	<a href="https://steamcommunity.com/app/5072430/images/" class="apphub_sectionTab  "><span>Artwork</span></a>
+		
+	<a href="https://steamcommunity.com/app/5072430/broadcasts/" class="apphub_sectionTab  "><span>Broadcasts</span></a>
+		
+	<a href="https://steamcommunity.com/app/5072430/videos/" class="apphub_sectionTab  "><span>Videos</span></a>
+		
+	<a href="https://steamcommunity.com/app/5072430/workshop/" class="apphub_sectionTab  "><span>Workshop</span></a>
+		
+	<a href="https://steamcommunity.com/app/5072430/allnews/" class="apphub_sectionTab  "><span>News</span></a>
+		
+	<a href="https://steamcommunity.com/app/5072430/guides/" class="apphub_sectionTab  "><span>Guides</span></a>
+		
+	<a href="https://steamcommunity.com/app/5072430/reviews/" class="apphub_sectionTab  "><span>Reviews</span></a>
+			</div>
+
+		<div class="nonresponsive_hidden responsive_tab_ctn sharedfiles_responsive_tab">
+			<div class="responsive_tab_control">
+				<div class="responsive_tab_control_inner">
+										<select class="responsive_tab_select" id="responsive_tab_select6aeadf6079722">
+													<option value="https://steamcommunity.com/app/5072430" >
+								All							</option>
+													<option value="https://steamcommunity.com/app/5072430/discussions/" selected>
+								Discussions							</option>
+													<option value="https://steamcommunity.com/app/5072430/screenshots/" >
+								Screenshots							</option>
+													<option value="https://steamcommunity.com/app/5072430/images/" >
+								Artwork							</option>
+													<option value="https://steamcommunity.com/app/5072430/broadcasts/" >
+								Broadcasts							</option>
+													<option value="https://steamcommunity.com/app/5072430/videos/" >
+								Videos							</option>
+													<option value="https://steamcommunity.com/app/5072430/workshop/" >
+								Workshop							</option>
+													<option value="https://steamcommunity.com/app/5072430/allnews/" >
+								News							</option>
+													<option value="https://steamcommunity.com/app/5072430/guides/" >
+								Guides							</option>
+													<option value="https://steamcommunity.com/app/5072430/reviews/" >
+								Reviews							</option>
+											</select>
+				</div>
+			</div>
+			<div class="responsive_tab_baseline"></div>
+		</div>
+	</div>
+	<div class="apphub_sectionTabsHR responsive_hidden"></div>
+
+
+	<!-- these elements are used to populate the local menu on responsive pages -->
+	<div style="display: none;">
+		<div class="responsive_local_menu apphub_responsive_menu">
+			<h3 class="ellipsis apphub_responsive_menu_title">Ghost in the SQL Data</h3>
+			<div class="apphub_ResponsiveMenuCtn">
+									<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/5072430">
+						<span>Store Page</span>
+					</a>
+											</div>
+													<div class="localmenu_subarea">
+					<div class="subheader">
+						View Stats:
+					</div>
+											<div class="apphub_ResponsiveMenuItem" >
+							<a href="https://steamcommunity.com/achievements/5072430">Global Achievements</a>
+						</div>
+									</div>
+					</div>
+	</div>
+	<!-- end responsive menu -->
+
+	
+</div>
+
+	<div class="apphub_HeaderBottomBG_ctn">
+		<div class="apphub_HeaderBottomBG_blur"></div><div class="apphub_HeaderBottomBG"></div>
+	</div>
+			<div style="clear: both"></div>
+		</div>
+	</div>
+	
+	<div id="AppHubContent" class="apphub_Discussion_Content" data-miniprofile-appid="5072430">
+		<div class="maincontent">
+				<div class="leftcol">
+					<div>
+						<div class="forum_breadcrumbs group_content_bodytext breadcrumbs">
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/5072430">Ghost in the SQL Data</a> <span class="breadcrumb_separator">&gt;</span>
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/5072430/discussions/0/">General Discussions</a> <span class="breadcrumb_separator">&gt;</span>
+							<span class="breadcrumb_current_page">Topic Details</span>
+						</div>
+					</div>
+										<div  data-featuretarget="content-moderation-report-dialog"></div>
+
+
+	<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="forum_op " id="forum_op_569300439979438766">
+						<div class="forum_op_header commentthread_comment_author" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" id="forum_op_header_569300439979438766">
+
+							<div class="forum_op_avatar playerAvatar in-game">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2206560/3c389ed84bad37381f406830f2845f126645a8df.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2206560/44715ce4fef8940263ec9e966a61cc83499a096f.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/2206560/44715ce4fef8940263ec9e966a61cc83499a096f.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198165338339">
+						<img src="https://avatars.fastly.steamstatic.com/ee7c640e853d02baae18491d22b9c31c9861f8c6.jpg" data-miniprofile="205072611">
+					</a>
+				</div>
+			
+			<div class="authorline author_name_group">
+				<div class="flex_row">
+													<a class="hoverunderline forum_op_author " href="https://steamcommunity.com/profiles/76561198165338339" onclick="return Forum_AuthorMenu( this, 205072611, -1 );"  data-miniprofile="205072611">
+						Žaidikas<span class="forum_author_action_pulldown"></span></a>
+							<div id="author_menu_205072611_-1" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198165338339">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198165338339/posthistory/">View Posts</a>
+															</div>
+		</div>
+																					<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_forum_topic_569300439979438766"></div>				</div>
+
+
+				<div class="date commentthread_comment_timestamp" title="October 18, 2026 @ 12:11:58 am PST" data-timestamp="1792307518">
+					Oct 18 @ 12:11am				</div>
+
+			</div>
+							<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_569300439979438766">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_569300439979438766">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '205072611', '-1' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+						
+		</div>
+
+		<div class="topic" id="forum_op_topic_569300439979438766">
+		AI	</div>
+	<div class="content" id="forum_op_content_569300439979438766">
+		How much AI is used? I'm just curious	</div>
+		
+	<div class="forum_op_footer">
+		<div></div>
+			</div>
+</div>
+<div data-featuretarget="community-awards"></div>
+<script type="text/javascript">
+	$J( function() {
+		InitializeForumTopic( {"owner":"46270988","type":"General","feature":"0","gidforum":"591813437999456887","forum_display_name":"General Discussions","forum_url":"https:\/\/steamcommunity.com\/app\/5072430\/discussions\/0\/","forum_search_url":"https:\/\/steamcommunity.com\/app\/5072430\/discussions\/search\/","is_public":1,"permissions":{"can_view":1,"can_post":1,"can_reply":1,"is_banned":0,"can_delete":0,"can_edit":0},"appid":5072430}, "https:\/\/steamcommunity.com\/forum\/46270988\/General\/",
+		"569300439979438766", {"author":"\u017daidikas","text":"How much AI is used? I'm just curious"}		);
+			} );
+</script>
+					<div class="forumtopic_answer answer_ctn" >
+		<div class="forumtopic_answer answer_header" data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button">
+		<a href="#c567049339876416999" >
+			<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_answer_large.png?v=1">
+			A developer of this app has marked a post as the answer to the topic above.<br>
+			Click here to jump to that post.		</a>
+		<div style="clear:both"></div>
+	</div>
+
+		<div class="forumtopic_answer answer_body">
+		<div class="forumtopic_answer answer_quote">
+			<div class="answer_author bb_quoteauthor" >Originally posted by <a href="https://steamcommunity.com/profiles/76561198367882468" data-miniprofile="407616740">is02ac</a>:</div>
+						<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876413534">spitfire_ch</a></b>:</div>I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst/Engineer), and my job is as much at stake as an artist's — probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. </blockquote><br>I'm a video game student in a game design school at Isart digital Paris. In this school we also have game artists and sound designers that have huge difficulties to find jobs, because of the current situation of the video game industry. Generated art from AI is mainly art stole from artists that never wanted this tool. So for that main reason I prefere pay commercial license of real artist (like I did for the artwork of the inspector Reye, for the sound, it's a free licence). <br><br>But for the programmation, AI created more jobs than it deleted them (In France at least). Secondly, depending on how you use it, programming don't remove the creative part of making a game. <br><br>For the translation, i'm a bit frustated to use AI, but I prefere that than don't translate anything. For now i didn't received any money so I can't afford for translation compagny, but maybe after the release I will contact it to arrange that part of the game.		</div>
+	</div>
+	</div>
+					<script type="text/javascript">
+$J( function() { InitializeCommentThread( "ForumTopic", "ForumTopic_103582791475792396_591813437999456887_569300439979438766", {"feature":"591813437999456887","feature2":"569300439979438766","owner":"103582791475792396","commentthreadid":"659673123","total_count":14,"start":0,"pagesize":15,"has_upvoted":0,"upvotes":0,"votecountid":null,"voteupid":null,"commentcountid":null,"subscribed":false,"extended_data":"{\"topic_permissions\":{\"can_view\":1,\"can_post\":1,\"can_reply\":1,\"is_banned\":0,\"can_delete\":0,\"can_edit\":0},\"original_poster\":205072611,\"topic_gidanswer\":\"567049339876416999\",\"forum_appid\":5072430,\"forum_public\":1,\"forum_type\":\"General\",\"forum_gidfeature\":\"0\"}","oldestfirst":true,"comments_raw":{"569300439979440699":{"text":"Hi, I used it for programming and translating from French (sometimes I write directly in English, but not every time)","author":"is02ac"},"569300439979441475":{"text":"[quote=is02ac;569300439979440699]Hi, I used it for programming and translating from French (sometimes I write directly in English, but not every time) [\/quote]\nThanks for response. I can tolerate for programming.","author":"\u017daidikas"},"567049339876413534":{"text":"I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst\/Engineer), and my job is as much at stake as an artist's \u2014 probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world.","author":"spitfire_ch"},"567049339876416999":{"text":"[quote=spitfire_ch;567049339876413534]I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst\/Engineer), and my job is as much at stake as an artist's \u2014 probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. [\/quote]\n\nI'm a video game student in a game design school at Isart digital Paris. In this school we also have game artists and sound designers that have huge difficulties to find jobs, because of the current situation of the video game industry. Generated art from AI is mainly art stole from artists that never wanted this tool. So for that main reason I prefere pay commercial license of real artist (like I did for the artwork of the inspector Reye, for the sound, it's a free licence). \n\nBut for the programmation, AI created more jobs than it deleted them (In France at least). Secondly, depending on how you use it, programming don't remove the creative part of making a game. \n\nFor the translation, i'm a bit frustated to use AI, but I prefere that than don't translate anything. For now i didn't received any money so I can't afford for translation compagny, but maybe after the release I will contact it to arrange that part of the game.","author":"is02ac"},"567049339876418855":{"text":"[quote=spitfire_ch;567049339876413534]I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst\/Engineer), and my job is as much at stake as an artist's \u2014 probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. [\/quote]\n\n\nFirst of all just look how easy and effortless is to make something with AI. Anyone who never touch the pencil in his life can create digital art now wihtout talent, work or effort. Why to pay for it? What value it has. Secondly art is the thing we see in game and interact with, code is like backend. Of course i'm against AI in all aspects of game  creation.","author":"\u017daidikas"},"567049623178320125":{"text":"Are gamers\/people dont like AI?  I do professional SQL development and we use AI for queries now too.    AI is just the way to go these days, more productive.   Though the modelling and business analyst part of the work still requires real humans to think and validate.    \n\nI have used AI much in the development and it's just a tool like a calculator.  At the end of the day, one's work speaks for itself if it is good or slop, regardless if it was doing 100% by people or not.","author":"nomadredd"},"562546073917323692":{"text":"[quote=spitfire_ch;567049339876413534]I'm also just curious: why is it OK for programming but not for art?[\/quote]\n\nArt is by nature creative. Coding, like any language, has rules. While yes you could write several versions of code in the same language, and achieve the same result; ultimately it all falls back on structured rules. \n\nIf I ask 100 coders to build a basic web UI based on a layout sketch and a list of requirements, they might lay things out very differently, use different CSS properties for styling, use different colours and fonts, different CSS templates; but core components will be coded nearly identically. Certain systems need to be written a specific way just to function.\n\nIf I ask an AI to create an API that can read data from a SharePoint list, it doesn't need to \"create\" it, there is documentation on the Microsoft website it can follow to write it. If you asked a human to do it, and they didn't already know how, they'll read the same documentation and arrive at a near-identical result. That's not very creative of the AI, that's just following the instructions. And it doesn't need to steal ideas from programmers, documentation for languages and things like APIs are very accessible. If an AI doesn't know how to do something, it can literally just read the manual.\n\nIf I ask 100 artists to \"draw a cat sitting at a window\", I will get 100 quite different drawings. That is truely creative because that is a vague set of parameters and they can use any mediums they want, paper or digital, pencil or pen, black and white or colour, realistic or cartoony, viewing the cat from inside the window or outside, with perspective or orthographic, etc.","author":"Cilvaa"},"562546073917325718":{"text":"[quote=is02ac;567049339876416999][quote=spitfire_ch;567049339876413534]I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst\/Engineer), and my job is as much at stake as an artist's \u2014 probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. [\/quote]\n\nI'm a video game student in a game design school at Isart digital Paris. In this school we also have game artists and sound designers that have huge difficulties to find jobs, because of the current situation of the video game industry. Generated art from AI is mainly art stole from artists that never wanted this tool. So for that main reason I prefere pay commercial license of real artist (like I did for the artwork of the inspector Reye, for the sound, it's a free licence). \n\nBut for the programmation, AI created more jobs than it deleted them (In France at least). Secondly, depending on how you use it, programming don't remove the creative part of making a game. \n\nFor the translation, i'm a bit frustated to use AI, but I prefere that than don't translate anything. For now i didn't received any money so I can't afford for translation compagny, but maybe after the release I will contact it to arrange that part of the game. [\/quote]\nPlease hire a translation company if this game does well enough!  I love the story bits!","author":"thateclipse"},"562546073917381008":{"text":"[quote=Cilvaa;562546073917323692][quote=spitfire_ch;567049339876413534]I'm also just curious: why is it OK for programming but not for art?[\/quote]\n\nArt is by nature creative. Coding, like any language, has rules. While yes you could write several versions of code in the same language, and achieve the same result; ultimately it all falls back on structured rules. \n\nIf I ask 100 coders to build a basic web UI based on a layout sketch and a list of requirements, they might lay things out very differently, use different CSS properties for styling, use different colours and fonts, different CSS templates; but core components will be coded nearly identically. Certain systems need to be written a specific way just to function.\n\nIf I ask an AI to create an API that can read data from a SharePoint list, it doesn't need to \"create\" it, there is documentation on the Microsoft website it can follow to write it. If you asked a human to do it, and they didn't already know how, they'll read the same documentation and arrive at a near-identical result. That's not very creative of the AI, that's just following the instructions. And it doesn't need to steal ideas from programmers, documentation for languages and things like APIs are very accessible. If an AI doesn't know how to do something, it can literally just read the manual.\n\nIf I ask 100 artists to \"draw a cat sitting at a window\", I will get 100 quite different drawings. That is truely creative because that is a vague set of parameters and they can use any mediums they want, paper or digital, pencil or pen, black and white or colour, realistic or cartoony, viewing the cat from inside the window or outside, with perspective or orthographic, etc. [\/quote]\n\nI think several coders would not create totally different code many many times. If you ask them to write a function, yes, they will be similar, but if you ask them to code the same application they will think different architectures with different components, so they will need different code in them. There are a ton of ways to solve the same problem.\n\nThe main difference between art and coding in the AI subject is that nobody can do all the code of a program without the design of what they want and some insight about how to create a program. They still hire coders to code with AI. But with art and translations they don't hire artists, I think. Also images are created by copying images while language is different, AI can create text of its own, the original texts or programs used in training are much more diluted and it can create texts that never existed before.","author":"Braxus [ES]"},"562546073917426117":{"text":"AI creates images from scratch by learning mathematical patterns and concepts, exactly the same way it generates code or text. It doesn't copy or store source images\u2014it uses them as learning material, much like a human artist studies the work of others to build their own style.","author":"spitfire_ch"},"562546073917526153":{"text":"[quote=spitfire_ch;567049339876413534]I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst\/Engineer), and my job is as much at stake as an artist's \u2014 probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. [\/quote]\nI don't think this developer was ever going to hire you so you don't have to worry about that.","author":";)"},"562546073917526540":{"text":"[quote=nomadredd;567049623178320125]Are gamers\/people dont like AI?  I do professional SQL development and we use AI for queries now too.    AI is just the way to go these days, more productive.   Though the modelling and business analyst part of the work still requires real humans to think and validate.    \n\nI have used AI much in the development and it's just a tool like a calculator.  At the end of the day, one's work speaks for itself if it is good or slop, regardless if it was doing 100% by people or not. [\/quote]\nThat guy said \" Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself.\" Idk wtf that means but whoever hired him should def replace him with an AI. you're right that actual analysis and system architecting should secure your job.","author":";)"},"562546073917527426":{"text":"[quote=spitfire_ch;567049339876413534]I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst\/Engineer), and my job is as much at stake as an artist's \u2014 probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. [\/quote]\nlmao, wait, i actually read this all the way thru. I'm going to guess that you gave ur agent access to your ssh keys. lmao","author":";)"},"562546398187386988":{"text":"[quote=Cilvaa;562546073917323692][quote=spitfire_ch;567049339876413534]I'm also just curious: why is it OK for programming but not for art?[\/quote]\n\nArt is by nature creative. Coding, like any language, has rules. While yes you could write several versions of code in the same language, and achieve the same result; ultimately it all falls back on structured rules. \n\nIf I ask 100 coders to build a basic web UI based on a layout sketch and a list of requirements, they might lay things out very differently, use different CSS properties for styling, use different colours and fonts, different CSS templates; but core components will be coded nearly identically. Certain systems need to be written a specific way just to function.\n\nIf I ask an AI to create an API that can read data from a SharePoint list, it doesn't need to \"create\" it, there is documentation on the Microsoft website it can follow to write it. If you asked a human to do it, and they didn't already know how, they'll read the same documentation and arrive at a near-identical result. That's not very creative of the AI, that's just following the instructions. And it doesn't need to steal ideas from programmers, documentation for languages and things like APIs are very accessible. If an AI doesn't know how to do something, it can literally just read the manual.\n\nIf I ask 100 artists to \"draw a cat sitting at a window\", I will get 100 quite different drawings. That is truely creative because that is a vague set of parameters and they can use any mediums they want, paper or digital, pencil or pen, black and white or colour, realistic or cartoony, viewing the cat from inside the window or outside, with perspective or orthographic, etc. [\/quote]\n\nWhat a dumb take...  Sure there will be some cross-over with libraries, and maybe some basic functions... but if you think every coder will return the exact same product in the end, that's horrible incorrect.  Most websites look the same because the internet is stagnating and people keep jumping to the same frameworks to handle the styling, but the code behind the scenes actually doing the stuff is likely quite different between sites.\n\nIf we go back to the early 00s when the internet still had personality, sites were wildly different from eachother.","author":"abraxas86"}},"track_navigation":true}, 'https://steamcommunity.com/comment/ForumTopic/', 40 ); } );
+</script>
+<div class="commentthread_area forumtopic_comments" id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_area">
+	        <div id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_pagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_pagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_pagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_pagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_pagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_pagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Showing <span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_pagestart">1</span>-<span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_pageend">14</span> of <span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_pagetotal">14</span> comments            </div>
+            <div style="clear: both;"></div>
+        </div>
+        	<div class="commentthread_comment_container" id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_postcontainer">
+		<div data-panel="{&quot;noFocusRing&quot;:true}" class="commentthread_comments" id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_posts">
+					
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_569300439979440699" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/860950/59638b6ad5810a92a5692fc8a19825f64f21b627.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/860950/6e1b5f5977036a189465f5455f2c54722c12883d.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/860950/6e1b5f5977036a189465f5455f2c54722c12883d.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198367882468" data-miniprofile="407616740">
+													<img src="https://avatars.fastly.steamstatic.com/751f9720bcfd2c97b0d5ce3bdafa6ee9bf1a8126.jpg" srcset="https://avatars.fastly.steamstatic.com/751f9720bcfd2c97b0d5ce3bdafa6ee9bf1a8126.jpg 1x, https://avatars.fastly.steamstatic.com/751f9720bcfd2c97b0d5ce3bdafa6ee9bf1a8126_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link commentthread_author_developer" href="https://steamcommunity.com/profiles/76561198367882468" onclick="return Forum_AuthorMenu( this, 407616740, '569300439979440699' );" data-miniprofile="407616740">
+							<bdi>is02ac<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_407616740_569300439979440699" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198367882468">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198367882468/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+						<span class="commentthread_workshop_authorbadge">&nbsp;[developer]</span>																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_569300439979440699"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 18, 2026 @ 12:49:34 am PST" data-timestamp="1792309774">
+						Oct 18 @ 12:49am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_569300439979440699">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_569300439979440699">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '407616740', '569300439979440699' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_569300439979440699">
+				Hi, I used it for programming and translating from French (sometimes I write directly in English, but not every time)			</div>
+			<div class="comment_footer_ctn">
+													
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c569300439979440699">#1</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_569300439979441475" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar in-game">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2206560/3c389ed84bad37381f406830f2845f126645a8df.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2206560/44715ce4fef8940263ec9e966a61cc83499a096f.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/2206560/44715ce4fef8940263ec9e966a61cc83499a096f.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198165338339" data-miniprofile="205072611">
+													<img src="https://avatars.fastly.steamstatic.com/ee7c640e853d02baae18491d22b9c31c9861f8c6.jpg" srcset="https://avatars.fastly.steamstatic.com/ee7c640e853d02baae18491d22b9c31c9861f8c6.jpg 1x, https://avatars.fastly.steamstatic.com/ee7c640e853d02baae18491d22b9c31c9861f8c6_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198165338339" onclick="return Forum_AuthorMenu( this, 205072611, '569300439979441475' );" data-miniprofile="205072611">
+							<bdi>Žaidikas<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_205072611_569300439979441475" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198165338339">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198165338339/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_569300439979441475"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 18, 2026 @ 1:05:49 am PST" data-timestamp="1792310749">
+						Oct 18 @ 1:05am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_569300439979441475">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_569300439979441475">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '205072611', '569300439979441475' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_569300439979441475">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c569300439979440699">is02ac</a></b>:</div>Hi, I used it for programming and translating from French (sometimes I write directly in English, but not every time) </blockquote>Thanks for response. I can tolerate for programming.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c569300439979441475">#2</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_567049339876413534" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/3257180/18e83f9b68617882a83cbde61299bd6dc4cd40c5.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/3257180/7454f5391c44d910a5f8b45571fc71288c2bfda4.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/3257180/7454f5391c44d910a5f8b45571fc71288c2bfda4.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561197970728979" data-miniprofile="10463251">
+													<img src="https://avatars.fastly.steamstatic.com/8aeafab495936f4dbd8c5c57a990641982c513ee.jpg" srcset="https://avatars.fastly.steamstatic.com/8aeafab495936f4dbd8c5c57a990641982c513ee.jpg 1x, https://avatars.fastly.steamstatic.com/8aeafab495936f4dbd8c5c57a990641982c513ee_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197970728979" onclick="return Forum_AuthorMenu( this, 10463251, '567049339876413534' );" data-miniprofile="10463251">
+							<bdi>spitfire_ch<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_10463251_567049339876413534" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197970728979">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197970728979/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_567049339876413534">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '567049339876413534', 29 )" data-reaction="29" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/29.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;One Hundred&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Totally, absolutely, completely agree.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/29.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 26, 2026 @ 8:33:28 am PST" data-timestamp="1793028808">
+						Oct 26 @ 8:33am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_567049339876413534">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_567049339876413534">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '10463251', '567049339876413534' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_567049339876413534">
+				I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst/Engineer), and my job is as much at stake as an artist's — probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c567049339876413534">#3</a>
+											</div>
+							</div>
+		</div>
+	</div>
+				<div class="commentthread_answer_bar">
+			<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_answer_small.png?v=1">
+			<span>A developer of this app has indicated that this post answers the original topic.</span>
+		</div>
+	
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text commentthread_answer_comment  " id="comment_567049339876416999" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/860950/59638b6ad5810a92a5692fc8a19825f64f21b627.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/860950/6e1b5f5977036a189465f5455f2c54722c12883d.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/860950/6e1b5f5977036a189465f5455f2c54722c12883d.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198367882468" data-miniprofile="407616740">
+													<img src="https://avatars.fastly.steamstatic.com/751f9720bcfd2c97b0d5ce3bdafa6ee9bf1a8126.jpg" srcset="https://avatars.fastly.steamstatic.com/751f9720bcfd2c97b0d5ce3bdafa6ee9bf1a8126.jpg 1x, https://avatars.fastly.steamstatic.com/751f9720bcfd2c97b0d5ce3bdafa6ee9bf1a8126_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link commentthread_author_developer" href="https://steamcommunity.com/profiles/76561198367882468" onclick="return Forum_AuthorMenu( this, 407616740, '567049339876416999' );" data-miniprofile="407616740">
+							<bdi>is02ac<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_407616740_567049339876416999" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198367882468">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198367882468/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+						<span class="commentthread_workshop_authorbadge">&nbsp;[developer]</span>																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_567049339876416999"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 26, 2026 @ 9:14:59 am PST" data-timestamp="1793031299">
+						Oct 26 @ 9:14am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_567049339876416999">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_567049339876416999">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '407616740', '567049339876416999' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_567049339876416999">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876413534">spitfire_ch</a></b>:</div>I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst/Engineer), and my job is as much at stake as an artist's — probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. </blockquote><br>I'm a video game student in a game design school at Isart digital Paris. In this school we also have game artists and sound designers that have huge difficulties to find jobs, because of the current situation of the video game industry. Generated art from AI is mainly art stole from artists that never wanted this tool. So for that main reason I prefere pay commercial license of real artist (like I did for the artwork of the inspector Reye, for the sound, it's a free licence). <br><br>But for the programmation, AI created more jobs than it deleted them (In France at least). Secondly, depending on how you use it, programming don't remove the creative part of making a game. <br><br>For the translation, i'm a bit frustated to use AI, but I prefere that than don't translate anything. For now i didn't received any money so I can't afford for translation compagny, but maybe after the release I will contact it to arrange that part of the game.			</div>
+			<div class="comment_footer_ctn">
+													
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c567049339876416999">#4</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_567049339876418855" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar in-game">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2206560/3c389ed84bad37381f406830f2845f126645a8df.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/2206560/44715ce4fef8940263ec9e966a61cc83499a096f.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/2206560/44715ce4fef8940263ec9e966a61cc83499a096f.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561198165338339" data-miniprofile="205072611">
+													<img src="https://avatars.fastly.steamstatic.com/ee7c640e853d02baae18491d22b9c31c9861f8c6.jpg" srcset="https://avatars.fastly.steamstatic.com/ee7c640e853d02baae18491d22b9c31c9861f8c6.jpg 1x, https://avatars.fastly.steamstatic.com/ee7c640e853d02baae18491d22b9c31c9861f8c6_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198165338339" onclick="return Forum_AuthorMenu( this, 205072611, '567049339876418855' );" data-miniprofile="205072611">
+							<bdi>Žaidikas<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_205072611_567049339876418855" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198165338339">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198165338339/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_567049339876418855"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 26, 2026 @ 9:37:51 am PST" data-timestamp="1793032671">
+						Oct 26 @ 9:37am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_567049339876418855">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_567049339876418855">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '205072611', '567049339876418855' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_567049339876418855">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876413534">spitfire_ch</a></b>:</div>I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst/Engineer), and my job is as much at stake as an artist's — probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. </blockquote><br><br>First of all just look how easy and effortless is to make something with AI. Anyone who never touch the pencil in his life can create digital art now wihtout talent, work or effort. Why to pay for it? What value it has. Secondly art is the thing we see in game and interact with, code is like backend. Of course i'm against AI in all aspects of game  creation.			</div>
+			<div class="comment_footer_ctn">
+									<div class="forum_audit">
+			Last edited by <a href="https://steamcommunity.com/profiles/76561198165338339" class="hoverunderline">Žaidikas</a>;
+		<span  title="October 26, 2026 @ 12:10:47 pm PST" data-timestamp="1793041847">Oct 26 @ 12:10pm</span>		</div>				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c567049339876418855">#5</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_567049623178320125" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+															<a href="https://steamcommunity.com/id/nomadredd" data-miniprofile="113064507">
+													<img src="https://avatars.fastly.steamstatic.com/1d63d80ced2e44c824fb5cf9eee296539496e08a.jpg" srcset="https://avatars.fastly.steamstatic.com/1d63d80ced2e44c824fb5cf9eee296539496e08a.jpg 1x, https://avatars.fastly.steamstatic.com/1d63d80ced2e44c824fb5cf9eee296539496e08a_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/nomadredd" onclick="return Forum_AuthorMenu( this, 113064507, '567049623178320125' );" data-miniprofile="113064507">
+							<bdi>nomadredd<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_113064507_567049623178320125" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/nomadredd">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/nomadredd/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_567049623178320125"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 27, 2026 @ 3:35:28 am PST" data-timestamp="1793097328">
+						Oct 27 @ 3:35am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_567049623178320125">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_567049623178320125">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '113064507', '567049623178320125' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_567049623178320125">
+				Are gamers/people dont like AI?  I do professional SQL development and we use AI for queries now too.    AI is just the way to go these days, more productive.   Though the modelling and business analyst part of the work still requires real humans to think and validate.    <br><br>I have used AI much in the development and it's just a tool like a calculator.  At the end of the day, one's work speaks for itself if it is good or slop, regardless if it was doing 100% by people or not.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c567049623178320125">#6</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546073917323692" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/id/Cilvaa" data-miniprofile="28299778">
+													<img src="https://avatars.fastly.steamstatic.com/41bc04ccb212cb8059f1feb35d9cfdaf9d291475.jpg" srcset="https://avatars.fastly.steamstatic.com/41bc04ccb212cb8059f1feb35d9cfdaf9d291475.jpg 1x, https://avatars.fastly.steamstatic.com/41bc04ccb212cb8059f1feb35d9cfdaf9d291475_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/Cilvaa" onclick="return Forum_AuthorMenu( this, 28299778, '562546073917323692' );" data-miniprofile="28299778">
+							<bdi>Cilvaa<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_28299778_562546073917323692" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Cilvaa">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Cilvaa/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546073917323692">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '562546073917323692', 28 )" data-reaction="28" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/28.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Funny&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;ROFL. Or LOL at the very least.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/28.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 29, 2026 @ 1:33:21 am PST" data-timestamp="1793262801">
+						Oct 29 @ 1:33am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546073917323692">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546073917323692">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '28299778', '562546073917323692' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546073917323692">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876413534">spitfire_ch</a></b>:</div>I'm also just curious: why is it OK for programming but not for art?</blockquote><br>Art is by nature creative. Coding, like any language, has rules. While yes you could write several versions of code in the same language, and achieve the same result; ultimately it all falls back on structured rules. <br><br>If I ask 100 coders to build a basic web UI based on a layout sketch and a list of requirements, they might lay things out very differently, use different CSS properties for styling, use different colours and fonts, different CSS templates; but core components will be coded nearly identically. Certain systems need to be written a specific way just to function.<br><br>If I ask an AI to create an API that can read data from a SharePoint list, it doesn't need to &quot;create&quot; it, there is documentation on the Microsoft website it can follow to write it. If you asked a human to do it, and they didn't already know how, they'll read the same documentation and arrive at a near-identical result. That's not very creative of the AI, that's just following the instructions. And it doesn't need to steal ideas from programmers, documentation for languages and things like APIs are very accessible. If an AI doesn't know how to do something, it can literally just read the manual.<br><br>If I ask 100 artists to &quot;draw a cat sitting at a window&quot;, I will get 100 quite different drawings. That is truely creative because that is a vague set of parameters and they can use any mediums they want, paper or digital, pencil or pen, black and white or colour, realistic or cartoony, viewing the cat from inside the window or outside, with perspective or orthographic, etc.			</div>
+			<div class="comment_footer_ctn">
+									<div class="forum_audit">
+			Last edited by <a href="https://steamcommunity.com/id/Cilvaa" class="hoverunderline">Cilvaa</a>;
+		<span  title="October 29, 2026 @ 1:35:12 am PST" data-timestamp="1793262912">Oct 29 @ 1:35am</span>		</div>				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546073917323692">#7</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546073917325718" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/profiles/76561198125441316" data-miniprofile="165175588">
+													<img src="https://avatars.fastly.steamstatic.com/5bcafe0ddf8d8211ed93d4fab6380f8db32df002.jpg" srcset="https://avatars.fastly.steamstatic.com/5bcafe0ddf8d8211ed93d4fab6380f8db32df002.jpg 1x, https://avatars.fastly.steamstatic.com/5bcafe0ddf8d8211ed93d4fab6380f8db32df002_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198125441316" onclick="return Forum_AuthorMenu( this, 165175588, '562546073917325718' );" data-miniprofile="165175588">
+							<bdi>thateclipse<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_165175588_562546073917325718" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198125441316">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198125441316/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546073917325718">								<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip purchaseable" onClick="Forum_ShowAwardDialogForComment( '562546073917325718', 29 )" data-reaction="29" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/29.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;One Hundred&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Totally, absolutely, completely agree.&lt;/div&gt;
+							&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+									<img class="community_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/29.png?v=5"/>
+									<span class="community_award_count hidden">1</span>
+								</div>
+								</div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 29, 2026 @ 2:10:27 am PST" data-timestamp="1793265027">
+						Oct 29 @ 2:10am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546073917325718">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546073917325718">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '165175588', '562546073917325718' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546073917325718">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876416999">is02ac</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876413534">spitfire_ch</a></b>:</div>I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst/Engineer), and my job is as much at stake as an artist's — probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. </blockquote><br>I'm a video game student in a game design school at Isart digital Paris. In this school we also have game artists and sound designers that have huge difficulties to find jobs, because of the current situation of the video game industry. Generated art from AI is mainly art stole from artists that never wanted this tool. So for that main reason I prefere pay commercial license of real artist (like I did for the artwork of the inspector Reye, for the sound, it's a free licence). <br><br>But for the programmation, AI created more jobs than it deleted them (In France at least). Secondly, depending on how you use it, programming don't remove the creative part of making a game. <br><br>For the translation, i'm a bit frustated to use AI, but I prefere that than don't translate anything. For now i didn't received any money so I can't afford for translation compagny, but maybe after the release I will contact it to arrange that part of the game. </blockquote>Please hire a translation company if this game does well enough!  I love the story bits!			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546073917325718">#8</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546073917381008" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1732740/1fdb6f1094d8fbb2a566552a456ddfb4d5e7bf1e.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1732740/3fd73db5d33e9b6597e6975eb654e89b89b5db5c.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1732740/3fd73db5d33e9b6597e6975eb654e89b89b5db5c.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/braxus7" data-miniprofile="30658044">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/620/c979d0866621cd6c3c52bfb22bfb11bf62d7a633.jpg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/620/9b150c165611e0f04ac9edb860656d7e67d56fbe.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/braxus7" onclick="return Forum_AuthorMenu( this, 30658044, '562546073917381008' );" data-miniprofile="30658044">
+							<bdi>Braxus [ES]<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_30658044_562546073917381008" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/braxus7">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/braxus7/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="has Ghost in the SQL Data">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546073917381008"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 29, 2026 @ 3:20:29 pm PST" data-timestamp="1793312429">
+						Oct 29 @ 3:20pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546073917381008">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546073917381008">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '30658044', '562546073917381008' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546073917381008">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c562546073917323692">Cilvaa</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876413534">spitfire_ch</a></b>:</div>I'm also just curious: why is it OK for programming but not for art?</blockquote><br>Art is by nature creative. Coding, like any language, has rules. While yes you could write several versions of code in the same language, and achieve the same result; ultimately it all falls back on structured rules. <br><br>If I ask 100 coders to build a basic web UI based on a layout sketch and a list of requirements, they might lay things out very differently, use different CSS properties for styling, use different colours and fonts, different CSS templates; but core components will be coded nearly identically. Certain systems need to be written a specific way just to function.<br><br>If I ask an AI to create an API that can read data from a SharePoint list, it doesn't need to &quot;create&quot; it, there is documentation on the Microsoft website it can follow to write it. If you asked a human to do it, and they didn't already know how, they'll read the same documentation and arrive at a near-identical result. That's not very creative of the AI, that's just following the instructions. And it doesn't need to steal ideas from programmers, documentation for languages and things like APIs are very accessible. If an AI doesn't know how to do something, it can literally just read the manual.<br><br>If I ask 100 artists to &quot;draw a cat sitting at a window&quot;, I will get 100 quite different drawings. That is truely creative because that is a vague set of parameters and they can use any mediums they want, paper or digital, pencil or pen, black and white or colour, realistic or cartoony, viewing the cat from inside the window or outside, with perspective or orthographic, etc. </blockquote><br>I think several coders would not create totally different code many many times. If you ask them to write a function, yes, they will be similar, but if you ask them to code the same application they will think different architectures with different components, so they will need different code in them. There are a ton of ways to solve the same problem.<br><br>The main difference between art and coding in the AI subject is that nobody can do all the code of a program without the design of what they want and some insight about how to create a program. They still hire coders to code with AI. But with art and translations they don't hire artists, I think. Also images are created by copying images while language is different, AI can create text of its own, the original texts or programs used in training are much more diluted and it can create texts that never existed before.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546073917381008">#9</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546073917426117" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/3257180/18e83f9b68617882a83cbde61299bd6dc4cd40c5.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/3257180/7454f5391c44d910a5f8b45571fc71288c2bfda4.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/3257180/7454f5391c44d910a5f8b45571fc71288c2bfda4.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/profiles/76561197970728979" data-miniprofile="10463251">
+													<img src="https://avatars.fastly.steamstatic.com/8aeafab495936f4dbd8c5c57a990641982c513ee.jpg" srcset="https://avatars.fastly.steamstatic.com/8aeafab495936f4dbd8c5c57a990641982c513ee.jpg 1x, https://avatars.fastly.steamstatic.com/8aeafab495936f4dbd8c5c57a990641982c513ee_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197970728979" onclick="return Forum_AuthorMenu( this, 10463251, '562546073917426117' );" data-miniprofile="10463251">
+							<bdi>spitfire_ch<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_10463251_562546073917426117" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197970728979">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197970728979/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546073917426117"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 30, 2026 @ 3:42:42 am PST" data-timestamp="1793356962">
+						Oct 30 @ 3:42am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546073917426117">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546073917426117">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '10463251', '562546073917426117' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546073917426117">
+				AI creates images from scratch by learning mathematical patterns and concepts, exactly the same way it generates code or text. It doesn't copy or store source images—it uses them as learning material, much like a human artist studies the work of others to build their own style.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546073917426117">#10</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546073917526153" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/profiles/76561197993763395" data-miniprofile="33497667">
+													<img src="https://avatars.fastly.steamstatic.com/790a2caf385d0d56bc1efe94857985c4c14d180b.jpg" srcset="https://avatars.fastly.steamstatic.com/790a2caf385d0d56bc1efe94857985c4c14d180b.jpg 1x, https://avatars.fastly.steamstatic.com/790a2caf385d0d56bc1efe94857985c4c14d180b_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197993763395" onclick="return Forum_AuthorMenu( this, 33497667, '562546073917526153' );" data-miniprofile="33497667">
+							<bdi>;)<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_33497667_562546073917526153" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197993763395">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197993763395/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="has Ghost in the SQL Data">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546073917526153"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 31, 2026 @ 2:39:20 am PST" data-timestamp="1793439560">
+						Oct 31 @ 2:39am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546073917526153">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546073917526153">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '33497667', '562546073917526153' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546073917526153">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876413534">spitfire_ch</a></b>:</div>I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst/Engineer), and my job is as much at stake as an artist's — probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. </blockquote>I don't think this developer was ever going to hire you so you don't have to worry about that.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546073917526153">#11</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546073917526540" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/profiles/76561197993763395" data-miniprofile="33497667">
+													<img src="https://avatars.fastly.steamstatic.com/790a2caf385d0d56bc1efe94857985c4c14d180b.jpg" srcset="https://avatars.fastly.steamstatic.com/790a2caf385d0d56bc1efe94857985c4c14d180b.jpg 1x, https://avatars.fastly.steamstatic.com/790a2caf385d0d56bc1efe94857985c4c14d180b_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197993763395" onclick="return Forum_AuthorMenu( this, 33497667, '562546073917526540' );" data-miniprofile="33497667">
+							<bdi>;)<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_33497667_562546073917526540" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197993763395">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197993763395/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="has Ghost in the SQL Data">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546073917526540"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 31, 2026 @ 2:44:53 am PST" data-timestamp="1793439893">
+						Oct 31 @ 2:44am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546073917526540">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546073917526540">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '33497667', '562546073917526540' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546073917526540">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049623178320125">nomadredd</a></b>:</div>Are gamers/people dont like AI?  I do professional SQL development and we use AI for queries now too.    AI is just the way to go these days, more productive.   Though the modelling and business analyst part of the work still requires real humans to think and validate.    <br><br>I have used AI much in the development and it's just a tool like a calculator.  At the end of the day, one's work speaks for itself if it is good or slop, regardless if it was doing 100% by people or not. </blockquote>That guy said &quot; Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself.&quot; Idk wtf that means but whoever hired him should def replace him with an AI. you're right that actual analysis and system architecting should secure your job.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546073917526540">#12</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546073917527426" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/profiles/76561197993763395" data-miniprofile="33497667">
+													<img src="https://avatars.fastly.steamstatic.com/790a2caf385d0d56bc1efe94857985c4c14d180b.jpg" srcset="https://avatars.fastly.steamstatic.com/790a2caf385d0d56bc1efe94857985c4c14d180b.jpg 1x, https://avatars.fastly.steamstatic.com/790a2caf385d0d56bc1efe94857985c4c14d180b_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561197993763395" onclick="return Forum_AuthorMenu( this, 33497667, '562546073917527426' );" data-miniprofile="33497667">
+							<bdi>;)<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_33497667_562546073917527426" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197993763395">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197993763395/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="has Ghost in the SQL Data">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546073917527426"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="October 31, 2026 @ 2:57:57 am PST" data-timestamp="1793440677">
+						Oct 31 @ 2:57am&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546073917527426">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546073917527426">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '33497667', '562546073917527426' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546073917527426">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876413534">spitfire_ch</a></b>:</div>I'm also just curious: why is it OK for programming but not for art? I'm actually a SQL developer (Data Analyst/Engineer), and my job is as much at stake as an artist's — probably even more so. I try to embrace AI as much as possible to avoid being left behind. In my opinion, it's OK to use AI for programming and everything else. Unless you use the environment argument, in which case it's not OK for anything, and I am very much guilty myself. But I don't get why artists always are the big victims in the AI world. </blockquote>lmao, wait, i actually read this all the way thru. I'm going to guess that you gave ur agent access to your ssh keys. lmao			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546073917527426">#13</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546398187386988" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/3300150/5d073a7523c3b6b7be1b73b33a129e1de2d2c324.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/3300150/3aba4da8c13715be301e3b3ae472035ebfdd42dc.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/3300150/3aba4da8c13715be301e3b3ae472035ebfdd42dc.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/abraxas86" data-miniprofile="15634883">
+																<picture>
+				<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/4643090/887b4e2393c9334ac2fef9b3e70c18cbb879e1a2.jpeg"></source>
+				<img srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/4643090/8c320621bca524cc0f862afa3ca5a89122661785.gif" >
+			</picture>
+													</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/abraxas86" onclick="return Forum_AuthorMenu( this, 15634883, '562546398187386988' );" data-miniprofile="15634883">
+							<bdi>abraxas86<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_15634883_562546398187386988" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/abraxas86">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/abraxas86/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="has Ghost in the SQL Data">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546398187386988"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="November 1, 2026 @ 6:41:46 pm PST" data-timestamp="1793587306">
+						Nov 1 @ 6:41pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546398187386988">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546398187386988">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791475792396', '591813437999456887', '569300439979438766', '15634883', '562546398187386988' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546398187386988">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c562546073917323692">Cilvaa</a></b>:</div><blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c567049339876413534">spitfire_ch</a></b>:</div>I'm also just curious: why is it OK for programming but not for art?</blockquote><br>Art is by nature creative. Coding, like any language, has rules. While yes you could write several versions of code in the same language, and achieve the same result; ultimately it all falls back on structured rules. <br><br>If I ask 100 coders to build a basic web UI based on a layout sketch and a list of requirements, they might lay things out very differently, use different CSS properties for styling, use different colours and fonts, different CSS templates; but core components will be coded nearly identically. Certain systems need to be written a specific way just to function.<br><br>If I ask an AI to create an API that can read data from a SharePoint list, it doesn't need to &quot;create&quot; it, there is documentation on the Microsoft website it can follow to write it. If you asked a human to do it, and they didn't already know how, they'll read the same documentation and arrive at a near-identical result. That's not very creative of the AI, that's just following the instructions. And it doesn't need to steal ideas from programmers, documentation for languages and things like APIs are very accessible. If an AI doesn't know how to do something, it can literally just read the manual.<br><br>If I ask 100 artists to &quot;draw a cat sitting at a window&quot;, I will get 100 quite different drawings. That is truely creative because that is a vague set of parameters and they can use any mediums they want, paper or digital, pencil or pen, black and white or colour, realistic or cartoony, viewing the cat from inside the window or outside, with perspective or orthographic, etc. </blockquote><br>What a dumb take...  Sure there will be some cross-over with libraries, and maybe some basic functions... but if you think every coder will return the exact same product in the end, that's horrible incorrect.  Most websites look the same because the internet is stagnating and people keep jumping to the same frameworks to handle the styling, but the code behind the scenes actually doing the stuff is likely quite different between sites.<br><br>If we go back to the early 00s when the internet still had personality, sites were wildly different from eachother.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546398187386988">#14</a>
+											</div>
+							</div>
+		</div>
+	</div>
+
+		</div>
+	</div>
+	        <div id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_fpagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_fpagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_fpagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_fpagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_fpagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_fpagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Showing <span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_fpagestart">1</span>-<span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_fpageend">14</span> of <span id="commentthread_ForumTopic_103582791475792396_591813437999456887_569300439979438766_fpagetotal">14</span> comments            </div>
+            <div style="clear: both;"></div>
+        </div>
+        			<div class="commentthread_pagination_ctn" style="float: right;">
+			<div class="forum_pagesize_options topic_replies">Per page: <span class="commentthread_pagination_link">15</span><a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 30 );">30</a> <a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 50 );">50</a> </div>		</div>
+		<br clear="both">
+			<div style="clear: right;"></div>
+</div>					
+					<div class="bottom_breadcrumbs">
+						<div class="forum_breadcrumbs group_content_bodytext breadcrumbs">
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/5072430">Ghost in the SQL Data</a> <span class="breadcrumb_separator">&gt;</span>
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/5072430/discussions/0/">General Discussions</a> <span class="breadcrumb_separator">&gt;</span>
+							<span class="breadcrumb_current_page">Topic Details</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="rightcol responsive_local_menu">
+					<div class="rightbox">
+						<div class="content">
+							<div class="topicstats"><span class="topicstats_label">Date Posted:</span> <span class="topicstats_value">Oct 18 @ 12:11am</span></div><div class="topicstats"><span class="topicstats_label">Posts:</span> <span class="topicstats_value">14</span></div>						</div>
+
+
+													
+													
+					</div>
+
+
+											<form class="" method="GET" name="DiscussionSearchForm" id="DiscussionSearchForm" action="https://steamcommunity.com/app/5072430/discussions/search/" >
+							<div class="discussionSearchTextContainer">
+																<input type="hidden" name="gidtopic" value="569300439979438766">
+								<input class="discussionSearchText searchText" type="text" name="q" value="" placeholder="Search this topic">
+								<img onclick="$('DiscussionSearchForm').submit()" class="discussionSearchTextSubmitImg" src="https://community.fastly.steamstatic.com/public/images/sharedfiles/searchbox_workshop_submit.gif" width="23" height="18" border="0">
+							</div>
+						</form>
+
+						<div class="rightbox rules">
+							<div class="content">
+								<div class="weblink"><a href="https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810" target="_blank" rel="" ><img src="https://community.fastly.steamstatic.com/public/images/skin_1/iconRules.png"> Discussions Rules and Guidelines</a></div>
+															</div>
+						</div>
+					
+					
+					
+
+											
+						
+												<div class=""></div>
+						<div class="">
+							<div class="rightSectionTopTitle">More discussions</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="2 replies">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 2									</div>
+								</div>
+								<div class="forum_topic_name" title="i was stuck on the metro_validation/navigo_card that i got the solution hint, i followed what i think to be exactly, the command runs but returns nothing">
+									<a href="https://steamcommunity.com/app/5072430/discussions/0/562546398187473202/">
+										need help with &quot;who is K?&quot; case									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="6 replies">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 6									</div>
+								</div>
+								<div class="forum_topic_name" title="i did everything up until the station with a kiosk with the suspect, put when i verify it fails, even when i copy the hint (which matched my original discovery)">
+									<a href="https://steamcommunity.com/app/5072430/discussions/0/569300204759663712/">
+										bug in a ticket with no name									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="No replies">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 0									</div>
+								</div>
+								<div class="forum_topic_name" title="Generally I am quite enjoying myself, but there are a few things that needs improving in my opinion:
+
+- We have only one input window for our current query. It would be nice to have several (we did at some point in the tutorial). That would make it easier to analyse one table while working on the other or to make seperate parts of one biq query and then &quot;glue&quot; them together afterwards. Pinning temporary stuff to the board is not really useful. When verifying - use the last generated result of those several">
+									<a href="https://steamcommunity.com/app/5072430/discussions/0/562546398187385169/">
+										Some suggestions									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="No replies">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 0									</div>
+								</div>
+								<div class="forum_topic_name" title="Guys, how to infer WHO is K">
+									<a href="https://steamcommunity.com/app/5072430/discussions/0/562546398187363423/">
+										WHO IS K									</a>
+								</div>
+							</div>
+													</div>
+						<div class=""></div>
+											
+
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+	</div>
+
+	</div>
+</div>
+
+<div id="forum_modal" class="modal_frame" style="display:none;">
+	<div class="modal_top_band">
+		<div class="modal_close"><a href="javascript:hideModal( 'forum_modal' )"><img src="https://community.fastly.steamstatic.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close" /></a></div>
+	</div>
+	<div class="modal_box">
+		<div class="modal_box_ctn">
+				</div>
+	</div>
+</div>
+
+	<div id="report_modal_content" style="display: none;">
+		<h2><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag.png"> Report this post</h2>
+		<div class="forum_newtopic_header">REASON</div>
+		<form id="forum_reportpost_form">
+			<input type="hidden" name="sessionid" value="78eeabac6886642545402e43">
+			<input type="hidden" name="author" value="">
+			<input type="hidden" name="gidcomment" value="">
+			<input type="hidden" name="gidtopic" value="">
+
+			<div class="gray_bevel">
+				<textarea rows="3" cols="40" class="forumtopic_reply_textarea" name="report_reason" id="forum_report_reason"></textarea>
+			</div>
+		</form>
+		<div class="forum_report_instructions">Note: This is ONLY to be used to report spam, advertising, and problematic (harassment, fighting, or rude) posts.</div>
+	</div>
+<div id="modalBG" style="display: none;"></div>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+				<script>
+			RecordAppImpression( 5072430, '2_9_100006_100202' );
+		</script>
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>

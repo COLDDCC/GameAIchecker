@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>So how does the AI stuff work, exactly? And how much content is in the game? :: Magi Scapes General Discussions</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://community.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=-yZgCk0Nu7kH&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/buttons.css?v=0Ihq-pAoptBq&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_global.css?v=s7S0UuIlaM4s&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/globalv2.css?v=VJJj6r-t5GM6&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/apphub.css?v=NffKBoKGro4H&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/modalContent.css?v=WXAusLHclDIt&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/apphub_home.css?v=N40XUxgnWrMY&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/forums.css?v=O7yPUbJwKVr8&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=jtzHDfvy1W_l&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/apphub_images.css?v=MycZFO0quD1j&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/header.css?v=fSkVqUFOfW78&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	var __PrototypePreserve=[];
+	__PrototypePreserve[0] = Array.from;
+	__PrototypePreserve[1] = Array.prototype.filter;
+	__PrototypePreserve[2] = Array.prototype.flatMap;
+	__PrototypePreserve[3] = Array.prototype.find;
+	__PrototypePreserve[4] = Array.prototype.some;
+	__PrototypePreserve[5] = Function.prototype.bind;
+	__PrototypePreserve[6] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/prototype-1.7.js?v=npJElBnrEO6W&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">
+	Array.from = __PrototypePreserve[0] || Array.from;
+	Array.prototype.filter = __PrototypePreserve[1] || Array.prototype.filter;
+	Array.prototype.flatMap = __PrototypePreserve[2] || Array.prototype.flatMap;
+	Array.prototype.find = __PrototypePreserve[3] || Array.prototype.find;
+	Array.prototype.some = __PrototypePreserve[4] || Array.prototype.some;
+	Function.prototype.bind = __PrototypePreserve[5] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __PrototypePreserve[6] || HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript">
+	var __ScriptaculousPreserve=[];
+	__ScriptaculousPreserve[0] = Array.from;
+	__ScriptaculousPreserve[1] = Function.prototype.bind;
+	__ScriptaculousPreserve[2] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/scriptaculous/_combined.js?v=pbdAKOcDIgbC&amp;l=english&amp;_cdn=fastly&amp;load=effects,controls,slider,dragdrop"></script>
+<script type="text/javascript">
+	Array.from = __ScriptaculousPreserve[0] || Array.from;
+	Function.prototype.bind = __ScriptaculousPreserve[1] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __ScriptaculousPreserve[2] || HTMLElement.prototype.scrollTo;
+delete String['__parseStyleElement'];  Prototype.Browser.WebKit = true;</script>
+<script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/community.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/global.js?v=gFpIMpzMJ37e&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=gQHVlrK4-jX-&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=lqbABc7pOZZC&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script><script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"https:\/\/community.fastly.steamstatic.com\/public\/javascript\/json2.js?v=54NKNglvGTO8&amp;l=english&amp;_cdn=fastly\"><\/script>\n" ); };
+</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				SetupTooltips( { tooltipCSSClass: 'community_tooltip'} );
+		});
+		</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/modalv2.js?v=zBXEuexVQ0FZ&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/modalContent.js?v=uqf5ttWTRe7l&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/apphub.js?v=vovOtA4iEOuy&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/forums.js?v=jBcMXSv2pMhZ&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="The concept sounds VERY cool and I'm interested, but I'm also cautious since its early access (many EA games fall over or get rushed out the door just to be done with it) and AI heavy (many AI games fall over or get rushed out the door because working with AI is expensive). So, you know, AI EA game sounds like double the risk yanno? So I wanna know if this game is &quot;future proofed&quot; if it gets abandoned or whatever. Firstly, I want to make sure I understand how the AI works.">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="So how does the AI stuff work, exactly? And how much content is in the game? :: Magi Scapes General Discussions">
+					<meta property="twitter:title" content="So how does the AI stuff work, exactly? And how much content is in the game? :: Magi Scapes General Discussions">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:description" content="The concept sounds VERY cool and I'm interested, but I'm also cautious since its early access (many EA games fall over or get rushed out the door just to be done with it) and AI heavy (many AI games fall over or get rushed out the door because working with AI is expensive). So, you know, AI EA game sounds like double the risk yanno? So I wanna know if this game is &quot;future proofed&quot; if it gets abandoned or whatever. Firstly, I want to make sure I understand how the AI works.">
+					<meta property="twitter:description" content="The concept sounds VERY cool and I'm interested, but I'm also cautious since its early access (many EA games fall over or get rushed out the door just to be done with it) and AI heavy (many AI games fall over or get rushed out the door because working with AI is expensive). So, you know, AI EA game sounds like double the risk yanno? So I wanna know if this game is &quot;future proofed&quot; if it gets abandoned or whatever. Firstly, I want to make sure I understand how the AI works.">
+			
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2990190/52ccd5ac82c2d68848f66bce4e12a53c8b38e883/header.jpg?t=1793239208">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2990190/52ccd5ac82c2d68848f66bce4e12a53c8b38e883/header.jpg?t=1793239208">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2990190/52ccd5ac82c2d68848f66bce4e12a53c8b38e883/header.jpg?t=1793239208" />
+				
+	
+	
+	
+	
+	</head>
+<body class="flat_page thread responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://steamcommunity.com/login/home/?goto=app%2F2990190%2Fdiscussions%2F0%2F562546398187387886%2F">
+									Sign in								</a>
+															<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/">
+															<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/" aria-label="Link to the Steam Homepage">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=app%2F2990190%2Fdiscussions%2F0%2F562546398187387886%2F">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<script type="text/javascript">
+	g_sessionID = "24fe92c0185319ce670b0d7d";
+	g_steamID = false;
+	g_strLanguage = "english";
+	g_SNR = '2_9_100006_100202';
+	g_bAllowAppImpressions = true;
+		g_ContentDescriptorPreferences = [1,3,4];
+
+	
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+					InitMiniprofileHovers(( 'https%3A%2F%2Fsteamcommunity.com' ));
+			InitEmoticonHovers();
+		
+		ApplyAdultContentPreferences();
+	});
+
+	$J( function() { InitEconomyHovers( "https:\/\/community.fastly.steamstatic.com\/public\/css\/skin_1\/economy.css?v=RsRFFW9vaq1B&l=english&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy_common.js?v=TSVmDS2fQKJu&l=english&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy.js?v=pY7JMvljOOPC&l=english&_cdn=fastly" );});</script>
+<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/steamcommunity.com\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1793756631,&quot;PAGE_TIMESTAMP&quot;:1793777505,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Community&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1793777505,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;2_9_100006_100202&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[1,3,4]}" data-community="[]" data-loyaltystore="{&quot;webapi_token&quot;:&quot;&quot;}" data-steam_notifications="null"></div><link href="https://community.fastly.steamstatic.com/public/css/applications/community/main.css?v=jx4wL9oVT36X&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11202421";</script>
+<script type="module" src="https://community.fastly.steamstatic.com/public/javascript/applications/community/main.js?contenthash=YyCh67xk"></script>
+<div  data-featuretarget="apphub-events"></div><div  data-featuretarget="community-awards"></div>	<div id="application_root"></div>
+
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<script type="text/javascript">
+	</script>
+<div class="pagecontent">
+		<div class="apphub_Content">
+		<div class="apphub_background apphub_background_gamepad_blur" style="background-image: url('https://store.fastly.steamstatic.com/images/storepagebackground/app/2990190?t=1793239208');"></div>
+		<div class="apphub_HomeHeader">
+			
+
+<div class="apphub_HomeHeaderContent">
+
+
+	<script lang="js">
+		const g_bIsAppHubModerator = 0;
+	</script>
+
+	
+	
+	<div class="apphub_HeaderTop">
+		<div class="apphub_OtherSiteInfo responsive_hidden">
+			
+							<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/2990190?snr=2_9_100006_100202_apphubheader" data-appid="2990190">
+					<span>Store Page</span>
+				</a>
+					</div>
+		<div class="apphub_AppDetails">
+			<div class="apphub_AppIcon"><img src="https://shared.fastly.steamstatic.com/community_assets/images/apps/2990190/85b8e2b3cc585669b528dfdb2fabf5c0b60d67f8.jpg"><div class="overlay"></div></div>
+			<div class="apphub_AppName ellipsis">Magi Scapes</div>
+		</div>
+		<div style="clear: both"></div>
+
+		
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" class="apphub_sectionTabs responsive_hidden">
+				
+	<a href="https://steamcommunity.com/app/2990190" class="apphub_sectionTab  "><span>All</span></a>
+		
+	<a href="https://steamcommunity.com/app/2990190/discussions/" class="apphub_sectionTab active "><span>Discussions</span></a>
+		
+	<a href="https://steamcommunity.com/app/2990190/screenshots/" class="apphub_sectionTab  "><span>Screenshots</span></a>
+		
+	<a href="https://steamcommunity.com/app/2990190/images/" class="apphub_sectionTab  "><span>Artwork</span></a>
+		
+	<a href="https://steamcommunity.com/app/2990190/broadcasts/" class="apphub_sectionTab  "><span>Broadcasts</span></a>
+		
+	<a href="https://steamcommunity.com/app/2990190/videos/" class="apphub_sectionTab  "><span>Videos</span></a>
+		
+	<a href="https://steamcommunity.com/app/2990190/allnews/" class="apphub_sectionTab  "><span>News</span></a>
+		
+	<a href="https://steamcommunity.com/app/2990190/guides/" class="apphub_sectionTab  "><span>Guides</span></a>
+		
+	<a href="https://steamcommunity.com/app/2990190/reviews/" class="apphub_sectionTab  "><span>Reviews</span></a>
+			</div>
+
+		<div class="nonresponsive_hidden responsive_tab_ctn sharedfiles_responsive_tab">
+			<div class="responsive_tab_control">
+				<div class="responsive_tab_control_inner">
+										<select class="responsive_tab_select" id="responsive_tab_select6aeadf6148837">
+													<option value="https://steamcommunity.com/app/2990190" >
+								All							</option>
+													<option value="https://steamcommunity.com/app/2990190/discussions/" selected>
+								Discussions							</option>
+													<option value="https://steamcommunity.com/app/2990190/screenshots/" >
+								Screenshots							</option>
+													<option value="https://steamcommunity.com/app/2990190/images/" >
+								Artwork							</option>
+													<option value="https://steamcommunity.com/app/2990190/broadcasts/" >
+								Broadcasts							</option>
+													<option value="https://steamcommunity.com/app/2990190/videos/" >
+								Videos							</option>
+													<option value="https://steamcommunity.com/app/2990190/allnews/" >
+								News							</option>
+													<option value="https://steamcommunity.com/app/2990190/guides/" >
+								Guides							</option>
+													<option value="https://steamcommunity.com/app/2990190/reviews/" >
+								Reviews							</option>
+											</select>
+				</div>
+			</div>
+			<div class="responsive_tab_baseline"></div>
+		</div>
+	</div>
+	<div class="apphub_sectionTabsHR responsive_hidden"></div>
+
+
+	<!-- these elements are used to populate the local menu on responsive pages -->
+	<div style="display: none;">
+		<div class="responsive_local_menu apphub_responsive_menu">
+			<h3 class="ellipsis apphub_responsive_menu_title">Magi Scapes</h3>
+			<div class="apphub_ResponsiveMenuCtn">
+									<a style="position: relative; z-index: 1;" class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/app/2990190">
+						<span>Store Page</span>
+					</a>
+											</div>
+													<div class="localmenu_subarea">
+					<div class="subheader">
+						View Stats:
+					</div>
+											<div class="apphub_ResponsiveMenuItem" >
+							<a href="https://steamcommunity.com/achievements/2990190">Global Achievements</a>
+						</div>
+									</div>
+					</div>
+	</div>
+	<!-- end responsive menu -->
+
+	
+</div>
+
+	<div class="apphub_HeaderBottomBG_ctn">
+		<div class="apphub_HeaderBottomBG_blur"></div><div class="apphub_HeaderBottomBG"></div>
+	</div>
+			<div style="clear: both"></div>
+		</div>
+	</div>
+	
+	<div id="AppHubContent" class="apphub_Discussion_Content" data-miniprofile-appid="2990190">
+		<div class="maincontent">
+				<div class="leftcol">
+					<div>
+						<div class="forum_breadcrumbs group_content_bodytext breadcrumbs">
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/2990190">Magi Scapes</a> <span class="breadcrumb_separator">&gt;</span>
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/2990190/discussions/0/">General Discussions</a> <span class="breadcrumb_separator">&gt;</span>
+							<span class="breadcrumb_current_page">Topic Details</span>
+						</div>
+					</div>
+										<div  data-featuretarget="content-moderation-report-dialog"></div>
+
+
+	<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="forum_op " id="forum_op_562546398187387886">
+						<div class="forum_op_header commentthread_comment_author" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" id="forum_op_header_562546398187387886">
+
+							<div class="forum_op_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/id/kyubox">
+						<img src="https://avatars.fastly.steamstatic.com/c9e9810ae8ba04e5a14a9623c960a7d51acb4892.jpg" data-miniprofile="38719117">
+					</a>
+				</div>
+			
+			<div class="authorline author_name_group">
+				<div class="flex_row">
+													<a class="hoverunderline forum_op_author " href="https://steamcommunity.com/id/kyubox" onclick="return Forum_AuthorMenu( this, 38719117, -1 );"  data-miniprofile="38719117">
+						Kyubox<span class="forum_author_action_pulldown"></span></a>
+							<div id="author_menu_38719117_-1" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/kyubox">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/kyubox/posthistory/">View Posts</a>
+															</div>
+		</div>
+																					<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_forum_topic_562546398187387886"></div>				</div>
+
+
+				<div class="date commentthread_comment_timestamp" title="November 1, 2026 @ 7:02:00 pm PST" data-timestamp="1793588520">
+					Nov 1 @ 7:02pm				</div>
+
+			</div>
+							<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546398187387886">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546398187387886">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791474736036', '4847652375936776257', '562546398187387886', '38719117', '-1' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+						
+		</div>
+
+		<div class="topic" id="forum_op_topic_562546398187387886">
+		So how does the AI stuff work, exactly? And how much content is in the game?	</div>
+	<div class="content" id="forum_op_content_562546398187387886">
+		The concept sounds VERY cool and I'm interested, but I'm also cautious since its early access (many EA games fall over or get rushed out the door just to be done with it) and AI heavy (many AI games fall over or get rushed out the door because working with AI is expensive).<br><br>So, you know, AI EA game sounds like double the risk yanno? So I wanna know if this game is &quot;future proofed&quot; if it gets abandoned or whatever.<br><br>Firstly, I want to make sure I understand how the AI works. I get that you get a starting amount of crystals and its enough to make 3 or 4 characters, and you can have 10 AI generated responses per in-game day? If you want more, go buy more crystals? Or are you expected to buy that starting pack DLC for that?<br><br>I believe that once a character is made, they can operate as a normal NPC without AI involvement? So if the AI part falls over, at least you still have the game? You only need AI and crystals for the initial generation of a character and if you want live responses? I see the store page mentions AI generated backstories, quests and items though but does that come out of your pocket? Like, if an NPC decides to bombard you with 5 fetch quests at once is that your fault?<br><br>Also, the fact that items are AI generated makes me wonder if there's ways to abuse the process. Like you make a character who is very rich and generous and gives away powerful items, and then you bug them to give you powerful items.<br><br>Anyway, my main concern is about how much it costs to run the AI parts of the game and what happens if the AI part fails/shuts down/gets abandoned. Like, what actually happens? What still functions and what breaks?<br><br>Secondly, how much content is in the game right now? Like, if I bought it and the game never updated again would I feel like I got my money's worth? EA games man, you never know, yanno?<br><br>Thanks and cheers.	</div>
+		
+	<div class="forum_op_footer">
+		<div></div>
+			</div>
+</div>
+<div data-featuretarget="community-awards"></div>
+<script type="text/javascript">
+	$J( function() {
+		InitializeForumTopic( {"owner":"45214628","type":"General","feature":"0","gidforum":"4847652375936776257","forum_display_name":"General Discussions","forum_url":"https:\/\/steamcommunity.com\/app\/2990190\/discussions\/0\/","forum_search_url":"https:\/\/steamcommunity.com\/app\/2990190\/discussions\/search\/","is_public":1,"permissions":{"can_view":1,"can_post":1,"can_reply":1,"is_banned":0,"can_delete":0,"can_edit":0},"appid":2990190}, "https:\/\/steamcommunity.com\/forum\/45214628\/General\/",
+		"562546398187387886", {"author":"Kyubox","text":"The concept sounds VERY cool and I'm interested, but I'm also cautious since its early access (many EA games fall over or get rushed out the door just to be done with it) and AI heavy (many AI games fall over or get rushed out the door because working with AI is expensive).\n\nSo, you know, AI EA game sounds like double the risk yanno? So I wanna know if this game is \"future proofed\" if it gets abandoned or whatever.\n\nFirstly, I want to make sure I understand how the AI works. I get that you get a starting amount of crystals and its enough to make 3 or 4 characters, and you can have 10 AI generated responses per in-game day? If you want more, go buy more crystals? Or are you expected to buy that starting pack DLC for that?\n\nI believe that once a character is made, they can operate as a normal NPC without AI involvement? So if the AI part falls over, at least you still have the game? You only need AI and crystals for the initial generation of a character and if you want live responses? I see the store page mentions AI generated backstories, quests and items though but does that come out of your pocket? Like, if an NPC decides to bombard you with 5 fetch quests at once is that your fault?\n\nAlso, the fact that items are AI generated makes me wonder if there's ways to abuse the process. Like you make a character who is very rich and generous and gives away powerful items, and then you bug them to give you powerful items.\n\nAnyway, my main concern is about how much it costs to run the AI parts of the game and what happens if the AI part fails\/shuts down\/gets abandoned. Like, what actually happens? What still functions and what breaks?\n\nSecondly, how much content is in the game right now? Like, if I bought it and the game never updated again would I feel like I got my money's worth? EA games man, you never know, yanno?\n\nThanks and cheers."}		);
+			} );
+</script>
+										<script type="text/javascript">
+$J( function() { InitializeCommentThread( "ForumTopic", "ForumTopic_103582791474736036_4847652375936776257_562546398187387886", {"feature":"4847652375936776257","feature2":"562546398187387886","owner":"103582791474736036","commentthreadid":"662414465","total_count":4,"start":0,"pagesize":15,"has_upvoted":0,"upvotes":0,"votecountid":null,"voteupid":null,"commentcountid":null,"subscribed":false,"extended_data":"{\"topic_permissions\":{\"can_view\":1,\"can_post\":1,\"can_reply\":1,\"is_banned\":0,\"can_delete\":0,\"can_edit\":0},\"original_poster\":38719117,\"topic_gidanswer\":\"0\",\"forum_appid\":2990190,\"forum_public\":1,\"forum_type\":\"General\",\"forum_gidfeature\":\"0\"}","oldestfirst":true,"comments_raw":{"562546398187390253":{"text":"Oh yeah, now that I think about it, how is content moderation with AI? Like, am I gonna get hit with \"as an AI model i cannot-\" type stuff if i ask for something that's too bloody, gory or sexy?","author":"Kyubox"},"562546398187460384":{"text":"Just so you aren't left hanging, I'll try tossing my two cents in here: Any video game that incorporates live AI services is going to disappear someday. Everything about AI is a giant money sinkhole, and the general business model is to nickel and dime users with premium currency purchases.\nYou know what you are comfortable spending, and I don't really care to tell you what you should or shouldn't do with your money. But to answer your question about future proofing, I don't think that's something that any AI-centric developer would want to entertain overly much. The developer is constantly burning money for as long as the game remains up, so from a business perspective, this game needs to make a lot of cash as fast as possible and they can't have people opt out of paying for anything if they can help it.\n\nThe developer is playing chicken with the consumer, watching their bank account rise and fall month by month, trying to determine when the best moment to pull out and secure their winnings will be. If people are using the AI without finding any excuse to throw money at the developer for more premium currency, then it actually ends up losing them money just to leave it up. In the best case scenario, enough whales get hooked that they keep feeding the developer fistfuls of cash month after month, paying enough for all the freemium users to coast by, cushioning whatever financial blow they're producing for the dev.\n\nAI microtransactions aren't all that different from loot boxes, you roll the dice, maybe you get something that gives you a small dopamine spike if you get a good roll, and then you go back to grinding. Instead of gun skins or digital cards, you get a paragraph of text that miiiiight make sense and miiiight be pleasant to read, and will probably look very similar to the other eight paragraphs of text you've been given up that point since AI has a habit of homogenizing everything.\nI guess what I'm saying is that what you're paying for here is even more ephemeral than what you get out of a gacha or loot box, so concerns about \"future proofing\" might be missing the forest through the trees.\n\nIf it's the gameplay you're after, I personally feel like you'd probably get more out of games like Elin or Creator of Another World, because I'm fairly confident in saying that you won't find satisfaction in what the AI chat bot replies to you with and if you strip the game of that gimmick, it looks like a lesser version of already existing games. (And again, that gimmick of live AI interactions is predicated on constant premium currency purchases to keep the developer from pulling out with whatever earnings they've secured before the AI services drain their wallet dry, so it's best to evaluate the game itself rather than the temporary gimmick it's trying to sell folks on.)","author":"Whispierre"},"562546398187461098":{"text":"The developer of the game has released a beta function to allow people to use their own models. Image generation still uses the official model but the devs are looking into allowing people to use their own models for that as well.","author":"Kiryuu Sonya"},"562546398187465262":{"text":"[quote=Whispierre;562546398187460384]\n\nIf it's the gameplay you're after, I personally feel like you'd probably get more out of games like Elin or Creator of Another World [\/quote]\n\nOh. I thought this was a farming based game like stardew valley based on all the farming screenshots. I hate games like Elin, Elona and Dwarf Fortress. If this game is like that, I don't care anymore.","author":"Kyubox"}},"track_navigation":true}, 'https://steamcommunity.com/comment/ForumTopic/', 40 ); } );
+</script>
+<div class="commentthread_area forumtopic_comments" id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_area">
+	        <div id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_pagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_pagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_pagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_pagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_pagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_pagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Showing <span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_pagestart">1</span>-<span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_pageend">4</span> of <span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_pagetotal">4</span> comments            </div>
+            <div style="clear: both;"></div>
+        </div>
+        	<div class="commentthread_comment_container" id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_postcontainer">
+		<div data-panel="{&quot;noFocusRing&quot;:true}" class="commentthread_comments" id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_posts">
+					
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546398187390253" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/id/kyubox" data-miniprofile="38719117">
+													<img src="https://avatars.fastly.steamstatic.com/c9e9810ae8ba04e5a14a9623c960a7d51acb4892.jpg" srcset="https://avatars.fastly.steamstatic.com/c9e9810ae8ba04e5a14a9623c960a7d51acb4892.jpg 1x, https://avatars.fastly.steamstatic.com/c9e9810ae8ba04e5a14a9623c960a7d51acb4892_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/kyubox" onclick="return Forum_AuthorMenu( this, 38719117, '562546398187390253' );" data-miniprofile="38719117">
+							<bdi>Kyubox<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_38719117_562546398187390253" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/kyubox">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/kyubox/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546398187390253"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="November 1, 2026 @ 7:57:19 pm PST" data-timestamp="1793591839">
+						Nov 1 @ 7:57pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546398187390253">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546398187390253">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791474736036', '4847652375936776257', '562546398187387886', '38719117', '562546398187390253' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546398187390253">
+				Oh yeah, now that I think about it, how is content moderation with AI? Like, am I gonna get hit with &quot;as an AI model i cannot-&quot; type stuff if i ask for something that's too bloody, gory or sexy?			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546398187390253">#1</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546398187460384" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+												<div class="profile_avatar_frame">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1263950/a6e73033e3d9c1848d7effd5946242832b404e45.png"></source>
+						<source srcset="https://shared.fastly.steamstatic.com/community_assets/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png"></source>
+						<img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png">
+					</picture>
+				</div>
+										<a href="https://steamcommunity.com/id/swiggadoradante" data-miniprofile="36212821">
+													<img src="https://avatars.fastly.steamstatic.com/5b87180b4297d715298fb637fe50072300eb3bc9.jpg" srcset="https://avatars.fastly.steamstatic.com/5b87180b4297d715298fb637fe50072300eb3bc9.jpg 1x, https://avatars.fastly.steamstatic.com/5b87180b4297d715298fb637fe50072300eb3bc9_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/swiggadoradante" onclick="return Forum_AuthorMenu( this, 36212821, '562546398187460384' );" data-miniprofile="36212821">
+							<bdi>Whispierre<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_36212821_562546398187460384" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/swiggadoradante">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/swiggadoradante/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546398187460384"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="November 2, 2026 @ 2:29:29 pm PST" data-timestamp="1793658569">
+						Nov 2 @ 2:29pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546398187460384">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546398187460384">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791474736036', '4847652375936776257', '562546398187387886', '36212821', '562546398187460384' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546398187460384">
+				Just so you aren't left hanging, I'll try tossing my two cents in here: Any video game that incorporates live AI services is going to disappear someday. Everything about AI is a giant money sinkhole, and the general business model is to nickel and dime users with premium currency purchases.<br>You know what you are comfortable spending, and I don't really care to tell you what you should or shouldn't do with your money. But to answer your question about future proofing, I don't think that's something that any AI-centric developer would want to entertain overly much. The developer is constantly burning money for as long as the game remains up, so from a business perspective, this game needs to make a lot of cash as fast as possible and they can't have people opt out of paying for anything if they can help it.<br><br>The developer is playing chicken with the consumer, watching their bank account rise and fall month by month, trying to determine when the best moment to pull out and secure their winnings will be. If people are using the AI without finding any excuse to throw money at the developer for more premium currency, then it actually ends up losing them money just to leave it up. In the best case scenario, enough whales get hooked that they keep feeding the developer fistfuls of cash month after month, paying enough for all the freemium users to coast by, cushioning whatever financial blow they're producing for the dev.<br><br>AI microtransactions aren't all that different from loot boxes, you roll the dice, maybe you get something that gives you a small dopamine spike if you get a good roll, and then you go back to grinding. Instead of gun skins or digital cards, you get a paragraph of text that miiiiight make sense and miiiight be pleasant to read, and will probably look very similar to the other eight paragraphs of text you've been given up that point since AI has a habit of homogenizing everything.<br>I guess what I'm saying is that what you're paying for here is even more ephemeral than what you get out of a gacha or loot box, so concerns about &quot;future proofing&quot; might be missing the forest through the trees.<br><br>If it's the gameplay you're after, I personally feel like you'd probably get more out of games like Elin or Creator of Another World, because I'm fairly confident in saying that you won't find satisfaction in what the AI chat bot replies to you with and if you strip the game of that gimmick, it looks like a lesser version of already existing games. (And again, that gimmick of live AI interactions is predicated on constant premium currency purchases to keep the developer from pulling out with whatever earnings they've secured before the AI services drain their wallet dry, so it's best to evaluate the game itself rather than the temporary gimmick it's trying to sell folks on.)			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546398187460384">#2</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546398187461098" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar online">
+															<a href="https://steamcommunity.com/id/starsoflight" data-miniprofile="83883282">
+													<img src="https://avatars.fastly.steamstatic.com/ae32ecc20eedcda4b8c6719b40f8f72e7b48678b.jpg" srcset="https://avatars.fastly.steamstatic.com/ae32ecc20eedcda4b8c6719b40f8f72e7b48678b.jpg 1x, https://avatars.fastly.steamstatic.com/ae32ecc20eedcda4b8c6719b40f8f72e7b48678b_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/starsoflight" onclick="return Forum_AuthorMenu( this, 83883282, '562546398187461098' );" data-miniprofile="83883282">
+							<bdi>Kiryuu Sonya<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_83883282_562546398187461098" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/starsoflight">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/starsoflight/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+						<img src="https://community.fastly.steamstatic.com/public/images/skin_1/icon_InLibrary.png" style="" class="inlibrary" title="has Magi Scapes">																		
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546398187461098"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="November 2, 2026 @ 2:40:47 pm PST" data-timestamp="1793659247">
+						Nov 2 @ 2:40pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546398187461098">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546398187461098">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791474736036', '4847652375936776257', '562546398187387886', '83883282', '562546398187461098' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546398187461098">
+				The developer of the game has released a beta function to allow people to use their own models. Image generation still uses the official model but the devs are looking into allowing people to use their own models for that as well.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546398187461098">#3</a>
+											</div>
+							</div>
+		</div>
+	</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_562546398187465262" style="">
+
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+								<div class="commentthread_comment_avatar playerAvatar offline">
+															<a href="https://steamcommunity.com/id/kyubox" data-miniprofile="38719117">
+													<img src="https://avatars.fastly.steamstatic.com/c9e9810ae8ba04e5a14a9623c960a7d51acb4892.jpg" srcset="https://avatars.fastly.steamstatic.com/c9e9810ae8ba04e5a14a9623c960a7d51acb4892.jpg 1x, https://avatars.fastly.steamstatic.com/c9e9810ae8ba04e5a14a9623c960a7d51acb4892_medium.jpg 2x">											</a>
+				</div>
+				<div class="author_name_group">
+					<div class="flex_row">
+						<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/kyubox" onclick="return Forum_AuthorMenu( this, 38719117, '562546398187465262' );" data-miniprofile="38719117">
+							<bdi>Kyubox<span class="forum_author_action_pulldown"></span></bdi></a>
+
+															<div id="author_menu_38719117_562546398187465262" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/kyubox">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/kyubox/posthistory/">View Posts</a>
+															</div>
+		</div>
+								
+																								
+						<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_562546398187465262"></div>
+					</div>
+					<div class="commentthread_comment_timestamp">
+											</div>
+					<div class="commentthread_comment_timestamp" title="November 2, 2026 @ 3:43:58 pm PST" data-timestamp="1793663038">
+						Nov 2 @ 3:43pm&nbsp;
+					</div>
+				</div>
+
+				
+				<div class="commentthread_comment_actions" >
+														<a class="forum_comment_action forum_comment_action_trigger" data-tooltip-type="selector" data-tooltip-content="#forum_comment_actions_menu_562546398187465262">
+					<span><i class="ico16 arrow_down"></i></span>
+				</a>
+			
+			<div class="forum_comment_action_menu" style="display: none;" id="forum_comment_actions_menu_562546398187465262">				<a class="forum_comment_action report tooltip" href="javascript:Forum_ShowReportDialog( '103582791474736036', '4847652375936776257', '562546398187387886', '38719117', '562546398187465262' );" data-tooltip-text="Report this post for inappropriate content.  Reported post are flagged for review by moderators.">
+				<span class="non_breaking_space">&nbsp;</span><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag_dark.png?v=1">Report this post</a>
+			</div>
+							</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_562546398187465262">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c562546398187460384">Whispierre</a></b>:</div><br>If it's the gameplay you're after, I personally feel like you'd probably get more out of games like Elin or Creator of Another World </blockquote><br>Oh. I thought this was a farming based game like stardew valley based on all the farming screenshots. I hate games like Elin, Elona and Dwarf Fortress. If this game is like that, I don't care anymore.			</div>
+			<div class="comment_footer_ctn">
+									<div></div>
+				
+				
+									<div class="forum_comment_permlink">
+						<span class="forum_comment_moderate">
+													</span>
+												<a data-panel="{&quot;focusable&quot;:false}" href="#c562546398187465262">#4</a>
+											</div>
+							</div>
+		</div>
+	</div>
+
+		</div>
+	</div>
+	        <div id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_fpagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_fpagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_fpagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_fpagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_fpagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_fpagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Showing <span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_fpagestart">1</span>-<span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_fpageend">4</span> of <span id="commentthread_ForumTopic_103582791474736036_4847652375936776257_562546398187387886_fpagetotal">4</span> comments            </div>
+            <div style="clear: both;"></div>
+        </div>
+        			<div class="commentthread_pagination_ctn" style="float: right;">
+			<div class="forum_pagesize_options topic_replies">Per page: <span class="commentthread_pagination_link">15</span><a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 30 );">30</a> <a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 50 );">50</a> </div>		</div>
+		<br clear="both">
+			<div style="clear: right;"></div>
+</div>					
+					<div class="bottom_breadcrumbs">
+						<div class="forum_breadcrumbs group_content_bodytext breadcrumbs">
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/2990190">Magi Scapes</a> <span class="breadcrumb_separator">&gt;</span>
+							<a data-panel="{&quot;noFocusRing&quot;:true}" href="https://steamcommunity.com/app/2990190/discussions/0/">General Discussions</a> <span class="breadcrumb_separator">&gt;</span>
+							<span class="breadcrumb_current_page">Topic Details</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="rightcol responsive_local_menu">
+					<div class="rightbox">
+						<div class="content">
+							<div class="topicstats"><span class="topicstats_label">Date Posted:</span> <span class="topicstats_value">Nov 1 @ 7:02pm</span></div><div class="topicstats"><span class="topicstats_label">Posts:</span> <span class="topicstats_value">4</span></div>						</div>
+
+
+													
+													
+					</div>
+
+
+											<form class="" method="GET" name="DiscussionSearchForm" id="DiscussionSearchForm" action="https://steamcommunity.com/app/2990190/discussions/search/" >
+							<div class="discussionSearchTextContainer">
+																<input type="hidden" name="gidtopic" value="562546398187387886">
+								<input class="discussionSearchText searchText" type="text" name="q" value="" placeholder="Search this topic">
+								<img onclick="$('DiscussionSearchForm').submit()" class="discussionSearchTextSubmitImg" src="https://community.fastly.steamstatic.com/public/images/sharedfiles/searchbox_workshop_submit.gif" width="23" height="18" border="0">
+							</div>
+						</form>
+
+						<div class="rightbox rules">
+							<div class="content">
+								<div class="weblink"><a href="https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810" target="_blank" rel="" ><img src="https://community.fastly.steamstatic.com/public/images/skin_1/iconRules.png"> Discussions Rules and Guidelines</a></div>
+															</div>
+						</div>
+					
+					
+					
+
+											
+						
+												<div class=""></div>
+						<div class="">
+							<div class="rightSectionTopTitle">More discussions</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="1 reply">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 1									</div>
+								</div>
+								<div class="forum_topic_name" title="想问下，dlc的皮肤在哪里更换呀">
+									<a href="https://steamcommunity.com/app/2990190/discussions/0/562546671964128354/">
+										想问下，dlc的皮肤在哪里更换呀									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="1 reply">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 1									</div>
+								</div>
+								<div class="forum_topic_name" title="话说回来为什么剧情刚开始的那个角色伙伴，我用了自己上传的图片，但是并没有变成图片里面的人物形象啊">
+									<a href="https://steamcommunity.com/app/2990190/discussions/0/562546398187394604/">
+										角色形象									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="1 reply">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 1									</div>
+								</div>
+								<div class="forum_topic_name" title="i have no idea if im doing somthing wrong here am i limited to just five ai followers aint no big is i am but im goin nuts trying to figure it out google say need to delete some to make more and i didnt want to do so if im just dumb and cant figure it out on the last princess stone thing now any info woud be a big thanks">
+									<a href="https://steamcommunity.com/app/2990190/discussions/0/562546398187400747/">
+										hard cap on ai followers?									</a>
+								</div>
+							</div>
+														<div data-panel="{&quot;clickOnActivate&quot;:&quot;firstChild&quot;}" role="button" class="forum_topic forum_topic_mini  unread">
+								<div class="forum_topic_details">
+									<div class="forum_topic_reply_count" title="14 replies">
+										<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 14									</div>
+								</div>
+								<div class="forum_topic_name" title="So like i just started the game a bit and they made the tutorial 800 crystals when it used to be free...i dont mind paying for crystals after the tutorial companion BUT for a tutorial it needs to stay free at least for our first companion, like the game just came out and you guys switched it today...kinda annoyed about that please change it back">
+									<a href="https://steamcommunity.com/app/2990190/discussions/0/562546073917513570/">
+										Kinda annoyedish anyone else?									</a>
+								</div>
+							</div>
+													</div>
+						<div class=""></div>
+											
+
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+	</div>
+
+	</div>
+</div>
+
+<div id="forum_modal" class="modal_frame" style="display:none;">
+	<div class="modal_top_band">
+		<div class="modal_close"><a href="javascript:hideModal( 'forum_modal' )"><img src="https://community.fastly.steamstatic.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close" /></a></div>
+	</div>
+	<div class="modal_box">
+		<div class="modal_box_ctn">
+				</div>
+	</div>
+</div>
+
+	<div id="report_modal_content" style="display: none;">
+		<h2><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag.png"> Report this post</h2>
+		<div class="forum_newtopic_header">REASON</div>
+		<form id="forum_reportpost_form">
+			<input type="hidden" name="sessionid" value="24fe92c0185319ce670b0d7d">
+			<input type="hidden" name="author" value="">
+			<input type="hidden" name="gidcomment" value="">
+			<input type="hidden" name="gidtopic" value="">
+
+			<div class="gray_bevel">
+				<textarea rows="3" cols="40" class="forumtopic_reply_textarea" name="report_reason" id="forum_report_reason"></textarea>
+			</div>
+		</form>
+		<div class="forum_report_instructions">Note: This is ONLY to be used to report spam, advertising, and problematic (harassment, fighting, or rude) posts.</div>
+	</div>
+<div id="modalBG" style="display: none;"></div>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+				<script>
+			RecordAppImpression( 2990190, '2_9_100006_100202' );
+		</script>
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
