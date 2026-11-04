@@ -1,0 +1,81 @@
+{
+  "appId": "5186690",
+  "name": "Game Keeper: Somebody Messed Up My Shop!",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "单店整理类休闲游戏，2026 年 10 月 2 日上市，VeinStudios 开发并发行。开发者在商店 AI 披露里把 AI 定位为“仅作辅助工具”，并点名四类用途：选定贴图、声音、本地化与少量代码，同时说明因预算有限才用它产出某些视觉素材与游戏元素，并声明游戏的概念、美术方向与设计完全由人完成。八个领域按这四类点名登记，游玩时生成、配音、文本写作与营销本次披露未说明。",
+  "aiUsageCategories": [
+    "art",
+    "music",
+    "translation",
+    "code"
+  ],
+  "aiAreas": {
+    "art": "used",
+    "music": "used",
+    "translation": "used",
+    "code": "used",
+    "ingame": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "披露把 AI 限定为“辅助工具”，点名用于“selected textures”（选定贴图），并在下一句说明因为预算有限，它帮忙做出了某些视觉素材与游戏元素。同一披露还声明游戏的概念、美术方向与设计完全由人完成；这句不构成本领域未使用的证据，因为开发者自己把贴图划进了 AI 辅助的范围。",
+    "music": "披露点名的第二类是“sounds”（声音），与贴图、本地化、代码并列在同一个“仅作辅助工具”的句式里；没有说明是哪一批音效、是否包含语音，因此本领域按这段登记为已使用，语音领域单独按未说明处理。",
+    "translation": "披露点名的第三类是“localization”（本地化），即游戏内文本的本地化环节被纳入 AI 辅助范围；没有说明覆盖哪些语种、是否有人工复核，商店页未逐项说明。",
+    "code": "披露点名的第四类是“small portions of code”（少量代码），开发者自己限定了规模为“小部分”，但没有说明是哪一部分。",
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；披露提到的“sounds”是否包含配音，商店页没有区分，不能据此认定任一方向。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "translation": "official",
+    "code": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5186690/",
+  "developer": "VeinStudios",
+  "publisher": "VeinStudios",
+  "steamReleaseDate": "Oct 2, 2026",
+  "genres": [
+    "Casual"
+  ],
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5186690/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-04",
+      "excerpt": "AI was used only as a supporting tool in the creation of selected textures, sounds, localization and small portions of code. Due to our limited budget, it helped us create certain visual assets and game elements that would otherwise have been difficult to produce with the resources available to us. We deeply respect the work of real artists. The game’s concept, art direction, and design were created entirely by humans."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5186690/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-04",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 41）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为 VeinStudios）与英文讨论区首页（可见 15 个主题，总数 41），首页没有任何命中 AI／生成／美术等关键词的主题，因此没有可读取的相关帖；首页扫描仅代表第一页，不代表完整历史或其它语言分区。本款单独检索公开报道 1 次、登记 6 条结果，逐条处置后没有需要读取的第三方来源：其余结果为本作商店页、评测与 SteamDB 图表页、一个钥匙转售条目页、一个比价博客页，以及一个 Reddit 推荐向帖子（本机直连与代理两条通道均无法完成 TLS 握手，未能读取全文）。这些页面都不含独立于商店披露的 AI 信息，检索结果为空只说明本次检索范围，不能据此证明没有 AI。八个领域全部按商店披露原文点名登记，结论基于开发者自述，未经独立审计。",
+  "disclosureQuote": "AI was used only as a supporting tool in the creation of selected textures, sounds, localization and small portions of code. Due to our limited budget, it helped us create certain visual assets and game elements that would otherwise have been difficult to produce with the resources available to us. We deeply respect the work of real artists. The game’s concept, art direction, and design were created entirely by humans.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-04 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A single-player store organising game released on Oct 2, 2026, developed and published by VeinStudios. The store disclosure frames AI as a supporting tool only and names four uses, selected textures, sounds, localization and small portions of code, adding that limited budget is why it helped produce certain visual assets and game elements, and stating that the concept, art direction and design were created entirely by humans. Those four named uses are recorded as used; run-time generation, voice, writing and marketing are recorded as not addressed.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher both VeinStudios) and the English discussion homepage (15 visible topics of 41), where no topic matches the AI keyword set, so there was no related thread to open; the homepage scan covers only that page and not the full history or other language boards. This title was searched 1 time with 6 results and, after each result was dispositioned by hand, no third-party source needed to be read: the rest were the store page, review and SteamDB chart pages for this game, a key reseller entry page, a price-comparison blog page and one Reddit recommendation post that could not be reached because neither the direct route nor the local proxy completed a TLS handshake. None of those pages carries AI information independent of the store disclosure, and an empty press result only describes this search scope; it is not evidence that no AI was used. All eight areas follow the store disclosure wording and rest on the developer own statement, without an independent audit.",
+    "aiAreaNotes": {
+      "art": "The disclosure names selected textures as one of the four supporting-tool uses and adds that limited budget is why AI helped create certain visual assets and game elements. A separate sentence says the concept, art direction and design were created entirely by humans; that sentence does not turn this area into non-use, because the developer themselves put textures inside the AI-assisted scope.",
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "The fourth named use is small portions of code, a scale the developer limits themselves, without saying which parts.",
+      "music": "The second named use is sounds, listed alongside textures, localization and code under the same supporting-tool wording. The disclosure does not say which assets or whether speech is included, so the count is recorded here and voice is handled separately.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure word sounds does not distinguish sound effects from voice acting, so neither direction can be inferred.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The third named use is localization, which puts the in-game text localisation step inside the AI-assisted scope; the disclosure does not say which languages or whether the output was human-reviewed.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "9a3a86eb336c97f4fac749bcfd6ad6504d9beade0f34b3e2a1e3c0e06f47948b"
+  }
+}

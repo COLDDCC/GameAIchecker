@@ -1,0 +1,80 @@
+{
+  "appId": "4267800",
+  "name": "Bandit Simulator TD",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "塔防加据点建设的中文开发者作品，2026 年 10 月 11 日上市，游戏养家工作室开发并发行。商店披露分三句：部分美术素材在 AI 辅助下创作，这些素材全部经过人工审阅与打磨；除此之外，所有设计与程序代码都在没有 AI 辅助的情况下完成。八个领域登记美术为已使用、代码为开发者自述未使用，游玩时生成、音乐、配音、文本、翻译与营销本次披露未说明。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "art": "used",
+    "code": "claimed_none",
+    "ingame": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "art": "披露第一句写明“游戏中部分美术素材在 AI 辅助下创作”，第二句补充这些素材全部经过人工审阅与打磨。本领域登记为已使用，“部分”的规模与哪些素材未经重做，商店页没有逐项说明。",
+    "code": "披露第三句称除此之外所有设计与程序代码都是在没有 AI 辅助的情况下完成的；这是对代码领域的“未使用”自述，未经独立审计。",
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "code": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4267800/",
+  "developer": "游戏养家工作室",
+  "publisher": "游戏养家工作室",
+  "steamReleaseDate": "Oct 11, 2026",
+  "genres": [
+    "Casual",
+    "Indie",
+    "RPG",
+    "Simulation",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4267800/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-04",
+      "excerpt": "Some of the game's art assets were created with AI assistance. However, all of them went through human review and refinement. Aside from that, all design and programming code were created without AI assistance."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4267800/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-04",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 276）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商均为游戏养家工作室）与英文讨论区首页（可见 15 个主题，总数 276），首页没有命中 AI 关键词的主题，因此没有可读取的相关帖。本款单独检索公开报道 1 次、登记 6 条结果，逐条处置后没有需要读取的第三方来源。唯一值得说明的是 Gameaton 本作条目：已读取原始页面并逐段核对，该页全文是同类推荐与优缺点摘要，页面上出现的“AI”只出现在另一款被推荐游戏的名称里（Rogue AI Simulator），没有本作的 AI 使用信息，因此不作为来源登记。其余结果为本作商店页与葡萄牙语、挪威语入口、SteamDB 统计页、一个钥匙比价博客页、一个 YouTube 故障排除视频与一个 Instagram 帖子。为扩检索另做一次英文检索，返回的仍是商店入口、统计页与社媒短视频，没有独立报道。检索结果为空只说明本次检索范围，不能据此证明没有 AI。八个领域全部按商店披露原文判定，其中代码领域的“未使用”与美术领域的“全部经过人工审阅与打磨”都出自开发者自述，未经独立审计。",
+  "disclosureQuote": "Some of the game's art assets were created with AI assistance. However, all of them went through human review and refinement. Aside from that, all design and programming code were created without AI assistance.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-04 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A tower defense and base building game released on Oct 11, 2026, developed and self-published by the one-studio team credited on the store page. The disclosure has three sentences: some of the art assets were created with AI assistance, all of those assets went through human review and refinement, and apart from that all design and programming code were created without AI assistance. Art is recorded as used and code as a self-reported none, while run-time generation, music, voice, writing, translation and marketing are recorded as not addressed.",
+    "reviewNote": "Reviewed the full English Steam AI disclosure, the identity (developer and publisher both the studio credited on the store page) and the English discussion homepage (15 visible topics of 276), where no topic matches the AI keyword set, so there was no related thread to open. This title was searched 1 time with 6 results and, after each result was dispositioned by hand, no third-party source needed to be read. The one worth naming is a Gameaton entry for this game: the raw page was fetched and read through in full, and its text is only similar-game recommendations with strengths and weaknesses, where the only occurrence of the letters AI is inside the title of another recommended game, Rogue AI Simulator, so it carries nothing about this game and is not registered. The remaining results were the store page and its Portuguese and Norwegian entries, a SteamDB statistics page, a key price-comparison blog page, a YouTube troubleshooting video and an Instagram post. A second English search added nothing verifiable beyond store, statistics and social entries. An empty press finding only describes this search scope and is not evidence that no AI was used. Every area finding comes from the store disclosure text, and both the code non-use claim and the statement that all AI-assisted art was human-reviewed and refined are the developer own words, without an independent audit.",
+    "aiAreaNotes": {
+      "art": "The disclosure states that some of the game art assets were created with AI assistance and that all of them went through human review and refinement. How large the AI share is, and whether any asset shipped without the refinement pass, is not itemised on the store page.",
+      "code": "The disclosure states that apart from the art assets, all design and programming code were created without AI assistance; this is a self-report of non-use and was not independently audited.",
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "dcc310bcb00ef2fddfee85fb0ef7d12d44d163983e89d25de143d0ee6ce1b533"
+  }
+}
