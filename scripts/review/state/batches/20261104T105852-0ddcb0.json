@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "15cd541fa5deb01a126fd89755749880d3ac9772",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-11-04T01:58:52.490216+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -664,10 +664,87 @@
       },
       "bytes": 38022290,
       "verifiedRemoteSha": "44b1ea9ee2162dca983f25122250bf1335652a2b"
-    }
+    },
+    "ci": {
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41760643504",
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/41760643561"
+    },
+    "production": {
+      "sha": "9b0b55617b81465bfcb83a819c4a1a0dd0dd1f4c",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/0cfa8cb9-fda6-4675-a3c7-0e7b92b474a2",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>9b0b556</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://0cfa8cb9.gameaichecker.pages.dev'>https://0cfa8cb9.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/0cfa8cb9-fda6-4675-a3c7-0e7b92b474a2)\n",
+      "checkedAt": "2026-11-04T02:29:21.467898+00:00"
+    },
+    "onlineImages": {
+      "responses": 441,
+      "cache": ".cache\\gameaichecker-review\\20261104T105852-0ddcb0\\online-images-9b0b55617b81465bfcb83a819c4a1a0dd0dd1f4c.json"
+    },
+    "online": [
+      {
+        "appId": "4354460",
+        "url": "https://gameaichecker.com/games/4354460-survivor-s-notes/",
+        "checkedAt": "2026-11-04T02:29:53.627566+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5186690",
+        "url": "https://gameaichecker.com/games/5186690-game-keeper-somebody-messed-up-my-shop/",
+        "checkedAt": "2026-11-04T02:29:53.630846+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4753960",
+        "url": "https://gameaichecker.com/games/4753960-meow-squad-incremental-fishing/",
+        "checkedAt": "2026-11-04T02:29:53.633377+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5019920",
+        "url": "https://gameaichecker.com/games/5019920-tasty-chef/",
+        "checkedAt": "2026-11-04T02:29:53.636361+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4870430",
+        "url": "https://gameaichecker.com/games/4870430-tidy-up-history/",
+        "checkedAt": "2026-11-04T02:29:53.639345+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5097840",
+        "url": "https://gameaichecker.com/games/5097840-spellbound-shelved/",
+        "checkedAt": "2026-11-04T02:29:53.641985+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2085660",
+        "url": "https://gameaichecker.com/games/2085660-devices-tycoon/",
+        "checkedAt": "2026-11-04T02:29:53.644752+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4190240",
+        "url": "https://gameaichecker.com/games/4190240-nuclear-design-bureau/",
+        "checkedAt": "2026-11-04T02:29:53.647621+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4267800",
+        "url": "https://gameaichecker.com/games/4267800-bandit-simulator-td/",
+        "checkedAt": "2026-11-04T02:29:53.650301+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4246640",
+        "url": "https://gameaichecker.com/games/4246640-dungeon-brawls/",
+        "checkedAt": "2026-11-04T02:29:53.652816+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "d19044bc5fb203baf29df37b8dab49cf802b9625"
+    "media": "d19044bc5fb203baf29df37b8dab49cf802b9625",
+    "site": "9b0b55617b81465bfcb83a819c4a1a0dd0dd1f4c"
   },
   "attempts": 11,
   "maxAttempts": 30,
@@ -694,5 +771,6 @@
   ],
   "applyBase": "15cd541fa5deb01a126fd89755749880d3ac9772",
   "pendingTree": "6e9cc3d62db170f08d7c33349830b7a5d3bda1ad",
-  "siteBase": "44b1ea9ee2162dca983f25122250bf1335652a2b"
+  "siteBase": "44b1ea9ee2162dca983f25122250bf1335652a2b",
+  "siteTree": "e7a5c2871d77c28ee194e8d5ea5d33fb489e4901"
 }
