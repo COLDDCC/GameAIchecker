@@ -1,0 +1,71 @@
+{
+ "appId": "3232690",
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4416560/___Demo/?snr=1_7_7_151_150_3309",
+   "relevant": false,
+   "reason": "同系列试玩版页面，不是本作正式版，且试玩版不作新增收录。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4817660/Maid_Cafe_Simulator/?snr=1_5_9__405",
+   "relevant": false,
+   "reason": "同名不同作品（Maid Cafe Simulator: Mina Maidroid），与本作无关。"
+  },
+  {
+   "url": "https://gamedb.ai/games/3232690-maid-cafe-simulator",
+   "relevant": true,
+   "reason": "该站本作条目页转录披露并按领域给出等级，已读取全文；等级为该站自判，不采用。"
+  },
+  {
+   "url": "https://www.pcgame.com/3232690/maid-cafe-simulator",
+   "relevant": true,
+   "reason": "该站逐字转录开发者披露全文（Translation/Art/Audio 三条），已读取全文，用于核对商店披露未被截断。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4817910/Maid_Cafe_Simulator_Sweet_and_Bitter_Pancakes_Momo/?snr=1",
+   "relevant": false,
+   "reason": "同名系列的 DLC 页面，非本作本体。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4416560/___Demo/?snr=1_7_7_151_150_4045",
+   "relevant": false,
+   "reason": "同系列试玩版页面，重复结果。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3232690",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/3232690-maid-cafe-simulator",
+   "fetchedAt": "2026-11-05T09:39:12.220582+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameDB.ai 本作条目页：披露的第三方转录与领域标注",
+   "quote": "Some food and cooking-related props were initially AI-generated, then manually refined by the artists.",
+   "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\3232690\\press-0.html",
+   "contentHash": "47e2e023576a4c5255571e00fbb072ed9667706199d9f667399ff31707f05b35"
+  },
+  {
+   "id": "press-1",
+   "appId": "3232690",
+   "sourceType": "press",
+   "url": "https://www.pcgame.com/3232690/maid-cafe-simulator",
+   "fetchedAt": "2026-11-05T09:39:13.086742+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "PC Game 本作页面：披露三条原文的逐字转录",
+   "quote": "All spoken dialogue in the game was recorded by real voice performers.",
+   "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\3232690\\press-1.html",
+   "contentHash": "0110d7adf0cf3944ebbf6f145f51fd34c3395738fefb78d32bc90632549050a9"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，命中两个披露转录站与若干同名/试玩版商店页，未见独立媒体报道。",
+  "第三方聚合站页面，正文为该站对 Steam 披露的转录或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

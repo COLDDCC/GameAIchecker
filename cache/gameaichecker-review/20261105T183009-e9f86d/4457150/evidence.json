@@ -1,0 +1,171 @@
+{
+  "sources": [
+    {
+      "appId": "4457150",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4457150/?l=english",
+      "fetchedAt": "2026-11-05T09:30:54.749166+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "098e4b5949c74d9977eadbd9c02a8f36614dd0a91f5ecf6feaeb091a5732fe12",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4457150\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI tools were used to assist with: - Store page localization for some languages - In-game text localization for some languages",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI tools were used to assist with: - Store page localization for some languages - In-game text localization for some languages"
+    },
+    {
+      "appId": "4457150",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4457150/discussions/?l=english",
+      "fetchedAt": "2026-11-05T09:30:55.902521+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "add4f04b8cdd9c72c92ba67291c261e81dc455e48829df812d5ffd5c721a7a89",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4457150\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Dog sequence?\nIs controller support coming?\nWorm problems\nToo Many Hands Achievement\n안녕하세요 개발자님. BIC 출품 축하드립니다. 그리고 부탁이 있습니다.\nWhat does the left mark mean on the left when finished?\nNeed help: room 8a\ndemo feedback: pretty, I just don't really like the mechanic",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 8 个主题（总数 8）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4457150",
+      "sourceType": "press",
+      "url": "https://gameaicheck.com/game/4457150/chomp-garden",
+      "fetchedAt": "2026-11-05T09:41:59.398896+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GameAICheck 本作条目页：对 Steam 披露的第三方转录与概述",
+      "quote": "AI tools helped localize the store page and in-game text for some languages; the game itself appears human-made.",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4457150\\press-0.html",
+      "contentHash": "f3f670e37dd212bef69119082598db54f4947c96a79563c40bc8dd8ffbe2d996"
+    }
+  ],
+  "identity": {
+    "appId": "4457150",
+    "name": "Chomp Garden",
+    "developer": "PawPaw Games",
+    "publisher": "PawPaw Games",
+    "type": "game",
+    "verified": true,
+    "release": "Sep 23, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie",
+      "Strategy"
+    ],
+    "description": "A bite-sized puzzle adventure in a garden full of deceptively cute plants. Play as a tiny glowing lamp and shape them with your light to make your way deeper and find your pup.",
+    "identityEvidence": {
+      "appId": "4457150",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4457150&l=english",
+      "fetchedAt": "2026-11-05T09:30:55.292973+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "50d4dad31af4130fa43a72bda1d2faccd0ac92d640071b69acd21241fe26c4b2",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4457150\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 8,
+    "totalTopics": 8,
+    "topics": [
+      {
+        "title": "Dog sequence?",
+        "url": "https://steamcommunity.com/app/4457150/discussions/0/567048404945232192/"
+      },
+      {
+        "title": "Is controller support coming?",
+        "url": "https://steamcommunity.com/app/4457150/discussions/0/571541224066217630/"
+      },
+      {
+        "title": "Worm problems",
+        "url": "https://steamcommunity.com/app/4457150/discussions/0/587313335212770672/"
+      },
+      {
+        "title": "Too Many Hands Achievement",
+        "url": "https://steamcommunity.com/app/4457150/discussions/0/587312703064882638/"
+      },
+      {
+        "title": "안녕하세요 개발자님. BIC 출품 축하드립니다. 그리고 부탁이 있습니다.",
+        "url": "https://steamcommunity.com/app/4457150/discussions/0/579424873282090782/"
+      },
+      {
+        "title": "What does the left mark mean on the left when finished?",
+        "url": "https://steamcommunity.com/app/4457150/discussions/0/571541539431607969/"
+      },
+      {
+        "title": "Need help: room 8a",
+        "url": "https://steamcommunity.com/app/4457150/discussions/0/571541224066040058/"
+      },
+      {
+        "title": "demo feedback: pretty, I just don't really like the mechanic",
+        "url": "https://steamcommunity.com/app/4457150/discussions/0/571541224065881953/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Chomp Garden\" Steam PawPaw Games AI generated content disclosure",
+    "searchedAt": "2026-11-05T09:34:09.003995+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/4688680/Chomp_Garden_Demo/?l=malay&snr=1_7_7_151_150_10032",
+        "relevant": false,
+        "reason": "本作试玩版页面，试玩版不作新增收录。"
+      },
+      {
+        "url": "https://gameaicheck.com/game/4457150/chomp-garden",
+        "relevant": true,
+        "reason": "该站本作条目页转录开发者披露并给出概述，已读取全文；概述属第三方判定，不采用。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4688680/_Demo/?snr=1_300_morelikev2__tab-DemoGames_3",
+        "relevant": false,
+        "reason": "本作试玩版页面，重复结果。"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=SMCkK-miPvI",
+        "relevant": false,
+        "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4457150/_/?snr=1_7_7_comingsoon_150_1",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://bsky.app/profile/charcoal190.bsky.social",
+        "relevant": false,
+        "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+      }
+    ],
+    "readUrls": [
+      "https://gameaicheck.com/game/4457150/chomp-garden"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，除聚合站条目外只有商店页、试玩版与需要登录的视频/社交页。",
+      "未检索到独立媒体报道本作的 AI 使用；这不能证明未使用 AI，判定以商店披露原文为准。",
+      "第三方聚合站页面，正文为该站对 Steam 披露的转录或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4457150\\press-search.json",
+    "contentHash": "72012c41524066f52067e334459507625e64abe442ca7ca705a8c59f37f859cf"
+  }
+}

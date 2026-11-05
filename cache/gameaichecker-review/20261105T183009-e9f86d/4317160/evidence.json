@@ -1,0 +1,129 @@
+{
+  "sources": [
+    {
+      "appId": "4317160",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4317160/?l=english",
+      "fetchedAt": "2026-11-05T09:30:47.268327+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "90b60854b31316baf79f7c2bc6ea6c50b88a41b4e6e762d1f08a6f27c8ed3498",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4317160\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Some store artwork for this game was created using generative AI tools.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Some store artwork for this game was created using generative AI tools."
+    },
+    {
+      "appId": "4317160",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4317160/discussions/?l=english",
+      "fetchedAt": "2026-11-05T09:30:48.460923+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "176ec2f9adb9e7232fd967ce454c60b7e7e1f861f34314e4a9bf371f87dbe53a",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4317160\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "any controller support?",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 1 个主题（总数 1）；仅覆盖首页。"
+    }
+  ],
+  "identity": {
+    "appId": "4317160",
+    "name": "Starlight Farm",
+    "developer": "新星像素/Nova Pixel",
+    "publisher": "新星像素/Nova Pixel",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 7, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Casual",
+      "Indie",
+      "RPG",
+      "Simulation",
+      "Strategy"
+    ],
+    "description": "Build your pixel farm: sow seeds, tend crops, unlock rare qualities, and turn harvests into better tools. Explore the valley and meet its villagers through stories and commissions. Text available in Simplified Chinese, English, Russian, and Korean.",
+    "identityEvidence": {
+      "appId": "4317160",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4317160&l=english",
+      "fetchedAt": "2026-11-05T09:30:47.831632+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "bbab51780beba79a997c14bd34c8439e61260aec4d6435b6d19f31168275a540",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4317160\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 1,
+    "totalTopics": 1,
+    "topics": [
+      {
+        "title": "any controller support?",
+        "url": "https://steamcommunity.com/app/4317160/discussions/0/706660083369522183/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Starlight Farm\" Steam \"Nova Pixel\" AI generated content disclosure store artwork",
+    "searchedAt": "2026-11-05T09:31:09.003995+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/4317160?snr=2_9_100000_",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gamedb.ai/games/3656640-gun-shop-manager",
+        "relevant": false,
+        "reason": "其他作品的聚合站条目页。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4317160/Starlight_Farm/",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gamedb.ai/games/4131610-minsgon-simulator-prologue",
+        "relevant": false,
+        "reason": "其他作品的聚合站条目页。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4317160?snr=2_100300_300__100301",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gamedb.ai/games/3155310-the-three-kingdoms-of-shadows-xuzhou",
+        "relevant": false,
+        "reason": "其他作品的聚合站条目页。"
+      }
+    ],
+    "readUrls": [],
+    "coverageLimits": [
+      "本作共进行三次独立检索，原始响应分别存档为 press-search.json、press-search.b.json、press-search.c.json；批次证据结构只登记一次检索，其余两次在此说明。",
+      "press-search.b.json 与 press-search.c.json 命中的 steamdb.info 页面经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；其余结果为商店页、其他作品条目或无关站点。",
+      "未检索到任何第三方对本作 AI 披露的报道或讨论；这不能证明商店披露之外的 AI 用途，判定只以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4317160\\press-search.json",
+    "contentHash": "6085c1d2bdc29bcd827d7e1d9e4760792e6810d4abf1879dc3a6eaeb903eadf5"
+  }
+}

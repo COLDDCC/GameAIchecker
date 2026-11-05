@@ -1,0 +1,58 @@
+{
+ "appId": "5221510",
+ "results": [
+  {
+   "url": "https://www.gamespress.com/Tidy-Up-the-Flower-Shop-arrives-on-consoles-following-a-Very-Positive-",
+   "relevant": false,
+   "reason": "出版方 Over The Moon 自行投递至新闻分发站的公告（联系人为该社 PR），不是独立第三方报道，正文亦未涉及 AI。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=IUMCOyL1P-0",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  },
+  {
+   "url": "https://www.reddit.com/r/TidyUpGames/comments/1wvxosf/2_new_tidy_up_games_releasing_today/",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  },
+  {
+   "url": "https://www.gamespew.com/2026/10/tidy-up-the-flower-shop-review/",
+   "relevant": true,
+   "reason": "独立媒体 GameSpew 的本作评测（Kim Snaith，2026-10-29），已读取全文；通篇未讨论 AI，仅能佐证发行与评价状态。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Q84OUMcue0I",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  },
+  {
+   "url": "https://x.com/MellowOnline1/status/2116161710901854291",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-2",
+   "appId": "5221510",
+   "sourceType": "press",
+   "url": "https://www.gamespew.com/2026/10/tidy-up-the-flower-shop-review/",
+   "fetchedAt": "2026-11-05T09:45:18.601962+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameSpew 本作评测：独立第三方报道，全文未提及 AI",
+   "quote": "This review of Tidy Up the Flower Shop is based on the PS5 version of the game, with a code provided by the publisher.",
+   "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\5221510\\press-2.html",
+   "contentHash": "b0b9f6cf65ec225b528a385979bae1863435b8b939505f5d0f9bfa874eff0478"
+  }
+ ],
+ "coverageLimits": [
+  "本作共进行三次独立检索，原始响应分别存档为 press-search.json、press-search.b.json、press-search.c.json；批次证据结构只登记一次检索，其余两次在此说明。",
+  "另两次检索命中的 howmuchai.games/developer/over-the-moon 与 gameaicheck.com/lists/new-releases-with-ai 均已抓取并读取全文：前者为该开发者的披露统计与作品列表，后者是含本作一行机器摘要的新作清单页，均非本作披露原文转录，故不登记为来源。",
+  "已读取的独立报道（GameSpew）与出版方公告（Games Press）都未提及 AI，因此无法佐证披露之外的 AI 用途；判定只以商店披露原文为准。",
+  "Steam 讨论区与玩家评测中未见开发者对本作 AI 用途的进一步说明。"
+ ]
+}

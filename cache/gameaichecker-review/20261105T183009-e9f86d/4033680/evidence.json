@@ -1,0 +1,123 @@
+{
+  "sources": [
+    {
+      "appId": "4033680",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4033680/?l=english",
+      "fetchedAt": "2026-11-05T09:30:43.703442+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "b37d9a39f6ab1d711ab9c37d49f33b8fda9071cfe89734ac819374a49a4ff740",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4033680\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI was used exclusively to create the comics featured in the game's Comics section. All other elements of the game were developed without the use of AI.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI was used exclusively to create the comics featured in the game's Comics section. All other elements of the game were developed without the use of AI."
+    },
+    {
+      "appId": "4033680",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4033680/discussions/?l=english",
+      "fetchedAt": "2026-11-05T09:30:44.871729+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "8861104272a30fe48074934745f16e7d09c7244e302d8379b3cb00856657fdf8",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4033680\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Not Recommended",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 1 个主题（总数 1）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4033680",
+      "sourceType": "press",
+      "url": "https://gamedb.ai/games/4033680-escape-immersion",
+      "fetchedAt": "2026-11-05T09:38:43.376198+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+      "quote": "AI was used exclusively to create the comics featured in the game's Comics section.",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4033680\\press-0.html",
+      "contentHash": "53a5d0788716669229c531f67baac1346e3861a6ede9af8f37a9420fbab74895"
+    }
+  ],
+  "identity": {
+    "appId": "4033680",
+    "name": "Escape: Immersion",
+    "developer": "AzDimension, Royal Games",
+    "publisher": "Royal Games",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 9, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "description": "Escape: Immersion is a cinematic 2.5D horror adventure set inside a collapsing underwater military base. Explore flooded corridors, solve environmental puzzles, evade deadly traps, and uncover your past.",
+    "identityEvidence": {
+      "appId": "4033680",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4033680&l=english",
+      "fetchedAt": "2026-11-05T09:30:44.248362+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "e81685f810f8d2072b31f396ea5e4778580f74986dec1d57e18f349d06b9237d",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4033680\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 1,
+    "totalTopics": 1,
+    "topics": [
+      {
+        "title": "Not Recommended",
+        "url": "https://steamcommunity.com/app/4033680/discussions/0/582810614213168418/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Escape: Immersion\" Steam game AI disclosure comics AzDimension Royal Games",
+    "searchedAt": "2026-11-05T09:28:35.582222+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/4033680/Escape_Immersion/?snr=1_7_7_230_150_1",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gamedb.ai/games/4033680-escape-immersion",
+        "relevant": true,
+        "reason": "该站本作条目页转录了披露原文，已读取全文；仅作交叉核对，不作为领域判定来源。"
+      }
+    ],
+    "readUrls": [
+      "https://gamedb.ai/games/4033680-escape-immersion"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，仅命中商店页与该聚合站，未找到独立媒体报道或社区争议帖。",
+      "未检索到报道只说明检索范围，不能据此证明未使用 AI。",
+      "第三方聚合站页面，正文为该站对 Steam 披露的转录或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4033680\\press-search.json",
+    "contentHash": "d4aedbe54a3e9eaf9dd6bbbc7c5911f764b1f92a1cf0fd509449a60794a92c6a"
+  }
+}

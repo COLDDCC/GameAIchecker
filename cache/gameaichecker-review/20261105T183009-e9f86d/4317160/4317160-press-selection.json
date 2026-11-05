@@ -1,0 +1,41 @@
+{
+ "appId": "4317160",
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4317160?snr=2_9_100000_",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/3656640-gun-shop-manager",
+   "relevant": false,
+   "reason": "其他作品的聚合站条目页。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4317160/Starlight_Farm/",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4131610-minsgon-simulator-prologue",
+   "relevant": false,
+   "reason": "其他作品的聚合站条目页。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4317160?snr=2_100300_300__100301",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/3155310-the-three-kingdoms-of-shadows-xuzhou",
+   "relevant": false,
+   "reason": "其他作品的聚合站条目页。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "本作共进行三次独立检索，原始响应分别存档为 press-search.json、press-search.b.json、press-search.c.json；批次证据结构只登记一次检索，其余两次在此说明。",
+  "press-search.b.json 与 press-search.c.json 命中的 steamdb.info 页面经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；其余结果为商店页、其他作品条目或无关站点。",
+  "未检索到任何第三方对本作 AI 披露的报道或讨论；这不能证明商店披露之外的 AI 用途，判定只以商店披露原文为准。"
+ ]
+}

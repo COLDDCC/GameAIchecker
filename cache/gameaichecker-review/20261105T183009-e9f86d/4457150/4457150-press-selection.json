@@ -1,0 +1,57 @@
+{
+ "appId": "4457150",
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4688680/Chomp_Garden_Demo/?l=malay&snr=1_7_7_151_150_10032",
+   "relevant": false,
+   "reason": "本作试玩版页面，试玩版不作新增收录。"
+  },
+  {
+   "url": "https://gameaicheck.com/game/4457150/chomp-garden",
+   "relevant": true,
+   "reason": "该站本作条目页转录开发者披露并给出概述，已读取全文；概述属第三方判定，不采用。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4688680/_Demo/?snr=1_300_morelikev2__tab-DemoGames_3",
+   "relevant": false,
+   "reason": "本作试玩版页面，重复结果。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=SMCkK-miPvI",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4457150/_/?snr=1_7_7_comingsoon_150_1",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://bsky.app/profile/charcoal190.bsky.social",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4457150",
+   "sourceType": "press",
+   "url": "https://gameaicheck.com/game/4457150/chomp-garden",
+   "fetchedAt": "2026-11-05T09:41:59.398896+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameAICheck 本作条目页：对 Steam 披露的第三方转录与概述",
+   "quote": "AI tools helped localize the store page and in-game text for some languages; the game itself appears human-made.",
+   "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4457150\\press-0.html",
+   "contentHash": "f3f670e37dd212bef69119082598db54f4947c96a79563c40bc8dd8ffbe2d996"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，除聚合站条目外只有商店页、试玩版与需要登录的视频/社交页。",
+  "未检索到独立媒体报道本作的 AI 使用；这不能证明未使用 AI，判定以商店披露原文为准。",
+  "第三方聚合站页面，正文为该站对 Steam 披露的转录或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

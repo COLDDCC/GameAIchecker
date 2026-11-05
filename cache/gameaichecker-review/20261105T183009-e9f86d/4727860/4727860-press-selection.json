@@ -1,0 +1,57 @@
+{
+ "appId": "4727860",
+ "results": [
+  {
+   "url": "https://gameaicheck.com/game/4727860/war-footing",
+   "relevant": true,
+   "reason": "该站本作条目页，逐字转录开发者披露并给出自己的概述，已读取全文；概述属第三方判定，不采用。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4727860?snr=2_9_100000_",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4727860/War_Footing/",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://newleftreview.org/issues/ii158.pdf",
+   "relevant": false,
+   "reason": "与本作无关的历史政治刊物 PDF，检索误命中“War”。"
+  },
+  {
+   "url": "https://perspectivia.net/servlets/MCRFileNodeServlet/pnet_derivate_00006181/The%20Consumer%20on%20th",
+   "relevant": false,
+   "reason": "与本作无关的学术文档，检索误命中“War Footing/consumption”。"
+  },
+  {
+   "url": "https://dokumen.pub/the-origins-of-the-russo-japanese-war-0582491142-9780582491144.html",
+   "relevant": false,
+   "reason": "与本作无关的旧书页面，检索误命中“War”。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4727860",
+   "sourceType": "press",
+   "url": "https://gameaicheck.com/game/4727860/war-footing",
+   "fetchedAt": "2026-11-05T09:37:48.634551+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameAICheck 本作条目页：对 Steam 披露的第三方转录与概述",
+   "quote": "AI was used only for coding assistance; the developer says artwork was made by a paid human artist.",
+   "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\4727860\\press-0.html",
+   "contentHash": "f1ee8ce2914331405c25d77d9fd3790e03beb15ab3b1b2d38dbf3400de8bf94b"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回的公开结果（查询见 press.query）；商店页与讨论区已有官方取证，不重复登记。",
+  "未检索到独立媒体报道本作的 AI 争议；这不代表开发者未使用 AI，判定以商店披露原文为准。",
+  "第三方聚合站页面，正文为该站对 Steam 披露的转录或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

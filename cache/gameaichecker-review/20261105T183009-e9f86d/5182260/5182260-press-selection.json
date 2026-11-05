@@ -1,0 +1,46 @@
+{
+ "appId": "5182260",
+ "results": [
+  {
+   "url": "https://gamemoki.com/title/keyboard-chaos-steam-5182260",
+   "relevant": true,
+   "reason": "该站转录了 Steam 玩家评测原文，其中多篇直接质疑本作 AI 披露的范围；已读取全文，玩家自述按未经核实的第三方观点处理。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5182260/Keyboard_Chaos/?snr=1_239_new__newonsteam-under5",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5182260/Keyboard_Chaos/?snr=1_300_morelikev2__307_9",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5182260/Keyboard_Chaos/",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5182260",
+   "sourceType": "press",
+   "url": "https://gamemoki.com/title/keyboard-chaos-steam-5182260",
+   "fetchedAt": "2026-11-05T09:38:18.933114+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameMoki 页面转录的 Steam 玩家评测（玩家自述，非开发者陈述）",
+   "quote": "I was looking forward to this game so much, but the AI Disclosure section feels extremely misleading.",
+   "cachePath": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\5182260\\press-0.html",
+   "contentHash": "05c5b455e7e5651fecc71a849fa2b6ca1e02eb4093e20aa07acbc6ebb8f24c92"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果；GameMoki 为玩家评测聚合站，其转录内容按玩家自述处理，不能用于设定任何 AI 领域结论。",
+  "玩家对披露范围的质疑已记录，但开发者披露原文仍是最权威依据；八领域判定只绑定商店披露。"
+ ]
+}
