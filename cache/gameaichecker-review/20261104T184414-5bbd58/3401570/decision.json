@@ -1,0 +1,62 @@
+{
+  "identityName": "Abyss Ring",
+  "identityDeveloper": "Northern Studio LLC",
+  "category": "official_ai_disclosure",
+  "disclosureQuote": "Language Translation, Skill Icons, Dish Illustrations, Loading Illustrations",
+  "aiScopeUnspecified": false,
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "used",
+      "note": "本作的披露是一串没有动词的名词清单，除翻译外列出技能图标、料理插画与读取插画三类图像资产，本站据此把美术登记为已使用；原文没有说明这三类是全部还是部分，也没有说明生成或加工方式。",
+      "evidenceId": "store",
+      "quote": "Skill Icons, Dish Illustrations, Loading Illustrations"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "used",
+      "note": "清单首项 Language Translation 指向语言翻译；披露没有动词与范围限定，本站按该词把翻译登记为已使用。",
+      "evidenceId": "store",
+      "quote": "Language Translation"
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "summary": "会做饭的 roguelike 地牢游戏，2026 年 10 月 25 日上架，Northern Studio LLC 自行开发与发行，分类为动作／独立／角色扮演。商店 AI 披露没有动词，只列出四项内容：语言翻译、技能图标、料理插画与读取插画。本站据此把翻译与美术登记为已使用，其余六个领域登记为未说明。清单式披露的范围与比例都没有说明，所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 Northern Studio LLC）与英文讨论区首页（可见 15 个主题，总数 48，仅覆盖首页）；首页没有命中 AI 关键词的主题，因此没有相关帖可读。本款单独检索公开报道 1 次，登记该次响应的 6 条结果，读取 1 篇原始来源：AI Transparency Index 的本作条目逐字转录这条清单式披露原文，未添加独立信息。其余 5 条是一个行业站的 Steam AI 披露榜单页、genplay.gg 的即将上线列表页、一个第三方本作宣传与攻略站的两页（分别介绍试玩版与发售日）以及本作的试玩版商店页（App ID 4759840），均不含正式版披露的可核验原文，未登记为来源。本作的披露形态与其它条目不同：只有关键词、没有句子，因此无法判断列出的资产是全部还是部分、也无法判断生成或加工方式；本站按清单出现的顺序逐项映射到翻译与美术，其余领域记为未说明而不是未使用。检索范围记录在 coverageLimits，未检索到独立报道不等于未使用 AI。",
+  "description": "在随机生成的深层地牢里一边求生一边做饭：把怪物烹成料理抵过饥饿，用两百多件装备与随机构筑推进每一层，直到最深处。",
+  "english": {
+    "summary": "A cooking roguelike dungeon crawler released on Oct 25, 2026, self-developed and self-published by Northern Studio LLC and filed under Action, Indie and RPG. The Steam AI disclosure is a bare list with no verb: Language Translation, Skill Icons, Dish Illustrations, Loading Illustrations. This site records translation and art as used on that list and the remaining six areas as areas the disclosure does not address. Because the list never says whether the named assets are all or part of the game, or how they were produced, every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure, the identity (Northern Studio LLC is both developer and publisher) and the English discussion homepage (15 visible topics of 48, first page only), where no topic matches the AI keyword search, so no thread needed reading. This title was searched once, that one response holds 6 results and 1 raw source was read: the AI Transparency Index entry transcribes this list verbatim and adds nothing beyond it. The other 5 results were an industry-site chart page of Steam AI disclosures, the coming-soon listing on genplay.gg, two pages of a third-party promotion and walkthrough site for this title (one about the demo, one about the release date) and the demo store page under App ID 4759840; none carries verifiable text from the released games disclosure, so none is registered as a source. This disclosure differs from the others in the batch: it holds keywords rather than sentences, so the scope, the share of assets and the production method are all unstated, which is why the unnamed areas are recorded as not addressed rather than as not used. The search scope is recorded in coverageLimits and no independent report was found, which is not proof that AI was not used.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "Three of the four listed items are image work, skill icons, dish illustrations and loading illustrations, so art is recorded as used, while the list never says whether those cover all or only part of the artwork or how it was made.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The first listed item is Language Translation, recorded here as a translation use even though the list carries no verb or qualifier.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

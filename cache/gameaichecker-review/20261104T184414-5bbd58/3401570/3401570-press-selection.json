@@ -1,0 +1,55 @@
+{
+ "results": [
+  {
+   "url": "https://aitransparencyindex.com/products/steam/3401570",
+   "relevant": true,
+   "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+  },
+  {
+   "url": "https://zing.co.uk/industry-resources/steam-charts/ai-disclosed/",
+   "relevant": false,
+   "reason": "行业统计榜单页，未逐作给出本作披露原文。"
+  },
+  {
+   "url": "https://genplay.gg/coming-soon/",
+   "relevant": false,
+   "reason": "即将上线列表页，非本作条目。"
+  },
+  {
+   "url": "https://www.abyss-ring.wiki/release/abyss-ring-demo",
+   "relevant": false,
+   "reason": "第三方攻略/宣传站，非开发者或媒体报道，且谈的是试玩版。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4759840/Abyss_Ring_Demo/",
+   "relevant": false,
+   "reason": "试玩版商店页，不作为本作判定来源。"
+  },
+  {
+   "url": "https://www.abyss-ring.wiki/release/abyss-ring-release-date",
+   "relevant": false,
+   "reason": "第三方宣传站，非报道来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "3401570",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/3401570",
+   "fetchedAt": "2026-11-04T10:11:12.360768+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "contentHash": "4c3906983b78724ad55bab22f3597e27901c693981324752217c06fb878c85bc",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\3401570\\press-0.html",
+   "locator": "full article text",
+   "label": "AI Transparency Index 该作条目（结构化数据逐字收录披露）",
+   "quote": "Language Translation, Skill Icons, Dish Illustrations, Loading Illustrations"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围：单条网页检索（替补候选后补检）。",
+  "第三方页面逐字收录商店披露条目清单，未额外说明各用途领域。"
+ ]
+}

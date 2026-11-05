@@ -1,0 +1,55 @@
+{
+ "results": [
+  {
+   "url": "https://howmuchai.games/game/sort-the-bunnies",
+   "relevant": true,
+   "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+  },
+  {
+   "url": "https://www.reddit.com/r/antiai/comments/1xfohik/gotta_love_people_trying_to_cover_their_ai_use/",
+   "relevant": false,
+   "reason": "标题未点名本作，公开抓取被 Reddit 拦截，无法确证是否针对本作，按未核实的线索处理。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=TFp6aMdz3dE",
+   "relevant": false,
+   "reason": "试玩版演示视频，不含披露原文。"
+  },
+  {
+   "url": "https://store.steampowered.com/curators/curatorsreviewing/?appid=4221990&snr=1_5_9__top-curators",
+   "relevant": false,
+   "reason": "App ID 4221990 的鉴赏家列表，与本作无关。"
+  },
+  {
+   "url": "https://www.instagram.com/p/DTQkHM3AWbS/",
+   "relevant": false,
+   "reason": "开发者社媒愿望单里程碑帖，需登录且不含 AI 说明。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5233490/?snr=1_5_9__205",
+   "relevant": false,
+   "reason": "官方商店页已单独抓取。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5233490",
+   "sourceType": "press",
+   "url": "https://howmuchai.games/game/sort-the-bunnies",
+   "fetchedAt": "2026-11-04T10:11:11.020458+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "contentHash": "145694b817303bdd29fddf892aa944c9e150611a77096f85fe2b67c988c9edee",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\5233490\\press-0.html",
+   "locator": "full article text",
+   "label": "HowMuchAI 该作披露页（逐字引用开发者原文）",
+   "quote": "We use generative AI across all disciplines of game development most often with heavy amounts of human editing. That involves audio and visual art, our store assets, and localization. We use it as a productivity tool so we can achieve a higher level of quality, faster, than we would have been able to."
+  }
+ ],
+ "coverageLimits": [
+  "检索范围：单条网页检索。",
+  "r/antiai 的一条帖子标题未点名本作且被 Reddit 拦截，无法确证相关性，因此不作为来源。"
+ ]
+}

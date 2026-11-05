@@ -1,0 +1,68 @@
+{
+  "identityName": "Sort The Bunnies",
+  "identityDeveloper": "Mr. Bunny",
+  "category": "official_ai_disclosure",
+  "disclosureQuote": "We use generative AI across all disciplines of game development most often with heavy amounts of human editing. That involves audio and visual art, our store assets, and localization. We use it as a productivity tool so we can achieve a higher level of quality, faster, than we would have been able to.",
+  "aiScopeUnspecified": false,
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "used",
+      "note": "披露第一句自述 We use generative AI across all disciplines of game development most often with heavy amounts of human editing.，第二句点名 visual art，即美术使用生成式 AI 且开发者说通常经过大量人工编辑。",
+      "evidenceId": "store",
+      "quote": "That involves audio and visual art, our store assets, and localization."
+    },
+    "music": {
+      "state": "used",
+      "note": "第二句用词是 audio，未单列音乐；本站按该词把音乐登记为已使用，并保留这只是开发者自述、未经独立审计的限定。",
+      "evidenceId": "store",
+      "quote": "That involves audio and visual art, our store assets, and localization."
+    },
+    "voice": {
+      "state": "used",
+      "note": "同一句的 audio 一词同时被本站映射到语音领域；原文没有单列配音，这一映射已在页面上写明。",
+      "evidenceId": "store",
+      "quote": "That involves audio and visual art, our store assets, and localization."
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "used",
+      "note": "第二句点名 localization，即本地化／翻译在生成式 AI 的使用范围内。",
+      "evidenceId": "store",
+      "quote": "That involves audio and visual art, our store assets, and localization."
+    },
+    "marketing": {
+      "state": "used",
+      "note": "第二句点名 our store assets，即商店页素材与营销资产在生成式 AI 的使用范围内。",
+      "evidenceId": "store",
+      "quote": "That involves audio and visual art, our store assets, and localization."
+    }
+  },
+  "summary": "兔子收藏整理模拟，2026 年 10 月 27 日上架，Mr. Bunny 自行开发与发行，支持 1 至 4 人，分类为休闲／独立／模拟。商店 AI 披露自称生成式 AI 用于游戏开发的各个学科、通常经过大量人工编辑，并点名音频、视觉美术、商店素材与本地化。本站据此把美术、音乐、语音、翻译与营销登记为已使用（其中音乐与语音是按原文 audio 一词映射），代码、文本创作与游戏内实时生成登记为未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 Mr. Bunny）与英文讨论区首页（可见 15 个主题，总数 27，仅覆盖首页）；首页没有命中 AI 关键词的主题，因此没有相关帖可读。本款单独检索公开报道 1 次，登记该次响应的 6 条结果，读取 1 篇原始来源：howmuchai.games 的本作条目逐字转录商店披露原文，同时写明该站尚未把本作拆分到各领域（We haven't sorted it into parts yet），并注明逐领域拆解是该站自己的整理；这属于第三方整理而非独立核实，本站只登记阅读，不采纳其结论。其余 5 条是一条标题未点名本作且公开抓取被 Reddit 拦截的 r/antiai 帖子（按未核实线索处理，不作来源）、试玩版演示视频、App ID 为 4221990 的鉴赏家列表（与本作无关）、开发者社媒愿望单里程碑帖与本作商店页。披露的措辞粒度粗于本站八领域：art 对应 visual art，music 与 voice 共用 audio 一词，marketing 对应 store assets，translation 对应 localization，映射已逐项写在领域说明里；across all disciplines of game development 是开发者的总括说法，本站未据其把范围外推到代码、文本创作或游戏内实时生成。",
+  "description": "把 500 种兔子图案分拣上架，整理杂乱的店铺，解锁便利升级，也能顺手在店里捣点小乱。",
+  "english": {
+    "summary": "A bunny sorting and shop organising sim for 1 to 4 players released on Oct 27, 2026, self-developed and self-published by Mr. Bunny and filed under Casual, Indie and Simulation. The Steam AI disclosure says generative AI is used across all disciplines of game development, most often with heavy amounts of human editing, and names audio, visual art, store assets and localisation. This site records art, music, voice, translation and marketing as used on that wording, with music and voice mapped from the single word audio, and code, writing and live in-game generation as areas the disclosure does not address. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure, the identity (Mr. Bunny is both developer and publisher) and the English discussion homepage (15 visible topics of 27, first page only), where no topic matches the AI keyword search, so no thread needed reading. This title was searched once, that one response holds 6 results and 1 raw source was read: the howmuchai.games entry for this game transcribes the store disclosure verbatim, states that it has not sorted this game into parts yet and notes that its part-by-part breakdown is that site own work; that is third-party bookkeeping rather than independent verification, so this site logs it as a reading and does not adopt it. The other 5 results were an r/antiai thread whose title does not name this game and which public fetching blocks, so it stays an unverified lead, a demo play video, a curators page whose appid is 4221990 and belongs to a different game, a developer social-media wishlist milestone post and the store page of this game. The disclosure wording is coarser than the eight areas used here: art maps to visual art, music and voice both map to the single word audio, marketing maps to store assets and translation maps to localisation, and each mapping is written into its area note. The catch-all phrase across all disciplines of game development was not extended to code, writing or live in-game generation.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The developer states generative AI is used across all disciplines of game development with heavy amounts of human editing and names visual art among them, so art is recorded as used with that editing claim attached.",
+      "music": "The enumerating sentence uses the single word audio and does not name music separately; this area is recorded as used through that word, on the developer statement.",
+      "voice": "The same word audio is also mapped onto voice, which the disclosure does not list on its own; the mapping is recorded here rather than presented as the developer wording.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The enumerating sentence names localisation as one of the areas where generative AI is used.",
+      "marketing": "The enumerating sentence names our store assets, so the marketing material on the store page is inside the stated scope of AI use."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "identityName": "HAPPY PROPAGANDA",
+  "identityDeveloper": "Not a Dog",
+  "category": "official_ai_disclosure",
+  "disclosureQuote": "Generative AI may be used to assist with localization. All final text is reviewed and edited by the developer.",
+  "aiScopeUnspecified": false,
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "used",
+      "note": "披露原文是 Generative AI may be used to assist with localization.，用的是 may be used 的可能语气，即开发者承认本地化环节可能有生成式 AI 参与；补句 All final text is reviewed and edited by the developer. 说明最终译文经开发者复核编辑。本站按承认可能性登记为已使用，不把它当成已证实全量使用。",
+      "evidenceId": "store",
+      "quote": "Generative AI may be used to assist with localization."
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "summary": "直播审查题材的模拟游戏，2026 年 10 月 27 日上架，Not a Dog 自行开发与发行，分类为模拟。商店 AI 披露以可能语气写明生成式 AI 或用于协助本地化，并强调最终文本全部由开发者复核编辑。本站据此把翻译登记为已使用（开发者自述的可能用途），其余七个领域登记为披露未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 Not a Dog）与英文讨论区首页（可见 3 个主题，总数 3，即首页覆盖全部主题），其中一条主题 AI Localization 命中关键词，已完整读取该帖正文与全部可见回复：玩家批评本地化使用 AI、主张应给译者合理报酬，也有人指出这是单人开发者、预算有限应当宽容，帖内没有开发者对使用范围的补充说明。本款单独检索公开报道 1 次，登记该次响应的 6 条结果，读取 1 篇原始来源：genplay.gg 的本作条目逐字转录商店披露。其余 5 条是本作商店页及其推广参数变体、一个瑞典语参数的社区首页（本机无法直连核验）、一个销量统计榜单页与一个 SteamDB 在线人数榜单，均不含披露原文，未登记为来源。披露本身用的是 may be used 的可能语气，本站在翻译一项里保留了这一限定；未说明的七个领域不等于未使用。",
+  "description": "扮演直播节目的审查员：批准或屏蔽弹幕，在观众愤怒与主播状态之间找平衡，挑选话题并下播后交谈，五天的选择通向多个结局。",
+  "english": {
+    "summary": "A broadcast censorship sim released on Oct 27, 2026, self-developed and self-published by Not a Dog and filed under Simulation. The Steam AI disclosure says, in a conditional wording, that generative AI may be used to assist with localisation, and adds that all final text is reviewed and edited by the developer. This site records translation as used on that admitted possibility and the other seven areas as areas the disclosure does not address. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure, the identity (Not a Dog is both developer and publisher) and the English discussion homepage (3 visible topics of 3, so the homepage covers every topic), where the thread titled AI Localization matches the keyword search and was read in full including every visible reply: players criticise the localisation choice and argue translators should be paid properly, while others note this is a solo developer with a limited budget, and the developer adds no statement about the scope of use in that thread. This title was searched once, that one response holds 6 results and 1 raw source was read: the genplay.gg entry transcribes the store disclosure verbatim. The other 5 results were the store page and a promotional-parameter variant of it, a community homepage behind a swedish language parameter that this machine cannot reach directly, a sales statistics listing and a SteamDB player charts page; none carries the disclosure text, so none is registered as a source. The disclosure wording is may be used, which this site keeps as an admitted possibility rather than a confirmed extent, and the seven unaddressed areas are not evidence of non-use.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The developer writes Generative AI may be used to assist with localization, a conditional admission of possible use, followed by All final text is reviewed and edited by the developer, so human review of the shipped text is part of the statement.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

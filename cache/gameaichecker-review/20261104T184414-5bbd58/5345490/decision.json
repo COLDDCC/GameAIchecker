@@ -1,0 +1,62 @@
+{
+  "identityName": "Quarantine Lab Sort",
+  "identityDeveloper": "Tovarishch Games",
+  "category": "official_ai_disclosure",
+  "disclosureQuote": "AI was used to create promotional materials for the Steam store page and some game textures.",
+  "aiScopeUnspecified": false,
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "used",
+      "note": "披露把生成式 AI 限定在两处：Steam 商店页宣传素材与 some game textures（部分游戏贴图）；贴图属视觉资产，故美术登记为已使用，且原文用 some 表示只覆盖一部分。",
+      "evidenceId": "store",
+      "quote": "some game textures"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "marketing": {
+      "state": "used",
+      "note": "披露原文 AI was used to create promotional materials for the Steam store page and some game textures.，把营销素材列为生成式 AI 的用途之一。",
+      "evidenceId": "store",
+      "quote": "AI was used to create promotional materials for the Steam store page"
+    }
+  },
+  "summary": "实验室整理模拟游戏，2026 年 10 月 28 日上架，Tovarishch Games 开发、PlayWay S.A. 发行，分类为休闲／独立／模拟。商店 AI 披露写明 AI 用于制作 Steam 商店页宣传素材以及部分游戏贴图。本站据此把营销与美术登记为已使用，其余六个领域登记为披露未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 Tovarishch Games，发行商 PlayWay S.A.）与英文讨论区首页（可见 15 个主题，总数 22，仅覆盖首页）；首页没有命中 AI 关键词的主题，因此没有相关帖可读。本款单独检索公开报道 1 次，登记该次响应的 6 条结果，读取 1 篇原始来源：steamaifilter.xyz 的本作条目逐字转录商店披露，未提供披露之外的信息。其余 5 条是本作商店页本身、TikTok 与 Instagram 的短视频、两条 Facebook 视频（其中一条推广的是另一款清洁题材游戏），均无独立于披露的内容或需登录才能核验，未登记为来源。检索范围记录在 coverageLimits，社交平台只有玩家短视频不等于没有报道，也不等于未使用 AI；六个未说明领域不等于未使用。",
+  "description": "把彻底失控的实验室重新整理归位：分拣七千余件物品，用离心机鉴定未知样本，抓住逃脱的实验动物，谨慎处理放射性废料，靠解锁技能把杂物堆变成整齐的货架。",
+  "english": {
+    "summary": "A laboratory tidying sim released on Oct 28, 2026, developed by Tovarishch Games and published by PlayWay S.A., filed under Casual, Indie and Simulation. The Steam AI disclosure states that AI was used to create promotional materials for the Steam store page and for some game textures. This site records marketing and art as used on that wording and the remaining six areas as areas the disclosure does not address. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure, the identity (developer Tovarishch Games, publisher PlayWay S.A.) and the English discussion homepage (15 visible topics of 22, first page only), where no topic matches the AI keyword search, so no thread needed reading. This title was searched once, that one response holds 6 results and 1 raw source was read: the steamaifilter.xyz entry for this game transcribes the store disclosure verbatim and adds nothing beyond it. The other 5 results were the store page of this same game, short videos on TikTok and Instagram and two Facebook videos, one of which promotes a different cleaning game; none carries information independent of the disclosure or cannot be verified behind a login, so none is registered as a source. Player clips on social platforms are not the same as an absent report, and the six areas left unaddressed are not evidence of non-use.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure names some game textures as a second use of AI, so part of the visual asset set is covered and no share is given.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "The disclosure opens by stating AI was used to create promotional materials for the Steam store page, which this site records as a marketing use."
+    }
+  }
+}

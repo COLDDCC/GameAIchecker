@@ -1,0 +1,54 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5345490/Quarantine_Lab_Sort/",
+   "relevant": false,
+   "reason": "官方商店页已单独抓取。"
+  },
+  {
+   "url": "https://www.tiktok.com/@zaddak/video/7700295476452674838",
+   "relevant": false,
+   "reason": "TikTok 玩家视频，非可核验来源。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/game/5345490-quarantine-lab-sort",
+   "relevant": true,
+   "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DboM0kdAZev/",
+   "relevant": false,
+   "reason": "Instagram 短视频，需登录且无披露内容。"
+  },
+  {
+   "url": "https://www.facebook.com/rusty.cutlass.33/videos/read-itand-read-it-againhappy-steam-day%EF%B8%8F/969147112374552/",
+   "relevant": false,
+   "reason": "Facebook 个人视频，与本作无关。"
+  },
+  {
+   "url": "https://www.facebook.com/LevelEighty/videos/check-out-cleaning-up-a-satisfying-cleaning-game-where-you-turn-huge-messes-into/1417779560331647/",
+   "relevant": false,
+   "reason": "另一款游戏的推广视频。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5345490",
+   "sourceType": "press",
+   "url": "https://steamaifilter.xyz/game/5345490-quarantine-lab-sort",
+   "fetchedAt": "2026-11-04T10:11:46.654321+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "contentHash": "3251ff1d52313e5cd0ecbda36f3405d4934cee1ea5df60ce1429cd3f269d6aa4",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\5345490\\press-0.html",
+   "locator": "full article text",
+   "label": "Steam AI Filter 该作披露页（正文在结构化数据中）",
+   "quote": "AI was used to create promotional materials for the Steam store page and some game textures."
+  }
+ ],
+ "coverageLimits": [
+  "检索范围：单条网页检索；社交平台上只有玩家短视频，未见第三方对该作披露的独立报道。"
+ ]
+}

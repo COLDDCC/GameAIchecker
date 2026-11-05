@@ -1,0 +1,56 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/news/app/4773930/view/688644961237732369?l=italian&snr=1_5_9_",
+   "relevant": false,
+   "reason": "官方商店新闻公告页（链接带 l=italian 参数），属开发者自有渠道而非第三方报道；商店披露已单独抓取，不重复登记。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4773930",
+   "relevant": false,
+   "reason": "Steam 社区首页，与本批已抓取的英文讨论区首页同源导航，不含新的披露内容。"
+  },
+  {
+   "url": "https://steamdb.info/app/4773930/screenshots/",
+   "relevant": false,
+   "reason": "SteamDB 截图聚合页对公开抓取返回 HTTP 403，正文不可读；且为数据聚合页，不转录披露原文。"
+  },
+  {
+   "url": "https://newgame.17173.com/game-info-1048163.html",
+   "relevant": false,
+   "reason": "17173 新游资料页对公开抓取返回 HTTP 403，正文不可读，无法核实其是否涉及 AI。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4773930",
+   "relevant": true,
+   "reason": "第三方披露索引站逐字转录了本作商店页的 AI 披露原文，已读取全文并登记为来源。"
+  },
+  {
+   "url": "https://isthereanydeal.com/game/jun-lin-chuan-qi-zhi-feng-qi-yun-yong/assets/",
+   "relevant": false,
+   "reason": "IsThereAnyDeal 资产列表页为前端脚本渲染，静态正文仅 338 字符且不含 AI 披露，无法作为可核验来源。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4773930",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4773930",
+   "fetchedAt": "2026-11-05T08:54:09.482578+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "AI Transparency Index 对本作商店披露的第三方转录",
+   "quote": "AI-assisted material appears only on the store page or in marketing AI is used to assist in the creation of promotional materials. Process AI-assisted Live AI during play No Evidence & analysis details Evidence used “use AI to assist in the creation of promotional materials” “We use AI to assist in the creation of promotional materials” Model-reported confidence 95% A model estimate, not a measured accuracy rate or a human review score. Auto-classified from the public disclosure. The raw disclosure below remains the source of truth.",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4773930\\press-0.html",
+   "contentHash": "f90f330f5e364fcfcb80dc023075e430099f3dd1b0c7bda4fefd24a8dcf4d8f5"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围：单条中文网页检索（含游戏名 + Steam + AI 关键词），只覆盖搜索引擎返回的前 6 条结果。",
+  "本作无英文媒体名称检索通道，SteamDB 与 17173 两条聚合结果对公开抓取返回 HTTP 403，正文未能读取。",
+  "检索结果数量不代表搜索量，未检索到独立报道也不能证明未使用 AI。"
+ ]
+}

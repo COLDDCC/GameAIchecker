@@ -1,0 +1,198 @@
+{
+  "sources": [
+    {
+      "appId": "2710530",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/2710530/?l=english",
+      "fetchedAt": "2026-11-04T09:44:27.911594+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "92edb35e5d8b28e8f5953bbc4c8b50cea992f15f86f127e7e71f23001496661c",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2710530\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI was used for some translations and some visual assets (textures, images, models). The game does not create AI-generated content during gameplay.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI was used for some translations and some visual assets (textures, images, models). The game does not create AI-generated content during gameplay."
+    },
+    {
+      "appId": "2710530",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/2710530/discussions/?l=english",
+      "fetchedAt": "2026-11-04T09:58:15.599000+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "77032bc66116602701d1689f55a80418418f93f2b26bb58e27dc15381d703f95",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2710530\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: [BUGS] Bug Reporting Thread\nPINNED: [IMPROVEMENTS] Let's make game better\nThe windows shrink in the settings\nachievement steam deck\nAtölye ye nasıl dönerim.\nCleanliness 99%\nstill cant run game\ngame wont load\ncant load\ncant send dater\nTop Cleaners scoreboard question\nAchievements\nAdd a top down view option\nSteady / Freeview\nOffline play?",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 44）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "2710530",
+      "sourceType": "press",
+      "url": "https://genplay.gg/games/rug-cleaning-simulator/",
+      "fetchedAt": "2026-11-04T10:01:08.712009+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "contentHash": "a473fee49e2f402c408453a6b3af93d3d1a6f4aad0473d6d7801498f87ad0e79",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2710530\\press-1.html",
+      "locator": "full article text",
+      "label": "GenPlay.gg 对该作 Steam 披露的复核页",
+      "quote": "AI was used for some translations and some visual assets (textures, images, models). The game does not create AI-generated content during gameplay."
+    }
+  ],
+  "identity": {
+    "appId": "2710530",
+    "name": "Rug Cleaning Simulator",
+    "developer": "Monte de shot",
+    "publisher": "Monte de shot",
+    "type": "game",
+    "verified": true,
+    "release": "28 Oct, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie",
+      "Simulation"
+    ],
+    "description": "Turn filthy rugs into spotless transformations in a relaxing first-person cleaning simulator. Take on customer jobs, clean rugs step by step, earn money, upgrade your equipment, and grow your own rug-cleaning business.",
+    "identityEvidence": {
+      "appId": "2710530",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=2710530&l=english",
+      "fetchedAt": "2026-11-04T09:44:29.613547+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "ce906c4d807c4f788ba83baa4aa4c356af022e796856dbc4727a809f69cafbbd",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2710530\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 44,
+    "topics": [
+      {
+        "title": "PINNED: [BUGS] Bug Reporting Thread",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/824857476142957851/"
+      },
+      {
+        "title": "PINNED: [IMPROVEMENTS] Let's make game better",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/767437998196431333/"
+      },
+      {
+        "title": "The windows shrink in the settings",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427964577047118/"
+      },
+      {
+        "title": "achievement steam deck",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427964577028591/"
+      },
+      {
+        "title": "Atölye ye nasıl dönerim.",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427687923099673/"
+      },
+      {
+        "title": "Cleanliness 99%",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427687922865863/"
+      },
+      {
+        "title": "still cant run game",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427687923082481/"
+      },
+      {
+        "title": "game wont load",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427687922828027/"
+      },
+      {
+        "title": "cant load",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427687922939034/"
+      },
+      {
+        "title": "cant send dater",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427687922949613/"
+      },
+      {
+        "title": "Top Cleaners scoreboard question",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427373261106796/"
+      },
+      {
+        "title": "Achievements",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427687922977183/"
+      },
+      {
+        "title": "Add a top down view option",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427687922906928/"
+      },
+      {
+        "title": "Steady / Freeview",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427687922871476/"
+      },
+      {
+        "title": "Offline play?",
+        "url": "https://steamcommunity.com/app/2710530/discussions/0/570427373261185955/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "Rug Cleaning Simulator Steam AI generated content disclosure",
+    "searchedAt": "2026-11-04T09:58:46.615638+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://www.reddit.com/r/Steam/comments/1w738go/since_steam_features_ai_generated_content/",
+        "relevant": false,
+        "reason": "Reddit 泛话题帖，未针对本作，不能用于本作判定。"
+      },
+      {
+        "url": "https://steamaifilter.xyz/game/2710530-rug-cleaning-simulator",
+        "relevant": false,
+        "reason": "已抓取原文，但披露正文由脚本渲染，静态 HTML 只有标题，无可引用原文。"
+      },
+      {
+        "url": "https://www.facebook.com/groups/dungeoncrawlercarl/posts/4337074696504083/",
+        "relevant": false,
+        "reason": "Facebook 小组帖需登录，公开侧无法核验内容，不作为来源。"
+      },
+      {
+        "url": "https://genplay.gg/games/rug-cleaning-simulator/",
+        "relevant": true,
+        "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/curator/45944619-Games-That-Use-AI-Generation/",
+        "relevant": false,
+        "reason": "Steam 鉴赏家聚合列表，非本作报道。"
+      },
+      {
+        "url": "https://partner.steamgames.com/doc/gettingstarted/contentsurvey",
+        "relevant": false,
+        "reason": "Valve 官方政策文档，说明披露机制而非本作使用情况。"
+      }
+    ],
+    "readUrls": [
+      "https://genplay.gg/games/rug-cleaning-simulator/"
+    ],
+    "coverageLimits": [
+      "检索范围：单条网页检索，未覆盖韩语/社区媒体报道。",
+      "steamaifilter.xyz 的该作页面披露正文由脚本渲染，静态 HTML 无可引用文本，已抓取并保留但未登记为来源。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2710530\\press-search.json",
+    "contentHash": "bf3ca03591c9cacde42ffce069f9c0bac3ababf934010ea5b0d9365f18df9a45"
+  }
+}

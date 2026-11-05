@@ -1,0 +1,197 @@
+{
+  "sources": [
+    {
+      "appId": "5345490",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5345490/?l=english",
+      "fetchedAt": "2026-11-04T09:45:34.842545+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "2edfda008a611b1f0025af91890c792aa2643f3202b9c7002d32f2c6148516f5",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\5345490\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI was used to create promotional materials for the Steam store page and some game textures.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI was used to create promotional materials for the Steam store page and some game textures."
+    },
+    {
+      "appId": "5345490",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5345490/discussions/?l=english",
+      "fetchedAt": "2026-11-04T09:58:16.233253+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "22400516e420b99c128d43c067042650eda8a26790e3dd3473917aaa427317f9",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\5345490\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Before Reporting Bugs or Issues\nunable to finish the lab missing item\ndevs: highlighted items almost invisible\nMore segmented upper floor\nLast missing special item\nQuestion\nThrowing items?\ngame idea (bunsen burner and methane from organic waste)\nIs anyone else grossed out by some of the items?\nIntended or bug?\nit’s impossible to complete 100%\nMay sound a tad strange but...\nwhere is the \"auto store\" skill?\nnew game +\nCo-Op?",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 22）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5345490",
+      "sourceType": "press",
+      "url": "https://steamaifilter.xyz/game/5345490-quarantine-lab-sort",
+      "fetchedAt": "2026-11-04T10:11:46.654321+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "contentHash": "3251ff1d52313e5cd0ecbda36f3405d4934cee1ea5df60ce1429cd3f269d6aa4",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\5345490\\press-0.html",
+      "locator": "full article text",
+      "label": "Steam AI Filter 该作披露页（正文在结构化数据中）",
+      "quote": "AI was used to create promotional materials for the Steam store page and some game textures."
+    }
+  ],
+  "identity": {
+    "appId": "5345490",
+    "name": "Quarantine Lab Sort",
+    "developer": "Tovarishch Games",
+    "publisher": "PlayWay S.A.",
+    "type": "game",
+    "verified": true,
+    "release": "28 Oct, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie",
+      "Simulation"
+    ],
+    "description": "Restore order to a lab left in complete chaos! Sort over 7,000 items, examine unknown samples in a centrifuge, catch escaped animals, and handle radioactive waste with care. Unlock skills and turn piles of clutter into neatly organized shelves.",
+    "identityEvidence": {
+      "appId": "5345490",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5345490&l=english",
+      "fetchedAt": "2026-11-04T09:46:19.125793+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "2168ef66cc1772168d781ce627de943717504989f3f3b27b51178854460205fc",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\5345490\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 22,
+    "topics": [
+      {
+        "title": "PINNED: Before Reporting Bugs or Issues",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/572678538884450690/"
+      },
+      {
+        "title": "unable to finish the lab missing item",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049990495827492/"
+      },
+      {
+        "title": "devs: highlighted items almost invisible",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049673541757796/"
+      },
+      {
+        "title": "More segmented upper floor",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049673541793446/"
+      },
+      {
+        "title": "Last missing special item",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567050270269285296/"
+      },
+      {
+        "title": "Question",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049673541827633/"
+      },
+      {
+        "title": "Throwing items?",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049990495619870/"
+      },
+      {
+        "title": "game idea (bunsen burner and methane from organic waste)",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049990495566626/"
+      },
+      {
+        "title": "Is anyone else grossed out by some of the items?",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049990495786058/"
+      },
+      {
+        "title": "Intended or bug?",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049673541514284/"
+      },
+      {
+        "title": "it’s impossible to complete 100%",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049673541614498/"
+      },
+      {
+        "title": "May sound a tad strange but...",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049990495565282/"
+      },
+      {
+        "title": "where is the \"auto store\" skill?",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049990495687821/"
+      },
+      {
+        "title": "new game +",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/567049673541770268/"
+      },
+      {
+        "title": "Co-Op?",
+        "url": "https://steamcommunity.com/app/5345490/discussions/0/572678840008347383/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Quarantine Lab Sort\" Steam game AI generated content",
+    "searchedAt": "2026-11-04T09:58:46.615638+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/5345490/Quarantine_Lab_Sort/",
+        "relevant": false,
+        "reason": "官方商店页已单独抓取。"
+      },
+      {
+        "url": "https://www.tiktok.com/@zaddak/video/7700295476452674838",
+        "relevant": false,
+        "reason": "TikTok 玩家视频，非可核验来源。"
+      },
+      {
+        "url": "https://steamaifilter.xyz/game/5345490-quarantine-lab-sort",
+        "relevant": true,
+        "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DboM0kdAZev/",
+        "relevant": false,
+        "reason": "Instagram 短视频，需登录且无披露内容。"
+      },
+      {
+        "url": "https://www.facebook.com/rusty.cutlass.33/videos/read-itand-read-it-againhappy-steam-day%EF%B8%8F/969147112374552/",
+        "relevant": false,
+        "reason": "Facebook 个人视频，与本作无关。"
+      },
+      {
+        "url": "https://www.facebook.com/LevelEighty/videos/check-out-cleaning-up-a-satisfying-cleaning-game-where-you-turn-huge-messes-into/1417779560331647/",
+        "relevant": false,
+        "reason": "另一款游戏的推广视频。"
+      }
+    ],
+    "readUrls": [
+      "https://steamaifilter.xyz/game/5345490-quarantine-lab-sort"
+    ],
+    "coverageLimits": [
+      "检索范围：单条网页检索；社交平台上只有玩家短视频，未见第三方对该作披露的独立报道。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\5345490\\press-search.json",
+    "contentHash": "0cd0fe1fa3c950933fcdbd2abe33ba5e93284d19068d7b9dea2c841111371d2f"
+  }
+}

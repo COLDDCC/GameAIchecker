@@ -1,0 +1,60 @@
+{
+  "identityName": "君临传奇之风起云涌",
+  "identityDeveloper": "君临传奇之风起云涌",
+  "category": "official_ai_disclosure",
+  "disclosureQuote": "We use AI to assist in the creation of promotional materials.",
+  "aiScopeUnspecified": false,
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "marketing": {
+      "state": "used",
+      "note": "披露原文 We use AI to assist in the creation of promotional materials.，即宣传素材的制作有 AI 协助；原文未说明是商店页图、视频还是其他宣传物，也未说明占比，本站只登记到营销一项。",
+      "evidenceId": "store",
+      "quote": "We use AI to assist in the creation of promotional materials."
+    }
+  },
+  "summary": "复古高爆国战题材的免费传奇类 MMO，2026 年 10 月 22 日上架，商店页的开发商与发行商名称与本作的游戏名一致（未提供独立工作室名），分类为动作／休闲／独立／大型多人在线／角色扮演／免费开玩。商店 AI 披露只有一句话：使用 AI 协助制作宣传素材。本站据此把营销登记为已使用，其余七个领域登记为披露未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（appdetails 与商店页显示的开发商、发行商均为君临传奇之风起云涌）与英文讨论区首页（可见 3 个主题，总数 3，即首页覆盖全部主题）；首页没有命中 AI 关键词的主题，三条主题均为玩家对运营与爆率的抱怨，因此没有相关帖可读。本款单独检索公开报道 1 次（中文关键词），登记该次响应的 6 条结果，读取 1 篇原始来源：AI Transparency Index 的本作条目逐字转录商店披露原文，并额外给出该站的自动分类（Process 为 AI-assisted、Live AI during play 为 No、模型自报置信度 95%），但该页同时写明这是 auto-classified 的模型估计、不是准确率也不是人工评审，且以原始披露为准，因此本站不采纳它对游戏内实时生成的判定，该领域仍记为未说明。其余 5 条是带意大利语参数的官方更新公告（属开发者自有渠道而非第三方报道）、社区首页、SteamDB 截图页与 17173 资料页（两者对公开抓取返回 HTTP 403，正文不可读）与一个纯前端渲染的价格聚合页（静态正文 338 字符，无披露原文），均未登记为来源。本作的宣传素材具体指哪些物料、占比多少，披露没有说明；七个未说明领域不等于未使用。",
+  "description": "复古高爆国战版本的传奇玩法：装备与武学靠打 BOSS 掉落，攻城夺地、兄弟组队，主打免费开玩的多人在线国战。",
+  "english": {
+    "summary": "A free-to-play retro Legend-style nation-war MMO released on Oct 22, 2026, whose Steam store page lists the same name in the developer and publisher fields rather than a separate studio, filed under Action, Casual, Indie, Massively Multiplayer, RPG and Free To Play. The Steam AI disclosure is one sentence: the developer uses AI to assist in the creation of promotional materials. This site records marketing as used on that wording and the other seven areas as areas the disclosure does not address. Which promotional assets are covered and in what share is not stated, so every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure, the identity (the appdetails record and the store page both carry the game title in the developer and publisher fields) and the English discussion homepage (3 visible topics of 3, so the homepage covers every topic); no topic matches the AI keyword search and the three threads are player complaints about operations and drop rates, so no thread needed reading. This title was searched once with Chinese keywords, that one response holds 6 results and 1 raw source was read: the AI Transparency Index entry transcribes the store disclosure verbatim and adds its own automatic classification, process AI-assisted, live AI during play No, with a model-reported confidence of 95 percent, while the same page states that this is auto-classified model output, not an accuracy rate or a human review score, and that the raw disclosure remains the source of truth; this site therefore does not adopt its live-generation finding and keeps that area unaddressed. The other 5 results were the official update announcement behind an italian language parameter (a developer channel rather than third-party coverage), the community homepage, a SteamDB screenshots page and a 17173 product page (both return HTTP 403 to public fetching, so their text could not be read) and a client-rendered price aggregation page whose static body holds 338 characters without the disclosure text; none is registered as a source.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "The single disclosure sentence states AI assists in the creation of promotional materials, without naming which assets or what share of them."
+    }
+  }
+}

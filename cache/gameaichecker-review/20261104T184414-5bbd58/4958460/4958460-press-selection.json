@@ -1,0 +1,69 @@
+{
+ "results": [
+  {
+   "url": "https://genplay.gg/games/touhou-bansho-cards/",
+   "relevant": true,
+   "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4958460/Touhou_Bansho_Cards/",
+   "relevant": false,
+   "reason": "官方商店页已单独抓取。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4958460",
+   "relevant": true,
+   "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4958460/Touhou_Bansho_Cards/?l=english&snr=1_1056_4_1056_curatorfeatureddiscount&curator_clanid=45126697",
+   "relevant": false,
+   "reason": "官方商店页的鉴赏家参数变体，重复。"
+  },
+  {
+   "url": "https://www.pcgame.com/4958460/touhou-bansho-cards",
+   "relevant": false,
+   "reason": "商店页镜像的导购站，未提供披露原文。"
+  },
+  {
+   "url": "https://www.reddit.com/r/deckbuildingroguelike/best/",
+   "relevant": false,
+   "reason": " subreddit 列表页，与本作披露无关。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4958460",
+   "sourceType": "press",
+   "url": "https://genplay.gg/games/touhou-bansho-cards/",
+   "fetchedAt": "2026-11-04T10:03:49.882110+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "contentHash": "33b65246ec14c4edbc2e512008d962d03a6ced319e2d2ba0cb6e806e644b72ff",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4958460\\press-0.html",
+   "locator": "full article text",
+   "label": "GenPlay.gg 对该作 Steam 披露的复核页",
+   "quote": "Generative AI was used in the game's art production for image creation and image enhancement. Generative AI was used to translate the game's localized content."
+  },
+  {
+   "id": "press-1",
+   "appId": "4958460",
+   "sourceType": "press",
+   "url": "https://aitransparencyindex.com/products/steam/4958460",
+   "fetchedAt": "2026-11-04T10:03:49.921867+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "contentHash": "ae2f6422e41310e6487d5a1e56b08d16b2d818783c2b66c6bfbff4178f1546bc",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4958460\\press-1.html",
+   "locator": "full article text",
+   "label": "AI Transparency Index 该作条目（结构化数据逐字收录披露）",
+   "quote": "Generative AI was used in the game's art production for image creation and image enhancement.\\nGenerative AI was used to translate the game's localized content."
+  }
+ ],
+ "coverageLimits": [
+  "检索范围：单条网页检索；两家聚合站均逐字收录开发者原文。"
+ ]
+}

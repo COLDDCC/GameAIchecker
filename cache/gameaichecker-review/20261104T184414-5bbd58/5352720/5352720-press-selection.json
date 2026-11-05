@@ -1,0 +1,55 @@
+{
+ "results": [
+  {
+   "url": "https://gameaicheck.com/game/5352720/memeticbox",
+   "relevant": true,
+   "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5352720",
+   "relevant": false,
+   "reason": "官方商店页已单独抓取。"
+  },
+  {
+   "url": "http://howmuchai.games/ai/voice?filter=generated",
+   "relevant": false,
+   "reason": "纯 http 列表页，且非本作条目。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5352720/MemeticBox/?snr=1_300_morelikev2__105_3",
+   "relevant": false,
+   "reason": "官方商店页的推荐参数变体，重复。"
+  },
+  {
+   "url": "https://howmuchai.games/ai/voice",
+   "relevant": false,
+   "reason": "该站按领域筛选的列表页，非本作条目。"
+  },
+  {
+   "url": "https://steampeek.hu/?appid=5058430",
+   "relevant": false,
+   "reason": "其他作品的相似推荐列表。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5352720",
+   "sourceType": "press",
+   "url": "https://gameaicheck.com/game/5352720/memeticbox",
+   "fetchedAt": "2026-11-04T10:03:53.895328+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "contentHash": "07cb34d87559616be07ea68394f70f7c797e9e7ff004128783d02403966f3739",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\5352720\\press-0.html",
+   "locator": "full article text",
+   "label": "GameAICheck 该作披露核查页",
+   "quote": "Voices And Sounds Are AI Generated From the “AI Generated Content Disclosure” on the Steam store page, quoted as written."
+  }
+ ],
+ "coverageLimits": [
+  "检索范围：单条网页检索。",
+  "来源是同域聚合站 GameAICheck 的核查页，非原始媒体报道，仅作交叉印证，不用于扩展开发者未写的领域。"
+ ]
+}

@@ -1,0 +1,249 @@
+{
+  "sources": [
+    {
+      "appId": "2688780",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/2688780/?l=english",
+      "fetchedAt": "2026-11-04T10:22:21.982124+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "4f8bbcc6b1e7fe418dcb175b2d6e48fde254c0caba8df942be6d71b1fa580ea2",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2688780\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Some dialogue in the early part of Odd Town was created with assistance from LLM during development of the original demo and carried over into the full game. We are reviewing the script to identify all affected dialogue and replace it with original, human-written text in an upcoming update. No other content in the released version of Odd Town was generated or created with AI assistance.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Some dialogue in the early part of Odd Town was created with assistance from LLM during development of the original demo and carried over into the full game. We are reviewing the script to identify all affected dialogue and replace it with original, human-written text in an upcoming update. No other content in the released version of Odd Town was generated or created with AI assistance."
+    },
+    {
+      "id": "press-0",
+      "appId": "2688780",
+      "sourceType": "press",
+      "url": "https://www.yogomi.com/2026/10/odd-town-launches-on-pc/",
+      "fetchedAt": "2026-11-05T08:54:11.867398+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "Yogomi 报道：本作正式发售与开发/发行商",
+      "quote": "Indie developer The Flying Baguette and publisher HYPERSTRANGE have released Odd Town , a retro-styled first-person sandbox adventure, on PC via Steam for $11.99.",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2688780\\press-0.html",
+      "contentHash": "65917b06192d78d28dfc1cefd288a82bc74727b4b355647a131b55207d9b5ce5"
+    },
+    {
+      "appId": "2688780",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/2688780/discussions/?l=english",
+      "fetchedAt": "2026-11-04T10:22:23.301809+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "d2786509b5e672c573fb23563f1fdd1d82234b5767db5c151767c5bd545f0be6",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2688780\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "PINNED: Official Odd Town AI thread: What was missed and how we’re fixing it\nPINNED: Speech bubbles invisible\nPINNED: Will there be language support at launch?\nChange game resolution\nWhat even is that ? - Achivment help\nЯ сделал русификатор\nDeveloper confirmed AI used\ninvert y-axis\nPossible bug (Odd job)\nMusic Slider Doesn't Function\nKevin Taking Forever to Return\nController vibration\nFOV Slider\nMissing Y invert\nLast mission is A S S",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 92）；仅覆盖首页。"
+    },
+    {
+      "appId": "2688780",
+      "sourceType": "thread",
+      "url": "https://steamcommunity.com/app/2688780/discussions/0/567049039351374489/",
+      "fetchedAt": "2026-11-04T10:23:03.033687+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "899d401de7ab78ab8f5462813a68af76e49a4dafe18a7970416cbe0b56bf0312",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2688780\\thread-0.html",
+      "locator": "forum_op + all visible replies",
+      "quote": "TL;DR Odd Town has some AI supported content (some dialogues in the early part of the game). We are sorry we missed this. We are working to rewrite these parts and update the game ASAP, and we will make sure to do much better in the future! Some background In the early stages of development Flying Baguette, the solo developer behind the game, had experimented with AI to be able to self publish Odd Town if he could not find support with the full game release. The first thing we did together when we started our collaboration was to get rid of it. All the generated art (posters and graffiti) was replaced by our art team well in advance of the release (in the demo as well). What happened We realized we had unfortunately missed replacing the affected dialogue. Flying Baguette had used an LLM to help him with some of these dialogues in the Odd Town demo as English isn't his first language. Not nearly all of the demo dialogue used LLM support (as someone pointed out, there’s even a spelling mistake in a trailer). The rest of the game doesn’t use any generated content. We can say this both on the word of the developer, and also on our own judgment, as the dialogue we worked with for the full version had plenty of common slips. Our QA team and independent proofreaders can attest to this. What’s next We are now working on replacing the lines that used LLM support with original content. Flying Baguette is checking his work (this dialogue was written over two years ago), our QA team is going through the script focusing on identifying the generated remnants, and we have commissioned an independent editor to support us. That being said, please accept our sincere apology for the whole situation. In the meantime we have disclosed the use of AI on the Odd Town Steam store page and want to reassure you that, across all the titles we publish and develop, what we value the most is authorship and craft. We will do better. We will update you on the improvements as soon as changes are done.\n",
+      "id": "thread-0",
+      "label": "PINNED: Official Odd Town AI thread: What was missed and how we’re fixing it"
+    },
+    {
+      "appId": "2688780",
+      "sourceType": "thread",
+      "url": "https://steamcommunity.com/app/2688780/discussions/0/569300439979308439/",
+      "fetchedAt": "2026-11-04T10:23:03.698374+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "d75378ec192f4a0a2857de8c5179ecc414914098d758ddb46f197ad9fe6968bd",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2688780\\thread-1.html",
+      "locator": "forum_op + all visible replies",
+      "quote": "Everyone who is claiming AI was used on the dialogue is right. The developer confirmed on Reddit that they used AI to assist with the dialogue since English isn't their first language. The publisher is the one that's lying. You can find it here: https://www.reddit.com/r/ImmersiveSim/comments/1x6s5ky/after_years_of_development_my_solo_project_odd/\nPol View Profile View Posts 2 1 Oct 16 @ 3:06pm Report this post Your claim is incorrect and misleading. Here's the full quote : \"I did use AI to help with the dialogues, but it was mainly for correct grammar and wording \" In other words he used AI as to check grammar and spelling, not to write the dialogues on his behalf. https://www.reddit.com/r/ImmersiveSim/comments/1x6s5ky/comment/ph43fm8/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button Last edited by Pol ; Oct 16 @ 3:09pm #1\nJerd View Profile View Posts Oct 16 @ 3:09pm Report this post Originally posted by Pol : Your claim is incorrect and misleading. Here's the full quote : \"I did use AI to help with the dialogues, but it was mainly for correct grammar and wording \" I don't know how what I said is incorrect and misleading. I never said he used it to write the dialogue. I said he used it to assist. #2\nPol View Profile View Posts 2 1 Oct 16 @ 3:13pm Report this post You wrote exactly : \"Everyone who is claiming AI is right.\" Those people are ♥♥♥♥♥♥♥♥ on the game because they pretend the dev used AI generated assets - which is false. So no, not \"everyone who is claiming AI is right\", contrary to what you said. Last edited by Pol ; Oct 16 @ 3:13pm #3\nJerd View Profile View Posts Oct 16 @ 3:19pm Report this post Originally posted by Pol : You wrote exactly : \"Everyone who is claiming AI is right.\" Those people are ♥♥♥♥♥♥♥♥ on the game because they pretend the dev used AI generated assets - which is false. So no, not \"everyone who is claiming AI is right\", contrary to what you said. I don't think I'm wrong. I've seen people saying the dialogue used AI but was undisclosed. But I updated my post to say \"Everyone who is claiming AI was used on the dialogue is right.\" Either way, what I said was *not* misleading or incorrect. Last edited by Jerd ; Oct 16 @ 3:21pm #4\nEGGZxOVERxExZ View Profile View Posts Oct 16 @ 3:40pm Report this post I think some idiot on the dev team posted that the use of AI in the Kickstarter page. Plot twist, AI has been in games since the 90s. But regardless. Whoever made the call to mention AI at all needs a heavy kick to the shins. THe damage has been done and now its a he said she said situation. I believe no AI was used, honestly but it doesnt matter at this point. People believe AI was used so GG :/ The dude who wrote their kickstarter ruined the game. #5\nPol View Profile View Posts 2 2 1 Oct 16 @ 3:48pm Report this post Originally posted by Jerd : Either way, what I said was *not* misleading or incorrect. It was since you had to edit your post to fix that. I'm so tired of that nonsensical anti-AI hysteria. Nobody wants to play slop, but that is not a reason to behave like ♥♥♥♥♥♥♥♥ towards developers (especially indie devs that do this out of passion) and drag them in the mud just to get some attention. Last edited by Pol ; Oct 16 @ 3:48pm #6\nKain View Profile View Posts 2 1 1 Oct 16 @ 7:16pm Report this post OP creating a vague topic to spread hate towards a game simply because it used AI to help translation. #7\niffypencil View Profile View Posts Oct 17 @ 6:04pm Report this post Op's like you are so childish. You sound like babies who are whining because you caught your sibling with their hand in the cookie jar just shut up and play the game. Who cares if it's made with AI. If it's not slop it's fine #8\nYoungZer0 View Profile View Posts Oct 23 @ 12:47pm Report this post Who cares? #9\nHyperchaotic View Profile View Posts Oct 24 @ 7:25am Report this post Whatever man, no one cares and if you do - go use your time on something more useful #10\nDmhir View Profile View Posts Oct 30 @ 3:06pm Report this post Originally posted by Pol : Your claim is incorrect and misleading. Here's the full quote : \"I did use AI to help with the dialogues, but it was mainly for correct grammar and wording \" In other words he used AI as to check grammar and spelling, not to write the dialogues on his behalf. https://www.reddit.com/r/ImmersiveSim/comments/1x6s5ky/comment/ph43fm8/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button \"We are reviewing the script to identify all affected dialogue and replace it with original, human-written text in an upcoming update.\" Bro They don't even know what's AI or not. Are you fr? Why wouldn't you mark, or write down what dialogue is AI so that you could remove it later? You weren't planning on removing it Last edited by Dmhir ; Oct 30 @ 3:07pm #11",
+      "id": "thread-1",
+      "label": "Developer confirmed AI used"
+    }
+  ],
+  "identity": {
+    "appId": "2688780",
+    "name": "Odd Town",
+    "developer": "The Flying Baguette",
+    "publisher": "Hyperstrange",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 15, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "description": "Odd Town is a story-driven first-person adventure about being stuck in a town where everything feels just a little wrong. Explore a handcrafted, bite-sized town, meet suspicious locals, take odd jobs, dodge cops, become a conspiracy theorist, and steal sandwiches.",
+    "identityEvidence": {
+      "appId": "2688780",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=2688780&l=english",
+      "fetchedAt": "2026-11-04T10:22:22.615045+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "e27686e052ed04cdb71e2433cb5e0e57ccc2223e3e59822b950f92b1c061cb6a",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2688780\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 92,
+    "topics": [
+      {
+        "title": "PINNED: Official Odd Town AI thread: What was missed and how we’re fixing it",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/567049039351374489/"
+      },
+      {
+        "title": "PINNED: Speech bubbles invisible",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/569300204759713390/"
+      },
+      {
+        "title": "PINNED: Will there be language support at launch?",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/592940297913136800/"
+      },
+      {
+        "title": "Change game resolution",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/562546398187375031/"
+      },
+      {
+        "title": "What even is that ? - Achivment help",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/569300439979293747/"
+      },
+      {
+        "title": "Я сделал русификатор",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/562546398187322224/"
+      },
+      {
+        "title": "Developer confirmed AI used",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/569300439979308439/"
+      },
+      {
+        "title": "invert y-axis",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/798965575663549009/"
+      },
+      {
+        "title": "Possible bug (Odd job)",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/565919666444283873/"
+      },
+      {
+        "title": "Music Slider Doesn't Function",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/569300204759718166/"
+      },
+      {
+        "title": "Kevin Taking Forever to Return",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/569300204759720432/"
+      },
+      {
+        "title": "Controller vibration",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/589566229677739135/"
+      },
+      {
+        "title": "FOV Slider",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/806832194048861626/"
+      },
+      {
+        "title": "Missing Y invert",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/569300204759717460/"
+      },
+      {
+        "title": "Last mission is A S S",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/567049039351303982/"
+      }
+    ],
+    "related": [
+      {
+        "title": "PINNED: Official Odd Town AI thread: What was missed and how we’re fixing it",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/567049039351374489/",
+        "status": "complete",
+        "evidenceId": "thread-0",
+        "identityVerified": true,
+        "repliesChecked": true
+      },
+      {
+        "title": "Developer confirmed AI used",
+        "url": "https://steamcommunity.com/app/2688780/discussions/0/569300439979308439/",
+        "status": "complete",
+        "evidenceId": "thread-1",
+        "identityVerified": true,
+        "repliesChecked": true
+      }
+    ],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Odd Town\" review adventure game Hyperstrange indie october 2026",
+    "searchedAt": "2026-11-05T08:47:58.091648+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://www.wame.is/game/6023",
+        "relevant": false,
+        "reason": "WAME 聚合页的“AI review analysis”是该站对玩家评测的自动分析功能，与开发者是否使用生成式 AI 无关；正文为前端渲染。"
+      },
+      {
+        "url": "https://www.instagram.com/p/DeiicGmCsIR/",
+        "relevant": false,
+        "reason": "Instagram 帖子需登录才能读取，正文不可核验。"
+      },
+      {
+        "url": "https://www.facebook.com/61589456162947/videos/pretty-sure-were-the-problem-in-this-town-sponsored-by-hyperstrangeodd-town-is-a/1039494362494501/",
+        "relevant": false,
+        "reason": "Facebook 视频页需登录，且为发行商投放的宣传视频页，不是独立报道。"
+      },
+      {
+        "url": "https://www.facebook.com/100068758232177/posts/welcome-to-odd-town-a-retro-style-first-person-adventure-where-strange-locals-co/1404386278529967/",
+        "relevant": false,
+        "reason": "Facebook 个人主页转发帖，需登录且不含披露原文。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/2688780/Odd_Town/",
+        "relevant": false,
+        "reason": "官方商店页已在本批单独抓取为 store 来源，不重复登记。"
+      },
+      {
+        "url": "https://www.yogomi.com/2026/10/odd-town-launches-on-pc/",
+        "relevant": true,
+        "reason": "独立媒体报道本作已于 2026 年 10 月 15 日在 Steam 正式发售（开发 The Flying Baguette、发行 HYPERSTRANGE、售价 11.99 美元），已读取全文并登记；该报道未提及生成式 AI，故只佐证正式版身份而非 AI 用途。"
+      }
+    ],
+    "readUrls": [
+      "https://www.yogomi.com/2026/10/odd-town-launches-on-pc/"
+    ],
+    "coverageLimits": [
+      "检索范围：四条网页检索（AI 披露向、发售报道向、聚合站点名向、App ID 点名向），原始返回分别存档为 press-search.json、press-search.ai.json、press-search.dev.json、press-search.tracker.json。",
+      "开发者在 r/ImmersiveSim 的自述帖：本机直连超时、GitHub Actions 中转返回 HTTP 403，正文未能读取；其 AI 相关自述已由 Steam 置顶讨论帖取证。",
+      "howmuchai.games、steamaifilter.xyz、gameaicheck.com 对本作均有页面，但四次检索均未返回这些链接，按规则不登记未被检索命中的 URL。",
+      "itch.io 的 Odd Town Demo 为试玩版页面，不计入正式版新增，故未作为来源。",
+      "唯一读取的独立报道（yogomi.com）正文未提及生成式 AI，只能佐证发售状态；本作 AI 用途判断以商店披露与开发者讨论帖为准。",
+      "检索结果数量不代表搜索量，未检索到独立 AI 报道也不能证明未使用 AI。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2688780\\press-search.json",
+    "contentHash": "c9304e5ab71bcc43dba88c9d5c4c7c6eecf027376b62374e8d9e34cd466816cf"
+  }
+}

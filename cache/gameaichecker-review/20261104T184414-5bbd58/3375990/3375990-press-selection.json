@@ -1,0 +1,41 @@
+{
+ "results": [
+  {
+   "url": "https://steamaifilter.xyz/game/3375990-pc-cafe-simulator",
+   "relevant": false,
+   "reason": "已抓取原始页面，但该作披露正文由脚本渲染，静态 HTML 只剩标题，没有可引用的原文，故不登记为来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/3375990/PC_Cafe_Simulator/",
+   "relevant": false,
+   "reason": "官方商店页已由 store 证据单独抓取，重复登记无意义。"
+  },
+  {
+   "url": "https://aitransparencyindex.com/products/steam/4704660",
+   "relevant": false,
+   "reason": "同名近似但 App ID 为 4704660 的另一款游戏，与本作无关。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/game/4095800-the-failed",
+   "relevant": false,
+   "reason": "其他作品的披露页。"
+  },
+  {
+   "url": "https://gamedb.ai/",
+   "relevant": false,
+   "reason": "聚合站首页，静态 HTML 不含本作条目内容。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/game/4950410-pit-purge",
+   "relevant": false,
+   "reason": "其他作品的披露页。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "检索范围：两条网页检索。",
+  "steamaifilter.xyz 与 gamedb.ai 的该作内容均为脚本渲染，静态 HTML 无披露原文；已抓取 steamaifilter 页面并保留。",
+  "检索到的 Inven Global 报道是上线新闻，未谈 AI 使用，故未登记为 AI 判定来源；games-stats 页面返回 403。",
+  "本批未读到任何第三方对该作披露的独立表述，判定只依据官方商店页披露原文。"
+ ]
+}

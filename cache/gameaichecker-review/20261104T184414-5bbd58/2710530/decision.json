@@ -1,0 +1,64 @@
+{
+  "identityName": "Rug Cleaning Simulator",
+  "identityDeveloper": "Monte de shot",
+  "category": "official_ai_disclosure",
+  "disclosureQuote": "AI was used for some translations and some visual assets (textures, images, models). The game does not create AI-generated content during gameplay.",
+  "aiScopeUnspecified": false,
+  "areas": {
+    "ingame": {
+      "state": "none",
+      "note": "披露用整句否定游戏进行中的实时生成，原文是 The game does not create AI-generated content during gameplay.，即游玩过程本身不产出 AI 内容；这句只覆盖 gameplay 时段，不覆盖开发期资产。",
+      "evidenceId": "store",
+      "quote": "The game does not create AI-generated content during gameplay."
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "used",
+      "note": "披露原文把生成式 AI 用于部分视觉资产，并逐项列出贴图、图像与模型三类；措辞是 some，即只承认一部分资产，未给出比例。",
+      "evidenceId": "store",
+      "quote": "some visual assets (textures, images, models)"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "used",
+      "note": "披露第一句 AI was used for some translations and some visual assets ...，同一结构承认翻译也只用在一部分语言版本上。",
+      "evidenceId": "store",
+      "quote": "AI was used for some translations"
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "summary": "第一人称洗地毯经营游戏，2026 年 10 月 28 日上架，Monte de shot 自行开发与发行，分类为休闲／独立／模拟。商店 AI 披露写明生成式 AI 用在部分翻译与部分视觉资产（贴图、图像、模型），并声明游戏在游玩过程中不会创建 AI 生成内容。本站据此把翻译与美术登记为已使用，把游戏内实时生成登记为披露明确否认的未使用，代码、音乐、语音、文本创作与营销登记为未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 Monte de shot）与英文讨论区首页（可见 15 个主题，总数 44，仅覆盖首页）；首页没有命中 AI 关键词的主题，因此没有相关帖可读。本款单独检索公开报道 1 次，登记该次响应的 6 条结果，读取 1 篇原始来源：genplay.gg 的本作条目逐字转录商店披露，未提供披露之外的信息，故只作为第三方转录登记。其余 5 条是一条针对 Steam 披露功能而非本作的 Reddit 泛话题帖、steamaifilter.xyz 的本作页（正文由脚本渲染，抓到的静态 HTML 只有标题，无法逐字引用）、需登录的 Facebook 小组帖、一个 Steam 鉴赏家聚合列表页与 Valve 的政策文档，均不作为来源。检索范围记录在 coverageLimits，未检索到独立报道不能证明未使用 AI；四个未说明领域也不等于未使用。",
+  "description": "接手顾客送来的脏地毯，一步步清洗、烘干、修补，赚钱升级工具，把小工坊经营成连锁清洗生意。",
+  "english": {
+    "summary": "A first-person rug cleaning business sim released on Oct 28, 2026, self-developed and self-published by Monte de shot and filed under Casual, Indie and Simulation. The Steam AI disclosure says AI was used for some translations and for some visual assets, naming textures, images and models, and adds that the game does not create AI-generated content during gameplay. This site records translation and art as used, live in-game generation as not used because the developer denies it, and code, music, voice, writing and marketing as areas the disclosure does not address. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure, the identity (Monte de shot is both developer and publisher) and the English discussion homepage (15 visible topics of 44, first page only), where no topic matches the AI keyword search, so no thread needed reading. This title was searched once, that one response holds 6 results and 1 raw source was read: the genplay.gg entry for this game transcribes the store disclosure verbatim and carries no information beyond it, so it is registered only as a third-party transcription. The other 5 results were a Reddit thread about the Steam disclosure feature rather than this game, a steamaifilter.xyz page whose body is rendered by script so the captured static HTML holds only the title and cannot be quoted, a Facebook group post behind a login, a Steam curator listing and a Valve policy document; none is registered as a source. The search scope is recorded in coverageLimits: no independent report was found, which is not proof that AI was not used, and the four areas left unaddressed are likewise not evidence of non-use.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure denies it in a full sentence: The game does not create AI-generated content during gameplay. That covers generation while the player is playing, not assets made during development.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The developer states AI was used for some visual assets and names textures, images and models. The word some limits the claim to part of the asset set and gives no share.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The same sentence admits AI was used for some translations, so only part of the language versions are covered and no share is given.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "identityName": "Touhou Bansho Cards",
+  "identityDeveloper": "EskiNott Game Studio",
+  "category": "official_ai_disclosure",
+  "disclosureQuote": "Generative AI was used in the game's art production for image creation and image enhancement. Generative AI was used to translate the game's localized content.",
+  "aiScopeUnspecified": false,
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "used",
+      "note": "披露第一句写明生成式 AI 用于游戏的艺术制作，包含图像生成（image creation）与图像增强（image enhancement）两种用法，即既有直接产出也有修图放大。",
+      "evidenceId": "store",
+      "quote": "Generative AI was used in the game's art production for image creation and image enhancement."
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "used",
+      "note": "披露第二句写明生成式 AI 用于翻译本作的本地化内容。",
+      "evidenceId": "store",
+      "quote": "Generative AI was used to translate the game's localized content."
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "summary": "东方题材的 roguelike 卡牌构筑游戏，2026 年 10 月 26 日上架，EskiNott Game Studio 自行开发与发行，分类为冒险／休闲／独立／角色扮演／策略。商店 AI 披露写明生成式 AI 用于美术制作中的图像生成与图像增强，并用于翻译本地化内容。本站据此把美术与翻译登记为已使用，其余六个领域登记为披露未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 EskiNott Game Studio）与英文讨论区首页（可见 15 个主题，总数 15，即首页覆盖全部主题），其中两条命中关键词的主题已完整读取正文与全部可见回复。其一 Please remove AI from this game 里玩家批评 AI 痕迹，开发者以 [developer] 身份回复说本作全部由自己开发、经济状况不允许委托画师或购买更专业的素材，使用 AI 生成美术是在限制下的妥协，并说若销量足够会考虑替换；其二 Question for dev, about the extend of the AI art usage 里玩家追问用了哪些模型、美术风格不寻常。这些是社区自述与开发者在讨论区的说明，本站只登记为社区与开发者言论，不当作独立核实，也不据此扩大披露未提的领域。本款单独检索公开报道 1 次，登记该次响应的 6 条结果，读取 2 篇原始来源：genplay.gg 与 AI Transparency Index 的本作条目都逐字转录商店披露原文；后者额外把该作标注为 Process AI-generated、Live AI during play 为 No，并给出模型自报置信度 95%，但该站明确说明这是 auto-classified 的模型估计、不是准确率或人工评审，且以原始披露为准，因此本站不采纳其游戏内实时生成的判定，该领域仍记为未说明。其余 4 条是本作商店页与一个鉴赏家参数的商店页变体、一个商店页镜像的导购站（pcgame.com）与一个 roguelike 卡牌 subreddit 的列表页，均不含披露之外的可核验内容，未登记为来源。",
+  "description": "以东方 Project 为题材的单人 roguelike 卡牌构筑：打出卡牌就一路连击到底，突破伤害上限，收集卡牌、探索万书回廊、击败回响并救出困在其中的角色。",
+  "english": {
+    "summary": "A Touhou-themed roguelike deckbuilder released on Oct 26, 2026, self-developed and self-published by EskiNott Game Studio and filed under Adventure, Casual, Indie, RPG and Strategy. The Steam AI disclosure states that generative AI was used in the games art production for both image creation and image enhancement, and was used to translate the localised content. This site records art and translation as used on that wording and the remaining six areas as areas the disclosure does not address. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure, the identity (EskiNott Game Studio is both developer and publisher) and the English discussion homepage (15 visible topics of 15, so the homepage covers every topic), and read both keyword-matched threads in full including every visible reply. In Please remove AI from this game players criticise the visible AI traces and the developer answers under a developer badge that the game is made entirely alone, that their financial situation does not allow commissioning artists or buying better art assets, that AI-generated artwork was a compromise under those limits, and that replacement would be considered if sales allow. In Question for dev, about the extend of the AI art usage players ask which models were used. These are community posts and developer forum statements, recorded here as what those people said rather than as independent verification, and they do not extend any area the disclosure leaves open. This title was searched once, that one response holds 6 results and 2 raw sources were read: the genplay.gg entry and the AI Transparency Index entry both transcribe the store disclosure verbatim. The index page additionally marks the process as AI-generated and live AI during play as No with a model-reported confidence of 95 percent, while stating on the same page that this is auto-classified model output, not an accuracy rate or a human review score, and that the raw disclosure remains the source of truth; this site therefore does not adopt its live-generation finding and keeps that area unaddressed. The remaining 4 results were the store page and a curators-parameter variant of it, a storefront mirror on pcgame.com and a listing page of a deckbuilder subreddit; none carries verifiable information beyond the disclosure, so none is registered as a source.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure names two separate uses inside art production, image creation and image enhancement, so generative AI both produced and retouched the artwork according to the developer.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "The second sentence states that generative AI was used to translate the localised content of the game.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    }
+  }
+}

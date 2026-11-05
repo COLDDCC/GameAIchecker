@@ -1,0 +1,70 @@
+{
+  "identityName": "Odd Town",
+  "identityDeveloper": "The Flying Baguette",
+  "category": "official_ai_disclosure",
+  "disclosureQuote": "Some dialogue in the early part of Odd Town was created with assistance from LLM during development of the original demo and carried over into the full game. We are reviewing the script to identify all affected dialogue and replace it with original, human-written text in an upcoming update. No other content in the released version of Odd Town was generated or created with AI assistance.",
+  "aiScopeUnspecified": false,
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "none",
+      "note": "披露只承认早期部分的对话有 LLM 参与，并以该句把已发布版本的其余内容全部归为未使用；发行商在置顶讨论帖里进一步说明 demo 与正式版的海报、涂鸦等生成美术早已由美术团队替换。这两处都是相关方自述，未经独立审计。",
+      "evidenceId": "store",
+      "quote": "No other content in the released version of Odd Town was generated or created with AI assistance."
+    },
+    "music": {
+      "state": "none",
+      "note": "同一句整体否定其余内容使用 AI；披露没有单列音乐，本站按这句登记为未使用，并保留只是相关方自述、未经独立审计的限定。",
+      "evidenceId": "store",
+      "quote": "No other content in the released version of Odd Town was generated or created with AI assistance."
+    },
+    "voice": {
+      "state": "none",
+      "note": "同一句整体否定其余内容使用 AI；披露没有单列配音，本站按这句登记为未使用，并保留只是相关方自述、未经独立审计的限定。",
+      "evidenceId": "store",
+      "quote": "No other content in the released version of Odd Town was generated or created with AI assistance."
+    },
+    "writing": {
+      "state": "used",
+      "note": "披露原文承认游戏早期部分的若干对话在最初 demo 开发阶段借助 LLM 创作，并沿用到正式版；开发者同时说正在逐句排查脚本、将在后续更新里换成原创人工撰写的文本，即已发布版本仍含受影响对话，替换尚未完成。",
+      "evidenceId": "store",
+      "quote": "Some dialogue in the early part of Odd Town was created with assistance from LLM during development of the original demo and carried over into the full game."
+    },
+    "translation": {
+      "state": "none",
+      "note": "披露未提及翻译；本站按那句整体否定登记为未使用。发行商的置顶讨论帖另有一段说明开发者英语非母语、当初正是借助 LLM 处理对话的语法与措辞，这条属于讨论帖叙述而非披露条款，故只写在讨论说明里，不改变本领域结论。",
+      "evidenceId": "store",
+      "quote": "No other content in the released version of Odd Town was generated or created with AI assistance."
+    },
+    "marketing": {
+      "state": "none",
+      "note": "同一句整体否定其余内容使用 AI；披露没有单列宣传素材，本站按这句登记为未使用，并保留只是相关方自述、未经独立审计的限定。",
+      "evidenceId": "store",
+      "quote": "No other content in the released version of Odd Town was generated or created with AI assistance."
+    }
+  },
+  "summary": "第一人称叙事冒险游戏，2026 年 10 月 15 日上架，The Flying Baguette 开发、Hyperstrange 发行，分类为动作／冒险／独立。商店 AI 披露承认游戏早期部分的若干对话在最初 demo 阶段由 LLM 协助创作并沿用到正式版，开发者正在排查脚本、将在后续更新中换成人工撰写的文本，并声明已发布版本没有其它内容以 AI 生成或协助制作。本站据此把文本创作登记为已使用，把美术、音乐、语音、翻译与营销登记为披露整体否认的未使用，代码与游戏内实时生成登记为未说明。所有结论只有相关方自述支撑，未经独立审计。",
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商 The Flying Baguette，发行商 Hyperstrange）与英文讨论区首页（可见 15 个主题，总数 92，仅覆盖首页），两条命中关键词的主题已完整读取正文与全部可见回复：其一是发行商发布的置顶帖 Official Odd Town AI thread，说明单人开发者在早期曾试验 AI 以便在找不到支持时自行发行，双方合作后第一件事就是移除，demo 与正式版的海报、涂鸦等生成美术早已由美术团队替换，但漏掉了受影响的那部分对话，开发者英语非母语、当初用 LLM 协助这些对话，现已请独立编辑与 QA 逐句排查并将替换；其二是玩家帖 Developer confirmed AI used，主张开发者在 Reddit 确认对话有 AI 协助（主要处理语法与措辞），并有回复粘贴了该自述引文。Reddit 原帖本机直连超时、GitHub Actions 中转返回 HTTP 403，正文无法读取，因此只作为讨论区线索登记，不作为来源。本款单独检索公开报道 4 次，原始返回分别存档为 press-search.json 与 press-search.ai.json、.dev.json、.tracker.json，采用其中一次响应的 6 条结果并读取 1 篇来源：yogomi.com 的发售报道全文未提及生成式 AI，只用于佐证本作是 2026 年 10 月 15 日的正式发售版本。howmuchai.games、steamaifilter.xyz、gameaicheck.com 都建有本作页面，但四次检索均未返回这些链接，按规则不登记未被检索命中的 URL；r/ImmersiveSim 的开发者自述帖与 itch.io 的 demo 页面也分别因 403 与试玩版口径未登记。讨论帖里发行商与玩家对影响范围的口径并不一致（是否只有早期部分对话），本站以商店披露原文为准，并把这一分歧记在这里。",
+  "description": "你在一座事事都有些不对劲的小镇里滞留：接正常或不太正经的零工、和可疑的镇民打交道、躲避警察、顺手偷走三明治，用第一人称拼出这个小镇的怪谈。",
+  "english": {
+    "summary": "A story-driven first-person adventure released on Oct 15, 2026, developed by The Flying Baguette and published by Hyperstrange, filed under Action, Adventure and Indie. The Steam AI disclosure states that some dialogue in the early part of the game was created with assistance from an LLM during development of the original demo and carried over into the full game, that the script is being reviewed so those lines can be replaced with original human-written text in an upcoming update, and that no other content in the released version was generated or created with AI assistance. This site records writing as used, art, music, voice, translation and marketing as not used on that catch-all denial, and code and live in-game generation as areas the disclosure does not address. Every finding rests on statements from the parties involved and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure, the identity (developer The Flying Baguette, publisher Hyperstrange) and the English discussion homepage (15 visible topics of 92, first page only), and read both keyword-matched threads in full with every visible reply. The pinned thread from the publisher, Official Odd Town AI thread, explains that the solo developer had experimented with AI early on so the game could be self-published if no support was found, that removing it was the first thing done once the collaboration began, that all generated art such as posters and graffiti had been replaced by the art team well before release including in the demo, that the affected dialogue lines were unfortunately missed, that English is not the developers first language so an LLM helped with those lines, and that QA, an independent editor and the developer are now going through the script to replace them. The second thread, Developer confirmed AI used, argues the developer confirmed AI help with dialogue on Reddit, mainly for grammar and wording, and quotes that statement. The Reddit original timed out from this machine and returned HTTP 403 through the GitHub Actions relay, so it is kept as a lead from the forum rather than a source. This title was searched four times, with the raw responses archived as press-search.json, press-search.ai.json, press-search.dev.json and press-search.tracker.json; the disposition covers the 6 results of the response used and 1 source was read: the yogomi.com launch report, whose full text never mentions generative AI and is used only to confirm that this is the commercial release of Oct 15, 2026. howmuchai.games, steamaifilter.xyz and gameaicheck.com all hold pages for this game but none of the four searches returned those links, and by rule a URL the search did not return cannot be registered; the developers self-post in r/ImmersiveSim and the itch.io demo page were excluded for the 403 and the demo scope reasons. The publisher and the players do not fully agree on the extent of the affected dialogue, so this site follows the store disclosure text and records the disagreement here instead of resolving it.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure denies AI for all content other than the early dialogue, and the publishers pinned forum thread adds that every generated art piece such as posters and graffiti was replaced by the art team before release; both are statements by the parties involved and have not been independently audited.",
+      "music": "The disclosure does not name music separately; this area is recorded as not used through the catch-all sentence about the released version, with the self-statement caveat intact.",
+      "voice": "The disclosure does not name voice acting separately; this area is recorded as not used through the same catch-all sentence, with the self-statement caveat intact.",
+      "writing": "The disclosure admits that some early dialogue was created with LLM assistance during the original demo and carried into the full game, and that the affected lines are still being identified and replaced in an upcoming update, so the released version still contains them.",
+      "translation": "The disclosure says nothing about translation, so this area is recorded as not used through the catch-all denial. The pinned forum thread adds that the developer used an LLM on those lines because English is not their first language, which is a forum statement rather than a disclosure term and does not change this finding.",
+      "marketing": "The disclosure does not name promotional material separately; this area is recorded as not used through the same catch-all sentence, with the self-statement caveat intact."
+    }
+  }
+}

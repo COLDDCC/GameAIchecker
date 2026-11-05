@@ -1,0 +1,154 @@
+{
+  "sources": [
+    {
+      "appId": "4773930",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4773930/?l=english",
+      "fetchedAt": "2026-11-04T10:17:33.465985+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "59bc00a46e73debe14f6e633eca59fe6ae264566c1227ace917a9f82330015df",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4773930\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "We use AI to assist in the creation of promotional materials.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "We use AI to assist in the creation of promotional materials."
+    },
+    {
+      "appId": "4773930",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4773930/discussions/?l=english",
+      "fetchedAt": "2026-11-04T10:17:34.794071+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "f93c237b5d9418ec140c9afd5d4342f8ebb1020419a86931c472230cc8b10c69",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4773930\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "傻逼游戏而已，并且都是托\n再出现在我队列里你们这游戏公司所有人的老冯即刻暴毙^^\n来个真正的传奇吧 最好是可以搬砖的",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 3 个主题（总数 3）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4773930",
+      "sourceType": "press",
+      "url": "https://aitransparencyindex.com/products/steam/4773930",
+      "fetchedAt": "2026-11-05T08:54:09.482578+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "AI Transparency Index 对本作商店披露的第三方转录",
+      "quote": "AI-assisted material appears only on the store page or in marketing AI is used to assist in the creation of promotional materials. Process AI-assisted Live AI during play No Evidence & analysis details Evidence used “use AI to assist in the creation of promotional materials” “We use AI to assist in the creation of promotional materials” Model-reported confidence 95% A model estimate, not a measured accuracy rate or a human review score. Auto-classified from the public disclosure. The raw disclosure below remains the source of truth.",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4773930\\press-0.html",
+      "contentHash": "f90f330f5e364fcfcb80dc023075e430099f3dd1b0c7bda4fefd24a8dcf4d8f5"
+    }
+  ],
+  "identity": {
+    "appId": "4773930",
+    "name": "君临传奇之风起云涌",
+    "developer": "君临传奇之风起云涌",
+    "publisher": "君临传奇之风起云涌",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 22, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Casual",
+      "Indie",
+      "Massively Multiplayer",
+      "RPG",
+      "Free To Play"
+    ],
+    "description": "江湖将乱，风云已动！经典复古高爆国战版传奇，专为兄弟情义与热血厮杀而生！不氪金照样封神，不将就才能称王。极品装备、绝世武学全凭实力爆出，BOSS越狠，爆得越疯，捡到你手软！ 战鼓擂响，屠龙在手，兄弟们整装待发——攻沙、夺城、君临天下！",
+    "identityEvidence": {
+      "appId": "4773930",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4773930&l=english",
+      "fetchedAt": "2026-11-04T10:17:34.044083+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "012d949e1f36463e0c2079e08504721c46137369587a3aa01799a413d3c49830",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4773930\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 3,
+    "totalTopics": 3,
+    "topics": [
+      {
+        "title": "傻逼游戏而已，并且都是托",
+        "url": "https://steamcommunity.com/app/4773930/discussions/0/592937421547700804/"
+      },
+      {
+        "title": "再出现在我队列里你们这游戏公司所有人的老冯即刻暴毙^^",
+        "url": "https://steamcommunity.com/app/4773930/discussions/0/576047946418637537/"
+      },
+      {
+        "title": "来个真正的传奇吧 最好是可以搬砖的",
+        "url": "https://steamcommunity.com/app/4773930/discussions/0/576047359821309911/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "君临传奇之风起云涌 Steam AI 宣传素材",
+    "searchedAt": "2026-11-05T08:49:58.086191+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/news/app/4773930/view/688644961237732369?l=italian&snr=1_5_9_",
+        "relevant": false,
+        "reason": "官方商店新闻公告页（链接带 l=italian 参数），属开发者自有渠道而非第三方报道；商店披露已单独抓取，不重复登记。"
+      },
+      {
+        "url": "https://steamcommunity.com/app/4773930",
+        "relevant": false,
+        "reason": "Steam 社区首页，与本批已抓取的英文讨论区首页同源导航，不含新的披露内容。"
+      },
+      {
+        "url": "https://steamdb.info/app/4773930/screenshots/",
+        "relevant": false,
+        "reason": "SteamDB 截图聚合页对公开抓取返回 HTTP 403，正文不可读；且为数据聚合页，不转录披露原文。"
+      },
+      {
+        "url": "https://newgame.17173.com/game-info-1048163.html",
+        "relevant": false,
+        "reason": "17173 新游资料页对公开抓取返回 HTTP 403，正文不可读，无法核实其是否涉及 AI。"
+      },
+      {
+        "url": "https://aitransparencyindex.com/products/steam/4773930",
+        "relevant": true,
+        "reason": "第三方披露索引站逐字转录了本作商店页的 AI 披露原文，已读取全文并登记为来源。"
+      },
+      {
+        "url": "https://isthereanydeal.com/game/jun-lin-chuan-qi-zhi-feng-qi-yun-yong/assets/",
+        "relevant": false,
+        "reason": "IsThereAnyDeal 资产列表页为前端脚本渲染，静态正文仅 338 字符且不含 AI 披露，无法作为可核验来源。"
+      }
+    ],
+    "readUrls": [
+      "https://aitransparencyindex.com/products/steam/4773930"
+    ],
+    "coverageLimits": [
+      "检索范围：单条中文网页检索（含游戏名 + Steam + AI 关键词），只覆盖搜索引擎返回的前 6 条结果。",
+      "本作无英文媒体名称检索通道，SteamDB 与 17173 两条聚合结果对公开抓取返回 HTTP 403，正文未能读取。",
+      "检索结果数量不代表搜索量，未检索到独立报道也不能证明未使用 AI。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4773930\\press-search.json",
+    "contentHash": "8332a4ce8698c64a4c1659b884df61b65d85f9a4a8b3f4e42f82a30758d52ac6"
+  }
+}

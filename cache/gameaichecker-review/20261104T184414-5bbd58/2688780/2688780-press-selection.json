@@ -1,0 +1,59 @@
+{
+ "results": [
+  {
+   "url": "https://www.wame.is/game/6023",
+   "relevant": false,
+   "reason": "WAME 聚合页的“AI review analysis”是该站对玩家评测的自动分析功能，与开发者是否使用生成式 AI 无关；正文为前端渲染。"
+  },
+  {
+   "url": "https://www.instagram.com/p/DeiicGmCsIR/",
+   "relevant": false,
+   "reason": "Instagram 帖子需登录才能读取，正文不可核验。"
+  },
+  {
+   "url": "https://www.facebook.com/61589456162947/videos/pretty-sure-were-the-problem-in-this-town-sponsored-by-hyperstrangeodd-town-is-a/1039494362494501/",
+   "relevant": false,
+   "reason": "Facebook 视频页需登录，且为发行商投放的宣传视频页，不是独立报道。"
+  },
+  {
+   "url": "https://www.facebook.com/100068758232177/posts/welcome-to-odd-town-a-retro-style-first-person-adventure-where-strange-locals-co/1404386278529967/",
+   "relevant": false,
+   "reason": "Facebook 个人主页转发帖，需登录且不含披露原文。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/2688780/Odd_Town/",
+   "relevant": false,
+   "reason": "官方商店页已在本批单独抓取为 store 来源，不重复登记。"
+  },
+  {
+   "url": "https://www.yogomi.com/2026/10/odd-town-launches-on-pc/",
+   "relevant": true,
+   "reason": "独立媒体报道本作已于 2026 年 10 月 15 日在 Steam 正式发售（开发 The Flying Baguette、发行 HYPERSTRANGE、售价 11.99 美元），已读取全文并登记；该报道未提及生成式 AI，故只佐证正式版身份而非 AI 用途。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "2688780",
+   "sourceType": "press",
+   "url": "https://www.yogomi.com/2026/10/odd-town-launches-on-pc/",
+   "fetchedAt": "2026-11-05T08:54:11.867398+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "Yogomi 报道：本作正式发售与开发/发行商",
+   "quote": "Indie developer The Flying Baguette and publisher HYPERSTRANGE have released Odd Town , a retro-styled first-person sandbox adventure, on PC via Steam for $11.99.",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\2688780\\press-0.html",
+   "contentHash": "65917b06192d78d28dfc1cefd288a82bc74727b4b355647a131b55207d9b5ce5"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围：四条网页检索（AI 披露向、发售报道向、聚合站点名向、App ID 点名向），原始返回分别存档为 press-search.json、press-search.ai.json、press-search.dev.json、press-search.tracker.json。",
+  "开发者在 r/ImmersiveSim 的自述帖：本机直连超时、GitHub Actions 中转返回 HTTP 403，正文未能读取；其 AI 相关自述已由 Steam 置顶讨论帖取证。",
+  "howmuchai.games、steamaifilter.xyz、gameaicheck.com 对本作均有页面，但四次检索均未返回这些链接，按规则不登记未被检索命中的 URL。",
+  "itch.io 的 Odd Town Demo 为试玩版页面，不计入正式版新增，故未作为来源。",
+  "唯一读取的独立报道（yogomi.com）正文未提及生成式 AI，只能佐证发售状态；本作 AI 用途判断以商店披露与开发者讨论帖为准。",
+  "检索结果数量不代表搜索量，未检索到独立 AI 报道也不能证明未使用 AI。"
+ ]
+}

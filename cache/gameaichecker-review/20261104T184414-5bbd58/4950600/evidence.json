@@ -1,0 +1,171 @@
+{
+  "sources": [
+    {
+      "appId": "4950600",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4950600/?l=english",
+      "fetchedAt": "2026-11-04T09:49:49.273004+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "db779f21370249faffa39bc7c546345a50961d1f771814e84161f584b7b79a41",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4950600\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Generative AI may be used to assist with localization. All final text is reviewed and edited by the developer.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Generative AI may be used to assist with localization. All final text is reviewed and edited by the developer."
+    },
+    {
+      "appId": "4950600",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4950600/discussions/?l=english",
+      "fetchedAt": "2026-11-04T09:58:19.118782+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "0a2bf0cf15b6fa4abc9209c4a9d094ec415924ab3fcac5083149163aa186486b",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4950600\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "AI Localization\nПоддержка инди разработчиков\nHow to wtich to an other language",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 3 个主题（总数 3）；仅覆盖首页。"
+    },
+    {
+      "appId": "4950600",
+      "sourceType": "thread",
+      "url": "https://steamcommunity.com/app/4950600/discussions/0/569301473354388980/",
+      "fetchedAt": "2026-11-04T09:59:28.521772+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "dae67c92a22396b4236ce57aedaf0b8f687a75db7406e2f4a9b167f15e0da875",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4950600\\thread-0.html",
+      "locator": "forum_op + all visible replies",
+      "quote": "A shame this was considered to begin with. Pay translators fairly.\nTopcat View Profile View Posts 1 1 Oct 30 @ 7:22pm Report this post I agree that this sucks and proper translators would have been better but this is a fairly small indie game so I feel like we should cut the developer some slack as they may not have had the budget to hire good translators #1\nKorkBurningapple View Profile View Posts Nov 1 @ 1:25am Report this post The developer of this title is a solo developer. As anyone who has played this game will know, it all comes down to the choice of words. I think it’s enough simply to write: ‘This game was brilliant! However, I think the translation would sound more natural if it were done by a human! Thank you for making this game! I’ll continue to support you!’ Just by changing the way you phrase things slightly, how much more like a person of integrity and common sense would you appear? I believe that very attitude is what matters most. #2",
+      "id": "thread-0",
+      "label": "AI Localization"
+    },
+    {
+      "id": "press-0",
+      "appId": "4950600",
+      "sourceType": "press",
+      "url": "https://genplay.gg/games/happy-propaganda/",
+      "fetchedAt": "2026-11-04T10:02:51.033276+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "contentHash": "502d376d14d590524a962c11013db83a18ebd331b90f29902cfd82a9e8e61560",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4950600\\press-0.html",
+      "locator": "full article text",
+      "label": "GenPlay.gg 对该作 Steam 披露的复核页",
+      "quote": "Generative AI may be used to assist with localization. All final text is reviewed and edited by the developer."
+    }
+  ],
+  "identity": {
+    "appId": "4950600",
+    "name": "HAPPY PROPAGANDA",
+    "developer": "Not a Dog",
+    "publisher": "Not a Dog",
+    "type": "game",
+    "verified": true,
+    "release": "27 Oct, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Simulation"
+    ],
+    "description": "Approve or censor live chat in Happy Propaganda. Balance viewer anger and the host's well-being, choose broadcast topics, and talk off-air. Five days of choices lead to multiple endings.",
+    "identityEvidence": {
+      "appId": "4950600",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4950600&l=english",
+      "fetchedAt": "2026-11-04T09:49:50.730826+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "aaff1bb937407f0b42d0721f77373e5056f523cdf00cc5405fed6b42393d3491",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4950600\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 3,
+    "totalTopics": 3,
+    "topics": [
+      {
+        "title": "AI Localization",
+        "url": "https://steamcommunity.com/app/4950600/discussions/0/569301473354388980/"
+      },
+      {
+        "title": "Поддержка инди разработчиков",
+        "url": "https://steamcommunity.com/app/4950600/discussions/0/569301473354354979/"
+      },
+      {
+        "title": "How to wtich to an other language",
+        "url": "https://steamcommunity.com/app/4950600/discussions/0/568175523960771193/"
+      }
+    ],
+    "related": [
+      {
+        "title": "AI Localization",
+        "url": "https://steamcommunity.com/app/4950600/discussions/0/569301473354388980/",
+        "status": "complete",
+        "evidenceId": "thread-0",
+        "identityVerified": true,
+        "repliesChecked": true
+      }
+    ],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"HAPPY PROPAGANDA\" Steam game AI generated content",
+    "searchedAt": "2026-11-04T09:58:46.615638+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/app/4950600/HAPPY_PROPAGANDA/",
+        "relevant": false,
+        "reason": "官方商店页已单独抓取。"
+      },
+      {
+        "url": "https://genplay.gg/games/happy-propaganda/",
+        "relevant": true,
+        "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4950600/HAPPY_PROPAGANDA/?snr=1_4_4__137",
+        "relevant": false,
+        "reason": "官方商店页的推广参数变体，重复。"
+      },
+      {
+        "url": "https://steamcommunity.com/app/4950600?l=swedish",
+        "relevant": false,
+        "reason": "非英文社区首页，本机无法直连核验。"
+      },
+      {
+        "url": "https://games-stats.com/steam/?tag=multiple-endings&page=499",
+        "relevant": false,
+        "reason": "销量统计榜单页，无披露原文。"
+      },
+      {
+        "url": "https://steamdb.info/charts/?tagid=5030",
+        "relevant": false,
+        "reason": "在线人数榜单，与 AI 判定无关。"
+      }
+    ],
+    "readUrls": [
+      "https://genplay.gg/games/happy-propaganda/"
+    ],
+    "coverageLimits": [
+      "检索范围：单条网页检索，未见独立媒体报道。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4950600\\press-search.json",
+    "contentHash": "ccf837ccc03f5ddf89031db3060f804a72ad572928eb8a761435fefc0bd31217"
+  }
+}

@@ -1,0 +1,54 @@
+{
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4950600/HAPPY_PROPAGANDA/",
+   "relevant": false,
+   "reason": "官方商店页已单独抓取。"
+  },
+  {
+   "url": "https://genplay.gg/games/happy-propaganda/",
+   "relevant": true,
+   "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4950600/HAPPY_PROPAGANDA/?snr=1_4_4__137",
+   "relevant": false,
+   "reason": "官方商店页的推广参数变体，重复。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/4950600?l=swedish",
+   "relevant": false,
+   "reason": "非英文社区首页，本机无法直连核验。"
+  },
+  {
+   "url": "https://games-stats.com/steam/?tag=multiple-endings&page=499",
+   "relevant": false,
+   "reason": "销量统计榜单页，无披露原文。"
+  },
+  {
+   "url": "https://steamdb.info/charts/?tagid=5030",
+   "relevant": false,
+   "reason": "在线人数榜单，与 AI 判定无关。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4950600",
+   "sourceType": "press",
+   "url": "https://genplay.gg/games/happy-propaganda/",
+   "fetchedAt": "2026-11-04T10:02:51.033276+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "contentHash": "502d376d14d590524a962c11013db83a18ebd331b90f29902cfd82a9e8e61560",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\4950600\\press-0.html",
+   "locator": "full article text",
+   "label": "GenPlay.gg 对该作 Steam 披露的复核页",
+   "quote": "Generative AI may be used to assist with localization. All final text is reviewed and edited by the developer."
+  }
+ ],
+ "coverageLimits": [
+  "检索范围：单条网页检索，未见独立媒体报道。"
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "results": [
+  {
+   "url": "http://howmuchai.games/game/stick-a-fork",
+   "relevant": false,
+   "reason": "该结果为纯 http 链接，证据闸门只接受 https 来源；同站 https 汇总页已读取。"
+  },
+  {
+   "url": "https://howmuchai.games/developer/flowdot",
+   "relevant": true,
+   "reason": "开发者披露原文的逐字第三方转录，已读取全文并作为来源。"
+  },
+  {
+   "url": "https://howmuchai.games/ai/art?filter=none",
+   "relevant": false,
+   "reason": "该站按领域筛选的列表页，非本作条目。"
+  },
+  {
+   "url": "https://howmuchai.games/ai/translation?filter=generated",
+   "relevant": false,
+   "reason": "该站按领域筛选的列表页，非本作条目。"
+  },
+  {
+   "url": "https://howmuchai.games/ai/music?filter=none",
+   "relevant": false,
+   "reason": "该站按领域筛选的列表页，非本作条目。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5345040",
+   "sourceType": "press",
+   "url": "https://howmuchai.games/developer/flowdot",
+   "fetchedAt": "2026-11-04T10:11:17.401733+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "contentHash": "ecb95ab95028faa9f8f0cffd0c4ca0f53c54403a8b4126e182cde95958948602",
+   "cachePath": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\5345040\\press-0.html",
+   "locator": "full article text",
+   "label": "HowMuchAI 的 Flowdot 开发者披露汇总页",
+   "quote": "AI was used to translate the game into multiple languages; art, animation, sound effects and music were human-made or licensed."
+  }
+ ],
+ "coverageLimits": [
+  "检索范围：两条网页检索（首轮与补检）。",
+  "该作在 howmuchai.games 的详情页在检索结果里是纯 http 链接，闸门只接受 https 来源，故改读同站开发者汇总页。"
+ ]
+}
