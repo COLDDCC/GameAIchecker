@@ -115,6 +115,15 @@ class IntakeTests(unittest.TestCase):
   long='x '*10000; page=html.replace('</html>',f'<div><h2>AI Generated Content Disclosure</h2><p><i>{long}</i></p></div></html>');self.assertEqual(c.parse_store(page,'100')['quote'],long.strip())
  def test_thread_identity_mismatch(self):
   with self.assertRaises(ValueError):c.parse_thread('<html><div class="forum_op"><div class="topic">Other game</div><div class="content">AI</div></div></html>','Expected')
+ def test_pinned_topic_label_matches_thread_heading(self):
+  page=('<html><div class="apphub_AppName">Test</div><div id="forum_home_pagetotal">1</div>'
+        '<div class="forum_topic"><div class="forum_topic_name"><span class="forum_topic_label sticky_label">PINNED:</span> AI thread</div>'
+        '<a class="forum_topic_overlay" href="https://steamcommunity.com/discussions/1"></a></div></html>')
+  t=c.parse_discussion(page,'100','Test')['related'][0]
+  self.assertEqual(t['title'],'PINNED: AI thread')
+  thread='<html><div class="forum_op"><div class="topic">AI thread</div><div class="content">Some AI</div></div></html>'
+  self.assertEqual(c.parse_thread(thread,t['title']),'Some AI\n')
+  with self.assertRaises(ValueError):c.parse_thread(thread,'PINNED: Other thread')
  def test_429_not_cached_as_success(self):
   class R:stdout='429';stderr='rate limited';returncode=0
   with patch.object(c.subprocess,'run',return_value=R()),patch.object(c.time,'sleep'):

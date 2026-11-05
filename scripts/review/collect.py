@@ -44,6 +44,7 @@ def parse_store(s,app):
     if len(disclosure)>1: raise ValueError('ambiguous disclosures')
     return {'name':name.text(),'quote':disclosure[0] if disclosure else '', 'disclosurePresent':bool(disclosure)}
 RELATED=re.compile(r'\bAI\b|generat|slop|asset.?flip|artwork|artist|美术|画师|生成|人工知能',re.I)
+PINMARK=re.compile(r'^\s*(?:PINNED|置顶|已加精)\s*[:：]\s*',re.I)
 def parse_discussion(s,app,name):
     root=Tree(s).root; appname=one(root,**{'class':'apphub_AppName'})
     if not appname or appname.text()!=name or '</html>' not in s.lower(): raise ValueError('discussion identity/incomplete')
@@ -60,7 +61,7 @@ def parse_thread(s,title):
     root=Tree(s).root; heading=one(root,**{'class':'forum_op'})
     if not heading or '</html>' not in s.lower(): raise ValueError('thread unreadable')
     ht=one(heading,**{'class':'topic'}); body=one(heading,**{'class':'content'})
-    if not ht or ht.text()!=title or not body: raise ValueError('thread title/body mismatch')
+    if not ht or ht.text()!=PINMARK.sub('',title).strip() or not body: raise ValueError('thread title/body mismatch')
     # Include all visible replies, including developer badges, rather than first comment only.
     replies=root.find(**{'class':'commentthread_comment'})
     return body.text()+'\n'+'\n'.join(n.text() for n in replies)
