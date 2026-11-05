@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "2b03a2605183311a7296d6f94e53433c78d039e1",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-11-04T09:44:14.575187+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -692,10 +692,87 @@
       },
       "bytes": 41613224,
       "verifiedRemoteSha": "952248f862c0b28c5ecac120e9932d7ea046a779"
-    }
+    },
+    "ci": {
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42001179015",
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42001179018"
+    },
+    "production": {
+      "sha": "5d54a13743653bdc203354939cf6a958e294ec56",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/ec135b3f-6ac5-464a-bdfd-705ef5e78e44",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>5d54a13</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://ec135b3f.gameaichecker.pages.dev'>https://ec135b3f.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/ec135b3f-6ac5-464a-bdfd-705ef5e78e44)\n",
+      "checkedAt": "2026-11-05T09:22:20.729394+00:00"
+    },
+    "onlineImages": {
+      "responses": 393,
+      "cache": ".cache\\gameaichecker-review\\20261104T184414-5bbd58\\online-images-5d54a13743653bdc203354939cf6a958e294ec56.json"
+    },
+    "online": [
+      {
+        "appId": "2710530",
+        "url": "https://gameaichecker.com/games/2710530-rug-cleaning-simulator/",
+        "checkedAt": "2026-11-05T09:22:50.215040+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5345490",
+        "url": "https://gameaichecker.com/games/5345490-quarantine-lab-sort/",
+        "checkedAt": "2026-11-05T09:22:50.216543+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5345040",
+        "url": "https://gameaichecker.com/games/5345040-stick-a-fork/",
+        "checkedAt": "2026-11-05T09:22:50.218089+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4950600",
+        "url": "https://gameaichecker.com/games/4950600-happy-propaganda/",
+        "checkedAt": "2026-11-05T09:22:50.219627+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5233490",
+        "url": "https://gameaichecker.com/games/5233490-sort-the-bunnies/",
+        "checkedAt": "2026-11-05T09:22:50.221258+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4958460",
+        "url": "https://gameaichecker.com/games/4958460-touhou-bansho-cards/",
+        "checkedAt": "2026-11-05T09:22:50.224085+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4922730",
+        "url": "https://gameaichecker.com/games/4922730-send-them-to-hell/",
+        "checkedAt": "2026-11-05T09:22:50.225696+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3401570",
+        "url": "https://gameaichecker.com/games/3401570-abyss-ring/",
+        "checkedAt": "2026-11-05T09:22:50.227176+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4773930",
+        "url": "https://gameaichecker.com/games/4773930-game/",
+        "checkedAt": "2026-11-05T09:22:50.228673+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "2688780",
+        "url": "https://gameaichecker.com/games/2688780-odd-town/",
+        "checkedAt": "2026-11-05T09:22:50.230770+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "45693d00e1f0252973880850039da4a686409d51"
+    "media": "45693d00e1f0252973880850039da4a686409d51",
+    "site": "5d54a13743653bdc203354939cf6a958e294ec56"
   },
   "attempts": 14,
   "maxAttempts": 30,
@@ -764,5 +841,6 @@
   ],
   "applyBase": "5294895a5640631502b30d34c8eaebd65db3169b",
   "pendingTree": "298cf9f24f581bff7ce79b691f3706f422ea3c6b",
-  "siteBase": "952248f862c0b28c5ecac120e9932d7ea046a779"
+  "siteBase": "952248f862c0b28c5ecac120e9932d7ea046a779",
+  "siteTree": "a31d503932a2b16e2c19cf79ce6bbd8817da3c66"
 }
