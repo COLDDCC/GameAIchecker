@@ -1,0 +1,89 @@
+{
+  "appId": "5345040",
+  "name": "Stick A Fork",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "叉子插水果的增量放置游戏，2026 年 10 月 28 日上架，Flowdot 自行开发与发行，分类为休闲／独立／模拟。商店 AI 披露把生成式 AI 限定在游戏的翻译工作，并写明其余内容（含美术、动画、音效、音乐）由开发者自制或授权使用。本站据此把翻译登记为已使用，把美术、音乐、语音、文本创作与游戏内实时生成登记为披露明确否认的未使用，代码与营销登记为未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "none",
+    "music": "none",
+    "voice": "none",
+    "writing": "none",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露只把 AI 用途写在翻译一项，其余内容以 All other content ... was either created by the developers or used under license. 一句整体归给开发者自制或授权；本站按这句把游戏内实时生成登记为未使用，同时保留这只是开发者自述、未经独立审计的限定。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "同一句把 art 与 animation 明确列为开发者自制或授权使用，即美术与动画不使用生成式 AI。这是开发者自述，未经独立审计。",
+    "music": "同一句点名 music 与 sound effects，即音乐与音效不使用生成式 AI。这是开发者自述，未经独立审计。",
+    "voice": "披露的用词是 sound effects 与 music，没有单列配音；本站按 All other content 的整体归因把语音登记为未使用，并保留这只是开发者自述、未经独立审计的限定。",
+    "writing": "披露只把 AI 用在翻译，原文写作 was used to translate the game for multi-language support，文本创作本身落在 All other content 的整体归因里；据此登记为未使用，属于开发者自述。",
+    "translation": "披露第一句 AI was used to translate the game for multi-language support. 把生成式 AI 的用途完全限定在多语言翻译上。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "music": "official",
+    "voice": "official",
+    "writing": "official",
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5345040/",
+  "developer": "Flowdot",
+  "publisher": "Flowdot",
+  "steamReleaseDate": "28 Oct, 2026",
+  "genres": [
+    "Casual",
+    "Indie",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5345040/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-04",
+      "excerpt": "AI was used to translate the game for multi-language support. All other content, including art, animation, sound effects, and music, was either created by the developers or used under license."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5345040/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-04",
+      "excerpt": "英文讨论区首页显示 13 个主题（总数 13）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://howmuchai.games/developer/flowdot",
+      "label": "HowMuchAI 的 Flowdot 开发者披露汇总页",
+      "date": "2026-11-04",
+      "excerpt": "AI was used to translate the game into multiple languages; art, animation, sound effects and music were human-made or licensed."
+    }
+  ],
+  "reviewNote": "核查 Steam 英文商店页完整 AI 披露、身份（开发商与发行商同为 Flowdot）与英文讨论区首页（可见 13 个主题，总数 13，即首页覆盖全部主题）；首页没有命中 AI 关键词的主题，因此没有相关帖可读。本款单独检索公开报道 2 次（首轮与补检），采用其中一次响应的 5 条结果登记处置，读取 1 篇原始来源：howmuchai.games 的开发者条目逐字转录商店披露为翻译单项，并给出该站自己的判断；该站本作详情页在检索结果里是纯 http 链接，证据闸门只接受 https 来源，故改读同站的 https 开发者汇总页并在 coverageLimits 说明。其余 4 条是该站本作详情页的 http 链接与三个按领域筛选的列表页（美术、翻译、音乐），均为该站的索引页而非本作条目原文，不作为来源。语音一项的原文用词是 sound effects 与 music，未单列配音，本站以 All other content 的整体归因登记，未超出原文。",
+  "disclosureQuote": "AI was used to translate the game for multi-language support. All other content, including art, animation, sound effects, and music, was either created by the developers or used under license.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-04 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A fork-stabbing incremental game released on Oct 28, 2026, self-developed and self-published by Flowdot and filed under Casual, Indie and Simulation. The Steam AI disclosure confines generative AI to translating the game for multi-language support and states that all other content, including art, animation, sound effects and music, was created by the developers or used under licence. This site records translation as used, art, music, voice, writing and live in-game generation as not used on that wording, and code and marketing as areas the disclosure does not address. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure, the identity (Flowdot is both developer and publisher) and the English discussion homepage (13 visible topics of 13, so the homepage covers every topic); no topic matches the AI keyword search, so no thread needed reading. This title was searched twice (an initial and a follow-up query); the disposition covers the 5 results of the response used and 1 raw source was read: the howmuchai.games developer entry transcribes the store disclosure as a translation-only use and prints that site own judgment. The detail page for this game came back in the results as a plain http link, the evidence gate only accepts https sources, so the https developer summary page on the same site was read instead and the substitution is recorded in coverageLimits. The remaining 4 results were the http detail page of this game and three of that site area filter pages, for art, translation and music; all are index pages rather than the entry text, so none is used as a source. For voice the disclosure only says sound effects and music, so this site maps the area onto the catch-all phrase All other content rather than inventing a wording, and does not go past the original text.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure limits AI to translation and attributes everything else to the developers or a licence, which this site reads as no live generation during play, on the developer statement alone.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The catch-all sentence names art and animation as either created by the developers or used under licence, so the developer states no AI-generated visual work.",
+      "music": "The same sentence names music and sound effects among the content made by the developers or licensed, so music is recorded as not used on the developer statement.",
+      "voice": "The wording is sound effects and music, with no separate mention of voice acting; this area is recorded as not used through the catch-all phrase, with the developer statement caveat intact.",
+      "writing": "AI is confined to translation while the text itself falls under the All other content attribution, so writing is recorded as not used on that wording.",
+      "translation": "The opening sentence, AI was used to translate the game for multi-language support, makes translation the single stated use of AI.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+    },
+    "sourceRecordHash": "d5afb067561d8e59191babdc085af6557e44258719e2af61a3060291d30104f5"
+  }
+}
