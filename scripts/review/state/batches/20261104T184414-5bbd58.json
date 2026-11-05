@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "2b03a2605183311a7296d6f94e53433c78d039e1",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "prepared",
+  "phase": "media_ready",
   "createdAt": "2026-11-04T09:44:14.575187+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -685,8 +685,18 @@
       "decisionHash": "7105aa7c7a1dd2c97b611e9dc60d8a6e32253bf224f900b9f9ba21bdb292315b"
     }
   ],
-  "checkResults": {},
-  "publishShas": {},
+  "checkResults": {
+    "media": {
+      "checks": {
+        "Persist media for reviewed games": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42000792745"
+      },
+      "bytes": 41613224,
+      "verifiedRemoteSha": "952248f862c0b28c5ecac120e9932d7ea046a779"
+    }
+  },
+  "publishShas": {
+    "media": "45693d00e1f0252973880850039da4a686409d51"
+  },
   "attempts": 14,
   "maxAttempts": 30,
   "selectionOverride": {
@@ -752,5 +762,7 @@
       "reason": "store/appdetails mark Dearbnb as Early Access (genre tag + \"Early Access Game\" module); this site records released full versions, so the captured evidence is kept but the entry is not published"
     }
   ],
-  "applyBase": "5294895a5640631502b30d34c8eaebd65db3169b"
+  "applyBase": "5294895a5640631502b30d34c8eaebd65db3169b",
+  "pendingTree": "298cf9f24f581bff7ce79b691f3706f422ea3c6b",
+  "siteBase": "952248f862c0b28c5ecac120e9932d7ea046a779"
 }
