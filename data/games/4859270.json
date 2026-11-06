@@ -1,0 +1,91 @@
+{
+  "appId": "4859270",
+  "name": "Dark Bone Prison",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "地牢生存动作 Roguelite，2026 年 9 月 7 日上架，Bunny Moon Shady 开发并发行，分类含冒险／休闲／独立／角色扮演／策略：在满是怪物的迷宫里收集、组合并升级武器，在一波波进攻里争一线生机。商店 AI 披露把 AI 的用途限得很窄：只用于协助制作少量宣传图（胶囊图与头部胶囊图），商店截图、文字内容以及游戏内美术、音频与文本均为手工完成，游戏不含实时或运行期的 AI 生成内容。本站据此把宣传素材登记为已使用，把游戏运行、美术、撰写登记为明确声明未使用，并按原文的 audio 一词把音乐与配音同样登记为未使用（这一映射是本站的判断，开发者并未单列两者），代码与翻译因披露没有点名而登记为未说明。第三方转录页面与商店原文一致。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "none",
+    "music": "none",
+    "voice": "none",
+    "writing": "none",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露单独一句排除实时与运行期生成内容，游戏运行登记为明确声明未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "同一句把游戏内美术列入手工完成，美术登记为明确声明未使用。",
+    "music": "披露的用词是 audio，未单列音乐；本站按该词把音乐登记为未使用，这一映射是本站的判断，并保留这只是开发者自述、未经独立审计的限定。",
+    "voice": "同一句的 audio 一词同时被本站映射到配音领域；原文没有单列配音。",
+    "writing": "同一句点名 written content 与 text，撰写登记为明确声明未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "披露把 AI 用途限定在少量宣传图（胶囊图与头部胶囊图），属商店展示素材，宣传素材登记为已使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "music": "official",
+    "voice": "official",
+    "writing": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4859270/",
+  "developer": "Bunny Moon Shady",
+  "publisher": "Bunny Moon Shady",
+  "steamReleaseDate": "Sep 7, 2026",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Indie",
+    "RPG",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-11-06",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4859270/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-06",
+      "excerpt": "AI was used only to help create a few marketing images (capsule art and header capsule). All store screenshots, written content, and in-game art, audio, and text are handcrafted. The game contains no live or runtime AI-generated content."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4859270/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-06",
+      "excerpt": "英文讨论区首页显示 5 个主题（总数 5）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gamedb.ai/games/4859270-dark-bone-prison",
+      "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+      "date": "2026-11-06",
+      "excerpt": "AI was used only to help create a few marketing images (capsule art and header capsule)."
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断）、身份（开发与发行均为 Bunny Moon Shady，正式版，2026 年 9 月 7 日）与讨论区：首页可见 5 个主题、总数 5 条，即整个分区都已覆盖，主题集中在闪退、成就与武器吐槽，没有 AI 相关讨论。公开报道单独检索 1 次（原始响应存档 press-search.json，6 条结果），登记并读取 1 条来源：gamedb.ai 的本作条目页，其逐字转录与商店披露一致，页面自带的“未使用”字段是该站对披露的解析结果，本站不据此改判。其余五条里三条是同一商店页的越南语、中文与策展人入口（已有官方取证），一条是该站新作清单页，一条是其他作品的聚合站条目。未检索到独立媒体报道，这不能证明披露之外没有 AI 用途，判定只以商店披露原文为准。",
+  "disclosureQuote": "AI was used only to help create a few marketing images (capsule art and header capsule). All store screenshots, written content, and in-game art, audio, and text are handcrafted. The game contains no live or runtime AI-generated content.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-06 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A dungeon based survival action roguelite released on Sep 7, 2026, developed and published by Bunny Moon Shady and filed under Adventure, Casual, Indie, RPG and Strategy, where you push through a monster maze, collect, combine and upgrade weapons and survive successive waves for a glimpse of hope. The Steam AI disclosure keeps the use deliberately narrow: AI helped create only a few marketing images, the capsule art and header capsule, while store screenshots, written content and the in game art, audio and text are handcrafted and the game contains no live or runtime AI generated content. This site records marketing as used, live generation, art and writing as explicitly not used, maps the word audio onto both music and voice and records them as not used while stating that the mapping is its own, and leaves code and translation not addressed because the disclosure never names them. The transcription on the aggregator entry page matches the store text and its parsed not used fields are not adopted, and every finding rests on the developer own statement without independent audit.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (Bunny Moon Shady as both developer and publisher, a full release dated Sep 7, 2026) and the discussion board, whose first page shows 5 visible topics out of 5 in total, meaning the whole board was covered, with threads about crashes, achievements and weapon complaints and no AI topic. One dedicated web search was run, archived as press-search.json, all 6 results were dispositioned and one source was registered and read in full, the gamedb.ai entry page for this game, whose verbatim transcription matches the store disclosure, while the parsed not used fields on that page are that sites own extraction and are not adopted. Three of the remaining results were the same store page in Vietnamese, Chinese and through a curator entry point already covered by the official evidence, one was an aggregator list page and one was an aggregator entry for another game. No independent press report was found, which proves nothing beyond the reviewed disclosure.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure separately rules out live and runtime AI generated content, so live generation is recorded as explicitly not used.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The same sentence includes in game art among the handcrafted items, so art is recorded as explicitly not used.",
+      "music": "The disclosure uses the word audio without naming music, so this site maps it onto the music area and records it as not used, stating that the mapping is its own and the claim is unaudited developer self report.",
+      "voice": "The same audio wording is mapped by this site onto the voice area as well; the disclosure never names voice on its own.",
+      "writing": "The same sentence names written content and text, so writing is recorded as explicitly not used.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "The disclosure limits AI use to a few marketing images, the capsule art and header capsule, which is store presentation, so marketing is recorded as used."
+    },
+    "sourceRecordHash": "c637fd7bb83e33ae87a3535656df4835c759bdbf0b19f89db8fd44975fbb41fc"
+  }
+}

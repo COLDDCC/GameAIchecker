@@ -1,0 +1,91 @@
+{
+  "appId": "4947900",
+  "name": "Augmented Yut",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "基于韩国传统掷棒游戏 Yutnori 的在线策略桌游，2026 年 9 月 18 日上架，Ausuruk Games 开发并发行，分类为休闲，支持 2 到 10 人：一路冲过终点，除非有人把跑道变成象棋，90 种增益能改写规则。商店 AI 披露把生成式 AI 定位为辅助工具，用于制作游戏内文本与翻译、2D 图形、商店图片与代码，并说明游戏运行时不生成内容，也不会把玩家输入或个人信息发送给 AI 服务。本站据此把撰写、翻译、美术、宣传素材与代码登记为已使用，把游戏运行登记为明确声明未使用，音乐与配音登记为未说明。第三方转录页面与商店原文一致。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "code",
+    "art",
+    "writing",
+    "translation",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "used",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露明确说明运行期不生成 AI 内容，且不会把玩家输入或个人信息发给 AI 服务，游戏运行登记为明确声明未使用。",
+    "code": "披露把 code 直接列进 AI 协助范围，代码登记为已使用。",
+    "art": "披露点名 2D graphics，属游戏内视觉资产，美术登记为已使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "披露点名 in-game text（游戏内文本）由生成式 AI 协助制作，撰写登记为已使用。",
+    "translation": "同一句点名 translations，翻译登记为已使用。",
+    "marketing": "同一句里的 store images 指商店图，属商店展示素材，登记在宣传素材领域，与游戏内的 2D 图形分列。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "code": "official",
+    "art": "official",
+    "writing": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4947900/",
+  "developer": "Ausuruk Games",
+  "publisher": "Ausuruk Games",
+  "steamReleaseDate": "Sep 18, 2026",
+  "genres": [
+    "Casual"
+  ],
+  "reviewedAt": "2026-11-06",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4947900/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-06",
+      "excerpt": "We used generative AI as an assistive tool to create in-game text and translations, 2D graphics, store images, and code. The game does not generate content with AI while running, and it does not send player input or personal information to AI services."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4947900/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-06",
+      "excerpt": "英文讨论区首页显示 2 个主题（总数 2）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gamedb.ai/games/4947900-augmented-yut",
+      "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+      "date": "2026-11-06",
+      "excerpt": "We used generative AI as an assistive tool to create in-game text and translations, 2D graphics, store images, and code."
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断）、身份（开发与发行均为 Ausuruk Games，正式版，2026 年 9 月 18 日）与讨论区：首页可见 2 个主题、总数 2 条，即整个分区都已覆盖，两条为房间公开设置与玩法建议，没有 AI 相关讨论。公开报道单独检索 1 次（原始响应存档 press-search.json，6 条结果），登记并读取 1 条来源：gamedb.ai 的本作条目页，其逐字转录与商店披露一致，本站仅用它交叉核对未被截断。其余五条里三条是本作的 DLC（Rainbow Name）页面、一条是本体商店页（已有官方取证）、一条是其他作品的聚合站条目；DLC 的披露不在本作判定范围内。未检索到独立媒体报道，这不能证明披露之外没有 AI 用途，判定只以本体商店披露原文为准。",
+  "disclosureQuote": "We used generative AI as an assistive tool to create in-game text and translations, 2D graphics, store images, and code. The game does not generate content with AI while running, and it does not send player input or personal information to AI services.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-06 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An online strategy board game for 2 to 10 players based on the Korean traditional Yutnori, released on Sep 18, 2026, developed and published by Ausuruk Games and filed under Casual, where a race to the finish turns into chess once someone spends the right augment and 90 game changing augments rewrite the rules. The Steam AI disclosure says generative AI was used as an assistive tool for in game text and translations, 2D graphics, store images and code, and that the game generates no content with AI while running and does not send player input or personal information to AI services. This site records writing, translation, art, marketing and code as used, live generation as explicitly ruled out, and music and voice as not addressed because the disclosure never names them. The transcription on the aggregator entry page matches the store text, and every finding rests on the developer own statement without independent audit.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (Ausuruk Games as both developer and publisher, a full release dated Sep 18, 2026) and the discussion board, whose first page shows 2 visible topics out of 2 in total, meaning the whole board was covered and neither thread is about AI. One dedicated web search was run, archived as press-search.json, all 6 results were dispositioned and one source was registered and read in full, the gamedb.ai entry page for this game, whose verbatim transcription matches the store disclosure and is used only to confirm nothing was truncated. Three of the remaining results were store pages for this games DLC Rainbow Name, one was the base store page already covered by the official evidence and one was an aggregator page for another game, and none of those DLC pages is part of this judgement. No independent press report was found, which proves nothing beyond the reviewed disclosure.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure states the game generates no AI content while running and sends no player input or personal information to AI services, so live generation is recorded as explicitly ruled out.",
+      "code": "The disclosure lists code among the AI assisted outputs, so code is recorded as used.",
+      "art": "The disclosure names 2D graphics, which are in game visual assets, so art is recorded as used.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "The disclosure names in game text among the AI assisted outputs, so writing is recorded as used.",
+      "translation": "The same sentence names translations, so translation is recorded as used.",
+      "marketing": "The store images in the same sentence are store presentation rather than shipped game art, so they are recorded under marketing."
+    },
+    "sourceRecordHash": "e1463ff3c7a5033796ef7eb362a1028b775342e4a9a6179f9bfa896258959ca0"
+  }
+}
