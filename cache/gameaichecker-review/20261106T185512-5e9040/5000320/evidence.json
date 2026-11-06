@@ -1,0 +1,155 @@
+{
+  "sources": [
+    {
+      "appId": "5000320",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5000320/?l=english",
+      "fetchedAt": "2026-11-06T09:56:15.451008+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "0dd8be89400ecf1fe6482913c4471ce8d08e2cca9e0dfb110b8f8586e3f1d3ce",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5000320\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Generative AI tools were used during development to create or assist with portions of the game's pre-generated visual artwork, including horse illustrations, environmental backgrounds, contract and item icons, decorative UI artwork, the game logo, and Steam store and library artwork. AI-assisted tools were also used to draft or refine portions of in-game text and localization. All such materials were generated before release, then reviewed, selected, and edited by the developer, and are included in the game as fixed assets. No AI content is generated during gameplay, and the game does not connect to any external AI service.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Generative AI tools were used during development to create or assist with portions of the game's pre-generated visual artwork, including horse illustrations, environmental backgrounds, contract and item icons, decorative UI artwork, the game logo, and Steam store and library artwork. AI-assisted tools were also used to draft or refine portions of in-game text and localization. All such materials were generated before release, then reviewed, selected, and edited by the developer, and are included in the game as fixed assets. No AI content is generated during gameplay, and the game does not connect to any external AI service."
+    },
+    {
+      "appId": "5000320",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5000320/discussions/?l=english",
+      "fetchedAt": "2026-11-06T09:56:16.687177+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "c84faa4c2e286d255a6234448eb3c1a5404aef7d09c1a6babb8e198ed6176187",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5000320\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5000320",
+      "sourceType": "press",
+      "url": "https://gameaicheck.com/game/5000320/oddstable",
+      "fetchedAt": "2026-11-06T09:59:59.245438+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GameAICheck 本作条目页：对 Steam 披露的第三方转录与概述",
+      "quote": "Uses AI-assisted visual artwork, store and library art, in-game text and localization, all pre-generated and edited; no AI content is generated during gameplay.",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5000320\\press-0.html",
+      "contentHash": "b162296a8e45d9d5ddb9c2cda033746faab36ad484b9a199765b97d3eaf0ca62"
+    },
+    {
+      "id": "press-1",
+      "appId": "5000320",
+      "sourceType": "press",
+      "url": "https://gamedb.ai/games/5000320-oddstable",
+      "fetchedAt": "2026-11-06T10:00:00.475136+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+      "quote": "Generative AI tools were used during development to create or assist with portions of the game's pre-generated visual artwork, including horse illustrations, environmental backgrounds, contract and item icons, decorative UI artwork, the game logo, and Steam store and library artwork.",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5000320\\press-1.html",
+      "contentHash": "5f3ca6846c232712fa02124ba56e85cc0b38eacab0862942990f327c3d7114b2"
+    }
+  ],
+  "identity": {
+    "appId": "5000320",
+    "name": "ODDSTABLE",
+    "developer": "Kai Kai",
+    "publisher": "Kai Kai",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 28, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Simulation",
+      "Sports",
+      "Strategy"
+    ],
+    "description": "Read six-horse fields, lock fixed odds, and survive a twelve-race tour in a single-player offline horse-racing roguelite. Build tickets with virtual coins, take underground contracts, and turn charms into a payout engine. No real-money gambling or in-game purchases.",
+    "identityEvidence": {
+      "appId": "5000320",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5000320&l=english",
+      "fetchedAt": "2026-11-06T09:56:16.057144+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "73dbe85d4ad9ab93a50ac45c972f91949e154be769e1b07da25ba13f9b471cb3",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5000320\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 0,
+    "totalTopics": 0,
+    "topics": [],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"ODDSTABLE\" Steam AI generated content disclosure horse illustrations",
+    "searchedAt": "2026-11-06T10:02:10+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://gamedb.ai/games/5000320-oddstable",
+        "relevant": true,
+        "reason": "该站本作条目页把 Steam 披露原文整段写入页面字段，已读取全文；用于交叉核对商店披露未被截断。"
+      },
+      {
+        "url": "https://gameaicheck.com/game/5000320/oddstable",
+        "relevant": true,
+        "reason": "该站本作条目页转录开发者披露并给出自己的领域与置信度评级，已读取全文；评级属第三方判定，不采用。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5000320/?l=brazilian&curator_clanid=32686107&utm_source=Steam250",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gameaichecker.com/browse/",
+        "relevant": false,
+        "reason": "本站自己的浏览索引页，不是第三方报道或披露来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5000320/ODDSTABLE/?l=greek&curator_clanid=32686107&utm_source=Steam250",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5000320/ODDSTABLE/?l=romanian&curator_clanid=32686107&utm_source=Steam250",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      }
+    ],
+    "readUrls": [
+      "https://gameaicheck.com/game/5000320/oddstable",
+      "https://gamedb.ai/games/5000320-oddstable"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，命中两个披露转录站、本站索引页与商店页，未见独立媒体报道或社区争议帖。",
+      "未检索到报道只说明检索范围，不能据此证明未使用 AI。",
+      "第三方聚合站页面，正文为该站对 Steam 披露的转录、字段解析或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5000320\\press-search.json",
+    "contentHash": "34d03860444484d9eef0d848939279348b0ffd97218ba048507211c7723a79dc"
+  }
+}

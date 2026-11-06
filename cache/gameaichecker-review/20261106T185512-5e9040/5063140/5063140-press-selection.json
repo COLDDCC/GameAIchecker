@@ -1,0 +1,72 @@
+{
+ "appId": "5063140",
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5063140/?curator_clanid=32686107&utm_source=Steam250",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gameaicheck.com/game/5063140/cards-everywhere",
+   "relevant": true,
+   "reason": "该站本作条目页转录开发者披露并给出领域与置信度评级，已读取全文；评级属第三方判定，不采用。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5063140-cards-everywhere",
+   "relevant": true,
+   "reason": "该站本作条目页把 Steam 披露原文写入页面字段，已读取全文；用于交叉核对披露未被截断。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/5063140/positivereviews/?l=japanese&browsefilter=toprated",
+   "relevant": false,
+   "reason": "Steam 社区评测页需登录或前端渲染，中转抓取无法稳定读取正文；本作的讨论区证据已单独取证。"
+  },
+  {
+   "url": "https://gamedb.ai/games/1470810-plushy-store-tidy-up",
+   "relevant": false,
+   "reason": "其他作品的聚合站条目页。"
+  },
+  {
+   "url": "https://dokumen.pub/capital-vs-timenergy-a-iekian-critique-of-nick-land-1.html",
+   "relevant": false,
+   "reason": "与本作无关的旧书页面，检索误命中“Cards/capital”。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5063140",
+   "sourceType": "press",
+   "url": "https://gameaicheck.com/game/5063140/cards-everywhere",
+   "fetchedAt": "2026-11-06T10:01:56.285250+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameAICheck 本作条目页：对 Steam 披露的第三方转录与概述",
+   "quote": "Generative AI tools were used during development to support creation of the artwork featured on the collectible cards and some UI elements.",
+   "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5063140\\press-0.html",
+   "contentHash": "ab679e851106e8547d99f079989c152473d0c95ec205dac4a4e2553ea9a1a09c"
+  },
+  {
+   "id": "press-1",
+   "appId": "5063140",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/5063140-cards-everywhere",
+   "fetchedAt": "2026-11-06T10:01:57.405656+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+   "quote": "All AI-generated content was created before release, curated and integrated into the game by the developer.",
+   "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5063140\\press-1.html",
+   "contentHash": "fbbd4c591c4ce4a4ee6daf1e7cebfc66f7f0fa43b534f213e2810949ed431c56"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，命中两个披露转录站、商店页与社区评测页，未见独立媒体报道。",
+  "未检索到报道只说明检索范围，不能据此证明未使用 AI。",
+  "第三方聚合站页面，正文为该站对 Steam 披露的转录、字段解析或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

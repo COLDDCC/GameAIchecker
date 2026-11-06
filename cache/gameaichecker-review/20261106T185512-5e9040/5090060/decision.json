@@ -1,0 +1,62 @@
+{
+ "identityName": "Starlathe",
+ "identityDeveloper": "Astraeon Interactive",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露逐类点名舰船、空间站与环境精灵图、图标等美术由生成式 AI 制作后由开发者策展并手工修改，美术登记为已使用，并保留“部分”限定。",
+   "quote": "Some artwork (ship, station and environment sprites, icons) and sound effects were created using generative AI tools during development, then curated and hand-edited by the developer.",
+   "evidenceId": "store"
+  },
+  "music": {
+   "state": "used",
+   "note": "披露的用词是 sound effects（音效），八个领域里没有单独的音效项，本站把它归入音乐领域并在此写明这一映射：开发者并没有单列音乐，也没有说明原声背景乐是否在列。",
+   "quote": "Some artwork (ship, station and environment sprites, icons) and sound effects were created using generative AI tools during development, then curated and hand-edited by the developer.",
+   "evidenceId": "store"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "Some artwork (ship, station and environment sprites, icons) and sound effects were created using generative AI tools during development, then curated and hand-edited by the developer. All AI-generated content was reviewed before inclusion.",
+ "aiScopeUnspecified": false,
+ "summary": "太空中期经济与舰船模拟，2026 年 10 月 1 日进入抢先体验，Astraeon Interactive 开发并发行，分类含动作／独立／模拟／策略：150 个星区里六个势力在挖矿、货运、贸易、建设与开战，可单人或在线合作。商店 AI 披露说明部分美术（舰船、空间站与环境精灵图、图标）以及音效由生成式 AI 工具在开发期制作，再由开发者策展并手工修改，所有 AI 生成内容在收入前都经过审阅。本站据此把美术登记为已使用，并把原文的 sound effects（音效）映射到音乐领域同样登记为已使用——这一映射是本站的判断，开发者并未单列音乐；其余六个领域（游戏运行、代码、配音、撰写、翻译、宣传素材）因披露没有点名而登记为未说明，披露也没有说明运行期是否会生成内容。第三方转录页面与商店原文一致。所有结论只有开发者自述支撑，未经独立审计。",
+ "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断）、身份（开发与发行均为 Astraeon Interactive，2026 年 10 月 1 日上线并标注抢先体验）与英文讨论区首页：可见 15 个主题、总数 289，即只覆盖首页，可见主题为崩溃报错、系统机制与矿石掉率等，没有 AI 相关讨论。公开报道单独检索 1 次（原始响应存档 press-search.json，4 条结果），登记并读取 1 条来源：gamedb.ai 的本作条目页，其收录的披露原文与商店一致，页面自带的等级与统计属第三方判断，本站不采纳。其余三条里两条是商店页与支持者包（DLC）页面、一条是该站含本作一行的新作清单页，均未登记。未检索到独立媒体报道或社区争议，这不能证明披露之外没有 AI 用途，判定只以商店披露原文为准。",
+ "description": "一个会自己运转的银河：六个势力在你不在场时照样挖矿、货运、贸易、建设与开战。你从一艘船开始，可以跑贸易、打劫、护航，也能慢慢攒出自己的舰队，在这片星域里开辟出一块地盘，单人或在线合作都能玩。",
+ "english": {
+  "summary": "A space economy and ship command simulation that entered Early Access on Oct 1, 2026, developed and published by Astraeon Interactive and filed under Action, Indie, Simulation and Strategy, with 150 sectors where six factions mine, haul, trade, build and wage war whether or not you are present, solo or in online co op. The Steam AI disclosure states that some artwork, namely ship, station and environment sprites and icons, together with sound effects, were created with generative AI tools during development and then curated and hand edited by the developer, and that all AI generated content was reviewed before inclusion. This site records art as used and maps the sound effects wording onto the music area, stating openly that the developer never names music and never says whether the score is covered, while the other six areas stay not addressed because the disclosure does not name them and never says whether anything is generated at run time. The transcription on the aggregator entry page matches the store text, and every finding rests on the developer own statement without independent audit.",
+  "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (Astraeon Interactive as both developer and publisher, released Oct 1, 2026 and flagged as Early Access) and the first page of the English discussion board, which shows 15 visible topics out of 289 in total, so only the front page was covered and its threads are crash reports, system mechanics and ore drops with no AI topic. One dedicated web search was run, archived as press-search.json, all 4 results were dispositioned and one source was registered and read in full, the gamedb.ai entry page for this game, whose stored disclosure text matches the store page while its tiers and statistics are third party judgement this site does not adopt. Two of the remaining results were the store page and a supporter pack DLC page and one was an aggregator list page carrying this game as a single row. No independent press report or community dispute was found, which proves nothing beyond the reviewed disclosure.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure names ship, station and environment sprites and icons among the AI created artwork, later curated and hand edited, so art is recorded as used with the some limit kept.",
+   "music": "The disclosure says sound effects, and the eight area model has no separate sound effects field, so this site maps it onto the music area and states the mapping here: the developer never names music and never says whether the score is included.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

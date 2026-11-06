@@ -1,0 +1,68 @@
+{
+ "identityName": "ODDSTABLE",
+ "identityDeveloper": "Kai Kai",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "none",
+   "note": "披露以独立一句否定运行期生成与外部 AI 服务连接，因此游戏运行登记为明确声明未使用。",
+   "quote": "No AI content is generated during gameplay, and the game does not connect to any external AI service.",
+   "evidenceId": "store"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露逐类点名马匹插画、场景背景、契约与道具图标、装饰性 UI 美术与游戏 logo，均属随游戏发布的固定资产，因此美术登记为已使用，并保留“部分”这一范围限定。",
+   "quote": "Generative AI tools were used during development to create or assist with portions of the game's pre-generated visual artwork, including horse illustrations, environmental backgrounds, contract and item icons, decorative UI artwork, the game logo, and Steam store and library artwork.",
+   "evidenceId": "store"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "used",
+   "note": "披露说 AI 协助起草或修改部分游戏内文本，撰写领域因此登记为已使用；范围限定在“部分”。",
+   "quote": "AI-assisted tools were also used to draft or refine portions of in-game text and localization.",
+   "evidenceId": "store"
+  },
+  "translation": {
+   "state": "used",
+   "note": "同一句把 localization（本地化）与文本起草并列，翻译领域因此登记为已使用。",
+   "quote": "AI-assisted tools were also used to draft or refine portions of in-game text and localization.",
+   "evidenceId": "store"
+  },
+  "marketing": {
+   "state": "used",
+   "note": "披露把 Steam 商店图与库图列入 AI 协助的视觉素材，这部分属于商店展示而非游戏内资产，本站把它登记在宣传素材领域。",
+   "quote": "the game logo, and Steam store and library artwork.",
+   "evidenceId": "store"
+  }
+ },
+ "disclosureQuote": "Generative AI tools were used during development to create or assist with portions of the game's pre-generated visual artwork, including horse illustrations, environmental backgrounds, contract and item icons, decorative UI artwork, the game logo, and Steam store and library artwork. AI-assisted tools were also used to draft or refine portions of in-game text and localization. All such materials were generated before release, then reviewed, selected, and edited by the developer, and are included in the game as fixed assets. No AI content is generated during gameplay, and the game does not connect to any external AI service.",
+ "aiScopeUnspecified": false,
+ "summary": "单机离线赛马 roguelite，2026 年 10 月 28 日上架，Kai Kai 开发并发行，分类为休闲／模拟／体育／策略：读六马场次、锁固定赔率、在十二场巡回里存活。商店 AI 披露说明生成式 AI 用于制作或协助本作预先生成的视觉素材（马匹插画、场景背景、契约与道具图标、装饰性 UI 美术、游戏 logo，以及 Steam 商店与库图），AI 协助工具还起草或修改了部分游戏内文本与本地化；全部素材在发售前生成，经开发者审阅、挑选与修改后作为固定资产随游戏发布，游戏过程中不生成 AI 内容，也不连接任何外部 AI 服务。本站据此把美术、撰写、翻译与宣传素材登记为已使用，把游戏运行登记为明确声明未使用，代码、音乐与配音三个领域因披露没有点名而登记为未说明。第三方转录页面的程度评级属该站判断，本站不采纳。所有结论只有开发者自述支撑，未经独立审计。",
+ "reviewNote": "核查英文商店页完整 AI 披露栏（原文未被截断）、身份（开发与发行均为 Kai Kai，正式版，2026 年 10 月 28 日）与英文讨论区：首页可见 0 个主题、总数 0，即该分区目前没有任何主题。公开报道单独检索 1 次（原始响应存档 press-search.json，6 条结果），登记并读取 2 条来源：gameaicheck.com 与 gamedb.ai 的本作条目页，两者对披露原文的转录与商店原文一致，页面自带的 AI 程度评级与领域打分属第三方自动判断，本站不采纳。其余四条结果里三条是同一商店页的其他语言或策展人入口（已有官方取证），一条是本站自己的浏览索引页。未检索到独立媒体报道或社区争议帖，这不能证明披露之外没有 AI 用途，判定只以商店披露原文为准。",
+ "description": "你把六匹马的场次读成赔率，用虚拟金币组票、接地下契约、把护身符滚成一台派奖机器，在十二场巡回里活下来。单机、离线，没有真钱赌博也没有内购，是一款披着赛马皮的构筑游戏。",
+ "english": {
+  "summary": "An offline single player horse racing roguelite released on Oct 28, 2026, developed and published by Kai Kai and filed under Casual, Simulation, Sports and Strategy, where you read a six horse field, lock fixed odds and survive a twelve race tour. The Steam AI disclosure states that generative AI tools created or assisted the pre generated visual artwork, covering horse illustrations, environmental backgrounds, contract and item icons, decorative UI artwork, the game logo and the Steam store and library artwork, and that AI assisted tools also drafted or refined portions of the in game text and localisation, with everything generated before release, reviewed, selected and edited by the developer and shipped as fixed assets, no AI content generated during gameplay and no connection to any external AI service. This site records art, writing, translation and marketing as used, the live generation area as explicitly ruled out, and code, music and voice as not addressed because the disclosure never names them. The extent rating on the two aggregator entry pages is those sites own judgement and is not adopted, and every finding rests on the developer own statement without independent audit.",
+  "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (Kai Kai as both developer and publisher, a full release dated Oct 28, 2026) and the English discussion board, whose homepage lists 0 visible topics out of 0, meaning the board is currently empty. One dedicated web search was run, archived as press-search.json, all 6 results were dispositioned and two sources were registered and read in full, the gameaicheck.com and gamedb.ai entry pages for this game, whose transcriptions match the store text while their AI extent ratings are automatic third party judgements this site does not adopt. Three of the remaining results were the same store page in other languages or through curator entry points already covered by the official evidence and one was this site own browse index. No independent press report or community dispute was found, which proves nothing beyond the reviewed disclosure.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure states separately that no AI content is generated during gameplay and the game connects to no external AI service, so live generation is recorded as explicitly ruled out.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure names horse illustrations, environmental backgrounds, contract and item icons, decorative UI artwork and the game logo, all shipped as fixed assets, so art is recorded as used with the portions limit kept.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "The disclosure says AI-assisted tools drafted or refined portions of the in-game text, so writing is recorded as used with that limit kept.",
+   "translation": "The same sentence lists localisation next to the text drafting, so translation is recorded as used.",
+   "marketing": "The disclosure counts the Steam store and library artwork among the AI assisted visual assets; those are store presentation rather than shipped game art, so this site records them under marketing."
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "identityName": "SCREENSIDE FISHER",
+ "identityDeveloper": "032",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "used",
+   "note": "披露的 code writing 指代码编写，并说明因 AI 参与、代码以 MIT 许可开源，代码登记为已使用。",
+   "quote": "received help from AI for localization and code writing.",
+   "evidenceId": "store"
+  },
+  "art": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。本次官方披露未明确说明此领域；不能据此认定未使用。披露里的 code writing 一词指的是代码而非游戏文本，本站不把两者混在一起。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露点名本地化得到 AI 帮助，并说明 AI 协助的翻译经过作者本人复核，翻译登记为已使用。",
+   "quote": "received help from AI for localization and code writing.",
+   "evidenceId": "store"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "received help from AI for localization and code writing. translations aided by AI are reviewed by a human (myself...), and since AI was used in writing the code, the code is released under the MIT license (open source).",
+ "aiScopeUnspecified": false,
+ "summary": "挂在屏幕角落的桌面钓鱼游戏，2026 年 9 月 21 日上架，032 开发并发行，分类为休闲／独立／免费：钓鱼、做菜、升级装备、补全图鉴，还能自定义角色外观甚至自己设计一种鱼。商店 AI 披露说明本作在本地化与代码编写上得到 AI 帮助：由 AI 协助的翻译经过作者本人复核，且因为代码有 AI 参与，代码以 MIT 许可开源。本站据此把翻译与代码登记为已使用，其余六个领域因披露没有点名而登记为未说明；原文的 code writing 指的是代码而不是游戏文本，撰写领域因此仍为未说明。第三方转录页面与商店原文一致。所有结论只有开发者自述支撑，未经独立审计。",
+ "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断）、身份（开发与发行均为 032，正式版，2026 年 9 月 21 日）与英文讨论区首页：可见 15 个主题、总数 48，即只覆盖首页，可见主题为水族馆获取、教程显示与 Linux 支持等，没有 AI 相关讨论。公开报道单独检索 1 次（原始响应存档 press-search.json，3 条结果），登记并读取 1 条来源：gamedb.ai 的本作条目页，其收录的披露原文与商店一致，页面自带的统计与等级属第三方判断，本站不采纳。另两条结果一条是商店页（已有官方取证），一条是第三方排行榜站点首页，未能读取本作条目正文，不登记。未检索到独立媒体报道或社区争议，这不能证明披露之外没有 AI 用途，判定只以商店披露原文为准。",
+ "description": "屏幕角落的一小片海：钓鱼、照菜谱做菜、升级渔具、把图鉴一格一格填满，还能捏角色外形，甚至自己设计一种鱼投进自己的渔场。免费，轻体量，适合一边干活一边收杆。",
+ "english": {
+  "summary": "A desktop fishing game that sits in the corner of your screen, released on Sep 21, 2026, developed and published by 032 and filed under Casual, Indie and Free To Play, where you catch fish, cook recipes, upgrade gear, fill the collection guide and can even design your own fish. The Steam AI disclosure says the game received help from AI for localisation and code writing, that the AI assisted translations were reviewed by a human, meaning the author, and that the code is released under the MIT licence because AI took part in writing it. This site records translation and code as used and the other six areas as not addressed, noting that the phrase code writing in the disclosure refers to source code rather than game text, so writing stays not addressed. The transcription on the aggregator entry page matches the store text and its statistics and tiers are not adopted, and every finding rests on the developer own statement without independent audit.",
+  "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (032 as both developer and publisher, a full release dated Sep 21, 2026) and the first page of the English discussion board, which shows 15 visible topics out of 48 in total, so only the front page was covered and its threads ask about the aquarium, a tutorial that does not show and Linux support, with no AI topic. One dedicated web search was run, archived as press-search.json, all 3 results were dispositioned and one source was registered and read in full, the gamedb.ai entry page for this game, whose stored disclosure text matches the store page while its statistics and tiers are third party judgement this site does not adopt. The other two results were the Steam store page already covered by the official evidence and a ranking site front page whose entry text for this game could not be read. No independent press report or community dispute was found, which proves nothing beyond the reviewed disclosure.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "The code writing wording means the source code, which the disclosure says is released under the MIT licence because AI took part, so code is recorded as used.",
+   "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The phrase code writing in the disclosure refers to source code, not to game text, and this site keeps those apart.",
+   "translation": "The disclosure names localisation as AI assisted and adds that the AI helped translations were reviewed by the author, so translation is recorded as used.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

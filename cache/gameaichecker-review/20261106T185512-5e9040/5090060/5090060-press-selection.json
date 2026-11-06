@@ -1,0 +1,47 @@
+{
+ "appId": "5090060",
+ "results": [
+  {
+   "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+   "relevant": false,
+   "reason": "该站的新作清单页，只含本作的聚合行与机器摘要，不是本作披露原文，不登记为来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5090060/Starlathe/",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5496870/Starlathe_Supporter_Pack/?snr=1_7_7_230_150_2",
+   "relevant": false,
+   "reason": "本作的支持者包（DLC）页面，非本体。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5090060-starlathe",
+   "relevant": true,
+   "reason": "该站本作条目页把 Steam 披露原文写入页面字段，已读取全文；用于交叉核对披露未被截断。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5090060",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/5090060-starlathe",
+   "fetchedAt": "2026-11-06T10:02:25.809045+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+   "quote": "Some artwork (ship, station and environment sprites, icons) and sound effects were created using generative AI tools during development, then curated and hand-edited by the developer.",
+   "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5090060\\press-0.html",
+   "contentHash": "37fb3c259f012afc7f6194a58d4abef48bd426ae5c362c62929a432efede7d8d"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，命中一个披露转录站、商店页、DLC 页与新作清单页，未见独立媒体报道或社区争议帖。",
+  "未检索到报道只说明检索范围，不能据此证明未使用 AI。",
+  "第三方聚合站页面，正文为该站对 Steam 披露的转录、字段解析或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

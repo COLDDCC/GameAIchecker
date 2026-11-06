@@ -1,0 +1,64 @@
+{
+ "identityName": "Fish Lab",
+ "identityDeveloper": "stonecodes",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "none",
+   "note": "披露以“没有 AI 生成的图片”排除图像类素材，美术登记为明确声明未使用。这是开发者自述，且未单列商店图与宣传图，因此宣传素材仍按未说明处理。",
+   "quote": "No AI-generated images",
+   "evidenceId": "store"
+  },
+  "music": {
+   "state": "none",
+   "note": "披露称音乐全部由作者手工完成，音乐登记为明确声明未使用；这是开发者自述，未经独立审计。",
+   "quote": "I made all the music by hand.",
+   "evidenceId": "store"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "used",
+   "note": "披露用“部分文本可能由 AI 翻译”的措辞，翻译登记为已使用，并保留原文的“部分”与“可能”两层不确定限定。开发者在 itch.io 自有页面另写有“未使用生成式 AI”，与这句的范围不一致；本站以 Steam 官方披露为准，不据此改判。",
+   "quote": "Some text may be translated with AI.",
+   "evidenceId": "store"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "disclosureQuote": "No AI-generated images and I made all the music by hand. Some text may be translated with AI.",
+ "aiScopeUnspecified": false,
+ "summary": "短篇增量游戏，2026 年 9 月 14 日上架，stonecodes 开发并发行，分类为动作／休闲／独立：收集鱼进你的实验室，节奏与音乐同步。商店 AI 披露只有三句：没有 AI 生成的图片、音乐全部由作者手工完成、部分文本可能用 AI 翻译。本站据此把美术与音乐登记为明确声明未使用，把翻译登记为已使用并保留“部分”与“可能”两层限定，其余五个领域（游戏运行、代码、配音、撰写、宣传素材）因披露没有点名而登记为未说明。开发者在 itch.io 的自有页面标注“未使用生成式 AI”，这与 Steam 披露中“部分文本可能用 AI 翻译”的范围不一致；本站以 Steam 官方披露为判定依据，并把这处矛盾写进结论，不据此认定开发者陈述一致。所有结论只有开发者自述支撑，未经独立审计。",
+ "reviewNote": "核查英文商店页完整 AI 披露栏（三句全文，未被截断）、身份（开发与发行均为 stonecodes，正式版，2026 年 9 月 14 日）与英文讨论区首页：可见 15 个主题、总数 21，即只覆盖首页，可见主题为试玩版更新、无障碍与启动报错等，没有 AI 相关讨论。公开报道共进行两次独立检索，原始响应分别存档为 press-search.json 与 press-search.b.json，批次证据结构只登记后者：其 6 条结果登记并读取 1 条来源，即开发者自己的 itch.io 作品页，其素材标注“未使用生成式 AI”与 Steam 披露的“部分文本可能用 AI 翻译”范围不一致，本站把它登记为开发者来源并在结论中写明冲突；其余结果为需登录或前端渲染的社交与视频页、SteamDB 页面（中转抓取返回 403）、社区入口页（讨论区已单独取证）与一个无关的教学资源页。另一次检索只命中通用的 Steam AI 披露规则说明文章，不含本作内容。未检索到独立媒体报道，这不能证明披露之外没有 AI 用途，判定只以商店披露原文为准。",
+ "description": "很短的增量游戏：把鱼一条条捞进实验室，看它们繁殖、变异、越叠越多，整个节奏跟着音乐走。目标小、单局短，适合在手上留十分钟的时候玩。",
+ "english": {
+  "summary": "A short incremental game released on Sep 14, 2026, developed and published by stonecodes and filed under Action, Casual and Indie, where you collect fish for a lab and the whole thing is synced to music. The Steam AI disclosure is three clauses: no AI generated images, all the music made by hand, and some text that may be translated with AI. This site records art and music as explicitly not used and translation as used with both the some and the may limits kept, while the remaining five areas stay not addressed because the disclosure never names them. The developer itch.io page carries a no generative AI was used content note that is broader than the Steam sentence about AI translation, so this site judges on the Steam disclosure, registers the itch page as a developer source and states the disagreement on the page instead of averaging the two. Every finding rests on developer self statements with no independent audit.",
+  "reviewNote": "Checked the complete English Steam AI disclosure block with all three clauses, the identity (stonecodes as both developer and publisher, a full release dated Sep 14, 2026) and the first page of the English discussion board, which shows 15 visible topics out of 21 in total, so only the front page was covered and its threads concern the demo update, accessibility and a launch error, with no AI topic. Two separate web searches were run and archived as press-search.json and press-search.b.json; the batch evidence structure records only the latter, whose 6 results were dispositioned with one source registered and read in full, the developer own itch.io page for the game, whose no generative AI was used content note conflicts in scope with the Steam clause about AI translated text, so it is registered as a developer source and the disagreement is stated rather than resolved. The other results were a signed in social post and video, a SteamDB page the relay could not read because it returned HTTP 403, a Steam community entry point already covered by the official evidence and an unrelated tutorial resource. The other search returned only generic Steam AI disclosure rule guides with nothing about this game. No independent press report was found, which proves nothing beyond the reviewed disclosure.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure rules out AI generated images, so art is recorded as explicitly not used. That is the developer own statement and it never separates store or promotional images, which is why marketing stays not addressed.",
+   "music": "The disclosure says all the music was made by hand, so music is recorded as explicitly not used, on the developer own statement and without independent audit.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "The disclosure is hedged, some text may be translated with AI, so translation is recorded as used with both the some and the may limits kept. The developer itch.io page says no generative AI was used, which is narrower than this sentence; this site follows the Steam disclosure and does not average the two.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ }
+}

@@ -1,0 +1,166 @@
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Does Cards Everywhere! use AI? Steam AI disclosure check | GameAICheck</title><meta name="description" content="Yes. Cards Everywhere!&#39;s developer discloses AI-generated content on its Steam page. Generative AI supported creation of collectible card artwork and so…"/><link rel="canonical" href="https://gameaicheck.com/game/5063140/cards-everywhere"/><meta property="og:title" content="Does Cards Everywhere! use AI? Steam AI disclosure check | GameAICheck"/><meta property="og:description" content="Yes. Cards Everywhere!&#39;s developer discloses AI-generated content on its Steam page. Generative AI supported creation of collectible card artwork and so…"/><meta property="og:url" content="https://gameaicheck.com/game/5063140/cards-everywhere"/><meta property="og:site_name" content="GameAICheck"/><meta name="theme-color" content="#171a21"/><meta name="impact-site-verification" value="25bd5fef-d3df-4ab6-9146-5027bd974042"/><link rel="icon" href="/favicon.ico" sizes="48x48"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/><link rel="manifest" href="/site.webmanifest"/><meta property="og:image" content="https://gameaicheck.com/icon-512.png"/><style>
+:root {
+  /* Steam store palette: one dark theme, like Steam itself */
+  color-scheme: dark;
+  --bg: #1b2838; --header: #171a21; --panel: #16202d; --soft: #213246; --line: #2a3f5a;
+  --ink: #dcdedf; --head: #ffffff; --muted: #9ea8b1; --accent: #66c0f4; --placeholder: #a9c3d9;
+  /* white on the button is 5.1:1; Steam's own #1a9fff is 2.8:1 */
+  --button: #0b6fc7; --button-hover: #0a62b0; --field: #233c51;
+  --ai: #f0a04b; --ai-bg: rgba(240, 160, 75, .12); --clear: #c7d5e0; --clear-bg: rgba(199, 213, 224, .08);
+  --flag: #ff8a7d; --flag-bg: rgba(255, 138, 125, .12); --radius: 4px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--bg) linear-gradient(180deg, #1f3247 0, var(--bg) 420px) no-repeat; color: var(--ink);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; height: auto; display: block; }
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+header.site { background: var(--header); box-shadow: 0 1px 0 rgba(0, 0, 0, .4); }
+header.site .wrap { display: flex; align-items: center; gap: 16px; height: 56px; }
+.logo { font-weight: 800; color: var(--head); letter-spacing: .02em; white-space: nowrap; text-transform: uppercase; font-size: 15px; }
+.logo span { color: var(--accent); }
+.logo:hover { text-decoration: none; }
+.logo { display: inline-flex; align-items: center; gap: 8px; }
+.logo img { border-radius: 5px; }
+header nav { display: flex; gap: 14px; font-size: 14px; margin-left: auto; }
+header nav a { color: var(--muted); text-transform: uppercase; font-size: 13px; letter-spacing: .04em; }
+header nav a:hover { color: var(--head); text-decoration: none; }
+main { padding: 24px 0 56px; flex: 1; }
+.skip { position: absolute; left: -9999px; top: 8px; z-index: 20; background: var(--button); color: #fff; padding: 8px 14px; border-radius: var(--radius); }
+.skip:focus { left: 16px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 12px; letter-spacing: -.01em; color: var(--head); font-weight: 600; }
+h2 { font-size: 15px; margin: 32px 0 12px; color: var(--head); font-weight: 500; text-transform: uppercase; letter-spacing: .06em;
+  padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+h3 { font-size: 16px; margin: 20px 0 8px; }
+p { margin: 0 0 12px; }
+h1, h2, .verdict .head { text-wrap: balance; }
+p, li, dd, summary { text-wrap: pretty; }
+main p { max-width: 68ch; }
+::selection { background: rgba(102, 192, 244, .35); color: var(--head); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+td, .stat, dl.facts dd { font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+.small { font-size: 14px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; }
+.verdict { border-radius: var(--radius); padding: 18px 20px; border: 1px solid; margin: 16px 0 8px; }
+.verdict.ai { background: var(--ai-bg); border-color: color-mix(in srgb, var(--ai) 35%, transparent); }
+.verdict.clear { background: var(--clear-bg); border-color: color-mix(in srgb, var(--clear) 35%, transparent); }
+.verdict.flag { background: var(--flag-bg); border-color: color-mix(in srgb, var(--flag) 35%, transparent); }
+.verdict .head { font-size: 20px; font-weight: 750; margin-bottom: 6px; }
+.verdict.ai .head { color: var(--ai); } .verdict.clear .head { color: var(--clear); } .verdict.flag .head { color: var(--flag); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; padding: 0; list-style: none; }
+.chip { font-size: 13px; padding: 2px 10px; border-radius: 999px; background: var(--soft); border: 1px solid var(--line); white-space: nowrap; }
+.chip.live { background: var(--ai); color: #fff; border-color: var(--ai); }
+blockquote { margin: 0; padding: 14px 16px; background: var(--soft); border: 1px solid var(--line); border-radius: var(--radius); white-space: pre-wrap; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 13px; color: var(--muted); font-weight: 600; }
+.game-head { display: grid; grid-template-columns: 1fr; gap: 16px; }
+.game-head img { border-radius: 8px; border: 1px solid var(--line); }
+dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 0; font-size: 15px; }
+dl.facts dt { color: var(--muted); }
+dl.facts dd { margin: 0; }
+.search { display: flex; gap: 8px; position: relative; }
+.search input { flex: 1; min-width: 0; font: inherit; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--field); color: var(--head); }
+.search input::placeholder, form.report ::placeholder { color: var(--placeholder); }
+.search button, button.btn { font: inherit; font-weight: 500; padding: 12px 20px; border-radius: 2px; border: 0; background: var(--button); color: #fff; cursor: pointer; }
+.search button:hover, button.btn:hover { background: var(--button-hover); }
+.suggest { position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px; background: #3d4450; border: 1px solid #4b5563; border-radius: var(--radius); overflow: hidden; z-index: 10; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+.suggest a { display: flex; justify-content: space-between; gap: 12px; padding: 10px 14px; color: var(--ink); border-bottom: 1px solid var(--line); }
+.suggest a:last-child { border-bottom: 0; }
+.suggest a:hover, .suggest a.on { background: #5b6575; text-decoration: none; }
+.list { list-style: none; padding: 0; margin: 0; }
+.list li { display: grid; grid-template-columns: 120px 1fr; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--line); align-items: start; }
+.list li img { border-radius: 6px; aspect-ratio: 460 / 215; object-fit: cover; width: 120px; background: var(--soft); }
+.list .title { font-weight: 600; color: var(--head); }
+.badge { font-size: 12px; font-weight: 700; padding: 1px 8px; border-radius: 6px; white-space: nowrap; }
+.badge.ai { color: var(--ai); background: var(--ai-bg); } .badge.clear { color: var(--clear); background: var(--clear-bg); } .badge.flag { color: var(--flag); background: var(--flag-bg); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.stat { font-size: 28px; font-weight: 700; letter-spacing: -.01em; color: var(--accent); }
+details.faq { border-bottom: 1px solid var(--line); padding: 12px 0; }
+details.faq summary { font-weight: 650; cursor: pointer; }
+details.faq p { margin: 8px 0 0; }
+form.report textarea, form.report input { width: 100%; font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--field); color: var(--head); margin-bottom: 8px; }
+footer.site { background: var(--header); padding: 24px 0 40px; font-size: 14px; color: var(--muted); margin-top: 24px; }
+footer.site nav { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 8px; }
+.verdict .badge { display: inline-block; margin-top: 12px; font-size: 13px; padding: 3px 10px; }
+.reqs { font-size: 13px; color: var(--muted); }
+.reqs.kernel { color: var(--flag); }
+.field-label { display: block; font-size: 14px; color: var(--muted); margin-bottom: 4px; }
+ul.signals { list-style: none; padding: 0; margin: 0; }
+ul.signals li { padding: 8px 0 8px 22px; border-bottom: 1px solid var(--line); position: relative; }
+ul.signals li::before { content: ""; position: absolute; left: 4px; top: 17px; width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+ul.signals li.warn::before { background: var(--ai); }
+ul.signals li.req::before { background: var(--flag); }
+.verdict .reqline { margin: 10px 0 0; font-size: 14px; }
+.verdict .reqline a { color: var(--flag); }
+.legend { margin-top: 12px; font-size: 14px; color: var(--muted); }
+.legend summary { cursor: pointer; }
+.legend dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 10px 0 0; }
+.legend dd { margin: 0; }
+.statline { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 20px 0 0; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.statline a { color: inherit; text-decoration: none; }
+.statline a:hover .stat { text-decoration: underline; }
+.statline .stat { font-size: 24px; line-height: 1.2; }
+.statline .small { font-size: 13px; line-height: 1.4; }
+.list-intro { margin: 2px 0 0; max-width: 68ch; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.crumbs { font-size: 14px; color: var(--muted); margin-bottom: 8px; }
+@media (min-width: 720px) {
+  h1 { font-size: 36px; }
+  .game-head { grid-template-columns: 1fr 300px; }
+  .list li { grid-template-columns: 184px 1fr; }
+  .list li img { width: 184px; }
+}
+@media (max-width: 719px) {
+  /* Logo on its own row, the nav a scrollable row under it: four links don't fit beside the logo at 390px */
+  header.site .wrap { flex-wrap: wrap; height: auto; padding-top: 12px; padding-bottom: 0; row-gap: 0; }
+  header nav { margin-left: 0; width: 100%; overflow-x: auto; white-space: nowrap; gap: 8px; scrollbar-width: none; }
+  /* 44px tap targets */
+  header nav a { padding: 12px 6px; }
+  header nav a:first-child { padding-left: 0; }
+  .statline .stat { font-size: 20px; }
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does Cards Everywhere! use AI?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cards Everywhere!'s developer discloses AI-generated content on its Steam page. Generative AI supported creation of collectible card artwork and some UI elements, curated before release with no live AI."}},{"@type":"Question","name":"What does Cards Everywhere! use AI for?","acceptedAnswer":{"@type":"Answer","text":"According to the developer's disclosure: art."}},{"@type":"Question","name":"Is Cards Everywhere! AI-generated?","acceptedAnswer":{"@type":"Answer","text":"Only partly. AI is used for parts of the game; most of it is made by the developers."}},{"@type":"Question","name":"How does GameAICheck know?","acceptedAnswer":{"@type":"Answer","text":"We read the AI Generated Content Disclosure from the game's public Steam store page, check it daily, and show what independent curators and open-source tools say about it. Disclosures are self-reported by developers."}}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","name":"Cards Everywhere!","url":"https://gameaicheck.com/game/5063140/cards-everywhere","image":"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5063140/b0a965c68f3fd352b5c1ec1a2697530c4aea64af/header_alt_assets_0.jpg?t=1791865556","author":[{"@type":"Organization","name":"Armed Chicken"}],"publisher":[{"@type":"Organization","name":"Armed Chicken"}],"datePublished":"2026-09-17","gamePlatform":"PC","sameAs":"https://store.steampowered.com/app/5063140/"}</script></head><body><a class="skip" href="#content">Skip to content</a><header class="site"><div class="wrap"><a class="logo" href="/"><img src="/favicon-48.png" alt="" width="24" height="24"/>Game<span>AI</span>Check</a><nav><a href="/lists">Lists</a><a href="/anti-cheat">Anti-cheat</a><a href="/stats">Stats</a><a href="/sources">How it works</a></nav></div></header><main id="content"><div class="wrap"><div class="crumbs"><a href="/">Search</a> › Cards Everywhere!</div><div class="game-head"><div><h1>Does Cards Everywhere! use AI?</h1><div class="verdict ai"><div class="head">Yes — AI is used for parts of the game</div><p style="margin:0">Generative AI supported creation of collectible card artwork and some UI elements, curated before release with no live AI.</p><div><span class="badge ai" title="How much of the game is AI-generated, and whether it shows signs of mass production (an AI judgment of the developer&#39;s output, reviews and disclosure)">Partial AI · solid production</span></div><p class="small muted" style="margin:6px 0 0"><a href="/sources#ai-judgments">Our AI review</a>, high confidence. Not a verdict; the evidence is below.</p><ul class="chips"><li class="chip">Art</li></ul></div><p class="small muted">Checked against Steam on Nov 3, 2026. Extent: Partial — some in-game assets.</p></div><div><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5063140/b0a965c68f3fd352b5c1ec1a2697530c4aea64af/header_alt_assets_0.jpg?t=1791865556" alt="Cards Everywhere! header image" width="460" height="215"/><dl class="facts" style="margin-top:12px"><dt>Developer</dt><dd>Armed Chicken</dd><dt>Publisher</dt><dd>Armed Chicken</dd><dt>Release</dt><dd>17 Sep, 2026</dd><dt>Reviews</dt><dd>Mostly Positive · 134</dd></dl><p class="small" style="margin-top:10px"><a href="https://store.steampowered.com/app/5063140/" rel="noopener" target="_blank">View on Steam ↗</a></p></div></div><h2 id="before-you-buy">Before you buy: anti-cheat, accounts, DRM</h2><p>No anti-cheat, third-party account or DRM is declared on Cards Everywhere!&#39;s Steam page.</p><p class="small"><a href="/game/5063140/cards-everywhere/anti-cheat">Full anti-cheat, account and DRM details, with change history →</a></p><h2>Production signals</h2><p class="small muted">Facts about who made the game and how players received it. They don&#39;t depend on AI, and they help tell a carefully made game that used some AI apart from mass-produced ones.</p><ul class="signals"><li class=""><a href="/developer/armed-chicken">Armed Chicken</a> released <strong>1</strong> game on Steam in the last 12 months. 1 of their 2 games disclose AI.</li><li class="">On Steam since 2026 with 2 games.</li><li class="">134 player reviews, 70% positive (Mostly Positive).</li><li class="">Our AI review of these signals: <strong>solid production</strong>.</li></ul><h2>What the developer says</h2><blockquote>Generative AI tools were used during development to support creation of the artwork featured on the collectible cards and some UI elements. All AI-generated content was created before release, curated and integrated into the game by the developer. No content is generated by AI during gameplay.</blockquote><p class="small muted" style="margin-top:8px">From the “AI Generated Content Disclosure” on the Steam store page, quoted as written. First seen by us on Oct 28, 2026.</p><h2>What other sources say</h2><table><thead><tr><th>Source</th><th>Their take</th></tr></thead><tbody><tr><td><a href="/sources#steam">Steam disclosure</a></td><td>AI content disclosed</td></tr><tr><td><a href="/sources#gameaicheck">GameAICheck reading</a></td><td>Partial — some in-game assets<div class="small muted">AI reading by deepseek-flash</div></td></tr><tr><td><a href="/sources#ai-judgments">AI judgment</a><div class="small muted">deepseek-flash</div></td><td>Partial AI · solid production<span class="muted">, high confidence</span><details><summary class="small">Reasoning</summary><p class="small" style="margin:6px 0 0">The disclosure states AI was used for card artwork and some UI, which players see, so scope is parts rather than none. The developer released only one game in the last 12 months and the game has 134 reviews at 70% positive, showing real development effort. No live AI generation occurs during play.</p><p class="small muted" style="margin:6px 0 0">Against: Only 1 of the developer&#39;s 2 games discloses AI, and the studio is new to Steam, so track record is limited.</p></details></td></tr><tr><td><a href="/sources#remove-ai-slop">Remove AI Slop</a><div class="small muted">open-source extension</div></td><td>Mostly AI-generated (art, UI/icons)</td></tr></tbody></table><h2>FAQ</h2><details class="faq" open=""><summary>Does Cards Everywhere! use AI?</summary><p>Yes. Cards Everywhere!&#39;s developer discloses AI-generated content on its Steam page. Generative AI supported creation of collectible card artwork and some UI elements, curated before release with no live AI.</p></details><details class="faq"><summary>What does Cards Everywhere! use AI for?</summary><p>According to the developer&#39;s disclosure: art.</p></details><details class="faq"><summary>Is Cards Everywhere! AI-generated?</summary><p>Only partly. AI is used for parts of the game; most of it is made by the developers.</p></details><details class="faq"><summary>How does GameAICheck know?</summary><p>We read the AI Generated Content Disclosure from the game&#39;s public Steam store page, check it daily, and show what independent curators and open-source tools say about it. Disclosures are self-reported by developers.</p></details><h2>Is something wrong?</h2><p class="small">Developers and players can dispute or report this page. We review every message and correct mistakes.</p><form class="report" method="post" action="/report"><input type="hidden" name="appid" value="5063140"/><label class="field-label" for="report-message">What&#39;s wrong on this page?</label><textarea id="report-message" name="message" rows="3" required="" placeholder="For example: the disclosure changed, or a curator note is wrong. Links help."></textarea><label class="field-label" for="report-email">Email (optional, if you want a reply)</label><input id="report-email" type="email" name="email" placeholder="you@example.com"/><button class="btn" type="submit">Send</button></form><h2>Check another game</h2><form class="search" action="/search" method="get" role="search"><input data-search="true" type="search" name="q" value="" placeholder="Search any Steam game…" aria-label="Search Steam games" autocomplete="off"/><button type="submit">Check</button></form></div></main><footer class="site"><div class="wrap"><nav><a href="/">Search</a><a href="/lists">Lists</a><a href="/anti-cheat">Anti-cheat &amp; accounts</a><a href="/stats">Stats</a><a href="/sources">Sources &amp; method</a><a href="/about">About</a><a href="/contact">Contact / disputes</a></nav><p>Data from public Steam store pages, Steam curators and open-source tools. Not affiliated with Valve or Steam.</p></div></footer><script>
+(() => {
+  const input = document.querySelector('[data-search]');
+  if (!input) return;
+  const box = document.createElement('div'); box.className = 'suggest'; box.hidden = true;
+  box.id = 'suggest'; box.setAttribute('role', 'listbox');
+  const live = document.createElement('div'); live.className = 'sr'; live.setAttribute('aria-live', 'polite');
+  input.parentElement.append(box, live);
+  input.setAttribute('role', 'combobox'); input.setAttribute('aria-controls', 'suggest');
+  input.setAttribute('aria-autocomplete', 'list'); input.setAttribute('aria-expanded', 'false');
+  const show = (on) => { box.hidden = !on; input.setAttribute('aria-expanded', String(on)); if (!on) input.removeAttribute('aria-activedescendant'); };
+  let t, idx = -1;
+  const label = (g) => g.has_ai ? '<span class="badge ai">AI disclosed</span>' : g.undisclosed ? '<span class="badge flag">Flagged</span>' : '<span class="badge clear">No AI disclosure</span>';
+  const esc = (s) => s.replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  input.addEventListener('input', () => {
+    clearTimeout(t);
+    const q = input.value.trim();
+    if (q.length < 2) { show(false); return; }
+    t = setTimeout(async () => {
+      const r = await fetch('/api/search?q=' + encodeURIComponent(q));
+      const games = await r.json();
+      idx = -1;
+      box.innerHTML = games.map((g, i) => '<a role="option" id="sg' + i + '" href="' + g.url + '"><span>' + esc(g.name) + '</span>' + label(g) + '</a>').join('');
+      show(games.length > 0);
+      live.textContent = games.length ? games.length + ' suggestions, use arrow keys' : 'No matching games';
+    }, 150);
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { show(false); return; }
+    const items = [...box.querySelectorAll('a')];
+    if (!items.length || box.hidden) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      idx = (idx + (e.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length;
+      items.forEach((a, i) => { a.classList.toggle('on', i === idx); a.setAttribute('aria-selected', String(i === idx)); });
+      input.setAttribute('aria-activedescendant', items[idx].id);
+    } else if (e.key === 'Enter' && idx >= 0) { e.preventDefault(); location.href = items[idx].href; }
+  });
+  document.addEventListener('click', (e) => { if (!input.parentElement.contains(e.target)) show(false); });
+})();
+</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;a941fdedbf5e467c8766d72c46b1b799&quot;}"></script></body></html>

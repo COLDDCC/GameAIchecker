@@ -1,0 +1,161 @@
+{
+  "sources": [
+    {
+      "appId": "4859270",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4859270/?l=english",
+      "fetchedAt": "2026-11-06T09:56:28.707122+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "c38bbf6b1a914a46724f81f3663e8ed18351925f912f6fcf2d278b52ef194909",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4859270\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI was used only to help create a few marketing images (capsule art and header capsule). All store screenshots, written content, and in-game art, audio, and text are handcrafted. The game contains no live or runtime AI-generated content.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI was used only to help create a few marketing images (capsule art and header capsule). All store screenshots, written content, and in-game art, audio, and text are handcrafted. The game contains no live or runtime AI-generated content."
+    },
+    {
+      "appId": "4859270",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4859270/discussions/?l=english",
+      "fetchedAt": "2026-11-06T09:56:29.986269+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "9e3f88586708b477a34b8be9541c285b60f684e073953dca176e8d63bd8a121e",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4859270\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "进游戏就闪退\nAchievements not unlocking despite meeting the requirements\n开局一根回旋banan\n创意很不错的类吸血鬼幸存者 roguelike！玩法新颖，值得期待！\nWhat happened to the store page?",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 5 个主题（总数 5）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4859270",
+      "sourceType": "press",
+      "url": "https://gamedb.ai/games/4859270-dark-bone-prison",
+      "fetchedAt": "2026-11-06T10:02:53.997939+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+      "quote": "AI was used only to help create a few marketing images (capsule art and header capsule).",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4859270\\press-0.html",
+      "contentHash": "e858314b211f7f9a0e7dd0b2f4e41d374dd031593cf67e0e525be5ed5ccabf05"
+    }
+  ],
+  "identity": {
+    "appId": "4859270",
+    "name": "Dark Bone Prison",
+    "developer": "Bunny Moon Shady",
+    "publisher": "Bunny Moon Shady",
+    "type": "game",
+    "verified": true,
+    "release": "Sep 7, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Casual",
+      "Indie",
+      "RPG",
+      "Strategy"
+    ],
+    "description": "This is a dungeon-based game full of oppressive atmosphere. You will delve into the maze filled with monsters, collect, combine and upgrade weapons, and fight for a glimmer of hope in the successive waves of attacks.",
+    "identityEvidence": {
+      "appId": "4859270",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4859270&l=english",
+      "fetchedAt": "2026-11-06T09:56:29.310633+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "3707130d66651e6e83357c09e000ed5043bdd82adb5f91c2d7c98efca3093701",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4859270\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 5,
+    "totalTopics": 5,
+    "topics": [
+      {
+        "title": "进游戏就闪退",
+        "url": "https://steamcommunity.com/app/4859270/discussions/0/565922505040147948/"
+      },
+      {
+        "title": "Achievements not unlocking despite meeting the requirements",
+        "url": "https://steamcommunity.com/app/4859270/discussions/0/583935635494123843/"
+      },
+      {
+        "title": "开局一根回旋banan",
+        "url": "https://steamcommunity.com/app/4859270/discussions/0/586185220309639142/"
+      },
+      {
+        "title": "创意很不错的类吸血鬼幸存者 roguelike！玩法新颖，值得期待！",
+        "url": "https://steamcommunity.com/app/4859270/discussions/0/586184846079966046/"
+      },
+      {
+        "title": "What happened to the store page?",
+        "url": "https://steamcommunity.com/app/4859270/discussions/0/590685961608857200/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Dark Bone Prison\" Steam AI disclosure capsule art marketing",
+    "searchedAt": "2026-11-06T10:06:00+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://gamedb.ai/games/4859270-dark-bone-prison",
+        "relevant": true,
+        "reason": "该站本作条目页逐字转录 Steam 披露原文，已读取全文；仅作交叉核对，不作为领域判定来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4859270/Nguc_Xuong_Hac_Am/?snr=1_1056_4_1056_curatorfeatureddiscount&curator_clanid=44941219",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+        "relevant": false,
+        "reason": "该站的新作清单页，只含本作的聚合行与机器摘要，不是本作披露原文，不登记为来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4859270/",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4859270/%E6%9A%97%E9%BB%91%E9%AA%A8%E7%89%A2/?snr=1_1056_4_1056_curator-tabs&curator_clanid=45903877",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gamedb.ai/games/1524280-abyss-campus",
+        "relevant": false,
+        "reason": "其他作品的聚合站条目页。"
+      }
+    ],
+    "readUrls": [
+      "https://gamedb.ai/games/4859270-dark-bone-prison"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，命中一个披露转录站、本体商店页（多语言/策展人入口）与新作清单页。",
+      "未检索到独立媒体报道本作的 AI 使用；这不能证明未使用 AI，判定以商店披露原文为准。",
+      "第三方聚合站页面，正文为该站对 Steam 披露的转录、字段解析或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4859270\\press-search.json",
+    "contentHash": "25b14e2bf69debe3e938ee5216462448dda32ce99a04a130a198681936799e45"
+  }
+}

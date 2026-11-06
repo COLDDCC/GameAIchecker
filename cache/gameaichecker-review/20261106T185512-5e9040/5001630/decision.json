@@ -1,0 +1,66 @@
+{
+ "identityName": "Jiahao",
+ "identityDeveloper": "豪意有限公司, OddLemon",
+ "category": "official_ai_disclosure",
+ "areas": {
+  "ingame": {
+   "state": "none",
+   "note": "披露说明所有 AI 内容均为预生成、玩法运行中不跑生成式 AI，游戏运行登记为明确声明未使用。",
+   "quote": "no generative AI runs during gameplay.",
+   "evidenceId": "store"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露逐类点名游戏内角色美术、动画帧、UI 与道具图标，美术登记为已使用，并保留“部分”限定。",
+   "quote": "Some in-game character art, animation frames, UI and item icons, character voice lines, and store/promotional artwork were created or refined with generative AI tools.",
+   "evidenceId": "store"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "used",
+   "note": "同一句把角色语音（character voice lines）列进 AI 制作或润色的范围，配音领域因此登记为已使用。",
+   "quote": "Some in-game character art, animation frames, UI and item icons, character voice lines, and store/promotional artwork were created or refined with generative AI tools.",
+   "evidenceId": "store"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "used",
+   "note": "披露把 store/promotional artwork（商店与宣传图）单列，属商店展示素材，登记在宣传素材领域。",
+   "quote": "character voice lines, and store/promotional artwork were created or refined with generative AI tools.",
+   "evidenceId": "store"
+  }
+ },
+ "disclosureQuote": "Some in-game character art, animation frames, UI and item icons, character voice lines, and store/promotional artwork were created or refined with generative AI tools. The development team selected, edited, reviewed, and curated the final AI-assisted assets. All AI content is pre-generated; no generative AI runs during gameplay.",
+ "aiScopeUnspecified": false,
+ "summary": "桌面宠物式模拟经营，2026 年 9 月 9 日上架，开发为豪意有限公司与 OddLemon，发行为豪格集团与 MiniSurge，分类为休闲／独立／模拟。商店 AI 披露说明部分游戏内角色美术、动画帧、UI 与道具图标、角色语音，以及商店与宣传图由生成式 AI 工具制作或润色，最终素材由开发团队挑选、编辑、审阅与策展，全部 AI 内容为预生成、玩法运行中不跑生成式 AI。本站据此把美术、配音与宣传素材登记为已使用，把游戏运行登记为明确声明未使用，代码、音乐、撰写与翻译登记为未说明。第三方转录页面与商店原文一致，其等级标注不采纳。所有结论只有开发者自述支撑，未经独立审计。",
+ "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断）、身份（开发为豪意有限公司与 OddLemon，发行为豪格集团与 MiniSurge，正式版，2026 年 9 月 9 日）与讨论区首页：可见 15 个主题、总数 71，即只覆盖首页，可见主题为换卡、连接与玩法提问，没有 AI 相关讨论。公开报道单独检索 1 次（原始响应存档 press-search.json，6 条结果），登记并读取 1 条来源：gamedb.ai 的本作条目页，其收录的披露原文与商店一致，页面自带的标签与等级属第三方判断，本站不采纳。其余五条里三条是同一商店页的不同入口（已有官方取证），两条是其他作品的聚合站条目。未检索到独立媒体报道或社区争议，这不能证明披露之外没有 AI 用途，判定只以商店披露原文为准。",
+ "description": "嘉豪是你屏幕一角的桌面宠物，也是豪域里股市的不败王者与时尚巅峰。陪它把一段孤独养成一场加冕，看它在弹窗里替你把话说完。",
+ "english": {
+  "summary": "A desktop pet style simulation released on Sep 9, 2026, developed by the two studio credits listed on the store page and published by the two companies listed there, filed under Casual, Indie and Simulation. The Steam AI disclosure states that some in game character art, animation frames, UI and item icons, character voice lines and store or promotional artwork were created or refined with generative AI tools, that the team selected, edited, reviewed and curated the final assets, and that all AI content is pre generated with no generative AI running during gameplay. This site records art, voice and marketing as used and the live generation area as explicitly ruled out, while code, music, writing and translation stay not addressed because the disclosure never names them. The transcription on the aggregator entry page matches the store text and its labels are not adopted, and every finding rests on the developer own statement without independent audit.",
+  "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (two developer credits and two publisher credits as listed on the store page, a full release dated Sep 9, 2026) and the first page of the discussion board, which shows 15 visible topics out of 71 in total, so only the front page was covered and its threads are card trading, connection and gameplay questions with no AI topic. One dedicated web search was run, archived as press-search.json, all 6 results were dispositioned and one source was registered and read in full, the gamedb.ai entry page for this game, whose stored disclosure text matches the store page while its own labels and tiers are third party judgement this site does not adopt. Three of the remaining results were the same store page through different entry points already covered by the official evidence and two were aggregator pages for other games. No independent press report or community dispute was found, which proves nothing beyond the reviewed disclosure.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure states all AI content is pre generated and no generative AI runs during gameplay, so live generation is recorded as explicitly ruled out.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure names in game character art, animation frames and UI and item icons, so art is recorded as used with the some limit kept.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "The same sentence puts character voice lines inside the AI created or refined set, so voice is recorded as used.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "The disclosure separately names store and promotional artwork, which is store presentation, so marketing is recorded as used."
+  }
+ }
+}

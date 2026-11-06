@@ -1,0 +1,200 @@
+{
+  "sources": [
+    {
+      "appId": "4221990",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4221990/?l=english",
+      "fetchedAt": "2026-11-06T09:56:26.830678+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "7ec857a906ba4c095805e3c7a679c4a9ca0fbc2cd1ef87e055be7db1f3ec4a1d",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4221990\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "No AI-generated images and I made all the music by hand. Some text may be translated with AI.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "No AI-generated images and I made all the music by hand. Some text may be translated with AI."
+    },
+    {
+      "appId": "4221990",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4221990/discussions/?l=english",
+      "fetchedAt": "2026-11-06T09:56:28.013080+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "0ec1eff202e4ba78fe7221ea6507d3431c811046b01ebd9d4ff44a0c2b8f4f70",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4221990\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "The Demo needs an update\nAccessibility\nNo Launch\ncan we disable aimed laser mode\nDear Developer / Please allow players to continue playing after completing the ending.\nA LOT that needs clarification\nWhats teh flashing area zone on the right hand side?\nReally like it so far, but confused about a lot\nwhy havnt i caught every species?\nBug / Exploit\nSound blowout?\nThis needs to somehow be an audio visualization\nCongrats\nOrbs ?\nOverfishing",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 21）；仅覆盖首页。"
+    },
+    {
+      "id": "developer-0",
+      "appId": "4221990",
+      "sourceType": "developer",
+      "url": "https://stonecodes.itch.io/fish-lab",
+      "fetchedAt": "2026-11-06T10:03:58.680868+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "开发者 itch.io 页面：素材标注“无生成式 AI”，与 Steam 披露范围不一致",
+      "quote": "No generative AI was used",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4221990\\developer-0.html",
+      "contentHash": "0691c90a383c0ce98550d087ac046c31971c4ee120e57498749c4609a280fcfc"
+    }
+  ],
+  "identity": {
+    "appId": "4221990",
+    "name": "Fish Lab",
+    "developer": "stonecodes",
+    "publisher": "stonecodes",
+    "type": "game",
+    "verified": true,
+    "release": "Sep 14, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Casual",
+      "Indie"
+    ],
+    "description": "A short incremental game where you collect fish for your lab. Synced to music.",
+    "identityEvidence": {
+      "appId": "4221990",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4221990&l=english",
+      "fetchedAt": "2026-11-06T09:56:27.388261+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "1b4a3b7c19baf9488849df39a30712c28edec234509f2e97f90e4abc54298122",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4221990\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 21,
+    "topics": [
+      {
+        "title": "The Demo needs an update",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/565924099166385468/"
+      },
+      {
+        "title": "Accessibility",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/588439600674109099/"
+      },
+      {
+        "title": "No Launch",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/588432892837765443/"
+      },
+      {
+        "title": "can we disable aimed laser mode",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/520883748724772387/"
+      },
+      {
+        "title": "Dear Developer / Please allow players to continue playing after completing the ending.",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/588438602971903056/"
+      },
+      {
+        "title": "A LOT that needs clarification",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/520883748724740452/"
+      },
+      {
+        "title": "Whats teh flashing area zone on the right hand side?",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/565920039095735744/"
+      },
+      {
+        "title": "Really like it so far, but confused about a lot",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/837250960582588685/"
+      },
+      {
+        "title": "why havnt i caught every species?",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/565920039095805814/"
+      },
+      {
+        "title": "Bug / Exploit",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/565920039095662519/"
+      },
+      {
+        "title": "Sound blowout?",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/520883748724539534/"
+      },
+      {
+        "title": "This needs to somehow be an audio visualization",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/520883748724773424/"
+      },
+      {
+        "title": "Congrats",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/520883748724765821/"
+      },
+      {
+        "title": "Orbs ?",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/520883748724730074/"
+      },
+      {
+        "title": "Overfishing",
+        "url": "https://steamcommunity.com/app/4221990/discussions/0/660485761139958085/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Fish Lab\" steamcodes game 2026 review AI translated text",
+    "searchedAt": "2026-11-06T10:07:30+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://steamdb.info/app/4221990/",
+        "relevant": false,
+        "reason": "SteamDB 聚合页对公开抓取返回 403，正文不可读；它不转录开发者披露原文。"
+      },
+      {
+        "url": "https://www.facebook.com/groups/132728896890594/posts/3365751933588258/",
+        "relevant": false,
+        "reason": "需要登录或平台前端渲染，抓取中转无法读取正文，不能核对内容。"
+      },
+      {
+        "url": "https://steamcommunity.com/app/4221990",
+        "relevant": false,
+        "reason": "Steam 社区入口页需登录渲染，且本作的讨论区已在官方证据中单独取证。"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=v6J99oT7l-c",
+        "relevant": false,
+        "reason": "需要登录或平台前端渲染，抓取中转无法读取正文，不能核对内容。"
+      },
+      {
+        "url": "https://stonecodes.itch.io/fish-lab",
+        "relevant": true,
+        "reason": "开发者自有 itch.io 页面，其素材标注为“无生成式 AI”，与 Steam 披露（部分文本可能用 AI 翻译）范围不同，已读取全文并登记为开发者来源。"
+      },
+      {
+        "url": "https://www.capitalismlab.com/resources/translate-game-text-old-version/",
+        "relevant": false,
+        "reason": "与本作无关的教学资源页，检索误命中“translate game text”。"
+      }
+    ],
+    "readUrls": [
+      "https://stonecodes.itch.io/fish-lab"
+    ],
+    "coverageLimits": [
+      "本作共进行两次独立检索，原始响应分别存档为 press-search.json 与 press-search.b.json；批次证据结构只登记一次检索，另一存档在此说明。",
+      "press-search.json 的查询只命中通用的 Steam AI 披露规则说明页与教程文章，均不含本作内容，故不登记为来源。",
+      "开发者 itch.io 页面的“无生成式 AI”标注与 Steam 商店披露（部分文本可能由 AI 翻译）范围不一致；判定以 Steam 官方披露为准，并把差异写入结论，不据此认定开发者陈述一致。",
+      "未检索到独立第三方对本作 AI 用途的报道。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4221990\\press-search.b.json",
+    "contentHash": "022dde8a779f0e09bb95976158c46b38887964959cd15c7b3307c7e1e05f27fc"
+  }
+}

@@ -1,0 +1,57 @@
+{
+ "appId": "4947900",
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/4947900/Augmented_Yut/",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4947900-augmented-yut",
+   "relevant": true,
+   "reason": "该站本作条目页逐字转录 Steam 披露原文，已读取全文；仅作交叉核对，不作为领域判定来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5313840/Augmented_Yut__Rainbow_Name/",
+   "relevant": false,
+   "reason": "本作的 DLC 页面，非本体；判定以本体商店披露为准。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5145800-slap-leather",
+   "relevant": false,
+   "reason": "其他作品的聚合站条目页。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5313840/%EC%A6%9D%EA%B0%95_%EC%9C%B7%EB%86%80%EC%9D%B4_%EB%AC%B4%EC%A7%80%EA%B0%9C_%EC%9D%B4%EB%A6%84/",
+   "relevant": false,
+   "reason": "本作 DLC 的韩文页面，非本体。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5313840/Augmented_Yut_DLC_Rainbow_Name/?snr=1_5_9__405",
+   "relevant": false,
+   "reason": "本作 DLC 页面，重复结果。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "4947900",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/4947900-augmented-yut",
+   "fetchedAt": "2026-11-06T10:01:24.264057+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+   "quote": "We used generative AI as an assistive tool to create in-game text and translations, 2D graphics, store images, and code.",
+   "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\4947900\\press-0.html",
+   "contentHash": "0bb602b7e1b1d3cc93887fe0663c16b6bf164e0a4a5226ad9b2d87c2b7bb765e"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，命中本体商店页、一个披露转录站、两个 DLC 页面与其他作品条目。",
+  "未检索到独立媒体报道本作的 AI 使用；这不能证明未使用 AI，判定以商店披露原文为准。",
+  "第三方聚合站页面，正文为该站对 Steam 披露的转录、字段解析或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

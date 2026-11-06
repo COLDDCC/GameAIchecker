@@ -1,0 +1,191 @@
+{
+  "sources": [
+    {
+      "appId": "5090060",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5090060/?l=english",
+      "fetchedAt": "2026-11-06T09:56:24.768554+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "a5e332d83eff0ba7f0cd195d83eea1d24da06753fb13ac45d9ffc32285a62591",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5090060\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Some artwork (ship, station and environment sprites, icons) and sound effects were created using generative AI tools during development, then curated and hand-edited by the developer. All AI-generated content was reviewed before inclusion.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Some artwork (ship, station and environment sprites, icons) and sound effects were created using generative AI tools during development, then curated and hand-edited by the developer. All AI-generated content was reviewed before inclusion."
+    },
+    {
+      "appId": "5090060",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5090060/discussions/?l=english",
+      "fetchedAt": "2026-11-06T09:56:26.022549+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "bf07ab4dfbd00a50d16aa74514ff23de15008deebf03fc84f29b044c4bc9d285",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5090060\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "SharpDX.Direct3D11.dll (0x800711C7) plss fix\nMystery system claims\nEpic/Legendary ore\nCrews tranfering\nBalance : Warp Range\n100% достижений.\nWhere do built ships go?\nAuto-Scrap: multiple issues\nCan you buy a station ?\nBug. Incorrect default ship configuration.\nNO thanks I don't wanna think about lathes.\nSome issuses\nWhat am I missing something\nStation Workers (assigned ships)\nOwn stastions?",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 289）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5090060",
+      "sourceType": "press",
+      "url": "https://gamedb.ai/games/5090060-starlathe",
+      "fetchedAt": "2026-11-06T10:02:25.809045+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+      "quote": "Some artwork (ship, station and environment sprites, icons) and sound effects were created using generative AI tools during development, then curated and hand-edited by the developer.",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5090060\\press-0.html",
+      "contentHash": "37fb3c259f012afc7f6194a58d4abef48bd426ae5c362c62929a432efede7d8d"
+    }
+  ],
+  "identity": {
+    "appId": "5090060",
+    "name": "Starlathe",
+    "developer": "Astraeon Interactive",
+    "publisher": "Astraeon Interactive",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 1, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Indie",
+      "Simulation",
+      "Strategy",
+      "Early Access"
+    ],
+    "description": "Command your ship and fleet in a galaxy that truly lives: 150 sectors where six factions mine, haul, trade, build and wage war whether you're there or not. Trade it, rob it, defend it — or forge your own fleet and carve out your place in it. Play solo or in online co-op.",
+    "identityEvidence": {
+      "appId": "5090060",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5090060&l=english",
+      "fetchedAt": "2026-11-06T09:56:25.330349+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "94844a388a667bb45042fae39beefa027f7e27aaf3bbffb8faf639bbb39d888d",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5090060\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 289,
+    "topics": [
+      {
+        "title": "SharpDX.Direct3D11.dll (0x800711C7) plss fix",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570428117602120264/"
+      },
+      {
+        "title": "Mystery system claims",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570428010838220805/"
+      },
+      {
+        "title": "Epic/Legendary ore",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427687922836010/"
+      },
+      {
+        "title": "Crews tranfering",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570428010838174700/"
+      },
+      {
+        "title": "Balance : Warp Range",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427687922852012/"
+      },
+      {
+        "title": "100% достижений.",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570428010838148449/"
+      },
+      {
+        "title": "Where do built ships go?",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427964577041389/"
+      },
+      {
+        "title": "Auto-Scrap: multiple issues",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/569301136948028513/"
+      },
+      {
+        "title": "Can you buy a station ?",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427373261089549/"
+      },
+      {
+        "title": "Bug. Incorrect default ship configuration.",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427687923098378/"
+      },
+      {
+        "title": "NO thanks I don't wanna think about lathes.",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427687923100036/"
+      },
+      {
+        "title": "Some issuses",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427687922987515/"
+      },
+      {
+        "title": "What am I missing something",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427373261179261/"
+      },
+      {
+        "title": "Station Workers (assigned ships)",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427687922857389/"
+      },
+      {
+        "title": "Own stastions?",
+        "url": "https://steamcommunity.com/app/5090060/discussions/0/570427687923053539/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Starlathe\" Steam AI generated content disclosure sprites sound effects",
+    "searchedAt": "2026-11-06T10:04:40+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+        "relevant": false,
+        "reason": "该站的新作清单页，只含本作的聚合行与机器摘要，不是本作披露原文，不登记为来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5090060/Starlathe/",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5496870/Starlathe_Supporter_Pack/?snr=1_7_7_230_150_2",
+        "relevant": false,
+        "reason": "本作的支持者包（DLC）页面，非本体。"
+      },
+      {
+        "url": "https://gamedb.ai/games/5090060-starlathe",
+        "relevant": true,
+        "reason": "该站本作条目页把 Steam 披露原文写入页面字段，已读取全文；用于交叉核对披露未被截断。"
+      }
+    ],
+    "readUrls": [
+      "https://gamedb.ai/games/5090060-starlathe"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，命中一个披露转录站、商店页、DLC 页与新作清单页，未见独立媒体报道或社区争议帖。",
+      "未检索到报道只说明检索范围，不能据此证明未使用 AI。",
+      "第三方聚合站页面，正文为该站对 Steam 披露的转录、字段解析或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5090060\\press-search.json",
+    "contentHash": "fa2626689fa9f5b33855047351df9cdd580b43c39ee06a7f97a07ac727e20540"
+  }
+}

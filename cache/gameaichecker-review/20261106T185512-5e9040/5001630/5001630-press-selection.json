@@ -1,0 +1,57 @@
+{
+ "appId": "5001630",
+ "results": [
+  {
+   "url": "https://store.steampowered.com/app/5001630/?curator_clanid=32686107&utm_source=Steam250",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/5001630-jiahao",
+   "relevant": true,
+   "reason": "该站本作条目页把 Steam 披露原文写入页面字段，已读取全文；用于交叉核对商店披露未被截断。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5001630/_/?snr=1_1056_4_1056_curator-tabs&curator_clanid=11123770",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5001630/_/?snr=1_300_morelikev2__105_11",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gamedb.ai/games/4906780-meme-farm",
+   "relevant": false,
+   "reason": "其他作品的聚合站条目页。"
+  },
+  {
+   "url": "https://gamedb.ai/games/3131810-emoji-jackpot-word-finder",
+   "relevant": false,
+   "reason": "其他作品的聚合站条目页。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5001630",
+   "sourceType": "press",
+   "url": "https://gamedb.ai/games/5001630-jiahao",
+   "fetchedAt": "2026-11-06T10:00:55.585822+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+   "quote": "Some in-game character art, animation frames, UI and item icons, character voice lines, and store/promotional artwork were created or refined with generative AI tools.",
+   "cachePath": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\5001630\\press-0.html",
+   "contentHash": "a45168e705612695ab6b284141b22d58afeebe55177edeab07a660724a445975"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，命中一个披露转录站、商店页与两个其他作品条目，未检索到独立媒体报道或社区争议。",
+  "未检索到报道只说明检索范围，不能据此证明未使用 AI。",
+  "第三方聚合站页面，正文为该站对 Steam 披露的转录、字段解析或机器摘要，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}
