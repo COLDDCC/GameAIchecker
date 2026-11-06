@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "7e7df12ccdf78b7f8dc5a63ce3f4a2a76a4f245f",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "prepared",
+  "phase": "media_ready",
   "createdAt": "2026-11-05T09:30:09.756569+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -663,8 +663,18 @@
       "decisionHash": "040794248c0bc26f69084584c6b9cef7150b176366df8fbac812300332e797df"
     }
   ],
-  "checkResults": {},
-  "publishShas": {},
+  "checkResults": {
+    "media": {
+      "checks": {
+        "Persist media for reviewed games": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42189348645"
+      },
+      "bytes": 29861508,
+      "verifiedRemoteSha": "7f1b07a728bf625972863d84ae4b80d3b99712cc"
+    }
+  },
+  "publishShas": {
+    "media": "c1642c8b06fa8a9d764e626806bc7ef6c6881e76"
+  },
   "attempts": 10,
   "maxAttempts": 30,
   "selectionOverride": {
@@ -673,5 +683,7 @@
     "scope": "This batch only: waive measured search demand; all evidence and English gates remain required.",
     "recordedAt": "2026-11-05T09:30:09.700372+00:00"
   },
-  "applyBase": "7e7df12ccdf78b7f8dc5a63ce3f4a2a76a4f245f"
+  "applyBase": "7e7df12ccdf78b7f8dc5a63ce3f4a2a76a4f245f",
+  "pendingTree": "a3734183b87e03e0504a8bb9100f49cb77047290",
+  "siteBase": "7f1b07a728bf625972863d84ae4b80d3b99712cc"
 }
