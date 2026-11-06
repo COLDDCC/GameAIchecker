@@ -1,0 +1,98 @@
+{
+  "appId": "5221510",
+  "name": "Tidy Up the Flower Shop",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "第一人称整理模拟，2026 年 10 月 2 日上架，Over The Moon 开发并发行，分类为休闲／模拟。商店 AI 披露自称生成式 AI 用于游戏开发的各个学科、通常经过大量人工编辑，并点名音频、视觉美术、logo 与本地化。本站据此把美术、音乐、语音、翻译与营销登记为已使用（其中音乐与语音是按原文 audio 一词映射，营销按 logo 一项登记），代码、文本创作与游戏内实时生成登记为未说明。开发者的前作 Sort The Bunnies 用的是几乎同一段披露文字，本站同样把两处判为开发者自述。所有结论只有相关方自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "art",
+    "music",
+    "voice",
+    "translation",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "used",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。披露没有说明游玩过程中是否有 AI 实时生成。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。“all disciplines”一句在语义上很宽，但没有单列代码，本站不据此推断代码由 AI 生成。",
+    "art": "披露第一句自述生成式 AI 用于游戏开发的各个学科、通常经过大量人工编辑，第二句点名 visual art，即美术在范围内且开发者强调后续人工修改。",
+    "music": "第二句用词是 audio，未单列音乐；本站按该词把音乐登记为已使用，并保留这只是开发者自述、未经独立审计的限定。",
+    "voice": "同一句的 audio 一词同时被本站映射到语音领域；原文没有单列配音，这一映射已在页面上写明。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。披露点名的是音频、视觉美术、logo 与本地化，没有说明文本创作。",
+    "translation": "第二句点名 localization，即本地化／翻译在生成式 AI 的使用范围内。",
+    "marketing": "第二句点名 our logo，商店页与宣传用的 logo 属营销素材，本站据此把营销登记为已使用；该句没有说明其它宣传图是否也在范围内。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "music": "official",
+    "voice": "official",
+    "translation": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5221510/",
+  "developer": "Over The Moon",
+  "publisher": "Over The Moon",
+  "steamReleaseDate": "Oct 2, 2026",
+  "genres": [
+    "Casual",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-11-05",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5221510/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-05",
+      "excerpt": "We use generative AI across all disciplines of game development most often with heavy amounts of human editing. That involves audio and visual art, our logo, and localization. We use it as a productivity tool so we can achieve a higher level of quality, faster, than we would have been able to."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5221510/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-05",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 37）；仅覆盖首页。"
+    },
+    {
+      "type": "community",
+      "url": "https://steamcommunity.com/app/5221510/discussions/0/570426104667439451/",
+      "label": "ai usage",
+      "date": "2026-11-05",
+      "excerpt": "does anyone know if this game uses ai? a lot of these tidy up games use them :/\nLlamawolfe View Profile View Posts Oct 15 @ 7:22am Report this post This information is listed on the store page. Most games now do use AI in one way or another. It's not as simple as \"hey AI, make this game for me.\" #1\nCaffeinated_Writer View Profile View Posts Oct 15 @ 9:11pm Report this post AI Generated Content Disclosure The developers describe how their game uses AI Generated Content like this: We use generative AI across all disciplines of game development most often with heavy amounts of human editing. That involves audio and visual art, our logo, and localization. We use it as a productivity tool so we can achieve a higher level of quality, faster, than we would have been able to. #2\npoke_k View Profile View Posts Oct 26 @ 7:25am Report this post Originally posted by Llamawolfe : This information is listed on the store page. Most games now do use AI in one way or another. It's not as simple as \"hey AI, make this game for me.\" Plenty of game devs do not use AI, and even if most did, it doesn't change the fact that plenty of people want to avoid it. Using it for art means relying on art theft. #3\nChabibi View Profile View Posts Oct 30 @ 12:34pm Report this post Originally posted by poke_k : Plenty of game devs do not use AI, and even if most did, it doesn't change the fact that plenty of people want to avoid it. Using it for art means relying on art theft. My sentiments exactly. Only here by chance, was kind of curious as to how many other of these kind of games the publisher had pushed out (and there was one other, think it had some cat on the image). Also found out that I'd played another game by the devs (The Fall), and had its sequel on my wishlist. Now kinda glad I happened to click, saved me from giving money to devs who'd rather pump out clearly AI stuff, over spending time honing something unique. Unwishlisted the sequel. #4"
+    },
+    {
+      "type": "third_party",
+      "url": "https://www.gamespew.com/2026/10/tidy-up-the-flower-shop-review/",
+      "label": "GameSpew 本作评测：独立第三方报道，全文未提及 AI",
+      "date": "2026-11-05",
+      "excerpt": "This review of Tidy Up the Flower Shop is based on the PS5 version of the game, with a code provided by the publisher."
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏、身份（开发与发行均为 Over The Moon，正式版）与英文讨论区首页（可见 15 个主题、总数 37，仅覆盖首页）。首页命中关键词的主题 ai usage 已完整读取正文与全部 3 条可见回复：楼主问本作是否用了 AI，一条回复指出披露就写在商店页上并说多数游戏都会用，另一条回复把商店披露原文整段贴了出来，还有一条认为用 AI 做美术等于依赖素材窃取；帖内没有任何开发者发言，作者身份未与官方账号绑定核实，全部内容按玩家自述处理，不改变任何领域结论。公开报道为本作单独检索 3 次，原始响应分别存档为 press-search.json、press-search.b.json、press-search.c.json，批次证据结构登记其中一次的 6 条结果，另两次范围记在 coverageLimits。登记并读取 1 条来源：gamespew.com 的本作评测（Kim Snaith，2026-10-29），全文 508 词通篇未提生成式 AI，只能佐证发行与评测状态，评测注明基于出版方提供的 PS5 版本。另两次检索命中的 howmuchai.games 开发者页与 gameaicheck.com 新作清单页也已抓取读取，但前者只有开发者维度的披露统计、后者只是含本作一行机器摘要的清单，均非披露原文转录，未登记；gamespress.com 上是出版方自行投递的公告，正文不涉及 AI，不作独立报道。因此本作没有任何第三方报道能补充披露之外的信息。",
+  "disclosureQuote": "We use generative AI across all disciplines of game development most often with heavy amounts of human editing. That involves audio and visual art, our logo, and localization. We use it as a productivity tool so we can achieve a higher level of quality, faster, than we would have been able to.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-05 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A cozy first-person tidying game released on Oct 2, 2026, developed and published by Over The Moon and filed under Casual and Simulation, where a scattered flower delivery has to be sorted into baskets before the shop opens. The Steam AI disclosure says generative AI is used across all disciplines of game development, most often with heavy amounts of human editing, and names audio, visual art, the logo and localisation. This site records art, music, voice, translation and marketing as used on that wording, with music and voice mapped from the single word audio and marketing from the logo item, and code, writing and live in-game generation as areas the disclosure does not address. The same studio publishes its wording almost identically on its earlier title, and both remain self-statements that have not been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (Over The Moon as both developer and publisher, a full release rather than a demo) and the English discussion homepage, which lists 15 visible topics out of 37 and covers only that first page. The homepage topic matching the keyword, ai usage, was read in full with all 3 visible replies: the original poster asks whether this game uses AI, one reply points out that the information is on the store page and that most games use AI in some way, another pastes the store disclosure verbatim, and a third argues that using AI for art means relying on art theft. No developer post appears in that thread and no poster identity is bound to an official account, so it is treated entirely as player testimony and changes no area finding. This title was searched three times, with the raw responses archived as press-search.json, press-search.b.json and press-search.c.json; the registered disposition covers the 6 results of one response and the other two searches are described in coverageLimits. One source was registered and read in full, the gamespew.com review by Kim Snaith dated Oct 29, 2026, whose 508-word text never mentions generative AI and is used only to confirm the release and review status, with the reviewer noting the PS5 code came from the publisher. The howmuchai.games developer page and the gameaicheck.com new releases list from the other searches were also fetched and read but are statistics and list summaries rather than transcriptions of this disclosure, so they are not registered, and the gamespress.com item is a press release the publisher submitted itself, which also says nothing about AI. No third-party report therefore adds anything beyond the disclosure itself.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure never says whether anything is generated while the player plays.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The all disciplines phrase is broad but code is never named, so this site does not infer it.",
+      "art": "The developer states generative AI is used across all disciplines of game development with heavy amounts of human editing and names visual art among them, so art is recorded as used with that editing claim attached.",
+      "music": "The enumerating sentence uses the single word audio and does not name music separately; this area is recorded as used through that word, on the developer statement.",
+      "voice": "The same word audio is also mapped onto voice, which the disclosure does not list on its own; the mapping is recorded here rather than presented as the developer wording.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure lists audio, visual art, the logo and localisation but never mentions written content.",
+      "translation": "The enumerating sentence names localisation as one of the areas where generative AI is used.",
+      "marketing": "The enumerating sentence names the logo, which is store and promotional material, so marketing is recorded as used; the disclosure does not say whether other promotional images are in the same scope."
+    },
+    "sourceRecordHash": "0c007c399ba0d59a9394d5e59c7a50217674e7929cb81004e29073602545a079"
+  }
+}

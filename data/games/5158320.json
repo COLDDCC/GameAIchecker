@@ -1,0 +1,87 @@
+{
+  "appId": "5158320",
+  "name": "Deer Hunting - The Season 2",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "开放世界狩猎模拟，2026 年 10 月 2 日上架，Chaos Entertainment 开发并发行，分类为冒险／模拟／体育。商店 AI 披露说明生成式 AI 用于制作若干视觉资产，具体点名加载画面插画、Steam 成就图与宣传背景，并说这些素材在开发期一次性生成、游玩过程中不会动态生成。本站据此把美术与营销登记为已使用，游戏内实时生成登记为被那句明确否认覆盖的未使用；代码、音乐、语音、文本创作与翻译未被点名，登记为未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "art",
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露最后一句说这些素材在开发期生成、游玩过程中不会动态生成，运行时生成由此句明确否认；这是开发者自述，未经独立审计。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露点名三类视觉资产里的前两类：加载画面插画与 Steam 成就图，均由生成式 AI 制作，因此美术登记为已使用，并保留原文 select（若干）的范围限定。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "同一句点名的第三类是宣传背景（promotional backgrounds），属营销素材，本站据此把营销登记为已使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "art": "official",
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5158320/",
+  "developer": "Chaos Entertainment",
+  "publisher": "Chaos Entertainment",
+  "steamReleaseDate": "Oct 2, 2026",
+  "genres": [
+    "Adventure",
+    "Simulation",
+    "Sports"
+  ],
+  "reviewedAt": "2026-11-05",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5158320/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-05",
+      "excerpt": "Generative AI was used to create select visual assets, including loading screen illustrations, Steam achievement artwork, and promotional backgrounds. These assets were generated during development and are not generated dynamically during gameplay."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5158320/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-05",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 26）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gameaicheck.com/game/5158320/deer-hunting-the-season-2",
+      "label": "GameAICheck 本作条目页：对 Steam 披露的第三方转录与概述",
+      "date": "2026-11-05",
+      "excerpt": "Uses AI-generated loading screen illustrations, Steam achievement artwork and promotional backgrounds, all made in advance."
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏、身份（开发与发行均为 Chaos Entertainment，正式版）与英文讨论区首页（可见 15 个主题、总数 26，仅覆盖首页），首页没有命中关键词的 AI 主题帖。公开报道单独检索 1 次（原始响应存档 press-search.json，5 条结果），登记并读取 1 条来源：gameaicheck.com 的本作条目页，它把披露原文转录为加载插画、成就图与宣传背景三类预生成素材，与商店原文一致；该页另附 Minor AI、solid production 与 Our AI review, high confidence 等标注，页面自己也注明那是该站的 AI 评测、不是结论，本站不采纳。其余结果为商店页（已有官方取证）、GameFAQs 的字母索引页（不含本作内容）、一个与本作无关的肥皂剧新闻存档站（且为纯 http 链接，证据闸门只接受 https 来源）。未检索到独立媒体或社区对本作 AI 用途的争议，检索范围之外不作任何推定。",
+  "disclosureQuote": "Generative AI was used to create select visual assets, including loading screen illustrations, Steam achievement artwork, and promotional backgrounds. These assets were generated during development and are not generated dynamically during gameplay.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-05 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An open world hunting simulation released on Oct 2, 2026, developed and published by Chaos Entertainment and filed under Adventure, Simulation and Sports. The Steam AI disclosure states that generative AI was used to create select visual assets, naming loading screen illustrations, Steam achievement artwork and promotional backgrounds, and that these assets were generated during development and are not generated dynamically during gameplay. This site records art and marketing as used on those named asset types, live in-game generation as denied by the closing sentence, and code, music, voice, writing and translation as not addressed. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (Chaos Entertainment as both developer and publisher, a full release rather than a demo) and the English discussion homepage, which lists 15 visible topics out of 26, covers only that first page and shows no AI-related topic. One dedicated web search was run, archived as press-search.json, all 5 results dispositioned and one source registered and read in full: the gameaicheck.com entry page for this game, whose transcription of the disclosure matches the store wording about the three pre-generated asset types. The solid production grade and confidence label that page adds are that aggregator machine output and are not adopted. The other results were Steam pages already covered by the official evidence, a GameFAQs letter index that carries no content for this game, and an unrelated soap-opera news archive which is also a plain http link that the evidence gate rejects. No independent press or community dispute about this games AI use was found, and nothing outside the search scope is inferred.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure closes by saying these assets were generated during development and are not generated dynamically during gameplay, so this area is recorded as not used on that explicit denial, which remains a self-statement.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "The disclosure names loading screen illustrations and Steam achievement artwork among the visual assets made with generative AI, with the word select kept as the stated limit.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "marketing": "The same enumerating sentence names promotional backgrounds as one of the asset types made with generative AI, which puts store page marketing material inside the stated scope."
+    },
+    "sourceRecordHash": "d204952c9a3d0efcb48b8b2a7782077f07562a5019302d5ca06cfa8d6314872d"
+  }
+}

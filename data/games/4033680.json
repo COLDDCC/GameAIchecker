@@ -1,0 +1,90 @@
+{
+  "appId": "4033680",
+  "name": "Escape: Immersion",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "2.5D 水下恐怖冒险，2026 年 10 月 9 日上架，AzDimension 与 Royal Games 开发、Royal Games 发行，分类为动作／冒险／独立。商店 AI 披露说 AI 专门用于制作游戏内漫画栏目里的漫画，并声明游戏的其它要素均未使用 AI 开发。本站据此把美术登记为已使用，把游戏内实时生成、代码、音乐、语音、文本创作与翻译登记为被那句整体否认覆盖的未使用；那句话说的是“游戏的其它要素”，商店页与宣传素材不在它的字面范围内，营销按未说明登记。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "none",
+    "art": "used",
+    "music": "none",
+    "voice": "none",
+    "writing": "none",
+    "translation": "none",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露第二句把游戏的其它要素整体归为未使用 AI 开发，运行时生成也在这句话覆盖范围内；这是开发者自述，未经独立审计。",
+    "code": "同一句整体否认其它要素使用 AI；披露没有单列代码，本站按这句登记为未使用，并保留只是相关方自述的限定。",
+    "art": "披露第一句点名漫画：AI 专门用于制作游戏内漫画栏目（Comics section）里的漫画，因此美术登记为已使用，且原文用 exclusively 把它限定在这类素材上。",
+    "music": "同一句整体否认其它要素使用 AI；披露没有单列音乐，本站按这句登记为未使用，并保留只是相关方自述的限定。",
+    "voice": "同一句整体否认其它要素使用 AI；披露没有单列配音，本站按这句登记为未使用，并保留只是相关方自述的限定。",
+    "writing": "同一句整体否认其它要素使用 AI；披露没有单列文本创作，本站按这句登记为未使用。漫画属于美术而非文本，本站不把它另记为文本领域。",
+    "translation": "同一句整体否认其它要素使用 AI；披露没有单列翻译，本站按这句登记为未使用，并保留只是相关方自述的限定。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。披露第二句的范围是“游戏的其它要素”，商店页与宣传素材不在这句话的字面范围内，本站不替开发者扩大否认对象。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "code": "official",
+    "art": "official",
+    "music": "official",
+    "voice": "official",
+    "writing": "official",
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4033680/",
+  "developer": "AzDimension, Royal Games",
+  "publisher": "Royal Games",
+  "steamReleaseDate": "Oct 9, 2026",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Indie"
+  ],
+  "reviewedAt": "2026-11-05",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4033680/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-05",
+      "excerpt": "AI was used exclusively to create the comics featured in the game's Comics section. All other elements of the game were developed without the use of AI."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4033680/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-05",
+      "excerpt": "英文讨论区首页显示 1 个主题（总数 1）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gamedb.ai/games/4033680-escape-immersion",
+      "label": "GameDB.ai 本作条目页：披露原文的第三方转录",
+      "date": "2026-11-05",
+      "excerpt": "AI was used exclusively to create the comics featured in the game's Comics section."
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏、身份（开发商 AzDimension 与 Royal Games，发行商 Royal Games，正式版）与英文讨论区（首页可见 1 个主题、总数 1，即整个分区只有一帖），没有任何 AI 相关讨论。公开报道单独检索 1 次（原始响应存档 press-search.json，2 条结果），登记并读取 1 条来源：gamedb.ai 的本作条目页，其转录的披露原文与商店原文一致，仅用于核对未被截断；另一条是商店页，已有官方取证。未检索到独立媒体报道本作的 AI 使用或社区争议，按规则这只代表检索范围，不能证明披露之外没有使用 AI。另外该聚合站在页面里把漫画一项归为 art 领域并给出范围标签，这与本站判断一致，但本站的结论仍只绑定商店原文。",
+  "disclosureQuote": "AI was used exclusively to create the comics featured in the game's Comics section. All other elements of the game were developed without the use of AI.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-05 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A cinematic 2.5D horror adventure released on Oct 9, 2026 inside a collapsing underwater military base, developed by AzDimension and Royal Games and published by Royal Games, filed under Action, Adventure and Indie. The Steam AI disclosure states that AI was used exclusively to create the comics featured in the game Comics section and that all other elements of the game were developed without the use of AI. This site records art as used and ingame generation, code, music, voice, writing and translation as not used on that catch-all denial, while marketing stays recorded as not addressed because the denial is written about the elements of the game rather than about the store page. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (developers AzDimension and Royal Games with Royal Games as publisher, a full release rather than a demo) and the English discussion area, whose homepage shows 1 visible topic out of 1, meaning the whole board was covered and contains no AI discussion at all. One dedicated web search was run, archived as press-search.json, both results dispositioned, and one source was registered and read in full: the gamedb.ai entry page for this game, whose transcription of the disclosure matches the store wording and is used only to confirm the store text was not truncated. The other result was the Steam page already covered by the official evidence. No independent press report on this game AI use was found, which describes the search scope rather than proving anything about the tooling. That aggregator also sorts the comics clause into its own art category with a scope badge, which agrees with this reading, but the findings here remain bound to the store text only.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure denies AI for all other elements of the game, which this site reads as covering run-time generation too, on the developer own statement and without independent audit.",
+      "code": "The disclosure does not name code separately; this area is recorded as not used through that catch-all denial, with the self-statement caveat intact.",
+      "art": "The disclosure says AI was used exclusively to create the comics featured in the in-game comics section, so art is recorded as used and the word exclusively limits that use to those assets.",
+      "music": "The disclosure does not name music separately; this area is recorded as not used through the catch-all denial, with the self-statement caveat intact.",
+      "voice": "The disclosure does not name voice acting separately; this area is recorded as not used through the same catch-all sentence, with the caveat intact.",
+      "writing": "The disclosure does not name writing separately and this site treats the comics as art rather than written content, so the area is recorded as not used through the catch-all denial.",
+      "translation": "The disclosure does not name translation separately; this area is recorded as not used through the catch-all denial, with the self-statement caveat intact.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The denial is written about the other elements of the game, which does not literally cover store page or promotional material, and this site does not widen it for the developer."
+    },
+    "sourceRecordHash": "c871ae4e0f0ad225e103cfba3e91dc3fbbcb2421d73810777ba33306b52d883e"
+  }
+}
