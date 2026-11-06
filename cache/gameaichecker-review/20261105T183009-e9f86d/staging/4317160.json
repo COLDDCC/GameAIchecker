@@ -1,0 +1,80 @@
+{
+  "appId": "4317160",
+  "name": "Starlight Farm",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "像素风农场经营 RPG，2026 年 10 月 7 日上架，新星像素／Nova Pixel 开发并发行，分类为冒险／休闲／独立／RPG／模拟／策略。商店 AI 披露只有一句话：本作的部分商店美术由生成式 AI 工具制作。本站据此把营销／商店素材登记为已使用；披露没有说明游戏内美术、游戏内实时生成、代码、音乐、语音、文本创作与翻译，这七个领域全部登记为未说明，不能据此认定未使用。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "marketing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "used"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。披露只说商店美术（store artwork），未涉及游戏内美术；第三方聚合站在检索中因 403 无法读取，本站也不据猜测改判。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。商店列出英语、简体中文、俄语与韩语，其中英语与简体中文标注完整语音支持，但披露没有说明这些本地化是否用到 AI。",
+    "marketing": "披露原文只有一句：本作的部分商店美术（store artwork）由生成式 AI 工具制作。商店页素材属营销领域，本站据此登记为已使用，并把范围限制在“部分商店美术”。"
+  },
+  "aiAreaSources": {
+    "marketing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4317160/",
+  "developer": "新星像素/Nova Pixel",
+  "publisher": "新星像素/Nova Pixel",
+  "steamReleaseDate": "Oct 7, 2026",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Indie",
+    "RPG",
+    "Simulation",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-11-05",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4317160/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-05",
+      "excerpt": "Some store artwork for this game was created using generative AI tools."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4317160/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-05",
+      "excerpt": "英文讨论区首页显示 1 个主题（总数 1）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏、身份（开发与发行均为新星像素／Nova Pixel，正式版）与英文讨论区（首页可见 1 个主题、总数 1，即整个分区只有一帖），没有任何 AI 相关讨论。公开报道为本作单独检索 3 次，原始响应分别存档为 press-search.json、press-search.b.json、press-search.c.json，批次证据结构只登记其中一次响应的 6 条结果，另两次的范围写在 coverageLimits 里。三次检索合计没有返回任何可读的第三方报道：命中的 steamdb.info 条目页经 GitHub Actions 中转抓取返回 HTTP 403，正文无法读取，因此本作最终登记 0 条报道来源；其余结果为商店页、其他作品的聚合站条目、与本作无关的厂商首页、GameFAQs 与 IGDB 的无关条目。检索没有结果只说明检索范围，不能证明披露之外没有使用 AI，也不能反推游戏内美术干净。",
+  "disclosureQuote": "Some store artwork for this game was created using generative AI tools.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-05 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A pixel-art farming RPG released on Oct 7, 2026, developed and published by the studio whose Steam credit reads Nova Pixel together with the Chinese form of its name, filed under Adventure, Casual, Indie, RPG, Simulation and Strategy. The Steam AI disclosure is a single sentence: some store artwork for this game was created using generative AI tools. This site records marketing as used on that sentence and the other seven areas as not addressed, because the disclosure never mentions in-game art, live generation, code, music, voice, writing or localisation. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (the studio whose Steam credit reads Nova Pixel together with the Chinese form of its name, listed as both developer and publisher, a full release rather than a demo) and the English discussion area, whose homepage shows 1 visible topic out of 1, so the whole board was covered and holds no AI discussion. This title was searched three separate times, with the raw responses archived as press-search.json, press-search.b.json and press-search.c.json; the batch evidence structure registers the disposition of one of those responses with its 6 results and the scope of the other two is recorded in coverageLimits. Across the three searches no readable third-party report was returned: the steamdb.info entry page that one search surfaced came back as HTTP 403 through the GitHub Actions relay, so no body text could be checked and zero press sources are registered for this game, while the other results were Steam pages, aggregator entries for unrelated games, an unrelated publisher homepage and irrelevant GameFAQs and IGDB entries. An empty search result describes the search scope only; it neither proves AI use beyond the disclosure nor clears the in-game artwork.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure only mentions store artwork, says nothing about in-game artwork, and this site will not widen or narrow it by guesswork.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The store lists English, Simplified Chinese, Russian and Korean, with full audio marked only for English and Simplified Chinese, and the disclosure never says whether that localisation involved AI.",
+      "marketing": "The single disclosure sentence says some store artwork for this game was created using generative AI tools, so the store page material is recorded as used with the word some kept as the stated limit."
+    },
+    "sourceRecordHash": "b28b2edb66a1a4d9356d2a3ab072fe790ca81d27e2b3450ef71441b62d931ddc"
+  }
+}

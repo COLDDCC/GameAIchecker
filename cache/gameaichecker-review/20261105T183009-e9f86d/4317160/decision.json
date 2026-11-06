@@ -1,0 +1,60 @@
+{
+ "identityName": "Starlight Farm",
+ "identityDeveloper": "新星像素/Nova Pixel",
+ "category": "official_ai_disclosure",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。披露只说商店美术（store artwork），未涉及游戏内美术；第三方聚合站在检索中因 403 无法读取，本站也不据猜测改判。"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。商店列出英语、简体中文、俄语与韩语，其中英语与简体中文标注完整语音支持，但披露没有说明这些本地化是否用到 AI。"
+  },
+  "marketing": {
+   "state": "used",
+   "note": "披露原文只有一句：本作的部分商店美术（store artwork）由生成式 AI 工具制作。商店页素材属营销领域，本站据此登记为已使用，并把范围限制在“部分商店美术”。",
+   "evidenceId": "store",
+   "quote": "Some store artwork for this game was created using generative AI tools."
+  }
+ },
+ "summary": "像素风农场经营 RPG，2026 年 10 月 7 日上架，新星像素／Nova Pixel 开发并发行，分类为冒险／休闲／独立／RPG／模拟／策略。商店 AI 披露只有一句话：本作的部分商店美术由生成式 AI 工具制作。本站据此把营销／商店素材登记为已使用；披露没有说明游戏内美术、游戏内实时生成、代码、音乐、语音、文本创作与翻译，这七个领域全部登记为未说明，不能据此认定未使用。所有结论只有开发者自述支撑，未经独立审计。",
+ "reviewNote": "核查英文商店页完整 AI 披露栏、身份（开发与发行均为新星像素／Nova Pixel，正式版）与英文讨论区（首页可见 1 个主题、总数 1，即整个分区只有一帖），没有任何 AI 相关讨论。公开报道为本作单独检索 3 次，原始响应分别存档为 press-search.json、press-search.b.json、press-search.c.json，批次证据结构只登记其中一次响应的 6 条结果，另两次的范围写在 coverageLimits 里。三次检索合计没有返回任何可读的第三方报道：命中的 steamdb.info 条目页经 GitHub Actions 中转抓取返回 HTTP 403，正文无法读取，因此本作最终登记 0 条报道来源；其余结果为商店页、其他作品的聚合站条目、与本作无关的厂商首页、GameFAQs 与 IGDB 的无关条目。检索没有结果只说明检索范围，不能证明披露之外没有使用 AI，也不能反推游戏内美术干净。",
+ "description": "从一小片地开始经营像素农场：播种、浇水、按季节决定下一步种什么，作物分普通、银、金、紫星四个品质，反复收获能解锁更稀有的样本并记进作物图鉴，再进森林与矿洞采集材料，把木工具一路换成紫金装备，顺带接下乡们的委托。",
+ "english": {
+  "summary": "A pixel-art farming RPG released on Oct 7, 2026, developed and published by the studio whose Steam credit reads Nova Pixel together with the Chinese form of its name, filed under Adventure, Casual, Indie, RPG, Simulation and Strategy. The Steam AI disclosure is a single sentence: some store artwork for this game was created using generative AI tools. This site records marketing as used on that sentence and the other seven areas as not addressed, because the disclosure never mentions in-game art, live generation, code, music, voice, writing or localisation. Every finding rests on the developer own statement and none of it has been independently audited.",
+  "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (the studio whose Steam credit reads Nova Pixel together with the Chinese form of its name, listed as both developer and publisher, a full release rather than a demo) and the English discussion area, whose homepage shows 1 visible topic out of 1, so the whole board was covered and holds no AI discussion. This title was searched three separate times, with the raw responses archived as press-search.json, press-search.b.json and press-search.c.json; the batch evidence structure registers the disposition of one of those responses with its 6 results and the scope of the other two is recorded in coverageLimits. Across the three searches no readable third-party report was returned: the steamdb.info entry page that one search surfaced came back as HTTP 403 through the GitHub Actions relay, so no body text could be checked and zero press sources are registered for this game, while the other results were Steam pages, aggregator entries for unrelated games, an unrelated publisher homepage and irrelevant GameFAQs and IGDB entries. An empty search result describes the search scope only; it neither proves AI use beyond the disclosure nor clears the in-game artwork.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure only mentions store artwork, says nothing about in-game artwork, and this site will not widen or narrow it by guesswork.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The store lists English, Simplified Chinese, Russian and Korean, with full audio marked only for English and Simplified Chinese, and the disclosure never says whether that localisation involved AI.",
+   "marketing": "The single disclosure sentence says some store artwork for this game was created using generative AI tools, so the store page material is recorded as used with the word some kept as the stated limit."
+  }
+ },
+ "disclosureQuote": "Some store artwork for this game was created using generative AI tools."
+}

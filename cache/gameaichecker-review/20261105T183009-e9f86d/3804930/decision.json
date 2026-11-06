@@ -1,0 +1,74 @@
+{
+ "identityName": "Burger Shift: Team Rush",
+ "identityDeveloper": "Nova Telum Studio",
+ "category": "official_ai_disclosure",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "none",
+   "note": "披露第一句明确说游戏本体不含任何 AI 生成内容，运行时生成包含在内；这是开发者自述，未经独立审计。",
+   "evidenceId": "store",
+   "quote": "The game itself does not include any AI-generated content."
+  },
+  "code": {
+   "state": "none",
+   "note": "同一句把游戏本体整体归为不含 AI 生成内容；披露没有单列代码，本站按这句登记为未使用，并保留只是相关方自述的限定。",
+   "evidenceId": "store",
+   "quote": "The game itself does not include any AI-generated content."
+  },
+  "art": {
+   "state": "none",
+   "note": "同一句整体否认游戏本体含 AI 生成内容；披露没有单列游戏内美术，本站按这句登记为未使用。",
+   "evidenceId": "store",
+   "quote": "The game itself does not include any AI-generated content."
+  },
+  "music": {
+   "state": "none",
+   "note": "同一句整体否认游戏本体含 AI 生成内容；披露没有单列音乐，本站按这句登记为未使用。",
+   "evidenceId": "store",
+   "quote": "The game itself does not include any AI-generated content."
+  },
+  "voice": {
+   "state": "none",
+   "note": "同一句整体否认游戏本体含 AI 生成内容；披露没有单列配音，本站按这句登记为未使用。",
+   "evidenceId": "store",
+   "quote": "The game itself does not include any AI-generated content."
+  },
+  "writing": {
+   "state": "none",
+   "note": "同一句整体否认游戏本体含 AI 生成内容；披露没有单列文本创作，本站按这句登记为未使用。",
+   "evidenceId": "store",
+   "quote": "The game itself does not include any AI-generated content."
+  },
+  "translation": {
+   "state": "none",
+   "note": "同一句整体否认游戏本体含 AI 生成内容；披露没有单列翻译，本站按这句登记为未使用。",
+   "evidenceId": "store",
+   "quote": "The game itself does not include any AI-generated content."
+  },
+  "marketing": {
+   "state": "used",
+   "note": "披露第二句说 AI 工具仅用于协助制作本 Steam 页面展示的部分宣传素材，商店页素材属营销领域，因此登记为已使用，并保留 some 的范围限定。",
+   "evidenceId": "store",
+   "quote": "AI-generated tools were used solely to assist in creating some of the promotional material displayed on this Steam page."
+  }
+ },
+ "summary": "最多 8 人联机的快餐厨房模拟，2026 年 9 月 11 日上架，Nova Telum Studio 开发并发行，分类为独立／模拟。商店 AI 披露说得很直接：游戏本体不含任何 AI 生成内容，AI 工具仅用于协助制作本 Steam 页面展示的部分宣传素材。本站据此把营销登记为已使用，游戏内实时生成、代码、美术、音乐、语音、文本创作与翻译登记为被那句整体否认覆盖的未使用。宣传素材不随游戏分发，这项使用只影响商店页观感。所有结论只有开发者自述支撑，未经独立审计。",
+ "reviewNote": "核查英文商店页完整 AI 披露栏（两句原文）、身份（开发与发行均为 Nova Telum Studio，正式版）与英文讨论区首页（可见 15 个主题、总数 34，仅覆盖首页），首页没有命中关键词的 AI 主题帖。公开报道单独检索 1 次（原始响应存档 press-search.json，5 条结果），登记并读取 2 条来源：gamedb.ai 的本作条目页与 pcgame.com 的本作页面，两者都逐字转录了这两句披露，与商店原文一致，仅用于核对披露未被截断或改写；该聚合站另把本案标注为只在营销领域使用 AI，与本站结论一致，但本站结论只绑定商店原文。其余结果为同系列的 Prologue 试玩版页面（试玩版不充新增）与商店页，已有官方取证。未检索到独立媒体报道或社区争议；由于披露本身已明确区分本体与宣传素材，本站按两句原文分别登记，不额外推定宣传素材之外的用途。",
+ "description": "单人或最多八人一起顶过快餐高峰：管炸锅、汽水机与铁板翻汉堡，靠游戏内建语音和文字聊天分工，突发状况、怪客与意外挑战随时插进来，每个班次结束再把店做大一点。",
+ "english": {
+  "summary": "A co-op fast food kitchen simulation released on Sep 11, 2026, developed and published by Nova Telum Studio and filed under Indie and Simulation, playable solo or with up to eight players. The Steam AI disclosure is unusually clear: the game itself does not include any AI-generated content, and AI-generated tools were used solely to assist in creating some of the promotional material displayed on the Steam page. This site records marketing as used on that second sentence and ingame generation, code, art, music, voice, writing and translation as not used on the first, noting that promotional material is not shipped inside the game. Every finding rests on the developer own statement and none of it has been independently audited.",
+  "reviewNote": "Checked the complete English Steam AI disclosure block with both sentences, the identity (Nova Telum Studio as both developer and publisher, a full release rather than a demo) and the English discussion homepage, which lists 15 visible topics out of 34, covers only that first page and shows no AI-related topic. One dedicated web search was run, archived as press-search.json, all 5 results dispositioned and two sources registered and read in full: the gamedb.ai entry page and the pcgame.com page for this game, both of which transcribe the two disclosure sentences verbatim and agree with the store text, so they are used only to confirm nothing was truncated or reworded. The badge the first aggregator attaches, marking AI only in its store page category, agrees with this reading, but the findings remain bound to the store sentence. The other results were the series Prologue demo page, which never counts as an addition, and Steam pages already covered by the official evidence. No independent press report or community dispute was found, and because the disclosure itself separates shipped content from promotional material this site records those two sentences separately instead of extending either one.",
+  "aiAreaNotes": {
+   "ingame": "The disclosure opens by stating the game itself does not include any AI-generated content, which this site reads as covering run-time generation too, on the developer own statement and without independent audit.",
+   "code": "The disclosure does not name code separately; this area is recorded as not used through that blanket sentence about the game itself, with the self-statement caveat intact.",
+   "art": "The disclosure does not name in-game art separately; this area is recorded as not used through the blanket sentence about the game itself, while the promotional material is handled under marketing.",
+   "music": "The disclosure does not name music separately; this area is recorded as not used through the blanket sentence about the game itself, with the caveat intact.",
+   "voice": "The disclosure does not name voice acting separately; this area is recorded as not used through the same blanket sentence.",
+   "writing": "The disclosure does not name writing separately; this area is recorded as not used through the same blanket sentence.",
+   "translation": "The disclosure does not name translation separately; this area is recorded as not used through the same blanket sentence.",
+   "marketing": "The disclosure says AI-generated tools were used solely to assist in creating some of the promotional material displayed on this Steam page, so store page marketing is recorded as used with the word some kept as the limit."
+  }
+ },
+ "disclosureQuote": "The game itself does not include any AI-generated content. AI-generated tools were used solely to assist in creating some of the promotional material displayed on this Steam page."
+}

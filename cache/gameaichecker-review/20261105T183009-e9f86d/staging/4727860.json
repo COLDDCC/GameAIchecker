@@ -1,0 +1,83 @@
+{
+  "appId": "4727860",
+  "name": "War Footing",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "回合制国家防务策略游戏，2026 年 10 月 15 日上架，Strategist's Den Games 开发并发行，分类为策略。商店 AI 披露只有两句：AI 仅用于代码辅助，美术由付费的人类画师完成。本站据此把代码登记为已使用、美术登记为被明确否认的未使用，其余六个领域因披露没有点名而登记为未说明；虽然那句 coding assistance only 在语义上排除了其它用途，本站不据此把八个领域全部判死。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "code"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "used",
+    "art": "none",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "披露第一句把 AI 的用途限定为代码辅助（coding assistance only），所以代码登记为已使用；这个 only 同时是开发者对范围的自我限定。",
+    "art": "披露第二句明确说美术由付费的人类画师完成，本站按这句自述登记为未使用，未经独立审计。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。披露没有点名翻译；那句 coding assistance only 在语义上排除了其它用途，但本站不把一句概括话拆成八个结论。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。披露没有点名商店页或宣传素材。"
+  },
+  "aiAreaSources": {
+    "code": "official",
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/4727860/",
+  "developer": "Strategist's Den Games",
+  "publisher": "Strategist's Den Games",
+  "steamReleaseDate": "Oct 15, 2026",
+  "genres": [
+    "Strategy"
+  ],
+  "reviewedAt": "2026-11-05",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/4727860/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-05",
+      "excerpt": "AI was used for coding assistance only. Artwork was produced by a paid human artist."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/4727860/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-05",
+      "excerpt": "英文讨论区首页显示 15 个主题（总数 114）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gameaicheck.com/game/4727860/war-footing",
+      "label": "GameAICheck 本作条目页：对 Steam 披露的第三方转录与概述",
+      "date": "2026-11-05",
+      "excerpt": "AI was used only for coding assistance; the developer says artwork was made by a paid human artist."
+    }
+  ],
+  "reviewNote": "核查英文商店页的完整 AI 披露栏、身份（开发与发行均为 Strategist's Den Games，正式版而非试玩版）与英文讨论区首页（可见 15 个主题、总数 114，仅覆盖首页），首页没有出现命中关键词的 AI 主题帖。公开报道为本作单独检索 1 次，原始响应存档为 press-search.json，6 条结果的处置逐条记录在案，其中登记并读取 1 条来源：gameaicheck.com 的本作条目页，它把商店披露转述为代码辅助加人类画师美术，属第三方转录；该页自带的置信度与品质评级是该站的自动标注，本站不采纳，八领域只绑定商店原文。其余 5 条为商店页（已有官方取证）与三篇与本作无关的历史、政治文献，检索误命中了 war 一词。未检索到独立媒体对本作 AI 用途的报道或争议，这不能证明披露之外没有使用 AI。",
+  "disclosureQuote": "AI was used for coding assistance only. Artwork was produced by a paid human artist.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-05 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A turn-based national defence strategy game released on Oct 15, 2026, developed and published by Strategist's Den Games and filed under Strategy. The Steam AI disclosure is two sentences long: AI was used for coding assistance only, and artwork was produced by a paid human artist. This site records code as used and art as explicitly denied, while the other six areas stay recorded as not addressed because the disclosure never names them one by one, even though the word only reads as a blanket limit. Every finding rests on the developer own statement and none of it has been independently audited.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (Strategist's Den Games as both developer and publisher, shipped as a full release rather than a demo) and the English discussion homepage, which lists 15 visible topics out of 114 and covers only that first page, with no AI-related topic shown there. One dedicated web search was run for this title and its raw response is archived as press-search.json; the disposition of all 6 results is recorded and one source was registered and read in full, the gameaicheck.com entry page for this game, which transcribes the store disclosure as coding assistance plus artwork by a paid human artist. That page also carries its own confidence and quality labels, which are the aggregator's machine output rather than a developer statement, so they are not adopted and the eight-area findings stay bound to the store text. The remaining results were Steam pages already covered by the official evidence and three unrelated history or politics documents that matched the word war. No independent press report about this game's AI use was found, which is a statement about the search scope rather than proof of non-use.",
+    "aiAreaNotes": {
+      "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "code": "The disclosure says AI was used for coding assistance only, which names code as the area where AI was used; that is the developer own description and has not been independently audited.",
+      "art": "The disclosure states that artwork was produced by a paid human artist, so this area is recorded as not used on that explicit denial, with the self-statement caveat intact.",
+      "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+      "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure never names translation, and this site does not expand the single word only into eight separate findings.",
+      "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure never names the store page or promotional material."
+    },
+    "sourceRecordHash": "830c0aca123fddb8c613d8981ed6f2427957681b0b60ebe6358a001d97afe0cc"
+  }
+}

@@ -1,0 +1,60 @@
+{
+ "identityName": "The Crimson Hunt",
+ "identityDeveloper": "Farelas",
+ "category": "official_ai_disclosure",
+ "aiScopeUnspecified": false,
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "art": {
+   "state": "used",
+   "note": "披露原文为 Only used for the creation of some visual elements.，原文用词是 visual elements（视觉元素），本站把它映射到美术领域并保留“部分”这一限定。必须同时记下矛盾：开发者在 itch.io 自有页面把本作素材标为无生成式 AI，与这句 Steam 披露相互冲突。",
+   "evidenceId": "store",
+   "quote": "Only used for the creation of some visual elements."
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。披露的 only 语义上排除了其它用途，但没有点名音乐，本站按未说明登记。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。披露没有说明商店图与宣传素材是否属于那句 visual elements，本站不替开发者划定范围。"
+  }
+ },
+ "summary": "维多利亚风双人合作恐怖射击，2026 年 10 月 6 日上架，Farelas 开发并发行，分类为动作／冒险／独立。商店 AI 披露只有一句：仅用于部分视觉元素的制作。本站据此把美术登记为已使用（原文用词为 visual elements，本站映射到美术并保留“部分”限定），其余七个领域因披露没有点名而登记为未说明。这里有一处必须写明的矛盾：开发者在 itch.io 的自有页面上把本作素材标为无生成式 AI，与 Steam 的披露相互冲突。Steam 的披露是上架时必须填写的自述，本站以它为准，同时把这处口径冲突保留在结论里，未经独立审计澄清。",
+ "reviewNote": "核查英文商店页完整 AI 披露栏、身份（开发与发行均为 Farelas，正式版）与英文讨论区首页（可见 15 个主题、总数 123，仅覆盖首页），首页没有命中关键词的 AI 主题帖。公开报道为本作单独检索 2 次，原始响应分别存档为 press-search.json 与 press-search.b.json，批次证据结构登记后者的 6 条结果，并读取 1 条来源：开发者在 itch.io 的本作页面（farelas.itch.io/the-crimson-hunt），其素材栏标注 No generative AI was used，与 Steam 披露的 Only used for the creation of some visual elements 直接冲突；本站把这处冲突登记在案，判定以 Steam 披露为准，不采信任一方的额外推断。同一次检索里，Steam 商店的发布公告属开发者自有渠道且本次未抓取正文，不作为来源；WAME 聚合页的 AI review analysis 是该站对玩家评测的自动分析功能、与开发者是否使用生成式 AI 无关，SteamDB 更新日志与 YouTube 视频页分别因抓取限制与无法读取正文而未登记。另一次检索只命中商店页与一个下载导购站。本作没有独立第三方关于其 AI 用途的报道，检索范围之外不能证明任何事。",
+ "description": "你分饰两人：在暗处清剿残余血族的猎人 Victoria，以及被古老吸血鬼掳走、刚从噩梦里醒来的 Eleanor。林中维多利亚宅邸是藏污纳垢的祭所，你们要在腐坏的走廊里解开古老机关、对付吸血鬼与食尸鬼，同时精打细算每一发弹药与每一份补给，本地合作 1 至 2 人。",
+ "english": {
+  "summary": "A co-op Victorian horror shooter released on Oct 6, 2026, developed and published by Farelas and filed under Action, Adventure and Indie, where hunter Victoria and abducted Eleanor fight through a vampire-infested mansion. The Steam AI disclosure is one sentence, Only used for the creation of some visual elements, so this site records art as used on that wording, mapping visual elements onto the art area and keeping the word some as the stated limit, while the other seven areas are recorded as not addressed. There is a contradiction on the record: the same developer marks the itch.io page of this game as No generative AI was used. This site follows the Steam disclosure, which is the mandatory self-report attached to the store listing, and keeps the conflict visible instead of resolving it; nothing here has been independently audited.",
+  "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (Farelas as both developer and publisher, a full release rather than a demo) and the English discussion homepage, which lists 15 visible topics out of 123, covers only that first page and shows no AI-related topic. This title was searched twice, with the raw responses archived as press-search.json and press-search.b.json; the registered disposition covers the 6 results of the second response and one source was read in full, the developers own itch.io page for this game, whose content field states No generative AI was used, in direct conflict with the store sentence Only used for the creation of some visual elements. The conflict is recorded on the page and the finding stays with the Steam disclosure rather than either side being extrapolated. Within the same response the Steam announcement post is the developers own store channel and was not fetched, so it is not a source, the wame.is page only offers that aggregators automatic review summary which has nothing to do with whether the developer used generative AI, and the SteamDB patch notes page and the YouTube video were not registered because of the 403 relay result and the unreadable body. The earlier search returned only Steam pages and a download-guide site. No independent third-party report about this games AI use was found, and the search scope cannot prove anything further.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "art": "The disclosure says the only use was the creation of some visual elements, which this site maps onto the art area with the word some kept as the limit. The developers own itch.io page marks the content as No generative AI was used, so the two statements by the same party conflict and the store disclosure is what this site follows.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The word only excludes other uses in spirit but the disclosure never names music, so this area stays recorded as not addressed.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure never says whether store imagery falls under the visual elements it mentions, and this site does not define the boundary for the developer."
+  }
+ },
+ "disclosureQuote": "Only used for the creation of some visual elements."
+}

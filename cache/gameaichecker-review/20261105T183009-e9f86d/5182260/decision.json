@@ -1,0 +1,58 @@
+{
+ "identityName": "Keyboard Chaos",
+ "identityDeveloper": "LostPixel",
+ "category": "official_ai_disclosure",
+ "aiScopeUnspecified": true,
+ "areas": {
+  "ingame": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。披露第三句 The game does not generate AI content in real time during gameplay. 是对运行时生成的自述，但同一份披露没有点名任何素材门类，本站按范围未说明处理，这句原文在此留档而不单独改判本领域。"
+  },
+  "code": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。披露用 development 一词概括开发环节的 AI 协助，没有说明是否涉及代码生成，本站不做推断。"
+  },
+  "art": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。披露只写 brainstorming、development、content refinement 三项环节，没有说明 content 指美术、音频还是文本；讨论区与玩家评测声称键帽图案等为 AI 生成，那是玩家自述，不作为定案依据。"
+  },
+  "music": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "voice": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "writing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。披露的 content refinement 未说明是否指文本创作，本站不推断。"
+  },
+  "translation": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "marketing": {
+   "state": "not_stated",
+   "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  }
+ },
+ "summary": "键帽分拣整理模拟，2026 年 10 月 14 日上架，LostPixel 开发并发行，分类为休闲／独立／模拟，要把散落的 2692 枚键帽归位到 32 把键盘上。商店 AI 披露说开发期间用 AI 协助头脑风暴、开发与内容打磨，最终内容全部由团队审核整合，并声明游玩过程中不会实时生成 AI 内容。这三处用词都没有点名任何素材门类，所以八个领域全部登记为未说明，并标记范围未说明；那句运行时声明作为开发者自述在 ingame 条目下留档。讨论区与玩家评测里有多人声称玩法素材由 AI 生成、并认为披露有误导，属玩家自述，本站不据此定案。所有结论只有相关方自述支撑，未经独立审计。",
+ "reviewNote": "核查英文商店页完整 AI 披露栏、身份（开发与发行均为 LostPixel，正式版）与英文讨论区首页（可见 15 个主题、总数 21，仅覆盖首页）。首页命中关键词的主题 AI use in game 已完整读取正文与全部 9 条可见回复：楼主说自己原本在愿望单里，得知许多玩法元素由 AI 生成后决定不买，并劝开发者重制；回帖以玩家立场分成两派，有人表示不在意、有人抱怨新游戏发布十分钟就涌进 AI 投诉帖，还有玩家指出参照图里出现了现实中不存在的按键。帖内没有任何开发者发言，作者身份也未与官方账号绑定核实，因此全部内容按玩家自述处理，不改变任何领域结论。公开报道单独检索 1 次（原始响应存档 press-search.json，4 条结果），登记并读取 1 条来源：gamemoki.com 的本作页面，它转录了 Steam 上的玩家评测，其中一篇写道披露部分极具误导性；该站为评测聚合方，转录内容仍是玩家自述。其余结果为商店页，已有官方取证。本作是披露措辞宽泛、社区争议明显的典型：范围未说明的标记与玩家分歧一并写在页面上。",
+ "description": "2692 枚键帽撒满一整张桌子，把它们按形状、配色与图案找回各自的键盘：方形板与圆键板各有各的布局，每枚键帽都印着字符，读对它才放得对位置，32 把键盘挂满墙面等你一把把装回去。",
+ "english": {
+  "summary": "A keycap sorting and assembling sim released on Oct 14, 2026, developed and published by LostPixel and filed under Casual, Indie and Simulation, where 2692 loose keycaps have to be matched back onto 32 keyboards. The Steam AI disclosure says AI tools assisted brainstorming, development and content refinement during development, that all final content was reviewed and integrated by the team, and that the game does not generate AI content in real time during gameplay. None of those clauses names a specific content discipline, so all eight areas are recorded as not addressed and the scope is flagged as unspecified, with the run-time sentence kept on record under the ingame entry. Several forum threads and player reviews claim gameplay assets were AI generated and call the disclosure misleading; those are player statements and are not used to settle any area. Every finding rests on what the parties involved say about their own work and none of it has been independently audited.",
+  "reviewNote": "Checked the complete English Steam AI disclosure block, the identity (LostPixel as both developer and publisher, a full release rather than a demo) and the English discussion homepage, which shows 15 visible topics out of 21 and covers only that first page. The homepage topic that matches the keyword, AI use in game, was read in full together with all 9 visible replies: the original poster says the game was on their wishlist until they learned that many gameplay elements were generated with AI and that they will not buy it, while the replies split between players who do not care, players annoyed that every new indie release draws AI complaints within ten minutes, and one player noting that reference images show keys that do not exist on real keyboards. No developer posts appear in that thread and no poster identity is bound to an official account, so the whole thread is treated as player testimony and changes no area finding. One dedicated web search was run, archived as press-search.json, whose 4 results are each dispositioned; one source was registered and read in full, the gamemoki.com page for this game, which transcribes Steam player reviews including one that calls the AI disclosure section extremely misleading. That aggregator only mirrors what players wrote, so it carries the same self-statement limit. The other results were Steam pages already covered by the official evidence.",
+  "aiAreaNotes": {
+   "ingame": "This area is not addressed by the reviewed disclosure in the sense this table uses, because the scope is flagged as unspecified and no area can carry a bound finding then. The sentence The game does not generate AI content in real time during gameplay. is recorded here as the developer statement about run-time generation.",
+   "code": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure bundles development into one word without saying whether code was generated, and this site does not infer it.",
+   "art": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The disclosure names brainstorming, development and content refinement but never says whether content means art, audio or text. Forum and review claims that the keycap artwork is AI generated come from players and are not used to decide this area.",
+   "music": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "voice": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "writing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use. The phrase content refinement does not say whether written content was involved, so nothing is inferred here.",
+   "translation": "This area is not addressed by the reviewed disclosure; that is not proof of non-use.",
+   "marketing": "This area is not addressed by the reviewed disclosure; that is not proof of non-use."
+  }
+ },
+ "disclosureQuote": "AI tools were used during the development of this game to assist with brainstorming, development, and content refinement. All final content was reviewed and integrated by the development team. The game does not generate AI content in real time during gameplay."
+}
