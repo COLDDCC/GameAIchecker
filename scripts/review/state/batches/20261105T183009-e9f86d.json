@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "7e7df12ccdf78b7f8dc5a63ce3f4a2a76a4f245f",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-11-05T09:30:09.756569+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -670,10 +670,87 @@
       },
       "bytes": 29861508,
       "verifiedRemoteSha": "7f1b07a728bf625972863d84ae4b80d3b99712cc"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42189706701",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42189706584"
+    },
+    "production": {
+      "sha": "8bba77684982772e13fd308ec90433cd5c3368a5",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/f13ce43b-e010-4c01-b566-44e165824a1a",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>8bba776</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://f13ce43b.gameaichecker.pages.dev'>https://f13ce43b.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/f13ce43b-e010-4c01-b566-44e165824a1a)\n",
+      "checkedAt": "2026-11-06T08:48:09.860645+00:00"
+    },
+    "onlineImages": {
+      "responses": 402,
+      "cache": ".cache\\gameaichecker-review\\20261105T183009-e9f86d\\online-images-8bba77684982772e13fd308ec90433cd5c3368a5.json"
+    },
+    "online": [
+      {
+        "appId": "4727860",
+        "url": "https://gameaichecker.com/games/4727860-war-footing/",
+        "checkedAt": "2026-11-06T08:48:39.610954+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5182260",
+        "url": "https://gameaichecker.com/games/5182260-keyboard-chaos/",
+        "checkedAt": "2026-11-06T08:48:39.613038+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4033680",
+        "url": "https://gameaichecker.com/games/4033680-escape-immersion/",
+        "checkedAt": "2026-11-06T08:48:39.614572+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3232690",
+        "url": "https://gameaichecker.com/games/3232690-maid-cafe-simulator/",
+        "checkedAt": "2026-11-06T08:48:39.616417+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4317160",
+        "url": "https://gameaichecker.com/games/4317160-starlight-farm/",
+        "checkedAt": "2026-11-06T08:48:39.617893+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4485020",
+        "url": "https://gameaichecker.com/games/4485020-the-crimson-hunt/",
+        "checkedAt": "2026-11-06T08:48:39.619435+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5158320",
+        "url": "https://gameaichecker.com/games/5158320-deer-hunting-the-season-2/",
+        "checkedAt": "2026-11-06T08:48:39.621019+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5221510",
+        "url": "https://gameaichecker.com/games/5221510-tidy-up-the-flower-shop/",
+        "checkedAt": "2026-11-06T08:48:39.622754+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4457150",
+        "url": "https://gameaichecker.com/games/4457150-chomp-garden/",
+        "checkedAt": "2026-11-06T08:48:39.624240+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "3804930",
+        "url": "https://gameaichecker.com/games/3804930-burger-shift-team-rush/",
+        "checkedAt": "2026-11-06T08:48:39.625804+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "c1642c8b06fa8a9d764e626806bc7ef6c6881e76"
+    "media": "c1642c8b06fa8a9d764e626806bc7ef6c6881e76",
+    "site": "8bba77684982772e13fd308ec90433cd5c3368a5"
   },
   "attempts": 10,
   "maxAttempts": 30,
@@ -685,5 +762,6 @@
   },
   "applyBase": "7e7df12ccdf78b7f8dc5a63ce3f4a2a76a4f245f",
   "pendingTree": "a3734183b87e03e0504a8bb9100f49cb77047290",
-  "siteBase": "7f1b07a728bf625972863d84ae4b80d3b99712cc"
+  "siteBase": "7f1b07a728bf625972863d84ae4b80d3b99712cc",
+  "siteTree": "275620454efa5d2f4bc073bde6508d5e23fcef5a"
 }
