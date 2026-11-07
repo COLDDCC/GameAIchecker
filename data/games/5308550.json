@@ -1,0 +1,86 @@
+{
+  "appId": "5308550",
+  "name": "Tsukumo SNAP!",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "夏日小镇像素冒险 RPG，2026 年 10 月 27 日上架，ISEKAI Games 开发并发行，分类为冒险／独立／角色扮演：主角 Haru 在忘町外婆家过暑假最后一周，储物间纸箱里一台闲置十二年的黄色翻盖手机自己开机，里面住着永远只剩 4% 电量的毒舌 AI「Denpa」，也是唯一能看见付丧神——那些在被遗忘物件里成形的灵——的存在。商店 AI 披露称本作含 AI 工具协助创作的内容，具体点名编程与视觉素材，并以“其他创作要素”收尾，另称所有生成内容都经开发者审阅、编辑与整合。本站据此把代码与美术登记为已使用，其余六个领域因披露没有点名而登记为未说明。需要区分：游戏设定里那个会说话的 AI 角色属叙事内容，与制作端是否使用 AI 无关。第三方转录页面的分领域等级不采纳。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "code",
+    "art"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "used",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "披露点名 AI 用于协助 programming（编程），代码登记为已使用。",
+    "art": "披露点名 visual assets（视觉素材），美术登记为已使用；原文没有细分是立绘、场景还是界面。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "code": "official",
+    "art": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5308550/",
+  "developer": "ISEKAI Games",
+  "publisher": "ISEKAI Games",
+  "steamReleaseDate": "Oct 27, 2026",
+  "genres": [
+    "Adventure",
+    "Indie",
+    "RPG"
+  ],
+  "reviewedAt": "2026-11-07",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5308550/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-07",
+      "excerpt": "This game contains content created with the assistance of AI tools. AI was used during development to assist with programming, visual assets, and other creative elements. All generated content was reviewed, edited, and integrated by the dev."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5308550/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-07",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://howmuchai.games/game/tsukumo-snap",
+      "label": "HowMuchAI 本作条目页：披露全文的第三方逐字转录",
+      "date": "2026-11-07",
+      "excerpt": "AI was used during development to assist with programming, visual assets, and other creative elements."
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断，含编程／视觉素材／其他创作要素三段）与身份（开发与发行均为 ISEKAI Games，正式版，2026 年 10 月 27 日）；英文讨论区在取证时可见主题为 0、总数为 0，即本作没有公开讨论主题，不存在可读的社区争议。公开报道单独检索 1 次（原始响应存档 press-search.json，6 条结果），登记并读取 1 条来源：HowMuchAI 的本作条目页，其逐字转录的披露全文与商店一致，该站分领域等级属第三方自动判断，本站不采纳。另有 GameAICheck 的该发行方统计页（自称 20 款作品全部有 AI 披露）已抓取并读取全文，但为开发者级汇总、不含本作披露原文，故不登记为本作来源；其余四条里一条是商店页多语言版（已有官方取证）、一条是按领域筛选的清单页、一条是 IndieDB 的本作 Next Fest 试玩公告（经中转抓取返回 HTTP 403，正文不可读）、一条是 ModDB 资料页（未抓取，该站不转录 Steam 的 AI 披露字段）。未检索到独立媒体报道；披露末尾的“其他创作要素”无法归入具体领域，所有结论只有开发者自述支撑，未经独立审计。",
+  "disclosureQuote": "This game contains content created with the assistance of AI tools. AI was used during development to assist with programming, visual assets, and other creative elements. All generated content was reviewed, edited, and integrated by the dev.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-07 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A pixel adventure RPG released on Oct 27, 2026, developed and published by ISEKAI Games and filed under Adventure, Indie and RPG, in which Haru spends the last week of summer at grandmas house in the Forgotten Town, a yellow flip phone left twelve years in a cardboard box switches itself on, and inside it lives Denpa, a sarcastic AI frozen at 4 percent battery and the only thing that can see the tsukumogami spirits growing inside objects people stopped caring about. The Steam AI disclosure says the game contains content created with the assistance of AI tools, names programming and visual assets, ends with other creative elements and adds that all generated content was reviewed, edited and integrated by the developer. This site records code and art as used, treats that closing catch all as unassignable so the remaining six areas stay not addressed, notes that the talking AI character is part of the fiction rather than evidence about production, and does not adopt the aggregator area grades. Every finding rests on the developer own statement without independent audit.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, covering programming, visual assets and the other creative elements tail, plus the identity with ISEKAI Games as both developer and publisher on a full release dated Oct 27, 2026. The English discussion board shows 0 visible topics out of 0 in total, so this title has no public threads and no community dispute could be read. One dedicated web search was run, archived as press-search.json with 6 results, and one source was registered and read in full, the HowMuchAI entry page for this game, whose verbatim transcription matches the store text while its area grades are automatic third party judgements this site does not adopt. A GameAICheck publisher statistics page claiming that all 20 titles from this publisher disclose AI use was also fetched and read in full but is a developer level summary without this disclosure text, so it is not registered as a source. Of the remaining results one was a localised store page already covered by the official evidence, one a field filtered listing page, one IndieDB Next Fest demo announcement that answered HTTP 403 through the relay, and one ModDB data page that was not fetched and does not carry the Steam disclosure field. No independent reporting was found, the closing other creative elements cannot be assigned to a discipline, and every finding rests on the developer own statement without independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "code": "The disclosure names programming as one of the assisted areas, so code is recorded as used.",
+      "art": "Visual assets are named, so art is recorded as used without splitting illustrations, scenes or interface.",
+      "music": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "voice": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "writing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "translation": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "marketing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill."
+    },
+    "sourceRecordHash": "7185c44e7be90bb2eda188b6cbf31c888c01e1da45edfbf22ad9c05d801f2bdc"
+  }
+}

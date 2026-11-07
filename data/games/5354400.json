@@ -1,0 +1,97 @@
+{
+  "appId": "5354400",
+  "name": "Sudoku Unlimited",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "数独合集，2026 年 10 月 21 日上架，Pinch Games 开发并发行，分类为休闲／独立：在宁静花园主题里做经典数独与不规则区域、和箱、箭头、温度计等变体，可标候选数、撤销、索取讲解式提示，还有从 4×4 到 9×9 的花园旅程与教学关卡。商店 AI 披露只有一句：用 Claude Code 创作游戏本身的代码与素材。本站据此把代码登记为已使用；原文的“assets（素材）”没有点名美术、音乐、配音或文本中的任何一类，因此其余七个领域全部登记为未说明，不据这一笼统措辞推断；由于开发者确实点名了“代码”这一具体领域，本站不设置“范围未指明”标记。三个第三方转录页面的文本与商店一致，其收录标签与分级不采纳。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "code"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "used",
+    "art": "not_stated",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "披露以第一人称写明用 Claude Code 创作游戏本身的代码，代码登记为已使用。",
+    "art": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "code": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5354400/",
+  "developer": "Pinch Games",
+  "publisher": "Pinch Games",
+  "steamReleaseDate": "Oct 21, 2026",
+  "genres": [
+    "Casual",
+    "Indie"
+  ],
+  "reviewedAt": "2026-11-07",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5354400/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-07",
+      "excerpt": "I have used Claude Code to create the game itself code and assets."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5354400/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-07",
+      "excerpt": "英文讨论区首页显示 5 个主题（总数 5）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gameaicheck.com/game/5354400/sudoku-unlimited",
+      "label": "GameAICheck 本作条目页：披露原文的第三方逐字转录",
+      "date": "2026-11-07",
+      "excerpt": "I have used Claude Code to create the game itself code and assets."
+    },
+    {
+      "type": "third_party",
+      "url": "https://vibegamedb.com/en/games/sudoku-unlimited",
+      "label": "VibeGameDB 本作条目页：披露原文转录与“Claude Code 制作”归类",
+      "date": "2026-11-07",
+      "excerpt": "I have used Claude Code to create the game itself code and assets."
+    },
+    {
+      "type": "third_party",
+      "url": "https://howmuchai.games/game/sudoku-unlimited",
+      "label": "HowMuchAI 本作条目页：披露原文的另一路逐字转录",
+      "date": "2026-11-07",
+      "excerpt": "I have used Claude Code to create the game itself code and assets."
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断，仅一句）与身份（开发与发行均为 Pinch Games，正式版，2026 年 10 月 21 日）；英文讨论区首页可见 5 个主题、总数 5，为变体关卡 bug、西语大小写、字体与单元格响应慢等反馈，没有 AI 相关讨论。公开报道单独检索 1 次（原始响应存档 press-search.json，6 条结果），登记并读取 3 条来源：GameAICheck、VibeGameDB 与 HowMuchAI 的本作条目页，三者逐字转录的披露原文与商店一致；VibeGameDB 把本作收录为“用 Claude Code 制作”的条目、另两站给出各自的等级与置信度，均属第三方判断，本站不采纳。其余三条里一条是商店页（多语言版，已有官方取证）、一条是按工具归类的清单页、一条是开发者级统计页（未抓取）。未检索到独立媒体报道；披露以“assets”笼统收尾，本站不据此给任何未点名领域定案，也不设置范围未指明标记。",
+  "disclosureQuote": "I have used Claude Code to create the game itself code and assets.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-07 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A sudoku collection released on Oct 21, 2026, developed and published by Pinch Games and filed under Casual and Indie, set in a quiet garden with classic grids plus irregular regions, sum cages, arrows and thermometers, candidate pencils, undo, hints that explain the deduction and a guided journey from small 4 by 4 boards up to full 9 by 9 puzzles. The Steam AI disclosure is one first person sentence saying that Claude Code was used to create the game itself, its code and assets. This site records code as used and keeps the word assets unassigned, so live generation, art, music, voice, writing, translation and marketing are all recorded as not addressed instead of inferred from that blanket word, and the scope unspecified flag is not set because the developer did name one concrete area. The three aggregator transcriptions match the store text and their own collection tags and grades are not adopted, and every finding rests on the developer own statement without independent audit.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, one sentence that is not truncated, plus the identity with Pinch Games as both developer and publisher on a full release dated Oct 21, 2026. The English discussion board shows 5 visible topics out of 5 in total, a variant challenge bug, a Spanish capitalisation report, font and slow cell response complaints, with no AI topic. One dedicated web search was run, archived as press-search.json with 6 results, and three sources were registered and read in full, the GameAICheck, VibeGameDB and HowMuchAI entry pages for this game, whose verbatim transcriptions all match the store text while the made with Claude Code collection tag and the two sites own grades and confidence values are third party judgements this site does not adopt. Of the remaining results one was a localised store page already covered by the official evidence, one a tool category listing and one developer level statistics page that was not fetched. No independent reporting was found, and because the disclosure ends with the blanket word assets this site assigns no unnamed area and sets no scope unspecified flag.",
+    "aiAreaNotes": {
+      "ingame": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "code": "The developer states in first person that Claude Code created the game code itself, so code is recorded as used.",
+      "art": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "music": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "voice": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "writing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "translation": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "marketing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill."
+    },
+    "sourceRecordHash": "0ae11d8b54dfa1e19c40e5b14983600850a472ba112dd14dd80804c72173b16f"
+  }
+}

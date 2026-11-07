@@ -1,0 +1,95 @@
+{
+  "appId": "5398650",
+  "name": "TRACE IT",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "纸上铁路逻辑解谜，2026 年 10 月 25 日上架，HuntForge 开发、LIGHT IT 发行，分类为休闲／独立：每行每列旁标注需要放置轨道的格数，从边缘入口把直轨与弯轨连成一条不分叉不成环的线路接到出口，并称每关都经计算机校验只有唯一解。商店 AI 披露按领域列了三项：配乐用 Suno 制作、部分视觉素材借助 AI 图像生成工具、代码用 AI 助手构思与调试，并单独声明所有 AI 协助内容均为预生成、游玩过程中不实时生成 AI 内容，全部内容在入库前经开发者审阅、测试与打磨。本站据此把音乐、美术与代码登记为已使用、游戏运行登记为明确声明未使用，其余四个领域因披露没有点名而登记为未说明。披露正文以“The developers of LIGHT IT”自称，而商店记录的开发者为 HuntForge、LIGHT IT 为发行方，本站保留这一称谓差异。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "code",
+    "art",
+    "music"
+  ],
+  "aiAreas": {
+    "ingame": "none",
+    "code": "used",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "披露单独一句说明所有 AI 协助内容均为发售前预生成、游玩过程中不实时生成任何 AI 内容，因此游戏运行登记为明确声明未使用。",
+    "code": "披露单列 Code：AI 助手用于构思实现思路并协助调试，代码登记为已使用；原文没有说明多大比例的代码由 AI 产出。",
+    "art": "披露单列 Art：部分视觉素材在 AI 图像生成工具协助下完成，美术登记为已使用并保留“部分”这一限定。另需并列记录：商店简介把画面描述为手绘纸质风格，披露称部分视觉素材借助 AI，本站只并述两句原文，不判定真伪。",
+    "music": "披露单列 Music，写明游戏内配乐由 AI 音乐生成工具 Suno 制作，音乐登记为已使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "ingame": "official",
+    "code": "official",
+    "art": "official",
+    "music": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5398650/",
+  "developer": "HuntForge",
+  "publisher": "HuntForge",
+  "steamReleaseDate": "Oct 25, 2026",
+  "genres": [
+    "Casual",
+    "Indie"
+  ],
+  "reviewedAt": "2026-11-07",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5398650/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-07",
+      "excerpt": "AI Generated Content Disclosure The developers of LIGHT IT provide the following disclosure regarding the use of AI tools in the creation of this game. All AI-assisted content is pre-generated; the game does not generate any AI content live during gameplay. Music: The in-game music was produced using Suno, an AI music-generation tool. Art: Some visual assets were created with the assistance of AI image-generation tools. Code: AI assistants were used to help brainstorm implementation ideas and to assist with debugging. All AI-assisted content and code was reviewed, tested, and refined by the developer before being included in the final game."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5398650/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-07",
+      "excerpt": "英文讨论区首页显示 1 个主题（总数 1）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://gamedb.ai/games/5398650-trace-it",
+      "label": "GameDB.ai 本作条目页：披露全文的第三方逐字转录",
+      "date": "2026-11-07",
+      "excerpt": "All AI-assisted content is pre-generated; the game does not generate any AI content live during gameplay."
+    },
+    {
+      "type": "third_party",
+      "url": "https://howmuchai.games/game/trace-it",
+      "label": "HowMuchAI 本作条目页：披露全文的另一路逐字转录",
+      "date": "2026-11-07",
+      "excerpt": "Music: The in-game music was produced using Suno, an AI music-generation tool."
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断，含发行方自称与运行期否定句）与身份（开发者 HuntForge、发行方 LIGHT IT，正式版，2026 年 10 月 25 日）；英文讨论区首页可见 1 个主题、总数 1，主题为体验改善建议，没有 AI 相关讨论。公开报道单独检索 1 次（原始响应存档 press-search.json，6 条结果），登记并读取 2 条来源：GameDB.ai 与 HowMuchAI 的本作条目页，两者转录的披露全文与商店一致，其自带的 AI 等级与置信度属第三方自动判断，本站不采纳。其余四条里一条是同名相近的另一款作品商店页（LIGHT IT）、一条是本作商店页的多语言版（已有官方取证）、两条是与本作无关的机构画像页与教育会议论文集。披露正文自称“The developers of LIGHT IT”，商店身份记录开发者为 HuntForge、LIGHT IT 为发行方，本站不据此改判，仅在结论中保留该差异；运行期否定句绑定商店原文，故游戏运行登记为明确声明未使用。",
+  "disclosureQuote": "AI Generated Content Disclosure The developers of LIGHT IT provide the following disclosure regarding the use of AI tools in the creation of this game. All AI-assisted content is pre-generated; the game does not generate any AI content live during gameplay. Music: The in-game music was produced using Suno, an AI music-generation tool. Art: Some visual assets were created with the assistance of AI image-generation tools. Code: AI assistants were used to help brainstorm implementation ideas and to assist with debugging. All AI-assisted content and code was reviewed, tested, and refined by the developer before being included in the final game.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-07 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A paper railway logic puzzle released on Oct 25, 2026, developed by HuntForge, published by LIGHT IT and filed under Casual and Indie, where each row and column carries the number of cells that must hold track and you join straight and curved pieces from the edge entrance to the exit without branches or loops, with every level stated to be computer verified as having exactly one answer. The Steam AI disclosure lists in-game music produced with Suno, some visual assets made with AI image generation tools and code where AI assistants helped brainstorm implementation ideas and debug, and it states separately that all AI assisted content is pre-generated and nothing is generated live during gameplay. This site records music, art and code as used and live generation as explicitly ruled out, keeps the word some as a scope limit, notes that the store blurb sells a hand drawn paper look while the disclosure mentions AI image tools, and leaves writing, voice, translation and marketing not addressed. The disclosure text calls itself the developers of LIGHT IT while the store identity lists HuntForge as developer and LIGHT IT as publisher, and this difference is reported rather than resolved, with every finding resting on the developer own statement without independent audit.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, including the publisher style self reference and the sentence ruling out live generation, plus the identity of HuntForge as developer and LIGHT IT as publisher on a full release dated Oct 25, 2026. The English discussion board shows 1 visible topic out of 1 in total, a quality of life suggestion with no AI discussion. One dedicated web search was run, archived as press-search.json with 6 results, and two sources were registered and read in full, the GameDB.ai and HowMuchAI entry pages for this game, whose transcriptions match the store text while their own AI grades and confidence values are automatic third party judgements this site does not adopt. Of the remaining results one was the store page of a different, similarly named title, one a localised copy of this store page already covered by the official evidence and two were an unrelated company profile page and a conference proceedings PDF. The disclosure calls its authors the developers of LIGHT IT while the store lists HuntForge as developer, and this site reports the difference without changing the judgement, keeping every finding on the developer own statement without independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure carries its own sentence ruling out generation while playing, so live generation is recorded as explicitly not used.",
+      "code": "The disclosure says AI assistants helped brainstorm implementation ideas and debugging, so code is recorded as used without the share of AI written code being quantified.",
+      "art": "The disclosure names some visual assets as made with AI image generation tools, so art is recorded as used with the some limit kept, while the store blurb describes a hand drawn paper look and both sentences are reported side by side without a truth verdict.",
+      "music": "The disclosure states the in-game music was produced with Suno, an AI music generation tool, so music is recorded as used.",
+      "voice": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "writing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "translation": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "marketing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill."
+    },
+    "sourceRecordHash": "f5e64f399d7d5ead7161de4fd1334006982ea863ec2c7522d03fbc965effee51"
+  }
+}

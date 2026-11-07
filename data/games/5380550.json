@@ -1,0 +1,81 @@
+{
+  "appId": "5380550",
+  "name": "DROPANIC",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "一控多版的下落式方块益智，2026 年 10 月 27 日上架，mayoaji 开发并发行，分类为休闲：一套按键同时操作两到四个下落式版面，消方块、连宝石，任何一个版面堆满就结束，88 关每关五项任务，另有自选版面数的无尽模式。商店 AI 披露称生成式 AI 在开发期用于创作代码、插画与音频素材。本站据此把代码与美术登记为已使用；“音频素材”未细分，按既有先例同时映射到音乐与配音两个领域，并写明这是本站的映射；游戏运行、撰写、翻译与宣传素材四个领域因披露没有点名而登记为未说明。公开检索未找到任何第三方来源。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "code",
+    "art",
+    "music",
+    "voice"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "used",
+    "art": "used",
+    "music": "used",
+    "voice": "used",
+    "writing": "not_stated",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "披露点名生成式 AI 用于创作代码，代码登记为已使用；整句并列三项，故三个领域共用同一绑定原文。",
+    "art": "披露点名 illustrations（插画），美术登记为已使用。",
+    "music": "披露以“audio assets”（音频素材）收尾，未区分配乐、音效与配音；按既有先例把该词同时映射到音乐与配音两个领域，并在说明中写明这一映射由本站做出，开发者并未点名。",
+    "voice": "同上：开发者原文是未细分的“audio assets”，本站把它同时登记到配音领域，并明确这是映射而非开发者点名。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "code": "official",
+    "art": "official",
+    "music": "official",
+    "voice": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5380550/",
+  "developer": "mayoaji",
+  "publisher": "mayoaji",
+  "steamReleaseDate": "Oct 27, 2026",
+  "genres": [
+    "Casual"
+  ],
+  "reviewedAt": "2026-11-07",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5380550/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-07",
+      "excerpt": "Generative AI was used during the development of this game to create code, illustrations, and audio assets."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5380550/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-07",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断，仅一句并列三项）与身份（开发与发行均为 mayoaji，正式版，2026 年 10 月 27 日）；英文讨论区在取证时可见主题为 0、总数为 0，即本作没有公开讨论主题，不存在可读的社区争议。公开报道单独检索 2 次，原始响应分别存档为 press-search.json 与 press-search.b.json，批次证据结构只登记第一次，另一次在此说明：第一次命中的是泛论 Steam AI 披露政策与合规的资料页（Reddit 与 YouTube 需登录、法律博客与术语解释页均未点名本作），没有本作来源；第二次里开发者官网 dpanic.com 已抓取并读取全文，页面介绍玩法与媒体素材、通篇未提生成式 AI，因此不构成本作 AI 用途的来源；steamdb.info 更新日志页经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读；其余为本体商店页多语言版与销量估算站。两次检索都没有可登记的第三方来源，这不能证明披露之外没有 AI 用途，判定只以商店披露原文为准。",
+  "disclosureQuote": "Generative AI was used during the development of this game to create code, illustrations, and audio assets.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-07 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A falling-block puzzle that drives several boards at once, released on Oct 27, 2026, developed and published by mayoaji and filed under Casual, where one control set moves every active board together, you clear block lines and chain matching jewels, any single board filling up ends the run, and there are 88 stages with five missions each plus an endless mode with a chosen board count. The Steam AI disclosure states that generative AI was used during development to create code, illustrations and audio assets. This site records code and art as used and, following its existing precedent for the unsplit word audio, maps that same wording onto both music and voice while stating openly that the mapping is ours and not a named area. Live generation, writing, translation and marketing stay not addressed because the disclosure never names them, neither of two searches found any third party source, and every finding rests on the developer own statement without independent audit.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, one sentence naming three things, plus the identity with mayoaji as both developer and publisher on a full release dated Oct 27, 2026. The English discussion board shows 0 visible topics out of 0 in total, so this title has no public threads and no community dispute could be read. Two separate web searches were run and archived as press-search.json and press-search.b.json, with only the first registered in the batch evidence structure and the second explained here. The first search returned only general pages about Steam AI disclosure policy, two law and glossary articles that never name this game plus social posts needing a signed in or scripted page, so nothing was registered. In the second search the developers own site dpanic.com was fetched and read in full and covers gameplay and press assets without ever mentioning generative AI, so it is not a source about AI use here, while a steamdb.info patch notes page answered HTTP 403 through the GitHub Actions relay and the rest were localised store pages and a revenue estimate site. Neither search yielded a registerable third party source, which does not prove there is no AI use beyond the disclosure, so the judgement rests on the store text alone.",
+    "aiAreaNotes": {
+      "ingame": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "code": "The disclosure names code among what generative AI created, so code is recorded as used, with the one sentence shared by the three bound areas.",
+      "art": "Illustrations are named, so art is recorded as used.",
+      "music": "The disclosure says audio assets without splitting soundtrack, effects and voice, so, following the existing precedent, that wording is mapped onto both music and voice and the mapping is stated as our own.",
+      "voice": "Same wording as above: the developers wrote audio assets without detail, and this site records it under voice as well, stating that the mapping is ours rather than a named area.",
+      "writing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "translation": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "marketing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill."
+    },
+    "sourceRecordHash": "77c8a1d8aa4bf2f920aa527a38fcc2f1f73190744fc27d9a388a85ce9f6b0621"
+  }
+}
