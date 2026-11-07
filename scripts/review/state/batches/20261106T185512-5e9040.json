@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "9f00194bbaf22f27a40e62b03c203f4778cb0be4",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-11-06T09:55:12.328097+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -680,10 +680,87 @@
       },
       "bytes": 28185977,
       "verifiedRemoteSha": "6754432e75179a1559a737eeff1807f21b833961"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42202532278",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42202532348"
+    },
+    "production": {
+      "sha": "334ce472bd1627511ee4da353c5322dafaa63e14",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/9eafa97a-8df5-4eec-bada-27f1dcbbac66",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>334ce47</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://9eafa97a.gameaichecker.pages.dev'>https://9eafa97a.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/9eafa97a-8df5-4eec-bada-27f1dcbbac66)\n",
+      "checkedAt": "2026-11-07T12:50:24.232736+00:00"
+    },
+    "onlineImages": {
+      "responses": 327,
+      "cache": ".cache\\gameaichecker-review\\20261106T185512-5e9040\\online-images-334ce472bd1627511ee4da353c5322dafaa63e14.json"
+    },
+    "online": [
+      {
+        "appId": "5000320",
+        "url": "https://gameaichecker.com/games/5000320-oddstable/",
+        "checkedAt": "2026-11-07T12:50:56.804798+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4328570",
+        "url": "https://gameaichecker.com/games/4328570-we-are-football-2027/",
+        "checkedAt": "2026-11-07T12:50:56.816462+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5001630",
+        "url": "https://gameaichecker.com/games/5001630-jiahao/",
+        "checkedAt": "2026-11-07T12:50:56.828029+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4947900",
+        "url": "https://gameaichecker.com/games/4947900-augmented-yut/",
+        "checkedAt": "2026-11-07T12:50:56.838067+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5063140",
+        "url": "https://gameaichecker.com/games/5063140-cards-everywhere/",
+        "checkedAt": "2026-11-07T12:50:56.850023+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5090060",
+        "url": "https://gameaichecker.com/games/5090060-starlathe/",
+        "checkedAt": "2026-11-07T12:50:56.861338+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4221990",
+        "url": "https://gameaichecker.com/games/4221990-fish-lab/",
+        "checkedAt": "2026-11-07T12:50:56.872916+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4859270",
+        "url": "https://gameaichecker.com/games/4859270-dark-bone-prison/",
+        "checkedAt": "2026-11-07T12:50:56.883697+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "4270850",
+        "url": "https://gameaichecker.com/games/4270850-screenside-fisher/",
+        "checkedAt": "2026-11-07T12:50:56.893992+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5130480",
+        "url": "https://gameaichecker.com/games/5130480-sort-the-capybaras/",
+        "checkedAt": "2026-11-07T12:50:56.905745+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "afa9d99c90ffa481fec136bdf96a21444d3c2d1b"
+    "media": "afa9d99c90ffa481fec136bdf96a21444d3c2d1b",
+    "site": "334ce472bd1627511ee4da353c5322dafaa63e14"
   },
   "attempts": 10,
   "maxAttempts": 30,
@@ -695,5 +772,6 @@
   },
   "applyBase": "9f00194bbaf22f27a40e62b03c203f4778cb0be4",
   "pendingTree": "4bc51167d90052e5b4170f6cf3f717c0ce951564",
-  "siteBase": "6754432e75179a1559a737eeff1807f21b833961"
+  "siteBase": "6754432e75179a1559a737eeff1807f21b833961",
+  "siteTree": "f9ea3955bee3bda0e3ad6165e0e3a8639b03db34"
 }
