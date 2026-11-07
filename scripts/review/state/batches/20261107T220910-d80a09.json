@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "7face8bd58d9cf3855b089215518fd7f8eda4559",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "prepared",
+  "phase": "media_ready",
   "createdAt": "2026-11-07T13:09:10.315225+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -667,8 +667,18 @@
       "decisionHash": "3ccb86b5fefb0640966b76e27eb19c1210c762963609a383a75a7d483248720a"
     }
   ],
-  "checkResults": {},
-  "publishShas": {},
+  "checkResults": {
+    "media": {
+      "checks": {
+        "Persist media for reviewed games": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42376885787"
+      },
+      "bytes": 26213547,
+      "verifiedRemoteSha": "cd63499216d0bc081d471ae8701bed3c318d1ae6"
+    }
+  },
+  "publishShas": {
+    "media": "7cd319e8c8f8ec5bba8705d344a2ba6a7a5d4a28"
+  },
   "attempts": 11,
   "maxAttempts": 30,
   "selectionOverride": {
@@ -692,5 +702,7 @@
       "reason": "discussion scope unavailable"
     }
   ],
-  "applyBase": "7face8bd58d9cf3855b089215518fd7f8eda4559"
+  "applyBase": "7face8bd58d9cf3855b089215518fd7f8eda4559",
+  "pendingTree": "a479399563c8949ac47cb709de87c49594a8154b",
+  "siteBase": "cd63499216d0bc081d471ae8701bed3c318d1ae6"
 }
