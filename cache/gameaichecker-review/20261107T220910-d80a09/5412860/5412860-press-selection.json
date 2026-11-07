@@ -1,0 +1,47 @@
+{
+ "appId": "5412860",
+ "results": [
+  {
+   "url": "https://gameaicheck.com/game/5412860/farmer-s-daily",
+   "relevant": true,
+   "reason": "GameAICheck 本作条目页逐字转录开发者披露全文（Music/Code/Art 三行）并给出该站概述，已读取全文；概述属第三方判定，不采用。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5412860/",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4767920/Friendly_Fire/?snr=1_1056_4_1056_curator-tabs&curator_clanid=45519015",
+   "relevant": false,
+   "reason": "其他作品的商店页，检索误命中“Farmer/Friendly”。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/4767920/Friendly_Fire/",
+   "relevant": false,
+   "reason": "其他作品的商店页，重复结果。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5412860",
+   "sourceType": "press",
+   "url": "https://gameaicheck.com/game/5412860/farmer-s-daily",
+   "fetchedAt": "2026-11-07T13:13:44.745704+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "GameAICheck 本作条目页：披露全文的第三方逐字转录",
+   "quote": "This game uses AI tools in the following ways: Music: Composed using Suno. Code: Written and debugged with AI assistance. Art: Created with AI assistance.",
+   "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5412860\\press-0.html",
+   "contentHash": "4a82271854aac8c09ad801eee3bdeb2bc8c9ef789228637ea0c36dac194891a6"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，除聚合站条目外只有商店页与误命中的其他作品页面。",
+  "未检索到独立媒体报道本作的 AI 争议；这不代表开发者未使用 AI，判定以商店披露原文为准。",
+  "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

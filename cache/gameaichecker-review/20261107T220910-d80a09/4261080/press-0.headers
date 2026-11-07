@@ -1,0 +1,16 @@
+HTTP/2 200 
+date: Sat, 07 Nov 2026 13:13:42 GMT
+content-type: text/html; charset=utf-8
+x-content-type-options: nosniff
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OkkJ%2F8Mp9cR0YR9gMwAafxbLxbpvXmp6X%2FwKMbRoUSCz25XRDPdYfwq4VWJlu%2FwxVj61fhUzFu718ahWsXjWYt%2Fndsqej%2B0%2FIUaryPsRAMJELY4KCyxdBwFukZ6T"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+access-control-allow-origin: *
+cache-control: public, max-age=0, must-revalidate
+content-security-policy: default-src 'self'; img-src 'self' https: data:; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; style-src 'self' 'sha256-smq3ey9P2Yti+poNbyD8Ubg2b2HmAi4jgIJJFl9AMkY='; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+permissions-policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+referrer-policy: strict-origin-when-cross-origin
+server: cloudflare
+cf-cache-status: DYNAMIC
+cf-ray: a56c98c4b99c9459-SJC
+alt-svc: h3=":443"; ma=86400
+

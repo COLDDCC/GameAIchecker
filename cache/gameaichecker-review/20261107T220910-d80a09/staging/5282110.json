@@ -1,0 +1,83 @@
+{
+  "appId": "5282110",
+  "name": "中国式高考ChineseGaokao‌",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "高考养成模拟，2026 年 10 月 17 日上架，泽宇众达与 YangShuai 开发并发行，分类为休闲／角色扮演／模拟：以每周学习循环推演中国高中三年，用 QTE 玩法巩固知识点熟练度，攒下的分数用来从技能池抽卡，抽到最稀有的红色技能会显著提升学习效率，每日末课做总结并给出各科评级。商店 AI 披露把代码、贴图、场景、模型、音效与文本列为“均由 Unity AI 工具生成”。本站据此把代码、美术、音乐与撰写登记为已使用；音效归入音乐而非配音已在说明中写明，配音、翻译与宣传素材因披露没有点名而登记为未说明；原文还以“等其他内容”收尾，未点名的部分不推测归类。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "code",
+    "art",
+    "music",
+    "writing"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "used",
+    "art": "used",
+    "music": "used",
+    "voice": "not_stated",
+    "writing": "used",
+    "translation": "not_stated",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "披露把“code”列入“均由 Unity AI 工具生成”的清单，代码登记为已使用；原文用了“all”，这一全面程度属开发者自述，本站未做验证。",
+    "art": "披露把“textures, scenes, models”（贴图、场景、模型）列入同一清单，三项均属视觉资产，美术登记为已使用。",
+    "music": "披露把“sound effects”（音效）列入同一清单，音效归入音乐领域；开发者没有单列配乐或配音，配音仍按未说明处理，这一归并说明在此写明。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "披露把“text”（文本）列入同一清单，撰写登记为已使用。",
+    "translation": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "code": "official",
+    "art": "official",
+    "music": "official",
+    "writing": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5282110/",
+  "developer": "泽宇众达, YangShuai",
+  "publisher": "YangShuai, 泽宇众达",
+  "steamReleaseDate": "Oct 17, 2026",
+  "genres": [
+    "Casual",
+    "RPG",
+    "Simulation"
+  ],
+  "reviewedAt": "2026-11-07",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5282110/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-07",
+      "excerpt": "The code, textures, scenes, models, sound effects, text, and other content in this game are all generated using the Unity AI tool"
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5282110/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-07",
+      "excerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断，为一句清单式表述且句末无标点）与身份（开发者与发行方为泽宇众达、YangShuai，正式版，2026 年 10 月 17 日）；英文讨论区在取证时可见主题为 0、总数为 0，中文讨论区本次未取证。公开报道单独检索 2 次，原始响应分别存档为 press-search.json 与 press-search.b.json，批次证据结构只登记第一次，另一次在此说明：第一次命中两条开发者在 Steam 商店发布的官方公告（多语言版，属官方渠道而非第三方报道，本次未抓取正文，判定不依赖它）、一条 steamdb.info 更新日志页（经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读）、一条高考志愿填报工具站、一篇网易号行业综述（已抓取并读取全文，通篇讨论 AI 生成游戏占比，未点名本作）与一条纯 http 链接的行业报道（证据闸门只接受 https 来源）。第二次的中文检索命中发售日历与多个博彩／登录推广类垃圾页，均与本作无关，未抓取。两次都没有可登记的第三方来源；未检索到报道不能证明披露之外没有 AI 用途，判定只以商店披露原文为准。",
+  "disclosureQuote": "The code, textures, scenes, models, sound effects, text, and other content in this game are all generated using the Unity AI tool",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-07 核查；可能随商店页更新。",
+  "english": {
+    "summary": "A gaokao life simulation released on Oct 17, 2026, developed and published by the studio listed on the store under a Chinese name, Zeyu Zhongda, together with YangShuai, and filed under Casual, RPG and Simulation, where weekly study sessions replay three years of Chinese senior high school, quick time events raise mastery of each knowledge point, the points you earn pay for a skill pool draw, the rarest red skill boosts learning efficiency and each school day ends with a subject by subject rating. The Steam AI disclosure states that the code, textures, scenes, models, sound effects, text and other content of this game are all generated using the Unity AI tool. This site records code, art, music and writing as used, files sound effects under music because no voice work is named, keeps the trailing phrase other content as unassignable instead of guessing further areas, and leaves live generation, voice, translation and marketing not addressed. No third party source was found in either of two searches, and every finding rests on the developer own statement without independent audit, including how complete the word all really is.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, one list style sentence with no closing punctuation, plus the identity of the Chinese named studio and YangShuai as developer and publisher on a full release dated Oct 17, 2026. The English discussion board shows 0 visible topics out of 0 in total and the Chinese board was not sampled. Two separate web searches were run and archived as press-search.json and press-search.b.json, with only the first registered in the batch evidence structure and the second explained here. The first search returned two localised copies of the developer own Steam announcements, which are an official channel rather than third party reporting and were not fetched because the judgement does not rely on them, a steamdb.info patch notes page that answered HTTP 403 through the GitHub Actions relay, a gaokao application tool site, one NetEase industry article that was fetched and read in full and never names this game, and one plain http industry report the evidence gate rejects. The second, Chinese language search returned a release calendar and several gambling style spam pages unrelated to this game, none fetched. Neither search yielded a registerable source, which does not prove there is no AI use beyond the disclosure, so the judgement rests on the store text alone.",
+    "aiAreaNotes": {
+      "ingame": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "code": "The disclosure puts code in the list described as all generated with the Unity AI tool, so code is recorded as used on that self statement alone.",
+      "art": "Textures, scenes and models are named in the same list, so art is recorded as used with these three grouped as visual assets.",
+      "music": "Sound effects are named and filed under music; no soundtrack or voice work is mentioned, so voice stays not addressed and this mapping is stated openly.",
+      "voice": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "writing": "Text is named in the same list, so writing is recorded as used.",
+      "translation": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "marketing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill."
+    },
+    "sourceRecordHash": "655beda61d0ec123826a630d8d47424979ecc7554534fd9173336477f26d2af5"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "appId": "5326250",
+  "name": "Guild Master",
+  "category": "official_ai_disclosure",
+  "verification": "steam_developer_self_disclosure",
+  "summary": "老派公会经营 RPG，2026 年 10 月 27 日上架，Recoil Mojo 开发并发行，分类横跨冒险／休闲／独立／角色扮演／模拟／策略：招人、采矿、烹饪、耕种、战斗与探索，可以让一个英雄去采集、另一个守锻造台、第三个出门探险，剩下的人继续执行你安排的工作，也能与朋友一起走更远的路。商店 AI 披露只有一句话，点名本作的美术与本地化使用生成式 AI 开发。本站据此把美术与翻译登记为已使用，其余六个领域（含游戏运行）因披露没有点名而登记为未说明。第三方转录页面文本与商店一致，其分领域等级不采纳。所有结论只有开发者自述支撑，未经独立审计。",
+  "aiUsageCategories": [
+    "art",
+    "translation"
+  ],
+  "aiAreas": {
+    "ingame": "not_stated",
+    "code": "not_stated",
+    "art": "used",
+    "music": "not_stated",
+    "voice": "not_stated",
+    "writing": "not_stated",
+    "translation": "used",
+    "marketing": "not_stated"
+  },
+  "aiAreaNotes": {
+    "ingame": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "code": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "art": "披露点名“artwork”由生成式 AI 开发，美术登记为已使用；原文没有说明涉及哪些素材类别与比例。",
+    "music": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "voice": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "writing": "本次官方披露未明确说明此领域；不能据此认定未使用。",
+    "translation": "同一句把“localization”（本地化）与美术并列，翻译登记为已使用。",
+    "marketing": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+  },
+  "aiAreaSources": {
+    "art": "official",
+    "translation": "official"
+  },
+  "steamUrl": "https://store.steampowered.com/app/5326250/",
+  "developer": "Recoil Mojo",
+  "publisher": "Mojo Games",
+  "steamReleaseDate": "Oct 27, 2026",
+  "genres": [
+    "Adventure",
+    "Casual",
+    "Indie",
+    "RPG",
+    "Simulation",
+    "Strategy"
+  ],
+  "reviewedAt": "2026-11-07",
+  "sources": [
+    {
+      "type": "official_disclosure",
+      "url": "https://store.steampowered.com/app/5326250/?l=english",
+      "label": "Steam 商店完整 AI 披露",
+      "date": "2026-11-07",
+      "excerpt": "Guild Master features artwork and localization developed with generative AI."
+    },
+    {
+      "type": "steam_page",
+      "url": "https://steamcommunity.com/app/5326250/discussions/?l=english",
+      "label": "Steam 讨论区首页核查",
+      "date": "2026-11-07",
+      "excerpt": "英文讨论区首页显示 4 个主题（总数 4）；仅覆盖首页。"
+    },
+    {
+      "type": "third_party",
+      "url": "https://howmuchai.games/game/guild-master",
+      "label": "HowMuchAI 本作条目页：披露原文的第三方逐字转录",
+      "date": "2026-11-07",
+      "excerpt": "Guild Master features artwork and localization developed with generative AI."
+    }
+  ],
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断，仅一句并列两个领域）与身份（开发与发行均为 Recoil Mojo，正式版，2026 年 10 月 27 日）；英文讨论区首页可见 4 个主题、总数 4，为开发者公告与热修复说明（新增五种语言、无障碍与协作更新、锻造菜单修复），另有一条标题为「Not EA?」的主题在问抢先体验归属，与 AI 无关。公开报道单独检索 1 次（原始响应存档 press-search.json，4 条结果），登记并读取 1 条来源：HowMuchAI 的本作条目页，其转录的披露原文与商店一致，该站的分领域等级属第三方自动判断，本站不采纳。另有一条 GameAICheck 的开发者统计页（自称该开发者 23 款作品全部有 AI 披露）已抓取并读取全文，但它是开发者级汇总而非本作披露原文转录，故不登记为本作来源；其余两条是商店页（已有官方取证）与 GameFAQs 字母索引页。同一开发者多款作品使用句式完全相同的披露文本，本站仍逐款独立取证与判断，不做批量套用。",
+  "disclosureQuote": "Guild Master features artwork and localization developed with generative AI.",
+  "disclosureQuoteNote": "Steam 商店 AI 生成内容披露栏完整原文，2026-11-07 核查；可能随商店页更新。",
+  "english": {
+    "summary": "An old school guild management RPG released on Oct 27, 2026, developed and published by Recoil Mojo and filed across Adventure, Casual, Indie, RPG, Simulation and Strategy, where you gather, craft, farm, fight, loot and explore, send one hero to gather, another to the forge and a third out exploring while the rest keep working, alone or with friends. The Steam AI disclosure is a single sentence naming artwork and localization as developed with generative AI. This site records art and translation as used, and leaves live generation, code, music, voice, writing and marketing not addressed because the disclosure never names them. The aggregator transcription matches the store text and its own area grades are not adopted, and although several titles from the same developer reuse this exact sentence, this page was evidenced and judged on its own.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, one sentence naming two areas, plus the identity with Recoil Mojo as both developer and publisher on a full release dated Oct 27, 2026. The English discussion board shows 4 visible topics out of 4 in total, developer announcements about five new languages, accessibility and co op work and a forge menu hotfix, plus one thread titled Not EA? about early access status, none of them about AI. One dedicated web search was run, archived as press-search.json with 4 results, and one source was registered and read in full, the HowMuchAI entry page for this game, whose transcription matches the store text while its part by part grades are automatic third party judgements this site does not adopt. A GameAICheck developer statistics page claiming that all 23 titles from this developer disclose AI use was also fetched and read in full but is a developer level summary rather than a transcription of this disclosure, so it is not registered as a source; the remaining results were the store page already covered by the official evidence and a GameFAQs letter index. The judgement rests on the store text alone, with every finding backed only by the developer statement without independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "code": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "art": "The disclosure names artwork as developed with generative AI, so art is recorded as used without asset categories or shares being specified.",
+      "music": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "voice": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "writing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "translation": "The same sentence pairs localization with the artwork, so translation is recorded as used.",
+      "marketing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill."
+    },
+    "sourceRecordHash": "6a35fc5cc207384e5f4f3e4798a29dc78479c8197942fcdf7fd34afda9551e86"
+  }
+}

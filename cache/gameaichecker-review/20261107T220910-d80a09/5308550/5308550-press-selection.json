@@ -1,0 +1,57 @@
+{
+ "appId": "5308550",
+ "results": [
+  {
+   "url": "https://howmuchai.games/game/tsukumo-snap",
+   "relevant": true,
+   "reason": "HowMuchAI 本作条目页逐字转录开发者披露全文（programming/visual assets/other creative elements），已读取全文；分领域等级不采用。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5308550/Tsukumo_SNAP/?l=schinese&snr=1_7_7_151_150_283873",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gameaicheck.com/developer/isekai-games",
+   "relevant": false,
+   "reason": "已抓取并读取全文：该发行方的披露统计页（自称 20 款作品全部有 AI 披露），为开发者级汇总而非本作披露原文，故不登记为本作来源。"
+  },
+  {
+   "url": "https://steamaifilter.xyz/ai-games/code",
+   "relevant": false,
+   "reason": "按领域（代码）筛选的清单页，只含本作一行条目，不转录披露原文。"
+  },
+  {
+   "url": "https://www.indiedb.com/games/tsukumo-snap/news/tsukumo-snap-joins-steam-next-fest-play-the-free-demo",
+   "relevant": false,
+   "reason": "经中转抓取返回 HTTP 403，正文不可读（已抓取核对）；从标题看为 Next Fest 试玩情报，与 AI 披露无关。"
+  },
+  {
+   "url": "https://www.moddb.com/games/tsukumo-snap",
+   "relevant": false,
+   "reason": "ModDB 作品资料页，未抓取；该站不转录 Steam 的 AI 披露字段。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5308550",
+   "sourceType": "press",
+   "url": "https://howmuchai.games/game/tsukumo-snap",
+   "fetchedAt": "2026-11-07T13:13:53.514797+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "HowMuchAI 本作条目页：披露全文的第三方逐字转录",
+   "quote": "AI was used during development to assist with programming, visual assets, and other creative elements.",
+   "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5308550\\press-0.html",
+   "contentHash": "2f6537ef8461bf9114f44323bba8044b7f2889c1636161306a54222ce120cde0"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，命中一个转录站、开发者统计页与筛选清单页，未见独立媒体报道。",
+  "披露把最后一点笼统写作“other creative elements”，无法归入具体领域，本站不据此推断音乐/配音/翻译等领域使用 AI。",
+  "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

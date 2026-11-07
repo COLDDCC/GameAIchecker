@@ -1,0 +1,64 @@
+{
+  "identityName": "Farmer's Daily",
+  "identityDeveloper": " HuntForge",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "used",
+      "note": "披露写明代码在 AI 协助下编写与调试，代码登记为已使用。",
+      "quote": "Code: Written and debugged with AI assistance.",
+      "evidenceId": "store"
+    },
+    "art": {
+      "state": "used",
+      "note": "披露写明美术在 AI 协助下创作，登记为已使用；原文没有说明涉及哪些具体素材类别。",
+      "quote": "Art: Created with AI assistance.",
+      "evidenceId": "store"
+    },
+    "music": {
+      "state": "used",
+      "note": "披露按领域分行，写明配乐以 AI 音乐生成工具 Suno 作曲，音乐登记为已使用。",
+      "quote": "Music: Composed using Suno.",
+      "evidenceId": "store"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "disclosureQuote": "This game uses AI tools in the following ways: Music: Composed using Suno. Code: Written and debugged with AI assistance. Art: Created with AI assistance. All AI-assisted content was reviewed, edited, and finalized by the developer.",
+  "aiScopeUnspecified": false,
+  "summary": "农场题材生存 roguelite，2026 年 10 月 27 日上架，HuntForge 开发并发行，分类为动作／休闲／独立：种什么就变成什么，25 种作物各自藏着一种能力、收割越多升级越多，作物气味会引来怪物，30 把自动攻击的农具就是武器。商店 AI 披露按领域列了三项：配乐用 Suno 作曲、代码在 AI 协助下编写与调试、美术在 AI 协助下创作，并称所有 AI 协助内容都经开发者审阅、编辑与定稿。本站据此把音乐、代码与美术登记为已使用，其余五个领域因披露没有点名而登记为未说明；披露没有交代运行期是否生成内容，因此游戏运行同样登记为未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断，按 Music／Code／Art 分行）与身份（开发与发行均为 HuntForge，正式版，2026 年 10 月 27 日）；英文讨论区在取证时可见主题为 0、总数为 0，即本作没有公开讨论主题，不存在可读的社区争议。公开报道单独检索 1 次（原始响应存档 press-search.json，4 条结果），登记并读取 1 条来源：GameAICheck 的本作条目页，其逐字转录的披露全文与商店一致，该页自带的概述与风险分级属第三方判断，本站不采纳。其余三条里一条是商店页（已有官方取证）、两条是检索误命中的其他作品页面。未检索到独立媒体报道；披露中“全部经开发者审阅编辑定稿”的说法无法核对，本站保留原文限定，所有结论只有开发者自述支撑，未经独立审计。",
+  "description": "田里种的就是你的 Build：25 种作物各自藏着一种能力，越收割越强，但气味会把怪物引过来；30 把自动攻击的农具当武器，每一局换一套搭配。",
+  "english": {
+    "summary": "A farming survivor roguelite released on Oct 27, 2026, developed and published by HuntForge and filed under Action, Casual and Indie, where the crops you plant and harvest decide what kind of farmer each run makes you, 25 crops each hide one ability that levels up with harvesting, their scent draws monsters in, and 30 auto attacking farm tools are your weapons. The Steam AI disclosure lists three areas, music composed with Suno, code written and debugged with AI assistance and art created with AI assistance, and adds that all AI assisted content was reviewed, edited and finalised by the developer. This site records music, code and art as used, keeps the reviewed and edited wording as an unverified self statement, and leaves the other five areas not addressed, including live generation, because the disclosure never says whether anything is generated while playing. Every finding rests on the developer own statement without independent audit.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, laid out in Music, Code and Art lines and not truncated, plus the identity with HuntForge as both developer and publisher on a full release dated Oct 27, 2026. The English discussion board shows 0 visible topics out of 0 in total, so this title has no public threads and no community dispute could be read. One dedicated web search was run, archived as press-search.json with 4 results, and one source was registered and read in full, the GameAICheck entry page for this game, whose verbatim transcription matches the store text while its own summary and risk grade are third party judgements this site does not adopt. Of the remaining results one was the store page already covered by the official evidence and two were other games caught by the query. No independent reporting was found, and the claim that everything was reviewed and edited by the developer cannot be checked, so all findings rest on the developer own statement without independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "code": "The disclosure lists code as written and debugged with AI assistance, so code is recorded as used.",
+      "art": "The disclosure lists art as created with AI assistance without naming which assets, so art is recorded as used with that scope limit kept.",
+      "music": "The disclosure lists music as composed with Suno, an AI music generation tool, so music is recorded as used.",
+      "voice": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "writing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "translation": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "marketing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill."
+    }
+  }
+}

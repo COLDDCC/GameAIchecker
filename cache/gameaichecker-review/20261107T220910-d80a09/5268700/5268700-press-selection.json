@@ -1,0 +1,41 @@
+{
+ "appId": "5268700",
+ "results": [
+  {
+   "url": "https://www.reddit.com/r/Steam/comments/1xasfwf/we_need_a_report_function_for_games_with_ai/",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=XzSclyZoi4c",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  },
+  {
+   "url": "https://blog.promise.legal/ai-game-assets-copyright-steam-disclosure-2026/",
+   "relevant": false,
+   "reason": "泛论 Steam AI 素材合规的法律博客，未点名本作。"
+  },
+  {
+   "url": "https://www.facebook.com/Nukelanta/posts/if-ya-didnt-know-steam-has-a-mandatory-ai-disclosure/1408306904634903/",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  },
+  {
+   "url": "https://store.steampowered.com/news/group/4145017/view/3862463747997849618",
+   "relevant": false,
+   "reason": "Steam 官方关于 AI 内容的平台说明，属平台规则文件，不是本作的第三方报道。"
+  },
+  {
+   "url": "https://steamcommunity.com/app/2987350/discussions/0/561358251644466094/",
+   "relevant": false,
+   "reason": "其他作品的讨论帖。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "本作共进行两次独立检索，原始响应分别存档为 press-search.json 与 press-search.b.json；批次证据结构只登记一次检索，另一份在此说明。",
+  "press-search.b.json 命中的 steamdb.info 页面经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读（已抓取核对）；其余结果为商店多语言页与销量统计站（games-stats、SteamSpy），不转录披露原文。",
+  "未检索到任何第三方对本作 AI 披露的报道或讨论；这不能证明商店披露之外的 AI 用途，判定只以商店披露原文为准。"
+ ]
+}

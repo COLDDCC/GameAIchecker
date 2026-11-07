@@ -1,0 +1,47 @@
+{
+ "appId": "5326250",
+ "results": [
+  {
+   "url": "https://howmuchai.games/game/guild-master",
+   "relevant": true,
+   "reason": "HowMuchAI 本作条目页逐字转录开发者披露原文，已读取全文；该站分领域等级不采用。"
+  },
+  {
+   "url": "https://gameaicheck.com/developer/recoil-mojo",
+   "relevant": false,
+   "reason": "已抓取并读取全文：该开发者的披露统计页（自称 23 款作品全部有 AI 披露），是开发者级汇总而非本作披露原文转录，故不登记为本作来源。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5326250/Guild_Master/",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gamefaqs.gamespot.com/sitemap/game/pc/G/",
+   "relevant": false,
+   "reason": "GameFAQs 的字母索引页，不含本作内容。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5326250",
+   "sourceType": "press",
+   "url": "https://howmuchai.games/game/guild-master",
+   "fetchedAt": "2026-11-07T13:13:49.682694+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "HowMuchAI 本作条目页：披露原文的第三方逐字转录",
+   "quote": "Guild Master features artwork and localization developed with generative AI.",
+   "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5326250\\press-0.html",
+   "contentHash": "76be1fe9b0299c6b344647a0a90bc821fcf6ae9a62e1c2c298edd700db26bff2"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，命中一个转录站与一个开发者级统计页，未见独立媒体报道或社区争议帖。",
+  "同一开发者（Recoil Mojo）多款作品使用句式完全相同的披露文本，本站仍逐款独立取证与判断，不做批量套用。",
+  "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

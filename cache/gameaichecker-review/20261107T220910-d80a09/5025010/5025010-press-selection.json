@@ -1,0 +1,57 @@
+{
+ "appId": "5025010",
+ "results": [
+  {
+   "url": "https://howmuchai.games/game/farm-to-fortune",
+   "relevant": true,
+   "reason": "HowMuchAI 本作条目页逐字转录开发者披露原文，已读取全文；该站的“按部件”分级为自有判断，不采用。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5025010/Farm_to_Fortune/",
+   "relevant": false,
+   "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+  },
+  {
+   "url": "https://gamedb.ai/",
+   "relevant": false,
+   "reason": "聚合站首页，不含本作条目正文。"
+  },
+  {
+   "url": "https://games-stats.com/steam/?developer=high-level%2F1000&page=5874",
+   "relevant": false,
+   "reason": "开发者销量分页清单，与本作 AI 披露无关，未抓取。"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5128060/Farm_to_Fortune_Supporter_Pack/",
+   "relevant": false,
+   "reason": "本作的 DLC 支持包页面，非本体。"
+  },
+  {
+   "url": "https://ku.gamersky.com/release/pc_202610/",
+   "relevant": false,
+   "reason": "游民星空 2026 年 10 月发售日历清单页，不含本作披露原文。"
+  }
+ ],
+ "sources": [
+  {
+   "id": "press-0",
+   "appId": "5025010",
+   "sourceType": "press",
+   "url": "https://howmuchai.games/game/farm-to-fortune",
+   "fetchedAt": "2026-11-07T13:13:43.913588+00:00",
+   "httpStatus": 200,
+   "language": "english",
+   "readStatus": "complete",
+   "locator": "full article text",
+   "label": "HowMuchAI 本作条目页：披露原文的第三方逐字转录",
+   "quote": "AI tools were used in the creation of this game.",
+   "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5025010\\press-0.html",
+   "contentHash": "a49a8b7cfa0e0e847bdd47868bec1864bacae5f983f326a2fdda5fb7f32e69d3"
+  }
+ ],
+ "coverageLimits": [
+  "检索范围限于本次 WebSearch 返回结果，除一个转录站外只有商店页、DLC 页与销量/发售清单页。",
+  "开发者披露只写到“开发过程中使用了 AI 工具”，未点名任何具体领域，因此八领域全部登记为未说明，并设置范围未指明标记。",
+  "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+ ]
+}

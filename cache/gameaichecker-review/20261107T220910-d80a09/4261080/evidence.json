@@ -1,0 +1,214 @@
+{
+  "sources": [
+    {
+      "appId": "4261080",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4261080/?l=english",
+      "fetchedAt": "2026-11-07T13:09:32.070208+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "e1283253ac37ebba1cb376606fd5f1126584eb4f620fdd0278914e1df7ea9ebe",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\4261080\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "This game includes some AI-generated content: character illustrations.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "This game includes some AI-generated content: character illustrations."
+    },
+    {
+      "appId": "4261080",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/4261080/discussions/?l=english",
+      "fetchedAt": "2026-11-07T13:09:33.261253+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "6fb2fc0e707246e4908af0726759fe56414a3571f2b43b41d0334d366ce30502",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\4261080\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "魔界狩猎怎么过啊？根本打不过\nCannot Run In Background While Using The Auto Battle Mode? [SOLVED]\nCreate our own character?\n\"If only I could’ve played as a healer...\"\nWhat is the best, Epic or legendary ? The colors confuse me\n史诗英雄的技能怎么更换啊\n最多只能升到12级吗，已经通关魔界了，还是12级\n魔界狩獵 團隊配置請益\n英雄新技能不會自動施放問題\nshows demo in bought version\nHERO STUCK LVL 12\n卡关了怎么办\nSeriously only 10 Epic Heroes?\n德鲁伊天赋：自然感知\n天賦成就問題",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 15 个主题（总数 40）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "4261080",
+      "sourceType": "press",
+      "url": "https://genplay.gg/games/expedition-of-the-guild/",
+      "fetchedAt": "2026-11-07T13:13:42.091292+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GenPlay.gg 本作条目页：披露原文的第三方逐字转录",
+      "quote": "This game includes some AI-generated content: character illustrations.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\4261080\\press-0.html",
+      "contentHash": "bea1082da451cf5465f408cd38b74d4bcc8ef0f78c8a0d2321133090cb269335"
+    },
+    {
+      "id": "press-1",
+      "appId": "4261080",
+      "sourceType": "press",
+      "url": "https://steamaifilter.xyz/game/4261080-expedition-of-the-guild",
+      "fetchedAt": "2026-11-07T13:13:42.739829+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "Steam AI Filter 本作条目页：披露原文的另一路逐字转录",
+      "quote": "This game includes some AI-generated content: character illustrations.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\4261080\\press-1.html",
+      "contentHash": "ca9b966f6a387a381192f93bd492174c8df5fbf90baefde678afaab8a72f5921"
+    }
+  ],
+  "identity": {
+    "appId": "4261080",
+    "name": "Expedition of the Guild",
+    "developer": "Chubby Meow Game",
+    "publisher": "Gamersky Games",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 30, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "RPG"
+    ],
+    "description": "Lead your guild into epic raid battles! Recruit heroes from different classes, build your own team, and challenge powerful bosses with unique mechanics. Unlock talent trees, collect endgame gear, and grow from a small squad into the strongest guild. Relive the golden age of MMORPGs!",
+    "identityEvidence": {
+      "appId": "4261080",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4261080&l=english",
+      "fetchedAt": "2026-11-07T13:09:32.627377+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "f20ef328131aab993218f81d322afb6be33dd7be0fd00f259976ce829fc25d77",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\4261080\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 15,
+    "totalTopics": 40,
+    "topics": [
+      {
+        "title": "魔界狩猎怎么过啊？根本打不过",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924517973834004/"
+      },
+      {
+        "title": "Cannot Run In Background While Using The Auto Battle Mode? [SOLVED]",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924411208725128/"
+      },
+      {
+        "title": "Create our own character?",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924517973738570/"
+      },
+      {
+        "title": "\"If only I could’ve played as a healer...\"",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924099166121749/"
+      },
+      {
+        "title": "What is the best, Epic or legendary ? The colors confuse me",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924411208693737/"
+      },
+      {
+        "title": "史诗英雄的技能怎么更换啊",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924099166364392/"
+      },
+      {
+        "title": "最多只能升到12级吗，已经通关魔界了，还是12级",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924099166147196/"
+      },
+      {
+        "title": "魔界狩獵 團隊配置請益",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924411208663404/"
+      },
+      {
+        "title": "英雄新技能不會自動施放問題",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924411208680915/"
+      },
+      {
+        "title": "shows demo in bought version",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924099166386472/"
+      },
+      {
+        "title": "HERO STUCK LVL 12",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924099166179725/"
+      },
+      {
+        "title": "卡关了怎么办",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565923773630719187/"
+      },
+      {
+        "title": "Seriously only 10 Epic Heroes?",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924099166151732/"
+      },
+      {
+        "title": "德鲁伊天赋：自然感知",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924099166275786/"
+      },
+      {
+        "title": "天賦成就問題",
+        "url": "https://steamcommunity.com/app/4261080/discussions/0/565924099166159812/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Expedition of the Guild\" Steam AI generated content disclosure",
+    "searchedAt": "2026-11-07T13:11:00+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://genplay.gg/games/expedition-of-the-guild/",
+        "relevant": true,
+        "reason": "GenPlay.gg 本作条目页逐字转录开发者披露原文（FAQ 结构化数据内引用），已读取全文，用于核对商店披露未被截断。"
+      },
+      {
+        "url": "https://steamaifilter.xyz/game/4261080-expedition-of-the-guild",
+        "relevant": true,
+        "reason": "Steam AI Filter 本作条目页同样逐字转录披露原文，已读取全文；该站自有的分领域标注不采用。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4261080/%E9%81%A0%E5%BE%81%E5%85%AC%E6%9C%83?snr=1_100755_100755_",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gameaicheck.com/lists/new-releases-with-ai",
+        "relevant": false,
+        "reason": "含本作一行的新作清单页，不是本作披露原文转录。"
+      },
+      {
+        "url": "https://steamaifilter.xyz/game/5338720-guild-of-souls",
+        "relevant": false,
+        "reason": "其他作品的条目页。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4817140/%E9%81%A0%E5%BE%81%E5%85%AC%E6%9C%83_%E8%A9%A6%E7%8E%A9%E7%89%88/?snr=1_300_morelikev2__tab-DemoGames_1",
+        "relevant": false,
+        "reason": "本作试玩版页面，试玩版不作新增收录。"
+      }
+    ],
+    "readUrls": [
+      "https://genplay.gg/games/expedition-of-the-guild/",
+      "https://steamaifilter.xyz/game/4261080-expedition-of-the-guild"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回的公开结果；商店页与讨论区已有官方取证，不重复登记。",
+      "两个转录站均给出与商店一致的披露原文，未发现独立媒体报道或社区争议帖。",
+      "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\4261080\\press-search.json",
+    "contentHash": "915b393b64f3d25908fdb7ff50714599006ac997384205d15a5961765c8e26e7"
+  }
+}

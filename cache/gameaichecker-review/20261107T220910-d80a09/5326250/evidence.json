@@ -1,0 +1,148 @@
+{
+  "sources": [
+    {
+      "appId": "5326250",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5326250/?l=english",
+      "fetchedAt": "2026-11-07T13:09:45.742544+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "912f14070064ef195f82717f24c4e2e455c46659308498ae5b71958db8665ca3",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5326250\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Guild Master features artwork and localization developed with generative AI.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Guild Master features artwork and localization developed with generative AI."
+    },
+    {
+      "appId": "5326250",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5326250/discussions/?l=english",
+      "fetchedAt": "2026-11-07T13:09:47.065681+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "0f22632dc7fed50f5252cec8780ae0101ed1028e1535b7c6f05c534847b7539a",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5326250\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Five New Languages & Guidance That Keeps Going — 0.15.1\nAccessibility, Comfort & Co-op Update\nHotfix: Forge Menus & Recipe Navigation\nNot EA?",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 4 个主题（总数 4）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5326250",
+      "sourceType": "press",
+      "url": "https://howmuchai.games/game/guild-master",
+      "fetchedAt": "2026-11-07T13:13:49.682694+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "HowMuchAI 本作条目页：披露原文的第三方逐字转录",
+      "quote": "Guild Master features artwork and localization developed with generative AI.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5326250\\press-0.html",
+      "contentHash": "76be1fe9b0299c6b344647a0a90bc821fcf6ae9a62e1c2c298edd700db26bff2"
+    }
+  ],
+  "identity": {
+    "appId": "5326250",
+    "name": "Guild Master",
+    "developer": "Recoil Mojo",
+    "publisher": "Mojo Games",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 27, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Casual",
+      "Indie",
+      "RPG",
+      "Simulation",
+      "Strategy"
+    ],
+    "description": "An old-school RPG where you run the whole guild solo or with friends. Gather, craft, farm, fight, loot and explore with a growing crew. Switch heroes while the others keep working, turn shared supplies into better gear, and prepare your adventurers to face a deadly fire-breathing dragon.",
+    "identityEvidence": {
+      "appId": "5326250",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5326250&l=english",
+      "fetchedAt": "2026-11-07T13:09:46.434345+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "4c5fa1055025aa96bcb4c6d2026266fe69830e7602efce9da9c4f931730ab7d9",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5326250\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 4,
+    "totalTopics": 4,
+    "topics": [
+      {
+        "title": "Five New Languages & Guidance That Keeps Going — 0.15.1",
+        "url": "https://steamcommunity.com/app/5326250/discussions/0/564798468972881686/"
+      },
+      {
+        "title": "Accessibility, Comfort & Co-op Update",
+        "url": "https://steamcommunity.com/app/5326250/discussions/0/564798191048907569/"
+      },
+      {
+        "title": "Hotfix: Forge Menus & Recipe Navigation",
+        "url": "https://steamcommunity.com/app/5326250/discussions/0/564797873721682516/"
+      },
+      {
+        "title": "Not EA?",
+        "url": "https://steamcommunity.com/app/5326250/discussions/0/564797873721449333/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Guild Master\" \"Recoil Mojo\" Steam AI generated artwork localization",
+    "searchedAt": "2026-11-07T13:14:30+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://howmuchai.games/game/guild-master",
+        "relevant": true,
+        "reason": "HowMuchAI 本作条目页逐字转录开发者披露原文，已读取全文；该站分领域等级不采用。"
+      },
+      {
+        "url": "https://gameaicheck.com/developer/recoil-mojo",
+        "relevant": false,
+        "reason": "已抓取并读取全文：该开发者的披露统计页（自称 23 款作品全部有 AI 披露），是开发者级汇总而非本作披露原文转录，故不登记为本作来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5326250/Guild_Master/",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/sitemap/game/pc/G/",
+        "relevant": false,
+        "reason": "GameFAQs 的字母索引页，不含本作内容。"
+      }
+    ],
+    "readUrls": [
+      "https://howmuchai.games/game/guild-master"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，命中一个转录站与一个开发者级统计页，未见独立媒体报道或社区争议帖。",
+      "同一开发者（Recoil Mojo）多款作品使用句式完全相同的披露文本，本站仍逐款独立取证与判断，不做批量套用。",
+      "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5326250\\press-search.json",
+    "contentHash": "e8200ccdd5fe322ceea9cab0de27e42e966cd221c51544f9a05c23f05590a116"
+  }
+}

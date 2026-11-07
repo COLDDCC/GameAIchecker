@@ -1,0 +1,138 @@
+{
+  "sources": [
+    {
+      "appId": "5308550",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5308550/?l=english",
+      "fetchedAt": "2026-11-07T13:09:49.665124+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "5637be8f03aaa97002ada9504028898aa7d7be5f7a3eb12811b0979b7625e1fd",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5308550\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "This game contains content created with the assistance of AI tools. AI was used during development to assist with programming, visual assets, and other creative elements. All generated content was reviewed, edited, and integrated by the dev.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "This game contains content created with the assistance of AI tools. AI was used during development to assist with programming, visual assets, and other creative elements. All generated content was reviewed, edited, and integrated by the dev."
+    },
+    {
+      "appId": "5308550",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5308550/discussions/?l=english",
+      "fetchedAt": "2026-11-07T13:09:50.815830+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "4e123f1d404704b1eacd46d20f9f87c2c5e767dfcebb8ce585e48649278e25ea",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5308550\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5308550",
+      "sourceType": "press",
+      "url": "https://howmuchai.games/game/tsukumo-snap",
+      "fetchedAt": "2026-11-07T13:13:53.514797+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "HowMuchAI 本作条目页：披露全文的第三方逐字转录",
+      "quote": "AI was used during development to assist with programming, visual assets, and other creative elements.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5308550\\press-0.html",
+      "contentHash": "2f6537ef8461bf9114f44323bba8044b7f2889c1636161306a54222ce120cde0"
+    }
+  ],
+  "identity": {
+    "appId": "5308550",
+    "name": "Tsukumo SNAP!",
+    "developer": "ISEKAI Games",
+    "publisher": "ISEKAI Games",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 27, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Adventure",
+      "Indie",
+      "RPG"
+    ],
+    "description": "Every forgotten thing grows a soul. Photograph them with your grandma's ancient flip phone, befriend 161 spirits, and spin them into battle. A comedy monster-collecting RPG in a Japanese town that changes with the real calendar.",
+    "identityEvidence": {
+      "appId": "5308550",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5308550&l=english",
+      "fetchedAt": "2026-11-07T13:09:50.204202+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "ab836aff79004042729c7d70db3d999fea87f86ad31c9dd086856c4a4a6a52ca",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5308550\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 0,
+    "totalTopics": 0,
+    "topics": [],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Tsukumo SNAP!\" ISEKAI Games Steam AI generated content",
+    "searchedAt": "2026-11-07T13:14:50+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://howmuchai.games/game/tsukumo-snap",
+        "relevant": true,
+        "reason": "HowMuchAI 本作条目页逐字转录开发者披露全文（programming/visual assets/other creative elements），已读取全文；分领域等级不采用。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5308550/Tsukumo_SNAP/?l=schinese&snr=1_7_7_151_150_283873",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://gameaicheck.com/developer/isekai-games",
+        "relevant": false,
+        "reason": "已抓取并读取全文：该发行方的披露统计页（自称 20 款作品全部有 AI 披露），为开发者级汇总而非本作披露原文，故不登记为本作来源。"
+      },
+      {
+        "url": "https://steamaifilter.xyz/ai-games/code",
+        "relevant": false,
+        "reason": "按领域（代码）筛选的清单页，只含本作一行条目，不转录披露原文。"
+      },
+      {
+        "url": "https://www.indiedb.com/games/tsukumo-snap/news/tsukumo-snap-joins-steam-next-fest-play-the-free-demo",
+        "relevant": false,
+        "reason": "经中转抓取返回 HTTP 403，正文不可读（已抓取核对）；从标题看为 Next Fest 试玩情报，与 AI 披露无关。"
+      },
+      {
+        "url": "https://www.moddb.com/games/tsukumo-snap",
+        "relevant": false,
+        "reason": "ModDB 作品资料页，未抓取；该站不转录 Steam 的 AI 披露字段。"
+      }
+    ],
+    "readUrls": [
+      "https://howmuchai.games/game/tsukumo-snap"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，命中一个转录站、开发者统计页与筛选清单页，未见独立媒体报道。",
+      "披露把最后一点笼统写作“other creative elements”，无法归入具体领域，本站不据此推断音乐/配音/翻译等领域使用 AI。",
+      "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5308550\\press-search.json",
+    "contentHash": "d07eb15dd55ec88e77bab466320ee0b4b5923dee26c8b22f83fa3b4ccd3540ab"
+  }
+}

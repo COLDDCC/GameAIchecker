@@ -1,0 +1,62 @@
+{
+  "identityName": "Guild Master",
+  "identityDeveloper": "Recoil Mojo",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "code": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "art": {
+      "state": "used",
+      "note": "披露点名“artwork”由生成式 AI 开发，美术登记为已使用；原文没有说明涉及哪些素材类别与比例。",
+      "quote": "Guild Master features artwork and localization developed with generative AI.",
+      "evidenceId": "store"
+    },
+    "music": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "translation": {
+      "state": "used",
+      "note": "同一句把“localization”（本地化）与美术并列，翻译登记为已使用。",
+      "quote": "Guild Master features artwork and localization developed with generative AI.",
+      "evidenceId": "store"
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "disclosureQuote": "Guild Master features artwork and localization developed with generative AI.",
+  "aiScopeUnspecified": false,
+  "summary": "老派公会经营 RPG，2026 年 10 月 27 日上架，Recoil Mojo 开发并发行，分类横跨冒险／休闲／独立／角色扮演／模拟／策略：招人、采矿、烹饪、耕种、战斗与探索，可以让一个英雄去采集、另一个守锻造台、第三个出门探险，剩下的人继续执行你安排的工作，也能与朋友一起走更远的路。商店 AI 披露只有一句话，点名本作的美术与本地化使用生成式 AI 开发。本站据此把美术与翻译登记为已使用，其余六个领域（含游戏运行）因披露没有点名而登记为未说明。第三方转录页面文本与商店一致，其分领域等级不采纳。所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断，仅一句并列两个领域）与身份（开发与发行均为 Recoil Mojo，正式版，2026 年 10 月 27 日）；英文讨论区首页可见 4 个主题、总数 4，为开发者公告与热修复说明（新增五种语言、无障碍与协作更新、锻造菜单修复），另有一条标题为「Not EA?」的主题在问抢先体验归属，与 AI 无关。公开报道单独检索 1 次（原始响应存档 press-search.json，4 条结果），登记并读取 1 条来源：HowMuchAI 的本作条目页，其转录的披露原文与商店一致，该站的分领域等级属第三方自动判断，本站不采纳。另有一条 GameAICheck 的开发者统计页（自称该开发者 23 款作品全部有 AI 披露）已抓取并读取全文，但它是开发者级汇总而非本作披露原文转录，故不登记为本作来源；其余两条是商店页（已有官方取证）与 GameFAQs 字母索引页。同一开发者多款作品使用句式完全相同的披露文本，本站仍逐款独立取证与判断，不做批量套用。",
+  "description": "老派公会养成 RPG：招人、采矿、做饭、耕种、探索，一个英雄去采集、另一个守锻造台、第三个出门冒险，也能拉上朋友一起走更远的路。",
+  "english": {
+    "summary": "An old school guild management RPG released on Oct 27, 2026, developed and published by Recoil Mojo and filed across Adventure, Casual, Indie, RPG, Simulation and Strategy, where you gather, craft, farm, fight, loot and explore, send one hero to gather, another to the forge and a third out exploring while the rest keep working, alone or with friends. The Steam AI disclosure is a single sentence naming artwork and localization as developed with generative AI. This site records art and translation as used, and leaves live generation, code, music, voice, writing and marketing not addressed because the disclosure never names them. The aggregator transcription matches the store text and its own area grades are not adopted, and although several titles from the same developer reuse this exact sentence, this page was evidenced and judged on its own.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, one sentence naming two areas, plus the identity with Recoil Mojo as both developer and publisher on a full release dated Oct 27, 2026. The English discussion board shows 4 visible topics out of 4 in total, developer announcements about five new languages, accessibility and co op work and a forge menu hotfix, plus one thread titled Not EA? about early access status, none of them about AI. One dedicated web search was run, archived as press-search.json with 4 results, and one source was registered and read in full, the HowMuchAI entry page for this game, whose transcription matches the store text while its part by part grades are automatic third party judgements this site does not adopt. A GameAICheck developer statistics page claiming that all 23 titles from this developer disclose AI use was also fetched and read in full but is a developer level summary rather than a transcription of this disclosure, so it is not registered as a source; the remaining results were the store page already covered by the official evidence and a GameFAQs letter index. The judgement rests on the store text alone, with every finding backed only by the developer statement without independent audit.",
+    "aiAreaNotes": {
+      "ingame": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "code": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "art": "The disclosure names artwork as developed with generative AI, so art is recorded as used without asset categories or shares being specified.",
+      "music": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "voice": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "writing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "translation": "The same sentence pairs localization with the artwork, so translation is recorded as used.",
+      "marketing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill."
+    }
+  }
+}

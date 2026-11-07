@@ -1,0 +1,128 @@
+{
+  "sources": [
+    {
+      "appId": "5412860",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5412860/?l=english",
+      "fetchedAt": "2026-11-07T13:09:38.179903+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "45520306c5995a62cd993f18e3ad248189376db104366311d0be4345eaa1b838",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5412860\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "This game uses AI tools in the following ways: Music: Composed using Suno. Code: Written and debugged with AI assistance. Art: Created with AI assistance. All AI-assisted content was reviewed, edited, and finalized by the developer.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "This game uses AI tools in the following ways: Music: Composed using Suno. Code: Written and debugged with AI assistance. Art: Created with AI assistance. All AI-assisted content was reviewed, edited, and finalized by the developer."
+    },
+    {
+      "appId": "5412860",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5412860/discussions/?l=english",
+      "fetchedAt": "2026-11-07T13:09:39.402090+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "0a537ebf51e83545e8b5923456f5410f98139e8d429cc268c3b6cbf44d375f43",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5412860\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5412860",
+      "sourceType": "press",
+      "url": "https://gameaicheck.com/game/5412860/farmer-s-daily",
+      "fetchedAt": "2026-11-07T13:13:44.745704+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GameAICheck 本作条目页：披露全文的第三方逐字转录",
+      "quote": "This game uses AI tools in the following ways: Music: Composed using Suno. Code: Written and debugged with AI assistance. Art: Created with AI assistance.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5412860\\press-0.html",
+      "contentHash": "4a82271854aac8c09ad801eee3bdeb2bc8c9ef789228637ea0c36dac194891a6"
+    }
+  ],
+  "identity": {
+    "appId": "5412860",
+    "name": "Farmer's Daily",
+    "developer": " HuntForge",
+    "publisher": " HuntForge",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 27, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Casual",
+      "Indie"
+    ],
+    "description": "What you grow is who you become. Each of the 25 crops hides an ability that grows with every harvest, and what to plant is up to you. Farm for 30 minutes while auto-attacking tools hold off the swarms, and survive three bosses. All the art is drawn by code, hence the odd look. We know.",
+    "identityEvidence": {
+      "appId": "5412860",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5412860&l=english",
+      "fetchedAt": "2026-11-07T13:09:38.781126+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "8e62acfce74430c5b5728470ab4a0a983baa20cc48354a5ec9f79a01f3b0d201",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5412860\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 0,
+    "totalTopics": 0,
+    "topics": [],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Farmer's Daily\" HuntForge Steam AI disclosure Suno",
+    "searchedAt": "2026-11-07T13:12:10+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://gameaicheck.com/game/5412860/farmer-s-daily",
+        "relevant": true,
+        "reason": "GameAICheck 本作条目页逐字转录开发者披露全文（Music/Code/Art 三行）并给出该站概述，已读取全文；概述属第三方判定，不采用。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5412860/",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4767920/Friendly_Fire/?snr=1_1056_4_1056_curator-tabs&curator_clanid=45519015",
+        "relevant": false,
+        "reason": "其他作品的商店页，检索误命中“Farmer/Friendly”。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4767920/Friendly_Fire/",
+        "relevant": false,
+        "reason": "其他作品的商店页，重复结果。"
+      }
+    ],
+    "readUrls": [
+      "https://gameaicheck.com/game/5412860/farmer-s-daily"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，除聚合站条目外只有商店页与误命中的其他作品页面。",
+      "未检索到独立媒体报道本作的 AI 争议；这不代表开发者未使用 AI，判定以商店披露原文为准。",
+      "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5412860\\press-search.json",
+    "contentHash": "bf8e0e0d0e2827eb1a6b721e3f43c6d6fbd8a52ffc7eb2746d31f036837684b4"
+  }
+}

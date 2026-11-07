@@ -1,0 +1,158 @@
+{
+  "sources": [
+    {
+      "appId": "5398650",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5398650/?l=english",
+      "fetchedAt": "2026-11-07T13:09:40.169009+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "28cace025a1472dde98605cb26d298492ce1a366febecc9851eed31ce04a3dd9",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5398650\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI Generated Content Disclosure The developers of LIGHT IT provide the following disclosure regarding the use of AI tools in the creation of this game. All AI-assisted content is pre-generated; the game does not generate any AI content live during gameplay. Music: The in-game music was produced using Suno, an AI music-generation tool. Art: Some visual assets were created with the assistance of AI image-generation tools. Code: AI assistants were used to help brainstorm implementation ideas and to assist with debugging. All AI-assisted content and code was reviewed, tested, and refined by the developer before being included in the final game.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI Generated Content Disclosure The developers of LIGHT IT provide the following disclosure regarding the use of AI tools in the creation of this game. All AI-assisted content is pre-generated; the game does not generate any AI content live during gameplay. Music: The in-game music was produced using Suno, an AI music-generation tool. Art: Some visual assets were created with the assistance of AI image-generation tools. Code: AI assistants were used to help brainstorm implementation ideas and to assist with debugging. All AI-assisted content and code was reviewed, tested, and refined by the developer before being included in the final game."
+    },
+    {
+      "appId": "5398650",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5398650/discussions/?l=english",
+      "fetchedAt": "2026-11-07T13:09:41.369691+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "0aeeebe2ae475874896c6996f59e6afe80f6ca7ea8d497344fd411414c8b6e92",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5398650\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Suggestion for a quality of life update.",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 1 个主题（总数 1）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5398650",
+      "sourceType": "press",
+      "url": "https://gamedb.ai/games/5398650-trace-it",
+      "fetchedAt": "2026-11-07T13:13:45.534822+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GameDB.ai 本作条目页：披露全文的第三方逐字转录",
+      "quote": "All AI-assisted content is pre-generated; the game does not generate any AI content live during gameplay.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5398650\\press-0.html",
+      "contentHash": "65d04e915aa3c8c38fb34defd1566f1afd5cea712dfe7f736a97f12aeefe9339"
+    },
+    {
+      "id": "press-1",
+      "appId": "5398650",
+      "sourceType": "press",
+      "url": "https://howmuchai.games/game/trace-it",
+      "fetchedAt": "2026-11-07T13:13:46.316728+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "HowMuchAI 本作条目页：披露全文的另一路逐字转录",
+      "quote": "Music: The in-game music was produced using Suno, an AI music-generation tool.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5398650\\press-1.html",
+      "contentHash": "9377b01e3e10bf62e754c7e3b613a37fa332ec98fedfa46a2dcbbd1119e9e7b7"
+    }
+  ],
+  "identity": {
+    "appId": "5398650",
+    "name": "TRACE IT",
+    "developer": " HuntForge",
+    "publisher": " HuntForge",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 25, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie"
+    ],
+    "description": "A cozy paper-style train-track logic puzzle. Use the row and column numbers to lay one railway from entrance to exit; every level has exactly one solution. 500 levels plus Endless, Relax and Daily modes. Finish the line and watch the little train roll out.",
+    "identityEvidence": {
+      "appId": "5398650",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5398650&l=english",
+      "fetchedAt": "2026-11-07T13:09:40.725963+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "21ab39d7d9d20fc4cede37b2b18867050d15d1a165f3a0fb0e5e37578ef00418",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5398650\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 1,
+    "totalTopics": 1,
+    "topics": [
+      {
+        "title": "Suggestion for a quality of life update.",
+        "url": "https://steamcommunity.com/app/5398650/discussions/0/563671642447021705/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"TRACE IT\" Light IT Steam AI generated content disclosure Suno",
+    "searchedAt": "2026-11-07T13:14:00+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://gamedb.ai/games/5398650-trace-it",
+        "relevant": true,
+        "reason": "GameDB.ai 本作条目页把披露全文（含“运行期不生成 AI 内容”一句）转录在 Next.js 数据里，已读取全文，用于核对商店披露未被截断。"
+      },
+      {
+        "url": "https://howmuchai.games/game/trace-it",
+        "relevant": true,
+        "reason": "HowMuchAI 本作条目页同样逐字转录披露全文，已读取全文；该站的分领域等级不采用。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/4951480/LIGHT_IT/?l=indonesian&snr=1_1056_4_18_1059&curator_clanid=46130797",
+        "relevant": false,
+        "reason": "另一款同名相近的作品页面（LIGHT IT），不是本作；本作披露文本里出现的 LIGHT IT 是发行方名称。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5398650/TRACE_IT/?l=hungarian&curator_clanid=4777282&utm_source=SteamDB",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://techlandscaping.ezassi.com/affiliation/deviantart-6293309/all/",
+        "relevant": false,
+        "reason": "与本作无关的机构人员画像聚合页。"
+      },
+      {
+        "url": "https://conference.pixel-online.net/files/foe/ed0016/Conference%20Proceedings.pdf",
+        "relevant": false,
+        "reason": "与本作无关的教育会议论文集 PDF。"
+      }
+    ],
+    "readUrls": [
+      "https://gamedb.ai/games/5398650-trace-it",
+      "https://howmuchai.games/game/trace-it"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，命中两个披露转录站与若干无关页面，未见独立媒体报道。",
+      "披露正文以“The developers of LIGHT IT”自称，而商店记录的开发者为 HuntForge、LIGHT IT 为发行方；本站按商店披露原文判定，并在结论中保留这一称谓差异。",
+      "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5398650\\press-search.json",
+    "contentHash": "bd570e3528b3cc88c7f892da9afa36ba5974cf025a3c60afa326ebb1c8f01282"
+  }
+}

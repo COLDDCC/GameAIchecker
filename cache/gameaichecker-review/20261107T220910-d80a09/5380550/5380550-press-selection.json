@@ -1,0 +1,41 @@
+{
+ "appId": "5380550",
+ "results": [
+  {
+   "url": "https://www.reddit.com/r/Steam/comments/1xlexwi/almost_half_of_the_games_released_on_steam_in/",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=XzSclyZoi4c",
+   "relevant": false,
+   "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+  },
+  {
+   "url": "https://blog.promise.legal/ai-game-assets-copyright-steam-disclosure-2026/",
+   "relevant": false,
+   "reason": "泛论 Steam AI 素材合规的法律博客，未点名本作。"
+  },
+  {
+   "url": "https://legalmoveslawfirm.com/steam-ai-policy/",
+   "relevant": false,
+   "reason": "律所撰写的 Steam AI 政策综述，未点名本作。"
+  },
+  {
+   "url": "https://jumbojelly.com/glossary/ai-disclosure/",
+   "relevant": false,
+   "reason": "术语解释页，未点名本作。"
+  },
+  {
+   "url": "https://www.steampageanalyzer.com/blog/steam-ai-disclosure-what-developers-wrote",
+   "relevant": false,
+   "reason": "对 Steam 披露文本的批量统计分析，未点名本作。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "本作共进行两次独立检索，原始响应分别存档为 press-search.json 与 press-search.b.json；批次证据结构只登记一次检索，另一份在此说明。",
+  "press-search.b.json 命中的开发者官网 dpanic.com 已抓取并读取全文：页面介绍玩法与媒体素材，通篇未提及生成式 AI，因此不构成本作 AI 用途的来源；steamdb.info 的更新日志页经中转抓取返回 HTTP 403，正文不可读；其余为本体商店页多语言版与销量估算站。",
+  "未检索到第三方对本作 AI 披露的报道或讨论；判定只以商店披露原文为准。"
+ ]
+}

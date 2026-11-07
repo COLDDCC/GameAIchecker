@@ -1,0 +1,121 @@
+{
+  "sources": [
+    {
+      "appId": "5268700",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5268700/?l=english",
+      "fetchedAt": "2026-11-07T13:09:42.083448+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "3645f2045599307c4a2d642a661bbb7585d24bf12be58c62f5ff9f924292abef",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5268700\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "Generative AI tools were used throughout development: the game's code and its in-game text, the paintings, achievement icons and interface art, the 3D models, and the music and sound effects. Everything was reviewed, edited and tested, and ships as fixed content. Nothing is generated while you play: the game runs no model and makes no network call.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "Generative AI tools were used throughout development: the game's code and its in-game text, the paintings, achievement icons and interface art, the 3D models, and the music and sound effects. Everything was reviewed, edited and tested, and ships as fixed content. Nothing is generated while you play: the game runs no model and makes no network call."
+    },
+    {
+      "appId": "5268700",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5268700/discussions/?l=english",
+      "fetchedAt": "2026-11-07T13:09:43.258517+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "b383ecc506641ce3ad1ef60559419a343d3b16b433539e6d73f1e415e8695a3e",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5268700\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "identity": {
+    "appId": "5268700",
+    "name": "Bressnath",
+    "developer": "Morass",
+    "publisher": "Morass Games",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 4, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Indie",
+      "Simulation",
+      "Strategy"
+    ],
+    "description": "Refound a holding in the drowned Vreldsath fens. Nothing regrows, every load is carried home by hand, and what crawls out of the Sundered Places comes without warning. Push outward, dig up the ruins, hold the line, and win by laying a causeway across water that swallowed every attempt before yours.",
+    "identityEvidence": {
+      "appId": "5268700",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5268700&l=english",
+      "fetchedAt": "2026-11-07T13:09:42.643830+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "0ff2cfdddde196c61e1294246a7ffa87d2e6911f41b08cfa1173774b88310264",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5268700\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 0,
+    "totalTopics": 0,
+    "topics": [],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "Bressnath Steam game AI generated content disclosure Morass",
+    "searchedAt": "2026-11-07T13:14:10+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://www.reddit.com/r/Steam/comments/1xasfwf/we_need_a_report_function_for_games_with_ai/",
+        "relevant": false,
+        "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=XzSclyZoi4c",
+        "relevant": false,
+        "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+      },
+      {
+        "url": "https://blog.promise.legal/ai-game-assets-copyright-steam-disclosure-2026/",
+        "relevant": false,
+        "reason": "泛论 Steam AI 素材合规的法律博客，未点名本作。"
+      },
+      {
+        "url": "https://www.facebook.com/Nukelanta/posts/if-ya-didnt-know-steam-has-a-mandatory-ai-disclosure/1408306904634903/",
+        "relevant": false,
+        "reason": "需要登录或平台渲染，抓取中转无法读取正文，不能核对内容。"
+      },
+      {
+        "url": "https://store.steampowered.com/news/group/4145017/view/3862463747997849618",
+        "relevant": false,
+        "reason": "Steam 官方关于 AI 内容的平台说明，属平台规则文件，不是本作的第三方报道。"
+      },
+      {
+        "url": "https://steamcommunity.com/app/2987350/discussions/0/561358251644466094/",
+        "relevant": false,
+        "reason": "其他作品的讨论帖。"
+      }
+    ],
+    "readUrls": [],
+    "coverageLimits": [
+      "本作共进行两次独立检索，原始响应分别存档为 press-search.json 与 press-search.b.json；批次证据结构只登记一次检索，另一份在此说明。",
+      "press-search.b.json 命中的 steamdb.info 页面经 GitHub Actions 中转抓取返回 HTTP 403，正文不可读（已抓取核对）；其余结果为商店多语言页与销量统计站（games-stats、SteamSpy），不转录披露原文。",
+      "未检索到任何第三方对本作 AI 披露的报道或讨论；这不能证明商店披露之外的 AI 用途，判定只以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5268700\\press-search.json",
+    "contentHash": "acebce46207a406ae5d022534b351f9c5a67df60705c573ddb779984e0c9104d"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "identityName": "Bressnath",
+  "identityDeveloper": "Morass",
+  "category": "official_ai_disclosure",
+  "areas": {
+    "ingame": {
+      "state": "none",
+      "note": "披露单独一句说明运行时不调用模型、不发起网络请求，内容全部以固定素材随游戏分发，因此游戏运行登记为明确声明未使用。",
+      "quote": "Nothing is generated while you play: the game runs no model and makes no network call.",
+      "evidenceId": "store"
+    },
+    "code": {
+      "state": "used",
+      "note": "披露把“the game's code”列入生成式 AI 贯穿开发的使用范围，代码登记为已使用；原文称“throughout development”，未量化具体比例。",
+      "quote": "the game's code",
+      "evidenceId": "store"
+    },
+    "art": {
+      "state": "used",
+      "note": "披露点名“插画、成就图标与界面美术、3D 模型”，美术登记为已使用；成就图标虽显示在 Steam 侧，仍按开发者写进素材清单的原样归入美术，宣传素材另按未说明处理。",
+      "quote": "the paintings, achievement icons and interface art, the 3D models",
+      "evidenceId": "store"
+    },
+    "music": {
+      "state": "used",
+      "note": "披露点名“the music and sound effects”，配乐与音效都登记在音乐领域；开发者没有单列配音，配音仍按未说明处理，这一归并说明在此写明。",
+      "quote": "the music and sound effects",
+      "evidenceId": "store"
+    },
+    "voice": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "writing": {
+      "state": "used",
+      "note": "同一句把“its in-game text”（游戏内文本）列入清单，撰写登记为已使用。",
+      "quote": "its in-game text",
+      "evidenceId": "store"
+    },
+    "translation": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    },
+    "marketing": {
+      "state": "not_stated",
+      "note": "本次官方披露未明确说明此领域；不能据此认定未使用。"
+    }
+  },
+  "disclosureQuote": "Generative AI tools were used throughout development: the game's code and its in-game text, the paintings, achievement icons and interface art, the 3D models, and the music and sound effects. Everything was reviewed, edited and tested, and ships as fixed content. Nothing is generated while you play: the game runs no model and makes no network call.",
+  "aiScopeUnspecified": false,
+  "summary": "泥沼拓荒经营策略，2026 年 10 月 4 日上架，Morass 开发并发行，分类为独立／模拟／策略：带一批村民来到 Vreldsath 沼泽的半淹庄园，木材、石脉与渔池都会采空且不长回来，只能靠村民徒步搬运向外扩张，找出路也惹上新邻居。商店 AI 披露把生成式 AI 的使用列成清单：代码与游戏内文本、插画、成就图标与界面美术、3D 模型、配乐与音效，并单独声明一切内容都经审阅、编辑与测试后作为固定素材入库，运行时不加载模型、不发起网络请求。本站据此把代码、撰写、美术与音乐登记为已使用、游戏运行登记为明确声明未使用；音效归入音乐而非配音已在说明中写明，配音、翻译与宣传素材因披露没有点名而登记为未说明。所有结论只有开发者自述支撑，未经独立审计。",
+  "reviewNote": "核查英文商店页完整 AI 披露栏（未被截断，含素材清单与运行期否定句）与身份（开发者 Morass，正式版，2026 年 10 月 4 日）；英文讨论区在取证时可见主题为 0、总数为 0，即本作没有公开讨论主题，不存在可读的社区争议。公开报道单独检索 2 次，原始响应分别存档为 press-search.json 与 press-search.b.json，批次证据结构只登记第一次，另一次在此说明：第一次命中的都是泛论 Steam AI 政策与合规的页面（Reddit、YouTube 与 Facebook 需登录或前端渲染，两篇法律博客与一条 Steam 平台规则公告均未点名本作），没有本作来源；第二次的 steamdb.info 页面经 GitHub Actions 中转抓取返回 HTTP 403、正文不可读，其余为本体商店页多语言版与 games-stats、SteamSpy 销量统计页，不转录披露原文。两次检索均未登记任何第三方来源，这不能证明商店披露之外的 AI 用途，判定只以商店披露原文为准；成就图标按开发者原清单归入美术，未另行推断为宣传素材。",
+  "description": "泽国没有回报：带村民抵达半淹的沼泽庄园，木材、石脉与渔池采空就不再生，只有搬运与外扩是活路，去更好的地、惹更坏的邻居。",
+  "english": {
+    "summary": "A fen reclamation strategy simulation released on Oct 4, 2026, developed and published by Morass and filed under Indie, Simulation and Strategy, where a handful of villagers arrive at a half drowned holding whose timber, stone and fishing pools all run dry and never grow back, so the only economy is hauling everything by foot and pushing outward onto better ground and worse neighbours. The Steam AI disclosure lists the game code and in-game text, the paintings, achievement icons and interface art, the 3D models and the music and sound effects as made with generative AI throughout development, and it states separately that everything was reviewed, edited and tested, ships as fixed content and that nothing is generated while playing because the game runs no model and makes no network call. This site records code, writing, art and music as used and live generation as explicitly ruled out, notes that sound effects are filed under music while voice is never named, keeps the achievement icons in the asset list the developer wrote instead of moving them to marketing, and leaves voice, translation and marketing not addressed. Every finding rests on the developer own statement without independent audit.",
+    "reviewNote": "Checked the complete English Steam AI disclosure block, with its asset list and its sentence ruling out live generation, plus the identity of Morass as developer on a full release dated Oct 4, 2026. The English discussion board shows 0 visible topics out of 0 in total, so this title has no public threads and no community dispute could be read. Two separate web searches were run and archived as press-search.json and press-search.b.json, and only the first is registered in the batch evidence structure with the second explained here. The first search returned only general pages about Steam AI policy and compliance, two law blog posts, a platform notice and social posts that need a signed in or scripted page, none naming this game, so no source was registered. In the second search the steamdb.info page returned HTTP 403 through the GitHub Actions relay and its text is unreadable, while the rest were localised store pages and two sales estimate sites that do not transcribe the disclosure. Neither search yielded a third party source, which does not prove there is no AI use beyond the disclosure, so the judgement rests on the store text alone.",
+    "aiAreaNotes": {
+      "ingame": "The disclosure carries its own sentence ruling out generation while playing, so live generation is recorded as explicitly not used.",
+      "code": "The disclosure puts the game code inside the scope of generative AI used throughout development, so code is recorded as used without any share being quantified.",
+      "art": "The disclosure lists paintings, achievement icons, interface art and 3D models, so art is recorded as used, with the achievement icons kept in the asset list the developer wrote instead of being reassigned to marketing.",
+      "music": "The disclosure names the music and sound effects, both recorded under music; no voice work is mentioned, so voice stays not addressed and this mapping is stated openly.",
+      "voice": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "writing": "The same sentence names the in-game text, so writing is recorded as used.",
+      "translation": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill.",
+      "marketing": "The store disclosure never names this area, so it is recorded as not addressed rather than as a clean bill."
+    }
+  }
+}

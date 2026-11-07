@@ -1,0 +1,12 @@
+HTTP/2 200 
+date: Sat, 07 Nov 2026 13:13:42 GMT
+content-type: text/html; charset=UTF-8
+cache-control: public, max-age=300, s-maxage=3600
+link: </.well-known/api-catalog>; rel="api-catalog", </llms.txt>; rel="describedby"; type="text/plain", </openapi.json>; rel="service-desc"; type="application/openapi+json"
+vary: Accept
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=FfXMdQGNKWNYa2M342FC3%2BzPbT%2BMjWr37TcGpk4zKSawF09VMR8gT25d8BvtpcQxfWLIYfmiyPef6AZKnHodO%2BZb0CPI109fVKzzw%2FJcYxaEGQFFYf71Mr%2BvXbXvQmd504hQKg%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-ray: a56c98c8cdeacf26-SJC
+alt-svc: h3=":443"; ma=86400
+

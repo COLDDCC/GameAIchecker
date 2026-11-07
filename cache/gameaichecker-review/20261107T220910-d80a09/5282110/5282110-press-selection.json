@@ -1,0 +1,41 @@
+{
+ "appId": "5282110",
+ "results": [
+  {
+   "url": "https://store.steampowered.com/news/app/5282110?l=schinese&snr=1_5_9__408",
+   "relevant": false,
+   "reason": "开发者在 Steam 商店发布的中文公告，属官方渠道而非第三方报道；本次未抓取其正文，判定不依赖它，披露原文已在商店页取证。"
+  },
+  {
+   "url": "https://steamdb.info/app/5282110/patchnotes/",
+   "relevant": false,
+   "reason": "SteamDB 更新日志聚合页，经中转抓取返回 HTTP 403，正文不可读（已抓取核对）。"
+  },
+  {
+   "url": "https://mnzy.gaokao.cn/",
+   "relevant": false,
+   "reason": "高考志愿填报工具站，与本作无关。"
+  },
+  {
+   "url": "https://store.steampowered.com/news/app/5282110?l=greek&snr=1_5_9__408",
+   "relevant": false,
+   "reason": "同一份官方公告的多语言版本，重复结果。"
+  },
+  {
+   "url": "https://www.163.com/dy/article/L9KE2CBH0556NI4X.html",
+   "relevant": false,
+   "reason": "已抓取并读取全文：网易号行业综述讨论“AI 生成游戏占比”，通篇未点名本作，不能作为本作来源。"
+  },
+  {
+   "url": "http://www.gamelook.com.cn/2026/10/603403/",
+   "relevant": false,
+   "reason": "纯 http 链接，证据闸门只接受 https 来源；该文为谷歌与 Unity 合作 AI 平台的行业报道，未点名本作。"
+  }
+ ],
+ "sources": [],
+ "coverageLimits": [
+  "本作共进行两次独立检索，原始响应分别存档为 press-search.json 与 press-search.b.json；批次证据结构只登记一次检索，另一份在此说明。",
+  "press-search.b.json 的中文检索命中游戏发售日历与多个博彩/登录推广类垃圾页，均与本作无关，未抓取；中文公开报道渠道本次未能取得可核对材料。",
+  "未检索到独立媒体报道本作的 AI 使用；这不能证明未使用 AI，判定以商店披露原文为准。"
+ ]
+}

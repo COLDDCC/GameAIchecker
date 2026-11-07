@@ -1,0 +1,190 @@
+{
+  "sources": [
+    {
+      "appId": "5354400",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5354400/?l=english",
+      "fetchedAt": "2026-11-07T13:09:47.754047+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "795b596472cf080c0da71556784fd387c0b9558b57c48f1e4208c406a14085f0",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5354400\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "I have used Claude Code to create the game itself code and assets.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "I have used Claude Code to create the game itself code and assets."
+    },
+    {
+      "appId": "5354400",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5354400/discussions/?l=english",
+      "fetchedAt": "2026-11-07T13:09:48.976421+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "5ff8afdac3952a4248bd030a60ad68fab078e6356f0c3e3e03505d59719d293a",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5354400\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "Bug for shape+sum challenge?\n求解\nProblem with capitalization in Spanish\nExtremely slow response — each cell takes around 10 seconds\nProblem with game fonts",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 5 个主题（总数 5）；仅覆盖首页。"
+    },
+    {
+      "id": "press-0",
+      "appId": "5354400",
+      "sourceType": "press",
+      "url": "https://gameaicheck.com/game/5354400/sudoku-unlimited",
+      "fetchedAt": "2026-11-07T13:13:51.239868+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "GameAICheck 本作条目页：披露原文的第三方逐字转录",
+      "quote": "I have used Claude Code to create the game itself code and assets.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5354400\\press-0.html",
+      "contentHash": "eddbd203df81b537ec1cda0b06efd11a07de59cf4dfce53d51ff1a1549ed617d"
+    },
+    {
+      "id": "press-1",
+      "appId": "5354400",
+      "sourceType": "press",
+      "url": "https://vibegamedb.com/en/games/sudoku-unlimited",
+      "fetchedAt": "2026-11-07T13:13:51.983566+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "VibeGameDB 本作条目页：披露原文转录与“Claude Code 制作”归类",
+      "quote": "I have used Claude Code to create the game itself code and assets.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5354400\\press-1.html",
+      "contentHash": "cd238fbf887df270acfc531afcbb5715a8f1840999c5a10985f4e72849ceb6b3"
+    },
+    {
+      "id": "press-2",
+      "appId": "5354400",
+      "sourceType": "press",
+      "url": "https://howmuchai.games/game/sudoku-unlimited",
+      "fetchedAt": "2026-11-07T13:13:52.759497+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "readStatus": "complete",
+      "locator": "full article text",
+      "label": "HowMuchAI 本作条目页：披露原文的另一路逐字转录",
+      "quote": "I have used Claude Code to create the game itself code and assets.",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5354400\\press-2.html",
+      "contentHash": "61f76d9e9cd3e319e2f52c320facb6ce5b32343b6ac77a163f73ec8e34efafc0"
+    }
+  ],
+  "identity": {
+    "appId": "5354400",
+    "name": "Sudoku Unlimited",
+    "developer": "Pinch Games",
+    "publisher": "Pinch Games",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 21, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "Indie"
+    ],
+    "description": "Settle into a cozy garden of Sudoku. Solve classic grids and clever variants, learn with step-by-step hints, and unlock new scenery as you play. Share a board in online co-op or keep a small puzzle beside your other apps.",
+    "identityEvidence": {
+      "appId": "5354400",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5354400&l=english",
+      "fetchedAt": "2026-11-07T13:09:48.327276+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "df777be356ccb29bfbe7ed374936889a2aa9ea0843cc8cbadf48ee33483e9eae",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5354400\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 5,
+    "totalTopics": 5,
+    "topics": [
+      {
+        "title": "Bug for shape+sum challenge?",
+        "url": "https://steamcommunity.com/app/5354400/discussions/0/574931610463477247/"
+      },
+      {
+        "title": "求解",
+        "url": "https://steamcommunity.com/app/5354400/discussions/0/574931289648521797/"
+      },
+      {
+        "title": "Problem with capitalization in Spanish",
+        "url": "https://steamcommunity.com/app/5354400/discussions/0/574930972896775497/"
+      },
+      {
+        "title": "Extremely slow response — each cell takes around 10 seconds",
+        "url": "https://steamcommunity.com/app/5354400/discussions/0/573804438794551049/"
+      },
+      {
+        "title": "Problem with game fonts",
+        "url": "https://steamcommunity.com/app/5354400/discussions/0/573804438794626047/"
+      }
+    ],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "\"Sudoku Unlimited\" \"Pinch Games\" Steam Claude Code AI",
+    "searchedAt": "2026-11-07T13:14:40+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://gameaicheck.com/game/5354400/sudoku-unlimited",
+        "relevant": true,
+        "reason": "GameAICheck 本作条目页逐字转录开发者披露原文，已读取全文；该站概述与分级属第三方判断，不采用。"
+      },
+      {
+        "url": "https://vibegamedb.com/en/games/sudoku-unlimited",
+        "relevant": true,
+        "reason": "VibeGameDB 本作条目页转录披露原文并把本作收录为“用 Claude Code 制作”的条目，已读取全文；其收录标签为该站判断。"
+      },
+      {
+        "url": "https://howmuchai.games/game/sudoku-unlimited",
+        "relevant": true,
+        "reason": "HowMuchAI 本作条目页同样逐字转录披露原文，已读取全文，用于交叉核对未被截断。"
+      },
+      {
+        "url": "https://genplay.gg/tools/claude/",
+        "relevant": false,
+        "reason": "按工具（Claude）归类的清单页，不含本作披露原文。"
+      },
+      {
+        "url": "https://store.steampowered.com/app/5354400/Sudoku_Unlimited/?l=schinese&snr=1_1056_4_1056_curator-tabs&curator_clanid=41056472",
+        "relevant": false,
+        "reason": "商店页官方披露已在 store 证据中单独取证，本条不重复登记为报道来源。"
+      },
+      {
+        "url": "https://howmuchai.games/developer/pinch-games",
+        "relevant": false,
+        "reason": "开发者级统计页，非本作披露原文转录，未抓取。"
+      }
+    ],
+    "readUrls": [
+      "https://gameaicheck.com/game/5354400/sudoku-unlimited",
+      "https://howmuchai.games/game/sudoku-unlimited",
+      "https://vibegamedb.com/en/games/sudoku-unlimited"
+    ],
+    "coverageLimits": [
+      "检索范围限于本次 WebSearch 返回结果，命中三个披露转录站与工具归类清单页，未见独立媒体报道或社区争议。",
+      "三个转录站与商店披露完全一致；开发者把素材笼统写作“assets”，未点名美术/音乐等具体领域，本站只把代码登记为已使用，其余领域登记为未说明。",
+      "第三方转录/统计站的页面正文为该站对 Steam 披露的转录或自有分级，不作为领域判定依据；判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5354400\\press-search.json",
+    "contentHash": "4cf8b3472990faf3665b0468d084dd12556267eb87f38d6f81fdd081bbbea8ed"
+  }
+}

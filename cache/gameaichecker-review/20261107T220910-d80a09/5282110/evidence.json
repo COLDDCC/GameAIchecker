@@ -1,0 +1,121 @@
+{
+  "sources": [
+    {
+      "appId": "5282110",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/5282110/?l=english",
+      "fetchedAt": "2026-11-07T13:09:43.896625+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "3deaf52b78d908c146148161b4bf6543e596129589f8cbb59e7379b0e9fb2919",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5282110\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "The code, textures, scenes, models, sound effects, text, and other content in this game are all generated using the Unity AI tool",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "The code, textures, scenes, models, sound effects, text, and other content in this game are all generated using the Unity AI tool"
+    },
+    {
+      "appId": "5282110",
+      "sourceType": "discussion",
+      "url": "https://steamcommunity.com/app/5282110/discussions/?l=english",
+      "fetchedAt": "2026-11-07T13:09:45.019950+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "b833eb4acf2db149322dd74a63c77be0ca24b0da826d1e8b998d82e8b02d8f3f",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5282110\\discussion.html",
+      "locator": "forum topics container",
+      "quote": "",
+      "id": "discussion",
+      "label": "Steam 讨论区首页核查",
+      "publicExcerpt": "英文讨论区首页显示 0 个主题（总数 0）；仅覆盖首页。"
+    }
+  ],
+  "identity": {
+    "appId": "5282110",
+    "name": "中国式高考ChineseGaokao‌",
+    "developer": "泽宇众达, YangShuai",
+    "publisher": "YangShuai, 泽宇众达",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 17, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Casual",
+      "RPG",
+      "Simulation"
+    ],
+    "description": "The core gameplay is QTE, which mainly includes learning knowledge points, acquiring learning skills, and taking exams. After 30 weeks or upon early active application, students will participate in the college entrance examination and be allocated universities and majors based on their exam scores",
+    "identityEvidence": {
+      "appId": "5282110",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=5282110&l=english",
+      "fetchedAt": "2026-11-07T13:09:44.424395+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "738fad40c727f3d4bf03da08a2c7a0db356945d371ebf63cea222ff719858785",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5282110\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  },
+  "discussion": {
+    "pagesScanned": 1,
+    "visibleTopics": 0,
+    "totalTopics": 0,
+    "topics": [],
+    "related": [],
+    "coverageLimits": [
+      "仅扫描英文讨论区首页；不代表完整历史或其他语言分区。"
+    ]
+  },
+  "press": {
+    "query": "中国式高考 ChineseGaokao Steam Unity AI 生成 披露",
+    "searchedAt": "2026-11-07T13:14:20+00:00",
+    "status": "complete",
+    "results": [
+      {
+        "url": "https://store.steampowered.com/news/app/5282110?l=schinese&snr=1_5_9__408",
+        "relevant": false,
+        "reason": "开发者在 Steam 商店发布的中文公告，属官方渠道而非第三方报道；本次未抓取其正文，判定不依赖它，披露原文已在商店页取证。"
+      },
+      {
+        "url": "https://steamdb.info/app/5282110/patchnotes/",
+        "relevant": false,
+        "reason": "SteamDB 更新日志聚合页，经中转抓取返回 HTTP 403，正文不可读（已抓取核对）。"
+      },
+      {
+        "url": "https://mnzy.gaokao.cn/",
+        "relevant": false,
+        "reason": "高考志愿填报工具站，与本作无关。"
+      },
+      {
+        "url": "https://store.steampowered.com/news/app/5282110?l=greek&snr=1_5_9__408",
+        "relevant": false,
+        "reason": "同一份官方公告的多语言版本，重复结果。"
+      },
+      {
+        "url": "https://www.163.com/dy/article/L9KE2CBH0556NI4X.html",
+        "relevant": false,
+        "reason": "已抓取并读取全文：网易号行业综述讨论“AI 生成游戏占比”，通篇未点名本作，不能作为本作来源。"
+      },
+      {
+        "url": "http://www.gamelook.com.cn/2026/10/603403/",
+        "relevant": false,
+        "reason": "纯 http 链接，证据闸门只接受 https 来源；该文为谷歌与 Unity 合作 AI 平台的行业报道，未点名本作。"
+      }
+    ],
+    "readUrls": [],
+    "coverageLimits": [
+      "本作共进行两次独立检索，原始响应分别存档为 press-search.json 与 press-search.b.json；批次证据结构只登记一次检索，另一份在此说明。",
+      "press-search.b.json 的中文检索命中游戏发售日历与多个博彩/登录推广类垃圾页，均与本作无关，未抓取；中文公开报道渠道本次未能取得可核对材料。",
+      "未检索到独立媒体报道本作的 AI 使用；这不能证明未使用 AI，判定以商店披露原文为准。"
+    ],
+    "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\5282110\\press-search.json",
+    "contentHash": "d1b11d371c4bd9df5d6593764adb2ab2bbb2871ff7bf716d8b13701d0bac9955"
+  }
+}

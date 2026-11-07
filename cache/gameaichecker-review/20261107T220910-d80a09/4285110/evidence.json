@@ -1,0 +1,50 @@
+{
+  "sources": [
+    {
+      "appId": "4285110",
+      "sourceType": "store",
+      "url": "https://store.steampowered.com/app/4285110/?l=english",
+      "fetchedAt": "2026-11-07T13:09:35.836542+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "8ef95162372b7a0c18e1b1c7eec00417c2db594227cc6c5e9ec0dfd1902004be",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\4285110\\store.html",
+      "locator": "game_area_content_descriptors / AI Generated Content Disclosure",
+      "quote": "AI was used to help creating some of the game's background images.",
+      "id": "store",
+      "disclosurePresent": true,
+      "label": "Steam 商店完整 AI 披露",
+      "publicExcerpt": "AI was used to help creating some of the game's background images."
+    }
+  ],
+  "identity": {
+    "appId": "4285110",
+    "name": "Tunnel Escape Fates Entwined",
+    "developer": "Elzee",
+    "publisher": "Saikey Studios",
+    "type": "game",
+    "verified": true,
+    "release": "Oct 2, 2026",
+    "comingSoon": false,
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "description": "Fight through a zombie-ravaged city as Olivenia, a daring cop on an escort mission in this rogue-lite RPG/ADV. Use various weapons and upgrade your gear to survive brutal gunplay and deadly encounters where every choice counts. Fail, and very bad things might happen to you…",
+    "identityEvidence": {
+      "appId": "4285110",
+      "sourceType": "identity",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4285110&l=english",
+      "fetchedAt": "2026-11-07T13:09:36.435295+00:00",
+      "httpStatus": 200,
+      "language": "english",
+      "contentHash": "da9f02e9c3378c2acc91b3f980fb160a98e44b41ca1f2b8185e97b6eb4f9adea",
+      "readStatus": "complete",
+      "cachePath": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\4285110\\appdetails.json",
+      "locator": "full response",
+      "quote": ""
+    }
+  }
+}
