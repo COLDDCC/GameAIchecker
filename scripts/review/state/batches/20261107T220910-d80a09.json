@@ -4,7 +4,7 @@
   "requestedCount": 10,
   "baseSha": "7face8bd58d9cf3855b089215518fd7f8eda4559",
   "policyVersion": "2026-10-27-demand-en-v2",
-  "phase": "media_ready",
+  "phase": "deployed",
   "createdAt": "2026-11-07T13:09:10.315225+00:00",
   "oldHashes": {
     "1222140": "22d45ef65168159dd7bbf7b30ea90de18453ba764c2f56d96904aa2a8844aab6",
@@ -674,10 +674,87 @@
       },
       "bytes": 26213547,
       "verifiedRemoteSha": "cd63499216d0bc081d471ae8701bed3c318d1ae6"
-    }
+    },
+    "ci": {
+      "Astro build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42378003226",
+      "Validate game detail build": "https://github.com/COLDDCC/GameAIchecker/actions/runs/42378003135"
+    },
+    "production": {
+      "sha": "3a686fba711cb9aea34b0e3b3d3be3a7e4ea8970",
+      "checkUrl": "https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/ce9726c3-c50c-4262-aff9-59a3277b1228",
+      "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>3a686fb</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://ce9726c3.gameaichecker.pages.dev'>https://ce9726c3.gameaichecker.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/affe4bb6a36f88781689357f3aa65ea0/pages/view/gameaichecker/ce9726c3-c50c-4262-aff9-59a3277b1228)\n",
+      "checkedAt": "2026-11-07T13:42:32.181810+00:00"
+    },
+    "onlineImages": {
+      "responses": 351,
+      "cache": ".cache\\gameaichecker-review\\20261107T220910-d80a09\\online-images-3a686fba711cb9aea34b0e3b3d3be3a7e4ea8970.json"
+    },
+    "online": [
+      {
+        "appId": "4261080",
+        "url": "https://gameaichecker.com/games/4261080-expedition-of-the-guild/",
+        "checkedAt": "2026-11-07T13:42:34.608822+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5025010",
+        "url": "https://gameaichecker.com/games/5025010-farm-to-fortune/",
+        "checkedAt": "2026-11-07T13:42:37.633068+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5412860",
+        "url": "https://gameaichecker.com/games/5412860-farmer-s-daily/",
+        "checkedAt": "2026-11-07T13:42:39.171196+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5398650",
+        "url": "https://gameaichecker.com/games/5398650-trace-it/",
+        "checkedAt": "2026-11-07T13:42:40.866532+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5268700",
+        "url": "https://gameaichecker.com/games/5268700-bressnath/",
+        "checkedAt": "2026-11-07T13:42:43.422103+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5282110",
+        "url": "https://gameaichecker.com/games/5282110-chinesegaokao/",
+        "checkedAt": "2026-11-07T13:42:46.021438+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5326250",
+        "url": "https://gameaichecker.com/games/5326250-guild-master/",
+        "checkedAt": "2026-11-07T13:42:47.714203+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5354400",
+        "url": "https://gameaichecker.com/games/5354400-sudoku-unlimited/",
+        "checkedAt": "2026-11-07T13:42:51.287381+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5308550",
+        "url": "https://gameaichecker.com/games/5308550-tsukumo-snap/",
+        "checkedAt": "2026-11-07T13:42:53.919037+00:00",
+        "status": "passed"
+      },
+      {
+        "appId": "5380550",
+        "url": "https://gameaichecker.com/games/5380550-dropanic/",
+        "checkedAt": "2026-11-07T13:42:56.319357+00:00",
+        "status": "passed"
+      }
+    ]
   },
   "publishShas": {
-    "media": "7cd319e8c8f8ec5bba8705d344a2ba6a7a5d4a28"
+    "media": "7cd319e8c8f8ec5bba8705d344a2ba6a7a5d4a28",
+    "site": "3a686fba711cb9aea34b0e3b3d3be3a7e4ea8970"
   },
   "attempts": 11,
   "maxAttempts": 30,
@@ -704,5 +781,6 @@
   ],
   "applyBase": "7face8bd58d9cf3855b089215518fd7f8eda4559",
   "pendingTree": "a479399563c8949ac47cb709de87c49594a8154b",
-  "siteBase": "cd63499216d0bc081d471ae8701bed3c318d1ae6"
+  "siteBase": "cd63499216d0bc081d471ae8701bed3c318d1ae6",
+  "siteTree": "9529582e85231bef89d28407b1e3aec4cfcc299a"
 }
