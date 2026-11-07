@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Puzzle Penguins on Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://store.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=YzJgj1FjzW34&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_global.css?v=74peH5tT7Gwq&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/buttons.css?v=BZhNEtESfYSJ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/store.css?v=x0q56gZkJ3LX&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/styles_linux.css?v=LcZAgwD7_TSW&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/user_reviews.css?v=4Y9yEq8NT1VV&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_game_shared.css?v=nT5MkvCFxFip&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game.css?v=Ixg3mU15sCMr&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_background_shared.css?v=QdtB2XtIVYaK&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/recommended.css?v=nYH-OD7CvrVG&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/user_reviews_rewards.css?v=nDJVyLGQ1XMI&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/apphub.css?v=ieeWyHhqrM5C&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/ui-lightness/jquery-ui-1.7.2.custom.css?v=qgq7mHqEwLbE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game_mob.css?v=CTwny5wDcEg7&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=yDhbieTgQ-uc&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=NXam5zydzNu8&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=lqbABc7pOZZC&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/main.js?v=VXExFbFD9rs7&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js?v=7IbaKUfZfESM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				$J.data( document, 'x_readytime', new Date().getTime() );
+				$J.data( document, 'x_oldref', GetNavCookie() );
+				SetupTooltips( { tooltipCSSClass: 'store_tooltip'  } );
+		});
+		</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/gamehighlightplayer.js?v=mdJgU3gDKmis&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/user_reviews.js?v=WeNgYWdq8VoL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/app_tagging.js?v=X8GLJ7ITdwu4&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/game.js?v=3ayU8zTvznsI&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.min.js?v=mSfqk1QKKgiz&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.min.js?v=MeIf0YViALgL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.min.js?v=CIECDYHJjBgN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.min.js?v=laPWW88ZIIHe&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/dselect.js?v=xOLWzo6KWkKr&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-ui-1.9.2.js?v=wxKVOzU-zSuN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Puzzle Penguins on Steam">
+					<meta property="twitter:title" content="Puzzle Penguins on Steam">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:url" content="https://store.steampowered.com/app/5232310/Puzzle_Penguins/">
+					<meta property="og:description" content="This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!">
+					<meta property="twitter:description" content="This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!">
+			
+			<link rel="canonical" href="https://store.steampowered.com/app/5232310/Puzzle_Penguins/">
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5232310/ab6854fac752a4a79f1c3c34579b0bd14c234f32/capsule_616x353.jpg?t=1792822869">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5232310/ab6854fac752a4a79f1c3c34579b0bd14c234f32/capsule_616x353.jpg?t=1792822869">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5232310/ab6854fac752a4a79f1c3c34579b0bd14c234f32/capsule_616x353.jpg?t=1792822869" />
+				
+	
+	
+	
+	
+	</head>
+<body class="v6 app game_bg menu_background_overlap application widestore v7menu responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com/login/?redir=app%2F5232310%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">
+									Sign in								</a>
+															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-responsive-menu">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-responsive-menu">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-responsive-menu">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-responsive-menu">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-responsive-menu">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-responsive-menu">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/?snr=1_5_9__global-responsive-menu" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_5_9__global-responsive-menu" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+															<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+					<div class="responsive_header_react_target" data-featuretarget="store-menu-responsive-search"><div class="responsive_header_react_placeholder"></div></div>				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/?snr=1_5_9__global-header" aria-label="Link to the Steam Homepage">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-header">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-header">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-header">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-header">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-header">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-header">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=app%2F5232310%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<div class="StoreMenuLoadingPlaceholder" data-featuretarget="store-menu-v7"><div class="PlaceholderInner"></div></div><div id="responsive_store_nav_ctn"></div><div id="responsive_store_nav_overlay" style="display:none"><div id="responsive_store_nav_overlay_ctn"></div><div id="responsive_store_nav_overlay_bottom"></div></div><div id="responsive_store_search_overlay" style="display:none"></div><div data-cart-banner-spot="1"></div>
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1794019070,&quot;PAGE_TIMESTAMP&quot;:1794056630,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1794056630,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;1_5_9_&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[3,4]}" data-hwinfo="{&quot;bSteamOS&quot;:false,&quot;bSteamDeck&quot;:false,&quot;bSteamMachine&quot;:false,&quot;bSteamFrame&quot;:false}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-store_page_asset_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/%s?t=1792822869&quot;" data-store_page_extra_assets_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/%s?t=1792822869&quot;" data-store_page_extra_assets_map="[]" data-hardwarecompatibility="{&quot;appid&quot;:5232310,&quot;resolved_category&quot;:0,&quot;resolved_items&quot;:[],&quot;steam_deck_blog_url&quot;:&quot;&quot;,&quot;search_id&quot;:null,&quot;steamos_resolved_category&quot;:0,&quot;steamos_resolved_items&quot;:[],&quot;machine_resolved_category&quot;:0,&quot;machine_resolved_items&quot;:[],&quot;frame_resolved_category&quot;:0,&quot;frame_resolved_items&quot;:[]}" data-appname="&quot;Puzzle Penguins&quot;" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:{&quot;domain&quot;:&quot;store.steampowered.com&quot;,&quot;controller&quot;:&quot;direct-navigation&quot;,&quot;method&quot;:&quot;&quot;,&quot;submethod&quot;:&quot;&quot;,&quot;feature&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;countrycode&quot;:&quot;&quot;,&quot;webkey&quot;:null,&quot;is_client&quot;:false,&quot;curator_data&quot;:null,&quot;is_likely_bot&quot;:false,&quot;is_utm&quot;:false},&quot;wishlist_item_count&quot;:0}"></div><div id="application_root"></div><script>window.g_wapit="";</script><link href="https://store.fastly.steamstatic.com/public/css/applications/store/main.css?v=WeGIkJqN9Dw8&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11214538";</script>
+<script type="module" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js?contenthash=CEU9gv_i"></script>
+<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_Languages = ["english"];
+	var g_sessionID = "e7a54354ef9c24e5881da6d9";
+	var g_ServerTime = 1794056630;
+	var g_bUseNewCartAPI = true;
+
+			$J( InitMiniprofileHovers( 'https%3A%2F%2Fstore.steampowered.com%2F' ) );
+	
+	
+	if ( typeof GStoreItemData != 'undefined' )
+	{
+		GStoreItemData.AddNavParams({
+			__page_default: "1_5_9_",
+			__page_default_obj: {"domain":"store.steampowered.com","controller":"application","method":"app","submethod":"","feature":null,"depth":null,"countrycode":"US","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":null},
+			__originating_obj: {"domain":"store.steampowered.com","controller":"direct-navigation","method":"","submethod":"","feature":"","depth":0,"countrycode":"","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":false},
+			storemenu_recommendedtags: "1_5_9__17"		});
+	}
+
+	if ( typeof GDynamicStore != 'undefined' )
+	{
+		GDynamicStore.Init(0, false, "", {"primary_language":null,"secondary_languages":null,"platform_windows":null,"platform_mac":null,"platform_linux":null,"timestamp_updated":null,"hide_store_broadcast":null,"review_score_preference":null,"timestamp_content_descriptor_preferences_updated":null,"provide_deck_feedback":null,"additional_languages":null,"game_frame_rate_reporting":null,"disable_microtrailers":null,"disable_animated_marketing":null}, 'US',
+			{"bNoDefaultDescriptors":false});
+		GStoreItemData.SetCurrencyFormatter(function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ".", ","); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + "$" + fmt( nValueInCents, bWholeUnitsOnly );});
+		GStoreItemData.SetCurrencyMinPriceIncrement(1);
+	}
+</script>
+
+<script type="text/javascript">
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"3219030":{"name":"Planet Zoo 2","url_name":"Planet_Zoo_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$49.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3219030\/d4ea06b2e49dbf8c9b3b2f96540613de960b48e1\/capsule_184x69.jpg?t=1793011606","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[26299579]},"4019220":{"name":"Dressmaker","url_name":"Dressmaker","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4019220\/7f07d1dd7a97e00694481ee7747940989dc5820c\/capsule_184x69.jpg?t=1794041965","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33033033]},"4656000":{"name":"BOMBANANA!","url_name":"BOMBANANA","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4656000\/4b28cb7e3572e7ab0ffcd6a53030b1a719ff3fff\/capsule_184x69.jpg?t=1792877964","os_windows":true,"os_macos":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45812612]},"1478500":{"name":"Big Walk","url_name":"Big_Walk","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1478500\/44da9fb07ebe477387355d7fce29560b55125cce\/capsule_184x69.jpg?t=1785911674","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[38746590,44044337]},"4001890":{"name":"How to Fish","url_name":"How_to_Fish","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4001890\/8f65bb2b78d37a9147aa79c970a51610e6955bf1\/capsule_184x69.jpg?t=1792508550","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"2929250":{"name":"over the hill","url_name":"over_the_hill","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$24.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2929250\/36a5e318291b96b49df81d3d5de731b19c094a2b\/capsule_184x69.jpg?t=1793102846","os_windows":true,"os_linux":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[33179407]},"2537590":{"name":"Microsoft Flight Simulator 2024","url_name":"Microsoft_Flight_Simulator_2024","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"6999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$69.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2537590\/c992a0851b2714fdeaa65469ba5e7b8e60c06a96\/capsule_184x69.jpg?t=1791557822","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[46221960,3090835]},"2060160":{"name":"The Farmer Was Replaced","url_name":"The_Farmer_Was_Replaced","discount_block":"<div class=\"discount_block \" data-price-final=\"699\" data-bundlediscount=\"0\" data-discount=\"30\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-30%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$9.99<\/div><div class=\"discount_final_price\">$6.99<\/div><\/div><span class=\"discount_aria_label\">30% off. $9.99 normally, discounted to $6.99<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2060160\/5a396fcccfc3d81219edaa5c6eaacfa8abb233fd\/capsule_184x69_alt_assets_2.jpg?t=1793711051","os_windows":true,"os_macos":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[44892821]},"499170":{"name":"Order of the Sinking Star","url_name":"Order_of_the_Sinking_Star","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/499170\/6932c737232e6b2ba967b37509f3d38c6e063706\/capsule_184x69.jpg?t=1793039241","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32981301,33788459]},"1190970":{"name":"House Flipper 2","url_name":"House_Flipper_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1190970\/5f4f792d0752063e04014e07708c46a6475eefc0\/capsule_184x69_alt_assets_12.jpg?t=1793838345","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[33033748,33701576]},"1118520":{"name":"Paralives","url_name":"Paralives","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1118520\/13d15d732cf142a4546bf749ef587e5e6e6acd64\/capsule_184x69.jpg?t=1793026174","os_windows":true,"os_macos":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"291550":{"name":"Brawlhalla","url_name":"Brawlhalla","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/291550\/ec3f86871c9ee6a2186a999d3a4f966f5432ec53\/capsule_184x69.jpg?t=1789564454","os_windows":true,"os_macos":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[33075774]},"2185060":{"name":"Two Point Museum","url_name":"Two_Point_Museum","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2185060\/39af5f1d2a30ca59c8b5302616183ff902322ddd\/capsule_184x69.jpg?t=1793195000","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33980359,32528477]},"703080":{"name":"Planet Zoo","url_name":"Planet_Zoo","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$44.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/703080\/capsule_184x69.jpg?t=1765896213","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[26299579]},"3727090":{"name":"Horses of Hoofprint Bay","url_name":"Horses_of_Hoofprint_Bay","discount_block":"<div class=\"discount_block \" data-price-final=\"2294\" data-bundlediscount=\"0\" data-discount=\"15\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-15%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$26.99<\/div><div class=\"discount_final_price\">$22.94<\/div><\/div><span class=\"discount_aria_label\">15% off. $26.99 normally, discounted to $22.94<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3727090\/e6f32d929aa54d405575c408eab6dc8e452bb740\/capsule_184x69.jpg?t=1793830906","os_windows":true,"os_linux":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[45827833,45827887]},"4421010":{"name":"Bills Must Be Paid","url_name":"Bills_Must_Be_Paid","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"699\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$6.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4421010\/f05b830114ae149d5c1cbdb4b80ed60a6c74dc74\/capsule_184x69.jpg?t=1793386885","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45702106]},"5228920":{"name":"Brick by Brick: Tidy Up the Small Town!","url_name":"Brick_by_Brick_Tidy_Up_the_Small_Town","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"799\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$7.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5228920\/999d76679b85624ff8d765b9f3e748073e3ee394\/capsule_184x69.jpg?t=1793912232","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45160136]},"2198150":{"name":"Tiny Glade","url_name":"Tiny_Glade","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2198150\/04e34a74d1939044b8ab95afb5144bc4fd841300\/capsule_184x69.jpg?t=1790175461","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"2968420":{"name":"PowerWash Simulator 2","url_name":"PowerWash_Simulator_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$24.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2968420\/33ef3ac597ce9813b4eb8da4eace0f5cb51869e5\/capsule_184x69.jpg?t=1793977018","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[40416158,45518879]},"4199960":{"name":"The Jackbox Party Pack 12","url_name":"The_Jackbox_Party_Pack_12","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4199960\/19b9f4ce4730f02a1b083f1bc4b104a55cfeb60d\/capsule_184x69.jpg?t=1792701225","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"2495100":{"name":"Hello Kitty Island Adventure","url_name":"Hello_Kitty_Island_Adventure","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2495100\/55b66fcd8f6ea7575c41a7e0a97e849d54eb8450\/capsule_184x69.jpg?t=1791583386","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"3375110":{"name":"Tiny Eden","url_name":"Tiny_Eden","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$14.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3375110\/9bf390fc40a97b866e5544617630516737f15821\/capsule_184x69.jpg?t=1793291904","os_windows":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45260421]},"3552140":{"name":"Retro Rewind - Video Store Simulator","url_name":"Retro_Rewind_Video_Store_Simulator","discount_block":"<div class=\"discount_block \" data-price-final=\"1393\" data-bundlediscount=\"0\" data-discount=\"30\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-30%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$19.90<\/div><div class=\"discount_final_price\">$13.93<\/div><\/div><span class=\"discount_aria_label\">30% off. $19.90 normally, discounted to $13.93<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3552140\/942cdcf14d5185e5f2f8e3999e79ab062b4aad22\/capsule_184x69.jpg?t=1793898735","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true},"1657630":{"name":"Slime Rancher 2","url_name":"Slime_Rancher_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1657630\/cc3c891a26caa1adaa7d5279e65eb69f4d40dcfe\/capsule_184x69.jpg?t=1790096620","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33030656]},"4992070":{"name":"Sort Them Ducks","url_name":"Sort_Them_Ducks","discount_block":"<div class=\"discount_block \" data-price-final=\"479\" data-bundlediscount=\"0\" data-discount=\"20\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-20%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$5.99<\/div><div class=\"discount_final_price\">$4.79<\/div><\/div><span class=\"discount_aria_label\">20% off. $5.99 normally, discounted to $4.79<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4992070\/9de1fa9f8255e9c6160cb68e29972e938dbac6dc\/capsule_184x69.jpg?t=1793916391","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[46208680]},"728880":{"name":"Overcooked! 2","url_name":"Overcooked_2","discount_block":"<div class=\"discount_block \" data-price-final=\"849\" data-bundlediscount=\"0\" data-discount=\"66\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-66%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$24.99<\/div><div class=\"discount_final_price\">$8.49<\/div><\/div><span class=\"discount_aria_label\">66% off. $24.99 normally, discounted to $8.49<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/728880\/729e5b5ce6a2c529d104a37baec5bfe555c609e1\/capsule_184x69.jpg?t=1789548883","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[34636320,32941731]},"1629520":{"name":"A Little to the Left","url_name":"A_Little_to_the_Left","discount_block":"<div class=\"discount_block \" data-price-final=\"599\" data-bundlediscount=\"0\" data-discount=\"60\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-60%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$14.99<\/div><div class=\"discount_final_price\">$5.99<\/div><\/div><span class=\"discount_aria_label\">60% off. $14.99 normally, discounted to $5.99<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1629520\/capsule_184x69.jpg?t=1791454263","os_windows":true,"os_macos":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[40548535,40103847]},"5117550":{"name":"Fart Together","url_name":"Fart_Together","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5117550\/39d9e8bd13c73e088d6df01700a52e3b2e0aa177\/capsule_184x69.jpg?t=1793273054","os_windows":true,"early_access":true,"has_live_broadcast":false,"coming_soon":true,"release_date_string":"Available: Coming soon","coming_soon_string":"Coming soon","localized":true,"localized_english":true},"322170":{"name":"Geometry Dash","url_name":"Geometry_Dash","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/322170\/capsule_184x69.jpg?t=1775300400","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"4197610":{"name":"Librarian: Tidy Up the Arcane Library!","url_name":"Librarian_Tidy_Up_the_Arcane_Library","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"599\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$5.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4197610\/f0d3c0ed4a31473df3d912d95b63a1fcc7feef97\/capsule_184x69.jpg?t=1777553917","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true}},"rgPackages":{"1809922":{"name":"Puzzle Penguins","url_name":"Puzzle_Penguins","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/2af21fc457732c6bd895a3da1ad574dbe8f5e895\/capsule_sm_120.jpg?t=1792822869","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,9626],"os_windows":true,"appids":[5232310],"has_live_broadcast":false,"localized":true,"localized_english":true},"1880095":{"name":"Puzzle Penguins Soundtrack","url_name":"Puzzle_Penguins_Soundtrack","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5447950\/b9d2b6cb6fb434113799764d56df57c695c7b239\/capsule_sm_120.jpg?t=1792822895","tags":[],"tagids":[],"os_windows":true,"os_macos":true,"os_linux":true,"appids":[5447950],"has_live_broadcast":false,"localized":true,"localized_english":true},"1882151":{"name":"Puzzle Penguins Artbook","url_name":"Puzzle_Penguins_Artbook","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5454240\/a9a023f76b00f1838e18ee126280429c7986007a\/capsule_sm_120.jpg?t=1792822883","tags":["Indie","Casual"],"tagids":[492,597],"os_windows":true,"appids":[5454240],"has_live_broadcast":false,"localized":true,"localized_english":true},"1576727":{"name":"Puzzle","url_name":"Puzzle","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4520500\/c4f8692e9c159666715ac2bcecdd9341e8ffc607\/capsule_sm_120.jpg?t=1782501627","tags":["Casual","Puzzle","Cute","Indie","Colorful"],"tagids":[597,1664,4726,492,4305,1755],"os_windows":true,"appids":[4520500],"has_live_broadcast":false,"localized":true,"localized_english":true},"1809916":{"name":"Puzzle Algae","url_name":"Puzzle_Algae","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232290\/372792fad086aa26beb973e1789b30871da9322d\/capsule_sm_120.jpg?t=1791502910","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5232290],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754447":{"name":"Puzzle Butterflies","url_name":"Puzzle_Butterflies","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061570\/ad77da6b1d8d22079784c92cfd4378cc0a8d9a95\/capsule_sm_120.jpg?t=1792195135","tags":["Casual","Indie","Singleplayer","Puzzle","Logic"],"tagids":[597,492,4182,1664,6129,4305],"os_windows":true,"appids":[5061570],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754453":{"name":"Puzzle Beetles","url_name":"Puzzle_Beetles","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061590\/7e8c22147e439057985b4a1520c1fac7972b6075\/capsule_sm_120.jpg?t=1792194834","tags":["Casual","Indie","Singleplayer","Puzzle","Logic"],"tagids":[597,492,4182,1664,6129,4305],"os_windows":true,"appids":[5061590],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754471":{"name":"Puzzle Crustaceans","url_name":"Puzzle_Crustaceans","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061650\/a9698f51243e1280db9e67652a92d3b783e327a5\/capsule_sm_120.jpg?t=1792195307","tags":["Casual","Indie","Singleplayer","Puzzle","Logic"],"tagids":[597,492,4182,1664,6129,13577],"os_windows":true,"appids":[5061650],"has_live_broadcast":false,"localized":true,"localized_english":true},"1809892":{"name":"Puzzle Dolphins","url_name":"Puzzle_Dolphins","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232210\/34a569a3678442bd605c432f43b0fb22a20189e4\/capsule_sm_120.jpg?t=1792195515","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5232210],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754456":{"name":"Puzzle Fire","url_name":"Puzzle_Fire","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061600\/09ce8061f38d0953acee93571f990c5f2b87d2b3\/capsule_sm_120.jpg?t=1792195717","tags":["Casual","Indie","Singleplayer","Puzzle","Logic"],"tagids":[597,492,4182,1664,6129,4305],"os_windows":true,"appids":[5061600],"has_live_broadcast":false,"localized":true,"localized_english":true},"1783737":{"name":"Puzzle Fireworks","url_name":"Puzzle_Fireworks","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5151410\/f79a0bc61488a8febe00f494e7ae1a624cad5d76\/capsule_sm_120.jpg?t=1792195839","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5151410],"has_live_broadcast":false,"localized":true,"localized_english":true},"1809901":{"name":"Puzzle Jungle","url_name":"Puzzle_Jungle","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232240\/c6d1c23d4d46d51d92a66427410d93dc69b7643d\/capsule_sm_120.jpg?t=1792195996","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5232240],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754468":{"name":"Puzzle Whales","url_name":"Puzzle_Whales","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061640\/ed83c04710ebda10e37a8b45eb2c9af5575e7ec4\/capsule_sm_120.jpg?t=1792741573","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,9626],"os_windows":true,"appids":[5061640],"has_live_broadcast":false,"localized":true,"localized_english":true},"1809919":{"name":"Puzzle Water Flowers","url_name":"Puzzle_Water_Flowers","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232300\/37cf2bbc572adcb4134c434c4aa53ae6ec50fefa\/capsule_sm_120.jpg?t=1792741759","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5232300],"has_live_broadcast":false,"localized":true,"localized_english":true},"1783734":{"name":"Puzzle Sweets","url_name":"Puzzle_Sweets","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5151400\/44c5f44166ee58b48feb97f3ff9b4b0ed3281951\/capsule_sm_120.jpg?t=1792741957","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5151400],"has_live_broadcast":false,"localized":true,"localized_english":true},"1809895":{"name":"Puzzle Stones","url_name":"Puzzle_Stones","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232220\/5a1a1109db175cd8a98ca4201a4039117ca92ecb\/capsule_sm_120.jpg?t=1792742100","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5232220],"has_live_broadcast":false,"localized":true,"localized_english":true},"1783740":{"name":"Puzzle Spiders","url_name":"Puzzle_Spiders","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5151420\/b618d7c14e84c9233c1954276ad6f4c9bb39bd1f\/capsule_sm_120.jpg?t=1792742434","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,9626],"os_windows":true,"appids":[5151420],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754459":{"name":"Puzzle Snakes","url_name":"Puzzle_Snakes","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061610\/13a97faf78dd5c1662be8f60244e62e90e15e5f0\/capsule_sm_120.jpg?t=1792742626","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5061610],"has_live_broadcast":false,"localized":true,"localized_english":true},"1783746":{"name":"Puzzle Shrimps","url_name":"Puzzle_Shrimps","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5151440\/7ebdb715e9ec78cff664881509ff869e0cabfedf\/capsule_sm_120.jpg?t=1792743975","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,9626],"os_windows":true,"appids":[5151440],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754465":{"name":"Puzzle Sharks","url_name":"Puzzle_Sharks","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061630\/6cad2a68398a3a62c25c8100164e8e1d832b454e\/capsule_sm_120.jpg?t=1792744730","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5061630],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754450":{"name":"Puzzle Scorpions","url_name":"Puzzle_Scorpions","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061580\/b451f01ba64c5b49b7e5fb1d560997a3c846a2fe\/capsule_sm_120.jpg?t=1792744965","tags":["Indie","Casual","Puzzle","Family Friendly","Singleplayer"],"tagids":[492,597,1664,5350,4182,6129],"os_windows":true,"appids":[5061580],"has_live_broadcast":false,"localized":true,"localized_english":true},"1809913":{"name":"Puzzle Rivers","url_name":"Puzzle_Rivers","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232280\/3dc56c37e6b9f6c0ed11f62179dffdb588baf610\/capsule_sm_120.jpg?t=1792756295","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5232280],"has_live_broadcast":false,"localized":true,"localized_english":true},"1809907":{"name":"Puzzle Rain","url_name":"Puzzle_Rain","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232260\/780215b85983f5daee8ac3364612eebead78d6f8\/capsule_sm_120.jpg?t=1792756728","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5232260],"has_live_broadcast":false,"localized":true,"localized_english":true},"1783749":{"name":"Puzzle Nuts","url_name":"Puzzle_Nuts","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5151450\/538d7a2024822479dd1b9cc79748a5bb95758b9b\/capsule_sm_120.jpg?t=1792824009","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5151450],"has_live_broadcast":false,"localized":true,"localized_english":true},"1809904":{"name":"Puzzle Musical Instruments","url_name":"Puzzle_Musical_Instruments","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232250\/13a50f6091d8ae076168d1b832028637e7f24571\/capsule_sm_120.jpg?t=1792824169","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5232250],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754474":{"name":"Puzzle Mollusks","url_name":"Puzzle_Mollusks","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061660\/2a04f167a85cf87d652aec8c0b33f3d698dbaf6c\/capsule_sm_120.jpg?t=1792824399","tags":["Indie","Casual","Puzzle","Family Friendly","Singleplayer"],"tagids":[492,597,1664,5350,4182,6129],"os_windows":true,"appids":[5061660],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754462":{"name":"Puzzle Marine Fish","url_name":"Puzzle_Marine_Fish","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061620\/61016b795b45e3a6930390863dcae53d41f08948\/capsule_sm_120.jpg?t=1792824616","tags":["Indie","Casual","Puzzle","Singleplayer","Logic"],"tagids":[492,597,1664,4182,6129,4305],"os_windows":true,"appids":[5061620],"has_live_broadcast":false,"localized":true,"localized_english":true},"1809910":{"name":"Puzzle Lakes","url_name":"Puzzle_Lakes","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232270\/41046db656516e4327b6efe22aa660e9ccf54457\/capsule_sm_120.jpg?t=1792824730","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,6129],"os_windows":true,"appids":[5232270],"has_live_broadcast":false,"localized":true,"localized_english":true},"1754368":{"name":"Puzzle Wild Cats","url_name":"Puzzle_Wild_Cats","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"499\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$4.99<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5061340\/2779f08234a83c84125ee43cceb6e5463dc44cd7\/capsule_sm_120.jpg?t=1792824872","tags":["Casual","Indie","Singleplayer","Puzzle","Family Friendly"],"tagids":[597,492,4182,1664,5350,9626],"os_windows":true,"appids":[5061340],"has_live_broadcast":false,"localized":true,"localized_english":true}},"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		recommend_franchise: "1_5_9__316",
+		more_from_franchise: "1_5_9__317",
+		bundle_component_preview: "1_5_9__412",
+		recommended_ranked_played: "1_5_9__862",
+	} );
+
+	// Temporary code to allow React to move focus to elements that are non-React.
+	function MoveFocusToId( id )
+	{
+		$el = $J( id );
+		if ( $el.length )
+		{
+			$el[0].focus();
+		}
+	}
+	window.MoveFocusToId = MoveFocusToId;
+
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+		// on Tablet wait to do this when the window is fully loaded - see OnPageLoaded()
+		ReparentAppLandingPageForSmallScreens();
+
+		
+			var usability = InitUsabilityTracker( "https:\/\/store.steampowered.com\/app\/usabilitytracking\/5232310" );
+		usability.ScheduleUpload();
+	
+		
+			} );
+
+	
+	function OpenTagModal()
+	{
+		ShowAppTagModal( 5232310 );
+	}
+
+</script>
+
+<div class="game_page_background game" data-miniprofile-appid=5232310>
+
+	
+			<div class="banner_open_in_steam">
+			<div data-featuretarget="open-in-desktop-client"></div>
+		</div>
+	
+	
+	<div  data-featuretarget="apppage-store-browse-cache" data-props="{&quot;rgPayloads&quot;:[{&quot;dataRequestStoreItems&quot;:{&quot;include_assets&quot;:null,&quot;include_release&quot;:null,&quot;include_platforms&quot;:null,&quot;include_all_purchase_options&quot;:null,&quot;include_screenshots&quot;:null,&quot;include_trailers&quot;:null,&quot;include_ratings&quot;:true,&quot;include_tag_count&quot;:null,&quot;include_reviews&quot;:null,&quot;include_basic_info&quot;:null,&quot;include_supported_languages&quot;:null,&quot;include_full_description&quot;:null,&quot;include_included_items&quot;:null,&quot;included_item_data_request&quot;:null,&quot;include_assets_without_overrides&quot;:null,&quot;apply_user_filters&quot;:null,&quot;include_links&quot;:null,&quot;include_extra_details&quot;:null,&quot;include_best_purchase_option&quot;:true,&quot;include_optin_registration_tags&quot;:null},&quot;rgStoreItems&quot;:[{&quot;item_type&quot;:0,&quot;id&quot;:5232310,&quot;gid&quot;:null,&quot;success&quot;:1,&quot;visible&quot;:1,&quot;unvailable_for_country_restriction&quot;:null,&quot;name&quot;:&quot;Puzzle Penguins&quot;,&quot;store_url_path&quot;:&quot;app/5232310/Puzzle_Penguins&quot;,&quot;store_url_slug&quot;:&quot;Puzzle_Penguins&quot;,&quot;appid&quot;:5232310,&quot;type&quot;:0,&quot;included_types&quot;:[],&quot;included_appids&quot;:[],&quot;is_free&quot;:null,&quot;is_early_access&quot;:null,&quot;related_items&quot;:null,&quot;included_items&quot;:null,&quot;content_descriptorids&quot;:[],&quot;tagids&quot;:[],&quot;categories&quot;:{&quot;supported_player_categoryids&quot;:[2],&quot;feature_categoryids&quot;:[22,62],&quot;controller_categoryids&quot;:[]},&quot;reviews&quot;:null,&quot;basic_info&quot;:null,&quot;tags&quot;:[],&quot;assets&quot;:null,&quot;release&quot;:null,&quot;platforms&quot;:null,&quot;game_rating&quot;:null,&quot;is_coming_soon&quot;:null,&quot;best_purchase_option&quot;:{&quot;packageid&quot;:1809922,&quot;bundleid&quot;:null,&quot;purchase_option_name&quot;:&quot;Puzzle Penguins&quot;,&quot;final_price_in_cents&quot;:&quot;499&quot;,&quot;original_price_in_cents&quot;:null,&quot;formatted_final_price&quot;:&quot;$4.99&quot;,&quot;formatted_original_price&quot;:null,&quot;discount_pct&quot;:null,&quot;bundle_discount_pct&quot;:null,&quot;is_free_to_keep&quot;:null,&quot;price_before_bundle_discount&quot;:null,&quot;formatted_price_before_bundle_discount&quot;:null,&quot;active_discounts&quot;:[],&quot;user_can_purchase_as_gift&quot;:1,&quot;is_commercial_license&quot;:null,&quot;should_suppress_discount_pct&quot;:null,&quot;hide_discount_pct_for_compliance&quot;:0,&quot;included_game_count&quot;:1,&quot;lowest_recent_price_in_cents&quot;:null,&quot;requires_shipping&quot;:null,&quot;recurrence_info&quot;:null,&quot;free_to_keep_ends&quot;:null,&quot;must_purchase_as_set&quot;:0,&quot;package_group&quot;:&quot;default&quot;,&quot;is_edition&quot;:null,&quot;free_to_keep_base_package&quot;:null,&quot;price_cannot_be_displayed_as_discount&quot;:0,&quot;price_to_base_discount_on&quot;:null,&quot;free_with_master_sub_appid&quot;:null,&quot;formatted_lowest_recent_price&quot;:null,&quot;is_free_license&quot;:null,&quot;combined_discount_pct&quot;:null},&quot;purchase_options&quot;:[],&quot;self_purchase_option&quot;:null,&quot;screenshots&quot;:null,&quot;trailers&quot;:null,&quot;supported_languages&quot;:[],&quot;store_url_path_override&quot;:null,&quot;free_weekend&quot;:null,&quot;unlisted&quot;:null,&quot;game_count&quot;:null,&quot;internal_name&quot;:null,&quot;full_description_bbcode&quot;:null,&quot;is_free_temporarily&quot;:null,&quot;assets_without_overrides&quot;:null,&quot;user_filter_failure&quot;:null,&quot;links&quot;:[],&quot;purchase_description_bbcode&quot;:null,&quot;package_groups&quot;:[],&quot;extra_details&quot;:null,&quot;optin_registration_tags&quot;:[],&quot;purchase_notes&quot;:[]}]}]}"></div><div  data-featuretarget="apppage-gameinterest-cache" data-props="{&quot;appid&quot;:5232310,&quot;userInterest&quot;:{&quot;owned&quot;:null,&quot;wishlist&quot;:null,&quot;ignored&quot;:null,&quot;following&quot;:null,&quot;in_queues&quot;:[],&quot;queues_with_skip&quot;:[],&quot;queue_items_remaining&quot;:[],&quot;queue_items_next_appid&quot;:[],&quot;temporarily_owned&quot;:null,&quot;queues&quot;:[],&quot;ignored_reason&quot;:null,&quot;beta_status&quot;:null}}"></div>
+	<!-- page width wrapper: gutters, max width and the horizontal bleed variable -->
+	<div id="tabletGrid" class="tablet_grid">
+
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+
+		<meta itemprop="image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5232310/2af21fc457732c6bd895a3da1ad574dbe8f5e895/capsule_231x87.jpg?t=1792822869">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" style="display: none;">
+				<meta itemprop="priceCurrency" content="USD">
+				<meta itemprop="price" content="4.99">
+							</div>
+		
+		<div class="page_top_area">
+						<div class="game_page_background_ctn game">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5232310/6ea300e11e4f2d440b22b6de91b319a6f1ed0bea/ss_6ea300e11e4f2d440b22b6de91b319a6f1ed0bea.1920x1080.jpg?t=1792822869" class="gameColor" alt="">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5232310/6ea300e11e4f2d440b22b6de91b319a6f1ed0bea/ss_6ea300e11e4f2d440b22b6de91b319a6f1ed0bea.1920x1080.jpg?t=1792822869" class="gameTexture" alt="">
+			</div>
+
+		<div class="page_title_area game_title_area page_content" data-gpnav="columns">
+			<div class="breadcrumbs" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+								<div class="blockbg">
+											<a href="https://store.steampowered.com/search/?term=&snr=1_5_9__205">All Games</a>
+																					&gt; <a href="https://store.steampowered.com/genre/Casual/?snr=1_5_9__205">Casual Games</a>
+																										&gt; <a href="https://store.steampowered.com/app/5232310/?snr=1_5_9__205"><span itemprop="name">Puzzle Penguins</span></a>
+									</div>
+				<div style="clear: inline-start;"></div>
+							</div>
+						
+
+<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+		                      <div class="apphub_OtherSiteInfo">
+
+                    
+                <a class="btnv6_blue_hoverfade btn_medium" href="https://steamcommunity.com/app/5232310">
+                    <span>Community Hub</span>
+                </a>
+            </div>
+         		<div class="apphub_AppIcon"><img src="https://shared.akamai.steamstatic.com/community_assets/images/apps/5232310/3f5da80950503487c5363344f6470e5ea608e54a.jpg"><div class="overlay"></div></div>
+		<div id="appHubAppName" class="apphub_AppName" role="heading" aria-level="1">Puzzle Penguins</div>
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+											</div>
+		<div style="clear: inline-start;"></div>
+
+
+		<div class="block game_media_and_summary_ctn">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+			</script>
+
+			
+			<div class="game_background_glow">
+				
+
+				
+								
+				
+					
+								<div id="page_header_img" class="responsive_page_header_img" style="display: none;">
+					<img style="width:100%;" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5232310/518b35836be7e9fd46d1a0ed081a0289478d8e04/header.jpg?t=1792822869" alt="Puzzle Penguins">
+				</div>
+
+				<div class="block_content page_content" id="broadcast">
+
+				
+				</div>
+				<div class="block_content page_content" id="game_highlights" data-panel="{&quot;navKey&quot;:&quot;game_highlights&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+
+				<div class="rightcol" data-panel="{&quot;flow-children&quot;:&quot;column&quot;,&quot;navKey&quot;:&quot;rightcol&quot;}">
+					<div class="glance_ctn">
+												<div id="gameHeaderCtn" class="game_header_ctn">
+							<div id="gameHeaderImageCtn" class="game_header_image_ctn">
+								<img class="game_header_image_full" alt="" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5232310/518b35836be7e9fd46d1a0ed081a0289478d8e04/header.jpg?t=1792822869">
+
+																<div id="appHubAppName_responsive" style="display: none;" class="apphub_AppName">Puzzle Penguins</div>
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="appHeaderGridContainer" class="app_header_grid_container" style="display:none">
+
+																			<div class="grid_label">Developer</div>
+										<div class="grid_content">
+											<a href="https://store.steampowered.com/search/?developer=IR%20Studio&snr=1_5_9__400">IR Studio</a>										</div>
+																																							<div class="grid_label">Publisher</div>
+											<div class="grid_content">
+												<a href="https://store.steampowered.com/search/?publisher=IR%20Studio&snr=1_5_9__422">IR Studio</a>											</div>
+																			
+																			<div class="grid_label grid_date">Released</div>
+										<div class="grid_content grid_date">
+											Oct 23, 2026										</div>
+																	</div>
+							</div>
+															<div class="game_description_snippet">
+									This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!								</div>
+													</div> 												<div id="glanceMidCtn" class="glance_mid_ctn">
+						<div class="glance_ctn_responsive_left">
+																													<div id="userReviews" class="user_reviews">
+
+									
+																		<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="No user reviews" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">
+											All Reviews:										</div>
+										<div class="summary column">
+																					No user reviews																				</div>
+									</a>
+								</div>
+							
+															<div class="release_date">
+									<div class="subtitle column">Release Date:</div>
+									<div class="date">Oct 23, 2026</div>
+								</div>
+							
+																						<div class="dev_row">
+									<div class="subtitle column">Developer:</div>
+									<div class="summary column" id="developers_list">
+										<a href="https://store.steampowered.com/search/?developer=IR%20Studio&snr=1_5_9__2000">IR Studio</a>									</div>
+								</div>
+							
+																								<div class="dev_row">
+										<div class="subtitle column">Publisher:</div>
+										<div class="summary column">
+										<a href="https://store.steampowered.com/search/?publisher=IR%20Studio&snr=1_5_9__422">IR Studio</a>										</div>
+									</div>
+															
+																				</div>
+
+						<div id="glanceCtnResponsiveRight" class="glance_ctn_responsive_right" data-panel="{&quot;navKey&quot;:&quot;glanceCtnResponsiveRight&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="responsive_block_header">Tags</div>
+									<div class="glance_tags_ctn popular_tags_ctn" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+										<div class="glance_tags_label">Popular user-defined tags for this product:</div>
+										<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="glance_tags popular_tags" data-appid="5232310">
+											<a href="https://store.steampowered.com/tags/en/Casual/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Casual												</a><a href="https://store.steampowered.com/tags/en/Indie/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Indie												</a><a href="https://store.steampowered.com/tags/en/Singleplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Singleplayer												</a><a href="https://store.steampowered.com/tags/en/Puzzle/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Puzzle												</a><a href="https://store.steampowered.com/tags/en/Family%20Friendly/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Family Friendly												</a><a href="https://store.steampowered.com/tags/en/Animals/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Animals												</a><a href="https://store.steampowered.com/tags/en/Logic/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Logic												</a><a href="https://store.steampowered.com/tags/en/Nature/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Nature												</a><a href="https://store.steampowered.com/tags/en/Colorful/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Colorful												</a><div class="app_tag add_button" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowAppTagModal( 5232310 )">+</div>
+										</div>
+									</div>
+																						</div> 																					<div id="reviewsHeader_responsive" style="display: none;" class="responsive_block_header">Reviews</div>
+															<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" id="userReviews_responsive" style="display: none;" class="user_reviews" onclick="window.location='#app_reviews_hash'">
+
+																		<a id="appReviewsAll_responsive" class="user_reviews_summary_row" href="#app_reviews_hash">
+										<div class="subtitle column all">All Reviews:</div>
+										<div class="summary column">
+																					No user reviews																				</div>
+									</a>
+
+																	</div>
+																				</div>
+					</div>
+				</div>
+
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;navKey&quot;:&quot;leftcol&quot;,&quot;flow-children&quot;:&quot;column&quot;}" class="leftcol">
+					<div class="highlight_ctn">
+													<div class="highlight_overflow">
+								<div class="gamehighlight_desktopskeleton">
+									<div class="gamehighlight_desktopskeleton_itemview"></div>
+									<div class="gamehighlight_desktopskeleton_stripitems"></div>
+									<div class="gamehighlight_desktopskeleton_stripscrollbar"></div>
+								</div>
+								<div class="gamehighlight_desktopcarousel" data-featuretarget="gamehighlight-desktopcarousel" data-props="{&quot;appName&quot;:&quot;Puzzle Penguins&quot;,&quot;trailers&quot;:[{&quot;id&quot;:1,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257454295\/acdcc93c6fc82494ef7946e3c0e43b5692ffd9b4\/movie_232x130.jpg?t=1791555081&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257454295\/acdcc93c6fc82494ef7946e3c0e43b5692ffd9b4\/movie_600x337.jpg?t=1791555081&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/5232310\/1916658681&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5232310\/1916658681\/68d45ba79bd6a728e185e5439022b12c99b4cbf3\/1791554588\/dash_av1.mpd?t=1791555081&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5232310\/1916658681\/68d45ba79bd6a728e185e5439022b12c99b4cbf3\/1791554588\/dash_h264.mpd?t=1791555081&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5232310\/1916658681\/68d45ba79bd6a728e185e5439022b12c99b4cbf3\/1791554588\/hls_264_master.m3u8?t=1791555081&quot;}],&quot;screenshots&quot;:[{&quot;name&quot;:&quot;32f9eb7e691f49dc8b190b41bfc28126a1af4a40_ss_32f9eb7e691f49dc8b190b41bfc28126a1af4a40.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/32f9eb7e691f49dc8b190b41bfc28126a1af4a40\/ss_32f9eb7e691f49dc8b190b41bfc28126a1af4a40.116x65.jpg?t=1792822869&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/32f9eb7e691f49dc8b190b41bfc28126a1af4a40\/ss_32f9eb7e691f49dc8b190b41bfc28126a1af4a40.600x338.jpg?t=1792822869&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/32f9eb7e691f49dc8b190b41bfc28126a1af4a40\/ss_32f9eb7e691f49dc8b190b41bfc28126a1af4a40.1920x1080.jpg?t=1792822869&quot;,&quot;altText&quot;:&quot;Screenshot #0&quot;},{&quot;name&quot;:&quot;0ac1cb7182cbc5248cac5c263cf0ef365e353ebd_ss_0ac1cb7182cbc5248cac5c263cf0ef365e353ebd.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/0ac1cb7182cbc5248cac5c263cf0ef365e353ebd\/ss_0ac1cb7182cbc5248cac5c263cf0ef365e353ebd.116x65.jpg?t=1792822869&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/0ac1cb7182cbc5248cac5c263cf0ef365e353ebd\/ss_0ac1cb7182cbc5248cac5c263cf0ef365e353ebd.600x338.jpg?t=1792822869&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/0ac1cb7182cbc5248cac5c263cf0ef365e353ebd\/ss_0ac1cb7182cbc5248cac5c263cf0ef365e353ebd.1920x1080.jpg?t=1792822869&quot;,&quot;altText&quot;:&quot;Screenshot #1&quot;},{&quot;name&quot;:&quot;6ea300e11e4f2d440b22b6de91b319a6f1ed0bea_ss_6ea300e11e4f2d440b22b6de91b319a6f1ed0bea.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/6ea300e11e4f2d440b22b6de91b319a6f1ed0bea\/ss_6ea300e11e4f2d440b22b6de91b319a6f1ed0bea.116x65.jpg?t=1792822869&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/6ea300e11e4f2d440b22b6de91b319a6f1ed0bea\/ss_6ea300e11e4f2d440b22b6de91b319a6f1ed0bea.600x338.jpg?t=1792822869&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/6ea300e11e4f2d440b22b6de91b319a6f1ed0bea\/ss_6ea300e11e4f2d440b22b6de91b319a6f1ed0bea.1920x1080.jpg?t=1792822869&quot;,&quot;altText&quot;:&quot;Screenshot #2&quot;},{&quot;name&quot;:&quot;e6804973133628a54d04030802aa947fd5114355_ss_e6804973133628a54d04030802aa947fd5114355.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/e6804973133628a54d04030802aa947fd5114355\/ss_e6804973133628a54d04030802aa947fd5114355.116x65.jpg?t=1792822869&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/e6804973133628a54d04030802aa947fd5114355\/ss_e6804973133628a54d04030802aa947fd5114355.600x338.jpg?t=1792822869&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/e6804973133628a54d04030802aa947fd5114355\/ss_e6804973133628a54d04030802aa947fd5114355.1920x1080.jpg?t=1792822869&quot;,&quot;altText&quot;:&quot;Screenshot #3&quot;},{&quot;name&quot;:&quot;685c569bb2c5f18602918544d59ded97cfbe87dc_ss_685c569bb2c5f18602918544d59ded97cfbe87dc.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/685c569bb2c5f18602918544d59ded97cfbe87dc\/ss_685c569bb2c5f18602918544d59ded97cfbe87dc.116x65.jpg?t=1792822869&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/685c569bb2c5f18602918544d59ded97cfbe87dc\/ss_685c569bb2c5f18602918544d59ded97cfbe87dc.600x338.jpg?t=1792822869&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5232310\/685c569bb2c5f18602918544d59ded97cfbe87dc\/ss_685c569bb2c5f18602918544d59ded97cfbe87dc.1920x1080.jpg?t=1792822869&quot;,&quot;altText&quot;:&quot;Screenshot #4&quot;}]}"></div>
+							</div>
+											</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			</div>
+
+
+			
+			
+
+			
+		</div>
+
+
+		</div>
+			<div class="queue_and_playtime">
+				<div class="game_background_lighten">
+					<div class="game_background_lighten_border"></div>
+				</div>
+									<div class="queue_overflow_ctn">
+													<div class="queue_ctn">
+																<div id="queueActionsCtn" class="queue_actions_ctn">
+									<p><a href="https://store.steampowered.com/login/?redir=app%2F5232310&snr=1_5_9_">Sign in</a> to add this item to your wishlist, follow it, or mark it as ignored</p>
+																			<div id="shareBtn"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowNavigatorShare()" aria-label="Share"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_share_ios.svg" alt=""></span></a></div>
+																	</div>
+							</div>
+						
+												<div id="rowBtnActions" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" style="display: none;"></div>
+
+					</div>
+				
+				
+				
+																												
+				
+								
+				<div id="purchaseOptionsContent" class="purchase_options_content" style="display: none;">
+					<!-- game_area_purchase goes here -->
+				</div>
+			</div>
+
+		
+		<div class="page_content middle_page" data-panel="[]" >
+
+				<!-- Right Column -->
+				<div class="rightcol game_meta_data" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+					
+					<div id="responsive_apppage_details_left_ctn"></div>
+
+					<div id="responsive_apppage_details_right_ctn"></div>
+					<div style="clear: both;"></div>
+					
+					<!-- testing a banner on Desktop to open the current page in the desktop Steam client.  When that banner is displayed this section should be hidden. -->
+																		
+
+
+
+
+
+					
+					
+					
+
+												<div class="responsive_block_header responsive_apppage_details_left">Features</div>
+							<div class="block responsive_apppage_details_left" id="category_block">
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="game_area_features_list_ctn">
+									<a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=2&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_singlePlayer.png" alt=""></div><div class="label">Single-player</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=22&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_achievements.png" alt=""></div><div class="label">Steam Achievements</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=62&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_familysharing.png" alt=""></div><div class="label">Family Sharing</div></a>										<div class="game_area_details_specs_ctn learning_about">
+											<div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_learning_about_game.png"></div>
+											<div class="label">Steam is learning about this game&nbsp;
+											<span class="tooltip" data-tooltip-html="This game is not currently eligible to appear in certain showcases on your Steam Profile, and does not contribute to global Achievement or game collector counts.">
+												<img src="https://store.fastly.steamstatic.com/public/shared/images/ico/icon_questionmark.png" alt="">
+											</span></div>
+
+										</div>
+										
+<div  data-featuretarget="store-sidebar-accessibility-info" data-props="{&quot;bAccessibilityResizableUI&quot;:false,&quot;bAccessibilitySubtitles&quot;:false,&quot;bAccessibilityColorAlternatives&quot;:false,&quot;bAccessibilityCameraComfort&quot;:false,&quot;bAccessibilityBackgroundVolumeControls&quot;:false,&quot;bAccessibilityStereoSound&quot;:false,&quot;bAccessibilitySurroundSound&quot;:false,&quot;bAccessibilityNarratedMenus&quot;:false,&quot;bAccessibilityChatSpeechtoText&quot;:false,&quot;bAccessibilityChatTexttoSpeech&quot;:false,&quot;bAccessibilityPlayableWithoutQuicktimeEvents&quot;:false,&quot;bAccessibilityKeyboardOnlyOption&quot;:false,&quot;bAccessibilityMouseOnlyOption&quot;:false,&quot;bAccessibilityTouchOnlyOption&quot;:false,&quot;bAccessibilityDifficultyLevels&quot;:false,&quot;bAccessibilitySaveAnytime&quot;:false,&quot;bAccessibilityPlayableAtYourOwnPace&quot;:false,&quot;bAccessibilityPlayableWithoutVision&quot;:false,&quot;bAccessibilityContrastControls&quot;:false}"></div>								</div>
+								
+								<div data-featuretarget="store-sidebar-controller-support-info" data-props="{&quot;unAppID&quot;:5232310,&quot;bFullXboxControllerSupport&quot;:false,&quot;bPartialXboxControllerSupport&quot;:false,&quot;bPS4ControllerSupport&quot;:false,&quot;bPS4ControllerBTSupport&quot;:false,&quot;bPS5ControllerSupport&quot;:false,&quot;bPS5ControllerBTSupport&quot;:false,&quot;bSteamInputAPISupport&quot;:false,&quot;bNoKeyboardSupport&quot;:false,&quot;bGamepadPreferred&quot;:false,&quot;bControllerSupportWizardComplete&quot;:true,&quot;bHasXbox&quot;:null,&quot;bHasPS4&quot;:null,&quot;bHasPS5&quot;:null,&quot;bHasOther&quot;:false}"></div>
+								
+								
+								
+								
+								
+								
+															</div>
+																			<div class="block responsive_apppage_details_right">
+								<div class="block_title" id="LanguagesHeader">
+									Languages<span class="responsive_hidden">:</span>
+								</div>
+
+								
+<div id="bannerLanguages" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="ToggleBannerContentVisibility('#languageTable', '#expandLanguageBtn')">
+	<div class="responsive_banner_link_title">
+		English	</div>
+	<div id="expandLanguageBtn" class="expand_section"></div>
+</div>
+<div id="languageTable">
+
+<table  class="game_language_options" cellpadding="0" cellspacing="0">
+	<tr>
+		<th style="width: 94px;"></th>
+				<th class="checkcol">Interface</th>
+		<th class="checkcol">Full Audio</th>
+		<th class="checkcol">Subtitles</th>
+	</tr>
+
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				English			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+	</table>
+
+
+</div>
+
+							</div>
+																		<div data-featuretarget="deck-verified-results"></div>
+					
+					<div class="responsive_apppage_details_right" data-featuretarget="game-rating-block" data-props="{&quot;bRatingAllowed&quot;:true,&quot;bHideRatingTitle&quot;:false}"></div>
+					<div  data-featuretarget="achievements"></div>
+					
+											<div id="appDetailsUnderlinedLinks" class="block responsive_apppage_details_left game_details underlined_links">
+							<div class="block_content">
+								<div class="block_content_inner">
+									<div id="genresAndManufacturer" class="details_block">
+
+			<b>Title:</b> Puzzle Penguins<br>
+	
+				<b>Genre:</b> <span data-panel="{&quot;flow-children&quot;:&quot;row&quot;}"><a href="https://store.steampowered.com/genre/Casual/?snr=1_5_9__408">Casual</a>, <a href="https://store.steampowered.com/genre/Indie/?snr=1_5_9__408">Indie</a></span><br>
+			
+			<div class="dev_row">
+			<b>Developer:</b>
+
+				<a href="https://store.steampowered.com/search/?developer=IR%20Studio&snr=1_5_9__408">IR Studio</a>
+		</div>
+	
+			<div class="dev_row">
+			<b>Publisher:</b>
+
+				<a href="https://store.steampowered.com/search/?publisher=IR%20Studio&snr=1_5_9__422">IR Studio</a>
+		</div>
+	
+			
+	            <b>Release Date:</b> Oct 23, 2026<br>
+        
+            	</div>
+
+
+<div class="details_block" style="padding-top: 14px;">
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+			<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/?appids=5232310&amp;snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			View update history		</a>
+		<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/app/5232310?snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			Read related news		</a>
+	
+				<a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/5232310/discussions/" target="_blank" rel="noreferrer" >
+			View discussions		</a>
+	
+    
+	        <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/actions/Search?T=ClanAccount&K=Puzzle%20Penguins">
+            Find Community Groups        </a>
+    </div>
+								</div>
+							</div>
+													</div>
+					
+																		<div id="shareEmbedRow" class="block responsive_apppage_details_left" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+								<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowEmbedWidget(5232310); return false;"><span>Embed</span></a>
+								<a id="ReportAppBtn" class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5232310)"><span data-tooltip-text="Report this Product" aria-label="Report this Product"><i class="ico16 reportv6"></i>&nbsp;</span></a>
+							</div>
+						
+						<div id="reportBtn" style="display:none;"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5232310)"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_report.svg" alt="Report this Product"></span></a></div>
+					
+					
+															
+											<div id="appLinksAndInfoCtn" style="display:none;">
+							<div class="responsive_block_header">Links &amp; info</div>
+							<div id="appLinksAndInfo" class="game_page_autocollapse" style="max-height: 180px;"></div>
+						</div>
+					
+				</div>
+				<!-- End Right Column -->
+
+
+				<div class="leftcol game_description_column"  data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+
+					
+										
+					
+					<div id="game_area_purchase" class="game_area_purchase">
+																			
+																						
+
+							
+																																									<!--[if lte IE 7]>
+<style type="text/css">
+.game_area_purchase_game_dropdown_right_panel .btn_addtocart { float: none; }
+</style>
+<![endif]-->
+
+<div class="game_area_purchase_game_wrapper">
+			<div class="game_area_purchase_game" id="game_area_purchase_section_add_to_cart_1809922" role="region" aria-labelledby="game_area_purchase_section_add_to_cart_title_1809922">
+				<form name="add_to_cart_1809922" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="originating_snr" value="1_direct-navigation__">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="e7a54354ef9c24e5881da6d9">
+			<input type="hidden" name="subid" value="1809922">
+		</form>
+		<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h2 id="game_area_purchase_section_add_to_cart_title_1809922" class="title">Buy Puzzle Penguins</h2>
+				
+		
+										
+		<div class="game_purchase_action">
+																<div class="game_purchase_action_bg">
+															<div class="game_purchase_price price" data-price-final="499">
+							$4.99						</div>
+													<div class="btn_addtocart">
+																																<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium" href="javascript:addToCart(1809922);" id="btn_add_to_cart_1809922">
+								<span>Add to Cart</span>
+							</a>
+																		
+				</div>
+							</div>
+		</div>
+	</div>
+		</div>
+
+<div data-panel="[]" class="game_area_purchase_game_wrapper dynamic_bundle_description ds_no_flags"  data-ds-bundleid="93515" data-ds-bundle-data="{&quot;m_nDiscountPct&quot;:&quot;0&quot;,&quot;m_bMustPurchaseAsSet&quot;:0,&quot;m_rgItems&quot;:[{&quot;m_nPackageID&quot;:1809922,&quot;m_rgIncludedAppIDs&quot;:[5232310],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1880095,&quot;m_rgIncludedAppIDs&quot;:[5447950],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1882151,&quot;m_rgIncludedAppIDs&quot;:[5454240],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499}],&quot;m_bIsCommercial&quot;:false,&quot;m_bRestrictGifting&quot;:false}" data-ds-itemkey="Bundle_93515" data-ds-tagids="[597,492,4182,1664,5350,9626]" >
+
+	<div class="game_area_purchase_game_dropdown_subscription game_area_purchase_game" role="region" aria-labelledby="bundle_purchase_label_93515">
+		<form name="add_bundle_to_cart_93515" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="e7a54354ef9c24e5881da6d9">
+			<input type="hidden" name="bundleid" value="93515">
+		</form>
+				<div class="game_area_purchase_platform"><span class="platform_img win"></span><span class="platform_img music"></span></div>
+		<h2 id="bundle_purchase_label_93515" class="title">
+			Buy Puzzle Penguins Complete Edition							<span class="bundle_label" data-tooltip-text="Bundles are a special discount on a set of products.  If you already own some of the products contained in the bundle, purchasing the bundle will allow you to &quot;complete the set&quot;, paying only for the products you don't already own while still receiving the full bundle discount on each of those products.">
+					BUNDLE					<span class="bundle_label_tooltip">(?)</span>
+				</span>
+					</h2>
+
+		
+		<p class="package_contents package_contents_collapsed">
+						<b>Includes 3 items:</b>
+			<a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232310/Puzzle_Penguins/">Puzzle Penguins</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5447950/Puzzle_Penguins_Soundtrack/">Puzzle Penguins Soundtrack</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5454240/Puzzle_Penguins_Artbook/">Puzzle Penguins Artbook</a>					</p>
+
+		<div class="game_purchase_action">
+																	<div class="game_purchase_action_bg">
+					<div class="btn_addtocart btn_packageinfo">
+						<a class="btn_blue_steamui btn_medium" href="https://store.steampowered.com/bundle/93515/Puzzle_Penguins_Complete_Edition/?snr=1_5_9__403">
+							<span>Bundle info</span>
+						</a>
+					</div>
+				</div>
+						<div class="game_purchase_action_bg">
+				<div class="discount_block game_purchase_discount no_discount" data-price-final="1497" data-bundlediscount="0" data-discount="0"><div class="discount_prices"><div class="discount_final_price">$14.97</div></div></div>
+
+				<div class="btn_addtocart">
+																		<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium"
+							   href="javascript:addBundleToCart( 93515);">
+
+								<span>Add to Cart</span>
+
+							</a>
+															</div>
+
+
+								<div class="btn_addtocart btn_packageinfo btn_addtoaccount" style="display: none" data-tooltip-text="This game is available for free to your account.  Click here to add this game to your account.">
+						<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_blue_steamui btn_medium" onclick="AddFreeBundle( 93515, &quot;Puzzle Penguins Complete Edition&quot; );">
+							<span>Add to Account</span>
+						</span>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	</div>
+<div data-panel="[]" class="game_area_purchase_game_wrapper dynamic_bundle_description ds_no_flags"  data-ds-bundleid="92330" data-ds-bundle-data="{&quot;m_nDiscountPct&quot;:&quot;0&quot;,&quot;m_bMustPurchaseAsSet&quot;:0,&quot;m_rgItems&quot;:[{&quot;m_nPackageID&quot;:1576727,&quot;m_rgIncludedAppIDs&quot;:[4520500],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809916,&quot;m_rgIncludedAppIDs&quot;:[5232290],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754447,&quot;m_rgIncludedAppIDs&quot;:[5061570],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754453,&quot;m_rgIncludedAppIDs&quot;:[5061590],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754471,&quot;m_rgIncludedAppIDs&quot;:[5061650],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809892,&quot;m_rgIncludedAppIDs&quot;:[5232210],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754456,&quot;m_rgIncludedAppIDs&quot;:[5061600],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1783737,&quot;m_rgIncludedAppIDs&quot;:[5151410],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809901,&quot;m_rgIncludedAppIDs&quot;:[5232240],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754468,&quot;m_rgIncludedAppIDs&quot;:[5061640],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809919,&quot;m_rgIncludedAppIDs&quot;:[5232300],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1783734,&quot;m_rgIncludedAppIDs&quot;:[5151400],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809895,&quot;m_rgIncludedAppIDs&quot;:[5232220],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1783740,&quot;m_rgIncludedAppIDs&quot;:[5151420],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754459,&quot;m_rgIncludedAppIDs&quot;:[5061610],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1783746,&quot;m_rgIncludedAppIDs&quot;:[5151440],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754465,&quot;m_rgIncludedAppIDs&quot;:[5061630],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754450,&quot;m_rgIncludedAppIDs&quot;:[5061580],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809913,&quot;m_rgIncludedAppIDs&quot;:[5232280],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809907,&quot;m_rgIncludedAppIDs&quot;:[5232260],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809922,&quot;m_rgIncludedAppIDs&quot;:[5232310],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1783749,&quot;m_rgIncludedAppIDs&quot;:[5151450],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809904,&quot;m_rgIncludedAppIDs&quot;:[5232250],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754474,&quot;m_rgIncludedAppIDs&quot;:[5061660],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754462,&quot;m_rgIncludedAppIDs&quot;:[5061620],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1809910,&quot;m_rgIncludedAppIDs&quot;:[5232270],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499},{&quot;m_nPackageID&quot;:1754368,&quot;m_rgIncludedAppIDs&quot;:[5061340],&quot;m_bPackageDiscounted&quot;:false,&quot;m_nBasePriceInCents&quot;:499,&quot;m_nFinalPriceInCents&quot;:499,&quot;m_nFinalPriceWithBundleDiscount&quot;:499}],&quot;m_bIsCommercial&quot;:false,&quot;m_bRestrictGifting&quot;:false}" data-ds-itemkey="Bundle_92330" data-ds-tagids="[597,492,4182,1664,6129,5350,4305]" >
+
+	<div class="game_area_purchase_game_dropdown_subscription game_area_purchase_game" role="region" aria-labelledby="bundle_purchase_label_92330">
+		<form name="add_bundle_to_cart_92330" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="e7a54354ef9c24e5881da6d9">
+			<input type="hidden" name="bundleid" value="92330">
+		</form>
+				<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h2 id="bundle_purchase_label_92330" class="title">
+			Buy Puzzle Bundle							<span class="bundle_label" data-tooltip-text="Bundles are a special discount on a set of products.  If you already own some of the products contained in the bundle, purchasing the bundle will allow you to &quot;complete the set&quot;, paying only for the products you don't already own while still receiving the full bundle discount on each of those products.">
+					BUNDLE					<span class="bundle_label_tooltip">(?)</span>
+				</span>
+					</h2>
+
+		
+		<p class="package_contents package_contents_collapsed">
+						<b>Includes 27 items:</b>
+			<a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/4520500/Puzzle/">Puzzle</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232290/Puzzle_Algae/">Puzzle Algae</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061570/Puzzle_Butterflies/">Puzzle Butterflies</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061590/Puzzle_Beetles/">Puzzle Beetles</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061650/Puzzle_Crustaceans/">Puzzle Crustaceans</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232210/Puzzle_Dolphins/">Puzzle Dolphins</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061600/Puzzle_Fire/">Puzzle Fire</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5151410/Puzzle_Fireworks/">Puzzle Fireworks</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232240/Puzzle_Jungle/">Puzzle Jungle</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061640/Puzzle_Whales/">Puzzle Whale</a><span class="package_contents_overflow"><a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061640/Puzzle_Whales/">s</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232300/Puzzle_Water_Flowers/">Puzzle Water Flowers</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5151400/Puzzle_Sweets/">Puzzle Sweets</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232220/Puzzle_Stones/">Puzzle Stones</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5151420/Puzzle_Spiders/">Puzzle Spiders</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061610/Puzzle_Snakes/">Puzzle Snakes</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5151440/Puzzle_Shrimps/">Puzzle Shrimps</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061630/Puzzle_Sharks/">Puzzle Sharks</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061580/Puzzle_Scorpions/">Puzzle Scorpions</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232280/Puzzle_Rivers/">Puzzle Rivers</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232260/Puzzle_Rain/">Puzzle Rain</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232310/Puzzle_Penguins/">Puzzle Penguins</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5151450/Puzzle_Nuts/">Puzzle Nuts</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232250/Puzzle_Musical_Instruments/">Puzzle Musical Instruments</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061660/Puzzle_Mollusks/">Puzzle Mollusks</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061620/Puzzle_Marine_Fish/">Puzzle Marine Fish</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5232270/Puzzle_Lakes/">Puzzle Lakes</a>, <a data-panel="{&quot;focusable&quot;:false}"href="https://store.steampowered.com/app/5061340/Puzzle_Wild_Cats/">Puzzle Wild Cats</a><a class="package_contents_show_less" onclick="ToggleShowAllPackageContentsText( event )">Show less</a></span><span class="package_contents_show_more">&hellip; <a class="package_contents_show_more_link" onclick="ToggleShowAllPackageContentsText( event )">Show more</a></span>					</p>
+
+		<div class="game_purchase_action">
+																	<div class="game_purchase_action_bg">
+					<div class="btn_addtocart btn_packageinfo">
+						<a class="btn_blue_steamui btn_medium" href="https://store.steampowered.com/bundle/92330/Puzzle_Bundle/?snr=1_5_9__403">
+							<span>Bundle info</span>
+						</a>
+					</div>
+				</div>
+						<div class="game_purchase_action_bg">
+				<div class="discount_block game_purchase_discount no_discount" data-price-final="13473" data-bundlediscount="0" data-discount="0"><div class="discount_prices"><div class="discount_final_price">$134.73</div></div></div>
+
+				<div class="btn_addtocart">
+																		<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium"
+							   href="javascript:addBundleToCart( 92330);">
+
+								<span>Add to Cart</span>
+
+							</a>
+															</div>
+
+
+								<div class="btn_addtocart btn_packageinfo btn_addtoaccount" style="display: none" data-tooltip-text="This game is available for free to your account.  Click here to add this game to your account.">
+						<span data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_blue_steamui btn_medium" onclick="AddFreeBundle( 92330, &quot;Puzzle Bundle&quot; );">
+							<span>Add to Account</span>
+						</span>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	</div>
+<div id="gameAreaDLCSection" class="game_area_dlc_section">
+
+	<h2 class="gradientbg" aria-label="Content For This Game">Content For This Game<span class="note"><a href="https://store.steampowered.com/dlc/5232310/Puzzle_Penguins/?snr=1_5_9__1061">Browse all <em>(2)</em></a></span></h2>
+
+	
+			<div class="game_area_dlc_list">
+			<form name="add_all_dlc_to_cart" action="https://store.steampowered.com/cart/?snr=1_5_9_" method="POST">
+				<input type="hidden" name="action" value="add_to_cart">
+				<input type="hidden" name="sessionid" value="e7a54354ef9c24e5881da6d9">
+
+				<div class="tableView">
+											<div class="gameDlcBlocks">
+										<a class="game_area_dlc_row  odd ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_5447950"
+						href="https://store.steampowered.com/app/5447950/Puzzle_Penguins_Soundtrack/?snr=1_5_9__405"
+						 data-ds-appid="5447950" data-ds-itemkey="App_5447950" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:5447950,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														Puzzle Penguins Soundtrack						</div>
+
+						<div class="game_area_dlc_price">
+																																		$4.99																														</div>
+													<input type="hidden" name="subid[]" value="1880095">
+												</a>
+											<a class="game_area_dlc_row  even ds_collapse_flag ds_collapse_flag_tiny" id="dlc_row_5454240"
+						href="https://store.steampowered.com/app/5454240/Puzzle_Penguins_Artbook/?snr=1_5_9__405"
+						 data-ds-appid="5454240" data-ds-itemkey="App_5454240" data-ds-tagids="[492,597]" onmouseover="GameHover( this, event, 'global_hover', {&quot;type&quot;:&quot;app&quot;,&quot;id&quot;:5454240,&quot;public&quot;:1,&quot;v6&quot;:1} );" onmouseout="HideGameHover( this, event, 'global_hover' )"						data-ds-steam-deck-compat-handled="true"
+					>
+						
+						<div class="game_area_dlc_name">
+														Puzzle Penguins Artbook						</div>
+
+						<div class="game_area_dlc_price">
+																																		$4.99																														</div>
+													<input type="hidden" name="subid[]" value="1882151">
+												</a>
+						
+																										<div id="dlc_purchase_action" class="game_purchase_action game_purchase_action_bg"
+							     style="">
+								<div class="game_purchase_price price">
+									$9.98								</div>
+								<div class="btn_addtocart">
+
+																			<a class="btn_green_steamui btn_medium" href="javascript:addAllDlcToCart();">
+											<span>Add all DLC to Cart</span>
+										</a>
+									
+								</div>
+							</div>
+																	</div>
+							
+			</div> <!-- tableView -->
+
+			<div style="clear: inline-end;"></div>
+
+			</form>
+		</div>
+	
+	</div>
+
+												
+					</div>
+					<!-- game_area_purchase -->
+
+					
+											<div id="bannerCommunity" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="window.location='https://steamcommunity.com/app/5232310'">
+							<div class="responsive_banner_link_title responsive_chevron_right">View Community Hub</div>
+						</div>
+					
+					<div class="purchase_area_spacer">&nbsp;</div>
+
+					
+					
+					
+																		
+
+					<div data-featuretarget="events-row"></div>
+				
+								
+				
+				
+
+
+								<div id="contentForThisGame_ctn">
+				</div>
+									<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="aboutThisGame" class="game_page_autocollapse" style="max-height: 850px;">
+						<div id="game_area_description" class="game_area_description">
+							<h2>About This Game</h2>
+							<p class="bb_paragraph" >Puzzle Penguins is an engaging puzzle game featuring colorful images of various penguin species. Piece together scenes of penguins swimming, resting on ice floes, caring for their chicks, and traveling across snowy landscapes.</p><p class="bb_paragraph" >As you progress through the levels, the number of puzzle pieces increases, making the experience both more challenging and more rewarding. The **gradually increasing difficulty** helps sharpen attention, memory, and logical thinking skills by presenting progressively tougher challenges.</p><p class="bb_paragraph" >**Game Features:**</p><p class="bb_paragraph" >* Colorful images of various penguin species.</p><p class="bb_paragraph" >* Progressive difficulty levels.</p><p class="bb_paragraph" >* Increasing number of pieces with each level.</p><p class="bb_paragraph" >* Simple and intuitive controls.</p><p class="bb_paragraph" >* Develops memory, attention, and logical thinking.</p><p class="bb_paragraph" >* Calm and relaxing gameplay.</p><p class="bb_paragraph" >* Suitable for both children and adults.</p><p class="bb_paragraph" >Assemble all the penguin images, beat every level, and immerse yourself in the amazing world of these unique birds with Puzzle Penguins!</p>						</div>
+					</div>
+					<div class="game_page_autocollapse">
+		<div id="game_area_content_descriptors" class="game_area_description">
+			<h2>AI Generated Content Disclosure</h2>
+			<p>The developers describe how their game uses AI Generated Content like this:</p>
+			<p><i>
+					Help in creating images				</i>
+			</p>
+					</div>
+	</div>
+	
+				
+				
+					<div class="game_page_autocollapse sys_req" style="max-height: 300px;">
+		<h2>System Requirements</h2>
+				<div class="sysreq_contents">
+							<div class="game_area_sys_req sysreq_content active" data-os="win">
+											<div class="game_area_sys_req_leftCol">
+							<ul>
+								<strong>Minimum:</strong><br><ul class="bb_ul"><li><strong>OS *:</strong> Windows 10, Windows 8, Windows 7 32-bit<br></li><li><strong>Processor:</strong> Quad-core Intel or AMD processor, 2.5 GHz or faster<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 2 Gb<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>							</ul>
+						</div>
+																<div class="game_area_sys_req_rightCol">
+							<ul>
+								<strong>Recommended:</strong><br><ul class="bb_ul"><li><strong>OS *:</strong> Windows 10, Windows 8, Windows 7 32-bit<br></li><li><strong>Processor:</strong> Quad-core Intel or AMD processor, 2.5 GHz or faster<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 2 Gb<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 1 GB available space</li></ul>							</ul>
+						</div>
+										<div style="clear: both;"></div>
+
+											<div class="game_area_sys_req_note">
+							<strong>*</strong>
+							Starting January 1st, 2024, the Steam Client will only support Windows 10 and later versions.						</div>
+									</div>
+					</div>
+	</div>
+	<script type="text/javascript">
+		$J( function() {
+			var $Tabs = $J('.sysreq_tab');
+			var $Content = $J('.sysreq_content');
+
+			$Tabs.click( function() {
+				var $Tab = $J(this);
+				$Tabs.removeClass('active');
+				$Tab.addClass('active');
+
+				$Content.removeClass('active');
+				$Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+				$Content.trigger('gamepage_autocollapse_expand');
+			});
+		} );
+	</script>
+
+				
+								
+				</div>
+
+			<div class="clear_both" style="clear: both;"></div>
+		</div>
+
+		<div class="related_items_ctn">
+			<div class="page_content game_description_column ">
+				
+				
+				
+				
+				<div  data-featuretarget="storeitems-carousel" data-props="{&quot;title&quot;:&quot;More like Puzzle Penguins&quot;,&quot;seeAllLink&quot;:&quot;https://store.steampowered.com/recommended/morelike/app/5232310/?snr=1_5_9__300&quot;,&quot;appIDs&quot;:[3219030,4019220,4656000,1478500,4001890,2929250,2537590,2060160,499170,1190970,1118520,291550,2185060,703080,3727090,4421010,5228920,2198150,2968420,4199960,2495100,3375110,3552140,1657630,4992070,728880,1629520,5117550,322170,4197610],&quot;navKey&quot;:&quot;more_like_this_carousel&quot;,&quot;sortOrder&quot;:&quot;shuffle&quot;,&quot;scorePenaltyIfOwned&quot;:5,&quot;bFullWidth&quot;:false}"></div>
+				<div id="responsive_apppage_reviewblock_ctn" class="rightcol game_meta_data"></div>
+
+				
+				<div class="steam_curators_block block responsive_apppage_reviewblock">
+			<div class="block_header">
+				<div class="right"><a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=5232310&snr=1_5_9__top-curators">View all</a></div>
+				<h2>What Curators Say</h2>
+				<div class="no_curators_followed">
+					1 Curator has reviewed this product. Click <a href="https://store.steampowered.com/curators/curatorsreviewing/?appid=5232310&snr=1_5_9__top-curators">here</a> to see them.				</div>
+			</div>
+		</div>
+		
+
+			</div>
+		</div>
+
+
+		<div class="review_ctn">
+			<div class="page_content">
+
+				<div id="app_reviews_hash" class="app_reviews_area">
+							<div class="" data-featuretarget="appreviews" data-props="{&quot;appid&quot;:5232310,&quot;app_release_date&quot;:&quot;1792822870&quot;,&quot;appname&quot;:&quot;Puzzle Penguins&quot;,&quot;steamworks_appid&quot;:5232310,&quot;summary_options&quot;:{&quot;bHasAnyReviews&quot;:false,&quot;eUserReviewScorePreference&quot;:0,&quot;bCanManageReviewBombs&quot;:false,&quot;bCanEditApp&quot;:false,&quot;bHasOwnReview&quot;:false}}"></div>
+						</div>
+			</div>
+		</div>
+
+
+			</div>
+	</div>
+
+</div>
+
+		<div class="hover game_hover" id="global_hover" style="display: none; left: 0; top: 0;">
+			<div class="game_hover_box hover_box">
+				<div class="content" id="global_hover_content">
+				</div>
+			</div>
+			<div class="hover_arrow_left"></div>
+			<div class="hover_arrow_right"></div>
+		</div>
+<div id="EmbedModal"  style="display: none">
+	<div id="widget_create">
+		<p>You can use this widget-maker to generate a bit of HTML that can be embedded in your website to easily allow customers to purchase this game on Steam.</p>
+
+				<p class="small">Enter up to 375 characters to add a description to your widget:</p>
+		<div class="app_embed_dialog_description">
+			<textarea name="w_text" placeholder="This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy!" maxlength="375"></textarea>
+		</div>
+
+		<div class="buttoncontainer">
+			<a class="btnv6_blue_hoverfade btn_medium " href="#" onclick="CreateWidget(5232310); return false;"><span>Create widget</span></a>
+		</div>
+	</div>
+	<div id="widget_finished" style="display: none;">
+		<div id="widget_container"></div>
+
+		<p class="small">Copy and paste the HTML below into your website to make the above widget appear</p>
+		<textarea id="widget_code" style=""></textarea>
+	</div>
+
+</div>
+
+	<div id="app_tagging_modal" class="app_tag_modal nologin" style="display: none;">
+		<div class="app_tag_modal_content">
+			<div class="app_tag_modal_seperator"></div>
+			<div class="app_tag_modal_left">
+				<h2>Popular user-defined tags for this product:<span class="app_tag_modal_tooltip" data-tooltip-text="These are tags applied to the product by the most users.  You can click a tag to find other products with that tag applied.  Or, you can hit the plus symbol for any existing tags to increase that tag's popularity on this product.">(?)</span></h2>
+				<div class="app_tags popular_tags">
+				</div>
+			</div>
+			<div class="app_tag_modal_right">
+									<h2>Sign In</h2>
+					<p>Sign in to add your own tags to this product.</p>
+					<p>
+						<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/5232310">
+							<span>Sign In</span>
+						</a>
+					</p>
+							</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$J( function() {
+			InitAppTagModal( 5232310,
+				[{"tagid":597,"name":"Casual","count":65,"browseable":true},{"tagid":492,"name":"Indie","count":44,"browseable":true},{"tagid":4182,"name":"Singleplayer","count":39,"browseable":true},{"tagid":1664,"name":"Puzzle","count":36,"browseable":true},{"tagid":5350,"name":"Family Friendly","count":33,"browseable":true},{"tagid":9626,"name":"Animals","count":30,"browseable":true},{"tagid":6129,"name":"Logic","count":22,"browseable":true},{"tagid":30358,"name":"Nature","count":20,"browseable":true},{"tagid":4305,"name":"Colorful","count":18,"browseable":true}],
+				[],
+				"1_5_9__410",
+				"1_5_9__411",
+				null,
+				false			);
+
+						if ( typeof GDynamicStore != 'undefined' )
+				GDynamicStore.FixupNamePortion();
+			
+					});
+	</script>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
