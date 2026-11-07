@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Guild of Souls on Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://store.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=YzJgj1FjzW34&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_global.css?v=74peH5tT7Gwq&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/buttons.css?v=BZhNEtESfYSJ&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/store.css?v=x0q56gZkJ3LX&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/styles_linux.css?v=LcZAgwD7_TSW&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/user_reviews.css?v=4Y9yEq8NT1VV&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_game_shared.css?v=nT5MkvCFxFip&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game.css?v=Ixg3mU15sCMr&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_background_shared.css?v=QdtB2XtIVYaK&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/recommended.css?v=nYH-OD7CvrVG&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/user_reviews_rewards.css?v=nDJVyLGQ1XMI&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/apphub.css?v=ieeWyHhqrM5C&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/ui-lightness/jquery-ui-1.7.2.custom.css?v=qgq7mHqEwLbE&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game_mob.css?v=CTwny5wDcEg7&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=yDhbieTgQ-uc&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=NXam5zydzNu8&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=a9q1REOJMDBo&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=LKHHGyvATtqM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=lqbABc7pOZZC&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/main.js?v=VXExFbFD9rs7&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js?v=7IbaKUfZfESM&amp;l=english&amp;_cdn=fastly"></script>
+
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				$J.data( document, 'x_readytime', new Date().getTime() );
+				$J.data( document, 'x_oldref', GetNavCookie() );
+				SetupTooltips( { tooltipCSSClass: 'store_tooltip'  } );
+		});
+		</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/gamehighlightplayer.js?v=mdJgU3gDKmis&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/user_reviews.js?v=WeNgYWdq8VoL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/app_tagging.js?v=X8GLJ7ITdwu4&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/game.js?v=3ayU8zTvznsI&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.min.js?v=mSfqk1QKKgiz&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.min.js?v=MeIf0YViALgL&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.min.js?v=CIECDYHJjBgN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.min.js?v=laPWW88ZIIHe&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/dselect.js?v=xOLWzo6KWkKr&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-ui-1.9.2.js?v=wxKVOzU-zSuN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=asNZNxt9kVQn&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="Build a guild of heroes and play them all, inspired by classic MMOs. Swap between your own characters mid-fight, fill dungeons and 40-hero raids with them, and master 40 classes in tab-target combat. 24 professions, an auction house and a Chaosborn roguelike endgame class. Solo or 1-5 player co-op.">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Guild of Souls on Steam">
+					<meta property="twitter:title" content="Guild of Souls on Steam">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:url" content="https://store.steampowered.com/app/5338720/Guild_of_Souls/">
+					<meta property="og:description" content="Build a guild of heroes and play them all, inspired by classic MMOs. Swap between your own characters mid-fight, fill dungeons and 40-hero raids with them, and master 40 classes in tab-target combat. 24 professions, an auction house and a Chaosborn roguelike endgame class. Solo or 1-5 player co-op.">
+					<meta property="twitter:description" content="Build a guild of heroes and play them all, inspired by classic MMOs. Swap between your own characters mid-fight, fill dungeons and 40-hero raids with them, and master 40 classes in tab-target combat. 24 professions, an auction house and a Chaosborn roguelike endgame class. Solo or 1-5 player co-op.">
+			
+			<link rel="canonical" href="https://store.steampowered.com/app/5338720/Guild_of_Souls/">
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/a0106c99e346960212ae2718c59339bd53a96a74/capsule_616x353.jpg?t=1793753207">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/a0106c99e346960212ae2718c59339bd53a96a74/capsule_616x353.jpg?t=1793753207">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/a0106c99e346960212ae2718c59339bd53a96a74/capsule_616x353.jpg?t=1793753207" />
+				
+	
+	
+	
+	
+	</head>
+<body class="v6 app game_bg menu_background_overlap application widestore v7menu responsive_page " >
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com/login/?redir=app%2F5338720%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">
+									Sign in								</a>
+															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-responsive-menu">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-responsive-menu">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-responsive-menu">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-responsive-menu">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-responsive-menu">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-responsive-menu">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/footerLogo_valve_new.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/?snr=1_5_9__global-responsive-menu" target="_blank">Refunds</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_5_9__global-responsive-menu" target="_blank">Cookies</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+															<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+					<div class="responsive_header_react_target" data-featuretarget="store-menu-responsive-search"><div class="responsive_header_react_placeholder"></div></div>				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/?snr=1_5_9__global-header" aria-label="Link to the Steam Homepage">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="144.5" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-header">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-header">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/wishlist/?snr=1_5_9__global-header">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-header">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-header">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-header">
+						Charts											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=app%2F5338720%2F%3Fl%3Denglish&redir_ssl=1&snr=1_5_9__global-header">sign in</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">
+											简体中文 (Simplified Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">
+											繁體中文 (Traditional Chinese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">
+											日本語 (Japanese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">
+											한국어 (Korean)																					</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">
+											ไทย (Thai)																					</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">
+											Bahasa Indonesia (Indonesian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=malay" onclick="ChangeLanguage( 'malay' ); return false;">
+											Bahasa Melayu (Malay)																							<span class="language_beta">BETA</span>
+																					</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">
+											Български (Bulgarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">
+											Čeština (Czech)																					</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">
+											Dansk (Danish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">
+											Deutsch (German)																					</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">
+											Español - España (Spanish - Spain)																					</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">
+											Español - Latinoamérica (Spanish - Latin America)																					</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">
+											Ελληνικά (Greek)																					</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">
+											Français (French)																					</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">
+											Italiano (Italian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">
+											Magyar (Hungarian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">
+											Nederlands (Dutch)																					</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">
+											Norsk (Norwegian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">
+											Polski (Polish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">
+											Português (Portuguese - Portugal)																					</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">
+											Português - Brasil (Portuguese - Brazil)																					</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">
+											Română (Romanian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">
+											Русский (Russian)																					</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">
+											Suomi (Finnish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">
+											Svenska (Swedish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">
+											Türkçe (Turkish)																					</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">
+											Tiếng Việt (Vietnamese)																					</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">
+											Українська (Ukrainian)																					</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<div class="StoreMenuLoadingPlaceholder" data-featuretarget="store-menu-v7"><div class="PlaceholderInner"></div></div><div id="responsive_store_nav_ctn"></div><div id="responsive_store_nav_overlay" style="display:none"><div id="responsive_store_nav_overlay_ctn"></div><div id="responsive_store_nav_overlay_bottom"></div></div><div id="responsive_store_search_overlay" style="display:none"></div><div data-cart-banner-spot="1"></div>
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true,&quot;navKey&quot;:&quot;responsive_page_template_content&quot;}" >
+
+			<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1794019070,&quot;PAGE_TIMESTAMP&quot;:1794056568,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;linux&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;NOW&quot;:1794056568,&quot;SUPPORT_BASE_URL&quot;:&quot;https:\/\/steamsupport.valvesoftware.com\/&quot;,&quot;SNR&quot;:&quot;1_5_9_&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;US&quot;,&quot;excluded_content_descriptors&quot;:[3,4]}" data-hwinfo="{&quot;bSteamOS&quot;:false,&quot;bSteamDeck&quot;:false,&quot;bSteamMachine&quot;:false,&quot;bSteamFrame&quot;:false}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-store_page_asset_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/%s?t=1793753207&quot;" data-store_page_extra_assets_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/%s?t=1793753207&quot;" data-store_page_extra_assets_map="{&quot;extras\/02-forty-hero-classes&quot;:[{&quot;urlPart&quot;:&quot;extras\/f52f2c6c118400158e1c81c851b34e7a.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/f52f2c6c118400158e1c81c851b34e7a.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/f52f2c6c118400158e1c81c851b34e7a.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;}],&quot;extras\/01-your-heroes-your-party&quot;:[{&quot;urlPart&quot;:&quot;extras\/a49f6c0084e8933e213132b568cb1143.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;720&quot;,&quot;height&quot;:&quot;404&quot;},{&quot;urlPart&quot;:&quot;extras\/a49f6c0084e8933e213132b568cb1143.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;720&quot;,&quot;height&quot;:&quot;404&quot;},{&quot;urlPart&quot;:&quot;extras\/a49f6c0084e8933e213132b568cb1143.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;720&quot;,&quot;height&quot;:&quot;404&quot;}],&quot;extras\/04-gather-craft-equip&quot;:[{&quot;urlPart&quot;:&quot;extras\/3c0fa5d9e4f549317fbc70371b01c5c7.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;780&quot;,&quot;height&quot;:&quot;520&quot;},{&quot;urlPart&quot;:&quot;extras\/3c0fa5d9e4f549317fbc70371b01c5c7.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;780&quot;,&quot;height&quot;:&quot;520&quot;},{&quot;urlPart&quot;:&quot;extras\/3c0fa5d9e4f549317fbc70371b01c5c7.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;780&quot;,&quot;height&quot;:&quot;520&quot;}],&quot;extras\/06-dungeons-and-raids&quot;:[{&quot;urlPart&quot;:&quot;extras\/0bd9d2f50183767e0bfb0e8879f8fad0.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/0bd9d2f50183767e0bfb0e8879f8fad0.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/0bd9d2f50183767e0bfb0e8879f8fad0.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;}],&quot;extras\/03-train-while-afk&quot;:[{&quot;urlPart&quot;:&quot;extras\/ccda1cc295c82cd16e588f1cf4fc9906.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;780&quot;,&quot;height&quot;:&quot;520&quot;},{&quot;urlPart&quot;:&quot;extras\/ccda1cc295c82cd16e588f1cf4fc9906.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;780&quot;,&quot;height&quot;:&quot;520&quot;},{&quot;urlPart&quot;:&quot;extras\/ccda1cc295c82cd16e588f1cf4fc9906.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;780&quot;,&quot;height&quot;:&quot;520&quot;}],&quot;extras\/05-auctions-and-mail&quot;:[{&quot;urlPart&quot;:&quot;extras\/38cb7fbf79249b42ace01ba204491a1d.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;780&quot;,&quot;height&quot;:&quot;520&quot;},{&quot;urlPart&quot;:&quot;extras\/38cb7fbf79249b42ace01ba204491a1d.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;780&quot;,&quot;height&quot;:&quot;520&quot;},{&quot;urlPart&quot;:&quot;extras\/38cb7fbf79249b42ace01ba204491a1d.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;780&quot;,&quot;height&quot;:&quot;520&quot;}],&quot;extras\/07-explore-together&quot;:[{&quot;urlPart&quot;:&quot;extras\/1ac42414083bdaf1c8ec5b9986a9b3f7.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/1ac42414083bdaf1c8ec5b9986a9b3f7.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;},{&quot;urlPart&quot;:&quot;extras\/1ac42414083bdaf1c8ec5b9986a9b3f7.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;616&quot;,&quot;height&quot;:&quot;346&quot;}],&quot;extras\/02-dungeons-with-your-party&quot;:[{&quot;urlPart&quot;:&quot;extras\/225af83759a46b7373be1b23e4be9eca.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;520&quot;,&quot;height&quot;:&quot;292&quot;},{&quot;urlPart&quot;:&quot;extras\/225af83759a46b7373be1b23e4be9eca.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;520&quot;,&quot;height&quot;:&quot;292&quot;},{&quot;urlPart&quot;:&quot;extras\/225af83759a46b7373be1b23e4be9eca.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;520&quot;,&quot;height&quot;:&quot;292&quot;}],&quot;extras\/04-awaken-as-chaosborn&quot;:[{&quot;urlPart&quot;:&quot;extras\/46dfbdd0163981c191e609165eeae670.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;520&quot;,&quot;height&quot;:&quot;292&quot;},{&quot;urlPart&quot;:&quot;extras\/46dfbdd0163981c191e609165eeae670.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;520&quot;,&quot;height&quot;:&quot;292&quot;},{&quot;urlPart&quot;:&quot;extras\/46dfbdd0163981c191e609165eeae670.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;520&quot;,&quot;height&quot;:&quot;292&quot;}],&quot;extras\/03-raids-up-to-forty&quot;:[{&quot;urlPart&quot;:&quot;extras\/45eecebc207d699ed6ea1c39fa59f9d0.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;480&quot;,&quot;height&quot;:&quot;270&quot;},{&quot;urlPart&quot;:&quot;extras\/45eecebc207d699ed6ea1c39fa59f9d0.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;480&quot;,&quot;height&quot;:&quot;270&quot;},{&quot;urlPart&quot;:&quot;extras\/45eecebc207d699ed6ea1c39fa59f9d0.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;480&quot;,&quot;height&quot;:&quot;270&quot;}],&quot;extras\/01-play-your-whole-guild&quot;:[{&quot;urlPart&quot;:&quot;extras\/c6afe06edf94d370b7e53c4b47241ab4.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;440&quot;,&quot;height&quot;:&quot;248&quot;},{&quot;urlPart&quot;:&quot;extras\/c6afe06edf94d370b7e53c4b47241ab4.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;440&quot;,&quot;height&quot;:&quot;248&quot;},{&quot;urlPart&quot;:&quot;extras\/c6afe06edf94d370b7e53c4b47241ab4.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;440&quot;,&quot;height&quot;:&quot;248&quot;}],&quot;extras\/05-ride-together&quot;:[{&quot;urlPart&quot;:&quot;extras\/82aea49ded71973e5214bb15c37f43e2.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;520&quot;,&quot;height&quot;:&quot;292&quot;},{&quot;urlPart&quot;:&quot;extras\/82aea49ded71973e5214bb15c37f43e2.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;520&quot;,&quot;height&quot;:&quot;292&quot;},{&quot;urlPart&quot;:&quot;extras\/82aea49ded71973e5214bb15c37f43e2.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;520&quot;,&quot;height&quot;:&quot;292&quot;}],&quot;extras\/06-craft-and-trade&quot;:[{&quot;urlPart&quot;:&quot;extras\/fc79ba4cc7e8c9881cb517a7f88e13cb.poster.avif&quot;,&quot;extension&quot;:&quot;poster.avif&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;640&quot;,&quot;height&quot;:&quot;360&quot;},{&quot;urlPart&quot;:&quot;extras\/fc79ba4cc7e8c9881cb517a7f88e13cb.mp4&quot;,&quot;extension&quot;:&quot;mp4&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;640&quot;,&quot;height&quot;:&quot;360&quot;},{&quot;urlPart&quot;:&quot;extras\/fc79ba4cc7e8c9881cb517a7f88e13cb.webm&quot;,&quot;extension&quot;:&quot;webm&quot;,&quot;alt_text&quot;:null,&quot;urlPartBig&quot;:null,&quot;width&quot;:&quot;640&quot;,&quot;height&quot;:&quot;360&quot;}]}" data-hardwarecompatibility="{&quot;appid&quot;:5338720,&quot;resolved_category&quot;:0,&quot;resolved_items&quot;:[],&quot;steam_deck_blog_url&quot;:&quot;&quot;,&quot;search_id&quot;:null,&quot;steamos_resolved_category&quot;:0,&quot;steamos_resolved_items&quot;:[],&quot;machine_resolved_category&quot;:0,&quot;machine_resolved_items&quot;:[],&quot;frame_resolved_category&quot;:0,&quot;frame_resolved_items&quot;:[]}" data-appname="&quot;Guild of Souls&quot;" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:{&quot;domain&quot;:&quot;store.steampowered.com&quot;,&quot;controller&quot;:&quot;direct-navigation&quot;,&quot;method&quot;:&quot;&quot;,&quot;submethod&quot;:&quot;&quot;,&quot;feature&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;countrycode&quot;:&quot;&quot;,&quot;webkey&quot;:null,&quot;is_client&quot;:false,&quot;curator_data&quot;:null,&quot;is_likely_bot&quot;:false,&quot;is_utm&quot;:false},&quot;wishlist_item_count&quot;:0}"></div><div id="application_root"></div><script>window.g_wapit="";</script><link href="https://store.fastly.steamstatic.com/public/css/applications/store/main.css?v=WeGIkJqN9Dw8&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">globalThis.CLSTAMP = "11214538";</script>
+<script type="module" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js?contenthash=CEU9gv_i"></script>
+<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_Languages = ["english"];
+	var g_sessionID = "27877499e7c49c25bbb041d0";
+	var g_ServerTime = 1794056568;
+	var g_bUseNewCartAPI = true;
+
+			$J( InitMiniprofileHovers( 'https%3A%2F%2Fstore.steampowered.com%2F' ) );
+	
+	
+	if ( typeof GStoreItemData != 'undefined' )
+	{
+		GStoreItemData.AddNavParams({
+			__page_default: "1_5_9_",
+			__page_default_obj: {"domain":"store.steampowered.com","controller":"application","method":"app","submethod":"","feature":null,"depth":null,"countrycode":"US","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":null},
+			__originating_obj: {"domain":"store.steampowered.com","controller":"direct-navigation","method":"","submethod":"","feature":"","depth":0,"countrycode":"","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":false},
+			storemenu_recommendedtags: "1_5_9__17"		});
+	}
+
+	if ( typeof GDynamicStore != 'undefined' )
+	{
+		GDynamicStore.Init(0, false, "", {"primary_language":null,"secondary_languages":null,"platform_windows":null,"platform_mac":null,"platform_linux":null,"timestamp_updated":null,"hide_store_broadcast":null,"review_score_preference":null,"timestamp_content_descriptor_preferences_updated":null,"provide_deck_feedback":null,"additional_languages":null,"game_frame_rate_reporting":null,"disable_microtrailers":null,"disable_animated_marketing":null}, 'US',
+			{"bNoDefaultDescriptors":false});
+		GStoreItemData.SetCurrencyFormatter(function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ".", ","); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + "$" + fmt( nValueInCents, bWholeUnitsOnly );});
+		GStoreItemData.SetCurrencyMinPriceIncrement(1);
+	}
+</script>
+
+<script type="text/javascript">
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"39210":{"name":"FINAL FANTASY XIV Online","url_name":"FINAL_FANTASY_XIV_Online","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/39210\/2e45b2f419d0beed57ba1ff1d80a13d31f947d54\/capsule_184x69.jpg?t=1793815364","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[1012195,34459938]},"1203620":{"name":"Enshrouded","url_name":"Enshrouded","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1203620\/8af4416eb10538ba60047c325789ded4c7f02681\/capsule_184x69_alt_assets_2.jpg?t=1792078032","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true},"2402680":{"name":"Dimraeth","url_name":"Dimraeth","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2199\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$21.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2402680\/c89849716df0c45bfe23a28ab36fd8c988c39e14\/capsule_184x69.jpg?t=1790333636","os_windows":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45826650]},"3564740":{"name":"Where Winds Meet","url_name":"Where_Winds_Meet","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3564740\/8ee4ce23171b8704c0a791682b5716e458f1c3be\/capsule_184x69.jpg?t=1792379585","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true,"creator_clan_ids":[45928371]},"306130":{"name":"The Elder Scrolls\u00ae Online","url_name":"The_Elder_Scrolls_Online","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"1999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$19.99<\/div><\/div><\/div>","descids":[1,2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/306130\/6fab2d1598b64e2b39ce9b5693e2fb96182af88f\/capsule_184x69.jpg?t=1792607369","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[33028765,37857637]},"2694490":{"name":"Path of Exile 2","url_name":"Path_of_Exile_2","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[1,2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2694490\/91215cc9bd83bbca27b94c867be19ade46ae9a33\/capsule_184x69.jpg?t=1794003937","os_windows":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[46656122]},"1285190":{"name":"Borderlands 4","url_name":"Borderlands_4","discount_block":"<div class=\"discount_block \" data-price-final=\"3499\" data-bundlediscount=\"0\" data-discount=\"50\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-50%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$69.99<\/div><div class=\"discount_final_price\">$34.99<\/div><\/div><span class=\"discount_aria_label\">50% off. $69.99 normally, discounted to $34.99<\/span><\/div>","descids":[1,2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1285190\/7f4b1a9cbe01d19fdcbf10ef5dce492098ef0ba8\/capsule_184x69.jpg?t=1793396913","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[2428135,33338128]},"2344520":{"name":"Diablo\u00ae IV","url_name":"Diablo_IV","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$49.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2344520\/7086c858ce766d047bf357515805eda229d966b0\/capsule_184x69.jpg?t=1789491624","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[45010423]},"582660":{"name":"Black Desert","url_name":"Black_Desert","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$9.99<\/div><\/div><\/div>","descids":[1,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/582660\/ee187dc9383b5c278a40e5888aa2f6ab7212d527\/capsule_184x69_alt_assets_27.jpg?t=1786645008","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[39862715]},"3669870":{"name":"CONTROL Resonant","url_name":"CONTROL_Resonant","discount_block":"<div class=\"discount_block \" data-price-final=\"4799\" data-bundlediscount=\"0\" data-discount=\"20\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-20%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$59.99<\/div><div class=\"discount_final_price\">$47.99<\/div><\/div><span class=\"discount_aria_label\">20% off. $59.99 normally, discounted to $47.99<\/span><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3669870\/867a73afa5f21c28aaa14e9b0a4d895c540d4a0c\/capsule_184x69.jpg?t=1793357289","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[34087437]},"1374490":{"name":"RuneScape: Dragonwilds","url_name":"RuneScape_Dragonwilds","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1374490\/f58347a40fdb989309b2b738c1176f67447aec11\/capsule_184x69.jpg?t=1793974714","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[6285467,33221272]},"3218230":{"name":"ArcheAge Chronicles","url_name":"ArcheAge_Chronicles","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/3218230\/ae498bdbfdf5498ce0f2201779531b8c1043db5b\/capsule_184x69.jpg?t=1793752512","os_windows":true,"early_access":true,"recent_early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"4126040":{"name":"Aniimo","url_name":"Aniimo","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4126040\/806a53273c53fc64acc49093c7aade6719fed512\/capsule_184x69.jpg?t=1793258293","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"892970":{"name":"Valheim","url_name":"Valheim","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/892970\/4e8fffa2161ff5bf23058cc72c43ef1032059b5b\/capsule_184x69_alt_assets_6.jpg?t=1791544831","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45971607,32965813]},"2139460":{"name":"Once Human","url_name":"Once_Human","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2139460\/71f8ca678f3eb4f9ac609603cefc02216cabcdb1\/capsule_184x69.jpg?t=1792640697","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45928371]},"2638890":{"name":"Onimusha: Way of the Sword","url_name":"Onimusha_Way_of_the_Sword","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"6999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$69.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2638890\/4aa8bcfcb20173a0250f03ee15473abece15f6b0\/capsule_184x69.jpg?t=1790383151","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[33273264,45494619]},"2054970":{"name":"Dragon's Dogma 2","url_name":"Dragons_Dogma_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[1,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2054970\/capsule_184x69.jpg?t=1791504871","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33273264]},"1599340":{"name":"Lost Ark","url_name":"Lost_Ark","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[1,2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1599340\/capsule_184x69.jpg?t=1763571534","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[39322141]},"1623730":{"name":"Palworld","url_name":"Palworld","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1623730\/0703d5a0658c7aedaa3be4391d6f5cccc1bb6d7a\/capsule_184x69.jpg?t=1790336367","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[41648656]},"2429640":{"name":"Throne and Liberty","url_name":"Throne_and_Liberty","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2429640\/dd04319d8cdd4b7321f8ebdf9c040bad6799d461\/capsule_184x69.jpg?t=1787851215","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[45578698]},"2246340":{"name":"Monster Hunter Wilds","url_name":"Monster_Hunter_Wilds","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"3999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$39.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2246340\/970508d58e4f11f6f9ff3e2921b7eec558a50af8\/capsule_184x69.jpg?t=1787549555","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[33273264,34827959]},"1172710":{"name":"Dune: Awakening","url_name":"Dune_Awakening","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"4999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$49.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1172710\/1122dbb1046ee63f4dc8d7da1355f5d3d31f0fa0\/capsule_184x69.jpg?t=1793636917","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[33090091]},"1974050":{"name":"Torchlight: Infinite","url_name":"Torchlight_Infinite","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1974050\/c0d8fd393e168e075287988295cb6f182cc7a54b\/capsule_184x69.jpg?t=1792033048","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[32962654,46170038]},"2369390":{"name":"Far Cry\u00ae 6","url_name":"Far_Cry_6","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"5999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$59.99<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2369390\/0155dcf6a44343b85e682b48648d95716f92a5c6\/capsule_184x69.jpg?t=1793372616","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true,"creator_clan_ids":[33075774,34004029]},"2221490":{"name":"Tom Clancy\u2019s The Division\u00ae 2","url_name":"Tom_Clancys_The_Division_2","discount_block":"<div class=\"discount_block \" data-price-final=\"749\" data-bundlediscount=\"0\" data-discount=\"75\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-75%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$29.99<\/div><div class=\"discount_final_price\">$7.49<\/div><\/div><span class=\"discount_aria_label\">75% off. $29.99 normally, discounted to $7.49<\/span><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2221490\/35c3db85e3f5640ce47265fcc95af1f4ea04a248\/capsule_184x69_alt_assets_13.jpg?t=1793697026","os_windows":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[33075774,45879347,43517366]},"9900":{"name":"Star Trek Online","url_name":"Star_Trek_Online","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/9900\/875c53fc6e201a4ac59ffe2547494763e1edc96f\/capsule_184x69.jpg?t=1790701552","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"status_string":"Just Updated","creator_clan_ids":[32981301]},"4508340":{"name":"NTE: Neverness to Everness","url_name":"NTE_Neverness_to_Everness","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/4508340\/a97040318ffcf7e02ee7dbe08dd2cd9cb3684f20\/capsule_184x69.jpg?t=1793179644","os_windows":true,"has_live_broadcast":true,"localized":true,"localized_english":true},"2661300":{"name":"Grounded 2","url_name":"Grounded_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"2999\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">$29.99<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2661300\/75319f2fdb61134e51d37337a1beb610f05225a3\/capsule_184x69.jpg?t=1792539149","os_windows":true,"early_access":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[5025,33075928,3090835,45938721]},"2399830":{"name":"ARK: Survival Ascended","url_name":"ARK_Survival_Ascended","discount_block":"<div class=\"discount_block \" data-price-final=\"1124\" data-bundlediscount=\"0\" data-discount=\"75\"><div class=\"discount_pct\" aria-hidden=\"true\" data-tooltip-text=\"Limited-time discount off the regular price\">-75%<\/div><div class=\"discount_prices\" aria-hidden=\"true\"><div class=\"discount_original_price\">$44.99<\/div><div class=\"discount_final_price\">$11.24<\/div><\/div><span class=\"discount_aria_label\">75% off. $44.99 normally, discounted to $11.24<\/span><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2399830\/dce348bb9faef2c1973d04aa8a87bff18e29699b\/capsule_184x69.jpg?t=1793226168","os_windows":true,"early_access":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true,"creator_clan_ids":[32940182,32938488]},"1284210":{"name":"Guild Wars 2\u00ae","url_name":"Guild_Wars_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">Free To Play<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1284210\/d926406bac23005d2d4a2bbe2d6faee3494f0544\/capsule_184x69.jpg?t=1791907845","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"creator_clan_ids":[45804037,45578698]}},"rgPackages":[],"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		recommend_franchise: "1_5_9__316",
+		more_from_franchise: "1_5_9__317",
+		bundle_component_preview: "1_5_9__412",
+		recommended_ranked_played: "1_5_9__862",
+	} );
+
+	// Temporary code to allow React to move focus to elements that are non-React.
+	function MoveFocusToId( id )
+	{
+		$el = $J( id );
+		if ( $el.length )
+		{
+			$el[0].focus();
+		}
+	}
+	window.MoveFocusToId = MoveFocusToId;
+
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+		// on Tablet wait to do this when the window is fully loaded - see OnPageLoaded()
+		ReparentAppLandingPageForSmallScreens();
+
+		
+			var usability = InitUsabilityTracker( "https:\/\/store.steampowered.com\/app\/usabilitytracking\/5338720" );
+		usability.ScheduleUpload();
+	
+		
+			} );
+
+	
+	function OpenTagModal()
+	{
+		ShowAppTagModal( 5338720 );
+	}
+
+</script>
+
+<div class="game_page_background game" data-miniprofile-appid=5338720>
+
+	
+			<div class="banner_open_in_steam">
+			<div data-featuretarget="open-in-desktop-client"></div>
+		</div>
+	
+	
+	<div  data-featuretarget="apppage-store-browse-cache" data-props="{&quot;rgPayloads&quot;:[{&quot;dataRequestStoreItems&quot;:{&quot;include_assets&quot;:null,&quot;include_release&quot;:null,&quot;include_platforms&quot;:null,&quot;include_all_purchase_options&quot;:null,&quot;include_screenshots&quot;:null,&quot;include_trailers&quot;:null,&quot;include_ratings&quot;:true,&quot;include_tag_count&quot;:null,&quot;include_reviews&quot;:null,&quot;include_basic_info&quot;:null,&quot;include_supported_languages&quot;:null,&quot;include_full_description&quot;:null,&quot;include_included_items&quot;:null,&quot;included_item_data_request&quot;:null,&quot;include_assets_without_overrides&quot;:null,&quot;apply_user_filters&quot;:null,&quot;include_links&quot;:null,&quot;include_extra_details&quot;:null,&quot;include_best_purchase_option&quot;:true,&quot;include_optin_registration_tags&quot;:null},&quot;rgStoreItems&quot;:[{&quot;item_type&quot;:0,&quot;id&quot;:5338720,&quot;gid&quot;:null,&quot;success&quot;:1,&quot;visible&quot;:1,&quot;unvailable_for_country_restriction&quot;:null,&quot;name&quot;:&quot;Guild of Souls&quot;,&quot;store_url_path&quot;:&quot;app/5338720/Guild_of_Souls&quot;,&quot;store_url_slug&quot;:&quot;Guild_of_Souls&quot;,&quot;appid&quot;:5338720,&quot;type&quot;:0,&quot;included_types&quot;:[],&quot;included_appids&quot;:[],&quot;is_free&quot;:null,&quot;is_early_access&quot;:null,&quot;related_items&quot;:null,&quot;included_items&quot;:null,&quot;content_descriptorids&quot;:[],&quot;tagids&quot;:[],&quot;categories&quot;:{&quot;supported_player_categoryids&quot;:[2,1,9,38],&quot;feature_categoryids&quot;:[22,68,74,79,23,62],&quot;controller_categoryids&quot;:[]},&quot;reviews&quot;:null,&quot;basic_info&quot;:null,&quot;tags&quot;:[],&quot;assets&quot;:null,&quot;release&quot;:null,&quot;platforms&quot;:null,&quot;game_rating&quot;:null,&quot;is_coming_soon&quot;:null,&quot;best_purchase_option&quot;:{&quot;packageid&quot;:1844672,&quot;bundleid&quot;:null,&quot;purchase_option_name&quot;:&quot;Guild of Souls&quot;,&quot;final_price_in_cents&quot;:&quot;1499&quot;,&quot;original_price_in_cents&quot;:null,&quot;formatted_final_price&quot;:&quot;$14.99&quot;,&quot;formatted_original_price&quot;:null,&quot;discount_pct&quot;:null,&quot;bundle_discount_pct&quot;:null,&quot;is_free_to_keep&quot;:null,&quot;price_before_bundle_discount&quot;:null,&quot;formatted_price_before_bundle_discount&quot;:null,&quot;active_discounts&quot;:[],&quot;user_can_purchase_as_gift&quot;:1,&quot;is_commercial_license&quot;:null,&quot;should_suppress_discount_pct&quot;:null,&quot;hide_discount_pct_for_compliance&quot;:0,&quot;included_game_count&quot;:1,&quot;lowest_recent_price_in_cents&quot;:null,&quot;requires_shipping&quot;:null,&quot;recurrence_info&quot;:null,&quot;free_to_keep_ends&quot;:null,&quot;must_purchase_as_set&quot;:0,&quot;package_group&quot;:&quot;default&quot;,&quot;is_edition&quot;:null,&quot;free_to_keep_base_package&quot;:null,&quot;price_cannot_be_displayed_as_discount&quot;:0,&quot;price_to_base_discount_on&quot;:null,&quot;free_with_master_sub_appid&quot;:null,&quot;formatted_lowest_recent_price&quot;:null,&quot;is_free_license&quot;:null,&quot;combined_discount_pct&quot;:null},&quot;purchase_options&quot;:[],&quot;self_purchase_option&quot;:null,&quot;screenshots&quot;:null,&quot;trailers&quot;:null,&quot;supported_languages&quot;:[],&quot;store_url_path_override&quot;:null,&quot;free_weekend&quot;:null,&quot;unlisted&quot;:null,&quot;game_count&quot;:null,&quot;internal_name&quot;:null,&quot;full_description_bbcode&quot;:null,&quot;is_free_temporarily&quot;:null,&quot;assets_without_overrides&quot;:null,&quot;user_filter_failure&quot;:null,&quot;links&quot;:[],&quot;purchase_description_bbcode&quot;:null,&quot;package_groups&quot;:[],&quot;extra_details&quot;:null,&quot;optin_registration_tags&quot;:[],&quot;purchase_notes&quot;:[]}]}]}"></div><div  data-featuretarget="apppage-gameinterest-cache" data-props="{&quot;appid&quot;:5338720,&quot;userInterest&quot;:{&quot;owned&quot;:null,&quot;wishlist&quot;:null,&quot;ignored&quot;:null,&quot;following&quot;:null,&quot;in_queues&quot;:[],&quot;queues_with_skip&quot;:[],&quot;queue_items_remaining&quot;:[],&quot;queue_items_next_appid&quot;:[],&quot;temporarily_owned&quot;:null,&quot;queues&quot;:[],&quot;ignored_reason&quot;:null,&quot;beta_status&quot;:null}}"></div>
+	<!-- page width wrapper: gutters, max width and the horizontal bleed variable -->
+	<div id="tabletGrid" class="tablet_grid">
+
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+
+		<meta itemprop="image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/96645b74b0b0ce8c61823a22ea18461cb1bab783/capsule_231x87.jpg?t=1793753207">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" style="display: none;">
+				<meta itemprop="priceCurrency" content="USD">
+				<meta itemprop="price" content="14.99">
+							</div>
+		
+		<div class="page_top_area">
+						<div class="game_page_background_ctn game">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/22308bc98bc3db720d319d554db76389c449e0d1/page_bg_raw.jpg?t=1793753207" class="gameColor" alt="">
+				<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/22308bc98bc3db720d319d554db76389c449e0d1/page_bg_raw.jpg?t=1793753207" class="gameTexture" alt="">
+			</div>
+
+		<div class="page_title_area game_title_area page_content" data-gpnav="columns">
+			<div class="breadcrumbs" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+								<div class="blockbg">
+											<a href="https://store.steampowered.com/search/?term=&snr=1_5_9__205">All Games</a>
+																					&gt; <a href="https://store.steampowered.com/genre/RPG/?snr=1_5_9__205">RPG Games</a>
+																										&gt; <a href="https://store.steampowered.com/app/5338720/?snr=1_5_9__205"><span itemprop="name">Guild of Souls</span></a>
+									</div>
+				<div style="clear: inline-start;"></div>
+							</div>
+						
+
+<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+		                      <div class="apphub_OtherSiteInfo">
+
+                    
+                <a class="btnv6_blue_hoverfade btn_medium" href="https://steamcommunity.com/app/5338720">
+                    <span>Community Hub</span>
+                </a>
+            </div>
+         		<div class="apphub_AppIcon"><img src="https://shared.akamai.steamstatic.com/community_assets/images/apps/5338720/f2011bc5208a86152059f284a976a31c0be010a5.jpg"><div class="overlay"></div></div>
+		<div id="appHubAppName" class="apphub_AppName" role="heading" aria-level="1">Guild of Souls</div>
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+											</div>
+		<div style="clear: inline-start;"></div>
+
+
+		<div class="block game_media_and_summary_ctn">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+			</script>
+
+			
+			<div class="game_background_glow">
+				
+
+				
+								
+				
+					
+								<div id="page_header_img" class="responsive_page_header_img" style="display: none;">
+					<img style="width:100%;" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/0990e992d7c2b05e222a72a9428958041babfa4e/header.jpg?t=1793753207" alt="Guild of Souls">
+				</div>
+
+				<div class="block_content page_content" id="broadcast">
+
+				
+				</div>
+				<div class="block_content page_content" id="game_highlights" data-panel="{&quot;navKey&quot;:&quot;game_highlights&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+
+				<div class="rightcol" data-panel="{&quot;flow-children&quot;:&quot;column&quot;,&quot;navKey&quot;:&quot;rightcol&quot;}">
+					<div class="glance_ctn">
+												<div id="gameHeaderCtn" class="game_header_ctn">
+							<div id="gameHeaderImageCtn" class="game_header_image_ctn">
+								<img class="game_header_image_full" alt="" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/0990e992d7c2b05e222a72a9428958041babfa4e/header.jpg?t=1793753207">
+
+																<div id="appHubAppName_responsive" style="display: none;" class="apphub_AppName">Guild of Souls</div>
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="appHeaderGridContainer" class="app_header_grid_container" style="display:none">
+
+																			<div class="grid_label">Developer</div>
+										<div class="grid_content">
+											<a href="https://store.steampowered.com/developer/recoilmojo?snr=1_5_9__400">Recoil Mojo</a>										</div>
+																																							<div class="grid_label">Publisher</div>
+											<div class="grid_content">
+												<a href="https://store.steampowered.com/search/?publisher=Mojo%20Games&snr=1_5_9__422">Mojo Games</a>											</div>
+																			
+																			<div class="grid_label grid_date">Released</div>
+										<div class="grid_content grid_date">
+											Oct 28, 2026										</div>
+																	</div>
+							</div>
+															<div class="game_description_snippet">
+									Build a guild of heroes and play them all, inspired by classic MMOs. Swap between your own characters mid-fight, fill dungeons and 40-hero raids with them, and master 40 classes in tab-target combat. 24 professions, an auction house and a Chaosborn roguelike endgame class. Solo or 1-5 player co-op.								</div>
+													</div> 												<div id="glanceMidCtn" class="glance_mid_ctn">
+						<div class="glance_ctn_responsive_left">
+																													<div id="userReviews" class="user_reviews">
+
+									
+																		<a class="user_reviews_summary_row" href="#app_reviews_hash" data-tooltip-html="Need more user reviews to generate a score" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">
+											All Reviews:										</div>
+										<div class="summary column">
+																					<span class="game_review_summary not_enough_reviews" itemprop="description">6 user reviews</span>
+																																	<span class="nonresponsive_hidden responsive_reviewdesc">
+												- Need more user reviews to generate a score											</span>
+
+											<!-- microdata -->
+											<meta itemprop="reviewCount" content="6">
+											<meta itemprop="ratingValue" content="0">
+											<meta itemprop="bestRating" content="10">
+											<meta itemprop="worstRating" content="1">
+																				</div>
+									</a>
+								</div>
+							
+															<div class="release_date">
+									<div class="subtitle column">Release Date:</div>
+									<div class="date">Oct 28, 2026</div>
+								</div>
+							
+																						<div class="dev_row">
+									<div class="subtitle column">Developer:</div>
+									<div class="summary column" id="developers_list">
+										<a href="https://store.steampowered.com/developer/recoilmojo?snr=1_5_9__2000">Recoil Mojo</a>									</div>
+								</div>
+							
+																								<div class="dev_row">
+										<div class="subtitle column">Publisher:</div>
+										<div class="summary column">
+										<a href="https://store.steampowered.com/search/?publisher=Mojo%20Games&snr=1_5_9__422">Mojo Games</a>										</div>
+									</div>
+															
+																				</div>
+
+						<div id="glanceCtnResponsiveRight" class="glance_ctn_responsive_right" data-panel="{&quot;navKey&quot;:&quot;glanceCtnResponsiveRight&quot;,&quot;flow-children&quot;:&quot;column&quot;}" >
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="responsive_block_header">Tags</div>
+									<div class="glance_tags_ctn popular_tags_ctn" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+										<div class="glance_tags_label">Popular user-defined tags for this product:</div>
+										<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="glance_tags popular_tags" data-appid="5338720">
+											<a href="https://store.steampowered.com/tags/en/Action%20RPG/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Action RPG												</a><a href="https://store.steampowered.com/tags/en/RPG/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												RPG												</a><a href="https://store.steampowered.com/tags/en/Open%20World/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Open World												</a><a href="https://store.steampowered.com/tags/en/Crafting/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Crafting												</a><a href="https://store.steampowered.com/tags/en/Action-Adventure/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Action-Adventure												</a><a href="https://store.steampowered.com/tags/en/Adventure/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Adventure												</a><a href="https://store.steampowered.com/tags/en/Action%20Roguelike/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Action Roguelike												</a><a href="https://store.steampowered.com/tags/en/Strategy/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Strategy												</a><a href="https://store.steampowered.com/tags/en/Hack%20and%20Slash/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Hack and Slash												</a><a href="https://store.steampowered.com/tags/en/PvE/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												PvE												</a><a href="https://store.steampowered.com/tags/en/Singleplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Singleplayer												</a><a href="https://store.steampowered.com/tags/en/Online%20Co-Op/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Online Co-Op												</a><a href="https://store.steampowered.com/tags/en/Multiplayer/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Multiplayer												</a><a href="https://store.steampowered.com/tags/en/MMORPG/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												MMORPG												</a><a href="https://store.steampowered.com/tags/en/Co-op/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Co-op												</a><a href="https://store.steampowered.com/tags/en/Choose%20Your%20Own%20Adventure/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Choose Your Own Adventure												</a><a href="https://store.steampowered.com/tags/en/Resource%20Management/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Resource Management												</a><a href="https://store.steampowered.com/tags/en/Combat/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Combat												</a><a href="https://store.steampowered.com/tags/en/Old%20School/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Old School												</a><a href="https://store.steampowered.com/tags/en/Incremental/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Incremental												</a><div class="app_tag add_button" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" onclick="ShowAppTagModal( 5338720 )">+</div>
+										</div>
+									</div>
+																						</div> 																					<div id="reviewsHeader_responsive" style="display: none;" class="responsive_block_header">Reviews</div>
+															<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" id="userReviews_responsive" style="display: none;" class="user_reviews" onclick="window.location='#app_reviews_hash'">
+
+																		<a id="appReviewsAll_responsive" class="user_reviews_summary_row" href="#app_reviews_hash">
+										<div class="subtitle column all">All Reviews:</div>
+										<div class="summary column">
+																					<span class="responsive_reviewdesc_short">
+												<span class="desc_short">All Time:</span>
+																								<span class="game_review_summary not_enough_reviews">6 user reviews</span>
+												()
+											</span>
+																				</div>
+									</a>
+
+																	</div>
+																				</div>
+					</div>
+				</div>
+
+				<div data-panel="{&quot;maintainX&quot;:true,&quot;navKey&quot;:&quot;leftcol&quot;,&quot;flow-children&quot;:&quot;column&quot;}" class="leftcol">
+					<div class="highlight_ctn">
+													<div class="highlight_overflow">
+								<div class="gamehighlight_desktopskeleton">
+									<div class="gamehighlight_desktopskeleton_itemview"></div>
+									<div class="gamehighlight_desktopskeleton_stripitems"></div>
+									<div class="gamehighlight_desktopskeleton_stripscrollbar"></div>
+								</div>
+								<div class="gamehighlight_desktopcarousel" data-featuretarget="gamehighlight-desktopcarousel" data-props="{&quot;appName&quot;:&quot;Guild of Souls&quot;,&quot;trailers&quot;:[{&quot;id&quot;:1,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257490736\/db94b4816eba6697999ac71f67da27ff403b6cd8\/movie_232x130.jpg?t=1793753206&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257490736\/db94b4816eba6697999ac71f67da27ff403b6cd8\/movie_600x337.jpg?t=1793753206&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/5338720\/26923047&quot;,&quot;category&quot;:1,&quot;title&quot;:&quot;Guild of Souls Launch Trailer&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5338720\/26923047\/fac30aa38c609b0c19a834f0c3851cf3d5aa499f\/1793752079\/dash_av1.mpd?t=1793753206&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5338720\/26923047\/fac30aa38c609b0c19a834f0c3851cf3d5aa499f\/1793752079\/dash_h264.mpd?t=1793753206&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5338720\/26923047\/fac30aa38c609b0c19a834f0c3851cf3d5aa499f\/1793752079\/hls_264_master.m3u8?t=1793753206&quot;},{&quot;id&quot;:2,&quot;featured&quot;:true,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257460313\/db94b4816eba6697999ac71f67da27ff403b6cd8\/movie_232x130.jpg?t=1791951631&quot;,&quot;poster&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/257460313\/db94b4816eba6697999ac71f67da27ff403b6cd8\/movie_600x337.jpg?t=1791951631&quot;,&quot;statsURL&quot;:&quot;https:\/\/store.steampowered.com\/app\/trailerstats\/5338720\/1792612101&quot;,&quot;category&quot;:1,&quot;title&quot;:&quot;Guild of Souls Gameplay Trailer&quot;,&quot;dashManifests&quot;:[&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5338720\/1792612101\/f865f88663e5ee9417dd7ea8efe23712af07d273\/1791950106\/dash_av1.mpd?t=1791951631&quot;,&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5338720\/1792612101\/f865f88663e5ee9417dd7ea8efe23712af07d273\/1791950106\/dash_h264.mpd?t=1791951631&quot;],&quot;hlsManifest&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/store_trailers\/5338720\/1792612101\/f865f88663e5ee9417dd7ea8efe23712af07d273\/1791950106\/hls_264_master.m3u8?t=1791951631&quot;}],&quot;screenshots&quot;:[{&quot;name&quot;:&quot;243871c3e6d0acd72c361947e0205d28a23780bf_ss_243871c3e6d0acd72c361947e0205d28a23780bf.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/243871c3e6d0acd72c361947e0205d28a23780bf\/ss_243871c3e6d0acd72c361947e0205d28a23780bf.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/243871c3e6d0acd72c361947e0205d28a23780bf\/ss_243871c3e6d0acd72c361947e0205d28a23780bf.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/243871c3e6d0acd72c361947e0205d28a23780bf\/ss_243871c3e6d0acd72c361947e0205d28a23780bf.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #0&quot;},{&quot;name&quot;:&quot;a7ab6e1584bc98ccb332457ac0cc86fb100d0244_ss_a7ab6e1584bc98ccb332457ac0cc86fb100d0244.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/a7ab6e1584bc98ccb332457ac0cc86fb100d0244\/ss_a7ab6e1584bc98ccb332457ac0cc86fb100d0244.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/a7ab6e1584bc98ccb332457ac0cc86fb100d0244\/ss_a7ab6e1584bc98ccb332457ac0cc86fb100d0244.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/a7ab6e1584bc98ccb332457ac0cc86fb100d0244\/ss_a7ab6e1584bc98ccb332457ac0cc86fb100d0244.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #1&quot;},{&quot;name&quot;:&quot;8cfab81423891b9b157dcc65f479505b4643a3e4_ss_8cfab81423891b9b157dcc65f479505b4643a3e4.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/8cfab81423891b9b157dcc65f479505b4643a3e4\/ss_8cfab81423891b9b157dcc65f479505b4643a3e4.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/8cfab81423891b9b157dcc65f479505b4643a3e4\/ss_8cfab81423891b9b157dcc65f479505b4643a3e4.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/8cfab81423891b9b157dcc65f479505b4643a3e4\/ss_8cfab81423891b9b157dcc65f479505b4643a3e4.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #2&quot;},{&quot;name&quot;:&quot;7d93285440ff78ed8e5dea95126722d8a7828a00_ss_7d93285440ff78ed8e5dea95126722d8a7828a00.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/7d93285440ff78ed8e5dea95126722d8a7828a00\/ss_7d93285440ff78ed8e5dea95126722d8a7828a00.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/7d93285440ff78ed8e5dea95126722d8a7828a00\/ss_7d93285440ff78ed8e5dea95126722d8a7828a00.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/7d93285440ff78ed8e5dea95126722d8a7828a00\/ss_7d93285440ff78ed8e5dea95126722d8a7828a00.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #3&quot;},{&quot;name&quot;:&quot;35120c1ca228916172f200cb3672599e9b6d2dee_ss_35120c1ca228916172f200cb3672599e9b6d2dee.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/35120c1ca228916172f200cb3672599e9b6d2dee\/ss_35120c1ca228916172f200cb3672599e9b6d2dee.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/35120c1ca228916172f200cb3672599e9b6d2dee\/ss_35120c1ca228916172f200cb3672599e9b6d2dee.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/35120c1ca228916172f200cb3672599e9b6d2dee\/ss_35120c1ca228916172f200cb3672599e9b6d2dee.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #4&quot;},{&quot;name&quot;:&quot;2bf36c8bc29c195e206c4257873c8bc42f343c68_ss_2bf36c8bc29c195e206c4257873c8bc42f343c68.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/2bf36c8bc29c195e206c4257873c8bc42f343c68\/ss_2bf36c8bc29c195e206c4257873c8bc42f343c68.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/2bf36c8bc29c195e206c4257873c8bc42f343c68\/ss_2bf36c8bc29c195e206c4257873c8bc42f343c68.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/2bf36c8bc29c195e206c4257873c8bc42f343c68\/ss_2bf36c8bc29c195e206c4257873c8bc42f343c68.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #5&quot;},{&quot;name&quot;:&quot;db10547f1411de2081303ec4fe3401db77967e9d_ss_db10547f1411de2081303ec4fe3401db77967e9d.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/db10547f1411de2081303ec4fe3401db77967e9d\/ss_db10547f1411de2081303ec4fe3401db77967e9d.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/db10547f1411de2081303ec4fe3401db77967e9d\/ss_db10547f1411de2081303ec4fe3401db77967e9d.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/db10547f1411de2081303ec4fe3401db77967e9d\/ss_db10547f1411de2081303ec4fe3401db77967e9d.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #6&quot;},{&quot;name&quot;:&quot;5af689bb1271e4921f7928522e8a76f5b9dacf67_ss_5af689bb1271e4921f7928522e8a76f5b9dacf67.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/5af689bb1271e4921f7928522e8a76f5b9dacf67\/ss_5af689bb1271e4921f7928522e8a76f5b9dacf67.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/5af689bb1271e4921f7928522e8a76f5b9dacf67\/ss_5af689bb1271e4921f7928522e8a76f5b9dacf67.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/5af689bb1271e4921f7928522e8a76f5b9dacf67\/ss_5af689bb1271e4921f7928522e8a76f5b9dacf67.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #7&quot;},{&quot;name&quot;:&quot;b358da338de747a45d8cb1190e80d55440f11d92_ss_b358da338de747a45d8cb1190e80d55440f11d92.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/b358da338de747a45d8cb1190e80d55440f11d92\/ss_b358da338de747a45d8cb1190e80d55440f11d92.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/b358da338de747a45d8cb1190e80d55440f11d92\/ss_b358da338de747a45d8cb1190e80d55440f11d92.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/b358da338de747a45d8cb1190e80d55440f11d92\/ss_b358da338de747a45d8cb1190e80d55440f11d92.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #8&quot;},{&quot;name&quot;:&quot;1c2d902c777172421ace0b75d8d63f144fb98a4f_ss_1c2d902c777172421ace0b75d8d63f144fb98a4f.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1c2d902c777172421ace0b75d8d63f144fb98a4f\/ss_1c2d902c777172421ace0b75d8d63f144fb98a4f.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1c2d902c777172421ace0b75d8d63f144fb98a4f\/ss_1c2d902c777172421ace0b75d8d63f144fb98a4f.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1c2d902c777172421ace0b75d8d63f144fb98a4f\/ss_1c2d902c777172421ace0b75d8d63f144fb98a4f.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #9&quot;},{&quot;name&quot;:&quot;1ecde50013eeba102c0b20bc190b8d4383ae9d81_ss_1ecde50013eeba102c0b20bc190b8d4383ae9d81.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1ecde50013eeba102c0b20bc190b8d4383ae9d81\/ss_1ecde50013eeba102c0b20bc190b8d4383ae9d81.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1ecde50013eeba102c0b20bc190b8d4383ae9d81\/ss_1ecde50013eeba102c0b20bc190b8d4383ae9d81.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1ecde50013eeba102c0b20bc190b8d4383ae9d81\/ss_1ecde50013eeba102c0b20bc190b8d4383ae9d81.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #10&quot;},{&quot;name&quot;:&quot;12854353eaaeac6c107bbfff8162afdcd07acd38_ss_12854353eaaeac6c107bbfff8162afdcd07acd38.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/12854353eaaeac6c107bbfff8162afdcd07acd38\/ss_12854353eaaeac6c107bbfff8162afdcd07acd38.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/12854353eaaeac6c107bbfff8162afdcd07acd38\/ss_12854353eaaeac6c107bbfff8162afdcd07acd38.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/12854353eaaeac6c107bbfff8162afdcd07acd38\/ss_12854353eaaeac6c107bbfff8162afdcd07acd38.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #11&quot;},{&quot;name&quot;:&quot;2191538083def77d84501e2503e1f9d1ec74eeac_ss_2191538083def77d84501e2503e1f9d1ec74eeac.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/2191538083def77d84501e2503e1f9d1ec74eeac\/ss_2191538083def77d84501e2503e1f9d1ec74eeac.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/2191538083def77d84501e2503e1f9d1ec74eeac\/ss_2191538083def77d84501e2503e1f9d1ec74eeac.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/2191538083def77d84501e2503e1f9d1ec74eeac\/ss_2191538083def77d84501e2503e1f9d1ec74eeac.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #12&quot;},{&quot;name&quot;:&quot;98d3daa02d351075e922af41c09932a3d4b6e769_ss_98d3daa02d351075e922af41c09932a3d4b6e769.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/98d3daa02d351075e922af41c09932a3d4b6e769\/ss_98d3daa02d351075e922af41c09932a3d4b6e769.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/98d3daa02d351075e922af41c09932a3d4b6e769\/ss_98d3daa02d351075e922af41c09932a3d4b6e769.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/98d3daa02d351075e922af41c09932a3d4b6e769\/ss_98d3daa02d351075e922af41c09932a3d4b6e769.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #13&quot;},{&quot;name&quot;:&quot;9c683791492b92c1754264faaf5c8562643e4d88_ss_9c683791492b92c1754264faaf5c8562643e4d88.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/9c683791492b92c1754264faaf5c8562643e4d88\/ss_9c683791492b92c1754264faaf5c8562643e4d88.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/9c683791492b92c1754264faaf5c8562643e4d88\/ss_9c683791492b92c1754264faaf5c8562643e4d88.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/9c683791492b92c1754264faaf5c8562643e4d88\/ss_9c683791492b92c1754264faaf5c8562643e4d88.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #14&quot;},{&quot;name&quot;:&quot;1cc154a523bd258c928fea63b70d9f7ae72f307b_ss_1cc154a523bd258c928fea63b70d9f7ae72f307b.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1cc154a523bd258c928fea63b70d9f7ae72f307b\/ss_1cc154a523bd258c928fea63b70d9f7ae72f307b.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1cc154a523bd258c928fea63b70d9f7ae72f307b\/ss_1cc154a523bd258c928fea63b70d9f7ae72f307b.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1cc154a523bd258c928fea63b70d9f7ae72f307b\/ss_1cc154a523bd258c928fea63b70d9f7ae72f307b.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #15&quot;},{&quot;name&quot;:&quot;7230cdabd675d70ce5abd7150aaa7b995ac5027e_ss_7230cdabd675d70ce5abd7150aaa7b995ac5027e.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/7230cdabd675d70ce5abd7150aaa7b995ac5027e\/ss_7230cdabd675d70ce5abd7150aaa7b995ac5027e.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/7230cdabd675d70ce5abd7150aaa7b995ac5027e\/ss_7230cdabd675d70ce5abd7150aaa7b995ac5027e.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/7230cdabd675d70ce5abd7150aaa7b995ac5027e\/ss_7230cdabd675d70ce5abd7150aaa7b995ac5027e.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #16&quot;},{&quot;name&quot;:&quot;5bd6eae6ea2e0b53c5a7c9e56f1add6b3536f506_ss_5bd6eae6ea2e0b53c5a7c9e56f1add6b3536f506.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/5bd6eae6ea2e0b53c5a7c9e56f1add6b3536f506\/ss_5bd6eae6ea2e0b53c5a7c9e56f1add6b3536f506.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/5bd6eae6ea2e0b53c5a7c9e56f1add6b3536f506\/ss_5bd6eae6ea2e0b53c5a7c9e56f1add6b3536f506.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/5bd6eae6ea2e0b53c5a7c9e56f1add6b3536f506\/ss_5bd6eae6ea2e0b53c5a7c9e56f1add6b3536f506.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #17&quot;},{&quot;name&quot;:&quot;50693d8c41ec806c22946c9ffa442151d5531455_ss_50693d8c41ec806c22946c9ffa442151d5531455.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/50693d8c41ec806c22946c9ffa442151d5531455\/ss_50693d8c41ec806c22946c9ffa442151d5531455.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/50693d8c41ec806c22946c9ffa442151d5531455\/ss_50693d8c41ec806c22946c9ffa442151d5531455.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/50693d8c41ec806c22946c9ffa442151d5531455\/ss_50693d8c41ec806c22946c9ffa442151d5531455.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #18&quot;},{&quot;name&quot;:&quot;146c37ecce249551098545de0e4664c273d99a34_ss_146c37ecce249551098545de0e4664c273d99a34.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/146c37ecce249551098545de0e4664c273d99a34\/ss_146c37ecce249551098545de0e4664c273d99a34.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/146c37ecce249551098545de0e4664c273d99a34\/ss_146c37ecce249551098545de0e4664c273d99a34.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/146c37ecce249551098545de0e4664c273d99a34\/ss_146c37ecce249551098545de0e4664c273d99a34.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #19&quot;},{&quot;name&quot;:&quot;ba333d500c9fc6087e327e3d8e8b02719a1b783b_ss_ba333d500c9fc6087e327e3d8e8b02719a1b783b.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/ba333d500c9fc6087e327e3d8e8b02719a1b783b\/ss_ba333d500c9fc6087e327e3d8e8b02719a1b783b.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/ba333d500c9fc6087e327e3d8e8b02719a1b783b\/ss_ba333d500c9fc6087e327e3d8e8b02719a1b783b.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/ba333d500c9fc6087e327e3d8e8b02719a1b783b\/ss_ba333d500c9fc6087e327e3d8e8b02719a1b783b.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #20&quot;},{&quot;name&quot;:&quot;a79f92f8cbd8d15566e99e604c7054f698961a79_ss_a79f92f8cbd8d15566e99e604c7054f698961a79.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/a79f92f8cbd8d15566e99e604c7054f698961a79\/ss_a79f92f8cbd8d15566e99e604c7054f698961a79.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/a79f92f8cbd8d15566e99e604c7054f698961a79\/ss_a79f92f8cbd8d15566e99e604c7054f698961a79.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/a79f92f8cbd8d15566e99e604c7054f698961a79\/ss_a79f92f8cbd8d15566e99e604c7054f698961a79.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #21&quot;},{&quot;name&quot;:&quot;b34f9749d54586c9cb3b0d8bfb9f1088b53ebbe0_ss_b34f9749d54586c9cb3b0d8bfb9f1088b53ebbe0.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/b34f9749d54586c9cb3b0d8bfb9f1088b53ebbe0\/ss_b34f9749d54586c9cb3b0d8bfb9f1088b53ebbe0.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/b34f9749d54586c9cb3b0d8bfb9f1088b53ebbe0\/ss_b34f9749d54586c9cb3b0d8bfb9f1088b53ebbe0.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/b34f9749d54586c9cb3b0d8bfb9f1088b53ebbe0\/ss_b34f9749d54586c9cb3b0d8bfb9f1088b53ebbe0.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #22&quot;},{&quot;name&quot;:&quot;ab4fe566cd6a7b80c3ff6050e57c2aa4dd3fcff3_ss_ab4fe566cd6a7b80c3ff6050e57c2aa4dd3fcff3.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/ab4fe566cd6a7b80c3ff6050e57c2aa4dd3fcff3\/ss_ab4fe566cd6a7b80c3ff6050e57c2aa4dd3fcff3.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/ab4fe566cd6a7b80c3ff6050e57c2aa4dd3fcff3\/ss_ab4fe566cd6a7b80c3ff6050e57c2aa4dd3fcff3.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/ab4fe566cd6a7b80c3ff6050e57c2aa4dd3fcff3\/ss_ab4fe566cd6a7b80c3ff6050e57c2aa4dd3fcff3.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #23&quot;},{&quot;name&quot;:&quot;c12530c17516f3590a75dbe20cbaf2402db3c91f_ss_c12530c17516f3590a75dbe20cbaf2402db3c91f.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/c12530c17516f3590a75dbe20cbaf2402db3c91f\/ss_c12530c17516f3590a75dbe20cbaf2402db3c91f.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/c12530c17516f3590a75dbe20cbaf2402db3c91f\/ss_c12530c17516f3590a75dbe20cbaf2402db3c91f.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/c12530c17516f3590a75dbe20cbaf2402db3c91f\/ss_c12530c17516f3590a75dbe20cbaf2402db3c91f.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #24&quot;},{&quot;name&quot;:&quot;4008b237fd0a3f5926a23e2a1d0fb35de33b020b_ss_4008b237fd0a3f5926a23e2a1d0fb35de33b020b.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/4008b237fd0a3f5926a23e2a1d0fb35de33b020b\/ss_4008b237fd0a3f5926a23e2a1d0fb35de33b020b.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/4008b237fd0a3f5926a23e2a1d0fb35de33b020b\/ss_4008b237fd0a3f5926a23e2a1d0fb35de33b020b.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/4008b237fd0a3f5926a23e2a1d0fb35de33b020b\/ss_4008b237fd0a3f5926a23e2a1d0fb35de33b020b.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #25&quot;},{&quot;name&quot;:&quot;acc948418d7d23b378d1eb2367ae979d3a1aef98_ss_acc948418d7d23b378d1eb2367ae979d3a1aef98.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/acc948418d7d23b378d1eb2367ae979d3a1aef98\/ss_acc948418d7d23b378d1eb2367ae979d3a1aef98.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/acc948418d7d23b378d1eb2367ae979d3a1aef98\/ss_acc948418d7d23b378d1eb2367ae979d3a1aef98.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/acc948418d7d23b378d1eb2367ae979d3a1aef98\/ss_acc948418d7d23b378d1eb2367ae979d3a1aef98.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #26&quot;},{&quot;name&quot;:&quot;b68441f9b8507d9f663f7d9527ecdcbd61c3b3e6_ss_b68441f9b8507d9f663f7d9527ecdcbd61c3b3e6.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/b68441f9b8507d9f663f7d9527ecdcbd61c3b3e6\/ss_b68441f9b8507d9f663f7d9527ecdcbd61c3b3e6.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/b68441f9b8507d9f663f7d9527ecdcbd61c3b3e6\/ss_b68441f9b8507d9f663f7d9527ecdcbd61c3b3e6.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/b68441f9b8507d9f663f7d9527ecdcbd61c3b3e6\/ss_b68441f9b8507d9f663f7d9527ecdcbd61c3b3e6.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #27&quot;},{&quot;name&quot;:&quot;640b0098c2b1e118d2cc33cb498032c4961477cf_ss_640b0098c2b1e118d2cc33cb498032c4961477cf.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/640b0098c2b1e118d2cc33cb498032c4961477cf\/ss_640b0098c2b1e118d2cc33cb498032c4961477cf.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/640b0098c2b1e118d2cc33cb498032c4961477cf\/ss_640b0098c2b1e118d2cc33cb498032c4961477cf.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/640b0098c2b1e118d2cc33cb498032c4961477cf\/ss_640b0098c2b1e118d2cc33cb498032c4961477cf.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #28&quot;},{&quot;name&quot;:&quot;f91df258fbd3c6c69b51d1ec2dcba369d64262b0_ss_f91df258fbd3c6c69b51d1ec2dcba369d64262b0.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/f91df258fbd3c6c69b51d1ec2dcba369d64262b0\/ss_f91df258fbd3c6c69b51d1ec2dcba369d64262b0.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/f91df258fbd3c6c69b51d1ec2dcba369d64262b0\/ss_f91df258fbd3c6c69b51d1ec2dcba369d64262b0.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/f91df258fbd3c6c69b51d1ec2dcba369d64262b0\/ss_f91df258fbd3c6c69b51d1ec2dcba369d64262b0.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #29&quot;},{&quot;name&quot;:&quot;220cc9caa59792b88eff82596ba5f29da4d458fe_ss_220cc9caa59792b88eff82596ba5f29da4d458fe.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/220cc9caa59792b88eff82596ba5f29da4d458fe\/ss_220cc9caa59792b88eff82596ba5f29da4d458fe.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/220cc9caa59792b88eff82596ba5f29da4d458fe\/ss_220cc9caa59792b88eff82596ba5f29da4d458fe.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/220cc9caa59792b88eff82596ba5f29da4d458fe\/ss_220cc9caa59792b88eff82596ba5f29da4d458fe.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #30&quot;},{&quot;name&quot;:&quot;5f945b8c8baf0682b251876c7a3cebd2fe33314f_ss_5f945b8c8baf0682b251876c7a3cebd2fe33314f.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/5f945b8c8baf0682b251876c7a3cebd2fe33314f\/ss_5f945b8c8baf0682b251876c7a3cebd2fe33314f.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/5f945b8c8baf0682b251876c7a3cebd2fe33314f\/ss_5f945b8c8baf0682b251876c7a3cebd2fe33314f.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/5f945b8c8baf0682b251876c7a3cebd2fe33314f\/ss_5f945b8c8baf0682b251876c7a3cebd2fe33314f.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #31&quot;},{&quot;name&quot;:&quot;6463e50e0c1f85101cad35deb7bb54ecd99b449b_ss_6463e50e0c1f85101cad35deb7bb54ecd99b449b.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/6463e50e0c1f85101cad35deb7bb54ecd99b449b\/ss_6463e50e0c1f85101cad35deb7bb54ecd99b449b.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/6463e50e0c1f85101cad35deb7bb54ecd99b449b\/ss_6463e50e0c1f85101cad35deb7bb54ecd99b449b.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/6463e50e0c1f85101cad35deb7bb54ecd99b449b\/ss_6463e50e0c1f85101cad35deb7bb54ecd99b449b.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #32&quot;},{&quot;name&quot;:&quot;a968a98f0909aa9c7d9e7955e7168f0430701e2d_ss_a968a98f0909aa9c7d9e7955e7168f0430701e2d.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/a968a98f0909aa9c7d9e7955e7168f0430701e2d\/ss_a968a98f0909aa9c7d9e7955e7168f0430701e2d.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/a968a98f0909aa9c7d9e7955e7168f0430701e2d\/ss_a968a98f0909aa9c7d9e7955e7168f0430701e2d.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/a968a98f0909aa9c7d9e7955e7168f0430701e2d\/ss_a968a98f0909aa9c7d9e7955e7168f0430701e2d.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #33&quot;},{&quot;name&quot;:&quot;c60b9e96725b61fdaed2bd2cc2bd43968cc0e975_ss_c60b9e96725b61fdaed2bd2cc2bd43968cc0e975.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/c60b9e96725b61fdaed2bd2cc2bd43968cc0e975\/ss_c60b9e96725b61fdaed2bd2cc2bd43968cc0e975.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/c60b9e96725b61fdaed2bd2cc2bd43968cc0e975\/ss_c60b9e96725b61fdaed2bd2cc2bd43968cc0e975.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/c60b9e96725b61fdaed2bd2cc2bd43968cc0e975\/ss_c60b9e96725b61fdaed2bd2cc2bd43968cc0e975.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #34&quot;},{&quot;name&quot;:&quot;ddd08d8e2a0948de01ae7030ef7456ecf4c55d0e_ss_ddd08d8e2a0948de01ae7030ef7456ecf4c55d0e.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/ddd08d8e2a0948de01ae7030ef7456ecf4c55d0e\/ss_ddd08d8e2a0948de01ae7030ef7456ecf4c55d0e.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/ddd08d8e2a0948de01ae7030ef7456ecf4c55d0e\/ss_ddd08d8e2a0948de01ae7030ef7456ecf4c55d0e.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/ddd08d8e2a0948de01ae7030ef7456ecf4c55d0e\/ss_ddd08d8e2a0948de01ae7030ef7456ecf4c55d0e.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #35&quot;},{&quot;name&quot;:&quot;1118d3973ef9756e4b33c47e2a31892dfd8d8205_ss_1118d3973ef9756e4b33c47e2a31892dfd8d8205.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1118d3973ef9756e4b33c47e2a31892dfd8d8205\/ss_1118d3973ef9756e4b33c47e2a31892dfd8d8205.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1118d3973ef9756e4b33c47e2a31892dfd8d8205\/ss_1118d3973ef9756e4b33c47e2a31892dfd8d8205.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/1118d3973ef9756e4b33c47e2a31892dfd8d8205\/ss_1118d3973ef9756e4b33c47e2a31892dfd8d8205.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #36&quot;},{&quot;name&quot;:&quot;e36d72008000bdd73255291f51ab2088bbb5905d_ss_e36d72008000bdd73255291f51ab2088bbb5905d.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/e36d72008000bdd73255291f51ab2088bbb5905d\/ss_e36d72008000bdd73255291f51ab2088bbb5905d.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/e36d72008000bdd73255291f51ab2088bbb5905d\/ss_e36d72008000bdd73255291f51ab2088bbb5905d.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/e36d72008000bdd73255291f51ab2088bbb5905d\/ss_e36d72008000bdd73255291f51ab2088bbb5905d.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #37&quot;},{&quot;name&quot;:&quot;e70ce0e75bf877004a07421ac6567cd62742cc06_ss_e70ce0e75bf877004a07421ac6567cd62742cc06.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/e70ce0e75bf877004a07421ac6567cd62742cc06\/ss_e70ce0e75bf877004a07421ac6567cd62742cc06.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/e70ce0e75bf877004a07421ac6567cd62742cc06\/ss_e70ce0e75bf877004a07421ac6567cd62742cc06.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/e70ce0e75bf877004a07421ac6567cd62742cc06\/ss_e70ce0e75bf877004a07421ac6567cd62742cc06.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #38&quot;},{&quot;name&quot;:&quot;7450905872833aef172472844bac78d089db2931_ss_7450905872833aef172472844bac78d089db2931.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/7450905872833aef172472844bac78d089db2931\/ss_7450905872833aef172472844bac78d089db2931.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/7450905872833aef172472844bac78d089db2931\/ss_7450905872833aef172472844bac78d089db2931.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/7450905872833aef172472844bac78d089db2931\/ss_7450905872833aef172472844bac78d089db2931.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #39&quot;},{&quot;name&quot;:&quot;489b4427bb9f1772a03e48a90fbf5a356686ab2e_ss_489b4427bb9f1772a03e48a90fbf5a356686ab2e.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/489b4427bb9f1772a03e48a90fbf5a356686ab2e\/ss_489b4427bb9f1772a03e48a90fbf5a356686ab2e.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/489b4427bb9f1772a03e48a90fbf5a356686ab2e\/ss_489b4427bb9f1772a03e48a90fbf5a356686ab2e.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/489b4427bb9f1772a03e48a90fbf5a356686ab2e\/ss_489b4427bb9f1772a03e48a90fbf5a356686ab2e.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #40&quot;},{&quot;name&quot;:&quot;dad93ed2fd7a653daa519b6878572d2697d40ccb_ss_dad93ed2fd7a653daa519b6878572d2697d40ccb.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/dad93ed2fd7a653daa519b6878572d2697d40ccb\/ss_dad93ed2fd7a653daa519b6878572d2697d40ccb.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/dad93ed2fd7a653daa519b6878572d2697d40ccb\/ss_dad93ed2fd7a653daa519b6878572d2697d40ccb.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/dad93ed2fd7a653daa519b6878572d2697d40ccb\/ss_dad93ed2fd7a653daa519b6878572d2697d40ccb.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #41&quot;},{&quot;name&quot;:&quot;c380b3c22a106c3d9158c30e0946d4a0da450127_ss_c380b3c22a106c3d9158c30e0946d4a0da450127.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/c380b3c22a106c3d9158c30e0946d4a0da450127\/ss_c380b3c22a106c3d9158c30e0946d4a0da450127.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/c380b3c22a106c3d9158c30e0946d4a0da450127\/ss_c380b3c22a106c3d9158c30e0946d4a0da450127.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/c380b3c22a106c3d9158c30e0946d4a0da450127\/ss_c380b3c22a106c3d9158c30e0946d4a0da450127.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #42&quot;},{&quot;name&quot;:&quot;9db7175c94a22af14a9fe6ca838464a39adc1b27_ss_9db7175c94a22af14a9fe6ca838464a39adc1b27.jpg&quot;,&quot;thumbnail&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/9db7175c94a22af14a9fe6ca838464a39adc1b27\/ss_9db7175c94a22af14a9fe6ca838464a39adc1b27.116x65.jpg?t=1793753207&quot;,&quot;standard&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/9db7175c94a22af14a9fe6ca838464a39adc1b27\/ss_9db7175c94a22af14a9fe6ca838464a39adc1b27.600x338.jpg?t=1793753207&quot;,&quot;full&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/5338720\/9db7175c94a22af14a9fe6ca838464a39adc1b27\/ss_9db7175c94a22af14a9fe6ca838464a39adc1b27.1920x1080.jpg?t=1793753207&quot;,&quot;altText&quot;:&quot;Screenshot #43&quot;}]}"></div>
+							</div>
+											</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			</div>
+
+
+			
+			
+
+			
+		</div>
+
+
+		</div>
+			<div class="queue_and_playtime">
+				<div class="game_background_lighten">
+					<div class="game_background_lighten_border"></div>
+				</div>
+									<div class="queue_overflow_ctn">
+													<div class="queue_ctn">
+																<div id="queueActionsCtn" class="queue_actions_ctn">
+									<p><a href="https://store.steampowered.com/login/?redir=app%2F5338720&snr=1_5_9_">Sign in</a> to add this item to your wishlist, follow it, or mark it as ignored</p>
+																			<div id="shareBtn"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowNavigatorShare()" aria-label="Share"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_share_ios.svg" alt=""></span></a></div>
+																	</div>
+							</div>
+						
+												<div id="rowBtnActions" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;row&quot;}" style="display: none;"></div>
+
+					</div>
+				
+				
+				
+																												
+				
+								
+				<div id="purchaseOptionsContent" class="purchase_options_content" style="display: none;">
+					<!-- game_area_purchase goes here -->
+				</div>
+			</div>
+
+		
+		<div class="page_content middle_page" data-panel="[]" >
+
+				<!-- Right Column -->
+				<div class="rightcol game_meta_data" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+					
+					<div id="responsive_apppage_details_left_ctn"></div>
+
+					<div id="responsive_apppage_details_right_ctn"></div>
+					<div style="clear: both;"></div>
+					
+					<!-- testing a banner on Desktop to open the current page in the desktop Steam client.  When that banner is displayed this section should be hidden. -->
+																		
+
+
+
+
+
+					
+					
+					
+
+												<div class="responsive_block_header responsive_apppage_details_left">Features</div>
+							<div class="block responsive_apppage_details_left" id="category_block">
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="game_area_features_list_ctn">
+									<a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=2&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_singlePlayer.png" alt=""></div><div class="label">Single-player</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=38&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_coop.png" alt=""></div><div class="label">Online Co-op</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=22&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_achievements.png" alt=""></div><div class="label">Steam Achievements</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=23&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_cloud.png" alt=""></div><div class="label">Steam Cloud</div></a><a class="game_area_details_specs_ctn" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" href="https://store.steampowered.com/search/?category2=62&snr=1_5_9__423"><div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_familysharing.png" alt=""></div><div class="label">Family Sharing</div></a>										<div class="game_area_details_specs_ctn learning_about">
+											<div class="icon"><img class="category_icon" src="https://store.fastly.steamstatic.com/public/images/v6/ico/ico_learning_about_game.png"></div>
+											<div class="label">Steam is learning about this game&nbsp;
+											<span class="tooltip" data-tooltip-html="This game is not currently eligible to appear in certain showcases on your Steam Profile, and does not contribute to global Achievement or game collector counts.">
+												<img src="https://store.fastly.steamstatic.com/public/shared/images/ico/icon_questionmark.png" alt="">
+											</span></div>
+
+										</div>
+										
+<div  data-featuretarget="store-sidebar-accessibility-info" data-props="{&quot;bAccessibilityResizableUI&quot;:false,&quot;bAccessibilitySubtitles&quot;:false,&quot;bAccessibilityColorAlternatives&quot;:false,&quot;bAccessibilityCameraComfort&quot;:false,&quot;bAccessibilityBackgroundVolumeControls&quot;:true,&quot;bAccessibilityStereoSound&quot;:false,&quot;bAccessibilitySurroundSound&quot;:false,&quot;bAccessibilityNarratedMenus&quot;:false,&quot;bAccessibilityChatSpeechtoText&quot;:false,&quot;bAccessibilityChatTexttoSpeech&quot;:false,&quot;bAccessibilityPlayableWithoutQuicktimeEvents&quot;:true,&quot;bAccessibilityKeyboardOnlyOption&quot;:false,&quot;bAccessibilityMouseOnlyOption&quot;:false,&quot;bAccessibilityTouchOnlyOption&quot;:false,&quot;bAccessibilityDifficultyLevels&quot;:false,&quot;bAccessibilitySaveAnytime&quot;:true,&quot;bAccessibilityPlayableAtYourOwnPace&quot;:false,&quot;bAccessibilityPlayableWithoutVision&quot;:false,&quot;bAccessibilityContrastControls&quot;:false}"></div>								</div>
+								
+								<div data-featuretarget="store-sidebar-controller-support-info" data-props="{&quot;unAppID&quot;:5338720,&quot;bFullXboxControllerSupport&quot;:false,&quot;bPartialXboxControllerSupport&quot;:false,&quot;bPS4ControllerSupport&quot;:false,&quot;bPS4ControllerBTSupport&quot;:false,&quot;bPS5ControllerSupport&quot;:false,&quot;bPS5ControllerBTSupport&quot;:false,&quot;bSteamInputAPISupport&quot;:false,&quot;bNoKeyboardSupport&quot;:false,&quot;bGamepadPreferred&quot;:false,&quot;bControllerSupportWizardComplete&quot;:true,&quot;bHasXbox&quot;:null,&quot;bHasPS4&quot;:null,&quot;bHasPS5&quot;:null,&quot;bHasOther&quot;:false}"></div>
+								
+								
+								
+								
+								
+								
+															</div>
+																			<div class="block responsive_apppage_details_right">
+								<div class="block_title" id="LanguagesHeader">
+									Languages<span class="responsive_hidden">:</span>
+								</div>
+
+								
+<div id="bannerLanguages" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="ToggleBannerContentVisibility('#languageTable', '#expandLanguageBtn')">
+	<div class="responsive_banner_link_title">
+		English and 6 more	</div>
+	<div id="expandLanguageBtn" class="expand_section"></div>
+</div>
+<div id="languageTable">
+
+<table  class="game_language_options" cellpadding="0" cellspacing="0">
+	<tr>
+		<th style="width: 94px;"></th>
+				<th class="checkcol">Interface</th>
+		<th class="checkcol">Full Audio</th>
+		<th class="checkcol">Subtitles</th>
+	</tr>
+
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				English			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Simplified Chinese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				French			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				German			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Spanish - Spain			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Japanese			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+			<tr style="display: none;" class="">
+			<td style="width: 94px; text-align: start" class="ellipsis">
+				Korean			</td>
+							<td class="checkcol">
+					 <span>&#10004;</span> 				</td>
+				<td class="checkcol">
+									</td>
+				<td class="checkcol">
+									</td>
+					</tr>
+	</table>
+	<script type="text/javascript">
+		function ShowAllLanguages( elLink )
+		{
+			if ( typeof GetUsabilityTracker !== 'undefined' )
+				GetUsabilityTracker().AddEvent( 1002 );
+
+			$J('table.game_language_options tr').show();
+			$J( elLink ).hide();
+			return false;
+		}
+	</script>
+	<a class="all_languages" onclick="return ShowAllLanguages( this )">See all 7 supported languages</a>
+
+
+</div>
+
+							</div>
+																		<div data-featuretarget="deck-verified-results"></div>
+					
+					<div class="responsive_apppage_details_right" data-featuretarget="game-rating-block" data-props="{&quot;bRatingAllowed&quot;:true,&quot;bHideRatingTitle&quot;:false}"></div>
+					<div  data-featuretarget="achievements"></div>
+					
+											<div id="appDetailsUnderlinedLinks" class="block responsive_apppage_details_left game_details underlined_links">
+							<div class="block_content">
+								<div class="block_content_inner">
+									<div id="genresAndManufacturer" class="details_block">
+
+			<b>Title:</b> Guild of Souls<br>
+	
+				<b>Genre:</b> <span data-panel="{&quot;flow-children&quot;:&quot;row&quot;}"><a href="https://store.steampowered.com/genre/Action/?snr=1_5_9__408">Action</a>, <a href="https://store.steampowered.com/genre/Adventure/?snr=1_5_9__408">Adventure</a>, <a href="https://store.steampowered.com/genre/Casual/?snr=1_5_9__408">Casual</a>, <a href="https://store.steampowered.com/genre/Indie/?snr=1_5_9__408">Indie</a>, <a href="https://store.steampowered.com/genre/RPG/?snr=1_5_9__408">RPG</a>, <a href="https://store.steampowered.com/genre/Simulation/?snr=1_5_9__408">Simulation</a>, <a href="https://store.steampowered.com/genre/Strategy/?snr=1_5_9__408">Strategy</a></span><br>
+			
+			<div class="dev_row">
+			<b>Developer:</b>
+
+				<a href="https://store.steampowered.com/developer/recoilmojo?snr=1_5_9__408">Recoil Mojo</a>
+		</div>
+	
+			<div class="dev_row">
+			<b>Publisher:</b>
+
+				<a href="https://store.steampowered.com/search/?publisher=Mojo%20Games&snr=1_5_9__422">Mojo Games</a>
+		</div>
+	
+			
+	            <b>Release Date:</b> Oct 28, 2026<br>
+        
+            	</div>
+
+
+<div class="details_block" style="padding-top: 14px;">
+
+		
+					<a class="linkbar" href="https://www.youtube.com/@recoilmojo/" target="_blank" rel="" class="ttip" data-tooltip-text="https://www.youtube.com/@recoilmojo/">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M941.3,294.9c-10.3-38.8-40.7-69.4-79.2-79.7-69.9-18.8-350.1-18.8-350.1-18.8,0,0-280.2,0-350.1,18.8-38.6,10.4-68.9,40.9-79.2,79.7-18.7,70.3-18.7,217.1-18.7,217.1,0,0,0,146.7,18.7,217.1,10.3,38.8,40.7,69.4,79.2,79.7,69.9,18.8,350.1,18.8,350.1,18.8,0,0,280.2,0,350.1-18.8,38.6-10.4,68.9-40.9,79.2-79.7,18.7-70.3,18.7-217.1,18.7-217.1,0,0,0-146.7-18.7-217.1ZM420.4,645.2v-266.4l234.2,133.2-234.2,133.2Z"/>
+			</svg>
+							<span class="social_account">YouTube</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fwww.tiktok.com%2F%40recoil_mojo" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://www.tiktok.com/@recoil_mojo">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M785.4,244.2c-60.7-39.4-97.3-106.9-97.4-179.2h-153.7l-.3,616c-2.7,71.3-62.7,126.8-134,124.1-71.3-2.7-126.8-62.7-124.1-134,2.7-69.4,59.7-124.2,129.1-124.2,12.9,0,25.8,2.1,38.1,6v-156.9c-12.6-1.8-25.4-2.7-38.1-2.8-156,0-282.9,126.9-282.9,282.9.2,156.2,126.8,282.7,283,282.9,156,0,282.9-126.9,282.9-282.9v-312.3c62.3,44.8,137.1,68.9,213.8,68.8v-153.7c-41.4,0-81.8-12-116.4-34.6Z"/>
+			</svg>
+							<span class="social_account">TikTok</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+									<a class="linkbar" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fdiscord.gg%2F6484a7MkG4" target="_blank" rel=" noopener" class="ttip" data-tooltip-text="https://discord.gg/6484a7MkG4">
+					
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="presentation">
+				<path d="M823,229.3c-58.9-27-121-46.1-184.9-56.9-8.7,15.6-16.6,31.7-23.7,48.1-68-10.2-137.1-10.2-205.1,0-7-16.4-14.9-32.5-23.7-48.1-63.9,10.9-126.1,30.1-185,57-117,173.1-148.7,341.9-132.8,508.3h0c68.5,50.6,145.2,89.1,226.7,113.8,18.4-24.7,34.6-50.9,48.6-78.3-26.5-9.9-52.1-22.1-76.5-36.5,6.4-4.7,12.7-9.4,18.7-14.1,143.6,67.5,309.7,67.5,453.3,0,6.1,5,12.4,9.8,18.7,14.1-24.4,14.4-50,26.7-76.6,36.6,13.9,27.4,30.2,53.6,48.6,78.2,81.6-24.6,158.3-63.1,226.9-113.7h0c18.6-193-31.8-360.2-133.2-508.5h0ZM363.2,635.4c-44.2,0-80.7-40.1-80.7-89.4s35.2-89.8,80.6-89.8,81.5,40.5,80.8,89.8c-.8,49.3-35.6,89.4-80.6,89.4h-.1ZM660.8,635.4c-44.3,0-80.6-40.1-80.6-89.4s35.2-89.8,80.6-89.8,81.3,40.5,80.6,89.8c-.8,49.3-35.5,89.4-80.6,89.4Z"/>
+			</svg>
+							<span class="social_account">Discord</span>
+					<img src="https://store.fastly.steamstatic.com/public/images/v5/ico_external_link.gif" border="0" align="bottom" alt="External">
+				</a>
+						
+	
+	
+	
+	
+	
+	
+	
+			<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/?appids=5338720&amp;snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			View update history		</a>
+		<a class="linkbar responsive_chevron_right" href="https://store.steampowered.com/newshub/app/5338720?snr=1_5_9__408" target="_blank" rel="noreferrer" >
+			Read related news		</a>
+	
+				<a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/app/5338720/discussions/" target="_blank" rel="noreferrer" >
+			View discussions		</a>
+	
+    
+	        <a class="linkbar responsive_chevron_right" href="https://steamcommunity.com/actions/Search?T=ClanAccount&K=Guild%20of%20Souls">
+            Find Community Groups        </a>
+    </div>
+								</div>
+							</div>
+													</div>
+					
+																		<div id="shareEmbedRow" class="block responsive_apppage_details_left" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+								<a class="btnv6_blue_hoverfade btn_medium" href="#" onclick="ShowEmbedWidget(5338720); return false;"><span>Embed</span></a>
+								<a id="ReportAppBtn" class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5338720)"><span data-tooltip-text="Report this Product" aria-label="Report this Product"><i class="ico16 reportv6"></i>&nbsp;</span></a>
+							</div>
+						
+						<div id="reportBtn" style="display:none;"><a class="btnv6_blue_hoverfade btn_medium" href="javascript:void(0)" onclick="ShowReportDialog(5338720)"><span><img src="https://store.fastly.steamstatic.com/public/shared/images/icon_report.svg" alt="Report this Product"></span></a></div>
+					
+					
+															
+											<div id="appLinksAndInfoCtn" style="display:none;">
+							<div class="responsive_block_header">Links &amp; info</div>
+							<div id="appLinksAndInfo" class="game_page_autocollapse" style="max-height: 180px;"></div>
+						</div>
+					
+				</div>
+				<!-- End Right Column -->
+
+
+				<div class="leftcol game_description_column"  data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+
+					
+										
+					
+					<div id="game_area_purchase" class="game_area_purchase">
+																			
+																						
+
+							
+																																									<!--[if lte IE 7]>
+<style type="text/css">
+.game_area_purchase_game_dropdown_right_panel .btn_addtocart { float: none; }
+</style>
+<![endif]-->
+
+<div class="game_area_purchase_game_wrapper">
+			<div class="game_area_purchase_game" id="game_area_purchase_section_add_to_cart_1844672" role="region" aria-labelledby="game_area_purchase_section_add_to_cart_title_1844672">
+				<form name="add_to_cart_1844672" action="https://store.steampowered.com/cart/addtocart?redirect=1" method="POST">
+			<input type="hidden" name="snr" value="1_5_9__403">
+			<input type="hidden" name="originating_snr" value="1_direct-navigation__">
+			<input type="hidden" name="action" value="add_to_cart">
+			<input type="hidden" name="sessionid" value="27877499e7c49c25bbb041d0">
+			<input type="hidden" name="subid" value="1844672">
+		</form>
+		<div class="game_area_purchase_platform"><span class="platform_img win"></span></div>
+		<h2 id="game_area_purchase_section_add_to_cart_title_1844672" class="title">Buy Guild of Souls</h2>
+				
+		
+										
+		<div class="game_purchase_action">
+																<div class="game_purchase_action_bg">
+															<div class="game_purchase_price price" data-price-final="1499">
+							$14.99						</div>
+													<div class="btn_addtocart">
+																																<a data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="btn_green_steamui btn_medium" href="javascript:addToCart(1844672);" id="btn_add_to_cart_1844672">
+								<span>Add to Cart</span>
+							</a>
+																		
+				</div>
+							</div>
+		</div>
+	</div>
+		</div>
+
+
+												
+					</div>
+					<!-- game_area_purchase -->
+
+					
+											<div id="bannerCommunity" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="responsive_banner_link" style="display: none" onclick="window.location='https://steamcommunity.com/app/5338720'">
+							<div class="responsive_banner_link_title responsive_chevron_right">View Community Hub</div>
+						</div>
+					
+					<div class="purchase_area_spacer">&nbsp;</div>
+
+					
+					
+					
+																								<script type="text/javascript">
+							var StoreDefaults = {"PartnerEventStore":[{"gid":"686395970023325719","clan_steamid":"103582791476010286","event_name":"More guild bank space for every profession","event_type":13,"appid":5338720,"server_address":null,"server_password":null,"rtime32_start_time":1794024360,"rtime32_end_time":1794029401,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[\"Materials overflow into your Items tabs, and level-20 guilds can expand Reagents storage to 1,024 slots.\",null,null,null,null,null,\"\u6750\u6599\u4ed3\u5e93\u6ee1\u4e86\u4f1a\u81ea\u52a8\u5b58\u5165\u7269\u54c1\u5206\u9875\uff0c20\u7ea7\u516c\u4f1a\u8fd8\u80fd\u628a\u6750\u6599\u4ed3\u5e93\u6269\u5145\u52301024\u683c\u3002\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"When Reagents storage is full, new materials go to your guild bank's Items tabs, and level-20 guilds can expand Reagents five more times, up to 1,024 slots.\",null,null,null,null,null,\"\u6750\u6599\u4ed3\u5e93\u6ee1\u4e86\u4ee5\u540e\uff0c\u65b0\u6750\u6599\u4f1a\u5b58\u5165\u516c\u4f1a\u94f6\u884c\u7684\u7269\u54c1\u5206\u9875\uff1b20\u7ea7\u516c\u4f1a\u8fd8\u53ef\u4ee5\u518d\u6269\u5145\u6750\u6599\u4ed3\u5e93\u4e94\u6b21\uff0c\u6700\u591a1024\u683c\u3002\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"430866edc2cd40ca17157630fbe9c835f027306b.jpg\",null,null,null,null,null,\"cdb1badb02d8395a030d612cbb6efef05ef32be4.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"cdf1959b803c561b23daad9838acb3a3f60d3d8a.jpg\",null,null,null,null,null,\"7a4105b44b295b9a1a4fdd4208fc64bd2e788ebe.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"clone_from_event_gid\":\"686395970023325712\",\"clone_from_sale_enabled\":false}","announcement_body":{"gid":"686395970023325720","clanid":"46488878","posterid":"0","headline":"More guild bank space for every profession","posttime":1794024370,"updatetime":1794024370,"body":"[b]Guild bank[\/b]\n[list]\n[*]When the Reagents storage is full, new materials now go to your Items tabs instead of being refused or mailed. Crafting uses materials from both, and crafting queues no longer pause.\n[*]Level-20 guilds can expand Reagents five more times: 512, 640, 768, 896 and finally 1,024 slots (2g to 12g each). The game has 586 different materials, so a guild working every profession now has room for all of them.\n[*]Every Reagents expansion now asks for confirmation and shows the price first.\n[*]The Reagents tab says when it is full and where new materials go, and its name is now translated in every language.\n[\/list]\n\nCo-op needs both players on this update.\n\nThanks to \u5e55\u767d for the report. Always open to feedback!","commentcount":1,"tags":["mod_reviewed","ModAct_1896160435_1794026106_0"],"language":0,"hidden":0,"forum_topic_id":"573805817326942534","event_gid":"686395970023325719","voteupcount":3,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"573805817326942534","rtime32_last_modified":1794050398,"news_post_gid":"0","rtime_mod_reviewed":1794026106,"featured_app_tagid":0,"referenced_appids":[],"build_id":26500611,"build_branch":"","unlisted":0,"rtime_created":1794023767,"votes_up":3,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"573805072991012559","gidfeature2":"573805817326942534"},{"gid":"686395970023325712","clan_steamid":"103582791476010286","event_name":"Every dungeon on the map, quests that lead to the door","event_type":13,"appid":5338720,"server_address":null,"server_password":null,"rtime32_start_time":1794014160,"rtime32_end_time":1794018601,"comment_count":0,"creator_steamid":"0","last_update_steamid":"0","event_notes":"see announcement body","jsondata":"{\"localized_subtitle\":[\"Dungeon and raid entrances on every map, dungeon quests that lead to the door, and recipes that say what's missing.\",null,null,null,null,null,\"\u6240\u6709\u5730\u4e0b\u57ce\u548c\u56e2\u961f\u526f\u672c\u5165\u53e3\u5747\u5df2\u6807\u5728\u5730\u56fe\u4e0a\uff0c\u5730\u4e0b\u57ce\u4efb\u52a1\u76f4\u63a5\u6307\u5411\u5165\u53e3\uff0c\u672a\u89e3\u9501\u7684\u914d\u65b9\u4f1a\u8bf4\u660e\u7f3a\u5c11\u4ec0\u4e48\u3002\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_summary\":[\"The world map marks every dungeon and raid entrance, dungeon quests lead to the door (or your ferry first), and a locked recipe says what your crafter is missing.\",null,null,null,null,null,\"\u4e16\u754c\u5730\u56fe\u73b0\u5728\u6807\u51fa\u6240\u6709\u5730\u4e0b\u57ce\u548c\u56e2\u961f\u526f\u672c\u5165\u53e3\uff0c\u5730\u4e0b\u57ce\u4efb\u52a1\u4f1a\u6307\u5f15\u4f60\u524d\u5f80\u5165\u53e3\uff08\u5fc5\u8981\u65f6\u5148\u6307\u5411\u6e21\u8239\uff09\uff0c\u672a\u89e3\u9501\u7684\u914d\u65b9\u4e5f\u4f1a\u8bf4\u660e\u5236\u4f5c\u8005\u8fd8\u7f3a\u5c11\u4ec0\u4e48\u3002\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_title_image\":[\"430866edc2cd40ca17157630fbe9c835f027306b.jpg\",null,null,null,null,null,\"cdb1badb02d8395a030d612cbb6efef05ef32be4.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_capsule_image\":[\"cdf1959b803c561b23daad9838acb3a3f60d3d8a.jpg\",null,null,null,null,null,\"7a4105b44b295b9a1a4fdd4208fc64bd2e788ebe.jpg\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"bSaleEnabled\":false,\"sale_show_creator\":false,\"sale_sections\":[],\"sale_browsemore_text\":\"\",\"sale_browsemore_url\":\"\",\"sale_browsemore_color\":\"\",\"sale_browsemore_bgcolor\":\"\",\"localized_sale_header\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_overlay\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_product_mobile_banner\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_sale_logo\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"sale_font\":\"\",\"sale_background_color\":\"\",\"sale_header_offset\":530,\"referenced_appids\":[],\"bBroadcastEnabled\":false,\"broadcastChatSetting\":\"hide\",\"default_broadcast_title\":\"#Broadcast_default_title_dev\",\"localized_broadcast_title\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_left_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"localized_broadcast_right_image\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"broadcast_whitelist\":[],\"bScheduleEnabled\":false,\"scheduleEntries\":[],\"clone_from_event_gid\":\"686395808002605388\",\"clone_from_sale_enabled\":false}","announcement_body":{"gid":"686395970023325713","clanid":"46488878","posterid":"0","headline":"Every dungeon on the map, quests that lead to the door","posttime":1794014207,"updatetime":1794014207,"body":"[b]Maps and quests[\/b]\n[list]\n[*]The world map now marks every dungeon and raid entrance on the map where it stands. The Sunken Noon and the Azure Court were missing from the frontier map.\n[*]Following a quest whose target is inside a dungeon now leads to that dungeon's entrance, including the level-20 quests for the Azure Court, the Infernal Crucible, the Last Colossus and the Kindled Vaults. Inside, the quest's own markers take over.\n[*]If a quest's destination is across the sea, its marker first points to your ferry or sky-route stop, and the quest list says so.\n[\/list]\n\n[b]Professions[\/b]\n[list]\n[*]A locked recipe now says what the chosen crafter is missing: more skill, the next profession rank, a higher hero level, or just learning it at the workshop.\n[*]Skill stops at 75 until a hero trains the Artisan rank. When that is what holds a crafter back, Train rank is offered right on the locked recipe.\n[\/list]\n\nThanks to Valkerion and \u5e55\u767d for the reports. Always open to feedback!","commentcount":1,"tags":["mod_reviewed","ModAct_1896160435_1794015641_0"],"language":0,"hidden":0,"forum_topic_id":"573805817326932519","event_gid":"686395970023325712","voteupcount":2,"votedowncount":0,"ban_check_result":0,"banned":0},"published":1,"hidden":0,"rtime32_visibility_start":0,"rtime32_visibility_end":0,"broadcaster_accountid":0,"follower_count":0,"ignore_count":0,"forum_topic_id":"573805817326932519","rtime32_last_modified":1794039322,"news_post_gid":"0","rtime_mod_reviewed":1794015641,"featured_app_tagid":0,"referenced_appids":[],"build_id":26498626,"build_branch":"","unlisted":0,"rtime_created":1794013566,"votes_up":2,"votes_down":0,"comment_type":"ForumTopic","gidfeature":"573805072991012559","gidfeature2":"573805817326932519"}],"EventWebRowEmbed":{"bPreLoaded":true,"announcementGIDList":["686395970023325720","686395970023325713"],"last_update_event":{"rtime":1794024360,"event_gid":"686395970023325719","announcement_gid":"686395970023325720","clan_account_id":46488878}}};
+						</script>
+					
+
+					<div data-featuretarget="events-row"></div>
+				
+								
+				
+				
+
+
+								<div id="contentForThisGame_ctn">
+				</div>
+									<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="aboutThisGame" class="game_page_autocollapse" style="max-height: 850px;">
+						<div id="game_area_description" class="game_area_description">
+							<h2>About This Game</h2>
+							<p class="bb_paragraph" ><strong>Your next party member could be a hero you created.</strong></p><p class="bb_paragraph" ></p><p class="bb_paragraph" >Guild of Souls is a fantasy RPG for <strong>1-5 players</strong>, inspired by classic MMOs. A solo game dev trying to build his dream game.</p><p class="bb_paragraph" >  </p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/c6afe06edf94d370b7e53c4b47241ab4.poster.avif?t=1793753207" width=440 height=248 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/c6afe06edf94d370b7e53c4b47241ab4.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/c6afe06edf94d370b7e53c4b47241ab4.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" >Build a guild of playable heroes, switch characters at any moment mid-combat with one click, bring your own characters into battle as soul companions, and turn a growing roster into a party that works together. Adventure solo or invite up to four friends to join you.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/45eecebc207d699ed6ea1c39fa59f9d0.poster.avif?t=1793753207" width=480 height=270 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/45eecebc207d699ed6ea1c39fa59f9d0.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/45eecebc207d699ed6ea1c39fa59f9d0.mp4?t=1793753207" type="video/mp4"></video></span></p><h2 class="bb_tag" >Fight beside your own heroes</h2><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/a49f6c0084e8933e213132b568cb1143.poster.avif?t=1793753207" width=720 height=404 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/a49f6c0084e8933e213132b568cb1143.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/a49f6c0084e8933e213132b568cb1143.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" >Start building your own party early in the adventure. Bind a hero at the Soul Shrine, create another, and call your previous character to fight beside you. Your companions keep their equipment, talents and personal progression, and remain playable whenever you want to take control.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" >Earn more follower places as your guild grows. Mix tanks, healers and damage dealers, prepare class boons and supplies, and use optional level sync to bring veterans along with a newer hero.</p><p class="bb_paragraph" ></p><h2 class="bb_tag" >40 starter classes. A guild full of possibilities. An endgame rougelike hero class: Chaosborn.</h2><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/f52f2c6c118400158e1c81c851b34e7a.poster.avif?t=1793753207" width=616 height=346 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/f52f2c6c118400158e1c81c851b34e7a.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/f52f2c6c118400158e1c81c851b34e7a.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" >Choose from <strong>40 playable starter classes</strong>, each with its own abilities, resources and talent paths. Line up a Hunter shot while a Warrior charges in. Counter spells as a Spellbreaker, shape the battlefield as a Geomancer, or exchange places with your Puppeteer's creation.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/225af83759a46b7373be1b23e4be9eca.poster.avif?t=1793753207" width=520 height=292 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/225af83759a46b7373be1b23e4be9eca.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/225af83759a46b7373be1b23e4be9eca.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" >Learn new ability ranks, build around your favourite talents, command pets, and combine interrupts, crowd control and cooldowns. Classic tab-target combat gives every member of your party a job to do.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>960 talent nodes</strong>: three talent paths per calling, capstones, combo talents and free respecs.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/46dfbdd0163981c191e609165eeae670.poster.avif?t=1793753207" width=520 height=292 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/46dfbdd0163981c191e609165eeae670.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/46dfbdd0163981c191e609165eeae670.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" >Unlock the <strong>Chaosborn</strong> <strong>hero class</strong> after you complete the final raid for an <strong>endless roguelike RPG experience.</strong> Each Chaosborn is unique in it's own way. 3 options, 1 choice. Pick a new ability every level from the games entire ability pool. No Chaosborn is the same.</p><h2 class="bb_tag" >Tab-target Combat + Keep a hero training while you are AFK + Legendary Loot + Mounts</h2><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/ccda1cc295c82cd16e588f1cf4fc9906.poster.avif?t=1793753207" width=780 height=520 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/ccda1cc295c82cd16e588f1cf4fc9906.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/ccda1cc295c82cd16e588f1cf4fc9906.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" >Once unlocked, camp training lets <strong>one resting guild member earn XP automatically</strong> while you adventure in solo play or step away. Return to a stronger hero and decide what they should learn next.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>Tab-target combat with a real attack table</strong>: miss, dodge, parry, glancing blows, block, crits and crushing blows, spell resists, threat, tank stances and taunts.</p><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/82aea49ded71973e5214bb15c37f43e2.poster.avif?t=1793753207" width=520 height=292 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/82aea49ded71973e5214bb15c37f43e2.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/82aea49ded71973e5214bb15c37f43e2.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" ><strong>Personal loot</strong> from Common to Legendary, with light beams on blue and purple drops. <strong>570 named dungeon and raid rewards</strong>, 6 elite gear sets and 40 class legendaries.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>Mounts</strong> (+60%, then +100%), a <strong>stone that carries you home</strong>, ferries and sky routes.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>Rested XP</strong>, rare spawns with Wanted posters, named elites, quest chains, hidden mysteries and fishing records.</p><p class="bb_paragraph" ></p><h2 class="bb_tag" >Gather, craft and equip your guild + Auction House</h2><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/3c0fa5d9e4f549317fbc70371b01c5c7.poster.avif?t=1793753207" width=780 height=520 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/3c0fa5d9e4f549317fbc70371b01c5c7.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/3c0fa5d9e4f549317fbc70371b01c5c7.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" ><strong>24 professions</strong>: gathering, crafting queues, recipes, masterwork gear, gems, sockets and enchants.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" >Build a network of specialists across <strong>24 professions</strong>. Each hero can choose two primary professions, with secondary pursuits including Cooking, Fishing, Farming, Archaeology and Cartography. Gather ore, herbs, timber and other materials; make equipment, bags, tools, food, potions and enchantments.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" >Share reagents through your Guild Bank, queue crafts, pursue mastery recipes and masterwork gear, and prepare supplies for your next expedition. Gardens, apiaries and animal pens give your guild more ways to produce what it needs.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>An auction house, mailbox, vendors with buyback, bags, a bank, and a guild bank that grows to 1,000 slots.</strong></p><h2 class="bb_tag" >Turn spare loot into your next upgrade</h2><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/fc79ba4cc7e8c9881cb517a7f88e13cb.poster.avif?t=1793753207" width=640 height=360 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/fc79ba4cc7e8c9881cb517a7f88e13cb.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/fc79ba4cc7e8c9881cb517a7f88e13cb.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" >Put spare gear, crafted items and materials up for sale in the <strong>auction house</strong>. Set your prices, sell to NPC buyers while you adventure, and collect proceeds from your mailbox in gold, silver and copper. Browse rotating stock as you progress, fulfil guild orders, and put your earnings back into the next adventure.</p><p class="bb_paragraph" ></p><h2 class="bb_tag" >Take your party into dungeons and raids</h2><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/0bd9d2f50183767e0bfb0e8879f8fad0.poster.avif?t=1793753207" width=616 height=346 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/0bd9d2f50183767e0bfb0e8879f8fad0.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/0bd9d2f50183767e0bfb0e8879f8fad0.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" >Explore five-hero dungeons and build towards raids for <strong>10,  20 or 40 heroes and soul companions</strong>. Break into the Blackglass Menagerie, answer the bells of the Drowned Cathedral, and coordinate forge teams in Skyforge Citadel.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" >Play solo or with up to four friends, filling available party places with your own companions. Read enemy attacks, assign control, protect your healers and claim personal boss rewards. Consult the encounter journal, track expedition records, and bring rare crafting materials back to your workshop.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>11 five-hero dungeons with 33 bosses</strong>, a heroic mode, <strong>5 raids for 10, 20 and 40 heroes</strong>, and <strong>3 wave-defense adventures</strong>.</p><p class="bb_paragraph" ></p><h2 class="bb_tag" >Explore beyond the next quest marker</h2><p class="bb_paragraph" ><span class="bb_img_ctn"><video class="bb_img" autoplay muted loop playsinline poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/1ac42414083bdaf1c8ec5b9986a9b3f7.poster.avif?t=1793753207" width=616 height=346 ><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/1ac42414083bdaf1c8ec5b9986a9b3f7.webm?t=1793753207" type="video/webm; codecs=vp9"><source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5338720/extras/1ac42414083bdaf1c8ec5b9986a9b3f7.mp4?t=1793753207" type="video/mp4"></video></span></p><p class="bb_paragraph" >Ride out with your guild on wolves and discover Sunwake's shores, wilds and uplands. Follow quest chains, hunt rare enemies, uncover hidden stories and build a collection of heroes with reasons to return.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>Guild Legacy &amp; achievements:</strong> Complete hundreds of guild achievements to earn Legacy points and unlock cosmetic milestone rewards. Every hero can invest the guild's full earned allowance independently in the Adventurer, Artisan and Oddities perk trees.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>No subscription, no queues and no raid lockouts.</strong> The whole guild is yours, solo or with up to four friends.</p><p class="bb_paragraph" ></p><p class="bb_paragraph" ><strong>One hero begins the journey. Your whole guild carries it forward.</strong></p>						</div>
+					</div>
+					<div class="game_page_autocollapse">
+		<div id="game_area_content_descriptors" class="game_area_description">
+			<h2>AI Generated Content Disclosure</h2>
+			<p>The developers describe how their game uses AI Generated Content like this:</p>
+			<p><i>
+					Guild of Souls features artwork developed with generative AI.				</i>
+			</p>
+					</div>
+	</div>
+	
+				
+				
+					<div class="game_page_autocollapse sys_req" style="max-height: 300px;">
+		<h2>System Requirements</h2>
+				<div class="sysreq_contents">
+							<div class="game_area_sys_req sysreq_content active" data-os="win">
+											<div class="game_area_sys_req_leftCol">
+							<ul>
+								<strong>Minimum:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11<br></li><li><strong>Processor:</strong> Intel i3 4th Gen / AMD FX-8300<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> 1GB Video Memory<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> N/A</li></ul>							</ul>
+						</div>
+																<div class="game_area_sys_req_rightCol">
+							<ul>
+								<strong>Recommended:</strong><br><ul class="bb_ul"><li>Requires a 64-bit processor and operating system</li></ul>							</ul>
+						</div>
+										<div style="clear: both;"></div>
+
+									</div>
+					</div>
+	</div>
+	<script type="text/javascript">
+		$J( function() {
+			var $Tabs = $J('.sysreq_tab');
+			var $Content = $J('.sysreq_content');
+
+			$Tabs.click( function() {
+				var $Tab = $J(this);
+				$Tabs.removeClass('active');
+				$Tab.addClass('active');
+
+				$Content.removeClass('active');
+				$Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+				$Content.trigger('gamepage_autocollapse_expand');
+			});
+		} );
+	</script>
+
+				
+								
+				</div>
+
+			<div class="clear_both" style="clear: both;"></div>
+		</div>
+
+		<div class="related_items_ctn">
+			<div class="page_content game_description_column ">
+				
+				
+				
+				
+				<div  data-featuretarget="storeitems-carousel" data-props="{&quot;title&quot;:&quot;More like Guild of Souls&quot;,&quot;seeAllLink&quot;:&quot;https://store.steampowered.com/recommended/morelike/app/5338720/?snr=1_5_9__300&quot;,&quot;appIDs&quot;:[39210,1203620,2402680,3564740,306130,2694490,1285190,2344520,582660,3669870,1374490,3218230,4126040,892970,2139460,2638890,2054970,1599340,1623730,2429640,2246340,1172710,1974050,2369390,2221490,9900,4508340,2661300,2399830,1284210],&quot;navKey&quot;:&quot;more_like_this_carousel&quot;,&quot;sortOrder&quot;:&quot;shuffle&quot;,&quot;scorePenaltyIfOwned&quot;:5,&quot;bFullWidth&quot;:false}"></div>
+				<div id="responsive_apppage_reviewblock_ctn" class="rightcol game_meta_data"></div>
+
+				
+
+			</div>
+		</div>
+
+
+		<div class="review_ctn">
+			<div class="page_content">
+
+				<div id="app_reviews_hash" class="app_reviews_area">
+							<div class="" data-featuretarget="appreviews" data-props="{&quot;appid&quot;:5338720,&quot;app_release_date&quot;:&quot;1793233600&quot;,&quot;appname&quot;:&quot;Guild of Souls&quot;,&quot;steamworks_appid&quot;:5338720,&quot;app_type&quot;:0,&quot;summary_num_positive_reviews&quot;:5,&quot;summary_num_reviews&quot;:6,&quot;summary_options&quot;:{&quot;bHasAnyReviews&quot;:true,&quot;eUserReviewScorePreference&quot;:0,&quot;bCanManageReviewBombs&quot;:false,&quot;bCanEditApp&quot;:false,&quot;summaryDisplayed&quot;:{&quot;nReviews&quot;:6,&quot;nReviewsPositive&quot;:5,&quot;eReviewScore&quot;:0,&quot;bFilteredReviews&quot;:true,&quot;nAgeInDays&quot;:0}},&quot;filter_options&quot;:{&quot;nReviewsPositive&quot;:6,&quot;nReviewsNegative&quot;:1,&quot;nReviewsSteamPurchase&quot;:6,&quot;nReviewsNonSteamPurchase&quot;:1,&quot;nReviewsYourLanguages&quot;:4}}"></div>
+		<div style="clear: left"></div>
+					</div>
+			</div>
+		</div>
+
+
+			</div>
+	</div>
+
+</div>
+
+		<div class="hover game_hover" id="global_hover" style="display: none; left: 0; top: 0;">
+			<div class="game_hover_box hover_box">
+				<div class="content" id="global_hover_content">
+				</div>
+			</div>
+			<div class="hover_arrow_left"></div>
+			<div class="hover_arrow_right"></div>
+		</div>
+<div id="EmbedModal"  style="display: none">
+	<div id="widget_create">
+		<p>You can use this widget-maker to generate a bit of HTML that can be embedded in your website to easily allow customers to purchase this game on Steam.</p>
+
+				<p class="small">Enter up to 375 characters to add a description to your widget:</p>
+		<div class="app_embed_dialog_description">
+			<textarea name="w_text" placeholder="Build a guild of heroes and play them all, inspired by classic MMOs. Swap between your own characters mid-fight, fill dungeons and 40-hero raids with them, and master 40 classes in tab-target combat. 24 professions, an auction house and a Chaosborn roguelike endgame class. Solo or 1-5 player co-op." maxlength="375"></textarea>
+		</div>
+
+		<div class="buttoncontainer">
+			<a class="btnv6_blue_hoverfade btn_medium " href="#" onclick="CreateWidget(5338720); return false;"><span>Create widget</span></a>
+		</div>
+	</div>
+	<div id="widget_finished" style="display: none;">
+		<div id="widget_container"></div>
+
+		<p class="small">Copy and paste the HTML below into your website to make the above widget appear</p>
+		<textarea id="widget_code" style=""></textarea>
+	</div>
+
+</div>
+
+	<div id="app_tagging_modal" class="app_tag_modal nologin" style="display: none;">
+		<div class="app_tag_modal_content">
+			<div class="app_tag_modal_seperator"></div>
+			<div class="app_tag_modal_left">
+				<h2>Popular user-defined tags for this product:<span class="app_tag_modal_tooltip" data-tooltip-text="These are tags applied to the product by the most users.  You can click a tag to find other products with that tag applied.  Or, you can hit the plus symbol for any existing tags to increase that tag's popularity on this product.">(?)</span></h2>
+				<div class="app_tags popular_tags">
+				</div>
+			</div>
+			<div class="app_tag_modal_right">
+									<h2>Sign In</h2>
+					<p>Sign in to add your own tags to this product.</p>
+					<p>
+						<a class="btnv6_blue_hoverfade btn_medium" href="https://store.steampowered.com/login/?redir=app/5338720">
+							<span>Sign In</span>
+						</a>
+					</p>
+							</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$J( function() {
+			InitAppTagModal( 5338720,
+				[{"tagid":4231,"name":"Action RPG","count":61,"browseable":true},{"tagid":122,"name":"RPG","count":56,"browseable":true},{"tagid":1695,"name":"Open World","count":55,"browseable":true},{"tagid":1702,"name":"Crafting","count":52,"browseable":true},{"tagid":4106,"name":"Action-Adventure","count":49,"browseable":true},{"tagid":21,"name":"Adventure","count":49,"browseable":true},{"tagid":42804,"name":"Action Roguelike","count":46,"browseable":true},{"tagid":9,"name":"Strategy","count":42,"browseable":true},{"tagid":1646,"name":"Hack and Slash","count":40,"browseable":true},{"tagid":6730,"name":"PvE","count":38,"browseable":true},{"tagid":4182,"name":"Singleplayer","count":36,"browseable":true},{"tagid":3843,"name":"Online Co-Op","count":35,"browseable":true},{"tagid":3859,"name":"Multiplayer","count":34,"browseable":true},{"tagid":1754,"name":"MMORPG","count":34,"browseable":true},{"tagid":1685,"name":"Co-op","count":33,"browseable":true},{"tagid":4486,"name":"Choose Your Own Adventure","count":32,"browseable":true},{"tagid":8945,"name":"Resource Management","count":32,"browseable":true},{"tagid":3993,"name":"Combat","count":31,"browseable":true},{"tagid":3916,"name":"Old School","count":30,"browseable":true},{"tagid":560542,"name":"Incremental","count":30,"browseable":true}],
+				[],
+				"1_5_9__410",
+				"1_5_9__411",
+				null,
+				false			);
+
+						if ( typeof GDynamicStore != 'undefined' )
+				GDynamicStore.FixupNamePortion();
+			
+					});
+	</script>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+		<div  data-featuretarget="footer"></div>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
